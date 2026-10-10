@@ -1,6 +1,6 @@
 {
   "package": "writing-templates",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "source_owner": "writing-templates",
   "source_revision": "Unversioned maintained canonical owner; exact selected input/output hashes retained, no invented commit",
   "edition": "Complete original runtime and offline engine; explicitly supplied external prose collection",
@@ -10,7 +10,7 @@
       "source_owner": "writing-templates",
       "source_relative": ".claude-plugin/plugin.json",
       "source_sha256": null,
-      "output_sha256": "576699c72dd4b7fd1870a97eac9fd89aa5ae7627c437f31114e633a02a4ada8e",
+      "output_sha256": "ef14179059101b3bcf22292f58946026fb4c1b79319cd219028194974551bf6e",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "AGPL-3.0-only",
@@ -22,7 +22,7 @@
       "source_owner": "writing-templates",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "8690fa33c33777d7786fba851a30286d206c590cb7fc719346f5ca94c79230c0",
-      "output_sha256": "067cb6487f176db4f0ade46cfa4e1a0e0a9796797e9143c5264102f034fd90ca",
+      "output_sha256": "f3915dae0a75a50a2c545bd671d0fa7fb86e04b7201b29dfc46ae2106a44b142",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "AGPL-3.0-only",
@@ -58,12 +58,12 @@
       "source_owner": "writing-templates",
       "source_relative": "CHANGELOG.md",
       "source_sha256": null,
-      "output_sha256": "1685732eca9a967367edb647e7171176582e4915e796bd89b81a5edf1f051424",
+      "output_sha256": "a084643061bbff6639a65c1952166d7da5b0dd57104ea9202d00337298440a84",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
-      "bytes": 821
+      "bytes": 1153
     },
     {
       "path": "LICENSE",
@@ -79,8 +79,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "0737cc2d2e4176fb824b31f10a6db238f27e2b2e7691bfea1d41e0952b7600db",
-      "bytes": 25144,
+      "output_sha256": "5d9ea1b11669ecfba9535c3b8676c212c29aa171eb50e8eb3e71345741535d15",
+      "bytes": 25459,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change."
     },
@@ -107,12 +107,12 @@
       "source_owner": "writing-templates",
       "source_relative": "README.md",
       "source_sha256": "f93b93f73a79c7a76187cd78a8c825707e0875b2abca8dde996bca87aca549d8",
-      "output_sha256": "107689d36c7c04cfba1ad13b7bd4d02e44883fdbadf34e0dacb319c0e31b3a37",
+      "output_sha256": "105471c46b7331703056a049fd53a23785ffcdfed0550076d73295c9aba3bbe2",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
-      "bytes": 5106
+      "bytes": 5370
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -437,7 +437,7 @@
       "source_owner": "writing-templates",
       "source_relative": "plugin.json",
       "source_sha256": null,
-      "output_sha256": "ec57fe34f23a02b11a5f1e9676e0bb8a4866b007120e504e852751210efbb518",
+      "output_sha256": "1ab21808335fcac20dc3b7c04b53a82e580122cab8bcc884660ee1e0cc878806",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "AGPL-3.0-only",
@@ -661,12 +661,12 @@
       "source_owner": "writing-templates",
       "source_relative": "scripts/create_sample_collection.py",
       "source_sha256": null,
-      "output_sha256": "dad2b49eb9691410be931b36438b372433c15238a9f4a170f6f02d9a3bea7fa8",
+      "output_sha256": "167d8047296d32f152989f57ee026542f22c28883032cdf0d3842e919c386a6f",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
-      "bytes": 6389
+      "bytes": 6783
     },
     {
       "path": "scripts/project_additive_resource.py",
@@ -723,6 +723,16 @@
       "bytes": 3934
     },
     {
+      "path": "tests/test_fixture_export_boundary.py",
+      "source_relative": "tests/test_fixture_export_boundary.py",
+      "source_sha256": null,
+      "rights": "Original first-party source-first fixture export regression",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "output_sha256": "3c65631148bdeab45d824ed29fac86ccc30f8b2c6199acbd7a61cd332e3d2709",
+      "bytes": 1856
+    },
+    {
       "path": "tests/test_four_axes.py",
       "source_relative": "tests/test_four_axes.py",
       "source_sha256": "5b32b7178426d0473d7b591bbef3e15cc04cafc95d513da74052eece282e2b2a",
@@ -747,12 +757,12 @@
       "source_owner": "writing-templates",
       "source_relative": "tests/test_public_stdio.py",
       "source_sha256": null,
-      "output_sha256": "103d0fffe5400579777d9ce7716c6616d933d510b5d09a470e562e039ae03e14",
+      "output_sha256": "685700b4fe3f309827b9c8fdf389d891b65d814b039a7ffb3cdcefa5de9ca1e9",
       "transformed": true,
       "rights": "Kyle Hobson original public contribution MIT under current author authorization; no third-party corpus grant",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
-      "bytes": 5259
+      "bytes": 5357
     },
     {
       "path": "tests/test_style_entries.py",
@@ -791,8 +801,8 @@
       "source_relative": "tests/test_writing_voice_library_mcp.py",
       "source_sha256": "c0a7242162bab5fa54a0446d331b6f08922a284396bca2a43ad5d54ee803986b",
       "rights": "Authorized original first-party maintenance source; no held corpus grant inferred.",
-      "output_sha256": "c0a7242162bab5fa54a0446d331b6f08922a284396bca2a43ad5d54ee803986b",
-      "bytes": 10446,
+      "output_sha256": "4636086d80c8b5347ed73d3b4486234ff8451ea66af073a712e93eaa470c8461",
+      "bytes": 10998,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     }
@@ -815,5 +825,12 @@
     "canonical_prechange_archive_sha256": "0ca089a2a5527754d0830788b975ea5f2584bc71ef39ffc4ee1bf4204e0ede9a",
     "rights_behavior_boundary": "Complete eligible methods/runtime shared; excluded corpus remains original-path owner-private or selected through external binding. Public package does not claim private data identity.",
     "private_binding_environment_precedence": true
+  },
+  "prepared_fixture_patch": {
+    "immutable_previous_version": "0.1.3",
+    "previous_public_tree_archive_sha256": "692fe019272036b64f52880d858d0e683ac4997704214d8f96da00078b9e16c6",
+    "engine_support_file_count": 11,
+    "fixture_profile_count": 4,
+    "held_source_body_changes": false
   }
 }

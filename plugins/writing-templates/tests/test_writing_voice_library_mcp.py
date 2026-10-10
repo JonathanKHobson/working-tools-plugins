@@ -2,6 +2,7 @@
 import asyncio
 import importlib.util
 import json
+import os
 from pathlib import Path
 import shutil
 import sys
@@ -53,8 +54,11 @@ class LibraryTests(unittest.TestCase):
         self.assertEqual(handoff['route'], {'selected_resource_id':'P28','base_profile_id':'V01','module_ids':['P28']})
         self.assertEqual({r['id'] for r in handoff['resources']}, {'P28','V01'})
         self.assertIn('v2.0.0', handoff['handoffText'])
-        self.assertNotIn('/Users/', json.dumps(handoff))
-        self.assertNotIn(str(catalog.DATA_ROOT), json.dumps(handoff))
+        for resource in handoff['resources']:
+            self.assertFalse(Path(resource['guideRef']).is_absolute())
+            self.assertNotIn('..', Path(resource['guideRef']).parts)
+        self.assertEqual(Path(handoff['validation']['entrypoint']), catalog.DATA_ROOT/'validation/validate.py')
+        self.assertEqual(Path(handoff['validation']['alternateEntrypoint']), catalog.DATA_ROOT/'validation/validate.cjs')
         self.assertEqual(handoff['state'],'prepared')
     def test_valid_modifiers_and_incompatible_routes(self):
         result = catalog.handoff('V12', 'Bounded brief', ['P27', 'P42'])
@@ -134,7 +138,10 @@ class ProtocolTests(unittest.TestCase):
         from mcp import ClientSession, StdioServerParameters
         from mcp.client.stdio import stdio_client
         async def exercise():
-            params=StdioServerParameters(command=sys.executable,args=[str(RUNTIME/'server.py')],env={'PYTHONDONTWRITEBYTECODE':'1'})
+            env={'PYTHONDONTWRITEBYTECODE':'1','WRITING_TEMPLATES_DATA_ROOT':str(catalog.DATA_ROOT)}
+            if os.environ.get('WRITING_TEMPLATES_APPROVED_SOURCES'):
+                env['WRITING_TEMPLATES_APPROVED_SOURCES']=os.environ['WRITING_TEMPLATES_APPROVED_SOURCES']
+            params=StdioServerParameters(command=sys.executable,args=[str(RUNTIME/'server.py')],env=env)
             async with stdio_client(params) as (read,write):
                 async with ClientSession(read,write) as session:
                     await session.initialize()

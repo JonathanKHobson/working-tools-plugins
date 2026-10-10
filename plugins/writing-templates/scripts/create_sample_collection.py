@@ -3,6 +3,14 @@
 from pathlib import Path
 import argparse, hashlib, json, shutil
 ROOT=Path(__file__).resolve().parents[1]
+ENGINE_FILES = (
+ 'metrics/cohort.cjs', 'metrics/constants.cjs', 'metrics/markdown.cjs',
+ 'metrics/measure.cjs', 'metrics/parser.cjs', 'metrics/text.cjs',
+ 'validation/validate.cjs', 'validation/validate.py',
+ 'validation/vendor/marked/LICENSE.md',
+ 'validation/vendor/marked/lib/marked.esm.js',
+ 'validation/vendor/marked/package.json',
+)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(root,rel,value):
  p=root/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(value)
@@ -33,11 +41,10 @@ def build(root):
  js(root,'source-edition/edition.json',{'records':edition_records,'files':edition_files})
  js(root,'axes/four-axes.json',{'schemaVersion':'wvl-axes/1','framework':'Synthetic four-axis contract fixture','levels':['descriptive'], 'profiles':[{'id':i,'synthetic':True} for i in routes]})
  # Full original licensed executable offline engine; corpus-specific companions/profiles are new synthetic fixtures.
- for directory in ('metrics','validation'):
-  src=ROOT/'library/voice-library'/directory
-  for p in src.rglob('*'):
-   if p.is_file():
-    dest=root/directory/p.relative_to(src);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,dest)
+ for relative in ENGINE_FILES:
+  source=ROOT/'library/voice-library'/relative
+  if source.is_symlink() or not source.is_file():raise ValueError('Required licensed QA engine file is unavailable: '+relative)
+  dest=root/relative;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,dest)
  write(root,'validation/WORKFLOW.md','# Synthetic fixture QA\n\nRun `python3 validation/validate.py --input examples/V01/specimen.md --profile validation/profiles/V01.json --channel markdown` from the external root. The original complete engine describes prose and requires semantic review; no synthetic profile measurements establish acceptance bounds.\n')
  write(root,'validation/editorial-companion.md','# Synthetic editorial fixture\n\nPreserve supplied facts, uncertainty and authorization. Review for meaning before changing wording. This fixture is not the omitted original Humanizer companion.\n')
  units=['words/sentence','coefficient_of_variation','MATTR50_ratio','events/1000_words','events/1000_words','percent_sentences','words/paragraph','percent_words']

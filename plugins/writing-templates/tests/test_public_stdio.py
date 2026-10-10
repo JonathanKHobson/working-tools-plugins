@@ -11,6 +11,7 @@ class PublicRuntimeTests(unittest.TestCase):
    work=Path(tmp);pkg=work/'relocated plugin';shutil.copytree(ROOT,pkg,ignore=shutil.ignore_patterns('__pycache__'))
    spec=importlib.util.spec_from_file_location('fixture',pkg/'scripts/create_sample_collection.py');fixture=importlib.util.module_from_spec(spec);spec.loader.exec_module(fixture);data=fixture.build(work/'external collection')
    home=work/'empty home';home.mkdir();env=dict(os.environ,HOME=str(home),WRITING_TEMPLATES_PYTHON=sys.executable,WRITING_TEMPLATES_DATA_ROOT=str(data),PYTHONDONTWRITEBYTECODE='1');env.pop('WRITING_LIBRARY_FEEDBACK_DB',None)
+   env.pop('WRITING_TEMPLATES_APPROVED_SOURCES',None) # This fixture owns its own integrity pins.
    bootstrap=os.environ.get('WRITING_TEMPLATES_BOOTSTRAP_PYTHON',sys.executable)
    async def run():
     params=StdioServerParameters(command=bootstrap,args=[str(pkg/'scripts/writing_voice_library_mcp.py')],env=env)

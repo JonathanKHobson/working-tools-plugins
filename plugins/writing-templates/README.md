@@ -1,6 +1,6 @@
 # Writing Templates
 
-Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Complete original first-party writing resource selection, base/module routing, source verification, handoff and offline draft QA runtime by Kyle Hobson. This public edition includes the actual MCP app and chooser, with three core tools and one resource, plus two optional private feedback tools.
 
@@ -43,3 +43,5 @@ Run `"${WRITING_TEMPLATES_PYTHON}" -B -m unittest discover -s tests -p 'test_pub
 The distributable runtime, full operative methods and eligible maintenance code are shared by canonical source and this package. Held collection bodies remain in the source owner's private installation with exact per-file export exclusions and prechange archives. Recipient installations need their own authorized collection where described below; synthetic fixtures prove the interface and do not replace a maintained private collection.
 
 The launcher retains the shared Design interpreter binding. Optional `collections.writing-templates` selects `data_root`, `approved_sources` and `public_base`; explicit `WRITING_TEMPLATES_*` values win. An explicit data root suppresses private default pins. The source owner keeps all 53 guides, examples, historical readings, axis pages and QA profiles at their original collection path with privately selected hash pins. The public engine and maintenance builders remain complete; collection-dependent tests/builders require recipient-owned source data. The empty public collection cannot supply those 53 resources. Original Writing Voice Lab inventory and approval pins stay private.
+
+The synthetic fixture builder uses an explicit eleven-file engine/support allowlist, including the pinned MIT parser and license, and creates only four authored profiles. It cannot inherit unrelated source-owner collection profiles, prose or maintenance scripts.

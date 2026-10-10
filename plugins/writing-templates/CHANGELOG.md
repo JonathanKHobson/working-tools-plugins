@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 · 2026-10-10
+
+Synthetic collection fixtures now copy only the eleven licensed engine/support files and create four authored profiles. Unrelated held profiles, companions and scripts stay excluded. A sentinel regression checks this boundary; retained protocol/path checks follow the explicit external-collection contract.
+
 ## 0.1.3 · 2026-10-10
 
 Source-first reconciliation of complete eligible runtime/method improvements, private collection continuity, environment precedence and exact distributable inventories. Existing held corpus bodies and original grants remain excluded and preserved privately.
