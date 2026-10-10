@@ -1,6 +1,6 @@
-# Full Critical Compass audit from Reasoning Studio
+# Full Critical Compass audit from Reasoning Toolkit
 
-Use this route only for an explicitly requested advanced human-loop audit or independent panel. The standing MCP connection remains the ten-tool routine profile. `scripts/critical_full_client.py` starts the canonical full-profile backend for one named call, writes the complete JSON result, and exits; it does not add 47 schemas to host discovery. It reads the explicitly selected `critical-compass` binding and leaves that file unchanged. Run it from the installed Reasoning Studio plugin root, using absolute request and output paths:
+Use this route only for an explicitly requested advanced human-loop audit or independent panel. The standing MCP connection remains the ten-tool routine profile. `scripts/critical_full_client.py` starts the canonical full-profile backend for one named call, writes the complete JSON result, and exits; it does not add 47 schemas to host discovery. It reads the explicitly selected `critical-compass` binding and leaves that file unchanged. Run it from the installed Reasoning Toolkit plugin root, using absolute request and output paths:
 
 ```bash
 python3 scripts/critical_full_client.py --binding /path/to/compass-binding.json discover /private/task/full-tools.json

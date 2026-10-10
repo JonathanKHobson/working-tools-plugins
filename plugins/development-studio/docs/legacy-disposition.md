@@ -18,7 +18,7 @@ Builder Tools 0.1.0 and MCP Workbench 0.1.0 were observed disabled in host confi
 | pattern-picker | Other studios still reference the name; no full replacement proved here, retain source |
 | local-data-mcp-builder, local-mcp-debugging | Integrated as portable full local MCP methods/support through local-mcp-systems, with exact adaptations and remaining helper runtime gates documented |
 | chatgpt-apps | MCP app coverage is active here, but full 11-file Apps SDK predecessor parity has not been proved. Keep source and official OpenAI developer tooling |
-| critical-compass | Reasoning Studio owns current integration; actual MCP/runtime stays separate |
+| critical-compass | Reasoning Toolkit owns current integration; actual MCP/runtime stays separate |
 | personal-security-check | Master Security Toolkit owns the full method and focused security workflows |
 | safe-install-review | Related security coverage exists, exact full equivalence not proved; retain source |
 | discord-bot-mcp-setup, local-storage-mcp, skill-authoring | Existing local/neighboring dependencies remain; no complete replacement proved in this task. Retain source |

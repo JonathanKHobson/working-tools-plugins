@@ -181,7 +181,7 @@ Conditional neighbors: `writing-quality-studio:natural-prose-editor`, `writing-q
 Entry: `work-management:evidence-review`. Select an authorized project/release checkpoint; its conditional provenance method retains scoped source, before/after and verification evidence privately. Human claim acceptance and public release remain separate. Conditional neighbor: `career-studio:portfolio-package` for requested portfolio use.
 
 
-## Compass selection and Reasoning Studio
+## Compass selection and Reasoning Toolkit
 
 Entry: `reasoning-studio:critical-reasoning` for claim, argument and supplied-text review. Conditional neighbors: `reasoning-studio:socratic-questioning`, `reasoning-studio:alternative-perspectives`.
 

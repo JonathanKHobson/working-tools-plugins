@@ -1,4 +1,4 @@
-# Reasoning Studio public source map
+# Reasoning Toolkit public source map
 
 Three complete methods cover critical reasoning, Socratic dialogue and credible alternatives. Full source evaluation and advanced human-loop/panel/report contracts remain, with original role responsibilities and conditional Atlas/drawing/review routes.
 

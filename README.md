@@ -24,7 +24,7 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Find and hand off a verified design source | [Design Templates](plugins/design-templates/) | Python and your authorized template collection |
 | Draft and adapt source-grounded social content | [Social Content Studio](plugins/social-content-studio/) | Your source facts, voice and platform authorization |
 | Develop stories and prepare playable GM material | [Creative Toolkit](plugins/creative-writing-studio/) | A draft, canon notes or game brief; optional runtime dependencies are documented |
-| Test an argument or choose a reasoning framework | [Reasoning Studio](plugins/reasoning-studio/) | A claim and its evidence |
+| Test an argument or choose a reasoning framework | [Reasoning Toolkit](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |

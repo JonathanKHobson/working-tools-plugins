@@ -1,4 +1,4 @@
-# Critical Compass in Reasoning Studio
+# Critical Compass in Reasoning Toolkit
 
 Critical Compass is an existing local MCP dependency. This plugin packages a small stdio bridge plus cross-domain reasoning guidance. The server, runtime, database, and private state remain outside the plugin.
 
