@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "reasoning-studio",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "reviewed_date": "2026-10-10",
   "source_tree_sha256": "3f82e8560dd1b808c47d1f2d9b641a45dd538245f4c073ce9bd3b760840cd381",
   "retained_skill_count": 4,
@@ -9,17 +9,18 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589",
+      "output_sha256": "d850c513cc347810ce5402083c25cc279c734fd56cb8976bb880bfd585f56905",
       "bytes": 1064,
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "change": "Bump 0.2.3 while retaining identity and original registration settings."
     },
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "c4dde27f45c86dd18549f3813ff76f94c6f308031e6fc3706311a6f718c8e431",
-      "output_sha256": "b879d6ac61bf87273d962071f66a974f051a7e5e3753469354f8dc4b3c6a5490",
+      "output_sha256": "873649267216e4a1f1fe782a6b4e58b4797e7ad68a370dd1bafc07e8248436e2",
       "disposition": "transformed",
-      "change": "Public identity, complete head count, exact omitted source categories and no automatic provider registration.",
+      "change": "Bump 0.2.3 while retaining identity and original registration settings.",
       "bytes": 1286,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
@@ -37,10 +38,10 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "b0711c06b8b936bf47870096ff36828b8c7ac1bc0c8a7e6b4b943bab7a6d705f",
-      "bytes": 451,
+      "output_sha256": "7d914ff5be526b0e13ff4178220e8dbb5e16e96db79973589c14736099d9ada8",
+      "bytes": 738,
       "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
+      "change": "Document portable root MCP declaration in 0.2.3; preserve prior release history.",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -67,8 +68,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "af68b6441c2c8dd48b0ca8bffb6ce7fc146fd64f00a318c97fba340b87e17cd2",
-      "bytes": 21738,
+      "output_sha256": "f5c41bb258118bec78b6965d3aea4d202d1329b1efea1141ad1f544b5e8e5dc1",
+      "bytes": 22096,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -104,10 +105,10 @@
     {
       "path": "README.md",
       "source_sha256": "d60b2a4b21dc3159825fb852e44232ef2318822d33a0b727796316625d4e7ca7",
-      "output_sha256": "dbf204d3f7606a3226761211025dceda1506ebad574f6e4dcb66adc8d6d08998",
+      "output_sha256": "d454b0f3382c32ccb4cd1f09ddffc6e213319c37e11d00a3cfdcd5976d4d6134",
       "disposition": "transformed",
-      "change": "Retain complete human capability catalog; add actual prerequisites, precise omission/license scope and truthful absent-provider scenario.",
-      "bytes": 9868,
+      "change": "Explain portable root MCP discovery and unchanged recipient-owned backend requirements.",
+      "bytes": 9989,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -139,10 +140,10 @@
     {
       "path": "docs/project-map.md",
       "source_sha256": "7beb932f668a469e37226d9e9597b403584aa6c4f6947c43cbfdc3d7856b1f48",
-      "output_sha256": "60f77cad67ef7d7163fb9377fdc42c906a405f585ed999f3b32c312265e68316",
+      "output_sha256": "00cab62ac9f6420d7d4705f5a376434d19a6ee14c20bffe4b3e67160e56ade07",
       "disposition": "transformed",
-      "change": "Actual three-head complete method scope, four omitted nonoperative files, portable helper setup and external backend ownership.",
-      "bytes": 1877,
+      "change": "Identify portable root MCP discovery and retained Codex and Claude compatibility registrations.",
+      "bytes": 2045,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -257,11 +258,21 @@
       "license_scope_category": "prior-or-upstream-grant"
     },
     {
-      "path": "plugin.json",
-      "output_sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d",
-      "bytes": 1867,
+      "path": "mcp.json",
+      "output_sha256": "bd00dc1cc23c47ac240eed73d906c1d3e9b091d063470a6ae95b6ac594f06c4a",
+      "bytes": 578,
+      "disposition": "source-first portable registration",
+      "change": "Declare the same two stdio bridges in the Agent Plugins portable MCP format; no backend or private binding included.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
+    },
+    {
+      "path": "plugin.json",
+      "output_sha256": "7f5cf14c834a7d7f55e3ad25789c103a46c39d181d3cb9f716531483c479788f",
+      "bytes": 1867,
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "change": "Bump 0.2.3 while retaining identity and original registration settings."
     },
     {
       "path": "provenance/migration.json",
@@ -607,7 +618,7 @@
   "added_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589"
+      "output_sha256": "d850c513cc347810ce5402083c25cc279c734fd56cb8976bb880bfd585f56905"
     },
     {
       "path": "LICENSE",
@@ -630,12 +641,16 @@
       "output_sha256": "86af861033f6060c656d6c80575a5df83ee56b269ed3437346a6e524505fcfcf"
     },
     {
+      "path": "mcp.json",
+      "output_sha256": "bd00dc1cc23c47ac240eed73d906c1d3e9b091d063470a6ae95b6ac594f06c4a"
+    },
+    {
       "path": "plugin.json",
-      "output_sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d"
+      "output_sha256": "7f5cf14c834a7d7f55e3ad25789c103a46c39d181d3cb9f716531483c479788f"
     }
   ],
   "rights_decision": "Authorized original contribution grant; two nonoperative historical icons and one inactive private research-origin registration omitted. Portable active two-server registration and all four operative methods included.",
-  "acceptance_boundary": "Source/helper/synthetic checks only; native installation, real provider/import, respondent fielding and rendered acceptance unverified.",
+  "acceptance_boundary": "Four skills, official portable schemas, package validation, and native personal Critical Review discovery verified on 2026-10-10 with an invalid synthetic snapshot ID. Backend correctness, real review data, Claude registration, and receiving-host bindings remain separate acceptance checks.",
   "standalone_scope": {
     "source_inventory": "Current standalone skill owner reconciliation",
     "private_case_records": "Excluded, replaced by labelled original synthetic examples where needed",
@@ -654,6 +669,6 @@
     "public_distributable_files_before_self_inventories": 60,
     "source_first": true,
     "method_equivalence_claim": "Complete eligible procedures and support retained; live runtime/provider acceptance separately required.",
-    "runtime_change": "Portable two-server Codex and Claude registration; recipient-owned existing studio-tools bindings remain external."
+    "runtime_change": "Portable root mcp.json now declares both existing stdio bridges, alongside retained Codex compatibility and Claude registrations; recipient-owned studio-tools bindings remain external."
   }
 }

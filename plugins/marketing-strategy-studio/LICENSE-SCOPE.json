@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "marketing-strategy-studio",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0 AND MIT",
   "precedence": "Retained upstream grants and prior permissions are unchanged; new defaults apply only to author-owned contributions.",
   "inventory_exclusions": [
@@ -12,13 +12,13 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "851cac873a2990179c50a4ab082c3d3327ef155263d7412bb40a0e34b9bb573e"
+      "sha256": "4c672015f25a7de1d509e304f48d8e2fe2a55afd282eff61ed5a15a5b3de604b"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "d2f286c7b034e0a02453fafee523ee607dda84ba55778a1eaf514fe5998b647d"
+      "sha256": "24e7c04a640063bfd11f0ab0edcc286b41a3eafddb545e4aa8358bbbbe777b5f"
     },
     {
       "path": ".mcp.json",
@@ -48,7 +48,7 @@
       "path": "README.md",
       "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
-      "sha256": "e06324045b902b6711c37844cd1da630f3fd7b8858d47bda5e70a898ce703477"
+      "sha256": "f33330f15c635865b3c3554fa88b3699c264dcfabb5903d50e020f4c3945753d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -3255,6 +3255,12 @@
       "sha256": "7d2d4859042b341cd21beb2f1fee759e3be79fad4607e8709ce0e3dd28c05e44"
     },
     {
+      "path": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
+      "category": "retained-upstream",
+      "license": "MIT",
+      "sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568"
+    },
+    {
       "path": "libraries/digital-marketing-pro/skills/local-seo/SKILL.md",
       "category": "retained-upstream",
       "license": "MIT",
@@ -3283,12 +3289,6 @@
       "category": "retained-upstream",
       "license": "MIT",
       "sha256": "140389f91b69f45581f2da55f7aecde01543d716b072f110797ac129177c2663"
-    },
-    {
-      "path": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
-      "category": "retained-upstream",
-      "license": "MIT",
-      "sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568"
     },
     {
       "path": "libraries/digital-marketing-pro/skills/localize-campaign/SKILL.md",
@@ -6393,10 +6393,16 @@
       "sha256": "4dd2baf87cec6711a1b79139c40df71855427f5ec182c955ddd32b81891fd46a"
     },
     {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "6729043a4fe8f774ee2ba470ee8757ca626be2062ee39ac7592943280f95e9d4"
+    },
+    {
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "5d07d0ef7035c1f9e3081efbe8d4841a1dabdb516af8af9897c2919e9bcbb9d8"
+      "sha256": "3416c035604d8e3194ec02c1ab882b598bbd909f2c2b7d5cd7c4287f12ffee90"
     },
     {
       "path": "references/atlas-library.md",

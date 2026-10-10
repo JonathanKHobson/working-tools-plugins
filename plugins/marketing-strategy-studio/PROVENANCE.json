@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "marketing-strategy-studio",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "source_owner": "marketing-strategy-studio",
   "prechange_archive_name": "marketing-successor-prechange-canonical-20261010.tar.gz",
   "prechange_archive_sha256": "415c6d26b817e4d537c6809c4332c9306662e7db287b3a1f624992f2f98fa7e5",
@@ -784,17 +784,19 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "851cac873a2990179c50a4ab082c3d3327ef155263d7412bb40a0e34b9bb573e",
+      "output_sha256": "4c672015f25a7de1d509e304f48d8e2fe2a55afd282eff61ed5a15a5b3de604b",
       "origin": "first-party",
-      "disposition": "new-first-party"
+      "disposition": "adapted-in-place",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "d2f286c7b034e0a02453fafee523ee607dda84ba55778a1eaf514fe5998b647d",
+      "output_sha256": "24e7c04a640063bfd11f0ab0edcc286b41a3eafddb545e4aa8358bbbbe777b5f",
       "origin": "first-party",
-      "disposition": "adapted-first-party",
+      "disposition": "adapted-in-place",
       "source_relative": ".codex-plugin/plugin.json",
-      "source_sha256": "25bdd8d08449e0879f9ab273da38dd1311dedee9babe4abd17924955a267ee3e"
+      "source_sha256": "25bdd8d08449e0879f9ab273da38dd1311dedee9babe4abd17924955a267ee3e",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".mcp.json",
@@ -824,11 +826,12 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "e06324045b902b6711c37844cd1da630f3fd7b8858d47bda5e70a898ce703477",
+      "output_sha256": "f33330f15c635865b3c3554fa88b3699c264dcfabb5903d50e020f4c3945753d",
       "origin": "first-party",
-      "disposition": "adapted-first-party",
+      "disposition": "adapted-in-place",
       "source_relative": "README.md",
-      "source_sha256": "e6c63951a13b6172d8001de2dd823e622f03427459fbbc42809aafe5c5dd76ab"
+      "source_sha256": "e6c63951a13b6172d8001de2dd823e622f03427459fbbc42809aafe5c5dd76ab",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -5113,6 +5116,14 @@
       "source_sha256": "7d2d4859042b341cd21beb2f1fee759e3be79fad4607e8709ce0e3dd28c05e44"
     },
     {
+      "path": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
+      "output_sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568",
+      "origin": "digital-marketing-pro",
+      "disposition": "retained-verbatim",
+      "source_relative": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
+      "source_sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568"
+    },
+    {
       "path": "libraries/digital-marketing-pro/skills/local-seo/SKILL.md",
       "output_sha256": "ded2c28001618da3a9b14714a5b6b5c651325b068946ff304bfdbc2746ad6160",
       "origin": "digital-marketing-pro",
@@ -5151,14 +5162,6 @@
       "disposition": "retained-verbatim",
       "source_relative": "libraries/digital-marketing-pro/skills/local-seo/multi-location.md",
       "source_sha256": "140389f91b69f45581f2da55f7aecde01543d716b072f110797ac129177c2663"
-    },
-    {
-      "path": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
-      "output_sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568",
-      "origin": "digital-marketing-pro",
-      "disposition": "retained-verbatim",
-      "source_relative": "libraries/digital-marketing-pro/skills/local-seo-audit/SKILL.md",
-      "source_sha256": "33d312d8023590f47bffc5bdff9c1eadb0b502e6b6ca843cf3200da6a5400568"
     },
     {
       "path": "libraries/digital-marketing-pro/skills/localize-campaign/SKILL.md",
@@ -9297,10 +9300,21 @@
       "source_sha256": "4dd2baf87cec6711a1b79139c40df71855427f5ec182c955ddd32b81891fd46a"
     },
     {
+      "path": "mcp.json",
+      "source_relative": ".mcp.json",
+      "source_sha256": "f6f6545c8f10bc3943f7b4e63ca8b8f149bcddecf3b5501a3c48baead471db14",
+      "output_sha256": "6729043a4fe8f774ee2ba470ee8757ca626be2062ee39ac7592943280f95e9d4",
+      "origin": "canonical_compatibility_declaration",
+      "transformed": true,
+      "transformation": "Portable schema and stdio type; package-relative launcher arguments/working directory anchored to PLUGIN_ROOT. Existing IDs, command, remaining arguments, environment and recipient binding requirements retained.",
+      "rights": "AGPL-3.0-only"
+    },
+    {
       "path": "plugin.json",
-      "output_sha256": "5d07d0ef7035c1f9e3081efbe8d4841a1dabdb516af8af9897c2919e9bcbb9d8",
+      "output_sha256": "3416c035604d8e3194ec02c1ab882b598bbd909f2c2b7d5cd7c4287f12ffee90",
       "origin": "first-party",
-      "disposition": "new-first-party"
+      "disposition": "adapted-in-place",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "references/atlas-library.md",
@@ -9862,5 +9876,10 @@
       "source_relative": "skills/search-and-discovery/SKILL.md",
       "source_sha256": "3c294fd23bc1afc49c932b8aed5f82b6beca067a309497d87b6c9608a2f294a5"
     }
-  ]
+  ],
+  "portable_mcp_patch": {
+    "prior_version": "0.3.0",
+    "prechange_archive_sha256": "814fa98f060688ebcc99b0b6fbf73d1edcbaff8defb0f3779b58a0254e9be156",
+    "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
+  }
 }

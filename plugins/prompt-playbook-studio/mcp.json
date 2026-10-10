@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "prompt-compass": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/compass_mcp.py",
+        "prompt-compass"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "prompt-framework-builder": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/framework_builder_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-prompt": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    }
+  }
+}

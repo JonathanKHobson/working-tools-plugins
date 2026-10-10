@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "package": "career-studio",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "source_owner": "career-studio",
   "source_revision": "Canonical source has no enclosing Git checkout; private baseline archive and per-file SHA256 identify original source.",
   "source_tree_sha256": "a4e54d4c25ef119fdbafaca1e99bb379e7271caaebcd692b3255d732f22c4a2e",
   "original_source_files": 207,
-  "current_files_excluding_inventories": 180,
+  "current_files_excluding_inventories": 181,
   "operative_heads": 9,
   "excluded_external_source": [
     {
@@ -241,20 +241,21 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "374aac685e90fd5f2dee9398f003700189171dc3e48d22c942534b7ebcd5efc3",
+      "output_sha256": "48acdd64d1191cb0ba8b0c2b7af558daa710cac3808cf19dc2b9e202bf5824aa",
       "origin": "new_author_owned",
-      "transformed": false,
-      "rights": "AGPL-3.0-only"
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "8b11b1cdb1cb288c98ae38c9cfff0fb3e3f5508be319bcd61546ceeef709636f",
+      "output_sha256": "a7d867a2731c310af48596343bbfa38194096dafef595f837a2c03680027e819",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "AGPL-3.0-only",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "abf9dfb399456abbb221f9b814c4eb2604926c8ba60166cbf1720f9d76121173",
-      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".mcp.json",
@@ -292,13 +293,13 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "c9155d525125cd5de9848d354e48983a256c9fc53f2486af9616a986845c9884",
+      "output_sha256": "c5ef7f3d6ba26ae06175749a64487b2acf6ebd5bc037a76381c780918d5fcfc7",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "README.md",
       "source_sha256": "79acab4d3b9419a22becce9d300e973c86bef93917cc6b954579b0ae4a5464aa",
-      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -573,11 +574,22 @@
       "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
     },
     {
-      "path": "plugin.json",
-      "output_sha256": "0985bae4de2f2b6833aac66cea6dded007d474d42f226d704eb38b2ef981e062",
-      "origin": "new_author_owned",
-      "transformed": false,
+      "path": "mcp.json",
+      "source_relative": ".mcp.json",
+      "source_sha256": "187c92cdd994ae1e4c4f35215664f5845be89237a100cbcf59731cad82429dc5",
+      "output_sha256": "681185ec1b139a9eaee35b188130ac37731cc0514ecffa4fc4227fa0a1b39cbc",
+      "origin": "canonical_compatibility_declaration",
+      "transformed": true,
+      "transformation": "Portable schema and stdio type; package-relative launcher arguments/working directory anchored to PLUGIN_ROOT. Existing IDs, command, remaining arguments, environment and recipient binding requirements retained.",
       "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "plugin.json",
+      "output_sha256": "6d46c03cb5c2cfb9e5bc3ff84b52987af331f3fea50fa9bf30792312a201cefe",
+      "origin": "new_author_owned",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "references/atlas-library.md",
@@ -1197,6 +1209,44 @@
       "source_sha256": "609733ae65a460dca002dcaf0b695d28d0fe2c860267163b8be35ffbaea75141"
     },
     {
+      "path": "skills/portfolio-package/SKILL.md",
+      "output_sha256": "f1a0a331e52271d9d6139c2422e0fd4cfb6a7e35d0b2f8bac42f4b1369052616",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/SKILL.md",
+      "source_sha256": "94237787531327bd81a459178d57d485f28768230c6c117f793ef9590e7bca86",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/portfolio-package/agents/openai.yaml",
+      "output_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/agents/openai.yaml",
+      "source_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052"
+    },
+    {
+      "path": "skills/portfolio-package/references/evidence-led-delivery.md",
+      "output_sha256": "a860985f3a4bc449cc7bd1f2f407003cfd8a26e9239c9db98fd93a7a3e8144a5",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/references/evidence-led-delivery.md",
+      "source_sha256": "fc9d95ff004eb8d0e57a381ea57c91cbb67bc0ee06a6da2143a8dc3fd4654a0a",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/portfolio-package/references/recorded-workflow.md",
+      "output_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/references/recorded-workflow.md",
+      "source_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3"
+    },
+    {
       "path": "skills/portfolio/SKILL.md",
       "output_sha256": "febccfa25b05c40dc1778c92c18a5a0b62b1b73170ce89adb420a30669eae202",
       "origin": "canonical_baseline",
@@ -1603,44 +1653,6 @@
       "source_sha256": "3464e6448fa2ca6a6c84f0697709b9f1d4ac207f35d589d2bafed16ef322c8a9"
     },
     {
-      "path": "skills/portfolio-package/SKILL.md",
-      "output_sha256": "f1a0a331e52271d9d6139c2422e0fd4cfb6a7e35d0b2f8bac42f4b1369052616",
-      "origin": "canonical_baseline",
-      "transformed": true,
-      "rights": "CC-BY-SA-4.0",
-      "source_relative": "skills/portfolio-package/SKILL.md",
-      "source_sha256": "94237787531327bd81a459178d57d485f28768230c6c117f793ef9590e7bca86",
-      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
-    },
-    {
-      "path": "skills/portfolio-package/agents/openai.yaml",
-      "output_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052",
-      "origin": "canonical_baseline",
-      "transformed": false,
-      "rights": "CC-BY-SA-4.0",
-      "source_relative": "skills/portfolio-package/agents/openai.yaml",
-      "source_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052"
-    },
-    {
-      "path": "skills/portfolio-package/references/evidence-led-delivery.md",
-      "output_sha256": "a860985f3a4bc449cc7bd1f2f407003cfd8a26e9239c9db98fd93a7a3e8144a5",
-      "origin": "canonical_baseline",
-      "transformed": true,
-      "rights": "CC-BY-SA-4.0",
-      "source_relative": "skills/portfolio-package/references/evidence-led-delivery.md",
-      "source_sha256": "fc9d95ff004eb8d0e57a381ea57c91cbb67bc0ee06a6da2143a8dc3fd4654a0a",
-      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
-    },
-    {
-      "path": "skills/portfolio-package/references/recorded-workflow.md",
-      "output_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3",
-      "origin": "canonical_baseline",
-      "transformed": false,
-      "rights": "CC-BY-SA-4.0",
-      "source_relative": "skills/portfolio-package/references/recorded-workflow.md",
-      "source_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3"
-    },
-    {
       "path": "skills/resume/SKILL.md",
       "output_sha256": "ff4b79e0629f211633cabd053340d17595f98e95cecaeb3b7447cf1718e740af",
       "origin": "canonical_baseline",
@@ -1877,5 +1889,10 @@
       "source_sha256": "4c5a930691ebed49dff7a0b4f97a1fb497a693723dca14feb3f150ac2c2f83d9",
       "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
     }
-  ]
+  ],
+  "portable_mcp_patch": {
+    "prior_version": "0.2.0",
+    "prechange_archive_sha256": "c492a1cb0e26cd87ec4605a8599a6890560b2281740f6e28d83d801cdfde37e5",
+    "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
+  }
 }

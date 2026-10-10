@@ -43,6 +43,35 @@ def validate_package(record):
   if rel=='plugin.json':
    unknown=set(manifest)-PORTABLE_FIELDS
    if unknown:problem(f'unsupported portable manifest fields: {", ".join(sorted(unknown))}')
+ # A portable root manifest takes precedence over compatibility declarations.
+ # Without root mcp.json, a successful install can silently omit the servers.
+ declared_servers=set()
+ def collect_servers(value,source,seen=None):
+  seen=set() if seen is None else seen
+  if isinstance(value,str):
+   path=(root/value.replace('${CLAUDE_PLUGIN_ROOT}/','')).resolve()
+   if not path.is_relative_to(root.resolve()) or not path.is_file():
+    problem(f'MCP declaration path missing or escaping package: {source} -> {value}');return
+   if path in seen:problem(f'cyclic MCP declaration: {source}');return
+   collect_servers(read_json(path),str(path.relative_to(root.resolve())),seen|{path})
+  elif isinstance(value,list):
+   for entry in value:collect_servers(entry,source,seen)
+  elif isinstance(value,dict):
+   servers=value.get('mcpServers',value)
+   if not isinstance(servers,dict):problem(f'invalid MCP server map in {source}')
+   else:declared_servers.update(servers)
+  elif value is not None:problem(f'invalid MCP declaration in {source}')
+ for rel in ['.codex-plugin/plugin.json','.claude-plugin/plugin.json']:
+  if (root/rel).is_file():collect_servers(read_json(root/rel).get('mcpServers'),rel)
+ if declared_servers:
+  portable_mcp=root/'mcp.json'
+  if not portable_mcp.is_file():problem('compatibility MCP servers require portable root mcp.json')
+  else:
+   servers=read_json(portable_mcp).get('mcpServers',{})
+   if not isinstance(servers,dict):problem('invalid portable MCP server map')
+   else:
+    missing=declared_servers-set(servers)
+    if missing:problem(f'portable mcp.json omits compatibility servers: {", ".join(sorted(missing))}')
  heads=list((root/'skills').glob('*/SKILL.md'))
  if len(heads)!=record['skills']:problem(f'skill count {len(heads)} differs from registry')
  for p in files(root):

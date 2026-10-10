@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "atlas-career": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    }
+  }
+}

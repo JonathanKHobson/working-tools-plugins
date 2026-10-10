@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "ttrpg-compass": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/ttrpg_compass_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "draw-think": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/draw_think_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "creative-atlas": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # Prompt Playbook Studio
 
+Version **0.2.2** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+
 Write, repair and test prompts that preserve the intended task, using focused methods, optional Prompt Compass workflows and selected pattern references.
 
 ## What you can do
@@ -46,7 +48,7 @@ When configured and discovered, `prompt-compass` supplies diagnosis/build/refine
 
 Writing a prompt does not execute the task inside it. Prompt Compass interaction gates remain in force; a pattern lookup is not a completed diagnosis or rewrite.
 
-Installation makes a package available; it does not establish a working server or permission for every action. These private bindings are host-specific; another host needs its own supported configuration. For a local backend, check the Codex launcher in `.mcp.json` or the Claude launcher in `.claude-plugin/plugin.json`, a recipient-owned binding and required mounted files. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
+Installation makes a package available; it does not establish a working server or permission for every action. These private bindings are host-specific; another host needs its own supported configuration. For a local backend, check the portable Codex launcher in root `mcp.json` or the Claude launcher in `.claude-plugin/plugin.json`, a recipient-owned binding and required mounted files. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
 
 ## Submission advisory
 

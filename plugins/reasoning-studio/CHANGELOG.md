@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+Declare the existing Critical Compass and Critical Review stdio bridges in portable root `mcp.json` so a host that recognizes root `plugin.json` can discover both. Retain the Codex compatibility and Claude registrations; recipient-owned bindings and backends remain separate.
+
 ## 0.2.2
 
 Restore full four-method source parity, Pattern Picker provenance and portable Critical Compass/Review registration with recipient-owned bindings.

@@ -40,4 +40,22 @@ class DistributionTest(unittest.TestCase):
   (self.root/'README.md').write_text('Shared repository documentation')
   (self.package/'README.md').write_text('[shared](../../README.md)')
   self.assertTrue(any('broken reference' in e for e in p.validate_package(self.record)))
+ def test_compatibility_mcp_cannot_replace_portable_declaration(self):
+  manifest=p.read_json(self.package/'.codex-plugin/plugin.json');manifest['mcpServers']='./.mcp.json'
+  p.write_json(self.package/'.codex-plugin/plugin.json',manifest)
+  p.write_json(self.package/'.mcp.json',{'mcpServers':{'fixture-server':{'command':'python3','args':['server.py']}}})
+  self.assertTrue(any('require portable root mcp.json' in e for e in p.validate_package(self.record)))
+  p.write_json(self.package/'mcp.json',{'mcpServers':{}})
+  self.assertTrue(any('omits compatibility servers: fixture-server' in e for e in p.validate_package(self.record)))
+  p.write_json(self.package/'mcp.json',{'mcpServers':{'fixture-server':{'type':'stdio','command':'python3','args':['server.py']}}})
+  self.assertEqual(p.validate_package(self.record),[])
+ def test_inline_claude_servers_require_portable_coverage(self):
+  manifest=p.read_json(self.package/'.claude-plugin/plugin.json');manifest['mcpServers']={'fixture-server':{'command':'python3'}}
+  p.write_json(self.package/'.claude-plugin/plugin.json',manifest)
+  self.assertTrue(any('require portable root mcp.json' in e for e in p.validate_package(self.record)))
+ def test_mcp_declaration_cannot_escape_package(self):
+  p.write_json(self.root/'outside.json',{'mcpServers':{}})
+  manifest=p.read_json(self.package/'.codex-plugin/plugin.json');manifest['mcpServers']='../../outside.json'
+  p.write_json(self.package/'.codex-plugin/plugin.json',manifest)
+  self.assertTrue(any('MCP declaration path missing or escaping package' in e for e in p.validate_package(self.record)))
 if __name__=='__main__':unittest.main()

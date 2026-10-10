@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "reasoning-studio",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589"
+      "sha256": "d850c513cc347810ce5402083c25cc279c734fd56cb8976bb880bfd585f56905"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "b879d6ac61bf87273d962071f66a974f051a7e5e3753469354f8dc4b3c6a5490"
+      "sha256": "873649267216e4a1f1fe782a6b4e58b4797e7ad68a370dd1bafc07e8248436e2"
     },
     {
       "path": ".mcp.json",
@@ -37,7 +37,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "b0711c06b8b936bf47870096ff36828b8c7ac1bc0c8a7e6b4b943bab7a6d705f"
+      "sha256": "7d914ff5be526b0e13ff4178220e8dbb5e16e96db79973589c14736099d9ada8"
     },
     {
       "path": "LICENSE",
@@ -86,7 +86,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "dbf204d3f7606a3226761211025dceda1506ebad574f6e4dcb66adc8d6d08998"
+      "sha256": "d454b0f3382c32ccb4cd1f09ddffc6e213319c37e11d00a3cfdcd5976d4d6134"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -114,7 +114,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "60f77cad67ef7d7163fb9377fdc42c906a405f585ed999f3b32c312265e68316"
+      "sha256": "00cab62ac9f6420d7d4705f5a376434d19a6ee14c20bffe4b3e67160e56ade07"
     },
     {
       "path": "docs/use-case-map.md",
@@ -201,11 +201,18 @@
       "sha256": "187e625a4ec1758a7dcdf2cd95f5e5de3520eaaa3ec8997699fb77597654812f"
     },
     {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable MCP configuration; runtime and recipient bindings remain separate. Earlier grants and source-specific exceptions remain.",
+      "sha256": "bd00dc1cc23c47ac240eed73d906c1d3e9b091d063470a6ae95b6ac594f06c4a"
+    },
+    {
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d"
+      "sha256": "7f5cf14c834a7d7f55e3ad25789c103a46c39d181d3cb9f716531483c479788f"
     },
     {
       "path": "provenance/migration.json",

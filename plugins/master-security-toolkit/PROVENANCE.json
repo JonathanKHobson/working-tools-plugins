@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "master-security-toolkit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "source_owner": "master-security-toolkit",
   "source_revision": "Canonical source has no enclosing Git checkout; private baseline archive and per-file SHA256 identify original source.",
   "source_tree_sha256": "d6237e81bd04a896e9a0586e292bd4d5b51c2e53a8cbfbfdaf4511de5cf25f99",
@@ -63,21 +63,21 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "91b92caedc4193a5fb955344cbdda0ea422e8800d03b7b8ef1f82b5a85ec100a",
+      "output_sha256": "7a6a1302c5366e7c2287437e0dd8e583fcd1d34839d6778f152151c347886121",
       "origin": "new_author_owned",
       "transformed": true,
       "rights": "AGPL-3.0-only",
-      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "e8e271cb5912cc401bb9f83319bc6320871708ab516305199f49792bb343b81e",
+      "output_sha256": "ef11856aef9564053a985e8c435a5cad7dac70fa9ae05edb05a326791e220261",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "AGPL-3.0-only",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "d8f8fa239837020a36184e6b746daabebac3f0501bda2ebcdb5f9c90549e86e0",
-      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
+      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".mcp.json",
@@ -112,13 +112,13 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "94c9f39df0f7c0e802c59b4f92c50c1da342a91f4cb200d764a3f6da92bdc0be",
+      "output_sha256": "75e38b96bd4cec37fdb1b466414ee708647f5074c4fa9f575a9846a5147f135b",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "README.md",
       "source_sha256": "7cbf3ee1a255f6ab977b209a97a53a7b8593eda582d813d2fce65b619650d301",
-      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained."
+      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -777,12 +777,22 @@
       "source_sha256": "89db389e3a72475c4343374e6a5bf4622d67a741e8c5d3d9d2c84dce61e71d84"
     },
     {
+      "path": "mcp.json",
+      "source_relative": ".mcp.json",
+      "source_sha256": "0ab2715a31cdcd39375e402107c9fb84ffd4bccf881567e7cd7a4b76f279c964",
+      "output_sha256": "07c3fc71f3fe54137e57033da601324dbc561c16145d19384e7244ca3fc584db",
+      "origin": "canonical_compatibility_declaration",
+      "transformed": true,
+      "transformation": "Portable schema and stdio type; package-relative launcher arguments/working directory anchored to PLUGIN_ROOT. Existing IDs, command, remaining arguments, environment and recipient binding requirements retained.",
+      "rights": "AGPL-3.0-only"
+    },
+    {
       "path": "plugin.json",
-      "output_sha256": "60cb911a5492eb0a70c269711a29f598b5ee97eca9c1474fdfae22b1459b421a",
+      "output_sha256": "ab258a0ff3e859ac38fe29a4bf3acc98fb64512559f4e0e30b52aeebd90df9a2",
       "origin": "new_author_owned",
       "transformed": true,
       "rights": "AGPL-3.0-only",
-      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained. Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": "references/application-security-testing.md",
@@ -1384,5 +1394,10 @@
       "prechange_archive_sha256": "4a592c29b07d90026142d418165301f24c2042a71a2b9966a8d149b49db0a213",
       "scope": "Indirect-injection head uses existing shared reference for action authorization and no keyword stripping; native retest pending."
     }
+  },
+  "portable_mcp_patch": {
+    "prior_version": "0.2.2",
+    "prechange_archive_sha256": "984a0e80219a96a4b4f8d0fdf24048c980c653ba32d05523af360f9f32501434",
+    "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
   }
 }

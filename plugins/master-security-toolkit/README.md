@@ -1,5 +1,7 @@
 # Master Security Toolkit
 
+Version **0.2.3** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+
 Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes. Bring a local artifact or exact source revision, the intended use, and the decision you need. Begin with one of the [nine complete skills](docs/use-case-map.md), or ask what this toolkit can do.
 
 - `software-security-review` and `software-provenance` assess an external package or release before admission.
@@ -11,7 +13,7 @@ The full first-party skill heads, support references, role contracts, local scri
 
 ## Optional security Atlas
 
-The [security Atlas route](references/atlas-library.md) selects external reference material; it is not a scanner or vulnerability test. The fixed-domain launcher in `scripts/atlas_library_mcp.py` is declared in `.mcp.json` and uses `python3` on PATH. Codex uses the package-relative `.mcp.json` launcher. Claude uses the corresponding `${CLAUDE_PLUGIN_ROOT}` path in `.claude-plugin/plugin.json`. Copy the [inert binding example](examples/runtime-bindings/atlas-library.json) only if no existing binding should be preserved, then replace placeholders with your separately installed Activities Templates runtime and approved recipient-owned catalog. Keep actual binding paths private. The launcher makes no download or repair attempt and reports missing access. Installation does not prove a host exposes the tool.
+The [security Atlas route](references/atlas-library.md) selects external reference material; it is not a scanner or vulnerability test. The fixed-domain launcher in `scripts/atlas_library_mcp.py` is declared in portable `mcp.json` and compatibility `.mcp.json`, and uses `python3` on PATH. Portable Codex discovery uses root `mcp.json` with `${PLUGIN_ROOT}` paths. Claude uses the corresponding `${CLAUDE_PLUGIN_ROOT}` path in `.claude-plugin/plugin.json`. Copy the [inert binding example](examples/runtime-bindings/atlas-library.json) only if no existing binding should be preserved, then replace placeholders with your separately installed Activities Templates runtime and approved recipient-owned catalog. Keep actual binding paths private. The launcher makes no download or repair attempt and reports missing access. Installation does not prove a host exposes the tool.
 
 Optional cross-Studio routes, including Activities Templates, Work Management and Mac Ops, require those owners to be installed. If an owner is missing, continue this Toolkit's bounded review with available evidence, identify the unavailable handoff and do not claim its specialized check ran. Historical personal source references describe prior behavior and do not set a recipient's privacy or approval preferences.
 

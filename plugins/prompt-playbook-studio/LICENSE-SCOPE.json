@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "prompt-playbook-studio",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Retained upstream grants and prior permissions are unchanged; new defaults apply only to author-owned contributions.",
   "inventory_exclusions": [
@@ -18,13 +18,13 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "6384430e967eb02f009f7221db41c6f1585541624b9057bf01501b5ea702f06e"
+      "sha256": "1e564f544a8ba99e2274c9f215bde540291383ba0031131e8b0881186cab969c"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "3a47539ced011797fa8431a1a4d40da76e882eda7f4a81c46aadc3f499c53205"
+      "sha256": "31c699dc829638d5d06b3be941ccbbf3209ca46f4251b009fb4edd704da434d6"
     },
     {
       "path": ".mcp.json",
@@ -54,7 +54,7 @@
       "path": "README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "6ae16345578dfc7f1a953a99e05a5392e63041421e30da7fb81a3ff45e487e01"
+      "sha256": "4da72729fed0cdeaa704106fb5e2dea2b1192686d66d7b38a15ea6b6a1a4664a"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -309,10 +309,16 @@
       "sha256": "fce393ef7bc6e896edfc5e01b82916fde8f39f8f0de55e509ca883abf49aa970"
     },
     {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "926d5a652cfeeb0c900223bad5b03e757207c624744b8083d2064437b11e145d"
+    },
+    {
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "466932026e97d987d3fadffee29d992654e17a3c55f4a2ccc7808accf71544cb"
+      "sha256": "f943ce853811613b2e0d270eccf8df2083c31a200ef325eeb5ef99be7b0cfb8c"
     },
     {
       "path": "references/atlas-library.md",

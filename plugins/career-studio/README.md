@@ -1,5 +1,7 @@
 # Career Studio
 
+Version **0.2.1** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+
 Turn verified career evidence into role-specific resumes, letters, portfolio proof, interview preparation, outreach and application records. A confirmed application requires an employer confirmation page, authenticated submitted status, or matching acknowledgment. A Sent email is separate delivery evidence and does not itself prove employer receipt.
 
 ## Start with a real task
@@ -32,13 +34,13 @@ Use the narrow skill for a single resume, letter, case, interview or message. Us
 
 All nine Career Studio skill heads, first-party methods, references, templates and role contracts are included. The full independent depth procedures formerly copied into the local source are available through separately installed official providers: `aihumanizer@openai-curated-remote` 1.0.0, `coverletterwriter@openai-curated-remote` 1.0.1 and `uiuxdesigner@openai-curated-remote` 1.1.0 were byte-verified on the maintainer host. In Codex, install only the provider needed for the task through the native plugin manager, start a fresh task, and read its exact namespaced skill from the [procedure map](library/source-procedures/INDEX.md). This package does not redistribute provider bodies. If a provider is missing, use the complete task-matching first-party workflow and identify the unavailable depth; do not claim a provider pass. Claude discovery of these Codex marketplace identities remains unverified.
 
-The optional Career Atlas requires a separately installed Activities Templates Atlas runtime and recipient-owned approved catalog. The fixed-domain [launcher](scripts/atlas_library_mcp.py) is declared in [.mcp.json](.mcp.json) for Codex and the Claude plugin manifest; it requires Python 3 on PATH. Copy the [binding example](examples/runtime-bindings/atlas-library.json) only when needed to `~/.config/studio-tools/atlas-library.json`, replace placeholder paths with your own runtime and data, and do not overwrite an existing binding without review. Missing runtime or data is an access gap, not a zero-result search. The optional Job Application Compass is an operator-owned private runtime documented in [integration guidance](docs/job-compass-integration.md); its 29-tool server and personal defaults are not bundled or publicly installable through this package.
+The optional Career Atlas requires a separately installed Activities Templates Atlas runtime and recipient-owned approved catalog. The fixed-domain [launcher](scripts/atlas_library_mcp.py) is declared in portable [mcp.json](mcp.json) for Codex, with [.mcp.json](.mcp.json) and the Claude plugin manifest retained for compatibility; it requires Python 3 on PATH. Copy the [binding example](examples/runtime-bindings/atlas-library.json) only when needed to `~/.config/studio-tools/atlas-library.json`, replace placeholder paths with your own runtime and data, and do not overwrite an existing binding without review. Missing runtime or data is an access gap, not a zero-result search. The optional Job Application Compass is an operator-owned private runtime documented in [integration guidance](docs/job-compass-integration.md); its 29-tool server and personal defaults are not bundled or publicly installable through this package.
 
 | Capability | Codex | Claude Code |
 | --- | --- | --- |
 | First-party skills and packaged methods | Prepared for native installation; fresh installed first-use verification is pending | Claude Code manifest and source path are supplied; native installation and first-use remain unverified |
 | AIHumanizer, CoverLetterWriter, UIUXDesigner depth | Install the official provider plugin and use an actually discovered namespace | Those Codex marketplace identities are not a verified Claude installation route; use first-party workflows unless an authorized equivalent is verified |
-| Career Atlas launcher | Plugin-relative `cwd` in `.mcp.json` | `${CLAUDE_PLUGIN_ROOT}` launcher path in `.claude-plugin/plugin.json`; backend execution remains a separate check |
+| Career Atlas launcher | `${PLUGIN_ROOT}` paths and working directory in portable `mcp.json` | `${CLAUDE_PLUGIN_ROOT}` launcher path in `.claude-plugin/plugin.json`; backend execution remains a separate check |
 
 ## Availability and recovery
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "master-security-toolkit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream grants unchanged",
   "inventory_excludes": [
     "LICENSE-SCOPE.json",
@@ -13,13 +13,13 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "91b92caedc4193a5fb955344cbdda0ea422e8800d03b7b8ef1f82b5a85ec100a"
+      "sha256": "7a6a1302c5366e7c2287437e0dd8e583fcd1d34839d6778f152151c347886121"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "e8e271cb5912cc401bb9f83319bc6320871708ab516305199f49792bb343b81e"
+      "sha256": "ef11856aef9564053a985e8c435a5cad7dac70fa9ae05edb05a326791e220261"
     },
     {
       "path": ".mcp.json",
@@ -49,7 +49,7 @@
       "path": "README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "94c9f39df0f7c0e802c59b4f92c50c1da342a91f4cb200d764a3f6da92bdc0be"
+      "sha256": "75e38b96bd4cec37fdb1b466414ee708647f5074c4fa9f575a9846a5147f135b"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -496,10 +496,16 @@
       "sha256": "89db389e3a72475c4343374e6a5bf4622d67a741e8c5d3d9d2c84dce61e71d84"
     },
     {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "07c3fc71f3fe54137e57033da601324dbc561c16145d19384e7244ca3fc584db"
+    },
+    {
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "60cb911a5492eb0a70c269711a29f598b5ee97eca9c1474fdfae22b1459b421a"
+      "sha256": "ab258a0ff3e859ac38fe29a4bf3acc98fb64512559f4e0e30b52aeebd90df9a2"
     },
     {
       "path": "references/application-security-testing.md",

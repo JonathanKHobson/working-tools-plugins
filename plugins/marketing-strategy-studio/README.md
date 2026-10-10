@@ -1,5 +1,7 @@
 # Marketing Strategy Studio
 
+Version **0.3.1** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+
 Discover what a personal or organizational brand should express, develop a recognizable identity system, and turn supported audience/offer decisions into marketing work that can be acted on and checked.
 
 ## Start with a real task
@@ -35,7 +37,7 @@ Use the [full task-to-skill map](docs/use-case-map.md). A settled channel or del
 
 ## Availability and recovery
 
-The optional `atlas-marketing` MCP declared in `.mcp.json` runs `scripts/atlas_library_mcp.py` against an external private method index. See [Atlas setup and limits](references/atlas-library.md). Check actual exposure and a scoped lookup before claiming access; supplied evidence and local methods remain usable if the service is unavailable. Publishing, spending and account actions need their own live provider and observed result.
+The optional `atlas-marketing` MCP declared in portable `mcp.json` and compatibility `.mcp.json` runs `scripts/atlas_library_mcp.py` against an external private method index. See [Atlas setup and limits](references/atlas-library.md). Check actual exposure and a scoped lookup before claiming access; supplied evidence and local methods remain usable if the service is unavailable. Publishing, spending and account actions need their own live provider and observed result.
 
 Publisher-installed methods and host boundaries are in [provider handoffs](docs/provider-handoffs.md). The ten first-party skills and complete licensed source procedures work without those optional providers. The complete current MIT YouTube Summarizer method is included, but its separate transcript server and messaging integration need recipient setup and live verification; a supplied-transcript fallback does not perform fetching. Codex and Claude manifests point to the same optional Atlas launcher, which needs the recipient’s own local binding; package files alone do not prove the server starts.
 

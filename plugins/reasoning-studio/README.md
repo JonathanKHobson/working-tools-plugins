@@ -1,6 +1,6 @@
 # Reasoning Toolkit
 
-Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning.
 
@@ -40,7 +40,7 @@ With a separately available backend and recipient binding, `critical-compass` pr
 
 Reasoning frameworks and model agreement do not supply independent evidence. Advanced panels are an explicit mode, and human-loop questions require real user answers.
 
-Installation makes a package available; it does not establish a working server or permission for every action. These host bindings are recipient-specific; another host needs its own supported configuration. On the receiving host, inspect the selected provider configuration and required runtime/data files. Codex and Claude manifests declare two optional MCP launchers. The host may register them, but neither can serve tools until its recipient-owned binding and backend are available. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
+Installation makes a package available; it does not establish a working server or permission for every action. These host bindings are recipient-specific; another host needs its own supported configuration. On the receiving host, inspect the selected provider configuration and required runtime/data files. The root `mcp.json` declares two optional portable launchers for Codex; `.mcp.json` retains Codex compatibility, and the Claude manifest declares the same launchers with Claude paths. The host may register them, but neither can serve tools until its recipient-owned binding and backend are available. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
 
 For requested visual reasoning, [the shared drawing route](references/draw-think.md) uses Creative Studio’s Draw and Think connection and saved board IDs. It is a conditional neighboring capability, not a second server bundled here. Verify that owner and tools are available; drawing alone does not start a formal audit.
 
