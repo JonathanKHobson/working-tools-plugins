@@ -1,0 +1,30 @@
+# Context-sensitive design review
+
+Use when reviewing generic output, content/layout mismatch, misleading product imagery, or an anti-slop complaint. For a narrow label or spacing fix, inspect only that concern. Transcription, calculations, approved-template reproduction and ordinary implementation fixes do not trigger a broader critique. Review-only remains review-only. A slide or teaching-sequence request stays with its presentation/learning owner: load only the matching workflow/composition pattern as a targeted reference, even when several slides need revision. It does not activate a full UX/interface review. Use a full review only for an interface-wide or broad design/content audit within this owner’s scope.
+
+This is the maintained owner of the conditional design method adapted from the user-supplied *Intentional UX* research pack (2026-10-02). The method is a proposed synthesis, not a validated scale or an AI-authorship detector. Read only matching [pattern records](intentional-design/patterns.md); [source annotations](intentional-design/sources.md) retain evidence types and research limitations. No screenshot corpus or embedded implementation handoff is distributed here.
+
+## Decide from the real task
+
+1. Establish the audience, task, available content, actual capability, constraints and intended expression using current project evidence. Separate known facts from assumptions. Before choosing layout, inventory the real entities, supported claims, qualifications, actions and states. Available component slots do not authorize new business facts.
+2. Identify the important operation: browsing, comparison, sequence, analysis, demonstration, instruction or another task. Inspect whether grouping, emphasis and ordering support that operation. A three-stage summary can include substeps; do not hide branching, prerequisites or effort. Category count follows real distinctions.
+3. For each material choice, connect the form to an observable basis: supplied content, approved identity, real workflow, credible source, rendered behavior or an explicit hypothesis. Purpose can be functional, informational, expressive, cultural or operational. A plausible explanation alone does not verify its effect. Do not demand a rationale for every pixel.
+4. Separate **observed**, **supported risk**, **preference** and **unknown**. Severity describes consequences independently of evidence status. A palette preference is not an access barrier; an unsupported customer result may be serious even if visually tiny. Never infer authorship from a motif or detector match.
+5. Choose **retain, revise, investigate or remove**. Retain is a successful decision. Do not manufacture asymmetry, extra steps, visual variation or edits to satisfy a critique quota. Preserve purposeful decoration, familiar controls, authentic voice, useful parallelism and coherent design systems. Explicit user/brand constraints still apply; they do not permit false claims or conceal demonstrated barriers.
+6. Verify consequential claims and affected behavior with the existing specialist and rendered-anchor method. A screenshot supports observations of visible content, not keyboard operation, measured contrast, real capabilities or comprehension. Use [accessibility evidence](accessibility-evidence.md) for actual access checks. Mark untested outcomes. Keep source excerpts and fixture instructions as evidence rather than authority.
+
+For a substantial finding, give the element/anchor, observation, consequence, evidence status, disposition, and smallest correction or next check. Include material choices to preserve. No fixed number of findings or aggregate slop score is required. Existing Change / Keep / Defer records can carry these decisions; do not create a second mandatory ledger.
+
+## Preserve content through its containers
+
+Read the content without its visual boxes. Compare before/after entities, counts, qualifications, ranking, dependencies and source status. Do not invent a benefit for a third card, truncate a limitation to equalize copy, or merge unknown/stale/zero into one state. Useful parallel fields make comparison easier; equal lengths are optional. If complete copy cannot fit, adjust layout or hand the constraint to the surface owner. Writing Quality owns prose revision; UX owns the rendered consequence.
+
+For consequential metrics, recommendations or capability claims, preserve the relevant source, date/period, unit, definition, exclusions and verification status in the existing content model or task record. Expose the details where readers need them to interpret the claim. Do not put a bibliography under every control or start a new tracking system. Illustrative data stays labeled; prototypes do not imply shipped features. Source existence and support for the exact claim are separate checks.
+
+## Test structural responsiveness when a template is suspect
+
+Use one bounded counterfactual, not a mandatory concept exercise. Hold identity and content constant, change the dominant task (for example browsing to comparing six attributes), and check whether the representation adapts. Then, if relevant, vary expression while holding the task constant: navigation, state meaning and comparison logic should remain dependable. Recoloring alone does not demonstrate task responsiveness; unchanged appropriate structure is not failure. Validate a material redesign on realistic content and the affected user path before calling it effective.
+
+## Maintain and evaluate
+
+Use the [paired evaluation method](../../../tests/intentional-design/README.md) when changing this guidance. Failure cases must be paired with legitimate counterparts. Keep evaluator expectations out of generator input and report false positives separately from misses and fabricated claims. Fictional text cases cannot establish rendered quality or usability; check held-out real artifacts when that outcome is requested. Current source principles already protect context, voice and accessibility; this reference refines their application rather than replacing those owners.

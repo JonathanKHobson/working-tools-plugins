@@ -1,0 +1,20 @@
+# Composition from the analytical task
+
+These are original local starting patterns, not mandatory templates or experimentally ranked layouts. Start with the reader question. A row of identical KPI cards or a large hero chart must earn its place.
+
+| Question / required data | Composition and alternative | Emphasis and annotation | Customization guard / failure to catch |
+| --- | --- | --- | --- |
+| How do equal-priority teams compare? Same metrics and periods | Aligned peer panels or a common-axis dot plot | Comparable weight; stable identity colors only where needed | Preserve shared scale and units; do not imply a preferred team by enlarging it |
+| What changed, and what helps explain it? Ordered observations plus supported context | Wide trend with nearby breakdown; alternatively stacked aligned time series | Focal series with neutral context; source-backed events | Preserve gaps; distinguish temporal coincidence from cause; update callouts after filtering |
+| Which items lead or lag? Comparable category values | Horizontal ranking with concise notes; alternatively sortable table with in-cell marks | Direct values and units; one intentional focal category if justified | Show sort and exclusions; never drop low values to fit the screen |
+| Where does participation fall away? Same cohort tracked across stages | Aligned stage counts and conversion labels; alternatively a compact table | Explicit stage denominator, cohort and time window | Filters must preserve cohort logic; unrelated counts cannot become a funnel |
+| Is typical performance hiding spread? Observations or valid summaries | Distribution beside estimate/interval; alternatively grouped interval plot | Identify sample size and interval meaning | Keep comparable bins/scales; do not replace a distribution with a mean or fabricate intervals |
+| Which item needs action? Metrics plus supported targets | Lookup-first scorecard with trends and exceptions; alternatively small multiples | Status text/symbol plus color; target provenance | A low value may be good; preserve stable row identity under sort/filter |
+| Does location explain the pattern? Valid geography and measure | Map paired with exact ranking/table; alternatively region comparison alone | Neutral geographic context; explicit rate/count legend | Missing regions are not zero; do not encode population-driven counts as comparable risk |
+| What should I inspect next? Many records and useful detail | Overview with persistent selected detail; alternatively master/detail table | Clear selection and scoped comparison | Selection survives compatible state changes; hidden selection is explained or cleared |
+
+Choose density for the task. Operational experts may need compact comparisons; a public explainer needs more context. Establish type roles for title, measure, axis, note and source; use consistent number precision and tabular numerals where alignment aids lookup. Keep headings close to their evidence. Use alignment and whitespace before adding border-heavy containers. Allow a wide comparison to occupy more room rather than shrinking its labels.
+
+On narrow screens preserve paired comparisons, units and scope. Use an intentional sequence or an explicitly labeled scrollable region where a matrix cannot reflow honestly. Do not crop away important categories or collapse every panel before the reader sees any evidence. Theme and density changes need rendered checks at their actual settings.
+
+Sources informing this synthesis: [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/patterns.html) provides composition tradeoffs; [ONS dashboard guidance](https://service-manual.ons.gov.uk/data-visualisation/guidance/dashboards) emphasizes justified user need and maintenance; [chart-dashboard layout](https://github.com/raghuramsirigiri/raghuram-skills/blob/main/plugins/chart-dashboard/skills/chart-dashboard/references/layout.md) motivates deriving hierarchy from findings. No upstream layout code or illustrations are bundled.

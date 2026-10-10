@@ -1,0 +1,15 @@
+# Figma and Stitch
+
+For FigJam board hierarchy or review, use [collaborative boards](collaborative-boards.md); for editor operations use the installed Figma Studio operator's FigJam guide. Design frames and auto-layout support do not establish FigJam capabilities.
+
+First identify the direction: edit a Figma file, translate a Figma node into code, use a Figma frame as a Stitch reference, draft in Stitch, transfer Stitch output into Figma, or implement exported work. These are different operations with different evidence. Read the current matching provider skill before using its tools; this reference does not specify tool parameters.
+
+For Figma-to-Stitch work, load the current `figma-to-stitch-design-iteration` adapter. If desktop frames govern appearance and a mobile reference governs behavior, preserve the desktop shell, labels and geometry; do not transfer mobile dimensions into the desktop proposal. Verify attachment thumbnails and their source roles before submission.
+
+For Figma UI edits, observe the current file, page, selection, zoom, and focus immediately before the mutation. Confirm that the intended node is selected and the action applies to that node. Change one bounded target, then read back its postcondition visually and structurally when possible. On a failed action, re-observe the UI and try at most two grounded recovery paths before reporting the blocker. Do not repeat blind clicks or assume a saved change is visible in the intended frame.
+
+For Figma-to-code, identify the exact node and obtain current design context, screenshot, component relationships, and assets through the provider's supported path. Treat generated code as reference. Map design tokens and components to the receiving repository; verify the rendered implementation against the source at matching states. For a Figma edit or Stitch-to-Figma import, also check native editability: text remains text, repeated controls can be selected or reused as intended, and the frame is more than a flat image when editability was promised.
+
+For Figma-to-Stitch iteration, assign each supplied source a role: appearance authority, behavior authority, baseline evidence, or proposed direction. A source can have more than one role, but do not silently let a draft replace an approved baseline. Write Change / Keep / Defer for the requested differences. Use verified attachments and the active draft context before submission. A text typed into a prompt is a draft; an attached frame is attached; a submitted prompt is submitted; generated output requires readback. Export, import, implementation, and public deployment each require their own evidence.
+
+Stitch may hold several designs, tabs, selection chips, and unsent prompts. Inspect the current active design and draft before editing or submitting. Confirm the selected result and its source identity before export. After transfer, compare the actual receiver artifact with the chosen Stitch result, including text, assets, structure, and editability. Preserve historical concepts as evidence; do not mistake them for current approval.

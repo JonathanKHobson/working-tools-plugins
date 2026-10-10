@@ -35,6 +35,7 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |
 | Structure a project and deliver a verified handoff | [Work Management](plugins/work-management/) | Your project context and optional recipient bindings |
 | Retrieve and compare research evidence | [Oppia Research Compass](plugins/oppia-research-compass/) | Your own authorized corpus; no team records included |
+| Design and review a usable product interface | [UX Design Studio](plugins/ux-design-toolkit/) | Your screen, user task and design context; optional runtime and provider setup is documented |
 | Compose graphics and prepare production files | [Graphic Design Studio](plugins/graphic-design-studio/) | Source content, host creative tools and optional local runtime |
 | Start from an editable fictional brand kit | [Brand Templates](plugins/brand-templates/) | A brief; 104 original kits included |
 | Retrieve and verify writing guidance | [Writing Templates](plugins/writing-templates/) | Your authorized sources; synthetic examples included |

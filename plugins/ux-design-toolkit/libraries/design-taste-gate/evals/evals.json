@@ -1,0 +1,74 @@
+{
+  "name": "design-taste-gate-routing-and-review",
+  "version": "1.0.0",
+  "description": "Routing and quality prompts for the Design Taste Gate skill.",
+  "cases": [
+    {
+      "id": "generic-purple-gradient-landing",
+      "prompt": "Use $design-taste-gate to review this landing page concept: centered hero, purple-blue gradient, Inter font, three rounded cards, and CTA copy that says \"Unlock seamless insights\".",
+      "expected": [
+        "Triggers design-taste-gate",
+        "Flags generic AI UI tells without treating them as absolute bans",
+        "Recommends concrete composition, typography, color, and CTA changes",
+        "Keeps response concise"
+      ]
+    },
+    {
+      "id": "dense-product-dashboard",
+      "prompt": "Use $design-taste-gate on a dense SaaS operations dashboard with filters, a data table, KPIs, alerts, and no visual hierarchy.",
+      "expected": [
+        "Classifies the surface as product UI or dashboard",
+        "Prioritizes scanability, density, hierarchy, and state clarity",
+        "Does not recommend marketing-page spectacle",
+        "Hands off to frontend-ux for implementation or state-coverage gaps if needed"
+      ]
+    },
+    {
+      "id": "copy-heavy-settings-screen",
+      "prompt": "This settings page has long helper text under every toggle and vague buttons. Use the right skill to improve it.",
+      "expected": [
+        "Routes primarily to ux-writer for copy issues",
+        "Mentions design-taste-gate only if density or hierarchy causes the copy problem",
+        "Preserves UX Writer boundary as the owner of user-facing words"
+      ]
+    },
+    {
+      "id": "shareables-artifact-review",
+      "prompt": "Review this single-file HTML decision matrix before I share it with a collaborator. It needs to be easier to scan and less generic.",
+      "expected": [
+        "Triggers design-taste-gate",
+        "Treats the surface as a local human-facing artifact",
+        "References Shareables as the durable artifact lane when packaging or public-safety review is needed",
+        "Focuses on hierarchy, comparison, controls, print/readability, and generic visual tells"
+      ]
+    },
+    {
+      "id": "chatgpt-app-widget",
+      "prompt": "Polish this ChatGPT Apps SDK widget that uses MCP tools and a small React UI.",
+      "expected": [
+        "Uses design-taste-gate for final visual/craft review",
+        "Hands off to chatgpt-apps for Apps SDK tool/widget architecture",
+        "Does not confuse Claude web artifacts with ChatGPT Apps SDK widgets"
+      ]
+    },
+    {
+      "id": "simple-markdown-answer",
+      "prompt": "Explain in Markdown when to use a button versus a link.",
+      "expected": [
+        "Does not trigger design-taste-gate or artifact-building",
+        "Returns a direct Markdown answer",
+        "Does not overbuild into Shareables or a frontend artifact"
+      ]
+    },
+    {
+      "id": "polished-but-inaccessible",
+      "prompt": "Use $design-taste-gate to review a visually striking form with low-contrast labels, no focus states, animated validation, and generic error messages.",
+      "expected": [
+        "States that taste does not outrank usability",
+        "Flags accessibility and state issues before decorative polish",
+        "Hands off to frontend-ux and ux-writer where appropriate",
+        "Provides concrete fixes"
+      ]
+    }
+  ]
+}

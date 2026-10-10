@@ -1,0 +1,13 @@
+# Typography and brand inputs
+
+Start with the existing approved type system and the reading task. A display face, UI label, long-form passage and numeric table impose different constraints. Judge actual text at the intended size, weight, line height and width; check hierarchy, similar-character distinction, language coverage, long strings and layout when the intended font is unavailable. Font mood alone is not a usability test.
+
+**MyFonts** is an external discovery/identification provider, not a font asset library embedded in this plugin. Its exposed tools can recommend fonts from a stylistic brief or identify type in an attached image. Read their current contracts: image identification and descriptive search are separate routes; named text regions have their own preparation step. The recommendation tool currently excludes pairing, platform-specific/free-font queries, licensing and downloads. Route those needs to suitable evidence or project assets instead of silently reformulating a request to fit the tool. A suggested or identified font is not proof of purchase, embedding rights, availability, installation or web readiness.
+
+**Infographic Artist**, as exposed in this session, is principally a brand precedent and critique provider. It offers identity/system research, scored image critique, proposal comparisons and distinct brand directions. Use it for a consequential visual direction or independent critique. Transfer the underlying principle into the project's own constraints rather than copying an identity. Automated similarity or critique scores inform judgment; they do not establish originality, usability or acceptance.
+
+For a Google Fonts or free-font request, check the current official catalog and the selected family's actual license/source; do not infer availability or permitted use from a third-party recommendation. Pair type by reading role, contrast and tested real content. Respect an already-approved product type system.
+
+Do not infer a tool's output from its name. For data-rich infographics, combine verified analysis and chart encoding from the visualization specialist with composition from Graphic Design Studio. For an explanatory flow or architecture diagram, use the appropriate diagram specialist. Preserve exact labels, values and source attribution through rendering/export.
+
+Verification: inspect representative real content with the actual font loaded, check the fallback, verify the output at useful reading size and reduced scale, and recheck responsive wrapping or final print size. Separate a recommendation, an asset obtained, a font applied and a rendered result verified.

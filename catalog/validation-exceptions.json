@@ -93,7 +93,7 @@
         "matched_lines": [
           {
             "line": 178,
-            "text": "**Feedback is submitted to a public channel — anonymize before sending.** Redact absolute paths (which leak user home directory + machine identity), any user or project names embedded in paths, secrets, and credentials. Path arguments in the command should stay relative to the project directory (`./renders/out.mp4`, not `/Users/<user>/Documents/…/out.mp4`; `.hf-tmp/`, not `/home/<user>/projects/<real-name>/.hf-tmp/`). Similarly strip absolute paths from `EXACT ERROR:` stack traces and log excerpts — keep the file basename and line number, drop the leading directory. Preserve flags and relevant `HF_*` / `PRODUCER_*` variables verbatim. If the failure no longer reproduces, include the last failing command and log excerpt (redacted the same way). Share a project link only when one is already available and safe to share."
+            "text": "**Feedback is submitted to a public channel \u2014 anonymize before sending.** Redact absolute paths (which leak user home directory + machine identity), any user or project names embedded in paths, secrets, and credentials. Path arguments in the command should stay relative to the project directory (`./renders/out.mp4`, not `/Users/<user>/Documents/\u2026/out.mp4`; `.hf-tmp/`, not `/home/<user>/projects/<real-name>/.hf-tmp/`). Similarly strip absolute paths from `EXACT ERROR:` stack traces and log excerpts \u2014 keep the file basename and line number, drop the leading directory. Preserve flags and relevant `HF_*` / `PRODUCER_*` variables verbatim. If the failure no longer reproduces, include the last failing command and log excerpt (redacted the same way). Share a project link only when one is already available and safe to share."
           }
         ],
         "reason": "generic redaction examples or regex assertions; no actual user path/binding"
@@ -347,6 +347,22 @@
         "target": "link",
         "sha256": "bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149",
         "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      }
+    ]
+  },
+  "ux-design-toolkit": {
+    "reference_exceptions": [
+      {
+        "path": "libraries/frontend-design-premium/skills/frontend-design-premium/references/anti-patterns.md",
+        "sha256": "14794880383da1ba74dce65fb65724abd3bd0715c82f62a7bd31a12529f16816",
+        "target": "search|text",
+        "reason": "False positive: inline or fenced regular expression for HTML input types, not a Markdown resource link. Exact preserved-source hash and target only."
+      },
+      {
+        "path": "libraries/frontend-design-premium/skills/frontend-design-premium/references/anti-patterns.md",
+        "sha256": "14794880383da1ba74dce65fb65724abd3bd0715c82f62a7bd31a12529f16816",
+        "target": "date|time|month|week|datetime-local",
+        "reason": "False positive: inline or fenced regular expression for HTML input types, not a Markdown resource link. Exact preserved-source hash and target only."
       }
     ]
   }

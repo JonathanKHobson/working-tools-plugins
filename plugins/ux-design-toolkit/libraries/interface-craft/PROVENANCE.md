@@ -1,0 +1,5 @@
+# Interface craft source and host boundary
+
+Full MIT-licensed method from Jakub Krehel's [make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better/tree/35545ea1512ad59fa463e6b1f95ca9c052981fe6), commit `35545ea1512ad59fa463e6b1f95ca9c052981fe6`, inspected 2026-10-02. Copyright (c) 2026 Jakub Krehel; [MIT license](LICENSE) is retained. The six method documents are byte-identical except that the upstream head is named `SKILL.original.md` to prevent duplicate discovery. No upstream installer, host agent configuration or runtime was admitted.
+
+The operative entry is the [conditional host adapter](../../skills/design-studio/references/interface-craft.md). Read it before the full method and task-matching support. It resolves source preferences against Kyle's current scope, approved system, accessibility requirements and actual browser behavior. Exact animation values, universal smoothing, fixed target-size floors and image-outline colors remain source examples, not global mandates. This library is conditional craft depth, not a second UI owner or automatic hook.

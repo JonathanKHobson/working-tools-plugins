@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ux-heuristic-compass": {
+      "command": "python3",
+      "args": [
+        "scripts/compass_mcp.py",
+        "ux-heuristic-compass"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ux-design-toolkit",
+  "version": "0.3.8",
+  "description": "Design, review and improve product interfaces and websites, from content structure and responsive layouts to interaction states, design systems and evidence-backed audits.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "UX Design Studio",
+    "shortDescription": "Focused UX workflows, full methods and native design tools",
+    "longDescription": "Design, review and improve product interfaces and websites, from content structure and usable wording and responsive layouts to interaction states, design systems and evidence-backed audits. Critique an observed screen or implement a bounded UI improvement. Design robust onboarding, recovery, responsive behavior or purposeful motion. Browse Site templates, consult selected UX methods, or produce a formal UX Heuristics Compass audit. Start with a concrete task or ask what this plugin can do. Figma, Stitch, Sites and other authoring providers retain their own tool/access requirements. Screenshots support visual findings, not claims about untested keyboard behavior or participant outcomes.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this interface and prioritize the fixes.",
+      "Design a responsive website from this audience and content brief.",
+      "Improve this UI while preserving its design system."
+    ]
+  }
+}

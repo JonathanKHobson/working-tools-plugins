@@ -1,0 +1,150 @@
+--- a/crates/live/src/live_server.rs
++++ b/crates/live/src/live_server.rs
+@@ -556,6 +556,25 @@
+     host == "localhost" || host == "127.0.0.1" || host == "::1" || host == "[::1]"
+ }
+ 
++/// The live fallback serves page source, never project secrets or private state.
++/// Check both the requested path and the canonical path so symlinks cannot
++/// turn an innocuous name into a sensitive file inside the project.
++fn is_private_source_path(path: &str) -> bool {
++    std::path::Path::new(path).components().any(|component| {
++        let name = component.as_os_str().to_string_lossy().to_ascii_lowercase();
++        name.starts_with('.')
++            || matches!(name.as_str(),
++                "node_modules" | "vendor" | "private" | "secrets" | "credentials"
++                | "id_rsa" | "id_ed25519" | "id_ecdsa" | "id_dsa")
++            || name.starts_with("secret")
++            || name.starts_with("credential")
++            || name.ends_with(".pem")
++            || name.ends_with(".key")
++            || name.ends_with(".p12")
++            || name.ends_with(".pfx")
++    })
++}
++
+ /// Routes that give their turnstile ticket up before touching server state.
+ ///
+ /// Static assets and read-only file routes need no arrival ordering. Neither
+@@ -876,7 +895,7 @@
+                 return;
+             }
+             let file_path = req.query_get("path").unwrap_or("");
+-            if file_path.is_empty() || file_path.contains("..") {
++            if file_path.is_empty() || file_path.contains("..") || is_private_source_path(file_path) {
+                 respond(&mut stream, &cors, text_res(400, None, "Bad path"));
+                 return;
+             }
+@@ -901,7 +920,8 @@
+             // means the request resolved to the root directory itself, which
+             // this file route never serves.
+             let rel = jsp::relative("/", &real_root, &real_target);
+-            if rel.is_empty() || rel.starts_with("..") || jsp::is_absolute(&rel) {
++            if rel.is_empty() || rel.starts_with("..") || jsp::is_absolute(&rel)
++                || is_private_source_path(&rel) {
+                 respond(&mut stream, &cors, text_res(403, None, "Forbidden"));
+                 return;
+             }
+@@ -2983,4 +3003,15 @@
+             assert!(releases_ticket_up_front(path, "GET"), "{path}");
+         }
+     }
+-}
++
++    #[test]
++    fn source_reader_rejects_private_paths() {
++        for path in [".env", "src/.env.local", ".git/config", ".impeccable/live/server.json",
++            "private/customer.html", "src/client.key", "src/credentials.json"] {
++            assert!(is_private_source_path(path), "{path}");
++        }
++        for path in ["index.html", "src/routes/+page.svelte", "app/layout.tsx"] {
++            assert!(!is_private_source_path(path), "{path}");
++        }
++    }
++}
+--- a/crates/live/src/live_inject.rs
++++ b/crates/live/src/live_inject.rs
+@@ -165,6 +165,15 @@
+         }
+         println(io, &json_compact(&Value::Object(out)));
+         return 0;
++    }
++
++    // The live helper mutates source files. Refuse a production process or
++    // generated output even when a stale config points there; removal above
++    // remains available to clean up an earlier injection.
++    if env.get("NODE_ENV").is_some_and(|v| v.eq_ignore_ascii_case("production"))
++        || resolved_files.iter().any(|path| is_generated_output(path)) {
++        eprintln(io, &json_compact(&json!({ "ok": false, "error": "production_injection_refused" })));
++        return 1;
+     }
+ 
+     // Insert mode: --port required (parseInt of the following arg).
+@@ -319,6 +328,13 @@
+     }
+ }
+ 
++fn is_generated_output(path: &str) -> bool {
++    std::path::Path::new(path).components().any(|component| {
++        matches!(component.as_os_str().to_string_lossy().to_ascii_lowercase().as_str(),
++            "dist" | "build" | "out" | ".next" | ".output")
++    })
++}
++
+ /// JS: parseInt(v, 10) → finite number or None.
+ fn parse_int_prefix(v: &str) -> Option<i64> {
+     let f = impeccable_core::js::parse_int(v, 10);
+--- a/crates/live/src/dev_url.rs
++++ b/crates/live/src/dev_url.rs
+@@ -18,7 +18,7 @@
+         return list
+             .split(',')
+             .map(str::trim)
+-            .filter(|s| !s.is_empty())
++            .filter(|s| is_loopback_url(s))
+             .map(|s| s.trim_end_matches('/').to_string() + "/")
+             .collect();
+     }
+@@ -28,6 +28,14 @@
+         out.push(format!("http://localhost:{}/", port));
+     }
+     out
++}
++
++/// The overlay and token are local-development controls. Never probe or
++/// offer a production/non-loopback origin from an environment override.
++pub fn is_loopback_url(url: &str) -> bool {
++    endpoint(url).is_some_and(|(host, _, _)| {
++        matches!(host.to_ascii_lowercase().as_str(), "localhost" | "127.0.0.1" | "::1")
++    })
+ }
+ 
+ /// The first candidate whose document contains our tag, probed in parallel
+@@ -177,4 +185,13 @@
+         assert_eq!(c, vec!["http://localhost:9999/".to_string(), "http://127.0.0.1:7777/".to_string()]);
+         assert!(candidates(None).iter().any(|u| u == "http://127.0.0.1:5173/"));
+     }
++
++    #[test]
++    fn non_loopback_candidates_are_ignored() {
++        let c = candidates(Some("https://example.com, http://127.0.0.1:5173"));
++        assert_eq!(c, vec!["http://127.0.0.1:5173/".to_string()]);
++        assert!(!is_loopback_url("https://example.com"));
++        assert!(!is_loopback_url("http://localhost.evil.test"));
++        assert!(is_loopback_url("https://[::1]:5173/"));
++    }
+ }
+--- a/crates/live/src/live_generate.rs
++++ b/crates/live/src/live_generate.rs
+@@ -433,6 +433,11 @@
+     // manifest the switch reads, and reads --target relative to this cwd.
+     let original_cwd = io.cwd.clone();
+     let dev_url_hint: Option<String> = flag(&flags_probe, "dev-url").map(str::trim).filter(|u| !u.is_empty()).map(str::to_string);
++    if let Some(url) = &dev_url_hint {
++        if !crate::dev_url::is_loopback_url(url) {
++            return fail(io, json!({ "ok": false, "error": "non_loopback_dev_url_refused", "url": url }));
++        }
++    }
+     let mut boot: Option<Map<String, Value>> = None;
+     if flags_probe.boot {
+         match run_boot(args, &original_cwd, io, dev_url_hint.as_deref()) {

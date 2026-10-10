@@ -1,0 +1,13 @@
+# UX writing
+
+Write for the user's next decision. Start with the action, outcome, and state, then choose words that match the product's domain and the user's vocabulary. Preserve exact factual terms, names, and constraints. Shorter is useful only when it improves recognition or scanning.
+
+For a control, make the verb and object clear when context is weak: “Save changes” is more informative than “Submit.” For destructive or consequential actions, state the consequence before confirmation. For errors, tell the user what happened, whether work was preserved, and one useful recovery action. For empty states, explain why nothing is shown and what the user can do next; avoid promising results the system cannot deliver. For permission or loading states, describe the real state rather than making the interface sound conversational for its own sake.
+
+Check labels across sibling screens, navigation, dialogs, and notifications. One operation should not acquire several names by accident. Ensure text still works in the layout at narrow width, high zoom, and with localization expansion. Keep labels visible when a field has a value; placeholder text is supplementary guidance.
+
+For a copy-only request, use the current UX-writing specialist if available and return the revised copy directly. For copy tied to layout or behavior, hand the final wording to the owning UI surface and verify it in the rendered state. Promotional copy for posters and ads follows the graphic-design route because space, hierarchy, and legal facts shape it.
+
+When the cause or next action is unknown, do not invent one. Use neutral wording or give a clearly conditional variant. A standalone sentence rewrite does not require rendered anchors; check the requested wording against the supplied facts and scope.
+
+When a layout demands equal-length copy or a fixed number of items, preserve the actual entities, facts and qualifications first. Adjust the container with its owner if accurate copy cannot fit. Parallel labels may aid comparison; do not vary terminology merely to appear less formulaic. Use the [conditional design method](../../design-review/references/intentional-design.md) only when layout or implied capability is the concern.

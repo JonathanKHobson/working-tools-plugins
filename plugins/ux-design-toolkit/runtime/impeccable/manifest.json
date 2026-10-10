@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "commit": "114ea1d3838fca73b253af45f873b9c4f5f213c8",
+    "license": "Apache-2.0",
+    "archiveSha256": "f12d358c640c33c90ad198d09b1dbe77ddc37286c72c74fc4e5b16ae70816b3d",
+    "patchSha256": "bdd5c2364fd029b9e1b45feed99077289be68ed4dce656e4697c31565204b6ae",
+    "assetPatchSha256": "9e2e07df198d7ef103b7de692f228051f55bad7a8049fd641f938d4fd930e1ca"
+  },
+  "engine": {
+    "path": "bin/impeccable",
+    "sha256": "46df08a23d806599660b8ccf588a5562e11d7b37c3ff2ed199fd686ed1acddc5",
+    "arch": "arm64",
+    "platform": "darwin",
+    "version": "4.0.0",
+    "workspaceVersion": "0.1.6"
+  },
+  "skillDir": "skill",
+  "skillAssetsSha256": "2503b961c53e803edb57697290292f9dc3e5fed3a6a33e05e380e4c6f36d76c6",
+  "browserBundle": "embedded",
+  "patches": [
+    "live-source-sensitive-path-deny",
+    "live-non-loopback-url-deny",
+    "live-production-injection-deny",
+    "reference-primary-control-action-state-feedback"
+  ],
+  "licenses": [
+    "LICENSE",
+    "NOTICE.md",
+    "licenses/platform-design-skills-MIT.txt",
+    "licenses/modern-screenshot-MIT.txt",
+    "licenses/albertsans-OFL.txt",
+    "licenses/alumnisans-OFL.txt",
+    "licenses/jetbrainsmono-OFL.txt"
+  ],
+  "skillAssetsUpstreamSha256": "c7625e41ce5cb4c9476f2d344c0ca1ed2e36d7f0f4d5dfc7f45c5f597995e3e7"
+}

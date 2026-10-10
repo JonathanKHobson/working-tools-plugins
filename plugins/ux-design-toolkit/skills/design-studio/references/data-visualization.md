@@ -1,0 +1,13 @@
+# Visualization within a product surface
+
+For cross-panel dashboard composition, monitoring/exploration modes, customization or local/shareable delivery, use [dashboard-design](../../dashboard-design/SKILL.md). A one-chart question can go directly to the existing visualization specialist. Data Analytics retains its shared Data app and metric pipeline when it owns the artifact; this guidance does not replace its renderer or title conventions. Static composed explainers use Graphic Design Studio's `infographic-design`, with quantitative chart work still owned by the data/visualization specialist.
+
+Choose the analytical question before the chart: comparison, change over time, distribution, relationship, composition, geography or monitoring. Keep measured, estimated and illustrative values distinct. Preserve units, denominators, dates, filters, uncertainty and missingness; visual polish cannot repair an unsupported claim.
+
+Use the simplest encoding that lets the audience answer that question. Essential values and meaning must remain accessible without hover. Favor direct labels when they reduce decoding, meaningful color roles and redundant state cues. Dense operational views can be appropriate; an equal grid of decorative metrics is not a substitute for a reading path.
+
+Apply the [reader-comprehension acceptance cases](../../dashboard-design/references/delivery-and-qa.md#reader-comprehension-acceptance) to the rendered surface. Default lay-reader labels explain the actual trait and each scale's ends, middle, numeric mapping and span role. Put jargon and precision in a named details view; preserve uncertainty, target/observed distinctions and evidence limits. Each upfront view answers its own question, using the familiar compact layout and ordinary web reading text at least 16px.
+
+The product UI owns navigation, shared tokens and global state; the visualization specialist owns its data transformation and encoding. Agree on filters, selections, drill-down, stale/offline states, responsive layout, keyboard/touch alternatives and export behavior at that boundary. When a chart is a major part of the task, use `$data-visualization-toolkit:data-visualization` and load only the relevant implementation, statistics and accessibility references.
+
+Check a known value against source data, then exercise a filter or interaction and verify the new value and visible state. Inspect a narrow viewport and a non-hover path. A chart rendering without errors proves neither numerical correctness nor comprehensibility. Use imagery or animation only where it communicates real information or orientation.

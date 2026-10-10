@@ -1,0 +1,578 @@
+{
+  "packet": "02-human-systems",
+  "accessed_date": "2026-09-29",
+  "ledger_notes": [
+    "access_extent records what was actually read. 'visual_pdf_pages' means the PDF pages were rendered and read directly in this session. 'summarizer' means WebFetch returned a model-generated summary; short quotes from it are marked as summarizer-reported and were not visually confirmed.",
+    "Three summarizer outputs were rejected because they were vague or echoed the request as a quote (Soukoreff & MacKenzie first pass, Hart 2006 first pass, Altmann & Trafton first pass); the underlying PDFs were then read directly.",
+    "A bibliography entry in Kyle's coursework is a lead, not proof of the attached claim.",
+    "Direct third-party quotation was removed from claim summaries in this packet; operational details are paraphrased. Kyle coursework excerpts remain attributed user-supplied source text. X13 engineering terminology is not evidence for UI outcomes."
+  ],
+  "external_sources": [
+    {
+      "source_id": "X01",
+      "title": "Towards a standard for pointing device evaluation, perspectives on 27 years of Fitts' law research in HCI",
+      "creators": [
+        "R. William Soukoreff",
+        "I. Scott MacKenzie"
+      ],
+      "institution": "York University",
+      "publication_date": "2004 (available online 2004-11-04)",
+      "source_class": "empirical_review_and_method_recommendation",
+      "url": "https://www.yorku.ca/mack/ijhcs2004.pdf",
+      "doi": "10.1016/j.ijhcs.2004.09.001",
+      "locator": "Int. J. Human-Computer Studies 61, pp. 751-756 (abstract, sections 1-2, recommendations I-IV, footnotes 2, 3, 7, 11)",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 751-756; remainder not read",
+      "claims_supported": [
+        "Fitts' law describes the relationship between movement time, distance and accuracy for people engaged in rapid aimed movements (p. 751).",
+        "It applies to pointing and dragging with mouse, trackball, stylus, joystick and touchscreen (p. 752).",
+        "Speed and accuracy trade off; both should be reported separately (p. 752, fn 3).",
+        "Movement time excludes homing, dwell and reaction time (p. 755, fn 7).",
+        "The model is bounded to rapid aimed movement; leisurely movements are outside this use (p. 756, fn 11).",
+        "Shannon formulation ID = log2(D/W + 1); effective width We = 4.133 sigma adjusts for accuracy (pp. 755-756).",
+        "Angle of movement confounds results; ISO 9241-9 uses a circular multidirectional task (p. 753)."
+      ],
+      "limitations": "Laboratory pointing paradigm; the paper is about modelling and device comparison, not about visual search, decision time, label comprehension or whole-task UI design.",
+      "reuse_status": "cite_and_paraphrase; no text copied beyond short quotes"
+    },
+    {
+      "source_id": "X02",
+      "title": "The information capacity of the human motor system in controlling the amplitude of movement",
+      "creators": [
+        "Paul M. Fitts"
+      ],
+      "institution": null,
+      "publication_date": "1954",
+      "source_class": "empirical_original",
+      "url": "https://psycnet.apa.org/record/1955-02059-001",
+      "doi": "10.1037/h0055392",
+      "locator": "Journal of Experimental Psychology 47(6), 381-391",
+      "accessed_date": "2026-09-29",
+      "access_extent": "bibliographic_only; University of Iowa PDF returned HTTP 404 and PsycNet page did not render. Task details are taken from X01's description of the Fitts paradigm (Fig. 1, serial and discrete tasks), not from the original.",
+      "claims_supported": [
+        "Bibliographic identity of the original model paper."
+      ],
+      "limitations": "Original experimental tasks, apparatus and participants were not inspected this session. Do not quote Fitts (1954) directly from this packet.",
+      "reuse_status": "cite_only"
+    },
+    {
+      "source_id": "X03",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "creators": [
+        "W3C Accessibility Guidelines Working Group"
+      ],
+      "institution": "W3C",
+      "publication_date": "W3C Recommendation; fetched page reported 2024-12-12",
+      "source_class": "normative_technical_standard",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "locator": "SC 1.4.1, 2.2.1, 2.2.5, 2.2.6, 2.4.11, 2.5.5, 2.5.8, 2.5.7, 3.3.4, 3.3.6, 3.3.7, 3.3.8, 4.1.3",
+      "accessed_date": "2026-09-29",
+      "access_extent": "summarizer. 2.5.8 text from this pass was garbled and is superseded by X04. Other criterion texts matched known wording but were not visually confirmed.",
+      "claims_supported": [
+        "3.3.4 (AA): for legal commitments, financial transactions, modification/deletion of user-controllable data, or test responses, at least one of Reversible, Checked or Confirmed.",
+        "2.5.7 (AA): dragging functionality has a single-pointer non-drag alternative unless essential.",
+        "2.5.5 (AAA): targets at least 44 by 44 CSS pixels (with exceptions).",
+        "3.3.7 (A) Redundant Entry; 2.2.5 (AAA) continue without data loss after re-authentication; 2.2.6 (AAA) warn of inactivity timeouts that could lose data unless data preserved >20 hours.",
+        "1.4.1 (A) color not the only visual means; 4.1.3 (AA) status messages programmatically determinable without focus; 2.4.11 (AA) focused component not entirely hidden by author content."
+      ],
+      "limitations": "Conformance requires a real accessibility evaluation; a design review cannot claim it. Criteria define minimums, not optimal design.",
+      "reuse_status": "cite; W3C documents may be quoted with attribution"
+    },
+    {
+      "source_id": "X04",
+      "title": "Understanding Success Criterion 2.5.8: Target Size (Minimum)",
+      "creators": [
+        "W3C WAI"
+      ],
+      "institution": "W3C",
+      "publication_date": "page last updated 2026-05-11 (as reported)",
+      "source_class": "official_informative_guidance_for_normative_SC_2.5.8",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "locator": "Success Criterion text box; Intent section",
+      "accessed_date": "2026-09-29",
+      "access_extent": "Official W3C Understanding page read by Codex; criterion text, five exceptions and intent checked. The Understanding page is informative; normative criterion is X03.",
+      "claims_supported": [
+        "Target at least 24 by 24 CSS pixels except Spacing, Equivalent, Inline, User Agent Control, Essential.",
+        "Intent: this is a minimum; larger targets help many people; for important controls consider 2.5.5 Enhanced."
+      ],
+      "limitations": "Informative explanation rather than the normative criterion itself; pointer targets only; does not settle thumb reach or a specific audience.",
+      "reuse_status": "cite"
+    },
+    {
+      "source_id": "X05",
+      "title": "The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?",
+      "creators": [
+        "Nelson Cowan"
+      ],
+      "institution": "University of Missouri",
+      "publication_date": "2010",
+      "source_class": "empirical_review_theory",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
+      "locator": "Current Directions in Psychological Science 19(1); main text sections on capacity and boundary conditions",
+      "accessed_date": "2026-09-29",
+      "access_extent": "summarizer over PMC full text; short phrases summarizer-reported, not visually confirmed",
+      "claims_supported": [
+        "A central store limited to roughly 3 to 5 meaningful chunks in young adults (summarizer-reported phrase).",
+        "The limit is observed when rehearsal and grouping are prevented or controlled; it concerns information held in mind, not information that remains available in the environment."
+      ],
+      "limitations": "Does not establish limits on the number of options visible on a screen, navigation items or buttons. Population is mainly young adults in lab tasks.",
+      "reuse_status": "cite_and_paraphrase"
+    },
+    {
+      "source_id": "X06",
+      "title": "NASA-Task Load Index (NASA-TLX); 20 Years Later",
+      "creators": [
+        "Sandra G. Hart"
+      ],
+      "institution": "NASA Ames Research Center",
+      "publication_date": "2006",
+      "source_class": "method_review",
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/hfes-2006-paper.pdf",
+      "doi": "10.1177/154193120605000909",
+      "locator": "Proceedings of the HFES 50th Annual Meeting; pp. 1-3 of the PDF (Background, Focus, Methodological Issues)",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 1-3",
+      "claims_supported": [
+        "Workload represents human cost in meeting task demands (Background).",
+        "Six subscales: Mental, Physical and Temporal Demands, Frustration, Effort, Performance (Background).",
+        "TLX ratings need not track performance; an apparently undemanding vigilance task may still carry high workload through boredom (p. 3).",
+        "Adding, deleting or redefining subscales requires re-establishing validity, sensitivity and reliability (p. 3).",
+        "Raw TLX (unweighted) was more, less or equally sensitive across 29 comparisons (p. 3)."
+      ],
+      "limitations": "Subjective self-report; collected from actual operators during or after a task. An AI reviewer cannot produce a TLX score by inspecting a screen.",
+      "reuse_status": "cite; do not reproduce the rating form"
+    },
+    {
+      "source_id": "X07",
+      "title": "Memory for goals: an activation-based model",
+      "creators": [
+        "Erik M. Altmann",
+        "J. Gregory Trafton"
+      ],
+      "institution": "Michigan State University; Naval Research Laboratory",
+      "publication_date": "2002",
+      "source_class": "theoretical_computational_model_with_empirical_fit",
+      "url": "http://act-r.psy.cmu.edu/wordpress/wp-content/uploads/2012/12/6ema_jgt_2002_a.pdf",
+      "doi": "10.1207/s15516709cog2601_2",
+      "locator": "Cognitive Science 26, pp. 39-40 (abstract, introduction)",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 39-40",
+      "claims_supported": [
+        "A suspended goal can only be retrieved with help from priming from an associated cue (p. 40).",
+        "The cue must be available both when the goal is suspended (to create the link) and when it is resumed (p. 40).",
+        "Resuming at the right step without redundant or skipped steps can matter greatly in domains like aviation (p. 40)."
+      ],
+      "limitations": "Model fitted to Tower of Hanoi data; interface transfer (resumption cues in software) is this packet's inference, not the paper's tested result.",
+      "reuse_status": "cite_and_paraphrase"
+    },
+    {
+      "source_id": "X08",
+      "title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+      "creators": [
+        "Lisa Feldman Barrett",
+        "Ralph Adolphs",
+        "Stacy Marsella",
+        "Aleix M. Martinez",
+        "Seth D. Pollak"
+      ],
+      "institution": null,
+      "publication_date": "2019",
+      "source_class": "systematic_review",
+      "url": "https://www.psychologicalscience.org/publications/emotional-expressions-reconsidered-challenges-to-inferring-emotion-from-human-facial-movements.html",
+      "doi": "10.1177/1529100619832930",
+      "locator": "Psychological Science in the Public Interest 20(1), 1-68; APS summary page",
+      "accessed_date": "2026-09-29",
+      "access_extent": "Publisher summary page inspected by Codex and earlier via summarizer; full 68-page text not read.",
+      "claims_supported": [
+        "The publisher summary rejects a universal direct mapping from facial movements to specific emotions.",
+        "The reviewed evidence does not support reliability, specificity, generalizability and validity for a direct mapping from facial configurations to emotions."
+      ],
+      "limitations": "About facial movements specifically; does not say emotion is unimportant or unmeasurable by self-report, context or behavior.",
+      "reuse_status": "cite"
+    },
+    {
+      "source_id": "X09",
+      "title": "Question and Questionnaire Design (Chapter 9, Handbook of Survey Research, 2nd ed.)",
+      "creators": [
+        "Jon A. Krosnick",
+        "Stanley Presser"
+      ],
+      "institution": "Stanford University; University of Maryland",
+      "publication_date": "2010",
+      "source_class": "methodological_review",
+      "url": "https://web.stanford.edu/dept/communication/faculty/krosnick/docs/2010/2010%20Handbook%20of%20Survey%20Research.pdf",
+      "locator": "pp. 263-265 (chapter overview, 9.1 Conventional Wisdom, 9.1.1 Optimizing versus Satisficing)",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 263-265",
+      "claims_supported": [
+        "Eight conventional-wisdom wording recommendations, including avoiding leading or loaded questions and asking about one thing at a time (p. 264).",
+        "Question-order advice, including filter questions so respondents are not asked irrelevant items (p. 264).",
+        "Satisficing: fatigued or unmotivated respondents shortcut comprehension, retrieval, judgment and response (p. 265).",
+        "The chapter separately reviews acquiescence response bias and methods for avoiding it (p. 263)."
+      ],
+      "limitations": "The p. 264 list is labelled 'conventional wisdom', which the authors distinguish from the methodological research reviewed later; the later sections were not read.",
+      "reuse_status": "cite_and_paraphrase; Emerald copyright, all rights reserved"
+    },
+    {
+      "source_id": "X10",
+      "title": "Crossing the Bridge over Norman's Gulf of Execution: Revealing Feedforward's True Identity",
+      "creators": [
+        "Jo Vermeulen",
+        "Kris Luyten",
+        "Elise van den Hoven",
+        "Karin Coninx"
+      ],
+      "institution": "Hasselt University; University of Technology Sydney; Eindhoven University of Technology",
+      "publication_date": "2013 (CHI 2013, pp. 1931-1940)",
+      "source_class": "conceptual_framework",
+      "url": "https://jovermeulen.com/uploads/Research/VermeulenLuytenVandenHovenConinx_chi2013.pdf",
+      "locator": "PDF pp. 1-4: Introduction, Fig. 1, Background, Feedforward Definitions, Fig. 5",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 1-4",
+      "claims_supported": [
+        "Feedforward tells users what the result of their action will be, before the action (Introduction; quoting Djajadiningrat et al.).",
+        "Feedback bridges the Gulf of Evaluation after action; feedforward bridges the Gulf of Execution before action (Background, Fig. 1).",
+        "Perceived affordances invite a particular action but do not communicate its purpose (Background).",
+        "Wensveen's inherent, augmented and functional feedforward classes (Fig. 5)."
+      ],
+      "limitations": "Conceptual framework with examples, not an effect-size study.",
+      "reuse_status": "cite_and_paraphrase; figures not copied"
+    },
+    {
+      "source_id": "X11",
+      "title": "Representations in Distributed Cognitive Tasks",
+      "creators": [
+        "Jiajie Zhang",
+        "Donald A. Norman"
+      ],
+      "institution": "The Ohio State University; Apple Computer",
+      "publication_date": "1994",
+      "source_class": "theory_with_experiments",
+      "url": "https://pages.ucsd.edu/~scoulson/203/zhang.pdf",
+      "doi": "10.1207/s15516709cog1801_3",
+      "locator": "Cognitive Science 18, pp. 87-88 (abstract; The Representational Effect)",
+      "accessed_date": "2026-09-29",
+      "access_extent": "visual_pdf_pages 87-88",
+      "claims_supported": [
+        "Many tasks require processing information distributed across the internal mind and the external environment (abstract).",
+        "Representational effect: isomorphic representations of the same formal structure can cause dramatically different cognitive behavior (p. 88)."
+      ],
+      "limitations": "Puzzle isomorphs (Tower of Hanoi); transfer to dashboards is this packet's design inference.",
+      "reuse_status": "cite_and_paraphrase"
+    },
+    {
+      "source_id": "X12",
+      "title": "10 Usability Heuristics for User Interface Design",
+      "creators": [
+        "Jakob Nielsen"
+      ],
+      "institution": "Nielsen Norman Group",
+      "publication_date": "1994-04-24; last reviewed 2024-01-30 (as reported)",
+      "source_class": "practitioner_heuristic_original_author",
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "locator": "Heuristics #1, #3, #5, #6, #9; origin paragraph",
+      "accessed_date": "2026-09-29",
+      "access_extent": "summarizer",
+      "claims_supported": [
+        "Heuristics are broad rules of thumb rather than specific usability rules.",
+        "Developed with Rolf Molich in 1990 and refined by Nielsen in 1994.",
+        "#3 addresses an exit; #6 advises making relevant elements, actions and options visible to reduce recall."
+      ],
+      "limitations": "Practitioner heuristics; finding a heuristic violation is a hypothesis about user difficulty, not evidence of it.",
+      "reuse_status": "cite; short quotes only"
+    },
+    {
+      "source_id": "X13",
+      "title": "Open-Loop Response of Control System for Stability Margin Analysis",
+      "creators": [
+        "MathWorks"
+      ],
+      "institution": "MathWorks",
+      "publication_date": "R2026b documentation (as displayed)",
+      "source_class": "official_engineering_documentation",
+      "url": "https://www.mathworks.com/help/slcontrol/ug/open-loop-response-of-control-system-for-stability-margin-analysis.html",
+      "locator": "open-loop response introduction",
+      "accessed_date": "2026-09-29",
+      "access_extent": "Official page independently read by Codex lead; user coursework MATLAB video not accessible.",
+      "claims_supported": [
+        "For the documented control analysis, open-loop response combines the plant and controller and excludes feedback."
+      ],
+      "limitations": "Supports engineering terminology only. Applying open-loop to user-interface feedback is an analogy proposed by this packet, not a MathWorks UI recommendation.",
+      "reuse_status": "paraphrase_and_link"
+    }
+  ],
+  "repositories": [
+    {
+      "source_id": "R01",
+      "title": "mastepanoski/claude-skills",
+      "url": "https://github.com/mastepanoski/claude-skills",
+      "inspected_paths": [
+        "README (repository page)",
+        "skills/cognitive-walkthrough/SKILL.md (raw, summarizer)",
+        "package.json (raw, verbatim)"
+      ],
+      "commit_or_tag_if_observed": "main at access; package version 1.8.0; commit hash not observed",
+      "license": "MIT (package.json and repository page)",
+      "dependencies": "none declared; scripts: validate (node scripts/validate.js), test prints 'No tests yet'",
+      "tests": "none ('No tests yet')",
+      "unique_contribution": "Cognitive walkthrough skill structured on the four Wharton, Rieman, Lewis & Polson (1994) questions and labels success estimates as not measured.",
+      "problems": "The same skill then presents numeric success-rate estimates and projected improvements (e.g., 45% to 67.5%) derived from interface analysis; uncited 44px target rule.",
+      "accessed_date": "2026-09-29",
+      "recommendation": "reference_only: adopt the four-question walkthrough structure by citing Wharton et al. (1994) directly (primary not inspected this session); reject synthetic success-rate numbers; copy no text."
+    },
+    {
+      "source_id": "R02",
+      "title": "wondelai/skills ux-heuristics",
+      "url": "https://github.com/wondelai/skills/blob/main/ux-heuristics/SKILL.md",
+      "inspected_paths": [
+        "ux-heuristics/SKILL.md (summarizer)"
+      ],
+      "commit_or_tag_if_observed": "main at access; skill version 1.6.0; a search-result URL referenced 61ff0cd25b4aa22a621ef4d4029ca675e4913275 but that revision was not the one fetched",
+      "license": "MIT (frontmatter, summarizer-reported)",
+      "dependencies": "none observed",
+      "tests": "none observed",
+      "unique_contribution": "Heuristic-conflict and dark-pattern sections (not read in detail).",
+      "problems": "Uncited '44x44 px' minimum and 'working memory holds ~7 items' statements; overlaps UXHC H1-H10.",
+      "accessed_date": "2026-09-29",
+      "recommendation": "reject: duplicates installed UXHC and repeats the uncited thresholds this packet corrects."
+    }
+  ],
+  "community_leads": [
+    {
+      "source_id": "C01",
+      "title": "Bounded lead check: 'reddit r/UXResearch measuring emotion during usability testing inferring frustration facial expression'",
+      "url": "WebSearch query, 2026-09-29",
+      "result": "No Reddit threads returned. Results were vendor and blog pages (e.g., https://noldus.com/blog/role-emotions-evaluation-website, https://inamo.ai/blog/emotion-analysis-in-ux-research-how-ai-turns-user-reactions-into-actionable-insights) asserting that brow furrowing or frowning indicates frustration.",
+      "disposition": "Practitioner-lead only. Recorded as a common claim that X08 contradicts; used as a counterexample, not evidence.",
+      "accessed_date": "2026-09-29"
+    }
+  ],
+  "user_sources": [
+    {
+      "source_id": "U06",
+      "path": "private source retained by author (U06)",
+      "read": "full",
+      "used_for": "three-layer research model [0026]-[0029]; ethics [0023]; emotion quote attributed to Norman [0025] (unverified)",
+      "source_path_sha256": "78a261758e8be4b28628812f8ab09d6e664ed4a5ba8903344c0ac7db970b296c"
+    },
+    {
+      "source_id": "U07",
+      "path": "private source retained by author (U07)",
+      "read": "notes_excerpt",
+      "used_for": "engagement vs convenience [0014]; ethics [0011]",
+      "path_note": "U07 excerpt only",
+      "source_path_sha256": "e0ffa0ddf27f23b5327d399b59bcac0b7f5fb39bb59debf5f616e01d174a0764"
+    },
+    {
+      "source_id": "U08",
+      "path": "private source retained by author (U08)",
+      "read": "full",
+      "used_for": "attention and inattentional blindness [0012]; emotion and memory [0015]-[0016]; Miller citation volume mismatch [0024]",
+      "source_path_sha256": "5d87630ae71332b2736da2f5c3877dfa202f25ed00f13d16aa4103ab10cdd3a5"
+    },
+    {
+      "source_id": "U09",
+      "path": "private source retained by author (U09)",
+      "read": "full",
+      "used_for": "Fitts [0010]-[0012]; proximity [0013]-[0015]; open-loop control [0016]-[0018]; attention/memory [0019]-[0021]; Matching Mental Models [0022]-[0024]",
+      "source_path_sha256": "467c0722e21a8b961b078072f9d20b2ae131a68312c2252e96bce96e1d9f75e9"
+    },
+    {
+      "source_id": "U10",
+      "path": "private source retained by author (U10)",
+      "read": "full",
+      "used_for": "physical context and cognitive load [0011]-[0018]; transfer caution",
+      "source_path_sha256": "d6515f3e581f9d02a7ed15bac5bec6bb65c3f772dd054d13ff9eaecd4e250e8a"
+    },
+    {
+      "source_id": "U11",
+      "path": "private source retained by author (U11)",
+      "read": "full",
+      "used_for": "PCA four-part usage [0012]; heuristic-evaluation limits [0008]; think-aloud [0014]; triangulation [0015]; unverified quotations [0004], [0005], [0009], [0012], [0015]",
+      "source_path_sha256": "8ad98c2cd7e271c9767f3d84bb04e053740af4dabc9cac615df1165188a782f7"
+    },
+    {
+      "source_id": "U12",
+      "path": "private source retained by author (U12)",
+      "read": "full",
+      "used_for": "user testing vs usability testing distinction [0011] (blog-sourced)",
+      "source_path_sha256": "5904ef1a95b166fa5d4e6836a6b795a1788e875eb80f9ddc5771d4e18adc7c0c"
+    },
+    {
+      "source_id": "U13",
+      "path": "private source retained by author (U13)",
+      "read": "full",
+      "used_for": "double-barreled [0005], leading [0006], context/neutral option [0009], skip logic [0011], ethics [0016]; drop-off chart [0007]-[0008] unverified",
+      "source_path_sha256": "70d50001eb7f12ba6ee10e086fb3a5369277e6216d6f404127b5af76b33401fc"
+    },
+    {
+      "source_id": "U14",
+      "path": "private source retained by author (U14)",
+      "read": "full",
+      "used_for": "three proposed heuristics [0022]-[0033]; Oak critique [0013]-[0019]",
+      "source_path_sha256": "a6bd8db37e254ae2e6cc8a907f8197024f96faced70b325539ef539fcd5edeac"
+    },
+    {
+      "source_id": "U15",
+      "path": "private source retained by author (U15)",
+      "read": "full",
+      "used_for": "PCA three-part [0004]; PCEA proposal [0007]-[0012]; hypothetical Kevin scenario",
+      "source_path_sha256": "4c26eddb86cbafba1e04c3cbdf1765c7ede44e9f3d73d67e591d7f2a79f3836d"
+    },
+    {
+      "source_id": "U16",
+      "path": "private source retained by author (U16)",
+      "read": "notes_excerpt",
+      "used_for": "fidelity chosen by question [0004]-[0008]",
+      "path_note": "U16 excerpt only",
+      "source_path_sha256": "e0ffa0ddf27f23b5327d399b59bcac0b7f5fb39bb59debf5f616e01d174a0764"
+    }
+  ],
+  "local_files_inspected": [
+    {
+      "source_id": "L01",
+      "path": "skills/interaction-resilience/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L02",
+      "path": "skills/design-review/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L03",
+      "path": "skills/responsive-design/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L04",
+      "path": "skills/ux-heuristic-compass/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L05",
+      "path": "skills/ux-heuristic-compass/references/heuristics-checklist.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L06",
+      "path": "skills/ux-heuristic-compass/references/evaluator-bias-guard.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L07",
+      "path": "skills/ux-heuristic-compass/references/evidence-collection-guide.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L08",
+      "path": "skills/ux-heuristic-compass/references/severity-calibration-guide.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L09",
+      "path": "skills/design-studio/references/interaction-resilience.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L10",
+      "path": "skills/design-studio/references/review.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L11",
+      "path": "skills/design-studio/references/research-inputs.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L12",
+      "path": "skills/design-studio/references/context-adaptation.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L13",
+      "path": "skills/design-studio/references/verification.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L14",
+      "path": "runtime/impeccable/skill/reference/harden.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L15",
+      "path": "runtime/impeccable/skill/reference/operate.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L16",
+      "path": "runtime/impeccable/skill/reference/critique.md",
+      "read": "lines 311-435 and 663-832 plus heading grep"
+    },
+    {
+      "source_id": "L17",
+      "path": "runtime/impeccable/skill/reference/adapt.md",
+      "read": "grep for target-size lines only (28, 46, 74, 148)"
+    },
+    {
+      "source_id": "L18",
+      "path": "libraries/ux-oracle/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L19",
+      "path": "libraries/ux-oracle/references/heuristics-detail.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L20",
+      "path": "libraries/ux-oracle/references/methods-deep.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L21",
+      "path": "docs/procedures/interaction-resilience.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L22",
+      "path": "docs/procedures/design-review.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L23",
+      "path": "docs/procedures/responsive-design.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L24",
+      "path": "skills/dashboard-design/SKILL.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L25",
+      "path": "external installed plugin: writing-quality-studio/skills/natural-prose-editor/references/survey-wording-handoff.md",
+      "read": "full"
+    },
+    {
+      "source_id": "L26",
+      "path": "skills/design-studio/references/ux-writing.md",
+      "read": "line 5 and surrounding context; verified by Codex",
+      "finding": "Destructive or consequential control copy states the consequence before confirmation."
+    },
+    {
+      "source_id": "L27",
+      "path": "libraries/frontend-design-premium/skills/frontend-design-premium/references/decision-matrix.md",
+      "read": "lines 37-46 and surrounding context; verified by Codex",
+      "finding": "Existing confirmation-strength matrix selects no confirmation/optional Undo, confirmation or Undo, and stronger confirmation by risk."
+    }
+  ],
+  "atlas": [
+    {
+      "source_id": "A01",
+      "path": "research-2026-09-29/shared/atlas-retrieval.json",
+      "read": "lines 1-240 and 1605-1755; grep of titles/queries",
+      "finding": "Six keyword queries (dashboard, Fitts, cognitive load, rhetoric, graphic design, positioning); semantic_status.available=false. 'Fitts' matched only personas:ux-designer vocabulary list. 'cognitive load' matched terms:verbosity-control and terms:prompt-template-engineering (prompt-engineering terms) and personas:neurodivergent-adhd-autistic (goals 'Low cognitive load', 'Pause and resume'; pain points 'Sudden modals', 'Motion overload'). personas:ux-designer carries quality flag missing_source_record. No retrieved entry defines PCEA, mental models, feedforward, workload, interruption or recognition vs recall."
+    }
+  ]
+}

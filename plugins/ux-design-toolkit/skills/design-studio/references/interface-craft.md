@@ -1,0 +1,49 @@
+# Interface craft in the existing system
+
+Use for a concrete component/detail polish request ("feels off", nested corners, optical alignment, icon weight, image edges, wrapping or a jarring transition). A routine content edit, product strategy question or already-satisfactory screen does not need this pass. Design Review owns critique/polish; Motion and Performance owns motion diagnosis. This reference supplies conditional detail under those existing owners.
+
+Read the [complete source method](../../../libraries/interface-craft/SKILL.original.md), then the complete matching category: [surfaces](../../../libraries/interface-craft/surfaces.md), [typography](../../../libraries/interface-craft/typography.md), [icons](../../../libraries/interface-craft/icons.md), [animations](../../../libraries/interface-craft/animations.md), or [performance](../../../libraries/interface-craft/performance.md). Preserve its applicable scope/coverage, concrete before/after findings, considered alternatives, verification and verdict. The host decisions below govern where source preferences conflict with the actual brief or stronger evidence; examples are candidates to test, not mandatory values.
+
+## Establish the bounded pass
+
+1. Identify the requested path, framework, styling system, shared tokens/components and approved appearance. Use the project's CSS/Tailwind/CSS-in-JS convention; do not add a second styling system, motion dependency or font to polish one control.
+2. Capture the relevant rendered states and 3–8 anchors using the owning review method. Name each category actually inspected or not reviewed. Use a quick pass for the primary path; use full category coverage when the user requests it or the defect warrants it. Do not expand the scope merely because the upstream defaults to full mode.
+3. Fix broken/misleading/inaccessible behavior before visual preferences. Keep domain complexity, meaningful labels, structural boundaries, consequence copy and real assets. A screenshot is visual evidence, not proof of keyboard operation or outcome.
+
+## Surfaces and optical geometry
+
+For closely nested rounded surfaces with uniform inset, test `outer radius = inner radius + inset` as the geometric starting point; account for the actual border/inset and inspect the rendered corner. When layers are far apart, padding is unequal, shapes are pills or the brand deliberately differs, choose each role independently. The source's 24px cutoff is a heuristic, not a token or accessibility standard. Do not change the product's radius scale globally to fix one mismatch.
+
+Check visible artwork and glyph mass, not only bounding boxes. For a triangle, asymmetric icon or text-plus-icon control, test a small optical offset or side-padding adjustment; inspect both directions and representative labels before accepting it. Source examples such as a 2px offset are starting experiments. Fix a reusable SVG's actual geometry at its owner when authorized rather than accumulating margins at every call site. Preserve native icon geometry when an offset would disrupt other states.
+
+Determine whether an edge communicates separation, an input boundary, selection/focus, or depth. A layered transparent shadow may improve elevation across varied backgrounds; retain meaningful borders and forced-colors visibility. Do not replace all input boundaries or state outlines with shadows. Test light/dark and image-backed cases actually in scope. A subtle inset image outline can distinguish a disappearing edge without layout shift; apply it only to the affected image role, reuse the approved token, and judge the actual crop/background. Pure black/white alpha examples are options, not universal image rules.
+
+Expand a small control's effective hit area only when it improves target acquisition. Inspect overlap with adjacent targets, stacking, scroll/drag interception and actual pointer/touch activation. A pseudo-element does not automatically make the intended hit region work. Use the task's conformance target and [target acquisition](human-systems/target-acquisition.md); upstream 40px/44px values are ergonomic conventions, not universal minimums. Do not shrink below a required target size simply to avoid collisions: adjust layout or grouping at the correct owner.
+
+## Type and icon rendering
+
+Use the approved type family and real copy. Try balanced wrapping for short headings and pretty wrapping for short/medium text when it addresses an observed orphan or reading-rhythm problem. Recheck intended browsers, locales, zoom and loaded/fallback fonts; line limits and implementation behavior vary. Preserve deliberate line breaks, code, long-form reading and dense data conventions. Do not apply new wrapping globally without representative review.
+
+For changing counters/timers or numeric comparisons, test tabular numerals with the actual font and digit sequence. Existing [system craft](system-craft.md) owns numeric alignment. Nonstandard macOS smoothing can make type thinner: compare at normal size and reduced contrast before adopting it; keep the incumbent rendering unless the observed result improves. Never install a proprietary font merely to satisfy the source.
+
+Match icon visual weight to adjacent text, test the set's native render grid and smallest intended size, and simplify excessive detail. The source's 1.5/2/2.5px strokes and 1em–1.25em sizes are examples, not values to force onto a different icon system. Reuse one compatible family. For an actual icon-library search or SVG retrieval, route to `$graphic-design-studio:graphic-asset-compositing`; a generic design-reference choice stays with the local UX lookup. This route does not claim an upstream icon MCP or provider is installed. Where appropriate, use `currentColor` for state recoloring; preserve deliberate multicolor artwork and visible state distinction. Outline/fill variants can distinguish active states but require the correct semantic/accessible state and another reliable cue. Icon-only controls need accessible names; decorative glyphs are hidden from assistive technology. Flip direction-dependent actions in RTL only after testing their meaning; keep logos and nondirectional objects intact and inspect composite glyphs part by part.
+
+## Motion and property costs
+
+Apply [motion and performance](motion-performance.md) first: intent, interruption, reduced motion and measured bottleneck. Inspect a problematic transition slowly (for example 10% browser replay) to locate snapping, incorrect order or a late frame, then repeat at normal speed on the real interaction. Slow replay is a diagnosis aid, not a user experience or performance measurement.
+
+For interactive toggles/open-close, CSS transitions can retarget the latest state; an existing animation system can also work if cancellation and retargeting are implemented. Reserve staged keyframes for appropriate one-shot sequences. Do not assert keyframes or libraries are inherently incapable of interruption. Verify rapid reversals, repeated triggers, async changes and focus. If an infrequent entrance communicates hierarchy, split into semantic groups with a tested stagger; preserve full accessible text and never delay essential action. Shorter/smaller exits or immediate removal should match the task, not a fixed enter/exit ratio.
+
+For an authorized icon swap, use the installed package and nearby import convention, or a CSS overlay/cross-fade without adding a dependency. Keep a stable layout box, hide decorative duplicate glyphs from assistive technology and preserve the control's semantic state. Source scale/blur/spring/bounce values are tunable examples; prefer the smallest useful cue, an instant state for repeated operations and the verified reduced-motion alternative. Press scale is optional; it must not alter activation, target geometry or readable content. A component opt-out can preserve quiet/dense workflows.
+
+Suppress accidental first-mount transitions where the initial state is already settled; `initial={false}` is specific to a present package and can break an intended first entrance. Check a fresh visit and subsequent state changes. Specify properties that actually change so an unrelated layout/token edit does not animate accidentally. Tailwind transition utilities depend on the installed version; check generated behavior. `will-change` is conditional on a diagnosed first-frame problem: profile the actual target, bound the hint's lifetime and number of layers, and remeasure memory/frame cost. Filters are not guaranteed cheap or GPU-composited across browsers.
+
+## Findings, alternatives and finish
+
+Consolidate repeated causes. Give severity, exact anchor/file/component, current behavior, proposed replacement and concrete user impact; include each actual change or proposal within scope. Do not turn source finding caps or rejected-candidate counts into quotas. Record real alternatives rejected because they conflict with the approved system, accessibility, performance or task; omit invented filler.
+
+After corrections, repeat the affected journey/states, optical anchors, realistic strings, relevant viewports, keyboard/focus and reduced-motion behavior. Name exact observed checks, untested states and residual limitations. A high severity task/accessibility defect blocks acceptance; remaining findings or missing evidence qualify readiness. A parser/scanner pass and preserved source files establish neither visual quality nor a working runtime.
+
+## Source and admission boundary
+
+Adapted 2026-10-02 from Jakub Krehel's MIT-licensed method at `35545ea1512ad59fa463e6b1f95ca9c052981fe6`; full source and [license/provenance](../../../libraries/interface-craft/PROVENANCE.md) are preserved. Existing UX methods supply hierarchy, accessibility evidence, state/journey verification and performance measurement. No provider, installer, dependency, hook, account or background runtime is added.
