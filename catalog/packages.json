@@ -4,86 +4,114 @@
     {
       "id": "stitch-design-studio",
       "name": "Stitch Design Toolkit",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Manual Stitch workflows for design exploration, systems, components, prototypes, exports, and evidence recovery.",
       "skills": 8,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Full original workflow; no provider implementation",
       "category": "Productivity",
       "requirements": [
         "Stitch account",
         "Host browser or computer-use tools"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/stitch-design-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "davinci-resolve-toolkit",
       "name": "DaVinci Resolve Toolkit",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Use DaVinci Resolve from Codex with verified app control, interchange, scripting and AI-assisted workflows.",
       "skills": 1,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete method; personal setup records excluded",
       "category": "Creativity",
       "requirements": [
         "DaVinci Resolve",
         "Host computer-use tools or verified scripting route"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "teach"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/davinci-resolve-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "artcraft-design-toolkit",
       "name": "ArtCraft Design Toolkit",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "On-demand CLI and MCP gateway for seven ArtCraft creative apps, with one focused skill.",
       "skills": 1,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Full original gateway and workflow; provider binaries excluded",
       "category": "Creativity",
       "requirements": [
         "Python >=3.10",
         "ArtCraft CLI for provider operations"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/artcraft-design-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "figma-design-workflow",
       "name": "Figma Design Workflow",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Six complete methods for Figma operation, design-partner iteration, source references and visual QA.",
       "skills": 6,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete method package; Figma service remains external",
       "category": "Creativity",
       "requirements": [
         "Figma account",
         "Host Figma connector or browser tools"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/figma-design-workflow/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "video-production-workflow",
       "name": "Video Production Workflow",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Nineteen video methods with a Python renderer, timeline interchange, Loom walkthroughs and review packets.",
       "skills": 19,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete standalone runtime and methods; separate Video Templates MCP is optional",
       "category": "Creativity",
       "requirements": [
@@ -92,96 +120,131 @@
         "FFprobe",
         "A usable font for typography"
       ],
-      "license": "MIT; bundled upstream MIT and Apache-2.0 notices apply",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "provenance": "PUBLIC_FILE_MANIFEST.json",
       "jobs": [
         "design",
         "teach"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/video-production-workflow/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.4.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "instructional-design-studio",
       "name": "Instructional Design Studio",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Twelve complete methods for learning experiences, lesson alignment, practice and assessment.",
       "skills": 12,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete methods with 31 original assessment adaptations; restricted source summaries and private links excluded",
       "requirements": [
         "Host file and reasoning tools"
       ],
-      "license": "MIT code; CC-BY-SA-4.0 prose",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "category": "Education",
       "jobs": [
         "teach",
         "research"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/instructional-design-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "workshop-facilitator",
       "name": "Workshop Facilitator",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Eight complete workshop design, activity selection, live facilitation, rehearsal, dialogue, decisions, debrief and evidence-synthesis skills. Private Atlas bindings, archive text/scans and private history locators are excluded; adapted source methods retain attribution and share-alike.",
       "skills": 8,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete original methods with current attributed Liberating Structures adaptations",
       "requirements": [
         "Host file and reasoning tools"
       ],
-      "license": "MIT code; CC-BY-SA-4.0 prose",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "category": "Education",
       "jobs": [
         "teach",
         "research"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/workshop-facilitator/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "game-creation-studio",
       "name": "Game Creation Studio",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Twenty-five methods for game design, prototypes, playtesting and tabletop facilitation with live-session helpers.",
       "skills": 25,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete original workflow and retained MIT methods; external game-engine tools separate",
       "requirements": [
         "Host file and reasoning tools",
         "Your selected game engine for builds"
       ],
-      "license": "MIT with retained upstream notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "category": "Creativity",
       "jobs": [
         "table",
         "build"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/game-creation-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.3.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "solo-service-operations",
       "name": "Solo Service Operations",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Eight methods for invoices, cash, paid-service coordination and Gmail review with an offline receipt gate.",
       "skills": 8,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete methods and synthetic fixtures; no client records or account connectors",
       "requirements": [
         "Python 3.9+ for reconciliation; POSIX file locking for optional Gmail gate",
         "Your own source records and explicitly authorized communication providers"
       ],
-      "license": "Apache-2.0 with retained MIT role-source notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "category": "Productivity",
       "jobs": [
         "career",
         "build"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/solo-service-operations/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.3.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "build-mcp-apps",
       "name": "Build MCP Apps",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "skills": 2,
       "description": "Build or improve interactive MCP apps and their servers, from a clear user task through protocol and host verification. Complete public edition: 2 retained skill heads; no restricted source methods omitted.",
       "edition": "Complete methods and Apache source; no provider-hosted service",
-      "license": "Apache-2.0",
-      "distribution": "released",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "distribution": "prepared",
       "category": "Developer tools",
       "jobs": [
         "build"
@@ -189,17 +252,24 @@
       "requirements": [
         "Host coding tools",
         "Runtime named by the selected workflow"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/build-mcp-apps/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "1.0.2",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "development-studio",
       "name": "Development Studio",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "skills": 21,
       "description": "Twenty-one software workflows with complete native, Go, GitHub, local pipeline, MCP and debugging procedures.",
       "edition": "Complete source methods, query/scaffolding helpers and synthetic fixtures; authorized Go corpus and platform providers supplied separately",
-      "license": "MIT AND Apache-2.0",
-      "distribution": "released",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "distribution": "prepared",
       "category": "Developer tools",
       "jobs": [
         "build"
@@ -207,12 +277,19 @@
       "requirements": [
         "Host coding tools",
         "Runtime named by the selected workflow"
-      ]
+      ],
+      "licensing": {
+        "scope": "plugins/development-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "video-templates",
       "name": "Video Templates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "skills": 1,
       "description": "Seven pinned animation methods, public example metadata and complete revisioned local storyboarding.",
       "edition": "Complete runtime, 30-family/38-example metadata catalog and seven MIT methods; external media and creative reference bundles excluded",
@@ -221,18 +298,25 @@
         "MCP and Pillow dependencies",
         "MCP Apps supporting host for the widget"
       ],
-      "license": "MIT with retained Animate notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "teach"
       ],
       "category": "Creativity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/video-templates/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "data-visualization-toolkit",
       "name": "Data Visualization Toolkit",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "skills": 13,
       "description": "Choose, build, critique, and verify truthful data visualizations with complete web visualization methods across charts, maps, diagrams, dashboards, stories, and exports.",
       "edition": "Complete original workflows, runtime and MIT/Apache methods; proprietary Visualize and unlicensed Scientific source libraries excluded",
@@ -240,95 +324,130 @@
         "Python 3.12 and declared MCP dependencies",
         "MCP Apps supporting host for the widget"
       ],
-      "license": "MIT AND Apache-2.0; retained dependency notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "research",
         "design",
         "build"
       ],
       "category": "Productivity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/data-visualization-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.2",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "activities-templates",
       "name": "Activities Templates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Reusable activity and method catalog, scoped retrieval and chooser runtime. Source notes and private data stay externally bound.",
       "skills": 1,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete runtime and synthetic example; private activity corpus excluded",
       "requirements": [
         "Python 3.12 and declared MCP dependencies",
         "Your own authorized activity catalog"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "teach",
         "research"
       ],
-      "category": "Productivity"
+      "category": "Productivity",
+      "licensing": {
+        "scope": "plugins/activities-templates/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "design-templates",
       "name": "Design Templates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Reusable visual templates with source-bound design handoffs, token checks and small adaptation recipes.",
       "skills": 1,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete runtime, source chooser and token checks; private template collection excluded",
       "requirements": [
         "Python 3.12 and declared MCP dependencies",
         "Your own authorized template collection"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
       ],
-      "category": "Productivity"
+      "category": "Productivity",
+      "licensing": {
+        "scope": "plugins/design-templates/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "reasoning-studio",
       "name": "Reasoning Studio",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Four methods for testing claims, reasoning, assumptions and framework selection from authorized sources.",
       "skills": 4,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete reasoning and framework-selection methods; recipient corpus binding plus eight original synthetic framework examples",
       "requirements": [
         "Host reasoning tools",
         "Explicit binding file for optional helper"
       ],
-      "license": "MIT code; CC-BY-SA-4.0 prose",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "research",
         "build"
       ],
-      "category": "Productivity"
+      "category": "Productivity",
+      "licensing": {
+        "scope": "plugins/reasoning-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "survey-studio",
       "name": "Survey Studio",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Focused survey strategy, question design, sampling, logic, accessibility/privacy, pilot QA, exports and analysis/codebooks. 8 retained skill heads. One restricted supplied QuestionTypes.txt archive excluded; all original procedure/helper content retained.",
       "skills": 8,
-      "distribution": "released",
+      "distribution": "prepared",
       "edition": "Complete original methods and helpers; restricted supplied question-type archive excluded",
       "requirements": [
         "Host file tools",
         "Python for validation and export helpers"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "research",
         "teach"
       ],
-      "category": "Productivity"
+      "category": "Productivity",
+      "licensing": {
+        "scope": "plugins/survey-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "discord",
       "name": "Discord",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "skills": 3,
       "description": "Three complete workflows for scoped Discord use, account boundaries and recipient-configured bot MCP setup.",
       "edition": "Complete original workflows and optional launcher; server, credentials and private index are external",
@@ -341,13 +460,20 @@
         "research"
       ],
       "category": "Productivity",
-      "license": "MIT",
-      "distribution": "released"
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/discord/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "mac-ops-toolkit",
       "name": "Mac Operations Toolkit",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "skills": 10,
       "description": "Ten Mac workflows for recovery, verified copies, storage catalogs and memory diagnosis.",
       "edition": "Complete original methods and shell helpers; receiving-host storage roles require configuration",
@@ -359,13 +485,20 @@
         "build"
       ],
       "category": "Productivity",
-      "license": "MIT",
-      "distribution": "released"
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/mac-ops-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.3.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "work-management",
       "name": "Work Management",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "skills": 14,
       "description": "Fourteen methods for project structure, delivery, plugin maintenance, GitHub, vaults and cross-host exchange.",
       "edition": "Complete methods, helpers and opt-in hooks; personal profile, goals and logs replaced by recipient templates",
@@ -373,19 +506,26 @@
         "Host file and coding tools",
         "Explicit receiving-host bindings for optional helpers"
       ],
-      "license": "MIT AND Apache-2.0 with retained upstream notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "build",
         "career",
         "research"
       ],
       "category": "Productivity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/work-management/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.3.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "oppia-research-compass",
       "name": "Oppia Research Compass",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "skills": 10,
       "description": "10 complete Oppia research methods and full read-only 10-tool runtime. Private team evidence DB and project handles excluded; schema-compatible zero-row corpus supplied.",
       "edition": "Complete methods and AGPL runtime with empty schema-only database; private team research excluded",
@@ -393,18 +533,25 @@
         "Python and declared MCP dependencies for optional server",
         "Your own authorized research corpus"
       ],
-      "license": "AGPL-3.0 code; CC-BY-SA-4.0 prose",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "research",
         "teach"
       ],
       "category": "Productivity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/oppia-research-compass/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.4.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "graphic-design-studio",
       "name": "Graphic Design Studio",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "skills": 12,
       "description": "Twelve design methods with production helpers, a four-tool MCP runtime, presentations, plotting and pet workflows.",
       "edition": "Complete design methods and original production runtime; retained Apache pet workflow; optional providers remain external",
@@ -413,18 +560,25 @@
         "Design Templates for optional chooser",
         "Host image tools for generation"
       ],
-      "license": "MIT first-party runtime and methods; MIT/Apache-2.0 imports; CC-BY-SA-4.0 methodology; optional PyMuPDF separately licensed AGPL/commercial",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
       ],
       "category": "Creativity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/graphic-design-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.3.0",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "brand-templates",
       "name": "Brand Templates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "skills": 1,
       "description": "Complete brand-kit chooser and verified source-closure handoffs for explicitly supplied external collections.",
       "edition": "Full audited 104-kit collection and runtime; separate Fresh Curiosity A2 assets excluded",
@@ -432,18 +586,25 @@
         "Python 3.12 and declared MCP dependencies",
         "MCP Apps supporting host for the chooser"
       ],
-      "license": "MIT original code and kits; bundled fonts retain SIL OFL notices",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "design",
         "build"
       ],
       "category": "Creativity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/brand-templates/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     },
     {
       "id": "writing-templates",
       "name": "Writing Templates",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "skills": 1,
       "description": "Complete writing chooser, routed source-verified handoffs and offline draft QA for explicitly supplied external collections.",
       "edition": "Complete runtime and source integrity checks; private and uncleared real-voice corpus excluded",
@@ -451,13 +612,20 @@
         "Python 3.12 and declared MCP dependencies",
         "Your own authorized writing-source catalog"
       ],
-      "license": "MIT",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
       "jobs": [
         "write",
         "teach"
       ],
       "category": "Creativity",
-      "distribution": "released"
+      "distribution": "prepared",
+      "licensing": {
+        "scope": "plugins/writing-templates/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.1",
+        "priorGrantUnchanged": true
+      }
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Workshop Facilitation Toolkit
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Help a group reach a concrete result through an agenda, activity choice, live facilitation, evidence capture, decision, debrief or rehearsal.
 
 ## Start with a real task
@@ -58,4 +60,4 @@ Bring the audience/group, intended observable result, time and approved source m
 
 Example when a provider is missing: "I can prepare the complete lesson/workshop plan from the supplied material. This host currently has no authorized board/LMS editing route, so publishing, participant-role tests and rendered interaction remain unverified. I will provide the run sheet, materials and acceptance checks for the receiving environment." This is an authored expected boundary, not a recorded live execution.
 
-Original scripts are MIT. Prose, roles and original teaching/adaptation material are CC BY-SA 4.0 with retained source attribution. Read LICENSE and SOURCE-ATTRIBUTIONS.md. Historical package checks and source observations do not prove learning, a live workshop, public LMS launch, native installation or provider availability. Current static/helper checks are summarized in docs/release-validation.md.
+Original scripts in this edition are AGPL-3.0-only. Prose, roles and original teaching/adaptation material are CC BY-SA 4.0 with retained source attribution. Read LICENSE and SOURCE-ATTRIBUTIONS.md. Historical package checks and source observations do not prove learning, a live workshop, public LMS launch, native installation or provider availability. Current static/helper checks are summarized in docs/release-validation.md.

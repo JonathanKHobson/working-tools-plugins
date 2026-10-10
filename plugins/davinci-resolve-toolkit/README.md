@@ -1,5 +1,7 @@
 # DaVinci Resolve Toolkit
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Operate a Resolve project with edition-aware checks, precise timeline edits and verified handoffs. This package contains the complete Resolve operation skill and two supporting references. It does not contain Resolve, an MCP server, or a claim that scripting works in every edition.
 
 Install the package using the [shared guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/install.md). You need your own Resolve installation and a host with computer-use tools, or a separately verified scripting/interchange route. [Video Production Workflow](https://github.com/JonathanKHobson/working-tools-plugins/tree/main/plugins/video-production-workflow) supplies optional timeline interchange and media QA.

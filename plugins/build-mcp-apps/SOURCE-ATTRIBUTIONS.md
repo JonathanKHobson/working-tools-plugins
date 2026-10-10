@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 1.0.3, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source attributions
 
 Public edition of build-mcp-apps; original integration by Jonathan Kyle Hobson. Source tree has no enclosing Git checkout on the preparation host; exact canonical source/output SHA-256 identities are in PROVENANCE.json.

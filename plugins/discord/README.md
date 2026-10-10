@@ -1,5 +1,7 @@
 # Discord
 
+Current edition **0.2.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity.
 
 ## What you can do

@@ -1,5 +1,7 @@
 # Writing Templates
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Complete original first-party writing resource selection, base/module routing, source verification, handoff and offline draft QA runtime by Kyle Hobson. This public edition includes the actual MCP app and chooser, with three core tools and one resource, plus two optional private feedback tools.
 
 The original 53-resource writing collection, style guides, historical readings, demonstrations, axis profiles, artwork and prose companions is excluded. The default chooser is empty. Supply a collection you are authorized to use, or create the clearly labelled synthetic contract fixture below. The fixture verifies software behavior; it is not a substitute collection or a demonstration of brand quality or writing style.
@@ -34,4 +36,4 @@ Run `"${WRITING_TEMPLATES_PYTHON}" -B -m unittest discover -s tests -p 'test_pub
 
 ## Rights and support
 
-[MIT](LICENSE) covers the authorized first-party public runtime, chooser and authored test code. External collection rights remain separate. No private corpus, personal voice samples, brand artwork, provider assets, credentials or host configuration is included. See [third-party notices](THIRD_PARTY_NOTICES.md) and exact source/output hashes in `PROVENANCE.json`. Report package version, host and a synthetic reproduction through the Working Tools repository; support is best effort.
+[AGPL-3.0-only](LICENSE) covers first-party code; [CC BY-SA 4.0](legal/LICENSE-DOCS-CC-BY-SA-4.0.md) covers original documentation, methods and eligible templates. External collection rights remain separate. No private corpus, personal voice samples, brand artwork, provider assets, credentials or host configuration is included. See [third-party notices](THIRD_PARTY_NOTICES.md) and exact source/output hashes in `PROVENANCE.json`. Report package version, host and a synthetic reproduction through the Working Tools repository; support is best effort.

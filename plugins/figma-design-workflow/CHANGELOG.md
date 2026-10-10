@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+Apply the Compass license model to this new edition of first-party contributions. Preserve all earlier grants and unchanged upstream notices. Add explicit file scopes, attribution and reserved-mark boundaries. Operative method, helper and runtime bodies are unchanged.
+
 ##0.2.0
 
 Retain full eligible standalone methods and support with explicit recipient dependencies, exact source rights/provenance and bounded synthetic verification.

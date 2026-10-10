@@ -1,6 +1,6 @@
 {
   "package": "davinci-resolve-toolkit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "source_owner": "davinci-resolve-toolkit",
   "source_revision": "Source tree not versioned at export; per-file hashes identify the reviewed input.",
   "edition": "Portable first-party implementation; provider software and personal configuration excluded.",
@@ -10,21 +10,195 @@
       "source_sha256": "e5be773b135940d8910ab031838209182213a524cd5ab0174dfa008f8ac49058",
       "output_sha256": "fbd7635e4fd5d81e14e024d5f48245ed054b5bf519e9f8acfc3ca68afc039d8a",
       "transformed": true,
-      "rights": "First-party original work; MIT public edition"
+      "rights": "First-party original work; MIT public edition",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
     },
     {
       "source_relative": "skills/resolve-studio/references/control-and-finishing.md",
       "source_sha256": "09ace70a23c113d31d7ffac7393a21141686667156b167180d32a88085defb69",
       "output_sha256": "09ace70a23c113d31d7ffac7393a21141686667156b167180d32a88085defb69",
       "transformed": false,
-      "rights": "First-party original work; MIT public edition"
+      "rights": "First-party original work; MIT public edition",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
     },
     {
       "source_relative": "skills/resolve-studio/references/resolve-routes.md",
       "source_sha256": "96eebf330fe26bb733c86960f95653d91bafad639ccd3e3b146a6d478d563a57",
       "output_sha256": "627a49add74b2b0f81be17b84880780cc56719dedd176e5c42ae8ef855655e41",
       "transformed": true,
-      "rights": "First-party original work; MIT public edition"
+      "rights": "First-party original work; MIT public edition",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "output_sha256": "dac32c799415b70b42513ad360fd0c067c1b43802e01a89ad2f5e5553c5ffbf0",
+      "bytes": 423,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "output_sha256": "9be8fb8dbfb9427a1bd34c05448be51b6a14d7563f240564cf35c4bc2aa74b2e",
+      "bytes": 1293,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "output_sha256": "fcd0c73cdba05eaf9d7b5d25548aa6bdf41b01e035ee3af93d50e602b1845388",
+      "bytes": 558,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "LICENSE",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "LICENSE-SCOPE.json",
+      "output_sha256": "1ec394b70a310efa7f4491eea3996e66d48de43b4a2978b9be9903c9d1bf6221",
+      "bytes": 7274,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change."
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "bytes": 1904,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "README.md",
+      "output_sha256": "25ce9fc516b2587e3c151e503ce5e0cf81ce77512eb1d670dd8a91e634b6d8ff",
+      "bytes": 1623,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "output_sha256": "5d7590b0f93dd25dad386a4b9d0cc6a6eafcc02368384e3a6c0d72ded6ee3821",
+      "bytes": 940,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "bytes": 1112,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "bytes": 1106,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "bytes": 151,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/LICENSE",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "bytes": 1077,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/THIRD_PARTY_NOTICES.md.txt",
+      "output_sha256": "ed74b66245469c19ee06df78e05c4bbe9a50977d52a853f2f60c4adfee4fc8e7",
+      "bytes": 457,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/release-license-record.json",
+      "output_sha256": "5dee1a6f490f7af793b775bb54c435bc39f6217bf917ba1dbb18ef7b7c4e5496",
+      "bytes": 702,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "plugin.json",
+      "output_sha256": "4a7e9aad741c14344b66045caa91e1ca0862059beb20c69867ef07806441cdc9",
+      "bytes": 1334,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
     }
-  ]
+  ],
+  "license_transition": {
+    "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+    "prior_version": "0.1.1",
+    "prior_grants_preserved": true,
+    "operative_bodies_unchanged": true,
+    "scope_inventory": "LICENSE-SCOPE.json",
+    "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  }
 }

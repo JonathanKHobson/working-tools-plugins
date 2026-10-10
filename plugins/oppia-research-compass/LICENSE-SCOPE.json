@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "package": "oppia-research-compass",
+  "version": "0.4.2",
+  "author": "Jonathan Kyle Hobson",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "9ba2911e65f4be21fe58548237e3b9717a4645e6804f006d6eabc891b1f3060c"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "8d84030f5bb1a3f321f76f9dfe07c92a8211c19b3c853af756f83d41453d3f7f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8cf0230136ae701764d66cc7cc70f731223eaa99b568b443fe1e09245ec4896c"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5"
+    },
+    {
+      "path": "NOTICE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f0af1e5822eaccca4cb285a4c352565f4716c876ee920ec2b13b680202784927"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "da7e4440078b572325d973499678ab421b6a01c62b3eabfcd7c8fa3b735359a1"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "07b2ab84c1421785cf8ea90bf8c475d6d2eb3d83716bc21e9c310cb073680487"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710"
+    },
+    {
+      "path": "legal/prior-grants/0.4.1/LICENSE",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/prior-grants/0.4.1/LICENSE-DOCS-CC-BY-SA-4.0.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83"
+    },
+    {
+      "path": "legal/prior-grants/0.4.1/SOURCE-ATTRIBUTIONS.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "5eb49a387950a6c473aaee931276c2cb25bbfb8513aa214f44e2d6c6a245bad7"
+    },
+    {
+      "path": "legal/prior-grants/0.4.1/THIRD_PARTY_NOTICES.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "afd9c40a0526fcdc2012b4874de4b5bb815d22b803b42e0485e79a625a359f19"
+    },
+    {
+      "path": "legal/prior-grants/0.4.1/release-license-record.json",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "c1d761a276aeb2f42845e23c9e95f5cfe80256add2adffc500a70935bf791246"
+    },
+    {
+      "path": "mcp/oppia-research-compass/LICENSE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "mcp/oppia-research-compass/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83"
+    },
+    {
+      "path": "mcp/oppia-research-compass/NOTICE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f"
+    },
+    {
+      "path": "mcp/oppia-research-compass/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "faa62f27a5abe7f91c9cfaa035d04bd436bae5bf9dbaaf7f59ae25bfcacc001f"
+    },
+    {
+      "path": "mcp/oppia-research-compass/SPEC.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a341eab325109985cf8154dd07fa330abbedee5c3ed34e5cdf50d4afc61ac533"
+    },
+    {
+      "path": "mcp/oppia-research-compass/THIRD_PARTY_NOTICES.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "594bbd7e143f74355f8481977687a2bb8544fdead60330809a0d974362e90d59"
+    },
+    {
+      "path": "mcp/oppia-research-compass/data/oppia_research.sqlite",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "344f0e750a91903209dbcb38512d61f86b42eba2de2ca8fb2e61e03049f759d5"
+    },
+    {
+      "path": "mcp/oppia-research-compass/data/schema.sql",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "f08f8914f560e71d9a646b654852f76ae9a119043110abeedbb40314497163a8"
+    },
+    {
+      "path": "mcp/oppia-research-compass/manifest.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "5f7340768e5b9c6c9eb0ef86ab4b2e1360e70136badb6a50f7a2b3785da04af7"
+    },
+    {
+      "path": "mcp/oppia-research-compass/mcpb_launcher.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "671891879596b72de46d1530ad0321f24fa1910ab520daa50fb953daefcfba34"
+    },
+    {
+      "path": "mcp/oppia-research-compass/oppia_research_compass/__init__.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "b31e270efcc925f7f63e6445c6e878640f16c3407c55661039424780291becfc"
+    },
+    {
+      "path": "mcp/oppia-research-compass/oppia_research_compass/contracts.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d0ca80302f39489d6408a58c168ad822cd5ada7a6e699222b04e712d2818a5c7"
+    },
+    {
+      "path": "mcp/oppia-research-compass/oppia_research_compass/repository.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "07a01bebce50a81fc3e0caa3a2137b8cde16ae6b4d4d4d2dce4f8419f5745c71"
+    },
+    {
+      "path": "mcp/oppia-research-compass/oppia_research_compass/server.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "b8a842152f31f5815a19a30696910aa05b559db8d7270d1f2a43e779ffa58b4d"
+    },
+    {
+      "path": "mcp/oppia-research-compass/oppia_research_compass/service.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6e1e2cdfe90d49e58f271bcf504214d094738fa6bccc7a29f88a3d722c609426"
+    },
+    {
+      "path": "mcp/oppia-research-compass/pyproject.toml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3c51d33f031da56af5cf9f4c4e0563f2f811f70e848f688867a5b090fc9900a6"
+    },
+    {
+      "path": "mcp/oppia-research-compass/server.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "e686835dadc40943b4440208ec6071a3f799242ab89ad41cab0faa5d36370172"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7a96c5c222b1bdc1a98d80f2030251e1ec6a6ee9ea77abc8f7d033bf79bc78b7"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "31f0a454fcaed18a178ea11140e9ea305cdc4efd9a61cec0fdbcb47f6ab87e93"
+    },
+    {
+      "path": "references/professional-agents/research-lead.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "c1903b2ec17bda4864c28335039c24b489e572e212adc7834cdb1108e4b28339"
+    },
+    {
+      "path": "references/professional-agents/ux-researcher.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "227659d7d4c70d76487d6d39b60b67e917f4a9fcf4dc7ecb9200e41d09801723"
+    },
+    {
+      "path": "skills/oppia-competitive-analysis/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d3ae3614ca36853548e2c12c1ffeda6ca43c782a263cd2d989f293f658d5db80"
+    },
+    {
+      "path": "skills/oppia-cuj-research/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f9cbaeb024aaabed08353cd136c38da86e43575e9331ff50d1e2b9a981751d5c"
+    },
+    {
+      "path": "skills/oppia-heuristic-evaluation/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ffc7e5cc2688dcf00d08aca8d4e2b719330de61f3e406625d4b0ca8775af095e"
+    },
+    {
+      "path": "skills/oppia-interview-study-design/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "df905338efddd97091bea1f68a9d2b1af224fe187eb80beaab20891e4bf38a7d"
+    },
+    {
+      "path": "skills/oppia-netnography/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "309b377c5652598cf766ae2e2a3cac67cc4209123a6a99b8071d5b5b695d8d14"
+    },
+    {
+      "path": "skills/oppia-persona-research/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fabd61a38e3bfd2c3581bfd700660eafc757a80a0b762581e2ffc348aad2d408"
+    },
+    {
+      "path": "skills/oppia-research-compass/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8bb32c0e180f9bdaeb84e39011948c68fd61177dda17026ceb650a3b5af31321"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "16daa8a38b9db84eec6bdb1278c2afdbe9626b8cb5a6facca5555bea5af1b1ca"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/evals/routing-cases.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d349950d5664c4017dd587ed6a9278684966efc5bd48677a8a20414d399e72e7"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/evidence-first-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "00276e9d73b99863c14e8bccba69821cbb89552eed9a1ba05ca7387fe4a0e551"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/external-source-review-research-question-framing-skill-v1.0.0.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "747b1971fd15d8f91562ad8248071d42feef95203de60d39e7533ff61a8c90d1"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/external-source-review-ux-research-skill-v1.0.0.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b710f9dbb88338819d98d07417fec93a61f2c7ecf38ee3b4bfc635975e153afc"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/research-quality-gates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f58f7b76c32788b2b261cbcc0f16f32e91959646eca4f94222428e1de7454e08"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/routing-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a6908f64c144fede90ff0ae28a95bcbc09bcde9133da824423549851dc36f706"
+    },
+    {
+      "path": "skills/oppia-research-orchestrator/references/source-register.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d8f902963951005483faa834f58885a5fccf7d2662de29ed4e818df407d8edda"
+    },
+    {
+      "path": "skills/oppia-research-question-design/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c9f5e1fa8a01d257498c6404fe9df3e62c6bd9b5c54d9527cfb4b683dd0b475c"
+    },
+    {
+      "path": "skills/oppia-research-question-design/assets/oppia-research-question-framing-card.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fa9e39cd16a5ff40cfe904952e702f5915d85a245fbdf071ccd299fb86ce5466"
+    },
+    {
+      "path": "skills/oppia-research-question-design/references/question-framing-framework.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "77b3344e7527f2016c4a7a44d12f95d7bcebe0a8375ab1bf9c8d9233e14e992f"
+    },
+    {
+      "path": "skills/oppia-usability-testing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "544039b2664bb0e7ff39d4eeb412d9d7bcefdc3ce284982cde773d69f661ae5b"
+    }
+  ]
+}

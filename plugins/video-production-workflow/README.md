@@ -1,6 +1,8 @@
 # Video Production Workflow
 
-An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.0 is the portable public release of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
+Current edition **0.4.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
+An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.1 is the portable public release of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
 
 ## Quick start
 
@@ -28,7 +30,7 @@ Start with `plan-video-production`, then select the smallest owner for ingest, a
 
 ## Rights and boundaries
 
-Original code, methods and synthetic core fixtures are MIT licensed, copyright Jonathan Kyle Hobson. Separately licensed retained method libraries keep their own MIT or Apache-2.0 licenses, copyright notices and provenance. See [third-party notices](THIRD_PARTY_NOTICES.md) and [distribution provenance](PUBLIC_DISTRIBUTION.md). Upstream library procedures are conditional source material; their optional tools/providers are not installed or automatically invoked.
+Original code is AGPL-3.0-only; original methods and creative fixtures are CC BY-SA 4.0, copyright Jonathan Kyle Hobson. Separately licensed retained method libraries keep their own MIT or Apache-2.0 licenses, copyright notices and provenance. See [third-party notices](THIRD_PARTY_NOTICES.md) and [distribution provenance](PUBLIC_DISTRIBUTION.md). Upstream library procedures are conditional source material; their optional tools/providers are not installed or automatically invoked.
 
 Specialized renderer adapters and external studio integrations retain explicit setup requirements. The core FFmpeg workflow works independently. Review [optional integrations](docs/OPTIONAL_INTEGRATIONS.md) before choosing a provider, font, model, browser renderer or native editing tool. There is no upload/publishing adapter.
 

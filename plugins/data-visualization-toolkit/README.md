@@ -1,5 +1,7 @@
 # Data Visualization Toolkit
 
+Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Make data understandable and truthful for a specific reader and decision. Start with the question, source data or known values, intended audience, and where the result will appear. The toolkit chooses a fitting visual method, routes to the complete relevant procedure, and checks the rendered result when one is produced.
 
 Try a first request:
@@ -22,7 +24,7 @@ Maintain the active discovery heads in `skills/` and keep the full Build Web Dat
 [Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
 <!-- END PROFESSIONAL-AGENTS -->
 
-Public version 0.2.0 has13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific work uses full MIT statistical, export and testing methods. Interactive work uses original procedures, complete web methods and the bundled MCP App.
+Public version 0.2.3 has 13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific work uses the full original statistical, export and testing methods under the scoped method license. Interactive work uses original procedures, complete web methods and the bundled MCP App.
 
 Check the complete library and package with `python3 scripts/verify_public.py`. Run a real fictional stdio task with `.runtime/venv/bin/python examples/sample_stdio.py`; it uses a temporary dataset directory and closes its own subprocess. Rendering/native-host delivery remain separate acceptance checks.
 

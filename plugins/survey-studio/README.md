@@ -1,5 +1,7 @@
 # Survey Toolkit
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Turn a decision and target population into a clear survey instrument, response logic, sampling plan, pilot, export or codebook while preserving question IDs and analysis meaning.
 
 ## Start with a real task

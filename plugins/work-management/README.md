@@ -1,5 +1,7 @@
 # Work Management Studio
 
+Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff.
 
 ## What you can do

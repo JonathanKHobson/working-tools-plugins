@@ -1,5 +1,7 @@
 # Activities Templates
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Find an activity or reusable method, inspect its source and review status, and adapt it through the relevant studio. This package owns the catalog runtime and human chooser. Workshop Facilitation owns running a session; UX, Instructional Design, Career and other studios own their production workflows.
 
 Try “Find a remote activity for eight people in fifteen minutes” or “Find a research synthesis method for this evidence.” Supply the purpose, audience, time and delivery mode when they affect selection. The result is a small set of inspectable candidates or a selected guide with an adaptation rationale. Search alone does not establish effectiveness.
@@ -8,7 +10,7 @@ The single discovery entrypoint is [activity-library](skills/activity-library/SK
 
 ## Data and rights
 
-This MIT public edition includes the complete first-party runtime and chooser. The private Atlas vault and SQLite catalog are external dependencies. Neither is included. The public editorial edition is a separate 461-guide projection; [its source register](library/public-edition.json) records the inspected edition and redistribution hold. Public availability is not a blanket license. The register contains no guide bodies or private paths. No network request, automatic download, rebuild, publication, watcher or telemetry runs at startup.
+This public edition includes the complete first-party runtime and chooser. The private Atlas vault and SQLite catalog are external dependencies. Neither is included. The public editorial edition is a separate 461-guide projection; [its source register](library/public-edition.json) records the inspected edition and redistribution hold. Public availability is not a blanket license. The register contains no guide bodies or private paths. No network request, automatic download, rebuild, publication, watcher or telemetry runs at startup.
 
 ## Runtime ownership
 

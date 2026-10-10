@@ -1,5 +1,7 @@
 # Oppia Research Corpus
 
+Current edition **0.4.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Find what Oppia’s historical UX research supports, then address a specific remaining question with an appropriate study method. This private package is for authorized Oppia research team members.
 
 ## Start here

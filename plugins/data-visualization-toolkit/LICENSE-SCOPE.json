@@ -1,0 +1,1975 @@
+{
+  "schema_version": 1,
+  "package": "data-visualization-toolkit",
+  "version": "0.2.3",
+  "author": "Jonathan Kyle Hobson",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3e0d14db4f13e77d79c10e3c77288376209a214689cc455fe5a460350256e16c"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "041a9749e428418a2a2f62127e8bde28f759bdad0e9fe61937552e64d8964cd6"
+    },
+    {
+      "path": ".gitignore",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d675575fc9cb599554bc8ab85fd7ba25f359c7c082294d24842e2c36ef97c2bb"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "9718edcd6c1ad3c7d36c1f019dac2ba6564fad588f02e1701e8f511b27e40c2c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "16420fa3bf4feb50f3c77acc8e3df2a64bd11bc890b78dc37343320808db93ef"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "PUBLIC_DISTRIBUTION.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ae8a769c3e04ab828700d09ed6c07887fed25d0c4dfbd1ad68e36bbcd436c6d8"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8c186d560eb53efb37f56e32c47ffc422ea281d331b83e7196dd78b2cade9400"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "5a1174360b703bf15c5e1976c0ea5872e4563b0f8c7b9d9f73293f07810da5e0"
+    },
+    {
+      "path": "docs/b12-method-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1dbe1ab27a646ee72eef63019686c5f9d4df11b9308d7328c2530d60e64d098a"
+    },
+    {
+      "path": "docs/installation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "60a552baf3370296c9f11c5fa8ce2b80881c6ccff13bb8fa9472efec9d02ee83"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b46fc3f83c2951df4520e27af27ed7c2959e18dc577791d1861f8cd1c24a18cf"
+    },
+    {
+      "path": "docs/source-manifest.sha256",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7749ae4fe2923cf485af3a30970cf604d1e2ddcbd570c6ae1f3d2e3bd9b2da0f"
+    },
+    {
+      "path": "docs/source-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5bcaaa960d04ddd4494025f7ebfdee2b1cf06301160ceb9f0a5df0bef79f435f"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ba8ae113021eec30e96cfbc89d3df75ce96cb3d8d453efabba690719733b9158"
+    },
+    {
+      "path": "examples/sample-dataset.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "4dfac4c2f411392c912920d194a68dcbb64a2ddcf59ed70c0c6c51d20a2ca8e2"
+    },
+    {
+      "path": "examples/sample_stdio.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "2b648dbe66bc37599c9981f4ffd2804f5718a143893ec7b85908d24b34e17349"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710"
+    },
+    {
+      "path": "legal/prior-grants/0.2.2/LICENSE",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "legal/prior-grants/0.2.2/THIRD_PARTY_NOTICES.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "da0894f8d2623d9d9000e8f1769b81af9dd56c604347f3081a41893e5844bcab"
+    },
+    {
+      "path": "legal/prior-grants/0.2.2/release-license-record.json",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "46f5f7adbe7bf537c09c54f307f5b725b9d444dfdf42a101ff4f882f97d61fd4"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/.codex-plugin/plugin.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "fa1f5586afcfdfa8fa58d249fe852efd8103057d30f6c5d4009ce90e83b225a9"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/DECLARED_LICENSE_TERMS.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "567a44c6bff3a66f1b61f5a48fcc8d72c2fde2423fddd73027e8a05bd9f84125"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0cd06e0187d59d495805358e488a9e2a724eac82a3a6bfe692b1c29860723cf1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/app-icon.svg",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "98cb142b8fcff83824dd96eb86b66796546b583099947a1dd85588e3ab586a72"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/data-visualization-small.svg",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "38e6f859e1a39bc665d1fa209bcbfa3d8ad2aaf94d369f176c7dc04228034c51"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/accessibility-review-checklist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0ff1b98e7ebdec9cf3ac0911f777d0218ff1b68312e508fb7fbed56a26d27daf"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/advanced-interactive-visualization-contract.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "62017546179ec51558f6c1aa09283abeb35b1faa1f8ba7c2bb7a09de1a2318be"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/chart-brief.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "edc7969993dadeb89aea0e10827768822bfa8d18db1ff0921a16fe9a1c7c7b15"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/critique-checklist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bb7e7c0d90ad2f07d7b9d224d85c7f8e358b71ad2ac18eb23f440d992156dd97"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/editorial-evaluation-rubric.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "930c65aae9e8a4db75c48cd1574f67046f2eb63d1c4251661fb67b31efa9f23e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/editorial-infographic-brief.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "df96fe3b5148f1340b352285a9ab01f5a9c703fa4685e4f1637c706f63e3bd84"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/editorial-infographic-examples.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "fc61dbaf63efbc19789ca612e632f7b418605e7776f19ede2a777e73f9bbcdb0"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/export-checklist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "1df4d1de2c509573c375b1dc499c1b0a93d5f67aeaf701708574a03850dce73a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/html-report-starter.html",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d2508f1d132639ec1970b1e3d2ada9d23d0c4412e09a085f814114586d1545f7"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/human-visual-review-checklist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "56ac88d7ae28eb78193e6f27f5efd0c792e7404cacead88953c968539af0de60"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/image-generation-visual-asset-brief.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0e1f7652e1725c868867c158cd49e39a0c2d8ab74bb55d6565d72dbe5b1c8642"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/interactive-editorial-storyboard.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "032910faf1002b838b18e2b13a3dd9c5223691873736ed8ef355e875a8c0abff"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/interactive-uml-test-plan.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d7c7a653ed204507846dd01804fe4f091b3ab1d99e6987ad932f0792b072dc7e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/live-dashboard-review-checklist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4178c912bc48f74e6def8241fd4237ab4dfece96dffeaef6aaa40718a613ba56"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/playwright-pdf-starter.ts",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "18b3e270804d2dbbc5051b60c25958e2900ab70294f217a4747539076490845c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/playwright-starters.test.ts",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "42d846654504042df4553e8314c9beb53ce649ff28d135fd9163929bd0a52f96"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/playwright-visual-regression-starter.ts",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d617cba68762fc92eb221b0020acbe972f2ec64ad6b246a343c620090fd56555"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/uml-diagram-brief.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "21b0917e7f62fb147fac8c8e6d1b8545921c592e45e487d673b1106f9c4f5fc3"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/visual-design-contract.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "40b6e012c53c4323e09fd153f6dd2ecfaad81409fa41a2105110aaf867a5f89c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/assets/templates/visualization-test-plan.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9a995e1bd56fcecf6f74aca560a4903e3bf458bf601c98442fe58effc17d96e3"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/art-directed-interactive-visual-stories.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "927758cffabe100ae3f1c5b76567a70786ad70a311887e614cb731ad64e11282"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/domain-contextual-surfaces.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d132246b11d9688de098cf243a0dcdabb61dc43b9637c3de7ce4a53c5f650527"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/editorial-infographic-system.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "da524de369368ab265d769930c60b38e8ec05a7fc9b7225d685823a0cccc343f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/embedded-visualization-self-use.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c31942e184bcdabc77578e265f6c75af6186f9a26ca1fc4f718f8c060e0cc9b1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/fictional-data-story-simulation.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e31af4a2126cfc083079516270f803ca6432f47c26e4226f3946624730543442"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/implementation-design-and-tradeoffs.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "797610a27b5f79374b5e63484e25e3c8553bd9385cd733c1b0ad93009b361ff2"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/interaction-models-and-progressive-disclosure.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "356cdf7b80334edc9813b450ee7d3ad652190e004f2e47fd2d787c8b3898eea8"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/layout-hierarchy-and-self-explanatory-ux.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "5fb5b4a4ab6f0bcfddde2f26f4501665a04c8edba005df95b6d82b50eb1bd175"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/meaning-preserving-visual-design-workflow.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8158b212cee78b1a99d2d04ed72018d2cacb343a5a9a53978b2c7309ecc81f36"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/mobile-first-responsive-visualization.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e05753145073fb154ffb43ee2b965a436fb7349e45729773e8854f6488c97e3f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/operational-visualization-workspaces.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b73fd02fca3289b3d35356a4f63828af0f179440f4706680f899312847d605ed"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/perception-color-and-encoding.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "dc9e4a0f8e70023fddc5b72d165d05f9badf2c18985e7de32122693080176f2d"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/sensitive-geopolitical-and-humanitarian-stories.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "682351e5d4cdd4dc953c973902d8138755462d9ba3299295363315949913018a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/shareable-state-and-persistence.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "404c37acbbc69975ebd22966c89e9273ecbc46c42a53d08ddaf996f9cb603ac6"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/storytelling-annotation-and-critique.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "dfae9083a448292aef7f7c5b77da0a61e902334e94fb98cb482a52a6ef5c2a1d"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/task-abstraction-and-chart-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "7c6356f6a5e997c27f8597b7984bd2f83f83e96c9bb7236e27d2faa1bbbcf8fc"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/foundations/theory-and-principles.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9cc457cd935268a2a61cfd744005f76b51b27587984033abd36b1770e57bb52f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/source-index/export-and-automation-sources.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "da941ce3f624b9df2173977308286b52fde0ae337f0f815d3786de6416209abc"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/source-index/official-implementation-docs.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c8ff1c9180b8098a069dc41b67d261456136733703169196488e70464b48d552"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/source-index/practitioner-guides.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "f3e11e16c1e1736257cafbab60c4ac8c58ef5580f3c9432000fae032dfa06c06"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/references/source-index/theory-books-and-papers.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "a9487b804760ea451dcfebab2fce9e2724353d5098077dd79eef2e14e3e10a7a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4b027cdceb71903dc24f9b4323344a77390fdf312fe4aeb0d2d4dd0f9628742a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "1b8f2e3a49fd1fa114c8bff7c1a63a0f2729a7da0e846fd1d14968f063ed299e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/references/color-contrast-and-redundant-encoding.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "6ab6a1130cd74c1d22d8623b70d7d1c6e7eac4d960d655f80302aa87e5fe26bc"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/references/keyboard-screen-reader-and-export.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "aa38666891fa26919e6ec58a45c73bb7ad732ef80b0dc107e06bc9cc5c246219"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/references/testing-and-review-workflow.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d4522023a78046c12da5d90e421e21f8e97d0414f0b0c903e14eea31397b9d54"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/accessibility-and-inclusive-visualization/references/text-alternatives-and-complex-images.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ce96fe399132d6ee75b9cf9ce0046d02fada806feb279d67726d36669a7f5f3b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "84818b1115021ef92305dd5a602553b7d2980ba5b512a9f356391e3b62798f30"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "07fb980562d82e51ff16576921c25036dde36fd4af9ea271cafc771ba3d46813"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/references/high-density-interaction.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "446c5455d4eef2c9597183b37f3ff31deb5860466589aec76f7a0cdfe17ec70b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/references/performance-playbook.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c544a6da64c08fb6af221e3c192fedc13552cfab75c27709989498fd4844c6e0"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/references/rendering-architecture.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ad4e573e95ccfc9c9183d31fef157c172db514fc8820100f03aa248683cfcd9a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/canvas2d-data-visualization/references/sparklines-and-microcharts.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9f2ae8ebd3b465cfd76577051485958d34f91ff31bc8ac5d7aa2704a043fcbff"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "1c735a00399eef9f63774f692a13c024380a331a44b1076ba72d440510f22b8f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ce24dc3c9700385c4f43d20f7181a41edaa0789e86be491b910d24890ffd7825"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/references/d3-architecture-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "7a529a88ee49081fc1568e59c228ac2c453afebf3622a31cc865b967e0e157dd"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/references/d3-interaction-and-annotation.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c56cac1952fff486fde6f9ecce29350bc3e452d40d3fd6a174bbbc446e07dd29"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/references/d3-module-map.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "568a7e820832ae9848d4ba611393364dda08de6752dc847942df937f68ff4a50"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/references/d3-pitfalls-and-scale-limits.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c6549e4e830f23c509d1d44f7b3b1b9fe3452bdf56f0e6ec7fc0919b587dff2b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/d3-data-visualization/references/svg-polish-and-crispness.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "727bc35a943eef3ea85d5b4dbd4e7050e95d7add1ca0ddc32f1d0dee2b5f6d9b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "564c20838617d3fa2e7fb93419af553035e7683f4f7350f7ecdafb4fb4fd0ab1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "32841b2091d81343c32476a6b5eff12b3b0ca4eedb51d4ccae065d9a76a50a81"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/references/interaction-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b1669995d23180b1d4fe8a1c0439cf7429b007448bd780535e96883d98a7620c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/references/monitoring-vs-analysis.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "74617f1966f0a43ffb93f3e0cd811785f0fe4f0cbdb6115cf38ce2a24a5d9088"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/references/performance-and-degradation.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "42af329d82f39fa2560c5117b811acaa3e821261d6b0961509aaa7352c06e960"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/dashboards-and-real-time-visualization/references/streaming-data-pipelines.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d79e5eea6f7e3750a7dbcd39bd830b0180499fc0d49a91d654eab88ceea56b91"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "6e71d7fc7976d4949f77eb57cc6e2557bd8fc07cf513a793bc6a8d4b88f88b66"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "6420d8d01789d58432f92797605357da448d84db997d56b3e2f8328eab57900a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/data-visualization/references/default-stack-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9df0c1ec0078d32b98bb118af6a97579948ecffed2b5c23e90746f456533c849"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/data-visualization/references/prompt-routing-examples.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bdc5016773a2068ae352f68d0b02e0b1244e4ef7eb0d5ebbf0109244745ab6b8"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/data-visualization/references/route-by-problem.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "a36cf15c08d926ea20718a8ee6d394e0437871278a1589cdde3577e41e88e21b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "a0dab154479273473e298ce1790226a493aee0ca92f6c75caab1f3f1e375d299"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "089e160998052fd4432385cd12b462032dc9b43bfbf1caf0ba0b20709d88cf1d"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-accessibility-export-and-testing.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e8961dd1959ca76e413513ac5dc4632edab60e774210d42660438cb36270b2c4"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-api-and-export-format-ingestion.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ea49436fc5642c455e91bb3fd4666c54ba1a753cd72f8fb88899d85e804a2da5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-chart-design-and-use-cases.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b371900cdb06db09191ee1adbc730f40f8fbcb416cef89a9a271dc6f17e6e04c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-data-contracts-and-integrations.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8b876a192dcf5c3a02eb832199b0cf36ba7425e862afec3083b0634d28ff53b5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-interaction-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bbd4a9c8a067f52b671f706e74183922da53d1ce6c04ca818f2985f23f5a8311"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/gantt-chart-visualization/references/gantt-performance-and-rendering.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "200788ba24647d43721cdddba89aee49a8567cb4bb33d54795daeb93e4e9f3ed"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "18f5cf852b8a2d635a8198ba0b7da69118860d66c9755ef3108d476bfa8be0ee"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8aade0bd575fbbba3211cb925fe96d2bc3e34a8a9cc2c74a0ad61eeeae9ddf2e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/adaptive-basemaps-and-layer-stacks.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "944e03714bcb7f5df16b7a98672e2e9798abcb6acfa761d64b3c01882b4548b5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/choropleths-symbols-and-flows.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "fa76243e5e59b37edb31cc176e3f682780457c9ccd715f2512f052dc9372eeb7"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/deckgl-d3-geo-stack-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3bc37a0b752d136cc4187f7e252fedec39be04b2c9448b64f73333caaa826f21"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/map-or-not.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "dbb7b9043b7e7fbe30286641d0599562525b9f7f6a301746dbea5a51754fa079"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/multiscale-symbols-and-zoom-behavior.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "57ceac09d7b7e96e0a3ac2782dca95d0ff2939b82ee19b51ed9219f2881b4363"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/point-overlap-strategies.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "645b0f658b8923dc69898441246394be3afe26e01fba695be0fad4114b6a376c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/projections-and-normalization.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9a3121e391d5193e65895672b8df7f94fa77d6a27b5f2f88c0cdd4fb881f9e7f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/slippy-map-and-product-stack-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "43e4a7dc8cac2bb67a471273fedf1cf494fc04f669d10b405d262592266a372c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/geospatial-and-cartographic-visualization/references/source-method-and-coordinate-ledger.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "cc5550c586f744702e035932264ae7aa11ef4216f03e1ebc6a663cac89ba6ee1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/grammar-of-graphics-and-declarative-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0bec7b4ae2a2a3eda9ad462370ffb642dad4d520b5380cea36fe67c5bab5cbfd"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/grammar-of-graphics-and-declarative-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "112137496a8e9d5cfc0acae22d3966a9ab24f79c5d6d5e2587a63da64d52987e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/grammar-of-graphics-and-declarative-visualization/references/observable-plot.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e1888b3aacf49cc520b94f6a36800b450d89e12dc00ce8a95e507e27c59a7aad"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/grammar-of-graphics-and-declarative-visualization/references/vega-lite-and-vega.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4690be0ea3fa6674f39ce5433f66cd83c1860764783dacfa7e8ae542c7ed75fb"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/grammar-of-graphics-and-declarative-visualization/references/when-to-stay-declarative.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "5d957e5169f25ed0c4e86c9209e956fdf17668e1fd4094d39ffc56cace591edf"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/node-link-and-diagram-layout/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3da1d3c598ad9298ca49f8728d816490d542ca5eed2fe204e2790cb693fe5ece"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/node-link-and-diagram-layout/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c7d06941b8e8c13aee5c00fa80f61aba78a40203d102bd5581fc0345e9c2632e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/node-link-and-diagram-layout/references/algorithm-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "098f7577a92749c8123c6a22760787a9c37db99671ead2fd968c2ca0de3ddd5f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/node-link-and-diagram-layout/references/layered-tree-force-and-radial-layouts.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "cd7097643459331624a98ede1c05584763d5b7105dd810eff4ffe93f93d1c3c3"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/node-link-and-diagram-layout/references/routing-overlap-and-quality.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d29e05bf19f27ec4cb9d66f502f1cfa17bd55fe19f309f882256ee792c3be2d5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "95326e7c73c15919e60615314805197b52613fff167eecabecdba191230db7f8"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c1984b51b0f071d0bf1280bf5761927306e31647dc342e13eba035cff5b1f754"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/references/d3-canvas-and-grammar-in-react.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "2605f7fd0eb6be65a32ef5e8a6b5aad8c44507eabb5c0251fd42ad40ba752ba2"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/references/lazy-loading-ssr-and-bundle-strategy.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bcf24af3ab4861dd2114be3b3fc3ac940bf2f0b43d39fb2b6d162d4c6a8679f0"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/references/nextjs-client-server-boundaries.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8d197cec7fe0d51f18186227b203e8c528b92f210d63e6c07a539ac5a60fccc1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/react-and-nextjs-data-visualization/references/react-component-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "2904b91a7381f57c3000f87655cfd2d2cd47da8b359ebff513b0348c01c9ee2b"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9acd03be0694d3b5b88edd1d8571d54a6507f65665e20d98689543139ec9ead4"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b92bbe78a967685ffbf2e0e317df7f0aa60d9e574eb467c0d9f3c2d5413ec925"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/references/document-embedding-and-regeneration.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "10e8985a9a9e502f8d5774c3318629cc315db1ecc7beaa20898fbbf2852d4a91"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/references/pdf-generation-paths.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b415fec0808163f35ce398e30cd29b587c5e58baf4035553dda9e1295450c125"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/references/powerpoint-and-google-slides.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0c8c980b003923ff0a42c337b500d3dca1f12a3eb0a666da7b73f49d5547b458"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/reports-pdfs-and-slide-automation/references/report-structure-and-figure-packaging.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "15321883cb37001f3f3fc054c01f899ca3a10a7c04c00335a743633f917586b4"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "edfcb78d543d4d80d470f390446d65951179d07e13ada03cdd4bc3d77678eafe"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d7989948f606f277be20ca87797d9447bf07a6fc4162439de83106be8cfabc56"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/references/accessibility-testing-and-review.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0362f2188e249c2f13d8241fd3ae967f0aea683ff13971b15a4c9d3c6a16e2d2"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/references/implementation-and-performance.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "43b76815f64cc9e8b30dfe1045d6c15a5320477e465a379e74eb93ef016d6884"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/scrollytelling-and-parallax-data-visualization/references/story-patterns-and-scene-contracts.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "734064c0c1e9f26f855aa21d57ce9aa97f40a344836dfc64e7089f2d957f4b6a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "544542158d7b2302ca34f8d992349b4048d106b30b238bf7184a57c457f95b3a"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "10fbb58248a6f081b5e32abdc472223354e497752dc28a95b041d7a5370d7c72"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/references/distribution-and-summary-choices.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "26affdb4a95240c552c2490a5975b78c72bdfb6ee67258b1e9a04ae4a95a0332"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/references/experimental-and-analytical-pitfalls.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "78d31f77bd3184f9fb412d174f7345a715c50947b82b37acc705531439bf6536"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/references/missingness-and-confidence.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0f652c50120eecb93050aea6b41c7608ce3ab81f8d8dfc76424d609c652f3226"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/statistical-and-uncertainty-visualization/references/uncertainty-encodings.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "1f33fce422111308f469c3f917d0e04251b4baf08d10928ae709a4c25af18944"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "fba1423c24dac1f401c76d85cbc39d7b354bd2fb18cc9055d62798e6cca6d28e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "aaf13515803833ceb68e52db8e8d7ba57990413aa1094aad093b6c15420d1f88"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/avoiding-brittle-over-testing.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d6ad85a3774b38156f6bd3910da05a8fe67c523ae971f68ecf5e974c9e8eb3ba"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/data-mocking-and-fixtures.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "eaa7e9479cdb672c127eff9b1c629af2d9ba7a05e0dbb15ee38c252d2e330ff2"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/e2e-dashboard-and-export-strategies.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b6342914e63504f533120b7619531d02c6532496169ce107950fd8393b21c2f8"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/test-level-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bfac21ecdc637a3f011370e179ae11ad1486171304bb6350019d145b13cdf487"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/unit-and-component-tests.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "2bfb4bd690a4f35ff52ab8826775fcaf2df3ac7de1dbdfb09328b3e49276519f"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/testing-data-visualizations/references/visual-regression-and-image-testing.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "2accf0798457b3f4543607421e353e505b872fbb4b1831a647eb0680a2f51f44"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "bc3141b5d655b6c222d180d668010d9246e1dfb77e9f433450cf560876036917"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "51588c8488038050cda20ce64feef51852122a7ed36333ca132f8d24b61171ba"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/cutaway-terrain-and-domain-scenes.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "92973fcca02f533ceafd6d2fc2adaff02b7e4bf839c170238bf8de33f405fd54"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/gpu-scaling-and-interaction.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d3bf404d8d58b3f2f442282bbe8ecfea75e5ff4b36591afc8280c9d34fb8a309"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/particle-effects-and-flow.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "1e5c32cc9ee7a89b9a2e99b6a45e794b17ccc4ed2486e98bfd8effb902dcac0c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/scene-architecture-and-encodings.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d56ccc14689b6154cbfe395cb6b2988766d5591eda196d27a33d7e26d196e2e6"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/scene-readiness-and-interaction-qa.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ed6082b2887bf7c0d5930a3735e5fe2bb7aba06b8fa17e5b599a993bd1ce3689"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/webgl-2d-animation-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e0b284db5b247cefecdaf12c52c50b5f355b7c40ef9434181324ba6bc34ae884"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/webgl-library-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3b7cfbcb35627bd7466e85a704b1b0c2d6b0e405fd8a90423e59a6d5ad0faca1"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/threejs-data-visualization/references/when-3d-is-justified.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3546e725ffa3e0af4eee9d341e66b7e8f29ca40fb10277d9c34bad36ae0fd356"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9f48cf4ec5458e2d023ec4ed7765699a97c9c2f87b647fa4ac0ca01aa09379f5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "a1b15f755e25971c360110a36f6e005442a0090de2e9954182002d11d0666926"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/references/export-and-product-integration.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "44056e8628ff16553a90e650fcfba4f46de9cd4dd417b48ff48304397f1aa00d"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/references/library-selection-for-builders.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "5e27148a84447a6f442430c357348faa5a261b221e61769ee44845c6bfb614e3"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/references/react-and-framework-boundaries.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "25c6c9b4a74e91add3a8d9921bfa1f77d6f57a1995d291b640ca5fd00ba47bc4"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/typescript-data-visualization-engineering/references/types-and-data-contracts.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8d56ef47232aca7524d0e32660ac51c0619753c4b99eab328aa9463845a10abb"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "66c7aa61b25c2e68835f8a7eda725a2a232ba25c0631702a5668879aa760460e"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3f874c8227a490c48dc6b30dffdbb6c120cf031437dee31a1ba8443e733db7b5"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/references/formats-and-interchange.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "603f86bc28bb5bce294da601f8ce76670d760325565f9bbbf8a791edd3046168"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/references/interactive-diagram-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "629f959c403ae3f9fb96cb4f41af7a414eb4d5146da7451634bbc8c5286e8f16"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/references/quality-accessibility-export-testing.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "da64082a1d612624e60f9499689eda6a265767deeed90771a55f3358b3035d13"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/references/typescript-web-rendering.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "a6c36d2c1c7611e372e5f436b1dff7f28dc5438c1b94918ed1a534a533aa8445"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/uml-and-software-architecture-visualization/references/uml-diagram-types-and-selection.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "030e4226e186a7fa8c3e7607f88c02baaf0bbba01a468541d548d63acff44baf"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "71f6e7b4538d90b1d0350045e3f18bf5a4709bf06602925a2daf901f8bd2ac2c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "95015fd959507650bc1c070e44d1849237480a67a19a63295eac82f71056e515"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/references/chart-selection-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "52f189052bad2dbef953c301f7496c0e555aa38890c99573e420e508356fca4c"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/references/critique-lenses.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "201eb21ef62477115f0637d714c9804d60864728fd4728c16e0178bddc401d09"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/references/decision-framing.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "9c11cf4f9382e512b05916e261936633037491c6f32ce1377d35d420836842f8"
+    },
+    {
+      "path": "libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/references/tufte-munzner-cairo-synthesis.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "728107f328ab79879c2ff567aef4d47309150108c01f3330b06c186c71b05e4a"
+    },
+    {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "186563127819865fc88c8c1c2c144d45bdda9aa5114dfaf2936947f2d2f4fd2d"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7428d0f484fdb5b33284427d458eeefe10518a3aa529f9b78ec78482c442c3a9"
+    },
+    {
+      "path": "references/data-explorer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ba8d4ac72639ba8e9da6d2c1a7adb60e79edede4124f489991582000483506d0"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "f42aebb09932ae02a2d00d935a4d6da576601d40155b1500063da9a3b25ed2a8"
+    },
+    {
+      "path": "references/professional-agents/data-analyst.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "47b641c3a57530e39b6aea3c913f607b6f83b528dc15ff57f3df576ce04dae3a"
+    },
+    {
+      "path": "references/professional-agents/data-scientist.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "c52082cbb59e5868d5e97e55631574bdca3d9a1cadd2800836e8c4e80776af8d"
+    },
+    {
+      "path": "references/professional-agents/data-visualization-designer.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "4f07774f5586fe25ddcbfe847790db872eb74c88bca2e9719e5d7a8a5e63b39e"
+    },
+    {
+      "path": "references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da"
+    },
+    {
+      "path": "references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746"
+    },
+    {
+      "path": "runtime/data-explorer/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a1f18b35e77d0c221555d4ebeb5f9e2c7e24a8ad17feb5e10c7f63fbf9fbc797"
+    },
+    {
+      "path": "runtime/data-explorer/build.mjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7ceaeb42ea807f37aa29f6eeee6da23f577457e3a078ccd7ea02b96a09c9fd89"
+    },
+    {
+      "path": "runtime/data-explorer/dist/widget.html",
+      "category": "mixed-code",
+      "license": "AGPL-3.0-only; upstream MIT/Apache-2.0/ISC unchanged",
+      "boundary": "Original application code AGPL; bundled dependency blocks retain license comments and third-party/npm notices.",
+      "sha256": "34ba18e07f6ae89205011cb8a19fb1f2189e7c4c0411b963e233b5b8f7fb9136"
+    },
+    {
+      "path": "runtime/data-explorer/docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c53946b0bcbfabbf31e9ccdd23b362dbd89406cca97da1eedfcc6384f0884344"
+    },
+    {
+      "path": "runtime/data-explorer/package-lock.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "e8e7f333395b69424a2407f78f14dfdf653bc837c5356b6474b97d68da9bf37f"
+    },
+    {
+      "path": "runtime/data-explorer/package.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "5a4f740d06320ab94983bdfceae4436162fbe4180f14eefe2fe7a03b2c575218"
+    },
+    {
+      "path": "runtime/data-explorer/preview.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "726279180ee051e64720d16741c94d4b9f7595ff665c978f36b41e3ab819d4c7"
+    },
+    {
+      "path": "runtime/data-explorer/requirements.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a942e821aeefd4f48b71df2d1a3ea80e682c50dbebffb84711ea356289859c95"
+    },
+    {
+      "path": "runtime/data-explorer/server.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "f5f1d365aa052d17bc1830c2f212916d869fefe1eb6bd3aa12abcba28b64f2f4"
+    },
+    {
+      "path": "runtime/data-explorer/store.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "24b74733d65960f427a229b6ce1874f6d513581925850de57d469b276757fd56"
+    },
+    {
+      "path": "runtime/data-explorer/tests/test_create_schema.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "52e78107ca71db2c6fa1494d1bd029c902883d4b3f483101c5395aed111a4316"
+    },
+    {
+      "path": "runtime/data-explorer/tests/test_explorer.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "bd2c93c6c8e809c623e8d4fc744ae97d6e832c8fd9a327cd73edd3c076c839ff"
+    },
+    {
+      "path": "runtime/data-explorer/web/app.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "8e327d057a1fe13a6e1b0c4833a321b9fbd646e2c5b6c6da90d443dd74698690"
+    },
+    {
+      "path": "runtime/data-explorer/web/bridge.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d256809baa48140e41f9a24bc31ef2dbc7c77c51045e2dd24dbb1b79a8c7317c"
+    },
+    {
+      "path": "runtime/data-explorer/web/compute.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7a8a960052eb24807de9429111fdd083b2783d0f60792c1c68a28b9fe8e1a8ce"
+    },
+    {
+      "path": "runtime/data-explorer/web/style.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3026775dafb973eeff20f7a8c5fd82f3e9cfd47d95504a8a5704471339986cce"
+    },
+    {
+      "path": "scripts/data_explorer_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "96f496da650a67166b070f111857d3f203c98fe9f94a344dc1df12a207253967"
+    },
+    {
+      "path": "scripts/verify_public.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "bbd93366a0fe91d9558e72e1345f179f817559693e6a4a043ac832715f367d32"
+    },
+    {
+      "path": "skills/data-visualization/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ab6db65a4534c39980515fb75fd76ed28c2059272dd83d22075fd92af35901f3"
+    },
+    {
+      "path": "skills/data-visualization/references/surfaces-and-providers.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "528d312bdc2580961ff88dd2ba9b4c60250b49ee78469154ab36db80e8fec36c"
+    },
+    {
+      "path": "skills/dense-and-gpu-rendering/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b432215b982d59a45d9da347b5439ef29369e2d528922853fc69677e3eb47d2a"
+    },
+    {
+      "path": "skills/gantt-and-schedules/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "204383f681d39da07734290d242e78d2c4321e454b4f8e9506fcecd2f586b724"
+    },
+    {
+      "path": "skills/interactive-explanations/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "79fec2183f5187ac22bf9ce1fa8a01349e3a089f4589ad295782fd361d0c3d62"
+    },
+    {
+      "path": "skills/interactive-explanations/examples/activity-calendar.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "b10a3721863265f6bbb82ad85f45c4264cd4526dc058553ffe61904074f308cd"
+    },
+    {
+      "path": "skills/interactive-explanations/references/activity-calendar.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c77376a37b5755f04d432f20a05e50944374bdfc446c30009d2851b8515ee323"
+    },
+    {
+      "path": "skills/interactive-explanations/references/conversational-widgets.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7977798a1df9e05ddd1141038b1a7cbfcce073fb4b56125cd2ec4939f1fde204"
+    },
+    {
+      "path": "skills/live-dashboards/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "475e296fd07e94f6a5b0c0aa6660e0f2921c88d3fb3814592af78e3d30084d01"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/baseline/baseline.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "dc889a61024e919452c5fe1cdf795ff1ff216d5a34daa0a2c04b0290b5246e85"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/baseline/baseline.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "aa67b5aa0a454cee9bcdf537835594e72d212be0dcc4890b15aa174b143fb487"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/baseline/index.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "63a8f160b2c0386bc8292a6806e52d3280efbe49d3ba0c7fe2c640663475ae43"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/editorial/editorial.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "4a025784a2c44ccdb52701f9f3730d6f77e9f8ec9169329e98d77bc037530857"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/editorial/editorial.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d8e76300638cc4fd4f237a9c059811e0c8b46bb719523bf3b0a7913f217bf26a"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/editorial/index.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3db292c318bd38890d610191fb7233ac16000b6e361f229c89356e8621bec67b"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/shared/session-model.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "2b1b66c2732576a78ac46593f044bd6b21c495c1a99fa82e34a3676fcaf7833c"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/shared/sessions-data.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "c5122ead20b32cb4fa94613cc00ee28d0a5e23767f6b22f75af5a33b53cb01d8"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/workbench/index.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "2ab76e0788504f7fe9b463d5e8e6747f95481d840d955a72464553a9f9eaf041"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/workbench/workbench.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "1457c1829c60e691795db130cb39b31386f8ec2a435d345df84f23ea684c5128"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/examples/workbench/workbench.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "385ed7a45d0a52a271212f5e5bf26b8c165ebf0f3d25f3f87dfe67e3f521fd71"
+    },
+    {
+      "path": "skills/live-dashboards/assets/dashboard-repertoire/sources.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "9308b2fdb8f42c3bcf9daeca8c01e60a0d1322c224c46aed323997d420bff047"
+    },
+    {
+      "path": "skills/live-dashboards/references/computed-prose.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "23c91e1eb70e2748291af3449ca44719986f0c41e85bceddd532e4d5ef20fec1"
+    },
+    {
+      "path": "skills/live-dashboards/references/exploration-state-and-comparison.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "136b8ff2003fc4cba4d6e7cf21bbbab40ee55dc9411e08df519ba740f737dcdb"
+    },
+    {
+      "path": "skills/live-dashboards/references/scenario-overlays.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "10f9c3b485e7e89276c48edb35293f9a6a27bf69dfa30b2e272163cbac468413"
+    },
+    {
+      "path": "skills/live-dashboards/references/scope-and-empty-results.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b2e40ecb4ffead4326e637c2626b06cf2ea59657515596478986b36064ba7e3d"
+    },
+    {
+      "path": "skills/live-dashboards/references/two-item-comparison.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3dabc4436fc3529d55d95354da71363b93cb3a319f2de878a7c9d790ed530926"
+    },
+    {
+      "path": "skills/maps-and-cartography/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2dd670d65374df6cd5ede34d6ff84780cfdbc5b09c6869412ddb9cd5fe491f87"
+    },
+    {
+      "path": "skills/reports-and-export/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "6523db50e912e98a7925e459887fa8c57aff6cb0c604f079957a18c77caea624"
+    },
+    {
+      "path": "skills/scientific-figures-and-tables/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fe9770e1a0a87fb28cebc9f057056b45423c5bdeb952483edcc48bfcc163122d"
+    },
+    {
+      "path": "skills/statistical-evidence/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "4c43d57ca2f8e8d30e588c5ce4d4de29a8685bf85e2d871381610830c0838e91"
+    },
+    {
+      "path": "skills/structural-diagrams/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b23029d74de882ca2a613c7958bf86124d7424d56eeee008591ab70464b54c10"
+    },
+    {
+      "path": "skills/structural-diagrams/examples/relationship-map.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "951f5e8033dc672fee931ea3c05119ea40cb54421dc070b198c664cacbb19b2f"
+    },
+    {
+      "path": "skills/structural-diagrams/references/archify-LICENSE.txt",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706"
+    },
+    {
+      "path": "skills/structural-diagrams/references/architecture-delta.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "58b74f2e540c6683956d0397b79127294f973bbef14fc3f24c6a54806f7d5374"
+    },
+    {
+      "path": "skills/structural-diagrams/references/business-diagram-production.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "94d9d12f7c37aafafe2719b45c47031d12610240b3a0ed653e62aad294490a43"
+    },
+    {
+      "path": "skills/structural-diagrams/references/diagram-design-LICENSE.txt",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "bb7e12e91fecef43024111123ff784cec6c485585561d8b552557c0173b3ed29"
+    },
+    {
+      "path": "skills/structural-diagrams/references/evidence-linked-relationship-maps.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "dcad60e17605948cf35fa51ea616d081ff970ba139498d9f42e5d2f58a823f0a"
+    },
+    {
+      "path": "skills/structural-diagrams/references/repository-evidence.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "22aa17cf0b595c3f792a78867a63e340fb5eec7d4967dd81126e75ac0f1a30c1"
+    },
+    {
+      "path": "skills/visual-stories/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "77185600336a1cc02e291c934b51a2da540fac5833eefd8f0ab1d3ad2ce01e6d"
+    },
+    {
+      "path": "skills/visualization-verification/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f43483853d61428f840a6ac0349b51871739163b578d86ae96f6a9f1bd86d1cd"
+    },
+    {
+      "path": "skills/web-chart-engineering/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "890d2e2bae52d8a957cab175d0c39e4a918b78a165c65687204bef7f4c26ee03"
+    },
+    {
+      "path": "third-party/b12/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "third-party/b12/upstream-plugin.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "b315dd2afb2e7f01c03e7067265209e222150a578aa6923d0ba5b3709f917711"
+    },
+    {
+      "path": "third-party/npm/@modelcontextprotocol_client@2.3.1/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party/npm/@modelcontextprotocol_core@2.3.1/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party/npm/@modelcontextprotocol_ext-apps@2.0.3/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "third-party/npm/@standard-schema_spec@1.1.0/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "653b779005a3a4d64a7288c940f7b9a0e8f0b1e0375f6aa6af9473caf131e564"
+    },
+    {
+      "path": "third-party/npm/cross-spawn@7.0.6/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+    },
+    {
+      "path": "third-party/npm/dependency-notices.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT OR Apache-2.0 OR ISC as scoped by dependency-notices.json",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "87227128f56eaac672386d91e78114c4fe7e5b7bf93234baca93ddf7fbada01e"
+    },
+    {
+      "path": "third-party/npm/esbuild@0.28.2/LICENSE.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "path": "third-party/npm/eventsource-parser@3.1.1/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "835eb611a23301b27115ca1be9f754c876e643ceb7fe63049c6b50609a1cafeb"
+    },
+    {
+      "path": "third-party/npm/eventsource@3.0.7/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+    },
+    {
+      "path": "third-party/npm/isexe@2.0.0/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "ISC",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "path": "third-party/npm/jose@6.2.12/LICENSE.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+    },
+    {
+      "path": "third-party/npm/path-key@3.1.1/license",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "path": "third-party/npm/pkce-challenge@5.0.1/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+    },
+    {
+      "path": "third-party/npm/shebang-command@2.0.0/license",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+    },
+    {
+      "path": "third-party/npm/shebang-regex@3.0.0/license",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "path": "third-party/npm/which@2.0.2/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "ISC",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "path": "third-party/npm/zod@4.6.5/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    }
+  ]
+}

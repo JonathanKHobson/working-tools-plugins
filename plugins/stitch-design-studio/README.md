@@ -1,5 +1,7 @@
 # Stitch Design Toolkit
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Turn a brief or existing project into a selected Stitch screen, component, flow, or verified export through the current browser interface. Bring the audience and task, target screen or project, content, visual references, and the output you need. The workflow can also recover historical work with provenance or review an implemented design against the selected source.
 
 Try a first request:

@@ -1,5 +1,7 @@
 # Figma Design Workflow
 
+Current edition **0.2.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Turn a design reference or existing screen into an editable Figma artifact, then verify its visible result and structure. Bring the Figma file or target frame, the change you want, approved visual references, and any must-keep content. The workflow can also prepare a reference, transfer selected Stitch screens, or build a FigJam workshop board.
 
 Try a first request:
@@ -41,7 +43,7 @@ If a provider or control route is missing, record the unmet prerequisite and pre
 
 ## Rights and verification
 
-Original workflow text, fixtures, role contract and helper are released under the [MIT license](LICENSE). [Source attributions](SOURCE-ATTRIBUTIONS.md) retain the original primary-source register, user-supplied ZIP lineage and adaptation boundaries. No Figma, Google Stitch, Claude or OpenAI provider code, tutorial transcript, vendor screenshot or font is bundled. Names identify interoperability and do not imply endorsement.
+Original workflow text, fixtures, role contract and helper are released under the [scoped code and method licenses](LICENSING.md). [Source attributions](SOURCE-ATTRIBUTIONS.md) retain the original primary-source register, user-supplied ZIP lineage and adaptation boundaries. No Figma, Google Stitch, Claude or OpenAI provider code, tutorial transcript, vendor screenshot or font is bundled. Names identify interoperability and do not imply endorsement.
 
 Run `python3 skills/figma-ui-operator/scripts/validate_skill.py --json` from the package root. See [current export validation](docs/release-validation.md) for exact checks and limits; [historical validation](docs/validation.md) remains explicitly dated. A static package pass does not prove receiving-host installation or live Figma, FigJam, Stitch, Claude, imagegen, multiplayer, accessibility or participant outcomes.
 

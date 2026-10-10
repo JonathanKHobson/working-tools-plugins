@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.2.1, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source attributions
 
 Original reasoning procedures and local dialogue/perspective guidance by Jonathan Kyle Hobson. PROVENANCE.md and provenance/migration.json identify the Kyle-maintained Research Studio predecessors and exact historical hashes; preserved copies were inspected and contain original claim/source/alternative checks rather than the supplied research-pyramid, book-to-skill or marketplace library text. Those other Research source units are not imported.

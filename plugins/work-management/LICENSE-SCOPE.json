@@ -1,0 +1,1821 @@
+{
+  "schema_version": 1,
+  "package": "work-management",
+  "version": "0.3.1",
+  "author": "Jonathan Kyle Hobson",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6eaa5e931d4cebc2ebdfea65b71ca87df08c1145436b4bc3f9327fb2d96844f5"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "9e6a0ab2ad08cf21e2aa0d325d2f1cf304d8a45c8763a0fd7e58f64d70a0d76c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "18176226a5fb55ecf0c1bb7d5e94b1fb5032a89ed4451265df79613204f56cf3"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSE-ORIGINAL-MIT",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "87dbcbcc86b4bb808d6a29981e2972c213f10a22880de6bdb3ebf2965da0a62d"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5af8a0514f8ef410fe7119e38f274a2a95c6d2bd729e4380c78fc30a3695af4b"
+    },
+    {
+      "path": "SOURCE-NOTES.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "62ef3c5cc36b7253f8601867e860d946c6e23442563a009f1f69bd4513fcc5ac"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "dc378233f9a98b1cdeba4f8fb171d3f800776eb3e89b53d3c88ff127b0c2aa43"
+    },
+    {
+      "path": "docs/parallel-work-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b347d3decf2437f53b0bace34d7f4150b9ef9d04fba50107a66cc77e7b2f63da"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3973d6e0c200d18eb70f89402bcd845290bff4581d52a4180b29e1d817165887"
+    },
+    {
+      "path": "docs/skill-plugin-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "249fff8b36a17b19141e0e6a94cdd30b0ade1728d98c07c5ea9cc030b4370e2c"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d774e342f561afd84bec4708d257c71ba437308626f5050a6875b3aaa5b7e92a"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/LICENSE",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "a03644b1ce8f864d724ce55fb73761fa436ff5ad27ba21ac34ad875e9613f6d9"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/LICENSE-ORIGINAL-MIT",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/SOURCE-ATTRIBUTIONS.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "fd55c2cdeb0def16a9adeda386a8f2746e2587f304e51f290d3ea20f2e6d62fb"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/release-license-record.json",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "3b9cf5325de2b587cc9af8bd5d8165cfa1dfcdf8e629c93b207afabc529dde72"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/NOTICE.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "38cce95866357a580e8d9cf50c03fd7590d91684fab2b78899c465ee48a8225a"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/README.original.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "03338a6d1b35349058d187b4d615bc7d1115c0ffb0dd8fbb54cdfd9519d88335"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/SKILL.original.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/references/hooks-patterns.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/references/mcp-servers.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/references/plugins-reference.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/references/subagent-templates.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944"
+    },
+    {
+      "path": "libraries/claude-code-setup-original/source-map.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "106dbf97e9d4ed3e6a2774e804898fc24ad01ef5d32ac62ade86ec9b7bea0cc8"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/.codex-plugin/assets/composer-icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/.codex-plugin/assets/logo.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/.codex-plugin/plugin.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "14b95332a58d17d9b6aa6343b3ce9275fb6e22fbb75c45441ddd54605c3e589d"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/assets/logo.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/hooks/hooks.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "f48f534a54a3d64a5101c7fb0722f33729f04d4fcbabdc688f54403630cf5b62"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_doctor.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "6ebc609f6666091cbaa3490878cbfc35bcde72413df67a83a76e726dfcd4895b"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_project.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4fba772f543f4513e65e50eedd1ba610224c5f648fedd1366ccf5edd869e38ab"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_session_start.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "821ad8378f3e453f3ae11cfbb951721f330e53d4e55b414b4e6e771f98ec89b0"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_stop_guard.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "00724054da472442bdf65c965a6f9243dc226c04cda03bdd3f1a7f7c5b662964"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "eb71137148dd16ee2da5dd2de60844a52aa350fd661c115d46912b1ca0cffc98"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/capabilities.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/doctor.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "930d72f8979f6bb1fd7ba20fddb9dc513e4f28d9b81118df73508a4b684f22ac"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/execution.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "600fa280c7923038455e0e98e313fdd8bec667b3c4f594cd09d5c5fa0fec9140"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/installation.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "79208900f0bcb673b75428e5d164787ff74d871c1d163335c8b411179a301350"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/maintenance.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "71d3b89f875876ea0e39d1e9cb67cfd7ebae6346a4b2e10da3fce4c99382c984"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/messaging.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/operations.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3d92338f4dfd2014da876c91333d170e2e35b153d8998576c3fc423df40bce74"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/recovery.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179"
+    },
+    {
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/scripts/coordination_state.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c"
+    },
+    {
+      "path": "libraries/find-skills/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca"
+    },
+    {
+      "path": "libraries/find-skills/SKILL.original.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+    },
+    {
+      "path": "libraries/focus-ops-manager/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ac704ad9b6fc3d9ffc54b16c4f260a56ec14e5a08c1a083bb730c6f6f2fa5bf6"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/claude-usage.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e278116209d7f9672b2bf4c19f97a9863d5cbb71ea985bd8b4846afc23f5be81"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/codex-mcp-investigation-report.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e8c5bfdf4b367cc12c277ff3c67c704d39bcf838639d55f5766d6465ca1832e5"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/codex-operating-protocols.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a477f88c9e6c672666ee8bb9e06462d04d32c3080d89df278b06a266dea224ce"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/goals.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2b2f353b68704f625c37499c2210b7fe0bc5cf95d2a3d23d23c9e6f58a38737a"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/hard-truths.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "939949c91f492f3a9b5226c53be585eb109fc311da68d52c57bcb83a87f67aab"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/kyle-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2ab465ba7ddbd4e0abf35b25947b7cd17251e4f4b458426dc0eca630f22d389e"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/kyle-profile.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0ad242998692755724e021f7ad6315e055feafc8a1587a3c255abdc77483edde"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/mcp-registry.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "be7d0b7c96970ef790f9a7a9df12f9f5ad8cdb2e8f44bc1a1e0eb50ff6c66bde"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/mcp-test-plan.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f8e0884012c9c90dc36b69223c2d99c5e693b76a595b9a4aa3d50a93d35b9ccb"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/new-idea-protocol.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "41afa41e7f365a830089c7ea83a550489316cf48626d1bf226f7f3c4c6437ad9"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/session-protocol.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "98021f37db959d0971f06355c0adfc5e18c4443f092c82c227fec0fb5a97dd66"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-mcp-improvement-backlog.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e114c7979588d97c800eca02c6f2bd432d4d3c75e1e6332b777941f3e3bc0003"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-mcp-orchestration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "58fbecb9c334094a6df8b8f08abfd145e94dbf3ac34e3116f7135f6b6d60cfc8"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-provenance-catalog.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3f46271e9140ca53386f1d205e214ba28ab53b0f2561b0ec6a6897bbaedbc0e0"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-review-mini-rubric.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3d019bb659c1eb43ffcf160ac5beeace013400e016a66576b34a85e4eee66bb3"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-routing-index.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "84afaf7ae86ccdefd4c7cd39451a321994049730986b6d7a0cdf5ea895b0bdc2"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/skill-routing-index.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8a91aa56e1e27acb35d286eb71b9054c695a4ae35875d0bdf02a2dbd99c2279b"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/subscription-offload.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "073d2b61dbd9124283f2b1e3e6b8c5fcc472dec23289eba1c917646cccfd1c8e"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/weekly-log.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "57de9cde4cd6290444270595e33320b4a37c01906c66d460652bbd294145f382"
+    },
+    {
+      "path": "libraries/focus-ops-manager/references/worker-supervision.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "664687e769a3622f1f5c83808af569b9d5d747e86b9aa5919fe11f8966eec00d"
+    },
+    {
+      "path": "libraries/foreman-original/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "7d173fa71020f1a220de90251f92abbaaf001567a2443747a0753ade1cb63f68"
+    },
+    {
+      "path": "libraries/foreman-original/docs/evidence.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "242a53c432fba669e04b0e588e3167bc25f2fe280dd1539bc8d5f3119e4bbde3"
+    },
+    {
+      "path": "libraries/foreman-original/docs/steering.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "4f98ba60d11f5573419601141064a10a9abdad244ec7e9aa828a3b85c03ac468"
+    },
+    {
+      "path": "libraries/foreman-original/docs/what-foreman-proves.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3b3c4dc413096c48640c9252ed4090c9724440a445657295dbd16e14a4552d55"
+    },
+    {
+      "path": "libraries/foreman-original/src/foreman/policy.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "23f9e3832e4738b6a17135a3cac18e2e7c833dc104539d5e6789b88c251e2419"
+    },
+    {
+      "path": "libraries/foreman-original/src/foreman/responsibilities/builtin.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "050a6f8af4436d8bfb1187a46af1d4e6ecb256a7added92b38ac0caeb0e60261"
+    },
+    {
+      "path": "libraries/foreman-original/tests/test_policy.py",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3e7adc76610f9890f649a54e5a91cb15b0d72a7d75990723739571c265a3ad39"
+    },
+    {
+      "path": "libraries/headroom-context-method/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "f14dd440c8e3152b4d4d324615de8251ddb011dc81f484daad0b6902093539cc"
+    },
+    {
+      "path": "libraries/headroom-context-method/NOTICE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "88dc0f4a90a8742dcdd1c61e19050b73a9dba7e45ec9ac41a62ba0ae005aa6aa"
+    },
+    {
+      "path": "libraries/i-have-adhd/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c"
+    },
+    {
+      "path": "libraries/i-have-adhd/SKILL.original.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "3170b16ace00aecb0dd7feb54c0b5aa642e7502acda06ecd24fd89a11c7127e9"
+    },
+    {
+      "path": "libraries/plain-to-dev/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "66063d8d75aa68e5f8151b1a57e692e16def08d446ec3ddffbff0746a5a3fd1b"
+    },
+    {
+      "path": "libraries/plain-to-dev/references/beginner-build-translation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0f89ec1db8bb08b8b9d97367d0b09ebabf3ff2c9c6238e77b93556605d27c290"
+    },
+    {
+      "path": "libraries/plain-to-dev/references/component-glossary.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a4b643c326f52a023173e560d9f16183d23509d77ccc99716ce8237d72334b13"
+    },
+    {
+      "path": "libraries/plain-to-dev/references/discipline-glossary.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "61e523e87e14a33c2598d2ff08deeffefd56a8a7cbac10dd135f7affc3fbdeb0"
+    },
+    {
+      "path": "libraries/plain-to-dev/references/idea-to-spec.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9a2e5b8f57fad399fe223b11941000b776ef813037833382de8f224154f0ad36"
+    },
+    {
+      "path": "libraries/prd-strategist/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "4ebf26d2fae1ab12f0304bf0d8296f3cc9388331327f807c4dadb4036fbf6f9c"
+    },
+    {
+      "path": "libraries/prd-strategist/references/feature-table-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "57276e40bcd7d2fbc938a2d0aa4aca365b5427469c70399cad022738e7a98002"
+    },
+    {
+      "path": "libraries/prd-strategist/references/openspec-vibe-adoption.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "102caa22e17dc0d2b1851ae4cd25495f920a2b33e53056667d47a9e7e4c59098"
+    },
+    {
+      "path": "libraries/prd-strategist/references/prd-template-guide.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5ec9dd4cdd6c01ed6d16f6b3ab048680fb1967bf6e9c6a65c01e6d599b72defc"
+    },
+    {
+      "path": "libraries/prd-strategist/references/workflow-and-artifacts.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d28a08a6aa0fdb28bcc231ac8c71c1acd9aaa7e57349271f8ec55c0a7bf20a3f"
+    },
+    {
+      "path": "libraries/prd-strategist/scripts/create_change_packet.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "39c44bd90158eac4ff7992a9fd58ff936b3102bdb75711235d1b230606ee72b7"
+    },
+    {
+      "path": "libraries/project-structure-architect/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "6c2721e3a44dc72f3ce406f6f93bb555c26709bb117537327595ca2b75c79600"
+    },
+    {
+      "path": "libraries/project-structure-architect/examples/single-file-vs-expandable-web.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a6cb6ff0a0a1adc20bd31d3a984be29a39131979249f79676e304de5c88e13c8"
+    },
+    {
+      "path": "libraries/project-structure-architect/examples/threejs-before-after.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b62a2f066b7d856da460dc779e81aa784e6b6fba7f1f456780131ff1aba806dc"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/00-research-brief.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "4866145f3b9bfa9ea04f38cb6ad7b713286e0f81c08040e974d5f72c001b9532"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/01-core-principles.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5bc1163fe974ddc7f4c0d58234615815a4d7a1f4ef3dcb8ac43e74274f5a1de6"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/02-decision-rules.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "194d60b3ea30859dda5a1188a8d3bcd2e016e04fa79e5ab95ede08374395b3c6"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/03-web-and-app-structures.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9ffc5e97329e9169acce6ab2a00a5d77fbbc7e91ca09b933d83133f3a6736934"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/04-game-project-structures.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "04a02fedff8d4a4717916c6ffa71d346f8733b175ed54c615ecc1d95bc0181c7"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/05-repository-and-version-control.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f4cf1838180e580d98cc469ae9cca1e0c6fe021b712ae2693d81c5712f73e99b"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/06-database-and-data-organization.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "70a898aafbd95c1bde778dd6902311154b4adf07c370996677517b6d323a1594"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/07-docs-ux-information-architecture.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0eca750565b0ed138522b281d422283d503dd63d38604256fa22678e2bd79e98"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/08-skill-integration-guide.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a329b604fb7bab07bc91baa794aaaa1c69e83a554b5f099554fbd9ae0cc0b45d"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/09-checklists.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "725706716f3e20c0d6ac2a0ed5a5c167b25664c6710c1007078bc328c1543529"
+    },
+    {
+      "path": "libraries/project-structure-architect/references/source-index.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5b38e49dba99166f248e8e656890e39d0c1e6b5d58cb5f4283a0cdecc8c84764"
+    },
+    {
+      "path": "libraries/project-structure-architect/scripts/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7f18450b51aab54784f66b21b1c74952c119dec5b0425e4fca42b7c759e7ac2c"
+    },
+    {
+      "path": "libraries/project-structure-architect/scripts/audit_monoliths.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7c3489e8ef5898db2a6123bf52969ae32be696d3ef94de4137146a6ceab28392"
+    },
+    {
+      "path": "libraries/project-structure-architect/scripts/scaffold_project.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3c7d1a1811436830f12829e5f4f147a721396942fcf14579879c496eadf8df9b"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/adr.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0eb802a2a29022588a1a06d6d7f80d2b46fa5fb62d87d72e071e52063f1f747f"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/agnostic-scaffold.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f714c70a1f07257bb4bde621d5929ceb4dc8b2e93bbe13bb7d3bdd8c0574662d"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/database-scaffold.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e3011a353812f0840d5831ef2741591e0d23fd62e6eabb386f04793c7f64698f"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/existing-skill-patch-snippet.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e0d83b368224ba1f54b9966b854ea7e472e370d174b6fcd845230d5212bf8cdb"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/folder-structure-proposal.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "6148ae6aea1bc44bee62ca0ed7d0aaf226c2e1323836eb08fa41804db4b3ba9d"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/project-map.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "798004b16b295470e0c279a14e7299879421ad1fe4c3267b94441913c3ebaf40"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/refactor-plan.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1442c204d1cd3531922d10861579a1c8b0a3105ed8d6c834966ca0c33443bf56"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/web-app-scaffold.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c1c4ad486ca1eb84ab3ae2f24d910b16bb36cd3a103fc6a9cb8115ddcbce6e9b"
+    },
+    {
+      "path": "libraries/project-structure-architect/templates/web-scaffold-threejs.template.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2b2cc7da18f995630a89524c0c0d114e5ce710c4931307e8fab13650be822b64"
+    },
+    {
+      "path": "optional-hooks/claude-hooks.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "22b1dc055473c3e2711756fce06fe04d4cad645ef2c5b4cf2d4c2be618a6ad99"
+    },
+    {
+      "path": "optional-hooks/hooks.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "b302d76e71cabbaf607ee92f84344dd4a8f1cb9c7a479f95433aacbcab307f7f"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "261e032fdcb1d8e6f9880407655e7ee95197b21628c00a3a7fa769486b0fa108"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a0bcccc98af9093b3c3f152682eed46e368228390e65e58793f4badb2bdf5113"
+    },
+    {
+      "path": "references/beginner-discovery.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a9d452a7ebfb183f2309023ae67f0947a4a1e232c5c68a5742201a262ea252cd"
+    },
+    {
+      "path": "references/focus-methods.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "88ea508bbe6efffdf3c670d5e8ebf5ea512c558ab09acab56ef08897d5d6ad62"
+    },
+    {
+      "path": "references/operations/browser-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0f932e9e349f4816968de7da906ed699aedcc2064335d7950d27b541a21ab0f9"
+    },
+    {
+      "path": "references/operations/browser-workflow-reliability.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "4786ee7b5537817ed6b4cd72b684e3dc1472ac55983aa0fe446db125768e0217"
+    },
+    {
+      "path": "references/operations/codex-desktop-launch-and-window-recovery.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e6add4e1eab22c917d9eb1dda60d4f8bdfd62e46d60f5d6106f3dc00177e3272"
+    },
+    {
+      "path": "references/operations/codex-mcp-exposure-check.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "6c0dcd5f82dd74587c9f8d2f49a34844e6499e95dbbb41919db5e5043421dff0"
+    },
+    {
+      "path": "references/operations/daily-cleanup-ksb-guard.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9294701dfe6fe8d69be4ac28f042db3557b5f24c1f91756afaab9cc4dcb09d69"
+    },
+    {
+      "path": "references/operations/download-hosting.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3626966ed69f9e412f0b94a980cff154f2060083638d6fa9ca21f9ff0da1f86b"
+    },
+    {
+      "path": "references/operations/external-pattern-harvest.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "bef80a1789fc947f4be552c66fd24ff13acbcecc70ee00cd331fa2135166651f"
+    },
+    {
+      "path": "references/operations/focus-start.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d315cb699c285abcaa5fb57b2a7d2c27dd46c289e356ffdaa047ebb222ce590d"
+    },
+    {
+      "path": "references/operations/mcp-use-check.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2009b8bfe55107a5316159f2dc149c097966bd3a6b3424a6b6e99930e6219387"
+    },
+    {
+      "path": "references/operations/moli-browser.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "86d5247df4202fd56ea7fc8cd1195df72d8e8d7b291d7a6f5ac0785531d6196b"
+    },
+    {
+      "path": "references/operations/phase-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "805fc022ed274429749eed6a10bd6b03cec20b7f456909ccc2d1b8a2e4ffdad3"
+    },
+    {
+      "path": "references/operations/ship-log.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3b42bb9c8445b19074b8f49644026c523b580ac06af6615cae43c69d964918f7"
+    },
+    {
+      "path": "references/operations/system-pressure-guard.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f19c91d285b94e7e3be02dd67565985fde43db671e58b9e200257efbaa260232"
+    },
+    {
+      "path": "references/operations/webcmd-LICENSE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "df3f5ee42f2ed15ba6a92fe5c96ac3d9087ab56cdb8c4c628400cbd18878c2bd"
+    },
+    {
+      "path": "references/operations/webcmd-NOTICE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "702fae593bd553b573526adaff6afb74dd182b958e631c57f2c1357847d0f5af"
+    },
+    {
+      "path": "references/operations-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645"
+    },
+    {
+      "path": "references/plugin-maintenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "64df7aef7af0e55f3dc7e7cb239f38750f98a15e919eb4871d7b2795d16faf34"
+    },
+    {
+      "path": "references/plugin-release-surface.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d2499369ef3bbd5ec0879507e3346b0b9fb70334d0e920b4242ba40bd7e3654d"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "a063349c9f35bd7a13b9d84ad6f6da7559a45e8820ff5f64ca1bc151a6b20954"
+    },
+    {
+      "path": "references/professional-agents/SOURCES.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "403c9672ba7dd6c49114dc7213864fb1734c234c4dff66f0a1140b311b2f5738"
+    },
+    {
+      "path": "references/professional-agents/agent-systems-maintainer.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "c6d63e13e32d37437850ef4ec5bfa12160b40e736b58d97e0623a7450de63f80"
+    },
+    {
+      "path": "references/professional-agents/catalog.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "ce35981e63b061d7db713506566d2fb42f9f14c0ab3d8bf856ac7c6d62dfbd71"
+    },
+    {
+      "path": "references/professional-agents/council-moderator.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "a2263a25c331dcaeb48c9f3b7fcc3329de726b53cd8607c0f93ff482d5d48b95"
+    },
+    {
+      "path": "references/professional-agents/evidence-curator.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "d732e17b94e50ec3ca1c50e47cc2ab9f763c5787771f7962de89386b1f5cac4e"
+    },
+    {
+      "path": "references/professional-agents/focus-and-continuity-partner.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "0cadb622243a261d4679b5eb8055f44d31fb9d89ed38c36797bc9d49201a6e9a"
+    },
+    {
+      "path": "references/professional-agents/mental-health-navigator.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "02b2d9319791aa9a94e5dc2ce9198e2d4ff272f280fb6a919735c12bf40d753d"
+    },
+    {
+      "path": "references/professional-agents/plugin-role-map.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "386aaaa93e7bc514af26ce2b9df8197e295b2aa490edec429ceef6f902ab13d1"
+    },
+    {
+      "path": "references/professional-agents/product-manager.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "d458f6f94e7c1294261751d0699186a7511f44a4a7cd240330c2272f53bea5c9"
+    },
+    {
+      "path": "references/professional-agents/program-manager.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "18deab8417d91e0f3c02a66c204fca42d55c1dafdc34c175e8904ee11b4e2ced"
+    },
+    {
+      "path": "references/professional-agents/project-manager.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "e9f96c28938e55adf040b4bc896946d37b4c0c5be613d384f0eae3e8a5627ac5"
+    },
+    {
+      "path": "references/professional-agents/providers.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "41e302d62aa502b4a7d5ca48eb310d32be9af2f061275c4b630adb0f45aea42e"
+    },
+    {
+      "path": "references/professional-agents/qa-engineer.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "d40cdd6a8fce58405f10814084bcade31ebc2f2fb3581bff065148c8c4f5d888"
+    },
+    {
+      "path": "references/professional-agents/skill-role-map.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "55b28da2ed988689b3ee6371725e0fe48f61b7343a42708e121573f54272efe6"
+    },
+    {
+      "path": "references/professional-agents/software-engineer.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "080bbb4c17cf0cb0d2ee1dcf10d6f6b8f066c89576fe8b24e012dd6ed6366e89"
+    },
+    {
+      "path": "references/professional-agents/solutions-architect.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "fc1f0f60e46ceca3ad2b483f70b7f25aa1130b5a356711fec8579d3a2a708f92"
+    },
+    {
+      "path": "references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da"
+    },
+    {
+      "path": "references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746"
+    },
+    {
+      "path": "references/professional-agents/supportive-skills-coach.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
+      "sha256": "523ab23a421404cc35581278005cacdb0862a84ef9af4fe1d80e286751f8438c"
+    },
+    {
+      "path": "references/reasoning-check.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "962e98c0532ab77c8c4f685819800b3c662535c059ceb52cbb8c3f3b684c8fb3"
+    },
+    {
+      "path": "references/spec-shapes.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "704844a0da4d3738aecde23df4f9f10492a2112deef47e31e125f50b52e8676e"
+    },
+    {
+      "path": "references/structure-decisions.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "acf5163420deb843b3eb66eb54cbec4a0313397dc24c648dedbcb5d40eb70a86"
+    },
+    {
+      "path": "scripts/CODEX-COORDINATOR-LICENSE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07"
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "e155a38119d8f6e355164e23ad2f9c892a733086db6af09291cf0dea9921912e"
+    },
+    {
+      "path": "scripts/codex_coordinator_doctor.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "a5b1728f40a1434068722193828f6f103541f33c8fbc76a6364221ecb4e2a62d"
+    },
+    {
+      "path": "scripts/codex_coordinator_project.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "1020909acdce0ebf30fa23448ae421f8bd2b7ff69b002895615de7c11b0985ee"
+    },
+    {
+      "path": "scripts/codex_coordinator_session_start.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "f7ed3924f63d17ce0d9afa52c806fbef7a65925f0f6ba8fd3337610aa90526c9"
+    },
+    {
+      "path": "scripts/codex_coordinator_stop_guard.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc"
+    },
+    {
+      "path": "scripts/codex_work_start.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7cfe1f088e96600d06ee46ac30f48cfa1514a8a708efa73ebbfeba67ef73738d"
+    },
+    {
+      "path": "scripts/decision_review_hint.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6a6c51bfdc3d7f0b25987d3f6eb3f8b5f1d40a4e1d8aa3b14039e8766ca7a6fa"
+    },
+    {
+      "path": "scripts/install_professional_agents.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6bd26556a735e7434ea281e721d5e642e331d8277bf1f5cc93f732b059ccbf84"
+    },
+    {
+      "path": "skills/cross-codex-workflow-exchange/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8678c1ec02b89b3cde822e45641a417479071e91d09a68d3f7f21c11fbd5df88"
+    },
+    {
+      "path": "skills/cross-codex-workflow-exchange/references/host-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2f724b7aa7fa20c17ebb5f6432924630b204be55e57b23df44963a652d386d86"
+    },
+    {
+      "path": "skills/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b470fa2cdee30c324f3eb0237480e4f74d268c8f820d004b64019021b094fe76"
+    },
+    {
+      "path": "skills/evidence-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9483663859fb5e04fa4c07ab437c0d7920f8243cfc7dc6398daf0d9957fa4142"
+    },
+    {
+      "path": "skills/evidence-review/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "bee4d1ffb98e5f00fdaff85b222b5861b507c8daedb4593bdfdcdc5d8021162a"
+    },
+    {
+      "path": "skills/evidence-review/references/corpus-and-publication-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1ccd63db7d2a977b990f778e9756b5bfe4a841c4494711a50ee3e5e497cc1b6e"
+    },
+    {
+      "path": "skills/evidence-review/references/feedback-to-method-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b2587d9d9f4f3a99e2d236f215e9e1d345809eeb4ce67de1802cbe1d203b3f94"
+    },
+    {
+      "path": "skills/evidence-review/references/operating-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "279aa290ec5126961aa04f11d58026ba6f6aa543c0e2c79c41179c383d69c155"
+    },
+    {
+      "path": "skills/evidence-review/references/release-evidence-and-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "55583538ce863bde346faf28a926236c7ae473b7154f0b8f3a23e413f5ca00b2"
+    },
+    {
+      "path": "skills/evidence-review/scripts/card_model.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "dc736dab941490d44becebee2ff2a6b77057f510b4897857d66cd19ba54e87df"
+    },
+    {
+      "path": "skills/evidence-review/scripts/evidence_review.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "78633a13d0923985cf6ce882dea27e452d119403911c164a6d6ad63128f643cb"
+    },
+    {
+      "path": "skills/evidence-review/scripts/record_store.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "05230dcbec660fcd1972bfb9b60baf8837085df28141b38729c272704dd529cb"
+    },
+    {
+      "path": "skills/find-skills/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "cc9dffb99477e85bce6ca1a2c8b7903b8712681b650ab0bc6a3cd920147812bc"
+    },
+    {
+      "path": "skills/find-skills/references/LICENSE",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca"
+    },
+    {
+      "path": "skills/find-skills/references/discovery-and-admission.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "17e68073ded6012934dc1c904c447b7f18da8d98f455efa2b3664a422bd1629a"
+    },
+    {
+      "path": "skills/find-skills/references/gap-filling-cycle.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "394b7823dd9d9b22f9aea9f376c7327194230ddd938f6ee02911063ff9cd1bd9"
+    },
+    {
+      "path": "skills/find-skills/references/local-mcp-discovery.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ad0af03f0f15c0fcbe5bb8fe24aebc15a7a6158f1bd420156ca40d4e795096ce"
+    },
+    {
+      "path": "skills/find-skills/references/project-setup-assessment.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "369559c8d2e8fa7b1d26bae9bc35160441905b3df18999c8ecef530138f2a1e3"
+    },
+    {
+      "path": "skills/find-skills/references/provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c14904021fb452df7cacbcba1883d79fce11d30845be82ce374f1b80bec00d69"
+    },
+    {
+      "path": "skills/focus-work/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "46f512fdeae5c3373f3c791082347cc496bcb9c019c998d118d834fda552b2db"
+    },
+    {
+      "path": "skills/focus-work/references/action-first-output.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b3afb456ed702eafd71a84295fa8e371b8c455163e4695925fdbdadfbde722e2"
+    },
+    {
+      "path": "skills/github-conventions/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "899fe928c30dc6c67e64995c433e5a353fbf3e914f7da34db49423f2177bc558"
+    },
+    {
+      "path": "skills/github-conventions/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807"
+    },
+    {
+      "path": "skills/github-conventions/references/account-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ce39275a8b71461ef51c2e38f0f0bc89020cc7a0daf08e427b677d99c07974ee"
+    },
+    {
+      "path": "skills/github-conventions/references/repository-navigation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4"
+    },
+    {
+      "path": "skills/github-conventions/scripts/refresh_account_map.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "90b74e65d6ea285be99c9852866ffb2060f538cd20a4513a3beab38b1344e481"
+    },
+    {
+      "path": "skills/obsidian-vault-router/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c17affdb2bd0e6692aba7ebeeda27834395b21d4be67be8a742ac4b75368801b"
+    },
+    {
+      "path": "skills/obsidian-vault-router/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b953987c385c840b686de4e986662b6a5ca9b7f296c8c8e0e226485f5636c924"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/knowledge-atlas.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "66502910e04f197ec0ea71938d0473ea6f66f68149ece4213d93ecbd7d621783"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/kyle-second-brain.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "59a37e99b50f2662bf3cdc30f2bae8c5af08c0d1061a8e96dce085b33c3e9695"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/kyle-shareables.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a95d23da24c07cbff4940f7091dc03081cf9d666d4106b84b3a54d37ec36b9c8"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/kyle-storage-hub.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c0c7a65cc3c7b9407ae7dcb8bf5d1a90f5ffc3929d4b77e5198cf5251f4b2ee6"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/obsidian-core-practices.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f4ec1ae4a5a080d03b75a241fd1c54e50f05f03252be972dfa0a1556b82a0c0c"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/tool-selection-and-safety.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "04f86839313b7117c2e71139d26543559fb3202a5fb85a0b18ab4e749b1a20e6"
+    },
+    {
+      "path": "skills/obsidian-vault-router/references/vault-routing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d89bc7cc45aa6072d6e6b9c25ae4654e18da31bd7fdc06be31d051c770570051"
+    },
+    {
+      "path": "skills/parallel-work/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "21395422665ff36252f4a9c21b5b2b968637d41ed09ab3b83cf58476935ad0d9"
+    },
+    {
+      "path": "skills/parallel-work/capabilities.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be"
+    },
+    {
+      "path": "skills/parallel-work/references/doctor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c061eec954204fe37885454fdc2e216edadb0faf70e473bec613ed41e350ad69"
+    },
+    {
+      "path": "skills/parallel-work/references/execution.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "50990049764d7e78c5fc9f5ca327ee607e0d2f9f5fd54c269a9611a1147e643d"
+    },
+    {
+      "path": "skills/parallel-work/references/installation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d5742d3b327e4abc84a9e93a2ac9736463e117ba998eb5f69830084e43bed0e2"
+    },
+    {
+      "path": "skills/parallel-work/references/maintenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0445b84bc0998c75b1308ee324c640aecdaeaae5b207688008043e53511c1afe"
+    },
+    {
+      "path": "skills/parallel-work/references/messaging.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415"
+    },
+    {
+      "path": "skills/parallel-work/references/operational-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "20d22f0101c226100862b96e59afe620216c5145afc8d3d240c95baaa2124b13"
+    },
+    {
+      "path": "skills/parallel-work/references/operations.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f717a432d920c0646dac88ad7e888a015221bf008915bec3417546799450d7ad"
+    },
+    {
+      "path": "skills/parallel-work/references/recovery.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179"
+    },
+    {
+      "path": "skills/parallel-work/scripts/coordination_state.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c"
+    },
+    {
+      "path": "skills/plugin-maintenance/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9bf0ee2005c6525f84b7b5a0bfa7802464856538b22dcc223fff1f8142837226"
+    },
+    {
+      "path": "skills/plugin-maintenance/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "f12d594bfbac8edc6cddaa49c6d2c52dc0256d13358630daea21b8ae82e6b314"
+    },
+    {
+      "path": "skills/product-definition/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d7c267fcc164c51989875ecde134a4d6424323b60bf0ea65b04b8a936c0ae157"
+    },
+    {
+      "path": "skills/project-structure/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "47856337d958d164f201e2680193e622cc1da430a6aa36698d786d3a63391fb0"
+    },
+    {
+      "path": "skills/project-structure/references/graph-grounded-explanation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fc1287be277f090737ee54a67f1c305709fdcc9e4393a7b9c8d4fe7e7722cb1d"
+    },
+    {
+      "path": "skills/project-structure/references/reviewer-lenses.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a9c95c2c305b6f12090d7393123337470ddb8f4de84c85784770a6594454b39f"
+    },
+    {
+      "path": "skills/project-structure/references/understand-anything-LICENSE.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "24c4b35344840f1abaf3a3a4a44f5e29ee0e73b6bf25e42ef108e0afebd402bc"
+    },
+    {
+      "path": "skills/skill-authoring/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "977cd870411b020ffff32b4752ca7833ca78781f341dbbe79acefd42abe18956"
+    },
+    {
+      "path": "skills/tool-workflow-routing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "822dc1715b087327ef13b530eaea13aabdc63140be25003c674cf2856fa3aa08"
+    },
+    {
+      "path": "skills/tool-workflow-routing/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "c2648f64680b87faa79ad4fbe1284777db376edce80ce26fe8aad6ad24c2f03c"
+    },
+    {
+      "path": "skills/work-handoff/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "cda29e511748b42a08c0e53e747f249ad2b7462b098a81f31e8deb1c3895f825"
+    },
+    {
+      "path": "skills/work-handoff/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "2c072cfcaab4567870e72120c1528f6e2d04fafd029f450fe0440bdd0c8e3169"
+    },
+    {
+      "path": "skills/work-handoff/references/editability-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e6578c8db8fb8eacaa6b6af7a8462de808edd7bda30894e46fe659937d29b497"
+    },
+    {
+      "path": "skills/work-handoff/references/interface-learning.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2051c066ae69a900559363cc2cbcb7d083d1a4167c4e954a620a8d904313fc42"
+    },
+    {
+      "path": "skills/work-handoff/references/reusable-package-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "aa271f3de1228985a0815e062bf845c9faa8edf50fcb796acc34070dce16e108"
+    },
+    {
+      "path": "skills/work-handoff/references/shareables-site.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "97907d5ff031785e159faadadfc0a97e1499924cb3e9ab94510dce8d0320c855"
+    },
+    {
+      "path": "skills/worker-delegation/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0c6a87b7da1a15dde6caab80a7c41f9c98916dc81fae550c020bdf53a089db5f"
+    },
+    {
+      "path": "skills/worker-delegation/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "dea159080afe6725b273c48e47e8ac37dca63c8e61abbbe757017efcf8600ca5"
+    },
+    {
+      "path": "skills/worker-delegation/references/decision-council.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "63411a49457511daf3e0af22b02b1882ade0b3d9521c6b7e37b8312f0aa833aa"
+    },
+    {
+      "path": "skills/worker-delegation/references/initiative-coordination.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "b1339dc29c43d499f906f4f78e597ba31e4c6973adc2b5303c04bed82ec681b9"
+    },
+    {
+      "path": "skills/worker-delegation/references/resource-aware-design-handoffs.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "70dc55e291797a5a388d1bab8e9e25f5e6220e1c6066bffc926a5bbb5b50779f"
+    },
+    {
+      "path": "skills/worker-delegation/references/reversible-evidence-packing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "8912d66b65a6516560df8d778d55db1d6fcf4bc9ecff035e591b09f35cafcafd"
+    },
+    {
+      "path": "tests/test_closeout_hooks.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "e3418e4c647fb8f68d36ef0aeb4dfc9cd1869088671dc55df5f0c5127e305ce6"
+    },
+    {
+      "path": "tests/test_decision_review_hint.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "d0a6cd6074ea8fbf3a84f05d01cd4a543f48fadf5239a644535cf2de4a006898"
+    },
+    {
+      "path": "tests/test_evidence_review.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "76e1c87ce698cdd1c0652db57b1ecaf4210b32e59eedb444ffaf54c88f2fe6e5"
+    },
+    {
+      "path": "tests/test_professional_agents.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "7c2fa79507886e9c6e438fe17a712ad55730757c234a46097e801f6643673cbc"
+    },
+    {
+      "path": "tests/test_work_start.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "106a8b020b35dfa0b2bc06cce338cd28113a4b6bcfbb30100aaa5c7d7883f075"
+    }
+  ]
+}

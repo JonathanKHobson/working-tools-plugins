@@ -1,5 +1,7 @@
 # Mac Operations Toolkit
 
+Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state.
 
 ## What you can do

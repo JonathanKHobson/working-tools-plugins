@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.2.1, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source attributions and license scope
 
 This portable edition exports Jonathan Kyle Hobson's maintained Figma Design Workflow source. The [original source register](skills/figma-ui-operator/references/sources.md) states that operating policies, recovery rules, templates, fixtures and evaluation protocol are original authoring; product facts and UI routes are paraphrased from primary documentation. The corresponding [machine-readable register](skills/figma-ui-operator/references/sources.json) retains source identities and dated observations. No complete tutorial, video transcript, vendor screenshot or font is distributed.

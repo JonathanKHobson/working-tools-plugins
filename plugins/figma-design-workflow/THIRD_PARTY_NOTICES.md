@@ -1,3 +1,9 @@
+# Current license scope
+
+First-party code in 0.2.1 is AGPL-3.0-only; first-party methods, documentation and eligible creative templates are CC BY-SA 4.0. See [licensing](LICENSING.md) and [file scope](LICENSE-SCOPE.json). Underlying upstream grants below are unchanged. First-party MIT/Apache statements in the retained record below describe the prior edition 0.2.0 and its still-valid grants, rather than the new edition default.
+
+## Retained source notices and prior grant record
+
 # Source attribution and license boundaries
 
 See [source attributions](SOURCE-ATTRIBUTIONS.md), [license scope](LICENSE) and PROVENANCE.json for original contributions, source identities, transformations and exclusions. Product/framework names identify factual context or interoperability; no affiliation, certification or endorsement is claimed. Complete external source publications, provider software, account credentials and private corpora are not bundled.

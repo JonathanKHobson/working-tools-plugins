@@ -1,5 +1,7 @@
 # Game Creation Studio
 
+Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Design a playable game or prepare and facilitate a tabletop session. Turn a game idea into a playable, testable slice. Start with the player's repeated choice, decide what must exist for one complete run, build that slice in the game's owning project, and test it with players. The package also preserves the full third-party Game Development Studio 1.0.2 methods for assets, package vendoring, render diagnosis, and performance work.
 
 Try: "Find the core loop in this game idea," "Scope this to a weekend prototype," or "Use this capture to diagnose the renderer." Useful input is a concept or project, target platform, audience, current build, and one decision to make. The result is a game-specific design, implementation handoff, or evidence-backed diagnosis, according to the request.
@@ -32,7 +34,7 @@ Provider generation needs a user-controlled account and credential already confi
 
 ## Provenance and review state
 
-The complete Game Development Studio 1.0.2 source snapshot is retained under [vendor](vendor/game-development-studio-1.0.2/), with its [MIT license](vendor/game-development-studio-1.0.2/LICENSE). Four active technical skills are byte-identical copies of its focused methods. The former umbrella method is preserved in the snapshot and integrated into the new router. Original design skills are new material. Original Game Creation Studio contributions by Jonathan Kyle Hobson are released under the root MIT license. Benjamin Michael Haire / Ben Haire retains copyright in the complete MIT vendor source and byte-identical technical skill copies. See [third-party notices](THIRD_PARTY_NOTICES.md), [coverage](provenance/coverage.json), and [project map](docs/project-map.md).
+The complete Game Development Studio 1.0.2 source snapshot is retained under [vendor](vendor/game-development-studio-1.0.2/), with its [MIT license](vendor/game-development-studio-1.0.2/LICENSE). Four active technical skills are byte-identical copies of its focused methods. The former umbrella method is preserved in the snapshot and integrated into the new router. Original design skills are new material. Original Game Creation Studio contributions by Jonathan Kyle Hobson are released under the scoped first-party licenses described in LICENSING.md. Benjamin Michael Haire / Ben Haire retains copyright in the complete MIT vendor source and byte-identical technical skill copies. See [third-party notices](THIRD_PARTY_NOTICES.md), [coverage](provenance/coverage.json), and [project map](docs/project-map.md).
 
 Native installation and discovery are separate host checks. Static checks do not establish live skill discovery, CLI availability, provider readiness, visual quality, or a shipped game.
 

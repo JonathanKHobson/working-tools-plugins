@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.2.1, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # License scope
 
 Original Development Studio integration and the first-party local-MCP methods/support are copyright 2026 Jonathan Kyle Hobson, under [MIT](LICENSE-ORIGINAL-MIT). Current owner authorization selects this grant for the public edition; the former private review hold is superseded.

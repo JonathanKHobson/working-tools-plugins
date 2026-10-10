@@ -1,5 +1,7 @@
 # Design Templates
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Complete first-party Design Library runtime for explicitly supplied editable sources: source-integrity search, human chooser, hash-bound handoff, token checks and inventory/recipe tools. The authorized public edition includes all original runtime code and operative workflow; the private 112-template collection, preview assets, font/artwork and provider materials are excluded.
 
 Install through the [Working Tools guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/install.md). Python 3.10+ and requirements.txt are needed for local stdio. Set DESIGN_LIBRARY_PYTHON to that environment when the stock host python3 lacks MCP. The stdlib launcher selects the interpreter before the server imports the SDK.

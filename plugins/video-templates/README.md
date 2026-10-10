@@ -1,5 +1,7 @@
 # Video Templates
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Reusable video discovery and editable storyboarding, with one skill and the existing `video-style-library` MCP interface. The public catalog contains 30 families, 38 exact examples and seven distinct pinned staged methods. Catalog selection preserves hashes, rights summaries, review limits and source availability. Video Production Studio retains production and render QA.
 
 Start with [onboarding](docs/onboarding.md), [the discovery skill](skills/video-templates/SKILL.md), [source provenance](docs/source-provenance.json) and [rights/dependencies](docs/rights.md). The [project map](docs/project-map.md) identifies the maintained boundaries.

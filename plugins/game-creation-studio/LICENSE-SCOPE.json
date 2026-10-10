@@ -1,0 +1,862 @@
+{
+  "schema_version": 1,
+  "package": "game-creation-studio",
+  "version": "0.3.1",
+  "author": "Jonathan Kyle Hobson",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3e4df1779ac2159ef3670031cf05a0c1df9b5602ea711aad4af3d8d70a0be674"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "f98c656a113fca025eacf7bba2610b78f0de5be3f45f7b26a7a8b93291eadecc"
+    },
+    {
+      "path": ".gitignore",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5efc0208fadb93cdc8e89f70178ad7a0da484a72242e9722e19b05104cf2adb0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "620f1c59d4b0d23b892ced48767d27ac4104b65a70921210eb6239b4facaeecc"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "PUBLIC_DISTRIBUTION.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7e5b091dc179616272fb692ad81ec7ef95b586d205c8f78d0ecc788c4e2613e9"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "227829cde6974ab23d09cf9263bfe05a66894c686e38b5b0c5cfeb19fd2aa02c"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "9e391423bfae5c2ba4909a501a11bade3378c2dca647298515f3b0b158cfc041"
+    },
+    {
+      "path": "docs/installation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e361ee271295af38ef759756e04bc3aab34b2aa09e8ee953a4a98c19316ac924"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "284f046e1c7ea6aab3ee33b2d88d02efb71d9e50ab8edc59c0ee291da0f3e1f3"
+    },
+    {
+      "path": "docs/routes.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "8839b4f137581f617631b5ddb8ff9be803a9d264bdd6b7bff38399dd706d990f"
+    },
+    {
+      "path": "docs/standalone-workflow-bindings.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2a32eeaeeea33d48b2c4b6ce03564b5455d6c668c46c13bff0ad3461f9d0d53b"
+    },
+    {
+      "path": "examples/check_live_card.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "db4233ab18b2ae55530d29fd8f7b40bd68f311516fda54df0f3594d8a24b1039"
+    },
+    {
+      "path": "examples/lantern-courier.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "dfbb9d20cd1c9716112d26abe0488c8a72a600d20f36a67e609b132ec475bda7"
+    },
+    {
+      "path": "examples/live-run-card.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "efb0bec14d6b82f58ee4025aae8205412dcfa9228e120d42e34bc49f42a58f7e"
+    },
+    {
+      "path": "examples/recipient-bindings.example.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "efeebc46ea132d225c57acf8eb5d32eafb9c28bcc9a0425cbdb0276e4effa0af"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/LICENSE",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "4c249ce9166a5ba414d7b8261ac0705373cd259d4d58613b75f1195645900bb6"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/release-license-record.json",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "98b708b001d9b359473cb9afb3ac766c89991edd2b9a212701a02848c74f4dec"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "bac995ff8f90ffcf8fc20cbc73f0243a412c82100b46275ef70a0388ad97bbe8"
+    },
+    {
+      "path": "provenance/coverage.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "ca42513cc15a59b63680db3145686561669938619bfc01697bd9ef033df2de42"
+    },
+    {
+      "path": "provenance/standalone-source.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "500bd741b6045bef459598ac7f0bc47b70d2b4e3b4ca1c134a78d10620088b42"
+    },
+    {
+      "path": "skills/board-game-design/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7ecd5c0933d3c0e30a570c1a9bf63aedd4bb23701be2c8b7e498afdb7ad100d2"
+    },
+    {
+      "path": "skills/daggerheart-adapter/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "bf59a7201003afad1314d5c196bde218a3dea8064c2b8b4c81a76a87e3f4695d"
+    },
+    {
+      "path": "skills/debrief-canon-maintainer/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e475e5f7183f00a7c4bfbbe9c796a9d0f9a3230207155741d999c84348092e05"
+    },
+    {
+      "path": "skills/game-asset-production/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e"
+    },
+    {
+      "path": "skills/game-asset-production/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f"
+    },
+    {
+      "path": "skills/game-asset-production/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "skills/game-asset-production/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "skills/game-asset-production/references/commands.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d"
+    },
+    {
+      "path": "skills/game-asset-vendoring/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd"
+    },
+    {
+      "path": "skills/game-asset-vendoring/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65"
+    },
+    {
+      "path": "skills/game-asset-vendoring/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "skills/game-asset-vendoring/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "skills/game-asset-vendoring/references/commands.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab"
+    },
+    {
+      "path": "skills/game-core-loop/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e49e96330ed76bd27ea673f1db2fae6900efbb286fdf18b2856d00b0dc06b353"
+    },
+    {
+      "path": "skills/game-creation-studio/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fb899645dffdf6c5e5e7c1214e549cfb41326078b9defd5b8456b72b726eac51"
+    },
+    {
+      "path": "skills/game-designer/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "520b67be688b56e31533fe25392aa49de15120f188e97bb71ff3b43f2e38f705"
+    },
+    {
+      "path": "skills/game-designer/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "03b1cc2051e3101347b6a82ffd704b39f7659b702cf5093e36e8e2b96ec7c396"
+    },
+    {
+      "path": "skills/game-designer/references/artifact-templates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c0e41200ce519dad2feae46db8b27c9e33b6e97bdcfd4201951cbca012ff9fbd"
+    },
+    {
+      "path": "skills/game-designer/references/diagnostics.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "3ce4e31da83a153d63b85b933fafdc6f125fa1c47959ec53f92c952802e3f196"
+    },
+    {
+      "path": "skills/game-designer/references/frameworks.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5d6a3431145ba4349b213e676c6222feba8f6c1274fbc06f81203011e8cb468c"
+    },
+    {
+      "path": "skills/game-performance-optimization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282"
+    },
+    {
+      "path": "skills/game-performance-optimization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c"
+    },
+    {
+      "path": "skills/game-performance-optimization/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "skills/game-performance-optimization/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "skills/game-performance-optimization/references/optimization-loop.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982"
+    },
+    {
+      "path": "skills/game-playtest-release/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "fff1dc6bc73605570a04f0aef960d73bd273059b546c11cb8dd9a3bace178865"
+    },
+    {
+      "path": "skills/game-prototype-scope/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "2805856d8f944e9f7e7a8b9163bc388516b43d0e2adc5ee8b1f3013b36ced92d"
+    },
+    {
+      "path": "skills/game-ui-accessibility/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "726125c5c523b172210c1b2b17a35d2dc4727aa99e5c98971df4e7a3fdc82f14"
+    },
+    {
+      "path": "skills/game-visual-debugging/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687"
+    },
+    {
+      "path": "skills/game-visual-debugging/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840"
+    },
+    {
+      "path": "skills/game-visual-debugging/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "skills/game-visual-debugging/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "skills/game-visual-debugging/references/capture-workflow.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Complete imported/adapted method closure; underlying upstream grant retained. Author-owned adaptations only follow the new first-party policy.",
+      "sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1"
+    },
+    {
+      "path": "skills/gameplay-systems/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "c345e0b3ea43c45acacbf80f60a6cecd967e45ad5f47d4bc62c172ef70c38ce4"
+    },
+    {
+      "path": "skills/gm-roleplay-router/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "0c67ce8f62971ed0a4dc1f04d85350cdc5fde1eb332c84d18ff48f09df2e2c4c"
+    },
+    {
+      "path": "skills/gm-roleplay-router/references/router-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "5c42095ae263298ffe5f9bfc42b11a0d42664510561f637f97aecd4ee8b7a365"
+    },
+    {
+      "path": "skills/gm-roleplay-router/tests/route-scenarios.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "84bfb99113fbf5f3e48072a0085422c30074eb861f0f66ab757941c392428b4d"
+    },
+    {
+      "path": "skills/improv-roleplay-coach/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1b9d8b64ea7c3de28ceff1c93adc940c65615f5703171f104ade253e88481bb6"
+    },
+    {
+      "path": "skills/live-table-director/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ef548f4f4f2f771cc3cb77b54d0b2339740e1b3723fcf6ae1303b5d39670d15e"
+    },
+    {
+      "path": "skills/live-table-director/references/live-output-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "ae46e6d274b781ad5318c10ab05d78a15881b52a5e61b9197803a7ce97917962"
+    },
+    {
+      "path": "skills/live-table-director/references/observable-table-signals.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "550cef5958f237f0a1db55dc077a8523fd4cc6098143cf5be3924cd70ab8efd7"
+    },
+    {
+      "path": "skills/live-table-director/scripts/check_live_output.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "c6c8caa65ae0f45c44c4297e2875a92dc02259e4a162031ff7c1745212daa72b"
+    },
+    {
+      "path": "skills/live-table-director/tests/live-output-scenarios.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "fb451d788188e664d75c5ff7d17ccfa3dcf2d0a2f92db4e1b37d06a7d6061523"
+    },
+    {
+      "path": "skills/npc-performance-director/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "9329a29b04fba172feb441a8291e03026878c8a466ff34dab7f086f501fa67c5"
+    },
+    {
+      "path": "skills/pacing-scene-director/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "f4741aa31c9099fdb4e2d37f325452ff2a03c510a94d2cb6136323ab15c11411"
+    },
+    {
+      "path": "skills/personal-gm-style-adapter/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "41edada97576242a23e9669cf8b197d39147686188aa06e9e4cbb2e2f0bf950c"
+    },
+    {
+      "path": "skills/player-facilitator/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "dff1242aea62c5da6ba8378e84224337644dfd89fc6c635b87e81eb7a52aa083"
+    },
+    {
+      "path": "skills/professional-public-gm/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a687e3618445e948ed6960e81874c2dcc027ce28fbb06684cff2ba7916aa8512"
+    },
+    {
+      "path": "skills/rules-teaching-coach/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a283a2e87c5027f23d05fac8bde44ca70d103f00379d97efd345e757bf51cefd"
+    },
+    {
+      "path": "skills/safety-accessibility-facilitator/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e11a94703961dbd218f6f1ea04507bac7866d8b09f60fdfcfac82250acf9a492"
+    },
+    {
+      "path": "skills/ttrpg-router/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "7c508dd76d331fbb58641b72af59c58c1d8f839780928bafb5aa02b9d09a40e4"
+    },
+    {
+      "path": "tests/route-cases.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "8700b0f3cc1cabab064e2cfb09628d9ac5c4ef591d671f22e02916e2683bdcf6"
+    },
+    {
+      "path": "tests/test_live_table_output.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "0fd53181fcaa5f31fdb15d4f1332c80a957d1d6176731b4fd2681b0468b2c731"
+    },
+    {
+      "path": "tests/validate.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "96adbad4aee3fbf01512c0d7c4413253d9eb1884b155a0ec767b44420e19b690"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/composer-icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/logo.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/plugin.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "f9d9936c513c74eeb2460814c895a57c172a4bbf6b1b48c6885bcfcd5642fc91"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/CHANGELOG.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "40b58720ce2c62f85d97064c18cd93ae255fd23f9ed50a8cb4645945924aa84b"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/LICENSE",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "915b4af615fcf20f331b7aa09822ea6dff49cc8e39c1ab5860ed5b91fe4aa79d"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/PRIVACY.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "d08e7a6744daa5bdb0b53f34c7779a77beab470c5455ad0781ce004e7574288d"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/README.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "37bbe3cba05d416570392be066aa2717e0df7307d414d63671b2233644f1bf9b"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/SECURITY.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "979b43bc64c33f99e0a277632b6676f130c375b986322f8de589588a4915a159"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/SUPPORT.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "ada254256b8ead125f271945e780f138278bfe585d3ca985156ba9dde24c6f48"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/TERMS.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "3fc670e4dfd9c3be9fc8af755bd93871b0d3fbce7bfbb7a87bdcde8dcbd4e576"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/references/commands.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/references/commands.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "f7af90bdf452567a9223b8197713272df5ffe4495f8728574f071fb67d35e022"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "fe578573adaca5227537d2099cbed4d84e50f84340df8a13ddfa5911497c7258"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/references/routes.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "b1acd1ae47b99a1ae600a989c4f0f2c6b73a2c084224e18413cc18ee6bf81252"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/references/optimization-loop.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/SKILL.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/agents/openai.yaml",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon-provenance.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon.png",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/references/capture-workflow.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/manifest.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "boundary": "Retained dependency/source snapshot and its exact existing notices.",
+      "sha256": "230f348c0d1a6ed8d86aacef1c4e8de4132c3712e2b18d6a1426ae70b009fcd3"
+    }
+  ]
+}

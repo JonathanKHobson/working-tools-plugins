@@ -1,5 +1,7 @@
 # ArtCraft Design Toolkit
 
+Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Use one on-demand MCP gateway to operate the ArtCraft app that fits an editing task. It exposes installed_status, cli_run, open_session, native_tools, native_call and close_session. The complete first-party gateway, skill, app interface reference and protocol tests are included. ArtCraft applications and CLI binaries are installed separately under their own terms.
 
 ## First use

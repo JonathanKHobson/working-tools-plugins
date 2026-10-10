@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.1.2, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source attributions
 
 Original Survey Studio synthesis, procedures, roles, schema, Python helpers and synthetic examples by Jonathan Kyle Hobson. The included `skills/survey-strategist/references/sources.md` records primary documentation, academic literature and methodology influences and explicitly describes paraphrase/synthesis. No complete proprietary/validated scales or cited book/product documentation trees are bundled. Generic original example items must not be relabeled benchmark-validated instruments.

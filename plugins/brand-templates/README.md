@@ -1,5 +1,7 @@
 # Brand Templates
 
+Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Complete original first-party brand kit selection, source-closure verification and handoff runtime by Kyle Hobson. This public edition includes the actual MCP app and chooser, with three tools and one resource.
 
 The original 104 fictional reusable kits are included with complete guides, editable guide source, source-verified previews, outlined logo artwork, asset manifests and exact open-font notices. The separately added Fresh Curiosity A2 kit is excluded because its character/raster asset provenance needs a separate release review. You may use the included collection, explicitly bind another authorized collection, or create the clearly labelled synthetic contract fixture below. The fixture verifies software behavior; it is not a substitute collection or a demonstration of brand quality or writing style.
@@ -36,4 +38,4 @@ Run `"${BRAND_TEMPLATES_PYTHON}" -B -m unittest discover -s tests -p 'test_publi
 
 ## Rights and support
 
-[MIT](LICENSE) covers the authorized first-party public runtime, chooser and authored test code. External collection rights remain separate. The included fictional original brand artwork is covered by the current author authorization; exact bundled font files retain SIL OFL rights. No private personal corpus, provider assets, credentials or host configuration is included. See [third-party notices](THIRD_PARTY_NOTICES.md) and exact source/output hashes in `PROVENANCE.json`. Report package version, host and a synthetic reproduction through the Working Tools repository; support is best effort.
+[AGPL-3.0-only](LICENSE) covers first-party code; [CC BY-SA 4.0](legal/LICENSE-DOCS-CC-BY-SA-4.0.md) covers original documentation, methods and eligible templates. External collection rights remain separate. The included fictional original brand artwork is covered by the current author authorization; exact bundled font files retain SIL OFL rights. No private personal corpus, provider assets, credentials or host configuration is included. See [third-party notices](THIRD_PARTY_NOTICES.md) and exact source/output hashes in `PROVENANCE.json`. Report package version, host and a synthetic reproduction through the Working Tools repository; support is best effort.

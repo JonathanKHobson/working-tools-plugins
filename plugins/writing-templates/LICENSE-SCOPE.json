@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "package": "writing-templates",
+  "version": "0.1.2",
+  "author": "Jonathan Kyle Hobson",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "de8a24348bff0b3ec98f9ba5a66d2cc1b01c5ee14be05b74eeae02775015a683"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "06cbc60c4d43a3c1753982d4fdb703e4202876efd441c015ac00ce2db42c2fc0"
+    },
+    {
+      "path": ".mcp.claude.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "42242611510bf4188dc6aeff2642a4c9460b89dd51600ee80b0be6f59c4842a0"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "984e6b305ae052e8e634352e6bd381a32aaaed96859b1a877a2421b45d800e9f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "286dad32b4f2286408f3b163df21920545385467a74b430d0cf1e4757d223147"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "58a40850465f980e1be40d75530c826eedbbf2a49a2cd1d1a6fefb9e12d7cf1d"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "eacd44265c54d578d182f893c1831dbae099136faf7cd6477e8de2881660cde2"
+    },
+    {
+      "path": "data/voice-library/approved-sources.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "447e9f843af46819f2c9a49ac112b8bf983a7ef3270d2225121c64607a4ffbf0"
+    },
+    {
+      "path": "data/voice-library/records/briefs.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "91d8b2682c8fc94c46c28a4d4bee5351f2837a963cf83c689bc9fa6a2fa4f45b"
+    },
+    {
+      "path": "data/voice-library/records/catalog.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "1ac8c5cf6c257bf2b9ce64c1ee181e16b6f5891283c8212ed5217986d08b1b4b"
+    },
+    {
+      "path": "docs/collection-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "e92ab6eff2cfa9ee5227f1901223a1749b575b2790e1bdd621961bee89c9e1c1"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "d0b9c78b9e6e91a887b90627db05f35dd0b313f68363194d6fd8870392aec156"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
+      "sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/LICENSE",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/THIRD_PARTY_NOTICES.md.txt",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "e73658ff6ff605c53ed8c9c600e727582e37526705960190c2d818d937fb7167"
+    },
+    {
+      "path": "legal/prior-grants/0.1.1/release-license-record.json",
+      "category": "prior-or-upstream-grant",
+      "license": "See retained grant text",
+      "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
+      "sha256": "638d696ca9d3ebde1642959ff90ffd9a2d6a0d55c35fec1afea4920b4b7cdeb5"
+    },
+    {
+      "path": "library/voice-library/metrics/cohort.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "4b50eb5754426cc8e084aed1e425ce4d5245b07cd442db24ac4e9b486c624e3b"
+    },
+    {
+      "path": "library/voice-library/metrics/constants.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "db213e0f4b6fc2d8062079b134a82547abb419146165ae13f5184eb8397d775e"
+    },
+    {
+      "path": "library/voice-library/metrics/markdown.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "bb7c40b2ee7dd43c8eb5a272373156752d64783fd43f029cb1b135425d3334a2"
+    },
+    {
+      "path": "library/voice-library/metrics/measure.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "9f7a58ca687afa248516d9bc41e96ef26e502f5f18769048f2dce005ded97d34"
+    },
+    {
+      "path": "library/voice-library/metrics/parser.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6ddd5e511754072d67b135cd51e0912b76a2cc6d83153cd3196ad93fdfbfb5fd"
+    },
+    {
+      "path": "library/voice-library/metrics/text.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "c145f4e6a4f6e36b2d60efb5630d8f1acd307b73bb74c8f86d1af6f0e4a8fa41"
+    },
+    {
+      "path": "library/voice-library/validation/validate.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "3881ba8d7114edaa079093c179bed9512e934d176eac27fdd9e590071e35c471"
+    },
+    {
+      "path": "library/voice-library/validation/validate.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "c99fa2a09eed53e40808e0fb8b8558e3a3e62f4c13e8e4af2cf6ec1a44b3d4be"
+    },
+    {
+      "path": "library/voice-library/validation/vendor/marked/LICENSE.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "Marked17.0.5 MIT, original notices retained",
+      "boundary": "Marked17.0.5 upstream MIT source and license unchanged.",
+      "sha256": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c"
+    },
+    {
+      "path": "library/voice-library/validation/vendor/marked/lib/marked.esm.js",
+      "category": "retained-or-mixed-upstream",
+      "license": "Marked17.0.5 MIT, original notices retained",
+      "boundary": "Marked17.0.5 upstream MIT source and license unchanged.",
+      "sha256": "0b4487359ce6b85108708e7a532e1242a27f4718241e7b2de109ac6cd307d2dc"
+    },
+    {
+      "path": "library/voice-library/validation/vendor/marked/package.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "Marked17.0.5 MIT, original notices retained",
+      "boundary": "Marked17.0.5 upstream MIT source and license unchanged.",
+      "sha256": "b0f610de98f9df7f779bc101af02209f20939dd232dc47af59d3df3162a04fc5"
+    },
+    {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "041df567392955d781e84310848b24dcb1c0d0106ff81cb1935d02825010c57f"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "6256c4355fe06ca46773c50f3a8792e7aad4a8ce70ac780d1fc7f1eff6522c9f"
+    },
+    {
+      "path": "provenance/chooser.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "56cae6f3b1937985d3323f19938e46f67ea1a61497dfc6b010a9feabeac8d08b"
+    },
+    {
+      "path": "requirements.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "19c33f5f4a0fcd8d023f02939441cb81b54d5e6388d903fa0d4cc7c6a308ca84"
+    },
+    {
+      "path": "runtime/writing-voice-library/catalog.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "67ad57e469730783a5d9f3264b1753bf9df894a2a5342828fd38294a46a1e7a9"
+    },
+    {
+      "path": "runtime/writing-voice-library/feedback.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "72ced943267e6214f9c90715edf78c6885814b341b2e701f6efe186e1371515b"
+    },
+    {
+      "path": "runtime/writing-voice-library/search_misses.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "eac938bd9bf21b50b1979e75bc0add1a59bffa0b1e8dd8c24cf091eb51a5aa02"
+    },
+    {
+      "path": "runtime/writing-voice-library/server.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "c6bb84a68c0d462bb64b7c12686bdbe177b148b03145afd27814a7291cbf01be"
+    },
+    {
+      "path": "runtime/writing-voice-library/ui/adapter.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "bf4d448071f7b07a3104cf75125fa9dcf44e5fb0087ca62b690388d39accf2c5"
+    },
+    {
+      "path": "runtime/writing-voice-library/ui/app.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "614c0f9855e9c5a77775bd1111ee62b54c17aea61193d5cbdf53d34f29364b7e"
+    },
+    {
+      "path": "runtime/writing-voice-library/ui/bridge.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "4561ae8cfd973e7a8a123bb2bbb5604dfb904a1822d69730a228e9f3128a023c"
+    },
+    {
+      "path": "runtime/writing-voice-library/ui/index.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "a364fa67dd1aae6b45245010a69628ce5ead5aae6925a425709b8fca9aeacdb9"
+    },
+    {
+      "path": "runtime/writing-voice-library/ui/styles.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "8889cd2f202b9f7d3ff7fe6eb39005d2dd04127bad440ad3739307e54dbedd33"
+    },
+    {
+      "path": "scripts/create_sample_collection.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "dad2b49eb9691410be931b36438b372433c15238a9f4a170f6f02d9a3bea7fa8"
+    },
+    {
+      "path": "scripts/writing_voice_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "53b7c831a2de0f1c46e53a30a66650dc803109038cfeb9851b09fb408341895e"
+    },
+    {
+      "path": "skills/writing-templates/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "62c76462f4c3f19482522e6f45bf9c9df86fbd5f9907b8c49b9bdddd036e6801"
+    },
+    {
+      "path": "tests/test_public_stdio.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "103d0fffe5400579777d9ce7716c6616d933d510b5d09a470e562e039ae03e14"
+    },
+    {
+      "path": "tests/test_voice_validation.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
+      "sha256": "753709840a2e1b43805ab3e05b77e9f98ef4894714b5078d7ff11ee9eb14f7c2"
+    }
+  ]
+}

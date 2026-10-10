@@ -1,4 +1,6 @@
 ---
+
+Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 project: graphic-design-studio
 type: plugin-guide
 status: active
@@ -51,7 +53,7 @@ The library uses public Design Templates’ maintained chooser. Install that pac
 <!-- END PROFESSIONAL-AGENTS -->
 
 
-Public edition 0.3.0 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
+Public edition 0.3.1 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
 
 ## Presentations, local review and pet atlases
 

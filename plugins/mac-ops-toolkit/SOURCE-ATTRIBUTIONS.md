@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.3.1, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source and third-party notices
 
 Original maintenance procedures, synthesized role contracts and helpers by Jonathan Kyle Hobson. Work Management's preserved first-party skill provenance catalog identifies the originating local maintenance workflows. No third-party library implementation, credentials, private database or personal runtime is bundled. Public source preserves all operative procedures and helper behavior; portable edits and source/output hashes are recorded in PROVENANCE.json.

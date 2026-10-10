@@ -1,3 +1,9 @@
+# Current edition licensing
+
+For 0.1.2, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+
+## Retained source attribution and prior grant record
+
 # Source attributions and public boundary
 
 This export preserves the maintained original learning/facilitation synthesis, complete operative heads and original helpers. The source reference registers preserve primary sources, dates, paraphrase/adoption boundaries and exact hashes for supplied research. Supplied research is evidence, not a grant for its underlying external publications.

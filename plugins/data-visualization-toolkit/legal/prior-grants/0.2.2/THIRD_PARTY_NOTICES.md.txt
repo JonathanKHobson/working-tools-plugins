@@ -1,0 +1,11 @@
+# Third-party notices
+
+The root MIT license applies to Jonathan Kyle Hobson's original contributions/public adaptations and Data Explorer code. It does not relicense underlying sources.
+
+- OpenAI Build Web Data Visualization 0.1.21:exact original manifest declares MIT and author OpenAI; all 164 files match official commit 0722921d5542fc593105c27bd52630babd8b8c2a. Original bytes/metadata remain. [Reconstructed standard terms](libraries/build-web-data-visualization/DECLARED_LICENSE_TERMS.md) are marked and do not invent a copyright/year. The upstream package/repository supplies no separate original license notice.
+- B12 diagram-builder 1.0.0:Apache-2.0 at commit 84940a256f1adf7ce414d4c73289cf0e74b29133; [original LICENSE](third-party/b12/LICENSE) and metadata retained. Adaptation removes promotion/tracking and obsolete host/provider constraints while retaining full production steps. No upstream NOTICE file exists in that pinned tree.
+- Archify:MIT notices tt-a1i/Cocoon AI retained in [license](skills/structural-diagrams/references/archify-LICENSE.txt). Diagram Design:MIT Cathryn Lavery notice retained in [license](skills/structural-diagrams/references/diagram-design-LICENSE.txt). Their credited adaptations remain in the original method headers.
+- Professional-role lineage:MIT AgentLand/VoltAgent/Seth Hobson notices retained under `references/professional-agents/source-notices/`; original adapted role contracts retain attribution.
+- Official `@modelcontextprotocol/ext-apps`2.0.3 and esbuild0.28.2 build dependencies:MIT source notices retained under `third-party/npm/`; generated app resource retains bundled license comments. Transitive MCP core/client2.3.1 are Apache-2.0; which/isexe are ISC; other selected dependencies use MIT, as recorded by exact lock and notice inventory. Python MCP is an installed dependency, not vendored source.
+
+OpenAI Visualize Proprietary bytes and Navish Kumar Scientific Visuals source lacking a grant are excluded. Literature entries are attributable links and original/paraphrased method synthesis; no publication PDF or external rendered image is bundled. Public method examples are first-party synthetic geometric/data examples. No proprietary font, unrelated private corpus or real client data is supplied.

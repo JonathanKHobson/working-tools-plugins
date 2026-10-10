@@ -1,5 +1,7 @@
 # Working Tools plugins
 
+First-party code uses **AGPL-3.0-only**. First-party docs, prompts, skills, methods and eligible creative templates use **CC BY-SA 4.0**. Personal and official marks are reserved; upstream licenses and earlier release grants remain unchanged. See [licensing](LICENSING.md), [attribution](NOTICE.md) and [third-party notices](THIRD_PARTY_NOTICES.md). Original author: Jonathan Kyle Hobson.
+
 Practical AI workflows and local tools by Kyle Hobson. Choose an individual package for design, video, teaching, research, writing, project work and solo-service operations. Each public edition includes its operative skill instructions, requirements, source and notices.
 
 **Start with the [installation guide](docs/install.md)**, or [browse Working Tools](https://working-tools.jkylehobson.chatgpt.site/). You do not need to install the whole collection.

@@ -1,5 +1,7 @@
 # Solo Service Operations Studio
 
+Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+
 Prepare evidence-backed invoices, reconcile payments, plan cash flow, coordinate paid services and review authorized Gmail sending. Eight complete methods use recipient-owned records and providers.
 
 ## Start with a real task
@@ -50,7 +52,7 @@ python3 -B scripts/reconcile.py examples/reconciliation-input.json
 
 The fictional sample allocates USD 250 of a USD 600 invoice and leaves USD 350 partial. A pending payment is excluded. The helper reads input and prints JSON; it never modifies the file, authenticates a bank, posts an entry, sends a reminder or moves money. Inspect the supplied records before applying conclusions to real accounts.
 
-Original public adaptation/helper contributions are Apache-2.0, copyright Jonathan Kyle Hobson. Retained upstream procedures and role-source notices preserve their own terms; see [third-party notices](THIRD_PARTY_NOTICES.md). No personal client record, invoice design or account connector is included.
+Original code is AGPL-3.0-only; original documentation and methods are CC BY-SA 4.0, copyright Jonathan Kyle Hobson. Retained upstream procedures and role-source notices preserve their own terms; see [third-party notices](THIRD_PARTY_NOTICES.md). No personal client record, invoice design or account connector is included.
 
 ## Paid-service communication and Gmail review
 

@@ -1,3 +1,9 @@
+# Current license scope
+
+First-party code in 0.2.3 is AGPL-3.0-only; first-party methods, documentation and eligible creative templates are CC BY-SA 4.0. See [licensing](LICENSING.md) and [file scope](LICENSE-SCOPE.json). Underlying upstream grants below are unchanged. First-party MIT/Apache statements in the retained record below describe the prior edition 0.2.2 and its still-valid grants, rather than the new edition default.
+
+## Retained source notices and prior grant record
+
 # Third-party notices
 
 The root MIT license applies to Jonathan Kyle Hobson's original contributions/public adaptations and Data Explorer code. It does not relicense underlying sources.
