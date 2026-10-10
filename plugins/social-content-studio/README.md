@@ -31,6 +31,15 @@ Use the [full task-to-skill map](docs/use-case-map.md). A single post uses socia
 
 Install this package into your Codex or Claude plugin host, then choose the matching skill from the task map. Supply your own source facts, voice samples, audience, platform account and authorization in your project. No personal account, sample, credential or posting policy is bundled. For the complete optional AIHumanizer social prose method, install and enable the official `aihumanizer@openai-curated-remote` plugin and load `aihumanizer:social-media` through the [provider handoff](references/social-methods/provider-social-prose.md). If it is unavailable, the first-party drafting and review methods still work and the response should identify that missing dependency. Other named Studios are optional specialist dependencies for their respective routes.
 
+
+## Host compatibility
+
+| Capability | Codex | Claude Code |
+| --- | --- | --- |
+| First-party skills and packaged methods | Native installation and synthetic first-use verified | Native installation and file parity verified; first-use behavior still needs a host test |
+| AIHumanizer provider method | Separately install `aihumanizer@openai-curated-remote`; matching skill verified | That Codex marketplace identity is not a Claude installation route. Use the packaged first-party methods unless an authorized equivalent provider route is verified |
+| Social Post Previewer | Requires the declared OpenAI app and an available connection; live rendering untested | The OpenAI app declaration does not supply a Claude app. Use an available preview tool only after checking the host, or deliver clearly labeled copy without claiming a rendered preview |
+
 ## Availability and recovery
 
 This package has no `.mcp.json`. The optional Social Post Previewer app is declared separately in `.app.json`; verify its availability and rendering for a visual preview. Native publishing depends on the selected platform/account and authorization. A prepared draft or mockup is not scheduled or public; verify the actual platform state and URL for those claims. If a provider is unavailable, preserve the draft and exact next route.

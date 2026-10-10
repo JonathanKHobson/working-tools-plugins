@@ -1,6 +1,6 @@
 {
   "name": "creative-writing-studio",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Creative project routing for stories, games, GM prep, craft, provenance, and publishing.",
   "author": {
     "name": "Jonathan Kyle Hobson"
@@ -16,5 +16,34 @@
     "game-design"
   ],
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
-  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "mcpServers": {
+    "ttrpg-compass": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/ttrpg_compass_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "draw-think": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/draw_think_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "creative-atlas": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
 }

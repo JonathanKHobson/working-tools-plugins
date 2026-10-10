@@ -17,6 +17,16 @@ The three launchers are declared in [.mcp.json](.mcp.json) and require `python3`
 
 TTRPG Compass and Draw and Think backend acquisition is currently a separate release boundary; this package ships its original workflow and launcher but cannot claim those servers are publicly installable until their owners publish a verified route. If an optional backend is absent, work from supplied material and say which capability was unavailable.
 
+
+## Host compatibility
+
+| Capability | Codex | Claude Code |
+| --- | --- | --- |
+| First-party skills and packaged methods | Native installation and synthetic first-use verified | Native installation and file parity verified; first-use behavior still needs a host test |
+| AIHumanizer provider method | Separately install `aihumanizer@openai-curated-remote`; matching skill verified | That Codex marketplace identity is not a Claude installation route. Use the packaged first-party methods unless an authorized equivalent provider route is verified |
+| Still-image generation | Use the host’s available `imagegen` capability and verify its output | Use a separately available, authorized image provider; the Codex `imagegen` route is not supplied by this package |
+| Optional MCP launchers | The Codex manifest uses plugin-relative `cwd` | The Claude manifest uses `${CLAUDE_PLUGIN_ROOT}` paths; backend execution remains a separate acceptance check |
+
 ## Source and licensing
 
 The stable package ID is `creative-writing-studio`; the display name is Creative Toolkit. The same distributable source lives in the canonical local owner and the public Working Tools package. Maintainers update the local source first, validate, and export identical distributable files. Native installation and GitHub publication are separate later steps.
