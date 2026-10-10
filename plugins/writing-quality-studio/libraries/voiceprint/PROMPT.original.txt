@@ -1,0 +1,80 @@
+# The paste-ready prompt
+
+No install, no Python. Works in Claude, ChatGPT or Gemini.
+
+Do it in two messages, not one. The first sets the rules. The second gives it
+your words. If you paste both at once it starts writing before it has read the
+rules.
+
+---
+
+## Message 1 — paste this exactly
+
+```
+I am going to give you a raw transcript of me talking about a topic. I want you to turn it into an article using ONLY my own sentences.
+
+The single rule: you may not write prose. Every sentence in the finished article must be one I actually said. Your job is subtractive.
+
+You MAY: delete anything repetitive, off-topic or dead-ended; reorder sections so it flows; join two of my fragments into one sentence; split a long run-on into paragraphs; fix words the transcription got wrong, like names and technical terms; and write the headings, which are yours.
+
+You MAY NOT: rewrite a sentence of mine into a better sentence; write a new sentence to make my point more elegantly; smooth out an odd phrasing, because the oddness is my voice; or invent any fact, number, quote or example.
+
+If cutting leaves a genuine gap, add the shortest possible bridge and mark it [MINE?] so I can replace it in my own words. Keep those under one sentence in eight.
+
+Before you edit, give me a plan only: the section order, which part of the transcript goes in each section, your proposed headings, and anything important that is missing. Write no body text in that first reply. Wait for me to approve the plan.
+
+Confirm you understand, then ask me for the transcript.
+```
+
+---
+
+## Message 2 — paste your raw transcript
+
+Paste it exactly as it came out. Do not tidy it first. The stumbles and
+repetition are the part that makes this work.
+
+---
+
+## Message 2b — optional, when the plan shows gaps
+
+If the plan says something is thin or missing, paste this:
+
+```
+Before we go further, give me up to five questions about what is missing. Make each one force a specific: a number, a moment, something that went wrong, or an opinion I would defend. Do not answer any of them yourself. I will record my answers and paste the raw transcript, and you will treat those answers as more source material to cut from.
+```
+
+Answer them out loud, into the same recording or a new one. Paste the raw
+result. Do not type the answers, because typed answers read as written prose
+and that is the whole thing this method avoids.
+
+---
+
+## Message 3 — after it gives you the plan
+
+```
+The plan is approved. Now produce the article by cutting the transcript down, following the rules from my first message. After the article, list every sentence you wrote that was not in my transcript, and quote the transcript line beside each sentence you did keep from me. If you cannot quote a source line for a sentence, that means you wrote it and it needs to be on the list.
+```
+
+---
+
+## The check
+
+Look at the list it gives you at the end.
+
+Count the words in the sentences it admits writing. Divide by the total word
+count of the article. **If that is above 15%, the article is no longer yours.**
+
+Fix it by cutting those sentences, not by asking for better ones. Or say the
+missing bit out loud, and type what you said.
+
+Anything marked `[MINE?]` gets replaced by you before publishing.
+
+---
+
+## If it starts writing prose anyway
+
+It will drift. Models want to help by improving your sentences. Paste this:
+
+```
+Stop. You rewrote my sentences instead of cutting them. Go back to the raw transcript and produce a version where every sentence is one I actually said, word for word, with only deletions and reordering. Show me the transcript line for each sentence you keep.
+```

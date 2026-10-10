@@ -1,0 +1,3 @@
+# Source coverage limits
+
+Complete first-party methods and licensed source trees are packaged. The OpenAI Write Like Me, AIHumanizer and Human Writing bodies are excluded from redistribution; use [exact provider routes](../library/source-procedures/provider-methods.md). AIHumanizer and Write Like Me were installed and enabled on the source Codex host at assessment time. Human Writing had no verified native install and lacked two original references. The optional research-paper cache is not distributed; primary source records remain. These limits do not remove Natural Prose Editor's full first-party editorial pass.

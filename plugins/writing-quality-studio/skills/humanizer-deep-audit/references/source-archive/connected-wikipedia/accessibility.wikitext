@@ -1,0 +1,795 @@
+<noinclude>{{Short description|Wikipedia accessibility guideline}}
+{{Redirect-multi|2|WP:ACCESS|WP:ACCESSIBILITY}}
+{{MoS guideline|MOS:ACCESS|WP:ACCESSIBILITY}}
+{{Nutshell|Wikipedia pages should have clear formatting, descriptive links, and alternative text so that content is easy to navigate and accessible for all readers, including those with disabilities.}}
+{{stack begin}}
+{{Style|content}}
+{{Wikipedia:WikiProject Accessibility/Navigation menu|articles}}
+{{Stack end}}
+
+[[Web accessibility]] is the goal of making web pages easier to navigate and read. Although primarily intended for [[disability]] support, [[curb cut effect|it benefits all readers]]. The [[Web Content Accessibility Guidelines]] (WCAG) 2.2{{Efn|A previous version, WCAG 2.0, is also an [[ISO]] standard, ISO/IEC 40500:2012. As of {{As of|2025|bare=y}}, a [https://www.w3.org/TR/wcag-3.0/ WCAG 3.0 draft] is available. No part of WCAG 3.0 is an official recommendation at this time.|name=fn1}} provide the framework for the recommendations in this guideline. Adhering to these guidelines improves content navigation and enhances accessibility for all users, including individuals with disabilities.
+
+==Article structure==
+{{Main|Wikipedia:Manual of Style/Layout|Wikipedia:Manual of Style/Lead section#Elements}}
+
+A standardized article structure improves accessibility by allowing users to anticipate the location of specific content on a page. For example, a blind user searching for [[Wikipedia:Disambiguation|disambiguation]] links will know that if none are found at the top of the page, they are not present, eliminating the need to read the entire page.
+
+===Headings===
+{{Shortcut|MOS:GOODHEAD|MOS:BADHEAD}}
+
+Headings should be descriptive and follow a consistent order, as [[Wikipedia:Manual of Style/Layout#Order of article elements|outlined in the Manual of Style]]. They must be nested sequentially—beginning at level 2 (<code>==</code>) for the main headings, then level 3 (<code>===</code>), and so on. Level 1 headings, automatically reserved for the [[Wikipedia:Article title|article title]], should not appear within the article's body text. Skipping heading levels for emphasis disrupts the logical hierarchy and should be avoided. For editors using the [[Wikipedia:Source editor|source editor]], a single [[newline]] beneath each heading is permissible.<!-- I tested this and found it not to be true: ; however, two newlines in the markup will produce a [[paragraph break]]. Consider how a blank line may affect readability on mobile devices, since many users edit Wikipedia on smaller screens. -->
+
+{| class="wikitable"
+|+ style="padding-top: 10px;" | Examples of correct and incorrect use of nested headings
+|-
+! scope="col" style="background: PaleGreen;" | Correct
+! scope="col" style="background: Pink;" | Random/chaotic
+! scope="col" style="background: Pink;" | Skipping levels
+|- style="vertical-align: top;"
+| style="width: 33%;" |
+<poem>
+''[Article lead here]''
+<code>==Section==</code> ''[level 2]''
+<code>===Sub-section===</code> ''[3]''
+<code>==Section==</code> ''[2]''
+<code>===Sub-section===</code> ''[3]''
+<code>====Sub-sub-section====</code> ''[4]''
+<code>==Section==</code> ''[2]''</poem>
+| style="width: 33%;" |
+<poem>
+''[Article lead here]''
+<code>====Section'''?'''====</code> ''[4]''
+<code>===Section'''?'''===</code> ''[3]''
+<code>==Section'''?'''==</code> ''[2]''
+<code>==Section'''?'''==</code> ''[2]''
+<code>====Section'''?'''====</code> ''[4]''
+<code>===Section'''?'''===</code> ''[3]''</poem>
+| style="width: 33%;" |
+<poem>
+''[Article lead here]''
+''[Level-2 section missing here]''
+<code>===Section'''?'''===</code> ''[3]''
+<code>==Section==</code> ''[2]''
+''[Level-3 sub-section missing here]''
+<code>====Sub-section'''?'''====</code> ''[4]''
+<code>==Section==</code> ''[2]''</poem>
+|}
+
+{{Shortcut|MOS:PSEUDOHEAD|MOS:FAKEHEADING}}
+{{Anchor|Pseudo-headings}}
+
+Do not create pseudo-headings by misusing semicolon markup (<code>;</code>), which is reserved for [[Wikipedia:Manual of Style/Lists#Description (definition, association) lists|description lists]], and avoid using bold text for headings. Screen readers and other assistive technologies rely on proper heading markup for navigation. If the [[Wikipedia:Table of contents|table of contents]] (TOC) is too large, use the {{tl|TOC limit}} template to reduce the length of the TOC by hiding nested subsections, rather than a floating TOC. When {{tl|TOC limit}} cannot be used due to lower-level headings elsewhere in the article, using bold text for sub-sub-sub headings is the least disruptive alternative for screen readers. However, pseudo-headings should be used only as a last resort.
+
+{| class="wikitable"
+|+ style="padding-top: 10px;" | Examples of acceptable and incorrect use of pseudo-headings and description lists
+|-
+! scope="col" style="background: PaleGreen;" | Acceptable
+! scope="col" style="background: Pink;" | Incorrect
+|- style="vertical-align: top;"
+| style="width: 50%;" |
+<poem>
+''[Article lead here]''
+<code>==Section==</code> ''[level 2]''
+<code>===Sub-section===</code> ''[3]''
+<code><nowiki>'''Pseudo-heading'''</nowiki></code>
+<code>==Section==</code> ''[2]''
+<code>===Sub-section===</code> ''[3]''
+<code>====Sub-sub-section====</code> ''[4]''
+<code><nowiki>;A term followed by</nowiki></code>
+<code><nowiki>:at least one definition or at least one description list item</nowiki></code>
+<code><nowiki>:and additional optional items, forming a list</nowiki></code>
+</poem>
+| style="width: 50%;" |
+<poem>
+''[Article lead here]''
+<code>==Section==</code> ''[level 2]''
+<code>===Sub-section===</code> ''[3]''
+<code><nowiki>;Pseudo-heading</nowiki></code>
+<code>==Section==</code> ''[2]''
+<code>===Sub-section===</code> ''[3]''
+<code><nowiki><small>==Sub-sub-section==</small></nowiki></code> ''[2]''</poem>
+|}
+
+===Floating elements<span class="anchor" id="FLOAT"></span>===
+{{Shortcut|MOS:ACCESS#FLOAT}}
+{{See also|Wikipedia:Manual of Style/Images#Location|Wikipedia:Manual of Style/Accessibility#Images}}
+In [[Wikipedia:Wikitext|wikitext]], floating elements (including images) should be placed {{em|inside}} the [[Wikipedia:Section|section]] they belong to rather than at the end of the preceding section. Although multiple images in a narrow text area can sometimes cause an image to shift into a later section, this does not pose an accessibility issue because screen readers read each image's <code>alt=</code> text at the point where it appears in the code.
+
+===Screen resolution===
+{{Anchor|Resolution}}
+{{Shortcut|MOS:RESOL}}
+
+Wikipedia articles should be accessible to readers using devices with small screens such as [[Help:Mobile access|mobile devices]], or to readers using monitors with a low resolution. On desktop, this is sometimes an issue in articles with [[Wikipedia:Manual of Style/Images#Sandwich|multiple images on both sides of the screen]]; although lower resolutions will tend to stretch paragraphs vertically, moving images apart in that direction, be careful not to add images or other floating content on both sides of the screen simultaneously. Large tables and images can also create problems; sometimes horizontal scrolling is unavoidable, but consider restructuring wide tables to extend vertically rather than horizontally.
+
+==Text==
+{{Shortcut|MOS:NOSTRIKE|MOS:NOSYMBOLS}}
+{{See also|Wikipedia:Manual of Style/Text formatting}}
+By default, most [[screen reader]]s do not indicate [[HTML attributes]] like presentational text attributes (bold, italic, underline, monospace, strikethrough), or even semantic text attributes (emphasis, importance, text deletion). As a result, [[strikethrough]] text is read normally along with other text. (Editors who use screen readers and participate in Wikipedia policy and deletion debates are advised to enable notifications about [[text attributes]], as struck text is very common in Wikipedia-internal discussions.)
+
+Since strikethrough is typically ignored by screen readers, its occasional use in articles (e.g., to show changes in a textual analysis) can cause accessibility problems and confusion if it is the only indication used. This applies to both the {{tag|s|o}} and {{tag|del|o}} elements (along with their corresponding {{tag|ins|o}}, which are usually visually rendered as underlined), as well as templates that use them. Do not use strikethrough to object to content you believe is inappropriate or incorrect. Instead, [[Wikipedia:COMMENT|comment]] it out using <code>&lt;!--</code> and <code>--&gt;</code>, remove it entirely, or use an [[Wikipedia:Template index|inline cleanup/dispute template]] and raise the issue on the talk page.
+
+Screen readers have widely varying support for characters outside [[Latin-1]] and [[Windows-1252]], and it is not safe to assume how any given character in these ranges will be pronounced. If they are not recognized by the screen reader or speech synthesizer, they may be pronounced as a question mark or omitted entirely from the speech output.
+# Provide a [[transliteration]] for all text in a non-Latin writing system where the non-Latin characters are important in the original context, such as names, places, or things. Transliteration can be created in templates using those that signify non-Latin-script languages (e.g., {{tlx|Langx|2=ru|3=text=пример|4=translit=prímer|5=translation=example}} and can also be created using {{tl|Transliteration}}. These templates also offer other accessibility benefits (see [[#Other languages|§ Other languages]] below).
+# Do not use symbols that will not be read out loud such as <code>♥</code> (a [[heart symbol]]), or symbols which may be read incorrectly such as <code>–</code> (which may be read as "dash" instead of "minus"); instead, use images with appropriate <code>alt=</code> text.<ref>{{cite web |title=F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/F26.html |access-date=29 December 2011}}</ref>
+# Symbols that cause problems for screen readers may already have templates created to produce an image and alt text. An example is the dagger template {{tl|†}} (see [[:Category:Single-image insertion templates]] for more).{{update inline |inaccurate=y |date=July 2023 |reason=The dagger template no longer produces an image.}}
+
+The sequence of characters must be sufficient to convey semantic aspects of the text (and, preferably, other similar forms of content); reliance on custom "special symbols" distinguishable only by CSS properties or wiki markup is not acceptable.
+
+{{Shortcut|MOS:NOHOVER|MOS:NOTOOLTIPS}}
+Do not use techniques that require interaction to provide information, such as tooltips or any other "hover" text. Though the long form of text in {{tag|abbr}} tags can sometimes be accessed by screen reader users (perhaps requiring a specific command),<ref>{{cite web|url=https://www.powermapper.com/tests/screen-readers/labelling/acronym-abbr-title/|title=`abbr` with `title` – Screen reader compatibility|publisher=PowerMapper|access-date=November 20, 2025}}</ref><ref>{{cite web|url=https://github.com/nvaccess/nvda/issues/3828#event-459728611|title=NVDA doesn't recognize abbr html tag · Issue #3828|publisher=GitHub|access-date=November 20, 2025}}</ref><ref>{{cite web|url=https://adrianroselli.com/2024/01/using-abbr-element-with-title-attribute.html|title=Using abbr Element with title Attribute|first=Adrian |last=Roselli|access-date=November 20, 2025}}</ref><ref>{{cite web|url=https://freedomscientific.github.io/standards-support/html.html|title=JAWS HTML support|publisher=Freedom Scientific|access-date=November 20, 2025}}</ref> it is not available on the mobile site, when articles are printed, or to visual readers without fine motor control.
+
+Do not insert line breaks within a sentence, since this makes it harder to edit with a [[screen reader]]. A single line break may follow a sentence, which may help some editors.
+
+===Font size===
+{{excerpt|Wikipedia:Manual of Style/Text formatting#Font size}}
+
+===Fractions===
+{{Main|Wikipedia:Manual of Style/Dates and numbers#Fractions and ratios}}
+Apart from the exceptions explained at {{section link|WP:Manual of Style/Dates and numbers#Fractions}}, do not use [[precomposed fraction]] characters such as {{!xt|½}} (deprecated markup: <code>{{!xt|&amp;frac12;}}</code> or <code>{{!xt|&amp;#189;}}</code>). This is because some precomposed fractions may not work with [[screen reader]]s or may be unreasonably difficult for readers with impaired vision to decipher. Use {{tlx|Fraction}} which produces fractions in the form {{xt|{{Fraction|3|4}}}}. (For [[Wikipedia:Manual of Style/Mathematics|scientific and mathematical text]], use {{tlx|sfrac}}, which produces fractions in the form {{xt|{{sfrac|3|4}}}}.)
+
+==Other languages==
+{{Shortcut|MOS:OTHERLANG|MOS:LANG|MOS:IETF}}
+{{Main|Template:Lang/doc#Rationale}}
+{{See also|Wikipedia:Manual of Style/Text formatting#Non–English language terms|Wikipedia:Manual of Style/Linking#Interwiki links|Category:Wikipedia multilingual support templates}}
+
+By default, English Wikipedia articles state explicitly to the browser that they are written wholly in English. Non-English text should be tagged as such, typically with a template like {{tlx|lang}}, [[MOS:TEMPLATE|except in headings]].
+The templates mark the text language and script with an [[ISO 639]]-conformant [[IETF language tag]], so that [[speech synthesizer]]s can correctly read the text aloud.<ref>{{cite web |title=H58: Using language attributes to identify changes in the human language |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/H58.html |access-date=29 December 2023}} Accessibility level: AA.</ref> For example:
+
+* {{nay}} {{code|''Assemblée nationale''}} is merely italicized, and has not specified that it is French-language text. Most screen readers attempting to handle this will sound ridiculous or confusing.
+* {{aye}} {{tlx|lang|fr|Assemblée nationale}} renders as {{xt|{{lang|fr|Assemblée nationale}}}}, which is italicized by default and will allow screen readers to select a French-language voice.{{efn|This is because the resulting HTML is <syntaxhighlight><span title="French-language text"><i lang="fr">Assemblée nationale</i></span></syntaxhighlight>It is important the text to speak aloud — Assemblée nationale — is within the <code><nowiki><span></nowiki></code> element that tells the screen reader in which language to read out the text.}}
+* {{aye}} {{tlx|langx|fr|Assemblée nationale}} → {{xt|{{langx|fr|Assemblée nationale}}}} – This is similar to the above.
+
+Languages traditionally written in a non-[[Latin script]] require additional care. IETF tags assume the most common script used to write a given language. Therefore, [[transliteration]]s should specify Latin script by appending {{code|-Latn}} to the language code, or the equivalent {{tlx|transliteration}} template:
+
+* {{aye}} {{tlx|lang|sr-Cyrl|Народна скупштина}} → {{xt|{{lang|sr-Cyrl|Народна скупштина}}}}
+* {{aye}} {{tlx|lang|sr-Latn|Narodna skupština}} → {{xt|{{lang|sr-Latn|Narodna skupština}}}} – Serbian can typically be written using either the Latin or Cyrillic script.
+* {{nay}} {{tlx|lang|ja|Kokumin gikai}} – By default, it is expected for Japanese text to be written using the native writing system, whose rules may treat some characters differently.
+* {{aye}} {{tlx|lang|ja-Latn|Kokumin gikai}} specifies Japanese written with the Latin alphabet (i.e. {{lang|ja-Latn|[[rōmaji]]|i=no}}).
+* {{aye}} {{tlx|transliteration|ja|Kokumin gikai}} is equivalent to the above.
+
+Wikipedia has a number of [[:Category:Wikipedia multilingual support templates|language-specific templates]] such as {{tlx|lang-zh}} and {{tlx|nihongo}}. These templates provide language-specific functionality to editors, such as the ability to easily display several transliterations with one template. Not every language has its own template, but using one may be helpful to streamline wikitext, instead of cluttering paragraphs with instances of {{tlx|lang}} and {{tlx|transliteration}}.
+
+It is usually unnecessary to specify italics in addition to the {{tlx|lang}} or {{tlx|lang-{{var|xx}}|nolink=yes}} templates, which italicize text using the Latin alphabet by default. If text should not be italicized, such as the names of places or people, the parameter {{para|italic|unset}} may be added.{{efn|Further details on this usage are available on the template documentation for {{tlx|lang}}.}} As outlined in [[MOS:NON-ENG]], text using a non-Latin script should almost never be italicized or bolded.
+
+Phonetic transcriptions or pronunciation guides should use {{tlx|IPA}}, {{tlx|respell}}, or another suitable template.
+
+[[Loanword]]s are not foreign-language text (see {{slink|WP:MOS#Non-English terms}}), and should not be marked with an IETF tag. For example:
+
+* {{nay}} {{tlx|langx|fr|ennui}}, because "[[wikt:ennui#English|ennui]]" is an English word
+
+Also, per [[MOS:SCIENTIFIC]], {{tq|scientific names are never marked up with {{tl|lang}} or related templates}}.
+
+==Links==
+{{shortcut|MOS:CLICKHERE|MOS:SIGIL}}
+# Create good link descriptions, especially for external links. (Avoid {{!xt|"[[click here]]!"}}, {{!xt|"[http://example.com/ this] website"}})<ref>{{cite web |title=G91: Providing link text that describes the purpose of a link |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/G91.html |access-date=29 December 2023}}</ref><ref>{{cite web |title=F84: Failure of Success Criterion 2.4.9 due to using a non-specific link such as 'click here' or 'more' without a mechanism to change the link text to specific text |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/F84.html |access-date=29 December 2023}}</ref>
+# Do not use [[Unicode]] characters as icons; use an icon with alt text instead. For example, a character like "→" cannot be reproduced into useful text by some [[screen reader]]s.
+# Use [[Template:Visible anchor]] where [[Template:Visible anchor#Destination highlighting|Destination highlighting]] helps the partially sighted to locate more easily the link target on the destination page. <!-- {{discuss|Accessibility issue: Use of Visible Anchors to help the partially sighted}} -->
+
+== <span class="anchor" id="Using colors in articles"></span><span class="anchor" id="Colour"></span>Color ==
+{{Shortcut|MOS:COLOR|MOS:COLOUR|MOS:CONTRAST}}
+{{Redirect|WP:COLOR|Wikimedia accessible colors|wmdoc:codex/latest/style-guide/colors.html{{!}}Codex Style Guide for Wikimedia|technical assistance|Help:Using colours|other uses}} {{see|
+Wikipedia:Manual of Style/Accessibility/CSS colors for text on white|Wikipedia:Manual of Style/Accessibility/Colors}}
+
+<div class="box floatright" id=thegoodthebadandthecolors>
+{| class="wikitable" <!-- Colors from Codex! -->
+|+ Examples {{sro|of colored table cells with a symbol and color only on the left, and a better icon, color with symbol on the right.}}
+! style="background-color:#fff; border-left-color:#fff; border-top-color:#fff; border-right-color:#fff;" | Bad
+! style="background-color:#fff; border-left-color:#fff; border-top-color:#fff; border-right-color:#fff;" | OK
+! style="background-color:#fff; border-left-color:#fff; border-top-color:#fff; border-right-color:#fff;" | Good
+|- style="background: #dff2eb; color: #099979 ;"
+| style="background-color: #109430;"| <span style="color:black !important;">{{yes check}}</span>
+| {{ya}}
+| '''✔'''{{nbsp}}'''Passed'''
+|- style="background:#ffe9e5; color: #bf3c2c ;"
+| style="background-color:#CB6155;"| <span style="color:black !important;">{{no mark}}</span>
+| style="background-color:#FDCFCF;"| {{nay}}
+| '''✘'''{{nbsp}}'''Rejected'''
+|}
+</div>
+[[File:Example of team color problem on Clive Churchill article.png|thumb|alt=Top: A navigation bar on a Wikipedia article using a custom red-text-on-green-background color scheme for its headers. Bottom: In simulated red–green color blindness, contrast between the two colors is lost, making the header text very difficult to read.|A pair of screenshots showing the effects of red–green color blindness on legibility]]
+
+'''Colors''' are most commonly found in Wikipedia articles within images, templates, and tables to enhance usability and aesthetic appeal. When using color, editors should keep accessibility for users with low vision impairments and [[color blindness]] in mind:
+
+* Color should not be used as the sole visual means of conveying information, or for distinguishing elements such as links, templates, or table rows. Always provide an alternative method—such as an accessible symbol and/or text  (for example, '''{{color|#099979|✔{{nbsp}}Approved}}'''), a colored table with an icon and text (see [[#thegoodthebadandthecolors|table with examples]] in this section), or clearly written [[Help:Footnotes|footnote labels]].<!-- Otherwise, [[Blindness|blind]] users or readers accessing Wikipedia through a printout or device without a color screen will not receive that information. -->
+* Links should be clearly recognizable to readers as clickable. The appearance of [[Wikipedia:Wikilinks|wikilinks]] are standardised in the default [[Wikipedia:Skin|skin]].
+* The visual presentation of text and images of text should meet a sufficient contrast ratio. Contrast is the difference in color that makes elements distinguishable from one another. A higher contrast ratio improves readability.
+** The contrast ratio should meet at least the [[WCAG]] 2.0 AA standard of 4.5:1,{{efn|name=fn1}} and aim for the AAA level when feasible.{{efn|For more information, see WCAG’s guidance on "[https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html Understanding SC 1.4.3: Contrast (Minimum)]" for details.}}
+** For named CSS-based text colors on a white background, refer to the [[Wikipedia:Manual of Style/Accessibility/CSS colors for text on white|recommended color combinations]].
+* Tools are available to help check whether the color contrast is sufficient, see [[Help:COLORTOOLS]].
+* Applying these color accessibility guidelines to images and maps sometimes requires judgement when balancing them with other design principles.{{efn|For guidance on designing maps for accessibility, see    [https://colororacle.org/colororacle/resources/2007_JennyKelso_ColorDesign_lores.pdf this academic paper], [[WP:COLORMAP|this Wikipedia information page]], and [[ Wikipedia_talk:Manual_of_Style/Archive_229#Should_MOS:COLOR_be_updated_to_clarify_if_and_when_color_hues_may_be_used_to_convey_information_in_maps?|this MOS Talk page discussion from September 2025]].}}
+
+=== Handling excessive use of colors ===
+
+If an article overuses colors, and you are unsure how to fix it yourself, you can request help from other editors. Add {{tl|Overcolored}} or {{tl|Overcoloured}} at the top of the article.
+{{wide image|WCAG_web_safe_contrast_ratio.svg|600px|Contrast ratios of web safe colors vs black (top row) and white (bottom) or vice versa, with contours at 3 (red), 4.5 (green) and 7 (blue)}}
+
+== <span class="anchor" id="Block elements"></span>Lists ==
+{{Shortcut|MOS:ACCESSLIST|MOS:LISTBREAK}}
+{{See also|Help:List|Wikipedia:Manual of Style#Bulleted and numbered lists|Wikipedia:Manual of Style/Lists#List styles}}
+
+Do not separate list items by leaving empty lines or tabular column breaks between them. This includes items in [[description list]]s (lists made with a leading semicolon or colon, which is also how most talk-page discussions are formatted), [[list (HTML)|ordered list]]s, and [[unordered list]]s. Lists are meant to group elements that belong together, but [[MediaWiki]] will interpret the blank line as the end of one list and start a new one. Excessive double line breaks also disrupt [[screen reader]]s, which will announce multiple lists when only one was intended, and therefore may mislead or confuse users of these programs. Such improper formatting can also more than triple the length of time it takes them to read the list.
+
+{{Shortcut|MOS:INDENTMIX|MOS:LISTMIX}}
+Likewise, do not switch between initial list marker types (colons, asterisks, or hash signs) in one list. When indenting in reply to a post that starts with any mix of colons and asterisks and sometimes hash signs, it is necessary to copy whatever series of those characters was used above, and append one more such character. Alternatively, simply [[Wikipedia:Indentation#Outdenting|outdent]] and start a new discussion (i.e., a new HTML list).
+
+Examples:
+
+{{tick}}In a discussion, do this,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+** Question: What do you like about it? —User:Example2
+*** It seems to fit the spirit of Wikipedia. —User:Example
+</syntaxhighlight>
+
+{{tick}} Or, in an unbulleted discussion, this,
+
+<syntaxhighlight lang="wikitext">
+: Support. I like this idea. —User:Example
+:: Question: What do you like about it? —User:Example2
+::: It seems to fit the spirit of Wikipedia. —User:Example
+</syntaxhighlight>
+
+{{tick}} Suppressing the bullet on a reply is also acceptable,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+*: Question: What do you like about it? —User:Example2
+*:: It seems to fit the spirit of Wikipedia. —User:Example
+</syntaxhighlight>
+
+{{xmark}} But don't switch type from bullet list to description list,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+:: Question: What do you like about it? —User:Example2
+</syntaxhighlight>
+
+{{xmark}} nor switch from bullet list to mixed type,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+:* Question: What do you like about it? —User:Example2
+</syntaxhighlight>
+
+{{xmark}} Leaving blank lines between list items is generally bad practice,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+
+** Question: What do you like about it? —User:Example2
+</syntaxhighlight>
+
+{{xmark}} As is jumping more than one level,
+
+<syntaxhighlight lang="wikitext">
+* Support. I like this idea. —User:Example
+*** Question: What do you like about it? —User:Example2
+</syntaxhighlight>
+
+{{xmark|color=yellow}} This is generally discouraged:
+
+<syntaxhighlight lang="wikitext">
+: Support. I like this idea. —User:Example
+:* Question: What do you like about it? —User:Example2
+</syntaxhighlight>
+This injection of a bullet unnecessarily adds to list complexity and makes people more likely to use the wrong indentation levels in replies.
+
+=== Multiple paragraphs within list items ===
+{{shortcut|MOS:PARABR}}
+Normal MediaWiki list markup is unfortunately incompatible with normal MediaWiki paragraph markup.
+
+{{tick}} To put multiple paragraphs in a list item, separate them with {{tlx|pb}}:
+
+<syntaxhighlight lang="wikitext">
+* This is one item.{{pb}}This is another paragraph within this item.
+* This is another item.
+</syntaxhighlight>
+
+{{tick}} This can also be done with explicit HTML markup for paragraphs (note the closing <code><nowiki></p></nowiki></code> tag):
+
+<syntaxhighlight lang="wikitext">
+* This is one item.<p>This is another paragraph within this item.</p>
+* This is another item.
+</syntaxhighlight>
+
+{{tick}} In both cases, this must be done on a single code line. However, you can optionally use the trick of wrapping a code line break in an HTML comment (which suppresses it as an output line break), to separate paragraphs better in code view:
+
+<syntaxhighlight lang="wikitext">
+* This is one item.<!--
+--><p>This is another paragraph within this item.</p>
+* This is another item.
+</syntaxhighlight>
+
+{{tick}} This technique can be used for various forms of block-inclusion within a list item (because list items are technically block elements, which can contain other block elements):
+
+<syntaxhighlight lang="wikitext">
+* This is one item.<!--
+--><p>This is another paragraph within this item, and we're going to quote someone:</p><!--
+-->{{talk quote block|Imagine a world in which every single person on the planet is given free access to the sum of all human knowledge.|Jimbo}}<!--
+--><p>This is a closing paragraph within the same list item.</p>
+* This is another item.
+</syntaxhighlight>
+Be aware that not every fancy template can be used in this manner (e.g. some decorative quotation templates are table-based, and the MediaWiki parser will not handle such markup as being inside a list item).
+
+{{Crossreference|pw=y|See also [[WP:Manual of Style/Glossaries]] for rich but accessible markup of complex [[Wikipedia:Manual of Style/Lists#Description (definition, association) lists|description/definition/association lists]].}}
+
+{{xmark}} Do not use line breaks to simulate paragraphs, because they have different semantics:
+
+<syntaxhighlight lang="wikitext">
+* This is one item.<br />This is the same paragraph, with a line break before it.
+* This is another item.
+</syntaxhighlight>
+Line-break tags are for wrapping {{em|within}} a paragraph, such as lines of a poem or of a block of source code. See also the [[Help:Wikitext#Retaining newlines and spaces|{{tag|poem|o}}]] and [[Wikipedia:WikiProject Computer science/Manual of style#Code samples|{{tag|syntaxhighlight|o}}]] MediaWiki tags.
+
+{{xmark}} Definitely do not attempt to use a colon to match the indentation level, since (as mentioned above) it produces three separate lists:
+
+<syntaxhighlight lang="wikitext">
+* This is one item.
+: This is an entirely separate list.
+* This is a third list.
+</syntaxhighlight>
+
+{{tick}} Alternatively, you can use one of the [[Template:HTML lists|HTML list templates]] to guarantee grouping. This is most useful for including block elements, such as formatted code, in lists:
+<syntaxhighlight lang="wikitext">
+{{bulleted list
+|1=This is one item:
+<pre>
+This is some code.
+</pre>
+This is still the same item.
+|2=This is a second item.
+}}
+</syntaxhighlight>
+But this technique is not used on talk pages.
+
+=== Indentation ===
+{{Shortcut|MOS:INDENTGAP|MOS:BADINDENT}}
+{{See also|Wikipedia:Indentation}}
+
+An accessible approach to indentation is the template {{tlx|block indent}} for multi-line content; it uses [[CSS]] to indent the material. For single lines, a variety of templates exist, including {{tlx|in5}} (a universal template, with the same name on all Wikimedia sites); these indent with various whitespace characters. [[Wikipedia:Manual of style#Indentation|Do not abuse]] the {{tag|blockquote}} element or templates that use it (such as {{tlx|blockquote}}) for visual indentation; they are only for directly quoted material. The {{tlx|block indent}} generic alternative was created for such non-quote cases, so please use it.
+
+A colon (<code>:</code>) at the start of a line marks that line in the MediaWiki parser as the {{tag|dd|o}} part of an HTML [[description list]] ({{tag|dl|o}}).{{efn|1=HTML [[description list]]s were formerly called ''definition lists'' and ''association lists''. The <syntaxhighlight lang="html" inline><dl><dt>...</dt><dd>...</dd></dl></syntaxhighlight> structure is the same; only the terminology has changed between HTML specification versions.}} The visual effect in most Web browsers is to indent the line. This is used, for example, to indicate replies in a threaded discussion on talk pages. However, this markup alone is missing the required {{tag|dt|o}} (term) element of a description list, to which the {{tag|dd|o}} (description/definition) pertains. As can be seen by inspecting the code sent to the browser, this results in broken HTML (i.e. it fails [[W3C Markup Validation Service|validation]]<ref>{{cite web |title=Markup Validation Service: Check the markup (HTML, XHTML, ...) of Web documents |work=validator.w3.org |publisher=[[World Wide Web Consortium]] |date=2017 |version=v1.3+hg |url=https://validator.w3.org/ |access-date=December 13, 2017}} The validator failure reported is "<strong>Error</strong>: Element <code>dl</code> is missing a required child element."</ref>). The result is that assistive technology, such as screen readers, will announce a description list that does not exist, which is confusing for any visitor unused to Wikipedia's broken markup. This is not ideal for accessibility, [[semantic HTML|semantics]], or [[Wikipedia:Reusing Wikipedia content|reuse]], but is currently commonly used, despite the problems it causes for users of screen readers.<!--Accessibility editors consider this a legacy usage, some others disagree, and a Phabricator ticket is open to change the parsing of ":" markup, at https://phabricator.wikimedia.org/T6521 -->
+
+{{strong|Blank lines must {{em|not}} be placed between colon-indented lines of text}}{{snd}}especially in article content. This is interpreted by the software as marking the end of a list and the start of a new one.
+
+If space is needed, there are two approaches, which will have different results for screen readers:
+
+The first is to add a blank line with the same number of colons on it as those preceding the text above and below the blank line. This is appropriate when two editors are making comments immediately after each other at the same indentation level. For instance:
+
+<syntaxhighlight lang="wikitext">
+: I completely agree. —User:Example
+:
+: I'm unconvinced. Is there a better source available? –User:Example2
+</syntaxhighlight>
+
+This will tell the screen reader that this is two list items (the blank one will be ignored).
+
+The second approach, for when the material is meant to be a single comment (or other list item, e.g. in article text) is to use new-paragraph markup on the same output line (see previous section for advanced techniques in this, to include complex content blocks):
+
+<syntaxhighlight lang="wikitext">
+: Text here.{{pb}}More text. —User:Example3
+</syntaxhighlight>
+
+To display a mathematical formula or expression on its own line, it is recommended that <syntaxhighlight lang="xml" inline><math display="block">1 + 1 = 2</math></syntaxhighlight> be used instead of <syntaxhighlight lang="wikitext" inline>:<math>1 + 1 = 2</math></syntaxhighlight>.
+
+{{Hatnote|For more information on:
+* Richer and more accessible alternative description-list markup, see [[Wikipedia:Manual of Style/Glossaries]].
+* Weaknesses of colon-based markup&nbsp;– even for [[Wikipedia:Manual of Style/Lists#Description (definition, association) lists|actual description lists]] not just talk threads&nbsp;– see [[WP:Manual of Style/Glossaries/DD bug test cases]].
+}}
+
+=== Vertical lists ===
+
+==== Bulleted vertical lists ====
+{{Shortcut|MOS:LISTGAP}}
+Do not insert blank lines between vertical list items. </noinclude>Instead, use the [[#Multiple paragraphs within list items|{{tnull|pb}} template or {{tag|p|o}} HTML markup]]. Blank lines effectively break the list into several smaller lists for users of [[screen reader]]s and interfere with machine-parseability of the content for [[WP:Reusing Wikipedia content|reuse]]. Moreover, in most browsers, the extra white-space between a list and the next can have a visually jarring effect.<noinclude> In numbered lists, they also cause the numbering to restart at "1".
+
+The bad example below will be read by a screen reader as: "List of 1 items: (bullet) White rose, list end. List of 1 items: (bullet) Yellow rose, list end. List of 1 items: (bullet) Red rose, list end."
+
+{| class="wikitable"
+|+Bad example
+! scope="col" | Wikitext
+! scope="col" | Resulting HTML
+! scope="col" | Appearance
+|- style="vertical-align:top;"
+| class="nowrap" | <syntaxhighlight lang="wikitext">
+== List of roses ==
+* White rose
+
+* Yellow rose
+
+* Red rose
+</syntaxhighlight>
+| <syntaxhighlight lang="html" style="font-size:90%">
+<h2><span class="mw-headline" id="List_of_roses">List of roses</span></h2>
+<ul>
+<li>White rose</li>
+</ul>
+<ul>
+<li>Yellow rose</li>
+</ul>
+<ul>
+<li>Red rose</li>
+</ul>
+</syntaxhighlight>
+| style="white-space:nowrap; padding:1em;" | {{fake heading|sub=2|List of roses}}
+* White rose
+
+* Yellow rose
+
+* Red rose
+|}
+{{anchor|nobreaks|Nobreaks|NOBREAKS}}{{shortcut|MOS:NOBR|MOS:NOBREAKS}}
+Do not separate list items with line breaks ({{tag|br|s}}). Use {{tlx|plainlist}} or {{tlx|unbulleted list}} if the list is to remain vertical; or consider {{tlx|flatlist}} or {{tlx|hlist}} if the list could be better rendered horizontally (inline) as described below.
+
+==== <span id="Unbulleted (vertical) lists"></span>Unbulleted vertical lists ====
+{{Shortcut|MOS:PLIST|MOS:VLIST}}
+
+For unbulleted lists running down the page, the templates {{tl|plainlist}} and {{tl|unbulleted list}} are available, to improve accessibility and semantic meaningfulness by marking up what is clearly a list rather than including {{Tag|br|single}} line breaks, which should not be used—see above. They differ only in the wiki-markup used to create the list. Note that because these are templates, the text of each list item cannot contain the vertical bar symbol (<code>|</code>) unless it is replaced by <code><nowiki>{{!}}</nowiki></code> or is contained within {{tag|nowiki}} tags. Similarly it can't contain the equals sign (<code>=</code>), unless replaced with <code><nowiki>{{=}}</nowiki></code> or contained within {{tag|nowiki}}, though you can bypass this by naming the parameters (<code>|1=</code>, <code>|2=</code> etc.). If this becomes too much of a hassle, you may be able to use the variant with {{tl|endplainlist}} instead. Inside a reference, you may need {{tl|unbulleted list citebundle}} instead.
+<div style="display:flex;flex-flow:row wrap;justify-content:space-evenly">
+{| class="wikitable plainrowheaders"
+|+ Example of plainlist
+! scope="col" style="width:11.7em;" | Wikitext
+! scope="col" style="width:11.7em;" | Renders as
+|-
+! scope="row"| <syntaxhighlight lang="wikitext" inline style="line-height:1.2em;">{{plainlist|
+* White rose
+* Yellow rose
+* Pink rose
+* Red rose
+}}</syntaxhighlight>
+| {{plainlist |
+* White rose
+* Yellow rose
+* Pink rose
+* Red rose
+}}
+|}
+{| class="wikitable plainrowheaders"
+|+ Example of unbulleted list
+! scope="col" style="width:11.7em;" | Wikitext
+! scope="col" tyle="width:11.7em;" | Renders as
+|-
+! scope="row"| <pre style="line-height:1.2em;">{{unbulleted list
+| White rose
+| Yellow rose
+| Pink rose
+| Red rose
+}}</pre>
+| {{unbulleted list
+| White rose
+| Yellow rose
+| Pink rose
+| Red rose
+}}
+|}
+</div>
+
+Alternatively, in templates such as [[Wikipedia:Navigation template|navboxes]] and the like, or any suitable container, such lists may be styled with the class "<code>plainlist</code>", thus:
+
+{{plainlist |
+* <code><nowiki>| listclass = plainlist</nowiki></code> or
+* <code><nowiki>| bodyclass = plainlist</nowiki></code>
+}}
+
+In [[Wikipedia:Manual of Style/Infoboxes|infoboxes]], the following may be used:
+
+{{plainlist |
+* <code><nowiki>| rowclass = plainlist</nowiki></code> or
+* <code><nowiki>| bodyclass = plainlist</nowiki></code>
+}}
+
+{{Crossreference|pw=y|See also {{section link|WP:Manual of Style/Lists#Unbulleted lists}}.}}
+
+==== Other vertical lists ====
+The above blank-line issues also affect [[Wikipedia:Manual of Style/Lists#Numbered lists|numbered lists]], using <code>#</code> markup, and the list numbering will reset after the line break. The list-breakage problem of blank lines also applies to [[Wikipedia:Manual of Style/Lists#Description (definition, association) lists|description (definition, association) lists]], using <code>;</code> and <code>:</code> markup; that type of list can have line breaks in it if instead [[Wikipedia:Manual of Style/Glossaries#Template-structured|created with the glossary templates]].
+
+==== Horizontal lists ====
+{{Redirect|WP:FLIST|featured lists|Wikipedia:Featured lists}}
+{{Shortcut|MOS:HLIST}}
+
+For lists running across the page, and in single rows in [[Wikipedia:Manual of Style/Infoboxes|infoboxes]], tables and other templates, the templates {{tlx|flatlist}} and {{tlx|hlist}} (for "horizontal list") are available to improve accessibility and semantic meaningfulness. This feature makes use of the correct HTML markup for each list item, rather than including bullet characters which, for example, are read out (e.g., "dot cat dot dog dot horse dot...") by the assistive software used by people who are blind. The templates differ only in the wiki-markup used to create the list. Note that when text is being passed to these (or any other) templates, the vertical bar character (<code>{{pipe}}</code>) should be [[escape character|escaped]] with {{tlx|!}}.
+
+<!-- The following examples deliberately wrap the list over two lines to show the position of the list separator.
+Please don't widen them. -->
+<div style="display:flex;flex-flow:row wrap;justify-content:space-evenly">
+{| class="wikitable plainrowheaders"
+|+ Example of flatlist
+! scope="col"| Wikitext
+! scope="col"| Renders as
+|-
+! scope="row"| <pre style="line-height:1.2em;">{{flatlist |
+* White rose
+* Red rose
+** Pink rose
+* Yellow rose
+}}</pre>
+| {{flatlist |
+* White rose
+* Red rose
+** Pink rose
+* Yellow rose
+}}
+|}
+{| class="wikitable plainrowheaders"
+|+ Example of hlist
+! scope="col"| Wikitext
+! scope="col"| Renders as
+|-
+! scope="row"| <pre style="line-height:1.2em;">{{hlist
+| White rose
+| Red rose
+| Pink rose
+| Yellow rose
+}}</pre>
+| {{hlist
+| White rose
+| Red rose
+| Pink rose
+| Yellow rose
+}}
+|}
+</div>
+
+Alternatively, in templates such as [[Wikipedia:Navigation template|navboxes]] and the like, or any suitable container, such lists may be styled with the class <code>hlist</code>, thus:
+
+{{plainlist |
+* <code><nowiki>| listclass = hlist</nowiki></code> or
+* <code><nowiki>| bodyclass = hlist</nowiki></code>
+}}
+
+In [[Wikipedia:Manual of Style/Infoboxes|infoboxes]], these parameters may be used:
+
+{{plainlist |
+* <code><nowiki>| rowclass = hlist</nowiki></code> or
+* <code><nowiki>| bodyclass = hlist</nowiki></code>
+}}
+
+=== List headings ===
+{{Shortcut|MOS:LISTHEAD}}
+{{See also|MOS:PSEUDOHEAD}}
+
+Improper use of a semicolon to bold a "fake heading" before a list (figure 1) creates a [[#Vertical lists|list gap]], and worse. The semicolon line is a one-item description list, with no description content, followed by a second list.
+
+Instead, use heading markup (figure 2).
+
+<div role="figure" style="display: inline-block; margin: 0 1em; width: 13em;">
+<strong>{{xmark}} 1. Incorrect</strong>
+<syntaxhighlight lang="wikitext">
+; Noble gases
+* Helium
+* Neon
+* Argon
+* Krypton
+* Xenon
+* Radon
+</syntaxhighlight>
+</div>
+
+<div role="figure" style="display: inline-block; margin: 0 1em; width: 13em;">
+<strong>{{tick}} 2. Heading</strong>
+<syntaxhighlight lang="wikitext">
+
+==Noble gases==
+* Helium
+* Neon
+* Argon
+* Krypton
+* Xenon
+* Radon
+</syntaxhighlight>
+</div>
+
+== Tables ==
+{{Shortcut|MOS:DTAB}}
+
+Screen readers and other web browsing tools make use of specific table tags to help users navigate the data contained within them.
+
+Use the correct wikitable pipe syntax to take advantage of all the features available. See [[mw:Help:Tables]] for more information on the special syntax used for tables. Do not solely use formatting, either from CSS or hard-coded styles, to create semantic meaning (e.g., changing background color).
+
+Many [[Wikipedia:Navigational templates|navboxes]], [[Wikipedia:Series templates|series templates]], and [[Wikipedia:Manual of Style/Infoboxes|infoboxes]] are made using tables.
+
+Avoid using {{tag|br|s}} or {{tag|hr|s}} tags in adjacent cells to emulate a visual row that isn't reflected in the HTML table structure. This is a problem for users of screen readers which read tables cell by cell, HTML row by HTML row, not visual row by visual row.
+
+=== Data tables ===
+{{Main|Wikipedia:Manual of Style/Accessibility/Data tables tutorial}}
+
+<div style="display: inline-table;">
+'''Wikitext:'''
+<syntaxhighlight lang="wikitext">
+{| class="wikitable"
+|+ caption text
+|-
+! scope="col" | column header 1
+! scope="col" | column header 2
+! scope="col" | column header 3
+|-
+! scope="row" | row header 1
+| data 1 || data 2
+|-
+! scope="row" | row header 2
+| data 3 || data 4
+|}
+</syntaxhighlight>
+</div>
+
+<div style="display: inline-table;">
+'''Produces:'''
+{| class="wikitable"
+|+ caption text
+|-
+! scope="col" | column header 1
+! scope="col" | column header 2
+! scope="col" | column header 3
+|-
+! scope="row" | row header 1
+| data 1 || data 2
+|-
+! scope="row" | row header 2
+| data 3 || data 4
+|}
+</div>
+
+; {{Anchor|Table caption|Table captions}}Caption ( <code>|+</code> )
+: A caption is a table's title, describing its nature.<ref name="H39">{{cite web |title=H39: Using caption elements to associate data table captions with data tables |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/H39.html |access-date=29 December 2023}} Accessibility level: A.</ref> Data tables should always include a caption.
+; Row and column headers (<code> ! </code>)
+: Like the caption, these help present the information in a logical structure to visitors.<ref>{{cite web |title=H51: Using table markup to present tabular information |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/H51.html |access-date=29 December 2023}}</ref> The headers help screen readers render header information about data cells. For example, header information is spoken prior to the cell data, or header information is provided on request.<ref>{{cite web |title=4.9.10 The th element |date=24 December 2023 |work=[[HTML5|HTML Living Standard]] |publisher=[[Web Hypertext Application Technology Working Group]] |url=https://html.spec.whatwg.org/multipage/tables.html#the-th-element |access-date=29 December 2023}}</ref> Because the row header and column header may be spoken before the data in each cell when navigating in table mode, it is necessary for the column headers and row headers to ''uniquely identify'' the column and row respectively.<ref name="jaws">{{cite web |title=HTML Tables with JAWS |work=FreedomScientific.com |publisher=[[Freedom Scientific]] |url=https://www.freedomscientific.com/SurfsUp/Tables.htm |access-date=29 December 2023}}</ref>
+; Scope of headers (<code>! scope="col" |</code> and <code>! scope="row" |</code>)
+: This clearly identifies a cell as a header for a column or row. Use <code>! scope="colgroup" colspan="2" |</code> if a column header spans a group of columns and <code>! scope="rowgroup" rowspan="2" |</code> if a row header spans a group of rows, adjusting the span count as needed. Headers can now be associated to corresponding cells.<ref name="H63">{{cite web |title=H63: Using the scope attribute to associate header cells and data cells in data tables |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/H63.html |access-date=24 December 2023}}</ref>
+
+[[Wikipedia:Manual of Style/Accessibility/Data tables tutorial]] provides detailed requirements about:
+# Correct table captions
+# Correct headers structure
+# Complex tables
+# Images and color
+# Avoiding nested tables
+
+=== Layout tables ===
+{{Shortcut|MOS:LTAB}}
+
+Avoid using tables for visual positioning of non-tabular content. Data tables provide extra information and navigation methods that can be confusing when the content lacks logical row and column relationships. Instead, use semantically appropriate elements or <code>&lt;div&gt;</code>s, and <code>style</code> attributes.
+
+When using a table to position non-tabular content, help screen readers identify it as a layout table, not a data table. Set a <code>role="none"</code>{{efn|1=<code>role="none"</code> ensures the element's implicit native role [[Semantic HTML|semantics]] will not be mapped to the accessibility API. <code>presentation</code> was historically the name for this role, and is now a synonym for <code>none</code>. The latter was introduced and is preferred. This was done as "author confusion surrounding the intended meaning of the word 'presentation' or 'presentational'" caused developers to "erroneously consider role="presentation" to be synonymous with aria-hidden="true"," and that "'none' conveys the actual meaning more unambiguously."<ref>{{Cite web |title=Accessible Rich Internet Applications (WAI-ARIA) 1.3 |url=https://w3c.github.io/aria/#none |access-date=2025-08-23 |website=w3c.github.io}}</ref>}} attribute on the table, and do not set any <code>summary</code> attribute. Do not use any <code>&lt;caption&gt;</code> or <code>&lt;th&gt;</code> elements inside the table, or inside any nested tables. In wiki table markup, this means do not use the <code>|+</code> or <code>!</code> prefixes. Make sure the content's reading order is correct. Visual effects, such as centering or bold typeface, can be achieved with style sheets or semantic elements. For example:
+<div style="display:inline-grid; max-width:35em;">
+<syntaxhighlight lang="wikitext">
+{| role="none"
+|-
+| colspan="2" style="text-align: center; background-color: #ccf;" | <strong>Important text</strong>
+|-
+| The quick || brown fox
+|-
+| jumps over || the lazy dog.
+|}
+</syntaxhighlight></div>
+<div style="display:inline-grid;">
+{| role="none"
+|-
+| colspan="2" style="text-align: center; background-color: #ccf;" | <strong>Important text</strong>
+|-
+| The quick || brown fox
+|-
+| jumps over || the lazy dog.
+|}
+</div>
+
+==Images==
+{{Shortcut|MOS:ACCIM}}
+{{Further|Wikipedia:Manual of Style#Images|Wikipedia:Image use policy#Displayed image size|Wikipedia:Image dos and don'ts}}
+[[File:Example of fragmented image display in mobile view.png|thumb|Display of a fragmented image gallery on mobile]]
+[[File:Gallery mode comparisons.png|thumb|Mobile device view of various Wikipedia gallery modes]]
+
+In most cases, except in [[Wikipedia:Manual of Style/Captions#Special situations|special situations]],{{efn|See {{section link|Wikipedia:Manual of Style/Captions#Special situations}} for special situations such as images in infoboxes where captions require special consideration.}} images should include a [[Wikipedia:Manual of Style/Captions|caption]] using the built-in [[Wikipedia:Image syntax|image syntax]]. The caption should concisely describe the meaning of the image and the essential information it is trying to convey.
+
+Detailed image descriptions, where not appropriate for an article, should be placed on the image's description page, with a note saying that activating the image link will lead to a more detailed description.
+
+* Avoid using images in place of [[#Tables|tables or charts]]. Where possible, any charts or diagrams should have a text equivalent or should be well-described so that users who are unable to see the image can gain some understanding of the concept.
+* Avoid [[Wikipedia:Manual of Style/Images#Sandwich|sandwiching]] text between two images or, unless absolutely necessary, using [[Wikipedia:Image use policy#Displayed image size|fixed image sizes]].
+* Avoid indiscriminate [[Wikipedia:Image use policy#Image galleries|galleries]] because screen size and browser formatting may affect accessibility for some readers due to fragmented image display. For articles accessed via smartphone-sized devices, larger screen fill is provided when avoiding image borders. Using {{tl|gallery}}'s {{code |1= mode=packed}} attribute negates the border and improves accessibility as shown in the attached gallery view screenshots. As of January 2025, 64.9% of Wikipedia's readers were accessing articles via mobile devices.<ref name="s726">{{cite web | title=Wiki comparison [public] | website=Google Docs | url=https://docs.google.com/spreadsheets/u/0/d/1a-UBqsYtJl6gpauJyanx0nyxuPqRvhzJRN817XpkuS8/htmlview | language=rw | access-date=May 9, 2025}}</ref>
+*{{short|MOS:IMGLIMITS}}{{Vanchor|Image limits |text=Articles with many images may time out on mobile versions of Wikipedia. Ideally, a page should have no more than 100 images (regardless of how small). See [[mediawikiwiki:Recommendations for mobile friendly articles on Wikimedia wikis#Limit number of images in a page|MediaWiki:Limit number of images in a page]]}}. The [[:mw:Parsoid|Parsoid]] parser sets a limit of 1,250 images per page (see [[phab:T430854]])
+* Avoid referring in text to images as being on the left or right. Image placement may be different for viewers of the mobile site, and is meaningless to people having pages read to them by assistive software. Instead, use captions to identify images. {{Crossreference|pw=y|(See {{section link|Wikipedia:Manual of Style/Images#References from article text}}.)}}
+
+===Image placement===
+{{See also|#Section headings|Wikipedia:Manual of Style/Images#Section|MOS:ACCESS#FLOAT}}
+Images should be inside the section to which they are related (after the heading and any [[Wikipedia:Hatnote|hatnotes]]), and not in the heading itself nor at the end of the previous section. This ensures that screen readers will read, and the mobile site will display, the image (and its textual alternative) in the correct section.
+
+This guideline includes alt text for LaTeX-formatted equations in [[Wikipedia:Manual of Style/Mathematics#Typesetting of mathematical formulae|{{tag|math|o}}]] mode. See {{Section link|Wikipedia:Manual of Style/Mathematics#Alt text}}
+
+Do not insert images in headings; this includes [[Wikipedia:Manual of Style/Icons#Encyclopedic purpose|icons]] and [[Wikipedia:Manual of Style/Mathematics#Typesetting of mathematical formulae|{{tag|math|o}}]] markup. Doing so can break links to sections and cause other problems.
+
+===Alt text===
+{{Further|HELP:ALT|MOS:ALT|label2=Explanatory essay on Alt text for images|label1=How-to guide for Alt text}}
+
+Images and icons that are not purely decorative should include [[alternative text]] which describes the image's content and function, and acts as a substitute for the image for blind readers, search-spiders, and other non-visual users. The alternative text is stored in the image's "alt" attribute. The alt attribute may refer the reader to the caption or adjacent text. The alt text should be succinct{{snd}}ideally 125 characters maximum.<ref name="u311">{{cite web | last=Canada | first=Government of | title=Alternative text and long description – Best practices- Digital Accessibility Toolkit | website=Digital Accessibility Toolkit / Boîte à outils de l'accessibilité numérique | date=August 1, 2023 | url=https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/ | access-date=April 17, 2026}}</ref><ref name="l908">{{cite web | title=Alternative (Alt) Text | website=Content Management | url=https://www.maine.edu/content-management/accessibility/images/alt-text/ | access-date=April 17, 2026}}</ref> Specific guidance on Alt text for icons is at [[Wikipedia:Manual of Style/Icons#Remember accessibility for people with visual impairment]].
+
+==Animations, video, and audio content==
+{{Anchor|Animations, video and audio content|reason=Old section name with awkwardly missing comma.}}
+{{Shortcut|MOS:ANIMATION}}
+{{Further|Help:Media|Help:Creation and usage of media files}}
+
+===Animations===
+To be accessible, an animation ([[GIF]] – Graphics Interchange Format) should either:
+* Not exceed a duration of five seconds (which results in making it a purely decorative element)<ref>{{cite web |title=G152: Setting animated gif images to stop blinking after n cycles (within 5 seconds) |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/G152.html |access-date=29 December 2023}}</ref> or
+* Be equipped with control functions (stop, pause, play)<ref>{{cite web |title=G4: Allowing the content to be paused and restarted from where it was paused |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/G4.html |access-date=29 December 2023}}</ref>
+
+This requires that GIFs with animations longer than five seconds be converted to video (to learn how, see the tutorial [//commons.wikimedia.org/w/index.php?title=Help_talk:Converting_video&oldid=39737985#Converting_an_animated_GIF converting animated GIFs to Theora OGG]).
+
+In addition, animations {{em|must not}} produce more than three flashes in any one-second period. Content that flashes more than that limit is known to cause seizures.<ref>{{cite web |title=Guideline 2.3 Seizures: Do not design content in a way that is known to cause seizures |date=11 December 2008 |work=Web Content Accessibility Guidelines (WCAG) 2.0 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20/#seizure |access-date=29 December 2023}}</ref>
+
+===Video===
+{{Main|c:Commons:Timed Text}}
+{{see also|mw:Extension:TimedMediaHandler|c:Commons:Video#Subtitles and closed captioning|ifexists=no}}
+{{Shortcut|WP:TIMEDTEXT}}
+[[Closed captioning]] (CC) and [[subtitling]] are both processes of displaying text on audio and visual files on Wikipedia through [[c:Commons:Timed Text]]. Both are typically used as a transcription of the audio portion of a program as it occurs (either verbatim or in edited form), sometimes including descriptions of non-speech elements. This aids hearing-impaired and deaf people and provides a way for non-native language speakers to understand the content in a multimedia file and should be included for all videos with a meaningful audio component.
+
+Closed captions provide a text version of all important information provided through the sound. It can include dialogue, sounds (natural and artificial), the setting and background, the actions and expressions of people and animals, text, or graphics.<ref>{{cite web |title=G69: Providing an alternative for time based media |work=Techniques for WCAG 2.0 |publisher=[[World Wide Web Consortium]] |url=http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G69 |access-date=1 January 2011}}</ref> Off-Wikipedia guides should be consulted for how to create closed captions.<ref>See:
+* {{cite web |author=[[Media Access Group]] |title=Captioning FAQ |date=2002 |publisher=[[WGBH Educational Foundation]] |url=http://main.wgbh.org/wgbh/pages/mag/services/captioning/faq/sugg-styles-conv-faq.html |archive-url=https://web.archive.org/web/20191121014129/http://main.wgbh.org/wgbh/pages/mag/services/captioning/faq/sugg-styles-conv-faq.html |archive-date=21 November 2019 |ref=none}} A quick and basic reference for closed captions.
+* {{cite web |author=English-language Working Group on Closed Captioning Standards |title=Closed Captioning Standards and Protocol for Canadian English Language Television Programming Services |edition=3rd |date=2008 |work=CAB-ACR.ca |publisher=[[Canadian Association of Broadcasters]] |url=http://www.cab-acr.ca/english/social/captioning/captioning.pdf |archive-url=https://web.archive.org/web/20210823005136/https://www.cab-acr.ca/english/social/captioning/captioning.pdf |archive-date=23 August 2021 |ref=none}} A detailed reference.
+* {{cite web |title=Captioning Key |work=DCMP.org |publisher=[[Described and Captioned Media Program]], [[U.S. Department of Education]] |url=https://dcmp.org/learn/captioningkey |access-date=29 December 2023}} A list of best practices for closed captions.</ref>
+
+Non-English text should be translated, following [[MOS:FOREIGNQUOTE]].
+
+===Audio===
+Subtitles for speech, lyrics, dialogue, etc.<ref>{{cite web |title=G158: Providing an alternative for time-based media for audio-only content |work=Techniques for WCAG 2.0 |date=7 October 2016 |publisher=[[World Wide Web Consortium]] |url=https://www.w3.org/TR/WCAG20-TECHS/G158.html |access-date=29 December 2023}}</ref> can easily be added to audio files. The method is similar to that of the video: {{Section link|:commons:Commons:Video#Subtitles and closed captioning}}.
+
+==Styles and markup options==
+{{Shortcut|MOS:DEVIATIONS}}
+
+===Best practice: wiki markup and CSS classes===
+In general, styles for tables and other block-level elements should be set using CSS classes, not with inline style attributes. The site-wide CSS in [[MediaWiki:Common.css]] is more carefully tested to ensure accessibility (e.g. sufficient color contrast) and compatibility with a wide range of browsers. Moreover, it allows users with very specific needs to change the color schemes in their own style sheet ([[Special:MyPage/skin.css]], or their browser's style sheet). For example, a style sheet at [[Wikipedia:Style sheets for visually impaired users]] provides higher contrast backgrounds for [[Wikipedia:Navigation template|navboxes]]. The problem is that when the default site-wide classes are overridden, it makes it far more difficult for an individual to choose their own theme.
+
+It also creates a greater degree of professionalism by ensuring a consistent appearance between articles and conformance to a style guide.
+
+Regarding accessibility, deviations from standard conventions may be tolerated [[Wikipedia:Manual of Style/Accessibility#Color|so long as they are accessible]]. Members of the accessibility project have ensured that the default style is accessible. If some template or specific color scheme deviates from the standard, its authors should make sure that it meets accessibility requirements such as providing enough [[Wikipedia:Colour contrast|color contrast]]. For instance, the [[Wikipedia:Manual of Style/Infoboxes|infobox]] and [[Wikipedia:Navigation template|navbox]] relating to a sport team might use a yellow-and-red color scheme, to tie in with the colors of the team livery. In this case, dark red links on light yellow provide enough color contrast, and thus would be accessible, while white on yellow or black on red would not.
+
+In general, articles should use [[wiki markup]] in preference to the limited set of [[meta:Help:HTML in wikitext#Permitted HTML|allowed HTML elements]]. In particular, do not use the HTML style elements {{tag|i|o}} and {{tag|b|o}} to format text; it is preferable to use Wiki-markup <code><nowiki>''</nowiki></code> or <code><nowiki>'''</nowiki></code> for purely typographic italicization and boldfacing, respectively, and use [[semantic markup]] templates or elements for more meaningful differences. The <code>{{!xt|&lt;font&gt;}}</code> element should also be avoided in article text; use {{tlx|em}}, {{tlx|code}}, {{tlx|var}}, and our other [[:Category:Semantic markup templates|semantic markup templates]] as needed, to emphasize logical differences not just visual ones. Use the {{tls|resize}}, {{tls|small}}, and {{tls|Large}} templates to change font size, rather than setting it explicitly with CSS style attributes like <code>font-size</code> or deprecated style elements like <code>{{!xt|&lt;big&nbsp;/&gt;}}</code>. Of course there are natural exceptions; e.g., it may be beneficial to use the {{tag|u}} element to indicate something like an example link that isn't really clickable, but underlining is otherwise generally [[Wikipedia:Manual of Style/Text formatting#How not to apply emphasis|not used in article text]].
+
+===Users with limited CSS or JavaScript support===
+{{Shortcut|MOS:PRECOLLAPSE}}
+{{See also|Wikipedia:Manual of Style#Scrolling lists and collapsible content|mw:No-JavaScript notes}}{{anchor|Scrolling and collapsible sections|Users with limited CSS/JavaScript support}}<!--Old name, misusing slash; may be linked to from somewhere.-->
+
+Auto-collapsed (pre-collapsed) elements [[Wikipedia:Manual of Style#Scrolling lists and collapsible content|should not be used to hide content]] in the article's main body.
+
+Wikipedia articles should be accessible to readers using browsers and devices that have limited or no support for [[JavaScript]] or [[Cascading Style Sheets]], which is referred to as "[[progressive enhancement]]" in web development. Remember that [[Wikipedia:Reusing Wikipedia content|Wikipedia content can be reused freely]] in ways we cannot predict as well as accessed directly via older browsers. At the same time, it is recognized that it is impossible to provide the same quality of appearance to such users without unnecessarily avoiding features that would benefit users with more capable browsers. As such, features that would cause content to be hidden or corrupted when CSS or JavaScript is unavailable must not be used. However, consideration for users without CSS or JavaScript should extend mainly to making sure that their reading experience is {{em|possible}}; it is recognized that it will inevitably be {{em|inferior}}.
+
+To accommodate these considerations, test any potentially disruptive changes with JavaScript or CSS disabled. In Firefox or Chrome, this can be done easily with the Web Developer extension; JavaScript can be disabled in other browsers in the "Options" screen. Be particularly careful with inline CSS effects, which are not supported by several browsers, media, and XHTML versions.
+
+In 2016, around 7% of visitors to Wikipedia did not request JavaScript resources. Additional newer metrics are available.<ref>[[mw:No-JavaScript notes#Metrics]]</ref>
+
+==See also==
+* [[Web Accessibility Initiative]] (WAI)
+* [[Help:Mobile access]]
+* [[Wikipedia:Accessibility dos and don'ts]] (key points of this guideline)
+* [[Wikipedia:Dyslexic readers]]
+* [[Wikipedia:Make technical articles understandable]]
+* [[Wikipedia:Using JAWS]]
+* {{Section link|Wikipedia:Verifiability#Accessibility}}
+* [[Wikipedia:WikiProject Accessibility]]
+* [[Wikipedia:WikiProject Usability]]
+* [[Usability:Accessibility Initiative]] (located at Wikimedia)
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{cite book |last=Clark |first=Joe |title=Building Accessible Websites |date=2003 |publisher=New Riders Press |isbn=0-7357-1150-X |url=https://joeclark.org/book/ |access-date=1 January 2011 |ref=none}}
+* {{cite web |last=Pilgrim |first=Mark |title=Dive into Accessibility: 30 Days to a More Accessible Web Site |date=2002 |url=http://diveintoaccessibility.info |archive-url=https://web.archive.org/web/20171005130529/http://diveintoaccessibility.info/ |archive-date=5 October 2017 |ref=none}}
+* {{cite book |last1=Lynch |first1=Patrick J. |last2=Horton |first2=Sarah |title=Web Style Guide |date=2016 |publisher=[[Yale University Press]] |isbn=978-0-300-21165-8 |oclc=1004033147 |url=https://books.google.com/books?id=EY_BDAAAQBAJ&pg=PP1 |via=Google Books}}
+
+==External links==
+* [https://design.wikimedia.org/style-guide/ The Wikimedia Design Style Guide]
+* [[mediawikiwiki:Recommendations for mobile friendly articles on Wikimedia wikis|Recommendations for mobile-friendly articles on Wikimedia wikis]]
+* [https://www.w3.org/WAI/quicktips/ 10 Quick Tips to Make Accessible Web Sites], from WAI
+*[https://webstyleguide.com/wsg3/8-typography/3-legibility.html Legibility], from Web Style Guide, 3rd Edition
+* [https://www.w3.org/WAI/fundamentals/components/ Essential Components of Web Accessibility], from WAI
+* [https://www.w3.org/WAI/fundamentals/accessibility-intro/ Introduction to Web Accessibility], from [[WAI]]
+* [https://phabricator.wikimedia.org/tag/accessibility/ Known and tracked MediaWiki accessibility issues]
+* [https://www.toptal.com/designers/colorfilter Toptal ColorFilter] (remot web page filter)
+* [https://www.color-blindness.com/coblis-color-blindness-simulator/ Coblis Color-blindness Simulator] (local web page filter)
+
+{{Wikipedia policies and guidelines}}
+
+[[Category:Wikipedia Manual of Style (accessibility)| ]]
+[[Category:Wikipedia accessibility| ]]

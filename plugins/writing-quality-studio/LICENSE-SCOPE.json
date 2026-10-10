@@ -1,0 +1,1646 @@
+{
+  "schema_version": 1,
+  "package": "writing-quality-studio",
+  "version": "0.3.5",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0, with retained upstream grants",
+  "precedence": "Retained upstream grants and earlier permissions remain; new defaults apply only to author-owned contributions.",
+  "manifest_self_exclusion": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "dcd332ea987db4270d5821b5a2de4973ec9d5634ed9ff3a4ee943e19ef3b7443"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "dbb8cb7dcd92fa95c611a43ffb15287f70aefe461e80a1578cc496d9cc4dfe68"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "27ed7db3dae6af4d810cf5303a978ae9424eb334fe529532ca7eef149e517b86"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "661c0950c421598d114afd7d4e4db1e117942eff3e63f9b8af07691da19a1167"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5b274f2de7915cc2c16bfae0abc5e5595b274e0c76cf80410361e1372f077c85"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "376517a3f9dc915ba91ad378bb721627f87581c7dbc7a3f9902b63b6d6e43fa6"
+    },
+    {
+      "path": "docs/grant-migration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0781c97df8200450c9b77cf041daa861182e94c6579c22b750b9c68566a0c6e9"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d23a9d390d670f7500ef7308bb01ccc51520b22d40e2eb60f3b92a3c87725d44"
+    },
+    {
+      "path": "docs/source-coverage-limitations.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f5ef5b345f2e1365a1d2ce0fa919db6414cbb78bdad730b5875c0477fdfce5e9"
+    },
+    {
+      "path": "docs/source-to-target-plan.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "75bd27f1c8c6a2e1fa8d56b4b4fad17c4e45603832a1e48e1afe6d75cc902c8a"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0ef2442fa296713f257dfaf88d0f89badc65da89fa015ad119b42eac80378049"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/blader-humanizer/CHANGELOG.original.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa"
+    },
+    {
+      "path": "libraries/blader-humanizer/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+    },
+    {
+      "path": "libraries/blader-humanizer/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "7ddc3c0086fd2a977c98f23777b4f9988ed8fd59e1322cd7fee4c18a2928ea73"
+    },
+    {
+      "path": "libraries/blader-humanizer/README.original.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432"
+    },
+    {
+      "path": "libraries/blader-humanizer/SKILL.original.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+    },
+    {
+      "path": "libraries/linkedin-agent/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c"
+    },
+    {
+      "path": "libraries/linkedin-agent/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "8be80fd4f4dda6c4d281217bd0e46655b469257ee7caf94b07f1a433cb1d3ff7"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-human/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "2ebda9ff1b63f0d567cd8e30b6fc1465e05c46e166809ea0569cba3591d73d90"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-human/detect.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "d8cf740741968f25ce49ec6cc65538f53e97f28f6f2ce21b7f21864475fe2075"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-human/humanize.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "8627c813e461459604c5019d28052fbde11a544af86a1c4652b1aff3b38d8757"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-human/slop.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "2d227835a80ca20259c8d255501cb752cdc4232468c12bb9223fccf5acc724bb"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/voice.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b12d87d932e4e3ab1dcd957c65fd973368a576839ce3f6974ad4f1e8d319bcc2"
+    },
+    {
+      "path": "libraries/no-ai-slop/.codex-plugin/plugin.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "010b63e747efb90d86ef1921e61a354643b3a076ca267d5cbb5f135b7212b0d1"
+    },
+    {
+      "path": "libraries/no-ai-slop/.github/workflows/plugin.yml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "a3a194f3fadef3808f8b8ac44ed43bb39d62362359fda0e916178ed02185ab2c"
+    },
+    {
+      "path": "libraries/no-ai-slop/.gitignore",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "ed19d3c9c8a5e34d0179e0b1a9c2907d2e657738733e4a432a8cf81c76ce56f1"
+    },
+    {
+      "path": "libraries/no-ai-slop/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b7a7fe370cc4c9e974528c7cea7841cf8ac886bc9ed947edb11b289441fba4a8"
+    },
+    {
+      "path": "libraries/no-ai-slop/PRIVACY.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "fbde0eed400e8b4866cc438b05aa60af9f37a5ee78f38a1b2f80f138228e5769"
+    },
+    {
+      "path": "libraries/no-ai-slop/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "940746c7f90f92f36c1ff409b05e745e557d1b18e20b174cbf1c3473b26ca121"
+    },
+    {
+      "path": "libraries/no-ai-slop/README.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "a2e24837d6531c2e827876123d05ea482a21bcfc25358dbdacbf581fb1e51d81"
+    },
+    {
+      "path": "libraries/no-ai-slop/TERMS.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b54589cafe3e61504491976f34cacb704e1831ec3c9c49857ac8dc0fa8e6cc43"
+    },
+    {
+      "path": "libraries/no-ai-slop/agents/openai.yaml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "51aa33afd4a3287a618c681212a86ce01cc7da4d9c37e54e65166acffa24519a"
+    },
+    {
+      "path": "libraries/no-ai-slop/assets/no-ai-slop.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "910c4a57463447925959e8d322070658eec0db0d8a6ccbe95b14f5081cbb7262"
+    },
+    {
+      "path": "libraries/no-ai-slop/plugin-submission.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "d1f17f36ec041708104cb04da7e87ad406d46d93089015b3252d039cef695d42"
+    },
+    {
+      "path": "libraries/no-ai-slop/scripts/build_plugin.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "ac836f53d02a232945327b64d39d33d9b8205ab8846666670eb3cef3422b89e6"
+    },
+    {
+      "path": "libraries/no-ai-slop/skills/no-ai-slop/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "992b365f51a2f62cf4c1c5ed22049a9ee551dfea677550c1a72b371c0ceadd62"
+    },
+    {
+      "path": "libraries/no-ai-slop/skills/no-ai-slop/agents/openai.yaml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "51aa33afd4a3287a618c681212a86ce01cc7da4d9c37e54e65166acffa24519a"
+    },
+    {
+      "path": "libraries/no-ai-slop/skills/no-ai-slop/eval.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "8ad8d83ed1abe7fc054ad74966bfca64fc182bc71f59d701b24b962c39d11ad7"
+    },
+    {
+      "path": "libraries/voiceprint/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218"
+    },
+    {
+      "path": "libraries/voiceprint/PROMPT.original.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "c99e65bc0a57d56857f9fa5b573092c2d6a60b407354870ca3c26e89334173dc"
+    },
+    {
+      "path": "libraries/voiceprint/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "8d8338cbd737be493546bff07ec9752abe631a2b149f8a71b2d5c0ff576cad92"
+    },
+    {
+      "path": "libraries/voiceprint/SKILL.original.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "bc0d77a4929405310e128ec52ef248b62ac7c9235a0c477aad42e780a6bfba73"
+    },
+    {
+      "path": "library/source-procedures/INDEX.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3bebada81f4c79b5d3e474635f66bb224d71bbf0a57943ccaf0d5dee93f9494a"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/LEGACY-SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d7e9933246336bf09a4f7fe78b8ba60c8f2a6e580dc22b96ac29fbd114b6d1ce"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "29bdbd41a9774b5096337bbeb4fb9ffafffeac0c12bf557d12e80be6df9b6e54"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/agent.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "eb926a900e82682a909946ab95c9302a02bdae660879ce78362a6d015fa71e4e"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/agents.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2535d7dbee7081dfd9f02125d78d6c8ec833f24e5dda1da8b1b99f48521be1eb"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/audience-adaptation-advisor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8ffaa2dd63e0bebe9d739ddbdf6354820e688327f45fe797af1b96c03a10628b"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/career-story-liaison.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "68b4ccc8ff02fa5aa95ea8f0195e64b7af1fd400f25924ae08b50ab7efec2311"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/client-pipeline-copywriter.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8f613ffbbbc58edba91261ef9a2ede840938f189f6bb0e72ea60a6b7e23ca70d"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/communication-learning-coach.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "195ecb32b91152d87d68b991f067f6701fde4d4f2e5bd51d0eb7a23329693168"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/communication-strategist.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "404b57a81c8cbfec909c194793969e9984ec02398e0c7e74a9bf9081c612a75a"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/conflict-repair-coach.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cc76f31c5c53dbd364992e7eef8bde3001b946722add9f6e291071a397dae999"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/contractor-brand-messaging-advisor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6539cb10bf0d8b6304fa494f93e5643a463dcb320b5ee1dac35415934cd35c02"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/evidence-integrity-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b34c73189a8b691daefaee63f1dfc87d83e483f1102e9a56a76c2ebfbaec5e5d"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/hook-story-architect.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9c56b766da55364c0f11a05fa0f184261ebafeb7fba025455d0d17701d7f736a"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "260d6f0030ddf85e8750a4411e931c5281b1598d119e23a97f13cd76f17d0629"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/rhetorical-appeals-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fff16c71295f77d7a261e11b3f33b1f62fbae88ff733c0de4f4b7effef5c10ef"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/stakeholder-coach.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d10d548e54ee0c23b7016d6fd51b24131dcdafbec926cf75158215756e4c9d26"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/agents/voice-tone-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1583eee1a42731ea14bff1f36dbb41cab9d9ba3df8b5ec4e5a30ca6b475736e3"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/audience-style-adaptation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b4eeeae96a79e2601f963237322464d48a4a0fc931a26ec976eb4515263828a0"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/clarity-accessibility.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d199108f046f9203c655442824033709f089a4f047dce823b2b689a6a2316b3f"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/client-outreach-and-proposals.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "47fa07449cbde28264adcc0a94805e635ed2737a0ba751743c05b9ebab819ece"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/communication-stack.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "46cc52ec6e694f994a2933c6be3e2fc3a6a0ef9cac873c013f3b64cdaf318cdd"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/contractor-brand-messaging.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "15206a865f560e2e21d73f8bfdc160da527ad4cfc0646c776d8b50238546ade8"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/ethical-persuasion.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e1834346aefceac875890cceb9fc4c24561caab28d033ef866746b549e1fd4db"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/game-design-transfer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "46c1f1176b1a215ed5b7d5726f4ef5b85b2fed8149dbfe02ffd68a54623b03e4"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/instructional-design-for-communication.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d6f9f6d651a2034ff272a77e737ada93692a990e1c284d054ffb037982fb1995"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/job-search-communication.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "234b76bf09b0c5dd0d666ffa44f0da832030ad3000d1c23908533f7a57dac231"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/knowledge-atlas-frameworks.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e17a4256dfc0b3961840d8ce703c6823980f5cab84e83dda87701799acda1470"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/message-rubrics.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "03eb86ac2cc51b5bfae8600c1b3db8eab3051c4df3dc4f4c7692b0b5e20e89ba"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/narrative-story-spine.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2205ab9d2774afb3507179e8cd8d7f9633e26388361dcff7fc77b1a6ecf13776"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/public-content-hooks.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4014cec34d3443efee7b789fb30e61c24bb193f4175bf5982dde372dc5ed7de4"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/rhetorical-appeals.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1e76461929700a661c34adac748b5f888ec746ba309403b28a534589eb8c00e0"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/source-anchors.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "478ffb86ae7500c2ec1bca5af0d801e5e566e3f3ac1981f241814a6255f3b600"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/stakeholder-communication.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2601e251e3a8f390f7e57e96b044f2d6ed7e683ac0be04ba7e660fdd8dc38589"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/references/voice-ai-sludge-checks.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aa10b71adfdf9de30855c46cf3da697414a1e91d1def303a807746abdb54aae2"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/client-outreach-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7732e19408a535b97f62a2990f72c9957c511bdef797026957e679cdbda1eccc"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/communication-audit.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "84152b1fcc89b40d553e27b09819ed5912f84d21c2ebabd4bfa0cd5115bad7ec"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/communication-practice-loop.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "95be42e8c73400629b0f3b79e982dbf722e7a6f3de6a2ca55c44ce4bb2d5dfea"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/contractor-homepage-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b21c60da811d731409a03a6a3f74cabd3ea1289b08a65b9ede5438fdc4b8fd6f"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/hook-set.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dd5b4efa101533c7ea937146b22c9656b5135f1d6ffa22f3560b9d012a82a66d"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/job-search-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "deb3d3dd85d9284a9a728cec061ac8721cd27acb3aac24131a14d5f80027845d"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/proposal-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b6d58d1eacef65542e733556e3d52ac8fe88d5e68c70a31b76c0bb1f697feb22"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/reader-experience-loop-audit.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b55ebb08c4eb652b7a94b90f97f78477469041867dff38ebf73694fb6994552d"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/rhetorical-situation-analysis.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4f8b9e6c5e7831528af1be91d0f9b72fda0e0d5a9511c711bac8f8f5bfc313e1"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/sensitive-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c9053cd62e55104f43b495208ce2197cdab5331f34a76faecdb37e100da9cc09"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/service-offer-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "580439ad74617b59900adf2420ca9e88b5c00dd8b92b15cd23d96af14cf7b4d5"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/stakeholder-readout.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aeaf5d5a242a67de6083f47255af51857d5d6e756a3bd6871b20f79be6e20393"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/story-pitch.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0ab0a089c25749dc43dcaf89249c49207628cae53cb2fedaf1a1368e2ec5bdcc"
+    },
+    {
+      "path": "library/source-procedures/local/communication-story-crafter/templates/template-index.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "199e46c63d801f521545bd05dbae0059878c43958b41b7d215abf6225ccc3fa5"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/CONTRIBUTING.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "913397f00c9eced904e2be0e97132ebf62da2ccfa1163d6a257de2334fe8973b"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/LICENSE.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "3f541cca573141b026941b72a89c89ba79eef2dc489f78bbb785567be792a355"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/NOTICE.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "6d52984bf7874ff195679a38b05d0e4dba4b62395e9239271bce7bc89f0c916c"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/SKILL.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "030c63e9cacab34278a3a1b83ec317949f68a3bd1a239dab91be725ba49b5b4a"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/agents/openai.yaml",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "c7396b2c0207d4931f8b86e4b3f3076dad86643a5bb3473674967f00c4e759ad"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/assets/natural-writing.png",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "aa94d212783f13d4b9cdc56b9a5f7ac6223ae865236cf28ac32fe5bc209cf4e6"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/references/editing-patterns.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "368af0b033e2be28203dddafffc38a4cc59ef46defad200c01394610ff66e946"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/references/sources.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "1a302812e3cec2fcac6f26a619fc40f00f7e0075e3cdb661a23dcb5c69b1e8c7"
+    },
+    {
+      "path": "library/source-procedures/marketplace/natural-writing/natural-writing/references/technical-writing.md",
+      "category": "retained-upstream-CC-BY-4.0",
+      "license": "CC-BY-4.0",
+      "sha256": "66e0cda190469543f7b71502ea5b49c95707a7f421fd5c4069c19d4a417aaae4"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "c01501bb2c7c663ad6a00e54a7178598d1d7c62c28b6303592f9168e9bff8d6c"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/THIRD_PARTY_NOTICES.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "5cf98cd8491b169d84b9d4153f26a0a851892e13416eb03f7bdd18e89bf125ba"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/output-styles/plain-english.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "56a4d4b22a7ba3ee3cef18ccd75d31599cfdcf8c313137be53b1bd599d314685"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/plain-english/REFERENCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "1655ac36249cbe59725dde00f957e7ea8aed30cbf65c4fae4d8e185112d1d671"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/plain-english/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "878ddc54a3b05c60b1175bcb74e71abb407e241ade700e53aa1a584cfd5b9049"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/plain-english/agents/openai.yaml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "f8d3dbbed95bf6fad64a8dc318e79800ab25937e30b4988bdacd6dc9fa1ee664"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/simple-english/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "481d2f01e70fd3ba18d403d429e7f209eb2ae735ed5403fcd9fb00f1fedce321"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/simple-english/agents/openai.yaml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "5694f51cba9a61769908f842c752ccc6b3560f8f193ac1c2492d74ddf4ec336e"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/simple-english/references/checklist.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "c90c3834fa691da11e23f11ccb922ad09ddb18fbea04004ad047b5070c0ae846"
+    },
+    {
+      "path": "library/source-procedures/marketplace/plain-english/simple-english/references/use-cases.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "a875819fe39687282b893d92d9d5f91c89685a01e21ffed0579d8873d4de6a68"
+    },
+    {
+      "path": "library/source-procedures/provider-methods.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "03ae78b32bea61ffb712d9c3695e3f085a678c956fcd104cb534c7c642a472bc"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "9851c8d136262f1ae5f13af5eef23345105c0861b57c695091bf05fc2b0f0a29"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d87bce004bd6a358c549b9e22f738b589edd7ef2eea09f86fcaf29b91a1aef1f"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fc51933de11b94cb08538ee8b9fefa33cc20b1d676c6eb455da0d248c9f46a8e"
+    },
+    {
+      "path": "references/professional-agents/editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "23973d81a56b9ed9fa7d47f66946d02456b0c9f4305405187a619386c1702fef"
+    },
+    {
+      "path": "references/professional-agents/professional-writer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "528b174de8ba6ea9b6f2b628325f9af20696c2c904f3fe2394249356abeedab4"
+    },
+    {
+      "path": "skills/communication-crafter/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4475366392bc008a6c998422406ff571a2835eff18475781d4afaf7facc70dde"
+    },
+    {
+      "path": "skills/communication-crafter/references/audience-and-story.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "03b0db9a134da12a55215b26819388f8770a89a4f35b540a992a0aa0dda5d658"
+    },
+    {
+      "path": "skills/communication-crafter/references/buyer-facing-messages.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a973f5582cd165c8361a67690c419205fd9dde3469fbe81dec79ddf0bf4dd872"
+    },
+    {
+      "path": "skills/communication-crafter/references/claim-warrant-and-reader-agency.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cd5e5413f6c70d801ae252a2dbbc75ce8de1082264b3307a747b841639a8376c"
+    },
+    {
+      "path": "skills/communication-crafter/references/claim-warrant-method.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b0de4868ab462ba0108e74ab54839a0b43af13a31af098e02d87af044a6cf7d9"
+    },
+    {
+      "path": "skills/communication-crafter/references/email-creation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "12178831ba50f9de23703ca7c18c7e17849e4f5f53c84df6bb38056d5053b5d4"
+    },
+    {
+      "path": "skills/communication-crafter/references/ethical-communication.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "368cab87af0f5f81b0bcbfded1be50d56f161358a23c0406088d376ffd82ba30"
+    },
+    {
+      "path": "skills/communication-crafter/references/evidence-based-follow-up.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5fadb7cad510e9cee46ced14a3cb0b6b115eb355d644e4c89a3501723b808f83"
+    },
+    {
+      "path": "skills/communication-crafter/references/format-and-voice.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cfaad241b32acbc4ef8f78ecb839b3330930d1bf03eb842496e1306dd37c062b"
+    },
+    {
+      "path": "skills/communication-crafter/references/practice-and-reader-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b89c2d2563b49772692d9ed4928de6f0a84006fb652c163e0b7de0a1633a494b"
+    },
+    {
+      "path": "skills/communication-crafter/references/reader-agency-and-neutrality.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "62ae8ad5bbb948299252c40756837a0a474766211acad7c8cc47e8fa20ce4a9d"
+    },
+    {
+      "path": "skills/communication-crafter/references/spoken-and-care-messages.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7c3704db62b43753d522272a2aea32e009025222c981595195a9e0e8a267acfd"
+    },
+    {
+      "path": "skills/communication-crafter/templates/client-message.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6267d4ba65e8f0df303f0e531cf51aacd94d3476f383db6ad9d4f94362de6d49"
+    },
+    {
+      "path": "skills/communication-crafter/templates/practice-loop.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "200f83b70bc2077856e5544812dc17ccc681342c8b84249f01fdc7200bc9ffb3"
+    },
+    {
+      "path": "skills/communication-crafter/templates/reader-loop-audit.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ecb729b0b265f529c74b39c4b723d993f9e4521017cc791a1c8958fff2fbf6b6"
+    },
+    {
+      "path": "skills/communication-crafter/templates/service-offer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a084ed3484c286434cdf2dc106d421d9d5cbfcf5274a6c60e1ec4566c7249ef8"
+    },
+    {
+      "path": "skills/google-comment-responder/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f4a73c8f3da9cda5536fbeb656089bb30286736d34a5cde2588efd829077a934"
+    },
+    {
+      "path": "skills/google-comment-responder/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "10cdf2cb8757c7b410cec27f670c23d57d219639fe0296036e8af00bc325c612"
+    },
+    {
+      "path": "skills/google-comment-responder/references/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fe3497c7d897833ce77f94e0bd0ccdf0bf1cec673c1c73557e6889119a5854d3"
+    },
+    {
+      "path": "skills/grant-process-crafter/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "56d54407874b3c161d7a6d040f13547ce40748453764af7bd8ccbb77bc862b89"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/agent.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "384620626596a16d909cde55d194bf4b56c1d0568d2e82fd3425428f71046ae9"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/agents.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9a6e17ea00184c1b8ed168c57ba15faed86f0af3ad42d8495267fe5e75d68936"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/budget-narrative-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0dc45c225bb2229b903735213324f9eb9a1b45f76268bcbd23065b03dba88cbb"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/eligibility-fit-gatekeeper.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cbcb0d6f30ff768c8eb6b845873950d048ae0aaac71a6e258f09d3403e579b83"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/evidence-integrity-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e2c72eed8ac0f0f64b442cd97653b48844e2f587fb2c2e7e0403d49f734e2915"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/grant-strategist.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cc28b65b52a29e134b9f24628b1a23df1c7131d7a3648dc42acdd184183f30b1"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/nofo-compliance-analyst.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0093896d1c9909ca9118f84d5756b5fca98fd608551e14a4727da6b828d0d7f6"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "c5d08fcbcb45c1734d610889488b783f7eb20a57cfa77849747c242f071f6360"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/opportunity-scout.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e4145e70cc1aa5575e904b143c4eae7de95e1c906ed5d55e5a59148cb70948cc"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/post-award-planner.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "498fb5daffbe00a65fbf6018c2a97c83901f0f6f4b41fcae9d690b8a2785941b"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/project-design-coach.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "be430fb539cf3c7bc140030852eaffbed1e4941aad1f05dfdaeb9cfe31919706"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/proposal-section-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "45c16ad559dbff375fd3c19bffe45d46383d732630dc98fc124de8a833355eb6"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/reviewer-simulator.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0b0d0d16858233e1783636284d95a757e5dda2cebedbd6c4d5eb0f273509c64d"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/submission-readiness-coordinator.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b7deef5796fcab310666d3ba05c47cadabb4f0de47b60a4a5974fc92321be643"
+    },
+    {
+      "path": "skills/grant-process-crafter/agents/team-collaboration-facilitator.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fd98ee8105c763506714d32d4fb0da21828a54a9104aafb93aa6773393bf0e15"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/ai-mcp-grant-safety.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e521a599ef7869dcbf28a2b52b7a6da4b1518ed22f1bcef7db3cee6be8c3736b"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/budget-narrative-and-finance-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1b0579a525320033bff4d117c3f2e4ba30c348ea160665e83b35bcfd7568fb87"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/file-o-fun-grant-activities.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "12b5b4110753d1fad4d3992ba2fa87f2d0c4f091ff17f3e6d4419ed83dd29a3b"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/grant-lifecycle-workflow.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d80f7a7df71507ae9331790f6c262758e57b0618e80d7b9ae27978f22d848c06"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/large-team-grant-facilitation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "92e99e17af3df61c99c0a3b037511a0ab17c7b1b6ba84b05c46f713408415b66"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/migration-originals/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0f6a4e4dcc49ebfd836c774e523459faddeedf867f81c6beb366bd79714688f5"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/nofo-compliance-and-timelines.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "98db313bc789974b87e344b2d17bb226905da5b3abfaca111c85f3c540030f36"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/opportunity-fit-and-go-no-go.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d860dee7b90fe428c966b70d1316a27e53fe6d3beeb3a977b2d126155966ada8"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/post-award-and-resubmission.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7cf53d20328bc140e688d2c0b0d258463b2a17f9e0d8c97320e1fe883e85526f"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/project-design-and-evaluation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a70491036994b4e63dc8bd8850c62406ac214acaa4ee3fbc4b8b3e7cfe78fe61"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/proposal-writing-and-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "62da725efd2191fe0a2d9a803e89fa527c99e23fa9d23dc16473be907a342d43"
+    },
+    {
+      "path": "skills/grant-process-crafter/references/source-anchors.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "418ed5d3c15d4cb304b1cb24345096ab99547ec6446dd68051933ca77dd1f652"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/funder-fit-scorecard.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "db440926922f5840a62e100ebdbdf980818bce4547c5679aeb269e8a9235e1fd"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/go-no-go-memo.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d619cb97a1ca322177ba8149598465ef1d880d985e551afee9126e0e947f2e8f"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/large-team-integration-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "968ddd1b806853d1cf71bae739571ad86a09186b863bee31b77fa5a09a60c45c"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/nofo-compliance-matrix.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "05ad5b1ebe32ff67bad5b91dc4aa50fd3191248a17dec09c7c3800fbe5b26159"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/opportunity-intake.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c7776f798a24a26453cc1d180e28242e6efd14d9cb5a721c6180f5ac8d6ad4c2"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/post-award-plan.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "98d5560685451a044c868978fcaa9f78c96e955e3a0186100cd67ea5b2661d08"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/project-design-canvas.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f79b4a7a7c79ab3cd50de1bcaa92ba661e8036818af342b2d0ef032c45c2603e"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/proposal-section-plan.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8aa6bd6468276212f891d0c16446c3b0b66968cd79459e8f2cf014e00306551a"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/review-simulator-rubric.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4f16476654fbfbfe3d8bfdc6224e529b8a8817c54f4cb1796a95d28909d824d4"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/submission-readiness-checklist.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8ba7be6a8ac8173abbe6ef01186722e6ddce093576d4180b5631719aa7e27f88"
+    },
+    {
+      "path": "skills/grant-process-crafter/templates/template-index.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8a5a031266fdd9a02ef952895889e28644212555c34984b57a18ac5e217316d8"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "537fd9e7bd1a4ff8956a935e3c9493f393618c66ef8ecf698bbd96c3ac35d11e"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/citation-verifier.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1143ac584da51a776ccd39853dad4b21233238bdc51e5cecfd8977a1f5b94fba"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/evidence-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1ebcbd2fc4fc8b9522fa0555ab279cc5cc798a5c8bd40846c6ebd8292d64191f"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/format-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c754b74f3fdc3ea1112afe55db66450982f0de1dfd379f2ab5ccba5958864107"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/genre-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a3e54a7aa99fe22d55452962aa35debe8b26689c980ca07f1b2499e7e4ea8f64"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/line-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1a45d436f3d4d2cbcef320ef1074381ee273afa7c7744c263c18a2efdf8ea91e"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "758a157852cc89e9eea958d234653b1939efbd37a150b2dd8a86b47fed733071"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/scene-and-dialogue-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "16b7f6d5f34ab06e522a59fffd0e9caf9841495368f6d569cf6fcda02e873db2"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/structure-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "40d193c34315f980a6ac866756752a33c9e4f97fb03527913198569fad8e2863"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/agents/voice-editor.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a52b6ededa0093f3c395be4aea04ba8bbf524551b6116159e86ae657da547cf6"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/academic-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2cd5836da57f08fd69ed8aad6956e0f53fb4a20e25c647bd1fd904a81d9ae784"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/citation-integrity.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4651000f000903d2118cf4dce463bcae69b53bfc08e5be62dd0cb2821da8a866"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/communication-and-markup-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fa8edc120da2699249a1f15eefdb53ec7bdf9fe57b333d3a581f9b1bff32ffea"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/content-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9b301387c20bb7ce47980e754667634ad17d82c59f7c31aebf674bcbf002b15a"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/detector-dispute.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "43cf82947307e6553bac2759cd43e8bd0f6e4c78f8933c9c5787c241adc2a6b4"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/human-signals-and-false-positives.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fc7f3a0a2502d909d4aaaf149fe7c22ca3e1e69655ca2fb90dc802f27f1b31fe"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/language-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "64a25e452507f6b710014e31516c06e273b916c0696357ff55182cecf981b50d"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/migration-originals/SKILL.original.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3ec9dc4b05a0ef3110ff64767cba5af53e62a6e6fedbe5cb14835fca9dbc63be"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/migration-originals/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "20a591c9d98fa7f986edba4b610cac4b7f11a9ab5dc7874cc4c121e514e6e61e"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/quality-scope-and-ethics.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7820140ed295099df53722d510ec7eb38843d227d562ccf03e8066705baa3ec5"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/research-evidence.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "991a20ff6db0aa7f2c07a3052391f24d9573a818eadcda26bdcb3358f396c859"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/revision-example-bank.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7e8c3aafd85c5680fe324093b967e5eb16d64aa87b4256aea7412e7fed4d1660"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/revisions-by-genre.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "511e1649a33b762b465cd53518588604d036b3816fe27a8eda77c6ac749fdb27"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/signals-and-revision.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fe9c95fcde7a869d458d0bb03cd894f75bd701f0bbd4b908edc25705e0e691de"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/INDEX.md",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "55fb7f795b9d107d70ffe7b4c2e4862506065273563e3cc6006fc9abd83a8222"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/INDEX.md",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1cf544e8098878eab36306752a8330e7951eeb5f9630c66c04b37ae341be232f"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/accessibility.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f785b8b4ba65e7dfe18910c97b8f9f5912bd53c219edf6d6bdc08b05dc2dfa24"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/ai-cleanup-guide.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f75215ff9b540c80f0508a9346eacc36e2b0346a056717e8fc9a47ec9bc25625"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/artificial-intelligence-resources.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8903a94ece8f01b08f2662dd7cbd59d9a11baaae56bcd87a0fadd5262225c5b6"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/capital-letters.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e2fb9a222dd151701ecd7cf826ade6ec5d466bbb16390183408d398a9d9b1729"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/edit-summary-legend.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "46b0589552922febdb672a8948f4d164f43b634832c28011b2d8bcd1170eddfe"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/elegant-variation.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "498045c7547b56ef8c1245282ac11e67b486912ab20519ea9b642f155ea7eda5"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/fictitious-references.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a2a8889004860ff6fce193e235306b05f18148c641d04473c6e89c8ca3fb3a8e"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/identifying-llm-unblock-requests.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1816513db44b3fc02283bd1a65d674afef65c7658a560a001eabb355a6841414"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/lead-section.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fb3c61d473bacc103e3150aa5ce9bb7623a4b7081743a0149840e50730f3d943"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/lists.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9fa084d793655e90b57dba2e399d6334d3dfd8b9ab22d1d5ab50493a17fbff8f"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/llm-written-ani-report.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c7f99373f102a54cc59be7394f800ad39fa7fa9dd92332f4d0c36a995fb41fed"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/manual-of-style.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e2d0541fe7b8dbc7e5991833c0e31bc9d1f81b52571ab1cea45b538e20739703"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/marketing-buzzspeak.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "40df3f86a6e24e8ac5d027aaeb7e92d747c094e759da4eec642665468b57df89"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/negative-parallelism.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e871ac09e2fad18286cacfc57dc275885fd3f5fe434024eb3fb9594235dfb4f9"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/revisions.json",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "04eab5086d3a7f66362d82bd25feb7a69640660fd993ac396337a01824c89354"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/signs-of-ai-generated-comments.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "da5eb14196011cb90feec4a387e180b34a14df3d4ef234cc290cd02de322afd2"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/text-formatting.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ee436c1d3ba29fbe01bf9a046a884a2ae018bcf29d0a3ebeb8c4111747cb28dc"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/words-to-watch.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2097b5b3eab0e30173353be476d90dcde7c83f1f1e2d0f87704d822024971c7b"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21-revision.json",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fb21d5f113648aad72ecb6fbac65ae5d54fddf7e4ecc6bd86a52ceb35ea5edac"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21.wikitext",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b8eec1d0316c4a88873749c89e5d88c2f42bb04ea20913993c941a40aa0ad788"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-supplied-2026-07-21.txt",
+      "category": "retained-upstream-Wikipedia",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "467d51d41499d04fff333876c7bbc920c3d0c904c32370770aa0daeddb8c5e32"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-bibliography.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5851a29cfac97f559832311f08230e52ae179d6cd65e7d8739bb84d78a47b2a5"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-coverage-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bd7047814d665f698d57685cf4de01e7ed3ea7f66203776e7371b4b53757ffa3"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-library/INDEX.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4d012d92befc11826a5fe0664b4b57aa66411f733f1bf5f09bbb4027273d4290"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/source-notes.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0823a31087e64815ba98513c7b3b961b1a037c986497dc9177c243eff1493251"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/structure-and-formatting-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a14c436307378ce54f41215e13b15297862b7dfb54d1bd7abfa73ac0f464bbef"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/references/voice-preservation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "676411f4ebf45da5672032971abbece21609c109c4e639ef007db95d40b221a8"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/scripts/citation_audit.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "51dbeda2ce1d1c1977aee4fd0866f7930dac2b24ac046928802cc1b90a93a2a0"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/scripts/humanizer_lint.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "ca596ea434600fb285a5fbaec9366970a6452333ca01bda798ee397b1edf4754"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/scripts/run_smoke_tests.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4830f4eedcaef6a3af45ca4ac8dfb2f690deda35cd995f7cec35c5a4a21fabfe"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/scripts/style_baseline.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "33820f9b218c8d92635479a117e7e8ad3296b8cee82f0f2d1a59e819c6a34ac5"
+    },
+    {
+      "path": "skills/humanizer-deep-audit/scripts/style_drift.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "036267d65aa821ea2f687d0e0152ad16a729562ad9289c073b5cf56e81a5ecac"
+    },
+    {
+      "path": "skills/long-document-editing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "02d50575dbba2cb0312bf6965303ae6e287d86e88077c2004d89111a615ee4ac"
+    },
+    {
+      "path": "skills/natural-prose-editor/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "358e366c19deffa93513fdbc19d432e09886c37c598f1dbe0b49a6b17a712bb0"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/controlled-contrast-revision.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "83de23e00385383706a6a9d204387afabf531599fd8c549c262d078e07145cac"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/document-revision.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d4432677b9b74d882b9f34323b658a11ade2ac2522546b500f38dcd58a53a562"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/editorial-gate.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "88676253f5554667a04d3ffd02bec63ef3a9eeee7f1cccb4b5b422140c681b3f"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/language-and-learning.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cbcc2f9c12817a00e7f0fa08c9a419f5d91fb4c4ac132b0cf6657d42a7015e88"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/local-text-hygiene.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dc831e491ffa1051d99b58e9aab534b6061291ce35549a26b0a58741f127c578"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/research-pattern-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "645354df619e8c8db44d89841a4a7ff32729643884e0b5ffa0a55190518b0414"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/spoken-lesson-scripts.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "92f0a4f1abc6229d38bd52112fb4ff4f8510143c96f941164a410a2113eac0c6"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/survey-wording-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7a3e76e6d71acbb58719b9699a9bcb94bc902b1d09a7d667bd024fe28bfaf17d"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/technical-clarity.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2fd7c4eacdf4afe99fca0233881d9a643a6bbe96f6632d16d4f72a3b832bbde6"
+    },
+    {
+      "path": "skills/natural-prose-editor/references/writing-style.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "feb3fac4545401550aabba280b30a7843f1fdaf4e97bace320e741cb980c848d"
+    },
+    {
+      "path": "skills/natural-prose-editor/scripts/linkedin_text/detect.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "64929a551d0718107d785292571a0e1ed1cbd1956a9e78aa89cc3fc3872bb318"
+    },
+    {
+      "path": "skills/natural-prose-editor/scripts/linkedin_text/humanize.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "beb6906739ba8cbe490dfac6931ff5bf162a775e080f4f9d7a16dde89d00a427"
+    },
+    {
+      "path": "skills/natural-prose-editor/scripts/linkedin_text/stock_terms.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dbabe3fe6ca6bc26dbe38c10a3ddc7a0ba09b995d2075710a202fb44f15c6bdd"
+    },
+    {
+      "path": "skills/natural-prose-editor/scripts/linkedin_text/text_review.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4ac2986c2f50277077023132da4596960c478bee891c2fcbed70cc5b7ba630f8"
+    },
+    {
+      "path": "skills/plain-language-editing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c010b02ca7f43beaaf77fc32952c9ec4f7f40925fcb802b6340cb08477c99ecf"
+    },
+    {
+      "path": "skills/plain-language-editing/references/contextual-plain-language.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3fe59e3ac524abb1e83aac35fe0d23d097dfb44fd9fb84578c95da9d05723f8f"
+    },
+    {
+      "path": "skills/spoken-and-scripted-writing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0d79c28c954a180fc4a73bdb6e7ea3649d1f102cdb02125354e2ca17fbac1f2b"
+    },
+    {
+      "path": "skills/technical-instructions/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a74ec5b6400baf6bf3b8c26c26ca19d6723e6d2155a32612137d45c2b5adac39"
+    },
+    {
+      "path": "skills/voice-and-style/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "70b02700eec3911c65960ee9bcf162183da3c7bb4f762b46e9180d095e9e38c6"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/evaluation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "79e1812268141a67c3b5396c1bb9d2f0480115db84dc2d65e160e0ea08d05fc3"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/examples/argument-and-neutrality.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ae25fd40d102467f1d4db2d47f33b2e902e3d26250b50a1e1a6168f50f0b94d5"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/examples/same-fact-voices.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a77cfe141111a76984608d387c1735baddae7c238eb95ec141747ae21ce96bc8"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/examples/working-brief.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3412cdf0e8ad2c05aee506f6d038d5688291d6f73b7e25fdbbd8ae305cbaec91"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/sources.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "72ed8fe45e71bc2e76feb0ff2d4d02df494f3bde03b112a41dd930a8b4348175"
+    },
+    {
+      "path": "skills/voice-and-style/assets/voice-argument/unresolved.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ac2feef4b1706054e3eea53e3ded5ba97a6f4bc8c6e1ed558ca0d6ac4575baf5"
+    },
+    {
+      "path": "skills/voice-and-style/references/extractive-transcript-writing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1f4b9455544ed8fb9e9129d35fdb0a5c331dbb5b0f9dfb1493ab40bb144aeb9e"
+    },
+    {
+      "path": "skills/voice-and-style/references/professional-voice-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "daad6382421e9f20463108b5bf59e7a05750ffa136f3fb8ee3025ef55ed63d6f"
+    },
+    {
+      "path": "skills/voice-and-style/references/rhetorical-architecture.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5c095610e06866b8182c31099a6d9b5683f06dc20f90e41e7e23363937b4cc35"
+    },
+    {
+      "path": "skills/voice-and-style/references/same-fact-voice-selection.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a6ff3b295ec24e27251412d8720eed9d44b76c54eb8b5929cb3094c20e42c16a"
+    },
+    {
+      "path": "skills/voice-and-style/references/voice-continuity.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d7edd14a69cfd1ae0fc021d1bfc426547f520a75cffbfb06fa5e84850d83f36e"
+    },
+    {
+      "path": "skills/voice-and-style/references/writing-research.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b36e0e63d3f4ec212fc1eb30bbf3ea15badc7d4fced6ddc0ac8ca1c44dec50f1"
+    },
+    {
+      "path": "skills/voice-and-style/references/writing-templates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9bff792d49792e30d3a70aae027430810e0de5fdcf1be841f9396d68ac4e4144"
+    },
+    {
+      "path": "skills/writing-voice-library/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6f8729c9a869b354e32618226c01f5dd85acf5f116e5f02455c5766712222e7c"
+    },
+    {
+      "path": "skills/writing-voice-library/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "ef40e5258de372d4357a56ffdca64efb4fc5f58181a4446d8554450a3fd524b6"
+    },
+    {
+      "path": "tests/test_humanizer_lint.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "701fc4435d6cdeb6c6c73c0f35da908a2851c1e3f422c6aeae5b2c841ee7db8a"
+    },
+    {
+      "path": "tests/test_linkedin_text.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "16fed34cec48f4070211d1d27c595dc9001b42659b5024469220b12d0b1438a1"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+---
+name: humanizer
+description: Diagnose and revise prose that feels generic, inflated, formulaic, over-smoothed, promotional, mechanically structured, or insufficiently owned by its author. Use whenever text must be humanized, made more natural, refined, edited, polished, tightened, de-genericized, voice-matched, checked for common AI-writing habits, or passed through a final writing-quality gate. Apply to public copy, UX writing, marketing, teaching, documentation, proposals, fiction, dialogue, comments, citations, and creative work. Preserve facts and voice; do not promise detector evasion or infer authorship from style.
+---
+
+# Humanizer
+
+Make the text say something particular, in a voice appropriate to its author and reader. Remove generic performance of importance, expertise, warmth, or completeness. Preserve verified facts, useful structure, and intentional style.
+
+## Editing sequence
+
+1. Establish the reader, genre, purpose, voice, and evidence boundary.
+2. Mark the strongest specific claim, detail, phrase, or rhythm to preserve.
+3. Diagnose the draft using the reference routes below. Inspect clusters of patterns; never treat one word or punctuation mark as a verdict.
+4. Revise in this order:
+   - unsupported or misattributed claims;
+   - generic purpose, significance, or audience assumptions;
+   - structure and paragraph logic;
+   - sentence construction and vocabulary;
+   - formatting, markup, and punctuation.
+5. Replace abstractions with supplied facts, not invented color. If the missing detail is not available, flag it.
+6. Re-read beside the source. Confirm that the revision still sounds like the same author at their best.
+
+## Load the right field guide
+
+Read the relevant reference before editing. For a full release gate, read every reference in this table.
+
+| Draft problem | Required reference |
+| --- | --- |
+| Inflated significance, publicity language, vague authorities, shallow interpretation, canned future sections | [references/content-patterns.md](references/content-patterns.md) |
+| Stock vocabulary, evasive sentence construction, contrast templates, tricolons, synonym cycling | [references/language-patterns.md](references/language-patterns.md) |
+| Headings, bold, list templates, em dashes, emoji, tables, quotes, section hierarchy | [references/structure-and-formatting-patterns.md](references/structure-and-formatting-patterns.md) |
+| Chatbot-facing preambles, cutoff disclaimers, placeholders, Markdown leakage, internal citation artifacts | [references/communication-and-markup-patterns.md](references/communication-and-markup-patterns.md) |
+| Links, DOI/ISBN checks, citation support, page numbers, tracking parameters, unused references | [references/citation-integrity.md](references/citation-integrity.md) |
+| Before/after revisions across informational, marketing, UX, teaching, professional, and creative prose | [references/revision-example-bank.md](references/revision-example-bank.md) and [references/revisions-by-genre.md](references/revisions-by-genre.md) |
+| Voice matching, dialect, intentional repetition, cadence, or possible style drift | [references/voice-preservation.md](references/voice-preservation.md) |
+| False positives, positive evidence of human ownership, detector limitations, historical patterns | [references/human-signals-and-false-positives.md](references/human-signals-and-false-positives.md) |
+| Verify that a source section was not omitted | [references/source-coverage-map.md](references/source-coverage-map.md) |
+| Read the complete supplied source or exact live-page snapshot | [references/source-archive/INDEX.md](references/source-archive/INDEX.md) |
+| Inspect the complete connected Wikipedia guidance corpus | [references/source-archive/connected-wikipedia/INDEX.md](references/source-archive/connected-wikipedia/INDEX.md) |
+| Trace claims to Wikipedia's cited papers and related research | [references/research-evidence.md](references/research-evidence.md) and [references/source-bibliography.md](references/source-bibliography.md) |
+
+Use [references/signals-and-revision.md](references/signals-and-revision.md) only as the fast index. It is not the complete guide.
+
+## High-value questions
+
+Ask these while editing:
+
+- What concrete fact earns this claim of importance?
+- Does the cited source actually make this inference, or did the draft add it?
+- Would this sentence fit hundreds of unrelated subjects after changing one noun?
+- Is a list, heading, contrast, or three-part sequence clarifying the material, or merely displaying organization?
+- Is the prose addressing the real reader, or still talking to the person who prompted a chatbot?
+- Did the revision introduce experience, evidence, consensus, causation, or emotion that the author never supplied?
+- Which unusual detail, sharp preference, sentence rhythm, or honest limit makes this writer recognizable?
+
+## Focused editor lenses
+
+Use one or combine several:
+
+- [agents/evidence-editor.md](agents/evidence-editor.md): claims, attribution, source support, uncertainty
+- [agents/structure-editor.md](agents/structure-editor.md): sequence, paragraph jobs, openings, endings
+- [agents/line-editor.md](agents/line-editor.md): syntax, vocabulary, concision, punctuation
+- [agents/voice-editor.md](agents/voice-editor.md): cadence, register, dialect, authorial signature
+- [agents/format-editor.md](agents/format-editor.md): headings, lists, bold, tables, destination syntax
+- [agents/citation-verifier.md](agents/citation-verifier.md): identifiers, links, page support, reference placement
+- [agents/genre-editor.md](agents/genre-editor.md): genre conventions and reader expectations
+- [agents/scene-and-dialogue-editor.md](agents/scene-and-dialogue-editor.md): fiction, scene specificity, character voice
+
+## Deterministic checks
+
+Run mechanical checks before a release gate:
+
+```bash
+python3 scripts/humanizer_lint.py draft.md --format markdown
+python3 scripts/style_baseline.py draft.md --top 12
+python3 scripts/citation_audit.py draft.md --format markdown
+```
+
+Compare a new draft with authentic writing from the same author when a baseline exists:
+
+```bash
+python3 scripts/style_drift.py authentic-sample.txt draft.md --format markdown
+```
+
+List lint categories or limit a scan:
+
+```bash
+python3 scripts/humanizer_lint.py --list-rules
+python3 scripts/humanizer_lint.py draft.md --only em_dash,negative_parallelism,ai_markup
+```
+
+The tools flag review cues. They do not determine authorship and should not silently rewrite claims.
+
+## Revision output
+
+When the user asks for a diagnosis, give locations, the pattern, the reader cost, and a concrete revision. When the user asks for a rewrite only, return the rewrite without a lecture.
+
+For a full gate, report:
+
+```markdown
+Keep:
+- [specific strength]
+
+Change:
+- [location]: [reader-facing problem] -> [revision or exact action]
+
+Verify:
+- [claim, source, or voice choice that requires author input]
+
+Status: Ready / Ready after listed changes / Needs source or author input
+```
+
+## Boundary
+
+Do not claim that style proves AI or human authorship. Do not optimize for detector evasion. Do not invent facts, citations, quotations, lived experience, or deliberate mistakes. Preserve intentional dialect, formality, fragments, repetition, and punctuation unless they harm the stated goal.

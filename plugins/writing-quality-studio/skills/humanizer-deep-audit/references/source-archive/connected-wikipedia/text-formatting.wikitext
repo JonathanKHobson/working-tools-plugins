@@ -1,0 +1,347 @@
+{{short description|Wikipedia guideline}}
+{{redirect-multi|2|WP:FORMAT|WP:FORMATTING|further help about how to use formatting on pages|Help:Wiki markup}}
+<noinclude>{{pp-vandalism|small=yes}}</noinclude>
+{{MoS guideline|MOS:TEXT|sortkey=Text Formatting}}
+{{nutshell|This page provides guidance on {{strong|when}} to format text in articles. For instructions on {{strong|how}} to do that, see {{section link|Help:Wiki markup|Format}}.}}
+
+{{style}}
+
+This is the part of Wikipedia's [[Wikipedia:Manual of Style|Manual of Style]] which covers when to format text in articles, such as which text should use '''boldface''' or ''italic'' type.
+
+{{TOC limit|3}}
+
+== Boldface ==
+{{shortcut|MOS:B|MOS:BOLD}}
+
+[[Boldface]] ('''text like this''') is common in articles, but is considered appropriate only for certain usages. To create it, surround the text to be boldfaced with triple apostrophes (<syntaxhighlight lang="wikitext" inline="">'''Lorem ipsum'''</syntaxhighlight>).{{efn|name=HTML b and i|1=Technically, it is also possible to use the {{tag|b}} HTML element for boldface and the {{tag|i}} element for italics, but that is not recommended style on Wikipedia, except in cases (mostly in template code) where it is technically necessary.}}
+
+=== <span class="anchor" id="TITLE"></span>Article title terms ===
+<!-- The above Template:Anchor tag serves to provide a permanent target for incoming section links. Please do not move it out of the section heading. Please do not modify it, even if you modify the section title. -->
+{{Main article|Wikipedia:Manual of Style/Lead section#Format of the first sentence}}
+
+Boldface is often applied to the first occurrence of the article's title word or phrase in the [[Wikipedia:Lead|lead]]. This is also done at the first occurrence of a term (commonly a synonym in the lead) that [[WP:Redirect|redirects]] to the article or one of its subsections, whether the term appears in the lead or not {{see below|{{section link||Other uses}} below}}. 
+
+This is not a requirement: for instance, it will not be desirable in a case where a large number of terms redirect to a single article, e.g. a plant species with dozens of vernacular names.
+
+=== <span class="anchor" id="BOLDBOLD"></span>Automatically applied boldface ===
+{{shortcut|MOS:BOLDBOLD|MOS:DOUBLEBOLD}}
+In the following cases, boldface is applied ''automatically'', either by MediaWiki software or by the browser:
+
+* [[MOS:HEADINGS|Subsection headings]] of level 3 and below (<syntaxhighlight lang="wikitext" inline>===Subheading===</syntaxhighlight>, <syntaxhighlight lang="wikitext" inline>====Sub-subheading====</syntaxhighlight>, etc., markup). There are five heading levels used in writing articles (the top-level one being reserved for the auto-displayed page name).{{efn| name=headings|1=<!--Do we really need to cover all of this as THIS guideline?-->Pages on the [[World Wide Web]] are written in HyperText Markup Language ([[HTML]]); web browsers render HTML as formatted text. The [[MediaWiki]] software that Wikipedia uses converts [[Wikipedia:Wiki markup|wiki markup]] to HTML. HTML has six heading levels, specified in HTML as {{tag|h1}} through {{tag|h6}}. A Wikipedia article or page title is an HTML level-1 heading (and this is not otherwise used on Wikipedia in articles nor, with rare exceptions, in other namespaces). Headings within an article or page use HTML level-2 through -6 headings. At the beginning of a line (only), MediaWiki wiki markup uses the same number of equal signs (<syntaxhighlight lang="wikitext" inline>=</syntaxhighlight>) before and after a heading to determine the heading level. The number of equal signs on either side of a heading corresponds to the HTML heading level: <syntaxhighlight lang="wikitext" inline>==Foo==</syntaxhighlight> is equivalent to <syntaxhighlight lang="wikitext" inline><h2>Foo</h2></syntaxhighlight>. Following best-practices recommendations of [[W3C]] and [[WHATWG]], and the logic of document structuring, Wikipedia does not use a level-3 heading except under a level-2 heading, a level-4 heading except under a level-3 heading, etc.  For practical purposes, it is rare for articles to go below level-4 headings; a perceived need to do so is often an indication that an article is [[Wikipedia:Article size|too long]] and needs to be [[Wikipedia:Split|split]].}}
+* Terms in [[MOS:DLIST|description lists]] (example: [[Glossary of the American trucking industry]])
+* [[MOS:TABLE|Table headers]] and captions
+* A link to the page on which that link appears, called a [[Help:Self link|self link]]
+
+Manually added boldface markup in such cases will end up making excessive double-bold (900 weight) fonts and should be avoided.
+
+=== <span class="anchor" id="OTHER"></span> Other uses ===
+<!-- The above Template:Anchor tag serves to provide a permanent target for incoming section links. Please do not move it out of the section heading. Please do not modify it, even if you modify the section title. -->
+{{shortcut|MOS:BOLDREDIRECT}}
+Use boldface in the remainder of the article only in the following special cases:
+
+* [[Wikipedia:Redirect#What needs to be done on pages that are targets of redirects?|After following a redirect]]: Terms that redirect to an article or section are commonly bolded when they appear in the first couple of paragraphs of the lead section, or at the beginning of another section; for example, subtopics treated in their own sections or alternative names for the main topic. {{crossref|See {{section link||Article title terms}} above.}}
+* Mathematical objects that are sometimes written in boldface, such as [[Vector (mathematics and physics)|vectors]] and certain special sets, such as the [[rational number]] symbol '''Q''' {{crossref|(see {{section link|Wikipedia:Manual of Style/Mathematics|Blackboard bold}} for further details)}}
+* In some citation formats, for the volume number of a journal or other multi-volume works.
+
+[[WP:Citation template|Citation templates]], such as [[Template:Citation]], automatically supply all formatting (such as italic, boldface, and quotation marks).
+
+{{anchor|strong|Strong|STRONG}}HTML's {{tag|strong|o|link=yes}} emphasis, which usually renders as boldface, can be used in quotations to represent material boldfaced in the original material. The {{tlx|strong|{{var|...}}}} template can be used to easily wrap text in {{tag|strong}} tags.
+
+=== When not to use boldface ===
+{{shortcut|MOS:NOBOLD}}
+{{Redirect|MOS:NOBOLD|guidelines on when not to bold an article title in the lead|Wikipedia:Manual of Style/Lead section#Avoid boldface}}
+Avoid using boldface for emphasis in article text (see {{Section link||Emphasis}} for proper formatting). 
+Avoid using boldface for introducing new terms; instead, italics are preferred (see {{Section link||Words as words}}). 
+
+Avoid using boldface (or other font gimmicks) in the expansions of acronyms, as in {{!xt|'''U'''nited '''N'''ations}} {{crossref|(see {{section link|Wikipedia:Manual of Style/Abbreviations|Acronyms}} and {{section link|Wikipedia:Manual of Style/Abbreviations|Expanded forms}} for guidelines on acronym style)}}. The same applies to over-explaining [[portmanteau]] terms; avoid clauses like {{!xt|Texarkana is named for '''Tex'''as and '''Arkan'''s'''a'''s}}.
+
+Although it is possible to put non-[[Latin script|Latin]] alphabets such as [[Greek alphabet|Greek]] or [[Cyrillic script|Cyrillic]] in boldface, this should be avoided.
+
+The {{tag|strong|o}} ({{tlx|strong}}) markup is generally not appropriate in article text<!--Actually, under HTML5, <strong><dfn>...</dfn></strong> is really what we SHOULD be using to boldface the article title and any synonyms/redir-targets in the lead sentence, but we can sort that out later. The important part here is to discourage use of strong all over articles, which does happen.--> except in quoted material (see above), though it is common in project pages, template documentation, talk page discussions, and other non-article contexts.
+
+==<span id="Italic face" ></span>Italic type==
+<!-- The above span tag serves to provide a permanent target for incoming section links. Please do not move it out of the section heading, even though it disrupts edit summary generation (you can manually fix the edit summary before saving your changes). Please do not modify it, even if you modify the section title. It is always best to anchor an old section header that has been changed so that links to it won't be broken. -->
+{{shortcut|MOS:ITALICS}}
+{{further information|Wikipedia:Manual of Style/Titles|Wikipedia:Manual of Style#Italics}}
+[[Italic type]] (''text like this'') is produced with double apostrophes around the content to be italicized: <syntaxhighlight lang="wikitext" inline>''...''</syntaxhighlight>.{{efn|name=HTML b and i}} Italics, along with semantic emphasis (usually rendered as italics), are used for various specific purposes in Wikipedia, outlined below.
+
+=== Emphasis ===
+{{shortcut|MOS:EMPHASIS}}
+
+The use of italics for emphasis on Wikipedia should follow good English print style. The most [[Wikipedia:Manual of Style/Accessibility|accessible]] way to indicate emphasis is with the HTML {{tag|em|link=y}} element or by enclosing the emphasized text within an {{tlx|em|{{var|...}}}} template. Italics markup (<syntaxhighlight lang="wikitext" inline>''...''</syntaxhighlight>, or {{tag|i|link=y}}) is often used in practice for emphasis, but this use is not [[Semantic HTML|semantically]] correct markup, so emphasis markup is preferred. Italics markup is for non-emphasis purposes, such as for book titles and non-English language phrases, as detailed below.
+
+Emphasis may be used to draw attention to an important word or phrase within a sentence, when the point or thrust of the sentence may otherwise not be apparent to readers, or to stress a contrast:
+
+: {{xt|Gellner accepts that knowledge must be knowledge {{em|of}} something.}}
+
+It may be preferable to avoid the need for emphasis by rewriting a sentence more explicitly. Use of emphasis more than once in a sentence is rarely helpful to readers, unless the emphasized terms are being directly compared (more often a [[#Words as words|words-as-words]] case for regular italics).
+See also: {{slink||Quotations}}, below.
+
+Other non-emphasis uses of italics should use <syntaxhighlight lang="wikitext" inline>''...''</syntaxhighlight> markup, {{em|not}} {{tag|em|o}} or {{tnull|em}} markup.{{efn|name=i-not-em|1=In particular, [[words as words]], including introduced [[terms of art]], and non-English words and phrases, use normal typographic italics (<syntaxhighlight lang="wikitext" inline>''...''</syntaxhighlight> or <code><nowiki><i>...</i></nowiki></code> markup, when necessary). Do not use emphasis markup as an "escape" for italic markup. If you have a situation that would result in something like <syntaxhighlight lang="wikitext" inline>''War and Peace'''s plot</syntaxhighlight> (in which the <syntaxhighlight lang="wikitext" inline>''</syntaxhighlight> followed by a possessive apostrophe is apt to be parsed as turning on boldfacing instead of ending the italics), you can rewrite to avoid the possessive, or use a proper escape in various forms, including: <code><nowiki>''War and Peace''&lt;nowiki /&gt;'s plot</nowiki></code>, <code><nowiki><i>War and Peace</i>'s plot</nowiki></code>, or <code><nowiki>''War and Peace''</nowiki>{{tl|'}}<nowiki>s plot</nowiki></code>.}}
+
+Do not use boldfacing for emphasis, as covered in {{slink||When not to use boldface}} above.
+Do not use underlining, all caps, or small caps for emphasis, as covered in {{slink||How not to apply emphasis}} below.
+
+===Names and titles===
+{{shortcut|MOS:NAT|MOS:NAMESANDTITLES}}
+{{Wikipedia:Manual of Style/titles hatnote include|where=MOS:ITALICS#N&T}}
+
+Italics should be used for the following types of names and titles, or abbreviations thereof:
+
+* '''[[Wikipedia:Manual of Style/Titles#Major works|Major works]] of art and artifice,''' such as albums, books, video games, films, musicals, operas, symphonies, paintings, sculptures, newspapers, journals, magazines, epic poems, plays, theses, dissertations, television programs or series, radio shows, comics and comic strips. Medium of publication or presentation is not a factor; a video feature only released on video tape, disc or the Internet is considered a "film" for these purposes, and so on. {{crossref|(See {{section link|WP:Manual of Style/Titles|Italics}} for details.)}}{{pb}}<!--
+
+--> {{em|Minor works}} (and any specifically titled subdivisions of italicized major works) are given in double quotation marks, not italics, even when the title is not in English. {{crossref|selfref=no|(For details, see {{section link||When not to use italics}}.)}}{{pb}}<!--
+
+-->These cases are well-established conventions recognized in most style guides. Do not apply italics to other categories or instances because you feel they are creative or artful (e.g. game or sport moves, logical arguments, "artisanal" products, schools of practice or thought, etc.).
+* '''Court case names:''' {{xt|''FCC v. Pacifica''}}. ([[Case citation]] or [[law report]] information is presented in normal font.){{efn|Some legal articles on Wikipedia use [[Bluebook]] legal citation style, which specifies italics for case names in the body of an article (Rule 2.1(a)), and normal (Roman) type for the footnoted citation (Rule 2.2(a)(i)).}}
+* '''Legislation''' (acts and laws) in ''some'' countries (e.g. [[Citation of Canadian legislation#Titles|Canada]], [[Wikipedia:Manual of Style/Legal#In Australia|Australia]]): {{xt|''Constitution Act, 1982; Racial Discrimination Act 1975''}}
+* '''Certain [[scientific name]]s:'''
+** [[Gene]]s (but not [[protein]]s encoded by genes).
+** [[Genus|Genera]] (and abbreviation thereof) and all lower [[Rank (zoology)#All ranks|taxa]] (including [[species]] and [[subspecies]]), but not higher taxa (e.g. family, order, etc.). The entire scientific name should be italicized, except where an interpolation is included in or appended to the name. {{crossref|selfref=no|(For details, see {{section link||Scientific names}}.)}}
+* {{Anchor|Vessels|VESSELS|Vessel|VESSEL}}'''Named, specific vessels: [[proper names]]''' given to:
+** Ships, with [[ship prefixes]], [[Hull classification symbol|classification symbols]], [[pennant number]]s, and types in normal font: {{xt|USS ''Baltimore'' (CA-68)}}. Italicize ship names when they appear in the names of classes of ships ({{xt|the ''Baltimore''-class cruisers}}). {{crossref|(See [[Wikipedia:Naming conventions (ships)]] for more detail on ship and ship class titles.)}}
+** Aircraft: {{xt|the ''Spirit of St. Louis''}}
+** Spacecraft (including fictional): the {{xt|Space Shuttle ''Challenger''}}, {{xt|''Gaia'' space observatory}}, {{xt|USS ''Enterprise'' NCC-1701}}, {{xt|''Constitution''-class starships}}. Do not italicize a mission, series, or class except where it coincides with a craft's name: the {{xt|''Eagle''}} was the {{xt|Apollo 11 lunar lander}}; {{xt|''Voyager 2''}} was launched as part of the {{xt|Voyager program}}.
+** Trains and locomotives: {{xt|the ''City of New Orleans'' (train)}}
+: The vessels convention {{em|does not apply}} to smaller conveyances such as cars, trucks, and buses, or to mission names. Also, most real-world spacecraft and rockets at this time are not given proper names, thus {{!xt|''Apollo 11''}}, {{!xt|''Saturn V''}}, {{!xt|''Falcon 9''}}, etc. are not appropriate to apply to spacecraft.
+
+Use [[Wikipedia:Piped link|piped linking]] to properly italicize in wikilinks: "[[USS Baltimore (CA-68)|USS ''Baltimore'' (CA-68)]], the lead ship of the [[Baltimore-class cruiser|''Baltimore''-class cruisers]]", is produced by <syntaxhighlight lang="wikitext" inline>[[USS Baltimore (CA-68)|USS ''Baltimore'' (CA-68)]], the lead ship of the [[Baltimore-class cruiser|''Baltimore''-class cruisers]]</syntaxhighlight>
+
+=== Words as words ===
+{{redirect|MOS:WAW|the "writing about women" essay|WP:WAW}}
+{{shortcut|MOS:WAW|MOS:WORDSASWORDS}}
+Use italics when writing about words as words, or letters as letters (to indicate the [[use–mention distinction]]). Examples:
+
+* {{xt|The term ''panning'' is derived from ''panorama'', which was coined in 1787.}}
+* {{xt|''Deuce'' means 'two'.}} ([[Linguistic gloss|Linguistic glosses]] must be [[Wikipedia:Manual of Style#Single quotation marks|nested in single quotation marks]].)
+* {{xt|The most common letter in English is ''e''.}}
+
+When italics could cause confusion (such as when italics are already being heavily used in the page for some other purpose, e.g., many non-English words and phrases), double quotation marks may be used instead to distinguish words as words ({{xt|"Just Say No" was an advertising campaign}}). Quotation marks may also be used when a whole sentence is mentioned ({{xt|The preposition in ''She sat on the chair'' is ''on''}}; or {{xt|The preposition in "She sat on the chair" is "on"}}). For very small characters by themselves, code style is helpful: <code>.</code> (this is produced using {{tag|code}}).
+
+{{Anchor|Term|Terms|TERM|TERMS}}
+{{shortcut|MOS:TECHNICAL|MOS:TERM}}
+A [[Wikipedia:Manual of Style#Technical language|technical or other jargon]] term being introduced is often being mentioned as a word rather than (or in addition to) playing its normal grammatical role; if so, it should be italicized or quoted, usually the former. This first occurrence of the term [[Wikipedia:Manual of Style/Linking#Principles|should also usually be linked]] if it has its own article (or section, or [[Wikipedia:Manual of Style/Glossaries|glossary entry]]) corresponding to the exact meaning of the term as it is used in the article.
+
+Italics may also be used where {{tag|dfn|o}} tags or {{tlx|dfn}} templates mark a term's first use, definition, introduction, or distinguished meaning on the page. As {{tag|dfn|o}} tags and {{tlx|dfn}} templates do not apply text formatting, the italicization (or quoting) must be added if intended, or {{tlx|dfni}} can be used instead. For instance, in the [[Consciousness]] article:
+
+{{ubl|{{in5}}{{xt|''<dfn>Access consciousness</dfn>'' is the phenomenon whereby information in our minds is accessible for verbal report and reasoning.}}
+|{{in5}}{{code|''<dfn>Access consciousness</dfn>'' is ...|wikitext}}}}
+
+If, however, a term is an [[MOS:ALTNAME|alternative name]] for the subject of the article (often the target of a [[Wikipedia:Redirect|redirect]]), then [[boldface]] should be used in place of italics or quotation marks at such a first occurrence {{see above|{{slink||Article title terms}}, above}}:
+
+{{in5}}{{xt|The '''small forward''' ('''SF'''), also known as the '''three''', is one of the five positions in a regulation basketball game.}}
+
+{{Anchor|Two styles}}
+{{shortcut|MOS:TWOSTYLES}}
+Generally, use only one of these styles at a time (do not italicize and quote, or quote and boldface, or italicize and boldface) for words-as-words purposes. Exceptionally, two styles can be combined for distinct purposes such as in the [[MOS:BOLDLEAD|lead sentence bold usage]], e.g. a film title is italicized and it is also boldfaced, or a short work, like a television episode, which is in quotes and is also boldfaced {{crossref|(see [[WP:ITALICTITLE]] for additional requirements and guidance)}}:
+
+* {{xt|'''''Roundhay Garden Scene''''' is a short silent motion picture...}}
+* {{xt|"'''A Tale of Two Cities'''" is the third season premiere...}}
+
+Combined styles are also valid in articles about a term or when significant terms redirect to an article, as in:
+
+{{in5}}{{xt|The "'''New World'''" is a term which is applied to...}}
+
+Remain [[MOS:CONSISTENT|consistent]] with a single style in the same material (do not, for example, use italics for words as words in one paragraph, then quotes in another).
+
+=== Non–English language terms<span class="anchor" id="Foreign terms"></span><span class="anchor" id="Non-English terms"></span><span class="anchor" id="Non-English-language terms"></span> ===
+{{see also|Wikipedia:Manual of Style#Non-English terms|Wikipedia:Manual of Style/Accessibility#Other languages}}
+{{Shortcut|MOS:NONENGITALIC|MOS:FOREIGNITALIC|MOS:FORITA}}
+Wikipedia generally uses [[Italic type|italics]] for words and phrases from non-English languages if they are written using the [[Latin script]]. This does not apply to [[loanword]]s or phrases that see everyday use in non-specialized English, such as {{xt|qi}}, {{xt|Gestapo}}, {{xt|samurai}}, {{xt|esprit de corps}}, {{xt|e.g.}}, {{xt|i.e.}}, {{xt|etc.}}—as these have become English-language vocabulary. Use the native spellings of non-English language vocabulary using the Latin alphabet, with or without [[diacritic]]s—otherwise, you should [[Anglicisation (linguistics)|anglicize]] their spelling. For example:
+* {{xt|[[Gustav I of Sweden]] liked to breakfast on [[crispbread]] ({{lang|sv|knäckebröd}}) open sandwiches with toppings such as {{lang|sv|messmör}} (butter made from goat's milk), ham, and vegetables.}}
+* Code: <syntaxhighlight lang="wikitext" inline>[[Gustav I of Sweden]] liked to breakfast on [[crispbread]] ({{lang|sv|knäckebröd}}) open sandwiches with toppings such as {{lang|sv|messmör}} (butter made from goat's milk), ham, and vegetables.</syntaxhighlight>
+The {{tlx|lang}} template and its variants support all [[ISO 639]] language codes, correctly identifying the language and automatically italicizing for you. Please use these templates rather than manually italicizing non-English material. {{Crossref|(See {{section link|WP:Manual of Style/Accessibility#Other languages}} for more information.)}}
+
+Use non-English vocabulary sparingly; for more information, see [[Wikipedia:Writing better articles#Use other languages sparingly|Wikipedia:Writing better articles §&nbsp;Use other languages sparingly]].
+Certain specialist or non-English terms are not italicized, including musical terminology like {{xt|minuet}} and {{xt|adagio}}. As a rule of thumb, do not italicize words that appear in multiple major English dictionaries.
+
+{{Anchor|BADITALICS}}{{shortcut|MOS:BADITALICS}}
+If it is necessary to include terms written in a non-Latin script, they can be placed in parentheses. {{strong|Text in non-Latin scripts}} (such as [[Greek alphabet|Greek]], [[Cyrillic alphabet|Cyrillic]] or [[Wikipedia:Manual of Style/China-related articles#Characters|Chinese]]) {{strong|should neither be italicized as non-English nor bolded}}, even where this is technically feasible; the difference of script suffices to distinguish it on the page. However, [[Wikipedia:Manual of Style/Titles#Italics|titles of major works that should be italicized]] are italicized in scripts that support that feature (including Latin, Greek and Cyrillic); do not apply italic markup to scripts that do not (including Chinese, Japanese, and Korean).{{efn|name=CJK|1=For indicating titles of works, these three languages surround the title with different kinds of brackets; see {{slink|Chinese punctuation|Punctuation marks}} and {{slink|Japanese punctuation|Quotation marks}}. For emphasis, printed text in Chinese, Japanese, and Korean normally uses a special [[emphasis mark]] placed underneath each character (or Japanese kana or Korean hangul syllable block), but support for this in HTML is poor.}}
+
+Some [[Proper and common nouns|proper name]]s—including personal names, place names, and the names of organizations—are usually not italicized as non-English vocabulary.<ref>On style for organization names, see, for instance: [https://web.archive.org/web/20190608015458/https://www.chicagomanualofstyle.org/search.epl?q=foreign ''Chicago Manual of Style''], at "11.8 Foreign institutions": "If given in the original language, names of foreign&nbsp;... institutions and businesses are presented in roman type and capitalized&nbsp;...". [https://web.archive.org/web/20221031182409/https://sites.google.com/a/ngs.org/ngs-style-manual/home/F/foreign-terms ''National Geographic Style Manual''], at "Foreign terms": "1b. institutions and organizations ... are in roman". [https://www.btb.termiumplus.gc.ca/tpv2guides/guides/wrtps/index-eng.html?lang=eng&lettr=indx_catlog_i&page=9y04Dorq2IUY.html ''Government of Canada – Writing Tips''], at "Italics": "French and foreign words: Do not italicize the names of French or foreign organizations".</ref> However, these may be italicized for other reasons, including when [[#Words as words|the name itself is being referred to]]. For example, non-English names listed as translations in the lead of an article should be italicized, e.g. {{xt|'''Nuremberg''' ({{langx|de|Nürnberg}})}}. Non-English names of works should be italicized just like those in English are, e.g. [[Les Liaisons dangereuses|{{xt|{{lang|fr|Les Liaisons dangereuses}}}}]]. When a name should not be italicized, language markup can still ensure proper pronunciation in screen readers, by using the {{para|italic|unset}} parameter: {{tlx|lang|de|italic{{=}}unset|Nürnberg}}.
+
+For better [[Web accessibility|accessibility]], [[Latin-language]] quotations should not be set in [[all caps]] or [[small caps]]. When reproduced for their content, inscriptions that were originally set in all caps should be transcribed according to standard rules of English capitalization. However, simply undoing caps may result in incorrect orthography; for example, capital ''V'' may represent either the consonant ''v'' or the vowel ''u''.  All-caps or preferably small-caps presentation [[Wikipedia:Manual of Style/Capital letters#All caps|may be preserved]] when it is contextually useful, as in technical [[linguistic]] material and descriptions of [[Artifact (archaeology)|artifacts]].  Editors should be cautious about making [[Wikipedia:No original research|their own interpretations]] when transcribing [[Epigraphy|epigraphic]] and [[numismatic]] sources. Particularly on coins, a character that appears to be a letter may instead be a [[Roman numeral]], a denomination, or a symbol. For articles that reproduce examples of epigraphy or coin legends, editors should consult the orthography of expert secondary sources {{crossref|(see also [[diplomatic transcription]])}}.
+
+{{See also2|documentation for [[Template:Lang]]|[[:Category:Wikipedia multilingual support templates|related templates]] on [[Wikipedia:Accessibility#Other languages|marking up non-English text for accessibility purposes]].}}
+{{For|an index of additional MoS material pertaining to non-English language text (interlinear glosses, titles of work, organisms' vernacular names, non-English quotations and quotation marks)|Wikipedia:Manual of Style#Other non-English concerns}}
+
+=== Scientific names ===
+{{shortcut|MOS:ITALSCINAMES|MOS:SCIENTIFIC}}
+{{Main|Wikipedia:Manual of Style/Organisms}}
+<!-- Please keep these instructions consistent with both MOS:LIFE (the summary) and MOS:ORGANISMS (the page). -->
+[[Scientific name]]s of organisms are formatted according to normal [[Taxonomy (biology)|taxonomic nomenclature]].
+* Do not italicize (but do capitalize) taxa higher than [[genus]] (exceptions are below).
+** [[Virus]] taxonomy is a partial exception; current scientific practice is to italicize all ranks of taxa (even those higher than genus; e.g., ''[[Ortervirales]]'', an order, or ''[[Herpesviridae]]'', a family).  However, this should only be done in articles about viruses or virology; mentions of virus taxa in articles about other forms of life should follow the normal rules for italicizing scientific names.
+* Italicize all lower [[Rank (zoology)#All ranks|ranks (taxa)]]: [[genus]] (capitalized), [[subgenus]] (capitalized), [[species]], [[subspecies]].
+** Names of genera are always italicized (and capitalized), even when not paired with a species name: {{xt|''Allosaurus'', ''Falco'', ''Anas''}}.
+** The entire [[Binomial nomenclature|binomial]] or [[Trinomial nomenclature|trinomial]] scientific name is italicized, whether given in full or abbreviated: ({{xt|''Liriodendron tulipifera''}}, {{xt|''N. v. piaropicola''}}).
+* Interpolations such as "cf.", "×", "var.", or "subsp." are not italicized: {{xt|''Ninox'' cf. ''novaeseelandiae''}}, {{xt|the chaussie is a hybrid cat (''Felis catus'' × ''chaus'')}}.
+* Parenthetic expressions should not be italicized unless part of the scientific name, as in the case of a subgenus, which is always italicized, though the parentheses (round brackets) are not: {{xt|''Cypraea'' (''Cypraea'') ''tigris''}}.
+* Do not italicize authorities (author names) juxtaposed with scientific names: {{xt|Subgenus ''Potentilla'' {{small|Syme}} and subgenus ''Hypargyrium'' {{small|(Fourr.) Juz.}} have been combined under subgenus ''Potentilla'' {{small|Syme}}}}. In the article body, wrap the authority information in {{tl|small}} or <nowiki><small>...</small></nowiki>. (This need not be done for authorities in a taxobox that are entered using parameters such {{para|authority}} or {{para|parent_authority}}, since small text is then used automatically. For synonym lists, either use templates like {{tl|Species list}} which automatically use small text for authorities, or wrap the authority information as described above.)
+
+Derived uses in non-biological contexts are not italicized: {{xt|The largest carnivore in family Tyrannosauridae was ''[[Tyrannosaurus|T. rex]]'' itself}}, but {{xt|''Unicorn'' was an album by the band [[T. Rex (band)|T. Rex]]}}.
+
+Although often derived from Latin or Ancient Greek, scientific names are never marked up with {{tl|lang}} or related templates.
+
+=== Quotations ===
+{{see also|#Words as words}}
+{{Transcluded section|source=Wikipedia:Manual of Style}}
+{{#lst: Wikipedia:Manual of Style|Quotations in italics body}}
+
+{{#lst: Wikipedia:Manual of Style|Italics within quotations body}}
+
+=== Variables ===
+====Program variables====
+Variables in computer programs and symbols for program variables within plain-English prose and in computer source code presented as textual content can be marked up with the {{tlx|var}} template:
+* <code>...where {{tlx|var|x}} is incremented on each pass...</code> ⇒ {{xt|...where {{var|x}} is incremented on each pass...}}
+* {{para|id|{{tlx|var|ISBN or other identifier}}}} ⇒ {{para|id|{{var|ISBN or other identifier}}}}
+This provides richer semantic markup over simple italicization (or no formatting at all), that can aid in searching, accessibility, and disambiguation between variables and literal values.
+
+====Mathematics variables====
+{{Main article|Wikipedia:Manual of Style/Mathematics}}{{See also|Help:Displaying a formula}}
+{{tag|math}} [[MOS:FORMULA|LaTeX markup]] produces a serif font, unlike the default sans-serif prose font. To avoid confusion over the meaning of symbols, use [[Template:Math templates|math templates]] that put math expressions in a serif font. This also makes it easier to distinguish between ''I'' (upper-case i) and ''l'' (lower-case L), which look almost identical in many sans-serif fonts. Math variables are always written in italics. For standalone references to math variables, use {{tl|mvar}}, which will render in an italic serif font. For math equations, use {{tl|math}}. For variables within {{tl|math}}, use double apostrophes to make italics.
+
+* <code>The value of {{tlx|mvar|y}} is always...</code> ⇒ {{bxt|1= The value of {{mvar|y}} is always...}}
+* <syntaxhighlight lang="wikitext" inline>{{math|''E'' {{=}} ''mc''<sup>2</sup>}}</syntaxhighlight> ⇒ {{bxt|1= {{math|''E'' {{=}} ''mc''<sup>2</sup>}} }}
+Some things remain in upright form regardless of the surrounding text
+* Bold-face variables (such as vectors) and structures (such as {{math|'''Q'''}}, the rational numbers)
+* Letters with an arrow on top for vectors
+* Symbols for chemical elements and compounds such as HCl
+* Symbols for units of measure such as kg, ft/s
+* Symbols for mathematical operators such as {{math|sin}} and {{math|ln}}; for example:
+*: {{math|sin ''x'', ln (''p''/''p''<sub>0</sub>)}}
+
+=== Uses of italics that are specific to Wikipedia ===
+{{Shortcut|MOS:XREF|MOS:CROSSREF}}
+One-line notes that are placed at the top of articles or sections (most often to assist [[Wikipedia:disambiguation|disambiguation]] or provide cross-references) are [[Wikipedia:Hatnote|hatnotes]]. One-line notes may also be placed at the top of sections to cross-reference or point to additional information that is not directly linked in the text. Both of these are in italics and indented to distinguish them from the text of the article proper. The [[:Category:disambiguation and redirection templates|disambiguation and redirection templates]] and [[:Category:Wikipedia page-section templates|Wikipedia page-section templates]] automatically provide the required italic formatting.
+
+[[WP:FOOTERS|Special section headings]] for appendices such as <syntaxhighlight lang="wikitext" inline>==See also==</syntaxhighlight> are ''not'' in italics.
+
+A further type of cross-reference may occur within a paragraph of text, usually in parentheses (round brackets). For example: {{xt|At this time France possessed the largest population in Europe {{crossref|(see [[:Demographics of France]])}}.}} Here, the cross-referenced article does not topically make a good target for a running-text link from the phrase "[[:Demographics of France|largest population in Europe]]", or any other text in the sentence, but has been deemed relevant enough to mention in passing without relegating it to the "See also" section at the bottom of the article. These kinds of cross-references can be formatted easily with the {{tl|Crossreference}} a.k.a. {{tl|Crossref}} template (or, to other sections on the same page, {{tl|See above}} and {{tl|See below}}). In any case where such a link in running text [[Wikipedia:Manual of Style/Linking#SUBMARINE|would be proper]], it is preferred over a parenthetical, explicit cross-reference.
+
+Like hatnotes, these parenthetical cross-references are set off by being italicized in their entirety, as [[Wikipedia:Manual of Style/Self-references to avoid|Wikipedia self-references]], and not part of the article content proper. Unlike some traditional reference works, the convention that has evolved on Wikipedia is {{em|not}} to individually italicize "see" or "see also". Wikipedia's own article titles are not put in quotation marks in such cross-references.
+
+=== When not to use italics ===
+{{Shortcut|MOS:NOITALIC|MOS:NOITAL}}
+{{Further|Wikipedia:Manual of Style/Titles#Quotation marks}}
+Italics are generally [[Wikipedia:Manual of Style/Titles#Italics|used only for titles of longer works]]. Titles of shorter works should be enclosed in double [[quotation mark]]s ("text like this"). This particularly applies to works that exist as a smaller part of a larger work. These include but are not limited to: articles, essays, papers, chapters, reference work entries, newspaper and magazine sections or departments, episodes of audio-visual series, segments or skits in longer programs, short poems, short stories, story lines and plot arcs; songs, album tracks and other short musical works; leaflets and circulars.
+
+Italics should not be used for [[Wikipedia:Manual of Style/Text formatting#Foreign terms|non-English text]] in non-Latin scripts, such as [[Wikipedia:Manual of Style/China-related articles#Characters|Chinese characters]] and [[Wikipedia:Manual of Style/Russia-related articles#Cyrillic, Latin transliteration, and italicization|Cyrillic script]], or for proper names, to which the convention of italicizing non-English words and phrases does not apply; thus, a title of a short non-English work simply receives quotation marks.
+
+== How not to apply emphasis ==
+{{shortcut|MOS:BADEMPHASIS|MOS:UNDERLINE}}
+
+Avoid various kinds of overemphasis, other than the recommended one (''see:'' [[MOS:EMPHASIS]]), which would distract from the writing:
+* Exclamation points (!) should usually only be used in direct quotes and titles of creative works.
+* '''Bold type''' is [[#Boldface|reserved for certain uses]].
+* Quotation marks for emphasis of a single word or phrase are incorrect, and "[[scare quotes]]" are discouraged. Quotation marks are to show that you are using the correct word as quoted from the original source. For example: ''His tombstone was inscribed with the name "Aaron" instead of the spelling he used during his life.''
+* Avoid using [[ALL CAPS]] and [[Small caps|<span style="font-variant: small-caps;">small caps</span>]] for emphasis {{crossref|(for legitimate uses, see {{section link|WP:Manual of Style/Capital letters|All caps}})}}. [[#Italic face|Italics]] are usually more appropriate.
+* Double emphasis, such as '''''italics and boldface''''', "''italics in quotation marks''", or ''italics and an exclamation point!'', is unnecessary.
+* <u>Underlining</u> is used in typewriting and handwriting to represent italic type. Generally, do not underline text or it may be confused with [[Hyperlink|links]] on a web page.{{efn|1=Underlining, usually in dotted form, may be automatically applied to certain HTML elements and attributes, such as any use of {{abbr|{{tag|abbr|o|link=yes}}|abbreviation}}, and any element <span title="example" class="explain">that has</span> a <code>title=</code> value and the <code>explain</code> CSS class. This is expected behavior, may vary from browser to browser, and is controllable with [[Help:User style|user-level CSS]].}}
+* Do not capitalize words merely as a form of [[Wikipedia:Manual of Style/Capital letters#Do not use for emphasis|emphasis or signification]].
+
+== Other text formatting concerns ==
+=== Font size ===
+<!-- This section is transcluded in [[Wikipedia:Manual of Style/Accessibility#Font size]]. When changing this section's title, remember to edit it there too. -->
+<!-- MOS:FONTSIZE MOS:LARGE MOS:SMALL MOS:SMALLTEXT   all link to the above heading "Font size" -->
+{{shortcut|MOS:FONTSIZE|MOS:LARGE|MOS:SMALL}}{{redirect|MOS:SIZE|the page-length guideline|Wikipedia:Article size}}
+
+Editors should avoid manually inserting large and small fonts into prose. Reduced or enlarged font sizes should be used sparingly, and are usually done with automated page elements such as headings, table headers, and standardized templates. Size changes are specified as a {{em|percentage}} of the original font size and not as an absolute size in pixels or point size. This improves accessibility for visually impaired users who use a large default font size.
+
+{{anchor|SMALLFONT}}<!-- MOS:SMALLFONT links here -->{{anchor|SMALLSMALL}}<!-- MOS:SMALLSMALL links here -->{{shortcut|MOS:SMALLFONT|MOS:SMALLSMALL}}
+No text should be reduced below 85% of the page's default font size. Avoid reducing font size within elements that already use smaller text, such as [[Wikipedia:Manual of Style/Infoboxes|infoboxes]], [[Wikipedia:Navigation template|navboxes]], and [[Wikipedia:Manual of Style/Layout#Notes and references|reference sections]].{{efn|Infoboxes and navboxes normally use 88% of the page's default font size. Reference sections use 90%. Additional values are listed at [[MediaWiki:Common.css]].}} Do not apply {{tag|small}}, {{tlx|small}}, or {{tlx|smalldiv}} to [[plain text]] in these contexts. The "small" options reduce fonts to 85%. 85% of an infobox or navbox at 88% ends up with a font size of 74.8%.
+
+The HTML {{tag|small}} element is intended for [[fine print]] or side comments, such as copyright or legal notes, regardless of how it is styled.<ref>{{cite web |date=24 December 2023 |title=4.5.4 The small element |url=https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element |access-date=29 December 2023 |work=[[HTML5|HTML Living Standard]] |publisher=[[Web Hypertext Application Technology Working Group]]}}</ref> It should not be used only to reduce font size. For use of small text for authority names with binomials, see {{section link|nopage=y|Wikipedia:Manual of Style/Text formatting#Scientific names}}.
+
+=== <span id="Colour" ></span>Color ===
+{{Main article|Wikipedia:Manual of Style/Accessibility#Color}}
+
+====In prose ====
+{{shortcut|MOS:TEXTCOL|MOS:LINKCOL}}
+Prose text should never be colored. Refrain from implementing [[Help:Link color|colored links]] that may impede user ability to distinguish links from regular text, or color links for purely aesthetic reasons. See also [[Wikipedia:Manual of Style/Linking]] and {{sectionlink|Wikipedia:Manual of Style/Accessibility#Contrast}}.
+
+====<span class="anchor" id="In navboxes"></span>In templates and tables ====
+{{shortcut|MOS:NAVBOXCOLOR}}
+# Colors used in templates such as [[Wikipedia:Categories, lists, and navigation templates#Navigation templates|navboxes]] and [[Wikipedia:Infobox|infoboxes]], and in [[Wikipedia:Table|tables]], should not make reading difficult, including for colorblind or otherwise visually impaired readers.
+# Colors that are useful for identification and are {{em|appropriate, representative, and accessible}} may be used with discretion and common sense. In general, text color should not be anything other than black or white (excluding the standard colors of hyperlinks), and background colors should contrast the text color enough to make the template easily readable. See [[Wikipedia:Manual of Style/Accessibility/Colors]] for more information. 
+# An "appropriate, representative" color, when intended to identify with an organization's logo or branding, should use the most prominent {{em|accessible}} color in the logo. For example, {{oldid|Template:Pink Panther|433595147|Template:Pink Panther}} should be using a background of <code>#F6D4E6</code> {{color sample|#F6D4E6}} (the color of the body in [[:File:Pink Panther.png]]) rather than <code>#E466A9</code> {{color sample|#E466A9}} (the color of the background in that image). A representative color useful in a navbox is often already present in an article's infobox (if included), and these are sometimes specified programmatically. For example, [[Template:National Register of Historic Places|the navbox]] associated with the [[National Register of Historic Places]] and other related categorizations should conform to Wikipedia's [[Wikipedia:NRHP colors legend|NRHP colors legend]].
+# In the case that no properly identifying, accessible color exists, or the subject of the template or table should not be identified with a particular color (e.g., an average biography), the default colors provided by the template or the table class should be used.
+# If an article includes several navboxes whose colors conflict with each other, discretion should be used to minimize the visual disruption by using the default colors for navboxes.
+# Content should also be easy to read in [[Wikipedia:Dark mode|dark mode]], preferably without a large area of bright background. This can be accomplished by removing color styling and using the default skin colors, by picking colors that work well in both light and dark mode, or by setting different colors for each mode using techniques from the [[mw:Recommendations for night mode compatibility on Wikimedia wikis|official MediaWiki recommendations]].
+
+=== Font family ===
+{{shortcut|MOS:FONTFAMILY}}
+{{see also|Wikipedia:Typography}}
+[[Font family (HTML)|Font families]] should not be explicitly defined in articles, except when displaying [[PUA characters]] {{crossref|(see [[#PUA characters|§ PUA characters]] section)}}. Explicit font definitions reduce Wikipedia's flexibility and cannot account for the fonts available on different users' devices.
+
+In the past, articles sometimes defined font families for [[special characters]] (like {{char|&}} or {{char|@}}) because older browsers could not reliably select an appropriate font. This is no longer handled within articles. Instead, use the appropriate templates to ensure correct rendering {{crossref|(see [[Help:Special characters]] and the list at [[Template:Unicode]])}}.
+
+=== Capital letters ===
+The use of capital (upper-case) letters, including small-capitals style, is covered in detail at [[WP:Manual of Style/Capital letters]].
+
+=== Citations ===
+{{Main|Wikipedia:Manual of Style/Layout#Notes and references|Wikipedia:Citing sources}}
+
+Text formatting in citations should follow, consistently within an article, an established citation style or system. Options include either of Wikipedia's own template-based [[Help:Citation Style 1|Citation Style 1]] and [[Help:Citation Style 2|Citation Style 2]], and any other well-recognized citation system. 
+
+Parameters in the [[Wikipedia:Citation templates|citation templates]] should be accurate.{{efn|Attempting to misuse citation template parameters to output data they are not designed for typically results in garbled [[COinS]] metadata output. For special cases, use a regular wiki-text note after the end of the citation template but before the closing <code><nowiki>&lt;/ref&gt;</nowiki></code> tag.}} Do not evade the formatting applied by a parameter, e.g., by using markup tricks or by switching to an inapplicable parameter simply because its style of output is different.{{efn|In unusual cases, the default formatting may need to be adjusted within a citation template parameter to conform to some other guideline, e.g. italicization of a non-English term in a title that would otherwise not be italicized.}} A parameter with useful citation data should not be omitted just because the auto-applied style is not in agreement with text-formatting guidelines; that is a template bug to fix.{{efn|Errors in the output of the citation templates should be resolved with a bug report at [[Help talk:Citation Style 1]].}}
+
+=== Strikethrough ===
+{{shortcut|MOS:STRIKETHROUGH}}
+{{main|Wikipedia:Manual of Style/Accessibility#Text}}
+
+Do not use [[strikethrough]] to indicate inappropriate or incorrect material; [[Wikipedia:Manual of Style/Accessibility#Text|this causes accessibility and comprehensibility problems, and there are several better alternatives]], including commenting out, deletion, and tagging for discussion. Intentional use of strikethrough as part of the content is discouraged for similar reasons. If strikethrough is used to indicate deleted text, such as in textual analysis, it should be implemented with [[semantic HTML]] element {{tag|del|o}} and combined with other techniques for accessibility purposes.
+
+== Private Use Area and invisible formatting characters <span class="anchor" id="PUA and RTL"></span><span class="anchor" id="PUA"></span><span class="anchor" id="PUA characters"></span><span class="anchor" id="Private Use Area and invisible formatting characters"></span> ==
+The only invisible characters in the editable text should be spaces and tabs. However, other invisible characters are often inserted inadvertently by pasting from a word processor, from the rendered Wikipedia page (in some browsers),{{efn|1=See [https://en.wikipedia.org/w/index.php?title=Conrad_II_of_Raabs&diff=1194071057&oldid=1065291474 this example edit], in which an editor copy/pasted invisible thin-space characters from the article into the Short Description Helper gadget.}} or from Wikipedia's Android editor.{{efn|1=See [https://en.wikipedia.org/w/index.php?title=1965_Kakanj_mine_disaster&diff=1113258687&oldid=1099794040 this mobile/Android edit], for example; there is a non-breaking space character between "Methane" and "gas".}} These can cause confusion with editors and handling problems with editing software. Any necessary invisible or [[Private Use Area]] (PUA) characters should be substituted with their decimal or hexadecimal code values (that is, as &{{var|...}};) so that they can be edited properly. A template, {{tl|PUA}}, is used to mark PUA characters; it has no effect on the text, but places the article in a tracking category. {{crossref|(See the next sections for examples.)}}
+
+=== Mixed right-to-left text ===
+{{shortcut|MOS:RTL|MOS:LTR}}
+When right-to-left text is embedded in certain left-to-right contexts, such as when tagged with a reference, it may require control characters to display properly. The marker to return to left-to-right text should be encoded as [[Left-to-right mark|&amp;lrm;]] or supplied through the template {{tlx|lang}}.
+
+Depending on your browser, there may be a difference between the display of unformatted Urdu:<!--NOTE: The display of the "unformatted" ones may look particularly weird in certain browsers when previewing this section by itself; that's kind of an illustration of the problem, so don't worry about it. -->
+:{{!mxt|خ ?{{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; خ ?{{dummy ref}}
+with formatted:
+:{{mxt|خ&amp;lrm; ?{{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; خ&lrm; ?{{dummy ref}} or {{mxt|{{tlp|lang|ur|خ}} ?{{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; {{lang|ur|خ}} ?{{dummy ref}}
+
+and unformatted:
+:{{!mxt|(خ){{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; (خ){{dummy ref}}
+with formatted:
+:{{mxt|(خ)&amp;lrm;{{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; (خ)&lrm;{{dummy ref}} or {{mxt|{{tlp|lang|ur|(خ)}}{{xtag|ref|p|content={{var|citation details}}}}}}:&nbsp;&nbsp; {{lang|ur|(خ)}}{{dummy ref}}
+
+If there is intervening LTR text, as in <code>خ abc{{xtag|ref|p|content={{var|citation details}}}}</code>, a control character is not required. Spacing and most punctuation, however, are not defined as either LTR or RTL, so the direction of the text needs to be reset manually.
+
+===PUA characters===
+{{shortcut|MOS:PUA}}
+[[Private Use Area]] (PUA) characters are in three ranges of code points (U+E000–U+F8FF in the [[Plane (Unicode)#Basic Multilingual Plane|BMP]], and in [[Plane (Unicode)#Private Use Area planes|planes 15 and 16]]). PUA characters should normally be avoided, but they are sometimes used when they are found in common fonts, especially when the character itself is the topic of discussion.
+
+Where PUA characters cannot be replaced with non-PUA Unicode characters, they should be converted to their (hexa)decimal code values (that is, &#...; or &#x...;). However, whenever a PUA character has a Unicode equivalent, it should instead be replaced with that equivalent (Unicodified). The Unicode may be obvious when text is copied and pasted from a document that uses the PUA for bullets or similar characters in Latin text, but similar things happen with punctuation and emoticons in documents using Japanese and other scripts, so an editor familiar with those scripts may be needed. In Chinese documents it is not uncommon for the PUA to be used for characters that now have full Unicode support, due to poorer support for Chinese characters when those fonts were designed. Such PUA characters, which are sometimes found on Wikipedia in references and footnotes, should not be substituted with their (hexa)decimal values, as that will lock in the illegible character. If you're moderately familiar with the script, an internet search of the surrounding text will often locate a fully Unicode version of the text which can be used to correct the Wikipedia article.
+
+Because browsers do not know which fonts to use for PUA characters, it is necessary for Wikipedia to specify them.  Formatting via one of the templates listed at [[Template:Unicode]] is sufficient in some cases. Otherwise the fonts should be specified through html markup, as in the example below. If a font is not specified, or if none of the fonts are installed, readers will only see a numbered box in place of the PUA character.
+
+Tagging a (hexa)decimal code with the template {{tl|PUA}} will enable future editors to review the page, and to Unicodify the character if it is included in future expansions of Unicode. This happened, for example, at [[strident vowel]], where a non-Unicode symbol for the sound was used in the literature and added to the PUA of SIL's IPA fonts. Unicode didn't support it until several years after the Wikipedia article was written, and once the fonts were updated to support it, the PUA character in the article was replaced with its new Unicode value.
+
+For example,
+: {{mxt|1=SIL added these letters at U+F267 and U+F268: {{tag|span|wrap=yes|attribs=style="font-family:Gentium Plus, Charis SIL, Doulos SIL, serif"|content={{tlp|PUA|&amp;#xf267;}}, {{tlp|PUA|&amp;#xf268;}}}}.}}
+which renders as:
+: SIL added these letters at U+F267 and U+F268: <span style="font-family:Gentium Plus, Charis SIL, Doulos SIL, serif">{{PUA|&#xf267;}}, {{PUA|&#xf268;}}</span>.
+
+{{crossref|See [[:Category:Articles with wanted Private Use Area characters]] and especially [[Tengwar#Unicode|Tengwar §&nbsp;Unicode]] for examples of PUA characters which cannot easily be replaced.}}
+
+== See also ==
+* [[WP:Advanced text formatting]]
+* [[WP:Manual of Style/Capital letters]]
+* [[WP:Manual of Style/Command-line examples]]
+* [[WP:Manual of Style#Ligatures|WP:Manual of Style §&nbsp;Ligatures]]
+* [[WP:Superfluous bolding explained]] (essay)
+
+==Notes==
+{{notelist|30em}}
+
+==References==
+{{reflist}}
+
+{{Writing guides}}
+{{Manual of Style}}
+
+[[Category:Wikipedia Manual of Style (formatting)]]

@@ -8,11 +8,11 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 
 | Your task | Package | What you bring |
 | --- | --- | --- |
-| Plan, render and inspect a video | [Video Production Workflow](plugins/video-production-workflow/) | Python, FFmpeg and your source media |
+| Plan, render and inspect a video | [Video Production Studio](plugins/video-production-workflow/) | Python, FFmpeg and your source media |
 | Refine a screen or export in Google Stitch | [Stitch Design Toolkit](plugins/stitch-design-studio/) | Stitch account and browser tools |
 | Work safely in DaVinci Resolve | [DaVinci Resolve Toolkit](plugins/davinci-resolve-toolkit/) | Resolve and a verified control route |
 | Operate an ArtCraft creative app | [ArtCraft Design Toolkit](plugins/artcraft-design-toolkit/) | Python and separately installed ArtCraft CLI |
-| Create or inspect a Figma design | [Figma Design Workflow](plugins/figma-design-workflow/) | Figma access and a supported host tool |
+| Create or inspect a Figma design | [Figma Design Toolkit](plugins/figma-design-workflow/) | Figma access and a supported host tool |
 | Design a lesson or assessment | [Instructional Design Studio](plugins/instructional-design-studio/) | Learner context and objectives |
 | Plan an accessible workshop | [Workshop Facilitator](plugins/workshop-facilitator/) | Purpose, participants and constraints |
 | Design a game or run a tabletop session | [Game Creation Studio](plugins/game-creation-studio/) | A game idea and your chosen engine |
@@ -28,6 +28,7 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Review software, agent artifacts and instruction boundaries | [Master Security Toolkit](plugins/master-security-toolkit/) | An authorized target or supplied artifact; Python for local scanners |
 | Tailor career materials and verify application outcomes | [Career Studio](plugins/career-studio/) | Real work evidence, a target role or prompt, and authorization for external actions |
 | Develop positioning, campaigns and measurement | [Marketing Strategy Studio](plugins/marketing-strategy-studio/) | Your offer, audience evidence and current constraints |
+| Edit prose, preserve facts and audit sources | [Writing Quality Studio](plugins/writing-quality-studio/) | Your draft, source facts and any authentic voice samples |
 | Test an argument or choose a reasoning framework | [Reasoning Toolkit](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |

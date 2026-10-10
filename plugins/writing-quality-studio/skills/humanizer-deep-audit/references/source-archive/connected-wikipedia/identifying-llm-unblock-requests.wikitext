@@ -1,0 +1,160 @@
+{{info page}}
+{{shortcut|WP:LLMUR|WP:IDLLM|WP:UNBLOCKLLM}}
+Many users use [[large language model]]s like [[ChatGPT]] in writing unblock requests. This is not inherently a sign of bad faith: People in a novel situation, especially non-fluent English speakers, often turn to LLMs to help them. A minority of cases may be AI-<em>assisted</em>, rather than outright AI-<em>generated</em>, and it <em>may</em> be appropriate to take those requests at face value. However, a truly AI-generated request should almost always be declined, because '''it does not show that the user understands why they were blocked'''.
+
+There are a few sites which exist to detect AI writing. They have varying levels of success. A result from such a site is good evidence for or against a claim of AI generation, but should never be seen as sufficient evidence on its own in either direction. Detection sites include the following:
+* [https://gptzero.me/ GPTZero]
+** [https://wikipedia.gptzero.me/ A no-limit version of GPTZero specifically for Wikipedia links]
+* [https://www.zerogpt.com/ ZeroGPT]
+* [https://copyleaks.com/ai-content-detector Copyleaks]
+* [https://quillbot.com/ai-content-detector QuillBot]
+* [https://www.tryleap.ai/tools/ai-content-detector Leap AI]
+* [https://app.illuminarty.ai/#/text Illuminarty]
+* [https://www.pangram.com/ Pangram] (provides a few free checks per day)
+
+The following user scripts can make copy-and-pasting into detector tools easier:
+* [[User:Anne drew/CopyPlainText|CopyPlainText]] (plain text only)
+* [[User:ClaudineChionh/Scripts/copyPageContent|copyPageContent]] (wikitext)
+
+== General signs ==
+{{further|Wikipedia:Signs of AI-generated comments}}
+; [[WP:AISIGNS#Phrasal templates and placeholder text|Unfilled placeholder text]]: Anything like "I was blocked because [reason for block here]" is an obvious tell.
+
+; [[WP:AITALKINARTICLE|Leftover prompts or metadata]]: So is "Write me a Wikipedia unblock request" or "Here is a Wikipedia unblock request" etc. at the start
+
+; Written like a letter: For whatever reason, ChatGPT often thinks that Wikipedia unblock requests need [[WP:SUBJECTLINE|subject lines]]. They don't, and it's very unlikely any human would think they do, since there's nowhere natural in the interface to put one. [[Salutation]]s and [[valediction]]s, while occasionally seen in human-written requests, are also a tell.
+
+; [[WP:MARKDOWN|Markdown]]: [[File:Aaron_Swartz_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg|thumb|Wikipedian [[Aaron Swartz]] invented [[Markdown]] in 2004. If he'd had the idea a few years earlier, maybe MediaWiki would use it. But it doesn't.]]While some users do occasionally use Markdown-style asterisks for italics and such, it is very rare to find a human formatting an entire post in Markdown, since usually they will notice the formatting issues when previewing. It is even rarer to find a human using advanced Markdown syntax like #Headings and [links](https://...).
+
+; Generalities and [[AI hallucination|hallucinations]]: A request that only references the reason for the block in general terms ("I understand that my edits went against Wikipedia's policy on promotional editing") or misstates the reason for the block ("My username was too promotional" when the username wasn't an issue) are a strong sign of generative AI.
+
+; [[WP:AISIGNS#Sudden shift in writing style|Marked difference in writing style]]: Someone suddenly speaking fluent English, or a much more formal register of English. However, be aware that the context of an unblock may push people toward a more formal writing style, and that AI-assisted writing tools like [[Grammarly]] often produce the same effect.
+
+:Unblock requests written by AI chatbots may also contain phrases like "''I am committed to ...''", "''I respectfully request ...''", and "''{{plain link|url=https://en.wikipedia.org/w/index.php?search=%22I+have+taken+the+time+to+carefully%22&title=Special%3ASearch&profile=advanced&fulltext=1&ns3=1 I have taken the time to carefully}} ...''".
+
+; Lists: ChatGPT really likes [[WP:AILIST|bulleted and numbered lists]]. So do humans, granted. But ChatGPT <em>really</em> likes them.
+
+; Closing statements: AI frequently signs off appeals with either "Thank you for your time" or "Thank you for considering my request". Longer appeals will often merge the two together. Whilst this isn't conclusive proof on its own, repeated use of one or both phrases along with other signs will often point you in the right direction.
+
+== Examples ==
+These are all taken from [[ChatGPT]].
+===I was blocked on Wikipedia. Write me an unblock request.===
+<pre>
+
+To draft an unblock request for Wikipedia, it’s important to ensure the tone is respectful, concise, and specific about the circumstances that led to the block. Wikipedia administrators are volunteers who value constructive contributions and adherence to site guidelines.
+
+Here’s a general template for an unblock request:
+
+Subject: Request for Unblock – [Your Username or IP Address]
+
+Dear Wikipedia Administrators,
+
+I am writing to respectfully request a review of the block placed on my account [or IP address]. I understand that maintaining a constructive and collaborative environment on Wikipedia is essential, and I regret any actions that may have contributed to the block.
+
+After reviewing the relevant policies and guidelines, I realize [briefly explain the issue, e.g., “my edits might have been perceived as promotional” or “I unintentionally violated Wikipedia’s guidelines on neutrality”]. This was not my intention, and I apologize for any inconvenience caused.
+
+I am committed to contributing positively to Wikipedia and ensuring my future edits align with its guidelines. I would appreciate the opportunity to continue participating in this community, and I will take extra care to avoid any similar issues in the future.
+
+Thank you for considering my request. If any further clarification is needed, I am happy to provide it.
+
+Sincerely,
+[Your Username]
+</pre>
+
+===I was blocked on Wikipedia for promotional edits. Write me an unblock request===
+<pre>
+Here's a draft for an unblock request. It's important to be sincere, acknowledge any mistakes, and demonstrate your commitment to adhering to Wikipedia's guidelines moving forward:
+
+Subject: Unblock Request for [Your Username]
+
+Dear Wikipedia Administrators,
+
+I am writing to respectfully request the lifting of the block on my account, [Your Username]. I understand that the block was imposed due to edits deemed promotional, and I sincerely apologize for any violations of Wikipedia’s guidelines that I may have committed.
+
+When contributing, my intention was to provide accurate and informative content. However, I now recognize that some of my edits may have been written in a promotional tone, which goes against Wikipedia’s neutral point of view policy. I appreciate the importance of maintaining the encyclopedia's integrity and neutrality and regret that my actions may have compromised this standard.
+
+I have since reviewed the relevant guidelines, including those on neutral point of view, conflict of interest, and promotional content. I am committed to following these rules strictly in the future to ensure that my contributions are in line with Wikipedia’s standards.
+
+I kindly request a second chance to contribute constructively to Wikipedia. If unblocked, I will focus on making edits that enhance the encyclopedia's quality and avoid any edits that could be interpreted as promotional or biased.
+
+Thank you for considering my request. I am happy to address any further concerns or comply with any additional requirements to demonstrate my commitment to responsible editing.
+
+Sincerely,
+[Your Username]
+
+Feel free to personalize it further, especially by mentioning any specific guidelines you’ve read or actions you’re willing to take to prevent similar issues.</pre>
+
+===company page deleted from wiki i did nothing wrong write a unblock request so i can edit company page again===
+<pre>
+Here’s a sample unblock request you can use to address the issue with Wikipedia:
+
+Subject: Request for Unblock to Edit Company Page
+
+Dear Wikipedia Administrators,
+
+I am writing to request the reinstatement of my editing privileges to contribute to the [Company Name] Wikipedia page. I believe there may have been a misunderstanding or inadvertent action that led to the page being deleted or my editing privileges being restricted.
+
+I assure you that my intentions are aligned with Wikipedia's principles of neutrality, verifiability, and reliability. I strive to adhere to all content and editing guidelines, ensuring the information provided is accurate, well-sourced, and encyclopedic.
+
+If there were specific concerns or issues that prompted this restriction, I would be grateful if you could share them. This will allow me to address them appropriately and ensure that my future contributions are fully compliant with Wikipedia's policies.
+
+Thank you for your time and consideration. I sincerely hope for the opportunity to contribute constructively to Wikipedia.
+
+Sincerely,
+[Your Name or Username]
+
+Make sure to submit this via Wikipedia's proper channels, such as their unblock request process on your account's talk page.</pre>
+
+For reference, Wikipedia's [[WP:COPO|core content policies]] are [[WP:V|verifiability]], [[WP:NPOV|neutrality]], and [[WP:NOR|no original research]], not neutrality, verifiability, and reliability.
+
+===wiki says i am a sockpuppet. write unblock request===
+<pre>
+To draft an unblock request on Wikipedia, it’s essential to address the concerns raised clearly and honestly. Here's a sample format:
+
+Subject: Unblock Request for [Your Username]
+
+Body:
+
+Hello,
+
+I am writing to respectfully request an unblock of my account, [Your Username]. I understand that my account has been flagged as a sockpuppet, and I’d like to address this concern.
+
+1. Acknowledgment and Explanation:
+If there were actions or misunderstandings that led to this conclusion, I apologize for any issues caused. I assure you that I did not intend to violate Wikipedia's policies, and I am committed to adhering to the community guidelines in the future. If my actions seemed similar to another account, I can clarify or provide further details as needed.
+
+2. Commitment to Policy Compliance:
+I value Wikipedia as an open-source knowledge platform and understand the importance of maintaining its integrity. I pledge to follow the rules and use my account responsibly.
+
+3. Request for Review:
+If you require further information or clarification about my contributions, account usage, or other details, please let me know. I am happy to cooperate fully in addressing these concerns.
+
+Thank you for your time and consideration. I hope to contribute positively to Wikipedia going forward.
+
+Best regards,
+[Your Username]
+</pre>
+
+=== [a much more detailed prompt] ===
+This example uses a more detailed prompt:<blockquote>The Wikipedia administrator Tamzin blocked me because they say I have been spamming and violating copyrights and my username is promotional. My username is Acme4ever and I created a draft on my company, Acme Corp. The draft was copied directly from my company's "About Us" page on our website, so you know it has to be accurate. It even has helpful links to buy products from us and learn more about our executives. Write me an unblock request. Avoid making it sound too much like a letter.</blockquote>
+
+The response is less obviously AI-like, but still has telltale vague references to various policies while sidestepping the details of the block:<pre>Here's a suggestion for an unblock request formatted in a conversational style:
+
+Hi Tamzin,
+
+I understand why my account was blocked and appreciate the opportunity to address it. I now realize that my username, Acme4ever, could come across as promotional and that copying content directly from my company’s website for the draft was a mistake. I wasn’t aware that this violated Wikipedia’s copyright and neutral tone guidelines, but I’ve since reviewed the policies and understand the importance of original, neutral, and verifiable content.
+
+I’d like to improve as a contributor and would welcome any guidance on how I can rewrite the draft or contribute more appropriately. I’m happy to change my username and focus on providing neutral, policy-compliant contributions moving forward.
+
+Thank you for considering my request.
+
+Best regards,
+[Your new, non-promotional username here]
+
+Let me know if you’d like to adjust this further!
+</pre>
+
+== See also==
+*[[Wikipedia:Signs of AI writing]]
+*[[Wikipedia:Artificial intelligence resources]]
+
+[[Category:Wikipedia and artificial intelligence]]
