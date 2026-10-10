@@ -1,0 +1,25 @@
+# Body-Horror Scene Card
+
+- Viewpoint character and bodily normal worth protecting:
+- Why that body, function, identity, or relationship matters now:
+- Primary fear:
+- Dominant mode (subtle, visible and tragic, visceral and extreme, or surreal):
+- Intended intensity (implied, clinical, visceral, or extreme):
+- Content boundary and descriptive distance:
+- First precise anomaly:
+- Character's initial interpretation:
+- Test, treatment, concealment, or resistance:
+- Recurring sensory anchor:
+- Violation rule revealed by the response:
+- Exact anatomy, material, posture, and position involved:
+- Texture, temperature, pressure, resistance, sound, or smell:
+- Involuntary embodied response:
+- Staged physical progression:
+- Wrong or altered function:
+- Immediate benefit or temptation:
+- Functional, social, relational, or identity cost:
+- Witness, relationship, or institutional response:
+- What treatment or attempted control changes:
+- Consequential choice:
+- Persistent residue:
+- How the change affects the next ordinary task:

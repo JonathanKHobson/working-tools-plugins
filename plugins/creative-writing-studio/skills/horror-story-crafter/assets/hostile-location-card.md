@@ -1,0 +1,25 @@
+# Hostile Location Card
+
+- Name and original purpose:
+- Protectable thing present here:
+- Optimization target or governing rule:
+- Inputs, conversion, and output:
+- Intended and current beneficiary:
+- What the system classifies as user, component, defect, waste, or resource:
+- Locked decision or inherited incentive:
+- Human feedback the system cannot register:
+- Material identity (2–3 recurring traits):
+- Pressure or appetite:
+- Immediate orientation fact:
+- Sensory tells:
+- Trigger:
+- Physical response:
+- What the response teaches:
+- Lure or reason to engage:
+- Counterplay option 1:
+- Counterplay option 2:
+- Escalation after resistance or delay:
+- State change or exit:
+- Persistent residue:
+- Human meaning:
+- Content boundary and descriptive distance:

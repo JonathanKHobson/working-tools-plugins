@@ -1,0 +1,29 @@
+# Cosmic-Horror Evidence Map
+
+- Human-scale obligation worth protecting:
+- Human answer to cosmic pressure (care, solidarity, rage, curiosity, refusal, or another value):
+- Existing human institution, job, or procedure touching the anomaly:
+- First anomalous evidence:
+- Source, original purpose, and chain of custody:
+- What the medium can and cannot perceive:
+- Safe first explanation:
+- Action taken under that explanation:
+- Contradicting evidence and its independent source:
+- Revised working model:
+- Dominant scale collision (space, time, biology, cognition, information, institution, or ethics):
+- Observable consequence of the model failure:
+- Nonhuman force's interest:
+- Nonhuman need, loss, or constraint that may invite sympathy without excusing harm:
+- What it notices and ignores:
+- What each side misclassifies about the other:
+- Contact medium and what it means differently to each side:
+- Translation feedback and cost to each side:
+- Intent, method, and impact of the force's central action:
+- Feedback humans can detect:
+- Limit on its reach, attention, speed, or translation:
+- Human projection or institutional incentive that worsens the danger:
+- Verification cost:
+- Local irreversible choice:
+- Credible local effect of that choice:
+- Closed causal question:
+- Persistent epistemic, bodily, social, or environmental residue:

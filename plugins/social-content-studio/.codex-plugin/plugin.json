@@ -1,0 +1,36 @@
+{
+  "name": "social-content-studio",
+  "version": "0.2.0",
+  "description": "Complete source-grounded social methods, verified LinkedIn and platform workflows, preview and authorized publishing readback; optional provider-installed AIHumanizer social prose.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "keywords": [
+    "social",
+    "content",
+    "publishing",
+    "preview"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Social Content Studio",
+    "shortDescription": "Draft, preview, and publish with proof",
+    "longDescription": "Independent workflows for source-backed posts, calendars, channel adaptation, short video, professional proof, editorial review, social previews and authorized publishing with readback. Declares Social Post Previewer as an app dependency; live preview execution requires its host connection. Uses the provider-installed AIHumanizer social-media skill when needed. Includes complete LinkedIn writing, engagement, document and analytics methods; verified trends; distinct YouTube/Substack cycles and TikTok production and attended native future scheduling with verified schedule and public receipts; immediate posting is prohibited.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Draft a LinkedIn post from this shipped work and its proof.",
+      "Preview this social post and check the visual layout.",
+      "Publish this approved post and verify the platform link."
+    ],
+    "brandColor": "#386B76"
+  },
+  "apps": "./.app.json",
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "show-vs-tell-craft.evals.v1",
+  "cases": [
+    {
+      "id": "flat-forest",
+      "mode": "rewrite_to_show",
+      "input": "The forest was eerie and dangerous.",
+      "expected": ["flag abstract labels", "add sensory evidence", "preserve clarity"]
+    },
+    {
+      "id": "gm-sidebar",
+      "mode": "gm_sidebar",
+      "input": "The GM needs a sidebar explaining this location is like a fantasy DMV mixed with a theme park ticket booth.",
+      "expected": ["tell plainly", "gm-facing", "no poetic boxed text"]
+    },
+    {
+      "id": "corporate-shrine",
+      "mode": "table_read_aloud",
+      "input": "Write player-facing boxed text for a corporate shrine.",
+      "expected": ["show first", "no you feel", "short read aloud"]
+    },
+    {
+      "id": "rules-teaching",
+      "mode": "rewrite_to_tell",
+      "input": "Explain Daggerheart rules to new players during play.",
+      "expected": ["tell clearly", "only rule needed now", "no dramatized rules"]
+    },
+    {
+      "id": "door-over-showing",
+      "mode": "line_lint",
+      "input": "He approached the rectangular wooden barrier, grasped the cold metal sphere attached to it, rotated the sphere, and pulled.",
+      "expected": ["flag over-showing", "recommend direct telling"]
+    }
+  ]
+}
+

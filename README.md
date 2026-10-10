@@ -22,6 +22,8 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Explore data and explain a chart | [Data Visualization Toolkit](plugins/data-visualization-toolkit/) | Your dataset; Python for Data Explorer |
 | Choose an activity from your own collection | [Activities Templates](plugins/activities-templates/) | Python and an authorized activity catalog |
 | Find and hand off a verified design source | [Design Templates](plugins/design-templates/) | Python and your authorized template collection |
+| Draft and adapt source-grounded social content | [Social Content Studio](plugins/social-content-studio/) | Your source facts, voice and platform authorization |
+| Develop stories and prepare playable GM material | [Creative Toolkit](plugins/creative-writing-studio/) | A draft, canon notes or game brief; optional runtime dependencies are documented |
 | Test an argument or choose a reasoning framework | [Reasoning Studio](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |

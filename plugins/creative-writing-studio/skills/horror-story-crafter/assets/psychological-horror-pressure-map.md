@@ -1,0 +1,34 @@
+# Psychological-Horror Pressure Map
+
+- Viewpoint character and immediate non-horror objective:
+- Protected mental normal (memory, perception, identity, agency, belief, relationship, or meaning):
+- Why that normal matters now:
+- Feared forecast (evidence → outcome → protectable thing → condition):
+- Wider family, institutional, cultural, or technological pressure, if supported:
+- Dominant emotional pressure and protective strategy:
+- Ambivalent attachment or repeated ritual, including its real reward:
+- How that attachment changes meaning across time:
+- Worsening cost of repetition and cost of stopping:
+- Primary pressure mechanism:
+- Supporting mechanism, if needed:
+- Dominant style register:
+- Intended intensity and content boundaries:
+- Material anchor:
+- Relational anchor:
+- Procedural anchor:
+- Corrective feedback lost and costly route back to it:
+- First precise contradiction:
+- Safe and emotionally motivated explanation:
+- First test and expected result:
+- Actual result and rule revealed:
+- Recurring motif and how its meaning changes:
+- Countdown, erosion, or verification rhythm:
+- Dread, terror or recognition, and horror or aftermath movement:
+- Foreshadow, changed-context callback, and payoff:
+- Social or institutional response:
+- Cost of reliable evidence:
+- Adaptation in routine, language, tools, or relationship:
+- False recovery: retained gain, compromise, exposure, or dependency:
+- Threshold choice before certainty:
+- Immediate causal closure:
+- Persistent mental, relational, institutional, or moral residue:

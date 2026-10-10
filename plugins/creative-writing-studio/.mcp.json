@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "ttrpg-compass": {
+      "command": "python3",
+      "args": [
+        "scripts/ttrpg_compass_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "draw-think": {
+      "command": "python3",
+      "args": [
+        "scripts/draw_think_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "creative-atlas": {
+      "command": "python3",
+      "args": [
+        "scripts/atlas_library_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "package": "social-content-studio",
+  "version": "0.2.0",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Retained upstream grants and prior permissions are unchanged; new defaults apply only to author-owned contributions.",
+  "files": [
+    {
+      "path": ".app.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "51316fd85c9ee10eff069eb25a647d54bad5b778bfb209cd1367bf9ccc7acb52"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "25a6c7cae4e2761ef886bc44286e78c10d03fbe4ca6ac79ee4f1359f9a10832b"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "d376bd07d74a03a4f98beb645daba10a860b6e318880f57872f80079cf8bee14"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "78ecbc8203213b227292d610a3678b048f1134fb636b462f6a5918983caf1349"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "5b03ff3d2ad976458640332d0af5d7a3590ca3ab1ae9de0c06c09cc06563bd04"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a9499c7d6da560368810efa822f22bf64ceb0036922bf4b57e21205263481396"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "22797d7c039f49b6ea62209ede8bc657e7c11d502dceba3c7035631c9969a025"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0bb79fe08744cf4839b719311e15aee3fa09dc4db7ecd051838325e90bc8e7b3"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4a546f894d889b375109ced931b8238a9b7eb30346bd5b97385c5519a0c00988"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/linkedin-agent/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c"
+    },
+    {
+      "path": "libraries/linkedin-agent/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "425c040af0ad0c04721004bafae38e0a90cdbd78cd113759b4879b11ea35e9bd"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-audit/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "bdb5b12c699ca5d512b785f7168f8e494e020a1ff1195aaa9a58cd5b193c1bf2"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-carousel/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "fa1a8801e661ed83e55eb5c44e0810a773b490eac930bd3200d783d4bbd23094"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-comment/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "05bfb1fb28976d6ee5d50b31ec7c8d7fc13fba9db71257dc1dad2a0ffd21e071"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-plan/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "5799665246d1c47ab6b37840bd4f4f94700f24ff54ae4d3a1fbaf49b1cd71f9b"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-post/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "acfc8eadc47fee812f2dbaf8c97a93c313661d46963291bcbf8f154b065abee0"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-post/hooks.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "08988c9afae234199f51323c42baf2507101a4be2ba832384cf20f940972d712"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-reply/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "26f95e55f384ca2ec1b692d3f95d08d33796fea404db8740387aca15b1248751"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-repurpose/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "9524d3958f153d8be3d679a372c8cb5065e30653ed2a7bf4596e921b2baa39df"
+    },
+    {
+      "path": "library/source-procedures/INDEX.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "886321e4f679c0673a305ac84acd3f899d9ae0370b4552ba318836590b9938bf"
+    },
+    {
+      "path": "library/source-procedures/local/social-content-studio/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "00b86581cebba93be2610ea1780ddef07458514246aa472409c6325227028a6f"
+    },
+    {
+      "path": "library/source-procedures/local/social-content-studio/references/adoption-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7c8f46901cef74c913cb65f08d80b90eef91fccb320f47354bd36053b2c04016"
+    },
+    {
+      "path": "library/source-procedures/marketplace/blacktwist/content-repurposer/AGENTS.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "ef62ad9bb591b448f55f9c3ed4716f5881d19b6d503570b2de0930e79e4fe1a0"
+    },
+    {
+      "path": "library/source-procedures/marketplace/blacktwist/content-repurposer/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "3f23da352b4bb86d77ac2bf9c7e57c205d12d5c8dbb47c27075f379cdbc90f98"
+    },
+    {
+      "path": "library/source-procedures/marketplace/blacktwist/content-repurposer/PROVENANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "83da359e693cee53958e551bef946f1ffb1a3befc37d5603d43cdc142169872b"
+    },
+    {
+      "path": "library/source-procedures/marketplace/blacktwist/content-repurposer/README.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "029273b206a2898a3cc76a0fe328cfc45db47ba10592c8bc611e9d1d92d0c73c"
+    },
+    {
+      "path": "library/source-procedures/marketplace/blacktwist/content-repurposer/skills/content-repurposer-sms/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "5e4a4b04f4b48dd448800ae74396d94521b37545dffa1df762988653d2d66b59"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "452f9c84556b3fb59f39c76c943c268565f658928008d5dd6346cfe1275c6bcb"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8659337093654311fdaddf51e34a0899ac084f5f7b6c188fed3d09979e6a5dfe"
+    },
+    {
+      "path": "references/professional-agents/social-content-producer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c296e6e937f3aaf9924bc4e5068f0a57ea60f82d145f2b24a05fb0924317cb71"
+    },
+    {
+      "path": "references/professional-agents/social-media-manager.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5a97ddd4791fc4068471b4809ed982086ea3485779526d1942cc32f67fd7ac16"
+    },
+    {
+      "path": "references/social-methods/account-learning.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "414a114f349289dca2b49a7886ebef3f22501319957f6dbe10f778ea2c868d09"
+    },
+    {
+      "path": "references/social-methods/channel-adaptation-rules.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aa811afca1d88d5c28a52b1bdc85e7ec6f01185d403f5b263ef70cd80dd5f88a"
+    },
+    {
+      "path": "references/social-methods/clip-batch-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a95ecce67ca047c267e9447fb3765bf455c24061f4e38b1190ceb3e03ae0c8b0"
+    },
+    {
+      "path": "references/social-methods/content-matrix.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c9e466215f4bb42bf7c72fad290aa5daeb8fe5d2d6f20f333e9f5599a77ae46d"
+    },
+    {
+      "path": "references/social-methods/hook-formulas.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "77788f66c90b8de99f86882031d3fd55762b58023886218cc6d6e2c1eade6385"
+    },
+    {
+      "path": "references/social-methods/linkedin-documents-and-reuse.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "52bf5fd5504736fa6e48373a907987d8ff5df476e39df9f067148554c6081793"
+    },
+    {
+      "path": "references/social-methods/linkedin-engagement.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "74c67bb99dce72cc22f6b174df34c2152a663531fc031b77383e9a0a83f6cc7f"
+    },
+    {
+      "path": "references/social-methods/linkedin-performance.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "b0a0d611adcef685990f5710e893eb8900a5d43023bd53a339959c3b761249a0"
+    },
+    {
+      "path": "references/social-methods/linkedin-planning.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "f266a18d66c13401968944c967afbd34d7a1f1ee06205070fafbb42aa6ef760c"
+    },
+    {
+      "path": "references/social-methods/linkedin-trend-research.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "5bc7ca7d80ff62d6036bc865e8903d505243854e5052f8864c739dc245a58656"
+    },
+    {
+      "path": "references/social-methods/linkedin-writing.md",
+      "category": "mixed-adaptation",
+      "license": "CC-BY-SA-4.0 for author additions; upstream MIT retained",
+      "sha256": "6307209a132041e91f5bbf5faf104e32087118102cb647394705416b88d1c639"
+    },
+    {
+      "path": "references/social-methods/operating-boundaries.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ea510b646d628da27d7515f93152faee5f1c710eaba80d386eeed2479067e833"
+    },
+    {
+      "path": "references/social-methods/output-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a0779d64bdd37acd62d61307ba89086bde606c9b0b1b38d4079313a299156682"
+    },
+    {
+      "path": "references/social-methods/platform-content-cycles.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2e0dda0200a098c7a544226ca136dc92ec5395d74a973bde45a891df7f0e99ea"
+    },
+    {
+      "path": "references/social-methods/platform-coverage.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "74f5f4c44902f8f38ca2c19cb31e2440e3d99adbb3c35963a9b057dee1e930b1"
+    },
+    {
+      "path": "references/social-methods/post-draft-gate.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c7b2a76d463998a6422d286f8e7c285dd41acb9a118bd5baa03e6cde274bdf32"
+    },
+    {
+      "path": "references/social-methods/provider-social-prose.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8bcac7acfef697faf96d5765f855e0b2c01fd257758b56a051252877cfcdbde3"
+    },
+    {
+      "path": "references/social-methods/public-proof-campaign.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d581dda779002c17552eff2a7d875d4496f2fad580c6b0aaaad9865f22e3f30d"
+    },
+    {
+      "path": "references/social-methods/publishing-ecosystem.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e07dee2a0534fa6d4a4c49b3c8318828ead814040bd413a85a221a6b213069d1"
+    },
+    {
+      "path": "references/social-methods/runtime-gates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "66f29f140886ba87702f755d2ce1bf11b51e7e0fdf5b6ff6240796cbf75e0c83"
+    },
+    {
+      "path": "references/social-methods/scoring-and-linting.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "80afc647d7a5b78cca4564ac99304283bf7ab2419a7581e233d2a1c1b7156933"
+    },
+    {
+      "path": "references/social-methods/source-to-derivative.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "417d8d3cb46132db112b827de88a1ac7a12231c96455aac6cd7ebac084616bdc"
+    },
+    {
+      "path": "references/social-methods/use-this-skill-when.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cabcaed90ee9174d5065533db6dc5992ed82a479902a97f5a31611cb5ff4b91b"
+    },
+    {
+      "path": "references/social-methods/voice-files.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5fd89393be4847a502fb53982d5d1e101a82911ea436447886e7937b814b63f5"
+    },
+    {
+      "path": "references/social-methods/workflow-router.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "152cf630422e7e5c7f18ca2ffc5699698358187b3aaa97eb703a6ca74e0944d3"
+    },
+    {
+      "path": "references/templates/linkedin-analytics.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "5cbe046b6a527c64fe8ab60f816e0de268ca3c9dea2443ca9cc6f3941a398e2c"
+    },
+    {
+      "path": "skills/channel-adaptation/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e887a979e68ee9c7b0716f1c180dcc7b93890b48f9c79bb5bf61be050ca37e27"
+    },
+    {
+      "path": "skills/channel-adaptation/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "92211faefb6b1ab9ff65b7a355951836a6f1438a11b11dbffb71ec76cc60e6df"
+    },
+    {
+      "path": "skills/content-calendar/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7f3eb977454376f7081c87cdc7028a161fe05cfd0a13d4683448d87dc15f6756"
+    },
+    {
+      "path": "skills/content-calendar/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "22e4e7bdb63048165580b629ea54b72b1c3d2fc30702f3488d07be851bbddc4a"
+    },
+    {
+      "path": "skills/content-calendar/scripts/linkedin_metrics.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "e56b8c510e98c3fbe0d1a0ac692b797d57a989305ab13ff01a177cbcc741c961"
+    },
+    {
+      "path": "skills/professional-social-proof/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "553c1811fc738107c03807b9e9e3857bea0a7ad750c9dbddde0d91b98a598b19"
+    },
+    {
+      "path": "skills/professional-social-proof/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b998316cb4f2bf9c7b220d5a9f6bbc36fef5f60db8e6938be30c6eab7040302f"
+    },
+    {
+      "path": "skills/short-form-video/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "21488406ee6c39e6c73e11d7d3c268f808e9080eb0a8587dcc75f940883d2f4c"
+    },
+    {
+      "path": "skills/short-form-video/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e93bb218993a7855d8b0edc18e09b9aaf7104858d22a87a9ce3b11ecfc202e07"
+    },
+    {
+      "path": "skills/social-content/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aa5e1e38cb204269aace21b8e3debe1d810645cef889d77524682970758ba941"
+    },
+    {
+      "path": "skills/social-content/references/adoption-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "09f6fdf18190f762f875961627c6107a99440f19e4eede80885420d779585090"
+    },
+    {
+      "path": "skills/social-content/references/social-post-preview.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c119fea16b5aac45244a91f733dca2f7f4a959d913c39f368ebc0422424b2ce2"
+    },
+    {
+      "path": "skills/social-editorial-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b2345dcf7a8be653cfb6e817540247a7cbe15780c53a4c2b6b882a3c714d2e5c"
+    },
+    {
+      "path": "skills/social-editorial-review/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "06159b784383f3924170d5bfa51e7ed2b25d58411af221b1e4060e75e698a172"
+    },
+    {
+      "path": "skills/social-preview/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "883c138954577e3811d348f081e1c3c946c83a13e319617a283e924e090dc99f"
+    },
+    {
+      "path": "skills/social-preview/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f24cea2dadf7280afa727b4177dd474c9204ae3036ee136576829a17bf33f41b"
+    },
+    {
+      "path": "skills/social-publishing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b46d1170485426f7ac4ff31f2f059c9dec05cb1b072907cf46d58869c4b71cc3"
+    },
+    {
+      "path": "skills/social-publishing/references/substack-publishing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3ed35bba547e8024a5f3f7d55e86ce08a4bf1e8ccddae00408dfa8532b8655a4"
+    },
+    {
+      "path": "skills/social-publishing/references/tiktok-manual-publishing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "858bbe59ceb887c77d3589e4d15945bc8162993d65549bcd72e7ebe9d505bb27"
+    },
+    {
+      "path": "skills/social-publishing/references/youtube-catalog-packaging.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "16075953b8caec6e1f9e8f562a2b0131304c25fc53c4da029bb1d1f9a202bbc4"
+    },
+    {
+      "path": "skills/social-publishing/references/youtube-linkedin-scheduling.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "db5f6d01147eec1ee655453c93b1e1614b59e4ef532c5322e7cc9df9fc5fe084"
+    },
+    {
+      "path": "skills/social-publishing/scripts/inspect_queue.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "8e9e1bd2e2c2ab4a67d4b43dc835418df3dc1c4b400e07104bed2ece40f9c582"
+    },
+    {
+      "path": "skills/social-publishing/scripts/tests/test_inspect_queue.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "c04efa22996ef5277c2bc96e7ec6225c85ddf565e04e4fde2226dd0121358187"
+    },
+    {
+      "path": "tests/test_linkedin_metrics.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "fdfd83da75d787b9c2ce4cbd7403673b7f3a155ee6cd85856eab0927f65a75c1"
+    }
+  ]
+}

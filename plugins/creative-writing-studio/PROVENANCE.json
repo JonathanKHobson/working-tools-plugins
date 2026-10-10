@@ -1,0 +1,1501 @@
+{
+  "schema_version": 1,
+  "package": "creative-writing-studio",
+  "version": "0.3.0",
+  "source_owner": "creative-writing-studio",
+  "source_revision": "Canonical source has no enclosing Git checkout; baseline archive and per-file SHA256 identify original source.",
+  "source_tree_sha256": "595be9b64e427467f8906955b5deb0152f85190686caf46c41ec52a7a0dba144",
+  "original_source_files": 153,
+  "current_files_excluding_inventories": 165,
+  "operative_heads": 9,
+  "excluded_external_source": [
+    {
+      "source_relative": "library/source-procedures/marketplace/aihumanizer/creative-writing/SKILL.md",
+      "source_sha256": "830f24dbc62deef4df1537c9bad5e51c3a8af8868a959e0423b8b551fd4c96d6",
+      "replacement": "Receiver installs aihumanizer@openai-curated-remote and invokes aihumanizer:creative-writing."
+    }
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "output_sha256": "d07f3a337ac2853017e0592e2dd7a8596881f5dfa6fa9f4ccd72b718cc2a96ec",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "output_sha256": "70197bab281e45b019eaf8448a5d7e1e65bb775f8d1582e9df6fe4de7a9510d8",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "752ae41600679dcd52dd9bc870aa57ec14f1c7c69a28702ac720d9b35c4c44be",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": ".mcp.json",
+      "output_sha256": "5e158f6b8af6cc0a4b8ab57db862d044bc332e895665100fbdcd1835ef0ed635",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "source_relative": ".mcp.json",
+      "source_sha256": "3b4ef0bd951e10e46cd94b14d1071801fa89c4290e195aa295cf52b4f90d8310",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "LICENSE",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "b401144319d720bd5febd408911d24fe779773d6090e034ab6b6154972a49b67",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "0c64532eeb9151e40eb1ef7269dee5cb603a4893b9f230c6cedba4ba34839e70",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "README.md",
+      "output_sha256": "047b558f0e19f312cda02464a20809d7bf9d30b06c0031cafa6d897cf593f71b",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "README.md",
+      "source_sha256": "188b8ef10f24e9bb115c8d4d3798789595188142753411b3f4503071669963ab",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "output_sha256": "6ccf8276ba1dfd9f0bce7f0e19ce6a258b7a1f8364970df0978e46b5248824be",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "output_sha256": "6d03cb108a71dd9a8a31b299eebd5a905e78d769269728a08a4732c33f33bda8",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "docs/project-map.md",
+      "output_sha256": "a9de9eb21164c9874d1be01c0aca52e817bd6a494b07c45b699fc2013616abab",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "573e86e6a92982f190955b4e2cac420c61b7649496207a179fdab136dfecf3b2",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "docs/source-to-target.md",
+      "output_sha256": "30aa9abdf72edfdca21d6b5c40c44430fcb0c662e104113da0faef382fd2728e",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/source-to-target.md",
+      "source_sha256": "ec0b590fb0f0fd4d24406cbf7cd818382f90664b3906369e6ea0ba8de768deb5",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "output_sha256": "84f885082f2910daf822d240e8a94fb242b57f15d567d399a64c246e5d018e72",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/use-case-map.md",
+      "source_sha256": "84f885082f2910daf822d240e8a94fb242b57f15d567d399a64c246e5d018e72"
+    },
+    {
+      "path": "docs/validation.md",
+      "output_sha256": "88cf838e0a28595ae26205a0a9350ecf52d5c9a6532b6ef157cbc79f3542e872",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/validation.md",
+      "source_sha256": "ae339513f26786e97353d2dd754ff36366052d655a795525072a082a88020d86",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "examples/runtime-bindings/atlas-library.json",
+      "output_sha256": "de28c92b347da54f87bdc7d910cb1f023f4c17ab87862fc23dc37b75119d749d",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "examples/runtime-bindings/compass.json",
+      "output_sha256": "e84d26ffa3101348f2b9501d1e8c8dc4ed40047d0073dfd6ded73e2f90a727b3",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "examples/runtime-bindings/draw-think.json",
+      "output_sha256": "f9710378d623484a3ec079118c11e01f36195f3f40aaeff8b7a0ccd239581e34",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "libraries/gm-apprentice-clue-audit/LICENSE",
+      "output_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0 for original GM Apprentice source and adaptation",
+      "source_relative": "libraries/gm-apprentice-clue-audit/LICENSE",
+      "source_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "path": "libraries/gm-apprentice-clue-audit/clue-redundancy.original.md",
+      "output_sha256": "bdeb5b125448cc2977a8b18cf7e7df37716a252ba48fe1d9408e2348b3da271e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0 for original GM Apprentice source and adaptation",
+      "source_relative": "libraries/gm-apprentice-clue-audit/clue-redundancy.original.md",
+      "source_sha256": "bdeb5b125448cc2977a8b18cf7e7df37716a252ba48fe1d9408e2348b3da271e"
+    },
+    {
+      "path": "libraries/novelist/HOST-ADAPTER.md",
+      "output_sha256": "82d1b534062b5b64b6a895b8b4526072a04a3c9f805d4b38041de83309181342",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/HOST-ADAPTER.md",
+      "source_sha256": "82d1b534062b5b64b6a895b8b4526072a04a3c9f805d4b38041de83309181342"
+    },
+    {
+      "path": "libraries/novelist/LICENSE",
+      "output_sha256": "88b9a14391d40016e79135d201f277885eabf9b5388279a3ea0a4270e708c109",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/LICENSE",
+      "source_sha256": "88b9a14391d40016e79135d201f277885eabf9b5388279a3ea0a4270e708c109"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/AGENTS.md",
+      "output_sha256": "b89f260d18f9d20e1d9fc2fd5a203a30696acd5559e41e66ae093145f9695b8b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/AGENTS.md",
+      "source_sha256": "b89f260d18f9d20e1d9fc2fd5a203a30696acd5559e41e66ae093145f9695b8b"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/CLAUDE.md",
+      "output_sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/CLAUDE.md",
+      "source_sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/README.md",
+      "output_sha256": "d1ce98fa734b9926dc75a7fc21b1d2a7627208831dd4ea380e1f0dcc24c038eb",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/README.md",
+      "source_sha256": "d1ce98fa734b9926dc75a7fc21b1d2a7627208831dd4ea380e1f0dcc24c038eb"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/assets/cover/.gitkeep",
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/assets/cover/.gitkeep",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/assets/illustrations/.gitkeep",
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/assets/illustrations/.gitkeep",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/chapters/_template.md",
+      "output_sha256": "828d0ff7fa97817396d20cd8a689f266960281a8dd8d68d6e27b3bbf0b9ca142",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/chapters/_template.md",
+      "source_sha256": "828d0ff7fa97817396d20cd8a689f266960281a8dd8d68d6e27b3bbf0b9ca142"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/characters/_template.md",
+      "output_sha256": "abe06444cd0c8e7528bbd11f3689f0951034636a976aa3288c31806bbf2b6cb6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/characters/_template.md",
+      "source_sha256": "abe06444cd0c8e7528bbd11f3689f0951034636a976aa3288c31806bbf2b6cb6"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/macguffins/_template.md",
+      "output_sha256": "88e8cf2471716726354a985660bac9e783b3bc3aa99d0ef28eea94bce8ba9021",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/macguffins/_template.md",
+      "source_sha256": "88e8cf2471716726354a985660bac9e783b3bc3aa99d0ef28eea94bce8ba9021"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/materials/_template.md",
+      "output_sha256": "e8b4c2acf017ed7694b7b9738df3db2fcb3a60a063f0283d4b79b962cfa0f389",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/materials/_template.md",
+      "source_sha256": "e8b4c2acf017ed7694b7b9738df3db2fcb3a60a063f0283d4b79b962cfa0f389"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/outlines/000.master-outline.md",
+      "output_sha256": "a6bf6422083512eb0bb7fd48610e17d18cbddff266ddd97c9b5bcf0a1ba91332",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/outlines/000.master-outline.md",
+      "source_sha256": "a6bf6422083512eb0bb7fd48610e17d18cbddff266ddd97c9b5bcf0a1ba91332"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/outlines/_chapter-outline-template.md",
+      "output_sha256": "183b074c0f009446a27fc057e564e488b3dadb4bf04134209aca2f8c62b8e897",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/outlines/_chapter-outline-template.md",
+      "source_sha256": "183b074c0f009446a27fc057e564e488b3dadb4bf04134209aca2f8c62b8e897"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/plot/000.master-plot.md",
+      "output_sha256": "eb13269c21ed333cef7751f51be057a38b90b74cb8d5c6cdec26fdb55c0b2b51",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/plot/000.master-plot.md",
+      "source_sha256": "eb13269c21ed333cef7751f51be057a38b90b74cb8d5c6cdec26fdb55c0b2b51"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/plot/_template.md",
+      "output_sha256": "462a4639e10ce72b6a3232eca96503dce6e6800a4dd5d2db3c09e85735b168c2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/plot/_template.md",
+      "source_sha256": "462a4639e10ce72b6a3232eca96503dce6e6800a4dd5d2db3c09e85735b168c2"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/project.md",
+      "output_sha256": "36c4d33d7b908b40a33a6f7adb5875bdc4a0d6b2ddc257050088b90907f4f7dc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/project.md",
+      "source_sha256": "36c4d33d7b908b40a33a6f7adb5875bdc4a0d6b2ddc257050088b90907f4f7dc"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/published/.gitignore",
+      "output_sha256": "c22d89e73b4f77ab2587bedffd428f7bfb6f6f68e240ca0ef71200154a6661a0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/published/.gitignore",
+      "source_sha256": "c22d89e73b4f77ab2587bedffd428f7bfb6f6f68e240ca0ef71200154a6661a0"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/published/README.md",
+      "output_sha256": "3b43f2243274027437221ac360d079610ae19362913a53bf358d75a49edd9108",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/published/README.md",
+      "source_sha256": "3b43f2243274027437221ac360d079610ae19362913a53bf358d75a49edd9108"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/style/000.style-guide.md",
+      "output_sha256": "4a0240e326d76ec3e5e82ebbadc9129e5f25b61d2744222d1e3c79219354181d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/style/000.style-guide.md",
+      "source_sha256": "4a0240e326d76ec3e5e82ebbadc9129e5f25b61d2744222d1e3c79219354181d"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/style/visual-style-guide.md",
+      "output_sha256": "6771caa090e3d525ec98f981c5763c3991a5a0b616347eac917fa55fbfcb1e24",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/style/visual-style-guide.md",
+      "source_sha256": "6771caa090e3d525ec98f981c5763c3991a5a0b616347eac917fa55fbfcb1e24"
+    },
+    {
+      "path": "libraries/novelist/assets/scaffold/world/_template.md",
+      "output_sha256": "55728b1c3e3ee678d8fd4ae38e863a3e3d7226a81e79b895fb93a0a741ca7cdb",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/assets/scaffold/world/_template.md",
+      "source_sha256": "55728b1c3e3ee678d8fd4ae38e863a3e3d7226a81e79b895fb93a0a741ca7cdb"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/SKILL.md",
+      "output_sha256": "160a2189359a22167eec813b2731c1966abf83afe7243c3ee1322efc0feeb46d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/SKILL.md",
+      "source_sha256": "160a2189359a22167eec813b2731c1966abf83afe7243c3ee1322efc0feeb46d"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/agents/openai.yaml",
+      "output_sha256": "6038eb2534ca7d7494d9f4cca9e6fd558c7984ec6868cfc9864f9be9829270f1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/agents/openai.yaml",
+      "source_sha256": "6038eb2534ca7d7494d9f4cca9e6fd558c7984ec6868cfc9864f9be9829270f1"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/references/report-contract.md",
+      "output_sha256": "fed46fe723f486e26fa4f560df738ef9662e7563cec1af7f33237e002bbdf833",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/references/report-contract.md",
+      "source_sha256": "fed46fe723f486e26fa4f560df738ef9662e7563cec1af7f33237e002bbdf833"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/references/review-method.md",
+      "output_sha256": "ecb7f216277da3bc7420d665956c027cfafa4bbad5ce5e7d20a32fd9abe65bbc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/references/review-method.md",
+      "source_sha256": "ecb7f216277da3bc7420d665956c027cfafa4bbad5ce5e7d20a32fd9abe65bbc"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/references/review-modes.md",
+      "output_sha256": "fc3eae72826d3e1ac65fbd38bec5787a217bf4eb1e90c13aedc9e730e5537936",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/references/review-modes.md",
+      "source_sha256": "fc3eae72826d3e1ac65fbd38bec5787a217bf4eb1e90c13aedc9e730e5537936"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/scripts/inventory_review.py",
+      "output_sha256": "f34b180bd9016543f8b5c2226030ecc6a5285e6e55bc9e28178d57588193b8ae",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/scripts/inventory_review.py",
+      "source_sha256": "f34b180bd9016543f8b5c2226030ecc6a5285e6e55bc9e28178d57588193b8ae"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/tests/test_inventory_review.py",
+      "output_sha256": "5e496c5bce785192a0066c20a427c4aaa74c79594237ad598d1f2aa40f35724e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/tests/test_inventory_review.py",
+      "source_sha256": "5e496c5bce785192a0066c20a427c4aaa74c79594237ad598d1f2aa40f35724e"
+    },
+    {
+      "path": "libraries/novelist/skills/analytical-review/tests/test_skill_contract.py",
+      "output_sha256": "729b65e4f6e138e102a7b557aff4d82ccece265bd9051dc7778a74a32d8f36ab",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/analytical-review/tests/test_skill_contract.py",
+      "source_sha256": "729b65e4f6e138e102a7b557aff4d82ccece265bd9051dc7778a74a32d8f36ab"
+    },
+    {
+      "path": "libraries/novelist/skills/create-character/SKILL.md",
+      "output_sha256": "c4cb8e0f987fc5e6139bd6d7deff5acc99408e5502a38c00eccd0da1d252becb",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-character/SKILL.md",
+      "source_sha256": "c4cb8e0f987fc5e6139bd6d7deff5acc99408e5502a38c00eccd0da1d252becb"
+    },
+    {
+      "path": "libraries/novelist/skills/create-character/agents/openai.yaml",
+      "output_sha256": "3a6a13cfad628fa47cfe032e552eb2dd4eb5363d77a6d90f8f77548ea5807ff1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-character/agents/openai.yaml",
+      "source_sha256": "3a6a13cfad628fa47cfe032e552eb2dd4eb5363d77a6d90f8f77548ea5807ff1"
+    },
+    {
+      "path": "libraries/novelist/skills/create-character/scripts/write_character.py",
+      "output_sha256": "91533c05f251c110194d13d543326f001f59da49057a37b8829f62f711f042c6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-character/scripts/write_character.py",
+      "source_sha256": "91533c05f251c110194d13d543326f001f59da49057a37b8829f62f711f042c6"
+    },
+    {
+      "path": "libraries/novelist/skills/create-material/SKILL.md",
+      "output_sha256": "01f0edba07c3fb90a7678da5501e686e2bd4bf23218b30c5b90c38716cd40728",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-material/SKILL.md",
+      "source_sha256": "01f0edba07c3fb90a7678da5501e686e2bd4bf23218b30c5b90c38716cd40728"
+    },
+    {
+      "path": "libraries/novelist/skills/create-material/agents/openai.yaml",
+      "output_sha256": "fa70070b46cd75d1170902b670bfd66271e1e1755689d34757554ca9332751e0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-material/agents/openai.yaml",
+      "source_sha256": "fa70070b46cd75d1170902b670bfd66271e1e1755689d34757554ca9332751e0"
+    },
+    {
+      "path": "libraries/novelist/skills/create-material/scripts/write_material.py",
+      "output_sha256": "5c23cffb9d5c2cc7b588a376bd2960a934e8b707815f906b022e2d11b8c9f051",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-material/scripts/write_material.py",
+      "source_sha256": "5c23cffb9d5c2cc7b588a376bd2960a934e8b707815f906b022e2d11b8c9f051"
+    },
+    {
+      "path": "libraries/novelist/skills/create-novel-project/SKILL.md",
+      "output_sha256": "c2b264155b99a53c00f6a0dbe7d0269afc499e6b3ec353f69f4db4504bb7e82c",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-novel-project/SKILL.md",
+      "source_sha256": "c2b264155b99a53c00f6a0dbe7d0269afc499e6b3ec353f69f4db4504bb7e82c"
+    },
+    {
+      "path": "libraries/novelist/skills/create-novel-project/agents/openai.yaml",
+      "output_sha256": "46f6b412453f7aa949339423f1aa7fea0c2e93415ccb90ea25cfab4fb2249efa",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-novel-project/agents/openai.yaml",
+      "source_sha256": "46f6b412453f7aa949339423f1aa7fea0c2e93415ccb90ea25cfab4fb2249efa"
+    },
+    {
+      "path": "libraries/novelist/skills/create-novel-project/scripts/create_novel_project.py",
+      "output_sha256": "2c13257af867865100ae4e9bcc70b21c135ad66c119beded99d5f2042185295b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-novel-project/scripts/create_novel_project.py",
+      "source_sha256": "2c13257af867865100ae4e9bcc70b21c135ad66c119beded99d5f2042185295b"
+    },
+    {
+      "path": "libraries/novelist/skills/create-novel-project/tests/test_create_novel_project.py",
+      "output_sha256": "bd348de276c7676b06c0b3b43578db801247212b960d592c047122f29ed9e509",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-novel-project/tests/test_create_novel_project.py",
+      "source_sha256": "bd348de276c7676b06c0b3b43578db801247212b960d592c047122f29ed9e509"
+    },
+    {
+      "path": "libraries/novelist/skills/create-plot/SKILL.md",
+      "output_sha256": "dd0d0a3af835a3a64961a6b8e211c51499f24778d0b1bf3f7dbda03582983193",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-plot/SKILL.md",
+      "source_sha256": "dd0d0a3af835a3a64961a6b8e211c51499f24778d0b1bf3f7dbda03582983193"
+    },
+    {
+      "path": "libraries/novelist/skills/create-plot/agents/openai.yaml",
+      "output_sha256": "f650414347ee8d92fa437bb0315dfc2c266b1efe16638956d20dd86a26943158",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-plot/agents/openai.yaml",
+      "source_sha256": "f650414347ee8d92fa437bb0315dfc2c266b1efe16638956d20dd86a26943158"
+    },
+    {
+      "path": "libraries/novelist/skills/create-plot/scripts/write_plot.py",
+      "output_sha256": "910b0188dacdf357a6d2f91da96516be49a11351a253027260380802dd58583f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-plot/scripts/write_plot.py",
+      "source_sha256": "910b0188dacdf357a6d2f91da96516be49a11351a253027260380802dd58583f"
+    },
+    {
+      "path": "libraries/novelist/skills/create-setting/SKILL.md",
+      "output_sha256": "e667bb96b6aaec91f07f31abf414fa6816ae77eb2b25211cc8a55e74fd047d81",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-setting/SKILL.md",
+      "source_sha256": "e667bb96b6aaec91f07f31abf414fa6816ae77eb2b25211cc8a55e74fd047d81"
+    },
+    {
+      "path": "libraries/novelist/skills/create-setting/agents/openai.yaml",
+      "output_sha256": "5bb6a82628133f77a72ad616945349282f662a06a46c0c19993c553953bb195d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-setting/agents/openai.yaml",
+      "source_sha256": "5bb6a82628133f77a72ad616945349282f662a06a46c0c19993c553953bb195d"
+    },
+    {
+      "path": "libraries/novelist/skills/create-setting/scripts/write_setting.py",
+      "output_sha256": "eca17e06d0968be2e025b000da57ae1679dfc724699b675d2b6c0a1392c7cb0e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-setting/scripts/write_setting.py",
+      "source_sha256": "eca17e06d0968be2e025b000da57ae1679dfc724699b675d2b6c0a1392c7cb0e"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/SKILL.md",
+      "output_sha256": "60a73719cf92400766196cc976b560a09719304dcae50e8daa03bec99c32defb",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/SKILL.md",
+      "source_sha256": "ac0631795159b067752202089029813e9d9ea51a42de13834899c5193e78830b",
+      "transformation": "Portability or method-reference correction; retained operative method."
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/agents/openai.yaml",
+      "output_sha256": "01277d57ada9ace26d9a449d553a285bf0505e4a1d43418daf83f835172c4fb2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/agents/openai.yaml",
+      "source_sha256": "01277d57ada9ace26d9a449d553a285bf0505e4a1d43418daf83f835172c4fb2"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/references/antigravity-image-generation.md",
+      "output_sha256": "8dcfcf32b1ebed70d86dc763744248b23d3851192015472a390e8b8cd5a6e6c1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/references/antigravity-image-generation.md",
+      "source_sha256": "8dcfcf32b1ebed70d86dc763744248b23d3851192015472a390e8b8cd5a6e6c1"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/references/claude-image-generation.md",
+      "output_sha256": "e33b092d3369810fb057e628e2549caf4cecb6e6b1bd51d05564397416ef4065",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/references/claude-image-generation.md",
+      "source_sha256": "e33b092d3369810fb057e628e2549caf4cecb6e6b1bd51d05564397416ef4065"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/references/codex-image-generation.md",
+      "output_sha256": "be331794eab40eb26a1dcb8a5ad37977e0298b5804961ebdb8f34517b4d1c8ce",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/references/codex-image-generation.md",
+      "source_sha256": "be331794eab40eb26a1dcb8a5ad37977e0298b5804961ebdb8f34517b4d1c8ce"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/references/external-image-provider.md",
+      "output_sha256": "aa6a33d73b1f6fde01b06f36d37c492484139c0bffbc6e24ed7328cb2ad9731c",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/references/external-image-provider.md",
+      "source_sha256": "aa6a33d73b1f6fde01b06f36d37c492484139c0bffbc6e24ed7328cb2ad9731c"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/scripts/invoke_image_provider.py",
+      "output_sha256": "ba783411f2d3fca3c5f76e597a588a01ae519b4afe90d2d19914223f0cbf388b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/scripts/invoke_image_provider.py",
+      "source_sha256": "ba783411f2d3fca3c5f76e597a588a01ae519b4afe90d2d19914223f0cbf388b"
+    },
+    {
+      "path": "libraries/novelist/skills/create-visual-asset/tests/test_invoke_image_provider.py",
+      "output_sha256": "e339acdd2d784c16e9765e8f402d10696edc92ea8e9563e71828fe284b835fc6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/create-visual-asset/tests/test_invoke_image_provider.py",
+      "source_sha256": "e339acdd2d784c16e9765e8f402d10696edc92ea8e9563e71828fe284b835fc6"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/SKILL.md",
+      "output_sha256": "847f60e41b18735dae63c853ff429bddb9e0f92efc082dc7a5a76e7855981408",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/SKILL.md",
+      "source_sha256": "847f60e41b18735dae63c853ff429bddb9e0f92efc082dc7a5a76e7855981408"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/agents/openai.yaml",
+      "output_sha256": "381c97a73bd5f3b0a063349ba84bcd93735eddf2204028a58368175a1b97768a",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/agents/openai.yaml",
+      "source_sha256": "381c97a73bd5f3b0a063349ba84bcd93735eddf2204028a58368175a1b97768a"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/drama.md",
+      "output_sha256": "434d0505dd713df3aff451f1e70d8058a1de66586c69ed86f25a5bd9b3676dde",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/drama.md",
+      "source_sha256": "434d0505dd713df3aff451f1e70d8058a1de66586c69ed86f25a5bd9b3676dde"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/mystery.md",
+      "output_sha256": "9345b363ca7bf23572e8e5fdbcfef9d4ee23135c66b59bbd66f298a424b013f2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/mystery.md",
+      "source_sha256": "9345b363ca7bf23572e8e5fdbcfef9d4ee23135c66b59bbd66f298a424b013f2"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/romantic-entanglement.md",
+      "output_sha256": "c0a2810fb319d099685736c83999f629a201794980aa69db8da717ab2ea8d8cf",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/romantic-entanglement.md",
+      "source_sha256": "c0a2810fb319d099685736c83999f629a201794980aa69db8da717ab2ea8d8cf"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/science-fiction.md",
+      "output_sha256": "a84fa8094de6b0a050b49ff1dc48dfe53a612728c9062b2489bd54c0198af3d1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/science-fiction.md",
+      "source_sha256": "a84fa8094de6b0a050b49ff1dc48dfe53a612728c9062b2489bd54c0198af3d1"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/story-flow.md",
+      "output_sha256": "04eeedbf42730388a9d828243ad35996b9e88f2ec0a991b59805c3716fb51f56",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/story-flow.md",
+      "source_sha256": "04eeedbf42730388a9d828243ad35996b9e88f2ec0a991b59805c3716fb51f56"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/time-travel-and-loop.md",
+      "output_sha256": "fa9230b8de7487256939f4af854a81686aa7794014c84bf59dde615a2c5e47a8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/time-travel-and-loop.md",
+      "source_sha256": "fa9230b8de7487256939f4af854a81686aa7794014c84bf59dde615a2c5e47a8"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/references/wuxia.md",
+      "output_sha256": "ff2b1fabf1dab932b3c5a0c8f5f72b4ee60f2f3d7568e86c70e822f7f0c98a89",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/references/wuxia.md",
+      "source_sha256": "ff2b1fabf1dab932b3c5a0c8f5f72b4ee60f2f3d7568e86c70e822f7f0c98a89"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/scripts/build_story_context.py",
+      "output_sha256": "aad8a338258efff3b17e62fe3cdb1615efbe5dffcadc7b1d048961e6f0f67cde",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/scripts/build_story_context.py",
+      "source_sha256": "aad8a338258efff3b17e62fe3cdb1615efbe5dffcadc7b1d048961e6f0f67cde"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/scripts/check_continuity.py",
+      "output_sha256": "b32c88da50a0de7ea3264a2192df11132cf0af604fa6b25c0b0e81f328413e5d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/scripts/check_continuity.py",
+      "source_sha256": "b32c88da50a0de7ea3264a2192df11132cf0af604fa6b25c0b0e81f328413e5d"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/scripts/story_io.py",
+      "output_sha256": "21e878fa055cc98cbf737545190d8e691f0c8067ed1187800f78cda04b7f75be",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/scripts/story_io.py",
+      "source_sha256": "21e878fa055cc98cbf737545190d8e691f0c8067ed1187800f78cda04b7f75be"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/scripts/update_story_ledger.py",
+      "output_sha256": "2c0ed9e759f8f0b8f9e4948295e637e6a9f6efd85acedcdaa1208ee932773393",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/scripts/update_story_ledger.py",
+      "source_sha256": "2c0ed9e759f8f0b8f9e4948295e637e6a9f6efd85acedcdaa1208ee932773393"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/scripts/write_chapter.py",
+      "output_sha256": "59c4b0600d4a261cff705a408fa722155bd43c510e086fa64239884de741b6aa",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/scripts/write_chapter.py",
+      "source_sha256": "59c4b0600d4a261cff705a408fa722155bd43c510e086fa64239884de741b6aa"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/tests/test_chapter_markup.py",
+      "output_sha256": "8b92025747db472e43fd234a3e8690168b9e69e0896dd1187aae9572605ef78f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/tests/test_chapter_markup.py",
+      "source_sha256": "8b92025747db472e43fd234a3e8690168b9e69e0896dd1187aae9572605ef78f"
+    },
+    {
+      "path": "libraries/novelist/skills/novel-story-telling/tests/test_story_ledger.py",
+      "output_sha256": "2ec0dcf92a5c5a0eec06c3429afa5aafda866ad9994855a7846b0420266bd56d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/novel-story-telling/tests/test_story_ledger.py",
+      "source_sha256": "2ec0dcf92a5c5a0eec06c3429afa5aafda866ad9994855a7846b0420266bd56d"
+    },
+    {
+      "path": "libraries/novelist/skills/publish-novel/SKILL.md",
+      "output_sha256": "294404050f1a8e8732b5b4082befe17471fe60be076f85dbb527ad01ef7879b0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/publish-novel/SKILL.md",
+      "source_sha256": "294404050f1a8e8732b5b4082befe17471fe60be076f85dbb527ad01ef7879b0"
+    },
+    {
+      "path": "libraries/novelist/skills/publish-novel/agents/openai.yaml",
+      "output_sha256": "13ee2fc09aecadad229289c990435710032c4fef5f59124d98e28b04f01fe26d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/publish-novel/agents/openai.yaml",
+      "source_sha256": "13ee2fc09aecadad229289c990435710032c4fef5f59124d98e28b04f01fe26d"
+    },
+    {
+      "path": "libraries/novelist/skills/publish-novel/scripts/build_epub.py",
+      "output_sha256": "74560a7e5abe00932c8c66b2d2b5f15269443486c779a7aec72f06d0e8bad34f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/publish-novel/scripts/build_epub.py",
+      "source_sha256": "74560a7e5abe00932c8c66b2d2b5f15269443486c779a7aec72f06d0e8bad34f"
+    },
+    {
+      "path": "libraries/novelist/skills/publish-novel/tests/test_build_epub.py",
+      "output_sha256": "4693d7156aaf77f1fe8f560a17e0734b99fec4f72933844d815fbfc6da0bce00",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT for original Novelist source; first-party additions scoped separately",
+      "source_relative": "libraries/novelist/skills/publish-novel/tests/test_build_epub.py",
+      "source_sha256": "4693d7156aaf77f1fe8f560a17e0734b99fec4f72933844d815fbfc6da0bce00"
+    },
+    {
+      "path": "library/source-procedures/INDEX.md",
+      "output_sha256": "ca65b4da019871bcceaab1a4e79322b7ce1c3a1810436a40c5a761af49ddbeb8",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/INDEX.md",
+      "source_sha256": "c0bf00903b33c5204fbb02d57f6349759dba3fd4154806224fcd737cf3dfb780",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "library/source-procedures/local/daggerheart-adapter/METHOD.original.md",
+      "output_sha256": "dc48678b2ae325cc24be630e93303916b3b7ae6a6321c742cea4bdb3168c433d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/daggerheart-adapter/METHOD.original.md",
+      "source_sha256": "dc48678b2ae325cc24be630e93303916b3b7ae6a6321c742cea4bdb3168c433d"
+    },
+    {
+      "path": "library/source-procedures/local/gm-roleplay-router/METHOD.original.md",
+      "output_sha256": "451860bca1742aec32ecd805b88fac590f4c985391206be83c275df571110c90",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/gm-roleplay-router/METHOD.original.md",
+      "source_sha256": "451860bca1742aec32ecd805b88fac590f4c985391206be83c275df571110c90"
+    },
+    {
+      "path": "library/source-procedures/local/gm-roleplay-router/references/router-map.md",
+      "output_sha256": "5c42095ae263298ffe5f9bfc42b11a0d42664510561f637f97aecd4ee8b7a365",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/gm-roleplay-router/references/router-map.md",
+      "source_sha256": "5c42095ae263298ffe5f9bfc42b11a0d42664510561f637f97aecd4ee8b7a365"
+    },
+    {
+      "path": "library/source-procedures/local/gm-roleplay-router/tests/route-scenarios.json",
+      "output_sha256": "ad283814d3c82aa482241541f48bba2d5144a4ccc619fc269b78c319a7691f4b",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "library/source-procedures/local/gm-roleplay-router/tests/route-scenarios.json",
+      "source_sha256": "aa239eea8f7eb7c47cea717301d335493ca233de1e1e50614ee7a6afc130e299",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "library/source-procedures/local/live-table-director/METHOD.original.md",
+      "output_sha256": "43822cda36fca12e84c486f979f9863dd78f4e1f560ad4a39bb6a5a704256724",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/live-table-director/METHOD.original.md",
+      "source_sha256": "43822cda36fca12e84c486f979f9863dd78f4e1f560ad4a39bb6a5a704256724"
+    },
+    {
+      "path": "library/source-procedures/local/live-table-director/references/live-output-contract.md",
+      "output_sha256": "ae46e6d274b781ad5318c10ab05d78a15881b52a5e61b9197803a7ce97917962",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/live-table-director/references/live-output-contract.md",
+      "source_sha256": "ae46e6d274b781ad5318c10ab05d78a15881b52a5e61b9197803a7ce97917962"
+    },
+    {
+      "path": "library/source-procedures/local/live-table-director/references/observable-table-signals.md",
+      "output_sha256": "550cef5958f237f0a1db55dc077a8523fd4cc6098143cf5be3924cd70ab8efd7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/live-table-director/references/observable-table-signals.md",
+      "source_sha256": "550cef5958f237f0a1db55dc077a8523fd4cc6098143cf5be3924cd70ab8efd7"
+    },
+    {
+      "path": "library/source-procedures/local/live-table-director/scripts/check_live_output.py",
+      "output_sha256": "c6c8caa65ae0f45c44c4297e2875a92dc02259e4a162031ff7c1745212daa72b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "library/source-procedures/local/live-table-director/scripts/check_live_output.py",
+      "source_sha256": "c6c8caa65ae0f45c44c4297e2875a92dc02259e4a162031ff7c1745212daa72b"
+    },
+    {
+      "path": "library/source-procedures/local/live-table-director/tests/live-output-scenarios.json",
+      "output_sha256": "a58b9bd78f49bfa4958b57ff70e25d36dca6242d53fd52ca8819da85ff8d96e7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "library/source-procedures/local/live-table-director/tests/live-output-scenarios.json",
+      "source_sha256": "a58b9bd78f49bfa4958b57ff70e25d36dca6242d53fd52ca8819da85ff8d96e7"
+    },
+    {
+      "path": "library/source-procedures/local/pacing-scene-director/METHOD.original.md",
+      "output_sha256": "3bb16d940d99f83e8447d99379a7cd95a01305fff9fb1167e9e1cd602f882a10",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/pacing-scene-director/METHOD.original.md",
+      "source_sha256": "3bb16d940d99f83e8447d99379a7cd95a01305fff9fb1167e9e1cd602f882a10"
+    },
+    {
+      "path": "library/source-procedures/local/personal-gm-style-adapter/METHOD.original.md",
+      "output_sha256": "e02315d09162340b9c46cd0295ecfecdedcde1d08670d0eb53b924e220225f83",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/personal-gm-style-adapter/METHOD.original.md",
+      "source_sha256": "e02315d09162340b9c46cd0295ecfecdedcde1d08670d0eb53b924e220225f83"
+    },
+    {
+      "path": "library/source-procedures/local/story-architecture/LEGACY-SKILL.md",
+      "output_sha256": "a95a47d9fb7610c8da8c5661e11bc516f94ac58955e911e1192be9ad6e4dff2e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/story-architecture/LEGACY-SKILL.md",
+      "source_sha256": "a95a47d9fb7610c8da8c5661e11bc516f94ac58955e911e1192be9ad6e4dff2e"
+    },
+    {
+      "path": "library/source-procedures/local/story-book-router/LEGACY-SKILL.md",
+      "output_sha256": "fa3b691d678ce2551eb6b75a40ba376572cce9e3fc7ed0881cb94d0e42c91cd7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/local/story-book-router/LEGACY-SKILL.md",
+      "source_sha256": "fa3b691d678ce2551eb6b75a40ba376572cce9e3fc7ed0881cb94d0e42c91cd7"
+    },
+    {
+      "path": "plugin.json",
+      "output_sha256": "66909c55087ea33fea6e4c0850fb2e4df51c8b6f964dcc613a4039f0fb10a809",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "output_sha256": "9154d7aa7fb43b26b6016fbe3211889e4b42a522f0dbdd7dbde9acba078826d8",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/atlas-library.md",
+      "source_sha256": "30e9584e4ce653e2c14def2df60386cbf75502d60d76f59017edfd40ad48be04",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/draw-think.md",
+      "output_sha256": "b1573942ce3e39bae413305c498e3b95b9d6fd25b6d530563018f80f8f884b92",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/draw-think.md",
+      "source_sha256": "9905bc622d267b03484c9f6f94913ef414241a80e7a42aa1dfa38660826faeff",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "output_sha256": "ef2908fe584aa58103bc043f6f8ad93188ece151918b85df352ef4db18348214",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "8251ee1252d0e402227fef2809fe1511f6bd9a183fb5df4540a3832b9c39d8f9",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/fiction-writer.md",
+      "output_sha256": "4bfa56c13962bea86aac0a594e11b2820023ec317da5db4b3244ea25f1eb522b",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/fiction-writer.md",
+      "source_sha256": "ebd3a5bc66099df362a4550fa3fd0e16a103213332574325adf293a319493e9e",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/game-designer.md",
+      "output_sha256": "8adeb3337ebc4869e75605a19f2529cdbd4c6d565ff024e1bb5f116ba95e9ae0",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/game-designer.md",
+      "source_sha256": "c7053252b5429292497e31b839f4c058ea2d3419cd74d71fca70cf691597f029",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/producer.md",
+      "output_sha256": "2eabc2a598875a771c1ea1d01462a1e7f92703879b34e41c3413268c0c598e02",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/producer.md",
+      "source_sha256": "fe8c13554e6308e6ef10cba62f8c3f79782fae702574b718b4b0aa9ca1b24941",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/rights-and-provenance-reviewer.md",
+      "output_sha256": "44e508b07c4c0ed7aa44641c76582135602af8101721a6220043b0e036adfbab",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/rights-and-provenance-reviewer.md",
+      "source_sha256": "f406994c5caeb4718a5cf188088efac4dab30dc426461891a747c768a4da13c6",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/professional-agents/ttrpg-game-master.md",
+      "output_sha256": "dbf58a384540054a821788c47cb34465d0b29abf819a7ef82b6e639391810e06",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/ttrpg-game-master.md",
+      "source_sha256": "7da874b0fcce3187e6b2c599bde56f24b8036dcadd026b90f52a061eb229515f",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "references/ttrpg-compass.md",
+      "output_sha256": "a4918671e3eeb61e1bc1574e2a4cf56f2f3a722dddd6760b363f77378147aa77",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/ttrpg-compass.md",
+      "source_sha256": "84e29f46606b6752c232de738540aa7fb4864a2e22c80f3859ef8502bd0b8d4f",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "output_sha256": "021a03372891d8fec28665a176e799b2c01a9d9d12f40ce0ec6c6ff6e1f27434",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "scripts/atlas_library_mcp.py",
+      "source_sha256": "021a03372891d8fec28665a176e799b2c01a9d9d12f40ce0ec6c6ff6e1f27434"
+    },
+    {
+      "path": "scripts/draw_think_mcp.py",
+      "output_sha256": "29de5b8c60e1734b8312eedab7cc21a384ceb0612d60b929d470873273163eff",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "scripts/draw_think_mcp.py",
+      "source_sha256": "29de5b8c60e1734b8312eedab7cc21a384ceb0612d60b929d470873273163eff"
+    },
+    {
+      "path": "scripts/ttrpg_compass_mcp.py",
+      "output_sha256": "ea00e9da87816d51d64107e8ad9cc5d507f3e6859c6f846bad0d8873f54a186f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "scripts/ttrpg_compass_mcp.py",
+      "source_sha256": "ea00e9da87816d51d64107e8ad9cc5d507f3e6859c6f846bad0d8873f54a186f"
+    },
+    {
+      "path": "skills/creative-project-context/SKILL.md",
+      "output_sha256": "7c5419587a9c94379b9786285bd543e70d0d0eefb97142e53462f63283d14f35",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/creative-project-context/SKILL.md",
+      "source_sha256": "7c5419587a9c94379b9786285bd543e70d0d0eefb97142e53462f63283d14f35"
+    },
+    {
+      "path": "skills/creative-project-context/scripts/check_creative_project.py",
+      "output_sha256": "8ffa227e3dee02c7bba3f82dc8da3f4da26add7b859a7c66ca570c7d777480d0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/creative-project-context/scripts/check_creative_project.py",
+      "source_sha256": "8ffa227e3dee02c7bba3f82dc8da3f4da26add7b859a7c66ca570c7d777480d0"
+    },
+    {
+      "path": "skills/creative-project-context/scripts/create_creative_project.py",
+      "output_sha256": "d67b76a1b28e4ef4d292bbd29ee3b3760afd63f80d3605fc461d12df612c7d56",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/creative-project-context/scripts/create_creative_project.py",
+      "source_sha256": "d67b76a1b28e4ef4d292bbd29ee3b3760afd63f80d3605fc461d12df612c7d56"
+    },
+    {
+      "path": "skills/creative-project-context/templates/creative-project.yaml",
+      "output_sha256": "e9cfe34d29ce03bc21f88867bb46f389aadc7166b0052b0bda842c5c9adfe961",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/creative-project-context/templates/creative-project.yaml",
+      "source_sha256": "e9cfe34d29ce03bc21f88867bb46f389aadc7166b0052b0bda842c5c9adfe961"
+    },
+    {
+      "path": "skills/creative-project-router/SKILL.md",
+      "output_sha256": "1eb02666e41e6ceedce97811ac790d086b1fb6ce52f5d7e38b444c92ec74bad1",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/creative-project-router/SKILL.md",
+      "source_sha256": "60cec584a568738b31da192b7482cf5b52e977197f8828dd3d142f4a6fcab838",
+      "transformation": "Portability or method-reference correction; retained operative method."
+    },
+    {
+      "path": "skills/horror-story-crafter/SKILL.md",
+      "output_sha256": "d78ed35c7f4d6d21f5c697321345bc9079dfb0c21c9c174f06ee0d51379024d6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/SKILL.md",
+      "source_sha256": "d78ed35c7f4d6d21f5c697321345bc9079dfb0c21c9c174f06ee0d51379024d6"
+    },
+    {
+      "path": "skills/horror-story-crafter/agents/openai.yaml",
+      "output_sha256": "5eb949ace7e37faa286a5d29d11611d48a361e42b820ae6a4ead6210cc304197",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/horror-story-crafter/agents/openai.yaml",
+      "source_sha256": "5eb949ace7e37faa286a5d29d11611d48a361e42b820ae6a4ead6210cc304197"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/body-horror-scene-card.md",
+      "output_sha256": "baa14649e3f9c4a3602061e7c7bfb1e81d24c3e18eda3c5c80bd9c36ed6f2bbc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/body-horror-scene-card.md",
+      "source_sha256": "baa14649e3f9c4a3602061e7c7bfb1e81d24c3e18eda3c5c80bd9c36ed6f2bbc"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/cosmic-horror-evidence-map.md",
+      "output_sha256": "f792c73f44d5343d606e927bd1d90b064e416f2ef70ab15d69e765882d142828",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/cosmic-horror-evidence-map.md",
+      "source_sha256": "f792c73f44d5343d606e927bd1d90b064e416f2ef70ab15d69e765882d142828"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/game-scenario-blueprint.md",
+      "output_sha256": "2fce41418124a53a6df564bf5989724a6133f5db1bb7af17b962efd4cb4e9df6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/game-scenario-blueprint.md",
+      "source_sha256": "2fce41418124a53a6df564bf5989724a6133f5db1bb7af17b962efd4cb4e9df6"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/horror-project-brief.md",
+      "output_sha256": "5d3ea099273fae1a81a254cab6c23f9c44894fbbbcd98713adadb14e5ec7abea",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/horror-project-brief.md",
+      "source_sha256": "5d3ea099273fae1a81a254cab6c23f9c44894fbbbcd98713adadb14e5ec7abea"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/hostile-location-card.md",
+      "output_sha256": "c8819da20ff080b18ddd93f543dc4f263cde5c6256ba7c608d4a009fd66262d3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/hostile-location-card.md",
+      "source_sha256": "c8819da20ff080b18ddd93f543dc4f263cde5c6256ba7c608d4a009fd66262d3"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/psychological-horror-pressure-map.md",
+      "output_sha256": "fe4134afab9645fc891a7ca069459749de3e591472fb2e073079ed82e3048fd0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/psychological-horror-pressure-map.md",
+      "source_sha256": "fe4134afab9645fc891a7ca069459749de3e591472fb2e073079ed82e3048fd0"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/scene-card.md",
+      "output_sha256": "7bb0a4d644adf5621fd3c0401c8a162215abb686b18b58b7ea10975d81a6a77f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/scene-card.md",
+      "source_sha256": "7bb0a4d644adf5621fd3c0401c8a162215abb686b18b58b7ea10975d81a6a77f"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/threat-model.md",
+      "output_sha256": "a7d63a99fb3bae0e49b3d33c5ad4ac40051f8cc1f0e50a74fa98f4c8ab928413",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/threat-model.md",
+      "source_sha256": "a7d63a99fb3bae0e49b3d33c5ad4ac40051f8cc1f0e50a74fa98f4c8ab928413"
+    },
+    {
+      "path": "skills/horror-story-crafter/assets/ttrpg-scenario-blueprint.md",
+      "output_sha256": "04c557f64bb988fab1550dc8982ec5792fbc1402ca883ae408e10617e7e0017d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/assets/ttrpg-scenario-blueprint.md",
+      "source_sha256": "04c557f64bb988fab1550dc8982ec5792fbc1402ca883ae408e10617e7e0017d"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/body-horror-transformation.md",
+      "output_sha256": "766232a60dc01ed3b7ee1fcd95d78ab0477ad945d56cc2a125c55ed3aa74041a",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/body-horror-transformation.md",
+      "source_sha256": "766232a60dc01ed3b7ee1fcd95d78ab0477ad945d56cc2a125c55ed3aa74041a"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/cosmic-horror-and-epistemic-dread.md",
+      "output_sha256": "ab91f9230f6c1cc4f7058ce74d27c9380fdce40e45e7a71bf9357b4b0eda30f4",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/cosmic-horror-and-epistemic-dread.md",
+      "source_sha256": "ab91f9230f6c1cc4f7058ce74d27c9380fdce40e45e7a71bf9357b4b0eda30f4"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/diagnosis-and-revision.md",
+      "output_sha256": "28bfe5e080ec9afaf719830301d7f7a7e1342b322b84e0fe28c807e5d232d934",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/diagnosis-and-revision.md",
+      "source_sha256": "28bfe5e080ec9afaf719830301d7f7a7e1342b322b84e0fe28c807e5d232d934"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/hostile-environments-and-material-horror.md",
+      "output_sha256": "e0d08bfd89fa4ca243453e9a4f9f33200670a36dde61c6124b28cefff5c75d36",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/hostile-environments-and-material-horror.md",
+      "source_sha256": "e0d08bfd89fa4ca243453e9a4f9f33200670a36dde61c6124b28cefff5c75d36"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/interactive-horror.md",
+      "output_sha256": "317e839e345733a035377097908968cceceaeed61454ca23d332b7bfe3c9779e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/interactive-horror.md",
+      "source_sha256": "317e839e345733a035377097908968cceceaeed61454ca23d332b7bfe3c9779e"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/prose-and-mediated-horror.md",
+      "output_sha256": "f253d6054cfdeb003e6ec92dffb5edb9999d2999a7e53657c462a0f07b11adf2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/prose-and-mediated-horror.md",
+      "source_sha256": "f253d6054cfdeb003e6ec92dffb5edb9999d2999a7e53657c462a0f07b11adf2"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/psychological-horror-and-perception.md",
+      "output_sha256": "f42560176c35b0dc2e159f3787ecb2227303d337ff5792c90450690e7f51caaf",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/psychological-horror-and-perception.md",
+      "source_sha256": "f42560176c35b0dc2e159f3787ecb2227303d337ff5792c90450690e7f51caaf"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/ttrpg-horror.md",
+      "output_sha256": "2c4e45f09ec62ba341c3303f60db8667db1f0c2b91981c51bf3642f40a2f9eae",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/ttrpg-horror.md",
+      "source_sha256": "2c4e45f09ec62ba341c3303f60db8667db1f0c2b91981c51bf3642f40a2f9eae"
+    },
+    {
+      "path": "skills/horror-story-crafter/references/visceral-intensity.md",
+      "output_sha256": "21e5b91502210a0ed23f2363e8369b467bb1157fc85f60a2b3e81b65d5347fd7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/horror-story-crafter/references/visceral-intensity.md",
+      "source_sha256": "21e5b91502210a0ed23f2363e8369b467bb1157fc85f60a2b3e81b65d5347fd7"
+    },
+    {
+      "path": "skills/originality-rights-and-provenance/SKILL.md",
+      "output_sha256": "140635db6bac9c8f0db4ee26315ae5c457445145695b8633c83200e944b66a61",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/originality-rights-and-provenance/SKILL.md",
+      "source_sha256": "140635db6bac9c8f0db4ee26315ae5c457445145695b8633c83200e944b66a61"
+    },
+    {
+      "path": "skills/publishing-router/SKILL.md",
+      "output_sha256": "3af117948d5f47b85904a7ce9132a82cf29c14721173497804bc0035ffe0a019",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/publishing-router/SKILL.md",
+      "source_sha256": "d073da2e2c2d8f3bebeed2c86ae0b970870f336de98fb48fbb533aa5c20308ce",
+      "transformation": "Portability or method-reference correction; retained operative method."
+    },
+    {
+      "path": "skills/show-vs-tell-craft/SKILL.md",
+      "output_sha256": "c6a93de853aaa2643b83ff153999b7a5a07353941a596b613b5510a6e355c513",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/SKILL.md",
+      "source_sha256": "c6a93de853aaa2643b83ff153999b7a5a07353941a596b613b5510a6e355c513"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/README.md",
+      "output_sha256": "9f1208b154abffcb6e4b2f3fa6b6d3c96aa74623023b9ebf5ce15e5a203babc1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/README.md",
+      "source_sha256": "9f1208b154abffcb6e4b2f3fa6b6d3c96aa74623023b9ebf5ce15e5a203babc1"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/decision-table.md",
+      "output_sha256": "968851b324cd016f609fa157272db5b5c084868f10018d863319837d2c834e3a",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/decision-table.md",
+      "source_sha256": "968851b324cd016f609fa157272db5b5c084868f10018d863319837d2c834e3a"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/evaluation-cases.md",
+      "output_sha256": "7a74c23fed7f12768e5ae234bca959b5c06eaf0561d20f0fcef707acced572c5",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/evaluation-cases.md",
+      "source_sha256": "7a74c23fed7f12768e5ae234bca959b5c06eaf0561d20f0fcef707acced572c5"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/examples.md",
+      "output_sha256": "5db355447cc812f2b7c40a32c72fa982a17c7d1b9eb46a38231a94b93d33ce63",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/examples.md",
+      "source_sha256": "5db355447cc812f2b7c40a32c72fa982a17c7d1b9eb46a38231a94b93d33ce63"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/lint-flags.md",
+      "output_sha256": "b02e3345ce49990c6b4d39028bc8a79be281580effa87541b1df4e2b368f841e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/lint-flags.md",
+      "source_sha256": "b02e3345ce49990c6b4d39028bc8a79be281580effa87541b1df4e2b368f841e"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/story-atlas-patterns.md",
+      "output_sha256": "80e3615c30fb624bd96655e3f6b466529c3a6e68d60a776ac6b4886763f1624c",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/story-atlas-patterns.md",
+      "source_sha256": "80e3615c30fb624bd96655e3f6b466529c3a6e68d60a776ac6b4886763f1624c"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/docs/show-vs-tell/ttrpg-application.md",
+      "output_sha256": "318671f7d52a03926ddd55efce6bf2b1563c5f4c60cd041daac284ea2605d280",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/docs/show-vs-tell/ttrpg-application.md",
+      "source_sha256": "318671f7d52a03926ddd55efce6bf2b1563c5f4c60cd041daac284ea2605d280"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/scripts/show_tell_revision_pass.py",
+      "output_sha256": "5152b7fbe65e8f9a1e0b10903a0df93822e2e5352b163976d98da246186780dc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/show-vs-tell-craft/scripts/show_tell_revision_pass.py",
+      "source_sha256": "5152b7fbe65e8f9a1e0b10903a0df93822e2e5352b163976d98da246186780dc"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/templates/show-vs-tell-templates.md",
+      "output_sha256": "4c0c1229d7dcb601389f3b87d082c66393325f655a0f29aeb41187f904da1b05",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/show-vs-tell-craft/templates/show-vs-tell-templates.md",
+      "source_sha256": "4c0c1229d7dcb601389f3b87d082c66393325f655a0f29aeb41187f904da1b05"
+    },
+    {
+      "path": "skills/show-vs-tell-craft/tests/show_tell_evals.json",
+      "output_sha256": "42a0c8e53b9624728e5918b7233ff9bc96aaa5ca6a94dd6385399b2021823e2f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "skills/show-vs-tell-craft/tests/show_tell_evals.json",
+      "source_sha256": "42a0c8e53b9624728e5918b7233ff9bc96aaa5ca6a94dd6385399b2021823e2f"
+    },
+    {
+      "path": "skills/story-architecture/SKILL.md",
+      "output_sha256": "53ec1b53c36b31312c38a1de68fd6600fb1801194073f480d60379eadbaf9e8c",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/story-architecture/SKILL.md",
+      "source_sha256": "cfaa5958eebfbabfeac43bd2d52ef613041d82efc1cfa8920d91b0208077d697",
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+    },
+    {
+      "path": "skills/story-architecture/references/narrative-revision.md",
+      "output_sha256": "71f73c0089e6f98701acf45e05fe94519fda8d2794ebd759a3b4e4de1bf212fd",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/story-architecture/references/narrative-revision.md",
+      "source_sha256": "71f73c0089e6f98701acf45e05fe94519fda8d2794ebd759a3b4e4de1bf212fd"
+    },
+    {
+      "path": "skills/story-atlas-prep/SKILL.md",
+      "output_sha256": "99bc2baa10c7ac99a2acdf6cc1d70ddb935b6976bd52fdf8bdad28750683d54f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/story-atlas-prep/SKILL.md",
+      "source_sha256": "99bc2baa10c7ac99a2acdf6cc1d70ddb935b6976bd52fdf8bdad28750683d54f"
+    },
+    {
+      "path": "skills/story-atlas-prep/references/clue-path-audit.md",
+      "output_sha256": "c04659b99856e7e5eee7686f0877a4ddbc77f88899b855619f02aec9a9fed993",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/story-atlas-prep/references/clue-path-audit.md",
+      "source_sha256": "c04659b99856e7e5eee7686f0877a4ddbc77f88899b855619f02aec9a9fed993"
+    },
+    {
+      "path": "skills/story-book-router/SKILL.md",
+      "output_sha256": "e185dfa130ebcd3899bb0d16a1a6bb53c6f7386ece6491656a923d63e4595326",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/story-book-router/SKILL.md",
+      "source_sha256": "12f3b871b9a1662a3b63840098f4389b8d409a860cbf8abce4c147aa5c667183",
+      "transformation": "Portability or method-reference correction; retained operative method."
+    },
+    {
+      "path": "tests/test_ttrpg_compass_mcp.py",
+      "output_sha256": "a938206135d8d1e9abb77ecf0a88be7a3b4258f708cafbe0715e8df6dd023971",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "tests/test_ttrpg_compass_mcp.py",
+      "source_sha256": "a938206135d8d1e9abb77ecf0a88be7a3b4258f708cafbe0715e8df6dd023971"
+    }
+  ]
+}

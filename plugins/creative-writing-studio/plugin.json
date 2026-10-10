@@ -1,0 +1,42 @@
+{
+  "name": "creative-writing-studio",
+  "version": "0.3.0",
+  "description": "Creative project routing for stories, games, GM prep, craft, provenance, and publishing.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "keywords": [
+    "story",
+    "fiction",
+    "horror",
+    "story-atlas",
+    "creative",
+    "ttrpg",
+    "game-design"
+  ],
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Creative Toolkit",
+        "shortDescription": "Stories, games, and creative project craft",
+        "longDescription": "Route stories, TTRPG campaigns, board and video game concepts, horror, Story Atlas preparation, canon, provenance, and publishing to focused skills. TTRPG Compass can supply optional table inspiration and source-labeled rules lookups when available. Career, grant, academic, novelist app, and teaching workflows remain separate.",
+        "developerName": "Kyle Hobson",
+        "category": "Creative",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Diagnose the structure of this story and preserve its canon.",
+          "Revise this horror scene without losing the character's voice.",
+          "Prepare these campaign notes as a reviewable Story Atlas.",
+          "Turn this TTRPG idea into playable GM prep with clear player and GM boundaries."
+        ]
+      }
+    }
+  }
+}

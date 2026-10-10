@@ -626,6 +626,60 @@
         "priorVersion": "0.1.1",
         "priorGrantUnchanged": true
       }
+    },
+    {
+      "id": "social-content-studio",
+      "name": "Social Content Studio",
+      "version": "0.2.0",
+      "description": "Create source-grounded social posts, adapt content across channels, plan calendars, and verify authorized publishing.",
+      "skills": 8,
+      "distribution": "prepared",
+      "edition": "Full canonical methods and resources; optional AIHumanizer method supplied through its separately installed provider",
+      "category": "Productivity",
+      "requirements": [
+        "Your source facts, voice samples and platform authorization",
+        "Optional AIHumanizer social prose: aihumanizer@openai-curated-remote",
+        "Social Post Previewer app for rendered previews"
+      ],
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "jobs": [
+        "write",
+        "market"
+      ],
+      "licensing": {
+        "scope": "plugins/social-content-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.0+ecosystem.20261008",
+        "priorGrantUnchanged": true
+      }
+    },
+    {
+      "id": "creative-writing-studio",
+      "name": "Creative Toolkit",
+      "version": "0.3.0",
+      "description": "Develop stories, revise scenes, preserve canon, and prepare playable GM material with complete craft methods.",
+      "skills": 9,
+      "distribution": "prepared",
+      "edition": "Full canonical methods and launchers; optional provider skills and recipient-owned runtimes are separate dependencies",
+      "category": "Creativity",
+      "requirements": [
+        "Your draft, canon notes or game material",
+        "Optional AIHumanizer creative prose: aihumanizer@openai-curated-remote",
+        "Python >=3.10 and recipient-configured backends for optional Atlas, TTRPG and Draw Think integrations"
+      ],
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream licenses as scoped in LICENSE-SCOPE.json",
+      "jobs": [
+        "write",
+        "play"
+      ],
+      "licensing": {
+        "scope": "plugins/creative-writing-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.2.1+ecosystem.20261008",
+        "priorGrantUnchanged": true
+      }
     }
   ]
 }

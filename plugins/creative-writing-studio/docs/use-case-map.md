@@ -1,0 +1,15 @@
+# Independent use cases
+
+Select the smallest task owner and read its complete required procedures, examples and templates. The plugin is a package; do not load every skill.
+
+| Skill | Trigger |
+| --- | --- |
+| [creative-project-context](../skills/creative-project-context/SKILL.md) | Create, inspect, validate, and maintain plain-text creative project scaffolds for books, stories, TTRPG campaigns, board/card games, game concepts, publishing projects, canon, provenance, milestones, decisions, feedback, playtests, builds, releases, backups, and archives. |
+| [creative-project-router](../skills/creative-project-router/SKILL.md) | Route books, stories, manuscripts, story worlds, TTRPG campaigns, board/card games, game concepts, publishing, excerpts, serialization, provenance, rights, and creative project maintenance to the smallest safe local Creative Toolkit skill. Use when the user asks broadly to develop, organize, revise, publish, share, or maintain a creative project. |
+| [horror-story-crafter](../skills/horror-story-crafter/SKILL.md) | Create, diagnose, and revise horror novels, stories, scripts, found-media narratives, video games, interactive fiction, and TTRPGs. Use for dread, threat logic, reveals, consequence, or agency. |
+| [originality-rights-and-provenance](../skills/originality-rights-and-provenance/SKILL.md) | Manage creative research, source use, originality claims, influence tracking, quotations, licenses, attribution, rights, privacy, provenance, similarity signals, release hashes, and approval gates for manuscripts, campaigns, games, public excerpts, media, and publishing workflows. |
+| [publishing-router](../skills/publishing-router/SKILL.md) | Route manuscript assembly, metadata, EPUB/PDF/print/web export, accessibility, citations, excerpts, serialization, public sharing, release approvals, hashes, rollback, and publishing QA for creative projects. |
+| [show-vs-tell-craft](../skills/show-vs-tell-craft/SKILL.md) | Diagnose, teach, lint, and revise fiction, Story Atlas, player-facing TTRPG prose, GM sidebars, NPCs, emotions, clues, locations, factions, items, and live-table descriptions using show-vs-tell as a pacing, clarity, immersion, and emotional-focus choice. Use when drafting or revising prose for "show, don't just tell. |
+| [story-architecture](../skills/story-architecture/SKILL.md) | Develop or evaluate premise, theme, story promise, plot structure, character arcs, scenes, chapters, POV, pacing, clue logic, setup/payoff, mystery, continuity, and deliberate ambiguity for fiction, books, screenplays, interactive stories, and narrative games. |
+| [story-atlas-prep](../skills/story-atlas-prep/SKILL.md) | Compile story, module, campaign, and one-shot material into a durable Story Atlas with scenes, nodes, clocks, NPCs, clues, continuity, player-safe text, and GM-only material. |
+| [story-book-router](../skills/story-book-router/SKILL.md) | Route and support book, fiction, screenplay, manuscript, story bible, character, worldbuilding, scene, dialogue, chapter, revision, continuity, storyboard, and long-form prose work while preserving authorial voice, canon, ambiguity, and provenance. |
