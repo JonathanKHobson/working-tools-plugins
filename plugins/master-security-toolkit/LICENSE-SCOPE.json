@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "package": "master-security-toolkit",
+  "version": "0.2.1",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream grants unchanged",
+  "inventory_excludes": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "76f50336dd23a5d351eaccba86e40db02aa39a0aa00186af7d0eb13429449c73"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "b3b455c1477d3b61d90609da786ff9905f714a3ba8247ea94aa81d0b6950b6a0"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0ab2715a31cdcd39375e402107c9fb84ffd4bccf881567e7cd7a4b76f279c964"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "5a310c356a3c45ed45c3a1a0684dc5dc608a581935929126ee0ca9a4b347358e"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "73810e06f39fd075ccf4fbecd9a5c7887f663d5dac2dd25e515e957db32cb296"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "94c9f39df0f7c0e802c59b4f92c50c1da342a91f4cb200d764a3f6da92bdc0be"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "60d6f6aa53f3167d02dffbeaadcd10b8a74119dc0bea5e0c7c991aa8d39f2c14"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "2a15ea6ca79fdb9784d31c528030d20034ad7b308e46e7b184a2a1d8bd96b280"
+    },
+    {
+      "path": "docs/full-procedures.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "99d20c9794dd805544f449874078e981d0eff475aa16952270e152e515bcbcc5"
+    },
+    {
+      "path": "docs/previous-entrypoints/instruction-security-review/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9d514eed121d63552baafb5df5377104c2000bc2ee0028a4b9db8eba8400f687"
+    },
+    {
+      "path": "docs/previous-entrypoints/software-security-review/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cd78992cdf187f8a1fdf314078bff2b4eba7922c0df0f30b0df76df53d814eaa"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6e0e7e6f4cd24570b23d5b2d11e3f63075197a591c4c0a4d639d8ca6c902a362"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fffc70b2e3cbff43e2b0642b312be3f82fe0d63aec35e958a69d90ad491090ad"
+    },
+    {
+      "path": "examples/runtime-bindings/atlas-library.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "de28c92b347da54f87bdc7d910cb1f023f4c17ab87862fc23dc37b75119d749d"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/agent-skillguard/.claude-plugin/plugin.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "952e28cb4a03823013d9774d4066e862858b89784f4fca067c9d516b1eb499e1"
+    },
+    {
+      "path": "libraries/agent-skillguard/.codex-plugin/assets/composer-icon.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "274ad2cfdd1174998708249fcc66199fdc3d698af796d4f14e986941fdcdce92"
+    },
+    {
+      "path": "libraries/agent-skillguard/.codex-plugin/assets/logo-dark.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "3be321fae0ebb7bd500b06039fc85ea02cf65cc7b9e6e7e1b9e81d966483e4f6"
+    },
+    {
+      "path": "libraries/agent-skillguard/.codex-plugin/assets/logo.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "de621bfe996c4c6815c2b0cee971edcdff79e13453ca8611e067b11c9d362608"
+    },
+    {
+      "path": "libraries/agent-skillguard/.codex-plugin/plugin.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b411fe8ead7a411692abee7ebf0e47f6d85443533dfa53e68c1556ec888587dd"
+    },
+    {
+      "path": "libraries/agent-skillguard/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "0ba332d74679bf048b190c78a8e4d32c7933e7040117280bc9eaa648ab297779"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/Agent SkillGuard Agent Smith Palette Source Receipt 210826.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b56d40b5952ac884b173b669469bfd78c0c2e63d57af893ee06cff54a909def5"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/Agent SkillGuard Transparent Master 220826.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b67972d299813960e9331089788086c1beed435a9fbe5dcf5e3c1894810248d3"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/Logo Generation Manifest 140826.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "9fd3c5953db015fbf6c09e7cc67633a99d504b315afbc11d610f762a2c45873f"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/Silver Satin Background Master 240826.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "5ef688ba56bd8e8b185903df3a73262400859f0bb0791009b437f5d13ff8a579"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/Skill Risk Check Silver Satin Master 240826.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "1293e1eb7960cf5ed12dc674868bad1c3afad0794e80453990a99bded7fa5180"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/icon.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "274ad2cfdd1174998708249fcc66199fdc3d698af796d4f14e986941fdcdce92"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/logo-dark.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "3be321fae0ebb7bd500b06039fc85ea02cf65cc7b9e6e7e1b9e81d966483e4f6"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/logo.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "3be321fae0ebb7bd500b06039fc85ea02cf65cc7b9e6e7e1b9e81d966483e4f6"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/screenshot1.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "ecefc371eef4fdf8d11b640bb699d6a15e5853ee2d6af41f4a6ff46c8cd34ab4"
+    },
+    {
+      "path": "libraries/agent-skillguard/assets/social-preview.png",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "bf2e5520749c0dc83f3f0ac7bf64b3400d526abf74212232c1816f8ce47e9f48"
+    },
+    {
+      "path": "libraries/agent-skillguard/examples/clean-skill/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "e72fe1b1c465fca4dfd4eb6e645a0925ef57047bf087003187c8912ef18189ba"
+    },
+    {
+      "path": "libraries/agent-skillguard/examples/unsafe-skill/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "ca539996cf3ed0e8385cdf1051ee31d34685f30fab9e47cc79922ed75408fdfb"
+    },
+    {
+      "path": "libraries/agent-skillguard/examples/unsafe-skill/plugin.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "f87c5ef51f065f81b78472d15d430269fed9b306cf2f891cece65dab2dc51c0a"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/fixture-manifest.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "7fe085f26f8b1f58c5cf4483f01dc9c6938cff78015580e4566652e2ef561b43"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/negative/hierarchy.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "597b408a4bd88dccd912fcb28df243bc4359b45b3d380b0623ea95281f857aa2"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/negative/least-privilege.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "846cd97297f2f1b84dc88b6ce1b111d34a38935b8bf697cd7048237bee160e6f"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/negative/narrow-delete.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "dc403a5b7e2315a9e2b4401bf859356ec30e8d158fcdfb7b4f20df89606ed9f0"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/negative/reviewed-download.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "c5db39bfb6fa8a2b6f23c4a3d8ebdef996d20d014220c5a696066f1e9b7a81cb"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg001.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "dc9b101158dba0fb5c5aa18ace53bfb656fffff09f5c8cc43a85422e3b394118"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg002.sh",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "3732c54214730f15058529acef1ff3561104b38d4ff472f579a23ad1a01ca1d4"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg003.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "0aea0eabb08964e8113a67a0dc3d98f60617106c3a9c240198b211fd3db8bcb4"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg004.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "cc85d6f980824ec7798e440655f9a1ab8268534209130cdd26709525c9389381"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg005.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "8032fceace857dd273be965bb8301c3f7df18077977803c7113bb94bd9e89fa4"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg006.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "827565f18f3824afd601a38a6f11a9f1b78a2f4f7c248693758b7bb9092cde54"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg007.sh",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b996e0673572ef1b6d7926d1eb69dafafc5734730a5ed0607c1b9434720970d6"
+    },
+    {
+      "path": "libraries/agent-skillguard/fixtures/positive/sg008.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b291079fedc6de0e3ea4488693b77162da841107504bd3b855b23889823112af"
+    },
+    {
+      "path": "libraries/agent-skillguard/report.schema.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "dd2ab5abf5a566fe7fa8a3f8ddc0eacb47d600a95c5b373b6a840dfc4b433585"
+    },
+    {
+      "path": "libraries/agent-skillguard/rules/default-rules.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "7b77ea3817aa4e66992a09cacdd8ca8b672b315524d4c26b8b49165702ef9ebf"
+    },
+    {
+      "path": "libraries/agent-skillguard/rules/non-coverage.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "f2cd5c69eb28a09b983d9ce72d7f997b5b228df97aea50c8456ae72bd95918e6"
+    },
+    {
+      "path": "libraries/agent-skillguard/scripts/skillguard.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "e958c180cb6859f64f66c452e218f566943734797a09f2a00ca6d5038ca3f967"
+    },
+    {
+      "path": "libraries/agent-skillguard/skills/agent-skillguard/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "c15fbbe7ad85b183abf6bcf903af26325d99c37f0a2fbafd64d76194f14a1fbe"
+    },
+    {
+      "path": "libraries/agent-skillguard/suppressions.schema.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "726d26e29c7e91c3aa44aaa053f6abf0c495de1b351aca2c1d3a54fdd32c89f8"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "e598e694aa506650c7192d5ea3be0e50aca0d356ea00551c53429f0b01eb6391"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/AI-AND-LLM.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/ATTACK-CLASSES.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/CLIENT-SIDE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/CLOUD-AND-DEPLOYMENT.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/DATA-ISOLATION-AND-LIFECYCLE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/DESKTOP-MOBILE-AND-LOCAL-IPC.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/HUNTING.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/MEMORY-SAFETY-AND-BINARY.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/PROTOCOLS-RPC-AND-MESSAGING.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/RECONNAISSANCE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/SKILL.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/SUPPLY-CHAIN-AND-RELEASE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/VALIDATION-AND-REPORTING.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/WEB-PROTOCOL-AND-AUTH.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/report-schema.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/validate-coverage-ledger.cjs",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/validate-coverage-ledger.test.cjs",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/validate-findings.cjs",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283"
+    },
+    {
+      "path": "libraries/cloudflare-security-audit-original/skills/security-audit/validate-findings.test.cjs",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for Cloudflare original source; author additions scoped separately",
+      "sha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b"
+    },
+    {
+      "path": "libraries/personal-security-check/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1333ddf355e3896acef2a6f0866015ea171d07d20b18ab2808bf8a68ef940258"
+    },
+    {
+      "path": "libraries/personal-security-check/references/threat-catalog.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cb58e84cd69305b01723e76f859586dae51b0b1fb87b025dfd310272e8ecd2af"
+    },
+    {
+      "path": "libraries/strix-methods/LICENSE",
+      "category": "retained-upstream-Apache-2.0",
+      "license": "Apache-2.0 for Strix original material; author additions scoped separately",
+      "sha256": "7db9697134251e314bd8d39257fe170c98b3e2ad9b2ed67e97acaf9613e7b9e3"
+    },
+    {
+      "path": "libraries/strix-methods/PROVENANCE.json",
+      "category": "retained-upstream-Apache-2.0",
+      "license": "Apache-2.0 for Strix original material; author additions scoped separately",
+      "sha256": "89db389e3a72475c4343374e6a5bf4622d67a741e8c5d3d9d2c84dce61e71d84"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "e564f6d1e6a105e32301c324d06d147b926a8982ad9c4d124e41ce2bae998c86"
+    },
+    {
+      "path": "references/application-security-testing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "538bfb1580e2d31494fb5fedc4eb32a8fdfbfdf78764ee939c73ad8fcc09564f"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "680356637cb4b688f8910fb8888440728e24fd3db8ee8a08d56e0f3c6d54e275"
+    },
+    {
+      "path": "references/coverage-led-security-audit.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "34d54e825f6fd6f14305c2d5869a4632112d837a9937719c379218ab0518f2e4"
+    },
+    {
+      "path": "references/personal/codex-agent-download-gate.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0fbe094dadd6dbed9cfce20053555722ade854f965897f82856faed747e3bfb8"
+    },
+    {
+      "path": "references/personal/coordination.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cc5cb1c9694a7d3f49f86eee53efd06e77b49e1794462a9e6ba43e00b49bf232"
+    },
+    {
+      "path": "references/personal/default-workflow.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "99d297813e098ea39c9c30fc42abb6b6e43ca529d2322710a453c55cb7c57b00"
+    },
+    {
+      "path": "references/personal/evidence-hierarchy.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "95843f454ffb90c42ada35e3d417304b06671e200b08d4a715c24f6244fc1b21"
+    },
+    {
+      "path": "references/personal/mcp-capability-fingerprint.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3bad2b405ad0e77067cb7352ea4f013af2e7402efc64e76c8c5fe9dd3bd3dc6e"
+    },
+    {
+      "path": "references/personal/output-contract.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c10f0d383191d1c24fd34fca8bc6341fb7fc5c72dd42ceff35256b532e12e4dd"
+    },
+    {
+      "path": "references/personal/overview.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e246e74126ca25301af196e17dbdda35329b83954c48533a8f4eacb74216aba2"
+    },
+    {
+      "path": "references/personal/rules.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6c3b0e6fd0e016cfe7317e7826b8a390045f639addba5b42fdb179a503dc5e0b"
+    },
+    {
+      "path": "references/personal/stop-conditions.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "516996772aa2c153b1a6a73559c5602fbc55ed3298e34df9efa48ab478b8ba7b"
+    },
+    {
+      "path": "references/personal/threat-catalog.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ead8a0cdad0adea155192992791091a87b157732247f0ac1baa021809aa4d11a"
+    },
+    {
+      "path": "references/personal/trigger-examples.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1aef595cf559a9cd9c4f1a4e6e2c07474bf91f53df87178bc8e9a25f03f71ab1"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "59ec88f06d6525be8732514f81172c1fff377670221d876595894fb1ec3e132e"
+    },
+    {
+      "path": "references/professional-agents/ai-security-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5f1f09929fc35850ccec3c4caf964487d495c0229171fc5ad3aa404b490cdde1"
+    },
+    {
+      "path": "references/professional-agents/security-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "46bfd9af03668f660ec9361d1ef949e5cdcf82e0edd4c51206c68a08afa174ea"
+    },
+    {
+      "path": "references/professional-agents/security-specialist.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "95b790360836be352037d0a165ff5ff547f722ad8db1fedb2198a7c1f03ef0f6"
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "1a540f27625d434e56262ea2b5f1f6ab38493e0ecc3453db620f13383bc70a64"
+    },
+    {
+      "path": "scripts/publication_preflight.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "812b0998e9c6c915ea3f2d1cb785c5c02bb364f93268f581abe8b2b4124761d0"
+    },
+    {
+      "path": "scripts/skillguard_scan.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "fb2f4e8afc5d56ef6521fb90aff7064a2500705f8ae7cd1b9619720575dcac0e"
+    },
+    {
+      "path": "skills/agent-artifact-scanning/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cb9b562b642fcc2c002f01138ef2c425996cd59d23f08144c276890dd2fb0923"
+    },
+    {
+      "path": "skills/agent-artifact-scanning/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "3c31eaa19ff021d185f77e2e1ab2334344cef2ba7e86af7d5158050323ec7833"
+    },
+    {
+      "path": "skills/agent-artifact-scanning/references/candidate-depth-review.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4a8e6093aa0de623ae6103c52895479bb2cee95552d792e6a2df10be4b371cbc"
+    },
+    {
+      "path": "skills/agent-artifact-scanning/references/data-to-execution.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4bd1aa7295551a073902f6bec239819ab4df17ad67e5104428d13a5d7a49acd5"
+    },
+    {
+      "path": "skills/application-security-testing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0bc5fe8d6772be367577da5592ec39324d7f638f34c77a1462b847f6edaa1360"
+    },
+    {
+      "path": "skills/application-security-testing/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "15f7ffcf4a641e8673e8b30b22cc4bc3fa1b6c08d042e92c6c0623571bbd4d39"
+    },
+    {
+      "path": "skills/indirect-injection-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "894ad41c177a07363ac15c5bc6ddf4ba140bb26e6074ca54107b73b58a27ceff"
+    },
+    {
+      "path": "skills/indirect-injection-review/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4de1dcaf8b5b4072b02c276ec1a341892be06130eb73ad645f28eb3b9a2ef8e5"
+    },
+    {
+      "path": "skills/instruction-security-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dda44d9690a3ab81351a2fdbeff455a28863caccf9f9262a8a3335cd8e5ad136"
+    },
+    {
+      "path": "skills/instruction-security-review/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "30df2768e51903ecdc4fdaedaff066ecd676d96f4c5256989efc6ab84f196088"
+    },
+    {
+      "path": "skills/instruction-security-review/references/injection-review-patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a042199c5332a3a2d1b6f10f056f374e8c5e51b2729900c133685e00efb73e8f"
+    },
+    {
+      "path": "skills/mcp-security-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bb702ebc42c28937edd52fb11fd6144cb61719d35e97f7cad376240093025147"
+    },
+    {
+      "path": "skills/mcp-security-review/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "3c6e682d26032a6fb01abae166743881e7b803dd83165cc2ff3bdaf8b4afb665"
+    },
+    {
+      "path": "skills/permission-and-data-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "37c55fea54de38dcc1c6ed58e3448b69eca22e063d70001e005c7f50216eb766"
+    },
+    {
+      "path": "skills/permission-and-data-review/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "237a475c36a6c544f2415fad542952f8f8f77abe20e747da15703528f4c80ea1"
+    },
+    {
+      "path": "skills/security-regression-tests/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c4ba7b35127e86e7d59fe14592e03d8891fbb78c7885f0d182396da75068a167"
+    },
+    {
+      "path": "skills/security-regression-tests/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "3b3cee90d83d9ac4fdc7852095b106a2d1016fd2d1b68df818ce5b0dbfb2e2bf"
+    },
+    {
+      "path": "skills/software-provenance/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "13da62016d57e9a0d28fbbfa8a891efca5396c23136d8c76b7e3ee5dc20f9601"
+    },
+    {
+      "path": "skills/software-provenance/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0c145056595968219020aec3c90c2014f24e0c9f8cce86a358d3143e89ba957a"
+    },
+    {
+      "path": "skills/software-security-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d07126b12056e23d332f0964a13059a0d3b11e24e7242ee1566b3517117df417"
+    },
+    {
+      "path": "skills/software-security-review/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "d4b24eb98a42976d6c81a14e766a4d2a5fa33ef62e9d00a03229f968c0cfa732"
+    },
+    {
+      "path": "skills/software-security-review/references/agent-artifact-scanning.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "407508e7b19c63083769faef950811b9e98b18d8c54c19385617a1e0267fea71"
+    },
+    {
+      "path": "skills/software-security-review/references/publication-privacy-preflight.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "42b7ca749488d4002038ec48b45da6364668e5e3ceb54597c46ae2958d84c96c"
+    },
+    {
+      "path": "skills/software-security-review/references/threat-catalog.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e3209a67b6bc9d2282807aa1d5c4ffc1ae4625e3bdb4c369e807879022fc45ef"
+    },
+    {
+      "path": "tests/test_publication_preflight.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "128e73d5f1bcfab129d941ab4082c82331fb2b75b16b026e09377662b05a9ea0"
+    },
+    {
+      "path": "vendor/agent-skillguard/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "0ba332d74679bf048b190c78a8e4d32c7933e7040117280bc9eaa648ab297779"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/fixture-manifest.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "7fe085f26f8b1f58c5cf4483f01dc9c6938cff78015580e4566652e2ef561b43"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/negative/hierarchy.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "597b408a4bd88dccd912fcb28df243bc4359b45b3d380b0623ea95281f857aa2"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/negative/least-privilege.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "846cd97297f2f1b84dc88b6ce1b111d34a38935b8bf697cd7048237bee160e6f"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/negative/narrow-delete.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "dc403a5b7e2315a9e2b4401bf859356ec30e8d158fcdfb7b4f20df89606ed9f0"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/negative/reviewed-download.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "c5db39bfb6fa8a2b6f23c4a3d8ebdef996d20d014220c5a696066f1e9b7a81cb"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg001.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "dc9b101158dba0fb5c5aa18ace53bfb656fffff09f5c8cc43a85422e3b394118"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg002.sh",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "3732c54214730f15058529acef1ff3561104b38d4ff472f579a23ad1a01ca1d4"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg003.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "0aea0eabb08964e8113a67a0dc3d98f60617106c3a9c240198b211fd3db8bcb4"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg004.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "cc85d6f980824ec7798e440655f9a1ab8268534209130cdd26709525c9389381"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg005.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "8032fceace857dd273be965bb8301c3f7df18077977803c7113bb94bd9e89fa4"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg006.ps1",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "827565f18f3824afd601a38a6f11a9f1b78a2f4f7c248693758b7bb9092cde54"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg007.sh",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b996e0673572ef1b6d7926d1eb69dafafc5734730a5ed0607c1b9434720970d6"
+    },
+    {
+      "path": "vendor/agent-skillguard/fixtures/positive/sg008.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "b291079fedc6de0e3ea4488693b77162da841107504bd3b855b23889823112af"
+    },
+    {
+      "path": "vendor/agent-skillguard/rules/default-rules.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "7b77ea3817aa4e66992a09cacdd8ca8b672b315524d4c26b8b49165702ef9ebf"
+    },
+    {
+      "path": "vendor/agent-skillguard/rules/non-coverage.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "f2cd5c69eb28a09b983d9ce72d7f997b5b228df97aea50c8456ae72bd95918e6"
+    },
+    {
+      "path": "vendor/agent-skillguard/scripts/skillguard.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "e958c180cb6859f64f66c452e218f566943734797a09f2a00ca6d5038ca3f967"
+    },
+    {
+      "path": "vendor/agent-skillguard/tools/verify_rule_corpus.py",
+      "category": "retained-upstream-MIT",
+      "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
+      "sha256": "f6dcfa04bc757386805d71211ad87fd49b31df67da186103e5a372063b0d8a3e"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "prompt-compass": {
+      "command": "python3",
+      "args": [
+        "scripts/compass_mcp.py",
+        "prompt-compass"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "prompt-framework-builder": {
+      "command": "python3",
+      "args": [
+        "scripts/framework_builder_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "atlas-prompt": {
+      "command": "python3",
+      "args": [
+        "scripts/atlas_library_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

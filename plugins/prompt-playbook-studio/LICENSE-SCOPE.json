@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "package": "prompt-playbook-studio",
+  "version": "0.2.1",
+  "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "precedence": "Retained upstream grants and prior permissions are unchanged; new defaults apply only to author-owned contributions.",
+  "inventory_exclusions": [
+    "PROVENANCE.json and LICENSE-SCOPE.json self hashes are intentionally omitted."
+  ],
+  "files": [
+    {
+      "path": ".app.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "35b46d2c63aaa96fc21fbc453436abb1fd0fcf11f9f8d0c06293e0940f18d138"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "6384430e967eb02f009f7221db41c6f1585541624b9057bf01501b5ea702f06e"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "3a47539ced011797fa8431a1a4d40da76e882eda7f4a81c46aadc3f499c53205"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "65bd87b374210d872fdb63dec3c7db9f334e1f4e1d0a618747c441c38046a90d"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "04b80028d91e9eac454948e148538de3b47ae510a626c051a0f9a1ebd546b3fd"
+    },
+    {
+      "path": "NOTICE.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "957aee2a3a09b2fdd9a2188858d940af5cfc7d8905ce5b9b151ea6027a4165c2"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6ae16345578dfc7f1a953a99e05a5392e63041421e30da7fb81a3ff45e487e01"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "9c4ba312a58a9804c221f35997a2ccbedf4ac0fe22c18f7bfeb30307e6530d97"
+    },
+    {
+      "path": "docs/backend-integration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0b2d2c0e488625ebeb916bca02910d6ff9f68fdc9f09e50eb2b16c7b51827550"
+    },
+    {
+      "path": "docs/framework-builder.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c751bc092c5131ac25ba434da8b7469da1ed35cfdcda1d4f2ff20bae9d71d96d"
+    },
+    {
+      "path": "docs/full-procedures.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8e6d71f3702a6014f45303a85e9cb49c86b8699e5cd8817f8aee902a46fec7c4"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e902c9b94f9ed0fed8a49d616e086b24f3a598fd7e1e7c6b54a0f6c4ab15a65f"
+    },
+    {
+      "path": "docs/prompt-compiler.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "09d7b62103f3377643fb638783cf735ced70bcf60abaef6d67a09298928eb3be"
+    },
+    {
+      "path": "docs/prompt-hook.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "43aa079bf5661500101522c6b1d6acfc7adce4f36aa793c9695364ef0bde14fe"
+    },
+    {
+      "path": "docs/source-coverage.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "17362787884aa1d0de29b2920e5116dd505201f59f8d24c4fc44aa12fc6f9306"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "13738373430494250d8d5b59f30e9ed7f56754c87fff434b9b774fb9c4af9f13"
+    },
+    {
+      "path": "hooks/claude-hooks.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "278063b183b91e27f81f312c3ce31fffef1d286f258a0a534923eab7d83def78"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4b5a382c506d01d1f634579532c5d97dacb0edd76b8e5b0d66299bcf145824cd"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/prompt-optimizer/.claude-plugin/plugin.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "034cdadb4abe006f9693bff6bc622fc27f18bd9fd7e2d91912d1e23b8f56dc35"
+    },
+    {
+      "path": "libraries/prompt-optimizer/.codex-plugin/assets/composer-icon.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "9f7e76d7a29ee0e8088ad291d4aeda16d55ff14d3a0842584e863a928f56469a"
+    },
+    {
+      "path": "libraries/prompt-optimizer/.codex-plugin/assets/logo-dark.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "e7bb10e54c365a0e3d863d3760b9ca5eb0eb7bc006a6978cc52fbde3ef9e92a9"
+    },
+    {
+      "path": "libraries/prompt-optimizer/.codex-plugin/assets/logo.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "a5c96c8d589d347565fd26e2034354e108c2246c632962ac717bfc250a6b1177"
+    },
+    {
+      "path": "libraries/prompt-optimizer/.codex-plugin/plugin.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "ec160ff1814e70abd45788a0df0663f06ca660053705392a5adb8c2e19189120"
+    },
+    {
+      "path": "libraries/prompt-optimizer/LICENSE",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "0ba332d74679bf048b190c78a8e4d32c7933e7040117280bc9eaa648ab297779"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/Logo Generation Manifest 200826.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "388e2371e273a3dac1da22e1cfc26c7b95e88685abc00e9054626b138ddef246"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/Prompt Optimizer Logo Prompt 120826.md",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "133fe5c2ddd2024543398e12764aba99b63468691b14f726ff7444c7e4be9493"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/Prompt Optimizer Silver Satin Master 240826.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "d57daeec37aced97bc9f1fb2a0bfd947cc2f5834d2344127bee933380ae60fdd"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/Prompt Optimizer Silver Satin Source Receipt 240826.md",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "776e1329d5b1b9da030fe7a8ce230cbab62181cb67e805184a3fffa8e79a5c0a"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/compiled-prompt.txt",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "f70b64b4c365b4c20523eb89584211b67d448e5d9d6c78e7c92e82deeae67b03"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/icon.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "9f7e76d7a29ee0e8088ad291d4aeda16d55ff14d3a0842584e863a928f56469a"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/logo-dark.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "e7bb10e54c365a0e3d863d3760b9ca5eb0eb7bc006a6978cc52fbde3ef9e92a9"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/logo.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "e7bb10e54c365a0e3d863d3760b9ca5eb0eb7bc006a6978cc52fbde3ef9e92a9"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/sample-analysis.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "b1b3c3785834946501f3e22b9a2acf63fe4def18a695b5f2f2d51537a1164cfd"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/sample-trace.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "0b61715d7d4c7e0aa69b174954c344afaf49ae37c3c24978af8610f4ecd9fbe9"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/screenshot1.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "107f98a1a5e8e48e8a8c381d65fc1651b8ae46785eeb553dde0d6fb9cce82ef8"
+    },
+    {
+      "path": "libraries/prompt-optimizer/assets/social-preview.png",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "11043c515b6c15e4effb7669478e624434e026fdfa60d8fd65bdb9e5a9d92546"
+    },
+    {
+      "path": "libraries/prompt-optimizer/brief.schema.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "7bd08c026dc9e047926402f1d9d9eaf2408bd81a2fb40b7ce428516e050bc8af"
+    },
+    {
+      "path": "libraries/prompt-optimizer/examples/long-request.txt",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "4d9954be977a8d586e02e11dd548b50fe59fc59231bb7985eeff838bb3a221eb"
+    },
+    {
+      "path": "libraries/prompt-optimizer/examples/optimized-brief.json",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "c3192d96baad4c3f3f9b86c58da1ee4417edf940d469e2f7d11637d7f7379a9d"
+    },
+    {
+      "path": "libraries/prompt-optimizer/scripts/prompt_optimizer.py",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "ec7df53d2123853923dfba4146a43deb73f7f597a87ce19e43c09ab5c765b172"
+    },
+    {
+      "path": "libraries/prompt-optimizer/skills/prompt-optimizer/SKILL.md",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "00f1164b84c5dce63f5d62e0c49a2630381303e94a3317c048284f007828aeab"
+    },
+    {
+      "path": "libraries/prompt-playbook-original/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3b234f17261a8e5178e6ce415b201e03909a60ba95c8c8164c82616eb1a5b839"
+    },
+    {
+      "path": "libraries/prompt-playbook-original/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "6f0bd431e0f9f2e17a4ce18bf12dafa39829fc1e7edd77b298018001728f910a"
+    },
+    {
+      "path": "libraries/prompt-playbook-original/references/patterns.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d5a44c5e39663ea48995d60975bad8b360436dae8891f4f9ba16c0991832e1cc"
+    },
+    {
+      "path": "libraries/prompt-playbook-original/references/profile.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "adea2b6b48af5cd4a571910e2d657a2266c33b8e8b98525027a9e2e16263678e"
+    },
+    {
+      "path": "libraries/prompt-playbook-original/references/templates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fce393ef7bc6e896edfc5e01b82916fde8f39f8f0de55e509ca883abf49aa970"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "466932026e97d987d3fadffee29d992654e17a3c55f4a2ccc7808accf71544cb"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b74b28179d0036e9300c96de69957b1e828220705a398959f5d5642148dacc7f"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "24bde0b197118379a8dab4cbd869a9fe6c2794a650f4ac23f7c1da77d40c1ebc"
+    },
+    {
+      "path": "references/professional-agents/prompt-architect.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "93418d2fc16c5b7604ad4443aeae1dd3819130f64173be15f9249f3fb4201181"
+    },
+    {
+      "path": "references/professional-agents/prompt-engineer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "df9a389c34b882fb425771e4a6f6c160378ebcc3c7ca6a14f3e99960e1af840c"
+    },
+    {
+      "path": "references/professional-agents/prompt-evaluator.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ec5b707a50f45b85842295441a8a514a25f19fbad1040aa5ae1305dc78459d76"
+    },
+    {
+      "path": "references/provider-prompt-engineer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0d65b924b5152f212b903312062e9b67a0427ba1bd39013b878ec29230a3fe27"
+    },
+    {
+      "path": "runtime/LICENSE",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "0ba332d74679bf048b190c78a8e4d32c7933e7040117280bc9eaa648ab297779"
+    },
+    {
+      "path": "runtime/UPSTREAM.md",
+      "category": "license-and-notice",
+      "license": "See document",
+      "sha256": "e2c843ca7286f87db2f79f5a034dff9ce821df6d82930c2b054906485deba920"
+    },
+    {
+      "path": "runtime/framework-builder/build_catalog.mjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4b42a2495e5cedf785de2c326a15a31aef219233fb0497dc29e538bbe73c6653"
+    },
+    {
+      "path": "runtime/framework-builder/collaboration.test.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "7a62945d38083c1ecae8309e6e6d4f23e60fae3386440884f665b7c87974e9f5"
+    },
+    {
+      "path": "runtime/framework-builder/data/assembly.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "c13d58778d76b5a2ca5e5a90e4c95d70607448ea41f2dbdee2b3b3e0d8f3a093"
+    },
+    {
+      "path": "runtime/framework-builder/data/catalog.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cf4a9667cd07bda1407273ee902a869aae53eca53ee615da81397a306e182cc8"
+    },
+    {
+      "path": "runtime/framework-builder/preferences.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "28fe0b2f180d2cd3b16ae09f1d7cdf8a37db3727cbd06c692c21b607ca39a90f"
+    },
+    {
+      "path": "runtime/framework-builder/preferences_test.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "6bba20b7f775028b650dbaf2ee15f04a307d128708d83e87fce0d8d8f8345f7e"
+    },
+    {
+      "path": "runtime/framework-builder/prefill.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "65ebd65c42842e9881cd0327703b9d60fee4cf003af701c0207ecab2a0b77b55"
+    },
+    {
+      "path": "runtime/framework-builder/prefill_test.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "1696c37160fac28a4e458e9fb1ac96c8e4b914ebe7f2a3ff3ee7a4d94c62dd2c"
+    },
+    {
+      "path": "runtime/framework-builder/protocol_test.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "8c2e3ac060d96d57cff29b2d5e35ce9081cd48fd504ad3d188529935c8c6037e"
+    },
+    {
+      "path": "runtime/framework-builder/qa/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "56af902a591ae91e7302a4057b5963d1c9bc026d03b349e010b03b29353621e2"
+    },
+    {
+      "path": "runtime/framework-builder/server.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "e3f5572066257f5ab5da5ba4f09f91bbdd3e16e6abbe5096a47eda07029668dc"
+    },
+    {
+      "path": "runtime/framework-builder/shared/app.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "614c0f9855e9c5a77775bd1111ee62b54c17aea61193d5cbdf53d34f29364b7e"
+    },
+    {
+      "path": "runtime/framework-builder/shared/bridge.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4561ae8cfd973e7a8a123bb2bbb5604dfb904a1822d69730a228e9f3128a023c"
+    },
+    {
+      "path": "runtime/framework-builder/shared/index.html",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a364fa67dd1aae6b45245010a69628ce5ead5aae6925a425709b8fca9aeacdb9"
+    },
+    {
+      "path": "runtime/framework-builder/shared/styles.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "8889cd2f202b9f7d3ff7fe6eb39005d2dd04127bad440ad3739307e54dbedd33"
+    },
+    {
+      "path": "runtime/framework-builder/source_assembly.test.mjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "2d08c6e179538d716c7b317eb732acb3090661d17659819e479bd3fae6b354ca"
+    },
+    {
+      "path": "runtime/framework-builder/ui.test.cjs",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "e473d7f1f8e081b37824b11c6c5ab6e260d02485a07130188a86c5f8a755bc1e"
+    },
+    {
+      "path": "runtime/framework-builder/ui/adapter.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "72ac51439e302ff792aed39950be5d7e4ee61d827c5b61319910c3f213527a3f"
+    },
+    {
+      "path": "runtime/framework-builder/ui/additions.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "46b5e6ed99ca533aa9b11c0b21a4efa4c50dcf75726b7a3ff3220a2429e937d5"
+    },
+    {
+      "path": "runtime/framework-builder/ui/editor.css",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "1a3fda2a4ad7905e5364f3faa0ce51cf4c9c9aaeae5ec2ae3b93d5a656f98ddc"
+    },
+    {
+      "path": "runtime/framework-builder/ui/editor.js",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "ae93c2387c7c9b2fef890e3bc491531e370bc62a155900f4674c23362d88735c"
+    },
+    {
+      "path": "runtime/prompt_optimizer.py",
+      "category": "third-party-MIT",
+      "license": "MIT",
+      "sha256": "283a3c0e9978cd961ea738b6d8a523cd13c014ed2b3b48bacdf777eadefad4d7"
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "1c053d9d2f8400f0297348211381682f0b5906111071b8fb151b1e08cdf08ce6"
+    },
+    {
+      "path": "scripts/compass_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "071ed255481f6277f332517773f8597a870c1b1b76c3aacffc28947108a912fc"
+    },
+    {
+      "path": "scripts/framework_builder_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0abc37b96cfc3ef1a7f308cfce09485e4a6568a0a9c38fb76d95257a8244c25c"
+    },
+    {
+      "path": "scripts/prompt_compiler.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0e65d8ea8f2a48161253531b0c17396443b9a4f9980258360bbbe05621c28681"
+    },
+    {
+      "path": "scripts/prompt_submit_advisory.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "d769d9ac0c17de7a7912065ac78b99b408452fbdb1c859449db772e4e27aace2"
+    },
+    {
+      "path": "skills/execution-briefs/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "26697dfdafc7da767c24342cb518bf6f9d736bb643696bf338c5f3ff87c3be75"
+    },
+    {
+      "path": "skills/execution-briefs/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "99bd01f3cc122ed922ccdd4bb3711890e5506c6e1b0fffc55bc1a067941f80b4"
+    },
+    {
+      "path": "skills/prompt-design/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0f4278fc221a086a4c1ada37485bb0bbd485249338eb7c04d14b9c8e1882769b"
+    },
+    {
+      "path": "skills/prompt-design/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "b60d88ad648673aef74860fe5920099a13724321508c15c2bed56d7dca013fd1"
+    },
+    {
+      "path": "skills/prompt-evaluation/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5948eb500bf7700334ec65928e9126c407790b10da19f95de575dcdf946a2b71"
+    },
+    {
+      "path": "skills/prompt-knowledge-retrieval/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f6770e721b16ee637ea7a72bd7ad2ea7c0bb40f28bba1abb9043e5b9a2c71d9d"
+    },
+    {
+      "path": "skills/prompt-knowledge-retrieval/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "9be50220d9167258c0b4deed2721af719c4f513b9c73e3a6ef782ef4036c4cf3"
+    },
+    {
+      "path": "skills/prompt-patterns/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "13b325da92ab70bec790ba21e07a9223fcfe1dbd5c0b79df1aed56bde81cd603"
+    },
+    {
+      "path": "skills/prompt-patterns/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "30fd6cea0aeb88edcb1406093feceb5dc98c42cecc23926aafb884c8b76a3c80"
+    },
+    {
+      "path": "skills/prompt-playbook/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a520f743b5c808acd44ac291f36f23e76a1a48b7ad9db1d263b6c42bfd59f47f"
+    },
+    {
+      "path": "skills/prompt-playbook/references/compass-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aa387a1b5d58a9b1063e0165bdd9d5802a6e407bb118eb32e3b7d004810c0188"
+    },
+    {
+      "path": "skills/prompt-playbook/references/library-retrieval.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f7b49c185b6ec75eb899ab0be32a964ed92028d2a9c0a3eb4e8d1f0ac61cd8be"
+    },
+    {
+      "path": "skills/prompt-playbook/references/patterns-and-templates.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "886ddd7f1d87914873e6a0274fe149e3ff7f09b8c50a258a94248453ad7a6f1c"
+    },
+    {
+      "path": "skills/prompt-playbook/references/private-profile.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3c07c650036ddc7c8a5afaa7257c4cd8d8274e44b395410986ebf3f934f1f45d"
+    },
+    {
+      "path": "skills/prompt-refinement/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a343edeffe429571ae5be07866b5af71530174c3f377f02a0141d19fff43db02"
+    },
+    {
+      "path": "skills/prompt-refinement/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "91d5d023838df73b0074198b463156ba5f437258592ece3ea0d29681f5abf8ef"
+    },
+    {
+      "path": "skills/prompt-safety/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "177cce426aff2f728c7d1264684a9c0f18ac090044e50290efd6bd3630e9451a"
+    },
+    {
+      "path": "skills/prompt-safety/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "cb4022e980df071ba59c6e7cce4e117418367855f023c5f016a274be02d4c1fa"
+    }
+  ]
+}

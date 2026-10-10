@@ -1,0 +1,32 @@
+{
+  "name": "prompt-playbook-studio",
+  "version": "0.2.1",
+  "description": "Eight complete first-party prompt workflows, retained MIT optimizer/compiler and optional local builder/Compass routes, with official provider-installed Prompt Engineer methods.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Prompt Playbook Studio",
+        "shortDescription": "Prompt craft, testing and reusable knowledge",
+        "longDescription": "Write, repair and test prompts that preserve the intended task, using focused methods, optional Prompt Compass workflows and selected pattern references. Turn an objective into a ready-to-use prompt. Repair a prompt from an observed failure without losing useful constraints. Build a traceable handoff brief or compare prompt behavior on meaningful cases. Start with a concrete task or ask what this plugin can do. Writing a prompt does not execute the task inside it. Prompt Compass interaction gates remain in force; a pattern lookup is not a completed diagnosis or rewrite.",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Improve this prompt while preserving every requirement.",
+          "Find a relevant template and adapt it to my task.",
+          "Compare these prompt versions against clear success tests."
+        ]
+      }
+    }
+  }
+}

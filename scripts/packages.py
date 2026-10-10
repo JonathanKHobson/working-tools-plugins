@@ -5,6 +5,9 @@ from pathlib import Path
 from urllib.parse import unquote
 ROOT=Path(__file__).resolve().parents[1]
 MARKETPLACE='working-tools'
+# Agent Plugins 1.0.0 forbids undeclared top-level fields. Host-specific
+# fields belong in extensions or the host's compatibility manifest.
+PORTABLE_FIELDS={'$schema','name','version','description','author','homepage','repository','license','keywords','extensions'}
 def read_json(path):return json.loads(path.read_text())
 def write_json(path,value):
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,indent=2,ensure_ascii=False)+'\n')
@@ -37,6 +40,9 @@ def validate_package(record):
   manifest=read_json(root/rel)
   if manifest.get('name')!=record['id'] or manifest.get('version')!=record['version']:problem(f'{rel} identity/version mismatch')
   if rel=='plugin.json' and manifest.get('$schema')!='https://agent-plugins.org/schemas/1.0.0/plugin.schema.json':problem('missing portable schema')
+  if rel=='plugin.json':
+   unknown=set(manifest)-PORTABLE_FIELDS
+   if unknown:problem(f'unsupported portable manifest fields: {", ".join(sorted(unknown))}')
  heads=list((root/'skills').glob('*/SKILL.md'))
  if len(heads)!=record['skills']:problem(f'skill count {len(heads)} differs from registry')
  for p in files(root):

@@ -630,7 +630,7 @@
     {
       "id": "social-content-studio",
       "name": "Social Content Studio",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Create source-grounded social posts, adapt content across channels, plan calendars, and verify authorized publishing.",
       "skills": 8,
       "distribution": "prepared",
@@ -660,7 +660,7 @@
       "version": "0.3.1",
       "description": "Develop stories, revise scenes, preserve canon, and prepare playable GM material with complete craft methods.",
       "skills": 9,
-      "distribution": "prepared",
+      "distribution": "released",
       "edition": "Full canonical methods and launchers; optional provider skills and recipient-owned runtimes are separate dependencies",
       "category": "Creativity",
       "requirements": [
@@ -678,6 +678,62 @@
         "firstPartyCode": "AGPL-3.0-only",
         "firstPartyNoncode": "CC-BY-SA-4.0",
         "priorVersion": "0.2.1+ecosystem.20261008",
+        "priorGrantUnchanged": true
+      }
+    },
+    {
+      "id": "master-security-toolkit",
+      "name": "Master Security Toolkit",
+      "version": "0.2.1",
+      "description": "Complete local-first software, agent-artifact, MCP, permission and instruction-security review with pinned scanner and optional Atlas reference route.",
+      "skills": 9,
+      "distribution": "prepared",
+      "edition": "Full canonical first-party methods and licensed retained sources; official Injection Checker depth methods are receiver-installed",
+      "category": "Developer Tools",
+      "requirements": [
+        "Python 3 on PATH for local scanner and optional Atlas launcher",
+        "Python 3.10+ for publication preflight",
+        "Optional Injection Checker depth methods in Codex: injection-checker@openai-curated-remote",
+        "Optional security Atlas: Activities Templates runtime and recipient-owned approved catalog",
+        "Node.js only for Cloudflare coverage-audit JSON validator workflows"
+      ],
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained Agent SkillGuard and Cloudflare MIT, Strix Apache-2.0 as scoped in LICENSE-SCOPE.json",
+      "jobs": [
+        "security",
+        "review"
+      ],
+      "licensing": {
+        "scope": "plugins/master-security-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "upstreamGrantsUnchanged": true
+      }
+    },
+    {
+      "id": "prompt-playbook-studio",
+      "name": "Prompt Playbook Studio",
+      "version": "0.2.1",
+      "description": "Write, refine and evaluate prompts with complete source-grounded methods, optional local tooling and traceable handoff briefs.",
+      "skills": 8,
+      "distribution": "prepared",
+      "edition": "Full canonical methods, references and framework builder; optional official Prompt Engineer skills require a separately installed verified Codex provider",
+      "category": "Productivity",
+      "requirements": [
+        "Your task facts, draft prompts or test cases",
+        "Optional official Prompt Engineer: prompt-engineer@openai-curated-remote on verified Codex hosts",
+        "Optional recipient-owned Prompt Compass and Atlas bindings; Framework Builder requires Python >=3.10 and MCP dependencies",
+        "Optional Promptbanken app and separate Work Management or Master Security Studios"
+      ],
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream MIT scopes as listed in LICENSE-SCOPE.json",
+      "jobs": [
+        "write",
+        "build"
+      ],
+      "licensing": {
+        "scope": "plugins/prompt-playbook-studio/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorVersion": "0.1.2+ecosystem.20261008",
         "priorGrantUnchanged": true
       }
     }

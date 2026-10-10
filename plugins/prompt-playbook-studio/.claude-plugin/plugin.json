@@ -1,0 +1,42 @@
+{
+  "name": "prompt-playbook-studio",
+  "version": "0.2.1",
+  "description": "Eight complete first-party prompt workflows, retained MIT optimizer/compiler and optional local builder/Compass routes, with official provider-installed Prompt Engineer methods.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "mcpServers": {
+    "prompt-compass": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/compass_mcp.py",
+        "prompt-compass"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "prompt-framework-builder": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/framework_builder_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "atlas-prompt": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  },
+  "hooks": "./hooks/claude-hooks.json"
+}

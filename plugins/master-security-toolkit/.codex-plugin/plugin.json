@@ -1,0 +1,25 @@
+{
+  "name": "master-security-toolkit",
+  "version": "0.2.1",
+  "description": "Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Master Security Toolkit",
+    "shortDescription": "Review software and agent instruction risks.",
+    "longDescription": "Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes. Review a downloaded package or MCP before admitting it. Scan a local skill/plugin without executing its contents. Review an owned application or prompt boundary and turn demonstrated findings into regression tests. Start with a concrete task or ask what this plugin can do. A clean static scan is not a safety certificate. Source review, live testing and installation are separate actions. The Atlas is reference material, not a vulnerability scanner.",
+    "developerName": "Kyle Hobson",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Security review",
+      "Prompt-injection assessment"
+    ],
+    "defaultPrompt": "Review this artifact or agent workflow for security risks and give me an evidence-backed verdict."
+  },
+  "mcpServers": "./.mcp.json",
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+}

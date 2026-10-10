@@ -1,0 +1,22 @@
+{
+  "name": "master-security-toolkit",
+  "version": "0.2.1",
+  "description": "Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "mcpServers": {
+    "atlas-security": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

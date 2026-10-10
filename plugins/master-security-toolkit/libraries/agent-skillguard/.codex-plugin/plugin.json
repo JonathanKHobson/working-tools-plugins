@@ -1,0 +1,51 @@
+{
+  "author": {
+    "name": "Orbral",
+    "url": "https://github.com/SpannDaMan"
+  },
+  "description": "Scan agent skills and plugins locally for reviewable risk patterns before installation.",
+  "homepage": "https://github.com/SpannDaMan/agent-skillguard",
+  "interface": {
+    "brandColor": "#0183E0",
+    "brandColorDark": "#1FA1FE",
+    "capabilities": [
+      "Scan local skills and plugins before install",
+      "Find risky instructions, permissions, and downloads",
+      "Show file-and-line evidence and remediation",
+      "Export JSON, Markdown, and SARIF",
+      "Never run or upload the target"
+    ],
+    "category": "Security",
+    "composerIcon": "./.codex-plugin/assets/composer-icon.png",
+    "defaultPrompt": [
+      "I found a viral skill repo on Twitter. Before I install it, audit the public repo and flag anything unsafe.",
+      "Audit this plugin's scripts, permissions, and external calls. Rank risks with file-and-line evidence.",
+      "Give me a go-or-no-go. List what blocks installation, what must be fixed, and what I still need to review."
+    ],
+    "developerName": "Orbral",
+    "displayName": "Skill Risk Check",
+    "logo": "./.codex-plugin/assets/logo.png",
+    "logoDark": "./.codex-plugin/assets/logo-dark.png",
+    "longDescription": "Use this before installing an agent skill or plugin. Skill Risk Check scans local files for hidden instructions, broad permissions, suspicious downloads, prompt-injection patterns, and possible secret exposure, then returns ranked findings with file-and-line evidence and remediation. Do not use it as a safety certification; it never runs, installs, enables, or uploads the target.",
+    "privacyPolicyURL": "https://github.com/SpannDaMan/agent-skillguard/blob/main/PRIVACY.md",
+    "shortDescription": "Scan before you install.",
+    "supportURL": "https://github.com/SpannDaMan/agent-skillguard/blob/main/SUPPORT.md",
+    "termsOfServiceURL": "https://github.com/SpannDaMan/agent-skillguard/blob/main/TERMS.md",
+    "websiteURL": "https://github.com/SpannDaMan/agent-skillguard"
+  },
+  "keywords": [
+    "plugin-security",
+    "agent-skills",
+    "pre-install-scan",
+    "prompt-injection",
+    "supply-chain",
+    "sarif",
+    "codex",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "name": "agent-skillguard",
+  "repository": "https://github.com/SpannDaMan/agent-skillguard",
+  "skills": "./skills/",
+  "version": "0.1.5"
+}

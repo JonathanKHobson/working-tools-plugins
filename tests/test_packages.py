@@ -29,6 +29,13 @@ class DistributionTest(unittest.TestCase):
  def test_stale_provenance_fails(self):
   p.write_json(self.package/'PROVENANCE.json',{'files':[{'source_relative':'README.md','output_sha256':'0'*64}]})
   self.assertTrue(any('hash mismatch' in e for e in p.validate_package(self.record)))
+ def test_host_only_fields_are_rejected_in_portable_manifest(self):
+  d=p.read_json(self.package/'plugin.json');d['skills']='./skills/'
+  p.write_json(self.package/'plugin.json',d)
+  self.assertTrue(any('unsupported portable manifest fields: skills' in e for e in p.validate_package(self.record)))
+  del d['skills'];p.write_json(self.package/'plugin.json',d)
+  d['skills']='./skills/';p.write_json(self.package/'.codex-plugin/plugin.json',d)
+  self.assertEqual(p.validate_package(self.record),[])
  def test_reference_cannot_escape_individual_package(self):
   (self.root/'README.md').write_text('Shared repository documentation')
   (self.package/'README.md').write_text('[shared](../../README.md)')

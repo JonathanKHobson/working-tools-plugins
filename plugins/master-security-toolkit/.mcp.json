@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "atlas-security": {
+      "command": "python3",
+      "args": [
+        "scripts/atlas_library_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}
