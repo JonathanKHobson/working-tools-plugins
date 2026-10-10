@@ -1,6 +1,6 @@
 {
   "package": "data-visualization-toolkit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scope": "All shipped files except this self-describing inventory;external archive receipt includes its hash. Exact no-grant libraries and private data/routing excluded.",
   "files": [
     {
@@ -8,7 +8,7 @@
       "bytes": 385,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "86e046f951900510b728eb2e5574964a0a932d36d7fa72eab957dc5fdd0abe80",
+      "output_sha256": "3553e83bef325d9a1d53cbb68384f1bd42d08a556b2d1167497bd697809dceca",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -19,7 +19,7 @@
       "bytes": 1108,
       "source_relative": "canonical-data-visualization-toolkit/.codex-plugin/plugin.json",
       "source_sha256": "7a6456ff7c9d22f337c028dd8aaeae4ebacffc2743698ff4ffef5e3167cf64ad",
-      "output_sha256": "ef1fc96f0b946d279ddca6010d2da938851ed1008c53694950bcd679a658b979",
+      "output_sha256": "b282ad6b8ca0fdaf98d8b2cf98138af155afb8a5f7afba8c531d085ac9c93ac6",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -1999,7 +1999,7 @@
       "bytes": 1380,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "1678751d32479ef6871334213336ef15bb9004563fc68987894f80988eebc45b",
+      "output_sha256": "087fae0b249d18b85c2f6ab4e85ad3c1f5076bda1c73ce66f738f2b6b7770f76",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -2951,5 +2951,9 @@
       "license_notice": "LICENSE",
       "status": "original-public-addition"
     }
-  ]
+  ],
+  "public_patch": {
+    "version": "0.2.1",
+    "reason": "Restore rendered widget in Git-backed distribution; root dist ignore previously omitted nested runtime artifact. Widget runtime bytes unchanged from reviewed ZIP."
+  }
 }
