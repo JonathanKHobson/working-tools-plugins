@@ -19,7 +19,7 @@ The goal/depth gates, scope-object-subject hierarchy, six ordered pyramid steps,
 - Cursor `alwaysApply` metadata is replaced by explicit bundled references, not an unsupported global plugin rule.
 - Response-language selection, evidence provenance, source-instruction isolation, graceful tool fallback, and cloud-independent runtime are added.
 
-The additional eight rules in the supplied file are labeled as supplied extensions, not independently attributed to Andrej Karpathy. This package does not claim endorsement. No blanket upstream license was established for all supplied material; no blanket redistribution license is asserted. Verify rights before public publication. English is used throughout the authored package; output language remains user-controlled.
+The additional eight rules in the supplied file are labeled as supplied extensions, not independently attributed to Andrej Karpathy. This package does not claim endorsement. The five original method files have the direct author grant recorded in `SOURCE-RIGHTS.md`; no blanket grant is asserted for other upstream or publisher-owned material. English is used throughout the authored package; output language remains user-controlled.
 
 ## Version 1.1.0 skill overlay
 
