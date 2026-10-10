@@ -1,6 +1,6 @@
 # Activities Templates
 
-Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Find an activity or reusable method, inspect its source and review status, and adapt it through the relevant studio. This package owns the catalog runtime and human chooser. Workshop Facilitation owns running a session; UX, Instructional Design, Career and other studios own their production workflows.
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "brand-templates",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "6c91986210cd9586370f40aa4b88815208db76fccc4e54ac0ca85b29eed22964"
+      "sha256": "e4e8734d0c70bc925c4f0560d04a83d5a19644610dde31ee25ca60ed84950653"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "4d7ff00b158be2365a231df02be9f1d62d64810173993c7be10e6023d7e56922"
+      "sha256": "fc896487db8ef1fd25a7f80204aa890949f6ed9bd1c8c826dc35f0a90ef8317d"
     },
     {
       "path": ".mcp.claude.json",
@@ -44,7 +44,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "b8d0368e282b8caec5e4aecfe063903bb73972be292dbfde090f4fc539792c5c"
+      "sha256": "313bb9354dc87bc436eedc1f2d66bc9b97abe4cc2afc8a37642438e565eae644"
     },
     {
       "path": "DESIGN.md",
@@ -79,7 +79,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "d573e3fadf7e537d4ef3a7dd82aeec2ee11fbc64a6f4f0a7277c88974ebff224"
+      "sha256": "86aec7927d2dc3de4b1afc5fa879fa47562fb5f6e7035c7b12dfd1ab740b54e6"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -94,6 +94,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "330a3ec5f68abc33d4d8a9b890543837fbc658e1833538fcf6c43e92e347d184"
+    },
+    {
+      "path": "docs/onboarding.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "577a0b8c4c035bed096b4f4767f8f8ff8a49156db25d09c8508a9e8c78bdd152"
     },
     {
       "path": "docs/project-map.md",
@@ -2403,7 +2410,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "baa98884dbeb3bde2c3239964a9a137f7d19399b2014a3a3df274fe7fff7d29e"
+      "sha256": "b16dcd2d73dff84c7ac34f3be0cd62ebeb0dcdb310caeb2291877150e1c53efa"
+    },
+    {
+      "path": "provenance/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "261ef1f50fabb43d03c0c5ce0066e3acbb7e453ca45a574d73bbdb2708c6f7be"
     },
     {
       "path": "provenance/chooser.json",
@@ -2438,7 +2452,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "f7008ae9e9764bf0e321d35ce0e99a3872c4f8182627f3c985acf67a1e9d9dad"
+      "sha256": "7b8af7a0e4b797990ce188a1acb1b86a80e95b8417c2030cb7160fe56f88a8fe"
     },
     {
       "path": "runtime/brand-library/server.py",
@@ -2487,7 +2501,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "c2d04e9c214ff158397f2ffabe325c803d27998fc3db0d4084ba7a25d712a281"
+      "sha256": "3c8acc91e41ecb0084c85f54261f23c968eab706c1c5bc3872bd2031cba9f42f"
     },
     {
       "path": "scripts/create_sample_collection.py",
@@ -2495,6 +2509,20 @@
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "3991f5691356bd9d32c43c03d837a1d76838f359beba98dc3dc864a2b79c112f"
+    },
+    {
+      "path": "scripts/project_additive_brand.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "d57225272991397be5641399fabca410d7daf3d273eb1354f62771124208bdd3"
+    },
+    {
+      "path": "scripts/publish_additive_release.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "431be495580ef314f7a79437c69f53f8cd2bf19968c6e295de33298610926864"
     },
     {
       "path": "skills/brand-templates/SKILL.md",
@@ -31860,6 +31888,20 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Original eligible creative templates, synthetic fixtures and fictional reusable template identities. Official/personal identity marks excluded.",
       "sha256": "3aa418caeb73762afb47d53f6d0cbd10c9bcfa733b7dde88bc943709790cd120"
+    },
+    {
+      "path": "tests/protocol_smoke.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "38d70c1965f3c229e29df2c631cac484352c187941c4482dd23c27dfba221912"
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintenance/runtime addition; held collection inputs remain external, prior and upstream grants retained.",
+      "sha256": "06e4c699eb4409c1681be2ccd686537bd46ec32487f1481da6668f80eecf8933"
     },
     {
       "path": "tests/test_public_stdio.py",

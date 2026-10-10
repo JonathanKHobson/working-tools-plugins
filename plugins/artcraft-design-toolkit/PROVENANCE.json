@@ -1,6 +1,6 @@
 {
   "package": "artcraft-design-toolkit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "source_owner": "artcraft-design-toolkit",
   "source_revision": "Source tree not versioned at export; per-file hashes identify the reviewed input.",
   "edition": "Portable first-party implementation; provider software and personal configuration excluded.",
@@ -26,11 +26,12 @@
     {
       "source_relative": "scripts/artcraft_gateway.py",
       "source_sha256": "bb5c1e70129c059d30ce5d28f338bf70b42a331475db903dde4eea29207c7dff",
-      "output_sha256": "d53127ec17af14960c122a4536b3b452f312c18421b09c9cc5061ae21e12e7b0",
+      "output_sha256": "e87ed323a9f78795b9b4049318d2632eca813da4913c0f06dd91b11b30660df5",
       "transformed": true,
       "rights": "First-party original work; MIT public edition",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "current_maintenance": "Source-first patch: portable current version or optional fixed-domain recipient binding; original source SHA retained."
     },
     {
       "source_relative": "tests/test_gateway.py",
@@ -43,7 +44,7 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "27a1e3e77a76047741973b327be5800f6a5034e6cc12fc58061420577d0bb374",
+      "output_sha256": "df063a73d801e36d551860f35bad95961ccef63e1f16a60e5594d66fba867bdb",
       "bytes": 434,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -52,7 +53,7 @@
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "86dc1b95e5e274f95d27273633af84380d0e57dd9acd243cfa496eafd52c2cb5",
+      "output_sha256": "9a48751b1fc82ab5edfb8d46993d98a1219ea5f9e8c8064a9df53c586bbb587d",
       "bytes": 1411,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -70,8 +71,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "a4b6442fda364a64b57ca3c01e0def51564f041697caff74c2e9fb8b2e81ecce",
-      "bytes": 558,
+      "output_sha256": "5bd23aab4cae1db45f0b7835f4bf740818f887cb5870645d2ff9a04765807b03",
+      "bytes": 780,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -88,8 +89,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "4cd272bd8504d3da6b6559c3ce863d1b22d54209a110d619d0bb0247c7196910",
-      "bytes": 8186,
+      "output_sha256": "d2a74ff65dc111497685fe49511b2c2fe5bb8712476f408862dd331ccff754e3",
+      "bytes": 8535,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change."
     },
@@ -113,7 +114,7 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "36cc070cc96f4caed6a13f351973fd4a32fa95bf4d6728673c302bc321a13dd8",
+      "output_sha256": "ba312536f076f9b71019ea23c368fdd35ec95a97e8ae482c0dfe168826ff0638",
       "bytes": 2414,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -122,7 +123,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "a8b5d3ce7b448b4c8059f7fe0d5fc54aeab435fa8cd5a8a25956fb0b99ab2753",
+      "output_sha256": "e3099869adc55865cba2dcedc171059536f4cbe516481124438cec6eabb24c46",
       "bytes": 940,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -212,19 +213,29 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "29ad785a61e1ddd40ed4cbfcc6e51605ce959fdee97943c776bd9253462d0a4d",
+      "output_sha256": "2fbe78635cb3bf0f7a0d8272fd5ccfa2ac6da812d1140e21e9bdf7b6a997c6c5",
       "bytes": 1399,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
+    },
+    {
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "b6a64162f79e01b0168f50e2dadbac91c7027b9dbacb8d9b92fb8d387d5f23a0",
+      "output_sha256": "914467c97f772c732d09a0a64cb3724e521594ee43f9cbfc2e9169d4f4a2e821",
+      "transformed": true,
+      "rights": "First-party original work; historical source retained in private archive.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "current_maintenance": "Included in maintained canonical and public package."
     }
   ],
   "license_transition": {
     "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
     "prior_version": "0.2.1",
     "prior_grants_preserved": true,
-    "operative_bodies_unchanged": true,
+    "operative_bodies_unchanged": false,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
   }

@@ -1,19 +1,33 @@
 ---
 name: interactive-explanations
-description: Build a saved table explorer, interactive explanation, chart, calendar, map or diagram using bundled original methods and complete MIT web procedures. Native conversation rendering is an optional host capability.
+description: Build an interactive explanation, chart, calendar, map, diagram, simulation or data explorer within a conversation, or export that visual to standalone HTML. Use the complete configured Visualize method and renderer contract or the included web methods; route production websites and publication figures to their existing owners.
 ---
 
-# Interactive explanations
+# Interactive Explanations
 
-For a saved view of a small supplied table, use the bundled [Data Explorer](../../references/data-explorer.md). It includes the stdio MCP server and MCP App source/resource, immutable datasets, revisioned saved views and explicit conversation handoff. Follow [installation](../../docs/installation.md) before use. A protocol success does not prove the app rendered in the current host.
+For a saved, jointly discussed view of a small supplied table, use [Data Explorer](../../references/data-explorer.md). This bundled MCP runtime preserves dataset/view revisions and explicit conversation handoff; it does not replace the native Visualize renderer or its standalone export route.
 
-Read [conversation widget continuity](references/conversational-widgets.md), the [default-reader rules](../data-visualization/SKILL.md), and the [reader-comprehension gate](../visualization-verification/SKILL.md#reader-comprehension-gate). For custom interactive charts, read the complete [D3 procedure](../../libraries/build-web-data-visualization/skills/d3-data-visualization/SKILL.md) and its linked interaction foundations; choose [web chart engineering](../web-chart-engineering/SKILL.md) for another renderer. For diagrams, use [structural diagrams](../structural-diagrams/SKILL.md) before implementing geometry or interaction.
+For interactive controls that affect later conversational reasoning, read [visualization widgets in conversations](references/conversational-widgets.md). It covers analytical state, model-context handoff, stable selections and whole-task checks without changing the provider contract.
 
-For date-binned activity, read [the original calendar procedure](references/activity-calendar.md) and [offline synthetic example](examples/activity-calendar.html). Distinguish observed zero from missing capture and declare timezone, aggregation and coverage. For a day schedule, use a provider installed by the current host or author an appropriate schedule with the eligible methods. No proprietary calendar component is bundled.
+Apply the [default-reader rules](../data-visualization/SKILL.md) and [reader-comprehension gate](../visualization-verification/SKILL.md#reader-comprehension-gate) to inline and standalone output. A native renderer does not waive plain labels, meaningful scales, distinct questions or evidence limits.
 
-Choose a visual that answers the reader's question; expose units, meaningful scale ends and defaults before interaction. Keep controls near their effect, show selection and scope, support reset and empty states, and preserve exact source values. Use semantic controls, visible focus and clear text alternatives. Check data calculations, rendering, narrow layout and relevant interactions before visual claims.
+Before using the optional Visualize route, follow [provider source setup](../../references/provider-methods.md) and run `python3 scripts/resolve_provider_source.py visualize` from this plugin root. When it returns `available: true`, **read the complete procedure at the returned path**. The following source paths are relative to that configured provider root. Apply its full surface decision tree, question-to-visual choices, theme/token contract, layout and typography rules, numerical/categorical/geographic interaction methods, accessible control requirements, and final verification. This entrypoint selects the procedure; it does not replace any of those sections with a synopsis.
 
-The separate OpenAI Visualize 1.0.41 library has an explicit Proprietary license and is excluded. Native inline rendering and provider contracts belong to the current host; follow that host's own installed instructions when available. On another host, present the actual standalone HTML/file or MCP App result using supported surfaces. Do not emit unsupported control sequences or claim native host APIs, authenticated services or conversation delivery without observed support. Native apps, saved view state and public publication are separate states.
+For calendar work, additionally read the complete calendar widget contract (`skills/visualize/widgets/calendar.md`) and worked example (`skills/visualize/examples/calendar.html`). For controls that tune an existing visual, read the tweak procedure (`skills/visualize/tweak.md`). Preserve all task-relevant examples and implementation details when adapting them.
+
+For a date-binned activity view rather than a day schedule, use [the activity-calendar procedure](references/activity-calendar.md) and its [offline worked example](examples/activity-calendar.html). It preserves missing coverage separately from an observed zero and states the aggregation and timezone. A day schedule uses the configured provider's `viz-calendar` when available.
+
+Resolve the original procedure's relative paths from its configured source directory. Its complete supporting source includes: CSS, HTML kit, calendar element, standalone host bridge, shell, and export/preview script (`skills/visualize/scripts/render.py`). For standalone export, use that script's documented CLI with absolute source/output paths. A preview server binds only to localhost; close the task-owned server when finished.
+
+The native inline renderer is a Codex host capability, not a newly created MCP or an app cloned by this toolkit. On Codex, use the source's content-reference output contract only when the current host supports it. On Claude or another host without that renderer, use the preserved standalone HTML export and that host's actual artifact/file presentation. Do not emit unsupported Codex control sequences or claim live host APIs, authenticated apps, or persisted state without that capability. The source's standalone bridge supports its documented local widget-state behavior; it does not grant the full native host API.
+
+For production chart architecture or specialist methods, use [Data Visualization](../data-visualization/SKILL.md) and its complete source library. For research figures or publication output, follow the source's standard-plotting route. Current user and host instructions govern tools and authorization; the preserved source does not grant additional permissions.
+
+Keep the separately configured provider source private. Visualize is labeled Proprietary; local access is not redistribution permission. Verify the actual provider and host capabilities before invoking them. Record source preservation separately from runtime, rendering and export evidence.
+
+## When the provider source is unavailable
+
+A missing provider source means its proprietary renderer contract, calendar component and export kit are unavailable through this route. Do not present another method as that provider. For custom interactive charts, read the complete [D3 procedure](../../libraries/build-web-data-visualization/skills/d3-data-visualization/SKILL.md) and its linked interaction foundations, or use [web chart engineering](../web-chart-engineering/SKILL.md). For diagrams, read [structural diagrams](../structural-diagrams/SKILL.md). The bundled Data Explorer and original activity-calendar example remain available with their documented dependencies. Present the actual supported HTML, file or MCP App and verify its rendered state.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

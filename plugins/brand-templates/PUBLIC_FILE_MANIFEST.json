@@ -4,12 +4,12 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "6c91986210cd9586370f40aa4b88815208db76fccc4e54ac0ca85b29eed22964",
+      "sha256": "e4e8734d0c70bc925c4f0560d04a83d5a19644610dde31ee25ca60ed84950653",
       "bytes": 339
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "4d7ff00b158be2365a231df02be9f1d62d64810173993c7be10e6023d7e56922",
+      "sha256": "fc896487db8ef1fd25a7f80204aa890949f6ed9bd1c8c826dc35f0a90ef8317d",
       "bytes": 742
     },
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "b8d0368e282b8caec5e4aecfe063903bb73972be292dbfde090f4fc539792c5c",
-      "bytes": 645
+      "sha256": "313bb9354dc87bc436eedc1f2d66bc9b97abe4cc2afc8a37642438e565eae644",
+      "bytes": 928
     },
     {
       "path": "DESIGN.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "sha256": "e9232b69438597bb65fa111c67d008a9884ee6490293cd862d58a9834f3a0f1a",
-      "bytes": 1819164
+      "sha256": "26ea332616f15605393e49f22745399e10d39400d0ba7049be4eb06ab11fc6e0",
+      "bytes": 1821274
     },
     {
       "path": "LICENSING.md",
@@ -54,13 +54,13 @@
     },
     {
       "path": "PROVENANCE.json",
-      "sha256": "df3e24264ed07bd4ac2b55cd655e3d0c0c302c123a1c6f4a82bf1934906287ed",
-      "bytes": 2951525
+      "sha256": "77355818ace624b31559654c40dba62ded47798250ea35a4d1025c5675fcfda4",
+      "bytes": 3052346
     },
     {
       "path": "README.md",
-      "sha256": "d573e3fadf7e537d4ef3a7dd82aeec2ee11fbc64a6f4f0a7277c88974ebff224",
-      "bytes": 5813
+      "sha256": "86aec7927d2dc3de4b1afc5fa879fa47562fb5f6e7035c7b12dfd1ab740b54e6",
+      "bytes": 6814
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -71,6 +71,11 @@
       "path": "docs/collection-contract.md",
       "sha256": "330a3ec5f68abc33d4d8a9b890543837fbc658e1833538fcf6c43e92e347d184",
       "bytes": 1133
+    },
+    {
+      "path": "docs/onboarding.md",
+      "sha256": "577a0b8c4c035bed096b4f4767f8f8ff8a49156db25d09c8508a9e8c78bdd152",
+      "bytes": 2067
     },
     {
       "path": "docs/project-map.md",
@@ -1719,8 +1724,13 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "baa98884dbeb3bde2c3239964a9a137f7d19399b2014a3a3df274fe7fff7d29e",
+      "sha256": "b16dcd2d73dff84c7ac34f3be0cd62ebeb0dcdb310caeb2291877150e1c53efa",
       "bytes": 849
+    },
+    {
+      "path": "provenance/README.md",
+      "sha256": "261ef1f50fabb43d03c0c5ce0066e3acbb7e453ca45a574d73bbdb2708c6f7be",
+      "bytes": 1589
     },
     {
       "path": "provenance/chooser.json",
@@ -1744,8 +1754,8 @@
     },
     {
       "path": "runtime/brand-library/catalog.py",
-      "sha256": "f7008ae9e9764bf0e321d35ce0e99a3872c4f8182627f3c985acf67a1e9d9dad",
-      "bytes": 4056
+      "sha256": "7b8af7a0e4b797990ce188a1acb1b86a80e95b8417c2030cb7160fe56f88a8fe",
+      "bytes": 4441
     },
     {
       "path": "runtime/brand-library/server.py",
@@ -1779,13 +1789,23 @@
     },
     {
       "path": "scripts/brand_library_mcp.py",
-      "sha256": "c2d04e9c214ff158397f2ffabe325c803d27998fc3db0d4084ba7a25d712a281",
-      "bytes": 842
+      "sha256": "3c8acc91e41ecb0084c85f54261f23c968eab706c1c5bc3872bd2031cba9f42f",
+      "bytes": 1739
     },
     {
       "path": "scripts/create_sample_collection.py",
       "sha256": "3991f5691356bd9d32c43c03d837a1d76838f359beba98dc3dc864a2b79c112f",
       "bytes": 2639
+    },
+    {
+      "path": "scripts/project_additive_brand.py",
+      "sha256": "d57225272991397be5641399fabca410d7daf3d273eb1354f62771124208bdd3",
+      "bytes": 13831
+    },
+    {
+      "path": "scripts/publish_additive_release.py",
+      "sha256": "431be495580ef314f7a79437c69f53f8cd2bf19968c6e295de33298610926864",
+      "bytes": 14849
     },
     {
       "path": "skills/brand-templates/SKILL.md",
@@ -4178,6 +4198,186 @@
       "bytes": 2288
     },
     {
+      "path": "templates/career-bridge-letter/ADAPTATIONS.md",
+      "sha256": "f832ebe22871ff3be5c0543ecd96b2690bffaca1fc10b5efbc08c82a05d6689b",
+      "bytes": 1366
+    },
+    {
+      "path": "templates/career-bridge-letter/COLORS.md",
+      "sha256": "5309ad22bb67084134d1585a714fc92d00d1b4177f4481a051be8670cc25b337",
+      "bytes": 1769
+    },
+    {
+      "path": "templates/career-bridge-letter/COMPONENTS.md",
+      "sha256": "9ea82917e058b2a7b9851cf118d4b2166778e8ab69c8ed0454dda4477d2ad475",
+      "bytes": 1254
+    },
+    {
+      "path": "templates/career-bridge-letter/DESIGN.md",
+      "sha256": "0060e2958867b9b19bd88fea1c0bd7b7a9d55ada8b508432180c7bbe5c9b8cac",
+      "bytes": 1894
+    },
+    {
+      "path": "templates/career-bridge-letter/LAYOUT.md",
+      "sha256": "3b595c140e077b5dff40fb4fdb32013f55a6cf2664f40b5441e273ddf424bbfa",
+      "bytes": 1334
+    },
+    {
+      "path": "templates/career-bridge-letter/LOGO.md",
+      "sha256": "4b226b3346bfe5690f8f1e2eea00bc9293e6d663811d95e219e603f08f56463f",
+      "bytes": 2048
+    },
+    {
+      "path": "templates/career-bridge-letter/README.md",
+      "sha256": "a54f73309a5f98a61b7bb718fb0e69c2347b548e543ee4d8906f068e2916c014",
+      "bytes": 1426
+    },
+    {
+      "path": "templates/career-bridge-letter/SKILL.md",
+      "sha256": "7400dad02606d4a3a9ce397145f6a890a933233fd6624af507cfe1d52eb5c1a1",
+      "bytes": 2011
+    },
+    {
+      "path": "templates/career-bridge-letter/STYLE.md",
+      "sha256": "81a92b8e3e5835534ea770d3eecb48ab5201bf645fabf73fa3697d94668f4ca3",
+      "bytes": 1477
+    },
+    {
+      "path": "templates/career-bridge-letter/TYPOGRAPHY.md",
+      "sha256": "4b1634985322d69c028676a9aef7dabba66bc43d785c1ff1e18ac5c99c5cdf37",
+      "bytes": 1615
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/fonts/carlito/Carlito-Bold.ttf",
+      "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db",
+      "bytes": 682468
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/fonts/carlito/Carlito-Regular.ttf",
+      "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595",
+      "bytes": 628032
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/fonts/carlito/OFL.txt",
+      "sha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "bytes": 4424
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/PROVENANCE.md",
+      "sha256": "b271d4450206a2a66b3d9ea4a11ceb51531a55aabc66ee9b24fa75a8af6dfda4",
+      "bytes": 2087
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/mono.png",
+      "sha256": "0578aa79168742be587062d46203aa9763475709b389ed9759ac8ba9b809bc01",
+      "bytes": 21880
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/mono.svg",
+      "sha256": "c6117893ad953f1559c73eb5f3c90d1290c3cd5851957574f43f05b1110da5d7",
+      "bytes": 19720
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/primary.png",
+      "sha256": "bcc59247be5e66a287a432ea580792da7ad2f96db424b82949ef10eb43084e76",
+      "bytes": 25874
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/primary.svg",
+      "sha256": "07ce6526f36d506683f46aaca2971eec656579730e20ca89c7f84109a621a41d",
+      "bytes": 19726
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/reverse.png",
+      "sha256": "21a70bc7b070a81b30af83d8fb741c8e11e8a2ea24e0c18b0139c5ff86af9e6f",
+      "bytes": 23480
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/reverse.svg",
+      "sha256": "34499a2267e5a908405cb9000185181b78b9cd1c8dafbf34cef722013528e665",
+      "bytes": 19726
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/secondary.png",
+      "sha256": "d22e2d7c0e1579ee9320c3278b4ab26ccc71d0aa819ef35c60bbfc4ef1238322",
+      "bytes": 26187
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/logos/secondary.svg",
+      "sha256": "ce607414ac6c444bbfeeee743c3f51f72510ccb004a6b395cae9f5ceee986be5",
+      "bytes": 19797
+    },
+    {
+      "path": "templates/career-bridge-letter/assets/manifest.json",
+      "sha256": "7c9f0609e6c045a843c7e006709a95c95b77c5567ba58d5ac7e7a2cf08965df0",
+      "bytes": 6885
+    },
+    {
+      "path": "templates/career-bridge-letter/brand.json",
+      "sha256": "08cffc0b7b51c303a865f2e7f3b9bb761a40990f9291d6767ca5f704a6f6847b",
+      "bytes": 8052
+    },
+    {
+      "path": "templates/career-bridge-letter/evidence.json",
+      "sha256": "2e89d6ca17d47a0b35e7556896fec1db17fa2f0d8a5a4f6ff36930e019b1284b",
+      "bytes": 13521
+    },
+    {
+      "path": "templates/career-bridge-letter/guide-source/README.md",
+      "sha256": "bd2bf9006f74175ae79fb32ca0e14eb87ed05ec285be744f89c72c269de8a518",
+      "bytes": 314
+    },
+    {
+      "path": "templates/career-bridge-letter/guide-source/guide-data.json",
+      "sha256": "35e093383fbe117cbaeeb96e21b275ecf0eef5a2ecd3ef98192c7d30694e116a",
+      "bytes": 5013
+    },
+    {
+      "path": "templates/career-bridge-letter/guide-source/render_guide.py",
+      "sha256": "65d7b420aa39d9a320573f45832dbf9e58c9c0fb4d17399901747fb51e158c42",
+      "bytes": 63623
+    },
+    {
+      "path": "templates/career-bridge-letter/guide.md",
+      "sha256": "8c7a1e712ff41d8c049b82d6841072cd67273a7ef1344e468db9742135768ddf",
+      "bytes": 1672
+    },
+    {
+      "path": "templates/career-bridge-letter/guide.pdf",
+      "sha256": "f29e4eccc5bf11b7c2000628219ea46ed05f7087c644e7319ca2b62972008243",
+      "bytes": 128644
+    },
+    {
+      "path": "templates/career-bridge-letter/references/career-bridge-letter/COLORS.md",
+      "sha256": "5df64a42921ba4b374f62e7bccabcac97c39436884c7eb9c03d9da8d34f320d5",
+      "bytes": 793
+    },
+    {
+      "path": "templates/career-bridge-letter/references/career-bridge-letter/COMPONENTS.md",
+      "sha256": "8b290f886177c8ffac397e1abf2021d5c9a905c47874989cb5592889a4fbfd7a",
+      "bytes": 335
+    },
+    {
+      "path": "templates/career-bridge-letter/references/career-bridge-letter/LAYOUTS.md",
+      "sha256": "5cd7d8c6f4cb7512e2cc1d0ec23b3c5c3725ae05c9380c150cdd9f01efeffb3e",
+      "bytes": 473
+    },
+    {
+      "path": "templates/career-bridge-letter/references/career-bridge-letter/TYPOGRAPHY.md",
+      "sha256": "dcd951c2cf4103c500c7f189303b77bc9ab717a32245d59108bc9ec39e8f8dcf",
+      "bytes": 3499
+    },
+    {
+      "path": "templates/career-bridge-letter/references/career-bridge-letter/foundations.json",
+      "sha256": "92bc120c789b97efe55e7946042e7db033ecc62eb02044655769496d9c9a59a9",
+      "bytes": 9518
+    },
+    {
+      "path": "templates/career-bridge-letter/tokens.json",
+      "sha256": "6df2f8c53d341e8c22805be13b40bc75ed508e32ace5a9039be9f1e5ad3fcdb1",
+      "bytes": 1603
+    },
+    {
       "path": "templates/career-bridge/ADAPTATIONS.md",
       "sha256": "e5827f3a926006d221c693336e82d88e3f4a4b022887e8cb8b3e215f80b5bfc2",
       "bytes": 1388
@@ -4366,186 +4566,6 @@
       "path": "templates/career-bridge/tokens.json",
       "sha256": "9417bab5924ae35fc34c3af1577b06b99d66d5680070ed4ec6f339ce9d8e9ba5",
       "bytes": 1614
-    },
-    {
-      "path": "templates/career-bridge-letter/ADAPTATIONS.md",
-      "sha256": "f832ebe22871ff3be5c0543ecd96b2690bffaca1fc10b5efbc08c82a05d6689b",
-      "bytes": 1366
-    },
-    {
-      "path": "templates/career-bridge-letter/COLORS.md",
-      "sha256": "5309ad22bb67084134d1585a714fc92d00d1b4177f4481a051be8670cc25b337",
-      "bytes": 1769
-    },
-    {
-      "path": "templates/career-bridge-letter/COMPONENTS.md",
-      "sha256": "9ea82917e058b2a7b9851cf118d4b2166778e8ab69c8ed0454dda4477d2ad475",
-      "bytes": 1254
-    },
-    {
-      "path": "templates/career-bridge-letter/DESIGN.md",
-      "sha256": "0060e2958867b9b19bd88fea1c0bd7b7a9d55ada8b508432180c7bbe5c9b8cac",
-      "bytes": 1894
-    },
-    {
-      "path": "templates/career-bridge-letter/LAYOUT.md",
-      "sha256": "3b595c140e077b5dff40fb4fdb32013f55a6cf2664f40b5441e273ddf424bbfa",
-      "bytes": 1334
-    },
-    {
-      "path": "templates/career-bridge-letter/LOGO.md",
-      "sha256": "4b226b3346bfe5690f8f1e2eea00bc9293e6d663811d95e219e603f08f56463f",
-      "bytes": 2048
-    },
-    {
-      "path": "templates/career-bridge-letter/README.md",
-      "sha256": "a54f73309a5f98a61b7bb718fb0e69c2347b548e543ee4d8906f068e2916c014",
-      "bytes": 1426
-    },
-    {
-      "path": "templates/career-bridge-letter/SKILL.md",
-      "sha256": "7400dad02606d4a3a9ce397145f6a890a933233fd6624af507cfe1d52eb5c1a1",
-      "bytes": 2011
-    },
-    {
-      "path": "templates/career-bridge-letter/STYLE.md",
-      "sha256": "81a92b8e3e5835534ea770d3eecb48ab5201bf645fabf73fa3697d94668f4ca3",
-      "bytes": 1477
-    },
-    {
-      "path": "templates/career-bridge-letter/TYPOGRAPHY.md",
-      "sha256": "4b1634985322d69c028676a9aef7dabba66bc43d785c1ff1e18ac5c99c5cdf37",
-      "bytes": 1615
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/fonts/carlito/Carlito-Bold.ttf",
-      "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db",
-      "bytes": 682468
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/fonts/carlito/Carlito-Regular.ttf",
-      "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595",
-      "bytes": 628032
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/fonts/carlito/OFL.txt",
-      "sha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
-      "bytes": 4424
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/PROVENANCE.md",
-      "sha256": "b271d4450206a2a66b3d9ea4a11ceb51531a55aabc66ee9b24fa75a8af6dfda4",
-      "bytes": 2087
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/mono.png",
-      "sha256": "0578aa79168742be587062d46203aa9763475709b389ed9759ac8ba9b809bc01",
-      "bytes": 21880
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/mono.svg",
-      "sha256": "c6117893ad953f1559c73eb5f3c90d1290c3cd5851957574f43f05b1110da5d7",
-      "bytes": 19720
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/primary.png",
-      "sha256": "bcc59247be5e66a287a432ea580792da7ad2f96db424b82949ef10eb43084e76",
-      "bytes": 25874
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/primary.svg",
-      "sha256": "07ce6526f36d506683f46aaca2971eec656579730e20ca89c7f84109a621a41d",
-      "bytes": 19726
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/reverse.png",
-      "sha256": "21a70bc7b070a81b30af83d8fb741c8e11e8a2ea24e0c18b0139c5ff86af9e6f",
-      "bytes": 23480
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/reverse.svg",
-      "sha256": "34499a2267e5a908405cb9000185181b78b9cd1c8dafbf34cef722013528e665",
-      "bytes": 19726
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/secondary.png",
-      "sha256": "d22e2d7c0e1579ee9320c3278b4ab26ccc71d0aa819ef35c60bbfc4ef1238322",
-      "bytes": 26187
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/logos/secondary.svg",
-      "sha256": "ce607414ac6c444bbfeeee743c3f51f72510ccb004a6b395cae9f5ceee986be5",
-      "bytes": 19797
-    },
-    {
-      "path": "templates/career-bridge-letter/assets/manifest.json",
-      "sha256": "7c9f0609e6c045a843c7e006709a95c95b77c5567ba58d5ac7e7a2cf08965df0",
-      "bytes": 6885
-    },
-    {
-      "path": "templates/career-bridge-letter/brand.json",
-      "sha256": "08cffc0b7b51c303a865f2e7f3b9bb761a40990f9291d6767ca5f704a6f6847b",
-      "bytes": 8052
-    },
-    {
-      "path": "templates/career-bridge-letter/evidence.json",
-      "sha256": "2e89d6ca17d47a0b35e7556896fec1db17fa2f0d8a5a4f6ff36930e019b1284b",
-      "bytes": 13521
-    },
-    {
-      "path": "templates/career-bridge-letter/guide-source/README.md",
-      "sha256": "bd2bf9006f74175ae79fb32ca0e14eb87ed05ec285be744f89c72c269de8a518",
-      "bytes": 314
-    },
-    {
-      "path": "templates/career-bridge-letter/guide-source/guide-data.json",
-      "sha256": "35e093383fbe117cbaeeb96e21b275ecf0eef5a2ecd3ef98192c7d30694e116a",
-      "bytes": 5013
-    },
-    {
-      "path": "templates/career-bridge-letter/guide-source/render_guide.py",
-      "sha256": "65d7b420aa39d9a320573f45832dbf9e58c9c0fb4d17399901747fb51e158c42",
-      "bytes": 63623
-    },
-    {
-      "path": "templates/career-bridge-letter/guide.md",
-      "sha256": "8c7a1e712ff41d8c049b82d6841072cd67273a7ef1344e468db9742135768ddf",
-      "bytes": 1672
-    },
-    {
-      "path": "templates/career-bridge-letter/guide.pdf",
-      "sha256": "f29e4eccc5bf11b7c2000628219ea46ed05f7087c644e7319ca2b62972008243",
-      "bytes": 128644
-    },
-    {
-      "path": "templates/career-bridge-letter/references/career-bridge-letter/COLORS.md",
-      "sha256": "5df64a42921ba4b374f62e7bccabcac97c39436884c7eb9c03d9da8d34f320d5",
-      "bytes": 793
-    },
-    {
-      "path": "templates/career-bridge-letter/references/career-bridge-letter/COMPONENTS.md",
-      "sha256": "8b290f886177c8ffac397e1abf2021d5c9a905c47874989cb5592889a4fbfd7a",
-      "bytes": 335
-    },
-    {
-      "path": "templates/career-bridge-letter/references/career-bridge-letter/LAYOUTS.md",
-      "sha256": "5cd7d8c6f4cb7512e2cc1d0ec23b3c5c3725ae05c9380c150cdd9f01efeffb3e",
-      "bytes": 473
-    },
-    {
-      "path": "templates/career-bridge-letter/references/career-bridge-letter/TYPOGRAPHY.md",
-      "sha256": "dcd951c2cf4103c500c7f189303b77bc9ab717a32245d59108bc9ec39e8f8dcf",
-      "bytes": 3499
-    },
-    {
-      "path": "templates/career-bridge-letter/references/career-bridge-letter/foundations.json",
-      "sha256": "92bc120c789b97efe55e7946042e7db033ecc62eb02044655769496d9c9a59a9",
-      "bytes": 9518
-    },
-    {
-      "path": "templates/career-bridge-letter/tokens.json",
-      "sha256": "6df2f8c53d341e8c22805be13b40bc75ed508e32ace5a9039be9f1e5ad3fcdb1",
-      "bytes": 1603
     },
     {
       "path": "templates/client-proposal-scope-brief/ADAPTATIONS.md",
@@ -8663,31 +8683,6 @@
       "bytes": 101578
     },
     {
-      "path": "templates/decision-memorandum/references/decision-memorandum/COLORS.md",
-      "sha256": "d3018996523cec53788eda2a5daf84215b8c9fe53211bf01ac19c2aec809d6ea",
-      "bytes": 1334
-    },
-    {
-      "path": "templates/decision-memorandum/references/decision-memorandum/COMPONENTS.md",
-      "sha256": "8f083f38e9d0b95148b353954464eff8510fff45dec9d80b4117b6da2f348d3f",
-      "bytes": 2834
-    },
-    {
-      "path": "templates/decision-memorandum/references/decision-memorandum/LAYOUTS.md",
-      "sha256": "7bc396270d3721468d4f2cb7ba40b7bf0968743301e22075a24c7ec27d703b55",
-      "bytes": 1000
-    },
-    {
-      "path": "templates/decision-memorandum/references/decision-memorandum/TYPOGRAPHY.md",
-      "sha256": "e52386192995e5abbad095c0f033379addf66b039219cee30fe67229c2b640ae",
-      "bytes": 1845
-    },
-    {
-      "path": "templates/decision-memorandum/references/decision-memorandum/foundations.json",
-      "sha256": "996ba1fde7a9a3d0f4174d2a1f06a2a2f48b5178eb20c856f915034f4a504001",
-      "bytes": 13321
-    },
-    {
       "path": "templates/decision-memorandum/references/decision-memorandum-evidence-appendix/COLORS.md",
       "sha256": "bb97ec36f1e430ad359d1cdc4e6b7c7bd0668dc176ce1729f0db8f7c8f47f9a5",
       "bytes": 1336
@@ -8711,6 +8706,31 @@
       "path": "templates/decision-memorandum/references/decision-memorandum-evidence-appendix/foundations.json",
       "sha256": "6817da6e832636f788dfe3b51600475dca33163cec563ce96963cf6a57e84957",
       "bytes": 15161
+    },
+    {
+      "path": "templates/decision-memorandum/references/decision-memorandum/COLORS.md",
+      "sha256": "d3018996523cec53788eda2a5daf84215b8c9fe53211bf01ac19c2aec809d6ea",
+      "bytes": 1334
+    },
+    {
+      "path": "templates/decision-memorandum/references/decision-memorandum/COMPONENTS.md",
+      "sha256": "8f083f38e9d0b95148b353954464eff8510fff45dec9d80b4117b6da2f348d3f",
+      "bytes": 2834
+    },
+    {
+      "path": "templates/decision-memorandum/references/decision-memorandum/LAYOUTS.md",
+      "sha256": "7bc396270d3721468d4f2cb7ba40b7bf0968743301e22075a24c7ec27d703b55",
+      "bytes": 1000
+    },
+    {
+      "path": "templates/decision-memorandum/references/decision-memorandum/TYPOGRAPHY.md",
+      "sha256": "e52386192995e5abbad095c0f033379addf66b039219cee30fe67229c2b640ae",
+      "bytes": 1845
+    },
+    {
+      "path": "templates/decision-memorandum/references/decision-memorandum/foundations.json",
+      "sha256": "996ba1fde7a9a3d0f4174d2a1f06a2a2f48b5178eb20c856f915034f4a504001",
+      "bytes": 13321
     },
     {
       "path": "templates/decision-memorandum/tokens.json",
@@ -22763,10 +22783,20 @@
       "bytes": 2303
     },
     {
+      "path": "tests/protocol_smoke.py",
+      "sha256": "38d70c1965f3c229e29df2c631cac484352c187941c4482dd23c27dfba221912",
+      "bytes": 2130
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "sha256": "06e4c699eb4409c1681be2ccd686537bd46ec32487f1481da6668f80eecf8933",
+      "bytes": 2888
+    },
+    {
       "path": "tests/test_public_stdio.py",
       "sha256": "b4d22b73789fcf804194e58d3930eb82088aeb31c012babebf56a8bd19f55a34",
       "bytes": 3813
     }
   ],
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

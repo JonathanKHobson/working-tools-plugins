@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "build-mcp-apps",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "reviewed_date": "2026-10-10",
   "source": "Maintained canonical build-mcp-apps source; no Git checkout",
   "source_tree_sha256": "dd9b8b504b0af9c5055333c101a055abbc78872a406aee8e96319ee8228d2887",
@@ -13,7 +13,7 @@
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "7cfe4f5abbc89b4a08c1907defc914530f52d7fa630326fa29d375611411b0f4",
-      "output_sha256": "a049a7b6ec16976dbfd6c90599c61341b0cdcd3180abcd89fed89183148523d1",
+      "output_sha256": "80a1cd5de6d45080f696a061f5867bb93c287bf3445a00b363a952e7c8020a29",
       "disposition": "transformed",
       "change": "Public version, portable repository identity, retained-head count, explicit rights scope; no launch/provider declarations.",
       "edition_license_scope": "AGPL-3.0-only",
@@ -23,7 +23,7 @@
     {
       "path": "README.md",
       "source_sha256": "fc3d1d8a31a46a79a85b85b028600d1894ba9671a35f9d070300afa54b18ee96",
-      "output_sha256": "0b23995168915caa70d87bb79ce3652fd62d396428da5d4b4e148ae8f79fd557",
+      "output_sha256": "0fa7ba2029fbdc84e40cf673653a7db68708834413d6acbfa29c51dac8e694ef",
       "disposition": "transformed",
       "change": "Retain complete original capability catalog and procedures; add explicit portable prerequisites, rights scope and honest absent-provider example.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -500,7 +500,7 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "9a30eb0bbe7e2bbbebafce66ad282efe6e02cb25251908f89e0bcc945e3f1eb2",
+      "output_sha256": "baf998a5ba197219228adab0738ff9fb486f519989e6e8ff19f1fa4bd6924d0d",
       "bytes": 547,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -511,8 +511,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "b1bfc6d2f3ae89d20f7d439533b29382616060cfe3f71bc4afaaa61033c33633",
-      "bytes": 378,
+      "output_sha256": "f396e6f3b7ee7857b849f2dec9fdd5ee7ee8571faa82acb1151c774b971e368e",
+      "bytes": 600,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -531,7 +531,7 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "0c834e67686f02221534c3970e2ba4ba6d9b063db09cdf520107395d4bc711d1",
+      "output_sha256": "d46e71e989391fe3f2b482b4b1c3aa6284df303f1cfc5a9616996d2a68c655a4",
       "bytes": 27447,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -668,7 +668,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "c57f50b0953111ad6555a9d96b4f5a147e72a678b2dedf6cc52696b042d9a931",
+      "output_sha256": "178047465fa7b5695103a8313d056f207e24934304d4805d90b70ac2638d4e9a",
       "bytes": 1510,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -681,7 +681,7 @@
   "added_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "9a30eb0bbe7e2bbbebafce66ad282efe6e02cb25251908f89e0bcc945e3f1eb2"
+      "output_sha256": "baf998a5ba197219228adab0738ff9fb486f519989e6e8ff19f1fa4bd6924d0d"
     },
     {
       "path": "LICENSE",
@@ -701,7 +701,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "c57f50b0953111ad6555a9d96b4f5a147e72a678b2dedf6cc52696b042d9a931"
+      "output_sha256": "178047465fa7b5695103a8313d056f207e24934304d4805d90b70ac2638d4e9a"
     }
   ],
   "acceptance_boundary": "Exact source/output and static/helper/synthetic tests only. No native installation, live MCP/App/provider, deployment, learner or rendered proof.",

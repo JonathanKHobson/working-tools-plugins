@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 · 2026-10-10
+
+Source-first reconciliation of complete eligible runtime/method improvements, private collection continuity, environment precedence and exact distributable inventories. Existing held corpus bodies and original grants remain excluded and preserved privately.
+
 ## 0.1.3
 
 Clarify the included 104-kit first run, optional external fixtures and recipient configuration.

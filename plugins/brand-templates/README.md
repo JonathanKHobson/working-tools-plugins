@@ -1,6 +1,6 @@
 # Brand Templates
 
-Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Complete original first-party brand kit selection, source-closure verification and handoff runtime by Kyle Hobson. This public edition includes the actual MCP app and chooser, with three tools and one resource.
 
@@ -52,3 +52,9 @@ Keep recipient collections, interpreter environments and produced artifacts outs
 ## Rights and support
 
 [AGPL-3.0-only](LICENSE) covers first-party code; [CC BY-SA 4.0](legal/LICENSE-DOCS-CC-BY-SA-4.0.md) covers original documentation, methods and eligible templates. External collection rights remain separate. The included fictional original brand artwork is covered by the current author authorization; exact bundled font files retain SIL OFL rights. No private personal corpus, provider assets, credentials or host configuration is included. See [third-party notices](THIRD_PARTY_NOTICES.md) and exact source/output hashes in `PROVENANCE.json`. Report package version, host and a synthetic reproduction through the Working Tools repository; support is best effort.
+
+## Source and collection continuity
+
+The distributable runtime, full operative methods and eligible maintenance code are shared by canonical source and this package. Held collection bodies remain in the source owner's private installation with exact per-file export exclusions and prechange archives. Recipient installations need their own authorized collection where described below; synthetic fixtures prove the interface and do not replace a maintained private collection.
+
+The launcher retains the shared Design interpreter binding. Optional `collections.brand-templates` selects `catalog`, `source_manifest` and `data_root`; explicit `BRAND_TEMPLATES_*` environment values win. An explicit data root suppresses private pins. The public 104 eligible kits stay included; the additional held A2 kit is selectable through the source owner's private catalog and intact kit path. A2 projection/release maintenance commands require that approved source and separate explicit publication authorization.

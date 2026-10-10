@@ -6,7 +6,17 @@ import json
 import os
 from pathlib import Path
 
-ROOT = Path(os.environ.get("DESIGN_TEMPLATES_DATA_ROOT", Path(__file__).resolve().parents[1]))
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]
+binding = Path.home() / '.config/studio-tools/design-library.json'
+config = json.loads(binding.read_text()) if binding.is_file() and not os.environ.get('DESIGN_TEMPLATES_DATA_ROOT') else {}
+collection = config.get('collections', {}).get('design-templates', {})
+if not isinstance(collection, dict):
+    raise ValueError('Design collection binding must be an object')
+if os.environ.get('DESIGN_TEMPLATES_DATA_ROOT'):
+    collection = {}  # Explicit recipient root owns its catalog and integrity pins.
+ROOT = Path(os.environ.get('DESIGN_TEMPLATES_DATA_ROOT') or collection.get('data_root') or PACKAGE_ROOT).expanduser()
+CATALOG = Path(os.environ.get('DESIGN_TEMPLATES_FULL_CATALOG') or collection.get('full_catalog') or ROOT/'templates/catalog.json').expanduser()
+MANIFEST = Path(os.environ.get('DESIGN_TEMPLATES_ASSET_MANIFEST') or collection.get('asset_manifest') or ROOT/'provenance/template-assets.json').expanduser()
 
 
 def main():
@@ -21,7 +31,7 @@ def main():
     if (args.recipes or args.recipe) and (args.verify or args.query or args.kind != 'all'):
         parser.error('Use recipe lookup separately from inventory filtering or verification')
     if args.verify:
-        manifest = json.loads((ROOT/'provenance/template-assets.json').read_text())
+        manifest = json.loads(MANIFEST.read_text())
         invalid = []
         for item in manifest['files']:
             rel = Path(item['path'])
@@ -32,7 +42,7 @@ def main():
                 invalid.append(item['path'])
         print(json.dumps({'files':len(manifest['files']),'invalid':invalid}))
         return int(bool(invalid))
-    data = json.loads((ROOT/'templates/catalog.json').read_text())
+    data = json.loads(CATALOG.read_text())
     if args.recipes or args.recipe:
         patterns = json.loads((ROOT/'templates/adaptation-recipes.json').read_text())['recipes']
         if args.recipes:

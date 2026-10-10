@@ -10,7 +10,8 @@ import subprocess
 
 def main() -> None:
     binding = Path(os.environ.get("VIDEO_TEMPLATES_BINDINGS", Path.home() / ".config/video-templates/bindings.json")).expanduser()
-    config = json.loads(binding.read_text(encoding="utf-8")) if binding.is_file() else {}
+    complete_environment = bool(os.environ.get("VIDEO_TEMPLATES_PYTHON") and os.environ.get("VIDEO_LIBRARY_CATALOG")) and not os.environ.get("VIDEO_TEMPLATES_BINDINGS")
+    config = json.loads(binding.read_text(encoding="utf-8")) if binding.is_file() and not complete_environment else {}
     if not isinstance(config, dict):
         raise ValueError("Bindings must be a JSON object")
     interpreter = Path(os.environ.get("VIDEO_TEMPLATES_PYTHON", config.get("interpreter", sys.executable))).expanduser().absolute()
@@ -25,7 +26,7 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     server = root / "runtime/video-style-library/server.py"
     env = dict(os.environ, PYTHONDONTWRITEBYTECODE="1")
-    for key, variable in (("catalog", "VIDEO_LIBRARY_CATALOG"), ("storyboard_db", "VIDEO_STORYBOARD_DB"), ("shared_ui", "VIDEO_TEMPLATES_CHOOSER")):
+    for key, variable in (("catalog", "VIDEO_LIBRARY_CATALOG"), ("preview_root", "VIDEO_LIBRARY_PREVIEW_ROOT"), ("storyboard_db", "VIDEO_STORYBOARD_DB"), ("shared_ui", "VIDEO_TEMPLATES_CHOOSER")):
         if key in config and variable not in env:
             value = Path(config[key]).expanduser().resolve()
             if key == "storyboard_db" and value.is_relative_to(root):

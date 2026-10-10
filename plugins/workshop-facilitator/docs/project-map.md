@@ -25,11 +25,11 @@ For collaborative boards, `workshop-design/references/agenda-format.md` owns the
 
 Edit the owning skill for behavior changes, its reference for detailed procedures, and its asset for sample output. Keep shared guidance within this plugin and reference it relatively. Do not make symlinks to external corpora. Validate each changed SKILL.md using skill-creator, then validate the plugin manifest with plugin-creator. Execute a changed helper against valid and invalid examples. Recheck realistic task behavior after substantive instruction changes.
 
-Generated caches, ZIP files, and temporary evaluation outputs stay outside the plugin source. Existing global skills remain unchanged. No runtime hooks, learner tracking, or account connections are configured. The optional private Atlas MCP below supports activity lookup.
+Generated caches, ZIP files, and temporary evaluation outputs stay outside the plugin source. Existing global skills remain unchanged. No runtime hooks, learner tracking, or account connections are configured. An optional first-party Atlas launcher supports activity lookup when the recipient explicitly registers a compatible backend.
 
 
-- `references/atlas-library.md`: scoped facilitation Atlas retrieval and private human library. The public method edition includes no launcher or MCP declaration; separately configured receiving-host retrieval is optional, and no corpus is packaged.
+- `references/atlas-library.md`: scoped facilitation Atlas retrieval and private human library. The included `scripts/atlas_library_mcp.py` launches the fixed facilitation domain from a recipient-owned private binding; no Atlas server is registered or corpus packaged.
 
 ## Public edition
 
-All operative skill heads and their complete generic supporting procedures are preserved. Empty private MCP declarations and the machine compatibility launcher are excluded; optional Atlas/source retrieval uses the current host's separately configured capability. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.
+All operative skill heads and their complete generic supporting procedures are preserved. The empty compatibility `.mcp.json` declares no server. The optional first-party launcher is included and uses a recipient-owned binding; Atlas source retrieval still requires an explicitly registered, compatible backend. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.

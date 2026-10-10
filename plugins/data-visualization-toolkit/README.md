@@ -1,6 +1,6 @@
 # Data Visualization Toolkit
 
-Current edition **0.2.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.5** uses the [Working Tools licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Make data understandable and truthful for a specific reader and decision. Start with the question, source data or known values, intended audience, and where the result will appear. The toolkit chooses a fitting visual method, routes to the complete relevant procedure, and checks the rendered result when one is produced.
 
@@ -24,7 +24,7 @@ Maintain the active discovery heads in `skills/` and keep the full Build Web Dat
 [Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
 <!-- END PROFESSIONAL-AGENTS -->
 
-Public version 0.2.3 has 13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific work uses the full original statistical, export and testing methods under the scoped method license. Interactive work uses original procedures, complete web methods and the bundled MCP App.
+Version 0.2.5 has 13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific and interactive work can load complete, separately held provider procedures through [private source bindings](references/provider-methods.md). The public package includes the same entrypoints, complete MIT web/statistical/export methods, original procedures and the bundled MCP App. It does not include the optional providers' source bodies or rendering capabilities.
 
 ## Run the first sample
 
@@ -38,4 +38,4 @@ python3 -m venv .runtime/venv
 
 The sample starts the actual local MCP server, creates four fictional rows in a temporary dataset directory, and checks mean 20, three known values and one missing value. It also checks rejection of an invalid column schema and closes its subprocess. Expect `status: passed` in the JSON result. Native conversation rendering is a separate check.
 
-Run the sample with `--portable` to check `mcp.json`. For recipient-owned saved data and an external interpreter, follow the environment settings in the installation guide. Check source closure separately with `python3 scripts/verify_public.py`.
+Run the sample with `--portable` to check `mcp.json`. For recipient-owned saved data and an external interpreter, follow the environment settings and private binding options in the installation guide. An existing Data Explorer binding retains its interpreter and saved-data location while the plugin runs its bundled server. Check source closure separately with `python3 scripts/verify_public.py`.

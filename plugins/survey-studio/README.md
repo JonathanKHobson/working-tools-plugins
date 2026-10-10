@@ -1,6 +1,6 @@
-# Survey Toolkit
+# Survey Studio
 
-Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Turn a decision and target population into a clear survey instrument, response logic, sampling plan, pilot, export or codebook while preserving question IDs and analysis meaning.
 
@@ -50,3 +50,9 @@ Methods need the decision/population/construct and authorized supplied material.
 Example: “Create and export a brief product-experience pulse.” With no Qualtrics account/provider, finish the canonical synthetic instrument, lint/burden/codebook and supported local export syntax checks, then identify the unverified actual import/flow check. Never claim fielded, anonymous or benchmark-valid from a local file. This is an authored expected scenario, not a recorded live import.
 
 The HTML export is an explicitly labeled review preview with a local required-answer check. It never submits or stores responses; branching and destination rules require a separate implementation. PDF exports are printable review copies, not interactive forms.
+
+## Source and collection continuity
+
+The distributable runtime, full operative methods and eligible maintenance code are shared by canonical source and this package. Held collection bodies remain in the source owner's private installation with exact per-file export exclusions and prechange archives. Recipient installations need their own authorized collection where described below; synthetic fixtures prove the interface and do not replace a maintained private collection.
+
+All eight operative methods and eligible exports/validators are shared. Only the ungranted original `source-question-types.txt` table stays private at its original source path. The included first-party question-type guidance remains the public route. No account or MCP service is automatically registered.

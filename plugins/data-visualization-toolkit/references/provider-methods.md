@@ -1,0 +1,11 @@
+# Optional complete provider methods
+
+The interactive and scientific entrypoints can read complete provider procedures from a recipient-owned source collection. This preserves access to the original method, supporting references, templates and scripts when that source is available, without redistributing it inside this package.
+
+Use `python3 scripts/resolve_provider_source.py visualize` or `python3 scripts/resolve_provider_source.py scientific` from this plugin root. The read-only helper uses `~/.config/studio-tools/data-visualization-providers.json`; `--binding` selects an explicit alternative. `available: true` means the entry procedure exists inside the configured source root. It does not establish that every supporting file is present. Read that full procedure and confirm its required support files before using the provider method. If any required source is missing, report the specific gap and do not claim to have used the complete provider method. The helper does not run provider code, install software, search other folders or establish a rendering capability.
+
+For setup, adapt the [inert example](../examples/provider-sources.json) only if you have an authorized local source. Preserve any existing binding, replace placeholders with your own absolute paths and keep that configuration private. A path or a local copy is not redistribution permission. Do not publish provider source, private bindings or source-path details in a public artifact.
+
+The known source boundaries are Visualize 1.0.41, which is labeled Proprietary, and Scientific Visuals & Tables 2.2.0, for which no redistribution grant was established. Their source bodies are excluded from the public package. An installed host may provide a different version; read that version's actual contract rather than assuming compatibility. The maintainer's preserved source copies remain private and independently configured.
+
+If the helper reports a missing binding or procedure, name the missing provider depth and use the complete eligible web/statistical/export methods linked by the active skill. Do not claim the provider procedure, its style corpus or its renderer ran. A malformed binding is a configuration error, not an empty library. Native conversation rendering, standalone export, source retrieval and publication remain separate checks.

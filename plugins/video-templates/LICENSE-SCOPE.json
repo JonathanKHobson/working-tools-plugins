@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "video-templates",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "1fa44a8e252f2c935b66882149ac2d2e52849b3c9abce8768d349879b00c8e4a"
+      "sha256": "c9b831420035e13daa08cfd05534f479bd98cf459877b74a481be1c3b0ed3f24"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "851f72707cce7a655413400c3b749945fdf705071299647f1e411078c47724ea"
+      "sha256": "96ecc6f8bdd80dce7920b3f622672acccb6e7d54590cba8a8797ae395762cb35"
     },
     {
       "path": ".gitignore",
@@ -44,7 +44,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "de1d36e3db2cd483d22c8df4f0c5d320f421bdb842c6cdea169556a207df0364"
+      "sha256": "eefd62efc04e0aec3cecbd48304e83e858fbf086cd2ed19c9acfa2ef1fac698f"
     },
     {
       "path": "DESIGN.md",
@@ -79,7 +79,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1f43396dcc109ba99d5e2dacfdbecee620c8d2d345f33a0b0a2ad1ba0b10ffc2"
+      "sha256": "8ea0e982cda45fc0aecafe0aae003b9d3724d7a9fb6aca31b06425d585015dcb"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -481,6 +481,20 @@
       "sha256": "ce4d7cfdb19620abf0dd63da2f7ff88c89987042da4950d87403189f4c411095"
     },
     {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT; retained upstream Animate notice",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77"
+    },
+    {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT; retained upstream Animate notice",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7"
+    },
+    {
       "path": "libraries/animate-methods/styles/isometric/demo/piece.json",
       "category": "retained-or-mixed-upstream",
       "license": "MIT; retained upstream Animate notice",
@@ -514,20 +528,6 @@
       "license": "MIT; retained upstream Animate notice",
       "boundary": "Retained source library; existing source license and copyright unchanged.",
       "sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
-      "category": "retained-or-mixed-upstream",
-      "license": "MIT; retained upstream Animate notice",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
-      "category": "retained-or-mixed-upstream",
-      "license": "MIT; retained upstream Animate notice",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7"
     },
     {
       "path": "libraries/animate-methods/styles/isometric/kit.js",
@@ -989,7 +989,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "5ee6b43cfe26c9beb8ac9ce927ec24f4641427b19c724773368f7ecfbff613c7"
+      "sha256": "b41fa1b82bbee1946a15ef019c9aec87ce660ebd5ce34f1a5593855e89fd1311"
     },
     {
       "path": "requirements.txt",
@@ -1031,7 +1031,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "2883804dac61e914871a72a3b127a8722de9294aea08e41571c531ef9d598d44"
+      "sha256": "e64c159625b5ed3ca9e544c0ca630c61f6d2e2dec278a8150c5fb36eaafd057b"
     },
     {
       "path": "runtime/video-style-library/server.py",
@@ -1164,7 +1164,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "b63b4d075d9b1048b88162651c1a222c85ec4962a5f3b0ef1b036b487a47616e"
+      "sha256": "11d98ac2b37ea3a27de80c440cff06bf6b9223bc54cd198ac998853ac6210f6a"
     },
     {
       "path": "skills/video-templates/SKILL.md",

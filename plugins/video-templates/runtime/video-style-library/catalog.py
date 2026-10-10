@@ -5,6 +5,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import os
 from pathlib import Path
 
 from video_catalog import family_handoff, load_families
@@ -68,7 +69,7 @@ def item(style_id: str, *, preview: bool = False, full: bool = False) -> dict:
         "sourceHash": source_hash(style_id),
     }
     if preview:
-        thumbnail = ROOT / "runtime" / "video-style-library" / "ui" / "previews" / f"{style_id}.jpg"
+        thumbnail = Path(os.environ.get("VIDEO_LIBRARY_PREVIEW_ROOT", ROOT / "runtime" / "video-style-library" / "ui" / "previews")) / f"{style_id}.jpg"
         if thumbnail.is_symlink() or not thumbnail.is_file():
             raise ValueError(f"Preview missing: {style_id}")
         raw = thumbnail.read_bytes()

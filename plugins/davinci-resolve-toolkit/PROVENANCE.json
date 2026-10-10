@@ -1,6 +1,6 @@
 {
   "package": "davinci-resolve-toolkit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "source_owner": "davinci-resolve-toolkit",
   "source_revision": "Source tree not versioned at export; per-file hashes identify the reviewed input.",
   "edition": "Portable first-party implementation; provider software and personal configuration excluded.",
@@ -34,7 +34,7 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "dac32c799415b70b42513ad360fd0c067c1b43802e01a89ad2f5e5553c5ffbf0",
+      "output_sha256": "fc26f8933a19fbde8166e1f01c71ad35617d65e5054a143cc306f5e7fe896ba9",
       "bytes": 423,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -43,7 +43,7 @@
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "9be8fb8dbfb9427a1bd34c05448be51b6a14d7563f240564cf35c4bc2aa74b2e",
+      "output_sha256": "6eb4c407834e5a2d4184011f9f89680beeff9721b5cdedab2bd183c4d197d2ad",
       "bytes": 1293,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -52,8 +52,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "fcd0c73cdba05eaf9d7b5d25548aa6bdf41b01e035ee3af93d50e602b1845388",
-      "bytes": 558,
+      "output_sha256": "f070e81d8858fb4f37c1e9521db79477d828be305a10c945e7647b4802ea793a",
+      "bytes": 780,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -70,8 +70,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "1ec394b70a310efa7f4491eea3996e66d48de43b4a2978b9be9903c9d1bf6221",
-      "bytes": 7274,
+      "output_sha256": "dcb0011d9397838c54a810df12f7d3920208fe02106de506cf9564c773bf3a64",
+      "bytes": 7623,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change."
     },
@@ -95,7 +95,7 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "25ce9fc516b2587e3c151e503ce5e0cf81ce77512eb1d670dd8a91e634b6d8ff",
+      "output_sha256": "ca6df27c2874a0d2921ec13f48740a0593265615902e670b0bbb9e39ea6d0ee0",
       "bytes": 1623,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -104,7 +104,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "5d7590b0f93dd25dad386a4b9d0cc6a6eafcc02368384e3a6c0d72ded6ee3821",
+      "output_sha256": "efd7353ccc9353ca6e33a274ad5604bd601af8eedd7d9a188a2e2a58e5e0008f",
       "bytes": 940,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -185,12 +185,22 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "4a7e9aad741c14344b66045caa91e1ca0862059beb20c69867ef07806441cdc9",
+      "output_sha256": "79bdb32ff44f4692149404d0f61f62c52c5c05d32be3d4350e63e1a620f14db0",
       "bytes": 1334,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
+    },
+    {
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "d2ebd81f0b5ecc70dc6e2b6a2786a2a3cb389b93b667ff009ccb55e9be9c6b6a",
+      "output_sha256": "884a05fab626b7ec3351f0bd54a2d01e8a6864ae15f26874397dfd0d09942a38",
+      "transformed": true,
+      "rights": "First-party original work; historical source retained in private archive.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "current_maintenance": "Included in maintained canonical and public package."
     }
   ],
   "license_transition": {

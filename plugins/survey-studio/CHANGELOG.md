@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 · 2026-10-10
+
+Source-first reconciliation of complete eligible runtime/method improvements, private collection continuity, environment precedence and exact distributable inventories. Existing held corpus bodies and original grants remain excluded and preserved privately.
+
 ## 0.1.3
 
 Make HTML review-preview behavior explicit, add local validation feedback and repair PDF write lines, rating columns and page identification.

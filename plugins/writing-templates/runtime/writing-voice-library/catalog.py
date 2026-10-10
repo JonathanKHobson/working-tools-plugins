@@ -11,7 +11,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 PACKAGE_ROOT = ROOT.parents[1]
 DATA_ROOT = Path(os.environ.get('WRITING_TEMPLATES_DATA_ROOT') or PACKAGE_ROOT / 'data/voice-library').expanduser().absolute()
-if os.environ.get('WRITING_TEMPLATES_DATA_ROOT') and DATA_ROOT.resolve().is_relative_to(PACKAGE_ROOT):
+if os.environ.get('WRITING_TEMPLATES_DATA_ROOT') and DATA_ROOT.resolve().is_relative_to(PACKAGE_ROOT) and DATA_ROOT.resolve() != PACKAGE_ROOT / 'library/voice-library':
     raise ValueError('Explicit writing collection must stay outside the installed package')
 PUBLIC_BASE = os.environ.get('WRITING_TEMPLATES_PUBLIC_BASE', '')
 ID_RE = re.compile(r'(?:V(?:0[1-9]|1[0-9]|2[0-4])|P(?:2[5-9]|[34][0-9]|5[0-3]))\Z')
@@ -67,6 +67,11 @@ def source_references(ids: list[str], data_root: Path) -> list[dict]:
 
 def approved_sources() -> dict:
     try:
+        if os.environ.get('WRITING_TEMPLATES_APPROVED_SOURCES'):
+            path = Path(os.environ['WRITING_TEMPLATES_APPROVED_SOURCES']).expanduser()
+            if not stat.S_ISREG(path.lstat().st_mode):
+                raise CatalogError('Approved source manifest must be a regular file')
+            return json.loads(path.read_text(encoding='utf-8'))
         return json.loads(safe_read(DATA_ROOT, 'approved-sources.json'))
     except (OSError, ValueError) as exc:
         raise CatalogError('Approved source manifest is unavailable') from exc

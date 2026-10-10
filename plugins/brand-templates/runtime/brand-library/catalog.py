@@ -12,8 +12,16 @@ if os.environ.get('BRAND_TEMPLATES_DATA_ROOT') and ROOT.resolve().is_relative_to
 ID = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*\Z')
 
 
+def catalog_path(root=ROOT):
+    return Path(os.environ['BRAND_TEMPLATES_CATALOG']).expanduser() if root == ROOT and 'BRAND_TEMPLATES_CATALOG' in os.environ else root / 'library/catalog.json'
+
+
+def source_manifest_path(root=ROOT):
+    return Path(os.environ['BRAND_TEMPLATES_SOURCE_MANIFEST']).expanduser() if root == ROOT and 'BRAND_TEMPLATES_SOURCE_MANIFEST' in os.environ else root / 'provenance/source-files.json'
+
+
 def catalog(root=ROOT):
-    data = json.loads((root / 'library/catalog.json').read_text())['brands']
+    data = json.loads(catalog_path(root).read_text())['brands']
     ids = [item['id'] for item in data]
     if len(set(ids)) != len(ids) or not all(ID.fullmatch(i) for i in ids):
         raise ValueError('Invalid or duplicate brand IDs')
@@ -45,10 +53,10 @@ def search(query='', category='all', root=ROOT):
 def validate(brand_id, root=ROOT):
     item = select(brand_id, root)
     prefix = f'templates/{brand_id}/'
-    manifest = json.loads((root/'provenance/source-files.json').read_text())['files']
+    manifest = json.loads(source_manifest_path(root).read_text())['files']
     rows = [row for row in manifest if row['path'].startswith(prefix)]
     catalog_row = next((row for row in manifest if row['path'] == 'library/catalog.json'), None)
-    if not catalog_row or hashlib.sha256((root/'library/catalog.json').read_bytes()).hexdigest() != catalog_row['sha256']:
+    if not catalog_row or hashlib.sha256(catalog_path(root).read_bytes()).hexdigest() != catalog_row['sha256']:
         raise ValueError('Brand catalog differs from registered edition')
     if not rows:
         raise ValueError('Brand source closure is not registered')

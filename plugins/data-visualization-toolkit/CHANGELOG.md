@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.5
+
+Align the canonical source and public package, including the Data Explorer runtime and all 13 discovery heads. Preserve existing interpreter and saved-data bindings while launching the bundled server. Restore complete configured Visualize and Scientific Visuals procedure routes through a read-only source resolver; keep their separately held source and private data outside distribution. Add launcher and resolver checks, correct the source verifier's version handling, and retain upstream grants and prior release permissions.
+
 ## 0.2.4
 
 Make the documented sample install complete and correct the four-row statistics.

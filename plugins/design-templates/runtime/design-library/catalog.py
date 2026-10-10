@@ -125,7 +125,7 @@ def source_status(item: dict[str, Any], codex_home: Path | None = None) -> tuple
 
 def _guidance_refs(item: dict[str, Any], source: Path, manifest_path: Path | None = None) -> list[dict[str, str]]:
     """Bind package guidance to the same retained source using the release baseline."""
-    baseline = manifest_path or Path(os.environ.get("DESIGN_TEMPLATES_DATA_ROOT", ROOT.parents[1])) / "provenance" / "template-assets.json"
+    baseline = manifest_path or (Path(os.environ["DESIGN_TEMPLATES_ASSET_MANIFEST"]) if "DESIGN_TEMPLATES_ASSET_MANIFEST" in os.environ else Path(os.environ.get("DESIGN_TEMPLATES_DATA_ROOT", ROOT.parents[1])) / "provenance" / "template-assets.json")
     _plain_dir(baseline.parent)
     _plain_file(baseline)
     try:

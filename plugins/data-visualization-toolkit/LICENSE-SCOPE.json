@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "data-visualization-toolkit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "2b48325c2c71e84053957f0f6a64fa2836a41aba9c848b2787a796d0e3f7e8a9"
+      "sha256": "870c63e2628253f69a64614f02790dd614c63aa279e9ed660805d7d5ae3fe62d"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "07a847d9b8d78267493a23042db56cd29cfed1bd55a72101798915dcee15678c"
+      "sha256": "90500e23723290b8f9a7d8492617118c7f1e7a41cd29f1bb548a60679a051a8d"
     },
     {
       "path": ".gitignore",
@@ -44,7 +44,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "c3314ace266f3d56f5360e725db84519aba87d9aa994d55284b12236e357c07b"
+      "sha256": "175af3b25945e65c1682d6854392dec12a2e245a69faa44c42201b8abddf8d11"
     },
     {
       "path": "LICENSE",
@@ -72,14 +72,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ae8a769c3e04ab828700d09ed6c07887fed25d0c4dfbd1ad68e36bbcd436c6d8"
+      "sha256": "3c68d26099104e9a739e560c630ce3f60d0dfe0e40d01c18001fc48713d08606"
     },
     {
       "path": "README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "0304d62305fba73fcd1ac1a72486fbb75fcdcba33dbbd1b616e3cd11c264af58"
+      "sha256": "9c0b01f144c856d4e00589c3d9a8445a155e7ea31b4d0d2edd3ecad6e35fab2d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -100,14 +100,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "60a552baf3370296c9f11c5fa8ce2b80881c6ccff13bb8fa9472efec9d02ee83"
+      "sha256": "a816bfaa0529d618b529e5cc525aa6af616b4c84f21906b4867571cf4f1aff3c"
     },
     {
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "b46fc3f83c2951df4520e27af27ed7c2959e18dc577791d1861f8cd1c24a18cf"
+      "sha256": "0aef8c31eea9d065be52e53581bc432f6a35c0e23010fbab50b57faf16c4a85a"
     },
     {
       "path": "docs/source-manifest.sha256",
@@ -129,6 +129,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "ba8ae113021eec30e96cfbc89d3df75ce96cb3d8d453efabba690719733b9158"
+    },
+    {
+      "path": "examples/provider-sources.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "00663282add31dd7fd7dcf81ca42a25e7e1f1b6e0c4a8a8e7483ba94ec08730d"
     },
     {
       "path": "examples/sample-dataset.json",
@@ -1367,7 +1374,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "a459955bd8d9e692d68aefa83cf9ae0b966ad39b97478535ef3731b30b1e5a7d"
+      "sha256": "184bd760cf740ba490eea386e3f160d648879114ad4e7af9a8b909b7e9e7fbea"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "eb6283fd85f0b286aaf6679a3818e52e671df91a54e5afdf372918aefd890ae0"
     },
     {
       "path": "references/data-explorer.md",
@@ -1424,6 +1438,13 @@
       "license": "MIT",
       "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
       "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746"
+    },
+    {
+      "path": "references/provider-methods.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "46482e156815d908daea265c99e1225f8d726eac05b9018536112e14edd37907"
     },
     {
       "path": "runtime/data-explorer/README.md",
@@ -1542,21 +1563,28 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "96f496da650a67166b070f111857d3f203c98fe9f94a344dc1df12a207253967"
+      "sha256": "55f5b90bc6346c077a05fc440c902eaaeb3f42fba5c425dd9e0af43fae5ed55a"
+    },
+    {
+      "path": "scripts/resolve_provider_source.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "f9af2b4cd17e3f87f1a864c5e26374e61c06088b0f4cf927f3117c769a970a00"
     },
     {
       "path": "scripts/verify_public.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "bbd93366a0fe91d9558e72e1345f179f817559693e6a4a043ac832715f367d32"
+      "sha256": "f87f2ea4c2100ba3581341d5d704025c83b8d89a0d61253f3e62ac30f7d562f6"
     },
     {
       "path": "skills/data-visualization/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ab6db65a4534c39980515fb75fd76ed28c2059272dd83d22075fd92af35901f3"
+      "sha256": "7a7ebeef7540a5111661c96a72524ba09575445d64dc2f035a973454ca012c3f"
     },
     {
       "path": "skills/data-visualization/references/surfaces-and-providers.md",
@@ -1584,7 +1612,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "79fec2183f5187ac22bf9ce1fa8a01349e3a089f4589ad295782fd361d0c3d62"
+      "sha256": "c78e19e928cc1dc45f0765b8b3fe43ceced6cc0f18ef6d2106763443abcdeea6"
     },
     {
       "path": "skills/interactive-explanations/examples/activity-calendar.html",
@@ -1752,7 +1780,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "fe9770e1a0a87fb28cebc9f057056b45423c5bdeb952483edcc48bfcc163122d"
+      "sha256": "a83b060174b019d22fa7cebe055ec4f3ea1acebb4aa662fa5149fa5f0474ad35"
     },
     {
       "path": "skills/statistical-evidence/SKILL.md",
@@ -1837,6 +1865,20 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "890d2e2bae52d8a957cab175d0c39e4a918b78a165c65687204bef7f4c26ee03"
+    },
+    {
+      "path": "tests/test_data_explorer_launcher.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "d514fe872c3471c381e923cec2b94212ae3eaec55b1f84055f359a83faf3ccd1"
+    },
+    {
+      "path": "tests/test_provider_source.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned maintained source; exact upstream exceptions and prior grants remain.",
+      "sha256": "a20c3084bbc8ec573203bcc9757375195e36d043cac1a92ad0593bd8522b93bc"
     },
     {
       "path": "third-party/b12/LICENSE",

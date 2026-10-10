@@ -1,6 +1,6 @@
 {
   "package": "activities-templates",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "source_owner": "activities-templates",
   "source_revision": "Unversioned canonical source; exact selected source hashes retained",
   "edition": "Complete runtime and operative workflow with explicitly supplied data; private corpus and reference assets excluded",
@@ -8,7 +8,7 @@
     {
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "342889ae4853143ab8e5cbd8f8a0373df0bf1356b1c299e4a5a7cde15d32c546",
-      "output_sha256": "670ab1f0ca0c0d45efc78e700429b1bda986c604fc2deadc2343a243911b3687",
+      "output_sha256": "1bebdbe2314e65cad0b2ff829094ff86bb7b46cc3676439c6c4a1c2f377777ee",
       "transformed": true,
       "rights": "Authorized first-party MIT public edition; external collection rights excluded",
       "edition_license_scope": "AGPL-3.0-only",
@@ -26,7 +26,7 @@
     {
       "source_relative": "README.md",
       "source_sha256": "f0aabedf36e0eb3901948e2519c27a256b0425607fa6e3e1e74bb4e0bfd0a897",
-      "output_sha256": "8a55d97cad28147705a32850ca0f538ec0347ba25f8f8483565a61e11d4ed08d",
+      "output_sha256": "2914815d4ed65c879a01de57adb5b128f7a09b09fc5b27ac60ca27bc7b09399f",
       "transformed": true,
       "rights": "Authorized first-party MIT public edition; external collection rights excluded",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -201,7 +201,8 @@
       "transformed": false,
       "rights": "Authorized first-party MIT public edition; external collection rights excluded",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "current_maintenance": "Source-first patch: portable current version or optional fixed-domain recipient binding; original source SHA retained."
     },
     {
       "source_relative": "scripts/export_fixture.py",
@@ -241,7 +242,7 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "ed910e436dd536b45d68a01d3ba91c126ce56dffba13e897a0c40979419172dd",
+      "output_sha256": "203a82fc5792e892088ad1962f0362de71c19e649e222fc8c18f06e02039f02a",
       "bytes": 472,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -250,8 +251,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "de1d36e3db2cd483d22c8df4f0c5d320f421bdb842c6cdea169556a207df0364",
-      "bytes": 293,
+      "output_sha256": "2175b2c0f409747451a17203074922ef62fa9eaf6105bd3ee3da4c93d3a33d0f",
+      "bytes": 515,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -268,7 +269,7 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "25475d1a5e97cf571f6b020cf1a45b27d3436eafc5f3437a9691656020dd4d59",
+      "output_sha256": "538212764c739423ba7818cb81b64972b508dc0b8074fff1eaacc2183b687138",
       "bytes": 15353,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change."
@@ -293,7 +294,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "949c9a07ecd33ab22e7d80f9b2871917be8702441b116ba6db6245fdf07c7de0",
+      "output_sha256": "e6e2402846ea14cee22cf28fa86854ad962a8b5e245ff965a7454aeaeb1b9439",
       "bytes": 963,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -383,7 +384,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "8255910b37b879063b4aebb42dbfb63615086f563d4d7cfee61917a33bcbfcfd",
+      "output_sha256": "4e822b4e6e90cc429852710103070672f59c0c53747d89c9b2439fed5468826f",
       "bytes": 1493,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -412,7 +413,7 @@
   "new_export_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "ed910e436dd536b45d68a01d3ba91c126ce56dffba13e897a0c40979419172dd",
+      "sha256": "203a82fc5792e892088ad1962f0362de71c19e649e222fc8c18f06e02039f02a",
       "rights": "Original public metadata, explicit setup or authored synthetic verification helper"
     },
     {
@@ -422,7 +423,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "949c9a07ecd33ab22e7d80f9b2871917be8702441b116ba6db6245fdf07c7de0",
+      "sha256": "e6e2402846ea14cee22cf28fa86854ad962a8b5e245ff965a7454aeaeb1b9439",
       "rights": "Original public metadata, explicit setup or authored synthetic verification helper"
     },
     {
@@ -432,7 +433,7 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "8255910b37b879063b4aebb42dbfb63615086f563d4d7cfee61917a33bcbfcfd",
+      "sha256": "4e822b4e6e90cc429852710103070672f59c0c53747d89c9b2439fed5468826f",
       "rights": "Original public metadata, explicit setup or authored synthetic verification helper"
     },
     {

@@ -1,6 +1,6 @@
 # Workshop Facilitation Toolkit
 
-Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Help a group reach a concrete result through an agenda, activity choice, live facilitation, evidence capture, decision, debrief or rehearsal.
 
@@ -31,7 +31,7 @@ Use a specialist directly for activity choice, live help, dialogue, decisions, s
 
 ## Availability and recovery
 
-Text workflows use supplied context. This portable edition declares no Atlas MCP or launcher. Optional scoped lookup may use a separately installed, user-configured Activities Templates/Atlas source; see [selection rules and limits](references/atlas-library.md). Verify its actual current tool before a read. If unavailable, the complete bundled methods remain usable and the source-lookup limit is explicit.
+Text workflows use supplied context. This package includes an optional fixed-domain [Atlas launcher](scripts/atlas_library_mcp.py), but does not register an Atlas MCP server or bundle a corpus, server, database or host binding. A recipient can supply a compatible private binding and explicitly register the launcher; the existing local binding remains untouched. Alternatively, use a separately installed, user-configured Activities Templates/Atlas source. See [selection rules and limits](references/atlas-library.md) and verify the actual current tool before a read. If unavailable, the complete bundled methods remain usable and the source-lookup limit is explicit.
 
 See the [project map](docs/project-map.md) and [verification record](docs/verification.md) for methods, provenance and checks. A schedule checker validates timing, not group participation or a live decision.
 
@@ -56,7 +56,7 @@ This public method edition excludes private source locators, transcripts, emails
 
 Install this separately versioned package through the [Working Tools repository](https://github.com/JonathanKHobson/working-tools-plugins). Configure the `working-tools` marketplace with the current host's supported flow; in Codex use `codex plugin add workshop-facilitator@working-tools`, then start a fresh task to verify discovery. Use the host's supported removal command to uninstall. Your project, learner and workshop files are separate from the package.
 
-Bring the audience/group, intended observable result, time and approved source material. Text workflows need no account, private Atlas corpus or network service. Original read-only JSON helpers use Python 3.10 or later and the standard library. Visual production needs a separately available document/slide/web or design provider and actual rendered QA. Optional live boards/LMS/media export need your own accounts, permissions and demonstrated provider route. No participant data, credentials, MCP service, background job, tracking or native agent registration is included.
+Bring the audience/group, intended observable result, time and approved source material. Text workflows need no account, private Atlas corpus or network service. Original read-only JSON helpers use Python 3.10 or later and the standard library. Visual production needs a separately available document/slide/web or design provider and actual rendered QA. Optional live boards/LMS/media export need your own accounts, permissions and demonstrated provider route. No participant data, credentials, running MCP service, background job, tracking or native Atlas registration is included.
 
 Example when a provider is missing: "I can prepare the complete lesson/workshop plan from the supplied material. This host currently has no authorized board/LMS editing route, so publishing, participant-role tests and rendered interaction remain unverified. I will provide the run sheet, materials and acceptance checks for the receiving environment." This is an authored expected boundary, not a recorded live execution.
 

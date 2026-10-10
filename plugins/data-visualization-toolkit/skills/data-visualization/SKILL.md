@@ -28,6 +28,8 @@ The preserved [Build Web Data Visualization 0.1.21 router](../../libraries/build
 | Scrollytelling, parallax and visual scene sequences | [Visual stories](../visual-stories/SKILL.md) |
 | Report, PDF, slide or document figure packages | [Reports and export](../reports-and-export/SKILL.md) |
 | Test strategy, accessibility or release QA | [Visualization verification](../visualization-verification/SKILL.md) |
+| Conversation visuals, saved-table exploration, optional Visualize procedures | [Interactive explanations](../interactive-explanations/SKILL.md) |
+| Scientific figures, benchmark tables, optional complete provider style methods | [Scientific figures and tables](../scientific-figures-and-tables/SKILL.md) |
 
 These routes group discovery only. All 18 original `SKILL.md` bodies, their own references, shared foundations, examples, templates, and source indexes remain intact at `libraries/build-web-data-visualization/`. Open the selected original body in full, then its task-specific linked files. The [project map](../../docs/project-map.md) maps every original module to a discoverable head. Keep the original library read-only and put maintained routing changes in this plugin's `skills/` and `docs/`.
 
@@ -37,7 +39,7 @@ The full source is a method library, not a chart engine, installed dependency, M
 
 Before a quality claim, inspect the rendered artifact when the task produces one. Verify known values, the primary comparison, accessible meaning, relevant interaction, narrow layout, and requested export. A source read, successful build, generated preview, exported file, and verified published result are distinct states.
 
-For research figures, benchmark tables, scientific diagrams or publication styling, use [Scientific figures and tables](../scientific-figures-and-tables/SKILL.md), which loads the complete eligible statistical, export and testing source methods. For a native conversation visual, use [Interactive explanations](../interactive-explanations/SKILL.md), which uses the bundled Data Explorer and eligible original/MIT interaction procedures.
+For research figures, benchmark tables, scientific diagrams or publication styling, use [Scientific figures and tables](../scientific-figures-and-tables/SKILL.md). For a conversation visual, use [Interactive explanations](../interactive-explanations/SKILL.md). Each head loads the complete configured provider procedure and its support files when available, with explicit missing-provider handling. Complete eligible MIT methods and the bundled Data Explorer remain available independently; a source binding does not establish a native renderer.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

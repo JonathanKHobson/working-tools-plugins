@@ -135,7 +135,7 @@ class NativeSession:
         threading.Thread(target=self._read_stderr, daemon=True).start()
         try:
             result = self.request("initialize", {"protocolVersion": "2024-11-05", "capabilities": {},
-                                                  "clientInfo": {"name": "artcraft-toolkit", "version": "0.2.1"}}, 20)
+                                                  "clientInfo": {"name": "artcraft-toolkit", "version": "0.2.3"}}, 20)
             if "result" not in result:
                 raise RuntimeError(f"Native initialize failed: {result.get('error', result)}")
             self.notify("notifications/initialized")
@@ -362,7 +362,7 @@ class Gateway:
                 if version not in ("2024-11-05", "2025-03-26", "2025-06-18"):
                     version = "2025-06-18"
                 result = {"protocolVersion": version, "capabilities": {"tools": {"listChanged": False}},
-                          "serverInfo": {"name": "artcraft-toolkit", "version": "0.2.1"}}
+                          "serverInfo": {"name": "artcraft-toolkit", "version": "0.2.3"}}
             elif method == "ping":
                 result = {}
             elif method == "tools/list":

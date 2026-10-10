@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5 · 2026-10-10
+
+Align the maintained local source and portable package, preserving complete operative methods and original source history. Refresh recipient setup, registration metadata and file-level provenance.
+
 ## 1.0.4
 
 Remove a stale edition label after actual local app handoff verification.

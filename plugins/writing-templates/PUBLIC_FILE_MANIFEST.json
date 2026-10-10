@@ -4,12 +4,12 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "de8a24348bff0b3ec98f9ba5a66d2cc1b01c5ee14be05b74eeae02775015a683",
+      "sha256": "576699c72dd4b7fd1870a97eac9fd89aa5ae7627c437f31114e633a02a4ada8e",
       "bytes": 356
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "06cbc60c4d43a3c1753982d4fdb703e4202876efd441c015ac00ce2db42c2fc0",
+      "sha256": "067cb6487f176db4f0ade46cfa4e1a0e0a9796797e9143c5264102f034fd90ca",
       "bytes": 1019
     },
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "286dad32b4f2286408f3b163df21920545385467a74b430d0cf1e4757d223147",
-      "bytes": 538
+      "sha256": "1685732eca9a967367edb647e7171176582e4915e796bd89b81a5edf1f051424",
+      "bytes": 821
     },
     {
       "path": "LICENSE",
@@ -34,8 +34,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "sha256": "2bca510a7fbe3eae9d580b273994cca0bb60168e6cd127d1dcafcb103bdeeffd",
-      "bytes": 18326
+      "sha256": "0737cc2d2e4176fb824b31f10a6db238f27e2b2e7691bfea1d41e0952b7600db",
+      "bytes": 25144
     },
     {
       "path": "LICENSING.md",
@@ -49,13 +49,13 @@
     },
     {
       "path": "PROVENANCE.json",
-      "sha256": "e8a74982d8755c7b5256e2b5d69abb2563c557eb2bde5a13caedbc05c0ad6098",
-      "bytes": 29683
+      "sha256": "5829b55e1bc5c23549327046bf1227f9d41c71a21dac4ea734b5ee0deb18196c",
+      "bytes": 41063
     },
     {
       "path": "README.md",
-      "sha256": "58a40850465f980e1be40d75530c826eedbbf2a49a2cd1d1a6fefb9e12d7cf1d",
-      "bytes": 3941
+      "sha256": "107689d36c7c04cfba1ad13b7bd4d02e44883fdbadf34e0dacb319c0e31b3a37",
+      "bytes": 5106
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -83,9 +83,24 @@
       "bytes": 2246
     },
     {
+      "path": "docs/four-axes-package.md",
+      "sha256": "8bae3ed0f5871073494d9904b1122a796bd57da98d55b747452d232358d40580",
+      "bytes": 3323
+    },
+    {
       "path": "docs/project-map.md",
       "sha256": "d0b9c78b9e6e91a887b90627db05f35dd0b313f68363194d6fd8870392aec156",
       "bytes": 761
+    },
+    {
+      "path": "docs/writing-voice-lab-integration.md",
+      "sha256": "8639f3348ae9d69fde22bae0a777d2b07dcea03ead7982d0ebdbf097f2d19405",
+      "bytes": 5321
+    },
+    {
+      "path": "docs/writing-voice-library-app.md",
+      "sha256": "a23301266a0a7fd193735e0c4687af86ba9ad963715481d5cb3797a440d6f3c9",
+      "bytes": 8172
     },
     {
       "path": "legal/BRAND-AND-ATTRIBUTION.md",
@@ -189,7 +204,7 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "6256c4355fe06ca46773c50f3a8792e7aad4a8ce70ac780d1fc7f1eff6522c9f",
+      "sha256": "ec57fe34f23a02b11a5f1e9676e0bb8a4866b007120e504e852751210efbb518",
       "bytes": 1056
     },
     {
@@ -198,14 +213,24 @@
       "bytes": 330
     },
     {
+      "path": "references/professional-agents/README.md",
+      "sha256": "0430967a7476ac97d46507c84808112d813a6174f3b4aff1ea8fbf73074e8f18",
+      "bytes": 1410
+    },
+    {
       "path": "requirements.txt",
       "sha256": "19c33f5f4a0fcd8d023f02939441cb81b54d5e6388d903fa0d4cc7c6a308ca84",
       "bytes": 13
     },
     {
+      "path": "runtime/writing-voice-library/SPEC.md",
+      "sha256": "2aeea0fee4a4cfad2e0c6e464d98383ff0f55ae2f4d06dea285bcc6fc562fa5d",
+      "bytes": 1481
+    },
+    {
       "path": "runtime/writing-voice-library/catalog.py",
-      "sha256": "67ad57e469730783a5d9f3264b1753bf9df894a2a5342828fd38294a46a1e7a9",
-      "bytes": 16622
+      "sha256": "41ab3762526b3e8e0f748b508677526a07fbc7822deea58f2380e41bd0a68cbd",
+      "bytes": 17045
     },
     {
       "path": "runtime/writing-voice-library/feedback.py",
@@ -248,19 +273,74 @@
       "bytes": 9687
     },
     {
+      "path": "scripts/build_axis_references.py",
+      "sha256": "88ebb0bd652fae7242aaf6df1ec3005e7ecb75d80b8d621e95a079079578f284",
+      "bytes": 20126
+    },
+    {
+      "path": "scripts/build_p49_guide.py",
+      "sha256": "dc7077e4c641575796bb29d6c5eacb3e10030c6bd3b5072ce63d3d43781105b0",
+      "bytes": 10783
+    },
+    {
+      "path": "scripts/build_style_entries.py",
+      "sha256": "7ebe46d075b1ecce149c591d02de40bf08b9ba6b726448f33f6c5251a3c7b4a3",
+      "bytes": 6154
+    },
+    {
+      "path": "scripts/build_template_plugin.py",
+      "sha256": "49d365f3f94270eb73b85af2038453fb8dbf5a93938531ed3c80cdc294576a03",
+      "bytes": 12105
+    },
+    {
+      "path": "scripts/build_voice_covers.py",
+      "sha256": "af0abf9240fd58c0ed87996f6c2c4ddf2805dfa07ed3fb1765eb0dc97fd0a2c1",
+      "bytes": 25308
+    },
+    {
+      "path": "scripts/build_voice_public.py",
+      "sha256": "55038f8089eb57ee2c34bc157a0672da0881fcc6768853df815bb46c9ab981d0",
+      "bytes": 29913
+    },
+    {
       "path": "scripts/create_sample_collection.py",
       "sha256": "dad2b49eb9691410be931b36438b372433c15238a9f4a170f6f02d9a3bea7fa8",
       "bytes": 6389
     },
     {
+      "path": "scripts/project_additive_resource.py",
+      "sha256": "6edb59884f3aa3bf2193e838f4b5196d45a5377bfa25efe0b08a7a02dfa21418",
+      "bytes": 52063
+    },
+    {
+      "path": "scripts/voice_source_edition.py",
+      "sha256": "a809ef22c340c15ce7b4cc2e1d2200a2856690b369edf667c11bda909be0aa7d",
+      "bytes": 5786
+    },
+    {
+      "path": "scripts/voice_validation_package.py",
+      "sha256": "342716feac40830eee082805789d3424fcfb2899c1f9915179eb6e5b0f96f253",
+      "bytes": 7445
+    },
+    {
       "path": "scripts/writing_voice_library_mcp.py",
-      "sha256": "53b7c831a2de0f1c46e53a30a66650dc803109038cfeb9851b09fb408341895e",
-      "bytes": 854
+      "sha256": "a9cd53a89b7ebfe2e5ee2cab4162fc647be26feb6fc7611ae71c3e420631e7c5",
+      "bytes": 1854
     },
     {
       "path": "skills/writing-templates/SKILL.md",
-      "sha256": "62c76462f4c3f19482522e6f45bf9c9df86fbd5f9907b8c49b9bdddd036e6801",
-      "bytes": 3621
+      "sha256": "37605c1ab8700b0d2e31a90d6e3365fbd78f58ca1fcdf3b6b55685421c527e05",
+      "bytes": 3934
+    },
+    {
+      "path": "tests/test_four_axes.py",
+      "sha256": "5b32b7178426d0473d7b591bbef3e15cc04cafc95d513da74052eece282e2b2a",
+      "bytes": 5895
+    },
+    {
+      "path": "tests/test_native_bridge_message.mjs",
+      "sha256": "5efb53c5c56dd46924ebc4cd0fc02f4f462711474b94319a0b55f4a04642cff4",
+      "bytes": 2640
     },
     {
       "path": "tests/test_public_stdio.py",
@@ -268,10 +348,25 @@
       "bytes": 5259
     },
     {
+      "path": "tests/test_style_entries.py",
+      "sha256": "ec77a46380eda02999cc87d2e123a0436ec0c321cd420a724da23fbcdb22af24",
+      "bytes": 1611
+    },
+    {
+      "path": "tests/test_template_plugin_summary.py",
+      "sha256": "74fb0ef2e90cba57ff3dcd63cf6f3f9afdecefcd9af53a2416185b732b9839e8",
+      "bytes": 1080
+    },
+    {
       "path": "tests/test_voice_validation.cjs",
       "sha256": "753709840a2e1b43805ab3e05b77e9f98ef4894714b5078d7ff11ee9eb14f7c2",
       "bytes": 17328
+    },
+    {
+      "path": "tests/test_writing_voice_library_mcp.py",
+      "sha256": "c0a7242162bab5fa54a0446d331b6f08922a284396bca2a43ad5d54ee803986b",
+      "bytes": 10446
     }
   ],
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

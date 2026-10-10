@@ -1,1324 +1,15 @@
 {
   "schema_version": 1,
   "package": "survey-studio",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "reviewed_date": "2026-10-10",
   "source_tree_sha256": "d945791cc79cc5917fab0e392d9db12782ac9cee0b44a566fe0df6548c4ebccb",
   "retained_skill_count": 8,
   "source_file_count": 146,
   "files": [
     {
-      "path": ".codex-plugin/plugin.json",
-      "source_sha256": "0179ed8fd18c9beba4ab5c01577883d59572cd878b3c0238dad4f2fa7f3dfd6a",
-      "output_sha256": "72389cce43a7b6ebf19a04adc54cce367add2c0bd2f27003a784ebc03f8d4076",
-      "disposition": "transformed",
-      "change": "Public identity, complete head count, exact omitted source categories and no automatic provider registration.",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "README.md",
-      "source_sha256": "a4d7bafe6ab1e643613982e3d631ca39fbac1562f3413a1904fdc0a1aef00592",
-      "output_sha256": "807ce6ebd6d9706737068daa75037d56c3c0289c7fba6c3fbd1d2ec582f76c8b",
-      "disposition": "transformed",
-      "change": "Retain complete human capability catalog; add actual prerequisites, precise omission/license scope and truthful absent-provider scenario.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "docs/previous-entrypoints/survey-strategist/SKILL.original.md",
-      "source_sha256": "38e2196422a92551da54d89d24098b644bd4e57c67e8ac4aade14e4359d5999f",
-      "output_sha256": "4199affd08a3050fe5c2f40dd1d451ea9656c038d65d67373bb1ab5719316153",
-      "disposition": "transformed",
-      "change": "Preserve complete original 219-line procedure archive; rebase its relative references to actual retained shared support tree after historical relocation.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "docs/project-map.md",
-      "source_sha256": "d89f0cd5dd2d576e4409fa4894586defe2a6a0783e808c067f5770fb169ce797",
-      "output_sha256": "bdec3102de477609102fd689a1c135fdd316fb0390bfbdc632f2cdaef9589fc7",
-      "disposition": "transformed",
-      "change": "Actual public eight-head structure and specific omitted source archive; preserve domain ownership and full deterministic helper paths.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "docs/use-case-map.md",
-      "source_sha256": "cb0e3a750f99e6f715b0b6b2c4db3bb18f81fef57fc4bdb651970d5f0ae7225e",
-      "output_sha256": "cb0e3a750f99e6f715b0b6b2c4db3bb18f81fef57fc4bdb651970d5f0ae7225e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "library/survey-strategist/SKILL.original.md",
-      "source_sha256": "38e2196422a92551da54d89d24098b644bd4e57c67e8ac4aade14e4359d5999f",
-      "output_sha256": "11e726e887f3ebac6dab4d6cee84c3408f2ff28054208192ef0e596c00c7c3cb",
-      "disposition": "transformed",
-      "change": "Preserve complete original 219-line procedure archive; rebase its relative references to actual retained shared support tree after historical relocation.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/core-principle.md",
-      "source_sha256": "624929f0fc02b0053f38603de3d2ae3527adcd09aeb8cdee878850f6064575be",
-      "output_sha256": "624929f0fc02b0053f38603de3d2ae3527adcd09aeb8cdee878850f6064575be",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/default-workflow.md",
-      "source_sha256": "4c05510658859e99203ec7dc8b47e70e44a2e310518c0a64ff572c607f0fe76b",
-      "output_sha256": "4c05510658859e99203ec7dc8b47e70e44a2e310518c0a64ff572c607f0fe76b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/deterministic-tools.md",
-      "source_sha256": "c6f9cb5a9ec05e8a28bf3c91e069e36bed7a619e37256157bddd7cf30de8c118",
-      "output_sha256": "c6f9cb5a9ec05e8a28bf3c91e069e36bed7a619e37256157bddd7cf30de8c118",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/instrument-contract.md",
-      "source_sha256": "9f1b9ee4cac0221bd738fd73b639a2e3b87c7f605aa4a8e43bd44471420ee85d",
-      "output_sha256": "9f1b9ee4cac0221bd738fd73b639a2e3b87c7f605aa4a8e43bd44471420ee85d",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/intake-contract.md",
-      "source_sha256": "fc11bd7c15613e0610fbe9437878ae54c3bad70ff0ebe4c69a35141824794988",
-      "output_sha256": "fc11bd7c15613e0610fbe9437878ae54c3bad70ff0ebe4c69a35141824794988",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/non-negotiable-distinctions.md",
-      "source_sha256": "99472dd60477931d7c59c17876962405453ce52fa334b007fa11855621fd3fda",
-      "output_sha256": "99472dd60477931d7c59c17876962405453ce52fa334b007fa11855621fd3fda",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/output-format.md",
-      "source_sha256": "145a9213dd38fb73d54d4e1adab13c53f4ee45b6d2f4a8ab986e919087cbe839",
-      "output_sha256": "145a9213dd38fb73d54d4e1adab13c53f4ee45b6d2f4a8ab986e919087cbe839",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/quality-gates.md",
-      "source_sha256": "4e56406f19e7f13994acfdc23ed74681573718938ac24e78d9c93f2f63906680",
-      "output_sha256": "4e56406f19e7f13994acfdc23ed74681573718938ac24e78d9c93f2f63906680",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/qualtrics-guardrails.md",
-      "source_sha256": "1316464a9e65dcb97debb16d49cba8f9ac70b3892edcbb6730bd14f5a2a3d3e1",
-      "output_sha256": "1316464a9e65dcb97debb16d49cba8f9ac70b3892edcbb6730bd14f5a2a3d3e1",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/reference-library.md",
-      "source_sha256": "4f84f477a7b1c3ae5b261a019b6f5713ed284ac3c00cfd056f24fe2175aa18aa",
-      "output_sha256": "4f84f477a7b1c3ae5b261a019b6f5713ed284ac3c00cfd056f24fe2175aa18aa",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/route-the-request.md",
-      "source_sha256": "90e9840ef70c17814e2d9afcff8461a91ac153cd9dbccdd6bfc842c480e94e58",
-      "output_sha256": "90e9840ef70c17814e2d9afcff8461a91ac153cd9dbccdd6bfc842c480e94e58",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/instrument-contract/use-the-role-guides.md",
-      "source_sha256": "4a65ca2d75ae4b48eaf70495df782087eea1e43551462c2a4a554e79cb3a086e",
-      "output_sha256": "4a65ca2d75ae4b48eaf70495df782087eea1e43551462c2a4a554e79cb3a086e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/professional-agents/README.md",
-      "source_sha256": "39393e04ed057c007b077f0e3864661fef9520b7926e3fc4b6fb37906ce11469",
-      "output_sha256": "3f10b9745b46f2caccf1d617f8f7e763b938319e502c78fc8bdadcae3b05347f",
-      "disposition": "transformed",
-      "change": "Retain complete role responsibilities; portable local method routes and explicit optional external role availability.",
-      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
-      "license_scope_category": "retained-or-mixed-upstream"
-    },
-    {
-      "path": "references/professional-agents/survey-researcher.md",
-      "source_sha256": "4e4cf78745d59ac9f5f3acfea27b87c985a69dbe88fa57c93f7534f75a66ff9c",
-      "output_sha256": "7195af80a59e62c06961988aa7ae63ee8a44bf631e26390fb53b545df1affbf7",
-      "disposition": "transformed",
-      "change": "Retain complete role responsibilities; portable local method routes and explicit optional external role availability.",
-      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
-      "license_scope_category": "retained-or-mixed-upstream"
-    },
-    {
-      "path": "skills/survey-accessibility-and-privacy/SKILL.md",
-      "source_sha256": "61e67aaaefbd32fd3693c06a7d0463aaa376e5ad0b0be69de6b341dfffae5e22",
-      "output_sha256": "61e67aaaefbd32fd3693c06a7d0463aaa376e5ad0b0be69de6b341dfffae5e22",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-accessibility-and-privacy/agents/openai.yaml",
-      "source_sha256": "c36892542ee333f0dcd9ecc1f5853b15e07e3f08f75eeb120ecaf92cf01d7ae8",
-      "output_sha256": "c36892542ee333f0dcd9ecc1f5853b15e07e3f08f75eeb120ecaf92cf01d7ae8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-analysis-codebooks/SKILL.md",
-      "source_sha256": "29fcf57d134f8e7d2e1a9b1dc19e1fb44039f515bb5739bd4666efb4ed7e612d",
-      "output_sha256": "29fcf57d134f8e7d2e1a9b1dc19e1fb44039f515bb5739bd4666efb4ed7e612d",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-analysis-codebooks/agents/openai.yaml",
-      "source_sha256": "6880fff8381a3cc472d44ad90d15a8910194e73674c29cb0f6f1174e097a25b0",
-      "output_sha256": "6880fff8381a3cc472d44ad90d15a8910194e73674c29cb0f6f1174e097a25b0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-export/SKILL.md",
-      "source_sha256": "bd76ffb2bd17df8c264de23c147858bed6c19fecda46c024287a68b26c63a08c",
-      "output_sha256": "bd76ffb2bd17df8c264de23c147858bed6c19fecda46c024287a68b26c63a08c",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-export/agents/openai.yaml",
-      "source_sha256": "6739816805eb1e69a71175d785146ab45fde59649c2329d2b56bf987fc1f88d3",
-      "output_sha256": "6739816805eb1e69a71175d785146ab45fde59649c2329d2b56bf987fc1f88d3",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-flow-and-logic/SKILL.md",
-      "source_sha256": "144df5e234728c1d72f70ed50176d3ef555766938fd3f887eba6c15548b57de6",
-      "output_sha256": "144df5e234728c1d72f70ed50176d3ef555766938fd3f887eba6c15548b57de6",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-flow-and-logic/agents/openai.yaml",
-      "source_sha256": "4d0882bcd61298c9f928ad2c353ca3a45a57c5ef0b85d966b0e171182311b91e",
-      "output_sha256": "4d0882bcd61298c9f928ad2c353ca3a45a57c5ef0b85d966b0e171182311b91e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-pilot-and-quality/SKILL.md",
-      "source_sha256": "ee0f1784962ff3e5de84157c115322628d6433eec56f4685f4e907a6d19bcf69",
-      "output_sha256": "ee0f1784962ff3e5de84157c115322628d6433eec56f4685f4e907a6d19bcf69",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-pilot-and-quality/agents/openai.yaml",
-      "source_sha256": "b4d3e9225c4769d4363eab8a887d7def6a29900d61375c9b660aee2b51e710c8",
-      "output_sha256": "b4d3e9225c4769d4363eab8a887d7def6a29900d61375c9b660aee2b51e710c8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-question-design/SKILL.md",
-      "source_sha256": "42d4bbdbcc06b4224cc39996bff348aa86cfddea1c846fe0907817422523989b",
-      "output_sha256": "42d4bbdbcc06b4224cc39996bff348aa86cfddea1c846fe0907817422523989b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-question-design/agents/openai.yaml",
-      "source_sha256": "dfd151669a5b2f4b3e51540d6576adfee2de177bd4125d69935ae6ea12ef6f0a",
-      "output_sha256": "dfd151669a5b2f4b3e51540d6576adfee2de177bd4125d69935ae6ea12ef6f0a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-sampling/SKILL.md",
-      "source_sha256": "38efc979dbf33432aa2592ad650656eff4e65301392b822ed0e7fc911ceeef5a",
-      "output_sha256": "38efc979dbf33432aa2592ad650656eff4e65301392b822ed0e7fc911ceeef5a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-sampling/agents/openai.yaml",
-      "source_sha256": "ada4c3833c9ef3f36d40ca9a596a15db4f21ad9ab404f5c186f0055749ec30c8",
-      "output_sha256": "ada4c3833c9ef3f36d40ca9a596a15db4f21ad9ab404f5c186f0055749ec30c8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/SKILL.md",
-      "source_sha256": "5571fbf25f28f84a072087a9aa58859199e0318af80d3526fa961cfde9dd500a",
-      "output_sha256": "a4e45e211b7aa723c0d71695b733862a9bbf2ecc87b2fb182ba55d8282a2db0d",
-      "disposition": "transformed",
-      "change": "Trigger prefix aligned with included checker; full operative body preserved and complete shared support index explicitly reachable.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/openai.yaml",
-      "source_sha256": "c2e3bf79692638f6dc5e1524e4a71e817bcc3ab575fc34e7ee544e567c9e10da",
-      "output_sha256": "c2e3bf79692638f6dc5e1524e4a71e817bcc3ab575fc34e7ee544e567c9e10da",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/accessibility-privacy-reviewer.md",
-      "source_sha256": "5f8762eef88f9c8c8d36e66b4a1bcbe2b5ca89672c75caa8439c9597bcac98f3",
-      "output_sha256": "5f8762eef88f9c8c8d36e66b4a1bcbe2b5ca89672c75caa8439c9597bcac98f3",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/analysis-planner.md",
-      "source_sha256": "a3535f7f8b6a2ad790b94e05982fe1808ba7eda395b8894ae595cb4670e26f04",
-      "output_sha256": "a3535f7f8b6a2ad790b94e05982fe1808ba7eda395b8894ae595cb4670e26f04",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/bias-inclusion-reviewer.md",
-      "source_sha256": "4ead1714ab2e9ae89897bcf719693ce97b6d7eae35031bb8e8fd199bef87e724",
-      "output_sha256": "4ead1714ab2e9ae89897bcf719693ce97b6d7eae35031bb8e8fd199bef87e724",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/export-engineer.md",
-      "source_sha256": "468316eae08952170ec100fdb012a2c78bc96d4658e6097230b073047f4d9143",
-      "output_sha256": "468316eae08952170ec100fdb012a2c78bc96d4658e6097230b073047f4d9143",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/intake-strategist.md",
-      "source_sha256": "b4e32491bf6f0b13b99411f7132643ae958439c947b6e7be565d0936ff1b4783",
-      "output_sha256": "b4e32491bf6f0b13b99411f7132643ae958439c947b6e7be565d0936ff1b4783",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/logic-programming-reviewer.md",
-      "source_sha256": "44e6b0ce2cc04656b5da4c9dbc33e12ee45f09635e418d2b05daf0effdeb6453",
-      "output_sha256": "44e6b0ce2cc04656b5da4c9dbc33e12ee45f09635e418d2b05daf0effdeb6453",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/methodology-advisor.md",
-      "source_sha256": "5a88acf52429a791290d1e1ab9d2d9b4577a9ecc22e3d40128ba542120574f0a",
-      "output_sha256": "5a88acf52429a791290d1e1ab9d2d9b4577a9ecc22e3d40128ba542120574f0a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/qa-auditor.md",
-      "source_sha256": "b6ff21fbc4d0bd7a39265ce5c15044e086ae2427a62503774bfd5605362bc151",
-      "output_sha256": "b6ff21fbc4d0bd7a39265ce5c15044e086ae2427a62503774bfd5605362bc151",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/agents/roles/question-architect.md",
-      "source_sha256": "def7ee0f51c7e8044fc92ca806a3786a53d0d51e5b4f4038601ca6a632120b46",
-      "output_sha256": "def7ee0f51c7e8044fc92ca806a3786a53d0d51e5b4f4038601ca6a632120b46",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/accessible-survey.css",
-      "source_sha256": "c20ad8f2005b3c5d69d6aed1ac1ff71e8cbf82900c57fd4079fc4c32abe590bd",
-      "output_sha256": "c20ad8f2005b3c5d69d6aed1ac1ff71e8cbf82900c57fd4079fc4c32abe590bd",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/assets/analysis-plan-template.md",
-      "source_sha256": "e73cb1c0a9ea1fc993d5a985c49d5201fe2d2d0803a6836a856bf6946ec34569",
-      "output_sha256": "e73cb1c0a9ea1fc993d5a985c49d5201fe2d2d0803a6836a856bf6946ec34569",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/qa-report-template.md",
-      "source_sha256": "43ba6fc4107eda12a81cd01d328f88792673607ff40df3b8fa7d044f3ccd1b95",
-      "output_sha256": "43ba6fc4107eda12a81cd01d328f88792673607ff40df3b8fa7d044f3ccd1b95",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/qualtrics-advanced-example.txt",
-      "source_sha256": "8aeaaf94076e9680927d1327d67892a7cabbc42f599c8db791df07f4bc9f5fcc",
-      "output_sha256": "8aeaaf94076e9680927d1327d67892a7cabbc42f599c8db791df07f4bc9f5fcc",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/qualtrics-advanced-example.warnings.json",
-      "source_sha256": "5083a8e1e1522e4f5fda0272a8795ca1c7d464a8f4f4c2d665f933de96d598f1",
-      "output_sha256": "5083a8e1e1522e4f5fda0272a8795ca1c7d464a8f4f4c2d665f933de96d598f1",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/assets/qualtrics-simple-example.txt",
-      "source_sha256": "bf3d4493186da6cb92192b0e758b6ff2365f70df536ed8b5e72cb0e18d899730",
-      "output_sha256": "bf3d4493186da6cb92192b0e758b6ff2365f70df536ed8b5e72cb0e18d899730",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/survey-brief-template.md",
-      "source_sha256": "f0433cf13fd7ebdb6d6b34ddad9ad2daf9580be849eff67cf61c193cb1c5a04d",
-      "output_sha256": "f0433cf13fd7ebdb6d6b34ddad9ad2daf9580be849eff67cf61c193cb1c5a04d",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/assets/survey-template.json",
-      "source_sha256": "68ba0f3d5e58826def29182421cccc1fbc4875b588418562cdff39881430b1ba",
-      "output_sha256": "68ba0f3d5e58826def29182421cccc1fbc4875b588418562cdff39881430b1ba",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/assets/survey-template.yaml",
-      "source_sha256": "2b71201cb3345562f5608fa750afaa6fa958ff9463144449ddecb1e9149d06af",
-      "output_sha256": "2b71201cb3345562f5608fa750afaa6fa958ff9463144449ddecb1e9149d06af",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/assets/survey.schema.json",
-      "source_sha256": "5943cf00d7651d3eb9c0a29f3b6e8bdf794b1a374841da8ce8343aac4c6db0cc",
-      "output_sha256": "5943cf00d7651d3eb9c0a29f3b6e8bdf794b1a374841da8ce8343aac4c6db0cc",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/evaluations/pressure-scenarios.md",
-      "source_sha256": "af8e4f8fa7450716234d5cc546459181a85fa6fb6ff12e0aaa500ee2875452de",
-      "output_sha256": "af8e4f8fa7450716234d5cc546459181a85fa6fb6ff12e0aaa500ee2875452de",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/evaluations/rubric.md",
-      "source_sha256": "bf4d0753b8e2e55a13db85626db8a8b6bd8075e0c4ed78a13ee76fd534556a32",
-      "output_sha256": "bf4d0753b8e2e55a13db85626db8a8b6bd8075e0c4ed78a13ee76fd534556a32",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/evaluations/trigger-cases.json",
-      "source_sha256": "06dae4674c127346e8a63f53dd72bb5e6339a17c63acc14a5de48a9352c2d6b8",
-      "output_sha256": "06dae4674c127346e8a63f53dd72bb5e6339a17c63acc14a5de48a9352c2d6b8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/evaluations/workflow-cases.json",
-      "source_sha256": "98a10eb8fb7284262144bc154b2c2f26f4aeeba733e97bc0b08b23d3229551f6",
-      "output_sha256": "98a10eb8fb7284262144bc154b2c2f26f4aeeba733e97bc0b08b23d3229551f6",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/concept-test.yaml",
-      "source_sha256": "a5f1ac7a03261f82384c2f83741d801bdd17c765b49fbf57c839fbaa1525b8f0",
-      "output_sha256": "a5f1ac7a03261f82384c2f83741d801bdd17c765b49fbf57c839fbaa1525b8f0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/employee-pulse.yaml",
-      "source_sha256": "4c97d9f1de3a51f39d1f70abd8c5a1282dbadeb3bf047032f57e85e2097890cd",
-      "output_sha256": "4c97d9f1de3a51f39d1f70abd8c5a1282dbadeb3bf047032f57e85e2097890cd",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.csv",
-      "source_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
-      "output_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.json",
-      "source_sha256": "59aebf98ef6be1ac05e1b03f08b48eb71f99e8277d1c93d4d8173ea6be9135f0",
-      "output_sha256": "59aebf98ef6be1ac05e1b03f08b48eb71f99e8277d1c93d4d8173ea6be9135f0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.md",
-      "source_sha256": "4a2caac60ad0701ed31ec507c9796e3eeef0ec65ab9160f74a085e7bb999bf9b",
-      "output_sha256": "4a2caac60ad0701ed31ec507c9796e3eeef0ec65ab9160f74a085e7bb999bf9b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.csv",
-      "source_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
-      "output_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.docx",
-      "source_sha256": "c4f7445e7d84a811e502423751a47454b21e8d16f919900afa06a77153dd57a7",
-      "output_sha256": "c4f7445e7d84a811e502423751a47454b21e8d16f919900afa06a77153dd57a7",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-creative"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.html",
-      "source_sha256": "88d5a4070f07f12c3ca0c48d2b9f7721d5df47470c69e9e52fe0bdae1aa439be",
-      "output_sha256": "88d5a4070f07f12c3ca0c48d2b9f7721d5df47470c69e9e52fe0bdae1aa439be",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.json",
-      "source_sha256": "25a80826f544b45b377a84fe26e80bb12827ac2e7d93d674a964346b96eedb0b",
-      "output_sha256": "25a80826f544b45b377a84fe26e80bb12827ac2e7d93d674a964346b96eedb0b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.md",
-      "source_sha256": "2ba9759baae2628537fdbda7e8cdc79f8fab829779586ac6ae77cc9cfcdf1914",
-      "output_sha256": "2ba9759baae2628537fdbda7e8cdc79f8fab829779586ac6ae77cc9cfcdf1914",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.pdf",
-      "source_sha256": "862dfd3103ffce38f8ea1329c182082eaa201052260190e91171ebdf08294ffc",
-      "output_sha256": "862dfd3103ffce38f8ea1329c182082eaa201052260190e91171ebdf08294ffc",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-creative"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-advanced.txt",
-      "source_sha256": "2e9c66d2918006a0420ffd4d6e517d9fd4be3126cfd5745427ac92b956ee9fea",
-      "output_sha256": "2e9c66d2918006a0420ffd4d6e517d9fd4be3126cfd5745427ac92b956ee9fea",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-advanced.warnings.json",
-      "source_sha256": "4da846daacea22b77117d14a495e5ca91c4ebe4393ba955876c9a24c1ec02600",
-      "output_sha256": "4da846daacea22b77117d14a495e5ca91c4ebe4393ba955876c9a24c1ec02600",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-simple.txt",
-      "source_sha256": "3d55a4f24f6e34c05ed7959214ee8ee0ca84f0fe42f665c4a1f39b218860a69f",
-      "output_sha256": "3d55a4f24f6e34c05ed7959214ee8ee0ca84f0fe42f665c4a1f39b218860a69f",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-simple.warnings.json",
-      "source_sha256": "ff09866ebc7658026a74acc0166182f03c52556c4d987057103e418074e107a1",
-      "output_sha256": "ff09866ebc7658026a74acc0166182f03c52556c4d987057103e418074e107a1",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.txt",
-      "source_sha256": "3587d721f8ceebab656c29e24515b25c67fc861726f4ea0ee13760c0c740db7f",
-      "output_sha256": "3587d721f8ceebab656c29e24515b25c67fc861726f4ea0ee13760c0c740db7f",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.xml",
-      "source_sha256": "a66058f2d4c720b91f27c628fd00bcdd121d28df4497340dd157dde99e4fb737",
-      "output_sha256": "a66058f2d4c720b91f27c628fd00bcdd121d28df4497340dd157dde99e4fb737",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.yaml",
-      "source_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
-      "output_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/intake-form.yaml",
-      "source_sha256": "239550cac28a09ad86bc80e544eabafb935eb4b2e2e0f92bc6a67cecde033bca",
-      "output_sha256": "239550cac28a09ad86bc80e544eabafb935eb4b2e2e0f92bc6a67cecde033bca",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/learning-experience-feedback.json",
-      "source_sha256": "6e1f13553461cc2d5f958481fba8af27e8c919353b6918c7042a48f64c50e50c",
-      "output_sha256": "6e1f13553461cc2d5f958481fba8af27e8c919353b6918c7042a48f64c50e50c",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/post-task-usability.yaml",
-      "source_sha256": "04e9891c2e0604426ece93ef1474740a91b6ee8b385a5a729a10aae5deade1ff",
-      "output_sha256": "04e9891c2e0604426ece93ef1474740a91b6ee8b385a5a729a10aae5deade1ff",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/problem-discovery-survey.yaml",
-      "source_sha256": "b99dd5c789d15be99867269917839bcb9596ee92ee4dcbbb553906d678130881",
-      "output_sha256": "b99dd5c789d15be99867269917839bcb9596ee92ee4dcbbb553906d678130881",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/product-experience-pulse.yaml",
-      "source_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
-      "output_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/examples/screener.yaml",
-      "source_sha256": "5106c1c38cc4794ecc3ed589564ebde94a661134c9de9b8c50f722f501f4f756",
-      "output_sha256": "5106c1c38cc4794ecc3ed589564ebde94a661134c9de9b8c50f722f501f4f756",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/references/accessibility-and-inclusive-design.md",
-      "source_sha256": "914be4b491132a67bd8c80cfc51b0eac94144a321d6e582ccc5c05c4422b3740",
-      "output_sha256": "914be4b491132a67bd8c80cfc51b0eac94144a321d6e582ccc5c05c4422b3740",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/analysis-planning-and-codebooks.md",
-      "source_sha256": "05cc58753ecc9e780d71b815e9d32ee82cd3ed298524b11262e6aecdc750c43a",
-      "output_sha256": "05cc58753ecc9e780d71b815e9d32ee82cd3ed298524b11262e6aecdc750c43a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/data-quality-and-fraud.md",
-      "source_sha256": "24eb974217a12e1cade0b013dd3378a296525791ca08a9372d90d41701797d32",
-      "output_sha256": "24eb974217a12e1cade0b013dd3378a296525791ca08a9372d90d41701797d32",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-csv-tsv.md",
-      "source_sha256": "3d9703ad6ea43db2801bc02eee6cb4b3dbc1757993835b777ffef1f954198ac1",
-      "output_sha256": "3d9703ad6ea43db2801bc02eee6cb4b3dbc1757993835b777ffef1f954198ac1",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-docx.md",
-      "source_sha256": "072305105f7bb9b1c6a313f7f42a7f274e15a8a0b75c11f98064f68f815b73ea",
-      "output_sha256": "072305105f7bb9b1c6a313f7f42a7f274e15a8a0b75c11f98064f68f815b73ea",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-html.md",
-      "source_sha256": "6f739d1d6d613524cc977974825c78d94b7520d1f1c8f90a70f5b9c0131497cc",
-      "output_sha256": "9099873d46333ebf61450531f58b1be293268f527b51b8c54d15cff1ce685e3a",
-      "disposition": "transformed",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "skills/survey-strategist/references/export-json.md",
-      "source_sha256": "f171e44160108d0a5aba373d4b5fa74784940e217917eda5af348864b6ccb74b",
-      "output_sha256": "f171e44160108d0a5aba373d4b5fa74784940e217917eda5af348864b6ccb74b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-limesurvey-lss.md",
-      "source_sha256": "42508fac9f39af630c9f5e80ba9acf98c6bf30a9dc6585de9bbd60e818d55466",
-      "output_sha256": "42508fac9f39af630c9f5e80ba9acf98c6bf30a9dc6585de9bbd60e818d55466",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-markdown.md",
-      "source_sha256": "8866803948d3c28744d50879e6cc919a406266daf5620a1d765f708244b4ea46",
-      "output_sha256": "8866803948d3c28744d50879e6cc919a406266daf5620a1d765f708244b4ea46",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-pdf.md",
-      "source_sha256": "6af30f141861671743c11c608b3e07794213fc8157aac7ef52de7e42d655b722",
-      "output_sha256": "6af30f141861671743c11c608b3e07794213fc8157aac7ef52de7e42d655b722",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-plain-text.md",
-      "source_sha256": "d35065e1b1e4abc88c825b1c93020bbbc43dd308fbf196bdddb9c44e7e7ee27e",
-      "output_sha256": "d35065e1b1e4abc88c825b1c93020bbbc43dd308fbf196bdddb9c44e7e7ee27e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-qualtrics-advanced-txt.md",
-      "source_sha256": "86f6c23edd761bdf38694f5cf1e2e9bff62988d6afe9b982e37dabd98ece620d",
-      "output_sha256": "86f6c23edd761bdf38694f5cf1e2e9bff62988d6afe9b982e37dabd98ece620d",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-qualtrics-qsf.md",
-      "source_sha256": "96aec45668b331beb7374c4873fa1fab4b3a7947f9ba8ab938c6a0df97816b22",
-      "output_sha256": "96aec45668b331beb7374c4873fa1fab4b3a7947f9ba8ab938c6a0df97816b22",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-qualtrics-simple-txt.md",
-      "source_sha256": "50fff3fb57f7778f53b638905d9cffc8f3a5d53d71bbc11f188355fd32c1c175",
-      "output_sha256": "50fff3fb57f7778f53b638905d9cffc8f3a5d53d71bbc11f188355fd32c1c175",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-redcap-data-dictionary.md",
-      "source_sha256": "94690ca943fbeb51b800571f44bbc8413202b589ec339993ad2ce7d8fdd2794f",
-      "output_sha256": "94690ca943fbeb51b800571f44bbc8413202b589ec339993ad2ce7d8fdd2794f",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-selection.md",
-      "source_sha256": "da053c7dcdc38e2dd0f94782c04a00230049bda6f020a680cb9db5df090f3ab8",
-      "output_sha256": "da053c7dcdc38e2dd0f94782c04a00230049bda6f020a680cb9db5df090f3ab8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-surveyjs-json.md",
-      "source_sha256": "9066f5cc9a6f62218d9657ca838e36de4472dff47e79e2bf73980f91b92cfa5e",
-      "output_sha256": "9066f5cc9a6f62218d9657ca838e36de4472dff47e79e2bf73980f91b92cfa5e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-xlsx-and-xlsform.md",
-      "source_sha256": "3fa654c56352d18cb13c9fdc96e6dc1c5ae22489a77124d39a0b9abe28612edc",
-      "output_sha256": "3fa654c56352d18cb13c9fdc96e6dc1c5ae22489a77124d39a0b9abe28612edc",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-xml.md",
-      "source_sha256": "94893691f35a36614b3a6ab6e0da967aacb992d14daf3ed150fe6aaaef889a6f",
-      "output_sha256": "94893691f35a36614b3a6ab6e0da967aacb992d14daf3ed150fe6aaaef889a6f",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/export-yaml.md",
-      "source_sha256": "f01e19625807de513ff33aa14e5326674f00ed924869c245085fbd31c16574ce",
-      "output_sha256": "f01e19625807de513ff33aa14e5326674f00ed924869c245085fbd31c16574ce",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/feedback-surveys.md",
-      "source_sha256": "9da62e30b8cae5465f43e617605b41252f514fbb38f539ed130f134d61591fc3",
-      "output_sha256": "9da62e30b8cae5465f43e617605b41252f514fbb38f539ed130f134d61591fc3",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/forms-and-questionnaires.md",
-      "source_sha256": "fc792a1ba09957fd973f6fcb1c72066a8e08fae0fb90c1fbef6b3375fc690e56",
-      "output_sha256": "fc792a1ba09957fd973f6fcb1c72066a8e08fae0fb90c1fbef6b3375fc690e56",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/index.md",
-      "source_sha256": "c834849391e1a7cdcea1f1ec03c85f8bd868683b6042efb3fb022d40432835a1",
-      "output_sha256": "485138cf77af5328dbc99e3e077cace84f5760b1abe8769d80682fdaa035d22d",
-      "disposition": "transformed",
-      "change": "Keep full original selection map; make existing reference names portable links and expose complete retained format/source support conditionally so modular checker validates actual closure.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/limitations-and-platform-caveats.md",
-      "source_sha256": "6e2d60e17772576b3a1f36da294d097eace8e14930ea7e6db605f662fe15b255",
-      "output_sha256": "6e2d60e17772576b3a1f36da294d097eace8e14930ea7e6db605f662fe15b255",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/localization-and-cross-cultural-research.md",
-      "source_sha256": "ea2f68bff4ac7a8c9c7f47188b4e06f1c4bd8e063f5ad205bc29a1f5c9734f6b",
-      "output_sha256": "ea2f68bff4ac7a8c9c7f47188b4e06f1c4bd8e063f5ad205bc29a1f5c9734f6b",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/method-selection-and-triangulation.md",
-      "source_sha256": "bb7d39b1f96d9b8fa797b99eecae9b2d85eb6c2f84197f0ff523dfd89211d38a",
-      "output_sha256": "bb7d39b1f96d9b8fa797b99eecae9b2d85eb6c2f84197f0ff523dfd89211d38a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/ordering-flow-and-logic.md",
-      "source_sha256": "520f49ed530ead9fab24981e6778bea9245576399558ee3b7cb4bd63b212ac0e",
-      "output_sha256": "520f49ed530ead9fab24981e6778bea9245576399558ee3b7cb4bd63b212ac0e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/pretesting-and-piloting.md",
-      "source_sha256": "77203698a37fde45fb6d5793dfcf1e191e2c59516c1ddfd7a597857470168459",
-      "output_sha256": "77203698a37fde45fb6d5793dfcf1e191e2c59516c1ddfd7a597857470168459",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/privacy-ethics-and-compliance.md",
-      "source_sha256": "d3c46d73600acbceac1aa0feae8b8cc19d9b7129b855521079a1a434040f62f3",
-      "output_sha256": "d3c46d73600acbceac1aa0feae8b8cc19d9b7129b855521079a1a434040f62f3",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/quality-gates-and-audit-rubric.md",
-      "source_sha256": "f9fd8e3b6586a8a93fb4cf8708247752b1ed7472f48ec90f9b4b88bbc11778d4",
-      "output_sha256": "f9fd8e3b6586a8a93fb4cf8708247752b1ed7472f48ec90f9b4b88bbc11778d4",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/question-subject-areas.md",
-      "source_sha256": "bb54b284077d10a85209936347dc517598aa117b90f2adfe1a1f1916044f8a20",
-      "output_sha256": "bb54b284077d10a85209936347dc517598aa117b90f2adfe1a1f1916044f8a20",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/question-types.md",
-      "source_sha256": "51bf2b6afa5cc8c989202d3d106717edba5684ae814ebd247359d82a0966bd25",
-      "output_sha256": "40617c845167f94332d1b893d3bb539ab43c52e0071baf7f5ec3ac8d80cef763",
-      "disposition": "transformed",
-      "change": "Complete original question-selection safeguards retained; no unlicensed archive redistribution or source-dependent required input.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/question-writing.md",
-      "source_sha256": "755771015ba00973d773a7f1e4f9e0af9ffc0b23c98e24f3ac966cdb26385eb5",
-      "output_sha256": "755771015ba00973d773a7f1e4f9e0af9ffc0b23c98e24f3ac966cdb26385eb5",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/response-data-exports.md",
-      "source_sha256": "073fc7d8fccd7b55d24a5375073d9c7318f226d506c958d1ef7f5f16f7ff5905",
-      "output_sha256": "073fc7d8fccd7b55d24a5375073d9c7318f226d506c958d1ef7f5f16f7ff5905",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/response-options-and-scales.md",
-      "source_sha256": "b50a5cee3055755af6a1d35ad689198f20556934b9b68a626d99c7315287da7f",
-      "output_sha256": "b50a5cee3055755af6a1d35ad689198f20556934b9b68a626d99c7315287da7f",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/sampling-recruitment-and-invitations.md",
-      "source_sha256": "eec7140ca045fbb1ca5b1f1a21706a0df23613e0f1a05d49dbbe19e1aa8d4f68",
-      "output_sha256": "eec7140ca045fbb1ca5b1f1a21706a0df23613e0f1a05d49dbbe19e1aa8d4f68",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/sources.md",
-      "source_sha256": "ae03f8193dd542613a0c01002f524024dbe195fab3144eaf11935f7762106ccb",
-      "output_sha256": "25e5f2327e753f73b5e23e0ca8389dfc7a21ae80820a2af0bbbfe01316cfce5d",
-      "disposition": "transformed",
-      "change": "Retain specific source/influence history; exclude unlicensed supplied archive and falsely bundled-location claim.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/survey-design-foundations.md",
-      "source_sha256": "2bd574f4cfb6e39dd296b81f54e065882a46bce17bb09e76d7005590e6055be2",
-      "output_sha256": "2bd574f4cfb6e39dd296b81f54e065882a46bce17bb09e76d7005590e6055be2",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/survey-implementation.md",
-      "source_sha256": "a5ca07e7e9539f2414768a9e32372bd00280294292656b1b7973d5aa264d18b0",
-      "output_sha256": "a5ca07e7e9539f2414768a9e32372bd00280294292656b1b7973d5aa264d18b0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/survey-types.md",
-      "source_sha256": "1f5fd5317b471281efae1958a4e7fe3dd64e33a3b2f900ee4d73b98316821c21",
-      "output_sha256": "1f5fd5317b471281efae1958a4e7fe3dd64e33a3b2f900ee4d73b98316821c21",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/validated-measures.md",
-      "source_sha256": "368dfe9c9346761e32d73572e21ed197121de8d94b6260359f004e7b4dddbf94",
-      "output_sha256": "368dfe9c9346761e32d73572e21ed197121de8d94b6260359f004e7b4dddbf94",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/workflow-audit.md",
-      "source_sha256": "e10c6d3d7085307ee6b9a055336b4656959c55350991f7278a4e2310f5b934be",
-      "output_sha256": "e10c6d3d7085307ee6b9a055336b4656959c55350991f7278a4e2310f5b934be",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/workflow-create.md",
-      "source_sha256": "7b4c495b667987e15800040103a31bfaf480463a9c372d7c7dd293cca8db2f72",
-      "output_sha256": "7b4c495b667987e15800040103a31bfaf480463a9c372d7c7dd293cca8db2f72",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/references/workflow-qualtrics.md",
-      "source_sha256": "2504594f48e930cee2ad66ef879325cb074f50c08c21216851a65a8cf9f61e68",
-      "output_sha256": "2504594f48e930cee2ad66ef879325cb074f50c08c21216851a65a8cf9f61e68",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/requirements.txt",
-      "source_sha256": "ab7470a6caded7fa12f5ce15cd6da475ca4d8a56b302a1c87f8eb2ca08ee0f53",
-      "output_sha256": "ab7470a6caded7fa12f5ce15cd6da475ca4d8a56b302a1c87f8eb2ca08ee0f53",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/estimate_burden.py",
-      "source_sha256": "3ddf6426a4ebe9a65b9659141cbb007d84eaf8a6c513536566f0b13ce5688cd4",
-      "output_sha256": "3ddf6426a4ebe9a65b9659141cbb007d84eaf8a6c513536566f0b13ce5688cd4",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/export_survey.py",
-      "source_sha256": "45d8845c5b3a03491148ba171705bdf0dbed80208490689dc87a58a97cdb8c52",
-      "output_sha256": "66ae7c329a959345eb3591c733b45af0cc4221296057afbe7398cf0787b5ad53",
-      "disposition": "transformed",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "skills/survey-strategist/scripts/generate_codebook.py",
-      "source_sha256": "bbdb2d99d47b1ad679dfc1f3479f419fe3f0653c27e99fad5456121131f833f8",
-      "output_sha256": "bbdb2d99d47b1ad679dfc1f3479f419fe3f0653c27e99fad5456121131f833f8",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/qa_all.sh",
-      "source_sha256": "c934547fbcdb883d076210e20dad2ed397c1a22c5fc535f623196e91cf42b0a0",
-      "output_sha256": "c934547fbcdb883d076210e20dad2ed397c1a22c5fc535f623196e91cf42b0a0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/qualtrics_txt.py",
-      "source_sha256": "d97afe6dd723098023f6b8c7c58c9e90f344d0f72db4ae77e19157b4a76880f2",
-      "output_sha256": "d97afe6dd723098023f6b8c7c58c9e90f344d0f72db4ae77e19157b4a76880f2",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/survey_io.py",
-      "source_sha256": "9eefd44662de0917a75666d5046cc6073731cdbd39606db0d078946825deb6f0",
-      "output_sha256": "9eefd44662de0917a75666d5046cc6073731cdbd39606db0d078946825deb6f0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/survey_lint.py",
-      "source_sha256": "270a73ae9b35f53ca9275f37e235d6a01af8928531578e6fe66acd76da41de66",
-      "output_sha256": "270a73ae9b35f53ca9275f37e235d6a01af8928531578e6fe66acd76da41de66",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/validate_qualtrics_txt.py",
-      "source_sha256": "033fb9038a06fe56d18d81b9ca8ae8f06003b1374f671e08cbeba69ed4b43000",
-      "output_sha256": "033fb9038a06fe56d18d81b9ca8ae8f06003b1374f671e08cbeba69ed4b43000",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/scripts/validate_skill.py",
-      "source_sha256": "8849938a1ed6d0ea42f09251031644a5775ddb76765dea98ae5d39134a709b22",
-      "output_sha256": "be24fb6f5d46ecdf93a2c6bbf9033e7d166978501c80d4fac6ced958446c2573",
-      "disposition": "transformed",
-      "change": "Fix preexisting monolithic-checker drift for full modular reference closure: transitively follow actual shared index inside explicitly declared survey package, reject outward links, preserve metadata/assets/examples/CLI checks. Restricted supplied archive remains excluded.",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/fixtures/invalid-survey.yaml",
-      "source_sha256": "f19e3dfb4d5aa42a681f4aab480cb58e261b0572c14aeb8564bb5a86b383944e",
-      "output_sha256": "f19e3dfb4d5aa42a681f4aab480cb58e261b0572c14aeb8564bb5a86b383944e",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_burden.py",
-      "source_sha256": "352713ff629725e1387a7b341ca348eea97eb7b1de2bec8091e7e7fd755a4a3a",
-      "output_sha256": "352713ff629725e1387a7b341ca348eea97eb7b1de2bec8091e7e7fd755a4a3a",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_codebook.py",
-      "source_sha256": "2cea415dd4b32bf3b612f7581a0fea12b2f42d069619b7e589a910239417b943",
-      "output_sha256": "2cea415dd4b32bf3b612f7581a0fea12b2f42d069619b7e589a910239417b943",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_export_survey.py",
-      "source_sha256": "b995d8dd90d9942e2504fa23b2e21bc0e4e2b472c5c89d075e71d4f80384d3c1",
-      "output_sha256": "b995d8dd90d9942e2504fa23b2e21bc0e4e2b472c5c89d075e71d4f80384d3c1",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_qualtrics_txt.py",
-      "source_sha256": "cd6f6c06545bd047f57d2374c73120b4897df836c0b7dacbe8bc2e7da9d95ff0",
-      "output_sha256": "cd6f6c06545bd047f57d2374c73120b4897df836c0b7dacbe8bc2e7da9d95ff0",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_survey_io.py",
-      "source_sha256": "3b7141616812c9d66c4349c39226735005fb6eae6380a97befdcc86a8240ed69",
-      "output_sha256": "3b7141616812c9d66c4349c39226735005fb6eae6380a97befdcc86a8240ed69",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_survey_lint.py",
-      "source_sha256": "1b5c9cbb4cd38543c5aafed4c676701310036d33304b5ce5a38b52c738da0377",
-      "output_sha256": "1b5c9cbb4cd38543c5aafed4c676701310036d33304b5ce5a38b52c738da0377",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/survey-strategist/tests/test_validate_skill.py",
-      "source_sha256": "f052218079b68f2f26e6502cd833e95d9a796d1ad91805853e72ffe061eb5672",
-      "output_sha256": "f052218079b68f2f26e6502cd833e95d9a796d1ad91805853e72ffe061eb5672",
-      "disposition": "byte-identical",
-      "change": "none",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "8120e510c452ddb658a54199a0e7cd034090ec40329fa9218be89296e519c3a5",
+      "output_sha256": "686434ff251f77de8b916d760d2c5e193b3a49da2c9251e54dd9788717e6c0e1",
       "bytes": 595,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -1328,9 +19,20 @@
       "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
+      "path": ".codex-plugin/plugin.json",
+      "source_sha256": "0179ed8fd18c9beba4ab5c01577883d59572cd878b3c0238dad4f2fa7f3dfd6a",
+      "output_sha256": "43319aa4dd02f5d1e8ffa9934a847ea30871c6048f53ee6699a8fb6d6686b445",
+      "disposition": "transformed",
+      "change": "Public identity, complete head count, exact omitted source categories and no automatic provider registration.",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained.",
+      "bytes": 1244
+    },
+    {
       "path": "CHANGELOG.md",
-      "output_sha256": "1bc653199ccc2bed5377b23693c0407768cebfac5154ce369f46070d94f86c09",
-      "bytes": 446,
+      "output_sha256": "fbba86de83d6ceeeeca7b07a6d3c92cd937a8d06dba968efb6004e7e94292286",
+      "bytes": 729,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -1349,7 +51,7 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "d7f0a5e73ddd521101329a3442722eb43ab28d887196ff64b72f6605503bc849",
+      "output_sha256": "ee470267f4c6755e7512965c04a816d9eda56ba710ccf076f826b984e75e0a73",
       "bytes": 61246,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
@@ -1375,6 +77,17 @@
       "license_scope_category": "license-and-notice"
     },
     {
+      "path": "README.md",
+      "source_sha256": "a4d7bafe6ab1e643613982e3d631ca39fbac1562f3413a1904fdc0a1aef00592",
+      "output_sha256": "bf0d0723acee24ccaddfb77b0c8be3dff923934f3b89e7db4d303c60033d17f8",
+      "disposition": "transformed",
+      "change": "Retain complete human capability catalog; add actual prerequisites, precise omission/license scope and truthful absent-provider scenario.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained.",
+      "bytes": 6454
+    },
+    {
       "path": "SOURCE-ATTRIBUTIONS.md",
       "output_sha256": "5d19b53defc6347aacb7b3c7b24c3f7b1920262bd6424c520a2a31d1d8afa28e",
       "bytes": 1671,
@@ -1393,6 +106,36 @@
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "See document",
       "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "docs/previous-entrypoints/survey-strategist/SKILL.original.md",
+      "source_sha256": "38e2196422a92551da54d89d24098b644bd4e57c67e8ac4aade14e4359d5999f",
+      "output_sha256": "4199affd08a3050fe5c2f40dd1d451ea9656c038d65d67373bb1ab5719316153",
+      "disposition": "transformed",
+      "change": "Preserve complete original 219-line procedure archive; rebase its relative references to actual retained shared support tree after historical relocation.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 16573
+    },
+    {
+      "path": "docs/project-map.md",
+      "source_sha256": "d89f0cd5dd2d576e4409fa4894586defe2a6a0783e808c067f5770fb169ce797",
+      "output_sha256": "bdec3102de477609102fd689a1c135fdd316fb0390bfbdc632f2cdaef9589fc7",
+      "disposition": "transformed",
+      "change": "Actual public eight-head structure and specific omitted source archive; preserve domain ownership and full deterministic helper paths.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1314
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "source_sha256": "cb0e3a750f99e6f715b0b6b2c4db3bb18f81fef57fc4bdb651970d5f0ae7225e",
+      "output_sha256": "cb0e3a750f99e6f715b0b6b2c4db3bb18f81fef57fc4bdb651970d5f0ae7225e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1708
     },
     {
       "path": "legal/BRAND-AND-ATTRIBUTION.md",
@@ -1476,15 +219,1417 @@
       "license_scope_category": "prior-or-upstream-grant"
     },
     {
+      "path": "library/survey-strategist/SKILL.original.md",
+      "source_sha256": "38e2196422a92551da54d89d24098b644bd4e57c67e8ac4aade14e4359d5999f",
+      "output_sha256": "11e726e887f3ebac6dab4d6cee84c3408f2ff28054208192ef0e596c00c7c3cb",
+      "disposition": "transformed",
+      "change": "Preserve complete original 219-line procedure archive; rebase its relative references to actual retained shared support tree after historical relocation.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 16360
+    },
+    {
       "path": "plugin.json",
-      "output_sha256": "26d111b22e03a28202c6cb55d00c5875e11970be14604d2aa10ccac46328574e",
-      "bytes": 1379,
+      "output_sha256": "ab1e48cf1391925c9b2868eda2d67fd9219db9472b35d597f43d702c83c518d9",
+      "bytes": 1378,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
       "disposition": "transformed",
       "public_maintenance": "Expanded first-use usability correction; source hash retained."
+    },
+    {
+      "path": "references/instrument-contract/core-principle.md",
+      "source_sha256": "624929f0fc02b0053f38603de3d2ae3527adcd09aeb8cdee878850f6064575be",
+      "output_sha256": "624929f0fc02b0053f38603de3d2ae3527adcd09aeb8cdee878850f6064575be",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 254
+    },
+    {
+      "path": "references/instrument-contract/default-workflow.md",
+      "source_sha256": "4c05510658859e99203ec7dc8b47e70e44a2e310518c0a64ff572c607f0fe76b",
+      "output_sha256": "4c05510658859e99203ec7dc8b47e70e44a2e310518c0a64ff572c607f0fe76b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1859
+    },
+    {
+      "path": "references/instrument-contract/deterministic-tools.md",
+      "source_sha256": "c6f9cb5a9ec05e8a28bf3c91e069e36bed7a619e37256157bddd7cf30de8c118",
+      "output_sha256": "c6f9cb5a9ec05e8a28bf3c91e069e36bed7a619e37256157bddd7cf30de8c118",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1352
+    },
+    {
+      "path": "references/instrument-contract/instrument-contract.md",
+      "source_sha256": "9f1b9ee4cac0221bd738fd73b639a2e3b87c7f605aa4a8e43bd44471420ee85d",
+      "output_sha256": "9f1b9ee4cac0221bd738fd73b639a2e3b87c7f605aa4a8e43bd44471420ee85d",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 660
+    },
+    {
+      "path": "references/instrument-contract/intake-contract.md",
+      "source_sha256": "fc11bd7c15613e0610fbe9437878ae54c3bad70ff0ebe4c69a35141824794988",
+      "output_sha256": "fc11bd7c15613e0610fbe9437878ae54c3bad70ff0ebe4c69a35141824794988",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 706
+    },
+    {
+      "path": "references/instrument-contract/non-negotiable-distinctions.md",
+      "source_sha256": "99472dd60477931d7c59c17876962405453ce52fa334b007fa11855621fd3fda",
+      "output_sha256": "99472dd60477931d7c59c17876962405453ce52fa334b007fa11855621fd3fda",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 994
+    },
+    {
+      "path": "references/instrument-contract/output-format.md",
+      "source_sha256": "145a9213dd38fb73d54d4e1adab13c53f4ee45b6d2f4a8ab986e919087cbe839",
+      "output_sha256": "145a9213dd38fb73d54d4e1adab13c53f4ee45b6d2f4a8ab986e919087cbe839",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 844
+    },
+    {
+      "path": "references/instrument-contract/quality-gates.md",
+      "source_sha256": "4e56406f19e7f13994acfdc23ed74681573718938ac24e78d9c93f2f63906680",
+      "output_sha256": "4e56406f19e7f13994acfdc23ed74681573718938ac24e78d9c93f2f63906680",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 876
+    },
+    {
+      "path": "references/instrument-contract/qualtrics-guardrails.md",
+      "source_sha256": "1316464a9e65dcb97debb16d49cba8f9ac70b3892edcbb6730bd14f5a2a3d3e1",
+      "output_sha256": "1316464a9e65dcb97debb16d49cba8f9ac70b3892edcbb6730bd14f5a2a3d3e1",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 923
+    },
+    {
+      "path": "references/instrument-contract/reference-library.md",
+      "source_sha256": "4f84f477a7b1c3ae5b261a019b6f5713ed284ac3c00cfd056f24fe2175aa18aa",
+      "output_sha256": "4f84f477a7b1c3ae5b261a019b6f5713ed284ac3c00cfd056f24fe2175aa18aa",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4174
+    },
+    {
+      "path": "references/instrument-contract/route-the-request.md",
+      "source_sha256": "90e9840ef70c17814e2d9afcff8461a91ac153cd9dbccdd6bfc842c480e94e58",
+      "output_sha256": "90e9840ef70c17814e2d9afcff8461a91ac153cd9dbccdd6bfc842c480e94e58",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2314
+    },
+    {
+      "path": "references/instrument-contract/use-the-role-guides.md",
+      "source_sha256": "4a65ca2d75ae4b48eaf70495df782087eea1e43551462c2a4a554e79cb3a086e",
+      "output_sha256": "4a65ca2d75ae4b48eaf70495df782087eea1e43551462c2a4a554e79cb3a086e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 972
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "source_sha256": "39393e04ed057c007b077f0e3864661fef9520b7926e3fc4b6fb37906ce11469",
+      "output_sha256": "3f10b9745b46f2caccf1d617f8f7e763b938319e502c78fc8bdadcae3b05347f",
+      "disposition": "transformed",
+      "change": "Retain complete role responsibilities; portable local method routes and explicit optional external role availability.",
+      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "license_scope_category": "retained-or-mixed-upstream",
+      "bytes": 680
+    },
+    {
+      "path": "references/professional-agents/survey-researcher.md",
+      "source_sha256": "4e4cf78745d59ac9f5f3acfea27b87c985a69dbe88fa57c93f7534f75a66ff9c",
+      "output_sha256": "7195af80a59e62c06961988aa7ae63ee8a44bf631e26390fb53b545df1affbf7",
+      "disposition": "transformed",
+      "change": "Retain complete role responsibilities; portable local method routes and explicit optional external role availability.",
+      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "license_scope_category": "retained-or-mixed-upstream",
+      "bytes": 2850
+    },
+    {
+      "path": "skills/survey-accessibility-and-privacy/SKILL.md",
+      "source_sha256": "61e67aaaefbd32fd3693c06a7d0463aaa376e5ad0b0be69de6b341dfffae5e22",
+      "output_sha256": "61e67aaaefbd32fd3693c06a7d0463aaa376e5ad0b0be69de6b341dfffae5e22",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2825
+    },
+    {
+      "path": "skills/survey-accessibility-and-privacy/agents/openai.yaml",
+      "source_sha256": "c36892542ee333f0dcd9ecc1f5853b15e07e3f08f75eeb120ecaf92cf01d7ae8",
+      "output_sha256": "c36892542ee333f0dcd9ecc1f5853b15e07e3f08f75eeb120ecaf92cf01d7ae8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 273
+    },
+    {
+      "path": "skills/survey-analysis-codebooks/SKILL.md",
+      "source_sha256": "29fcf57d134f8e7d2e1a9b1dc19e1fb44039f515bb5739bd4666efb4ed7e612d",
+      "output_sha256": "29fcf57d134f8e7d2e1a9b1dc19e1fb44039f515bb5739bd4666efb4ed7e612d",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2719
+    },
+    {
+      "path": "skills/survey-analysis-codebooks/agents/openai.yaml",
+      "source_sha256": "6880fff8381a3cc472d44ad90d15a8910194e73674c29cb0f6f1174e097a25b0",
+      "output_sha256": "6880fff8381a3cc472d44ad90d15a8910194e73674c29cb0f6f1174e097a25b0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 259
+    },
+    {
+      "path": "skills/survey-export/SKILL.md",
+      "source_sha256": "bd76ffb2bd17df8c264de23c147858bed6c19fecda46c024287a68b26c63a08c",
+      "output_sha256": "bd76ffb2bd17df8c264de23c147858bed6c19fecda46c024287a68b26c63a08c",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2785
+    },
+    {
+      "path": "skills/survey-export/agents/openai.yaml",
+      "source_sha256": "6739816805eb1e69a71175d785146ab45fde59649c2329d2b56bf987fc1f88d3",
+      "output_sha256": "6739816805eb1e69a71175d785146ab45fde59649c2329d2b56bf987fc1f88d3",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 235
+    },
+    {
+      "path": "skills/survey-flow-and-logic/SKILL.md",
+      "source_sha256": "144df5e234728c1d72f70ed50176d3ef555766938fd3f887eba6c15548b57de6",
+      "output_sha256": "144df5e234728c1d72f70ed50176d3ef555766938fd3f887eba6c15548b57de6",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2926
+    },
+    {
+      "path": "skills/survey-flow-and-logic/agents/openai.yaml",
+      "source_sha256": "4d0882bcd61298c9f928ad2c353ca3a45a57c5ef0b85d966b0e171182311b91e",
+      "output_sha256": "4d0882bcd61298c9f928ad2c353ca3a45a57c5ef0b85d966b0e171182311b91e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 251
+    },
+    {
+      "path": "skills/survey-pilot-and-quality/SKILL.md",
+      "source_sha256": "ee0f1784962ff3e5de84157c115322628d6433eec56f4685f4e907a6d19bcf69",
+      "output_sha256": "ee0f1784962ff3e5de84157c115322628d6433eec56f4685f4e907a6d19bcf69",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2997
+    },
+    {
+      "path": "skills/survey-pilot-and-quality/agents/openai.yaml",
+      "source_sha256": "b4d3e9225c4769d4363eab8a887d7def6a29900d61375c9b660aee2b51e710c8",
+      "output_sha256": "b4d3e9225c4769d4363eab8a887d7def6a29900d61375c9b660aee2b51e710c8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 257
+    },
+    {
+      "path": "skills/survey-question-design/SKILL.md",
+      "source_sha256": "42d4bbdbcc06b4224cc39996bff348aa86cfddea1c846fe0907817422523989b",
+      "output_sha256": "42d4bbdbcc06b4224cc39996bff348aa86cfddea1c846fe0907817422523989b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2743
+    },
+    {
+      "path": "skills/survey-question-design/agents/openai.yaml",
+      "source_sha256": "dfd151669a5b2f4b3e51540d6576adfee2de177bd4125d69935ae6ea12ef6f0a",
+      "output_sha256": "dfd151669a5b2f4b3e51540d6576adfee2de177bd4125d69935ae6ea12ef6f0a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 253
+    },
+    {
+      "path": "skills/survey-sampling/SKILL.md",
+      "source_sha256": "38efc979dbf33432aa2592ad650656eff4e65301392b822ed0e7fc911ceeef5a",
+      "output_sha256": "38efc979dbf33432aa2592ad650656eff4e65301392b822ed0e7fc911ceeef5a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2546
+    },
+    {
+      "path": "skills/survey-sampling/agents/openai.yaml",
+      "source_sha256": "ada4c3833c9ef3f36d40ca9a596a15db4f21ad9ab404f5c186f0055749ec30c8",
+      "output_sha256": "ada4c3833c9ef3f36d40ca9a596a15db4f21ad9ab404f5c186f0055749ec30c8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 239
+    },
+    {
+      "path": "skills/survey-strategist/SKILL.md",
+      "source_sha256": "5571fbf25f28f84a072087a9aa58859199e0318af80d3526fa961cfde9dd500a",
+      "output_sha256": "a4e45e211b7aa723c0d71695b733862a9bbf2ecc87b2fb182ba55d8282a2db0d",
+      "disposition": "transformed",
+      "change": "Trigger prefix aligned with included checker; full operative body preserved and complete shared support index explicitly reachable.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4210
+    },
+    {
+      "path": "skills/survey-strategist/agents/openai.yaml",
+      "source_sha256": "c2e3bf79692638f6dc5e1524e4a71e817bcc3ab575fc34e7ee544e567c9e10da",
+      "output_sha256": "c2e3bf79692638f6dc5e1524e4a71e817bcc3ab575fc34e7ee544e567c9e10da",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 223
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/accessibility-privacy-reviewer.md",
+      "source_sha256": "5f8762eef88f9c8c8d36e66b4a1bcbe2b5ca89672c75caa8439c9597bcac98f3",
+      "output_sha256": "5f8762eef88f9c8c8d36e66b4a1bcbe2b5ca89672c75caa8439c9597bcac98f3",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 853
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/analysis-planner.md",
+      "source_sha256": "a3535f7f8b6a2ad790b94e05982fe1808ba7eda395b8894ae595cb4670e26f04",
+      "output_sha256": "a3535f7f8b6a2ad790b94e05982fe1808ba7eda395b8894ae595cb4670e26f04",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 797
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/bias-inclusion-reviewer.md",
+      "source_sha256": "4ead1714ab2e9ae89897bcf719693ce97b6d7eae35031bb8e8fd199bef87e724",
+      "output_sha256": "4ead1714ab2e9ae89897bcf719693ce97b6d7eae35031bb8e8fd199bef87e724",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 805
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/export-engineer.md",
+      "source_sha256": "468316eae08952170ec100fdb012a2c78bc96d4658e6097230b073047f4d9143",
+      "output_sha256": "468316eae08952170ec100fdb012a2c78bc96d4658e6097230b073047f4d9143",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 729
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/intake-strategist.md",
+      "source_sha256": "b4e32491bf6f0b13b99411f7132643ae958439c947b6e7be565d0936ff1b4783",
+      "output_sha256": "b4e32491bf6f0b13b99411f7132643ae958439c947b6e7be565d0936ff1b4783",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1005
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/logic-programming-reviewer.md",
+      "source_sha256": "44e6b0ce2cc04656b5da4c9dbc33e12ee45f09635e418d2b05daf0effdeb6453",
+      "output_sha256": "44e6b0ce2cc04656b5da4c9dbc33e12ee45f09635e418d2b05daf0effdeb6453",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 752
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/methodology-advisor.md",
+      "source_sha256": "5a88acf52429a791290d1e1ab9d2d9b4577a9ecc22e3d40128ba542120574f0a",
+      "output_sha256": "5a88acf52429a791290d1e1ab9d2d9b4577a9ecc22e3d40128ba542120574f0a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 747
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/qa-auditor.md",
+      "source_sha256": "b6ff21fbc4d0bd7a39265ce5c15044e086ae2427a62503774bfd5605362bc151",
+      "output_sha256": "b6ff21fbc4d0bd7a39265ce5c15044e086ae2427a62503774bfd5605362bc151",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 707
+    },
+    {
+      "path": "skills/survey-strategist/agents/roles/question-architect.md",
+      "source_sha256": "def7ee0f51c7e8044fc92ca806a3786a53d0d51e5b4f4038601ca6a632120b46",
+      "output_sha256": "def7ee0f51c7e8044fc92ca806a3786a53d0d51e5b4f4038601ca6a632120b46",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 831
+    },
+    {
+      "path": "skills/survey-strategist/assets/accessible-survey.css",
+      "source_sha256": "c20ad8f2005b3c5d69d6aed1ac1ff71e8cbf82900c57fd4079fc4c32abe590bd",
+      "output_sha256": "c20ad8f2005b3c5d69d6aed1ac1ff71e8cbf82900c57fd4079fc4c32abe590bd",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1333
+    },
+    {
+      "path": "skills/survey-strategist/assets/analysis-plan-template.md",
+      "source_sha256": "e73cb1c0a9ea1fc993d5a985c49d5201fe2d2d0803a6836a856bf6946ec34569",
+      "output_sha256": "e73cb1c0a9ea1fc993d5a985c49d5201fe2d2d0803a6836a856bf6946ec34569",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1234
+    },
+    {
+      "path": "skills/survey-strategist/assets/qa-report-template.md",
+      "source_sha256": "43ba6fc4107eda12a81cd01d328f88792673607ff40df3b8fa7d044f3ccd1b95",
+      "output_sha256": "43ba6fc4107eda12a81cd01d328f88792673607ff40df3b8fa7d044f3ccd1b95",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1239
+    },
+    {
+      "path": "skills/survey-strategist/assets/qualtrics-advanced-example.txt",
+      "source_sha256": "8aeaaf94076e9680927d1327d67892a7cabbc42f599c8db791df07f4bc9f5fcc",
+      "output_sha256": "8aeaaf94076e9680927d1327d67892a7cabbc42f599c8db791df07f4bc9f5fcc",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 392
+    },
+    {
+      "path": "skills/survey-strategist/assets/qualtrics-advanced-example.warnings.json",
+      "source_sha256": "5083a8e1e1522e4f5fda0272a8795ca1c7d464a8f4f4c2d665f933de96d598f1",
+      "output_sha256": "5083a8e1e1522e4f5fda0272a8795ca1c7d464a8f4f4c2d665f933de96d598f1",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 375
+    },
+    {
+      "path": "skills/survey-strategist/assets/qualtrics-simple-example.txt",
+      "source_sha256": "bf3d4493186da6cb92192b0e758b6ff2365f70df536ed8b5e72cb0e18d899730",
+      "output_sha256": "bf3d4493186da6cb92192b0e758b6ff2365f70df536ed8b5e72cb0e18d899730",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 265
+    },
+    {
+      "path": "skills/survey-strategist/assets/survey-brief-template.md",
+      "source_sha256": "f0433cf13fd7ebdb6d6b34ddad9ad2daf9580be849eff67cf61c193cb1c5a04d",
+      "output_sha256": "f0433cf13fd7ebdb6d6b34ddad9ad2daf9580be849eff67cf61c193cb1c5a04d",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1241
+    },
+    {
+      "path": "skills/survey-strategist/assets/survey-template.json",
+      "source_sha256": "68ba0f3d5e58826def29182421cccc1fbc4875b588418562cdff39881430b1ba",
+      "output_sha256": "68ba0f3d5e58826def29182421cccc1fbc4875b588418562cdff39881430b1ba",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1925
+    },
+    {
+      "path": "skills/survey-strategist/assets/survey-template.yaml",
+      "source_sha256": "2b71201cb3345562f5608fa750afaa6fa958ff9463144449ddecb1e9149d06af",
+      "output_sha256": "2b71201cb3345562f5608fa750afaa6fa958ff9463144449ddecb1e9149d06af",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1517
+    },
+    {
+      "path": "skills/survey-strategist/assets/survey.schema.json",
+      "source_sha256": "5943cf00d7651d3eb9c0a29f3b6e8bdf794b1a374841da8ce8343aac4c6db0cc",
+      "output_sha256": "5943cf00d7651d3eb9c0a29f3b6e8bdf794b1a374841da8ce8343aac4c6db0cc",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 14141
+    },
+    {
+      "path": "skills/survey-strategist/evaluations/pressure-scenarios.md",
+      "source_sha256": "af8e4f8fa7450716234d5cc546459181a85fa6fb6ff12e0aaa500ee2875452de",
+      "output_sha256": "af8e4f8fa7450716234d5cc546459181a85fa6fb6ff12e0aaa500ee2875452de",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1963
+    },
+    {
+      "path": "skills/survey-strategist/evaluations/rubric.md",
+      "source_sha256": "bf4d0753b8e2e55a13db85626db8a8b6bd8075e0c4ed78a13ee76fd534556a32",
+      "output_sha256": "bf4d0753b8e2e55a13db85626db8a8b6bd8075e0c4ed78a13ee76fd534556a32",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1719
+    },
+    {
+      "path": "skills/survey-strategist/evaluations/trigger-cases.json",
+      "source_sha256": "06dae4674c127346e8a63f53dd72bb5e6339a17c63acc14a5de48a9352c2d6b8",
+      "output_sha256": "06dae4674c127346e8a63f53dd72bb5e6339a17c63acc14a5de48a9352c2d6b8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 2600
+    },
+    {
+      "path": "skills/survey-strategist/evaluations/workflow-cases.json",
+      "source_sha256": "98a10eb8fb7284262144bc154b2c2f26f4aeeba733e97bc0b08b23d3229551f6",
+      "output_sha256": "98a10eb8fb7284262144bc154b2c2f26f4aeeba733e97bc0b08b23d3229551f6",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 3381
+    },
+    {
+      "path": "skills/survey-strategist/examples/concept-test.yaml",
+      "source_sha256": "a5f1ac7a03261f82384c2f83741d801bdd17c765b49fbf57c839fbaa1525b8f0",
+      "output_sha256": "a5f1ac7a03261f82384c2f83741d801bdd17c765b49fbf57c839fbaa1525b8f0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5172
+    },
+    {
+      "path": "skills/survey-strategist/examples/employee-pulse.yaml",
+      "source_sha256": "4c97d9f1de3a51f39d1f70abd8c5a1282dbadeb3bf047032f57e85e2097890cd",
+      "output_sha256": "4c97d9f1de3a51f39d1f70abd8c5a1282dbadeb3bf047032f57e85e2097890cd",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 4868
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.csv",
+      "source_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
+      "output_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 8745
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.json",
+      "source_sha256": "59aebf98ef6be1ac05e1b03f08b48eb71f99e8277d1c93d4d8173ea6be9135f0",
+      "output_sha256": "59aebf98ef6be1ac05e1b03f08b48eb71f99e8277d1c93d4d8173ea6be9135f0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 19285
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse-codebook.md",
+      "source_sha256": "4a2caac60ad0701ed31ec507c9796e3eeef0ec65ab9160f74a085e7bb999bf9b",
+      "output_sha256": "4a2caac60ad0701ed31ec507c9796e3eeef0ec65ab9160f74a085e7bb999bf9b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 5697
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.csv",
+      "source_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
+      "output_sha256": "d7af96b95da54dacbe5c30de3f2e5b58e1c38bd2f478182b93e08eff35e97419",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 8745
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.docx",
+      "source_sha256": "c4f7445e7d84a811e502423751a47454b21e8d16f919900afa06a77153dd57a7",
+      "output_sha256": "c4f7445e7d84a811e502423751a47454b21e8d16f919900afa06a77153dd57a7",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-creative",
+      "bytes": 38115
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.html",
+      "source_sha256": "88d5a4070f07f12c3ca0c48d2b9f7721d5df47470c69e9e52fe0bdae1aa439be",
+      "output_sha256": "88d5a4070f07f12c3ca0c48d2b9f7721d5df47470c69e9e52fe0bdae1aa439be",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 7449
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.json",
+      "source_sha256": "25a80826f544b45b377a84fe26e80bb12827ac2e7d93d674a964346b96eedb0b",
+      "output_sha256": "25a80826f544b45b377a84fe26e80bb12827ac2e7d93d674a964346b96eedb0b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 6448
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.md",
+      "source_sha256": "2ba9759baae2628537fdbda7e8cdc79f8fab829779586ac6ae77cc9cfcdf1914",
+      "output_sha256": "2ba9759baae2628537fdbda7e8cdc79f8fab829779586ac6ae77cc9cfcdf1914",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2896
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.pdf",
+      "source_sha256": "862dfd3103ffce38f8ea1329c182082eaa201052260190e91171ebdf08294ffc",
+      "output_sha256": "862dfd3103ffce38f8ea1329c182082eaa201052260190e91171ebdf08294ffc",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-creative",
+      "bytes": 4657
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-advanced.txt",
+      "source_sha256": "2e9c66d2918006a0420ffd4d6e517d9fd4be3126cfd5745427ac92b956ee9fea",
+      "output_sha256": "2e9c66d2918006a0420ffd4d6e517d9fd4be3126cfd5745427ac92b956ee9fea",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1358
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-advanced.warnings.json",
+      "source_sha256": "4da846daacea22b77117d14a495e5ca91c4ebe4393ba955876c9a24c1ec02600",
+      "output_sha256": "4da846daacea22b77117d14a495e5ca91c4ebe4393ba955876c9a24c1ec02600",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 2996
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-simple.txt",
+      "source_sha256": "3d55a4f24f6e34c05ed7959214ee8ee0ca84f0fe42f665c4a1f39b218860a69f",
+      "output_sha256": "3d55a4f24f6e34c05ed7959214ee8ee0ca84f0fe42f665c4a1f39b218860a69f",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 847
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.qualtrics-simple.warnings.json",
+      "source_sha256": "ff09866ebc7658026a74acc0166182f03c52556c4d987057103e418074e107a1",
+      "output_sha256": "ff09866ebc7658026a74acc0166182f03c52556c4d987057103e418074e107a1",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 502
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.txt",
+      "source_sha256": "3587d721f8ceebab656c29e24515b25c67fc861726f4ea0ee13760c0c740db7f",
+      "output_sha256": "3587d721f8ceebab656c29e24515b25c67fc861726f4ea0ee13760c0c740db7f",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2585
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.xml",
+      "source_sha256": "a66058f2d4c720b91f27c628fd00bcdd121d28df4497340dd157dde99e4fb737",
+      "output_sha256": "a66058f2d4c720b91f27c628fd00bcdd121d28df4497340dd157dde99e4fb737",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4851
+    },
+    {
+      "path": "skills/survey-strategist/examples/generated/product-experience-pulse.yaml",
+      "source_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
+      "output_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 4527
+    },
+    {
+      "path": "skills/survey-strategist/examples/intake-form.yaml",
+      "source_sha256": "239550cac28a09ad86bc80e544eabafb935eb4b2e2e0f92bc6a67cecde033bca",
+      "output_sha256": "239550cac28a09ad86bc80e544eabafb935eb4b2e2e0f92bc6a67cecde033bca",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5613
+    },
+    {
+      "path": "skills/survey-strategist/examples/learning-experience-feedback.json",
+      "source_sha256": "6e1f13553461cc2d5f958481fba8af27e8c919353b6918c7042a48f64c50e50c",
+      "output_sha256": "6e1f13553461cc2d5f958481fba8af27e8c919353b6918c7042a48f64c50e50c",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 6996
+    },
+    {
+      "path": "skills/survey-strategist/examples/post-task-usability.yaml",
+      "source_sha256": "04e9891c2e0604426ece93ef1474740a91b6ee8b385a5a729a10aae5deade1ff",
+      "output_sha256": "04e9891c2e0604426ece93ef1474740a91b6ee8b385a5a729a10aae5deade1ff",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 3137
+    },
+    {
+      "path": "skills/survey-strategist/examples/problem-discovery-survey.yaml",
+      "source_sha256": "b99dd5c789d15be99867269917839bcb9596ee92ee4dcbbb553906d678130881",
+      "output_sha256": "b99dd5c789d15be99867269917839bcb9596ee92ee4dcbbb553906d678130881",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 6297
+    },
+    {
+      "path": "skills/survey-strategist/examples/product-experience-pulse.yaml",
+      "source_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
+      "output_sha256": "04c03d8ee3428972800c1922d4d25db8951f2491c564e7d0e29df5c605715dab",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 4527
+    },
+    {
+      "path": "skills/survey-strategist/examples/screener.yaml",
+      "source_sha256": "5106c1c38cc4794ecc3ed589564ebde94a661134c9de9b8c50f722f501f4f756",
+      "output_sha256": "5106c1c38cc4794ecc3ed589564ebde94a661134c9de9b8c50f722f501f4f756",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5206
+    },
+    {
+      "path": "skills/survey-strategist/references/accessibility-and-inclusive-design.md",
+      "source_sha256": "914be4b491132a67bd8c80cfc51b0eac94144a321d6e582ccc5c05c4422b3740",
+      "output_sha256": "914be4b491132a67bd8c80cfc51b0eac94144a321d6e582ccc5c05c4422b3740",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3444
+    },
+    {
+      "path": "skills/survey-strategist/references/analysis-planning-and-codebooks.md",
+      "source_sha256": "05cc58753ecc9e780d71b815e9d32ee82cd3ed298524b11262e6aecdc750c43a",
+      "output_sha256": "05cc58753ecc9e780d71b815e9d32ee82cd3ed298524b11262e6aecdc750c43a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3614
+    },
+    {
+      "path": "skills/survey-strategist/references/data-quality-and-fraud.md",
+      "source_sha256": "24eb974217a12e1cade0b013dd3378a296525791ca08a9372d90d41701797d32",
+      "output_sha256": "24eb974217a12e1cade0b013dd3378a296525791ca08a9372d90d41701797d32",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2877
+    },
+    {
+      "path": "skills/survey-strategist/references/export-csv-tsv.md",
+      "source_sha256": "3d9703ad6ea43db2801bc02eee6cb4b3dbc1757993835b777ffef1f954198ac1",
+      "output_sha256": "3d9703ad6ea43db2801bc02eee6cb4b3dbc1757993835b777ffef1f954198ac1",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1611
+    },
+    {
+      "path": "skills/survey-strategist/references/export-docx.md",
+      "source_sha256": "072305105f7bb9b1c6a313f7f42a7f274e15a8a0b75c11f98064f68f815b73ea",
+      "output_sha256": "072305105f7bb9b1c6a313f7f42a7f274e15a8a0b75c11f98064f68f815b73ea",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1146
+    },
+    {
+      "path": "skills/survey-strategist/references/export-html.md",
+      "source_sha256": "6f739d1d6d613524cc977974825c78d94b7520d1f1c8f90a70f5b9c0131497cc",
+      "output_sha256": "9099873d46333ebf61450531f58b1be293268f527b51b8c54d15cff1ce685e3a",
+      "disposition": "transformed",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained.",
+      "bytes": 1792
+    },
+    {
+      "path": "skills/survey-strategist/references/export-json.md",
+      "source_sha256": "f171e44160108d0a5aba373d4b5fa74784940e217917eda5af348864b6ccb74b",
+      "output_sha256": "f171e44160108d0a5aba373d4b5fa74784940e217917eda5af348864b6ccb74b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1076
+    },
+    {
+      "path": "skills/survey-strategist/references/export-limesurvey-lss.md",
+      "source_sha256": "42508fac9f39af630c9f5e80ba9acf98c6bf30a9dc6585de9bbd60e818d55466",
+      "output_sha256": "42508fac9f39af630c9f5e80ba9acf98c6bf30a9dc6585de9bbd60e818d55466",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1088
+    },
+    {
+      "path": "skills/survey-strategist/references/export-markdown.md",
+      "source_sha256": "8866803948d3c28744d50879e6cc919a406266daf5620a1d765f708244b4ea46",
+      "output_sha256": "8866803948d3c28744d50879e6cc919a406266daf5620a1d765f708244b4ea46",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1352
+    },
+    {
+      "path": "skills/survey-strategist/references/export-pdf.md",
+      "source_sha256": "6af30f141861671743c11c608b3e07794213fc8157aac7ef52de7e42d655b722",
+      "output_sha256": "6af30f141861671743c11c608b3e07794213fc8157aac7ef52de7e42d655b722",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1349
+    },
+    {
+      "path": "skills/survey-strategist/references/export-plain-text.md",
+      "source_sha256": "d35065e1b1e4abc88c825b1c93020bbbc43dd308fbf196bdddb9c44e7e7ee27e",
+      "output_sha256": "d35065e1b1e4abc88c825b1c93020bbbc43dd308fbf196bdddb9c44e7e7ee27e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 953
+    },
+    {
+      "path": "skills/survey-strategist/references/export-qualtrics-advanced-txt.md",
+      "source_sha256": "86f6c23edd761bdf38694f5cf1e2e9bff62988d6afe9b982e37dabd98ece620d",
+      "output_sha256": "86f6c23edd761bdf38694f5cf1e2e9bff62988d6afe9b982e37dabd98ece620d",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2540
+    },
+    {
+      "path": "skills/survey-strategist/references/export-qualtrics-qsf.md",
+      "source_sha256": "96aec45668b331beb7374c4873fa1fab4b3a7947f9ba8ab938c6a0df97816b22",
+      "output_sha256": "96aec45668b331beb7374c4873fa1fab4b3a7947f9ba8ab938c6a0df97816b22",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1216
+    },
+    {
+      "path": "skills/survey-strategist/references/export-qualtrics-simple-txt.md",
+      "source_sha256": "50fff3fb57f7778f53b638905d9cffc8f3a5d53d71bbc11f188355fd32c1c175",
+      "output_sha256": "50fff3fb57f7778f53b638905d9cffc8f3a5d53d71bbc11f188355fd32c1c175",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1750
+    },
+    {
+      "path": "skills/survey-strategist/references/export-redcap-data-dictionary.md",
+      "source_sha256": "94690ca943fbeb51b800571f44bbc8413202b589ec339993ad2ce7d8fdd2794f",
+      "output_sha256": "94690ca943fbeb51b800571f44bbc8413202b589ec339993ad2ce7d8fdd2794f",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1466
+    },
+    {
+      "path": "skills/survey-strategist/references/export-selection.md",
+      "source_sha256": "da053c7dcdc38e2dd0f94782c04a00230049bda6f020a680cb9db5df090f3ab8",
+      "output_sha256": "da053c7dcdc38e2dd0f94782c04a00230049bda6f020a680cb9db5df090f3ab8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3206
+    },
+    {
+      "path": "skills/survey-strategist/references/export-surveyjs-json.md",
+      "source_sha256": "9066f5cc9a6f62218d9657ca838e36de4472dff47e79e2bf73980f91b92cfa5e",
+      "output_sha256": "9066f5cc9a6f62218d9657ca838e36de4472dff47e79e2bf73980f91b92cfa5e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1381
+    },
+    {
+      "path": "skills/survey-strategist/references/export-xlsx-and-xlsform.md",
+      "source_sha256": "3fa654c56352d18cb13c9fdc96e6dc1c5ae22489a77124d39a0b9abe28612edc",
+      "output_sha256": "3fa654c56352d18cb13c9fdc96e6dc1c5ae22489a77124d39a0b9abe28612edc",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1666
+    },
+    {
+      "path": "skills/survey-strategist/references/export-xml.md",
+      "source_sha256": "94893691f35a36614b3a6ab6e0da967aacb992d14daf3ed150fe6aaaef889a6f",
+      "output_sha256": "94893691f35a36614b3a6ab6e0da967aacb992d14daf3ed150fe6aaaef889a6f",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 1133
+    },
+    {
+      "path": "skills/survey-strategist/references/export-yaml.md",
+      "source_sha256": "f01e19625807de513ff33aa14e5326674f00ed924869c245085fbd31c16574ce",
+      "output_sha256": "f01e19625807de513ff33aa14e5326674f00ed924869c245085fbd31c16574ce",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 894
+    },
+    {
+      "path": "skills/survey-strategist/references/feedback-surveys.md",
+      "source_sha256": "9da62e30b8cae5465f43e617605b41252f514fbb38f539ed130f134d61591fc3",
+      "output_sha256": "9da62e30b8cae5465f43e617605b41252f514fbb38f539ed130f134d61591fc3",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 5067
+    },
+    {
+      "path": "skills/survey-strategist/references/forms-and-questionnaires.md",
+      "source_sha256": "fc792a1ba09957fd973f6fcb1c72066a8e08fae0fb90c1fbef6b3375fc690e56",
+      "output_sha256": "fc792a1ba09957fd973f6fcb1c72066a8e08fae0fb90c1fbef6b3375fc690e56",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3013
+    },
+    {
+      "path": "skills/survey-strategist/references/index.md",
+      "source_sha256": "c834849391e1a7cdcea1f1ec03c85f8bd868683b6042efb3fb022d40432835a1",
+      "output_sha256": "485138cf77af5328dbc99e3e077cace84f5760b1abe8769d80682fdaa035d22d",
+      "disposition": "transformed",
+      "change": "Keep full original selection map; make existing reference names portable links and expose complete retained format/source support conditionally so modular checker validates actual closure.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3490
+    },
+    {
+      "path": "skills/survey-strategist/references/limitations-and-platform-caveats.md",
+      "source_sha256": "6e2d60e17772576b3a1f36da294d097eace8e14930ea7e6db605f662fe15b255",
+      "output_sha256": "6e2d60e17772576b3a1f36da294d097eace8e14930ea7e6db605f662fe15b255",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2276
+    },
+    {
+      "path": "skills/survey-strategist/references/localization-and-cross-cultural-research.md",
+      "source_sha256": "ea2f68bff4ac7a8c9c7f47188b4e06f1c4bd8e063f5ad205bc29a1f5c9734f6b",
+      "output_sha256": "ea2f68bff4ac7a8c9c7f47188b4e06f1c4bd8e063f5ad205bc29a1f5c9734f6b",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2152
+    },
+    {
+      "path": "skills/survey-strategist/references/method-selection-and-triangulation.md",
+      "source_sha256": "bb7d39b1f96d9b8fa797b99eecae9b2d85eb6c2f84197f0ff523dfd89211d38a",
+      "output_sha256": "bb7d39b1f96d9b8fa797b99eecae9b2d85eb6c2f84197f0ff523dfd89211d38a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3598
+    },
+    {
+      "path": "skills/survey-strategist/references/ordering-flow-and-logic.md",
+      "source_sha256": "520f49ed530ead9fab24981e6778bea9245576399558ee3b7cb4bd63b212ac0e",
+      "output_sha256": "520f49ed530ead9fab24981e6778bea9245576399558ee3b7cb4bd63b212ac0e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3434
+    },
+    {
+      "path": "skills/survey-strategist/references/pretesting-and-piloting.md",
+      "source_sha256": "77203698a37fde45fb6d5793dfcf1e191e2c59516c1ddfd7a597857470168459",
+      "output_sha256": "77203698a37fde45fb6d5793dfcf1e191e2c59516c1ddfd7a597857470168459",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2409
+    },
+    {
+      "path": "skills/survey-strategist/references/privacy-ethics-and-compliance.md",
+      "source_sha256": "d3c46d73600acbceac1aa0feae8b8cc19d9b7129b855521079a1a434040f62f3",
+      "output_sha256": "d3c46d73600acbceac1aa0feae8b8cc19d9b7129b855521079a1a434040f62f3",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4587
+    },
+    {
+      "path": "skills/survey-strategist/references/quality-gates-and-audit-rubric.md",
+      "source_sha256": "f9fd8e3b6586a8a93fb4cf8708247752b1ed7472f48ec90f9b4b88bbc11778d4",
+      "output_sha256": "f9fd8e3b6586a8a93fb4cf8708247752b1ed7472f48ec90f9b4b88bbc11778d4",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3692
+    },
+    {
+      "path": "skills/survey-strategist/references/question-subject-areas.md",
+      "source_sha256": "bb54b284077d10a85209936347dc517598aa117b90f2adfe1a1f1916044f8a20",
+      "output_sha256": "bb54b284077d10a85209936347dc517598aa117b90f2adfe1a1f1916044f8a20",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4103
+    },
+    {
+      "path": "skills/survey-strategist/references/question-types.md",
+      "source_sha256": "51bf2b6afa5cc8c989202d3d106717edba5684ae814ebd247359d82a0966bd25",
+      "output_sha256": "40617c845167f94332d1b893d3bb539ab43c52e0071baf7f5ec3ac8d80cef763",
+      "disposition": "transformed",
+      "change": "Complete original question-selection safeguards retained; no unlicensed archive redistribution or source-dependent required input.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 5373
+    },
+    {
+      "path": "skills/survey-strategist/references/question-writing.md",
+      "source_sha256": "755771015ba00973d773a7f1e4f9e0af9ffc0b23c98e24f3ac966cdb26385eb5",
+      "output_sha256": "755771015ba00973d773a7f1e4f9e0af9ffc0b23c98e24f3ac966cdb26385eb5",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4270
+    },
+    {
+      "path": "skills/survey-strategist/references/response-data-exports.md",
+      "source_sha256": "073fc7d8fccd7b55d24a5375073d9c7318f226d506c958d1ef7f5f16f7ff5905",
+      "output_sha256": "073fc7d8fccd7b55d24a5375073d9c7318f226d506c958d1ef7f5f16f7ff5905",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2409
+    },
+    {
+      "path": "skills/survey-strategist/references/response-options-and-scales.md",
+      "source_sha256": "b50a5cee3055755af6a1d35ad689198f20556934b9b68a626d99c7315287da7f",
+      "output_sha256": "b50a5cee3055755af6a1d35ad689198f20556934b9b68a626d99c7315287da7f",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4449
+    },
+    {
+      "path": "skills/survey-strategist/references/sampling-recruitment-and-invitations.md",
+      "source_sha256": "eec7140ca045fbb1ca5b1f1a21706a0df23613e0f1a05d49dbbe19e1aa8d4f68",
+      "output_sha256": "eec7140ca045fbb1ca5b1f1a21706a0df23613e0f1a05d49dbbe19e1aa8d4f68",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3730
+    },
+    {
+      "path": "skills/survey-strategist/references/sources.md",
+      "source_sha256": "ae03f8193dd542613a0c01002f524024dbe195fab3144eaf11935f7762106ccb",
+      "output_sha256": "25e5f2327e753f73b5e23e0ca8389dfc7a21ae80820a2af0bbbfe01316cfce5d",
+      "disposition": "transformed",
+      "change": "Retain specific source/influence history; exclude unlicensed supplied archive and falsely bundled-location claim.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 7673
+    },
+    {
+      "path": "skills/survey-strategist/references/survey-design-foundations.md",
+      "source_sha256": "2bd574f4cfb6e39dd296b81f54e065882a46bce17bb09e76d7005590e6055be2",
+      "output_sha256": "2bd574f4cfb6e39dd296b81f54e065882a46bce17bb09e76d7005590e6055be2",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4896
+    },
+    {
+      "path": "skills/survey-strategist/references/survey-implementation.md",
+      "source_sha256": "a5ca07e7e9539f2414768a9e32372bd00280294292656b1b7973d5aa264d18b0",
+      "output_sha256": "a5ca07e7e9539f2414768a9e32372bd00280294292656b1b7973d5aa264d18b0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3380
+    },
+    {
+      "path": "skills/survey-strategist/references/survey-types.md",
+      "source_sha256": "1f5fd5317b471281efae1958a4e7fe3dd64e33a3b2f900ee4d73b98316821c21",
+      "output_sha256": "1f5fd5317b471281efae1958a4e7fe3dd64e33a3b2f900ee4d73b98316821c21",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 4231
+    },
+    {
+      "path": "skills/survey-strategist/references/validated-measures.md",
+      "source_sha256": "368dfe9c9346761e32d73572e21ed197121de8d94b6260359f004e7b4dddbf94",
+      "output_sha256": "368dfe9c9346761e32d73572e21ed197121de8d94b6260359f004e7b4dddbf94",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 3149
+    },
+    {
+      "path": "skills/survey-strategist/references/workflow-audit.md",
+      "source_sha256": "e10c6d3d7085307ee6b9a055336b4656959c55350991f7278a4e2310f5b934be",
+      "output_sha256": "e10c6d3d7085307ee6b9a055336b4656959c55350991f7278a4e2310f5b934be",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2424
+    },
+    {
+      "path": "skills/survey-strategist/references/workflow-create.md",
+      "source_sha256": "7b4c495b667987e15800040103a31bfaf480463a9c372d7c7dd293cca8db2f72",
+      "output_sha256": "7b4c495b667987e15800040103a31bfaf480463a9c372d7c7dd293cca8db2f72",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2462
+    },
+    {
+      "path": "skills/survey-strategist/references/workflow-qualtrics.md",
+      "source_sha256": "2504594f48e930cee2ad66ef879325cb074f50c08c21216851a65a8cf9f61e68",
+      "output_sha256": "2504594f48e930cee2ad66ef879325cb074f50c08c21216851a65a8cf9f61e68",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 2090
+    },
+    {
+      "path": "skills/survey-strategist/requirements.txt",
+      "source_sha256": "ab7470a6caded7fa12f5ce15cd6da475ca4d8a56b302a1c87f8eb2ca08ee0f53",
+      "output_sha256": "ab7470a6caded7fa12f5ce15cd6da475ca4d8a56b302a1c87f8eb2ca08ee0f53",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode",
+      "bytes": 61
+    },
+    {
+      "path": "skills/survey-strategist/scripts/estimate_burden.py",
+      "source_sha256": "3ddf6426a4ebe9a65b9659141cbb007d84eaf8a6c513536566f0b13ce5688cd4",
+      "output_sha256": "3ddf6426a4ebe9a65b9659141cbb007d84eaf8a6c513536566f0b13ce5688cd4",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5136
+    },
+    {
+      "path": "skills/survey-strategist/scripts/export_survey.py",
+      "source_sha256": "45d8845c5b3a03491148ba171705bdf0dbed80208490689dc87a58a97cdb8c52",
+      "output_sha256": "66ae7c329a959345eb3591c733b45af0cc4221296057afbe7398cf0787b5ad53",
+      "disposition": "transformed",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained.",
+      "bytes": 36927
+    },
+    {
+      "path": "skills/survey-strategist/scripts/generate_codebook.py",
+      "source_sha256": "bbdb2d99d47b1ad679dfc1f3479f419fe3f0653c27e99fad5456121131f833f8",
+      "output_sha256": "bbdb2d99d47b1ad679dfc1f3479f419fe3f0653c27e99fad5456121131f833f8",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 6320
+    },
+    {
+      "path": "skills/survey-strategist/scripts/qa_all.sh",
+      "source_sha256": "c934547fbcdb883d076210e20dad2ed397c1a22c5fc535f623196e91cf42b0a0",
+      "output_sha256": "c934547fbcdb883d076210e20dad2ed397c1a22c5fc535f623196e91cf42b0a0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 4880
+    },
+    {
+      "path": "skills/survey-strategist/scripts/qualtrics_txt.py",
+      "source_sha256": "d97afe6dd723098023f6b8c7c58c9e90f344d0f72db4ae77e19157b4a76880f2",
+      "output_sha256": "d97afe6dd723098023f6b8c7c58c9e90f344d0f72db4ae77e19157b4a76880f2",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 13799
+    },
+    {
+      "path": "skills/survey-strategist/scripts/survey_io.py",
+      "source_sha256": "9eefd44662de0917a75666d5046cc6073731cdbd39606db0d078946825deb6f0",
+      "output_sha256": "9eefd44662de0917a75666d5046cc6073731cdbd39606db0d078946825deb6f0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 9710
+    },
+    {
+      "path": "skills/survey-strategist/scripts/survey_lint.py",
+      "source_sha256": "270a73ae9b35f53ca9275f37e235d6a01af8928531578e6fe66acd76da41de66",
+      "output_sha256": "270a73ae9b35f53ca9275f37e235d6a01af8928531578e6fe66acd76da41de66",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 24562
+    },
+    {
+      "path": "skills/survey-strategist/scripts/validate_qualtrics_txt.py",
+      "source_sha256": "033fb9038a06fe56d18d81b9ca8ae8f06003b1374f671e08cbeba69ed4b43000",
+      "output_sha256": "033fb9038a06fe56d18d81b9ca8ae8f06003b1374f671e08cbeba69ed4b43000",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 10222
+    },
+    {
+      "path": "skills/survey-strategist/scripts/validate_skill.py",
+      "source_sha256": "8849938a1ed6d0ea42f09251031644a5775ddb76765dea98ae5d39134a709b22",
+      "output_sha256": "be24fb6f5d46ecdf93a2c6bbf9033e7d166978501c80d4fac6ced958446c2573",
+      "disposition": "transformed",
+      "change": "Fix preexisting monolithic-checker drift for full modular reference closure: transitively follow actual shared index inside explicitly declared survey package, reject outward links, preserve metadata/assets/examples/CLI checks. Restricted supplied archive remains excluded.",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 14236
+    },
+    {
+      "path": "skills/survey-strategist/tests/fixtures/invalid-survey.yaml",
+      "source_sha256": "f19e3dfb4d5aa42a681f4aab480cb58e261b0572c14aeb8564bb5a86b383944e",
+      "output_sha256": "f19e3dfb4d5aa42a681f4aab480cb58e261b0572c14aeb8564bb5a86b383944e",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1383
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_burden.py",
+      "source_sha256": "352713ff629725e1387a7b341ca348eea97eb7b1de2bec8091e7e7fd755a4a3a",
+      "output_sha256": "352713ff629725e1387a7b341ca348eea97eb7b1de2bec8091e7e7fd755a4a3a",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1064
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_codebook.py",
+      "source_sha256": "2cea415dd4b32bf3b612f7581a0fea12b2f42d069619b7e589a910239417b943",
+      "output_sha256": "2cea415dd4b32bf3b612f7581a0fea12b2f42d069619b7e589a910239417b943",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1559
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_export_survey.py",
+      "source_sha256": "b995d8dd90d9942e2504fa23b2e21bc0e4e2b472c5c89d075e71d4f80384d3c1",
+      "output_sha256": "b995d8dd90d9942e2504fa23b2e21bc0e4e2b472c5c89d075e71d4f80384d3c1",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 3541
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_qualtrics_txt.py",
+      "source_sha256": "cd6f6c06545bd047f57d2374c73120b4897df836c0b7dacbe8bc2e7da9d95ff0",
+      "output_sha256": "cd6f6c06545bd047f57d2374c73120b4897df836c0b7dacbe8bc2e7da9d95ff0",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5102
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_survey_io.py",
+      "source_sha256": "3b7141616812c9d66c4349c39226735005fb6eae6380a97befdcc86a8240ed69",
+      "output_sha256": "3b7141616812c9d66c4349c39226735005fb6eae6380a97befdcc86a8240ed69",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 4578
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_survey_lint.py",
+      "source_sha256": "1b5c9cbb4cd38543c5aafed4c676701310036d33304b5ce5a38b52c738da0377",
+      "output_sha256": "1b5c9cbb4cd38543c5aafed4c676701310036d33304b5ce5a38b52c738da0377",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 5968
+    },
+    {
+      "path": "skills/survey-strategist/tests/test_validate_skill.py",
+      "source_sha256": "f052218079b68f2f26e6502cd833e95d9a796d1ad91805853e72ffe061eb5672",
+      "output_sha256": "f052218079b68f2f26e6502cd833e95d9a796d1ad91805853e72ffe061eb5672",
+      "disposition": "byte-identical",
+      "change": "none",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code",
+      "bytes": 1144
     }
   ],
   "excluded_source_files": [
@@ -1523,7 +1668,7 @@
     "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
     "prior_version": "0.1.1",
     "prior_grants_preserved": true,
-    "operative_bodies_unchanged": true,
+    "operative_bodies_unchanged": false,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
   },
@@ -1533,5 +1678,11 @@
     "change": "Make HTML review-preview behavior explicit, add local validation feedback and repair PDF write lines, rating columns and page identification.",
     "source_hashes_preserved": true,
     "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
+  },
+  "prepared_reconciliation": {
+    "source_first": true,
+    "canonical_prechange_archive_sha256": "407d208804b0f47a529823c304e602096968cba4594dff9702bc4ace61024664",
+    "rights_behavior_boundary": "Complete eligible methods/runtime shared; excluded corpus remains original-path owner-private or selected through external binding. Public package does not claim private data identity.",
+    "private_binding_environment_precedence": true
   }
 }
