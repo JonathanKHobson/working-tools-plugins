@@ -73,11 +73,13 @@ The 275-file package installed through native Codex and Claude managers in a sep
 
 The test disabled other plugins and connected-account access. Optional publisher availability was checked separately; AIHumanizer, Write Like Me, Google comment writeback and the optional writing Atlas were not executed in these samples. The citation helper was explicitly disabled in the manual holdout; helper unit tests are separate evidence. The published ZIP and file manifest were downloaded from GitHub and matched the candidate bytes. Native installations from the public GitHub marketplace then matched all 275 files in both Codex and Claude. Temporary review installations were removed after verification; the maintained personal plugin remains installed.
 
-## UX Design Studio 0.3.8 candidate verification
+## UX Design Studio 0.3.8 verification
 
 The 547-file source package installed through native Codex and Claude managers in an isolated recipient environment with exact parity. Source-only installations correctly reported a missing native engine. Both passed engine verification after explicit extraction of the matching macOS arm64 runtime ZIP; a native doctor run and a scoped synthetic HTML scan also passed. The same pinned runtime assets include two restored fallback methods from the recorded upstream source archive. All 17 adapter unit tests passed in canonical and public copies.
 
 A temporary synthetic Compass binding verified recipient interpreter, arguments and environment forwarding. No real Compass provider, Design Library service, connected design app or optional publisher workflow was executed by that binding test. Missing recipient Compass and Design Templates configuration failed explicitly. Host hook trust and automatic event execution, non-arm64 platforms, full spreadsheet provider behavior and a real recipient account connection remain unverified. The native executable is a separate release download, not part of the Git source or automatic plugin installation.
+
+All six published GitHub assets were downloaded and matched their recorded checksums. The downloaded 547-file source ZIP then installed through native Codex and Claude managers using a separately named review marketplace; every installed file matched the release manifest. This final installation check used a separate recipient workspace without overriding HOME or CODEX_HOME. Review installations, marketplaces, caches and temporary workspaces were removed after verification. A disposable HTML live-server check also restored the exact original source and removed its loopback token on stop; browser overlay behavior and automatic host hooks remain unverified.
 
 ## Three successor method corrections
 
