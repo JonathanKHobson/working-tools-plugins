@@ -829,11 +829,21 @@
     {
       "id": "canonical-package:research-methodology-local",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Research source is prepared, but rights disposition and publication remain unresolved.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Eight maintained methods and complete eligible support files match canonical source. Supplied author-owned methods are licensed for public reuse; optional publisher methods and historical scripts are declared separately.",
+      "expected_components": [
+        "research-methodology-local:skills/academic-writing/SKILL.md",
+        "research-methodology-local:skills/critical-reasoning/SKILL.md",
+        "research-methodology-local:skills/current-social-research/SKILL.md",
+        "research-methodology-local:skills/evidence-review/SKILL.md",
+        "research-methodology-local:skills/karpathy-guidelines/SKILL.md",
+        "research-methodology-local:skills/research-handoff/SKILL.md",
+        "research-methodology-local:skills/research-methodology/SKILL.md",
+        "research-methodology-local:skills/source-discovery/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "85ba05925cadc82d22c9467547da413ba21f0189cfdd6691537dcbf7d3e2211a"
     },
@@ -2406,11 +2416,14 @@
     {
       "id": "standalone-head:communication-story-crafter",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias points directly to communication-crafter; that head is included in the current catalog.",
+      "expected_components": [
+        "writing-quality-studio:skills/communication-crafter/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "d55243485c50e436351774b8431864a681737fd26848a24f6fc1f64e38d0934c"
     },
@@ -2478,11 +2491,14 @@
     {
       "id": "standalone-head:current-social-research",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Compatibility alias routes to the complete included current-social-research method.",
+      "expected_components": [
+        "research-methodology-local:skills/current-social-research/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "c846a5468b033d3dcca0a7e434523fb7f0074b28ae20952eff85a2e7ccced9ca"
     },
@@ -2515,11 +2531,15 @@
     {
       "id": "standalone-head:design-taste-gate",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias names design-studio as owner. The shipped design-studio head routes focused craft critique to the shipped design-taste-gate library.",
+      "expected_components": [
+        "ux-design-toolkit:skills/design-studio/SKILL.md",
+        "ux-design-toolkit:libraries/design-taste-gate/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "ce8b7e1619ede1bd77ba413e7114ec842b675743674d72f4d646199388696046"
     },
@@ -2654,11 +2674,15 @@
     {
       "id": "standalone-head:frontend-ux",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias names design-studio as owner. The shipped design-studio head routes substantial frontend implementation to the shipped frontend-ux library.",
+      "expected_components": [
+        "ux-design-toolkit:skills/design-studio/SKILL.md",
+        "ux-design-toolkit:libraries/frontend-ux/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "10360b5cf5662dee2bee44ea6b4212cd09b14f0fbd9c88a723536b81ca75ac8a"
     },
@@ -2795,11 +2819,15 @@
     {
       "id": "standalone-head:humanizer",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias explicitly routes ordinary edits to natural-prose-editor and detailed source/style audits to humanizer-deep-audit; both heads are included in the current catalog.",
+      "expected_components": [
+        "writing-quality-studio:skills/natural-prose-editor/SKILL.md",
+        "writing-quality-studio:skills/humanizer-deep-audit/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "52a00d7ce54571fd04ebb1d847b80ae702046a09dab21931b2c08286c45c2eef"
     },
@@ -3542,11 +3570,14 @@
     {
       "id": "standalone-head:ui-ux-pro-max",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias names design-reference-lookup; the head is included in the current catalog.",
+      "expected_components": [
+        "ux-design-toolkit:skills/design-reference-lookup/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "e8f0a2aa30a648e3101eecfb7928a840b3531e3dc5c1ab7b9ff751187556429b"
     },
@@ -3567,11 +3598,14 @@
     {
       "id": "standalone-head:ux-research-follow-up-drafting",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias directly points to communication-crafter and its conditional evidence-based follow-up reference; the alias method itself is a compatibility redirect, not a second operative route.",
+      "expected_components": [
+        "writing-quality-studio:skills/communication-crafter/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "b61291cb2ef164d2118d8c6e79b59bb65755668ab0f48ca255972bbcc2d7fd48"
     },
@@ -3592,22 +3626,29 @@
     {
       "id": "standalone-head:vibe-check",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias names design-studio. Current catalog ships that owner head; the local Vibe Check library is not a public skill head in the catalog.",
+      "expected_components": [
+        "ux-design-toolkit:skills/design-studio/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "47baf01b2c8994ef42f9a8a99efa903c42d46df44041648b43c7cfc0f2fb5de4"
     },
     {
       "id": "standalone-head:visual-asset-integration",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Preserved compatibility entrypoint routes to the included maintained method. The disabled local alias names design-studio. The shipped design-studio head invokes the shipped asset-integration library only when relevant.",
+      "expected_components": [
+        "ux-design-toolkit:skills/design-studio/SKILL.md",
+        "ux-design-toolkit:libraries/visual-asset-integration/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-route-resolution:sha256:20dc8cfa5b034f3e8bdba2f9702b8b30b0685b28ba4fd628cdcc2f247187b1a4"
       ],
       "audit_source_sha256": "62db502cdb90830f3660e40c65ccc85ade9c9078b26605c5267e85599cea1085"
     },
@@ -11609,187 +11650,224 @@
     {
       "id": "canonical-method:research-methodology-local:skills/academic-writing/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/academic-writing/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "ffeb0e33bf9e1155a7681d102a893c8d7b42bda0b45d1edb87bdd762d6257b66"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/critical-reasoning/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/critical-reasoning/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "8876fb17f9541454b68625dd79f9b848987faa84575c80ceb18c545939bad220"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/current-social-research/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/current-social-research/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "f1468f98644d975d173c03b68372e8cf64b58ddb54c8578285766a488a64fd18"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/evidence-review/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/evidence-review/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "4ee168c55d68243a5e3eb080413e9ff78c4746bafd5db103ff6cee42f892adbd"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/karpathy-guidelines/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/karpathy-guidelines/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "9ed3ec6fcb40c0d5736db5b311bbc420c9db1d25aa8cd86e28b484cf38133bbc"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/research-handoff/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/research-handoff/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "f665294b8894e8ac5075d288eec9213815eb75bd3f0de554940aeee89946dbc2"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/research-methodology/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/research-methodology/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "7b1aaafe98fd0860d7987e7b984ceb5eebe3a9d0837c4edd8fbc022a21b26d7f"
     },
     {
       "id": "canonical-method:research-methodology-local:skills/source-discovery/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:skills/source-discovery/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "117898e262ffd390ec9a01d53f662b73a1c091216c91ee57249557a487a60be1"
     },
     {
       "id": "canonical-method:research-methodology-local:libraries/book-to-skill/SKILL.original.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:libraries/book-to-skill/SKILL.original.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "6a3d7ce3d3689020cd4089f8cad9c0a9f8237abfaf896ff20677031dac4592b1"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/local/current-social-research/SKILL.original.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Source exists at the same path; final Research rights and registration acceptance belong to the Research owner.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Complete canonical method and support files are included under scoped licenses.",
+      "expected_components": [
+        "research-methodology-local:library/source-procedures/local/current-social-research/SKILL.original.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "d861aa4bfdc19fd641b07870f2fb38a86f149e5e13384f5a140e3cf9c89de716"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/aihumanizer/academic-writing/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through aihumanizer:academic-writing. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "0d6baccbf77bd584e85f062cb23417a035ff98e0243e3454adc34fecdadb446a"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/aihumanizer/essay-humanizer/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through aihumanizer:essay-humanizer. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "dac34b4d973a38e1478b80d969a0b538dc32a5ba8fb8f7f4ab4849315fbe5e70"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/research-writing-guardrails/compag-elsevier-paper-editing/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through research-writing-guardrails:compag-elsevier-paper-editing. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "228ec64dd3470d9cab3d0b7109e18c34ec4fb11bd3e8f8da310cf5a5e41d65e9"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/research-writing-guardrails/research-problem-mechanism-evidence/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through research-writing-guardrails:research-problem-mechanism-evidence. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "5f0c4cb41d9200566b6ef14fa9d5a03739233dcd29f017e84956e72723595fa5"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/uiuxdesigner/personas-journey-maps/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through uiuxdesigner:personas-journey-maps. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "bff471c2379fc00f0a4fa83800f30a08dea6baa92e29e174686846ae3a5c8b9c"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/uiuxdesigner/usability-testing/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through uiuxdesigner:usability-testing. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "29ea8f61d4b4ffee87e3e2b3c5887c3ac908ed73f5d3f0d54834ce4dea22fc74"
     },
     {
       "id": "canonical-method:research-methodology-local:library/source-procedures/marketplace/uiuxdesigner/ux-research-plan/SKILL.md",
       "canonical_owner": "research-methodology-local",
-      "disposition": "blocked",
-      "capability_effect": "Historical no-grant copied method is absent from current public source. Research owner must document exact provider-installed route or private/held effect before source-lock acceptance.",
+      "disposition": "external",
+      "capability_effect": "Acquire the optional publisher procedure through uiuxdesigner:ux-research-plan. The local copied body is not redistributed; no license or recipient installation is implied.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "plugins/research-methodology-local/docs/source-coverage.md"
       ],
       "audit_source_sha256": "6c040e2e3b607a2157e7508aeb331e9e37cec9aa5334f2df5cd237709bd378bf"
     },

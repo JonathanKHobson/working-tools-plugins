@@ -1,0 +1,19 @@
+{
+  "name": "research-methodology-local",
+  "version": "1.1.1+ecosystem.20261010",
+  "description": "Evidence-led investigation, study planning, qualitative analysis, academic writing and source-grounded handoffs; Research Compass is optional and Critical Compass belongs to Reasoning Toolkit.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "mcpServers": {
+    "research-compass": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/research_compass_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

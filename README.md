@@ -29,6 +29,7 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Tailor career materials and verify application outcomes | [Career Studio](plugins/career-studio/) | Real work evidence, a target role or prompt, and authorization for external actions |
 | Develop positioning, campaigns and measurement | [Marketing Strategy Studio](plugins/marketing-strategy-studio/) | Your offer, audience evidence and current constraints |
 | Edit prose, preserve facts and audit sources | [Writing Quality Studio](plugins/writing-quality-studio/) | Your draft, source facts and any authentic voice samples |
+| Investigate a question and hand off traceable evidence | [Research Toolkit](plugins/research-methodology-local/) | Your question and authorized sources; optional publisher tools and Research Compass have separate setup |
 | Test an argument or choose a reasoning framework | [Reasoning Toolkit](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |

@@ -1,0 +1,11 @@
+# Recipient setup and sample tasks
+
+**Release state:** source rights for the five supplied method files are cleared in `SOURCE-RIGHTS.md`. Native installation and publication remain separate verified states; a local static or script check is not a recipient install.
+
+1. After a reviewed release, install `research-methodology-local` through the host's native plugin marketplace or local plugin flow. Keep its stable ID and Research Toolkit display name.
+2. Core methods require no MCP or author corpus. Try a synthetic request: “Plan a usability study for a fictional appointment-booking prototype with six pilot volunteers and no real participant data.” Expect a protocol, eligibility and consent plan, neutral tasks, evidence record and limits. Then try: “Revise this invented abstract for claim strength: our fictional pilot had 6 participants and 4 completed the task.” Expect scoped wording without invented citations or a claim of statistical generality.
+3. Optional academic and UX publisher procedures require separately installed `aihumanizer`, `research-writing-guardrails` or `uiuxdesigner` on the same host. Use the exact routes in `library/source-procedures/INDEX.md`. Codex installation does not install a Claude provider, or vice versa.
+4. Optional Research Compass requires the backend from its maintainer and a private local binding. Copy `integrations/research-compass-binding.example.json` outside this package; supply real `interpreter` and `server` paths; set `RESEARCH_COMPASS_BINDING` to that private file or put it at `~/.config/studio-tools/compass.json`. Do not commit the configured binding. A harmless preflight is `python3 scripts/research_compass_mcp.py` with an absent binding: it must exit with a clear error and no download. With a backend installed, verify initialize, tool listing and a non-error routing call before claiming integration.
+5. Research hands claim/argument audits requiring Critical Compass to the separately installed Reasoning Toolkit (`reasoning-studio`). Survey instruments route to Survey Studio. Oppia corpus work stays with Oppia Research Compass.
+
+The bundled first-party methods still work when optional providers are absent. A provider-specific check is unrun until that provider is installed and exercised. Publication, installation, runtime exposure and a completed sample task are separate checks.

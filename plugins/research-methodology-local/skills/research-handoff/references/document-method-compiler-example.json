@@ -1,0 +1,78 @@
+{
+  "title": "A synthetic observed-result method",
+  "author": "Original local synthetic example",
+  "description": "Use an observed-result check when a bounded artifact change needs evidence.",
+  "rights_note": "Original synthetic example. User documents and third-party derived drafts require their own rights review.",
+  "core_frameworks": [
+    {
+      "name": "Observe before change",
+      "when": "A requested output has an uncertain state",
+      "how": "Read the actual output, name one confirmed difference, change it, and reopen.",
+      "why": "A file name or source edit cannot establish the rendered result."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Observe and verify",
+      "evidence_sections": [
+        "section-0001"
+      ],
+      "core_idea": "Use observed outputs to choose and verify the smallest useful change.",
+      "frameworks": [
+        {
+          "name": "Observe before change",
+          "when": "A requested output has an uncertain state",
+          "how": "Read the output, change one confirmed difference and recheck.",
+          "why": "Unobserved assumptions can send the fix to the wrong artifact."
+        }
+      ],
+      "concepts": [
+        "Observation: an actually checked result."
+      ],
+      "mental_models": [
+        "Treat a proposed explanation as a testable hypothesis."
+      ],
+      "anti_patterns": [
+        "Treating the presence of a source file as user-visible success."
+      ],
+      "worked_example": "A fictional exported page has the wrong title. Read the export, change that title and reopen it; describe the observed result.",
+      "takeaways": [
+        "Check the actual requested end state."
+      ],
+      "connects_to": [
+        "Bounded implementation verification."
+      ],
+      "code_examples": "",
+      "reference_tables": ""
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Observation",
+      "definition": "An actual checked result.",
+      "chapter": "ch01"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "One confirmed difference",
+      "when": "Observed output differs from the request",
+      "how": "Correct that discrepancy and inspect the result",
+      "tradeoffs": "Larger problems may need another observed iteration."
+    }
+  ],
+  "decision_rules": [
+    "When evidence is missing, inspect the actual result before editing."
+  ],
+  "topics": [
+    {
+      "term": "Observation",
+      "chapters": [
+        1
+      ]
+    }
+  ],
+  "limitations": [
+    "This is an original synthetic fixture, not a claim about a real source book."
+  ]
+}

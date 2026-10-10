@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "package": "research-methodology-local",
+  "version": "1.1.1+ecosystem.20261010",
+  "policy": "First-party code AGPL-3.0-only and first-party noncode CC-BY-SA-4.0, including five author-confirmed supplied method files; retained upstream grants remain scoped.",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0e52f3bc0c452fc228282d813d9cd07b4244237be179da000ea5f32306d85b33"
+    },
+    {
+      "path": ".codex-plugin/assets/composer-icon.png",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bf32caff3fbf9dcebfa37c6072cfa3f665f269589e2e5a64f51e33a0898ded96"
+    },
+    {
+      "path": ".codex-plugin/assets/logo.png",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bf32caff3fbf9dcebfa37c6072cfa3f665f269589e2e5a64f51e33a0898ded96"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "2345a70881e4e1cfacb81788e3a8811bc7a2f89553c0f43e08fd2474e2a374e4"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "c600facaaee8a83fde2a75fd0a8c1ac2fc6f59d6d59b8e79a454a52bb2db3a10"
+    },
+    {
+      "path": "LICENSE",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "5a325a26fd9c11523e3bd3de90c747bf96722aef6505f3d263b8052ceeb1d8d2"
+    },
+    {
+      "path": "LICENSING.md",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "821f5cb88cff7a8eac5c8b443b9eeab4519f8c0a203fe720e28dd7cbc274a1fd"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "4b4b3e051db03b4958864007fe857c6adb8bcc0b31f0b17036c1cbeb01f2570a"
+    },
+    {
+      "path": "README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0c0d8c2450441b09cf8a94a87eaab9af2f4bd85acd982c105399ad36f890ddbf"
+    },
+    {
+      "path": "SOURCE-RIGHTS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3b30dc87f67331edf6db3f25e3314af8397b4be4cc8065df45f684c91cc72f81"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "4c0c168ad57a2962f619784b406ec4b35cf6b264e0b2a208eef6fe2ba3bcdfad"
+    },
+    {
+      "path": "assets/logo-prompt.txt",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0e10c8389ecee0f364fd300540695e49f301c00120bfc4ed19492e1c75a4a423"
+    },
+    {
+      "path": "assets/logo.png",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bf32caff3fbf9dcebfa37c6072cfa3f665f269589e2e5a64f51e33a0898ded96"
+    },
+    {
+      "path": "docs/CHECK-RESULTS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0e3c749cf019b30768d8557264c80b6f8872a769cf96fa43d1c7958e21cf6ee0"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a5f8342d177ea07371a062d74ce5c275eec642ebb474e70e307415118cb026a0"
+    },
+    {
+      "path": "docs/INTEGRATIONS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "82732145e5984e157b8831ed90501d2cd88798504a8905deefe941a51ab49208"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9f35eeff0533d59d0db296f9c631f7037f989c978ecb1431915747fbaf38a88c"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ffdd4a344787c009d9d9667f3ec0f58878871ef8cb972a1330deb1bd72ee7e45"
+    },
+    {
+      "path": "docs/critical-compass-integration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "40476ee5c60dd55da1207d05190a7b6294b4c9b0c3398307630c82aea7d09671"
+    },
+    {
+      "path": "docs/project-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b803a4c75cb3ba991bbf115d8377bd4d66fcab11ea1129e20fd1049fe4fe4a61"
+    },
+    {
+      "path": "docs/research-compass-integration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1c1000f883cdeb243050ff7e1f86fa144d0616d40424a57e1549c78eeba07b49"
+    },
+    {
+      "path": "docs/source-coverage.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "25de78b33089533dbc21073b45dd8336c9e0b78c1d28ec2ba36d984f4d870475"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d0fc82134c2d84fc4fe961691cc857c2cb951a8f10705109e6dda43f3b6864f3"
+    },
+    {
+      "path": "integrations/remote-mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "9b4942a8d7f0fcd32e809db8a432c29e9853769854b21996a9d53a60cec22f04"
+    },
+    {
+      "path": "integrations/research-compass-binding.example.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0a50cc9b704ff5c016b04c11405ea2dcb9cb7e5a6e53aa70a3230c581e3bd56a"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "license-and-provenance",
+      "license": "See document",
+      "sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/book-to-skill/BACKERS.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "90f39459740ebe94eb539948fd24e8c225f4a49a57a5b99f2003b7001f7b2ebf"
+    },
+    {
+      "path": "libraries/book-to-skill/LICENSE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "be9b04bccfb4bdab63de13663307c229c0aa5ca69b692e9c351ff7053da9faca"
+    },
+    {
+      "path": "libraries/book-to-skill/README.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "27678b5ced74861d6ae79f254595f2f496c5fab5aaef1c1c4ff1245a6dd64592"
+    },
+    {
+      "path": "libraries/book-to-skill/README.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "27678b5ced74861d6ae79f254595f2f496c5fab5aaef1c1c4ff1245a6dd64592"
+    },
+    {
+      "path": "libraries/book-to-skill/SKILL.original.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "6a3d7ce3d3689020cd4089f8cad9c0a9f8237abfaf896ff20677031dac4592b1"
+    },
+    {
+      "path": "libraries/book-to-skill/docs/faq.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "08e4997f291da7e8ee2eff3b41754fdfbf2f3aa9cd5b0416296ca8d490125617"
+    },
+    {
+      "path": "libraries/book-to-skill/docs/how-it-works.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "4fefd6a51692b0fdf69bc6330dafc199872cfb5d99a9d64bf268c1120d4cba8c"
+    },
+    {
+      "path": "libraries/book-to-skill/docs/install.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b6ee64b3b26aebaccbb09a57456f44e9f7d82c9111620b17c12a80de93186e38"
+    },
+    {
+      "path": "libraries/book-to-skill/docs/performance.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "45e285df9da7edd15f486b8e4f82d0b50261928f8417bc64c93d66a9694be03f"
+    },
+    {
+      "path": "libraries/book-to-skill/docs/usage.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "2da3c4eeeadded4c3d5b55aa16ed026c4e674c654b8aedb2bd24797e5524ced2"
+    },
+    {
+      "path": "libraries/book-to-skill/pyproject.original.toml",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "ce83ece6f52d395700c6d631e9e47aa87fa8b7c9149aa13bdb75d70c44141573"
+    },
+    {
+      "path": "library/source-procedures/INDEX.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9ce14842778f4830456158ce2c4a11a68948af847987b00bf211c342a82a20bb"
+    },
+    {
+      "path": "library/source-procedures/local/current-social-research/SKILL.original.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "15f83dfc5d65f4c964db2ae73832d8fdec23c3e24630826ae2482cc4f6edb960"
+    },
+    {
+      "path": "library/source-procedures/local/current-social-research/references/last30days-adoption.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7ca5e0eb4a37a50a8a278abae71448d0b38e24c5a9549bedd2a652dbb9e9e4d7"
+    },
+    {
+      "path": "library/source-procedures/local/current-social-research/scripts/current_social_plan.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "51e1ad818374c6a295241565bc686644aca9a9edf65570df362d62044d818c05"
+    },
+    {
+      "path": "library/source-procedures/local/study-planning/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "category": "retained-local-CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83"
+    },
+    {
+      "path": "library/source-procedures/local/study-planning/external-source-review-ux-research-skill-v1.0.0.original.md",
+      "category": "retained-local-CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b710f9dbb88338819d98d07417fec93a61f2c7ecf38ee3b4bfc635975e153afc"
+    },
+    {
+      "path": "library/source-procedures/local/study-planning/oppia-interview-study-design.SKILL.original.md",
+      "category": "retained-local-CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a0f76310b400c092492df15f4d9a73c19672ee1a7fb9cf96a0bee7b3ce4f403a"
+    },
+    {
+      "path": "library/source-procedures/local/study-planning/oppia-usability-testing.SKILL.original.md",
+      "category": "retained-local-CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9e8aeecab9e705659799fb5651551de2b9858c1bc47df41f32e95d5b3a639792"
+    },
+    {
+      "path": "library/source-procedures/local/study-planning/research-quality-gates.original.md",
+      "category": "retained-local-CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f58f7b76c32788b2b261cbcc0f16f32e91959646eca4f94222428e1de7454e08"
+    },
+    {
+      "path": "mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "efc6145988ae87a91957fd0d27a3787a2a908dd40420e1cb9dc9b01325e96233"
+    },
+    {
+      "path": "plugin.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "b8c6445199f65f3a92d4bd6147164a831a2ed063fb8c45cf033d4f6782ce48b5"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d21f18995c563de08ac65bf76e2933925465a0d33a4cd465c88bb11e2dab60d5"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a702e03a5a87a745fbd3e42e724b93b9d40cd653e805336ae59c1fd89092c328"
+    },
+    {
+      "path": "references/professional-agents/evidence-reviewer.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "062b3ed1864d43217047bfcf4b43c94d8f707b02fb47278589d15b7b143a38a3"
+    },
+    {
+      "path": "references/professional-agents/health-evidence-researcher.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "2411adb419e06eba73ff30ee9dbf275aa40d38e089e0b927b9f8d050f6203c57"
+    },
+    {
+      "path": "references/professional-agents/researcher.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fc4c4f6595f4e8e91a866a1b904303f3f753aafe91459e537de586ab0e150de1"
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "6a24e0e9ab8b7880f122c4d84e247868d2562faa548bf64ca21679bd59ed8a1f"
+    },
+    {
+      "path": "scripts/check.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4dd1ee0c63f4a06d623bcad93e292a604a0a5fa11313f12e8ee82f734dc51d25"
+    },
+    {
+      "path": "scripts/document_method_compiler.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "d373dfb31a9e3aa7c88dec583c7c83a8ae466ad2f4423bcf9d8b222cf5486b0e"
+    },
+    {
+      "path": "scripts/research_compass_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "e49819e020b70d0889c866324180462602aebbdcef0831d03bb8106a5ce6cf78"
+    },
+    {
+      "path": "skills/academic-writing/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a04a4af2355326a77504f054f72ac7d558e5865a93073105867dd58626c3c06b"
+    },
+    {
+      "path": "skills/academic-writing/references/evidence-and-tools.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cbc6aaa9792811b6d678643e9b8d72d9f49c042c9a93476efed814ab898324b5"
+    },
+    {
+      "path": "skills/academic-writing/references/manuscript-craft.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bc986ddcf7c953b80ff88e04ae4ccc483364256cd2c693c0a5e28541efe4d7f8"
+    },
+    {
+      "path": "skills/critical-reasoning/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bf53e046c1274d28681a193f8a3e53f74163cedef234877ca732d902ae7f7704"
+    },
+    {
+      "path": "skills/critical-reasoning/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b1ec30efe6ab7c738a51a707fb32c2264bc7d2c21c15bcc93edccb9f6fa70b08"
+    },
+    {
+      "path": "skills/critical-reasoning/references/critical-source-evaluation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "73c43ea855b5cf51cc40692b10fe65bc67f6f167a1cd1612777b71799ba83e7e"
+    },
+    {
+      "path": "skills/current-social-research/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f1468f98644d975d173c03b68372e8cf64b58ddb54c8578285766a488a64fd18"
+    },
+    {
+      "path": "skills/current-social-research/references/last30days-adoption.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7ca5e0eb4a37a50a8a278abae71448d0b38e24c5a9549bedd2a652dbb9e9e4d7"
+    },
+    {
+      "path": "skills/current-social-research/scripts/current_social_plan.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "51e1ad818374c6a295241565bc686644aca9a9edf65570df362d62044d818c05"
+    },
+    {
+      "path": "skills/evidence-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4ee168c55d68243a5e3eb080413e9ff78c4746bafd5db103ff6cee42f892adbd"
+    },
+    {
+      "path": "skills/evidence-review/references/open-notebook/open-notebook-workbench.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8d24cd6925ff31c6521e7f922e2bb2aaa83d7eb3d0a9de28bdcd54e5e9a9f4a8"
+    },
+    {
+      "path": "skills/evidence-review/references/open-notebook/research-transformations.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "0162cfc872370d26fe4cfb47822a99fe825509f883a0b40ee0f9e4295671753c"
+    },
+    {
+      "path": "skills/evidence-review/references/standing-answer-freshness.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1c39c330c47a2fac82b7ff8bfc16594d77fd3f8a4d2c8159193c82ebbbd0fb72"
+    },
+    {
+      "path": "skills/evidence-review/references/standing-answer-sources/LICENSE",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "01fde0bedf83bdc185065d7af524a61690efe576a67f922eaff3a1280c17b63a"
+    },
+    {
+      "path": "skills/evidence-review/references/standing-answer-sources/NOTICE.md",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "c97d848dde5cb68161a6f9883a8f2af3f6aa70763066c54413c5479afb459b6b"
+    },
+    {
+      "path": "skills/evidence-review/references/standing-answer-sources/source-map.json",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "688ee38fa119ccd6b929637c790481edfcaa76cef3c23a573885a091ee119ff0"
+    },
+    {
+      "path": "skills/karpathy-guidelines/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9ed3ec6fcb40c0d5736db5b311bbc420c9db1d25aa8cd86e28b484cf38133bbc"
+    },
+    {
+      "path": "skills/research-handoff/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4828fcde998b80e66ac1b784eb6776b9f4822dae08766ece5b3ed6012cdbfdb2"
+    },
+    {
+      "path": "skills/research-handoff/references/document-method-compiler-example.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "d9b5bf0635834902a7ccbd2dd87957f3177d8ffc2415d5b4690847066b954c05"
+    },
+    {
+      "path": "skills/research-handoff/references/document-method-compiler-schema.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bb608110b2ebcf123875808364e88713e1aa10800f022de0c5d530c82e93231f"
+    },
+    {
+      "path": "skills/research-handoff/references/document-to-method.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "111fc52c1ad8daff827d2c79bab529533dd8a43ca15ac3c37bbaef0b84662b7f"
+    },
+    {
+      "path": "skills/research-handoff/references/structured-document-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b64a572732c23ca845f729342f139deca5b9f063b2e4a2510e12197aa4b0ad1c"
+    },
+    {
+      "path": "skills/research-methodology/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7b1aaafe98fd0860d7987e7b984ceb5eebe3a9d0837c4edd8fbc022a21b26d7f"
+    },
+    {
+      "path": "skills/research-methodology/references/descriptive.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "69429f72c6b7871c289bc226af249fb22b2239d396a65bdd66a55952c18604d6"
+    },
+    {
+      "path": "skills/research-methodology/references/experimental.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "275ac81536dac77167536ea4c6b22d5220fcf311db79f71893d002328f50ba7b"
+    },
+    {
+      "path": "skills/research-methodology/references/exploratory.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "79f0f01dfab80eb342a35f625f4e6dae72fa73a51fce652954c07a3a183bbf74"
+    },
+    {
+      "path": "skills/research-methodology/references/qualitative-analysis.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d67e0221fda7f9e5d5beb6702a878e5da7939b49f3020e8a0a9df0deab03cfce"
+    },
+    {
+      "path": "skills/research-methodology/references/qualitative-method-branches.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "589a2c8ffae14f60fead544422341da82b2db784e540b7d0209fa4b2d005d0ee"
+    },
+    {
+      "path": "skills/research-methodology/references/qualitative-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e1140bd9bf2690ff60c9c8b862c429e07a8e78fc085a8fab914022b1c03387a4"
+    },
+    {
+      "path": "skills/research-methodology/references/qualitative-quality.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a280129c00671fa10c9339045b967a2c4f32bd0514c35406041d5f9736cbe834"
+    },
+    {
+      "path": "skills/research-methodology/references/qualitative-records-and-example.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4206c342e52b2e8fa6767c353f450142c9ad562e79d90811d5c4626577abcf22"
+    },
+    {
+      "path": "skills/research-methodology/references/research-perspectives.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "38b55347be9ed6cb78845d3947c0176fac45aace181492eb8570b360231783e2"
+    },
+    {
+      "path": "skills/research-methodology/references/research-record.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "49f3fd07a01fb6f132b6f0c5ebc84b87151b396031c0660bc7cfcaf0f334bbcb"
+    },
+    {
+      "path": "skills/research-methodology/references/source-strategy.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f7d7585463978357949abe80e3678d9786349880d3e5abca3c923f889a90052f"
+    },
+    {
+      "path": "skills/research-methodology/references/study-planning-guides.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6a391f1596575f585254294dc4287dca8c9b6cd382b26fef0777337ac6a1aa83"
+    },
+    {
+      "path": "skills/research-methodology/references/study-planning-provenance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3e8e3dea43036829875577770bc589b265f2006f6483eb7aa529eec5d78a7d16"
+    },
+    {
+      "path": "skills/research-methodology/references/study-planning-records-and-example.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "643e131b9c3519cfba8aa0f800ea7e091085d4334362a213f98b233a2301334e"
+    },
+    {
+      "path": "skills/research-methodology/references/study-planning.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3afc30d984e79db58f4b81f6b30769bf1e0a2e01d582660a1ddaceb0bea6ffb0"
+    },
+    {
+      "path": "skills/research-methodology/references/survey-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c14c30043bd79fb51cfb4b3d210da376fb44cb89349ddcfc01ecdf6926ecc297"
+    },
+    {
+      "path": "skills/research-methodology/references/task-evaluation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6d93f4674133d6aecd4f23a42292afaf71247d8994ad27323998b57dd3a2c09f"
+    },
+    {
+      "path": "skills/research-methodology/references/thematic-MIT-LICENSE.txt",
+      "category": "retained-upstream-MIT",
+      "license": "MIT",
+      "sha256": "b613ec22e2be77f91b80635dce6576a7aa62f9218cc9f5d789c56f934ff967cc"
+    },
+    {
+      "path": "skills/source-discovery/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "117898e262ffd390ec9a01d53f662b73a1c091216c91ee57249557a487a60be1"
+    },
+    {
+      "path": "skills/source-discovery/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bcbc18f0d58f0b894b352714120d527e937001b00699759b566625a2433879a7"
+    },
+    {
+      "path": "tests/test_document_method_compiler.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "4678ba5ddfe87a16188f6b76e54e8d823fc275f16cbd4d33cc7184a81a98e803"
+    }
+  ],
+  "self_hash_omitted": "LICENSE-SCOPE.json"
+}

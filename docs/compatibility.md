@@ -32,7 +32,7 @@ See each package README for its exact prerequisites, sample and optional tools. 
 
 ## Withdrawn personal offerings
 
-Discord and Oppia Research Compass are maintained as personal local systems. They are excluded from the current public source tree, both marketplaces and the Working Tools storefront. Their earlier test results below describe historical releases, not currently supported public offerings. Removing them from discovery does not uninstall anyone's existing copy.
+Discord and Oppia Research Compass are maintained as personal local systems. They are excluded from the current public source tree, both marketplaces and the Working Tools storefront. Their earlier test results on this page describe historical releases, not currently supported public offerings. Removing them from discovery does not uninstall anyone's existing copy.
 
 The [last pre-withdrawal source commit](https://github.com/JonathanKHobson/working-tools-plugins/tree/6c3cf7709b28f1091b26c565331255775f9cf35c) preserves both source trees. Historical [Discord 0.2.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/discord/v0.2.1) and [Oppia 0.4.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/oppia-research-compass/v0.4.3) releases, earlier tags, downloads and license grants remain available. No release archive is replaced or deleted. Personal installations, credentials, private corpora and local source remain outside this withdrawal.
 
