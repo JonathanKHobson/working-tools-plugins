@@ -19,9 +19,9 @@ Tests distinguish installation, execution and provider access. Versioned release
 | Design Templates | Source-integrity checks, synthetic handoff and changed-source rejection passed; chooser rendered | Bring authorized editable sources; private template assets are not included |
 | Data Visualization | Real stdio initialization, four tools, resource and fictional-data calculations passed; zero and missing values checked | Restricted reference libraries are excluded; native host widget acceptance is a separate check |
 | Reasoning and Survey | Explicit helper binding, 35 survey tests, eight synthetic instruments and eleven exports passed | No real respondent results, live provider operation or external survey-platform import is claimed |
-| Discord and Mac operations | Three mocked-launcher tests, shell syntax and a synthetic timestamped backup with hash readback passed | No live Discord access, real user file move or Mac recovery is claimed |
+| Mac operations and historical Discord package | Three mocked-launcher tests, shell syntax and a synthetic timestamped backup with hash readback passed | No live Discord access, real user file move or Mac recovery is claimed |
 | Work Management | 29 tests, project scaffolding with existing-content preservation, change packets and missing-binding behavior passed | One external helper integration explicitly skipped; hooks are opt-in and personal records are absent |
-| Oppia Research Compass | Ten service contracts, synthetic FTS evidence retrieval/comparison, privacy rejection and unchanged input checks passed | Default database is empty; no private team corpus or live research-provider access included |
+| Historical Oppia Research Compass package | Ten service contracts, synthetic FTS evidence retrieval/comparison, privacy rejection and unchanged input checks passed | Default database is empty; no private team corpus or live research-provider access included |
 | Graphic Design | Real four-tool MCP initialization, production helpers, bad-PDF rejection, QR/input integrity and rendered synthetic examples passed | Prompt preparation does not perform image generation; optional chooser depends on Design Templates |
 | Brand Templates | All 104 original kits passed real stdio handoff and source/asset hash checks; chooser preview rendered | Separate Fresh Curiosity A2 assets excluded; font notices retained |
 | Writing Templates | Synthetic source retrieval, integrity checks and 18 offline QA behaviors passed | Real author voice/profile collection excluded; recipient supplies authorized sources |
@@ -29,6 +29,12 @@ Tests distinguish installation, execution and provider access. Versioned release
 The fresh-environment checks use empty extraction folders, a new Python environment and separately named marketplace caches. They are not a second computer. macOS is the verified local platform. The repository CI checks portable package integrity on Linux; it does not establish every provider integration. No package is claimed published in the official OpenAI Plugin Directory.
 
 See each package README for its exact prerequisites, sample and optional tools. Native host MCP app acceptance is distinct from a direct stdio/resource-render test.
+
+## Withdrawn personal offerings
+
+Discord and Oppia Research Compass are maintained as personal local systems. They are excluded from the current public source tree, both marketplaces and the Working Tools storefront. Their earlier test results below describe historical releases, not currently supported public offerings. Removing them from discovery does not uninstall anyone's existing copy.
+
+The [last pre-withdrawal source commit](https://github.com/JonathanKHobson/working-tools-plugins/tree/6c3cf7709b28f1091b26c565331255775f9cf35c) preserves both source trees. Historical [Discord 0.2.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/discord/v0.2.1) and [Oppia 0.4.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/oppia-research-compass/v0.4.3) releases, earlier tags, downloads and license grants remain available. No release archive is replaced or deleted. Personal installations, credentials, private corpora and local source remain outside this withdrawal.
 
 ## Canonical-source successor releases, 2026-10-10
 

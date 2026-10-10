@@ -339,10 +339,11 @@
       "id": "canonical-package:discord",
       "canonical_owner": "discord",
       "disposition": "private",
-      "capability_effect": "Personal offering is excluded from the maintained public successor; public withdrawal remains required.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "00dfe213323b284181646974bfb1f6a5a3324499cbe8a63ddfd2f9dbb4361d4b"
     },
@@ -778,10 +779,11 @@
       "id": "canonical-package:oppia-research-compass",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Personal offering is excluded from the maintained public successor; public withdrawal remains required.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "dfaefd97fdd3a3589469f3d0d526573492df7df45847526d7b5169549485e715"
     },
@@ -918,11 +920,38 @@
     {
       "id": "canonical-package:ux-design-toolkit",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
-      "capability_effect": "Published package exists, but canonical-source differences remain unreconciled. No canonical source snapshot is asserted for these bytes.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Canonical source and maintained personal installation match the released public files. Private and external source boundaries remain declared separately.",
+      "expected_components": [
+        "ux-design-toolkit:libraries/design-partner/skills/design/SKILL.md",
+        "ux-design-toolkit:libraries/design-taste-gate/SKILL.md",
+        "ux-design-toolkit:libraries/emil-motion-methods/source/skills/animate/SKILL.md",
+        "ux-design-toolkit:libraries/emil-motion-methods/source/skills/animation-vocabulary/SKILL.md",
+        "ux-design-toolkit:libraries/emil-motion-methods/source/skills/find-animation-opportunities/SKILL.md",
+        "ux-design-toolkit:libraries/emil-motion-methods/source/skills/review-animations/SKILL.md",
+        "ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/entry-ux-critique/SKILL.md",
+        "ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/impeccable/SKILL.md",
+        "ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design/SKILL.md",
+        "ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design-premium/SKILL.md",
+        "ux-design-toolkit:libraries/frontend-ux/SKILL.md",
+        "ux-design-toolkit:libraries/ux-oracle/SKILL.md",
+        "ux-design-toolkit:libraries/visual-asset-integration/SKILL.md",
+        "ux-design-toolkit:skills/dashboard-design/SKILL.md",
+        "ux-design-toolkit:skills/design-reference-lookup/SKILL.md",
+        "ux-design-toolkit:skills/design-review/SKILL.md",
+        "ux-design-toolkit:skills/design-studio/SKILL.md",
+        "ux-design-toolkit:skills/design-systems/SKILL.md",
+        "ux-design-toolkit:skills/interaction-resilience/SKILL.md",
+        "ux-design-toolkit:skills/motion-and-performance/SKILL.md",
+        "ux-design-toolkit:skills/responsive-design/SKILL.md",
+        "ux-design-toolkit:skills/spreadsheet-usability/SKILL.md",
+        "ux-design-toolkit:skills/stitch-design/SKILL.md",
+        "ux-design-toolkit:skills/ux-heuristic-compass/SKILL.md",
+        "ux-design-toolkit:skills/ux-writer/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "60166d818ade94360be271b19b8e057b1ec0f6bbe61d47bfa9c00c8e7a1d3955"
     },
@@ -1042,11 +1071,29 @@
     {
       "id": "canonical-package:writing-quality-studio",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
-      "capability_effect": "Published package exists, but canonical-source differences remain unreconciled. No canonical source snapshot is asserted for these bytes.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Canonical source and maintained personal installation match the released public files. Private and external source boundaries remain declared separately.",
+      "expected_components": [
+        "writing-quality-studio:libraries/no-ai-slop/skills/no-ai-slop/SKILL.md",
+        "writing-quality-studio:library/source-procedures/local/communication-story-crafter/SKILL.md",
+        "writing-quality-studio:library/source-procedures/marketplace/natural-writing/natural-writing/SKILL.md",
+        "writing-quality-studio:library/source-procedures/marketplace/plain-english/plain-english/SKILL.md",
+        "writing-quality-studio:library/source-procedures/marketplace/plain-english/simple-english/SKILL.md",
+        "writing-quality-studio:skills/communication-crafter/SKILL.md",
+        "writing-quality-studio:skills/google-comment-responder/SKILL.md",
+        "writing-quality-studio:skills/grant-process-crafter/SKILL.md",
+        "writing-quality-studio:skills/humanizer-deep-audit/SKILL.md",
+        "writing-quality-studio:skills/long-document-editing/SKILL.md",
+        "writing-quality-studio:skills/natural-prose-editor/SKILL.md",
+        "writing-quality-studio:skills/plain-language-editing/SKILL.md",
+        "writing-quality-studio:skills/spoken-and-scripted-writing/SKILL.md",
+        "writing-quality-studio:skills/technical-instructions/SKILL.md",
+        "writing-quality-studio:skills/voice-and-style/SKILL.md",
+        "writing-quality-studio:skills/writing-voice-library/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "08fac7203799dfceebccf50368d378a9d864590a56555f8c97b3bc695c6a21cf"
     },
@@ -2493,10 +2540,11 @@
       "id": "held:ccb8ea7650f3db0701bfc8a956610b1242b006dcb6e8756e801fafab79fe5b4a",
       "canonical_owner": "discord",
       "disposition": "private",
-      "capability_effect": "Held local source remains outside public distribution. Its maintained owner or authorized collection is required; no public capability equivalence is claimed.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "60b546a2f194bc8c685657d0eaefad8a9a893459cb3976648ec15af5d88029f2"
     },
@@ -3505,11 +3553,14 @@
     {
       "id": "standalone-head:ux-heuristic-compass",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "expected_components": [
+        "ux-design-toolkit:skills/ux-heuristic-compass/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "0ff43523617b1fa80e514054235f020d3b2a52f3358e8c9d0857a2649939f4e0"
     },
@@ -3527,11 +3578,14 @@
     {
       "id": "standalone-head:ux-writer",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Disabled legacy entry point carries routing/compatibility only; preserved owner must supply the operative method. Disabled alone does not mean retired.",
-      "expected_components": [],
+      "expected_components": [
+        "ux-design-toolkit:skills/ux-writer/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "dc65eb706b750d38702b00ee3c4275c826c6d624f8c098f42dd3be92caf0fad5"
     },
@@ -6801,10 +6855,11 @@
       "id": "canonical-method:discord:skills/discord-computer-use/SKILL.md",
       "canonical_owner": "discord",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "0df6b3ae68284ca45e2daf259d443ee8a42d8b34eb364c98ab72701c17246769"
     },
@@ -6812,10 +6867,11 @@
       "id": "canonical-method:discord:skills/discord/SKILL.md",
       "canonical_owner": "discord",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "28a88191534ef49f9d07e14187545c477a5ebfcf3d87efee619fc451fbb82ff6"
     },
@@ -11197,10 +11253,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-competitive-analysis/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "d3ae3614ca36853548e2c12c1ffeda6ca43c782a263cd2d989f293f658d5db80"
     },
@@ -11208,10 +11265,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-cuj-research/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "f9cbaeb024aaabed08353cd136c38da86e43575e9331ff50d1e2b9a981751d5c"
     },
@@ -11219,10 +11277,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-heuristic-evaluation/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "ffc7e5cc2688dcf00d08aca8d4e2b719330de61f3e406625d4b0ca8775af095e"
     },
@@ -11230,10 +11289,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-interview-study-design/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "df905338efddd97091bea1f68a9d2b1af224fe187eb80beaab20891e4bf38a7d"
     },
@@ -11241,10 +11301,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-netnography/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "309b377c5652598cf766ae2e2a3cac67cc4209123a6a99b8071d5b5b695d8d14"
     },
@@ -11252,10 +11313,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-persona-research/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "fabd61a38e3bfd2c3581bfd700660eafc757a80a0b762581e2ffc348aad2d408"
     },
@@ -11263,10 +11325,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-research-compass/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "8bb32c0e180f9bdaeb84e39011948c68fd61177dda17026ceb650a3b5af31321"
     },
@@ -11274,10 +11337,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-research-orchestrator/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "8262fd8b2dfaeb8839e8b4b2fafbd5a696f401a9e9c643924301915b82b86d17"
     },
@@ -11285,10 +11349,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-research-question-design/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "c9f5e1fa8a01d257498c6404fe9df3e62c6bd9b5c54d9527cfb4b683dd0b475c"
     },
@@ -11296,10 +11361,11 @@
       "id": "canonical-method:oppia-research-compass:skills/oppia-usability-testing/SKILL.md",
       "canonical_owner": "oppia-research-compass",
       "disposition": "private",
-      "capability_effect": "Method remains in local owner; current public exposure must be withdrawn under adopted personal-corpus exclusion.",
+      "capability_effect": "Retained in the personal local system; excluded from maintained public source and marketplaces. Historical public versions remain recoverable through pinned commits, tags and release assets; no maintained public capability is claimed.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "docs/compatibility.md#withdrawn-personal-offerings"
       ],
       "audit_source_sha256": "544039b2664bb0e7ff39d4eeb412d9d7bcefdc3ce284982cde773d69f661ae5b"
     },
@@ -12287,312 +12353,336 @@
     {
       "id": "canonical-method:ux-design-toolkit:skills/dashboard-design/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/dashboard-design/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "f2ca6af3c5892fd09ce8269bdaade71cac76c97b1b06fb4f4ceb690f70df4ee9"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/design-reference-lookup/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/design-reference-lookup/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "0fd20d06e65d73f8b8407ead1cbad0ad6f0d401b147afcdc4f33bb6e33c26464"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/design-review/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/design-review/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "b357fd4a41094f8ae8ad34ba39ba1b95ff3858d4e90bfd08a53eab70ee65dd31"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/design-studio/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/design-studio/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "a8eb97df189e7a75b806503ff30c9fbb426e0901bf3b52a215636cec324de58f"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/design-systems/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/design-systems/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "649c9db0233bd5b7b110158cd83a8d6990cec2946dd11e7191331a85d273d705"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/interaction-resilience/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/interaction-resilience/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "032deb7c841ffd0c7c7069e81f58b00a09f964e4ca7c2f6c4bafd708f77331d1"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/motion-and-performance/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/motion-and-performance/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "320e377a2bc3a285edc1245bfb355cf5e1d7f363499547be2adcf39103a10f42"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/responsive-design/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/responsive-design/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "ee5dfc95aad3ddbbe9c0b3eb0cb0c78da26c32d8be259e948596d19a26959a3a"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/spreadsheet-usability/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/spreadsheet-usability/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "2de35112729611212bf7c811821db4a08b5b681417ba108add8352cd09de7184"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/stitch-design/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/stitch-design/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "a167f3a023bf8b861cf422decffad4f3e35abcd4a9c025003924940ad9f857c0"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/ux-heuristic-compass/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/ux-heuristic-compass/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "c25eb3e59ffca70d6a269d0842d41fc3a2227f96aa72fc1bf3afa33324b80202"
     },
     {
       "id": "canonical-method:ux-design-toolkit:skills/ux-writer/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:skills/ux-writer/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "371d89d76c081af17b0d5c4e5b773d552093399d4714ac3b5fdbefd119ad5587"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/design-partner/skills/design/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/design-partner/skills/design/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "cd4d4f7dc0e87408af5423f2fb73a90d9101c8802e7cd90a6789240295ecdbf9"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/design-taste-gate/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/design-taste-gate/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "9c774123ecff1883f4028e3c5d2da6bdf872920c285f3ad569bf0d6590e57a7d"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/emil-motion-methods/source/skills/animate/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/emil-motion-methods/source/skills/animate/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/emil-motion-methods/source/skills/animation-vocabulary/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/emil-motion-methods/source/skills/animation-vocabulary/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/emil-motion-methods/source/skills/find-animation-opportunities/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/emil-motion-methods/source/skills/find-animation-opportunities/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/emil-motion-methods/source/skills/review-animations/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/emil-motion-methods/source/skills/review-animations/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/entry-ux-critique/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/entry-ux-critique/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "de55b89dd44bde828fcd5da5f2e05e14eef3caaaa1ee19139c0ac57166dac5f9"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/impeccable/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/engineering-suite-ux-critique/skills/impeccable/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "3ff52be9ec8fdfadaafe0a8f52f6909270473c45620014b4c38c0523d4642613"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design-premium/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design-premium/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "02f3ec65d5cbe787ffed1812d6438971560ea8f00a6e8b9eb63846e6189163c2"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/frontend-design-premium/skills/frontend-design/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/frontend-ux/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/frontend-ux/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "a22dade9ff213f382b752de02b0b5adc2f6e83194a68adeb12ab7939793765d7"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/interface-craft/SKILL.original.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/interface-craft/SKILL.original.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "c1d508fa7bef8e47ee682b4f214c7a4ed1416b91d05a97285e555bad1c41a23e"
     },
@@ -13094,26 +13184,28 @@
     {
       "id": "canonical-method:ux-design-toolkit:libraries/ux-oracle/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/ux-oracle/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "cb0cf33597596be8d1be9f9f0b3fc219347fb4f73ef9404326a4fd7889978386"
     },
     {
       "id": "canonical-method:ux-design-toolkit:libraries/visual-asset-integration/SKILL.md",
       "canonical_owner": "ux-design-toolkit",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "ux-design-toolkit:libraries/visual-asset-integration/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "c27564276e5e866531485828076431e7da7a0c01010bed3b652e2fc89a5f231d"
     },
@@ -14004,182 +14096,196 @@
     {
       "id": "canonical-method:writing-quality-studio:skills/communication-crafter/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/communication-crafter/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "54bf79a916c6c29c2fb189b8f62a26bf823c7247168be7624bdb613fa9f3c9bf"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/google-comment-responder/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/google-comment-responder/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "f4a73c8f3da9cda5536fbeb656089bb30286736d34a5cde2588efd829077a934"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/grant-process-crafter/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/grant-process-crafter/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "56d54407874b3c161d7a6d040f13547ce40748453764af7bd8ccbb77bc862b89"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/humanizer-deep-audit/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/humanizer-deep-audit/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "87082eae9f5e9b7d3e678b9cabe13ee76e869bbeca38ebc5054158494abd1a42"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/long-document-editing/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/long-document-editing/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "4eca71c432145abb91bd6421f8478239b1eab7d1d3d583945bf3875c4399c98a"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/natural-prose-editor/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/natural-prose-editor/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "2b4987c103d3b16fcef6e6b242d602119dc8045789f6b66ccefef63e117629cf"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/plain-language-editing/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/plain-language-editing/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "ae77f91bbb783a1071a93aa58cc8949b5e9a67a4707f6cbe90d8edc378d81287"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/spoken-and-scripted-writing/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/spoken-and-scripted-writing/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "f21728c7f80938934bc90ab54cf8cc3979fb1b9c1bb143288a56832d2c26e27d"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/technical-instructions/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/technical-instructions/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "566cbf94fa429b0a3c118ec1e517c204ab011c8522462db5aea3ca5fdc996ad4"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/voice-and-style/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/voice-and-style/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "e8041b6286a227f817a9f529bf53544121ce60dabf4daf52e9c780341fa80bc4"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/writing-voice-library/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/writing-voice-library/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "6f8729c9a869b354e32618226c01f5dd85acf5f116e5f02455c5766712222e7c"
     },
     {
       "id": "canonical-method:writing-quality-studio:libraries/linkedin-agent/originals/li-human/SKILL.original.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:libraries/linkedin-agent/originals/li-human/SKILL.original.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "2ebda9ff1b63f0d567cd8e30b6fc1465e05c46e166809ea0569cba3591d73d90"
     },
     {
       "id": "canonical-method:writing-quality-studio:libraries/no-ai-slop/skills/no-ai-slop/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:libraries/no-ai-slop/skills/no-ai-slop/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "992b365f51a2f62cf4c1c5ed22049a9ee551dfea677550c1a72b371c0ceadd62"
     },
     {
       "id": "canonical-method:writing-quality-studio:library/source-procedures/local/communication-story-crafter/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:library/source-procedures/local/communication-story-crafter/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "d55243485c50e436351774b8431864a681737fd26848a24f6fc1f64e38d0934c"
     },
@@ -14527,65 +14633,70 @@
     {
       "id": "canonical-method:writing-quality-studio:library/source-procedures/marketplace/natural-writing/natural-writing/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:library/source-procedures/marketplace/natural-writing/natural-writing/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "030c63e9cacab34278a3a1b83ec317949f68a3bd1a239dab91be725ba49b5b4a"
     },
     {
       "id": "canonical-method:writing-quality-studio:library/source-procedures/marketplace/plain-english/plain-english/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:library/source-procedures/marketplace/plain-english/plain-english/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "878ddc54a3b05c60b1175bcb74e71abb407e241ade700e53aa1a584cfd5b9049"
     },
     {
       "id": "canonical-method:writing-quality-studio:library/source-procedures/marketplace/plain-english/simple-english/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:library/source-procedures/marketplace/plain-english/simple-english/SKILL.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "481d2f01e70fd3ba18d403d429e7f209eb2ae735ed5403fcd9fb00f1fedce321"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/google-comment-responder/references/SKILL.original.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/google-comment-responder/references/SKILL.original.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "fe3497c7d897833ce77f94e0bd0ccdf0bf1cec673c1c73557e6889119a5854d3"
     },
     {
       "id": "canonical-method:writing-quality-studio:skills/grant-process-crafter/references/migration-originals/SKILL.original.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
+      "disposition": "included",
       "capability_effect": "Current public method path exists; byte/semantic transformation and support closure remain separate source-lock checks.",
       "expected_components": [
         "writing-quality-studio:skills/grant-process-crafter/references/migration-originals/SKILL.original.md"
       ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-alignment:sha256:697399956588d2610fa3ca4acb15f8cc7dada5abc711095944e64379f3103dfd"
       ],
       "audit_source_sha256": "0f6a4e4dcc49ebfd836c774e523459faddeedf867f81c6beb366bd79714688f5"
     },
