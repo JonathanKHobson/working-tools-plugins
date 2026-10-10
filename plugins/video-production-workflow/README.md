@@ -1,8 +1,8 @@
 # Video Production Workflow
 
-Current edition **0.4.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.4.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
-An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.1 is the portable public release of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
+An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.2 is the portable public edition of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
 
 ## Quick start
 
@@ -24,7 +24,7 @@ The standalone CLI supports asset inventory/probing, transcript packing and rang
 
 ## Agent installation
 
-The root `plugin.json` declares portable identity. Native descriptors are retained in `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`; both discover `skills/`. Add this directory using the current host's native plugin manager. Host installation/discovery was not exercised during the public release test. No private marketplace or MCP connection is modified by this package.
+The root `plugin.json` declares portable identity. Native descriptors are retained in `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`; both discover `skills/`. Add this directory using the current host's native plugin manager. Version 0.4.1 passed native Codex and Claude marketplace installation and installed-file parity on 2026-10-10. This verifies installation, not native editor control or every optional provider. No private marketplace or MCP connection is modified by this package.
 
 Start with `plan-video-production`, then select the smallest owner for ingest, analysis, storyboard, slideshow/dialogue editing, Resolve, typography, motion, audio, rendering, interchange, conform and quality validation. `evolve-video-workflow` maintains the system. The [project map](docs/project-map.md) explains the boundaries.
 

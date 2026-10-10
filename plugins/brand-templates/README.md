@@ -1,6 +1,6 @@
 # Brand Templates
 
-Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Complete original first-party brand kit selection, source-closure verification and handoff runtime by Kyle Hobson. This public edition includes the actual MCP app and chooser, with three tools and one resource.
 
@@ -8,19 +8,28 @@ The original 104 fictional reusable kits are included with complete guides, edit
 
 ## Setup and first task
 
-Use Python 3.10+ in a dedicated environment. Startup never installs dependencies. Stock Python can run the stdlib launcher, which selects the configured interpreter before importing MCP:
+Use Python 3.10+ in a dedicated environment. Run these commands from the extracted or installed package root, replacing the example interpreter path with your own. Startup never installs dependencies:
 
 ```sh
 python3.12 -m venv /your/external/brand-templates-venv
 /your/external/brand-templates-venv/bin/python -m pip install -r requirements.txt
 export BRAND_TEMPLATES_PYTHON=/your/external/brand-templates-venv/bin/python
+```
+
+Leave `BRAND_TEMPLATES_DATA_ROOT` unset to use the 104 included kits. If you previously set it for a fixture, clear that override in the launching environment or host configuration first. Stock Python runs the launcher, which selects the configured interpreter before importing MCP.
+
+Register through the host's plugin manager using this package's portable `plugin.json` and `mcp.json`, Codex `.codex-plugin/plugin.json` and `.mcp.json`, or Claude `.claude-plugin/plugin.json` and `.mcp.claude.json`. Keep interpreter/data variables in the recipient host's server environment configuration outside this package, and expose one effective `brand-library` registration per host. Terminal exports reach only processes launched from that environment; a separately launched desktop host may need these settings in its own MCP server configuration. Start a fresh host session after installation.
+
+Ask: “Search the included Brand Templates for a workshop kit, show the available matches, and prepare one selected kit for a fictional community workshop.” Expect a real kit ID from `search_brand_library`, followed by `prepare_brand_handoff` with its guide, source and asset evidence. Keep that selected ID; do not invent one. Search and handoff do not open a widget; `browse_brand_library` deliberately presents the chooser. A handoff is prepared text, not a saved design or publication.
+
+For a separate software-contract fixture, run:
+
+```sh
 python3 scripts/create_sample_collection.py --output /your/external/brand-templates-fixture
 export BRAND_TEMPLATES_DATA_ROOT=/your/external/brand-templates-fixture
 ```
 
-Register through the host's plugin manager using this package's portable `plugin.json` and `mcp.json`, Codex `.codex-plugin/plugin.json` and `.mcp.json`, or Claude `.claude-plugin/plugin.json` and `.mcp.claude.json`. Keep interpreter/data variables in host configuration outside this package, and expose one effective `brand-library` registration per host. Start a fresh host session after installation.
-
-Ask the assistant to search Brand Templates for synthetic, then prepare the fixture-neutral handoff using only a fictional brief. Search and handoff do not open a widget; browse deliberately presents the chooser. A handoff is prepared text, not a saved artifact, sent message or publication.
+Then search for `synthetic` and prepare `fixture-neutral` with a fictional brief. This optional external fixture replaces the included collection for that configured process. Clear the data-root override and restart the server to return to the included kits.
 
 Export the exact resource for standalone inspection:
 
@@ -35,6 +44,10 @@ Standalone Use provides a copyable fallback and does not claim MCP verification.
 Guide-source regeneration additionally needs the optional `requirements-render.txt` dependencies and the selected kit's notices. Existing guides and raster previews do not require those packages.
 
 Run `"${BRAND_TEMPLATES_PYTHON}" -B -m unittest discover -s tests -p 'test_public_stdio.py' -v` with the selected MCP interpreter. Tests relocate the package, create external data, start the actual stdio server through the stock-interpreter launcher, exercise every core tool and resource, reject source mutations/traversal, and preserve source data. Rendering/adapting a real kit requires its separately supplied asset and font licenses plus an appropriate output provider.
+
+## Update and remove
+
+Keep recipient collections, interpreter environments and produced artifacts outside the plugin install folder. Updating or removing the plugin through the host manager should not require changing those external files. After an update, confirm the selected package version and recheck one handoff. After removal, remove this package's recipient-owned MCP registration or environment overrides if no longer needed; do not delete a shared environment or collection used elsewhere. Plugin removal does not remove external provider apps or your created designs.
 
 ## Rights and support
 

@@ -1,6 +1,6 @@
 # Figma Design Workflow
 
-Current edition **0.2.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Turn a design reference or existing screen into an editable Figma artifact, then verify its visible result and structure. Bring the Figma file or target frame, the change you want, approved visual references, and any must-keep content. The workflow can also prepare a reference, transfer selected Stitch screens, or build a FigJam workshop board.
 
@@ -35,7 +35,7 @@ For automatic discovery, start a new Codex task after installation. Existing tas
 
 ## Installation and prerequisites
 
-Install the separately versioned `figma-design-workflow` package from the [Working Tools plugin repository](https://github.com/JonathanKHobson/working-tools-plugins). The portable root manifest and Codex/Claude compatibility manifests expose the same four method heads. In Codex, after the `working-tools` marketplace is configured, use `codex plugin add figma-design-workflow@working-tools`, then start a fresh task to check discovery. Use the host's supported plugin removal command to uninstall; removal does not delete your Figma documents.
+Install the separately versioned `figma-design-workflow` package from the [Working Tools plugin repository](https://github.com/JonathanKHobson/working-tools-plugins). The portable root manifest and Codex/Claude compatibility manifests expose the same six method heads. In Codex, after the `working-tools` marketplace is configured, use `codex plugin add figma-design-workflow@working-tools`, then start a fresh task to check discovery. Use the host's supported plugin removal command to uninstall; removal does not delete your Figma documents.
 
 For editor work you need your own Figma account, permission to the intended file, and an available authorized Figma connector or Computer Use route. Computer Use needs the host's browser/app permissions. Optional Stitch transfer requires your own accessible Stitch session and a demonstrated editable export/import route. Reference generation requires a separately available imagegen or Claude capability. Accounts, API keys, provider apps, paid credits, native role registration, MCP servers and OS permission grants are not included. The packaged structural checker uses Python 3 and the standard library; Python is not needed merely to read these methods.
 

@@ -2,7 +2,7 @@
 
 ## Best for
 
-Accessible interactive prototypes, standalone review, usability testing of flow, and a starting point for a web implementation.
+Standalone instrument review and local control/required-answer checks, plus a starting point for a web implementation. The export explicitly identifies itself as a preview: it does not send/save answers, apply branching, or validate destination-specific rules. Test actual respondent flow in the destination platform.
 
 ## Production caution
 

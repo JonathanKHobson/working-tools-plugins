@@ -21,9 +21,11 @@ The marketplace identifies the installation source. A skill uses its package nam
 ## Claude Code
 
 ```sh
-claude plugin marketplace add JonathanKHobson/working-tools-plugins
+claude plugin marketplace add https://github.com/JonathanKHobson/working-tools-plugins.git
 claude plugin install stitch-design-studio@working-tools
 ```
+
+The explicit HTTPS URL avoids relying on GitHub SSH-key access. If an earlier shorthand add failed with `Permission denied (publickey)`, retry with this URL and inspect `claude plugin marketplace list` before installing. No global Git URL rewrite is required.
 
 Restart the session after installation. These packages use Claude's plugin/skill format; browser, Figma and local app tools must be supplied by the host. A Claude Code install is not an upload into Claude's web interface.
 

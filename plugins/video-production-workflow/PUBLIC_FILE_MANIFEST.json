@@ -1,13 +1,13 @@
 {
   "name": "video-production-workflow",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "source_owner": "Jonathan Kyle Hobson canonical Video Production Workflow",
   "file_inventory_scope": "Every public file except this self-describing manifest; package checksum is an external receipt. Generated renders/work/caches excluded.",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
       "bytes": 278,
-      "sha256": "268ee94793e8e1e5ea7803f40ae4a0aeeaa6b33e995e7525788e09bc5beafb44",
+      "sha256": "e581d405cd2534cc9af76bd3d4ad89559f89ef8c3d6525c7b2773834b1697a2a",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "source_path": ".claude-plugin/plugin.json",
@@ -15,12 +15,14 @@
       "status": "modified",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
-      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE"
+      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
       "bytes": 1299,
-      "sha256": "3ba46875eec32415128bea0047d82488dc3ed9e0ea9fd02bd06d4b4f8c0d1bf6",
+      "sha256": "23ec1fab892b0f443670623e10d1e3d100c8a0ed1d0e839ddcd78c3463ca573d",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "source_path": ".codex-plugin/plugin.json",
@@ -28,7 +30,9 @@
       "status": "modified",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
-      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE"
+      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": ".gitignore",
@@ -76,11 +80,13 @@
       "source_path": null,
       "source_sha256": null,
       "status": "original-public-addition",
-      "bytes": 612,
-      "sha256": "a28a815aadb0d5d1e6bd5889ec1eda03448f1d6d735cad33f1f5cd4ab0647597",
+      "bytes": 720,
+      "sha256": "c2c125cbfd1bec97fc6c02838efac9128a9a8e7394081465f3290530341e9836",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
-      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE"
+      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "CONTRIBUTING.md",
@@ -136,8 +142,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4682,
-      "sha256": "594e05196cad4102e8dc449c041f40395a4ad9c9343e66b925a2cfb3bac83244",
+      "bytes": 4797,
+      "sha256": "266ee64274786010779379131837de0bc9a0a2dfdea0aa3670d1ea6374992fba",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "source_path": "README.md",
@@ -145,7 +151,9 @@
       "status": "modified",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
-      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE"
+      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "SECURITY.md",
@@ -4819,7 +4827,7 @@
     {
       "path": "plugin.json",
       "bytes": 400,
-      "sha256": "94fef35aad444ba9848847170d378ab72b3281acf40fba8db18c93e46122e2f5",
+      "sha256": "5b44c15fa63439baceeb86b837920d781adfaee26be3d819271e6f07e2b9a2bd",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "source_path": null,
@@ -4828,7 +4836,9 @@
       "integration_change": "Use official portable schema fields; skills/ follows specification defaults. Native Codex and Claude skill declarations remain in their manifests.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
-      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE"
+      "prior_license_notice": "legal/prior-grants/0.4.0/LICENSE",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "pyproject.toml",
@@ -10958,10 +10968,12 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "ae77554ecf8ee5d37ba7fb2200ae4f84c7039f1de7f2e11108ea772e4cebe196",
+      "output_sha256": "bba7edd4dbb7d33b815d98a704174774e31d4d16db5faa4fae09a370c5f86345",
       "bytes": 335748,
       "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
+      "change": "New licensing metadata; no method/runtime body change.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSING.md",
@@ -11061,5 +11073,12 @@
     "operative_bodies_unchanged": true,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "expanded_first_use_patch": {
+    "base_public_commit": "73d7d44304570a47061873b454d3bd04c8dd49d7",
+    "previous_version": "0.4.1",
+    "change": "Clarify the recorded native installation boundary without claiming editor or provider execution.",
+    "source_hashes_preserved": true,
+    "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
   }
 }

@@ -1,6 +1,6 @@
 # Mac Operations Toolkit
 
-Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state.
 
@@ -32,6 +32,8 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 | [app-window-recovery](skills/app-window-recovery/SKILL.md) | Recover an app that is running without a usable window while preserving user state. |
 | [application-installation](skills/application-installation/SKILL.md) | Choose placement and verify an authorized Mac application installation, including external-runtime and login-item dependencies. |
 | [mac-environment-conventions](skills/mac-environment-conventions/SKILL.md) | Choose the established Mac storage or runtime placement convention before a change. |
+| [local-storage-mcp](skills/local-storage-mcp/SKILL.md) | Inspect recipient-authorized local storage through an available provider. |
+| [storage-memory-manager](skills/storage-memory-manager/SKILL.md) | Inspect storage and memory pressure with read-only helpers before a recovery decision. |
 | [mac-troubleshooter](skills/mac-troubleshooter/SKILL.md) | Triage an unexplained Mac application failure and select the smallest recovery workflow. |
 | [process-diagnosis](skills/process-diagnosis/SKILL.md) | Diagnose a blocked quit, stale helper or resource-pressure symptom using exact process ownership. |
 | [storage-migration](skills/storage-migration/SKILL.md) | Find what is taking Mac disk space, clean up authorized caches or unused runtimes, and move large files externally with verified volume identity, copy integrity and rollback. |
@@ -53,9 +55,9 @@ Storage rules are specific to the current Mac and must be checked against live v
 
 ## Maintainer and existing integration notes
 
-Maintained private source: `~/plugins/mac-ops-toolkit`. Installed through `personal`. Entry points live in `skills/`; detailed resources are conditional. Edit this source, validate, apply the system plugin-creator cachebuster, then reinstall `mac-ops-toolkit@personal`. Never edit the generated cache. Start a new Codex task after an update.
+The reviewed public source is `plugins/mac-ops-toolkit` in the Working Tools repository. Edit that source, update the package version and registry together, validate and build a distribution, then install the selected version through the host's plugin manager. Start a fresh chat for refreshed discovery. Preserve recipient configuration outside the package.
 
-Historical standalone entrypoints are disabled compatibility redirects. Their old reference paths may remain for existing project instructions. The shared ownership/routing map is in `~/plugins/work-management/docs/skill-plugin-map.md`.
+Historical standalone entrypoints are compatibility routes. The current skill table and package project map define the public edition; private marketplace and cache paths are not installation requirements.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional agents
@@ -65,15 +67,11 @@ Historical standalone entrypoints are disabled compatibility redirects. Their ol
 
 ## Portable edition prerequisites and receiving-host storage roles
 
-Eight complete skill heads, both historical original procedures, all recovery references and both shell helpers remain. There are no omitted source files. The literal placeholders `$ARCHIVE_VOLUME`, `$RUNTIME_VOLUME` and `<user>` stand for independently verified recipient volume names/user paths; never execute them literally or create a mountpoint. Establish a receiving-host role map with actual UUID, mounted path, filesystem, free space, archive/runtime/backup purpose, approved install roots and existing symlink patterns before any placement decision. Historical placement examples are conditional patterns, not facts about your Mac. Recheck the selected daily Claude profile rather than adopting the old private profile.
+Ten complete skill heads, both historical original procedures, all recovery references and both shell helpers remain. There are no omitted source files. The literal placeholders `$ARCHIVE_VOLUME`, `$RUNTIME_VOLUME` and `<user>` stand for independently verified recipient volume names/user paths; never execute them literally or create a mountpoint. Establish a receiving-host role map with actual UUID, mounted path, filesystem, free space, archive/runtime/backup purpose, approved install roots and existing symlink patterns before any placement decision. Historical placement examples are conditional patterns, not facts about your Mac. Recheck the selected daily Claude profile rather than adopting the old private profile.
 
 macOS is required for actual AppleScript/window inspection and Time Machine operations. Shell helpers use bash, standard system commands and `rg`; check local command availability and OS permissions. Other named skills/MCPs are optional receiving-host capabilities, not bundled services. The support-state backup helper preserves its timestamped copy behavior and does not establish a successful restore. Do not run recovery changes merely to test this package.
 
 For “move this app to my external SSD” without a mounted, identified volume, return “the destination volume and its role are not verified” and complete a read-only inventory or request actual volume evidence. Preserve the full copy/hash/metadata/reopen/rollback procedure until those prerequisites are met. No installation, process termination, live restore or storage migration was performed by the synthetic validation.
-
-`RUNTIME_VOLUME`, `ARCHIVE_VOLUME` and `SYSTEM_DATA_ROOT` are recipient-selected, verified mounted paths, not predefined environment values. Establish them from current volume identity and role evidence before translating any example command. macOS Data-volume inspection must use the actual current system data mount.
-
-`RUNTIME_VOLUME`, `ARCHIVE_VOLUME` and `SYSTEM_DATA_ROOT` are recipient-selected, verified mounted paths, not predefined environment values. Establish them from current volume identity and role evidence before translating any example command. macOS Data-volume inspection must use the actual current system data mount.
 
 `RUNTIME_VOLUME`, `ARCHIVE_VOLUME` and `SYSTEM_DATA_ROOT` are recipient-selected, verified mounted paths, not predefined environment values. Establish them from current volume identity and role evidence before translating any example command. macOS Data-volume inspection must use the actual current system data mount.
 

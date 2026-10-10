@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+scan_root="${STORAGE_SCAN_HOME:-$HOME}"
+if [[ ! -d "$scan_root/Library" ]]; then
+  echo "Storage scan requires an existing Library directory beneath STORAGE_SCAN_HOME (or HOME): $scan_root/Library" >&2
+  exit 2
+fi
+
 echo "== Disk overview =="
 # Optional positional arguments are explicit recipient volumes; none are assumed.
 df -h /

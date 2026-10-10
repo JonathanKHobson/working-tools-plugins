@@ -1,6 +1,6 @@
 # Build MCP Apps
 
-Current edition **1.0.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **1.0.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Build or improve interactive MCP apps and their servers, from a clear user task through protocol and host verification.
 
@@ -57,7 +57,7 @@ Edit the public source in this package. See [project map](docs/project-map.md). 
 
 ## Public edition, prerequisites and missing providers
 
-Version 1.0.2 retains all 2 top-level skill heads and every source file. Original first-party text has an explicit grant; unchanged third-party snapshots retain their own grants and notices. No restricted source methods are omitted. See [source attribution](SOURCE-ATTRIBUTIONS.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [exact provenance](PROVENANCE.json).
+The public edition retains all 2 top-level skill heads and every source file. Original first-party text has an explicit grant; unchanged third-party snapshots retain their own grants and notices. No restricted source methods are omitted. See [source attribution](SOURCE-ATTRIBUTIONS.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [exact provenance](PROVENANCE.json).
 
 Reading and applying the methods needs supplied task/context and permission for the selected project. Helpers need the language/runtime declared in their source; Python helpers require Python 3.10+ and Node helpers require a compatible Node environment. Generated projects install their own pinned SDK/dependencies after review. Alpic deployment requires the separately available current Alpic tooling, an authorized account/project and deployment target. Widget acceptance requires a current supported MCP App host and its actual browser/bridge behavior. Native/mobile workflows require separately installed providers and their SDK/device tools. Source inclusion supplies no credentials or host connection.
 

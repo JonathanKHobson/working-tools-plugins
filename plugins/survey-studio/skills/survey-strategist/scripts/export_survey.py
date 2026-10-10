@@ -198,7 +198,7 @@ def _html_scale(question: Mapping[str, Any]) -> str:
     parts = ['<div class="scale" role="radiogroup">']
     for value in range(minimum, maximum + 1, step):
         control_id = f"{qid}_{value}"
-        label_text = anchors.get(str(value), str(value))
+        label_text = anchors.get(str(value), "")
         parts.append(
             f'<div class="scale-point"><input id="{control_id}" name="{qid}" type="radio" value="{value}"{required}>'
             f'<label for="{control_id}"><span class="value">{value}</span><span>{html.escape(label_text)}</span></label></div>'
@@ -249,7 +249,7 @@ def export_html(data: Mapping[str, Any]) -> str:
         "body{margin:0}.shell{max-width:760px;margin:0 auto;padding:2rem 1rem 5rem}header,section,.consent{background:#fff;border:1px solid #ddd;border-radius:.75rem;padding:1.25rem;margin-bottom:1rem}",
         "fieldset{border:0;padding:0;margin:0}legend{font-weight:700;font-size:1.05rem;margin-bottom:.5rem}.meta{color:#555;font-size:.9rem}.required{font-weight:600}.option{display:flex;gap:.65rem;align-items:flex-start;padding:.35rem 0}",
         "input,select,textarea{font:inherit}input[type=text],input[type=number],input[type=date],select,textarea{width:100%;box-sizing:border-box;padding:.65rem;border:1px solid #777;border-radius:.35rem}textarea{min-height:8rem}",
-        ".scale{display:flex;flex-wrap:wrap;gap:.5rem}.scale-point label{display:flex;flex-direction:column;align-items:center;border:1px solid #aaa;border-radius:.35rem;padding:.4rem;min-width:4rem}.value{font-weight:700}",
+        ".question+.question{margin-top:1.75rem}.scale{display:grid;grid-template-columns:repeat(auto-fit,minmax(5rem,1fr));gap:.5rem}.scale-point{display:flex;flex-direction:column;gap:.3rem}.scale-point label{display:flex;flex:1;flex-direction:column;align-items:center;text-align:center;border:1px solid #aaa;border-radius:.35rem;padding:.4rem;overflow-wrap:anywhere}.value{font-weight:700}button{font:inherit;padding:.7rem 1rem;border:1px solid #171717;border-radius:.35rem;background:#171717;color:#fff}input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #2458a6;outline-offset:3px}",
         ".table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #bbb;padding:.55rem;text-align:center}th[scope=row]{text-align:left}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}",
         "@media print{body{background:#fff}.shell{max-width:none;padding:0}header,section,.consent{border:0;break-inside:avoid}.meta{color:#000}}",
         "</style>",
@@ -257,7 +257,8 @@ def export_html(data: Mapping[str, Any]) -> str:
         "<body><main class=\"shell\">",
         f"<header><h1>{title}</h1><p>{html.escape(str(survey['objective']))}</p><p class=\"meta\">Estimated time: {survey['estimated_minutes']} minutes · Survey ID: <code>{html.escape(str(survey['id']))}</code></p></header>",
         f"<div class=\"consent\"><h2>Before you begin</h2><p>{html.escape(str(survey['consent']['text']))}</p><p class=\"meta\">Questions: {html.escape(str(survey['consent']['contact']))}</p></div>",
-        '<form aria-label="Survey preview">',
+        '<section aria-labelledby="preview-title"><h2 id="preview-title">Review preview</h2><p>Try the controls with fictional answers. This file does not collect, save or send responses. Branching and platform-specific rules are not applied here.</p></section>',
+        '<form aria-label="Survey preview" method="dialog">',
     ]
     for block in data["blocks"]:
         parts.append(f'<section id="block-{html.escape(str(block["id"]), quote=True)}"><h2>{html.escape(str(block["title"]))}</h2>')
@@ -307,7 +308,12 @@ def export_html(data: Mapping[str, Any]) -> str:
                 parts.append(f'<p class="meta">Interactive {html.escape(qtype)} control must be programmed in the destination platform. Provide an accessible fallback.</p>')
             parts.append("</fieldset></div>")
         parts.append("</section>")
-    parts.extend(["</form>", "<section><h2>Thank you</h2><p>Thank you for sharing your experience.</p></section>", "</main></body></html>"])
+    parts.extend([
+        '<section><h2>Check the preview</h2><button type="button" id="check-preview" hidden>Check required answers</button><p id="preview-status" role="status" aria-live="polite">Answers stay in this page only. This is not a submission.</p><noscript>JavaScript is required for the local answer check. No responses are collected.</noscript></section>',
+        "</form>",
+        '<script>const form=document.querySelector("form");const status=document.getElementById("preview-status");const check=document.getElementById("check-preview");check.hidden=false;form.addEventListener("submit",event=>event.preventDefault());form.addEventListener("input",()=>{status.textContent="Answers changed. Check again when ready. Nothing has been sent or saved.";});check.addEventListener("click",()=>{const valid=form.reportValidity();status.textContent=valid?"Required answers are present. Nothing has been sent or saved. Branching and platform rules still need destination testing.":"Complete the required answers highlighted above. Nothing has been sent or saved.";});</script>',
+        "</main></body></html>",
+    ])
     return "\n".join(parts) + "\n"
 
 
@@ -451,7 +457,7 @@ def export_pdf(data: Mapping[str, Any], output: Path, *, include_notes: bool = T
         from reportlab.lib.pagesizes import LETTER
         from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
         from reportlab.lib.units import inch
-        from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+        from reportlab.platypus import HRFlowable, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
         from xml.sax.saxutils import escape
     except ImportError as exc:  # pragma: no cover
         raise RuntimeError("PDF export requires reportlab: python -m pip install reportlab") from exc
@@ -470,6 +476,7 @@ def export_pdf(data: Mapping[str, Any], output: Path, *, include_notes: bool = T
     styles = getSampleStyleSheet()
     styles.add(ParagraphStyle(name="Meta", parent=styles["Normal"], fontSize=8.5, leading=11, textColor=colors.HexColor("#444444")))
     styles.add(ParagraphStyle(name="Question", parent=styles["Heading3"], fontSize=10.5, leading=14, spaceBefore=8, spaceAfter=4))
+    styles.add(ParagraphStyle(name="Scale", parent=styles["Normal"], fontSize=8, leading=10, alignment=TA_CENTER))
     story: list[Any] = []
     story.append(Paragraph(escape(str(data["survey"]["title"])), styles["Title"]))
     story.append(Paragraph(escape(f"Survey ID: {data['survey']['id']} | Version: {data['survey']['version']} | Estimated time: {data['survey']['estimated_minutes']} minutes"), styles["Meta"]))
@@ -498,8 +505,8 @@ def export_pdf(data: Mapping[str, Any], output: Path, *, include_notes: bool = T
             elif qtype in {"likert", "rating", "nps", "slider", "number_scale"}:
                 scale = question["scale"]
                 values = list(range(int(scale["min"]), int(scale["max"]) + 1, int(scale["step"])))
-                table_data = [[str(value) for value in values], [str(scale.get("anchors", {}).get(str(value), "")) for value in values]]
-                table = Table(table_data, repeatRows=0)
+                table_data = [[str(value) for value in values], [Paragraph(escape(str(scale.get("anchors", {}).get(str(value), ""))), styles["Scale"]) for value in values]]
+                table = Table(table_data, colWidths=[doc.width / len(values)] * len(values), repeatRows=0)
                 table.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.5, colors.grey), ("ALIGN", (0, 0), (-1, -1), "CENTER"), ("FONTSIZE", (0, 0), (-1, -1), 7), ("VALIGN", (0, 0), (-1, -1), "MIDDLE")]))
                 story.append(table)
             elif qtype in {"matrix", "likert_matrix", "bipolar_matrix", "rank_order_matrix", "constant_sum_matrix", "text_entry_matrix", "side_by_side"}:
@@ -511,10 +518,12 @@ def export_pdf(data: Mapping[str, Any], output: Path, *, include_notes: bool = T
                 table.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.5, colors.grey), ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#eeeeee")), ("FONTSIZE", (0, 0), (-1, -1), 7), ("VALIGN", (0, 0), (-1, -1), "MIDDLE")]))
                 story.append(table)
             elif qtype == "textarea":
-                story.append(Paragraph("_" * 110, styles["Normal"]))
-                story.append(Paragraph("_" * 110, styles["Normal"]))
+                for _ in range(2):
+                    story.append(Spacer(1, 16))
+                    story.append(HRFlowable(width="100%", thickness=0.5, color=colors.grey))
             elif qtype != "descriptive":
-                story.append(Paragraph("_" * 110, styles["Normal"]))
+                story.append(Spacer(1, 16))
+                story.append(HRFlowable(width="100%", thickness=0.5, color=colors.grey))
             if include_notes:
                 story.append(Paragraph(f"<b>Rationale:</b> {escape(str(question['rationale']))}<br/><b>Analysis use:</b> {escape(str(question['analysis_use']))}", styles["Meta"]))
             story.append(Spacer(1, 4))
@@ -522,7 +531,13 @@ def export_pdf(data: Mapping[str, Any], output: Path, *, include_notes: bool = T
             story.append(PageBreak())
     story.append(Paragraph("Thank you", styles["Heading2"]))
     story.append(Paragraph("Thank you for sharing your experience.", styles["Normal"]))
-    doc.build(story)
+    def page_footer(canvas: Any, document: Any) -> None:
+        canvas.saveState()
+        canvas.setFont("Helvetica", 8)
+        canvas.drawString(document.leftMargin, 0.3 * inch, f"{data['survey']['id']} | Page {document.page}")
+        canvas.restoreState()
+
+    doc.build(story, onFirstPage=page_footer, onLaterPages=page_footer)
 
 
 def export_to_path(data: Mapping[str, Any], output_format: str, output: str | Path, *, include_notes: bool = True) -> list[str]:

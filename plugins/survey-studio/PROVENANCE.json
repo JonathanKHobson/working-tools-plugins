@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "survey-studio",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "reviewed_date": "2026-10-10",
   "source_tree_sha256": "d945791cc79cc5917fab0e392d9db12782ac9cee0b44a566fe0df6548c4ebccb",
   "retained_skill_count": 8,
@@ -10,20 +10,22 @@
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "0179ed8fd18c9beba4ab5c01577883d59572cd878b3c0238dad4f2fa7f3dfd6a",
-      "output_sha256": "abc3c6ba7f9793a1d8ea81e5e54c5e1701b55b1ce356aaee6a9a8d57d925a0dc",
+      "output_sha256": "72389cce43a7b6ebf19a04adc54cce367add2c0bd2f27003a784ebc03f8d4076",
       "disposition": "transformed",
       "change": "Public identity, complete head count, exact omitted source categories and no automatic provider registration.",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "README.md",
       "source_sha256": "a4d7bafe6ab1e643613982e3d631ca39fbac1562f3413a1904fdc0a1aef00592",
-      "output_sha256": "2792244e39b64362e432ea2b98786d5d59ac3c5fefded7d2c871f855e0e554e3",
+      "output_sha256": "807ce6ebd6d9706737068daa75037d56c3c0289c7fba6c3fbd1d2ec582f76c8b",
       "disposition": "transformed",
       "change": "Retain complete human capability catalog; add actual prerequisites, precise omission/license scope and truthful absent-provider scenario.",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "docs/previous-entrypoints/survey-strategist/SKILL.original.md",
@@ -802,11 +804,12 @@
     {
       "path": "skills/survey-strategist/references/export-html.md",
       "source_sha256": "6f739d1d6d613524cc977974825c78d94b7520d1f1c8f90a70f5b9c0131497cc",
-      "output_sha256": "6f739d1d6d613524cc977974825c78d94b7520d1f1c8f90a70f5b9c0131497cc",
-      "disposition": "byte-identical",
+      "output_sha256": "9099873d46333ebf61450531f58b1be293268f527b51b8c54d15cff1ce685e3a",
+      "disposition": "transformed",
       "change": "none",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "skills/survey-strategist/references/export-json.md",
@@ -1171,11 +1174,12 @@
     {
       "path": "skills/survey-strategist/scripts/export_survey.py",
       "source_sha256": "45d8845c5b3a03491148ba171705bdf0dbed80208490689dc87a58a97cdb8c52",
-      "output_sha256": "45d8845c5b3a03491148ba171705bdf0dbed80208490689dc87a58a97cdb8c52",
-      "disposition": "byte-identical",
+      "output_sha256": "66ae7c329a959345eb3591c733b45af0cc4221296057afbe7398cf0787b5ad53",
+      "disposition": "transformed",
       "change": "none",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "skills/survey-strategist/scripts/generate_codebook.py",
@@ -1314,21 +1318,25 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "2facec6b8e71ee6d111df651eab062fb54192fa85500ee4b035013fe8a920ae7",
+      "output_sha256": "8120e510c452ddb658a54199a0e7cd034090ec40329fa9218be89296e519c3a5",
       "bytes": 595,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "de1d36e3db2cd483d22c8df4f0c5d320f421bdb842c6cdea169556a207df0364",
-      "bytes": 293,
+      "output_sha256": "1bc653199ccc2bed5377b23693c0407768cebfac5154ce369f46070d94f86c09",
+      "bytes": 446,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSE",
@@ -1341,10 +1349,12 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "c5ec2e6807ddd270311ea58b773ff17cad8a2f66c8c05acea5f034c2c85fb96a",
+      "output_sha256": "d7f0a5e73ddd521101329a3442722eb43ab28d887196ff64b72f6605503bc849",
       "bytes": 61246,
       "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
+      "change": "New licensing metadata; no method/runtime body change.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSING.md",
@@ -1366,12 +1376,14 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "output_sha256": "d22b5c67995265cf83bf051d70ded8076bfd64edca15a478941f0dc633b290a6",
-      "bytes": 1664,
+      "output_sha256": "5d19b53defc6347aacb7b3c7b24c3f7b1920262bd6424c520a2a31d1d8afa28e",
+      "bytes": 1671,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -1465,12 +1477,14 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "956da4925a183092878d9867258fe89fe53933a491700aa51e6505fc3ca02c7c",
+      "output_sha256": "26d111b22e03a28202c6cb55d00c5875e11970be14604d2aa10ccac46328574e",
       "bytes": 1379,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     }
   ],
   "excluded_source_files": [
@@ -1483,7 +1497,7 @@
   "added_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "2facec6b8e71ee6d111df651eab062fb54192fa85500ee4b035013fe8a920ae7"
+      "output_sha256": "8120e510c452ddb658a54199a0e7cd034090ec40329fa9218be89296e519c3a5"
     },
     {
       "path": "LICENSE",
@@ -1491,7 +1505,7 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "output_sha256": "d22b5c67995265cf83bf051d70ded8076bfd64edca15a478941f0dc633b290a6"
+      "output_sha256": "5d19b53defc6347aacb7b3c7b24c3f7b1920262bd6424c520a2a31d1d8afa28e"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -1499,7 +1513,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "956da4925a183092878d9867258fe89fe53933a491700aa51e6505fc3ca02c7c"
+      "output_sha256": "26d111b22e03a28202c6cb55d00c5875e11970be14604d2aa10ccac46328574e"
     }
   ],
   "rights_decision": "Authorized original contribution grant; exact nonoperative/private registration or unidentified source-input unit omitted. Full operative method/helper scope retained.",
@@ -1512,5 +1526,12 @@
     "operative_bodies_unchanged": true,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "expanded_first_use_patch": {
+    "base_public_commit": "73d7d44304570a47061873b454d3bd04c8dd49d7",
+    "previous_version": "0.1.2",
+    "change": "Make HTML review-preview behavior explicit, add local validation feedback and repair PDF write lines, rating columns and page identification.",
+    "source_hashes_preserved": true,
+    "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
   }
 }

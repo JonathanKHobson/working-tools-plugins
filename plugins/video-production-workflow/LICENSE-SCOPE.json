@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "video-production-workflow",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "268ee94793e8e1e5ea7803f40ae4a0aeeaa6b33e995e7525788e09bc5beafb44"
+      "sha256": "e581d405cd2534cc9af76bd3d4ad89559f89ef8c3d6525c7b2773834b1697a2a"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "3ba46875eec32415128bea0047d82488dc3ed9e0ea9fd02bd06d4b4f8c0d1bf6"
+      "sha256": "23ec1fab892b0f443670623e10d1e3d100c8a0ed1d0e839ddcd78c3463ca573d"
     },
     {
       "path": ".gitignore",
@@ -51,7 +51,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "a28a815aadb0d5d1e6bd5889ec1eda03448f1d6d735cad33f1f5cd4ab0647597"
+      "sha256": "c2c125cbfd1bec97fc6c02838efac9128a9a8e7394081465f3290530341e9836"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -100,7 +100,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "594e05196cad4102e8dc449c041f40395a4ad9c9343e66b925a2cfb3bac83244"
+      "sha256": "266ee64274786010779379131837de0bc9a0a2dfdea0aa3670d1ea6374992fba"
     },
     {
       "path": "SECURITY.md",
@@ -803,6 +803,20 @@
       "sha256": "ce4d7cfdb19620abf0dd63da2f7ff88c89987042da4950d87403189f4c411095"
     },
     {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: cth9191 pinned repository source/method previews",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77"
+    },
+    {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
+      "category": "retained-or-mixed-upstream",
+      "license": "MIT: cth9191 pinned repository source/method previews",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7"
+    },
+    {
       "path": "libraries/animate-methods/styles/isometric/demo/piece.json",
       "category": "retained-or-mixed-upstream",
       "license": "MIT: cth9191 pinned repository source/method previews",
@@ -836,20 +850,6 @@
       "license": "MIT: cth9191 pinned repository source/method previews",
       "boundary": "Retained source library; existing source license and copyright unchanged.",
       "sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
-      "category": "retained-or-mixed-upstream",
-      "license": "MIT: cth9191 pinned repository source/method previews",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
-      "category": "retained-or-mixed-upstream",
-      "license": "MIT: cth9191 pinned repository source/method previews",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7"
     },
     {
       "path": "libraries/animate-methods/styles/isometric/kit.js",
@@ -1566,6 +1566,13 @@
       "sha256": "3e173bc484cd7daef9022c2c80e8e2091ab73321def54c2a100ddf738ee8d1e0"
     },
     {
+      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0: heygen-com pinned source",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e"
+    },
+    {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints/agent-progress-theater.md",
       "category": "retained-or-mixed-upstream",
       "license": "Apache-2.0: heygen-com pinned source",
@@ -1720,13 +1727,6 @@
       "sha256": "30a6a396a72bcd37127100f6e4cb5f13f6ca1ea179df7001ce347a3b84c8b7ae"
     },
     {
-      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
-      "category": "retained-or-mixed-upstream",
-      "license": "Apache-2.0: heygen-com pinned source",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e"
-    },
-    {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html",
       "category": "retained-or-mixed-upstream",
       "license": "Apache-2.0: heygen-com pinned source",
@@ -1823,6 +1823,13 @@
       "license": "Apache-2.0: heygen-com pinned source",
       "boundary": "Retained source library; existing source license and copyright unchanged.",
       "sha256": "66c5a15a3515063c1103633877494430bdf33b783544f0fb98e433dbd65a6777"
+    },
+    {
+      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
+      "category": "retained-or-mixed-upstream",
+      "license": "Apache-2.0: heygen-com pinned source",
+      "boundary": "Retained source library; existing source license and copyright unchanged.",
+      "sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca"
     },
     {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules/3d-camera-flight.md",
@@ -2159,13 +2166,6 @@
       "license": "Apache-2.0: heygen-com pinned source",
       "boundary": "Retained source library; existing source license and copyright unchanged.",
       "sha256": "d9b8a3df6c59e0af6eef1f3f3d7ffb8058c8983976e4ce150566215770ff7c50"
-    },
-    {
-      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
-      "category": "retained-or-mixed-upstream",
-      "license": "Apache-2.0: heygen-com pinned source",
-      "boundary": "Retained source library; existing source license and copyright unchanged.",
-      "sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca"
     },
     {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/scripts/animation-map-sampling.mjs",
@@ -2858,7 +2858,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "94fef35aad444ba9848847170d378ab72b3281acf40fba8db18c93e46122e2f5"
+      "sha256": "5b44c15fa63439baceeb86b837920d781adfaee26be3d819271e6f07e2b9a2bd"
     },
     {
       "path": "pyproject.toml",

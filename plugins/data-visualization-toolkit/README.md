@@ -1,6 +1,6 @@
 # Data Visualization Toolkit
 
-Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.4** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Make data understandable and truthful for a specific reader and decision. Start with the question, source data or known values, intended audience, and where the result will appear. The toolkit chooses a fitting visual method, routes to the complete relevant procedure, and checks the rendered result when one is produced.
 
@@ -26,6 +26,16 @@ Maintain the active discovery heads in `skills/` and keep the full Build Web Dat
 
 Public version 0.2.3 has 13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific work uses the full original statistical, export and testing methods under the scoped method license. Interactive work uses original procedures, complete web methods and the bundled MCP App.
 
-Check the complete library and package with `python3 scripts/verify_public.py`. Run a real fictional stdio task with `.runtime/venv/bin/python examples/sample_stdio.py`; it uses a temporary dataset directory and closes its own subprocess. Rendering/native-host delivery remain separate acceptance checks.
+## Run the first sample
 
-The package also includes portable `mcp.json`; run the same sample with `--portable` to check that route.
+From the extracted or installed package root, create the dedicated environment described in [installation](docs/installation.md):
+
+```sh
+python3 -m venv .runtime/venv
+.runtime/venv/bin/python -m pip install -r runtime/data-explorer/requirements.txt
+.runtime/venv/bin/python examples/sample_stdio.py
+```
+
+The sample starts the actual local MCP server, creates four fictional rows in a temporary dataset directory, and checks mean 20, three known values and one missing value. It also checks rejection of an invalid column schema and closes its subprocess. Expect `status: passed` in the JSON result. Native conversation rendering is a separate check.
+
+Run the sample with `--portable` to check `mcp.json`. For recipient-owned saved data and an external interpreter, follow the environment settings in the installation guide. Check source closure separately with `python3 scripts/verify_public.py`.

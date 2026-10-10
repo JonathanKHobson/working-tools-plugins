@@ -160,6 +160,9 @@ const WIDGET_TEMPLATE = `<!DOCTYPE html>
         cursor: pointer;
       }
 
+      button:disabled { opacity: 0.55; cursor: not-allowed; }
+      button:focus-visible, textarea:focus-visible { outline: 3px solid #174ea6; outline-offset: 3px; }
+      textarea { width: 100%; padding: 10px; font: inherit; line-height: 1.4; }
       button[hidden] {
         display: none;
       }
@@ -182,10 +185,13 @@ const WIDGET_TEMPLATE = `<!DOCTYPE html>
       <p class="eyebrow">__APP_TITLE__ starter</p>
       <h1 id="headline">Waiting for tool output</h1>
       <p id="message">Call the __TOOL_NAME__ tool to hydrate this widget.</p>
-      <button id="tool-button" type="button">Call __TOOL_NAME__ from the widget</button>
-      <button id="follow-up-button" class="secondary" type="button">
+      <button id="tool-button" type="button" disabled>Call __TOOL_NAME__ from the widget</button>
+      <button id="follow-up-button" class="secondary" type="button" disabled>
         Ask the host to explain this app
       </button>
+      <p id="status" role="status" aria-live="polite">Connecting to the host...</p>
+      <label for="fallback">Copy-ready request</label>
+      <textarea id="fallback" rows="3" readonly>Explain how the __TOOL_NAME__ widget works.</textarea>
       <div class="meta" id="meta">
         This widget uses the MCP Apps bridge by default.
       </div>
@@ -198,113 +204,95 @@ const WIDGET_TEMPLATE = `<!DOCTYPE html>
       const toolButtonEl = document.querySelector("#tool-button");
       const followUpButtonEl = document.querySelector("#follow-up-button");
 
+      const statusEl = document.querySelector("#status");
       let toolOutput = null;
       let rpcId = 0;
+      let hostCapabilities = {};
       const pendingRequests = new Map();
-
+      const setStatus = (text) => { statusEl.textContent = text; };
       const render = () => {
-        const headline = toolOutput?.headline ?? "__APP_TITLE__";
-        const message =
-          toolOutput?.message ??
-          "Call the __TOOL_NAME__ tool to hydrate this widget.";
-
-        headlineEl.textContent = headline;
-        messageEl.textContent = message;
-
-        const theme = window.openai?.theme ?? "bridge-only";
-        metaEl.textContent =
-          "Runtime: " +
-          (window.openai ? "MCP Apps bridge + optional window.openai" : "MCP Apps bridge only") +
-          " | Theme: " +
-          theme;
+        headlineEl.textContent = toolOutput?.headline || "__APP_TITLE__";
+        messageEl.textContent = toolOutput?.message || "No tool result yet. Use the connected host to load this starter.";
+        metaEl.textContent = "Theme: " + (window.openai?.theme ?? "host default");
       };
-
       const rpcNotify = (method, params) => {
         window.parent.postMessage({ jsonrpc: "2.0", method, params }, "*");
       };
-
-      const rpcRequest = (method, params) =>
-        new Promise((resolve, reject) => {
-          const id = ++rpcId;
-          pendingRequests.set(id, { resolve, reject });
-          window.parent.postMessage({ jsonrpc: "2.0", id, method, params }, "*");
-        });
-
-      window.addEventListener(
-        "message",
-        (event) => {
-          if (event.source !== window.parent) {
-            return;
-          }
-
-          const message = event.data;
-          if (!message || message.jsonrpc !== "2.0") {
-            return;
-          }
-
-          if (typeof message.id === "number") {
-            const pending = pendingRequests.get(message.id);
-            if (!pending) {
-              return;
-            }
-
-            pendingRequests.delete(message.id);
-            if (message.error) {
-              pending.reject(message.error);
-              return;
-            }
-
-            pending.resolve(message.result);
-            return;
-          }
-
-          if (message.method === "ui/notifications/tool-result") {
-            toolOutput = message.params?.structuredContent ?? null;
-            render();
-          }
-        },
-        { passive: true }
-      );
-
+      const rpcRequest = (method, params) => new Promise((resolve, reject) => {
+        const id = ++rpcId;
+        const timer = setTimeout(() => {
+          pendingRequests.delete(id);
+          reject(new Error("The host did not respond. For a message request, check the chat before retrying or pasting."));
+        }, 8000);
+        pendingRequests.set(id, { resolve, reject, timer });
+        window.parent.postMessage({ jsonrpc: "2.0", id, method, params }, "*");
+      });
+      window.addEventListener("message", (event) => {
+        if (event.source !== window.parent) return;
+        const message = event.data;
+        if (!message || message.jsonrpc !== "2.0") return;
+        if (typeof message.id === "number") {
+          const pending = pendingRequests.get(message.id);
+          if (!pending) return;
+          pendingRequests.delete(message.id);
+          clearTimeout(pending.timer);
+          if (message.error) pending.reject(new Error(message.error.message || "Host request failed."));
+          else pending.resolve(message.result);
+          return;
+        }
+        if (message.method === "ui/notifications/tool-result") {
+          toolOutput = message.params?.structuredContent ?? null;
+          render();
+        }
+      });
       const initializeBridge = async () => {
-        await rpcRequest("ui/initialize", {
-          appInfo: { name: "__APP_SLUG__-widget", version: "0.1.0" },
-          appCapabilities: {},
-          protocolVersion: "2026-01-26",
-        });
-        rpcNotify("ui/notifications/initialized", {});
+        if (window.parent === window) {
+          setStatus("Standalone preview. Host actions are unavailable. Copy the request into your chat if needed.");
+          return;
+        }
+        try {
+          const result = await rpcRequest("ui/initialize", {
+            appInfo: { name: "__APP_SLUG__-widget", version: "0.1.0" },
+            appCapabilities: {}, protocolVersion: "2026-01-26",
+          });
+          hostCapabilities = result?.hostCapabilities ?? {};
+          rpcNotify("ui/notifications/initialized", {});
+          toolButtonEl.disabled = !hostCapabilities.serverTools;
+          followUpButtonEl.disabled = !hostCapabilities.message?.text;
+          setStatus(followUpButtonEl.disabled
+            ? "Connected. This host does not advertise text messages. Use the copy-ready request."
+            : "Connected. Choose an action.");
+        } catch (error) { setStatus(error.message); }
       };
-
-      const bridgeReady = initializeBridge();
-
       toolButtonEl.addEventListener("click", async () => {
-        await bridgeReady;
-
-        const response = await rpcRequest("tools/call", {
-          name: "__TOOL_NAME__",
-          arguments: {
-            message: "Tool call triggered from the widget.",
-          },
-        });
-
-        toolOutput = response?.structuredContent ?? toolOutput;
-        render();
+        if (toolButtonEl.disabled) return;
+        toolButtonEl.disabled = true;
+        setStatus("Loading tool output...");
+        try {
+          const response = await rpcRequest("tools/call", {
+            name: "__TOOL_NAME__", arguments: { message: "Tool call triggered from the widget." },
+          });
+          if (response?.isError) throw new Error("The tool reported an error. Your previous result is preserved.");
+          toolOutput = response?.structuredContent ?? null;
+          render();
+          setStatus(toolOutput ? "Tool result loaded." : "The tool returned no display data. You can try again.");
+        } catch (error) { setStatus(error.message); }
+        finally { toolButtonEl.disabled = !hostCapabilities.serverTools; }
       });
-
       followUpButtonEl.addEventListener("click", async () => {
-        await bridgeReady;
-
-        rpcNotify("ui/message", {
-          role: "user",
-          content: [
-            {
-              type: "text",
-              text: "Explain how the __TOOL_NAME__ widget works.",
-            },
-          ],
-        });
+        if (followUpButtonEl.disabled) return;
+        followUpButtonEl.disabled = true;
+        setStatus("Sending request to the host...");
+        try {
+          const response = await rpcRequest("ui/message", {
+            role: "user", content: [{ type: "text", text: "Explain how the __TOOL_NAME__ widget works." }],
+          });
+          if (response?.isError) throw new Error("The host rejected this message. Use the copy-ready request if needed.");
+          setStatus("The host acknowledged the request. Check the chat for delivery and any response.");
+        } catch (error) { setStatus(error.message); }
+        finally { followUpButtonEl.disabled = !hostCapabilities.message?.text; }
       });
-
+      initializeBridge();
       render();
     </script>
   </body>
@@ -400,7 +388,7 @@ function createAppServer(): McpServer {
         content: [
           {
             type: "text" as const,
-            text: "Rendered the __APP_TITLE__ starter widget.",
+            text: "__APP_TITLE__ widget data is ready.",
           },
         ],
         structuredContent: {
@@ -477,7 +465,7 @@ createServer(async (req, res) => {
   }
 
   res.writeHead(404).end("Not Found");
-}).listen(port, () => {
+}).listen(port, process.env.HOST ?? "127.0.0.1", () => {
   console.log("__APP_TITLE__ MCP server listening on http://localhost:" + port + MCP_PATH);
 });
 `;

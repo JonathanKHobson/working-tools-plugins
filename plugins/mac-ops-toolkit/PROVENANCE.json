@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "mac-ops-toolkit",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "canonical_source": "mac-ops-toolkit",
   "source_tree_sha256": "b1d18c233a113008346692d16eb7ddbce3716d0e74192a7b5802e0c311f013e1",
   "retained_skill_heads": 10,
@@ -11,15 +11,19 @@
       "source": ".codex-plugin/plugin.json",
       "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
       "output": ".codex-plugin/plugin.json",
-      "output_sha256": "3ab479c24618bb4884f189edbb79a4628b66aac92efdb56c4fd91010cbbd7757",
-      "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup."
+      "output_sha256": "78a4bfc51ac20f4dc6644495d5168590f7b5c9c4ae99c550968200ced995180a",
+      "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source": "README.md",
       "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
       "output": "README.md",
-      "output_sha256": "e3047a88401dbac3ba3dba192f0bda25e875554c5374e08f6ce2e4e383370734",
-      "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior."
+      "output_sha256": "1f52a06b89c2f5ba5313184e03dc02aef1688ebcad9c4d1a810704e9d2d45f08",
+      "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source": "docs/project-map.md",
@@ -298,7 +302,7 @@
   "generated_files": [
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "b6e0fdcc5817978bf28dcb017a5a087a50e54817e7a0027d98f2fa98bf8f5045"
+      "sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959"
     },
     {
       "path": "LICENSE",
@@ -310,7 +314,7 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "25f9a25ea6d4577ecc9eb4e964682fffa102415950cd56344dcb8aba005914f9"
+      "sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7"
     },
     {
       "path": "docs/first-party-lineage.json",
@@ -318,23 +322,27 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "6901f9afa67db25f595df5d1a3cc0c2f0809be9b5f5444b7d750e3392c8b8658"
+      "sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031"
     }
   ],
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
-      "output_sha256": "3ab479c24618bb4884f189edbb79a4628b66aac92efdb56c4fd91010cbbd7757",
+      "output_sha256": "78a4bfc51ac20f4dc6644495d5168590f7b5c9c4ae99c550968200ced995180a",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "README.md",
       "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
-      "output_sha256": "e3047a88401dbac3ba3dba192f0bda25e875554c5374e08f6ce2e4e383370734",
+      "output_sha256": "1f52a06b89c2f5ba5313184e03dc02aef1688ebcad9c4d1a810704e9d2d45f08",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "docs/project-map.md",
@@ -611,8 +619,8 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "b6e0fdcc5817978bf28dcb017a5a087a50e54817e7a0027d98f2fa98bf8f5045",
-      "output_sha256": "b6e0fdcc5817978bf28dcb017a5a087a50e54817e7a0027d98f2fa98bf8f5045",
+      "sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
+      "output_sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -632,8 +640,8 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "25f9a25ea6d4577ecc9eb4e964682fffa102415950cd56344dcb8aba005914f9",
-      "output_sha256": "25f9a25ea6d4577ecc9eb4e964682fffa102415950cd56344dcb8aba005914f9",
+      "sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7",
+      "output_sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
@@ -646,8 +654,8 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "6901f9afa67db25f595df5d1a3cc0c2f0809be9b5f5444b7d750e3392c8b8658",
-      "output_sha256": "6901f9afa67db25f595df5d1a3cc0c2f0809be9b5f5444b7d750e3392c8b8658",
+      "sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031",
+      "output_sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
@@ -656,10 +664,12 @@
       "source_owner": "standalone:local-storage-mcp",
       "source_sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9",
       "path": "skills/local-storage-mcp/SKILL.md",
-      "output_sha256": "e73110b4db6f00aef7f95a7d5db79b0daa095a268cf65276257d10298b651b8c",
+      "output_sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
       "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source_relative": "standalone/local-storage-mcp/agents/openai.yaml",
@@ -676,10 +686,12 @@
       "source_owner": "standalone:storage-memory-manager",
       "source_sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9",
       "path": "skills/storage-memory-manager/SKILL.md",
-      "output_sha256": "415996e399e2147b01327555437d36573081f23d46b880db2efea19dbb7cb94d",
+      "output_sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
       "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source_relative": "standalone/storage-memory-manager/references/cleanup-playbook.md",
@@ -716,26 +728,32 @@
       "source_owner": "standalone:storage-memory-manager",
       "source_sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4",
       "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
-      "output_sha256": "781664976fbdebf648e1cf0a0a172fc43e07514975daf83a25baba95ed6c6164",
+      "output_sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
       "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "CHANGELOG.md",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "18176226a5fb55ecf0c1bb7d5e94b1fb5032a89ed4451265df79613204f56cf3",
+      "output_sha256": "00bb0e62f003bb27e8a051ee7f88d1dd3d021b28e176192a9bf5d36fe2515d51",
       "change": "Package-local recipient setup/scope metadata",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "98aec0517b6cfe78ce19ac623d80283c0a863c8a20c61e2964b235a211d5e808",
+      "output_sha256": "791a1603c9fb387e25b3e9206afb3e096e737a82a73861e0658a45f1a6963127",
       "bytes": 24162,
       "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
+      "change": "New licensing metadata; no method/runtime body change.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSING.md",
@@ -850,8 +868,10 @@
         "source_owner": "standalone:local-storage-mcp",
         "source_sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9",
         "path": "skills/local-storage-mcp/SKILL.md",
-        "output_sha256": "e73110b4db6f00aef7f95a7d5db79b0daa095a268cf65276257d10298b651b8c",
-        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+        "output_sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
+        "disposition": "transformed",
+        "public_maintenance": "Expanded first-use usability correction; source hash retained."
       },
       {
         "source_relative": "standalone/local-storage-mcp/agents/openai.yaml",
@@ -866,8 +886,10 @@
         "source_owner": "standalone:storage-memory-manager",
         "source_sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9",
         "path": "skills/storage-memory-manager/SKILL.md",
-        "output_sha256": "415996e399e2147b01327555437d36573081f23d46b880db2efea19dbb7cb94d",
-        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+        "output_sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
+        "disposition": "transformed",
+        "public_maintenance": "Expanded first-use usability correction; source hash retained."
       },
       {
         "source_relative": "standalone/storage-memory-manager/references/cleanup-playbook.md",
@@ -898,8 +920,10 @@
         "source_owner": "standalone:storage-memory-manager",
         "source_sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4",
         "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
-        "output_sha256": "781664976fbdebf648e1cf0a0a172fc43e07514975daf83a25baba95ed6c6164",
-        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+        "output_sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
+        "disposition": "transformed",
+        "public_maintenance": "Expanded first-use usability correction; source hash retained."
       }
     ],
     "privacy_projection": "Populated originating host/account/vault maps replaced with explicit recipient templates; full procedures/helpers retained. No automatic provider or hook registration."
@@ -911,5 +935,12 @@
     "operative_bodies_unchanged": true,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "expanded_first_use_patch": {
+    "base_public_commit": "73d7d44304570a47061873b454d3bd04c8dd49d7",
+    "previous_version": "0.3.1",
+    "change": "Replace private installation instructions, complete the skill table, correct the MCP owner route and diagnose absent scan roots.",
+    "source_hashes_preserved": true,
+    "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
   }
 }

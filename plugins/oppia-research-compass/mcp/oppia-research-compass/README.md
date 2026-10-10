@@ -1,7 +1,8 @@
 # Oppia Research Compass
 
-Oppia Research Compass is an internal, read-only MCP for searching and reusing
-Oppia's historical UX research. Oppia evidence is the primary product surface;
+Oppia Research Compass is a public read-only runtime for searching and reusing
+an independently authorized Oppia historical UX research corpus. The bundled
+starter contains no research records or participant data. Oppia evidence is the primary product surface;
 research planning, evidence-quality checks, and research-method skills are
 supporting capabilities.
 
@@ -9,31 +10,61 @@ This edition is separate from the general Research Compass. It does not include
 the AI Glossary, the general Pattern Knowledge Base, personal Research Notes,
 or any external-source runtime.
 
-## Run From Source
+## Run From This Public Source Edition
 
-Use a Python environment containing the MCP Python SDK:
-
-```bash
-python server.py --db-path ../../data/oppia_markdown_index.sqlite
-```
-
-For a local health report:
+Use a reviewed Python 3.10 or newer interpreter; Python 3.12 and MCP SDK 1.26.0
+were used for the actual release-archive stdio check. From this runtime folder,
+create a recipient-local environment using your selected interpreter:
 
 ```bash
-python server.py --db-path ../../data/oppia_markdown_index.sqlite --healthcheck
+python3.12 -m venv .runtime/venv
+.runtime/venv/bin/python -m pip install 'mcp>=1.12,<2'
+.runtime/venv/bin/python server.py --healthcheck
+.runtime/venv/bin/python server.py
 ```
 
-## Build The Internal Plugin
+Use another supported interpreter for the first command if `python3.12` is not
+available. The server defaults to the packaged `data/oppia_research.sqlite`, an
+empty database created from the original schema. An overview or research query
+therefore returns zero evidence. It does not show that research never occurred.
+For “what have we learned about learner onboarding?”, call `oppia_research`
+first, report the evidence gap, and use `plan_oppia_research` for one bounded
+follow-up. No web or Drive lookup runs automatically.
 
-From the Research Compass repository root:
+For your own authorized schema-compatible database, keep it outside this
+installed package and select its absolute path explicitly:
 
 ```bash
-python scripts/build_oppia_research_release.py --clean
+OPPIA_RESEARCH_DB_PATH="<absolute path to your authorized compatible corpus.sqlite>" \
+  .runtime/venv/bin/python server.py
 ```
 
-The release builder creates a sanitized copy of the historical corpus and
-packages it with this edition. Do not distribute the resulting ZIP outside the
-authorized Oppia research team.
+The CLI also accepts `--db-path` and `--healthcheck`; inspect `server.py --help`.
+A missing selected database exits with `Oppia research database not found`,
+rather than silently creating a file or substituting empty evidence. Check the
+selected path and schema, or remove the override to use the empty starter.
+The runtime opens SQLite read-only and does not import, rebuild or edit a corpus.
+
+For a recipient-owned MCP client, use the selected environment's Python as the
+command, this folder's absolute `server.py` path as an argument, and optionally
+`OPPIA_RESEARCH_DB_PATH` as environment configuration. The preserved MCPB
+`mcpb_launcher.py` is an alternative entry; it uses the same empty default and
+honors the same override. Installing the plugin methods alone does not launch
+this server. The runtime provides ten tools and no resource items/templates.
+
+## Public Distribution And Private Corpus Boundary
+
+See [the package README](../../README.md) for methods, licensing, installation
+and updates. This released package supplies the complete runtime and the
+schema-compatible empty starter. It does not bundle a sanitized team corpus,
+private export or source-repository release builder. No absent internal builder
+or personal database path is needed to run it.
+
+Synthetic fixtures can verify search, evidence retrieval and audit behavior;
+they establish no real Oppia findings. Recipient-supplied research remains
+subject to its original consent, access and redistribution restrictions. Do
+not publish a real corpus merely to repair setup. Retain external recipient
+data when updating or removing this source package.
 
 ## Tool Hierarchy
 

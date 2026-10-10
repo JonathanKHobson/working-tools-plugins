@@ -1,6 +1,6 @@
 # Development Studio
 
-Current edition **0.2.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Development Studio turns a software request into a scoped, implemented and verified change. It includes complete development methods and MCP app procedures, and selects the official platform provider when specialist tools are needed. Game design and production belong to the separate Game Creation Studio.
 
@@ -58,3 +58,9 @@ Example task: “Repair my picker so selection reaches the conversation.” If t
 ## Version 0.2.0 standalone integration
 
 Complete local native-macOS, Code Intelligence, ChatGPT Apps, web-game, GitHub comment/CI, systematic-debugging, safe-install, Go and local-app-pipeline methods and their support are retained. No thin replacement heads were used. Exact copied/transformed inputs are in `docs/standalone-imports.json`. Go's existing 810document chunks/populated index are excluded; supply an authorized index through `GOLANG_EFFECTIVE_INDEX`. The complete query engine opens it read-only. Docker/PocketBase/cloudflared, Go/Swift/Node/Python/toolchain dependencies, GitHub auth and provider accounts remain recipient requirements. Pipeline templates bind PocketBase to 127.0.0.1 and must be copied to an authorized external workspace; installation starts no containers or tunnels.
+
+## Starter app first-run behavior
+
+The Apps SDK fallback scaffold now has bounded host requests, capability-aware controls, actionable error and empty states, and a copy-ready request for standalone or unsupported hosts. Message acknowledgement is reported separately from verified chat delivery or a model response. The local server binds to 127.0.0.1 by default; set `HOST` deliberately when configuring an authorized deployment.
+
+Validate the generated project with `npm install` and `npm run check`. The bridge regression check is `node tests/test_starter_bridge.mjs` from this package. It uses a simulated host. Real local HTTP protocol and browser checks support the public sample; they do not establish native ChatGPT acceptance.

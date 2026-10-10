@@ -1,6 +1,6 @@
 # Survey Toolkit
 
-Current edition **0.1.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.1.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Turn a decision and target population into a clear survey instrument, response logic, sampling plan, pilot, export or codebook while preserving question IDs and analysis meaning.
 
@@ -43,8 +43,10 @@ The [project map](docs/project-map.md) identifies the canonical instrument contr
 
 ## Public edition and prerequisites
 
-Version 0.1.1 retains all 8 top-level method heads. One restricted supplied QuestionTypes.txt archive excluded; all original procedure/helper content retained. See [source attributions](SOURCE-ATTRIBUTIONS.md), [license](LICENSE), [notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.json). No account, provider, data corpus or live connection is installed by this package.
+This public edition retains all 8 top-level method heads. One restricted supplied QuestionTypes.txt archive excluded; all original procedure/helper content retained. See [source attributions](SOURCE-ATTRIBUTIONS.md), [license](LICENSE), [notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.json). No account, provider, data corpus or live connection is installed by this package.
 
 Methods need the decision/population/construct and authorized supplied material. Deterministic helpers need Python 3.10+ and the declared requirements: jsonschema>=4.18, PyYAML>=6.0, python-docx>=1.1, reportlab>=4.0. Install into a reviewed recipient environment; the distribution vendors none of these libraries. Python exporters create caller-selected files; their paths, response privacy and scope need the current task's authorization. Platform accounts/import, real participant data, rendered respondent flow and accessibility acceptance remain separate checks.
 
 Example: “Create and export a brief product-experience pulse.” With no Qualtrics account/provider, finish the canonical synthetic instrument, lint/burden/codebook and supported local export syntax checks, then identify the unverified actual import/flow check. Never claim fielded, anonymous or benchmark-valid from a local file. This is an authored expected scenario, not a recorded live import.
+
+The HTML export is an explicitly labeled review preview with a local required-answer check. It never submits or stores responses; branching and destination rules require a separate implementation. PDF exports are printable review copies, not interactive forms.

@@ -71,7 +71,7 @@ work does not accidentally fight the existing external-drive strategy.
 - Use `$mac-ops-toolkit:mac-environment-conventions` when the cleanup decision depends on local drive-role and external-storage rules.
 - Use `$mac-ops-toolkit:mac-troubleshooter` when a specific app is malfunctioning and storage is only one part of the diagnosis.
 - Use `development-studio:local-app-pipeline` when Docker, PocketBase, or pipeline storage layout on this Mac is part of the problem.
-- Use `development-studio:build-mcp-apps` when storage/runtime issues are breaking a local MCP launcher or Python environment.
+- Use `build-mcp-apps:build-mcp-apps` when storage/runtime issues are breaking a local MCP launcher or Python environment.
 - For MCP fleet physical organization, use
   `${MCP_PLANNING_ROOT}`
   as the planning source of truth before recommending moves. Check the

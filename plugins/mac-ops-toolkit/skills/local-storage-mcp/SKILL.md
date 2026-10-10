@@ -1,6 +1,6 @@
 ---
 name: local-storage-mcp
-description: Find files across Kyle's SSD volumes, review storage catalogs, or choose placement for apps, backups, assets, and runtimes. Use for uncertain location or storage policy; exact project paths with sufficient local evidence need no storage-catalog lookup.
+description: Find files across verified recipient volumes, review storage catalogs, or choose placement for apps, backups, assets, and runtimes. Use for uncertain location or storage policy; exact project paths with sufficient local evidence need no storage-catalog lookup.
 ---
 
 # Local Storage MCP

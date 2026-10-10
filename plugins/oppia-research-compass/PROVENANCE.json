@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "oppia-research-compass",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "canonical_source": "oppia-research-compass",
   "source_tree_sha256": "dfaefd97fdd3a3589469f3d0d526573492df7df45847526d7b5169549485e715",
   "retained_skill_heads": 10,
@@ -15,10 +15,12 @@
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "ac8596137f18ed508a088df5402da98cab113833bb11d32f435dd21b31bd4843",
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "8d84030f5bb1a3f321f76f9dfe07c92a8211c19b3c853af756f83d41453d3f7f",
+      "output_sha256": "08d64192848d918a806d9aa2734f90e124c1c70ea682724d974fb7cd821518dc",
       "change": "Complete public source identity and exact corpus exclusion.",
       "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
+      "license_scope_category": "first-party-code",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source_relative": ".mcp.json",
@@ -58,10 +60,12 @@
       "source_relative": "README.md",
       "source_sha256": "11716c6bfa064f4c5e56897835eb8dd06cec835fe3803d60575933d151c0efb2",
       "path": "README.md",
-      "output_sha256": "f0af1e5822eaccca4cb285a4c352565f4716c876ee920ec2b13b680202784927",
+      "output_sha256": "e1547cef26ba45b14f5ebbc6b4f84302f1ab7d22b2762097b5f3aeb948c5df03",
       "change": "Full original onboarding and precise schema/empty/missing-data semantics and prerequisites.",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source_relative": "THIRD_PARTY_NOTICES.md",
@@ -103,10 +107,12 @@
       "source_relative": "mcp/oppia-research-compass/README.md",
       "source_sha256": "faa62f27a5abe7f91c9cfaa035d04bd436bae5bf9dbaaf7f59ae25bfcacc001f",
       "path": "mcp/oppia-research-compass/README.md",
-      "output_sha256": "faa62f27a5abe7f91c9cfaa035d04bd436bae5bf9dbaaf7f59ae25bfcacc001f",
+      "output_sha256": "95933cdc6d3039af0f488eb113c32bfde30d7fe8f19de00a056de18f7cee4d09",
       "change": "Byte-exact complete source retained",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "source_relative": "mcp/oppia-research-compass/SPEC.md",
@@ -416,14 +422,14 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "da7e4440078b572325d973499678ab421b6a01c62b3eabfcd7c8fa3b735359a1",
+      "sha256": "84bc88dbd629bbec53ec490212adf37628bd085033f9d2e1b1d51c5f43d04ac3",
       "change": "Original authorship, existing licenses, static adaptation and excluded private inputs.",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
     {
       "path": "plugin.json",
-      "sha256": "7a96c5c222b1bdc1a98d80f2030251e1ec6a6ee9ea77abc8f7d033bf79bc78b7",
+      "sha256": "2474b808e808dbb50c336f8c19e2275397dd95624bd6e61b15357036e0caf5f6",
       "change": "Portable identity.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
@@ -437,26 +443,30 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "9ba2911e65f4be21fe58548237e3b9717a4645e6804f006d6eabc891b1f3060c",
+      "sha256": "1b043f45f3ece89c04a9ddcd7857bd41ee2afa7fcf73e3bc8c9c85fa70d67379",
       "change": "Claude methods adapter, no automatic runtime.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "8cf0230136ae701764d66cc7cc70f731223eaa99b568b443fe1e09245ec4896c",
-      "bytes": 293,
+      "output_sha256": "0eb2f9920a0f6a654752c895787afb952830b39bd9b9d8d894cdb9186dc8861d",
+      "bytes": 420,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
+      "license_scope_category": "first-party-noncode",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "6ce09055df0ae52b81e7147fe375e9a6e728c1992c0f4fa865e6cd5a70069656",
+      "output_sha256": "4b005ddc50a50b292afdb0a3b17fa99f39ce3710bfa34fbe72d5806dde85b79f",
       "bytes": 22669,
       "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
+      "change": "New licensing metadata; no method/runtime body change.",
+      "disposition": "transformed",
+      "public_maintenance": "Expanded first-use usability correction; source hash retained."
     },
     {
       "path": "LICENSING.md",
@@ -574,5 +584,12 @@
     "operative_bodies_unchanged": true,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "expanded_first_use_patch": {
+    "base_public_commit": "73d7d44304570a47061873b454d3bd04c8dd49d7",
+    "previous_version": "0.4.2",
+    "change": "Document the actual empty and recipient-owned database setup without obsolete private paths or nonexistent scripts.",
+    "source_hashes_preserved": true,
+    "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
   }
 }

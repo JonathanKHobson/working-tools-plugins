@@ -4,7 +4,7 @@ First-party code uses **AGPL-3.0-only**. First-party docs, prompts, skills, meth
 
 Practical AI workflows and local tools by Kyle Hobson. Choose an individual package for design, video, teaching, research, writing, project work and solo-service operations. Each public edition includes its operative skill instructions, requirements, source and notices.
 
-**Start with the [installation guide](docs/install.md)**, or [browse Working Tools](https://working-tools.jkylehobson.chatgpt.site/). You do not need to install the whole collection.
+**Start with the [installation guide](docs/install.md)** or [choose a first workflow](docs/workflows.md), or [browse Working Tools](https://working-tools.jkylehobson.chatgpt.site/). You do not need to install the whole collection.
 
 | Your task | Package | What you bring |
 | --- | --- | --- |

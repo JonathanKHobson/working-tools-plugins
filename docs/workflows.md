@@ -1,0 +1,18 @@
+# Choose a first workflow
+
+Install the smallest package that serves the task. A skill guides the agent; a local runtime executes a bounded operation; an external app needs its own access. Saving a draft, exporting a file and publishing it are separate steps.
+
+| Your intended result | Start with | Supply | Inspect before continuing |
+| --- | --- | --- | --- |
+| A source-grounded design iteration | [Figma Design Workflow](../plugins/figma-design-workflow/) or [Stitch Design Toolkit](../plugins/stitch-design-studio/) | Exact source screen, intended change and authorized app access | Preserved copy/components, changed layers, rendered result and sync state. A brief alone is preparation. |
+| An edited video or course-media package | [Video Production Workflow](../plugins/video-production-workflow/) | Owned media, target audience, duration and output format; Python and FFmpeg | Probe/decode, frames, captions and listening. Course installation and platform publication need their separate owner. |
+| An editable artifact from a library | [Brand Templates](../plugins/brand-templates/), [Design Templates](../plugins/design-templates/) or [Video Templates](../plugins/video-templates/) | Brief and included or recipient-authorized source collection | Selected ID, source hash, guidance and editable output. Retrieval does not perform design adaptation or publication. |
+| A working local app or integration | [Development Studio](../plugins/development-studio/) and [Build MCP Apps](../plugins/build-mcp-apps/) | Task, repository, runtime and host constraints | Actual tool/resource response, missing/error states and rendered UI. Local simulation is separate from native host acceptance. |
+| An evidence-based professional document | [Writing Templates](../plugins/writing-templates/) and [Solo Service Operations](../plugins/solo-service-operations/) | Authorized sources, verified facts and task-specific records | Source fidelity, calculations, required unresolved inputs and final artifact. Sending needs its own authorized workflow. |
+| A playable scene or useful facilitation plan | [Game Creation Studio](../plugins/game-creation-studio/), [Workshop Facilitator](../plugins/workshop-facilitator/) or [Instructional Design Studio](../plugins/instructional-design-studio/) | Audience, time, objective, authority and participation constraints | Complete run card/materials, timing, optional participation and stop conditions. A prepared plan is not a live playtest or measured learning result. |
+
+For a runtime you can try without a provider account, start with Video's synthetic render, Survey's fictional instrument export, Data Visualization's sample dataset, or Brand's included fictional kits. Read the selected package's complete setup instructions first. Other libraries may require an external authorized collection; an empty or missing collection should be reported honestly.
+
+The maintained local ecosystem also contains broader course, content, portfolio, career and project-specific workflows. Their existence does not mean every implementation, private example, source library or third-party service is redistributed here. The [release registry](../catalog/packages.json) and [compatibility record](compatibility.md) define this public collection. The [licensing guide](licensing.md) explains code, methods, templates and ordinary output use.
+
+Stable skill IDs keep existing references working. Display labels and descriptions can improve without renaming folders, tool namespaces or established integrations. A future ID migration should identify a demonstrated discovery problem and provide compatibility guidance.

@@ -1,6 +1,6 @@
 # Current edition licensing
 
-For 0.2.1, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
+For this edition, [LICENSING.md](LICENSING.md) and [LICENSE-SCOPE.json](LICENSE-SCOPE.json) define the new first-party AGPL/CC scopes. First-party permissive-license wording below records prior grants, which remain valid. Underlying upstream terms and author attributions remain unchanged.
 
 ## Retained source attribution and prior grant record
 

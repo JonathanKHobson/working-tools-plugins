@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2
+
+Replace private installation instructions, complete the skill table, correct the MCP owner route and diagnose absent scan roots.
+
 ## 0.3.1
 
 Apply the Compass license model to this new edition of first-party contributions. Preserve all earlier grants and unchanged upstream notices. Add explicit file scopes, attribution and reserved-mark boundaries. Operative method, helper and runtime bodies are unchanged.
