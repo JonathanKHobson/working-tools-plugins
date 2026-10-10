@@ -146,3 +146,11 @@ Data Explorer passed 18 launcher/provider-source checks, nine store tests and re
 Claude's `install` command left an existing 0.1.3 installation unchanged and reported the available update. The supported `plugin update ... --scope local` path installed 0.1.4 with exact file parity. Use the original installation scope and verify the returned version.
 
 These checks establish the recorded package, local collection, helper and acquisition behavior. They do not establish every model-generated answer, native app rendering, optional provider, account integration or another computer's configuration. The unchanged runtime visuals retain their earlier scoped review; changed GitHub documentation was inspected at a desktop viewport.
+
+## Research Toolkit 1.1.1 verification
+
+The eight-method Research Toolkit release contains 103 files shared byte-for-byte with the canonical source. The maintained personal Codex installation matches those files and preserves 13 separately held provider and historical files. The five supplied research and Karpathy method files have an explicit author grant under CC BY-SA 4.0. Book-to-Skill support files are retained from the recorded upstream revision with their MIT license.
+
+The package checker, six compiler tests and shared package validator passed. A fresh isolated Codex session read the installed methods and correctly declined to infer causality from a fictional before/after study without a comparison group. A host context-budget warning limits what this sample proves about automatic skill suggestion. The optional Research Compass backend, publisher-installed extensions and real external research were not exercised by that task.
+
+All four [public release assets](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/research-methodology-local/v1.1.1%2Becosystem.20261010) were downloaded without authentication. The source ZIP's 103 members and the per-package source record match the strict canonical release manifest. Public marketplace acquisition is checked separately from this publication and personal-install receipt.

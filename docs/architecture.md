@@ -10,7 +10,7 @@ Licenses belong to packages and files. The root license covers newly authored re
 
 ## Release coverage gate
 
-Use `python3 scripts/packages.py build` for a development archive. Publication requires `python3 scripts/packages.py release`; version-tag CI runs that stricter command. It fails before building when an expected package, method or support file is missing, changed or unexplained.
+Use `python3 scripts/packages.py build` for a development archive. Publication requires `python3 scripts/packages.py release`; CI runs that stricter command for every push and pull request. It fails before building when an expected package, method or support file is missing, changed or unexplained.
 
 The existing registry still owns package versions and both generated marketplaces. Two reviewed records protect its coverage:
 
@@ -21,6 +21,6 @@ Public CI checks this committed source snapshot. Before publication, the maintai
 
 A successful release build writes `dist/source-release-manifest.json`, mapping components, canonical revisions, file hashes, versions and public destinations. After downloading the release ZIPs into a separate directory, place that manifest alongside them and run `python3 scripts/packages.py verify-archives --output <download-directory>`. This checks archive and member hashes without extracting or executing files.
 
-The reviewed inventory locks 31 canonical packages, including Research Toolkit. Writing Quality and UX match canonical source and the maintained personal installations. Discord and Oppia are excluded from current public source and discovery, with historical source and releases preserved in the [withdrawal record](compatibility.md#withdrawn-personal-offerings). Research Toolkit's author-supplied methods now have an explicit public grant; its release still requires native installation and public download verification. A passing source check does not establish every optional provider or model-generated result. Review each source relationship before changing the baseline; do not regenerate it from an incomplete public folder to make the gate pass.
+The reviewed inventory locks 31 canonical packages, including Research Toolkit. Writing Quality and UX match canonical source and the maintained personal installations. Discord and Oppia are excluded from current public source and discovery, with historical source and releases preserved in the [withdrawal record](compatibility.md#withdrawn-personal-offerings). Research Toolkit's author-supplied methods have an explicit public grant. Its released archive and all current package archives match the reviewed canonical file inventory; separate native-install and first-use results belong in the compatibility record. A passing source check does not establish every optional provider or model-generated result. Review each source relationship before changing the baseline; do not regenerate it from an incomplete public folder to make the gate pass.
 
 The maintained [Working Tools website source](https://github.com/JonathanKHobson/working-tools-site) has its own repository and deployment history. Historical Compass repositories retain legacy source, routes and downloads; new catalog work belongs in Working Tools.
