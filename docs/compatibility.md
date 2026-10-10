@@ -88,3 +88,20 @@ Social Content Studio 0.2.3 clarifies evidence checks for every factual clause. 
 Fresh Codex samples followed the tested factual and security boundaries. Codex, Claude Sonnet and Claude Opus each produced a scene independently counted at 27 words. After the security route correction, both Claude models rejected keyword stripping and described application-side action checks. These were static review samples; no exploit or production protection was tested.
 
 Social factuality remains a model-output risk: Sonnet added unsupported timing and Opus inferred “no ticket” from “free.” The focused Sonnet security sample also overstated how certainly a payload would affect an untested model. These results remain failures of those particular claims, despite successful installation and method retrieval. Review factual assertions and uncertainty before using generated output.
+
+## Portable MCP discovery corrections
+
+A portable root manifest takes precedence over compatibility manifests. Six packages declared their servers only through compatibility files, so installation could succeed without native tool discovery. Their corrected releases add root `mcp.json` while preserving the existing server identities, launchers and recipient-owned bindings. The package validator now rejects a compatibility declaration without matching portable server coverage.
+
+| Package | Corrected release | Verified files |
+| --- | --- | --- |
+| Reasoning Toolkit | [0.2.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/reasoning-studio/v0.2.3) | 62 |
+| Creative Toolkit | [0.3.4](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/creative-writing-studio/v0.3.4) | 169 |
+| Master Security Toolkit | [0.2.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/master-security-toolkit/v0.2.3) | 150 |
+| Prompt Playbook Studio | [0.2.2](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/prompt-playbook-studio/v0.2.2) | 107 |
+| Career Studio | [0.2.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/career-studio/v0.2.1) | 184 |
+| Marketing Strategy Studio | [0.3.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/marketing-strategy-studio/v0.3.1) | 1,138 |
+
+All 1,810 files matched canonical source, the maintained personal installation, the public source, and fresh native Codex and Claude marketplace installations. The six public ZIPs matched their release checksums, and both official manifest schemas passed. These results verify packaging and acquisition.
+
+A fresh Codex session using Reasoning Toolkit 0.2.3 made an actual `critical-review` call with a synthetic nonexistent snapshot ID. The backend returned its handled invalid-ID error, proving discovery and invocation without opening or writing a real review. This does not establish a complete review workflow, every optional backend, or recipient configuration on another computer. Existing private bindings and protected baseline services were preserved.
