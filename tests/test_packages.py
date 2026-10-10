@@ -15,6 +15,12 @@ class DistributionTest(unittest.TestCase):
   for rel in ['README.md','LICENSE','THIRD_PARTY_NOTICES.md','PROVENANCE.json']:(self.package/rel).write_text('{}' if rel.endswith('.json') else 'Fixture\n')
   skill=self.package/'skills/demo/SKILL.md';skill.parent.mkdir(parents=True);skill.write_text('---\nname: demo\ndescription: Synthetic demonstration.\n---\nRun a safe example.\n')
   for rel,value in zip(['.agents/plugins/marketplace.json','.claude-plugin/marketplace.json'],p.catalogs([self.record])):p.write_json(self.root/rel,value)
+  hashes={path.relative_to(self.package).as_posix():p.hashlib.sha256(path.read_bytes()).hexdigest() for path in p.files(self.package)}
+  digest=p.sibling_module('source_inventory').tree_digest
+  inventory={'id':'fixture','version':'1.0.0','canonical_source':{'id':'fixture','revision':{'kind':'sha256-distributable-tree-v1','sha256':digest(hashes)}},'files':hashes,'components':[{'id':'fixture:skills/demo/SKILL.md','kind':'skill','path':'skills/demo/SKILL.md'}],'excluded_source':{'files':0,'tree_sha256':digest({}),'dispositions':[]}}
+  p.write_json(self.root/'catalog/source-inventory.json',{'schema_version':1,'packages':[inventory]})
+  p.write_json(self.root/'catalog/coverage-baseline.json',{'schema_version':1,'entries':[{'id':'audit:fixture','canonical_owner':'fixture','disposition':'included','capability_effect':'Full synthetic fixture included.','expected_components':['fixture:skills/demo/SKILL.md'],'evidence':['synthetic audit fixture']}]})
+  p.write_json(self.root/'catalog/packages.json',{'schema_version':1,'packages':[self.record]})
  def test_build_is_deterministic(self):
   a=p.build([self.record],self.root/'one');b=p.build([self.record],self.root/'two');self.assertEqual(a,b)
  def test_escape_and_private_binding_are_rejected(self):
@@ -58,4 +64,32 @@ class DistributionTest(unittest.TestCase):
   manifest=p.read_json(self.package/'.codex-plugin/plugin.json');manifest['mcpServers']='../../outside.json'
   p.write_json(self.package/'.codex-plugin/plugin.json',manifest)
   self.assertTrue(any('MCP declaration path missing or escaping package' in e for e in p.validate_package(self.record)))
+ def test_release_emits_canonical_file_and_component_mapping(self):
+  out=self.root/'release'
+  p.release([self.record],out)
+  manifest=p.read_json(out/'source-release-manifest.json')
+  row=manifest['packages'][0]
+  self.assertEqual(row['canonical_source']['id'],'fixture')
+  self.assertIn('skills/demo/SKILL.md',row['included_files'])
+  self.assertEqual(row['components'][0]['id'],'fixture:skills/demo/SKILL.md')
+  self.assertIn('fixture/v1.0.0',row['destinations']['download'])
+  self.assertFalse(manifest['canonical_live_source_checked'])
+  self.assertTrue(p.verify_archives(out)['passed'])
+ def test_release_cannot_hide_removed_support_by_rebuilding(self):
+  (self.package/'README.md').unlink()
+  with self.assertRaisesRegex(ValueError,'missing file README.md'):
+   p.release([self.record],self.root/'release')
+  self.assertFalse((self.root/'release').exists())
+ def test_release_requires_inventory_even_when_development_build_works(self):
+  (self.root/'catalog/source-inventory.json').unlink()
+  p.build([self.record],self.root/'development')
+  with self.assertRaisesRegex(ValueError,'Release completeness gate failed'):
+   p.release([self.record],self.root/'release')
+ def test_changed_download_fails_release_manifest_verification(self):
+  out=self.root/'release';p.release([self.record],out)
+  archive=out/'fixture-1.0.0.zip'
+  with p.zipfile.ZipFile(archive,'w') as package:package.writestr('README.md','Altered download')
+  result=p.verify_archives(out)
+  self.assertFalse(result['passed'])
+  self.assertTrue(any('archive sha256 mismatch' in err for err in result['packages'][0]['errors']))
 if __name__=='__main__':unittest.main()

@@ -1,10 +1,17 @@
 """Validate reviewed packages and build deterministic distribution archives."""
 from __future__ import annotations
-import argparse,hashlib,json,re,stat,sys,zipfile
+import argparse,hashlib,importlib.util,json,re,stat,subprocess,sys,zipfile
 from pathlib import Path
 from urllib.parse import unquote
 ROOT=Path(__file__).resolve().parents[1]
 MARKETPLACE='working-tools'
+REPOSITORY='https://github.com/JonathanKHobson/working-tools-plugins'
+
+def sibling_module(name):
+ spec=importlib.util.spec_from_file_location(name,Path(__file__).with_name(name+'.py'))
+ module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+ return module
+
 # Agent Plugins 1.0.0 forbids undeclared top-level fields. Host-specific
 # fields belong in extensions or the host's compatibility manifest.
 PORTABLE_FIELDS={'$schema','name','version','description','author','homepage','repository','license','keywords','extensions'}
@@ -125,13 +132,77 @@ def build(records,out):
  (out/'SHA256SUMS').write_text(''.join(f"{r['sha256']}  {r['file']}\n" for r in receipts))
  return receipts
 
+def release(records,out,canonical_root=None):
+ errors=sibling_module('source_inventory').validate_inventory(ROOT,records,canonical_root)
+ if errors:raise ValueError('Release completeness gate failed:\n'+'\n'.join(errors))
+ receipts=build(records,out)
+ manifest=source_release_manifest(records,receipts,out)
+ manifest['canonical_live_source_checked']=canonical_root is not None
+ write_json(out/'source-release-manifest.json',manifest)
+ verification=verify_archives(out)
+ if not verification['passed']:raise ValueError(json.dumps(verification,indent=2))
+ return receipts
+
+def source_release_manifest(records,receipts,out):
+ inventory=read_json(ROOT/'catalog/source-inventory.json')
+ by_id={row['id']:row for row in inventory['packages']}
+ try:
+  commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True,stderr=subprocess.DEVNULL).strip()
+  dirty=bool(subprocess.check_output(['git','status','--porcelain','--untracked-files=normal'],cwd=ROOT,text=True))
+ except (OSError,subprocess.CalledProcessError):
+  commit=None;dirty=True
+ packages=[]
+ for receipt in receipts:
+  locked=by_id[receipt['id']]
+  actual=read_json(out/f"{receipt['id']}-{receipt['version']}.files.json")
+  if actual!=locked['files']:raise ValueError(f"{receipt['id']}: built archive differs from reviewed source inventory")
+  packages.append({
+   **receipt,
+   'canonical_source':locked['canonical_source'],
+   'components':locked['components'],
+   'included_files':actual,
+   'excluded_source':locked['excluded_source'],
+   'destinations':{
+    'source':REPOSITORY+'/tree/'+(commit if commit and not dirty else 'main')+'/plugins/'+receipt['id'],
+    'release':REPOSITORY+'/releases/tag/'+receipt['tag'],
+    'download':REPOSITORY+'/releases/download/'+receipt['tag']+'/'+receipt['file'],
+    'website':'https://working-tools.jkylehobson.chatgpt.site/'
+   }
+  })
+ return {
+  'schema_version':1,
+  'source_revision_semantics':'A canonical directory has no assumed Git revision. Its reviewed distributable tree is pinned by sorted path/content SHA256 records. Held scopes are accounted for separately.',
+  'assembly_commit':commit,'assembly_worktree_dirty':dirty,
+  'canonical_live_source_checked':False,
+  'registry_sha256':hashlib.sha256((ROOT/'catalog/packages.json').read_bytes()).hexdigest(),
+  'source_inventory_sha256':hashlib.sha256((ROOT/'catalog/source-inventory.json').read_bytes()).hexdigest(),
+  'coverage_baseline_sha256':hashlib.sha256((ROOT/'catalog/coverage-baseline.json').read_bytes()).hexdigest(),
+  'packages':packages
+ }
+
+def verify_archives(out):
+ manifest=read_json(out/'source-release-manifest.json')
+ verify=sibling_module('release_archive').verify_archive
+ results=[]
+ for record in manifest['packages']:
+  filename=record['file']
+  if Path(filename).name!=filename or not filename.endswith('.zip'):
+   raise ValueError('Invalid archive basename in release manifest')
+  result=verify(out/filename,record['included_files'],record['sha256'])
+  results.append({'id':record['id'],'version':record['version'],**result})
+ return {'passed':all(row['passed'] for row in results),'packages':results}
+
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['catalog','validate','build']);p.add_argument('--output',type=Path,default=ROOT/'dist');a=p.parse_args()
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('command',choices=['catalog','validate','build','release','verify-archives']);p.add_argument('--output',type=Path,default=ROOT/'dist');p.add_argument('--canonical-root',type=Path);a=p.parse_args()
  records=read_json(ROOT/'catalog/packages.json')['packages']
  if a.command=='catalog':
   for rel,value in zip(['.agents/plugins/marketplace.json','.claude-plugin/marketplace.json'],catalogs(records)):write_json(ROOT/rel,value)
   result={'generated':2,'packages':len(records)}
  elif a.command=='validate':result=validate(records)
+ elif a.command=='verify-archives':
+  result=verify_archives(a.output)
+  if not result['passed']:raise ValueError(json.dumps(result,indent=2))
+ elif a.command=='release':result=release(records,a.output,a.canonical_root)
  else:result=build(records,a.output)
  print(json.dumps(result,indent=2))
 if __name__=='__main__':

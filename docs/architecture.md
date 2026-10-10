@@ -7,3 +7,18 @@ Public CI builds entirely from this repository. It never needs the maintainer's 
 catalog/packages.json drives both marketplace formats. Package tags use `package-id/vVERSION`. Release assets contain deterministic ZIPs and checksums. The catalog Site consumes a reviewed projection and links back to GitHub; it is not automatically synchronized.
 
 Licenses belong to packages and files. The root license covers newly authored repository infrastructure and documentation only. Bundled third-party material keeps its own license and notices. Provider-owned services, client records, local authentication, restricted methods and private datasets are excluded. Release scope is recorded explicitly; a small subset is never presented as a complete Studio.
+
+## Release coverage gate
+
+Use `python3 scripts/packages.py build` for a development archive. Publication requires `python3 scripts/packages.py release`; version-tag CI runs that stricter command. It fails before building when an expected package, method or support file is missing, changed or unexplained.
+
+The existing registry still owns package versions and both generated marketplaces. Two reviewed records protect its coverage:
+
+- `catalog/coverage-baseline.json` preserves original audit IDs, current owners and explicit included, external, private, retired or blocked dispositions. Private identifiers are hashed; their named lineage stays in the maintainer's private audit.
+- `catalog/source-inventory.json` pins every included file, component entrypoint and canonical source revision. Directory-based sources use a SHA256 tree revision, not an invented Git commit. Held scopes retain their count, tree hash, reason and capability effect.
+
+Public CI checks this committed source snapshot. Before publication, the maintainer also runs `python3 scripts/packages.py release --canonical-root "$CANONICAL_PLUGINS"` against the canonical source directory. That detects new local packages, changed included files and drift in held scopes. Known owner-directory aliases can resolve locally; an explicitly declared external runtime alias is checked without copying its private destination.
+
+A successful release build writes `dist/source-release-manifest.json`, mapping components, canonical revisions, file hashes, versions and public destinations. After downloading the release ZIPs into a separate directory, place that manifest alongside them and run `python3 scripts/packages.py verify-archives --output <download-directory>`. This checks archive and member hashes without extracting or executing files.
+
+The initial inventory locks 28 reconciled packages. It deliberately leaves Writing Quality and UX source mismatches, Discord/Oppia withdrawal and the unreleased Research directory as failures. A passing unit test suite does not clear those publication holds. Resolve each named discrepancy and review the inventory diff before changing the baseline; do not regenerate it from an incomplete public folder to make the gate pass.
