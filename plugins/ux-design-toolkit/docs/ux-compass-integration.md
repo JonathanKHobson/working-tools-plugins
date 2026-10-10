@@ -4,7 +4,7 @@ UX Design Studio owns UXHC methods through `skills/ux-heuristic-compass/` and pa
 
 ## Local launch
 
-`.mcp.json` starts `scripts/compass_mcp.py ux-heuristic-compass`. The launcher reads `~/.config/studio-tools/compass.json`; configure the `ux-heuristic-compass` entry with absolute `interpreter` and `server` paths. Preserve the virtualenv Python entrypoint, rather than resolving its symlink to a base Python. The bridge does not install or download a backend. Missing mounts or bindings fail with a setup message.
+Portable `mcp.json` discovers `scripts/compass_mcp.py ux-heuristic-compass`; compatibility hosts retain `.mcp.json` for the same server. The launcher reads `~/.config/studio-tools/compass.json`; configure the `ux-heuristic-compass` entry with absolute `interpreter` and `server` paths. Preserve the virtualenv Python entrypoint, rather than resolving its symlink to a base Python. The bridge does not install or download a backend. Missing mounts or bindings fail with a setup message.
 
 The verified ARM Python 3.12 runtime carries `mcp==1.27.0` and `reportlab==4.5.0`. Keep the virtualenv, private binding, and source/data checkout outside distributable bundles. The server uses stdio; it has no persistent HTTP listener, OAuth, resources, prompts, or sampling route. Reload the host session after installation so its tool catalog refreshes.
 
