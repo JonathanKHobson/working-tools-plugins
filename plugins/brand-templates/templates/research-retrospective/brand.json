@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "research-retrospective",
+  "version": "0.2.1",
+  "name": "The Dated Record",
+  "summary": "An archival research identity that shows how a conclusion changed as evidence arrived, with chronology as its organizing device.",
+  "category": "Research & evidence",
+  "tags": [
+    "presentation",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "research-retrospective"
+  ],
+  "sourceTemplateNames": {
+    "research-retrospective": "Research Retrospective"
+  },
+  "templateVariations": [
+    {
+      "templateId": "research-retrospective",
+      "name": "Research Retrospective",
+      "format": "presentation",
+      "sourceHash": "151344ee4d1f73ade81d61f4de8d65c72165b9b9dacc02cc1e699a9ce2dcc82d",
+      "foundationSha256": "cdb9c27370706ceafc3dd9307d9aaa533dc7bb4d8e135f024665978c6a3fe703",
+      "designSpecSha256": "666267e37697eb47327a5e788a033c09df315674a7830fdecd1d32c75aaaa244",
+      "referenceDirectory": "references/research-retrospective"
+    }
+  ],
+  "sourceHash": "151344ee4d1f73ade81d61f4de8d65c72165b9b9dacc02cc1e699a9ce2dcc82d",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F5F3EC",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#242B28",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#923B2B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary",
+      "role": "secondary",
+      "hex": "#365145",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#DCE4DA",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Evidence panel",
+      "role": "surface-white",
+      "hex": "#FFFFFF",
+      "evidence": "Native ppt/slides/slide3.xml shape solidFill. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Dossier title and record propositions."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Historical explanation and current interpretation."
+    },
+    {
+      "role": "index",
+      "family": "Courier New",
+      "usage": "File labels, dates and evidence identifiers."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Dossier title and record propositions.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "research-retrospective",
+      "sourceFingerprint": "151344ee4d1f73ade81d61f4de8d65c72165b9b9dacc02cc1e699a9ce2dcc82d"
+    },
+    {
+      "role": "body",
+      "usage": "Historical explanation and current interpretation.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "research-retrospective",
+      "sourceFingerprint": "151344ee4d1f73ade81d61f4de8d65c72165b9b9dacc02cc1e699a9ce2dcc82d"
+    },
+    {
+      "role": "index",
+      "usage": "File labels, dates and evidence identifiers.",
+      "sourceFamily": "Courier New",
+      "sourceFamilySelected": "Courier New",
+      "renderFamily": "Cousine",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cousine/Cousine-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1da22250675fc4c42fcf3a9736c44bc0570516105331443b663fd5cfbd1412fe"
+        },
+        "bold": {
+          "path": "assets/fonts/cousine/Cousine-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "17c8a7245156d2253531c9e529474937b09d9f641c5ae7695c5e33f22822eef4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cousine/OFL.txt",
+      "licenseSha256": "b81c4d4dc0a9f72c9155e78187316e016e2012a8102468804173dc61468b906d",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Courier New is a separately licensed Microsoft/system font; not bundled. Open Courier-compatible monospaced substitute for proprietary Courier New.",
+      "sourceTemplateId": "research-retrospective",
+      "sourceFingerprint": "151344ee4d1f73ade81d61f4de8d65c72165b9b9dacc02cc1e699a9ce2dcc82d"
+    }
+  ],
+  "recognitionRules": [
+    "Use a dated rail and file identifiers throughout the dossier.",
+    "Pair Arial explanation with monospaced evidence codes.",
+    "Keep the archival cover image distinct from the reading field.",
+    "Separate duplicate exports from independent evidence.",
+    "Give the current conclusion a route back through earlier records."
+  ],
+  "writingLinks": [
+    {
+      "id": "V21",
+      "name": "Documentary collage",
+      "reason": "Archival dossier that tracks dated evidence and claim versions.",
+      "sourceTemplateId": "research-retrospective",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P45",
+          "name": "Documentary timeline",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "A conclusion has a history. Keep the dates where the reader can see them.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE DATED RECORD in Arial with a Courier file code and three short date ticks. No rubber-stamp approval mark.",
+  "invariants": [
+    "Use a dated rail and file identifiers throughout the dossier.",
+    "Pair Arial explanation with monospaced evidence codes.",
+    "Keep the archival cover image distinct from the reading field."
+  ],
+  "adaptations": [
+    "A short retrospective retains the turning-point records.",
+    "Long dossiers expand the index without rewriting earlier conclusions as if they were known from the start.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/research-retrospective.pdf",
+    "preview": "media/research-retrospective-guide.webp",
+    "markdown": "guides/research-retrospective.md"
+  },
+  "bundle": {
+    "href": "bundles/research-retrospective-brand-kit.zip",
+    "filename": "The Dated Record brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/research-retrospective-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/research-retrospective-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/research-retrospective-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

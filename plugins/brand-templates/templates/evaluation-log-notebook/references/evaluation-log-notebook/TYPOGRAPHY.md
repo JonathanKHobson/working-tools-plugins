@@ -1,0 +1,41 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `:root` · `base` · `assets/source/src/styles.css`: `{'font-family': 'Menlo,Consolas,monospace', 'font-size': '16px'}`.
+- `p` · `base` · `assets/source/src/styles.css`: `{'line-height': '1.7'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2.1rem,4.1vw,4.1rem)', 'line-height': '1.13', 'letter-spacing': '-.05em', 'font-weight': '400'}`.
+- `h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.15rem', 'font-weight': '400'}`.
+- `h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.35rem', 'line-height': '1.5', 'font-weight': '400'}`.
+- `.mast` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.eyebrow` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'text-transform': 'uppercase', 'letter-spacing': '.14em'}`.
+- `.question` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif', 'font-size': '1.35rem'}`.
+- `.scope` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `.runline` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.rail h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'letter-spacing': '.03em'}`.
+- `.rail p` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `.totals dd` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem'}`.
+- `.small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.to-top` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.section-heading h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem'}`.
+- `.controls label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.log-tools p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.log-tools button` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.entry-meta` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.category` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.evidence` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif', 'line-height': '1.65'}`.
+- `.evidence dt` · `base` · `assets/source/src/styles.css`: `{'font-family': 'Menlo,Consolas,monospace', 'font-size': '.875rem'}`.
+- `summary` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.detail-body` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `.detail-body strong` · `base` · `assets/source/src/styles.css`: `{'font-weight': '600'}`.
+- `.empty p` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `footer` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `footer p` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `.error h1` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.5rem'}`.
+- `h1` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'font-size': '2.2rem'}`.
+- `.entry h3` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'font-size': '1.2rem'}`.
+- `:root` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `h1` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '27pt'}`.
+- `p` · `@media print` · `assets/source/src/styles.css`: `{'line-height': '1.45'}`.
+- `.section-heading h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '17pt'}`.
+- `.entry h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '14pt'}`.

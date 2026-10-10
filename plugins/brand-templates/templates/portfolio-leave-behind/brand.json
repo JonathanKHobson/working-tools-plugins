@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "portfolio-leave-behind",
+  "version": "0.2.1",
+  "name": "Work to Keep",
+  "summary": "A portable portfolio identity that gives a reader a small, coherent sample they can revisit after a conversation.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "portfolio-leave-behind"
+  ],
+  "sourceTemplateNames": {
+    "portfolio-leave-behind": "Portfolio Leave Behind"
+  },
+  "templateVariations": [
+    {
+      "templateId": "portfolio-leave-behind",
+      "name": "Portfolio Leave Behind",
+      "format": "document",
+      "sourceHash": "923a51193c6260fc5a7a4ce1561de5066b94f34fbd9b6380126900b19162fb5b",
+      "foundationSha256": "469c97315a121950c6c8600f8c5df1c8313cc5801c8648f9264bc2cc12e65f35",
+      "designSpecSha256": "ee12dd527a272a9a11265c0608d8e506e9b0aa145717cf9564a1477e164835c7",
+      "referenceDirectory": "references/portfolio-leave-behind"
+    }
+  ],
+  "sourceHash": "923a51193c6260fc5a7a4ce1561de5066b94f34fbd9b6380126900b19162fb5b",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Case label slate",
+      "role": "primary",
+      "hex": "#38545F",
+      "evidence": "Native reference.docx word/styles.xml: style PortfolioLabel; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Case titles and editorial propositions."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica Neue",
+      "usage": "Contribution, metadata and sample explanation."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Case titles and editorial propositions.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "portfolio-leave-behind",
+      "sourceFingerprint": "923a51193c6260fc5a7a4ce1561de5066b94f34fbd9b6380126900b19162fb5b"
+    },
+    {
+      "role": "body",
+      "usage": "Contribution, metadata and sample explanation.",
+      "sourceFamily": "Helvetica Neue",
+      "sourceFamilySelected": "Helvetica Neue",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Helvetica Neue is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Helvetica Neue is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "portfolio-leave-behind",
+      "sourceFingerprint": "923a51193c6260fc5a7a4ce1561de5066b94f34fbd9b6380126900b19162fb5b"
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville project headings with Helvetica Neue explanatory copy.",
+    "Keep each case label close to its artifact.",
+    "Separate the sample, contribution and qualification in a compact reading order.",
+    "Use monochrome editorial structure so the work remains central.",
+    "Use slate-blue case labels above serif project titles; retain the two-column artifact/contribution arrangement."
+  ],
+  "writingLinks": [
+    {
+      "id": "V04",
+      "name": "Scene-led feature",
+      "reason": "Photographic case spreads that lead to a focused next conversation.",
+      "sourceTemplateId": "portfolio-leave-behind",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A small sample, with enough context to read it again.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use WORK TO KEEP in Baskerville with a small Helvetica edition label. No folder or bookmark icon.",
+  "invariants": [
+    "Use Baskerville project headings with Helvetica Neue explanatory copy.",
+    "Keep each case label close to its artifact.",
+    "Separate the sample, contribution and qualification in a compact reading order."
+  ],
+  "adaptations": [
+    "A single-sheet edition can contain one complete case.",
+    "A longer leave-behind repeats the same case anatomy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/portfolio-leave-behind.pdf",
+    "preview": "media/portfolio-leave-behind-guide.webp",
+    "markdown": "guides/portfolio-leave-behind.md"
+  },
+  "bundle": {
+    "href": "bundles/portfolio-leave-behind-brand-kit.zip",
+    "filename": "Work to Keep brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/portfolio-leave-behind-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/portfolio-leave-behind-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/portfolio-leave-behind-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

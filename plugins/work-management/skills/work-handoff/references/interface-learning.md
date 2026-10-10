@@ -1,0 +1,11 @@
+# Conditional interface learning handoff
+
+Use only after a selected browser/app task reveals a reusable interaction lesson or a repeated execution failure. Complete the user's deliverable first. A finished task is not an automatic history-capture trigger.
+
+Record the observed source/date, app/version or route, initial state, relevant control/selector, action, visible result or error, correction and verification limits in the owning project. Preserve a failed attempt when it explains the correction. Screenshot pixels, source code, request/persistence tests and real-user outcomes prove different things. For visual claims retain named anchors and matched starting states; nearby copy or a successful different branch cannot prove that the invoked control responded correctly.
+
+Before reuse, refresh current controls and state. Treat a recipe as conditional evidence rather than a guaranteed sequence; stop uncertain duplicate writes and reconcile the actual artifact using the existing browser-workflow-reliability owner. Keep tokens, cookies, private participant/client data and transient browser internals out of the method. Link the full reliability protocol when session ownership, retries or cleanup apply.
+
+For native publishing handoffs, include both the saved record and the reader-visible path when that distinction caused a real failure: target account, audience, schedule and timezone, rendered desktop/mobile/email views, and important link, button, survey-question or media destinations. A reachable URL or editor preview alone does not verify a useful destination or the committed schedule. Record current platform/account capabilities as observed, and route editorial feature choices to the content owner rather than turning one article's poll, image or CTA into a generic requirement.
+
+Propose a small recurring method correction to the existing app/domain skill owner only when the user-authorized scope permits it and the lesson generalizes. Preserve exact proof and known limits in its project. Do not install an automatic end-of-session hook, create another catalog, silently write memory or label the lesson human-accepted. Use evidence-review's feedback-to-method procedure for a selected correction that changes a recurring method.

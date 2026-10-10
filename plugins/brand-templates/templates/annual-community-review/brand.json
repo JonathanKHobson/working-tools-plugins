@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "annual-community-review",
+  "version": "0.2.1",
+  "name": "The Common Thread",
+  "summary": "A community review told as a newspaper: shared activity receives editorial weight without turning counts into impact claims.",
+  "category": "Community & culture",
+  "tags": [
+    "presentation",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "annual-community-review"
+  ],
+  "sourceTemplateNames": {
+    "annual-community-review": "Annual Community Review"
+  },
+  "templateVariations": [
+    {
+      "templateId": "annual-community-review",
+      "name": "Annual Community Review",
+      "format": "presentation",
+      "sourceHash": "71be3f8f840ff71c795782b6eada6ec99a957cadae68ffb98f5e4b5dd4c773df",
+      "foundationSha256": "3fceb4b80fd98cadb7cbd9eba6ac9b2c9c3562cecccffc76a856326c24191b68",
+      "designSpecSha256": "c2e620ccf44dba1860d6a2c19279fcf62f4efaca7f3578c0e24dd88cbfefa23c",
+      "referenceDirectory": "references/annual-community-review"
+    }
+  ],
+  "sourceHash": "71be3f8f840ff71c795782b6eada6ec99a957cadae68ffb98f5e4b5dd4c773df",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F5F2E9",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#242422",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#772831",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source slide 9 / big."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / big.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "annual-community-review",
+      "sourceFingerprint": "71be3f8f840ff71c795782b6eada6ec99a957cadae68ffb98f5e4b5dd4c773df"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "annual-community-review",
+      "sourceFingerprint": "71be3f8f840ff71c795782b6eada6ec99a957cadae68ffb98f5e4b5dd4c773df"
+    }
+  ],
+  "recognitionRules": [
+    "Set the Georgia masthead above paired horizontal rules, with issue information aligned to its right.",
+    "Use narrow narrative columns beside a workbench illustration rather than a grid of corporate statistic cards.",
+    "Make large section numbers a reading route; burgundy identifies bylines and editorial emphasis.",
+    "Keep participation counts separate from repair or learning outcomes."
+  ],
+  "writingLinks": [
+    {
+      "id": "V17",
+      "name": "News brief",
+      "reason": "Leads with recorded activity and keeps self-report separate from demonstrated community outcomes.",
+      "sourceTemplateId": "annual-community-review",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A year of small repairs deserves a careful record.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use the full Georgia masthead with a thick-over-thin rule pair. No standalone emblem is necessary.",
+  "invariants": [
+    "Set the Georgia masthead above paired horizontal rules, with issue information aligned to its right.",
+    "Use narrow narrative columns beside a workbench illustration rather than a grid of corporate statistic cards.",
+    "Make large section numbers a reading route; burgundy identifies bylines and editorial emphasis."
+  ],
+  "adaptations": [
+    "A one-page issue may retain one image, one count and one attributed story.",
+    "Use black-only paired rules in economical print editions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/annual-community-review.pdf",
+    "preview": "media/annual-community-review-guide.webp",
+    "markdown": "guides/annual-community-review.md"
+  },
+  "bundle": {
+    "href": "bundles/annual-community-review-brand-kit.zip",
+    "filename": "The Common Thread brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/annual-community-review-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/annual-community-review-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/annual-community-review-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "client-proposal-scope-brief",
+  "name": "Clear Terms Studio",
+  "summary": "A proposal identity organized around the decision, deliverable and acceptance conditions a client must understand.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Title."
+    }
+  ],
+  "recognitionRules": [
+    "Place the proposal identifier, version and date above the title.",
+    "Use numbered decision-and-terms sections with clear text tables.",
+    "Keep scope, responsibility and acceptance criteria visually separate.",
+    "Use black typography and generous table spacing to make commitments inspectable."
+  ],
+  "voice": {
+    "traits": [
+      "direct",
+      "bounded",
+      "dependable"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Here is the work, the boundary and what completion will look like.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use CLEAR TERMS STUDIO in bold Arial with a small monospaced proposal number. No signature flourish or seal.",
+  "invariants": [
+    "Place the proposal identifier, version and date above the title.",
+    "Use numbered decision-and-terms sections with clear text tables.",
+    "Keep scope, responsibility and acceptance criteria visually separate."
+  ],
+  "adaptations": [
+    "Short proposals can collapse sections but must retain deliverables and acceptance.",
+    "Long scopes move detailed inventories to an appendix.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

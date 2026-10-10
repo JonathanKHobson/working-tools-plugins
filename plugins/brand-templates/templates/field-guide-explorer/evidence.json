@@ -1,0 +1,267 @@
+{
+  "profile": {
+    "id": "field-guide-explorer",
+    "name": "Open Field Atlas",
+    "templateIds": [
+      "field-guide-explorer"
+    ],
+    "category": "Research & evidence",
+    "summary": "A digital field-guide identity that uses cool paper, strong wayfinding and small gold signals to help readers move between entries.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#E4EDF0",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#243442",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#335A75",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Ornamental accent",
+        "role": "ornament",
+        "hex": "#C4A767",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Accent Text",
+        "role": "accent-text",
+        "hex": "#806624",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#EEF3F4",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Structural rule",
+        "role": "rule",
+        "hex": "#9AAFB8",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Space Grotesk",
+        "usage": "CSS alias Space resolves to fonts/spacegrotesk/font.ttf; entry titles and primary labels."
+      },
+      {
+        "role": "body",
+        "family": "Source Sans 3",
+        "usage": "CSS alias Source resolves to fonts/sourcesans3/font.ttf; field-guide reading text."
+      }
+    ],
+    "recognitionRules": [
+      "Use slate-blue reading fields with restrained gold highlights.",
+      "Keep the display face for entry titles and clear sans-serif text for detail.",
+      "Give each entry a stable local label and route back to the index.",
+      "Separate observations, practical guidance and source references."
+    ],
+    "voice": {
+      "traits": [
+        "exploratory",
+        "structured",
+        "attentive"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Open an entry. Notice the detail. Carry one useful question outside.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use OPEN FIELD ATLAS in the source display face with an open L-shaped corner and a small index dot. Avoid a compass rose.",
+    "invariants": [
+      "Use slate-blue reading fields with restrained gold highlights.",
+      "Keep the display face for entry titles and clear sans-serif text for detail.",
+      "Give each entry a stable local label and route back to the index."
+    ],
+    "adaptations": [
+      "Mobile entries stack their information in the same order.",
+      "Printable entries retain index labels and source notes.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "field-guide-explorer",
+      "displayName": "Field Guide Explorer",
+      "format": "site",
+      "nameSignals": [
+        "Field Guide Explorer"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5",
+      "evidence": [
+        "installed-skills/artifact-template-studio-field-guide-explorer/SKILL.md",
+        "installed-skills/artifact-template-studio-field-guide-explorer/DESIGN.md",
+        "installed-skills/artifact-template-studio-field-guide-explorer/design/foundations.json",
+        "installed-skills/artifact-template-studio-field-guide-explorer/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-3",
+          "location": "styles/main.css:body",
+          "observation": "{'margin': '0', 'font': '20px/1.45 var(--body)'}"
+        },
+        {
+          "id": "source-19",
+          "location": "styles/main.css:.masthead",
+          "observation": "{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '32px', 'border-bottom': '1px solid var(--rule)', 'min-height': '76px'}"
+        },
+        {
+          "id": "source-36",
+          "location": "styles/main.css:.hero",
+          "observation": "{'display': 'grid', 'grid-template-columns': '1.17fr 1fr', 'gap': '36px', 'align-items': 'center'}"
+        },
+        {
+          "id": "source-126",
+          "location": "styles/main.css:.hero",
+          "observation": "{'gap': '24px', 'grid-template-columns': '1fr 1fr'}"
+        },
+        {
+          "id": "source-141",
+          "location": "styles/main.css:body",
+          "observation": "{'font-size': '18px'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/field-guide-explorer-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#243442",
+        "background": "#E4EDF0",
+        "contrastRatio": 10.74,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "field-guide-explorer",
+      "name": "Field Guide Explorer",
+      "format": "site",
+      "sourceHash": "4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5",
+      "foundationSha256": "4b53527c554bf5f90d47470c2b73d8d995bcadd24439ec826ad27faeccbdbd70",
+      "designSpecSha256": "7807bea4765cf97312b37ee443e8eee853ca98c1082ae4fe51a038de55db622c",
+      "referenceDirectory": "references/field-guide-explorer"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use OPEN FIELD ATLAS in the source display face with an open L-shaped corner and a small index dot. Avoid a compass rose.",
+    "productionMethod": "Brand-specific outlined typography with atlas-corner source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Space Grotesk",
+      "renderFamily": "Space Grotesk",
+      "decision": "Exact licensed source family for the source role. Exact OFL family already shipped by a source template; variable source is instanced for static rendering.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": 32,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "CSS alias Space resolves to fonts/spacegrotesk/font.ttf; entry titles and primary labels.",
+      "sourceFamily": "Space Grotesk",
+      "sourceFamilySelected": "Space Grotesk",
+      "renderFamily": "Space Grotesk",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/space-grotesk/SpaceGrotesk-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "9b62b0f79a5b83c54ed17c62c583198fc65eaa7bc97953ff1786f7303b521122"
+        },
+        "bold": {
+          "path": "assets/fonts/space-grotesk/SpaceGrotesk-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7b7e8af39abd9aa40113fc010b7b915271137dace20c4c8f5b667cd4ecb09444"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/space-grotesk/OFL.txt",
+      "licenseSha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family already shipped by a source template; variable source is instanced for static rendering.",
+      "sourceTemplateId": "field-guide-explorer",
+      "sourceFingerprint": "4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5"
+    },
+    {
+      "role": "body",
+      "usage": "CSS alias Source resolves to fonts/sourcesans3/font.ttf; field-guide reading text.",
+      "sourceFamily": "Source Sans 3",
+      "sourceFamilySelected": "Source Sans 3",
+      "renderFamily": "Atlas Reader Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "5d69e6cdbda35cdfaabeb080c150c208602fe5b3d706a9695af4c2a79e28cd8a"
+        },
+        "bold": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "c4614a244fc3305921e4d700a4309dd136d32dce1a066a59628755796149220e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/atlas-reader-sans/OFL.txt",
+      "licenseSha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Uses the exact OFL Source Sans 3 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "sourceTemplateId": "field-guide-explorer",
+      "sourceFingerprint": "4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

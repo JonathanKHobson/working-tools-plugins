@@ -1,0 +1,160 @@
+{
+  "id": "interactive-demo-companion",
+  "name": "Demo Bench",
+  "summary": "A demonstration identity that makes a local prototype inspectable through clear instructions, expected behavior and visible boundaries.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#EBECE6",
+      "evidence": ":root --paper; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#172937",
+      "evidence": ":root --ink; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#254DCC",
+      "evidence": ":root --blue; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#BF421C",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    },
+    {
+      "name": "Rule",
+      "role": "rule",
+      "hex": "#91A0AA",
+      "evidence": ":root --rule; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Support",
+      "role": "support",
+      "hex": "#FFFFFF",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arimo",
+      "usage": "Headings, controls and ordinary explanation."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Reading text and instructions."
+    },
+    {
+      "role": "code",
+      "family": "Courier Prime",
+      "usage": "Source alias CourierPrime; technical cues and demonstration values."
+    }
+  ],
+  "recognitionRules": [
+    "Use navy reading text with rust emphasis and blue interactive states.",
+    "Pair Arimo explanation with Courier Prime technical cues.",
+    "Keep the demo controls separate from the interpretation.",
+    "Show the starting state and reset path before asking the reader to experiment."
+  ],
+  "voice": {
+    "traits": [
+      "curious",
+      "instructive",
+      "exact"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Try one change. Watch what happens. Reset and compare.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use DEMO BENCH in Arimo with a small monospaced command-like underline. No play-button logo; the identity is about inspection, not passive viewing.",
+  "invariants": [
+    "Use navy reading text with rust emphasis and blue interactive states.",
+    "Pair Arimo explanation with Courier Prime technical cues.",
+    "Keep the demo controls separate from the interpretation."
+  ],
+  "adaptations": [
+    "A printed companion replaces interaction with a numbered sequence of states.",
+    "Keep the reset cue visible in compact layouts.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arimo",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arimo",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "code",
+      "sourceFamily": "Courier Prime",
+      "renderFamily": "Courier Prime",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/courier-prime/CourierPrime-Regular.ttf",
+      "bold": "assets/fonts/courier-prime/CourierPrime-Bold.ttf",
+      "license": "assets/fonts/courier-prime/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

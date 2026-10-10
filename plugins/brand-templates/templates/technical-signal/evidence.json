@@ -1,0 +1,260 @@
+{
+  "profile": {
+    "id": "technical-signal",
+    "name": "The Technical Record",
+    "templateIds": [
+      "technical-signal"
+    ],
+    "category": "Portfolio & career",
+    "summary": "A career identity that presents technical work through concrete responsibilities, methods and inspectable results.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#171B20",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Technical focus",
+        "role": "primary",
+        "hex": "#142D41",
+        "evidence": "Native word/styles.xml Heading2 and TSHeadline. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      },
+      {
+        "name": "Contact metadata",
+        "role": "secondary-text",
+        "hex": "#47535D",
+        "evidence": "Native word/styles.xml TSNotice/TSDates/TSContext. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      },
+      {
+        "name": "Name ink",
+        "role": "display-ink",
+        "hex": "#000000",
+        "evidence": "Native word/styles.xml Title/Heading1. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Arial",
+        "usage": "Titles and short section openings; source used style TSRole."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style TSRole."
+      }
+    ],
+    "recognitionRules": [
+      "Use a clear Arial name and focus hierarchy.",
+      "Reserve Courier New for technical identifiers, not whole paragraphs.",
+      "Group relevant experience with readable dates and role labels.",
+      "Use textual evidence instead of proficiency bars or keyword clouds."
+    ],
+    "voice": {
+      "traits": [
+        "precise",
+        "practical",
+        "credible"
+      ],
+      "principles": [
+        "Name the work and the contribution before describing personal qualities.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Show the system, the contribution and the evidence that it worked.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "I made this part; the team decided what happened next.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use THE TECHNICAL RECORD in Arial with a small Courier identifier. No terminal prompt icon or code-bracket badge.",
+    "invariants": [
+      "Use a clear Arial name and focus hierarchy.",
+      "Reserve Courier New for technical identifiers, not whole paragraphs.",
+      "Group relevant experience with readable dates and role labels."
+    ],
+    "adaptations": [
+      "Tailor the opening focus to the role while retaining factual experience.",
+      "Keep technical terms only when they clarify the work.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "technical-signal",
+      "displayName": "Technical Signal",
+      "format": "document",
+      "nameSignals": [
+        "Avery Rivera",
+        "Summary",
+        "Projects",
+        "Experience",
+        "Skills",
+        "Education"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "509bcb3256c5c3837ff2123c9e29d08a8e51fc71e509ab8f8efa97c1f17c5477",
+      "evidence": [
+        "installed-skills/artifact-template-studio-technical-signal/SKILL.md",
+        "installed-skills/artifact-template-studio-technical-signal/DESIGN.md",
+        "installed-skills/artifact-template-studio-technical-signal/design/foundations.json",
+        "installed-skills/artifact-template-studio-technical-signal/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 5, 'basedOn': None, 'font': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': None, 'color': '#171B20', 'spaceBeforePt': 0.0, 'spaceAfterPt': 2.0, 'lineSpacingPt': None, 'lineSpacingMultiplier': 1."
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 5, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 11.5, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 8.0, 'spaceAfterPt': 4.0, 'lineSpacingPt': None, 'lineSpacingMultipl"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 2, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 11.5, 'bold': True, 'italic': None, 'color': '#142D41', 'spaceBeforePt': 5.0, 'spaceAfterPt': 2.0, 'lineSpacingPt': None, 'lineSpacingMultipl"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 28.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 2.0, 'lineSpacingPt': None, 'lineSpacingMultiplier': 1"
+        },
+        {
+          "id": "source-5",
+          "location": "used style TSNotice",
+          "observation": "{'id': 'TSNotice', 'name': 'TS Notice', 'usedParagraphs': 1, 'basedOn': None, 'font': 'Arial', 'sizePt': 10.0, 'bold': False, 'italic': None, 'color': '#47535D', 'spaceBeforePt': 0.0, 'spaceAfterPt': 4.0, 'lineSpacingPt': None, 'lineSpacingMultiplier"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/technical-signal.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#171B20",
+        "background": "#FFFFFF",
+        "contrastRatio": 17.3,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "technical-signal",
+      "name": "Technical Signal",
+      "format": "document",
+      "sourceHash": "509bcb3256c5c3837ff2123c9e29d08a8e51fc71e509ab8f8efa97c1f17c5477",
+      "foundationSha256": "8608bf0c0c110121f1e93ba8b370b45c4fc24dcba8f61cd34afb7513affbad4f",
+      "designSpecSha256": "d3dd49eabaa44e1a582f92a8674f49d9bd67d9f7e4b1e5db79784a9a15d23173",
+      "referenceDirectory": "references/technical-signal"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use THE TECHNICAL RECORD in Arial with a small Courier identifier. No terminal prompt icon or code-bracket badge.",
+    "productionMethod": "Brand-specific outlined typography with technical-index source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style TSRole.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "technical-signal",
+      "sourceFingerprint": "509bcb3256c5c3837ff2123c9e29d08a8e51fc71e509ab8f8efa97c1f17c5477"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style TSRole.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "technical-signal",
+      "sourceFingerprint": "509bcb3256c5c3837ff2123c9e29d08a8e51fc71e509ab8f8efa97c1f17c5477"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

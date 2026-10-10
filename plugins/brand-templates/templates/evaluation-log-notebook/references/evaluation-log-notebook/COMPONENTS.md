@@ -1,0 +1,125 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/src/styles.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `a` · `base` · `assets/source/src/styles.css`: `{'color': 'inherit', 'text-underline-offset': '.3em'}`.
+- `button,input,select` · `base` · `assets/source/src/styles.css`: `{'font': 'inherit'}`.
+- `button,select` · `base` · `assets/source/src/styles.css`: `{'cursor': 'pointer'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'border': '1px solid var(--accent)', 'background': 'transparent', 'color': 'var(--accent)', 'padding': '.65rem .85rem', 'min-height': '44px'}`.
+- `button:hover` · `base` · `assets/source/src/styles.css`: `{'background': 'var(--accent)', 'color': 'var(--paper)'}`.
+- `input,select` · `base` · `assets/source/src/styles.css`: `{'width': '100%', 'padding': '.7rem .6rem', 'background': 'var(--paper)', 'border': '1px solid var(--rule)', 'color': 'var(--ink)', 'min-height': '44px'}`.
+- `input::placeholder` · `base` · `assets/source/src/styles.css`: `{'color': '#a7bfaa'}`.
+- `button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible` · `base` · `assets/source/src/styles.css`: `{'outline': '3px solid var(--meta)', 'outline-offset': '4px'}`.
+- `p` · `base` · `assets/source/src/styles.css`: `{'line-height': '1.7', 'margin': '.6rem 0 1.2rem'}`.
+- `h1,h2,h3` · `base` · `assets/source/src/styles.css`: `{'margin': '0', 'overflow-wrap': 'anywhere'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2.1rem,4.1vw,4.1rem)', 'line-height': '1.13', 'letter-spacing': '-.05em', 'max-width': '19ch', 'font-weight': '400'}`.
+- `h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.15rem', 'font-weight': '400'}`.
+- `h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.35rem', 'line-height': '1.5', 'font-weight': '400'}`.
+- `main,header,section,aside,article` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `p,dd,span,summary` · `base` · `assets/source/src/styles.css`: `{'overflow-wrap': 'anywhere'}`.
+- `.mast` · `base` · `assets/source/src/styles.css`: `{'border-bottom': '1px solid var(--rule)', 'padding': '1.25rem 4vw', 'display': 'flex', 'gap': '1rem', 'justify-content': 'space-between', 'font-size': '.875rem', 'color': 'var(--accent)'}`.
+- `.wordmark` · `base` · `assets/source/src/styles.css`: `{'text-decoration': 'none'}`.
+- `.intro` · `base` · `assets/source/src/styles.css`: `{'padding': '3.5rem 4vw 2rem', 'border-bottom': '1px solid var(--rule)'}`.
+- `.eyebrow` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'text-transform': 'uppercase', 'letter-spacing': '.14em', 'color': 'var(--meta)', 'margin': '0 0 1rem'}`.
+- `.question` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif', 'font-size': '1.35rem', 'max-width': '56ch', 'margin': '1.5rem 0 .8rem'}`.
+- `.scope` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif', 'max-width': '78ch', 'margin': '0 0 2rem'}`.
+- `.runline` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '1rem 3rem', 'flex-wrap': 'wrap', 'font-size': '.875rem', 'color': 'var(--meta)'}`.
+- `.workspace` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(240px,1fr) minmax(0,2.4fr)', 'max-width': '1600px', 'margin': 'auto'}`.
+- `.rail` · `base` · `assets/source/src/styles.css`: `{'padding': '2.5rem 2.5vw 2.5rem 4vw', 'border-right': '1px solid var(--rule)'}`.
+- `.rail section` · `base` · `assets/source/src/styles.css`: `{'margin-bottom': '2.5rem'}`.
+- `.rail h2` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--meta)', 'font-size': '.875rem', 'letter-spacing': '.03em', 'margin-bottom': '1.2rem'}`.
+- `.rail p` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `.totals` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.totals div` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'padding': '.45rem 0', 'border-bottom': '1px dotted var(--rule)', 'gap': '1rem'}`.
+- `.totals dd` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem', 'color': 'var(--accent)', 'margin': '0'}`.
+- `.small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.decision` · `base` · `assets/source/src/styles.css`: `{'border-left': '3px solid var(--accent)', 'padding-left': '1rem'}`.
+- `.to-top` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.log` · `base` · `assets/source/src/styles.css`: `{'padding': '2.5rem 4vw 2.5rem 2.5vw', 'scroll-margin': '1rem'}`.
+- `.section-heading` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem', 'align-items': 'baseline', 'margin-bottom': '1.5rem'}`.
+- `.section-heading h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem'}`.
+- `.controls` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '1rem'}`.
+- `.controls label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'display': 'grid', 'gap': '.5rem'}`.
+- `.search` · `base` · `assets/source/src/styles.css`: `{'grid-column': '1/-1'}`.
+- `.controls button` · `base` · `assets/source/src/styles.css`: `{'justify-self': 'start', 'align-self': 'end'}`.
+- `.log-tools` · `base` · `assets/source/src/styles.css`: `{'margin': '1.25rem 0 2rem', 'display': 'flex', 'flex-wrap': 'wrap', 'gap': '.75rem', 'align-items': 'center'}`.
+- `.log-tools p` · `base` · `assets/source/src/styles.css`: `{'width': '100%', 'font-size': '.875rem', 'color': 'var(--meta)', 'margin': '0 0 .3rem'}`.
+- `.log-tools button` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.entry` · `base` · `assets/source/src/styles.css`: `{'padding': '1.8rem 0 2rem', 'border-top': '1px solid var(--rule)'}`.
+- `.entry-meta` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.8rem 1.5rem', 'flex-wrap': 'wrap', 'align-items': 'center', 'margin-bottom': '1rem', 'font-size': '.875rem', 'color': 'var(--meta)'}`.
+- `.state` · `base` · `assets/source/src/styles.css`: `{'border': '1px solid var(--rule)', 'padding': '.15rem .55rem', 'margin-left': 'auto', 'color': 'var(--ink)'}`.
+- `.failed` · `base` · `assets/source/src/styles.css`: `{'border-color': '#edb2a8', 'color': '#edb2a8'}`.
+- `.needs-review` · `base` · `assets/source/src/styles.css`: `{'border-color': 'var(--meta)', 'color': 'var(--meta)'}`.
+- `.not-run` · `base` · `assets/source/src/styles.css`: `{'border-style': 'dashed'}`.
+- `.passed` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--accent)'}`.
+- `.category` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'color': 'var(--accent)', 'margin': '.4rem 0 1.2rem'}`.
+- `.evidence` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '8rem minmax(0,1fr)', 'gap': '.65rem 1rem', 'font-family': 'system-ui,sans-serif', 'line-height': '1.65'}`.
+- `.evidence dt` · `base` · `assets/source/src/styles.css`: `{'font-family': 'Menlo,Consolas,monospace', 'font-size': '.875rem', 'color': 'var(--meta)'}`.
+- `.evidence dd` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.missing` · `base` · `assets/source/src/styles.css`: `{'font-style': 'italic'}`.
+- `summary` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'cursor': 'pointer', 'padding': '.8rem 0', 'min-height': '44px', 'color': 'var(--accent)'}`.
+- `.detail-body` · `base` · `assets/source/src/styles.css`: `{'padding': '.4rem 1rem', 'background': 'var(--panel)', 'font-family': 'system-ui,sans-serif'}`.
+- `.detail-body strong` · `base` · `assets/source/src/styles.css`: `{'font-weight': '600', 'color': 'var(--meta)'}`.
+- `.empty` · `base` · `assets/source/src/styles.css`: `{'border-block': '1px dashed var(--rule)', 'padding': '2rem 0'}`.
+- `.empty p` · `base` · `assets/source/src/styles.css`: `{'font-family': 'system-ui,sans-serif'}`.
+- `footer` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--rule)', 'padding': '2rem 4vw', 'display': 'grid', 'grid-template-columns': '1fr 2fr', 'gap': '2rem', 'font-size': '.875rem'}`.
+- `footer>span` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--accent)'}`.
+- `footer p` · `base` · `assets/source/src/styles.css`: `{'margin': '0', 'max-width': '70ch', 'font-family': 'system-ui,sans-serif'}`.
+- `.skip` · `base` · `assets/source/src/styles.css`: `{'position': 'absolute', 'left': '1rem', 'top': '-8rem', 'background': 'var(--meta)', 'color': 'var(--paper)', 'padding': '1rem', 'z-index': '5'}`.
+- `.skip:focus` · `base` · `assets/source/src/styles.css`: `{'top': '1rem'}`.
+- `.boot,.error` · `base` · `assets/source/src/styles.css`: `{'padding': '3rem 4vw'}`.
+- `.error` · `base` · `assets/source/src/styles.css`: `{'max-width': '65rem'}`.
+- `.error h1` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.5rem', 'margin-bottom': '2rem'}`.
+- `.workspace` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr'}`.
+- `.rail` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'border-right': '0', 'border-bottom': '1px solid var(--rule)', 'padding': '2rem 5vw', 'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '1.5rem'}`.
+- `.rail section` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.rail .decision` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'grid-column': '1/-1'}`.
+- `.log` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'padding': '2rem 5vw'}`.
+- `.intro` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'padding': '2.5rem 5vw 2rem'}`.
+- `.mast` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'padding': '1rem 5vw', 'flex-wrap': 'wrap'}`.
+- `.to-top` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.section-heading` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'flex-wrap': 'wrap'}`.
+- `footer` · `@media (max-width:850px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '1rem'}`.
+- `.rail` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr'}`.
+- `.controls` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr'}`.
+- `.controls label` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'grid-column': 'auto'}`.
+- `.evidence` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '.2rem'}`.
+- `.evidence dd` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'margin-bottom': '.8rem'}`.
+- `.entry-meta` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'gap': '.65rem'}`.
+- `.state` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'margin-left': '0'}`.
+- `.runline` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.runline span` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'display': 'block', 'margin-top': '.7rem'}`.
+- `h1` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'font-size': '2.2rem'}`.
+- `.log-tools button` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'width': '100%'}`.
+- `button` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'max-width': '100%', 'white-space': 'normal'}`.
+- `.entry h3` · `@media (max-width:540px)` · `assets/source/src/styles.css`: `{'font-size': '1.2rem'}`.
+- `body` · `@media print` · `assets/source/src/styles.css`: `{'background': 'white'}`.
+- `.mast,.intro,.rail,.entry,footer` · `@media print` · `assets/source/src/styles.css`: `{'border-color': '#526554'}`.
+- `.mast` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 0 5mm'}`.
+- `.intro` · `@media print` · `assets/source/src/styles.css`: `{'padding': '8mm 0'}`.
+- `h1` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '27pt', 'max-width': 'none'}`.
+- `.workspace` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.rail` · `@media print` · `assets/source/src/styles.css`: `{'border-right': '0', 'padding': '7mm 0', 'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '5mm'}`.
+- `.rail section` · `@media print` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.rail .decision` · `@media print` · `assets/source/src/styles.css`: `{'grid-column': '1/-1'}`.
+- `.log` · `@media print` · `assets/source/src/styles.css`: `{'padding': '7mm 0'}`.
+- `.controls,.log-tools button,.skip,.to-top` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.log-tools` · `@media print` · `assets/source/src/styles.css`: `{'margin': '3mm 0'}`.
+- `.entry` · `@media print` · `assets/source/src/styles.css`: `{'break-inside': 'avoid', 'padding': '5mm 0'}`.
+- `.detail-body` · `@media print` · `assets/source/src/styles.css`: `{'background': 'transparent', 'padding': '0'}`.
+- `.detail-body p` · `@media print` · `assets/source/src/styles.css`: `{'margin': '.3rem 0'}`.
+- `.eyebrow,.mast,.runline,.rail h2,.totals dd,.entry-meta,.state,.category,.evidence dt,summary,.detail-body strong,.log-tools p,footer>span` · `@media print` · `assets/source/src/styles.css`: `{'color': '#17291f'}`.
+- `.state` · `@media print` · `assets/source/src/styles.css`: `{'border-color': '#526554'}`.
+- `.evidence` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '23mm 1fr'}`.
+- `.scope` · `@media print` · `assets/source/src/styles.css`: `{'margin-bottom': '3mm'}`.
+- `p` · `@media print` · `assets/source/src/styles.css`: `{'line-height': '1.45'}`.
+- `footer` · `@media print` · `assets/source/src/styles.css`: `{'padding': '5mm 0', 'display': 'block'}`.
+- `.section-heading h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '17pt'}`.
+- `.entry h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '14pt'}`.
+- `summary` · `@media print` · `assets/source/src/styles.css`: `{'padding': '2mm 0', 'min-height': '0'}`.
+- `footer` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+
+Media/font files: none.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

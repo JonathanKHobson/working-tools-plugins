@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "art-deco-workshop-poster",
+  "version": "0.2.1",
+  "name": "Cedar House Workshops",
+  "summary": "A workshop identity with formal Deco lettering and practical invitations, designed to make a small craft session feel intentional.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "art-deco-workshop-poster"
+  ],
+  "sourceTemplateNames": {
+    "art-deco-workshop-poster": "Art Deco Workshop Poster"
+  },
+  "templateVariations": [
+    {
+      "templateId": "art-deco-workshop-poster",
+      "name": "Art Deco Workshop Poster",
+      "format": "presentation",
+      "sourceHash": "9e696916ac144532555c2de04821dc6b0390a65ab4aa38314af92b20ad9ebd4a",
+      "foundationSha256": "12eb17d22128a8d8aa4780869ebba1489a8af693279fa72e8bf4fea93f50c14f",
+      "designSpecSha256": "966d6c46519b2cb3a0632ecae54707f15ba4a8d5256e9b989f5323bea3f16f6e",
+      "referenceDirectory": "references/art-deco-workshop-poster"
+    }
+  ],
+  "sourceHash": "9e696916ac144532555c2de04821dc6b0390a65ab4aa38314af92b20ad9ebd4a",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F7EFDC",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#073E47",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Ornamental accent",
+      "role": "ornament",
+      "hex": "#966B28",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Alternate Surface",
+      "role": "alternate-surface",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Copperplate",
+      "usage": "Titles and short section openings; source slide 2 / label3."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 2 / footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 2 / label3.",
+      "sourceFamily": "Copperplate",
+      "sourceFamilySelected": "Copperplate",
+      "renderFamily": "Cinzel",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cinzel/Cinzel-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "bbd278d435bf77d0837e28fb580949b46e9f15cce2cb67ebfa306130f92efab6"
+        },
+        "bold": {
+          "path": "assets/fonts/cinzel/Cinzel-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "31ccdd0463ee97e30b4294ddb8680d0ce8e0e072684e239ff16d31896fb4bc6b"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cinzel/OFL.txt",
+      "licenseSha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Copperplate is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Copperplate is an Apple/system or separately licensed font; not bundled. Open inscriptional display serif substitute for proprietary Copperplate.",
+      "sourceTemplateId": "art-deco-workshop-poster",
+      "sourceFingerprint": "9e696916ac144532555c2de04821dc6b0390a65ab4aa38314af92b20ad9ebd4a"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 2 / footer.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "art-deco-workshop-poster",
+      "sourceFingerprint": "9e696916ac144532555c2de04821dc6b0390a65ab4aa38314af92b20ad9ebd4a"
+    }
+  ],
+  "recognitionRules": [
+    "Use Copperplate display lettering between restrained horizontal rules.",
+    "Keep cream on deep teal as the principal poster relationship; brass accents frame rather than fill text.",
+    "Separate the date, venue, access and booking lines so decoration never hides attendance details.",
+    "Pair the poster face with a plain programme reverse."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Public invitation built on event facts, access details and a booking ask.",
+      "sourceTemplateId": "art-deco-workshop-poster",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "From sheet to story, one fold at a time.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use CEDAR HOUSE in Copperplate above a stepped rule, with WORKSHOPS as a smaller descriptor. A corner-step motif may frame signs without becoming a crest.",
+  "invariants": [
+    "Use Copperplate display lettering between restrained horizontal rules.",
+    "Keep cream on deep teal as the principal poster relationship; brass accents frame rather than fill text.",
+    "Separate the date, venue, access and booking lines so decoration never hides attendance details."
+  ],
+  "adaptations": [
+    "Use the full ornamental frame on posters and one header rule on handouts.",
+    "Let workshop titles change while the host masthead remains stable.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/art-deco-workshop-poster.pdf",
+    "preview": "media/art-deco-workshop-poster-guide.webp",
+    "markdown": "guides/art-deco-workshop-poster.md"
+  },
+  "bundle": {
+    "href": "bundles/art-deco-workshop-poster-brand-kit.zip",
+    "filename": "Cedar House Workshops brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/art-deco-workshop-poster-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/art-deco-workshop-poster-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/art-deco-workshop-poster-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "career-bridge",
+  "name": "Across Practice",
+  "summary": "A career identity that translates experience into a new context through a clear record of transferable work.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#25302B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Section green",
+      "role": "primary",
+      "hex": "#254B40",
+      "evidence": "Native reference.docx word/styles.xml: style Heading2, style Heading1, style CBTarget; text."
+    },
+    {
+      "name": "Metadata green",
+      "role": "secondary-text",
+      "hex": "#44534C",
+      "evidence": "Native reference.docx word/styles.xml: style CBRelevance, style CBNotice, style CBDates; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Carlito",
+      "usage": "Titles and short section openings; source used style CBDates."
+    },
+    {
+      "role": "body",
+      "family": "Carlito",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBDates."
+    }
+  ],
+  "recognitionRules": [
+    "Use a prominent name and short professional focus before experience.",
+    "Keep Carlito for an open, readable resume rhythm.",
+    "Group transferable evidence by relevance while preserving actual dates and role boundaries.",
+    "Use restrained section rules and ordinary bullets rather than skill-rating graphics.",
+    "Use dark green section headings and target-role labels, quieter green-gray contact metadata and a black name; keep the white page."
+  ],
+  "voice": {
+    "traits": [
+      "plainspoken",
+      "reflective",
+      "credible"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "The setting may change. The work offers a useful starting point.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use ACROSS PRACTICE as a simple Carlito wordmark with a small baseline extension. No bridge illustration; the connection is made by the evidence.",
+  "invariants": [
+    "Use a prominent name and short professional focus before experience.",
+    "Keep Carlito for an open, readable resume rhythm.",
+    "Group transferable evidence by relevance while preserving actual dates and role boundaries."
+  ],
+  "adaptations": [
+    "Adapt the opening focus to the role while keeping the underlying experience intact.",
+    "A letter can echo the header without reproducing the resume.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Carlito",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Carlito",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

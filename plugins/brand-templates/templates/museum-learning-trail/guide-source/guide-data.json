@@ -1,0 +1,146 @@
+{
+  "id": "museum-learning-trail",
+  "name": "Three Small Investigations",
+  "summary": "A museum learning identity that gives visitors agency through short routes and specific things to notice.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Response blue",
+      "role": "primary",
+      "hex": "#183C52",
+      "evidence": "Native reference.docx word/styles.xml: style F24Response, style F24DialogueLast, style F24DialogueFirst; border."
+    },
+    {
+      "name": "Guide amber",
+      "role": "surface",
+      "hex": "#FFF5D8",
+      "evidence": "Native reference.docx word/styles.xml: style F24DialogueLast, style F24DialogueFirst; shading fill."
+    },
+    {
+      "name": "Object paper",
+      "role": "motif-ground",
+      "hex": "#FFF8E6",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    },
+    {
+      "name": "Object gold",
+      "role": "accent",
+      "hex": "#E6B944",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Trebuchet MS",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style F24Art."
+    }
+  ],
+  "recognitionRules": [
+    "Use Trebuchet route headings with plain Arial instructions.",
+    "Make the route choice visible before the activities.",
+    "Keep each investigation to a looking prompt, an action and a response.",
+    "Separate optional extensions from the core visit.",
+    "Use blue response boundaries and pale amber guide-dialogue strips; keep route drawings and black instructions distinct."
+  ],
+  "voice": {
+    "traits": [
+      "curious",
+      "self-directed",
+      "welcoming"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Choose a route. Look for one detail. See where it leads.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THREE SMALL INVESTIGATIONS in Trebuchet with three open dots connected by separate short strokes. Avoid a single mandatory path arrow.",
+  "invariants": [
+    "Use Trebuchet route headings with plain Arial instructions.",
+    "Make the route choice visible before the activities.",
+    "Keep each investigation to a looking prompt, an action and a response."
+  ],
+  "adaptations": [
+    "A family sheet can use larger response spaces.",
+    "A mobile version preserves route choice and one investigation per screen.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

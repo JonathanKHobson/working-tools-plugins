@@ -1,0 +1,129 @@
+{
+  "id": "community-program-a4-edition",
+  "name": "Cedar Learning Days",
+  "summary": "A public programme identity that makes dates, session choices and practical attendance information easy to carry and scan.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Programme header",
+      "role": "header",
+      "hex": "#333333",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #333333; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Calibri",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+    }
+  ],
+  "recognitionRules": [
+    "Keep the event name, dates and short programme promise at the top.",
+    "Pair Georgia headings with Calibri programme detail.",
+    "Align session time, title and practical notes in a consistent reading order.",
+    "Keep black-on-white print clarity across A4 and companion print editions."
+  ],
+  "voice": {
+    "traits": [
+      "welcoming",
+      "orderly",
+      "useful"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Find a session that fits. Bring a question. Leave time to try.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use CEDAR LEARNING DAYS as a Georgia wordmark with the dates in a smaller Calibri line. No tree emblem is required.",
+  "invariants": [
+    "Keep the event name, dates and short programme promise at the top.",
+    "Pair Georgia headings with Calibri programme detail.",
+    "Align session time, title and practical notes in a consistent reading order."
+  ],
+  "adaptations": [
+    "A4 and alternate print formats share the same identity and content hierarchy.",
+    "Change page breaks to fit the paper, never shrink essential access text.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

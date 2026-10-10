@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "community-festival",
+  "version": "0.2.0",
+  "name": "Common Sun",
+  "summary": "A civic festival identity that turns a public programme into a welcoming printed broadside. Tall display lettering, a half-sun and stepped margins give practical event information a celebratory frame.",
+  "category": "Community & culture",
+  "tags": [
+    "site",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "proposed",
+  "sourceTemplateIds": [
+    "community-festival"
+  ],
+  "sourceTemplateNames": {
+    "community-festival": "Community Festival"
+  },
+  "templateVariations": [
+    {
+      "templateId": "community-festival",
+      "name": "Community Festival",
+      "format": "site",
+      "sourceHash": "cb5010cfd624a765cd538f866fbefa13edf9910d82c15dbeaa9cb065fd3b0f35",
+      "observedColors": [
+        "#163C35",
+        "#BC8C38",
+        "#F6EFD9",
+        "#A4432E",
+        "#225348"
+      ],
+      "observedType": [
+        {
+          "role": "display",
+          "family": "Anton",
+          "usage": "Observed CSS variable; verify rendered use"
+        },
+        {
+          "role": "body",
+          "family": "Arimo",
+          "usage": "Observed CSS variable; verify rendered use"
+        }
+      ]
+    }
+  ],
+  "sourceHash": "cb5010cfd624a765cd538f866fbefa13edf9910d82c15dbeaa9cb065fd3b0f35",
+  "colors": [
+    {
+      "name": "Festival paper",
+      "role": "background",
+      "hex": "#F6EFD9",
+      "evidence": "Source CSS variables and rule usage in styles/screen.css; semantic role retained."
+    },
+    {
+      "name": "Pine ink",
+      "role": "text",
+      "hex": "#163C35",
+      "evidence": "Source CSS variables and rule usage in styles/screen.css; semantic role retained."
+    },
+    {
+      "name": "Brass rays",
+      "role": "ornament",
+      "hex": "#BC8C38",
+      "evidence": "Source CSS variables and rule usage in styles/screen.css; semantic role retained."
+    },
+    {
+      "name": "Kiln rust",
+      "role": "accent",
+      "hex": "#A4432E",
+      "evidence": "Source CSS variables and rule usage in styles/screen.css; semantic role retained."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Anton",
+      "usage": "Condensed uppercase headlines and short wayfinding labels; leave space above the date band."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Programme details, access information and compact controls; regular and bold only."
+    }
+  ],
+  "recognitionRules": [
+    "Frame a stacked Anton headline with the source\u2019s stepped vertical rules; keep the text clear of the steps.",
+    "Use the 17-ray semicircular fan and horizon sun as large edge ornaments, never behind programme copy.",
+    "Set dates on a horizontal band and make time, session title and venue separate readable fields.",
+    "Keep pine ink on warm paper for reading; brass is a decorative line color, not small body text.",
+    "In print, remove filters and ornamental margins so the complete chronological programme remains visible."
+  ],
+  "writingLinks": [
+    {
+      "id": "V09",
+      "name": "Plain-language service",
+      "reason": "Public programme where schedule and venue access must be easy to use.",
+      "sourceTemplateId": "community-festival",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Come for one session. Stay for the afternoon. Find the time, place and access details before you set out.",
+  "rightsSummary": "Original logo SVGs, transparent PNGs and licensed Anton/Arimo fonts are included.",
+  "logoDirection": "Use COMMON SUN in condensed uppercase with a low semicircle rising from one horizontal rule. Retain an open horizon rather than enclosing the mark in a generic badge. The source fan is supporting artwork; a simplified half-sun is the new mark.",
+  "invariants": [
+    "Frame a stacked Anton headline with the source\u2019s stepped vertical rules; keep the text clear of the steps.",
+    "Use the 17-ray semicircular fan and horizon sun as large edge ornaments, never behind programme copy.",
+    "Set dates on a horizontal band and make time, session title and venue separate readable fields."
+  ],
+  "adaptations": [
+    "Use the full fan on posters and a single half-sun on small digital headers.",
+    "Adapt the date line to each event; preserve the paper, pine and condensed type relationship."
+  ],
+  "decisionStatus": "derived creative identity; authorized for library scope; not a real organization or an official brand",
+  "guide": {
+    "pdf": "guides/community-festival.pdf",
+    "preview": "media/community-festival-guide.webp",
+    "markdown": "guides/community-festival.md"
+  },
+  "bundle": {
+    "href": "bundles/community-festival-brand-kit.zip",
+    "filename": "Common Sun brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/community-festival-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/community-festival-rules.webp",
+      "label": "Logo, color and layout rules"
+    },
+    {
+      "src": "media/community-festival-source.webp",
+      "label": "Community Festival design"
+    }
+  ],
+  "localFiles": {
+    "entry": "SKILL.md",
+    "design": "DESIGN.md",
+    "humanGuide": "guide.pdf",
+    "guideText": "guide.md",
+    "logoRules": "LOGO.md",
+    "colorRules": "COLORS.md",
+    "typeRules": "TYPOGRAPHY.md",
+    "layoutRules": "LAYOUT.md",
+    "assetRegister": "assets/manifest.json",
+    "editableGuide": "guide-source/render_guide.py"
+  }
+}

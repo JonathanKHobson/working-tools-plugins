@@ -1,0 +1,129 @@
+{
+  "id": "creative-workshop-offering",
+  "name": "Hands at Work",
+  "summary": "A workshop identity that joins an expressive serif invitation to a clear sequence of making and practical attendance details.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F6F1E5",
+      "evidence": ":root --paper; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#173C31",
+      "evidence": ":root --ink; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#973F2E",
+      "evidence": ":root --rust; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#7E3123",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Tinos",
+      "usage": "Source CSS alias WorkshopSerif resolves to fonts/tinos/Tinos-Bold.ttf; workshop titles."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Source alias WorkshopSans resolves to the Arimo regular and bold WOFF2 files; instructions and practical detail."
+    }
+  ],
+  "recognitionRules": [
+    "Pair the workshop serif display face with the source sans-serif body.",
+    "Use forest ink on cream, with rust reserved for the primary action.",
+    "Number the workshop stages and give each a title and short description.",
+    "Keep materials, access and attendance facts together below the invitation."
+  ],
+  "voice": {
+    "traits": [
+      "warm",
+      "tactile",
+      "clear"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Start with a simple material. Make something you can hold.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use HANDS AT WORK as a serif wordmark with a short underline ending before the final letter. No hand illustration or craft-tool cluster.",
+  "invariants": [
+    "Pair the workshop serif display face with the source sans-serif body.",
+    "Use forest ink on cream, with rust reserved for the primary action.",
+    "Number the workshop stages and give each a title and short description."
+  ],
+  "adaptations": [
+    "A poster keeps invitation, date and one action.",
+    "A participant sheet expands the numbered stages and removes promotional language.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Tinos",
+      "renderFamily": "Tinos",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/tinos/Tinos-Regular.ttf",
+      "bold": "assets/fonts/tinos/Tinos-Bold.ttf",
+      "license": "assets/fonts/tinos/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arimo",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One lowercase x-height around the wordmark, including its shortened underline.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": null,
+    "secondaryWidthPx": 180
+  }
+}

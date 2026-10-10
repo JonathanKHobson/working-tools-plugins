@@ -1,0 +1,133 @@
+{
+  "id": "portfolio-reading-edition",
+  "name": "First Arrival",
+  "summary": "An editorial portfolio identity that walks a reader through the first moments of an experience and the decisions behind its design.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFF9ED",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#262C36",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#344F70",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#D6CFC2",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source slide 8 / title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / route6."
+    }
+  ],
+  "recognitionRules": [
+    "Pair Baskerville or Georgia reading titles with Avenir labels.",
+    "Use a warm ivory field, muted blue accents and a stable footer rule.",
+    "Keep chapter numbers and margin evidence notes visible.",
+    "Separate illustrative imagery from the actual evidence of a design decision."
+  ],
+  "voice": {
+    "traits": [
+      "welcoming",
+      "editorial",
+      "candid"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "The first five minutes deserve a clear path.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use FIRST ARRIVAL in a serif wordmark with a small Avenir reading-edition line. A short margin rule may accompany it; no location pin.",
+  "invariants": [
+    "Pair Baskerville or Georgia reading titles with Avenir labels.",
+    "Use a warm ivory field, muted blue accents and a stable footer rule.",
+    "Keep chapter numbers and margin evidence notes visible."
+  ],
+  "adaptations": [
+    "A digital version retains chapter and margin-note relationships.",
+    "A short extract includes the context and contribution before the proposed result.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

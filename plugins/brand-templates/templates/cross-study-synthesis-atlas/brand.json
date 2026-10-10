@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "cross-study-synthesis-atlas",
+  "version": "0.2.1",
+  "name": "Woven Logic",
+  "summary": "A synthesis identity that makes the relationship between studies visible without dissolving their different scopes into a single result.",
+  "category": "Research & evidence",
+  "tags": [
+    "document",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "cross-study-synthesis-atlas"
+  ],
+  "sourceTemplateNames": {
+    "cross-study-synthesis-atlas": "Cross Study Synthesis Atlas"
+  },
+  "templateVariations": [
+    {
+      "templateId": "cross-study-synthesis-atlas",
+      "name": "Cross Study Synthesis Atlas",
+      "format": "document",
+      "sourceHash": "af658a490d79bef78f0d0684e2962529ec697be52f19eb6a6bb5abe4f261e15b",
+      "foundationSha256": "3b15f49cf16add65e7443687864d7e03fac174b334f271da4e9da1ae7a5c9620",
+      "designSpecSha256": "85aab0bd9bf4268f457dba59d7fec88652d48b80623815b2dab78aa7822381eb",
+      "referenceDirectory": "references/cross-study-synthesis-atlas"
+    }
+  ],
+  "sourceHash": "af658a490d79bef78f0d0684e2962529ec697be52f19eb6a6bb5abe4f261e15b",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Synthesis purple",
+      "role": "primary",
+      "hex": "#563B75",
+      "evidence": "reference.docx word/document.xml: 17 table header fills; source page 1 visible purple table header."
+    },
+    {
+      "name": "Table lavender",
+      "role": "surface",
+      "hex": "#F0EBF5",
+      "evidence": "reference.docx word/document.xml: 42 body-cell fills."
+    },
+    {
+      "name": "Weave lavender",
+      "role": "motif-ground",
+      "hex": "#E3DCEF",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip horizontal thread color."
+    },
+    {
+      "name": "Weave rust",
+      "role": "accent",
+      "hex": "#B4643D",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip vertical thread color."
+    },
+    {
+      "name": "Weave charcoal",
+      "role": "motif-ink",
+      "hex": "#2D3235",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip vertical thread color."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Palatino",
+      "usage": "Cover title uses Palatino 36 pt; large editorial titles retain the serif voice."
+    },
+    {
+      "role": "body",
+      "family": "Palatino",
+      "usage": "Normal reading paragraphs use Palatino 11.5 pt in black; secondary headings use bold Palatino."
+    },
+    {
+      "role": "navigation",
+      "family": "Futura",
+      "usage": "Section headings, running identifiers, subtitles and table labels use Futura; white labels on purple table headers."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Cover title uses Palatino 36 pt; large editorial titles retain the serif voice.",
+      "sourceFamily": "Palatino",
+      "sourceFamilySelected": "Palatino",
+      "renderFamily": "Literata",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/literata/Literata-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1428bf61c212b80a15ea0b1b32261e8c22411f67ec7cb182221b01d40622b52f"
+        },
+        "bold": {
+          "path": "assets/fonts/literata/Literata-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "b26eb4cfb5cbf0f2f42e485edcbdce4a088fdea7498f30728a74a66dfcbccf20"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/literata/OFL.txt",
+      "licenseSha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Palatino is a system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Palatino is a system or separately licensed font; not bundled. Open book serif substitute for proprietary Palatino or Charter source dependencies.",
+      "sourceTemplateId": "cross-study-synthesis-atlas",
+      "sourceFingerprint": "af658a490d79bef78f0d0684e2962529ec697be52f19eb6a6bb5abe4f261e15b"
+    },
+    {
+      "role": "body",
+      "usage": "Normal reading paragraphs use Palatino 11.5 pt in black; secondary headings use bold Palatino.",
+      "sourceFamily": "Palatino",
+      "sourceFamilySelected": "Palatino",
+      "renderFamily": "Literata",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/literata/Literata-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1428bf61c212b80a15ea0b1b32261e8c22411f67ec7cb182221b01d40622b52f"
+        },
+        "bold": {
+          "path": "assets/fonts/literata/Literata-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "b26eb4cfb5cbf0f2f42e485edcbdce4a088fdea7498f30728a74a66dfcbccf20"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/literata/OFL.txt",
+      "licenseSha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Palatino is a system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Palatino is a system or separately licensed font; not bundled. Open book serif substitute for proprietary Palatino or Charter source dependencies.",
+      "sourceTemplateId": "cross-study-synthesis-atlas",
+      "sourceFingerprint": "af658a490d79bef78f0d0684e2962529ec697be52f19eb6a6bb5abe4f261e15b"
+    },
+    {
+      "role": "navigation",
+      "usage": "Section headings, running identifiers, subtitles and table labels use Futura; white labels on purple table headers.",
+      "sourceFamily": "Futura",
+      "sourceFamilySelected": "Futura",
+      "renderFamily": "Jost",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/jost/Jost-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "cbef5f7e581b6b40cbbb423358a84e65d109a13bf68b2776c1677dd9733e1794"
+        },
+        "bold": {
+          "path": "assets/fonts/jost/Jost-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "5df8ac407696f78a27769ef4a22965fb257659575cb1dac5122c66db10caddc4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/jost/OFL.txt",
+      "licenseSha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Futura is an Apple/system or separately licensed font; not bundled. Open geometric sans substitute for proprietary Futura source dependencies.",
+      "sourceTemplateId": "cross-study-synthesis-atlas",
+      "sourceFingerprint": "af658a490d79bef78f0d0684e2962529ec697be52f19eb6a6bb5abe4f261e15b"
+    }
+  ],
+  "recognitionRules": [
+    "Set the main title in Palatino and use Futura for navigation, study IDs and table labels.",
+    "Use deep purple #563B75 table headers with white labels and pale lavender #F0EBF5 body-cell shading; retain black reading text on white pages.",
+    "Repeat the source woven strip using lavender horizontal threads and purple, rust and charcoal vertical threads; preserve visible crossings and white breathing room.",
+    "Carry study IDs through inventory, overlap and synthesis, showing convergence and disagreement with explicit labels and source links."
+  ],
+  "writingLinks": [
+    {
+      "id": "V12",
+      "name": "Research register",
+      "reason": "Cross-study synthesis that keeps contradictions visible and avoids invalid pooling.",
+      "sourceTemplateId": "cross-study-synthesis-atlas",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P27",
+          "name": "Evidence-to-decision researcher",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Bring the studies together. Keep their differences attached.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Proposed new WOVEN LOGIC wordmark in Futura with two crossing thin rules interrupted at their intersection, using synthesis purple or black. This simplified open-weave symbol is a new editorial logo proposal; retain the native multicolor woven strip as a separate supporting motif.",
+  "invariants": [
+    "Set the main title in Palatino and use Futura for navigation, study IDs and table labels.",
+    "Use deep purple #563B75 table headers with white labels and pale lavender #F0EBF5 body-cell shading; retain black reading text on white pages.",
+    "Repeat the source woven strip using lavender horizontal threads and purple, rust and charcoal vertical threads; preserve visible crossings and white breathing room."
+  ],
+  "adaptations": [
+    "A one-page synthesis retains study IDs and the disagreement row.",
+    "Long editions can expand the inventory without changing the type hierarchy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/cross-study-synthesis-atlas.pdf",
+    "preview": "media/cross-study-synthesis-atlas-guide.webp",
+    "markdown": "guides/cross-study-synthesis-atlas.md"
+  },
+  "bundle": {
+    "href": "bundles/cross-study-synthesis-atlas-brand-kit.zip",
+    "filename": "Woven Logic brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/cross-study-synthesis-atlas-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/cross-study-synthesis-atlas-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/cross-study-synthesis-atlas-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

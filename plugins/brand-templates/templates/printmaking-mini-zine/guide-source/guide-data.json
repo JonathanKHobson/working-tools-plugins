@@ -1,0 +1,128 @@
+{
+  "id": "printmaking-mini-zine",
+  "name": "Try a Mark",
+  "summary": "A small experimental identity that encourages material play through forceful titles, plain instructions and a record of attempts.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Print rust",
+      "role": "primary",
+      "hex": "#754436",
+      "evidence": "Native reference.docx word/styles.xml: style ZineLabel; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Short invitations and panel titles."
+    },
+    {
+      "role": "body",
+      "family": "Courier New",
+      "usage": "Material notes, instructions and observations."
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact for the short invitation and Courier New for working notes.",
+    "Keep each experiment compact enough to fit a zine panel.",
+    "Leave space for a printed mark and a short observation.",
+    "Show variation across attempts without ranking them as good or bad.",
+    "Use rust PRINT LAB labels and black condensed invitations above textured collage examples, with monospaced working notes."
+  ],
+  "voice": {
+    "traits": [
+      "playful",
+      "tactile",
+      "experimental"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Make one mark. Change the pressure. See what the paper tells you.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use TRY A MARK in Impact with one irregular solid rectangle as a new supporting mark. Keep the rectangle simple enough for one-color printing.",
+  "invariants": [
+    "Use Impact for the short invitation and Courier New for working notes.",
+    "Keep each experiment compact enough to fit a zine panel.",
+    "Leave space for a printed mark and a short observation."
+  ],
+  "adaptations": [
+    "Folded and digital editions retain the experiment order.",
+    "The mark can vary by issue while the wordmark remains stable.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Courier New",
+      "renderFamily": "Cousine",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/cousine/Cousine-Regular.ttf",
+      "bold": "assets/fonts/cousine/Cousine-Bold.ttf",
+      "license": "assets/fonts/cousine/OFL.txt",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "id": "cost-scenario-planner",
+  "name": "Case & Cost",
+  "summary": "A practical planning identity that separates editable assumptions from calculated consequences. Warm ledger tones keep the sheet approachable while input blue and yellow make its working logic visible.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Ledger white",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Ledger ink",
+      "role": "text",
+      "hex": "#211C19",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Section umber",
+      "role": "primary",
+      "hex": "#5A2D22",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Calculated row",
+      "role": "surface",
+      "hex": "#F4EBE6",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Editable field",
+      "role": "input-surface",
+      "hex": "#FFF2CC",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Input blue",
+      "role": "input-text",
+      "hex": "#0000CC",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    },
+    {
+      "name": "Selection green",
+      "role": "status",
+      "hex": "#006100",
+      "evidence": "Native workbook usedStyles and design/COLORS.md: exact role confirmed by cell references."
+    }
+  ],
+  "conditionalColors": [
+    {
+      "name": "State surface / n.a.",
+      "role": "conditional-fill",
+      "hex": "#FFC7CE",
+      "sourceRules": [
+        {
+          "range": "Cost planner!D9",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D13",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D17",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D21",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D25",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!F18",
+          "condition": "Inputs complete",
+          "operator": null,
+          "ruleType": "notContainsText"
+        },
+        {
+          "range": "Cost planner!G16",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "n.a.; Inputs complete",
+      "source": "reference.xlsx conditional formatting: Cost planner!D9, Cost planner!D13, Cost planner!D17, Cost planner!D21, Cost planner!D25, Cost planner!F18, Cost planner!G16"
+    },
+    {
+      "name": "State text / n.a.",
+      "role": "conditional-text",
+      "hex": "#9C0006",
+      "sourceRules": [
+        {
+          "range": "Cost planner!D9",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D13",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D17",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D21",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!D25",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Cost planner!F18",
+          "condition": "Inputs complete",
+          "operator": null,
+          "ruleType": "notContainsText"
+        },
+        {
+          "range": "Cost planner!G16",
+          "condition": "n.a.",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "n.a.; Inputs complete",
+      "source": "reference.xlsx conditional formatting: Cost planner!D9, Cost planner!D13, Cost planner!D17, Cost planner!D21, Cost planner!D25, Cost planner!F18, Cost planner!G16"
+    }
+  ],
+  "typography": [
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Labels and numerical values at a consistent size; bold section headers and title only."
+    }
+  ],
+  "recognitionRules": [
+    "Place assumptions on the left and selected-case calculations on the right, with a clear gutter between them.",
+    "Reserve blue text on pale yellow exclusively for editable inputs, including the case selector.",
+    "Use umber bands with white headings for the two table sections; pale rose rows identify active calculated assumptions.",
+    "Underline subtotal and result rows with progressively stronger umber rules; do not add decorative charts without a decision need.",
+    "Show currency and planning period beside the numbers and retain an explicit invalid-selection state.",
+    "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents."
+  ],
+  "voice": {
+    "traits": [
+      "measured",
+      "direct",
+      "transparent"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Change one assumption. Compare the consequence. Keep the case and the currency in view.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use CASE & COST as an Arial wordmark above two unequal parallel ledger rules. No standalone symbol is needed. The paired rules echo inputs and results without suggesting certified financial advice.",
+  "invariants": [
+    "Place assumptions on the left and selected-case calculations on the right, with a clear gutter between them.",
+    "Reserve blue text on pale yellow exclusively for editable inputs, including the case selector.",
+    "Use umber bands with white headings for the two table sections; pale rose rows identify active calculated assumptions."
+  ],
+  "adaptations": [
+    "A summary card can show the selected case, one assumption and one consequence.",
+    "For monochrome printing retain labels and input outlines so meaning does not depend on color.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "spreadsheet",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One half of the cap-height of COST around the complete wordmark and both ledger rules.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": null,
+    "secondaryWidthPx": 180
+  }
+}

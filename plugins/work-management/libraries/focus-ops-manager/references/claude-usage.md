@@ -1,0 +1,113 @@
+# Claude delegation
+
+Use when Claude is a suitable worker. Common handoff and return checks live in
+[subscription-offload.md](subscription-offload.md); do not duplicate the whole
+Codex instruction stack in Claude. Retain Kyle's direct, warm, shipping-first
+operating style.
+
+## Start with the subscription CLI
+
+Use the official subscription-authenticated CLI first for Claude work. Desktop
+or Web is appropriate only when If the receiving user explicitly requests it, the task needs a
+feature available only through that interface, or the CLI still fails after
+bounded diagnosis and official login recovery. Missing authentication alone is
+not a reason to switch surfaces. Preserve existing jobs across all surfaces.
+
+Desktop login and terminal login are separate. Recheck CLI authentication before
+each dispatch; the local helper below does so without printing credentials.
+Keep individual recovery receipts and unresolved causes in the owning project.
+
+For supplied-context critique, drafting or extraction, check authentication:
+
+```sh
+/opt/homebrew/bin/python3.12 "~/Documents/ChatGPT/Managing My Computer/scripts/claude_worker.py" --check
+```
+
+Pass a compact authorized task on stdin to the same command without `--check`.
+Prefer Opus 5.5 after verifying its live availability. Use the supported CLI
+alias, such as `--model opus`, and `--json` to record the returned actual model
+from the inference receipt; an alias or selected name alone does not prove the
+version used. If the preferred version is unavailable, report the verified
+model actually used and choose a suitable available model within task scope.
+The helper defaults to Sonnet unless `--model` is supplied, so pass the model
+explicitly for Kyle's preferred route. Its effort setting is low; do not report
+High effort from this helper.
+
+The helper has no file-editing, shell, browsing, MCP or skill tools; the lead
+supplies the evidence and validates the result. It stops on failure or timeout
+without retry, stores no session, and does not start a daemon. Do not mistake
+authentication-only `--check` for an inference test. The helper source and host
+capability record live in the existing Managing My Computer project, not a new
+model-routing framework.
+
+The helper strips inherited API/provider overrides, ignores custom settings,
+checks first-party subscription auth, and uses `--safe-mode --restricted`, an
+empty tool set and strict empty MCP config. **Do not use `--bare` for this
+subscription route**: the installed version disables OAuth/keychain lookup in
+bare mode. Do not extract tokens or build a generic OAuth proxy.
+
+## Bounded diagnosis and login recovery
+
+On missing auth, start the official `claude auth login --claudeai` in an
+interactive terminal and follow the URL supplied by that running login process.
+Prefer the visible Codex in-app browser for reviewable authentication; reuse an
+existing authenticated browser session when it can complete the official flow.
+Finish supported routine sign-in and consent steps within the user's authorized
+scope. Keep the login terminal alive for its callback, then check its exit and
+run `claude auth status` before retrying the worker once. Record a sanitized
+receipt, never credential values, tokens, or the full transient OAuth URL.
+
+Ask Kyle to act only when an actual provider or tool requirement needs him,
+such as an MFA approval unavailable to the agent, a CAPTCHA confirmation, required
+personal confirmation, a new password, or terms acceptance. State the specific
+requirement and preserve the pending flow where
+possible. Do not assume every sign-in requires Kyle, and do not promise that
+future logins will always be unattended.
+
+For other CLI failures, inspect the concrete error, installed CLI/help,
+auth/provider state and helper/runtime availability. Apply one justified fix
+and retry once; stop repeated recovery attempts when the same failure remains.
+Use Desktop or Web only if that bounded recovery leaves a real CLI blocker and
+the alternate surface can complete the authorized task. Report the blocker and
+chosen surface. A subscription quota limit is a shared capacity constraint, not
+a reason to duplicate jobs across surfaces or providers.
+
+Never use `--console`, an API-key fallback, extra usage credits or a provider
+switch to evade subscription limits. Estimated list-price fields in CLI output
+are not billing receipts. Claude Chat, Design and Code share plan capacity.
+
+Code-editing delegation is a different scope: verify checkout ownership and
+authorize only the needed tools in an isolated workspace. This text helper does
+not establish unattended coding safety. On another host, discover and validate
+the local CLI/runtime rather than copying host paths or credential stores.
+
+## Conditional Desktop or Web route
+
+Verify the live account and model picker when this surface is warranted; dated
+Desktop receipts do not establish current availability. Prefer Opus 5.5 when
+verified, record the actual selected model, and choose a suitable available
+alternative if necessary.
+
+Create a separate Chat or Code task. Existing Code work may continue in the
+background; do not stop it just to start a chat. One controller owns the app UI.
+Prefer a separate empty composer. If temporarily reusing a shared New Chat
+composer, preserve any existing draft exactly, check for concurrent edits, then
+restore it after submission. Never submit the unrelated draft.
+
+For analysis-only Chat requests, supply all needed evidence and ask for no tools,
+files, browsing, or execution. This is requested scope, not a technical sandbox.
+Code work needs checkout/file ownership and relevant project instructions. Do
+not change global permission modes for convenience. Read the completed response,
+separate advice from evidence, and integrate useful findings. Sent or streaming
+is unfinished.
+
+Other routes and live setup owners are recorded at
+`~/Documents/ChatGPT/Managing My Computer/docs/capabilities.md`.
+Read it only when choosing workers; dated entries are not proof of live availability.
+Prepaid access still has quota and energy costs. Recheck availability on failure;
+do not continuously poll or duplicate jobs across providers.
+
+Official references:
+[subscription login](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan),
+[CLI reference](https://code.claude.com/docs/en/cli-usage),
+[usage limits](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work).

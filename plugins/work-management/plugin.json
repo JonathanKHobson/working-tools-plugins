@@ -1,0 +1,28 @@
+{
+  "name": "work-management",
+  "version": "0.2.0",
+  "description": "Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. 10 retained skill heads. Personal profile/goal/session facts excluded through recipient templates; automatic registrations excluded; full methods/helpers retained.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT AND Apache-2.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Work Management Studio",
+        "shortDescription": "Focus, requirements, structure and parallel work",
+        "longDescription": "Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. Choose the next useful outcome and keep scope from expanding. Define a feature, locate its owning project, or delegate a bounded piece of work. Review selected evidence, maintain plugins, or hand over work with its actual completion state. Start with a concrete task or ask what this plugin can do. The plugin supplies methods, selected local helpers and bounded hooks. Native host tools own goals/chats/automations; a request to plan or draft does not authorize sending or publishing. Public edition retains full optional hook code and opt-in templates; installation adds no automatic hook/provider.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Turn this idea into a buildable feature.",
+          "Help me finish the most useful next deliverable."
+        ]
+      }
+    }
+  }
+}

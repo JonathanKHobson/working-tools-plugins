@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "image-workflows": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/image_workflows_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio",
+      "cwd": "./"
+    }
+  }
+}

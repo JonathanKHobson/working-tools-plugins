@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "culture-journal",
+  "version": "0.2.1",
+  "name": "Margin Culture",
+  "summary": "An independent journal identity with condensed headlines, typewritten commentary and collage that feels assembled issue by issue.",
+  "category": "Community & culture",
+  "tags": [
+    "site",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "culture-journal"
+  ],
+  "sourceTemplateNames": {
+    "culture-journal": "Culture Journal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "culture-journal",
+      "name": "Culture Journal",
+      "format": "site",
+      "sourceHash": "d0e87b456737a2794fd61163bdffbfaa56481d0ccf10d307e00177bd28b8e45e",
+      "foundationSha256": "bb2807cede366eefa8872261cc085827868f140eb79517ff73f38d0f25520539",
+      "designSpecSha256": "d70cb740e97246826a5faf587094aae57786b5d82471ef23bcd8b671f3469514",
+      "referenceDirectory": "references/culture-journal"
+    }
+  ],
+  "sourceHash": "d0e87b456737a2794fd61163bdffbfaa56481d0ccf10d307e00177bd28b8e45e",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F7F3E8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#242222",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#754436",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#DAED85",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Ornamental accent",
+      "role": "ornament",
+      "hex": "#CCB261",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Anton,\"Arial Narrow\",sans-serif",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark,.brand."
+    },
+    {
+      "role": "body",
+      "family": "\"Courier Prime\",monospace",
+      "usage": "Reading text, supporting labels and detailed explanations; source .section-label."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark,.brand.",
+      "sourceFamily": "Anton,\"Arial Narrow\",sans-serif",
+      "sourceFamilySelected": "Anton",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "culture-journal",
+      "sourceFingerprint": "d0e87b456737a2794fd61163bdffbfaa56481d0ccf10d307e00177bd28b8e45e"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source .section-label.",
+      "sourceFamily": "\"Courier Prime\",monospace",
+      "sourceFamilySelected": "Courier Prime",
+      "renderFamily": "Courier Prime",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/courier-prime/CourierPrime-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "72f793376f8e2841656bf21d77a5de010f2929bd6956a22ee848ad0c7eb978af"
+        },
+        "bold": {
+          "path": "assets/fonts/courier-prime/CourierPrime-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ff1f38786c849d1c41fa8e447960abdb2bd75fdfb0cfcdeb524fad65a5af3638"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/courier-prime/OFL.txt",
+      "licenseSha256": "9a755af092b494944c99f471be6fddd19b006a448fefdc4717e4ee0aa09a97b0",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family already shipped by source templates.",
+      "sourceTemplateId": "culture-journal",
+      "sourceFingerprint": "d0e87b456737a2794fd61163bdffbfaa56481d0ccf10d307e00177bd28b8e45e"
+    }
+  ],
+  "recognitionRules": [
+    "Use Anton headlines against Courier Prime commentary.",
+    "Keep cream paper, near-black ink and selective lime as the recurring relationship.",
+    "Number stories and alternate their composition without changing the editorial hierarchy.",
+    "Use collage as a subject-bearing image, not texture behind long copy."
+  ],
+  "writingLinks": [
+    {
+      "id": "V22",
+      "name": "Reflective critic",
+      "reason": "An expressive editorial journal where criticism and essays are the main content.",
+      "sourceTemplateId": "culture-journal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Look at what gathers at the edges. There is a story there.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use MARGIN CULTURE in a condensed Anton stack with a small Courier Prime issue number. A displaced rule may suggest the margin; no circular stamp.",
+  "invariants": [
+    "Use Anton headlines against Courier Prime commentary.",
+    "Keep cream paper, near-black ink and selective lime as the recurring relationship.",
+    "Number stories and alternate their composition without changing the editorial hierarchy."
+  ],
+  "adaptations": [
+    "Each issue may change collage material and lead color accent.",
+    "Article pages simplify to headline, image, caption and reading text.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/culture-journal.pdf",
+    "preview": "media/culture-journal-guide.webp",
+    "markdown": "guides/culture-journal.md"
+  },
+  "bundle": {
+    "href": "bundles/culture-journal-brand-kit.zip",
+    "filename": "Margin Culture brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/culture-journal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/culture-journal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/culture-journal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

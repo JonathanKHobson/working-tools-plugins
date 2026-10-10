@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "recipe-collection",
+  "version": "0.2.1",
+  "name": "The Shared Table",
+  "summary": "A recipe identity that pairs welcoming food writing with a repeatable structure for ingredients, preparation and serving.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "recipe-collection"
+  ],
+  "sourceTemplateNames": {
+    "recipe-collection": "Recipe Collection"
+  },
+  "templateVariations": [
+    {
+      "templateId": "recipe-collection",
+      "name": "Recipe Collection",
+      "format": "document",
+      "sourceHash": "58d3741a213e93117d121a9e2b60ee5f640a03d0c883b42fc4db4ff2f925732a",
+      "foundationSha256": "73d72c590b8945ca189e0f9b39772fa0809378880960073c387bfdbe8b0f9d69",
+      "designSpecSha256": "92ab2912842e5f10b0968b06bb71ba41d0e0292c3e3b10fb660b08845e56a065",
+      "referenceDirectory": "references/recipe-collection"
+    }
+  ],
+  "sourceHash": "58d3741a213e93117d121a9e2b60ee5f640a03d0c883b42fc4db4ff2f925732a",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#29251E",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Recipe working row",
+      "role": "surface",
+      "hex": "#E8E8E8",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #E8E8E8; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Recipe rust",
+      "role": "primary",
+      "hex": "#80412B",
+      "evidence": "Native reference.docx word/styles.xml: style RecipeLabel, style RecipeFolio; text."
+    },
+    {
+      "name": "Recipe green",
+      "role": "link",
+      "hex": "#264E48",
+      "evidence": "Native reference.docx word/styles.xml: style RecipeLink; text."
+    },
+    {
+      "name": "Recipe title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style RecipeHeader, style RecipeContents; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Rockwell",
+      "usage": "Recipe names and collection titles."
+    },
+    {
+      "role": "body",
+      "family": "Noto Sans",
+      "usage": "Ingredients, quantities, method and notes."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Recipe names and collection titles.",
+      "sourceFamily": "Rockwell",
+      "sourceFamilySelected": "Rockwell",
+      "renderFamily": "Zilla Slab",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/zilla-slab/ZillaSlab-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "41a4626844da9216b031308d4423045c765fe4231d99862d85d7d74509d37703"
+        },
+        "semibold": {
+          "path": "assets/fonts/zilla-slab/ZillaSlab-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "aafcb295b88d520357db1ecf9a1c3167055e87e9ddf5f63e560cbd139ec2805e"
+        },
+        "bold": {
+          "path": "assets/fonts/zilla-slab/ZillaSlab-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4ec3a04a4eef37074b42ef542e4d874e13646668cfe65256e0bf100441cf8719"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/zilla-slab/OFL.txt",
+      "licenseSha256": "240b385d3ec8c8d5c1d4af2bbba6ac72bac0309a80c1a8ff112c168643cc6811",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Rockwell is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Rockwell is a separately licensed/system font; not bundled. Open slab serif substitute for proprietary Rockwell.",
+      "sourceTemplateId": "recipe-collection",
+      "sourceFingerprint": "58d3741a213e93117d121a9e2b60ee5f640a03d0c883b42fc4db4ff2f925732a"
+    },
+    {
+      "role": "body",
+      "usage": "Ingredients, quantities, method and notes.",
+      "sourceFamily": "Noto Sans",
+      "sourceFamilySelected": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "recipe-collection",
+      "sourceFingerprint": "58d3741a213e93117d121a9e2b60ee5f640a03d0c883b42fc4db4ff2f925732a"
+    }
+  ],
+  "recognitionRules": [
+    "Use Rockwell recipe headings with Noto Sans instructions.",
+    "Keep ingredients separate from the ordered method.",
+    "Make yield and practical preparation notes easy to find.",
+    "Use generous white space so the page can be consulted while cooking.",
+    "Use rust collection labels and green recipe links, with black recipe headings and roomy ingredient/method areas."
+  ],
+  "writingLinks": [
+    {
+      "id": "V11",
+      "name": "Patient coach",
+      "reason": "Numbered methods and exact portions that a cook can follow.",
+      "sourceTemplateId": "recipe-collection",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Something bright for the table. A method you can follow as you cook.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE SHARED TABLE in Rockwell with a broad short underline. No fork-and-spoon crest.",
+  "invariants": [
+    "Use Rockwell recipe headings with Noto Sans instructions.",
+    "Keep ingredients separate from the ordered method.",
+    "Make yield and practical preparation notes easy to find."
+  ],
+  "adaptations": [
+    "A recipe card retains yield, ingredients and complete method.",
+    "A collection opener may add a short food story without interrupting the recipe structure.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/recipe-collection.pdf",
+    "preview": "media/recipe-collection-guide.webp",
+    "markdown": "guides/recipe-collection.md"
+  },
+  "bundle": {
+    "href": "bundles/recipe-collection-brand-kit.zip",
+    "filename": "The Shared Table brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/recipe-collection-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/recipe-collection-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/recipe-collection-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

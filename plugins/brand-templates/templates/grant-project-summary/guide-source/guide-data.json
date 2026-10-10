@@ -1,0 +1,140 @@
+{
+  "id": "grant-project-summary",
+  "name": "Print Stories Together",
+  "summary": "A community-project identity that describes a proposed activity in accessible language and connects resources to a bounded public purpose.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#243B40",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Grant table header",
+      "role": "primary",
+      "hex": "#2E5D64",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #2E5D64; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Grant table row",
+      "role": "surface",
+      "hex": "#F3F5F4",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F3F5F4; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Trebuchet MS",
+      "usage": "Titles and short section openings; source used style CivicAmount."
+    },
+    {
+      "role": "body",
+      "family": "Verdana",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CivicBreak."
+    }
+  ],
+  "recognitionRules": [
+    "Use Verdana body text and Trebuchet headings for comfortable document reading.",
+    "Open with the proposed case before budget and delivery detail.",
+    "Separate intended benefits from evidence already available.",
+    "Keep participant activity, staffing and evaluation in distinct sections.",
+    "Use teal budget/delivery table headers with white labels, pale rows and black major titles."
+  ],
+  "voice": {
+    "traits": [
+      "accessible",
+      "purposeful",
+      "honest"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Make a story you can share. Build the conditions that let people take part.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use PRINT STORIES TOGETHER in Trebuchet with three short uneven lines suggesting printed text. Avoid a book or charity seal.",
+  "invariants": [
+    "Use Verdana body text and Trebuchet headings for comfortable document reading.",
+    "Open with the proposed case before budget and delivery detail.",
+    "Separate intended benefits from evidence already available."
+  ],
+  "adaptations": [
+    "A funder summary may condense delivery detail but retains the proposed status.",
+    "A participant invitation replaces funding language with practical choices.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Verdana",
+      "renderFamily": "Noto Sans",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+      "bold": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+      "license": "assets/fonts/noto-sans/OFL.txt",
+      "sourceFontDependency": "Verdana is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

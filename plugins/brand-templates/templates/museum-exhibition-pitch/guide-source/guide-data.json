@@ -1,0 +1,127 @@
+{
+  "id": "museum-exhibition-pitch",
+  "name": "A Second Life",
+  "summary": "An exhibition identity that asks what makes ordinary objects worth keeping, with an editorial balance of object and interpretation.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F6F3EC",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#262624",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#8B3B2D",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source slide 8 / request."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / status."
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville titles with Gill Sans curatorial text.",
+    "Keep warm paper, charcoal and rust as a quiet material palette.",
+    "Give each concept object a clear image, caption and interpretive question.",
+    "Keep collection access and opening status separate from the creative premise."
+  ],
+  "voice": {
+    "traits": [
+      "curatorial",
+      "reflective",
+      "accessible"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "What makes an ordinary thing worth keeping?",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use A SECOND LIFE in Baskerville with a small interrupted baseline. No recycling arrows; the identity concerns interpretation as well as reuse.",
+  "invariants": [
+    "Use Baskerville titles with Gill Sans curatorial text.",
+    "Keep warm paper, charcoal and rust as a quiet material palette.",
+    "Give each concept object a clear image, caption and interpretive question."
+  ],
+  "adaptations": [
+    "A wall label retains the question and object record.",
+    "A proposal expands access and production requirements behind the same editorial front.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Gill Sans",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

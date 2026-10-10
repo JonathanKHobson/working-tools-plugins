@@ -240,5 +240,39 @@
         "source_unchanged": true
       }
     ]
+  },
+  "work-management": {
+    "reference_exceptions": [
+      {
+        "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+        "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+        "target": "openapi-template.yaml",
+        "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      },
+      {
+        "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+        "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+        "target": "examples/unit-test.ts",
+        "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      },
+      {
+        "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+        "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+        "target": "examples/integration-test.ts",
+        "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      },
+      {
+        "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+        "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+        "target": "templates/",
+        "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      },
+      {
+        "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+        "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+        "target": "checklist.md",
+        "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      }
+    ]
   }
 }

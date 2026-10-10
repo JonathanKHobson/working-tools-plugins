@@ -1,0 +1,105 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '22pt'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '36pt'}`.
+- `.hero-intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.audience,.session-status` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.primary-action` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.summary-row h2,.summary-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.summary-row>p,.summary-row>div,.session .summary-row>div` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.section-title,.session .section-title,.practical .section-title` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt'}`.
+- `.section-intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.stage-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt'}`.
+- `.stage-title h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.stage-title p,.stage-description` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.practical h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '21pt'}`.
+- `.material-status,.materials,.next-step>p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.supports summary` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.support-body` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.access-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `dt` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.facts dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.next-step ol` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.next-step li::marker` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.practical footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.record` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.art-note h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.art-note p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.outcome` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.recovery h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '28pt'}`.
+- `:root` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'WorkshopSans,Arial,sans-serif', 'font-size': '24px', 'line-height': '1.4'}`.
+- `h1,h2,h3,.brand,.primary-action,.stage-number,dt` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'WorkshopSerif,Georgia,serif', 'font-weight': '700'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/screen.css`: `{'line-height': '1.06', 'letter-spacing': '-.045em'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(38px,4.25vw,72px)', 'line-height': '1.1', 'letter-spacing': '-.045em'}`.
+- `.site-header nav` · `base` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(56px,8.5vw,138px)', 'line-height': '1.04', 'letter-spacing': '-.055em'}`.
+- `.hero-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.6vw,42px)', 'line-height': '1.24'}`.
+- `.audience` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'line-height': '1.4'}`.
+- `.primary-action` · `base` · `assets/source/styles/screen.css`: `{'font-size': '40px', 'line-height': '1.2'}`.
+- `.session-status` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px', 'line-height': '1.4'}`.
+- `.art-note h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '44px'}`.
+- `.summary-row h2,.summary-row h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(34px,3.65vw,58px)'}`.
+- `.summary-row>p,.summary-row>div` · `base` · `assets/source/styles/screen.css`: `{'font-size': '21px'}`.
+- `.section-title` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(54px,7.2vw,116px)', 'line-height': '1.01'}`.
+- `.section-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.5vw,40px)', 'line-height': '1.3'}`.
+- `.session .section-title` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(54px,7.8vw,120px)'}`.
+- `.stage-number` · `base` · `assets/source/styles/screen.css`: `{'font-size': '96px', 'line-height': '1', 'letter-spacing': '-.055em'}`.
+- `.stage-title h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(28px,3.3vw,52px)', 'letter-spacing': '-.045em', 'line-height': '1.07'}`.
+- `.stage-title p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px'}`.
+- `.stage-description` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'line-height': '1.4'}`.
+- `.session .summary-row>div` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px'}`.
+- `.practical h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(36px,3.65vw,58px)'}`.
+- `.material-status` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.materials` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.supports summary` · `base` · `assets/source/styles/screen.css`: `{'font-size': '26px'}`.
+- `.supports summary::after` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.support-body` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.access-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '23px'}`.
+- `dt` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.5vw,40px)', 'line-height': '1.15', 'letter-spacing': '-.04em'}`.
+- `dd` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.next-step>p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.next-step ol` · `base` · `assets/source/styles/screen.css`: `{'font-size': '26px', 'line-height': '1.45'}`.
+- `.next-step li::marker` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'WorkshopSerif,Georgia,serif', 'font-weight': '700', 'font-size': '36px'}`.
+- `.practical footer` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.record` · `base` · `assets/source/styles/screen.css`: `{'font-size': '18px', 'line-height': '1.45'}`.
+- `.outcome` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.recovery h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': '64px'}`.
+- `:root` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.site-header nav` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '16px'}`.
+- `.hero-intro` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.audience,.session-status` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `.primary-action` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '26px'}`.
+- `.summary-row>p,.summary-row>div` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.stage-number` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '68px'}`.
+- `.stage-title p,.stage-description` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.material-status,.materials,.facts dd,.next-step>p` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.supports summary,.next-step ol,.access-note` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.practical footer` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `h1` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(48px,9.5vw,86px)'}`.
+- `.section-title,.session .section-title` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(46px,8vw,80px)'}`.
+- `.section-intro` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': '26px'}`.
+- `.practical h3` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': '40px'}`.
+- `:root` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `.brand` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '42px'}`.
+- `.site-header nav` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '16px'}`.
+- `h1` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '49px', 'letter-spacing': '-.055em'}`.
+- `.hero-intro` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '25px'}`.
+- `.primary-action` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '25px'}`.
+- `.section-title,.session .section-title` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '46px'}`.
+- `.section-intro` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '23px'}`.
+- `.summary-row h2,.summary-row h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '34px'}`.
+- `.stage-number` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '48px'}`.
+- `.stage-title h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.stage-title p,.stage-description` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `dt` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '24px'}`.
+- `.facts dd` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '19px'}`.
+- `.practical h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '35px'}`.
+- `.materials,.material-status,.next-step>p` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.next-step li::marker` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '29px'}`.
+- `.art-note h2` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '34px'}`.
+- `.record` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '16px'}`.
+- `.practical .section-title` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(100px,8.6vw,138px)'}`.
+- `.practical h3` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'font-size': '64px'}`.

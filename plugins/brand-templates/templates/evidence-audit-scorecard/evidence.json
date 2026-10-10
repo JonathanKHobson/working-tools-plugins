@@ -1,0 +1,368 @@
+{
+  "profile": {
+    "id": "evidence-audit-scorecard",
+    "name": "Issue Desk",
+    "templateIds": [
+      "evidence-audit-scorecard"
+    ],
+    "category": "Research & evidence",
+    "summary": "An audit identity that makes a finite set of issues reviewable through status, evidence strength and explicit unknowns.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#16252E",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#101B24",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#E3EEF6",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Calculated Surface",
+        "role": "calculated-surface",
+        "hex": "#F0F4F6",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Editable field",
+        "role": "input-surface",
+        "hex": "#FFF1D1",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Editable value",
+        "role": "input-text",
+        "hex": "#0000CC",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style 12."
+      }
+    ],
+    "recognitionRules": [
+      "Use dark instrument-style headers over pale blue working regions.",
+      "Keep editable fields visibly distinct from calculated summaries.",
+      "Pair Arial labels with Courier New identifiers.",
+      "Display unverified reports as unverified, not as a low numerical score.",
+      "Keep issue-level records available beneath the summary.",
+      "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents.",
+      "Show scorable rows in pale green, unavailable comparisons in amber, ties in teal and invalid weights in pink/red, always with the source state label."
+    ],
+    "voice": {
+      "traits": [
+        "skeptical",
+        "orderly",
+        "actionable"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "An issue is ready to discuss when its evidence is visible.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use ISSUE DESK in Arial with a small monospaced issue code and a short vertical rule. No shield or compliance seal.",
+    "invariants": [
+      "Use dark instrument-style headers over pale blue working regions.",
+      "Keep editable fields visibly distinct from calculated summaries.",
+      "Pair Arial labels with Courier New identifiers."
+    ],
+    "adaptations": [
+      "A meeting summary may show issue counts with a link to the register.",
+      "Do not merge this identity with Project Health merely because both use instrument metaphors.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "evidence-audit-scorecard",
+      "displayName": "Evidence Audit Scorecard",
+      "format": "spreadsheet",
+      "nameSignals": [
+        "Evidence audit scorecard",
+        "Fictional six-session review: six issues, including one unverified report.",
+        "Severity",
+        "0.6",
+        "Frequency"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "253a016948ec360fb844c00c14835db77496b5f42bb40997b6602d8d16d4b397",
+      "evidence": [
+        "installed-skills/artifact-template-studio-evidence-audit-scorecard/SKILL.md",
+        "installed-skills/artifact-template-studio-evidence-audit-scorecard/DESIGN.md",
+        "installed-skills/artifact-template-studio-evidence-audit-scorecard/design/foundations.json",
+        "installed-skills/artifact-template-studio-evidence-audit-scorecard/assets/reference.xlsx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style 17",
+          "observation": "{'id': 17, 'cells': 35, 'examples': ['Evidence!C9', 'Evidence!D9', 'Evidence!E9', 'Evidence!F9', 'Evidence!G9', 'Evidence!H9', 'Evidence!C10', 'Evidence!D10'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#0000C"
+        },
+        {
+          "id": "source-2",
+          "location": "used style 3",
+          "observation": "{'id': 3, 'cells': 27, 'examples': ['Scorecard!B3', 'Scorecard!B5', 'Scorecard!D5', 'Scorecard!F5', 'Scorecard!D6', 'Scorecard!E6', 'Scorecard!F6', 'Scorecard!G6'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#"
+        },
+        {
+          "id": "source-3",
+          "location": "used style 14",
+          "observation": "{'id': 14, 'cells': 20, 'examples': ['Scorecard!B9', 'Scorecard!C9', 'Scorecard!D9', 'Scorecard!E9', 'Scorecard!F9', 'Scorecard!G9', 'Scorecard!H9', 'Scorecard!I9'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': True, 'italic': False, 'color': '#"
+        },
+        {
+          "id": "source-4",
+          "location": "used style 25",
+          "observation": "{'id': 25, 'cells': 20, 'examples': ['Scorecard!D10', 'Scorecard!E10', 'Scorecard!F10', 'Scorecard!I10', 'Scorecard!D12', 'Scorecard!E12', 'Scorecard!F12', 'Scorecard!I12'], 'font': {'name': 'Courier New', 'sizePt': 11.0, 'bold': False, 'italic': Fal"
+        },
+        {
+          "id": "source-5",
+          "location": "used style 39",
+          "observation": "{'id': 39, 'cells': 18, 'examples': ['Evidence!I9', 'Evidence!J9', 'Evidence!K9', 'Evidence!I10', 'Evidence!J10', 'Evidence!K10', 'Evidence!I11', 'Evidence!J11'], 'font': {'name': 'Courier New', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color'"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/evidence-audit-scorecard.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#16252E",
+        "background": "#FFFFFF",
+        "contrastRatio": 15.69,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    },
+    "conditionalColors": [
+      {
+        "name": "State surface / Scorable",
+        "role": "conditional-fill",
+        "hex": "#E0EEE7",
+        "sourceRules": [
+          {
+            "range": "Scorecard!G10:G18",
+            "condition": "Scorable",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Scorable",
+        "source": "reference.xlsx conditional formatting: Scorecard!G10:G18"
+      },
+      {
+        "name": "State text / Scorable",
+        "role": "conditional-text",
+        "hex": "#18563B",
+        "sourceRules": [
+          {
+            "range": "Scorecard!G10:G18",
+            "condition": "Scorable",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Scorable",
+        "source": "reference.xlsx conditional formatting: Scorecard!G10:G18"
+      },
+      {
+        "name": "State surface / n.a.",
+        "role": "conditional-fill",
+        "hex": "#FFF1D1",
+        "sourceRules": [
+          {
+            "range": "Scorecard!H10:I18",
+            "condition": "n.a.",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "n.a.",
+        "source": "reference.xlsx conditional formatting: Scorecard!H10:I18"
+      },
+      {
+        "name": "State text / n.a.",
+        "role": "conditional-text",
+        "hex": "#704000",
+        "sourceRules": [
+          {
+            "range": "Scorecard!H10:I18",
+            "condition": "n.a.",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "n.a.",
+        "source": "reference.xlsx conditional formatting: Scorecard!H10:I18"
+      },
+      {
+        "name": "State surface / TIE",
+        "role": "conditional-fill",
+        "hex": "#A4D8E2",
+        "sourceRules": [
+          {
+            "range": "Scorecard!J10:J18",
+            "condition": "TIE",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "TIE",
+        "source": "reference.xlsx conditional formatting: Scorecard!J10:J18"
+      },
+      {
+        "name": "State text / TIE",
+        "role": "conditional-text",
+        "hex": "#101B24",
+        "sourceRules": [
+          {
+            "range": "Scorecard!J10:J18",
+            "condition": "TIE",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "TIE",
+        "source": "reference.xlsx conditional formatting: Scorecard!J10:J18"
+      },
+      {
+        "name": "State surface / WEIGHTS OK",
+        "role": "conditional-fill",
+        "hex": "#FFC7CE",
+        "sourceRules": [
+          {
+            "range": "Scorecard!B6",
+            "condition": "WEIGHTS OK",
+            "operator": null,
+            "ruleType": "notContainsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "WEIGHTS OK",
+        "source": "reference.xlsx conditional formatting: Scorecard!B6"
+      },
+      {
+        "name": "State text / WEIGHTS OK",
+        "role": "conditional-text",
+        "hex": "#9C0006",
+        "sourceRules": [
+          {
+            "range": "Scorecard!B6",
+            "condition": "WEIGHTS OK",
+            "operator": null,
+            "ruleType": "notContainsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "WEIGHTS OK",
+        "source": "reference.xlsx conditional formatting: Scorecard!B6"
+      }
+    ]
+  },
+  "sourceVariations": [
+    {
+      "templateId": "evidence-audit-scorecard",
+      "name": "Evidence Audit Scorecard",
+      "format": "spreadsheet",
+      "sourceHash": "253a016948ec360fb844c00c14835db77496b5f42bb40997b6602d8d16d4b397",
+      "foundationSha256": "d96520eedaaf4dd8067e915a23f14c9afee2fb5be0395ade18a6eecb22922b3e",
+      "designSpecSha256": "c619af9b8bdc6ac77716c8fb1bf894a8f41895fb329ec30bdb0001ffe2868ef7",
+      "referenceDirectory": "references/evidence-audit-scorecard"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use ISSUE DESK in Arial with a small monospaced issue code and a short vertical rule. No shield or compliance seal.",
+    "productionMethod": "Brand-specific outlined typography with issue-rail source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style 12.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "evidence-audit-scorecard",
+      "sourceFingerprint": "253a016948ec360fb844c00c14835db77496b5f42bb40997b6602d8d16d4b397"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,225 @@
+{
+  "profile": {
+    "id": "creative-studio-proposal",
+    "name": "Bright Assembly",
+    "templateIds": [
+      "creative-studio-proposal"
+    ],
+    "category": "Creative practice",
+    "summary": "A studio identity that pairs electric-blue confidence with a visible account of how creative work will be organized and delivered.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#171720",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#283CDB",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Display Field",
+        "role": "display-field",
+        "hex": "#F4F447",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#BCE7D5",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#686872",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Archivo,Arial,sans-serif",
+        "usage": "Titles and short section openings; source h1,h2,h3,.wordmark."
+      }
+    ],
+    "recognitionRules": [
+      "Use Archivo headlines with large open spacing around the proposition.",
+      "Let blue, yellow and mint form distinct fields rather than blended gradients.",
+      "Keep the work grid separate from engagement and service panels.",
+      "Make the enquiry area a clear next step after the scope is understood."
+    ],
+    "voice": {
+      "traits": [
+        "confident",
+        "collaborative",
+        "concrete"
+      ],
+      "principles": [
+        "Let a concrete image or material action carry the opening; explain the work plainly afterward.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Bring the brief. We will make the work and the working plan clear.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid abstract manifestos that displace the actual work.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Begin with one thing you can make or inspect.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use BRIGHT ASSEMBLY in Archivo with a small offset rectangular color block. Keep the block outside the letterforms and avoid a generic app tile.",
+    "invariants": [
+      "Use Archivo headlines with large open spacing around the proposition.",
+      "Let blue, yellow and mint form distinct fields rather than blended gradients.",
+      "Keep the work grid separate from engagement and service panels."
+    ],
+    "adaptations": [
+      "Use one color field per proposal section.",
+      "Reduce saturated fields in long reading documents while retaining the blue wordmark.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "creative-studio-proposal",
+      "displayName": "Creative Studio Proposal",
+      "format": "site",
+      "nameSignals": [
+        "Creative Studio Proposal"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7",
+      "evidence": [
+        "installed-skills/artifact-template-studio-creative-studio-proposal/SKILL.md",
+        "installed-skills/artifact-template-studio-creative-studio-proposal/DESIGN.md",
+        "installed-skills/artifact-template-studio-creative-studio-proposal/design/foundations.json",
+        "installed-skills/artifact-template-studio-creative-studio-proposal/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "styles/main.css:body",
+          "observation": "{'margin': '0', 'overflow-wrap': 'anywhere'}"
+        },
+        {
+          "id": "source-17",
+          "location": "styles/main.css:.site-header",
+          "observation": "{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '1.5rem', 'padding-top': '1rem', 'padding-bottom': '1.3rem'}"
+        },
+        {
+          "id": "source-18",
+          "location": "styles/main.css:.wordmark",
+          "observation": "{'color': 'var(--ink)', 'font-size': '1.7rem', 'text-decoration': 'none', 'text-transform': 'uppercase', 'letter-spacing': '-.055em'}"
+        },
+        {
+          "id": "source-25",
+          "location": "styles/main.css:.opening h1",
+          "observation": "{'position': 'relative', 'max-width': '76%', 'z-index': '1'}"
+        },
+        {
+          "id": "source-66",
+          "location": "styles/main.css:.site-header",
+          "observation": "{'flex-wrap': 'wrap', 'gap': '.75rem'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/creative-studio-proposal-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#171720",
+        "background": "#FFFFFF",
+        "contrastRatio": 17.8,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "creative-studio-proposal",
+      "name": "Creative Studio Proposal",
+      "format": "site",
+      "sourceHash": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7",
+      "foundationSha256": "0c91b7062d85c5103b2a6b9c38e1ccdeb2ec1478017ea653fd31ffc042c07d39",
+      "designSpecSha256": "203b658f0c233e16512cda3fd10ba5c89fe794f420f7dfb9b4b57cc42c1a6bb7",
+      "referenceDirectory": "references/creative-studio-proposal"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use BRIGHT ASSEMBLY in Archivo with a small offset rectangular color block. Keep the block outside the letterforms and avoid a generic app tile.",
+    "productionMethod": "Brand-specific outlined typography with offset-block source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Archivo",
+      "renderFamily": "Archivo",
+      "decision": "Exact licensed source family for the source role. Exact OFL source family; official Google Fonts variable source is statically instanced.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": 32,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark.",
+      "sourceFamily": "Archivo,Arial,sans-serif",
+      "sourceFamilySelected": "Archivo",
+      "renderFamily": "Archivo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/archivo/Archivo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8742b93ef591ec4610b7949566aa9a994a73890076c172de866d7b421abe471e"
+        },
+        "bold": {
+          "path": "assets/fonts/archivo/Archivo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "c6d46b41aa0f276db315da650e4d26dcdd524221713ccd15863dd15c66a1f50c"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/archivo/OFL.txt",
+      "licenseSha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official Google Fonts variable source is statically instanced.",
+      "sourceTemplateId": "creative-studio-proposal",
+      "sourceFingerprint": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

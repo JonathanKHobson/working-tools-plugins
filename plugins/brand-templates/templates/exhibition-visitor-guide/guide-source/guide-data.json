@@ -1,0 +1,134 @@
+{
+  "id": "exhibition-visitor-guide",
+  "name": "Objects and Light",
+  "summary": "A visitor identity that offers a small number of ways to look without telling the viewer what to feel.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Route rust",
+      "role": "link",
+      "hex": "#813A25",
+      "evidence": "Native reference.docx word/styles.xml: style GalleryRoute; text."
+    },
+    {
+      "name": "Object label rust",
+      "role": "primary",
+      "hex": "#95482D",
+      "evidence": "Native reference.docx word/styles.xml: style GalleryLabel; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Futura",
+      "usage": "Titles and short section openings; source used style GalleryLabel."
+    },
+    {
+      "role": "body",
+      "family": "Optima",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style GalleryRoute."
+    }
+  ],
+  "recognitionRules": [
+    "Pair Optima interpretation with Futura navigational labels.",
+    "Use object numbers as stable anchors from image to caption.",
+    "Give each looking prompt its own space.",
+    "Keep interpretation distinct from object facts and provenance.",
+    "Use rust object labels and route links with dark interpretation text; isolate each object image and its caption."
+  ],
+  "voice": {
+    "traits": [
+      "open",
+      "observant",
+      "gentle"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Three forms. Three ways to look. Take the time you need.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use OBJECTS AND LIGHT in Optima with a small offset line beneath LIGHT. No sunburst; leave the visual field to the objects.",
+  "invariants": [
+    "Pair Optima interpretation with Futura navigational labels.",
+    "Use object numbers as stable anchors from image to caption.",
+    "Give each looking prompt its own space."
+  ],
+  "adaptations": [
+    "A pocket guide can use one object per panel.",
+    "An exhibition label keeps one looking prompt and the essential record.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Futura",
+      "renderFamily": "Jost",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/jost/Jost-Regular.ttf",
+      "bold": "assets/fonts/jost/Jost-Bold.ttf",
+      "license": "assets/fonts/jost/OFL.txt",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+      "bold": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+      "license": "assets/fonts/alegreya-sans/OFL.txt",
+      "sourceFontDependency": "Optima is an Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

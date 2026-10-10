@@ -1,0 +1,194 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/styles/main.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/styles/main.css`: `{'margin': '0', 'overflow-wrap': 'anywhere'}`.
+- `a` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--blue)', 'text-underline-offset': '.18em'}`.
+- `a:hover` · `base` · `assets/source/styles/main.css`: `{'text-decoration-thickness': '.13em'}`.
+- `button,input,textarea` · `base` · `assets/source/styles/main.css`: `{'font': 'inherit'}`.
+- `button,a,input,textarea` · `base` · `assets/source/styles/main.css`: `{'touch-action': 'manipulation'}`.
+- `button` · `base` · `assets/source/styles/main.css`: `{'cursor': 'pointer'}`.
+- `a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible` · `base` · `assets/source/styles/main.css`: `{'outline': '3px solid var(--ink)', 'outline-offset': '4px'}`.
+- `img` · `base` · `assets/source/styles/main.css`: `{'max-width': '100%', 'display': 'block'}`.
+- `figure,p,h1,h2,h3` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `h1,h2,h3,.wordmark` · `base` · `assets/source/styles/main.css`: `{'font-family': 'Archivo,Arial,sans-serif', 'font-weight': '900', 'line-height': '1.08', 'letter-spacing': '-.055em'}`.
+- `h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.7rem,5.85vw,4.5rem)', 'overflow-wrap': 'anywhere'}`.
+- `h2` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(1.8rem,3.1vw,2.4rem)'}`.
+- `h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.4rem'}`.
+- `p,li` · `base` · `assets/source/styles/main.css`: `{'overflow-wrap': 'anywhere'}`.
+- `.wrap` · `base` · `assets/source/styles/main.css`: `{'max-width': '1600px', 'margin-inline': 'auto', 'padding-inline': 'var(--gutter)'}`.
+- `.site-header` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '1.5rem', 'padding-top': '1rem', 'padding-bottom': '1.3rem'}`.
+- `.wordmark` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--ink)', 'font-size': '1.7rem', 'text-decoration': 'none', 'text-transform': 'uppercase', 'letter-spacing': '-.055em'}`.
+- `.site-header nav` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '2.6rem', 'flex-wrap': 'wrap'}`.
+- `.site-header nav a` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--ink)', 'text-decoration': 'none', 'padding': '.2rem 0'}`.
+- `.site-header [aria-current]` · `base` · `assets/source/styles/main.css`: `{'box-shadow': '0 .25rem 0 var(--yellow)'}`.
+- `.skip-link` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'top': '-8rem', 'left': '1rem', 'background': 'var(--yellow)', 'z-index': '10', 'padding': '.5rem'}`.
+- `.skip-link:focus` · `base` · `assets/source/styles/main.css`: `{'top': '.5rem'}`.
+- `.opening` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'margin-bottom': '1.65rem', 'padding-top': '.2rem'}`.
+- `.opening h1` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'max-width': '76%', 'z-index': '1'}`.
+- `.intro` · `base` · `assets/source/styles/main.css`: `{'max-width': '40rem', 'margin-top': '.65rem', 'line-height': '1.25'}`.
+- `.planes` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'right': '0', 'top': '0', 'width': '37%', 'height': '13rem', 'overflow': 'hidden'}`.
+- `.planes i` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'position': 'absolute', 'top': '1rem', 'left': '0', 'width': '65%', 'height': '1.7rem', 'background': 'var(--blue)'}`.
+- `.planes b` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'position': 'absolute', 'right': '5%', 'top': '.6rem', 'width': '26%', 'height': '11rem', 'background': 'var(--mint)', 'transform': 'skew(-42deg)'}`.
+- `.section-note` · `base` · `assets/source/styles/main.css`: `{'margin-top': '.2rem', 'margin-bottom': '1rem'}`.
+- `.work-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.26fr 1fr', 'gap': '1.2rem', 'align-items': 'start'}`.
+- `.work-item:nth-child(even)` · `base` · `assets/source/styles/main.css`: `{'margin-top': '1.2rem'}`.
+- `.work-item h3` · `base` · `assets/source/styles/main.css`: `{'margin-top': '.45rem'}`.
+- `.work-item>a` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block', 'margin-top': '.2rem', 'min-height': '2.2rem'}`.
+- `.project-figure .image-field` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--yellow)', 'overflow': 'hidden'}`.
+- `.work-item:nth-child(even) .image-field` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--mint)'}`.
+- `.work-item img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': 'auto', 'aspect-ratio': '1.5', 'object-fit': 'contain'}`.
+- `.work-item:nth-child(even) img` · `base` · `assets/source/styles/main.css`: `{'aspect-ratio': '1.5'}`.
+- `.project-figure figcaption` · `base` · `assets/source/styles/main.css`: `{'font-size': '.7rem', 'line-height': '1.35', 'margin-top': '.35rem'}`.
+- `.site-footer` · `base` · `assets/source/styles/main.css`: `{'margin-top': '1.65rem', 'padding-bottom': '1.2rem'}`.
+- `.site-footer>div:first-child` · `base` · `assets/source/styles/main.css`: `{'border-top': '1px solid var(--ink)', 'padding-top': '1rem'}`.
+- `.site-footer>div` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.site-footer .small` · `base` · `assets/source/styles/main.css`: `{'font-size': '.7rem', 'margin-top': '.6rem'}`.
+- `.back-link` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block', 'margin': '.15rem 0 .65rem', 'color': 'var(--ink)'}`.
+- `.case-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.8rem,6vw,4.7rem)'}`.
+- `.case-heading .subtitle` · `base` · `assets/source/styles/main.css`: `{'font': '900 clamp(1.45rem,2.8vw,2.1rem)/1.15 Archivo,Arial,sans-serif', 'letter-spacing': '-.05em', 'margin': '.15rem 0 .45rem'}`.
+- `.evidence-note` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.case-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '2.2fr 1fr', 'gap': '1.1rem', 'margin-top': '.7rem', 'align-items': 'start'}`.
+- `.case-grid img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': 'auto'}`.
+- `.case-rail` · `base` · `assets/source/styles/main.css`: `{'border-left': '2px solid var(--ink)', 'padding-left': '1.1rem'}`.
+- `.case-rail section+section` · `base` · `assets/source/styles/main.css`: `{'margin-top': '1.2rem'}`.
+- `.case-rail h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.55rem', 'margin-bottom': '.4rem'}`.
+- `.case-rail p` · `base` · `assets/source/styles/main.css`: `{'font-size': '1rem', 'line-height': '1.35'}`.
+- `.scope-band` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '2.2fr 1fr', 'gap': '.6rem', 'border-top': '2px solid var(--ink)', 'padding-top': '.5rem', 'margin-top': '1rem', 'align-items': 'stretch'}`.
+- `.scope-band>div` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--yellow)', 'padding': '.6rem .8rem'}`.
+- `.scope-band h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.55rem', 'margin-bottom': '.3rem'}`.
+- `.scope-band p` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.button` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'padding': '.7rem 1rem', 'min-height': '2.7rem', 'border': '1px solid var(--ink)', 'text-decoration': 'none', 'font': '700 1rem/1.25 Arimo,Arial,sans-serif', 'gap': '.5rem'}`.
+- `.primary` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--blue)', 'border-color': 'var(--blue)', 'color': 'white'}`.
+- `.button:hover` · `base` · `assets/source/styles/main.css`: `{'filter': 'brightness(.95)'}`.
+- `.next-study` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem', 'margin-top': '1rem'}`.
+- `.empty,.no-image` · `base` · `assets/source/styles/main.css`: `{'padding': '2rem', 'background': 'var(--mint)'}`.
+- `.empty p,.no-image p+p` · `base` · `assets/source/styles/main.css`: `{'margin': '.5rem 0'}`.
+- `.empty` · `base` · `assets/source/styles/main.css`: `{'grid-column': '1/-1'}`.
+- `.no-image` · `base` · `assets/source/styles/main.css`: `{'min-height': '13rem', 'display': 'grid', 'align-content': 'center'}`.
+- `.site-header` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'flex-wrap': 'wrap', 'gap': '.75rem'}`.
+- `.wordmark` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '1.4rem'}`.
+- `.site-header nav` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'gap': '1.5rem'}`.
+- `.opening h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'max-width': '100%', 'font-size': 'clamp(2.5rem,8.3vw,4.5rem)'}`.
+- `.planes` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.intro` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'margin-top': '1rem'}`.
+- `.work-grid,.case-grid,.scope-band` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr'}`.
+- `.work-item:nth-child(even)` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'margin-top': '0'}`.
+- `.work-item img,.work-item:nth-child(even) img` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'aspect-ratio': '1.5'}`.
+- `.work-grid` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'gap': '1.5rem'}`.
+- `.case-rail` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'border-left': '0', 'border-top': '2px solid var(--ink)', 'padding': '1rem 0 0'}`.
+- `.site-footer>div` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'flex-direction': 'column', 'gap': '.4rem'}`.
+- `.case-heading h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.4rem,9vw,4.5rem)'}`.
+- `.scope-band .button` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'justify-self': 'start'}`.
+- `.project-figure figcaption` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '.78rem'}`.
+- `a,button` · `@media (prefers-reduced-motion:no-preference)` · `assets/source/styles/main.css`: `{'transition': 'color .15s,background-color .15s'}`.
+- `[hidden]` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.sr-only` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'padding': '0', 'margin': '-1px', 'overflow': 'hidden', 'clip': 'rect(0,0,0,0)', 'white-space': 'nowrap', 'border': '0'}`.
+- `.together-heading` · `base` · `assets/source/styles/main.css`: `{'margin': '.9rem 0 1.8rem'}`.
+- `.together-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.3rem,5.1vw,4rem)'}`.
+- `.together-heading .intro` · `base` · `assets/source/styles/main.css`: `{'max-width': 'none'}`.
+- `.engagement-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.08fr', 'gap': '3rem'}`.
+- `.service-choices` · `base` · `assets/source/styles/main.css`: `{'padding': '0', 'margin': '0 0 .8rem', 'border': '0', 'display': 'flex', 'gap': '.6rem', 'flex-wrap': 'wrap'}`.
+- `.service-choices label` · `base` · `assets/source/styles/main.css`: `{'flex': '1', 'position': 'relative', 'min-width': '10rem', 'cursor': 'pointer'}`.
+- `.service-choices input` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'opacity': '0', 'inset': '0', 'margin': '0', 'cursor': 'pointer'}`.
+- `.service-choices span` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'center', 'border': '1px solid var(--ink)', 'padding': '.75rem', 'font-weight': '700', 'min-height': '3rem', 'height': '100%'}`.
+- `.service-choices input:checked+span` · `base` · `assets/source/styles/main.css`: `{'color': 'white', 'background': 'var(--blue)', 'border-color': 'var(--blue)'}`.
+- `.service-choices input:focus-visible+span` · `base` · `assets/source/styles/main.css`: `{'outline': '3px solid var(--ink)', 'outline-offset': '4px'}`.
+- `.service-panel` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--yellow)', 'padding': '1.4rem 1.5rem'}`.
+- `.service-panel+.service-panel` · `base` · `assets/source/styles/main.css`: `{'margin-top': '1rem'}`.
+- `.service-panel h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '2rem'}`.
+- `.service-panel .fit` · `base` · `assets/source/styles/main.css`: `{'font-weight': '700', 'margin': '.4rem 0 1.2rem'}`.
+- `.service-panel h3` · `base` · `assets/source/styles/main.css`: `{'font': '700 1.05rem/1.3 Arimo,Arial,sans-serif', 'letter-spacing': '0', 'margin-top': '1.2rem', 'margin-bottom': '.4rem'}`.
+- `.service-panel ul` · `base` · `assets/source/styles/main.css`: `{'list-style': 'none', 'padding': '0', 'margin': '0'}`.
+- `.boundary` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem', 'margin-top': '.8rem'}`.
+- `.enquiry h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '2.1rem', 'margin-bottom': '.8rem'}`.
+- `.enquiry label` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'font-weight': '700', 'margin-bottom': '.3rem'}`.
+- `.enquiry textarea,.enquiry input` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'padding': '.55rem .65rem', 'border': '1px solid var(--ink)', 'background': 'var(--white)', 'color': 'var(--ink)', 'border-radius': '0', 'line-height': '1.35'}`.
+- `.enquiry textarea` · `base` · `assets/source/styles/main.css`: `{'resize': 'vertical', 'min-height': '5.5rem'}`.
+- `.enquiry textarea:focus,.enquiry input:focus` · `base` · `assets/source/styles/main.css`: `{'border-color': 'var(--blue)'}`.
+- `.enquiry textarea+label` · `base` · `assets/source/styles/main.css`: `{'margin-top': '.7rem'}`.
+- `::placeholder` · `base` · `assets/source/styles/main.css`: `{'color': '#686872', 'opacity': '1'}`.
+- `.field-pair` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '.75rem', 'margin-top': '.75rem'}`.
+- `.help` · `base` · `assets/source/styles/main.css`: `{'font-size': '.75rem', 'margin': '.4rem 0 .7rem'}`.
+- `.actions` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '.7rem', 'flex-wrap': 'wrap'}`.
+- `.draft-note,.no-js-guide` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--mint)', 'padding': '1rem 1.2rem', 'margin-top': '1.2rem'}`.
+- `.draft-note h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.1rem', 'margin-bottom': '.4rem'}`.
+- `.draft-note p` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.draft-result` · `base` · `assets/source/styles/main.css`: `{'margin-top': '1.5rem', 'border-top': '2px solid var(--ink)', 'padding-top': '1rem'}`.
+- `.draft-result h3` · `base` · `assets/source/styles/main.css`: `{'margin-bottom': '.75rem'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/main.css`: `{'font-size': '.85rem', 'min-height': '18rem', 'margin-bottom': '.7rem'}`.
+- `.notice` · `base` · `assets/source/styles/main.css`: `{'border-left': '.3rem solid var(--blue)', 'padding': '.5rem', 'margin-bottom': '1rem'}`.
+- `.author-guide` · `base` · `assets/source/styles/main.css`: `{'max-width': '58rem', 'padding-top': '1rem'}`.
+- `.author-guide h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.8rem,5.5vw,4.2rem)'}`.
+- `.author-guide section` · `base` · `assets/source/styles/main.css`: `{'margin': '2rem 0'}`.
+- `.author-guide h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.6rem', 'margin-bottom': '.7rem'}`.
+- `.author-guide p+p` · `base` · `assets/source/styles/main.css`: `{'margin-top': '.6rem'}`.
+- `.author-guide li` · `base` · `assets/source/styles/main.css`: `{'margin': '.45rem 0'}`.
+- `code` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9em', 'overflow-wrap': 'anywhere'}`.
+- `.engagement-grid` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr', 'gap': '2rem'}`.
+- `.together-heading` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'margin-top': '.5rem'}`.
+- `.together-heading h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.3rem,8vw,3.5rem)'}`.
+- `.field-pair` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr'}`.
+- `.service-panel` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'padding': '1.2rem'}`.
+- `.enquiry h2` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '1.8rem'}`.
+- `.help` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '.8rem'}`.
+- `.actions .button` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'flex': '1'}`.
+- `.print-only` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.hero-heading` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,2.1fr) minmax(0,1fr)', 'gap': '1rem'}`.
+- `.hero-heading h1` · `base` · `assets/source/styles/main.css`: `{'grid-column': '1', 'grid-row': '1', 'max-width': 'none'}`.
+- `.hero-heading .planes` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'grid-column': '2', 'grid-row': '1', 'width': '100%', 'height': '100%'}`.
+- `.hero-heading .planes i` · `base` · `assets/source/styles/main.css`: `{'width': '80%'}`.
+- `.hero-heading` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font': '11pt/1.4 Arimo,Arial,sans-serif', 'color': '#000', 'background': '#fff'}`.
+- `.wrap` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'max-width': 'none'}`.
+- `.site-header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 5mm'}`.
+- `.wordmark` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.site-header nav,.skip-link,.planes` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.opening h1,.case-heading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt', 'max-width': '100%'}`.
+- `h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.intro` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.work-grid` · `base` · `assets/source/styles/print.css`: `{'gap': '6mm'}`.
+- `.work-item` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.work-item img,.work-item:nth-child(even) img` · `base` · `assets/source/styles/print.css`: `{'aspect-ratio': '1.5'}`.
+- `.project-figure figcaption,.site-footer .small` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.case-grid` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr 1.8fr'}`.
+- `.case-rail h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.case-rail p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.case-rail section+section` · `base` · `assets/source/styles/print.css`: `{'margin-top': '4mm'}`.
+- `.scope-band` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'break-inside': 'avoid'}`.
+- `.scope-band>div` · `base` · `assets/source/styles/print.css`: `{'background': '#fff', 'padding': '3mm 0'}`.
+- `.scope-band .button` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.site-footer` · `base` · `assets/source/styles/print.css`: `{'margin-top': '7mm', 'padding': '0'}`.
+- `.site-footer>div` · `base` · `assets/source/styles/print.css`: `{'gap': '4mm'}`.
+- `.button` · `base` · `assets/source/styles/print.css`: `{'color': '#000', 'background': 'white', 'border': '1px solid #000'}`.
+- `a` · `base` · `assets/source/styles/print.css`: `{'color': '#000'}`.
+- `.next-study` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.engagement-grid` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.together-heading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt'}`.
+- `.service-choices,.enquiry form,.enquiry .actions` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.service-panel` · `base` · `assets/source/styles/print.css`: `{'background': '#fff', 'padding': '3mm 0', 'break-inside': 'avoid'}`.
+- `.service-panel h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.service-panel h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.service-panel ul,.service-panel p,.boundary` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.service-panel[hidden]` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.enquiry` · `base` · `assets/source/styles/print.css`: `{'break-before': 'page'}`.
+- `.enquiry h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.draft-note` · `base` · `assets/source/styles/print.css`: `{'background': '#fff', 'padding': '0'}`.
+- `.draft-note p,.help` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.no-js-guide` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'background': '#fff', 'padding': '0'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/print.css`: `{'height': 'auto', 'min-height': '100mm', 'font-size': '10pt'}`.
+- `.author-guide` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.author-guide h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt'}`.
+- `.author-guide h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt', 'break-after': 'avoid'}`.
+- `.author-guide section` · `base` · `assets/source/styles/print.css`: `{'margin': '6mm 0'}`.
+- `.author-guide p,.author-guide li` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.author-guide .button` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.draft-result textarea,.draft-result label` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.print-only` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'white-space': 'pre-wrap', 'overflow-wrap': 'anywhere', 'font': '10pt/1.4 Arimo,Arial,sans-serif'}`.
+- `.draft-result` · `base` · `assets/source/styles/print.css`: `{'break-before': 'auto'}`.
+- `.draft-note,.no-js-guide` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+
+Media/font files: fonts/arimo/Arimo-Bold.woff2, fonts/arimo/Arimo-Regular.woff2, images/common-ground.png, images/paper-hour.png.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

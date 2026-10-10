@@ -1,0 +1,258 @@
+{
+  "profile": {
+    "id": "evaluation-log-notebook",
+    "name": "Trial Ledger",
+    "templateIds": [
+      "evaluation-log-notebook"
+    ],
+    "category": "Research & evidence",
+    "summary": "A working evaluation identity with the feel of a field console: dated records, visible states and evidence beside interpretation.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#102820",
+        "evidence": ":root --paper; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#D9F4DF",
+        "evidence": ":root --ink; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Primary",
+        "role": "primary",
+        "hex": "#B8DC92",
+        "evidence": ":root --accent; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Surface",
+        "role": "surface",
+        "hex": "#19392C",
+        "evidence": ":root --panel; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Rule",
+        "role": "rule",
+        "hex": "#66806C",
+        "evidence": ":root --rule; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#F1C989",
+        "evidence": ":root --meta; reusable role derives from source variable and usage"
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Menlo, Consolas, monospace",
+        "usage": "Record IDs, states and notebook labels."
+      },
+      {
+        "role": "body",
+        "family": "system-ui, sans-serif",
+        "usage": "Longer explanation and evidence notes."
+      }
+    ],
+    "recognitionRules": [
+      "Use a dark green ground with pale green reading text and lime highlights.",
+      "Keep a stable side rail for filters and notebook context.",
+      "Use monospaced text for record IDs and evaluation states.",
+      "Give evidence and uncertainty their own fields within each log entry."
+    ],
+    "voice": {
+      "traits": [
+        "methodical",
+        "candid",
+        "provisional"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Record the attempt. Keep the result and the doubt together.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use TRIAL LEDGER in Menlo with a small open square followed by a record number. Do not use a checkmark as the default symbol.",
+    "invariants": [
+      "Use a dark green ground with pale green reading text and lime highlights.",
+      "Keep a stable side rail for filters and notebook context.",
+      "Use monospaced text for record IDs and evaluation states."
+    ],
+    "adaptations": [
+      "Print exports replace dark fills with ruled entries.",
+      "A compact view can hide detail only when the full record remains reachable.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "evaluation-log-notebook",
+      "displayName": "Evaluation Log Notebook",
+      "format": "site",
+      "nameSignals": [
+        "Evaluation notebook | Skip to evaluation log | Opening notebook… | This notebook needs JavaScript to read and filter its records. The editable records are in | the source data file | . Enable JavaScript for the accessible log view."
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a",
+      "evidence": [
+        "installed-skills/artifact-template-studio-evaluation-log-notebook/SKILL.md",
+        "installed-skills/artifact-template-studio-evaluation-log-notebook/DESIGN.md",
+        "installed-skills/artifact-template-studio-evaluation-log-notebook/design/foundations.json",
+        "installed-skills/artifact-template-studio-evaluation-log-notebook/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "src/styles.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-19",
+          "location": "src/styles.css:.wordmark",
+          "observation": "{'text-decoration': 'none'}"
+        },
+        {
+          "id": "source-94",
+          "location": "src/styles.css:body",
+          "observation": "{'background': 'white'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/evaluation-log-notebook-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#D9F4DF",
+        "background": "#102820",
+        "contrastRatio": 13.34,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "evaluation-log-notebook",
+      "name": "Evaluation Log Notebook",
+      "format": "site",
+      "sourceHash": "0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a",
+      "foundationSha256": "28d3d6f48f391cd5953fbad6b1d9218863598e6348768be56a8457ec7e91d08c",
+      "designSpecSha256": "8f4ec5462e4547df5fb0784d77988070476d8793353493158a46b54fe3addfba",
+      "referenceDirectory": "references/evaluation-log-notebook"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use TRIAL LEDGER in Menlo with a small open square followed by a record number. Do not use a checkmark as the default symbol.",
+    "productionMethod": "outlined typography and identity-specific geometric construction",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Menlo",
+      "renderFamily": "IBM Plex Mono",
+      "decision": "licensed monospaced adaptation, not exact Menlo",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "One open-record-square width around the complete identifier and name.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 320,
+      "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+      "symbolWidthPx": null,
+      "secondaryWidthPx": 180
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Record IDs, states and notebook labels.",
+      "sourceFamily": "Menlo, Consolas, monospace",
+      "sourceFamilySelected": "Menlo",
+      "renderFamily": "IBM Plex Mono",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "7c6fbddca4b700be918f5f6183d9bd4464fa427fe435f0b480d77fe2bb8c5a43"
+        },
+        "semibold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "f04d7c488ddf7d1fa99f2574efc3406ea4cbe17bb1af3a1ab960f84d0c96a172"
+        },
+        "bold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "74e5eedcfa4596497d34e19023cabdabd3a8c852b903007a5654a59591a72ffb"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/ibm-plex-mono/OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Menlo is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Menlo is an Apple/system font; not bundled. Exact OFL family from IBM's official static TTF package; semibold supports the source's IBM Plex Mono SmBld role.",
+      "sourceTemplateId": "evaluation-log-notebook",
+      "sourceFingerprint": "0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a"
+    },
+    {
+      "role": "body",
+      "usage": "Longer explanation and evidence notes.",
+      "sourceFamily": "system-ui, sans-serif",
+      "sourceFamilySelected": "system-ui",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "system-ui resolves to a host-dependent operating-system UI font; original family is not identifiable or bundled.",
+      "justification": "Portable variant selected. system-ui resolves to a host-dependent operating-system UI font; original family is not identifiable or bundled. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "evaluation-log-notebook",
+      "sourceFingerprint": "0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

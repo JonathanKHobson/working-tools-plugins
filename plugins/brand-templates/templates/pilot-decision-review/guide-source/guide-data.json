@@ -1,0 +1,145 @@
+{
+  "id": "pilot-decision-review",
+  "name": "Next Pilot",
+  "summary": "A decision identity that makes a modest test proposal legible alongside what is known and what still needs evidence.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#1E2933",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#233642",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#865C0C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F2F4F5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#52616B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source slide 6 / footer."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / footer."
+    }
+  ],
+  "recognitionRules": [
+    "Lead with a direct recommendation heading on a clean white slide.",
+    "Use paired Known and Still unknown columns.",
+    "Keep the pilot size and duration concrete in the opening.",
+    "Use slate text and restrained warm emphasis without adding a success dashboard."
+  ],
+  "voice": {
+    "traits": [
+      "decisive",
+      "modest",
+      "testable"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Choose a small test that can answer the next question.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use NEXT PILOT in bold Arial with one short forward rule ending before an open dot. No rocket or upward-growth arrow.",
+  "invariants": [
+    "Lead with a direct recommendation heading on a clean white slide.",
+    "Use paired Known and Still unknown columns.",
+    "Keep the pilot size and duration concrete in the opening."
+  ],
+  "adaptations": [
+    "A one-page decision record keeps recommendation, unknowns and test conditions.",
+    "Expand only the evidence needed to assess the next step.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 64,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

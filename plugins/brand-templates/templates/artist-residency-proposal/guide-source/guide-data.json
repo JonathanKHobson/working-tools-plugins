@@ -1,0 +1,141 @@
+{
+  "id": "artist-residency-proposal",
+  "name": "Common Material",
+  "summary": "A residency proposal identity that combines a generous literary title with a clear, workable account of making and participation.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Residency peach",
+      "role": "background",
+      "hex": "#FAE6D4",
+      "evidence": "Native reference.docx peach page ground confirmed in rendered cover; word/document.xml repeats #FAE6D4 working surfaces."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#302A3B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Warm table ground",
+      "role": "surface",
+      "hex": "#FFF7EE",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #FFF7EE; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Olive rule",
+      "role": "rule",
+      "hex": "#B8C26F",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #B8C26F; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Residency plum",
+      "role": "primary",
+      "hex": "#853D5A",
+      "evidence": "Native reference.docx word/styles.xml: style Metadata, style Heading2; text."
+    },
+    {
+      "name": "Reversed table labels",
+      "role": "reverse-text",
+      "hex": "#FFFFFF",
+      "evidence": "Native reference.docx word/document.xml: paragraph: Test, paragraph: Method, paragraph: Decision it informs; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Fraunces 72pt Soft",
+      "usage": "Residency proposition and chapter openings; keep the soft serif character."
+    },
+    {
+      "role": "body",
+      "family": "Alegreya Sans",
+      "usage": "Proposal narrative, practical requirements and schedules."
+    }
+  ],
+  "recognitionRules": [
+    "Use Fraunces display typography for the residency proposition and Alegreya Sans for delivery detail.",
+    "Keep the warm peach page ground, plum reading ink and a generous first-page title interval; the open painted vessel is supporting source artwork.",
+    "Separate the creative premise, participant experience and production requirements.",
+    "Treat the proposal as an invitation to review, not an announced residency."
+  ],
+  "voice": {
+    "traits": [
+      "thoughtful",
+      "tactile",
+      "grounded"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A place to make, and time to notice what making changes.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use COMMON MATERIAL in the source’s soft Fraunces display face, with no symbol. Keep the wordmark text editable and provide a licensed substitute if the source font cannot travel.",
+  "invariants": [
+    "Use Fraunces display typography for the residency proposition and Alegreya Sans for delivery detail.",
+    "Keep the warm peach page ground, plum reading ink and a generous first-page title interval; the open painted vessel is supporting source artwork.",
+    "Separate the creative premise, participant experience and production requirements."
+  ],
+  "adaptations": [
+    "Use the display face sparingly in schedule-heavy pages.",
+    "Adapt the subject and location without changing the proposal’s reading hierarchy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Fraunces 72pt Soft",
+      "renderFamily": "Fraunces",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/fraunces/Fraunces-Regular.ttf",
+      "bold": "assets/fonts/fraunces/Fraunces-Bold.ttf",
+      "license": "assets/fonts/fraunces/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Alegreya Sans",
+      "renderFamily": "Alegreya Sans",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+      "bold": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+      "license": "assets/fonts/alegreya-sans/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

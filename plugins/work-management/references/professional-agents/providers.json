@@ -1,0 +1,758 @@
+[
+  {
+    "name": "video-production-workflow",
+    "plugin_id": "video-production-workflow@personal",
+    "enabled": true,
+    "root": "~/plugins/video-production-workflow"
+  },
+  {
+    "name": "oppia-research-compass",
+    "plugin_id": "oppia-research-compass@personal",
+    "enabled": true,
+    "root": "~/plugins/oppia-research-compass"
+  },
+  {
+    "name": "instructional-design-studio",
+    "plugin_id": "instructional-design-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/instructional-design-studio"
+  },
+  {
+    "name": "workshop-facilitator",
+    "plugin_id": "workshop-facilitator@personal",
+    "enabled": true,
+    "root": "~/plugins/workshop-facilitator"
+  },
+  {
+    "name": "graphic-design-studio",
+    "plugin_id": "graphic-design-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/graphic-design-studio"
+  },
+  {
+    "name": "figma-design-workflow",
+    "plugin_id": "figma-design-workflow@personal",
+    "enabled": true,
+    "root": "~/plugins/figma-design-workflow"
+  },
+  {
+    "name": "ux-design-toolkit",
+    "plugin_id": "ux-design-toolkit@personal",
+    "enabled": true,
+    "root": "~/plugins/ux-design-toolkit"
+  },
+  {
+    "name": "writing-quality-studio",
+    "plugin_id": "writing-quality-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/writing-quality-studio"
+  },
+  {
+    "name": "work-management",
+    "plugin_id": "work-management@personal",
+    "enabled": true,
+    "root": "${PLUGIN_ROOT}"
+  },
+  {
+    "name": "mac-ops-toolkit",
+    "plugin_id": "mac-ops-toolkit@personal",
+    "enabled": true,
+    "root": "~/plugins/mac-ops-toolkit"
+  },
+  {
+    "name": "creative-writing-studio",
+    "plugin_id": "creative-writing-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/creative-writing-studio"
+  },
+  {
+    "name": "survey-studio",
+    "plugin_id": "survey-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/survey-studio"
+  },
+  {
+    "name": "research-methodology-local",
+    "plugin_id": "research-methodology-local@personal",
+    "enabled": true,
+    "root": "~/plugins/research-methodology-local"
+  },
+  {
+    "name": "reasoning-studio",
+    "plugin_id": "reasoning-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/reasoning-studio"
+  },
+  {
+    "name": "career-studio",
+    "plugin_id": "career-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/career-studio"
+  },
+  {
+    "name": "social-content-studio",
+    "plugin_id": "social-content-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/social-content-studio"
+  },
+  {
+    "name": "marketing-strategy-studio",
+    "plugin_id": "marketing-strategy-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/marketing-strategy-studio"
+  },
+  {
+    "name": "prompt-playbook-studio",
+    "plugin_id": "prompt-playbook-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/prompt-playbook-studio"
+  },
+  {
+    "name": "master-security-toolkit",
+    "plugin_id": "master-security-toolkit@personal",
+    "enabled": true,
+    "root": "~/plugins/master-security-toolkit"
+  },
+  {
+    "name": "data-visualization-toolkit",
+    "plugin_id": "data-visualization-toolkit@personal",
+    "enabled": true,
+    "root": "~/plugins/data-visualization-toolkit"
+  },
+  {
+    "name": "solo-service-operations",
+    "plugin_id": "solo-service-operations@personal",
+    "enabled": true,
+    "root": "~/plugins/solo-service-operations"
+  },
+  {
+    "name": "discord",
+    "plugin_id": "discord@personal",
+    "enabled": true,
+    "root": "~/plugins/discord"
+  },
+  {
+    "name": "writing-templates",
+    "plugin_id": "writing-templates@personal",
+    "enabled": true,
+    "root": "~/plugins/writing-templates"
+  },
+  {
+    "name": "build-mcp-apps",
+    "plugin_id": "build-mcp-apps@personal",
+    "enabled": false,
+    "root": "~/plugins/build-mcp-apps"
+  },
+  {
+    "name": "documents",
+    "plugin_id": "documents@openai-primary-runtime",
+    "enabled": true,
+    "root": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents"
+  },
+  {
+    "name": "pdf",
+    "plugin_id": "pdf@openai-primary-runtime",
+    "enabled": true,
+    "root": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/pdf"
+  },
+  {
+    "name": "spreadsheets",
+    "plugin_id": "spreadsheets@openai-primary-runtime",
+    "enabled": true,
+    "root": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets"
+  },
+  {
+    "name": "presentations",
+    "plugin_id": "presentations@openai-primary-runtime",
+    "enabled": true,
+    "root": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/presentations"
+  },
+  {
+    "name": "template-creator",
+    "plugin_id": "template-creator@openai-primary-runtime",
+    "enabled": true,
+    "root": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator"
+  },
+  {
+    "name": "codex-app-tools",
+    "plugin_id": "codex-app-tools@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/codex-app-tools"
+  },
+  {
+    "name": "browser",
+    "plugin_id": "browser@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/browser"
+  },
+  {
+    "name": "unified-computer-use",
+    "plugin_id": "unified-computer-use@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/unified-computer-use"
+  },
+  {
+    "name": "chrome",
+    "plugin_id": "chrome@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/chrome"
+  },
+  {
+    "name": "computer-use",
+    "plugin_id": "computer-use@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-use"
+  },
+  {
+    "name": "messages",
+    "plugin_id": "messages@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/messages"
+  },
+  {
+    "name": "record-and-replay",
+    "plugin_id": "record-and-replay@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/record-and-replay"
+  },
+  {
+    "name": "computer-history",
+    "plugin_id": "computer-history@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-history"
+  },
+  {
+    "name": "code-review",
+    "plugin_id": "code-review@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/code-review"
+  },
+  {
+    "name": "visualize",
+    "plugin_id": "visualize@openai-bundled",
+    "enabled": true,
+    "root": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/visualize"
+  },
+  {
+    "name": "ttrpg-gm-director",
+    "plugin_id": "ttrpg-gm-director@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/ttrpg-gm-director"
+  },
+  {
+    "name": "marketing-social-studio",
+    "plugin_id": "marketing-social-studio@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/marketing-social-studio"
+  },
+  {
+    "name": "builder-tools",
+    "plugin_id": "builder-tools@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/builder-tools"
+  },
+  {
+    "name": "mcp-workbench",
+    "plugin_id": "mcp-workbench@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/mcp-workbench"
+  },
+  {
+    "name": "career-grants-studio",
+    "plugin_id": "career-grants-studio@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/career-grants-studio"
+  },
+  {
+    "name": "media-io-toolkit",
+    "plugin_id": "media-io-toolkit@local-skill-plugins",
+    "enabled": false,
+    "root": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/media-io-toolkit"
+  },
+  {
+    "name": "mental-health-navigation",
+    "plugin_id": "mental-health-navigation@mental-health-local",
+    "enabled": true,
+    "root": "$PROJECT_VOLUME/Documents/My Projects/navigating-mental-health-evidence/dist/codex-marketplace/plugins/mental-health-navigation"
+  },
+  {
+    "name": "gmail",
+    "plugin_id": "gmail@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/gmail/0.1.10"
+  },
+  {
+    "name": "google-drive",
+    "plugin_id": "google-drive@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16"
+  },
+  {
+    "name": "github",
+    "plugin_id": "github@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99"
+  },
+  {
+    "name": "canva",
+    "plugin_id": "canva@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/canva/17.0.1"
+  },
+  {
+    "name": "slack",
+    "plugin_id": "slack@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/slack/0.1.8"
+  },
+  {
+    "name": "vercel",
+    "plugin_id": "vercel@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/vercel/0.54.1"
+  },
+  {
+    "name": "google-calendar",
+    "plugin_id": "google-calendar@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/google-calendar/1.2.7"
+  },
+  {
+    "name": "app-6943a2c078b0819188de39e4fe168d9b",
+    "plugin_id": "app-6943a2c078b0819188de39e4fe168d9b@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6943a2c078b0819188de39e4fe168d9b/1.0.0"
+  },
+  {
+    "name": "app-69fde861d3988191a7157df33544f855",
+    "plugin_id": "app-69fde861d3988191a7157df33544f855@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69fde861d3988191a7157df33544f855/1.0.0"
+  },
+  {
+    "name": "sales",
+    "plugin_id": "sales@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/sales/1.1.0-alpha.2"
+  },
+  {
+    "name": "figma",
+    "plugin_id": "figma@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/figma/15.0.0"
+  },
+  {
+    "name": "app-6982856578088191a6cf4a963662adf0",
+    "plugin_id": "app-6982856578088191a6cf4a963662adf0@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6982856578088191a6cf4a963662adf0/6.0.0"
+  },
+  {
+    "name": "app-69949aa62bf48191be5e57a01202beca",
+    "plugin_id": "app-69949aa62bf48191be5e57a01202beca@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69949aa62bf48191be5e57a01202beca/1.0.0"
+  },
+  {
+    "name": "data-analytics",
+    "plugin_id": "data-analytics@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.11"
+  },
+  {
+    "name": "ads-manager",
+    "plugin_id": "ads-manager@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/ads-manager/0.1.27"
+  },
+  {
+    "name": "zoom",
+    "plugin_id": "zoom@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/zoom/2.0.0"
+  },
+  {
+    "name": "public-equity-investing",
+    "plugin_id": "public-equity-investing@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/public-equity-investing/0.1.31"
+  },
+  {
+    "name": "app-697b4f3e714c8191a274be3ece643759",
+    "plugin_id": "app-697b4f3e714c8191a274be3ece643759@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-697b4f3e714c8191a274be3ece643759/3.0.0"
+  },
+  {
+    "name": "app-6954f3d85c7881918ea8bc9cb482342b",
+    "plugin_id": "app-6954f3d85c7881918ea8bc9cb482342b@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6954f3d85c7881918ea8bc9cb482342b/1.0.0"
+  },
+  {
+    "name": "app-699d522f170c81919c824678c7c03732",
+    "plugin_id": "app-699d522f170c81919c824678c7c03732@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-699d522f170c81919c824678c7c03732/7.0.0"
+  },
+  {
+    "name": "app-69312da8e4dc81919370cb86fd172b6c",
+    "plugin_id": "app-69312da8e4dc81919370cb86fd172b6c@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69312da8e4dc81919370cb86fd172b6c/10.0.0"
+  },
+  {
+    "name": "hugging-face",
+    "plugin_id": "hugging-face@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/hugging-face/1.0.0"
+  },
+  {
+    "name": "shutterstock",
+    "plugin_id": "shutterstock@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/shutterstock/2.0.0"
+  },
+  {
+    "name": "app-6a09fca2104c8191b160df27196228dd",
+    "plugin_id": "app-6a09fca2104c8191b160df27196228dd@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a09fca2104c8191b160df27196228dd/2.0.0"
+  },
+  {
+    "name": "app-69c1784c29208191a35b4ddef3c7e6d5",
+    "plugin_id": "app-69c1784c29208191a35b4ddef3c7e6d5@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69c1784c29208191a35b4ddef3c7e6d5/3.0.0"
+  },
+  {
+    "name": "app-699f4c39cd908191bf68865e0aa1aa4a",
+    "plugin_id": "app-699f4c39cd908191bf68865e0aa1aa4a@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-699f4c39cd908191bf68865e0aa1aa4a/2.0.0"
+  },
+  {
+    "name": "creative-production",
+    "plugin_id": "creative-production@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/creative-production/0.1.25"
+  },
+  {
+    "name": "app-6938a94a61d881918ef32cb999ff937c",
+    "plugin_id": "app-6938a94a61d881918ef32cb999ff937c@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6938a94a61d881918ef32cb999ff937c/1.0.0"
+  },
+  {
+    "name": "app-6a04f88a5fbc8191b8679c1ae31f2779",
+    "plugin_id": "app-6a04f88a5fbc8191b8679c1ae31f2779@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a04f88a5fbc8191b8679c1ae31f2779/1.0.0"
+  },
+  {
+    "name": "openai-developers",
+    "plugin_id": "openai-developers@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/openai-developers/1.3.6"
+  },
+  {
+    "name": "app-696e890a45388191b24c4a36d2177201",
+    "plugin_id": "app-696e890a45388191b24c4a36d2177201@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-696e890a45388191b24c4a36d2177201/3.0.0"
+  },
+  {
+    "name": "app-6945d9d84c5c8191a28343ae9d7b6e8b",
+    "plugin_id": "app-6945d9d84c5c8191a28343ae9d7b6e8b@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6945d9d84c5c8191a28343ae9d7b6e8b/1.0.0"
+  },
+  {
+    "name": "google-contacts",
+    "plugin_id": "google-contacts@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/google-contacts/1.0.0"
+  },
+  {
+    "name": "app-69b03224c5a8819199b40e6b47789f5e",
+    "plugin_id": "app-69b03224c5a8819199b40e6b47789f5e@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69b03224c5a8819199b40e6b47789f5e/2.0.0"
+  },
+  {
+    "name": "app-6938a7d323f48191aeabaf579802bf45",
+    "plugin_id": "app-6938a7d323f48191aeabaf579802bf45@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6938a7d323f48191aeabaf579802bf45/1.0.0"
+  },
+  {
+    "name": "app-6a1ac4817a6081919b271261c0c96277",
+    "plugin_id": "app-6a1ac4817a6081919b271261c0c96277@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a1ac4817a6081919b271261c0c96277/2.0.0"
+  },
+  {
+    "name": "app-6985bc6832e08191a84d52138b4716cd",
+    "plugin_id": "app-6985bc6832e08191a84d52138b4716cd@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6985bc6832e08191a84d52138b4716cd/1.0.0"
+  },
+  {
+    "name": "app-69050bf6de9c8191b3968f2cc08d33d6",
+    "plugin_id": "app-69050bf6de9c8191b3968f2cc08d33d6@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69050bf6de9c8191b3968f2cc08d33d6/1.0.0"
+  },
+  {
+    "name": "app-6923772ef3d48191b6b18899af1cb037",
+    "plugin_id": "app-6923772ef3d48191b6b18899af1cb037@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6923772ef3d48191b6b18899af1cb037/1.0.0"
+  },
+  {
+    "name": "app-6a695eda913881919ef52582023f0ca2",
+    "plugin_id": "app-6a695eda913881919ef52582023f0ca2@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a695eda913881919ef52582023f0ca2/1.0.0"
+  },
+  {
+    "name": "app-6a2899a821dc8191ae811fc34c0417df",
+    "plugin_id": "app-6a2899a821dc8191ae811fc34c0417df@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a2899a821dc8191ae811fc34c0417df/5.0.0"
+  },
+  {
+    "name": "app-6a3e6f8666948191bbb4af07bb4a7f0a",
+    "plugin_id": "app-6a3e6f8666948191bbb4af07bb4a7f0a@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a3e6f8666948191bbb4af07bb4a7f0a/5.0.0"
+  },
+  {
+    "name": "app-6a8d784b60cc81919aeafbfaeda5fbcf",
+    "plugin_id": "app-6a8d784b60cc81919aeafbfaeda5fbcf@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a8d784b60cc81919aeafbfaeda5fbcf/1.0.0"
+  },
+  {
+    "name": "app-69457f83763881918ea06cc67fc9b6b0",
+    "plugin_id": "app-69457f83763881918ea06cc67fc9b6b0@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69457f83763881918ea06cc67fc9b6b0/1.0.0"
+  },
+  {
+    "name": "app-6a51822f866c8191bc04373a796eb243",
+    "plugin_id": "app-6a51822f866c8191bc04373a796eb243@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a51822f866c8191bc04373a796eb243/3.0.0"
+  },
+  {
+    "name": "app-6a2778c220848191856aa589f026800f",
+    "plugin_id": "app-6a2778c220848191856aa589f026800f@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a2778c220848191856aa589f026800f/1.0.0"
+  },
+  {
+    "name": "app-6963606dd8e081919e40c8808349e47b",
+    "plugin_id": "app-6963606dd8e081919e40c8808349e47b@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6963606dd8e081919e40c8808349e47b/1.0.0"
+  },
+  {
+    "name": "app-6947371809048191bec85a12dfa57a36",
+    "plugin_id": "app-6947371809048191bec85a12dfa57a36@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6947371809048191bec85a12dfa57a36/1.0.0"
+  },
+  {
+    "name": "app-6a1fdd66c9fc81919bf49f27278aa5f6",
+    "plugin_id": "app-6a1fdd66c9fc81919bf49f27278aa5f6@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a1fdd66c9fc81919bf49f27278aa5f6/1.0.0"
+  },
+  {
+    "name": "app-6a2627e8dd008191bd2677adb12151b9",
+    "plugin_id": "app-6a2627e8dd008191bd2677adb12151b9@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a2627e8dd008191bd2677adb12151b9/1.0.0"
+  },
+  {
+    "name": "app-69bbcee644ec819184f2fa9217211861",
+    "plugin_id": "app-69bbcee644ec819184f2fa9217211861@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69bbcee644ec819184f2fa9217211861/2.0.0"
+  },
+  {
+    "name": "openai-ads-conversions",
+    "plugin_id": "openai-ads-conversions@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/openai-ads-conversions/0.1.2"
+  },
+  {
+    "name": "app-695b033d7c888191a792484bc36b35ef",
+    "plugin_id": "app-695b033d7c888191a792484bc36b35ef@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-695b033d7c888191a792484bc36b35ef/1.0.0"
+  },
+  {
+    "name": "app-69e216be26608191960a26af7e9f320d",
+    "plugin_id": "app-69e216be26608191960a26af7e9f320d@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-69e216be26608191960a26af7e9f320d/1.0.0"
+  },
+  {
+    "name": "app-6a2f8d084db08191aec15ef7735968f1",
+    "plugin_id": "app-6a2f8d084db08191aec15ef7735968f1@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a2f8d084db08191aec15ef7735968f1/1.0.0"
+  },
+  {
+    "name": "app-6a7623de3ab881918f64ee87cd6a86b4",
+    "plugin_id": "app-6a7623de3ab881918f64ee87cd6a86b4@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6a7623de3ab881918f64ee87cd6a86b4/1.2.2"
+  },
+  {
+    "name": "app-6945bd12ee14819184ce491e3b104da6",
+    "plugin_id": "app-6945bd12ee14819184ce491e3b104da6@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/app-6945bd12ee14819184ce491e3b104da6/1.0.0"
+  },
+  {
+    "name": "defense-factory",
+    "plugin_id": "defense-factory@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/defense-factory/0.1.1"
+  },
+  {
+    "name": "healthcare-public-data",
+    "plugin_id": "healthcare-public-data@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/healthcare-public-data/0.1.5"
+  },
+  {
+    "name": "investment-banking",
+    "plugin_id": "investment-banking@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/investment-banking/0.1.29"
+  },
+  {
+    "name": "novelist",
+    "plugin_id": "novelist@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/novelist/0.2.0"
+  },
+  {
+    "name": "codex-material-themes",
+    "plugin_id": "codex-material-themes@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/codex-material-themes/1.0.2"
+  },
+  {
+    "name": "game-development-studio",
+    "plugin_id": "game-development-studio@openai-curated-remote",
+    "enabled": false,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/game-development-studio/1.0.2"
+  },
+  {
+    "name": "image-generator",
+    "plugin_id": "image-generator@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/image-generator/1.0.0"
+  },
+  {
+    "name": "research-plugin",
+    "plugin_id": "research-plugin@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/research-plugin/1.1.0"
+  },
+  {
+    "name": "diagram-builder",
+    "plugin_id": "diagram-builder@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/diagram-builder/1.0.0"
+  },
+  {
+    "name": "test-android-apps",
+    "plugin_id": "test-android-apps@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/test-android-apps/0.1.2"
+  },
+  {
+    "name": "superpowers",
+    "plugin_id": "superpowers@openai-curated-remote",
+    "enabled": false,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2"
+  },
+  {
+    "name": "plugin-eval",
+    "plugin_id": "plugin-eval@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/plugin-eval/0.1.2"
+  },
+  {
+    "name": "game-studio",
+    "plugin_id": "game-studio@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/game-studio/0.1.2"
+  },
+  {
+    "name": "build-macos-apps",
+    "plugin_id": "build-macos-apps@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/build-macos-apps/0.1.4"
+  },
+  {
+    "name": "build-web-apps",
+    "plugin_id": "build-web-apps@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/build-web-apps/0.1.2"
+  },
+  {
+    "name": "build-ios-apps",
+    "plugin_id": "build-ios-apps@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/build-ios-apps/0.1.2"
+  },
+  {
+    "name": "openai-templates",
+    "plugin_id": "openai-templates@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1"
+  },
+  {
+    "name": "pages",
+    "plugin_id": "pages@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/pages/0.1.20"
+  },
+  {
+    "name": "sites",
+    "plugin_id": "sites@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/sites/0.1.75"
+  },
+  {
+    "name": "plugin-management",
+    "plugin_id": "plugin-management@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0"
+  },
+  {
+    "name": "work-pets",
+    "plugin_id": "work-pets@openai-curated-remote",
+    "enabled": true,
+    "root": "~/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6"
+  },
+  {
+    "name": "development-studio",
+    "plugin_id": "development-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/development-studio"
+  },
+  {
+    "name": "game-creation-studio",
+    "plugin_id": "game-creation-studio@personal",
+    "enabled": true,
+    "root": "~/plugins/game-creation-studio"
+  }
+]

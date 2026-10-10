@@ -1,0 +1,127 @@
+{
+  "id": "local-festival-sponsorship",
+  "name": "The Festival Table",
+  "summary": "A sponsorship identity that presents a cultural event as a clear set of proposed contributions, responsibilities and public benefits.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#182735",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#F2DEC0",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Ornamental accent",
+      "role": "ornament",
+      "hex": "#DCC68D",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Bodoni 72",
+      "usage": "Titles and short section openings; source slide 8 / request."
+    },
+    {
+      "role": "body",
+      "family": "Optima",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / status."
+    }
+  ],
+  "recognitionRules": [
+    "Use Bodoni display statements with Optima explanatory text.",
+    "Keep gold and warm paper secondary to dark readable text.",
+    "Separate sponsor contribution, organizer responsibility and unconfirmed assumptions.",
+    "Make the proposal status visible beside financial figures."
+  ],
+  "voice": {
+    "traits": [
+      "gracious",
+      "specific",
+      "accountable"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Support a place for people to gather. See exactly what that support would make possible.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE FESTIVAL TABLE in Bodoni with an Optima proposal descriptor and one fine gold rule. No sponsor crest or laurel.",
+  "invariants": [
+    "Use Bodoni display statements with Optima explanatory text.",
+    "Keep gold and warm paper secondary to dark readable text.",
+    "Separate sponsor contribution, organizer responsibility and unconfirmed assumptions."
+  ],
+  "adaptations": [
+    "A sponsor sheet keeps contribution, deliverable and decision date together.",
+    "Event-facing materials omit internal commercial assumptions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Bodoni 72",
+      "renderFamily": "Bodoni Moda",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/bodoni-moda/BodoniModa-Regular.ttf",
+      "bold": "assets/fonts/bodoni-moda/BodoniModa-Bold.ttf",
+      "license": "assets/fonts/bodoni-moda/OFL.txt",
+      "sourceFontDependency": "Bodoni 72 is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+      "bold": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+      "license": "assets/fonts/alegreya-sans/OFL.txt",
+      "sourceFontDependency": "Optima is an Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

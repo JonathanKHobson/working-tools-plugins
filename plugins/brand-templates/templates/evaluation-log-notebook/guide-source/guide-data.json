@@ -1,0 +1,141 @@
+{
+  "id": "evaluation-log-notebook",
+  "name": "Trial Ledger",
+  "summary": "A working evaluation identity with the feel of a field console: dated records, visible states and evidence beside interpretation.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#102820",
+      "evidence": ":root --paper; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#D9F4DF",
+      "evidence": ":root --ink; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#B8DC92",
+      "evidence": ":root --accent; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Surface",
+      "role": "surface",
+      "hex": "#19392C",
+      "evidence": ":root --panel; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Rule",
+      "role": "rule",
+      "hex": "#66806C",
+      "evidence": ":root --rule; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#F1C989",
+      "evidence": ":root --meta; reusable role derives from source variable and usage"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Menlo, Consolas, monospace",
+      "usage": "Record IDs, states and notebook labels."
+    },
+    {
+      "role": "body",
+      "family": "system-ui, sans-serif",
+      "usage": "Longer explanation and evidence notes."
+    }
+  ],
+  "recognitionRules": [
+    "Use a dark green ground with pale green reading text and lime highlights.",
+    "Keep a stable side rail for filters and notebook context.",
+    "Use monospaced text for record IDs and evaluation states.",
+    "Give evidence and uncertainty their own fields within each log entry."
+  ],
+  "voice": {
+    "traits": [
+      "methodical",
+      "candid",
+      "provisional"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Record the attempt. Keep the result and the doubt together.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use TRIAL LEDGER in Menlo with a small open square followed by a record number. Do not use a checkmark as the default symbol.",
+  "invariants": [
+    "Use a dark green ground with pale green reading text and lime highlights.",
+    "Keep a stable side rail for filters and notebook context.",
+    "Use monospaced text for record IDs and evaluation states."
+  ],
+  "adaptations": [
+    "Print exports replace dark fills with ruled entries.",
+    "A compact view can hide detail only when the full record remains reachable.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Menlo, Consolas, monospace",
+      "renderFamily": "IBM Plex Mono",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf",
+      "bold": "assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf",
+      "license": "assets/fonts/ibm-plex-mono/OFL.txt",
+      "sourceFontDependency": "Menlo is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "system-ui, sans-serif",
+      "renderFamily": "Noto Sans",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+      "bold": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+      "license": "assets/fonts/noto-sans/OFL.txt",
+      "sourceFontDependency": "system-ui resolves to a host-dependent operating-system UI font; original family is not identifiable or bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One open-record-square width around the complete identifier and name.",
+  "minimumSize": {
+    "primaryWidthPx": 320,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": null,
+    "secondaryWidthPx": 180
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "writing-templates",
+  "version": "0.1.1",
+  "description": "Complete writing chooser, routed source-verified handoffs and offline draft QA for explicitly supplied external collections.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Writing Templates",
+        "shortDescription": "Choose a writing structure for the reader and task",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Choose a writing template for this reader and task, then draft from my supplied facts.",
+          "Compare three Writing Library structures using the same facts."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `html` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'line-height': '1.4'}`.
+- `.document-meta` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '38pt', 'letter-spacing': '-.03em'}`.
+- `h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '31pt'}`.
+- `h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `h4` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.lead` · `base` · `assets/source/styles/print.css`: `{'font-size': '13pt'}`.
+- `.facts dt,.subtle` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.facts dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.deliverable h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.eyebrow` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.specimen h4` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.specimen dt` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.specimen dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.record` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.provenance` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.proof-state` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.stages` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.stages tbody th` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.stages thead th` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.input-row p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.input-row .subtle` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.ref` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.decision-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.outcomes h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.outcomes p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.document-footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.context-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.subheading` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.source-label` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `:root` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Arimo,Arial,sans-serif', 'font-size': '100%'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem', 'line-height': '1.5'}`.
+- `h1,h2,h3,h4` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'line-height': '1.12', 'font-weight': '400'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(3.5rem,5.6vw,5.5rem)', 'letter-spacing': '-.045em'}`.
+- `h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(3rem,4.5vw,4.5rem)', 'letter-spacing': '-.035em'}`.
+- `h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'letter-spacing': '-.02em'}`.
+- `h4` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.identity` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.4rem', 'font-weight': '700', 'line-height': '1.2'}`.
+- `nav a` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.3rem'}`.
+- `nav span` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.rail-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'line-height': '1.5'}`.
+- `.document-meta` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.document-meta p:first-child` · `base` · `assets/source/styles/screen.css`: `{'text-transform': 'uppercase', 'letter-spacing': '.07em'}`.
+- `.lead` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.4rem', 'line-height': '1.45'}`.
+- `.facts dt` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.facts dd` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.subtle` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.9375rem', 'line-height': '1.5'}`.
+- `.context-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.eyebrow` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'text-transform': 'uppercase', 'letter-spacing': '.055em'}`.
+- `.proof-state` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.permalink` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.deliverable h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `.specimen h4` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `.specimen dt` · `base` · `assets/source/styles/screen.css`: `{'text-transform': 'uppercase', 'letter-spacing': '.04em', 'font-size': '.875rem', 'font-weight': '700'}`.
+- `.specimen dd` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'line-height': '1.5'}`.
+- `.provenance` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.record` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'line-height': '1.5'}`.
+- `.record dt` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `.stages` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.stages th` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '400'}`.
+- `.stages thead th` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.stages tbody th` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.5rem'}`.
+- `.input-row p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.ref` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.7rem'}`.
+- `.input-row .subtle` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.9375rem'}`.
+- `.decision-row h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.65rem'}`.
+- `.outcomes h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.65rem'}`.
+- `.outcomes p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.document-footer` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.index nav a` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem'}`.
+- `h1` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '3.5rem'}`.
+- `h2` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '3rem'}`.
+- `.lead` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `h1` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '2.8rem'}`.
+- `h2` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '2.6rem'}`.
+- `h3` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.specimen h4` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.decision-row h3` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.6rem'}`.
+- `.stages` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '.9375rem'}`.
+- `.stages tbody th` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.2rem'}`.
+- `.subheading` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'letter-spacing': '-.02em'}`.
+- `.source-label` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem'}`.
+- `.stages tbody th` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.stages td:last-child::before` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `h1` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,9vw,2.8rem)'}`.
+- `h2` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,8vw,2.6rem)'}`.

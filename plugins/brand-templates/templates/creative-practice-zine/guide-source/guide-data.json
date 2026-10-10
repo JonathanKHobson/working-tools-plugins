@@ -1,0 +1,149 @@
+{
+  "id": "creative-practice-zine",
+  "name": "Work in View",
+  "summary": "An editorial practice identity for explaining creative work in chapters. Constructed blue lettering opens the conversation; a generous serif voice makes room for method, credit and reflection.",
+  "category": "Creative practice",
+  "palette": [
+    {
+      "name": "Reading paper",
+      "role": "background",
+      "hex": "#F7EDD7",
+      "evidence": "Native PPTX richSlides: masthead_work shapes blue; f1 text ink; accent shapes red; slide paper cream."
+    },
+    {
+      "name": "Editorial ink",
+      "role": "text",
+      "hex": "#211F1B",
+      "evidence": "Native PPTX richSlides: masthead_work shapes blue; f1 text ink; accent shapes red; slide paper cream."
+    },
+    {
+      "name": "Constructed blue",
+      "role": "primary",
+      "hex": "#203B80",
+      "evidence": "Native PPTX richSlides: masthead_work shapes blue; f1 text ink; accent shapes red; slide paper cream."
+    },
+    {
+      "name": "Proof red",
+      "role": "accent",
+      "hex": "#C14137",
+      "evidence": "Native PPTX richSlides: masthead_work shapes blue; f1 text ink; accent shapes red; slide paper cream."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Large reflective statements and opening propositions, with complete sentences rather than slogan stacks."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Captions, explanation, credits and page labels."
+    },
+    {
+      "role": "index",
+      "family": "DIN Condensed",
+      "usage": "Compact chapter markers; do not replace the serif reading voice."
+    }
+  ],
+  "recognitionRules": [
+    "Build the WORK masthead from the source’s rectangular letter segments; blue construction is the signature.",
+    "Pair a large Baskerville proposition with small Avenir chapter indexing.",
+    "Keep the portrait reading-page proportion and generous outer margins.",
+    "Use red rules and chapter accents to connect evidence to commentary, not as full-page warning color.",
+    "Separate own contribution, team decisions and evidence limits in the credits chapter."
+  ],
+  "voice": {
+    "traits": [
+      "observant",
+      "plainspoken",
+      "reflective"
+    ],
+    "principles": [
+      "Let a concrete image or material action carry the opening; explain the work plainly afterward.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Here is the question. Here is what I made. Here is the part I would test again.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid abstract manifestos that displace the actual work.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Begin with one thing you can make or inspect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Retain WORK IN VIEW as a typographic masthead. A compact mark may use the segmented W construction, with no shield or circular container. The complete name accompanies the symbol in first encounters.",
+  "invariants": [
+    "Build the WORK masthead from the source’s rectangular letter segments; blue construction is the signature.",
+    "Pair a large Baskerville proposition with small Avenir chapter indexing.",
+    "Keep the portrait reading-page proportion and generous outer margins."
+  ],
+  "adaptations": [
+    "Short editions can use three chapters: question, work, reflection.",
+    "A web edition may stack chapters vertically while retaining the index and blue masthead.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    },
+    {
+      "role": "index",
+      "sourceFamily": "DIN Condensed",
+      "renderFamily": "Barlow Condensed",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/barlow-condensed/BarlowCondensed-Regular.ttf",
+      "bold": "assets/fonts/barlow-condensed/BarlowCondensed-Bold.ttf",
+      "license": "assets/fonts/barlow-condensed/OFL.txt",
+      "sourceFontDependency": "DIN Condensed is a separately licensed commercial font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One full source letter module on every side; never crop a segment.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": 32,
+    "secondaryWidthPx": 240
+  }
+}

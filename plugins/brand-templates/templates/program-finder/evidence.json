@@ -1,0 +1,210 @@
+{
+  "profile": {
+    "id": "program-finder",
+    "name": "The Programme Finder",
+    "templateIds": [
+      "program-finder"
+    ],
+    "category": "Products & services",
+    "summary": "A public-service identity that makes a schedule searchable without losing the time, place and access detail people need.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#F4F5EF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#16383A",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#316560",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Accent",
+        "role": "accent",
+        "hex": "#AD4B16",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#E2ECE7",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Warning Surface",
+        "role": "warning-surface",
+        "hex": "#FFF2DF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Arial,Helvetica,sans-serif",
+        "usage": "Retain source reading hierarchy; fallback is an explicit guide production choice where extraction is incomplete."
+      }
+    ],
+    "recognitionRules": [
+      "Use dark teal headings on a pale, quiet ground.",
+      "Keep filters separate from result cards and show the result count.",
+      "Give time, title and venue a consistent order within each session.",
+      "Reserve rust for focused actions and retain a clear reset path."
+    ],
+    "voice": {
+      "traits": [
+        "helpful",
+        "clear",
+        "inclusive"
+      ],
+      "principles": [
+        "Describe the user’s task and the visible next state with ordinary verbs.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Find a time that fits. Read the details before you go.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid calling a concept a live service or implying unmeasured outcomes.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Choose the item, inspect the details and confirm the next step.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use THE PROGRAMME FINDER in Arial with two short aligned listing rules. No magnifying-glass logo; search is a function, not the whole identity.",
+    "invariants": [
+      "Use dark teal headings on a pale, quiet ground.",
+      "Keep filters separate from result cards and show the result count.",
+      "Give time, title and venue a consistent order within each session."
+    ],
+    "adaptations": [
+      "Mobile cards stack details without hiding access information.",
+      "Print output includes the full chosen programme and filter context.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "program-finder",
+      "displayName": "Program Finder",
+      "format": "site",
+      "nameSignals": [
+        "Studio Program Finder | Skip to content"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "ef6167e89717deb0132fba93ed9b8d7ad072a7c333370d47c7b7cd9faa06c1b3",
+      "evidence": [
+        "installed-skills/artifact-template-studio-program-finder/SKILL.md",
+        "installed-skills/artifact-template-studio-program-finder/DESIGN.md",
+        "installed-skills/artifact-template-studio-program-finder/design/foundations.json",
+        "installed-skills/artifact-template-studio-program-finder/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "src/styles.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-12",
+          "location": "src/styles.css:.hero",
+          "observation": "{'max-width': '850px'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/program-finder-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#16383A",
+        "background": "#F4F5EF",
+        "contrastRatio": 11.53,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "program-finder",
+      "name": "Program Finder",
+      "format": "site",
+      "sourceHash": "ef6167e89717deb0132fba93ed9b8d7ad072a7c333370d47c7b7cd9faa06c1b3",
+      "foundationSha256": "b3dee403ded27c83728b5036995d48900ae3ac22d92d448205f0a7e6241a7e89",
+      "designSpecSha256": "287be879213c433aa435538a2f0b8fd27cd338987ad6c22e5651dd977e6d2360",
+      "referenceDirectory": "references/program-finder"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use THE PROGRAMME FINDER in Arial with two short aligned listing rules. No magnifying-glass logo; search is a function, not the whole identity.",
+    "productionMethod": "Brand-specific outlined typography with listing-rules source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 280,
+      "secondaryWidthPx": 220,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "body",
+      "usage": "Retain source reading hierarchy; fallback is an explicit guide production choice where extraction is incomplete.",
+      "sourceFamily": "Arial,Helvetica,sans-serif",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "program-finder",
+      "sourceFingerprint": "ef6167e89717deb0132fba93ed9b8d7ad072a7c333370d47c7b7cd9faa06c1b3"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

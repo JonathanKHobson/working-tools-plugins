@@ -1,0 +1,104 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: . Render modules: src/assets.mjs, src/domain.mjs, src/png.mjs, src/render.mjs, src/sections.mjs, src/text.mjs.
+
+Section IDs: #main, #offering, #offering-title, #session, #session-title, #practical, #practical-title, #next-step.
+
+Responsive scopes: @media (max-width:480px), @media (max-width:1100px), @media (max-width:900px), @media (prefers-reduced-motion:reduce), @media (min-width:1101px).
+
+- `main` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `main>section` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'margin': '0'}`.
+- `.skip-link,nav` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.site-header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 8pt'}`.
+- `.hero` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1.3fr 1fr', 'gap': '18pt', 'padding': '14pt 0'}`.
+- `.hero-copy` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.hero-intro` · `base` · `assets/source/styles/print.css`: `{'margin': '14pt 0'}`.
+- `.primary-action` · `base` · `assets/source/styles/print.css`: `{'padding': '6pt 0', 'min-height': '0', 'margin': '10pt 0'}`.
+- `.botanical img` · `base` · `assets/source/styles/print.css`: `{'max-height': '320pt'}`.
+- `.summary-row,.session .summary-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '35% 1fr', 'gap': '12pt', 'padding': '14pt 0', 'margin': '0'}`.
+- `.section-title,.session .section-title,.practical .section-title` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.section-intro` · `base` · `assets/source/styles/print.css`: `{'margin': '14pt 0 20pt'}`.
+- `.stages li` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '10% 34% 56%', 'padding': '14pt 0', 'min-height': '0', 'break-inside': 'avoid', 'gap': '0'}`.
+- `.practical-columns` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr 1fr', 'gap': '20pt', 'padding': '14pt 0'}`.
+- `.participation` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.materials li` · `base` · `assets/source/styles/print.css`: `{'padding': '5pt 0'}`.
+- `.participation-heading` · `base` · `assets/source/styles/print.css`: `{'margin': '18pt 0 8pt'}`.
+- `.supports summary` · `base` · `assets/source/styles/print.css`: `{'padding': '8pt 0', 'min-height': '0'}`.
+- `.supports summary::after` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.supports details,.supports summary` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.supports details::details-content` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.supports details>*` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.support-body` · `base` · `assets/source/styles/print.css`: `{'padding': '8pt 0'}`.
+- `.decisions` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'margin': '0'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '44% 1fr', 'padding': '8pt 0', 'break-inside': 'avoid'}`.
+- `.next-step` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.practical footer` · `base` · `assets/source/styles/print.css`: `{'padding': '12pt 0'}`.
+- `.art-note` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '15pt'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `h1,h2,h3,p,ul,ol,dl,figure` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `main` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1920px', 'margin': 'auto'}`.
+- `main>section` · `base` · `assets/source/styles/screen.css`: `{'padding': '0 var(--gutter)'}`.
+- `.skip-link` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'padding': '12px'}`.
+- `.site-header` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '28px', 'padding': '16px 0 8px'}`.
+- `.site-header nav` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '0'}`.
+- `.site-header nav a` · `base` · `assets/source/styles/screen.css`: `{'padding': '6px 27px', 'min-height': '44px', 'display': 'flex', 'align-items': 'center'}`.
+- `.hero` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1.6fr) minmax(0,1fr)', 'gap': '42px', 'align-items': 'center', 'padding': '16px 0 24px'}`.
+- `.hero-copy` · `base` · `assets/source/styles/screen.css`: `{'padding': '50px 0 8px'}`.
+- `.hero-intro` · `base` · `assets/source/styles/screen.css`: `{'margin': '26px 0 20px'}`.
+- `.primary-action` · `base` · `assets/source/styles/screen.css`: `{'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'padding': '17px 50px', 'min-width': 'min(500px,100%)', 'margin': '30px 0 20px', 'min-height': '64px'}`.
+- `.botanical` · `base` · `assets/source/styles/screen.css`: `{'padding': '4px', 'display': 'flex', 'align-items': 'center'}`.
+- `.botanical img` · `base` · `assets/source/styles/screen.css`: `{'display': 'block', 'width': '100%', 'height': 'auto', 'max-height': '730px'}`.
+- `.art-note` · `base` · `assets/source/styles/screen.css`: `{'padding': '36px', 'min-height': '400px', 'display': 'flex', 'flex-direction': 'column', 'justify-content': 'center', 'gap': '28px'}`.
+- `.summary-row` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '46% minmax(0,1fr)', 'gap': '28px', 'padding': '24px 0 34px', 'align-items': 'start'}`.
+- `.section-title` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1250px'}`.
+- `.section-intro` · `base` · `assets/source/styles/screen.css`: `{'margin': '24px 0 30px'}`.
+- `.session .section-title` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1000px'}`.
+- `.stages` · `base` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `.stages li` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '13% 42% minmax(0,1fr)', 'padding': '18px 0', 'min-height': '132px', 'align-items': 'center'}`.
+- `.stage-title` · `base` · `assets/source/styles/screen.css`: `{'padding': '0 26px 0 60px'}`.
+- `.session .summary-row` · `base` · `assets/source/styles/screen.css`: `{'grid-template-columns': '43% minmax(0,1fr)'}`.
+- `.practical-columns` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '50% minmax(0,1fr)', 'padding': '30px 0'}`.
+- `.material-status` · `base` · `assets/source/styles/screen.css`: `{'margin': '6px 0 18px'}`.
+- `.materials` · `base` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `.materials li` · `base` · `assets/source/styles/screen.css`: `{'padding': '10px 0'}`.
+- `.participation-heading` · `base` · `assets/source/styles/screen.css`: `{'margin': '34px 0 12px'}`.
+- `.supports summary` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 38px 16px 0', 'position': 'relative', 'min-height': '54px'}`.
+- `.supports summary::-webkit-details-marker` · `base` · `assets/source/styles/screen.css`: `{'display': 'none'}`.
+- `.supports summary::after` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute'}`.
+- `.support-body` · `base` · `assets/source/styles/screen.css`: `{'padding': '18px 12px 22px'}`.
+- `.facts>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '43% minmax(0,1fr)', 'padding': '14px 0 18px', 'align-items': 'start', 'gap': '22px'}`.
+- `dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `.next-step>p` · `base` · `assets/source/styles/screen.css`: `{'margin': '14px 0'}`.
+- `.next-step li` · `base` · `assets/source/styles/screen.css`: `{'margin': '4px 0'}`.
+- `.practical footer` · `base` · `assets/source/styles/screen.css`: `{'padding': '20px 0 30px'}`.
+- `.record` · `base` · `assets/source/styles/screen.css`: `{'margin': '14px 0 0'}`.
+- `.recovery` · `base` · `assets/source/styles/screen.css`: `{'padding': 'var(--gutter)'}`.
+- `.recovery p` · `base` · `assets/source/styles/screen.css`: `{'margin': '28px 0'}`.
+- `.site-header` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'align-items': 'flex-start'}`.
+- `.site-header nav` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'justify-content': 'flex-end'}`.
+- `.site-header nav a` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding': '4px 14px'}`.
+- `.hero` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'gap': '28px'}`.
+- `.primary-action` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding': '16px 30px'}`.
+- `.facts>div` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'gap': '12px'}`.
+- `.site-header` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'flex-direction': 'column', 'gap': '14px'}`.
+- `.site-header nav` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'justify-content': 'flex-start'}`.
+- `.hero` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr'}`.
+- `.hero-copy` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `.hero-intro` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-width': '750px'}`.
+- `.botanical` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-width': '550px', 'width': '100%'}`.
+- `.botanical img` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-height': '600px'}`.
+- `.summary-row` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '18px'}`.
+- `.session .summary-row` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr'}`.
+- `.practical-columns` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr'}`.
+- `.stages li` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '18% minmax(0,1fr)', 'gap': '16px 0'}`.
+- `.site-header nav a` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding': '6px 0'}`.
+- `.primary-action` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'width': '100%', 'padding': '16px 12px'}`.
+- `.stages li` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '48px minmax(0,1fr)'}`.
+- `.facts>div` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '42% minmax(0,1fr)', 'gap': '10px'}`.
+- `.art-note` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding': '24px', 'min-height': '260px'}`.
+- `.practical .section-intro` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'margin': '0 0 16px'}`.
+- `.materials li` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'padding': '8px 0'}`.
+- `.facts>div` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0', 'max-width': '100%'}`.

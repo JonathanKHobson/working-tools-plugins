@@ -1,0 +1,170 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `89f1f57a0351a00d12d4129034bcf8fe7296b69dea7328f5c6b5a84aae3f196e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/styles/print.css`: `{'box-shadow': 'none'}`.
+- `html,body` · `base` · `assets/source/styles/print.css`: `{'background': 'white', 'color': '#172937'}`.
+- `.page` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 8mm', 'border-bottom': '1pt solid #172937'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '23pt'}`.
+- `nav,.skip,.actions,input,.steps,#reset-demo` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `a` · `base` · `assets/source/styles/print.css`: `{'color': 'inherit', 'text-decoration': 'underline'}`.
+- `.stage` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'margin': '8mm 0'}`.
+- `.step-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt', 'margin': '0'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt', 'line-height': '1.1', 'margin': '3mm 0 5mm'}`.
+- `.intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt', 'line-height': '1.4'}`.
+- `.boundary,.boundary.mono` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'margin': '3mm 0'}`.
+- `.work-area` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'border-top': '2pt solid #172937', 'margin-top': '7mm', 'padding': '5mm 0', 'font-size': '11pt'}`.
+- `.work-area h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '22pt', 'margin-bottom': '4mm', 'padding-bottom': '4mm'}`.
+- `.work-area p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'margin': '4mm 0'}`.
+- `.work-area h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.work-area legend` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt', 'padding': '4mm 0'}`.
+- `.choice` · `base` · `assets/source/styles/print.css`: `{'padding': '4mm 0', 'min-height': '0', 'break-inside': 'avoid'}`.
+- `.choice strong` · `base` · `assets/source/styles/print.css`: `{'font-size': '13pt'}`.
+- `.choice small` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.selected` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding-top': '0'}`.
+- `.fields,.record .fields` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'margin': '4mm 0'}`.
+- `.fields>div,.record .fields>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '35% 1fr', 'gap': '4mm', 'padding': '2mm 0', 'break-inside': 'avoid'}`.
+- `.record dt,.record dd` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.record dd` · `base` · `assets/source/styles/print.css`: `{'border': '0'}`.
+- `.feedback` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'border-left': '2pt solid #bf421c', 'padding': '3mm'}`.
+- `.reading-intro,.fallback` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt', 'padding': '6mm 0'}`.
+- `.reading-intro h1,.fallback h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '28pt'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'margin': '0', 'padding': '7mm 0 0', 'font-size': '11pt', 'border-top': '2pt solid #172937', 'break-before': 'page'}`.
+- `.reading-sheet h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '23pt', 'margin': '4mm 0'}`.
+- `.reading-sheet h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt', 'margin': '5mm 0 2mm', 'break-after': 'avoid'}`.
+- `.reading-sheet p` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0'}`.
+- `.reading-choices>div` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0', 'break-inside': 'avoid'}`.
+- `.reading-sheet .source-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt', 'line-height': '1.4'}`.
+- `.author-prompts` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.criterion,.feedback` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt', 'padding': '3mm 0', 'margin-top': '6mm', 'display': 'block'}`.
+- `footer span` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'margin': '1mm 0'}`.
+- `h2,h3,dt` · `base` · `assets/source/styles/print.css`: `{'break-after': 'avoid'}`.
+- `p,li` · `base` · `assets/source/styles/print.css`: `{'orphans': '3', 'widows': '3'}`.
+- `*` · `base` · `assets/source/styles/screen.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `button,input` · `base` · `assets/source/styles/screen.css`: `{'font': 'inherit'}`.
+- `button,a` · `base` · `assets/source/styles/screen.css`: `{'-webkit-tap-highlight-color': 'transparent'}`.
+- `button` · `base` · `assets/source/styles/screen.css`: `{'cursor': 'pointer'}`.
+- `a` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--blue)', 'text-underline-offset': '.2em'}`.
+- `button:focus-visible,a:focus-visible,input:focus-visible` · `base` · `assets/source/styles/screen.css`: `{'outline': '3px solid var(--orange)', 'outline-offset': '5px'}`.
+- `h1,h2,h3,p,dt,dd,button,a,small,li` · `base` · `assets/source/styles/screen.css`: `{'overflow-wrap': 'anywhere'}`.
+- `[hidden]` · `base` · `assets/source/styles/screen.css`: `{'display': 'none'}`.
+- `.page` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1536px', 'padding': '0 3.8%', 'margin': 'auto'}`.
+- `header` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '24px', 'padding': '26px 0 28px'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,3.4vw,3.25rem)', 'font-weight': '700', 'line-height': '1', 'color': 'var(--ink)', 'text-decoration': 'none', 'min-width': '0'}`.
+- `nav` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '34px', 'font': '1.25rem CourierPrime,monospace', 'flex-shrink': '0'}`.
+- `button` · `base` · `assets/source/styles/screen.css`: `{'border': '1px solid var(--ink)', 'border-radius': '0', 'padding': '14px 28px', 'min-height': '48px', 'font': '1.25rem CourierPrime,monospace', 'line-height': '1.25', 'color': 'var(--ink)', 'background': 'transparent'}`.
+- `.primary` · `base` · `assets/source/styles/screen.css`: `{'background': 'var(--blue)', 'color': 'white', 'border-color': 'var(--blue)'}`.
+- `.primary:hover` · `base` · `assets/source/styles/screen.css`: `{'background': '#173a9d'}`.
+- `.secondary:hover` · `base` · `assets/source/styles/screen.css`: `{'background': '#dde1d8'}`.
+- `.actions .secondary` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--blue)', 'border-color': 'var(--blue)'}`.
+- `.actions .secondary[data-action=back]` · `base` · `assets/source/styles/screen.css`: `{'border': '0', 'padding-left': '10px', 'padding-right': '10px', 'text-decoration': 'underline', 'text-underline-offset': '.2em'}`.
+- `.steps` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'padding': '0', 'list-style': 'none', 'display': 'grid', 'grid-template-columns': 'repeat(4,minmax(0,1fr))', 'border-top': '1px solid var(--ink)', 'border-bottom': '1px solid var(--ink)', 'font': 'clamp(1.1rem,1.7vw,1.625rem) CourierPrime,monospace'}`.
+- `.steps li` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 24px', 'min-height': '62px', 'border-right': '1px solid var(--ink)'}`.
+- `.steps li:last-child` · `base` · `assets/source/styles/screen.css`: `{'border-right': '0'}`.
+- `.steps li[aria-current]` · `base` · `assets/source/styles/screen.css`: `{'box-shadow': 'inset 0 -6px var(--blue)', 'color': 'var(--blue)', 'font-weight': '700'}`.
+- `.steps span` · `base` · `assets/source/styles/screen.css`: `{'margin-right': '16px'}`.
+- `.stage` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) minmax(0,2fr)', 'gap': '40px', 'margin-top': '62px', 'align-items': 'start'}`.
+- `.explanation` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0'}`.
+- `.step-number` · `base` · `assets/source/styles/screen.css`: `{'font': '700 clamp(4.8rem,7.2vw,6.9rem)/1 CourierPrime,monospace', 'color': 'var(--orange)', 'margin': '8px 0 10px'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2.75rem,4.6vw,4.4rem)', 'line-height': '1.02', 'letter-spacing': '-.045em', 'margin': '16px 0 26px', 'font-weight': '700'}`.
+- `h1:focus` · `base` · `assets/source/styles/screen.css`: `{'outline': '0'}`.
+- `.intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(1.25rem,1.875vw,1.8rem)', 'line-height': '1.4', 'margin': '0'}`.
+- `.boundary` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem', 'line-height': '1.5', 'margin': '38px 0 0'}`.
+- `.boundary.mono` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '38px'}`.
+- `.mono` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'CourierPrime,monospace'}`.
+- `.small` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-area` · `base` · `assets/source/styles/screen.css`: `{'background': 'var(--white)', 'border-top': '7px solid var(--ink)', 'padding': '20px 24px 22px', 'font-size': '1.25rem', 'line-height': '1.4', 'min-width': '0', 'min-height': '670px'}`.
+- `.work-area h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(1.7rem,2.75vw,2.65rem)', 'line-height': '1.12', 'letter-spacing': '-.035em', 'margin': '0', 'padding': '0 0 20px', 'border-bottom': '1px solid var(--rule)'}`.
+- `h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem', 'line-height': '1.2', 'margin': '20px 0 12px', 'letter-spacing': '-.02em'}`.
+- `.work-area p` · `base` · `assets/source/styles/screen.css`: `{'margin': '22px 0'}`.
+- `.work-area fieldset` · `base` · `assets/source/styles/screen.css`: `{'min-inline-size': '0', 'border': '0', 'padding': '0', 'margin': '0'}`.
+- `.work-area legend` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700', 'font-size': '1.8rem', 'padding': '24px 0 12px', 'line-height': '1.2'}`.
+- `.choice` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'flex-start', 'gap': '28px', 'min-height': '98px', 'padding': '19px 20px', 'border-bottom': '1px solid var(--rule)', 'cursor': 'pointer'}`.
+- `.choice:hover` · `base` · `assets/source/styles/screen.css`: `{'background': '#f4f6fc'}`.
+- `.choice input` · `base` · `assets/source/styles/screen.css`: `{'accent-color': 'var(--blue)', 'width': '24px', 'height': '24px', 'flex': '0 0 24px', 'margin': '6px 0 0'}`.
+- `.choice strong` · `base` · `assets/source/styles/screen.css`: `{'display': 'block', 'font-size': 'clamp(1.25rem,1.8vw,1.75rem)', 'line-height': '1.25'}`.
+- `.choice small` · `base` · `assets/source/styles/screen.css`: `{'display': 'block', 'font-size': '1.125rem', 'line-height': '1.4', 'margin-top': '4px'}`.
+- `.selected` · `base` · `assets/source/styles/screen.css`: `{'padding-top': '12px', 'min-height': '174px'}`.
+- `.selected .small` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0 10px'}`.
+- `.selected h3` · `base` · `assets/source/styles/screen.css`: `{'margin': '8px 0 14px'}`.
+- `.fields` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0 26px', 'font': '1.25rem/1.45 CourierPrime,monospace'}`.
+- `.fields>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(100px,.3fr) minmax(0,1fr)', 'gap': '20px'}`.
+- `.fields dt,.fields dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'min-width': '0'}`.
+- `.record .fields` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Arimo,Arial,sans-serif'}`.
+- `.record .fields>div` · `base` · `assets/source/styles/screen.css`: `{'padding': '0', 'gap': '0', 'border-top': '1px solid var(--rule)', 'grid-template-columns': 'minmax(0,.48fr) minmax(0,1fr)'}`.
+- `.record .fields>div:last-child` · `base` · `assets/source/styles/screen.css`: `{'border-bottom': '1px solid var(--rule)'}`.
+- `.record dt` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'CourierPrime,monospace', 'padding': '16px 14px'}`.
+- `.record dd` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 32px', 'border-left': '1px solid var(--rule)'}`.
+- `.actions` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'gap': '32px', 'align-items': 'center', 'flex-wrap': 'wrap', 'margin-top': '24px'}`.
+- `.actions span` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.feedback` · `base` · `assets/source/styles/screen.css`: `{'padding': '14px 18px', 'border-left': '5px solid var(--orange)', 'background': '#faf0e9', 'font-size': '1.125rem'}`.
+- `.criterion` · `base` · `assets/source/styles/screen.css`: `{'padding': '20px 0', 'border-top': '1px solid var(--rule)', 'border-bottom': '1px solid var(--rule)'}`.
+- `.criterion small,.source-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'line-height': '1.5'}`.
+- `.source-note` · `base` · `assets/source/styles/screen.css`: `{'color': '#354b58'}`.
+- `.author-prompts` · `base` · `assets/source/styles/screen.css`: `{'padding-left': '28px'}`.
+- `.author-prompts li` · `base` · `assets/source/styles/screen.css`: `{'margin': '16px 0'}`.
+- `footer` · `base` · `assets/source/styles/screen.css`: `{'font': '1rem/1.5 CourierPrime,monospace', 'display': 'flex', 'justify-content': 'space-between', 'gap': '24px', 'border-top': '2px solid var(--ink)', 'padding': '16px 0 32px', 'margin-top': '48px'}`.
+- `.skip` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'left': '20px', 'top': '12px', 'transform': 'translateY(-200%)', 'background': 'white', 'padding': '16px', 'z-index': '3'}`.
+- `.skip:focus` · `base` · `assets/source/styles/screen.css`: `{'transform': 'none'}`.
+- `.sr-only` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'padding': '0', 'overflow': 'hidden', 'clip': 'rect(0,0,0,0)', 'white-space': 'nowrap', 'border': '0'}`.
+- `.fallback,.reading-intro` · `base` · `assets/source/styles/screen.css`: `{'padding': '36px 0', 'max-width': '980px', 'font-size': '1.4rem', 'line-height': '1.5'}`.
+- `.reading-intro h1,.fallback h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2.75rem,4.5vw,4.5rem)'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1040px', 'margin': '30px auto', 'padding': '32px', 'background': 'white', 'border-top': '6px solid var(--ink)', 'font-size': '1.25rem', 'line-height': '1.5'}`.
+- `.reading-sheet h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2.5rem', 'line-height': '1.1'}`.
+- `.reading-sheet h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem', 'margin-top': '30px'}`.
+- `.reading-choices>div` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0'}`.
+- `.reading-choices dt` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `.reading-choices dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '6px 0 0'}`.
+- `nav` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '18px', 'font-size': '1rem'}`.
+- `nav button` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'padding': '12px 18px'}`.
+- `.stage` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '28px'}`.
+- `.work-area` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '20px', 'min-height': '0'}`.
+- `.choice` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '16px', 'padding': '18px 0'}`.
+- `.steps li` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '16px'}`.
+- `.steps span` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'margin-right': '6px'}`.
+- `.boundary` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.actions` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '20px'}`.
+- `.record .fields>div` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '8px', 'padding': '16px 0'}`.
+- `.record dt,.record dd` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `.record dd` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'border': '0'}`.
+- `.page` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '0 24px'}`.
+- `header` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'align-items': 'flex-start', 'flex-wrap': 'wrap', 'padding': '24px 0'}`.
+- `.brand` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2.1rem'}`.
+- `nav` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'width': '100%', 'justify-content': 'space-between', 'gap': '12px', 'flex-shrink': '1'}`.
+- `.steps` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'repeat(auto-fit,minmax(min(100%,8rem),1fr))', 'font-size': '1.1rem', 'border-bottom': '0'}`.
+- `.steps li` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '14px 10px', 'min-height': '52px', 'border-right': '0', 'border-bottom': '1px solid var(--ink)'}`.
+- `.steps li:nth-child(2)` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'border-right': '0'}`.
+- `.steps li:nth-child(-n/**/+2)` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'border-bottom': '1px solid var(--ink)'}`.
+- `.stage` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '28px', 'margin-top': '30px'}`.
+- `.step-number` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '4rem', 'margin': '0'}`.
+- `h1` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2.75rem', 'letter-spacing': '-.035em', 'margin': '10px 0 18px'}`.
+- `.intro` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.boundary,.boundary.mono` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'margin-top': '18px', 'font-size': '1rem'}`.
+- `.work-area` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '20px 18px'}`.
+- `.work-area h2` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.choice strong` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.4rem'}`.
+- `.choice small` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-area p` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.fields` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.05rem'}`.
+- `.fields>div` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(72px,.4fr) minmax(0,1fr)', 'gap': '14px'}`.
+- `.work-area legend` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.actions` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'gap': '16px'}`.
+- `.actions button` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem', 'padding': '14px 18px'}`.
+- `.selected` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'min-height': '0'}`.
+- `.reading-sheet` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '22px 18px', 'font-size': '1.125rem'}`.
+- `.reading-sheet h2` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '.85rem', 'flex-direction': 'column', 'gap': '10px', 'margin-top': '32px'}`.
+- `.record .fields>div` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '14px 0'}`.
+- `.page` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'padding': '0 20px'}`.
+- `nav` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'flex-wrap': 'wrap'}`.
+- `.work-area` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'padding': '18px 14px'}`.
+- `.fields>div` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '0'}`.
+- `.fields dt` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `.fields dd` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'margin-bottom': '10px'}`.
+- `*` · `@media (prefers-reduced-motion:reduce)` · `assets/source/styles/screen.css`: `{'scroll-behavior': 'auto'}`.
+
+Media/font files: fonts/arimo/Arimo-Bold.woff2, fonts/arimo/Arimo-Regular.woff2.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

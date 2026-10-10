@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "id": "learning-certificate",
+    "name": "A Record of Participation",
+    "templateIds": [
+      "learning-certificate"
+    ],
+    "category": "Learning & workshops",
+    "summary": "A certificate identity that gives an occasion dignity while stating exactly what the document records.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#232820",
+        "evidence": "used style Heading2 explicit text color"
+      },
+      {
+        "name": "Title ink",
+        "role": "display-ink",
+        "hex": "#000000",
+        "evidence": "Native reference.docx word/styles.xml: style Title; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Baskerville",
+        "usage": "Titles and short section openings; source used style CertificateRecipient."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style CertificateNote."
+      }
+    ],
+    "recognitionRules": [
+      "Use a formal Baskerville title with plain Arial participant and activity details.",
+      "Keep the recipient name as the visual center.",
+      "Separate participation wording from any assessed achievement.",
+      "Give date, issuer and qualification enough room to be read."
+    ],
+    "voice": {
+      "traits": [
+        "respectful",
+        "precise",
+        "celebratory"
+      ],
+      "principles": [
+        "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "A moment of participation, clearly recorded.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid promises that every participant will master the skill.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Try one version, then compare it with the criterion.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use A RECORD OF PARTICIPATION as a restrained serif wordmark with paired fine rules. No seal, medal or ribbon that implies accreditation.",
+    "invariants": [
+      "Use a formal Baskerville title with plain Arial participant and activity details.",
+      "Keep the recipient name as the visual center.",
+      "Separate participation wording from any assessed achievement."
+    ],
+    "adaptations": [
+      "A digital certificate keeps all verification details as real text.",
+      "Change the occasion without changing the claim level.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "learning-certificate",
+      "displayName": "Learning Certificate",
+      "format": "document",
+      "nameSignals": [
+        "Certificate of Participation"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128",
+      "evidence": [
+        "installed-skills/artifact-template-studio-learning-certificate/SKILL.md",
+        "installed-skills/artifact-template-studio-learning-certificate/DESIGN.md",
+        "installed-skills/artifact-template-studio-learning-certificate/design/foundations.json",
+        "installed-skills/artifact-template-studio-learning-certificate/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Baskerville', 'sizePt': 21.0, 'bold': False, 'italic': None, 'color': '#232820', 'spaceBeforePt': 0.0, 'spaceAfterPt': 10.0, 'lineSpacingPt': None, 'lineSpacin"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Baskerville', 'sizePt': 30.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 15.0, 'lineSpacingPt': None, 'lineSpacingMultip"
+        },
+        {
+          "id": "source-3",
+          "location": "used style CertificateStatus",
+          "observation": "{'id': 'CertificateStatus', 'name': 'Certificate Status', 'usedParagraphs': 1, 'basedOn': None, 'font': 'Arial', 'sizePt': 10.5, 'bold': False, 'italic': None, 'color': '#232820', 'spaceBeforePt': 0.0, 'spaceAfterPt': 12.0, 'lineSpacingPt': None, 'li"
+        },
+        {
+          "id": "source-4",
+          "location": "used style CertificateIssuer",
+          "observation": "{'id': 'CertificateIssuer', 'name': 'Certificate Issuer', 'usedParagraphs': 1, 'basedOn': None, 'font': 'Baskerville', 'sizePt': 17.0, 'bold': False, 'italic': None, 'color': '#232820', 'spaceBeforePt': 0.0, 'spaceAfterPt': 12.0, 'lineSpacingPt': Non"
+        },
+        {
+          "id": "source-5",
+          "location": "used style CertificatePrelude",
+          "observation": "{'id': 'CertificatePrelude', 'name': 'Certificate Prelude', 'usedParagraphs': 1, 'basedOn': None, 'font': 'Baskerville', 'sizePt': 13.0, 'bold': False, 'italic': None, 'color': '#232820', 'spaceBeforePt': 0.0, 'spaceAfterPt': 3.0, 'lineSpacingPt': No"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/learning-certificate.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#232820",
+        "background": "#FFFFFF",
+        "contrastRatio": 15.04,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "learning-certificate",
+      "name": "Learning Certificate",
+      "format": "document",
+      "sourceHash": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128",
+      "foundationSha256": "1c69a4860f97dbb5d2305eb00bbce85f74b061e03c2f6a2889c5f008768c2b76",
+      "designSpecSha256": "e7ea84f28c38b8f276a87dbde92395815dd62416b3308c5b99921f1915783d9a",
+      "referenceDirectory": "references/learning-certificate"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use A RECORD OF PARTICIPATION as a restrained serif wordmark with paired fine rules. No seal, medal or ribbon that implies accreditation.",
+    "productionMethod": "Brand-specific outlined typography with certificate-rules source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "decision": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 280,
+      "secondaryWidthPx": 220,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style CertificateRecipient.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "learning-certificate",
+      "sourceFingerprint": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CertificateNote.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "learning-certificate",
+      "sourceFingerprint": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

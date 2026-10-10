@@ -1,0 +1,139 @@
+{
+  "id": "culture-journal",
+  "name": "Margin Culture",
+  "summary": "An independent journal identity with condensed headlines, typewritten commentary and collage that feels assembled issue by issue.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F7F3E8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#242222",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#754436",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#DAED85",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Ornamental accent",
+      "role": "ornament",
+      "hex": "#CCB261",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Anton,\"Arial Narrow\",sans-serif",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark,.brand."
+    },
+    {
+      "role": "body",
+      "family": "\"Courier Prime\",monospace",
+      "usage": "Reading text, supporting labels and detailed explanations; source .section-label."
+    }
+  ],
+  "recognitionRules": [
+    "Use Anton headlines against Courier Prime commentary.",
+    "Keep cream paper, near-black ink and selective lime as the recurring relationship.",
+    "Number stories and alternate their composition without changing the editorial hierarchy.",
+    "Use collage as a subject-bearing image, not texture behind long copy."
+  ],
+  "voice": {
+    "traits": [
+      "curious",
+      "independent",
+      "observant"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Look at what gathers at the edges. There is a story there.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use MARGIN CULTURE in a condensed Anton stack with a small Courier Prime issue number. A displaced rule may suggest the margin; no circular stamp.",
+  "invariants": [
+    "Use Anton headlines against Courier Prime commentary.",
+    "Keep cream paper, near-black ink and selective lime as the recurring relationship.",
+    "Number stories and alternate their composition without changing the editorial hierarchy."
+  ],
+  "adaptations": [
+    "Each issue may change collage material and lead color accent.",
+    "Article pages simplify to headline, image, caption and reading text.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Anton,\"Arial Narrow\",sans-serif",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "\"Courier Prime\",monospace",
+      "renderFamily": "Courier Prime",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/courier-prime/CourierPrime-Regular.ttf",
+      "bold": "assets/fonts/courier-prime/CourierPrime-Bold.ttf",
+      "license": "assets/fonts/courier-prime/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

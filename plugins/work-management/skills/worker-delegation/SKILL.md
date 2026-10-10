@@ -1,0 +1,51 @@
+---
+name: worker-delegation
+description: "Proactively delegate substantial independent work to Codex agents, Claude or another verified worker; use subagents for steps and separate chats for independent durable goals under current tool authorization."
+---
+
+# Worker delegation
+
+When orientation helps, briefly name this skill’s outcome, needed input and expected result, then proceed. Broader help uses the [plugin introduction](../../README.md); skip maintainer notes unless needed.
+
+
+Proactively delegate substantial work when an independent useful lane can advance while the lead works. Consider Claude and other suitable available models or subscription workers alongside Codex agents; select a verified capability for the task. Keep trivial actions local. The lead owns judgment, integration and checked completion.
+
+Use subagents or bounded external workers for steps within one goal. Use separate Codex chats for multiple independent durable goals under a receiving user’s explicit request, subject to the current creation tool's authorization requirements; do not create a chat merely to run a subtask. Existing-chat messaging still requires explicit user authorization under its tool contract.
+
+## Complete procedures to load
+
+Select by the triggers below. Read the complete chosen procedure and its required support; skip unrelated variants. These links preserve the full methods.
+
+- [Task/model orchestration](../../libraries/focus-ops-manager/references/skill-mcp-orchestration.md) — before substantial delegation; select a bounded lane, model and evidence contract.
+- [Subscription offload](../../libraries/focus-ops-manager/references/subscription-offload.md) — when using an external subscription worker; dispatch, retain the job, and verify its return.
+- [Claude route](../../libraries/focus-ops-manager/references/claude-usage.md) — when Claude is the selected worker; start with the official subscription CLI, verify account/model, and use its bounded login recovery before considering Desktop or Web.
+- [Bounded worker supervision](../../libraries/focus-ops-manager/references/worker-supervision.md) when an active worker drifts, repeats a failure or returns uncertain completion evidence.
+- [Reversible evidence packing](references/reversible-evidence-packing.md) only when a large local tool result or log must be shortened for a worker handoff.
+
+## Workflow
+
+1. Start from the native goal for the requested outcome; create it under the receiving user’s explicit request only if no unfinished goal exists, and reuse an unfinished goal for its follow-up work. Define scope, allowed side effects, ownership, stop condition and return evidence for each independent useful lane. Native goals are managed by the lead, not duplicated by workers.
+2. Read the full orchestration method and the chosen provider guide. Check capability and subscription/runtime availability before dispatch.
+3. Continue independent lead work. Inspect the completed result, distinguish advice from evidence, reconcile conflicts and verify the combined deliverable.
+
+## Deliver and verify
+
+Deliver the integrated result and meaningful verification. A dispatched or streaming worker is unfinished. Use parallel-work only for opted-in shared-checkout claims.
+
+## Example boundary
+
+Good: Claude reviews supplied security methods while the lead edits disjoint routing files. Bad: two workers rewrite the same file without ownership.
+
+For substantial content, design review, writing, coding or artifact work, proactively consider the existing Claude subscription route while the lead progresses on disjoint work. For Claude, prefer Opus 5.5 after checking live availability; use the supported CLI alias and record the returned actual model. Do not assume a model name or alias is supported. Desktop or Web requires an explicit user request, a required interface-only feature, or an unresolved CLI failure after bounded diagnosis and official login recovery; missing authentication alone does not justify switching surfaces. Use a verified lighter/local worker for mechanical work when useful, supply a disjoint compact brief, and independently check consequential outputs. Reuse active jobs rather than duplicating them; keep trivial steps local. These are worker choices, not new runtimes, automatic billing fallbacks or delegated authority to accept claims/publish.
+
+For a new initiative or expanded scope spanning independent durable outcomes, read [initiative coordination](references/initiative-coordination.md). Choose one human-facing lead by outcome, owner and context boundaries; use compact authorized handoffs and retain subagents/local work for shared-context steps.
+
+When delegating design or evaluating an external swarm harness, read [resource-aware design handoffs](references/resource-aware-design-handoffs.md). Pass selected evidence and reuse rights to workers instead of asking each worker to repeat gallery research. Existing native workers remain the first route; a source describing swarms is not a reason to install another harness.
+
+For idea/strategy councils, research perspectives or a decision requiring independent assessments, read [decision review and bounded councils](references/decision-council.md). It defines quick, exploratory, comparison and council modes, selected idea criteria, evidence limits and bounded peer review. A single-model perspective exercise must not be presented as independent reviewers.
+
+<!-- BEGIN PROFESSIONAL-AGENTS -->
+## Professional roles
+
+For an assignment needing a named owner, consult [this studio’s role contracts](../../references/professional-agents/README.md); this method supports Program Manager, Project Manager, Council Moderator. Load only the selected contract. Work Management owns cross-studio routing. Role selection does not require delegation or expand authorization.
+<!-- END PROFESSIONAL-AGENTS -->

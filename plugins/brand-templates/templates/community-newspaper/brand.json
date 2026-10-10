@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "community-newspaper",
+  "version": "0.2.1",
+  "name": "The Common Paper",
+  "summary": "A local editorial identity whose authority comes from readable reporting, visible attribution and the familiar rhythm of a newspaper.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "community-newspaper"
+  ],
+  "sourceTemplateNames": {
+    "community-newspaper": "Community Newspaper"
+  },
+  "templateVariations": [
+    {
+      "templateId": "community-newspaper",
+      "name": "Community Newspaper",
+      "format": "document",
+      "sourceHash": "0d61f0bb50a8e836f5ada26f3a3462bc58c34d9ac995a32711ae7971dd52f1ff",
+      "foundationSha256": "e6389f4a7b2b3bd522a00546d2e874a01ee2dde3fcd6e6fc7b1021e9a67aff27",
+      "designSpecSha256": "f71e518753dbcb4b407707496246b0258a5e70514b3a119cd1e276a4f55aaa9e",
+      "referenceDirectory": "references/community-newspaper"
+    }
+  ],
+  "sourceHash": "0d61f0bb50a8e836f5ada26f3a3462bc58c34d9ac995a32711ae7971dd52f1ff",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Table header",
+      "role": "header",
+      "hex": "#202020",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #202020; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source used style Heading3."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style NewsDeck."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Heading3.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "community-newspaper",
+      "sourceFingerprint": "0d61f0bb50a8e836f5ada26f3a3462bc58c34d9ac995a32711ae7971dd52f1ff"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style NewsDeck.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "community-newspaper",
+      "sourceFingerprint": "0d61f0bb50a8e836f5ada26f3a3462bc58c34d9ac995a32711ae7971dd52f1ff"
+    }
+  ],
+  "recognitionRules": [
+    "Use the full serif masthead above a ruled issue line.",
+    "Separate stories with columns, subheads and captions rather than rounded cards.",
+    "Keep black-and-white reproduction as a first-class edition.",
+    "Distinguish headlines, reported text and editorial notes through type and spacing."
+  ],
+  "writingLinks": [
+    {
+      "id": "V17",
+      "name": "News brief",
+      "reason": "News priorities with source records and an open correction register.",
+      "sourceTemplateId": "community-newspaper",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A shared place deserves a paper with room for more than one voice.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE COMMON PAPER as a Baskerville or source serif masthead with paired rules. No separate logo symbol.",
+  "invariants": [
+    "Use the full serif masthead above a ruled issue line.",
+    "Separate stories with columns, subheads and captions rather than rounded cards.",
+    "Keep black-and-white reproduction as a first-class edition."
+  ],
+  "adaptations": [
+    "A digital issue can stack columns while retaining story order and bylines.",
+    "A single-sheet edition keeps one strong lead story.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/community-newspaper.pdf",
+    "preview": "media/community-newspaper-guide.webp",
+    "markdown": "guides/community-newspaper.md"
+  },
+  "bundle": {
+    "href": "bundles/community-newspaper-brand-kit.zip",
+    "filename": "The Common Paper brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/community-newspaper-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/community-newspaper-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/community-newspaper-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "message-ladder-workbook",
+  "version": "0.2.1",
+  "name": "One Clear Message",
+  "summary": "A writing identity that helps a person connect a central message to reasons, evidence and an appropriate invitation.",
+  "category": "Learning & workshops",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "message-ladder-workbook"
+  ],
+  "sourceTemplateNames": {
+    "message-ladder-workbook": "Message Ladder Workbook"
+  },
+  "templateVariations": [
+    {
+      "templateId": "message-ladder-workbook",
+      "name": "Message Ladder Workbook",
+      "format": "document",
+      "sourceHash": "bbd8531aca636057bf98c0e1932a34505a0ee69ba41e461221323420133db563",
+      "foundationSha256": "110bd97a68e2febda10f4fd696e8da03d47716797a9ebe0915151e48bd7a3e66",
+      "designSpecSha256": "de7dede03b25dc000f564f4ef48f733988eea785eed05712f2c7dc515a347f1c",
+      "referenceDirectory": "references/message-ladder-workbook"
+    }
+  ],
+  "sourceHash": "bbd8531aca636057bf98c0e1932a34505a0ee69ba41e461221323420133db563",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Ladder purple",
+      "role": "primary",
+      "hex": "#673D74",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #673D74; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Ladder row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Writing rule",
+      "role": "rule",
+      "hex": "#C7BACB",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #C7BACB; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Reflective opening or core message statement."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Ladder labels, prompts and evidence notes."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Reflective opening or core message statement.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "message-ladder-workbook",
+      "sourceFingerprint": "bbd8531aca636057bf98c0e1932a34505a0ee69ba41e461221323420133db563"
+    },
+    {
+      "role": "body",
+      "usage": "Ladder labels, prompts and evidence notes.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "message-ladder-workbook",
+      "sourceFingerprint": "bbd8531aca636057bf98c0e1932a34505a0ee69ba41e461221323420133db563"
+    }
+  ],
+  "recognitionRules": [
+    "Pair Baskerville reflection with Gill Sans working labels.",
+    "Make the ladder levels explicit through alignment and spacing.",
+    "Keep the core message short before adding proof.",
+    "Provide separate space for audience language and unsupported claims to remove."
+  ],
+  "writingLinks": [
+    {
+      "id": "V24",
+      "name": "Annotated revision",
+      "reason": "Draft, rewrite and rehearse versions of the same message at different lengths.",
+      "sourceTemplateId": "message-ladder-workbook",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Say one thing clearly. Give it a reason to be believed.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use ONE CLEAR MESSAGE in Gill Sans with three ascending short rules of equal weight. The rules show structure, not growth metrics.",
+  "invariants": [
+    "Pair Baskerville reflection with Gill Sans working labels.",
+    "Make the ladder levels explicit through alignment and spacing.",
+    "Keep the core message short before adding proof."
+  ],
+  "adaptations": [
+    "A single worksheet retains message, reason, proof and invitation.",
+    "A workshop deck can reveal one level at a time.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/message-ladder-workbook.pdf",
+    "preview": "media/message-ladder-workbook-guide.webp",
+    "markdown": "guides/message-ladder-workbook.md"
+  },
+  "bundle": {
+    "href": "bundles/message-ladder-workbook-brand-kit.zip",
+    "filename": "One Clear Message brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/message-ladder-workbook-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/message-ladder-workbook-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/message-ladder-workbook-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

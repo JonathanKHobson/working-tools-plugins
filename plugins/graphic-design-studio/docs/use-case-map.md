@@ -1,0 +1,14 @@
+# Independent use cases
+
+Select the smallest task owner and read its complete required procedures, examples and templates. The plugin is a package; do not load every skill.
+
+| Skill | Trigger |
+| --- | --- |
+| [campaign-format-adaptation](../skills/campaign-format-adaptation/SKILL.md) | Adapt an approved poster, flyer, or static campaign graphic to new sizes and placements while preserving its message and identity. Use for print-to-social, square, portrait, story, banner, and ad-asset variants; recompose rather than merely scale. |
+| [composition-and-typography](../skills/composition-and-typography/SKILL.md) | Resolve placement, visual balance, hierarchy, negative space, dynamic movement, typography, and color in posters, flyers, and ad graphics. Use to design a layout or explain and fix why an existing composition feels flat, crowded, or disconnected. |
+| [graphic-asset-compositing](../skills/graphic-asset-compositing/SKILL.md) | Integrate artwork, photography, cutouts, texture, effects, and typography into promotional graphics. Use for image placement, masking, crop, believable overlap or contact, and keeping important copy readable over imagery. |
+| [graphic-design](../skills/graphic-design/SKILL.md) | Create or revise posters, flyers, static advertisements, information graphics, and promotional graphics; coordinate message, art direction, composition, imagery, and output review. Use for a complete graphic or an integrated redesign, not product UI or publishing operations. |
+| [graphic-design-review](../skills/graphic-design-review/SKILL.md) | Critique and improve rendered posters, flyers, and ad graphics with visual anchors, hierarchy checks, compositing inspection, and a contextual design taste review. Use for visual QA, polish, or explaining concrete design fixes. |
+| [infographic-design](../skills/infographic-design/SKILL.md) | Design static information graphics and composed explainers that make processes, hierarchies, comparisons, or mechanisms easy to understand. Use for posters, one-page explainers, and editorial infographics; route quantitative chart decisions and data transformations to visualization specialists. |
+| [print-and-export-preflight](../skills/print-and-export-preflight/SKILL.md) | Prepare and inspect final poster, flyer, and ad exports, including PDF page size, native image resolution, text, QR destinations, file size, and print requirements. Use before delivery or when an export looks wrong; mechanical checks complement rendered visual review. |
+| [promotional-design-copy](../skills/promotional-design-copy/SKILL.md) | Write and prioritize short promotional copy for flyers, posters, and static ad graphics, including hooks, offers, event facts, and calls to action. Use when wording and visual hierarchy must work together, rather than for long-form marketing strategy. |

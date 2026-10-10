@@ -1,0 +1,50 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `d0e87b456737a2794fd61163bdffbfaa56481d0ccf10d307e00177bd28b8e45e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `:root` · `base` · `assets/source/styles/site.css`: `{'font-size': '18px'}`.
+- `body` · `base` · `assets/source/styles/site.css`: `{'font-family': '"Courier Prime",monospace', 'line-height': '1.55'}`.
+- `h1,h2,h3,.wordmark,.brand` · `base` · `assets/source/styles/site.css`: `{'font-family': 'Anton,"Arial Narrow",sans-serif', 'font-weight': '400', 'line-height': '1.08'}`.
+- `.brand` · `base` · `assets/source/styles/site.css`: `{'font-size': '1.7rem'}`.
+- `nav[aria-label=Main]` · `base` · `assets/source/styles/site.css`: `{'font-size': '.88rem'}`.
+- `nav[aria-label=Main] a[aria-current]` · `base` · `assets/source/styles/site.css`: `{'font-weight': '700'}`.
+- `.masthead>p` · `base` · `assets/source/styles/site.css`: `{'text-transform': 'uppercase', 'font-size': '.78rem', 'letter-spacing': '.12em'}`.
+- `.wordmark` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(4.8rem,23vw,19rem)', 'line-height': '1', 'letter-spacing': '-.035em'}`.
+- `.edition-line` · `base` · `assets/source/styles/site.css`: `{'font-size': '.72rem'}`.
+- `.eyebrow,.meta` · `base` · `assets/source/styles/site.css`: `{'text-transform': 'uppercase', 'letter-spacing': '.07em', 'font-size': '.72rem', 'line-height': '1.5'}`.
+- `.issue-intro h1` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(3rem,7vw,6rem)'}`.
+- `.intro` · `base` · `assets/source/styles/site.css`: `{'font-size': '1.1rem'}`.
+- `.issue-index` · `base` · `assets/source/styles/site.css`: `{'font-size': '.88rem'}`.
+- `.collage figcaption` · `base` · `assets/source/styles/site.css`: `{'font-size': '.67rem', 'line-height': '1.5'}`.
+- `.lead-copy h2` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(2.2rem,4vw,4rem)'}`.
+- `.section-label` · `base` · `assets/source/styles/site.css`: `{'font-family': '"Courier Prime",monospace', 'font-size': '.8rem', 'text-transform': 'uppercase'}`.
+- `.story-number` · `base` · `assets/source/styles/site.css`: `{'font-family': 'Anton,sans-serif', 'font-size': '4rem', 'line-height': '1'}`.
+- `.story h3` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(2rem,3.5vw,3.3rem)'}`.
+- `.archive-call h2` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(2.3rem,5vw,4.8rem)'}`.
+- `.archive-page>h1` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(4rem,12vw,10rem)'}`.
+- `.archive-issue h2` · `base` · `assets/source/styles/site.css`: `{'font-size': '2.5rem'}`.
+- `.archive-issue h3` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(2rem,4vw,3.5rem)'}`.
+- `.back-link` · `base` · `assets/source/styles/site.css`: `{'font-size': '.82rem'}`.
+- `.article-head h1` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(3rem,8vw,7rem)'}`.
+- `.dek` · `base` · `assets/source/styles/site.css`: `{'font-size': '1.3rem'}`.
+- `.byline` · `base` · `assets/source/styles/site.css`: `{'font-size': '.82rem'}`.
+- `.section-index` · `base` · `assets/source/styles/site.css`: `{'font-size': '.82rem'}`.
+- `.article-body h2` · `base` · `assets/source/styles/site.css`: `{'font-size': '2.1rem'}`.
+- `.article-body p` · `base` · `assets/source/styles/site.css`: `{'line-height': '1.7'}`.
+- `.end-note` · `base` · `assets/source/styles/site.css`: `{'font-size': '.78rem'}`.
+- `.article-next a` · `base` · `assets/source/styles/site.css`: `{'font-size': '1.1rem'}`.
+- `.article-next span` · `base` · `assets/source/styles/site.css`: `{'font-size': '.72rem', 'text-transform': 'uppercase'}`.
+- `.about-page h1` · `base` · `assets/source/styles/site.css`: `{'font-size': 'clamp(3rem,7vw,6rem)'}`.
+- `footer` · `base` · `assets/source/styles/site.css`: `{'font-size': '.72rem'}`.
+- `.issue-intro h1` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '3.7rem'}`.
+- `.story-number` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '2.7rem'}`.
+- `.article-head h1` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '3rem'}`.
+- `.dek` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '1.1rem'}`.
+- `.article-body h2` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '1.9rem'}`.
+- `.wordmark` · `@media (max-width:700px)` · `assets/source/styles/site.css`: `{'font-size': '23vw'}`.
+- `body` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '11pt'}`.
+- `.article-head h1` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '34pt'}`.
+- `.article-head .dek` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '13pt'}`.
+- `.article-body h2` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '20pt'}`.
+- `.wordmark` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '70pt'}`.
+- `:root` · `@media print` · `assets/source/styles/site.css`: `{'font-size': '11pt'}`.

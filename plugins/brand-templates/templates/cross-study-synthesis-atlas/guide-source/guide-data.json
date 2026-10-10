@@ -1,0 +1,166 @@
+{
+  "id": "cross-study-synthesis-atlas",
+  "name": "Woven Logic",
+  "summary": "A synthesis identity that makes the relationship between studies visible without dissolving their different scopes into a single result.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Synthesis purple",
+      "role": "primary",
+      "hex": "#563B75",
+      "evidence": "reference.docx word/document.xml: 17 table header fills; source page 1 visible purple table header."
+    },
+    {
+      "name": "Table lavender",
+      "role": "surface",
+      "hex": "#F0EBF5",
+      "evidence": "reference.docx word/document.xml: 42 body-cell fills."
+    },
+    {
+      "name": "Weave lavender",
+      "role": "motif-ground",
+      "hex": "#E3DCEF",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip horizontal thread color."
+    },
+    {
+      "name": "Weave rust",
+      "role": "accent",
+      "hex": "#B4643D",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip vertical thread color."
+    },
+    {
+      "name": "Weave charcoal",
+      "role": "motif-ink",
+      "hex": "#2D3235",
+      "evidence": "reference.docx word/media/image1.png: exact embedded woven-strip vertical thread color."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Palatino",
+      "usage": "Cover title uses Palatino 36 pt; large editorial titles retain the serif voice."
+    },
+    {
+      "role": "body",
+      "family": "Palatino",
+      "usage": "Normal reading paragraphs use Palatino 11.5 pt in black; secondary headings use bold Palatino."
+    },
+    {
+      "role": "navigation",
+      "family": "Futura",
+      "usage": "Section headings, running identifiers, subtitles and table labels use Futura; white labels on purple table headers."
+    }
+  ],
+  "recognitionRules": [
+    "Set the main title in Palatino and use Futura for navigation, study IDs and table labels.",
+    "Use deep purple #563B75 table headers with white labels and pale lavender #F0EBF5 body-cell shading; retain black reading text on white pages.",
+    "Repeat the source woven strip using lavender horizontal threads and purple, rust and charcoal vertical threads; preserve visible crossings and white breathing room.",
+    "Carry study IDs through inventory, overlap and synthesis, showing convergence and disagreement with explicit labels and source links."
+  ],
+  "voice": {
+    "traits": [
+      "integrative",
+      "careful",
+      "transparent"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Bring the studies together. Keep their differences attached.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Proposed new WOVEN LOGIC wordmark in Futura with two crossing thin rules interrupted at their intersection, using synthesis purple or black. This simplified open-weave symbol is a new editorial logo proposal; retain the native multicolor woven strip as a separate supporting motif.",
+  "invariants": [
+    "Set the main title in Palatino and use Futura for navigation, study IDs and table labels.",
+    "Use deep purple #563B75 table headers with white labels and pale lavender #F0EBF5 body-cell shading; retain black reading text on white pages.",
+    "Repeat the source woven strip using lavender horizontal threads and purple, rust and charcoal vertical threads; preserve visible crossings and white breathing room."
+  ],
+  "adaptations": [
+    "A one-page synthesis retains study IDs and the disagreement row.",
+    "Long editions can expand the inventory without changing the type hierarchy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Palatino",
+      "renderFamily": "Literata",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/literata/Literata-Regular.ttf",
+      "bold": "assets/fonts/literata/Literata-Bold.ttf",
+      "license": "assets/fonts/literata/OFL.txt",
+      "sourceFontDependency": "Palatino is a system or separately licensed font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Palatino",
+      "renderFamily": "Literata",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/literata/Literata-Regular.ttf",
+      "bold": "assets/fonts/literata/Literata-Bold.ttf",
+      "license": "assets/fonts/literata/OFL.txt",
+      "sourceFontDependency": "Palatino is a system or separately licensed font; not bundled."
+    },
+    {
+      "role": "navigation",
+      "sourceFamily": "Futura",
+      "renderFamily": "Jost",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/jost/Jost-Regular.ttf",
+      "bold": "assets/fonts/jost/Jost-Bold.ttf",
+      "license": "assets/fonts/jost/OFL.txt",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

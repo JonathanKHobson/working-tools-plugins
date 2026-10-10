@@ -1,0 +1,133 @@
+{
+  "id": "evidence-brief-for-print",
+  "name": "The Printed Record",
+  "summary": "A print-first evidence identity that makes one central finding readable while retaining its denominator and method.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Evidence header",
+      "role": "header",
+      "hex": "#333333",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #333333; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Evidence row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Cambria",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+    }
+  ],
+  "recognitionRules": [
+    "Give the principal finding a strong Arial headline with its denominator intact; use Cambria for the reading paragraphs.",
+    "Use Arial section headings and Cambria narrative text, retaining table headers and explicit count labels.",
+    "Keep a visible How this brief was made section.",
+    "Use monochrome rules and spacing rather than color to separate evidence from interpretation."
+  ],
+  "voice": {
+    "traits": [
+      "clear",
+      "factual",
+      "portable"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A useful number comes with the count behind it.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE PRINTED RECORD in Cambria with a thin baseline rule and a small issue date. No chart icon or numerical badge.",
+  "invariants": [
+    "Give the principal finding a strong Arial headline with its denominator intact; use Cambria for the reading paragraphs.",
+    "Use Arial section headings and Cambria narrative text, retaining table headers and explicit count labels.",
+    "Keep a visible How this brief was made section."
+  ],
+  "adaptations": [
+    "A wall extract retains the denominator and source note.",
+    "Longer findings move detail into a separate evidence page.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Cambria",
+      "renderFamily": "Caladea",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/caladea/Caladea-Regular.ttf",
+      "bold": "assets/fonts/caladea/Caladea-Bold.ttf",
+      "license": "assets/fonts/caladea/OFL.txt",
+      "sourceFontDependency": "Cambria is a separately licensed Microsoft/Office font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

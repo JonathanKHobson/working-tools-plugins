@@ -1,0 +1,277 @@
+{
+  "profile": {
+    "id": "project-evidence-story",
+    "name": "Handoff Notes",
+    "templateIds": [
+      "project-evidence-story"
+    ],
+    "category": "Portfolio & career",
+    "summary": "A project-story identity that makes ownership, unfinished work and the next action visible across a change of people or shifts.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FAF7F0",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#1E2933",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#754838",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#EFE9E2",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#685D55",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Title brown",
+        "role": "display-ink",
+        "hex": "#302924",
+        "evidence": "Native ppt/slides/slide1.xml Making volunteer handoffs visible. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      },
+      {
+        "name": "Contribution header",
+        "role": "header",
+        "hex": "#634338",
+        "evidence": "Native ppt/slides/slide3.xml Contributor table tcPr. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      },
+      {
+        "name": "Header labels",
+        "role": "reverse-text",
+        "hex": "#FFFFFF",
+        "evidence": "Native ppt/slides/slide3.xml Contributor run color. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Georgia",
+        "usage": "Titles and short section openings; source slide 6 / heading."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / boundary."
+      }
+    ],
+    "recognitionRules": [
+      "Use a plain Arial headline with Georgia supporting narrative.",
+      "Keep warm paper and brown editorial accents quiet around the artifact.",
+      "Give the author’s role a distinct line near the opening.",
+      "Show the shared sheet or prototype beside the principle it demonstrates."
+    ],
+    "voice": {
+      "traits": [
+        "practical",
+        "accountable",
+        "explanatory"
+      ],
+      "principles": [
+        "Name the work and the contribution before describing personal qualities.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Make the handoff visible enough for someone else to continue.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "I made this part; the team decided what happened next.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use HANDOFF NOTES in Georgia with an Arial case identifier and a short open-ended rule. No passing-hands icon.",
+    "invariants": [
+      "Use a plain Arial headline with Georgia supporting narrative.",
+      "Keep warm paper and brown editorial accents quiet around the artifact.",
+      "Give the author’s role a distinct line near the opening."
+    ],
+    "adaptations": [
+      "A short case retains role, artifact and next-step logic.",
+      "An operations version replaces narrative paragraphs with owner and action fields.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "project-evidence-story",
+      "displayName": "Project Evidence Story",
+      "format": "presentation",
+      "nameSignals": [
+        "Making volunteer handoffs visible",
+        "Fictional portfolio example / 1",
+        "A scheduling prototype",
+        "I reorganized a shared handoff sheet so the next volunteer could find unfinished work and its…",
+        "My role: task structure and prototype copy"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "05f6e88ab9341afd5a38a0d2178415da8def5c49fcccb12095bc1a33eb8eb0b5",
+      "evidence": [
+        "installed-skills/artifact-template-studio-project-evidence-story/SKILL.md",
+        "installed-skills/artifact-template-studio-project-evidence-story/DESIGN.md",
+        "installed-skills/artifact-template-studio-project-evidence-story/design/foundations.json",
+        "installed-skills/artifact-template-studio-project-evidence-story/assets/reference.pptx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "slide 1 / heading",
+          "observation": "Making volunteer handoffs visible; [{'font': 'Georgia', 'sizePt': 45.75, 'bold': False, 'italic': None, 'color': '#302924', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-2",
+          "location": "slide 1 / footer",
+          "observation": "Fictional portfolio example / 1; [{'font': 'Arial', 'sizePt': 12.75, 'bold': False, 'italic': None, 'color': '#685D55', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-3",
+          "location": "slide 1 / sub",
+          "observation": "A scheduling prototype; [{'font': 'Arial', 'sizePt': 18.0, 'bold': False, 'italic': None, 'color': '#754838', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-4",
+          "location": "slide 1 / body",
+          "observation": "I reorganized a shared handoff sheet so the next volunteer could find unfinished work and its owner.; [{'font': 'Arial', 'sizePt': 24.0, 'bold': False, 'italic': None, 'color': '#1E2933', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-5",
+          "location": "slide 1 / role",
+          "observation": "My role: task structure and prototype copy; [{'font': 'Arial', 'sizePt': 18.0, 'bold': True, 'italic': None, 'color': '#754838', 'alignment': None}]; fill None"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/project-evidence-story.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#1E2933",
+        "background": "#FAF7F0",
+        "contrastRatio": 13.82,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "project-evidence-story",
+      "name": "Project Evidence Story",
+      "format": "presentation",
+      "sourceHash": "05f6e88ab9341afd5a38a0d2178415da8def5c49fcccb12095bc1a33eb8eb0b5",
+      "foundationSha256": "726739321a9479cac7b652ef50dfaeb1520f0057a9271d5d2eb6a97efd7706c9",
+      "designSpecSha256": "a2ed4ce9db6b0f27d1037ac25cddb1d836316f95120aa2cc73fa255052ddfac3",
+      "referenceDirectory": "references/project-evidence-story"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use HANDOFF NOTES in Georgia with an Arial case identifier and a short open-ended rule. No passing-hands icon.",
+    "productionMethod": "Brand-specific outlined typography with open-handoff-rule source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "decision": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 6 / heading.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "project-evidence-story",
+      "sourceFingerprint": "05f6e88ab9341afd5a38a0d2178415da8def5c49fcccb12095bc1a33eb8eb0b5"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / boundary.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "project-evidence-story",
+      "sourceFingerprint": "05f6e88ab9341afd5a38a0d2178415da8def5c49fcccb12095bc1a33eb8eb0b5"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

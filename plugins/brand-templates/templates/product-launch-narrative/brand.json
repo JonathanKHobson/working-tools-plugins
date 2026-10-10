@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "product-launch-narrative",
+  "version": "0.2.1",
+  "name": "Slotline",
+  "summary": "A product identity that organizes a workshop request, room hold and review decision into one legible narrative.",
+  "category": "Products & services",
+  "tags": [
+    "presentation",
+    "Demos & products"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "product-launch-narrative"
+  ],
+  "sourceTemplateNames": {
+    "product-launch-narrative": "Product Launch Narrative"
+  },
+  "templateVariations": [
+    {
+      "templateId": "product-launch-narrative",
+      "name": "Product Launch Narrative",
+      "format": "presentation",
+      "sourceHash": "5f6c1500dffb07eb50d2cd79751ec5e67252085e80648c0b98a10a1e1309cea3",
+      "foundationSha256": "f54d7a4c723eadfeec4baea90bb4302cd5609fd1a044dd7e969e9349bd983ee5",
+      "designSpecSha256": "f6c490db8671a9dad32fb6ad528d2ae35483861e28b315bfac2035fc0e7778e3",
+      "referenceDirectory": "references/product-launch-narrative"
+    }
+  ],
+  "sourceHash": "5f6c1500dffb07eb50d2cd79751ec5e67252085e80648c0b98a10a1e1309cea3",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#171A21",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#194BB7",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#545D6D",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F4F5F7",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Surface",
+      "role": "secondary-surface",
+      "hex": "#E4ECFA",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Prototype panel",
+      "role": "surface-blue",
+      "hex": "#B6CAE9",
+      "evidence": "Native ppt/slides/slide2.xml shape solidFill. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Titles and short section openings; source slide 8 / title."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica Neue",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / bottom."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 8 / title.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "product-launch-narrative",
+      "sourceFingerprint": "5f6c1500dffb07eb50d2cd79751ec5e67252085e80648c0b98a10a1e1309cea3"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / bottom.",
+      "sourceFamily": "Helvetica Neue",
+      "sourceFamilySelected": "Helvetica Neue",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Helvetica Neue is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Helvetica Neue is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "product-launch-narrative",
+      "sourceFingerprint": "5f6c1500dffb07eb50d2cd79751ec5e67252085e80648c0b98a10a1e1309cea3"
+    }
+  ],
+  "recognitionRules": [
+    "Use Helvetica Neue and Avenir with a restrained blue product accent.",
+    "Lead with the customer’s job before feature detail.",
+    "Keep a visible rail beside the work artifact to explain the relevant decision.",
+    "Show request, hold and review as distinct states with explicit labels."
+  ],
+  "writingLinks": [
+    {
+      "id": "V17",
+      "name": "News brief",
+      "reason": "Launch story built around a real change in use, proof limits and a proposed rollout.",
+      "sourceTemplateId": "product-launch-narrative",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P39",
+          "name": "Measured launch narrator",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "A session plan you can review before it becomes a promise.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use SLOTLINE in Helvetica Neue with a thin horizontal slot cut into a supporting rectangular line, not through the letters. Avoid a calendar-check icon.",
+  "invariants": [
+    "Use Helvetica Neue and Avenir with a restrained blue product accent.",
+    "Lead with the customer’s job before feature detail.",
+    "Keep a visible rail beside the work artifact to explain the relevant decision."
+  ],
+  "adaptations": [
+    "A product card can show one request and its current state.",
+    "A launch story retains concept status until the product is real and tested.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/product-launch-narrative.pdf",
+    "preview": "media/product-launch-narrative-guide.webp",
+    "markdown": "guides/product-launch-narrative.md"
+  },
+  "bundle": {
+    "href": "bundles/product-launch-narrative-brand-kit.zip",
+    "filename": "Slotline brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/product-launch-narrative-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/product-launch-narrative-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/product-launch-narrative-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

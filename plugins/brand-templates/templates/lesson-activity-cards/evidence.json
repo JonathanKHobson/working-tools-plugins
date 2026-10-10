@@ -1,0 +1,249 @@
+{
+  "profile": {
+    "id": "lesson-activity-cards",
+    "name": "Pattern Practice",
+    "templateIds": [
+      "lesson-activity-cards"
+    ],
+    "category": "Learning & workshops",
+    "summary": "A card-based learning identity that invites short experiments with a rule, a response and a simple way to compare attempts.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#000000",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Practice teal",
+        "role": "primary",
+        "hex": "#185E65",
+        "evidence": "Native reference.docx word/styles.xml: style CardPattern, style CardLabel; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Chalkboard",
+        "usage": "Native Title and Heading1 plus CardNumber use Chalkboard for activity titles and large card numbers."
+      },
+      {
+        "role": "body",
+        "family": "Trebuchet MS",
+        "usage": "Normal, CardBody and supporting labels use Trebuchet MS for instructions and materials."
+      }
+    ],
+    "recognitionRules": [
+      "Use Chalkboard activity titles and large card numbers, with Trebuchet instructions and teal practice labels.",
+      "Give each card one activity with materials and an action prompt.",
+      "Use symbols only when accompanied by a readable label.",
+      "Keep enough open space for a learner’s own pattern or explanation.",
+      "Use teal activity labels and pattern symbols; retain handwritten Chalkboard titles above practical Trebuchet instructions."
+    ],
+    "voice": {
+      "traits": [
+        "playful",
+        "concrete",
+        "encouraging"
+      ],
+      "principles": [
+        "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Find the rule. Try it another way. Tell someone what you noticed.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid promises that every participant will master the skill.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Try one version, then compare it with the criterion.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use PATTERN PRACTICE in Trebuchet with a three-unit repeating mark whose last unit is open. Avoid a puzzle-piece symbol.",
+    "invariants": [
+      "Use Chalkboard activity titles and large card numbers, with Trebuchet instructions and teal practice labels.",
+      "Give each card one activity with materials and an action prompt.",
+      "Use symbols only when accompanied by a readable label."
+    ],
+    "adaptations": [
+      "Large-format cards support group use; small cards retain the same reading order.",
+      "New activities may change the pattern while keeping the prompt structure.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "lesson-activity-cards",
+      "displayName": "Lesson Activity Cards",
+      "format": "document",
+      "nameSignals": [
+        "Pattern Practice Cards",
+        "Four short activities for noticing and using a repeating rule.",
+        "Find the repeat",
+        "Extend the rule",
+        "Copy the whole unit",
+        "A unit repeats as a group"
+      ],
+      "nameStatus": "Name retained from a fictional source specimen; not a real-world organization claim.",
+      "fingerprint": "e5e7d3bbb5efb1a9fa4c375bba2a293f997a55863fc2991252cf92e00b42f16f",
+      "evidence": [
+        "installed-skills/artifact-template-studio-lesson-activity-cards/SKILL.md",
+        "installed-skills/artifact-template-studio-lesson-activity-cards/DESIGN.md",
+        "installed-skills/artifact-template-studio-lesson-activity-cards/design/foundations.json",
+        "installed-skills/artifact-template-studio-lesson-activity-cards/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 25, 'basedOn': None, 'font': 'Trebuchet MS', 'sizePt': 11.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 6.0, 'lineSpacingPt': None, 'lineSpacingMultipl"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 9, 'basedOn': 'Normal', 'font': 'Chalkboard', 'sizePt': 27.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 9.0, 'lineSpacingPt': None, 'lineSpacingMu"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 20, 'basedOn': 'Normal', 'font': 'Trebuchet MS', 'sizePt': 11.5, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 4.0, 'lineSpacingPt': None, 'lineSpacin"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Chalkboard', 'sizePt': 32.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpacingMultiplie"
+        },
+        {
+          "id": "source-5",
+          "location": "used style CardLead",
+          "observation": "{'id': 'CardLead', 'name': 'Card Lead', 'usedParagraphs': 4, 'basedOn': None, 'font': 'Trebuchet MS', 'sizePt': 13.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 9.0, 'lineSpacingPt': None, 'lineSpacingMult"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/lesson-activity-cards.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "contrastRatio": 21.0,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "lesson-activity-cards",
+      "name": "Lesson Activity Cards",
+      "format": "document",
+      "sourceHash": "e5e7d3bbb5efb1a9fa4c375bba2a293f997a55863fc2991252cf92e00b42f16f",
+      "foundationSha256": "2f7820c2f1b9f97a5983c469ca3ea25226956f306cde9f65baa9060af0008247",
+      "designSpecSha256": "a85844fdfc509a2087f3deb3c03fde144df0906efa239f21141dea4c42baf526",
+      "referenceDirectory": "references/lesson-activity-cards"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use PATTERN PRACTICE in Trebuchet with a three-unit repeating mark whose last unit is open. Avoid a puzzle-piece symbol.",
+    "productionMethod": "Brand-specific outlined typography with open-pattern source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "decision": "Portable variant selected. Trebuchet MS is a separately licensed Microsoft/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": 32,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Native Title and Heading1 plus CardNumber use Chalkboard for activity titles and large card numbers.",
+      "sourceFamily": "Chalkboard",
+      "sourceFamilySelected": "Chalkboard",
+      "renderFamily": "Kalam",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/kalam/Kalam-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b"
+        },
+        "bold": {
+          "path": "assets/fonts/kalam/Kalam-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/kalam/OFL.txt",
+      "licenseSha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Chalkboard is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Chalkboard is an Apple/system font; not bundled. Open handwritten display substitute for proprietary Chalkboard and Noteworthy system fonts.",
+      "sourceTemplateId": "lesson-activity-cards",
+      "sourceFingerprint": "e5e7d3bbb5efb1a9fa4c375bba2a293f997a55863fc2991252cf92e00b42f16f"
+    },
+    {
+      "role": "body",
+      "usage": "Normal, CardBody and supporting labels use Trebuchet MS for instructions and materials.",
+      "sourceFamily": "Trebuchet MS",
+      "sourceFamilySelected": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Trebuchet MS is a separately licensed Microsoft/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "lesson-activity-cards",
+      "sourceFingerprint": "e5e7d3bbb5efb1a9fa4c375bba2a293f997a55863fc2991252cf92e00b42f16f"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,272 @@
+{
+  "profile": {
+    "id": "comparative-evidence-dashboard",
+    "name": "Studio Evidence Desk",
+    "templateIds": [
+      "comparative-evidence-dashboard"
+    ],
+    "category": "Research & evidence",
+    "summary": "An analytical identity that makes comparisons inspectable on a dark reading surface, with clear separation between evidence and gaps.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#15191D",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#F0F3F0",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#A2DCC8",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Gap",
+        "role": "gap",
+        "hex": "#EAC58A",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#1C2227",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Structural rule",
+        "role": "rule",
+        "hex": "#485259",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#B6C0C5",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Avenir Next",
+        "usage": "Dashboard headings, labels and comparison controls."
+      },
+      {
+        "role": "body",
+        "family": "Georgia",
+        "usage": "Editorial explanation and method reading."
+      }
+    ],
+    "recognitionRules": [
+      "Use the dark ground and slightly lighter panels as an instrument surface.",
+      "Reserve mint for supported comparison emphasis and amber for gaps.",
+      "Align chart scales and comparison rows to the same numerical frame.",
+      "Keep the scope band and method adjacent to the interpretation."
+    ],
+    "voice": {
+      "traits": [
+        "analytical",
+        "bounded",
+        "legible"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Compare what is present. Keep what is missing in view.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use STUDIO / EVIDENCE as a compact Avenir wordmark separated by a thin slash. A small pair of aligned scale ticks may accompany it; no dashboard gauge icon.",
+    "invariants": [
+      "Use the dark ground and slightly lighter panels as an instrument surface.",
+      "Reserve mint for supported comparison emphasis and amber for gaps.",
+      "Align chart scales and comparison rows to the same numerical frame."
+    ],
+    "adaptations": [
+      "Light print editions translate dark panels into rule-separated areas.",
+      "Retain gap labels even when color is removed.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "comparative-evidence-dashboard",
+      "displayName": "Comparative Evidence Dashboard",
+      "format": "site",
+      "nameSignals": [
+        "Comparative evidence dashboard | Skip to comparison",
+        "wordmark | STUDIO | / EVIDENCE | Bounded snapshot | READING THE SNAPSHOT",
+        "Loading session records… | Comparisons appear after the complete dataset is checked. | SNAPSHOT UNAVAILABLE",
+        "We couldn’t load these records. | Try again",
+        "JavaScript is needed for the comparison. | The dashboard has not calculated any results. You can | read the source snapshot | instead. | #loading,.skip{display:none}",
+        "title | Snapshot date | APPLIED SCOPE | Export selection | ↗ | Print view | Filter sessions | + | Program | All programs | From date | Through date | Dates are inclusive. Apply changes to update every total, comparison and record together. | Apply filters | Cancel changes | Reset all filters | 01 / COMPARE"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41",
+      "evidence": [
+        "installed-skills/artifact-template-studio-comparative-evidence-dashboard/SKILL.md",
+        "installed-skills/artifact-template-studio-comparative-evidence-dashboard/DESIGN.md",
+        "installed-skills/artifact-template-studio-comparative-evidence-dashboard/design/foundations.json",
+        "installed-skills/artifact-template-studio-comparative-evidence-dashboard/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "src/styles.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-20",
+          "location": "src/styles.css:.masthead",
+          "observation": "{'border-bottom': '1px solid var(--line)', 'padding': '1rem max(2rem,calc((100vw - 1320px)/2))', 'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem', 'font-size': '.8rem', 'letter-spacing': '.1em'}"
+        },
+        {
+          "id": "source-21",
+          "location": "src/styles.css:.wordmark",
+          "observation": "{'font-weight': '700'}"
+        },
+        {
+          "id": "source-125",
+          "location": "src/styles.css:.masthead",
+          "observation": "{'padding': '1rem 1.25rem', 'letter-spacing': '.06em', 'font-size': '.65rem', 'flex-wrap': 'wrap'}"
+        },
+        {
+          "id": "source-169",
+          "location": "src/styles.css:body",
+          "observation": "{'background': '#fff'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/comparative-evidence-dashboard-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#F0F3F0",
+        "background": "#15191D",
+        "contrastRatio": 15.8,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "comparative-evidence-dashboard",
+      "name": "Comparative Evidence Dashboard",
+      "format": "site",
+      "sourceHash": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41",
+      "foundationSha256": "5174230dc243c883106d527d8309d30c272b0f5e2f320570811625883cf96450",
+      "designSpecSha256": "7bd6e48f44cff4c66202195a74449f670ff5ac9e3e4a2b4ee37f70ca6cc79cbd",
+      "referenceDirectory": "references/comparative-evidence-dashboard"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use STUDIO / EVIDENCE as a compact Avenir wordmark separated by a thin slash. A small pair of aligned scale ticks may accompany it; no dashboard gauge icon.",
+    "productionMethod": "Brand-specific outlined typography with scale-ticks source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "decision": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Dashboard headings, labels and comparison controls.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "comparative-evidence-dashboard",
+      "sourceFingerprint": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41"
+    },
+    {
+      "role": "body",
+      "usage": "Editorial explanation and method reading.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "comparative-evidence-dashboard",
+      "sourceFingerprint": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

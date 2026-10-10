@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "career-bridge-letter",
+  "version": "0.2.1",
+  "name": "A Useful Transition",
+  "summary": "A correspondence identity for explaining why prior work matters to a specific opportunity without overstating equivalence.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "career-bridge-letter"
+  ],
+  "sourceTemplateNames": {
+    "career-bridge-letter": "Career Bridge Letter"
+  },
+  "templateVariations": [
+    {
+      "templateId": "career-bridge-letter",
+      "name": "Career Bridge Letter",
+      "format": "document",
+      "sourceHash": "3393b7ff50ba065cef1c9c2bc781c90a4ff7a6440440300e8068d24015553904",
+      "foundationSha256": "92bc120c789b97efe55e7946042e7db033ecc62eb02044655769496d9c9a59a9",
+      "designSpecSha256": "1041e8509be6fdf8a1128ed01b8b80ecbb31f9d6685dfb5d46be23f022d18721",
+      "referenceDirectory": "references/career-bridge-letter"
+    }
+  ],
+  "sourceHash": "3393b7ff50ba065cef1c9c2bc781c90a4ff7a6440440300e8068d24015553904",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#25302B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Subject green",
+      "role": "primary",
+      "hex": "#254B40",
+      "evidence": "Native reference.docx word/styles.xml: style CBLSubject, style CBLFocus; text."
+    },
+    {
+      "name": "Contact green",
+      "role": "secondary-text",
+      "hex": "#44534C",
+      "evidence": "Native reference.docx word/styles.xml: style CBLNotice, style CBLDate, style CBLContact; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Carlito",
+      "usage": "Titles and short section openings; source used style CBLSignature."
+    },
+    {
+      "role": "body",
+      "family": "Carlito",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBLSignature."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style CBLSignature.",
+      "sourceFamily": "Carlito",
+      "sourceFamilySelected": "Carlito",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "career-bridge-letter",
+      "sourceFingerprint": "3393b7ff50ba065cef1c9c2bc781c90a4ff7a6440440300e8068d24015553904"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBLSignature.",
+      "sourceFamily": "Carlito",
+      "sourceFamilySelected": "Carlito",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "career-bridge-letter",
+      "sourceFingerprint": "3393b7ff50ba065cef1c9c2bc781c90a4ff7a6440440300e8068d24015553904"
+    }
+  ],
+  "recognitionRules": [
+    "Keep the name and focus line compact above the letter.",
+    "Use Carlito paragraphs with a clear opening reason, evidence passage and courteous close.",
+    "Leave generous white space around the salutation and signature.",
+    "Describe one transferable practice in concrete terms rather than repeating every resume item.",
+    "Use green subject/focus labels and quieter green-gray contact information above dark reading paragraphs."
+  ],
+  "writingLinks": [
+    {
+      "id": "V20",
+      "name": "Personal letter",
+      "reason": "Addressed letter with an owned direction, attributable proof and an invitation.",
+      "sourceTemplateId": "career-bridge-letter",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P41",
+          "name": "Compressed correspondence",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "I would bring a tested way of making difficult work easier to follow.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use A USEFUL TRANSITION as a modest Carlito letterhead; no standalone symbol. In real correspondence the person’s name replaces the library identity.",
+  "invariants": [
+    "Keep the name and focus line compact above the letter.",
+    "Use Carlito paragraphs with a clear opening reason, evidence passage and courteous close.",
+    "Leave generous white space around the salutation and signature."
+  ],
+  "adaptations": [
+    "Adapt the first and final paragraphs to the recipient.",
+    "Retain the evidence paragraph’s factual limits across versions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/career-bridge-letter.pdf",
+    "preview": "media/career-bridge-letter-guide.webp",
+    "markdown": "guides/career-bridge-letter.md"
+  },
+  "bundle": {
+    "href": "bundles/career-bridge-letter-brand-kit.zip",
+    "filename": "A Useful Transition brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/career-bridge-letter-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/career-bridge-letter-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/career-bridge-letter-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

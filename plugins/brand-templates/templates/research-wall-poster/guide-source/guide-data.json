@@ -1,0 +1,151 @@
+{
+  "id": "research-wall-poster",
+  "name": "Studio Field Atlas",
+  "summary": "A wall-scale research identity that makes a question, a small set of findings and their evidence readable at a distance.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Evidence header",
+      "role": "header",
+      "hex": "#24232B",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #24232B; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Evidence row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Cyan strip",
+      "role": "primary",
+      "hex": "#72C4CA",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    },
+    {
+      "name": "Plum shape",
+      "role": "accent",
+      "hex": "#8B355A",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    },
+    {
+      "name": "Mint shape",
+      "role": "secondary",
+      "hex": "#CDEBE5",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Titles and short section openings; source used style PosterLead."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style PosterNote."
+    }
+  ],
+  "recognitionRules": [
+    "Use large Avenir headings with plain Arial supporting text.",
+    "Organize the poster around the research question before individual findings.",
+    "Keep source labels close to the corresponding evidence.",
+    "Use the source cyan geometric strip with plum, near-black and mint circle/wedge/square forms above three reading columns; keep body copy black on white."
+  ],
+  "voice": {
+    "traits": [
+      "clear",
+      "public-facing",
+      "evidence-minded"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Make the question visible. Let the evidence gather around it.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use STUDIO FIELD ATLAS in Avenir with a small atlas number and one long rule. No map or globe icon.",
+  "invariants": [
+    "Use large Avenir headings with plain Arial supporting text.",
+    "Organize the poster around the research question before individual findings.",
+    "Keep source labels close to the corresponding evidence."
+  ],
+  "adaptations": [
+    "A digital excerpt keeps the research question and source note.",
+    "A larger poster adds whitespace before adding more findings.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

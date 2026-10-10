@@ -1,0 +1,270 @@
+{
+  "profile": {
+    "id": "volunteer-pocket-guide",
+    "name": "First Shift",
+    "templateIds": [
+      "volunteer-pocket-guide"
+    ],
+    "category": "Community & culture",
+    "summary": "A pocket-guide identity that helps a new volunteer move from arrival to useful action with clear cues and a route to help.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#213D38",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Route green",
+        "role": "primary",
+        "hex": "#426257",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #426257; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Route panel",
+        "role": "surface",
+        "hex": "#DCE6DE",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #DCE6DE; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Stage ink",
+        "role": "display-ink",
+        "hex": "#000000",
+        "evidence": "Native reference.docx word/styles.xml: style Title, style Heading1; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "DIN Condensed",
+        "usage": "Short route and stage labels, with enough tracking to read at pocket size."
+      },
+      {
+        "role": "body",
+        "family": "Noto Sans",
+        "usage": "Volunteer actions, help details and practical notes."
+      }
+    ],
+    "recognitionRules": [
+      "Use DIN Condensed for short stage headings and Noto Sans for instructions.",
+      "Organize the guide around the actual sequence of arrival and work.",
+      "Keep contact or help information separate and easy to find.",
+      "Use sage route panels with green left rails, underlined numbered stage names and right-aligned page numbers; keep instructions in dark green ink."
+    ],
+    "voice": {
+      "traits": [
+        "welcoming",
+        "practical",
+        "reassuring"
+      ],
+      "principles": [
+        "Make the invitation warm and the practical details exact.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Arrive. Find your person. Know the next useful thing to do.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid speaking for an entire community or implying confirmed attendance.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Come for the part that interests you; here is what to expect.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use FIRST SHIFT in DIN Condensed with a small Noto Sans guide label and one vertical route rule. No helping-hands symbol.",
+    "invariants": [
+      "Use DIN Condensed for short stage headings and Noto Sans for instructions.",
+      "Organize the guide around the actual sequence of arrival and work.",
+      "Keep contact or help information separate and easy to find."
+    ],
+    "adaptations": [
+      "A pocket fold keeps the help panel visible when closed.",
+      "A digital version uses the same stage names as the printed guide.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "volunteer-pocket-guide",
+      "displayName": "Volunteer Pocket Guide",
+      "format": "document",
+      "nameSignals": [
+        "Volunteer pocket guide",
+        "Arrive",
+        "Scope",
+        "Routine",
+        "Exceptions",
+        "Contacts"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1",
+      "evidence": [
+        "installed-skills/artifact-template-studio-volunteer-pocket-guide/SKILL.md",
+        "installed-skills/artifact-template-studio-volunteer-pocket-guide/DESIGN.md",
+        "installed-skills/artifact-template-studio-volunteer-pocket-guide/design/foundations.json",
+        "installed-skills/artifact-template-studio-volunteer-pocket-guide/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 23, 'basedOn': None, 'font': 'Noto Sans', 'sizePt': 10.5, 'bold': False, 'italic': False, 'color': '#213D38', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpacingMultiplie"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 7, 'basedOn': 'Normal', 'font': 'DIN Condensed', 'sizePt': 28.0, 'bold': True, 'italic': False, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpaci"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 21, 'basedOn': 'Normal', 'font': 'Noto Sans', 'sizePt': 11.0, 'bold': True, 'italic': False, 'color': '#213D38', 'spaceBeforePt': 0.0, 'spaceAfterPt': 3.0, 'lineSpacingPt': None, 'lineSpacingM"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'DIN Condensed', 'sizePt': 29.0, 'bold': True, 'italic': False, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpacingMulti"
+        },
+        {
+          "id": "source-5",
+          "location": "used style RouteLabel",
+          "observation": "{'id': 'RouteLabel', 'name': 'Route Label', 'usedParagraphs': 8, 'basedOn': None, 'font': 'Noto Sans', 'sizePt': 9.5, 'bold': True, 'italic': False, 'color': '#426257', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpacingMul"
+        }
+      ],
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/volunteer-pocket-guide.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#213D38",
+        "background": "#FFFFFF",
+        "contrastRatio": 11.74,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "volunteer-pocket-guide",
+      "name": "Volunteer Pocket Guide",
+      "format": "document",
+      "sourceHash": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1",
+      "foundationSha256": "1e0bac7b73f6ed546393fef2f4064fef58d8ff5eb54a5723d5b8017e47d4fd78",
+      "designSpecSha256": "57a21e1501c5b344895f587e071a240f153faeb31b2e991045db9811dbde555e",
+      "referenceDirectory": "references/volunteer-pocket-guide"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use FIRST SHIFT in DIN Condensed with a small Noto Sans guide label and one vertical route rule. No helping-hands symbol.",
+    "productionMethod": "Brand-specific outlined typography with shift-spine source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "DIN Condensed",
+      "renderFamily": "Barlow Condensed",
+      "decision": "Portable variant selected. DIN Condensed is a separately licensed commercial font; not bundled. Open condensed grotesque substitute for proprietary DIN Condensed source dependencies.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Short route and stage labels, with enough tracking to read at pocket size.",
+      "sourceFamily": "DIN Condensed",
+      "sourceFamilySelected": "DIN Condensed",
+      "renderFamily": "Barlow Condensed",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+        },
+        "semibold": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+        },
+        "bold": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/barlow-condensed/OFL.txt",
+      "licenseSha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "DIN Condensed is a separately licensed commercial font; not bundled.",
+      "justification": "Portable variant selected. DIN Condensed is a separately licensed commercial font; not bundled. Open condensed grotesque substitute for proprietary DIN Condensed source dependencies.",
+      "sourceTemplateId": "volunteer-pocket-guide",
+      "sourceFingerprint": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1"
+    },
+    {
+      "role": "body",
+      "usage": "Volunteer actions, help details and practical notes.",
+      "sourceFamily": "Noto Sans",
+      "sourceFamilySelected": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "volunteer-pocket-guide",
+      "sourceFingerprint": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

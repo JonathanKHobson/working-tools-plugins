@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "field-expedition-briefing",
+  "version": "0.2.1",
+  "name": "Field Notes Expedition",
+  "summary": "A briefing identity that combines a practical field plan with an observational spirit and clear limits on the proposed activity.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Workshops & facilitation"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "field-expedition-briefing"
+  ],
+  "sourceTemplateNames": {
+    "field-expedition-briefing": "Field Expedition Briefing"
+  },
+  "templateVariations": [
+    {
+      "templateId": "field-expedition-briefing",
+      "name": "Field Expedition Briefing",
+      "format": "presentation",
+      "sourceHash": "fd0b6f720a07767fbdc6bf7eecb6348568de83e67575d9b941350b92b4523f79",
+      "foundationSha256": "bac6396ec9ea0673a11656205479c5081a4cd680bbd6b51681d27a73681f746b",
+      "designSpecSha256": "b43f5aeae18dde74fd0fefcb0e260acf5fa2723d0b593331fc17837a77015dde",
+      "referenceDirectory": "references/field-expedition-briefing"
+    }
+  ],
+  "sourceHash": "fd0b6f720a07767fbdc6bf7eecb6348568de83e67575d9b941350b92b4523f79",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F6F1E4",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#243D32",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#963D2C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#4D6054",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source slide 8 / title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 8 / title.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "field-expedition-briefing",
+      "sourceFingerprint": "fd0b6f720a07767fbdc6bf7eecb6348568de83e67575d9b941350b92b4523f79"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / footer.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "field-expedition-briefing",
+      "sourceFingerprint": "fd0b6f720a07767fbdc6bf7eecb6348568de83e67575d9b941350b92b4523f79"
+    }
+  ],
+  "recognitionRules": [
+    "Use dark green, cream and rust with a disciplined fieldnote hierarchy.",
+    "Pair Arial instructions with monospaced timing and Georgia contextual reading.",
+    "Keep duration, materials and return conditions visible before the activity.",
+    "Separate observation prompts from safety and access facts."
+  ],
+  "writingLinks": [
+    {
+      "id": "V11",
+      "name": "Patient coach",
+      "reason": "Prepares participants with routes, timing, prompts and contingencies.",
+      "sourceTemplateId": "field-expedition-briefing",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Go with a question. Return with a record.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use FIELD NOTES EXPEDITION in Arial with a monospaced duration line and a single open route stroke. No mountain badge.",
+  "invariants": [
+    "Use dark green, cream and rust with a disciplined fieldnote hierarchy.",
+    "Pair Arial instructions with monospaced timing and Georgia contextual reading.",
+    "Keep duration, materials and return conditions visible before the activity."
+  ],
+  "adaptations": [
+    "A pocket card prioritizes route, time and contact details.",
+    "A teaching version can expand observation prompts without reducing the briefing.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/field-expedition-briefing.pdf",
+    "preview": "media/field-expedition-briefing-guide.webp",
+    "markdown": "guides/field-expedition-briefing.md"
+  },
+  "bundle": {
+    "href": "bundles/field-expedition-briefing-brand-kit.zip",
+    "filename": "Field Notes Expedition brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/field-expedition-briefing-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/field-expedition-briefing-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/field-expedition-briefing-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

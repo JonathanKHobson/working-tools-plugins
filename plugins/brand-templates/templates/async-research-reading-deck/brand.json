@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "async-research-reading-deck",
+  "version": "0.2.1",
+  "name": "Atlas Reading Room",
+  "summary": "An evidence publication identity for readers who need to follow an argument and then inspect the record at their own pace.",
+  "category": "Research & evidence",
+  "tags": [
+    "presentation",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "async-research-reading-deck"
+  ],
+  "sourceTemplateNames": {
+    "async-research-reading-deck": "Async Research Reading Deck"
+  },
+  "templateVariations": [
+    {
+      "templateId": "async-research-reading-deck",
+      "name": "Async Research Reading Deck",
+      "format": "presentation",
+      "sourceHash": "3f987fc50f438032d982c6c2240a31adf7de64fc5c094e4fd7bb530969449113",
+      "foundationSha256": "a0658907b1abfb830f926771984a59fdca69cb8ec0479a7a6baf248c18c18236",
+      "designSpecSha256": "9f1ead7bfd9f2bdabd4283d76ab36af0be1b7bbcb0fb97bac0b6b5fce420008a",
+      "referenceDirectory": "references/async-research-reading-deck"
+    }
+  ],
+  "sourceHash": "3f987fc50f438032d982c6c2240a31adf7de64fc5c094e4fd7bb530969449113",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FAF6EE",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#402634",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#135F66",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#EEE7E1",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#A6969C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Didot",
+      "usage": "Titles and short section openings; source slide 12 / title."
+    },
+    {
+      "role": "body",
+      "family": "Optima",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 12 / bottom."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 12 / title.",
+      "sourceFamily": "Didot",
+      "sourceFamilySelected": "Didot",
+      "renderFamily": "Cormorant Garamond",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "78e01718e96f1a8689597a63b21ddaaf44dd785ee7cf5e92dd70a741c79cfae5"
+        },
+        "bold": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "012a87dc5658bdc4599ba507348e8ce5a432de636b7f29584cd949692ed5c3da"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cormorant-garamond/OFL.txt",
+      "licenseSha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Didot is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Didot is an Apple/system or separately licensed font; not bundled. Open high-contrast serif substitute for proprietary Didot or Cochin, selected according to the source profile.",
+      "sourceTemplateId": "async-research-reading-deck",
+      "sourceFingerprint": "3f987fc50f438032d982c6c2240a31adf7de64fc5c094e4fd7bb530969449113"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 12 / bottom.",
+      "sourceFamily": "Optima",
+      "sourceFamilySelected": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10"
+        },
+        "bold": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "a3055a1893759bdbd7504bb22abc583769e7974c49353176eac0b03792c9fb8e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/alegreya-sans/OFL.txt",
+      "licenseSha256": "0677891e6a143f297350d260ad766ad33bfc18ed5fa4f213acf648d6b597ec1a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Optima is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Optima is an Apple/system font; not bundled. Exact OFL source family; official static files are used.",
+      "sourceTemplateId": "async-research-reading-deck",
+      "sourceFingerprint": "3f987fc50f438032d982c6c2240a31adf7de64fc5c094e4fd7bb530969449113"
+    }
+  ],
+  "recognitionRules": [
+    "Use Didot for the main proposition and Optima for the explanatory route.",
+    "Keep Reader map and Evidence links in consistent footer positions.",
+    "Use plum and teal as restrained editorial accents on warm paper.",
+    "Separate the argument route from the record route, with page numbers available in both."
+  ],
+  "writingLinks": [
+    {
+      "id": "V12",
+      "name": "Research register",
+      "reason": "Self-paced reading deck that links qualified findings to decision ownership.",
+      "sourceTemplateId": "async-research-reading-deck",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P27",
+          "name": "Evidence-to-decision researcher",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Read the argument. Follow the record. Decide what needs another look.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use ATLAS READING ROOM in a high-contrast Didot wordmark with a small Optima edition line. No globe or map pin.",
+  "invariants": [
+    "Use Didot for the main proposition and Optima for the explanatory route.",
+    "Keep Reader map and Evidence links in consistent footer positions.",
+    "Use plum and teal as restrained editorial accents on warm paper."
+  ],
+  "adaptations": [
+    "A short briefing can retain the reader map and one linked evidence page.",
+    "Print editions replace links with page references.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/async-research-reading-deck.pdf",
+    "preview": "media/async-research-reading-deck-guide.webp",
+    "markdown": "guides/async-research-reading-deck.md"
+  },
+  "bundle": {
+    "href": "bundles/async-research-reading-deck-brand-kit.zip",
+    "filename": "Atlas Reading Room brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/async-research-reading-deck-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/async-research-reading-deck-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/async-research-reading-deck-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "demo-cue-cards",
+  "name": "Show the Work",
+  "summary": "A presenter’s identity that turns a demonstration into a sequence of visible actions with room to recover when something changes.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#202327",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Cue paper",
+      "role": "surface",
+      "hex": "#F4F1E9",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F4F1E9; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Cue amber",
+      "role": "primary",
+      "hex": "#72500C",
+      "evidence": "Native reference.docx word/styles.xml: style Heading2; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Large card actions and scene labels."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Presenter cues, timing notes and recovery prompts."
+    }
+  ],
+  "recognitionRules": [
+    "Number each cue card and give it one imperative heading.",
+    "Put planned time near the action, clearly distinguished from measured timing.",
+    "Separate what to show from what to say.",
+    "Use large Avenir headings and plain Arial cue text with generous whitespace.",
+    "Use dark cue bars, warm-paper supplied-state panels and amber SHOW / DO or CHECK labels to separate performance roles."
+  ],
+  "voice": {
+    "traits": [
+      "direct",
+      "steady",
+      "demonstrative"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Set the purpose. Show the baseline. Let the change speak.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use SHOW THE WORK as a simple Avenir wordmark beside three short sequential bars. The bars mark scenes, not progress completion.",
+  "invariants": [
+    "Number each cue card and give it one imperative heading.",
+    "Put planned time near the action, clearly distinguished from measured timing.",
+    "Separate what to show from what to say."
+  ],
+  "adaptations": [
+    "A rehearsal deck can enlarge each card without adding content.",
+    "Keep recovery notes in a secondary text area.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

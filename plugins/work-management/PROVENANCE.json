@@ -1,0 +1,1591 @@
+{
+  "schema_version": 1,
+  "package": "work-management",
+  "version": "0.2.0",
+  "canonical_source": "work-management",
+  "source_tree_sha256": "e14d8866e002cba4f17cc55e8f42704ce1c210ad29f5529b6c6e500090606d59",
+  "retained_skill_heads": 10,
+  "excluded_source_files": {
+    ".mcp.json": "Empty automatic MCP registration omitted; full explicit Atlas launcher remains."
+  },
+  "private_input_projections": [
+    "libraries/focus-ops-manager/references/kyle-profile.md",
+    "libraries/focus-ops-manager/references/kyle-patterns.md",
+    "libraries/focus-ops-manager/references/hard-truths.md",
+    "libraries/focus-ops-manager/references/goals.md",
+    "libraries/focus-ops-manager/references/weekly-log.md"
+  ],
+  "files": [
+    {
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "fb7822691353398fcce103c22bd808f96de52fbb2fbd37e56a41baafcc2046b9",
+      "path": ".codex-plugin/plugin.json",
+      "output_sha256": "242347c86687b10d83d975f9300235d62c274525b0167064cb5dffa0413ec0fe",
+      "change": "Public complete ten-head adapter and precise private-input/registration scope."
+    },
+    {
+      "source_relative": ".mcp.json",
+      "source_sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+      "path": null,
+      "output_sha256": null,
+      "change": "Empty automatic MCP registration omitted; full explicit Atlas launcher remains."
+    },
+    {
+      "source_relative": "README.md",
+      "source_sha256": "eecd380194144645f7b039fab0618362ac85ce57206e2f3dd4d275bf3b23d9a0",
+      "path": "README.md",
+      "output_sha256": "22111764df1706a4a3d312eda30a55754467ac3f896ae1a7f91efaf92dc38526",
+      "change": "Full original onboarding plus exact public scope, opt-in semantics and prerequisite/failure examples."
+    },
+    {
+      "source_relative": "SOURCE-NOTES.md",
+      "source_sha256": "cd280549572837ab6a79c09c4b2e0555f5cee35b6b0f220d354ed50687e43369",
+      "path": "SOURCE-NOTES.md",
+      "output_sha256": "62ef3c5cc36b7253f8601867e860d946c6e23442563a009f1f69bd4513fcc5ac",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "docs/parallel-work-provenance.md",
+      "source_sha256": "b347d3decf2437f53b0bace34d7f4150b9ef9d04fba50107a66cc77e7b2f63da",
+      "path": "docs/parallel-work-provenance.md",
+      "output_sha256": "b347d3decf2437f53b0bace34d7f4150b9ef9d04fba50107a66cc77e7b2f63da",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "873bfe309f71c410a0c9cf53f3167599241d58d25aa6baee4da02e4f2fa83be8",
+      "path": "docs/project-map.md",
+      "output_sha256": "873bfe309f71c410a0c9cf53f3167599241d58d25aa6baee4da02e4f2fa83be8",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "docs/skill-plugin-map.md",
+      "source_sha256": "6e4fd54636344e275c89b86c7bfd5aedb2225352a9c48706c2b39c410c11eb22",
+      "path": "docs/skill-plugin-map.md",
+      "output_sha256": "249fff8b36a17b19141e0e6a94cdd30b0ade1728d98c07c5ea9cc030b4370e2c",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "docs/use-case-map.md",
+      "source_sha256": "d774e342f561afd84bec4708d257c71ba437308626f5050a6875b3aaa5b7e92a",
+      "path": "docs/use-case-map.md",
+      "output_sha256": "d774e342f561afd84bec4708d257c71ba437308626f5050a6875b3aaa5b7e92a",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "hooks/claude-hooks.json",
+      "source_sha256": "f783a0102b0ac8141111615d83f2440d64fc61a72978a4aee8f2074a277f33a8",
+      "path": "optional-hooks/claude-hooks.json",
+      "output_sha256": "22b1dc055473c3e2711756fce06fe04d4cad645ef2c5b4cf2d4c2be618a6ad99",
+      "change": "Full original hook declaration moved to nonautoloaded opt-in template location. Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "hooks/hooks.json",
+      "source_sha256": "5d7b5892986c500166d7c718f8e8b6b09478d0949e3400bb62e6e15b6373ffc9",
+      "path": "optional-hooks/hooks.json",
+      "output_sha256": "b302d76e71cabbaf607ee92f84344dd4a8f1cb9c7a479f95433aacbcab307f7f",
+      "change": "Full original hook declaration moved to nonautoloaded opt-in template location. Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/LICENSE",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "path": "libraries/claude-code-setup-original/LICENSE",
+      "output_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/NOTICE.md",
+      "source_sha256": "38cce95866357a580e8d9cf50c03fd7590d91684fab2b78899c465ee48a8225a",
+      "path": "libraries/claude-code-setup-original/NOTICE.md",
+      "output_sha256": "38cce95866357a580e8d9cf50c03fd7590d91684fab2b78899c465ee48a8225a",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/README.original.md",
+      "source_sha256": "03338a6d1b35349058d187b4d615bc7d1115c0ffb0dd8fbb54cdfd9519d88335",
+      "path": "libraries/claude-code-setup-original/README.original.md",
+      "output_sha256": "03338a6d1b35349058d187b4d615bc7d1115c0ffb0dd8fbb54cdfd9519d88335",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/SKILL.original.md",
+      "source_sha256": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227",
+      "path": "libraries/claude-code-setup-original/SKILL.original.md",
+      "output_sha256": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/references/hooks-patterns.md",
+      "source_sha256": "7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e",
+      "path": "libraries/claude-code-setup-original/references/hooks-patterns.md",
+      "output_sha256": "7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/references/mcp-servers.md",
+      "source_sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97",
+      "path": "libraries/claude-code-setup-original/references/mcp-servers.md",
+      "output_sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/references/plugins-reference.md",
+      "source_sha256": "6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3",
+      "path": "libraries/claude-code-setup-original/references/plugins-reference.md",
+      "output_sha256": "6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/references/skills-reference.md",
+      "source_sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+      "path": "libraries/claude-code-setup-original/references/skills-reference.md",
+      "output_sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/references/subagent-templates.md",
+      "source_sha256": "7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944",
+      "path": "libraries/claude-code-setup-original/references/subagent-templates.md",
+      "output_sha256": "7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/claude-code-setup-original/source-map.json",
+      "source_sha256": "106dbf97e9d4ed3e6a2774e804898fc24ad01ef5d32ac62ade86ec9b7bea0cc8",
+      "path": "libraries/claude-code-setup-original/source-map.json",
+      "output_sha256": "106dbf97e9d4ed3e6a2774e804898fc24ad01ef5d32ac62ade86ec9b7bea0cc8",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/.codex-plugin/assets/composer-icon.png",
+      "source_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "path": "libraries/codex-coordinator-original/.codex-plugin/assets/composer-icon.png",
+      "output_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/.codex-plugin/assets/logo.png",
+      "source_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "path": "libraries/codex-coordinator-original/.codex-plugin/assets/logo.png",
+      "output_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/.codex-plugin/plugin.json",
+      "source_sha256": "14b95332a58d17d9b6aa6343b3ce9275fb6e22fbb75c45441ddd54605c3e589d",
+      "path": "libraries/codex-coordinator-original/.codex-plugin/plugin.json",
+      "output_sha256": "14b95332a58d17d9b6aa6343b3ce9275fb6e22fbb75c45441ddd54605c3e589d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/LICENSE",
+      "source_sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07",
+      "path": "libraries/codex-coordinator-original/LICENSE",
+      "output_sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/assets/logo.png",
+      "source_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "path": "libraries/codex-coordinator-original/assets/logo.png",
+      "output_sha256": "ef2b0349121311cfdf5fee16e4d1c08a21726bd6c0d69415adc9e9e5cb6aeec4",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/hooks/hooks.json",
+      "source_sha256": "f48f534a54a3d64a5101c7fb0722f33729f04d4fcbabdc688f54403630cf5b62",
+      "path": "libraries/codex-coordinator-original/hooks/hooks.json",
+      "output_sha256": "f48f534a54a3d64a5101c7fb0722f33729f04d4fcbabdc688f54403630cf5b62",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/scripts/codex_coordinator_doctor.py",
+      "source_sha256": "6ebc609f6666091cbaa3490878cbfc35bcde72413df67a83a76e726dfcd4895b",
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_doctor.py",
+      "output_sha256": "6ebc609f6666091cbaa3490878cbfc35bcde72413df67a83a76e726dfcd4895b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/scripts/codex_coordinator_project.py",
+      "source_sha256": "4fba772f543f4513e65e50eedd1ba610224c5f648fedd1366ccf5edd869e38ab",
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_project.py",
+      "output_sha256": "4fba772f543f4513e65e50eedd1ba610224c5f648fedd1366ccf5edd869e38ab",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/scripts/codex_coordinator_session_start.py",
+      "source_sha256": "821ad8378f3e453f3ae11cfbb951721f330e53d4e55b414b4e6e771f98ec89b0",
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_session_start.py",
+      "output_sha256": "821ad8378f3e453f3ae11cfbb951721f330e53d4e55b414b4e6e771f98ec89b0",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/scripts/codex_coordinator_stop_guard.py",
+      "source_sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc",
+      "path": "libraries/codex-coordinator-original/scripts/codex_coordinator_stop_guard.py",
+      "output_sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/SKILL.md",
+      "source_sha256": "00724054da472442bdf65c965a6f9243dc226c04cda03bdd3f1a7f7c5b662964",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/SKILL.md",
+      "output_sha256": "00724054da472442bdf65c965a6f9243dc226c04cda03bdd3f1a7f7c5b662964",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/agents/openai.yaml",
+      "source_sha256": "eb71137148dd16ee2da5dd2de60844a52aa350fd661c115d46912b1ca0cffc98",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/agents/openai.yaml",
+      "output_sha256": "eb71137148dd16ee2da5dd2de60844a52aa350fd661c115d46912b1ca0cffc98",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/capabilities.json",
+      "source_sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/capabilities.json",
+      "output_sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/doctor.md",
+      "source_sha256": "930d72f8979f6bb1fd7ba20fddb9dc513e4f28d9b81118df73508a4b684f22ac",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/doctor.md",
+      "output_sha256": "930d72f8979f6bb1fd7ba20fddb9dc513e4f28d9b81118df73508a4b684f22ac",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/execution.md",
+      "source_sha256": "600fa280c7923038455e0e98e313fdd8bec667b3c4f594cd09d5c5fa0fec9140",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/execution.md",
+      "output_sha256": "600fa280c7923038455e0e98e313fdd8bec667b3c4f594cd09d5c5fa0fec9140",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/installation.md",
+      "source_sha256": "79208900f0bcb673b75428e5d164787ff74d871c1d163335c8b411179a301350",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/installation.md",
+      "output_sha256": "79208900f0bcb673b75428e5d164787ff74d871c1d163335c8b411179a301350",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/maintenance.md",
+      "source_sha256": "71d3b89f875876ea0e39d1e9cb67cfd7ebae6346a4b2e10da3fce4c99382c984",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/maintenance.md",
+      "output_sha256": "71d3b89f875876ea0e39d1e9cb67cfd7ebae6346a4b2e10da3fce4c99382c984",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/messaging.md",
+      "source_sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/messaging.md",
+      "output_sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/operations.md",
+      "source_sha256": "3d92338f4dfd2014da876c91333d170e2e35b153d8998576c3fc423df40bce74",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/operations.md",
+      "output_sha256": "3d92338f4dfd2014da876c91333d170e2e35b153d8998576c3fc423df40bce74",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/references/recovery.md",
+      "source_sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/references/recovery.md",
+      "output_sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/codex-coordinator-original/skills/codex-coordinator/scripts/coordination_state.py",
+      "source_sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c",
+      "path": "libraries/codex-coordinator-original/skills/codex-coordinator/scripts/coordination_state.py",
+      "output_sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/find-skills/LICENSE",
+      "source_sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+      "path": "libraries/find-skills/LICENSE",
+      "output_sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/find-skills/SKILL.original.md",
+      "source_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f",
+      "path": "libraries/find-skills/SKILL.original.md",
+      "output_sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/SKILL.original.md",
+      "source_sha256": "ac704ad9b6fc3d9ffc54b16c4f260a56ec14e5a08c1a083bb730c6f6f2fa5bf6",
+      "path": "libraries/focus-ops-manager/SKILL.original.md",
+      "output_sha256": "ac704ad9b6fc3d9ffc54b16c4f260a56ec14e5a08c1a083bb730c6f6f2fa5bf6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/claude-usage.md",
+      "source_sha256": "ca345b420ced0069582fee0f625a010f229924cd8a472441a98b6eef7a5ced3e",
+      "path": "libraries/focus-ops-manager/references/claude-usage.md",
+      "output_sha256": "e278116209d7f9672b2bf4c19f97a9863d5cbb71ea985bd8b4846afc23f5be81",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/codex-mcp-investigation-report.md",
+      "source_sha256": "497c453a05720bab76fcb5522ae9c0a2fad6b74d57aa6e0a14feac3805ded29c",
+      "path": "libraries/focus-ops-manager/references/codex-mcp-investigation-report.md",
+      "output_sha256": "e8c5bfdf4b367cc12c277ff3c67c704d39bcf838639d55f5766d6465ca1832e5",
+      "change": "Complete original test/procedure retained; explicit optional external helper input, no inherited host setup; recipient opt-in negative test added."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/codex-operating-protocols.md",
+      "source_sha256": "6b669bf03525136778e38fbee8a50cbb246553ba500915420ea12ccc47235cdc",
+      "path": "libraries/focus-ops-manager/references/codex-operating-protocols.md",
+      "output_sha256": "a477f88c9e6c672666ee8bb9e06462d04d32c3080d89df278b06a266dea224ce",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/goals.md",
+      "source_sha256": "11d8b13e0cff3a9d6c25e6d3769c206865de390321b73e1e112c6a16305be4a2",
+      "path": "libraries/focus-ops-manager/references/goals.md",
+      "output_sha256": "2b2f353b68704f625c37499c2210b7fe0bc5cf95d2a3d23d23c9e6f58a38737a",
+      "change": "Exclude original private goal entries; preserve registry categories, SMART fields and verbatim complete monthly review protocol."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/hard-truths.md",
+      "source_sha256": "cec13190d8cefd9e0e74ce7ddd10951c06214f7e560870e03c2a879d15429db8",
+      "path": "libraries/focus-ops-manager/references/hard-truths.md",
+      "output_sha256": "939949c91f492f3a9b5226c53be585eb109fc311da68d52c57bcb83a87f67aab",
+      "change": "Retain all five complete pattern/cue/coaching/antidote procedures; remove private relationship attribution and mark fictional track examples/current evidence requirements."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/kyle-patterns.md",
+      "source_sha256": "cff5def67af4e047029f15354b83839a4d492422b0ac4900dd4b8d18510a3a79",
+      "path": "libraries/focus-ops-manager/references/kyle-patterns.md",
+      "output_sha256": "2ab465ba7ddbd4e0abf35b25947b7cd17251e4f4b458426dc0eca630f22d389e",
+      "change": "Retain all five complete pattern/cue/coaching/antidote procedures; remove private relationship attribution and mark fictional track examples/current evidence requirements."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/kyle-profile.md",
+      "source_sha256": "61816aaaaf096502722963e9ffcb5e28b7d35b24448c78a40247539fe64a8321",
+      "path": "libraries/focus-ops-manager/references/kyle-profile.md",
+      "output_sha256": "0ad242998692755724e021f7ad6315e055feafc8a1587a3c255abdc77483edde",
+      "change": "Exclude original private identity/health/relationship facts; retain stable-profile purpose and full recipient constraint categories as a blank input template."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/mcp-registry.md",
+      "source_sha256": "f7b4dcf54411ba7b144c6dfd8ebcc43d7a9c0a7a2d72478988ad3fdbfe4e557b",
+      "path": "libraries/focus-ops-manager/references/mcp-registry.md",
+      "output_sha256": "be7d0b7c96970ef790f9a7a9df12f9f5ad8cdb2e8f44bc1a1e0eb50ff6c66bde",
+      "change": "Complete original routing/method/source history retained with portable locators and explicit historical/current-state boundary."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/mcp-test-plan.md",
+      "source_sha256": "32bd3828653327262c6dfe999c7fb82f0fa350739c8f965d703d58787c8b640d",
+      "path": "libraries/focus-ops-manager/references/mcp-test-plan.md",
+      "output_sha256": "f8e0884012c9c90dc36b69223c2d99c5e693b76a595b9a4aa3d50a93d35b9ccb",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/new-idea-protocol.md",
+      "source_sha256": "41afa41e7f365a830089c7ea83a550489316cf48626d1bf226f7f3c4c6437ad9",
+      "path": "libraries/focus-ops-manager/references/new-idea-protocol.md",
+      "output_sha256": "41afa41e7f365a830089c7ea83a550489316cf48626d1bf226f7f3c4c6437ad9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/session-protocol.md",
+      "source_sha256": "98021f37db959d0971f06355c0adfc5e18c4443f092c82c227fec0fb5a97dd66",
+      "path": "libraries/focus-ops-manager/references/session-protocol.md",
+      "output_sha256": "98021f37db959d0971f06355c0adfc5e18c4443f092c82c227fec0fb5a97dd66",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-mcp-improvement-backlog.md",
+      "source_sha256": "e2e15228510066d51068a4aa1e4e6b5672251fe49cef98a4a8e004c37de59d7e",
+      "path": "libraries/focus-ops-manager/references/skill-mcp-improvement-backlog.md",
+      "output_sha256": "e114c7979588d97c800eca02c6f2bd432d4d3c75e1e6332b777941f3e3bc0003",
+      "change": "Complete original routing/method/source history retained with portable locators and explicit historical/current-state boundary."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-mcp-orchestration.md",
+      "source_sha256": "74b0b9479d970487dcadadcfbc9609f6be2ebb405b9c7c70ef29238ceb6b7822",
+      "path": "libraries/focus-ops-manager/references/skill-mcp-orchestration.md",
+      "output_sha256": "58fbecb9c334094a6df8b8f08abfd145e94dbf3ac34e3116f7135f6b6d60cfc8",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-provenance-catalog.md",
+      "source_sha256": "17ff2fadb2ad9150d5afaa4a4bf3d9ddbd16312e7d7988b501124d1760ff0ab9",
+      "path": "libraries/focus-ops-manager/references/skill-provenance-catalog.md",
+      "output_sha256": "3f46271e9140ca53386f1d205e214ba28ab53b0f2561b0ec6a6897bbaedbc0e0",
+      "change": "Complete original routing/method/source history retained with portable locators and explicit historical/current-state boundary."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-review-mini-rubric.md",
+      "source_sha256": "3d019bb659c1eb43ffcf160ac5beeace013400e016a66576b34a85e4eee66bb3",
+      "path": "libraries/focus-ops-manager/references/skill-review-mini-rubric.md",
+      "output_sha256": "3d019bb659c1eb43ffcf160ac5beeace013400e016a66576b34a85e4eee66bb3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-routing-index.json",
+      "source_sha256": "b7196bd6e691f853c9d86fa76fc5e4883c056708c75f9892980e490510b47183",
+      "path": "libraries/focus-ops-manager/references/skill-routing-index.json",
+      "output_sha256": "84afaf7ae86ccdefd4c7cd39451a321994049730986b6d7a0cdf5ea895b0bdc2",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/skill-routing-index.md",
+      "source_sha256": "24db6d4b8c65d4cb8f09f7b9ba81e3f93fbbd6d93d042013faea67eb02b05bda",
+      "path": "libraries/focus-ops-manager/references/skill-routing-index.md",
+      "output_sha256": "8a91aa56e1e27acb35d286eb71b9054c695a4ae35875d0bdf02a2dbd99c2279b",
+      "change": "Complete original routing/method/source history retained with portable locators and explicit historical/current-state boundary."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/subscription-offload.md",
+      "source_sha256": "073d2b61dbd9124283f2b1e3e6b8c5fcc472dec23289eba1c917646cccfd1c8e",
+      "path": "libraries/focus-ops-manager/references/subscription-offload.md",
+      "output_sha256": "073d2b61dbd9124283f2b1e3e6b8c5fcc472dec23289eba1c917646cccfd1c8e",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/weekly-log.md",
+      "source_sha256": "05f595018a823b26cc8a51437ea87671f3cfa38f6951367ed78427c07a52141a",
+      "path": "libraries/focus-ops-manager/references/weekly-log.md",
+      "output_sha256": "57de9cde4cd6290444270595e33320b4a37c01906c66d460652bbd294145f382",
+      "change": "Exclude original dated personal session entry; retain complete logging format, carried/completed tables and conditional continuity procedure."
+    },
+    {
+      "source_relative": "libraries/focus-ops-manager/references/worker-supervision.md",
+      "source_sha256": "664687e769a3622f1f5c83808af569b9d5d747e86b9aa5919fe11f8966eec00d",
+      "path": "libraries/focus-ops-manager/references/worker-supervision.md",
+      "output_sha256": "664687e769a3622f1f5c83808af569b9d5d747e86b9aa5919fe11f8966eec00d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/LICENSE",
+      "source_sha256": "7d173fa71020f1a220de90251f92abbaaf001567a2443747a0753ade1cb63f68",
+      "path": "libraries/foreman-original/LICENSE",
+      "output_sha256": "7d173fa71020f1a220de90251f92abbaaf001567a2443747a0753ade1cb63f68",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/docs/evidence.md",
+      "source_sha256": "242a53c432fba669e04b0e588e3167bc25f2fe280dd1539bc8d5f3119e4bbde3",
+      "path": "libraries/foreman-original/docs/evidence.md",
+      "output_sha256": "242a53c432fba669e04b0e588e3167bc25f2fe280dd1539bc8d5f3119e4bbde3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/docs/steering.md",
+      "source_sha256": "4f98ba60d11f5573419601141064a10a9abdad244ec7e9aa828a3b85c03ac468",
+      "path": "libraries/foreman-original/docs/steering.md",
+      "output_sha256": "4f98ba60d11f5573419601141064a10a9abdad244ec7e9aa828a3b85c03ac468",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/docs/what-foreman-proves.md",
+      "source_sha256": "3b3c4dc413096c48640c9252ed4090c9724440a445657295dbd16e14a4552d55",
+      "path": "libraries/foreman-original/docs/what-foreman-proves.md",
+      "output_sha256": "3b3c4dc413096c48640c9252ed4090c9724440a445657295dbd16e14a4552d55",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/src/foreman/policy.py",
+      "source_sha256": "23f9e3832e4738b6a17135a3cac18e2e7c833dc104539d5e6789b88c251e2419",
+      "path": "libraries/foreman-original/src/foreman/policy.py",
+      "output_sha256": "23f9e3832e4738b6a17135a3cac18e2e7c833dc104539d5e6789b88c251e2419",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/src/foreman/responsibilities/builtin.py",
+      "source_sha256": "050a6f8af4436d8bfb1187a46af1d4e6ecb256a7added92b38ac0caeb0e60261",
+      "path": "libraries/foreman-original/src/foreman/responsibilities/builtin.py",
+      "output_sha256": "050a6f8af4436d8bfb1187a46af1d4e6ecb256a7added92b38ac0caeb0e60261",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/foreman-original/tests/test_policy.py",
+      "source_sha256": "3e7adc76610f9890f649a54e5a91cb15b0d72a7d75990723739571c265a3ad39",
+      "path": "libraries/foreman-original/tests/test_policy.py",
+      "output_sha256": "3e7adc76610f9890f649a54e5a91cb15b0d72a7d75990723739571c265a3ad39",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/headroom-context-method/LICENSE",
+      "source_sha256": "f14dd440c8e3152b4d4d324615de8251ddb011dc81f484daad0b6902093539cc",
+      "path": "libraries/headroom-context-method/LICENSE",
+      "output_sha256": "f14dd440c8e3152b4d4d324615de8251ddb011dc81f484daad0b6902093539cc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/headroom-context-method/NOTICE",
+      "source_sha256": "88dc0f4a90a8742dcdd1c61e19050b73a9dba7e45ec9ac41a62ba0ae005aa6aa",
+      "path": "libraries/headroom-context-method/NOTICE",
+      "output_sha256": "88dc0f4a90a8742dcdd1c61e19050b73a9dba7e45ec9ac41a62ba0ae005aa6aa",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/i-have-adhd/LICENSE",
+      "source_sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c",
+      "path": "libraries/i-have-adhd/LICENSE",
+      "output_sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/i-have-adhd/SKILL.original.md",
+      "source_sha256": "3170b16ace00aecb0dd7feb54c0b5aa642e7502acda06ecd24fd89a11c7127e9",
+      "path": "libraries/i-have-adhd/SKILL.original.md",
+      "output_sha256": "3170b16ace00aecb0dd7feb54c0b5aa642e7502acda06ecd24fd89a11c7127e9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/plain-to-dev/SKILL.original.md",
+      "source_sha256": "66063d8d75aa68e5f8151b1a57e692e16def08d446ec3ddffbff0746a5a3fd1b",
+      "path": "libraries/plain-to-dev/SKILL.original.md",
+      "output_sha256": "66063d8d75aa68e5f8151b1a57e692e16def08d446ec3ddffbff0746a5a3fd1b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/plain-to-dev/references/beginner-build-translation.md",
+      "source_sha256": "0f89ec1db8bb08b8b9d97367d0b09ebabf3ff2c9c6238e77b93556605d27c290",
+      "path": "libraries/plain-to-dev/references/beginner-build-translation.md",
+      "output_sha256": "0f89ec1db8bb08b8b9d97367d0b09ebabf3ff2c9c6238e77b93556605d27c290",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/plain-to-dev/references/component-glossary.md",
+      "source_sha256": "a4b643c326f52a023173e560d9f16183d23509d77ccc99716ce8237d72334b13",
+      "path": "libraries/plain-to-dev/references/component-glossary.md",
+      "output_sha256": "a4b643c326f52a023173e560d9f16183d23509d77ccc99716ce8237d72334b13",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/plain-to-dev/references/discipline-glossary.md",
+      "source_sha256": "61e523e87e14a33c2598d2ff08deeffefd56a8a7cbac10dd135f7affc3fbdeb0",
+      "path": "libraries/plain-to-dev/references/discipline-glossary.md",
+      "output_sha256": "61e523e87e14a33c2598d2ff08deeffefd56a8a7cbac10dd135f7affc3fbdeb0",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/plain-to-dev/references/idea-to-spec.md",
+      "source_sha256": "9a2e5b8f57fad399fe223b11941000b776ef813037833382de8f224154f0ad36",
+      "path": "libraries/plain-to-dev/references/idea-to-spec.md",
+      "output_sha256": "9a2e5b8f57fad399fe223b11941000b776ef813037833382de8f224154f0ad36",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/prd-strategist/SKILL.original.md",
+      "source_sha256": "43c3f331c97d72eb226bd1cb61e722dd5278a9639c98ce9c4f209d748228ec75",
+      "path": "libraries/prd-strategist/SKILL.original.md",
+      "output_sha256": "4ebf26d2fae1ab12f0304bf0d8296f3cc9388331327f807c4dadb4036fbf6f9c",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "libraries/prd-strategist/references/feature-table-patterns.md",
+      "source_sha256": "57276e40bcd7d2fbc938a2d0aa4aca365b5427469c70399cad022738e7a98002",
+      "path": "libraries/prd-strategist/references/feature-table-patterns.md",
+      "output_sha256": "57276e40bcd7d2fbc938a2d0aa4aca365b5427469c70399cad022738e7a98002",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/prd-strategist/references/openspec-vibe-adoption.md",
+      "source_sha256": "102caa22e17dc0d2b1851ae4cd25495f920a2b33e53056667d47a9e7e4c59098",
+      "path": "libraries/prd-strategist/references/openspec-vibe-adoption.md",
+      "output_sha256": "102caa22e17dc0d2b1851ae4cd25495f920a2b33e53056667d47a9e7e4c59098",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/prd-strategist/references/prd-template-guide.md",
+      "source_sha256": "5ec9dd4cdd6c01ed6d16f6b3ab048680fb1967bf6e9c6a65c01e6d599b72defc",
+      "path": "libraries/prd-strategist/references/prd-template-guide.md",
+      "output_sha256": "5ec9dd4cdd6c01ed6d16f6b3ab048680fb1967bf6e9c6a65c01e6d599b72defc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/prd-strategist/references/workflow-and-artifacts.md",
+      "source_sha256": "d28a08a6aa0fdb28bcc231ac8c71c1acd9aaa7e57349271f8ec55c0a7bf20a3f",
+      "path": "libraries/prd-strategist/references/workflow-and-artifacts.md",
+      "output_sha256": "d28a08a6aa0fdb28bcc231ac8c71c1acd9aaa7e57349271f8ec55c0a7bf20a3f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/prd-strategist/scripts/create_change_packet.py",
+      "source_sha256": "39c44bd90158eac4ff7992a9fd58ff936b3102bdb75711235d1b230606ee72b7",
+      "path": "libraries/prd-strategist/scripts/create_change_packet.py",
+      "output_sha256": "39c44bd90158eac4ff7992a9fd58ff936b3102bdb75711235d1b230606ee72b7",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/SKILL.original.md",
+      "source_sha256": "6c2721e3a44dc72f3ce406f6f93bb555c26709bb117537327595ca2b75c79600",
+      "path": "libraries/project-structure-architect/SKILL.original.md",
+      "output_sha256": "6c2721e3a44dc72f3ce406f6f93bb555c26709bb117537327595ca2b75c79600",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/examples/single-file-vs-expandable-web.md",
+      "source_sha256": "a6cb6ff0a0a1adc20bd31d3a984be29a39131979249f79676e304de5c88e13c8",
+      "path": "libraries/project-structure-architect/examples/single-file-vs-expandable-web.md",
+      "output_sha256": "a6cb6ff0a0a1adc20bd31d3a984be29a39131979249f79676e304de5c88e13c8",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/examples/threejs-before-after.md",
+      "source_sha256": "b62a2f066b7d856da460dc779e81aa784e6b6fba7f1f456780131ff1aba806dc",
+      "path": "libraries/project-structure-architect/examples/threejs-before-after.md",
+      "output_sha256": "b62a2f066b7d856da460dc779e81aa784e6b6fba7f1f456780131ff1aba806dc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/00-research-brief.md",
+      "source_sha256": "4866145f3b9bfa9ea04f38cb6ad7b713286e0f81c08040e974d5f72c001b9532",
+      "path": "libraries/project-structure-architect/references/00-research-brief.md",
+      "output_sha256": "4866145f3b9bfa9ea04f38cb6ad7b713286e0f81c08040e974d5f72c001b9532",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/01-core-principles.md",
+      "source_sha256": "5bc1163fe974ddc7f4c0d58234615815a4d7a1f4ef3dcb8ac43e74274f5a1de6",
+      "path": "libraries/project-structure-architect/references/01-core-principles.md",
+      "output_sha256": "5bc1163fe974ddc7f4c0d58234615815a4d7a1f4ef3dcb8ac43e74274f5a1de6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/02-decision-rules.md",
+      "source_sha256": "194d60b3ea30859dda5a1188a8d3bcd2e016e04fa79e5ab95ede08374395b3c6",
+      "path": "libraries/project-structure-architect/references/02-decision-rules.md",
+      "output_sha256": "194d60b3ea30859dda5a1188a8d3bcd2e016e04fa79e5ab95ede08374395b3c6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/03-web-and-app-structures.md",
+      "source_sha256": "9ffc5e97329e9169acce6ab2a00a5d77fbbc7e91ca09b933d83133f3a6736934",
+      "path": "libraries/project-structure-architect/references/03-web-and-app-structures.md",
+      "output_sha256": "9ffc5e97329e9169acce6ab2a00a5d77fbbc7e91ca09b933d83133f3a6736934",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/04-game-project-structures.md",
+      "source_sha256": "04a02fedff8d4a4717916c6ffa71d346f8733b175ed54c615ecc1d95bc0181c7",
+      "path": "libraries/project-structure-architect/references/04-game-project-structures.md",
+      "output_sha256": "04a02fedff8d4a4717916c6ffa71d346f8733b175ed54c615ecc1d95bc0181c7",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/05-repository-and-version-control.md",
+      "source_sha256": "f4cf1838180e580d98cc469ae9cca1e0c6fe021b712ae2693d81c5712f73e99b",
+      "path": "libraries/project-structure-architect/references/05-repository-and-version-control.md",
+      "output_sha256": "f4cf1838180e580d98cc469ae9cca1e0c6fe021b712ae2693d81c5712f73e99b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/06-database-and-data-organization.md",
+      "source_sha256": "70a898aafbd95c1bde778dd6902311154b4adf07c370996677517b6d323a1594",
+      "path": "libraries/project-structure-architect/references/06-database-and-data-organization.md",
+      "output_sha256": "70a898aafbd95c1bde778dd6902311154b4adf07c370996677517b6d323a1594",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/07-docs-ux-information-architecture.md",
+      "source_sha256": "0eca750565b0ed138522b281d422283d503dd63d38604256fa22678e2bd79e98",
+      "path": "libraries/project-structure-architect/references/07-docs-ux-information-architecture.md",
+      "output_sha256": "0eca750565b0ed138522b281d422283d503dd63d38604256fa22678e2bd79e98",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/08-skill-integration-guide.md",
+      "source_sha256": "a329b604fb7bab07bc91baa794aaaa1c69e83a554b5f099554fbd9ae0cc0b45d",
+      "path": "libraries/project-structure-architect/references/08-skill-integration-guide.md",
+      "output_sha256": "a329b604fb7bab07bc91baa794aaaa1c69e83a554b5f099554fbd9ae0cc0b45d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/09-checklists.md",
+      "source_sha256": "725706716f3e20c0d6ac2a0ed5a5c167b25664c6710c1007078bc328c1543529",
+      "path": "libraries/project-structure-architect/references/09-checklists.md",
+      "output_sha256": "725706716f3e20c0d6ac2a0ed5a5c167b25664c6710c1007078bc328c1543529",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/references/source-index.md",
+      "source_sha256": "5b38e49dba99166f248e8e656890e39d0c1e6b5d58cb5f4283a0cdecc8c84764",
+      "path": "libraries/project-structure-architect/references/source-index.md",
+      "output_sha256": "5b38e49dba99166f248e8e656890e39d0c1e6b5d58cb5f4283a0cdecc8c84764",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/scripts/README.md",
+      "source_sha256": "7f18450b51aab54784f66b21b1c74952c119dec5b0425e4fca42b7c759e7ac2c",
+      "path": "libraries/project-structure-architect/scripts/README.md",
+      "output_sha256": "7f18450b51aab54784f66b21b1c74952c119dec5b0425e4fca42b7c759e7ac2c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/scripts/audit_monoliths.py",
+      "source_sha256": "7c3489e8ef5898db2a6123bf52969ae32be696d3ef94de4137146a6ceab28392",
+      "path": "libraries/project-structure-architect/scripts/audit_monoliths.py",
+      "output_sha256": "7c3489e8ef5898db2a6123bf52969ae32be696d3ef94de4137146a6ceab28392",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/scripts/scaffold_project.py",
+      "source_sha256": "3c7d1a1811436830f12829e5f4f147a721396942fcf14579879c496eadf8df9b",
+      "path": "libraries/project-structure-architect/scripts/scaffold_project.py",
+      "output_sha256": "3c7d1a1811436830f12829e5f4f147a721396942fcf14579879c496eadf8df9b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/adr.template.md",
+      "source_sha256": "0eb802a2a29022588a1a06d6d7f80d2b46fa5fb62d87d72e071e52063f1f747f",
+      "path": "libraries/project-structure-architect/templates/adr.template.md",
+      "output_sha256": "0eb802a2a29022588a1a06d6d7f80d2b46fa5fb62d87d72e071e52063f1f747f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/agnostic-scaffold.template.md",
+      "source_sha256": "f714c70a1f07257bb4bde621d5929ceb4dc8b2e93bbe13bb7d3bdd8c0574662d",
+      "path": "libraries/project-structure-architect/templates/agnostic-scaffold.template.md",
+      "output_sha256": "f714c70a1f07257bb4bde621d5929ceb4dc8b2e93bbe13bb7d3bdd8c0574662d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/database-scaffold.template.md",
+      "source_sha256": "e3011a353812f0840d5831ef2741591e0d23fd62e6eabb386f04793c7f64698f",
+      "path": "libraries/project-structure-architect/templates/database-scaffold.template.md",
+      "output_sha256": "e3011a353812f0840d5831ef2741591e0d23fd62e6eabb386f04793c7f64698f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/existing-skill-patch-snippet.md",
+      "source_sha256": "e0d83b368224ba1f54b9966b854ea7e472e370d174b6fcd845230d5212bf8cdb",
+      "path": "libraries/project-structure-architect/templates/existing-skill-patch-snippet.md",
+      "output_sha256": "e0d83b368224ba1f54b9966b854ea7e472e370d174b6fcd845230d5212bf8cdb",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/folder-structure-proposal.template.md",
+      "source_sha256": "6148ae6aea1bc44bee62ca0ed7d0aaf226c2e1323836eb08fa41804db4b3ba9d",
+      "path": "libraries/project-structure-architect/templates/folder-structure-proposal.template.md",
+      "output_sha256": "6148ae6aea1bc44bee62ca0ed7d0aaf226c2e1323836eb08fa41804db4b3ba9d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/project-map.template.md",
+      "source_sha256": "798004b16b295470e0c279a14e7299879421ad1fe4c3267b94441913c3ebaf40",
+      "path": "libraries/project-structure-architect/templates/project-map.template.md",
+      "output_sha256": "798004b16b295470e0c279a14e7299879421ad1fe4c3267b94441913c3ebaf40",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/refactor-plan.template.md",
+      "source_sha256": "1442c204d1cd3531922d10861579a1c8b0a3105ed8d6c834966ca0c33443bf56",
+      "path": "libraries/project-structure-architect/templates/refactor-plan.template.md",
+      "output_sha256": "1442c204d1cd3531922d10861579a1c8b0a3105ed8d6c834966ca0c33443bf56",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/web-app-scaffold.template.md",
+      "source_sha256": "c1c4ad486ca1eb84ab3ae2f24d910b16bb36cd3a103fc6a9cb8115ddcbce6e9b",
+      "path": "libraries/project-structure-architect/templates/web-app-scaffold.template.md",
+      "output_sha256": "c1c4ad486ca1eb84ab3ae2f24d910b16bb36cd3a103fc6a9cb8115ddcbce6e9b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "libraries/project-structure-architect/templates/web-scaffold-threejs.template.md",
+      "source_sha256": "2b2cc7da18f995630a89524c0c0d114e5ce710c4931307e8fab13650be822b64",
+      "path": "libraries/project-structure-architect/templates/web-scaffold-threejs.template.md",
+      "output_sha256": "2b2cc7da18f995630a89524c0c0d114e5ce710c4931307e8fab13650be822b64",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/atlas-library.md",
+      "source_sha256": "a0bcccc98af9093b3c3f152682eed46e368228390e65e58793f4badb2bdf5113",
+      "path": "references/atlas-library.md",
+      "output_sha256": "a0bcccc98af9093b3c3f152682eed46e368228390e65e58793f4badb2bdf5113",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/beginner-discovery.md",
+      "source_sha256": "a9d452a7ebfb183f2309023ae67f0947a4a1e232c5c68a5742201a262ea252cd",
+      "path": "references/beginner-discovery.md",
+      "output_sha256": "a9d452a7ebfb183f2309023ae67f0947a4a1e232c5c68a5742201a262ea252cd",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/focus-methods.md",
+      "source_sha256": "88ea508bbe6efffdf3c670d5e8ebf5ea512c558ab09acab56ef08897d5d6ad62",
+      "path": "references/focus-methods.md",
+      "output_sha256": "88ea508bbe6efffdf3c670d5e8ebf5ea512c558ab09acab56ef08897d5d6ad62",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations-map.md",
+      "source_sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645",
+      "path": "references/operations-map.md",
+      "output_sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/browser-handoff.md",
+      "source_sha256": "0f932e9e349f4816968de7da906ed699aedcc2064335d7950d27b541a21ab0f9",
+      "path": "references/operations/browser-handoff.md",
+      "output_sha256": "0f932e9e349f4816968de7da906ed699aedcc2064335d7950d27b541a21ab0f9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/browser-workflow-reliability.md",
+      "source_sha256": "4786ee7b5537817ed6b4cd72b684e3dc1472ac55983aa0fe446db125768e0217",
+      "path": "references/operations/browser-workflow-reliability.md",
+      "output_sha256": "4786ee7b5537817ed6b4cd72b684e3dc1472ac55983aa0fe446db125768e0217",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/codex-desktop-launch-and-window-recovery.md",
+      "source_sha256": "e6add4e1eab22c917d9eb1dda60d4f8bdfd62e46d60f5d6106f3dc00177e3272",
+      "path": "references/operations/codex-desktop-launch-and-window-recovery.md",
+      "output_sha256": "e6add4e1eab22c917d9eb1dda60d4f8bdfd62e46d60f5d6106f3dc00177e3272",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/codex-mcp-exposure-check.md",
+      "source_sha256": "ddac27502b9f8aab9cb4da63f20f8cd05ff097865e23fa35395dcd108647a1c6",
+      "path": "references/operations/codex-mcp-exposure-check.md",
+      "output_sha256": "6c0dcd5f82dd74587c9f8d2f49a34844e6499e95dbbb41919db5e5043421dff0",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/operations/daily-cleanup-ksb-guard.md",
+      "source_sha256": "9294701dfe6fe8d69be4ac28f042db3557b5f24c1f91756afaab9cc4dcb09d69",
+      "path": "references/operations/daily-cleanup-ksb-guard.md",
+      "output_sha256": "9294701dfe6fe8d69be4ac28f042db3557b5f24c1f91756afaab9cc4dcb09d69",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/download-hosting.md",
+      "source_sha256": "3626966ed69f9e412f0b94a980cff154f2060083638d6fa9ca21f9ff0da1f86b",
+      "path": "references/operations/download-hosting.md",
+      "output_sha256": "3626966ed69f9e412f0b94a980cff154f2060083638d6fa9ca21f9ff0da1f86b",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/external-pattern-harvest.md",
+      "source_sha256": "bef80a1789fc947f4be552c66fd24ff13acbcecc70ee00cd331fa2135166651f",
+      "path": "references/operations/external-pattern-harvest.md",
+      "output_sha256": "bef80a1789fc947f4be552c66fd24ff13acbcecc70ee00cd331fa2135166651f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/focus-start.md",
+      "source_sha256": "d315cb699c285abcaa5fb57b2a7d2c27dd46c289e356ffdaa047ebb222ce590d",
+      "path": "references/operations/focus-start.md",
+      "output_sha256": "d315cb699c285abcaa5fb57b2a7d2c27dd46c289e356ffdaa047ebb222ce590d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/mcp-use-check.md",
+      "source_sha256": "2009b8bfe55107a5316159f2dc149c097966bd3a6b3424a6b6e99930e6219387",
+      "path": "references/operations/mcp-use-check.md",
+      "output_sha256": "2009b8bfe55107a5316159f2dc149c097966bd3a6b3424a6b6e99930e6219387",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/moli-browser.md",
+      "source_sha256": "73f3ac15ce5ac8c48483e497daf7174b0438d37a49fa1ebc7e347f285b3dd00a",
+      "path": "references/operations/moli-browser.md",
+      "output_sha256": "86d5247df4202fd56ea7fc8cd1195df72d8e8d7b291d7a6f5ac0785531d6196b",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/operations/phase-handoff.md",
+      "source_sha256": "805fc022ed274429749eed6a10bd6b03cec20b7f456909ccc2d1b8a2e4ffdad3",
+      "path": "references/operations/phase-handoff.md",
+      "output_sha256": "805fc022ed274429749eed6a10bd6b03cec20b7f456909ccc2d1b8a2e4ffdad3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/ship-log.md",
+      "source_sha256": "3b42bb9c8445b19074b8f49644026c523b580ac06af6615cae43c69d964918f7",
+      "path": "references/operations/ship-log.md",
+      "output_sha256": "3b42bb9c8445b19074b8f49644026c523b580ac06af6615cae43c69d964918f7",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/system-pressure-guard.md",
+      "source_sha256": "999492947120699c166882cc33f32ce1e1a6a63a2f249c0586d74b755e8e5899",
+      "path": "references/operations/system-pressure-guard.md",
+      "output_sha256": "f19c91d285b94e7e3be02dd67565985fde43db671e58b9e200257efbaa260232",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/operations/webcmd-LICENSE",
+      "source_sha256": "df3f5ee42f2ed15ba6a92fe5c96ac3d9087ab56cdb8c4c628400cbd18878c2bd",
+      "path": "references/operations/webcmd-LICENSE",
+      "output_sha256": "df3f5ee42f2ed15ba6a92fe5c96ac3d9087ab56cdb8c4c628400cbd18878c2bd",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/operations/webcmd-NOTICE",
+      "source_sha256": "702fae593bd553b573526adaff6afb74dd182b958e631c57f2c1357847d0f5af",
+      "path": "references/operations/webcmd-NOTICE",
+      "output_sha256": "702fae593bd553b573526adaff6afb74dd182b958e631c57f2c1357847d0f5af",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/plugin-maintenance.md",
+      "source_sha256": "64df7aef7af0e55f3dc7e7cb239f38750f98a15e919eb4871d7b2795d16faf34",
+      "path": "references/plugin-maintenance.md",
+      "output_sha256": "64df7aef7af0e55f3dc7e7cb239f38750f98a15e919eb4871d7b2795d16faf34",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/plugin-release-surface.md",
+      "source_sha256": "d2499369ef3bbd5ec0879507e3346b0b9fb70334d0e920b4242ba40bd7e3654d",
+      "path": "references/plugin-release-surface.md",
+      "output_sha256": "d2499369ef3bbd5ec0879507e3346b0b9fb70334d0e920b4242ba40bd7e3654d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "00f555356a30a610c35d1b396f38ac40b55a072e3d75141b943b9de8a5c431ec",
+      "path": "references/professional-agents/README.md",
+      "output_sha256": "a063349c9f35bd7a13b9d84ad6f6da7559a45e8820ff5f64ca1bc151a6b20954",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/SOURCES.md",
+      "source_sha256": "403c9672ba7dd6c49114dc7213864fb1734c234c4dff66f0a1140b311b2f5738",
+      "path": "references/professional-agents/SOURCES.md",
+      "output_sha256": "403c9672ba7dd6c49114dc7213864fb1734c234c4dff66f0a1140b311b2f5738",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/agent-systems-maintainer.md",
+      "source_sha256": "7e07e2448641930fb75e5f5a4fb89ef70e5cafce5fce28299b253c1ec3204b95",
+      "path": "references/professional-agents/agent-systems-maintainer.md",
+      "output_sha256": "c6d63e13e32d37437850ef4ec5bfa12160b40e736b58d97e0623a7450de63f80",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/catalog.json",
+      "source_sha256": "ce35981e63b061d7db713506566d2fb42f9f14c0ab3d8bf856ac7c6d62dfbd71",
+      "path": "references/professional-agents/catalog.json",
+      "output_sha256": "ce35981e63b061d7db713506566d2fb42f9f14c0ab3d8bf856ac7c6d62dfbd71",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/council-moderator.md",
+      "source_sha256": "ce283640becb70dd8436abe3fc326f905a3b40c338f9e52186b19b45bc7ba3ad",
+      "path": "references/professional-agents/council-moderator.md",
+      "output_sha256": "a2263a25c331dcaeb48c9f3b7fcc3329de726b53cd8607c0f93ff482d5d48b95",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/evidence-curator.md",
+      "source_sha256": "6e88eef1ec51114be3a62e09be1806fcf28baa25adace5800ee4df32714f6ac3",
+      "path": "references/professional-agents/evidence-curator.md",
+      "output_sha256": "d732e17b94e50ec3ca1c50e47cc2ab9f763c5787771f7962de89386b1f5cac4e",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/focus-and-continuity-partner.md",
+      "source_sha256": "b6ae0be79ae09cc9503e7b4a78fa93641430ffd02a43deb669ca779f0fc18b56",
+      "path": "references/professional-agents/focus-and-continuity-partner.md",
+      "output_sha256": "0cadb622243a261d4679b5eb8055f44d31fb9d89ed38c36797bc9d49201a6e9a",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/mental-health-navigator.md",
+      "source_sha256": "0f6f5b3dd3c55e9dc0eff77f1e1bf357080c471bae04a19ef644c32aba463abc",
+      "path": "references/professional-agents/mental-health-navigator.md",
+      "output_sha256": "02b2d9319791aa9a94e5dc2ce9198e2d4ff272f280fb6a919735c12bf40d753d",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/plugin-role-map.json",
+      "source_sha256": "4b4b56b5c17f3aa75a3ae707557bd6bff3b2cb2cae5f6ce7e8f35e77f28ded23",
+      "path": "references/professional-agents/plugin-role-map.json",
+      "output_sha256": "386aaaa93e7bc514af26ce2b9df8197e295b2aa490edec429ceef6f902ab13d1",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/product-manager.md",
+      "source_sha256": "411097e66b26af19b2cf495bbd9429bcac18a301e1407fb3ad167e335bb54395",
+      "path": "references/professional-agents/product-manager.md",
+      "output_sha256": "d458f6f94e7c1294261751d0699186a7511f44a4a7cd240330c2272f53bea5c9",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/program-manager.md",
+      "source_sha256": "aaaa481847885877456371e0e48cb48173ca542b24ceb1ef5fd12ea0a0cc9d91",
+      "path": "references/professional-agents/program-manager.md",
+      "output_sha256": "18deab8417d91e0f3c02a66c204fca42d55c1dafdc34c175e8904ee11b4e2ced",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/project-manager.md",
+      "source_sha256": "5f0740a8daf0af78966bd4b6b5e8156f3ed185589fb04bf821dda163219ce95f",
+      "path": "references/professional-agents/project-manager.md",
+      "output_sha256": "e9f96c28938e55adf040b4bc896946d37b4c0c5be613d384f0eae3e8a5627ac5",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/providers.json",
+      "source_sha256": "d56bc94dae05850cc3439a610fd1e2a3b83c7b31dc1ea009d9a5d7ce7c0579cd",
+      "path": "references/professional-agents/providers.json",
+      "output_sha256": "41e302d62aa502b4a7d5ca48eb310d32be9af2f061275c4b630adb0f45aea42e",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/qa-engineer.md",
+      "source_sha256": "a1f68e49b6da347b9d42ccf59aba378be890081e0b5d2c872be6e9c2fb07588a",
+      "path": "references/professional-agents/qa-engineer.md",
+      "output_sha256": "d40cdd6a8fce58405f10814084bcade31ebc2f2fb3581bff065148c8c4f5d888",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/skill-role-map.json",
+      "source_sha256": "55b28da2ed988689b3ee6371725e0fe48f61b7343a42708e121573f54272efe6",
+      "path": "references/professional-agents/skill-role-map.json",
+      "output_sha256": "55b28da2ed988689b3ee6371725e0fe48f61b7343a42708e121573f54272efe6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/software-engineer.md",
+      "source_sha256": "ef0fbfd141c9468ffa2feed70662538f379ba0739b6a8ed075cf5358fba24bea",
+      "path": "references/professional-agents/software-engineer.md",
+      "output_sha256": "080bbb4c17cf0cb0d2ee1dcf10d6f6b8f066c89576fe8b24e012dd6ed6366e89",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/solutions-architect.md",
+      "source_sha256": "0a6a5a266a645a6e11e6a0e2015b65805cc0966706e09811eea13dc4b59696ac",
+      "path": "references/professional-agents/solutions-architect.md",
+      "output_sha256": "fc1f0f60e46ceca3ad2b483f70b7f25aa1130b5a356711fec8579d3a2a708f92",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "source_sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "path": "references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "output_sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "source_sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da",
+      "path": "references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "output_sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "source_sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "path": "references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "output_sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/professional-agents/supportive-skills-coach.md",
+      "source_sha256": "fecfd419334c86186b94ba79235bec513cc73fd9fbb0dd32c0899ebcd826a8a3",
+      "path": "references/professional-agents/supportive-skills-coach.md",
+      "output_sha256": "523ab23a421404cc35581278005cacdb0862a84ef9af4fe1d80e286751f8438c",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "references/reasoning-check.md",
+      "source_sha256": "962e98c0532ab77c8c4f685819800b3c662535c059ceb52cbb8c3f3b684c8fb3",
+      "path": "references/reasoning-check.md",
+      "output_sha256": "962e98c0532ab77c8c4f685819800b3c662535c059ceb52cbb8c3f3b684c8fb3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/spec-shapes.md",
+      "source_sha256": "704844a0da4d3738aecde23df4f9f10492a2112deef47e31e125f50b52e8676e",
+      "path": "references/spec-shapes.md",
+      "output_sha256": "704844a0da4d3738aecde23df4f9f10492a2112deef47e31e125f50b52e8676e",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "references/structure-decisions.md",
+      "source_sha256": "acf5163420deb843b3eb66eb54cbec4a0313397dc24c648dedbcb5d40eb70a86",
+      "path": "references/structure-decisions.md",
+      "output_sha256": "acf5163420deb843b3eb66eb54cbec4a0313397dc24c648dedbcb5d40eb70a86",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/CODEX-COORDINATOR-LICENSE",
+      "source_sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07",
+      "path": "scripts/CODEX-COORDINATOR-LICENSE",
+      "output_sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/atlas_library_mcp.py",
+      "source_sha256": "d609cd950794db453aabf01e6251b6c5e24cf0f1497ae08d5afe54c2db856149",
+      "path": "scripts/atlas_library_mcp.py",
+      "output_sha256": "e155a38119d8f6e355164e23ad2f9c892a733086db6af09291cf0dea9921912e",
+      "change": "Retain interpreter/argv/env/fixed domain and failures; require explicit recipient binding, passive --help, no autoload registration."
+    },
+    {
+      "source_relative": "scripts/codex_coordinator_doctor.py",
+      "source_sha256": "a5b1728f40a1434068722193828f6f103541f33c8fbc76a6364221ecb4e2a62d",
+      "path": "scripts/codex_coordinator_doctor.py",
+      "output_sha256": "a5b1728f40a1434068722193828f6f103541f33c8fbc76a6364221ecb4e2a62d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/codex_coordinator_project.py",
+      "source_sha256": "1020909acdce0ebf30fa23448ae421f8bd2b7ff69b002895615de7c11b0985ee",
+      "path": "scripts/codex_coordinator_project.py",
+      "output_sha256": "1020909acdce0ebf30fa23448ae421f8bd2b7ff69b002895615de7c11b0985ee",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/codex_coordinator_session_start.py",
+      "source_sha256": "f7ed3924f63d17ce0d9afa52c806fbef7a65925f0f6ba8fd3337610aa90526c9",
+      "path": "scripts/codex_coordinator_session_start.py",
+      "output_sha256": "f7ed3924f63d17ce0d9afa52c806fbef7a65925f0f6ba8fd3337610aa90526c9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/codex_coordinator_stop_guard.py",
+      "source_sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc",
+      "path": "scripts/codex_coordinator_stop_guard.py",
+      "output_sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/codex_work_start.py",
+      "source_sha256": "b3ca2d009089f90c66631bf230af771cf08039c424c8146f4e5db0bcd7ae3463",
+      "path": "scripts/codex_work_start.py",
+      "output_sha256": "7cfe1f088e96600d06ee46ac30f48cfa1514a8a708efa73ebbfeba67ef73738d",
+      "change": "Keep full conditional context generation; recipient explicit WORK_MANAGEMENT_CONTEXT_OPT_IN=1 required, no inherited personal authorization."
+    },
+    {
+      "source_relative": "scripts/decision_review_hint.py",
+      "source_sha256": "6a6c51bfdc3d7f0b25987d3f6eb3f8b5f1d40a4e1d8aa3b14039e8766ca7a6fa",
+      "path": "scripts/decision_review_hint.py",
+      "output_sha256": "6a6c51bfdc3d7f0b25987d3f6eb3f8b5f1d40a4e1d8aa3b14039e8766ca7a6fa",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "scripts/install_professional_agents.py",
+      "source_sha256": "6bd26556a735e7434ea281e721d5e642e331d8277bf1f5cc93f732b059ccbf84",
+      "path": "scripts/install_professional_agents.py",
+      "output_sha256": "6bd26556a735e7434ea281e721d5e642e331d8277bf1f5cc93f732b059ccbf84",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/SKILL.md",
+      "source_sha256": "9483663859fb5e04fa4c07ab437c0d7920f8243cfc7dc6398daf0d9957fa4142",
+      "path": "skills/evidence-review/SKILL.md",
+      "output_sha256": "9483663859fb5e04fa4c07ab437c0d7920f8243cfc7dc6398daf0d9957fa4142",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/agents/openai.yaml",
+      "source_sha256": "bee4d1ffb98e5f00fdaff85b222b5861b507c8daedb4593bdfdcdc5d8021162a",
+      "path": "skills/evidence-review/agents/openai.yaml",
+      "output_sha256": "bee4d1ffb98e5f00fdaff85b222b5861b507c8daedb4593bdfdcdc5d8021162a",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/references/corpus-and-publication-handoff.md",
+      "source_sha256": "1ccd63db7d2a977b990f778e9756b5bfe4a841c4494711a50ee3e5e497cc1b6e",
+      "path": "skills/evidence-review/references/corpus-and-publication-handoff.md",
+      "output_sha256": "1ccd63db7d2a977b990f778e9756b5bfe4a841c4494711a50ee3e5e497cc1b6e",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/references/feedback-to-method-review.md",
+      "source_sha256": "b2587d9d9f4f3a99e2d236f215e9e1d345809eeb4ce67de1802cbe1d203b3f94",
+      "path": "skills/evidence-review/references/feedback-to-method-review.md",
+      "output_sha256": "b2587d9d9f4f3a99e2d236f215e9e1d345809eeb4ce67de1802cbe1d203b3f94",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/references/operating-contract.md",
+      "source_sha256": "279aa290ec5126961aa04f11d58026ba6f6aa543c0e2c79c41179c383d69c155",
+      "path": "skills/evidence-review/references/operating-contract.md",
+      "output_sha256": "279aa290ec5126961aa04f11d58026ba6f6aa543c0e2c79c41179c383d69c155",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/references/release-evidence-and-provenance.md",
+      "source_sha256": "55583538ce863bde346faf28a926236c7ae473b7154f0b8f3a23e413f5ca00b2",
+      "path": "skills/evidence-review/references/release-evidence-and-provenance.md",
+      "output_sha256": "55583538ce863bde346faf28a926236c7ae473b7154f0b8f3a23e413f5ca00b2",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/scripts/card_model.py",
+      "source_sha256": "dc736dab941490d44becebee2ff2a6b77057f510b4897857d66cd19ba54e87df",
+      "path": "skills/evidence-review/scripts/card_model.py",
+      "output_sha256": "dc736dab941490d44becebee2ff2a6b77057f510b4897857d66cd19ba54e87df",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/scripts/evidence_review.py",
+      "source_sha256": "78633a13d0923985cf6ce882dea27e452d119403911c164a6d6ad63128f643cb",
+      "path": "skills/evidence-review/scripts/evidence_review.py",
+      "output_sha256": "78633a13d0923985cf6ce882dea27e452d119403911c164a6d6ad63128f643cb",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/evidence-review/scripts/record_store.py",
+      "source_sha256": "05230dcbec660fcd1972bfb9b60baf8837085df28141b38729c272704dd529cb",
+      "path": "skills/evidence-review/scripts/record_store.py",
+      "output_sha256": "05230dcbec660fcd1972bfb9b60baf8837085df28141b38729c272704dd529cb",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/SKILL.md",
+      "source_sha256": "cc9dffb99477e85bce6ca1a2c8b7903b8712681b650ab0bc6a3cd920147812bc",
+      "path": "skills/find-skills/SKILL.md",
+      "output_sha256": "cc9dffb99477e85bce6ca1a2c8b7903b8712681b650ab0bc6a3cd920147812bc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/references/LICENSE",
+      "source_sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+      "path": "skills/find-skills/references/LICENSE",
+      "output_sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/references/discovery-and-admission.md",
+      "source_sha256": "e06194ae87e05bc52d60e9f1c6e2ea74d3cc2f803bc443561abdbb286756cd90",
+      "path": "skills/find-skills/references/discovery-and-admission.md",
+      "output_sha256": "17e68073ded6012934dc1c904c447b7f18da8d98f455efa2b3664a422bd1629a",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "skills/find-skills/references/gap-filling-cycle.md",
+      "source_sha256": "394b7823dd9d9b22f9aea9f376c7327194230ddd938f6ee02911063ff9cd1bd9",
+      "path": "skills/find-skills/references/gap-filling-cycle.md",
+      "output_sha256": "394b7823dd9d9b22f9aea9f376c7327194230ddd938f6ee02911063ff9cd1bd9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/references/local-mcp-discovery.md",
+      "source_sha256": "ad0af03f0f15c0fcbe5bb8fe24aebc15a7a6158f1bd420156ca40d4e795096ce",
+      "path": "skills/find-skills/references/local-mcp-discovery.md",
+      "output_sha256": "ad0af03f0f15c0fcbe5bb8fe24aebc15a7a6158f1bd420156ca40d4e795096ce",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/references/project-setup-assessment.md",
+      "source_sha256": "369559c8d2e8fa7b1d26bae9bc35160441905b3df18999c8ecef530138f2a1e3",
+      "path": "skills/find-skills/references/project-setup-assessment.md",
+      "output_sha256": "369559c8d2e8fa7b1d26bae9bc35160441905b3df18999c8ecef530138f2a1e3",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/find-skills/references/provenance.md",
+      "source_sha256": "c14904021fb452df7cacbcba1883d79fce11d30845be82ce374f1b80bec00d69",
+      "path": "skills/find-skills/references/provenance.md",
+      "output_sha256": "c14904021fb452df7cacbcba1883d79fce11d30845be82ce374f1b80bec00d69",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/focus-work/SKILL.md",
+      "source_sha256": "46f512fdeae5c3373f3c791082347cc496bcb9c019c998d118d834fda552b2db",
+      "path": "skills/focus-work/SKILL.md",
+      "output_sha256": "46f512fdeae5c3373f3c791082347cc496bcb9c019c998d118d834fda552b2db",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/focus-work/references/action-first-output.md",
+      "source_sha256": "b3afb456ed702eafd71a84295fa8e371b8c455163e4695925fdbdadfbde722e2",
+      "path": "skills/focus-work/references/action-first-output.md",
+      "output_sha256": "b3afb456ed702eafd71a84295fa8e371b8c455163e4695925fdbdadfbde722e2",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/SKILL.md",
+      "source_sha256": "21395422665ff36252f4a9c21b5b2b968637d41ed09ab3b83cf58476935ad0d9",
+      "path": "skills/parallel-work/SKILL.md",
+      "output_sha256": "21395422665ff36252f4a9c21b5b2b968637d41ed09ab3b83cf58476935ad0d9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/capabilities.json",
+      "source_sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be",
+      "path": "skills/parallel-work/capabilities.json",
+      "output_sha256": "534426b0b68aacd94b6b58c6eb3ed60672b327f585a152194ad59363a23ca0be",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/doctor.md",
+      "source_sha256": "c061eec954204fe37885454fdc2e216edadb0faf70e473bec613ed41e350ad69",
+      "path": "skills/parallel-work/references/doctor.md",
+      "output_sha256": "c061eec954204fe37885454fdc2e216edadb0faf70e473bec613ed41e350ad69",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/execution.md",
+      "source_sha256": "50990049764d7e78c5fc9f5ca327ee607e0d2f9f5fd54c269a9611a1147e643d",
+      "path": "skills/parallel-work/references/execution.md",
+      "output_sha256": "50990049764d7e78c5fc9f5ca327ee607e0d2f9f5fd54c269a9611a1147e643d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/installation.md",
+      "source_sha256": "d5742d3b327e4abc84a9e93a2ac9736463e117ba998eb5f69830084e43bed0e2",
+      "path": "skills/parallel-work/references/installation.md",
+      "output_sha256": "d5742d3b327e4abc84a9e93a2ac9736463e117ba998eb5f69830084e43bed0e2",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/maintenance.md",
+      "source_sha256": "0445b84bc0998c75b1308ee324c640aecdaeaae5b207688008043e53511c1afe",
+      "path": "skills/parallel-work/references/maintenance.md",
+      "output_sha256": "0445b84bc0998c75b1308ee324c640aecdaeaae5b207688008043e53511c1afe",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/messaging.md",
+      "source_sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415",
+      "path": "skills/parallel-work/references/messaging.md",
+      "output_sha256": "d63bc8c8fb6a16da365cd7c8e644461caea61c6362ac03931a29a75e0f5c0415",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/operational-contract.md",
+      "source_sha256": "20d22f0101c226100862b96e59afe620216c5145afc8d3d240c95baaa2124b13",
+      "path": "skills/parallel-work/references/operational-contract.md",
+      "output_sha256": "20d22f0101c226100862b96e59afe620216c5145afc8d3d240c95baaa2124b13",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/operations.md",
+      "source_sha256": "f717a432d920c0646dac88ad7e888a015221bf008915bec3417546799450d7ad",
+      "path": "skills/parallel-work/references/operations.md",
+      "output_sha256": "f717a432d920c0646dac88ad7e888a015221bf008915bec3417546799450d7ad",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/references/recovery.md",
+      "source_sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179",
+      "path": "skills/parallel-work/references/recovery.md",
+      "output_sha256": "dfe866874dcf63b82d262c517b0b6324c8e7069014e6a28835d7e342f94b5179",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/parallel-work/scripts/coordination_state.py",
+      "source_sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c",
+      "path": "skills/parallel-work/scripts/coordination_state.py",
+      "output_sha256": "466bd1bcffb8c9264ccf197db7eef183ba9daad5ada92e0342d42945de7c2d4c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/plugin-maintenance/SKILL.md",
+      "source_sha256": "9bf0ee2005c6525f84b7b5a0bfa7802464856538b22dcc223fff1f8142837226",
+      "path": "skills/plugin-maintenance/SKILL.md",
+      "output_sha256": "9bf0ee2005c6525f84b7b5a0bfa7802464856538b22dcc223fff1f8142837226",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/plugin-maintenance/agents/openai.yaml",
+      "source_sha256": "f12d594bfbac8edc6cddaa49c6d2c52dc0256d13358630daea21b8ae82e6b314",
+      "path": "skills/plugin-maintenance/agents/openai.yaml",
+      "output_sha256": "f12d594bfbac8edc6cddaa49c6d2c52dc0256d13358630daea21b8ae82e6b314",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/product-definition/SKILL.md",
+      "source_sha256": "d7c267fcc164c51989875ecde134a4d6424323b60bf0ea65b04b8a936c0ae157",
+      "path": "skills/product-definition/SKILL.md",
+      "output_sha256": "d7c267fcc164c51989875ecde134a4d6424323b60bf0ea65b04b8a936c0ae157",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/project-structure/SKILL.md",
+      "source_sha256": "8d657cd33603f1960fd01166bfa896a24e881129489696349b8e83e1ae2863a7",
+      "path": "skills/project-structure/SKILL.md",
+      "output_sha256": "47856337d958d164f201e2680193e622cc1da430a6aa36698d786d3a63391fb0",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "skills/project-structure/references/graph-grounded-explanation.md",
+      "source_sha256": "6d2a61d777a5331cb371bbd3a34cedb9f50dac5b5e9ef4d7271e8fb1906ea231",
+      "path": "skills/project-structure/references/graph-grounded-explanation.md",
+      "output_sha256": "fc1287be277f090737ee54a67f1c305709fdcc9e4393a7b9c8d4fe7e7722cb1d",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "skills/project-structure/references/reviewer-lenses.md",
+      "source_sha256": "a9c95c2c305b6f12090d7393123337470ddb8f4de84c85784770a6594454b39f",
+      "path": "skills/project-structure/references/reviewer-lenses.md",
+      "output_sha256": "a9c95c2c305b6f12090d7393123337470ddb8f4de84c85784770a6594454b39f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/project-structure/references/understand-anything-LICENSE.txt",
+      "source_sha256": "24c4b35344840f1abaf3a3a4a44f5e29ee0e73b6bf25e42ef108e0afebd402bc",
+      "path": "skills/project-structure/references/understand-anything-LICENSE.txt",
+      "output_sha256": "24c4b35344840f1abaf3a3a4a44f5e29ee0e73b6bf25e42ef108e0afebd402bc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/tool-workflow-routing/SKILL.md",
+      "source_sha256": "822dc1715b087327ef13b530eaea13aabdc63140be25003c674cf2856fa3aa08",
+      "path": "skills/tool-workflow-routing/SKILL.md",
+      "output_sha256": "822dc1715b087327ef13b530eaea13aabdc63140be25003c674cf2856fa3aa08",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/tool-workflow-routing/agents/openai.yaml",
+      "source_sha256": "c2648f64680b87faa79ad4fbe1284777db376edce80ce26fe8aad6ad24c2f03c",
+      "path": "skills/tool-workflow-routing/agents/openai.yaml",
+      "output_sha256": "c2648f64680b87faa79ad4fbe1284777db376edce80ce26fe8aad6ad24c2f03c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/SKILL.md",
+      "source_sha256": "cda29e511748b42a08c0e53e747f249ad2b7462b098a81f31e8deb1c3895f825",
+      "path": "skills/work-handoff/SKILL.md",
+      "output_sha256": "cda29e511748b42a08c0e53e747f249ad2b7462b098a81f31e8deb1c3895f825",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/agents/openai.yaml",
+      "source_sha256": "2c072cfcaab4567870e72120c1528f6e2d04fafd029f450fe0440bdd0c8e3169",
+      "path": "skills/work-handoff/agents/openai.yaml",
+      "output_sha256": "2c072cfcaab4567870e72120c1528f6e2d04fafd029f450fe0440bdd0c8e3169",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/references/editability-handoff.md",
+      "source_sha256": "e6578c8db8fb8eacaa6b6af7a8462de808edd7bda30894e46fe659937d29b497",
+      "path": "skills/work-handoff/references/editability-handoff.md",
+      "output_sha256": "e6578c8db8fb8eacaa6b6af7a8462de808edd7bda30894e46fe659937d29b497",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/references/interface-learning.md",
+      "source_sha256": "2051c066ae69a900559363cc2cbcb7d083d1a4167c4e954a620a8d904313fc42",
+      "path": "skills/work-handoff/references/interface-learning.md",
+      "output_sha256": "2051c066ae69a900559363cc2cbcb7d083d1a4167c4e954a620a8d904313fc42",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/references/reusable-package-handoff.md",
+      "source_sha256": "aa271f3de1228985a0815e062bf845c9faa8edf50fcb796acc34070dce16e108",
+      "path": "skills/work-handoff/references/reusable-package-handoff.md",
+      "output_sha256": "aa271f3de1228985a0815e062bf845c9faa8edf50fcb796acc34070dce16e108",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/work-handoff/references/shareables-site.md",
+      "source_sha256": "99baeb71a6442f605589d8d14f8e3d11480c28ffc032afe8624a202b4d3fab37",
+      "path": "skills/work-handoff/references/shareables-site.md",
+      "output_sha256": "97907d5ff031785e159faadadfc0a97e1499924cb3e9ab94510dce8d0320c855",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "skills/worker-delegation/SKILL.md",
+      "source_sha256": "bd3005ed280b1aa3229015c1af9dbc48cb2d8ebe0ac7c891451c4f932b4f037e",
+      "path": "skills/worker-delegation/SKILL.md",
+      "output_sha256": "0c6a87b7da1a15dde6caab80a7c41f9c98916dc81fae550c020bdf53a089db5f",
+      "change": " Full procedure/helper content retained with receiving-host locators and explicit user preference conditions."
+    },
+    {
+      "source_relative": "skills/worker-delegation/agents/openai.yaml",
+      "source_sha256": "dea159080afe6725b273c48e47e8ac37dca63c8e61abbbe757017efcf8600ca5",
+      "path": "skills/worker-delegation/agents/openai.yaml",
+      "output_sha256": "dea159080afe6725b273c48e47e8ac37dca63c8e61abbbe757017efcf8600ca5",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/worker-delegation/references/decision-council.md",
+      "source_sha256": "63411a49457511daf3e0af22b02b1882ade0b3d9521c6b7e37b8312f0aa833aa",
+      "path": "skills/worker-delegation/references/decision-council.md",
+      "output_sha256": "63411a49457511daf3e0af22b02b1882ade0b3d9521c6b7e37b8312f0aa833aa",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/worker-delegation/references/initiative-coordination.md",
+      "source_sha256": "b1339dc29c43d499f906f4f78e597ba31e4c6973adc2b5303c04bed82ec681b9",
+      "path": "skills/worker-delegation/references/initiative-coordination.md",
+      "output_sha256": "b1339dc29c43d499f906f4f78e597ba31e4c6973adc2b5303c04bed82ec681b9",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/worker-delegation/references/resource-aware-design-handoffs.md",
+      "source_sha256": "70dc55e291797a5a388d1bab8e9e25f5e6220e1c6066bffc926a5bbb5b50779f",
+      "path": "skills/worker-delegation/references/resource-aware-design-handoffs.md",
+      "output_sha256": "70dc55e291797a5a388d1bab8e9e25f5e6220e1c6066bffc926a5bbb5b50779f",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "skills/worker-delegation/references/reversible-evidence-packing.md",
+      "source_sha256": "8912d66b65a6516560df8d778d55db1d6fcf4bc9ecff035e591b09f35cafcafd",
+      "path": "skills/worker-delegation/references/reversible-evidence-packing.md",
+      "output_sha256": "8912d66b65a6516560df8d778d55db1d6fcf4bc9ecff035e591b09f35cafcafd",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "tests/test_closeout_hooks.py",
+      "source_sha256": "01f5032dfff92b253271d5f1d22b2ef660973048016b71d160468422e9521200",
+      "path": "tests/test_closeout_hooks.py",
+      "output_sha256": "e3418e4c647fb8f68d36ef0aeb4dfc9cd1869088671dc55df5f0c5127e305ce6",
+      "change": "Complete original test/procedure retained; explicit optional external helper input, no inherited host setup; recipient opt-in negative test added."
+    },
+    {
+      "source_relative": "tests/test_decision_review_hint.py",
+      "source_sha256": "d0a6cd6074ea8fbf3a84f05d01cd4a543f48fadf5239a644535cf2de4a006898",
+      "path": "tests/test_decision_review_hint.py",
+      "output_sha256": "d0a6cd6074ea8fbf3a84f05d01cd4a543f48fadf5239a644535cf2de4a006898",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "tests/test_evidence_review.py",
+      "source_sha256": "76e1c87ce698cdd1c0652db57b1ecaf4210b32e59eedb444ffaf54c88f2fe6e5",
+      "path": "tests/test_evidence_review.py",
+      "output_sha256": "76e1c87ce698cdd1c0652db57b1ecaf4210b32e59eedb444ffaf54c88f2fe6e5",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "tests/test_professional_agents.py",
+      "source_sha256": "7c2fa79507886e9c6e438fe17a712ad55730757c234a46097e801f6643673cbc",
+      "path": "tests/test_professional_agents.py",
+      "output_sha256": "7c2fa79507886e9c6e438fe17a712ad55730757c234a46097e801f6643673cbc",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source_relative": "tests/test_work_start.py",
+      "source_sha256": "4afedde2852447f9f6d6b44718cf60300ddce61c7eec174478bccfd377b1ac69",
+      "path": "tests/test_work_start.py",
+      "output_sha256": "106a8b020b35dfa0b2bc06cce338cd28113a4b6bcfbb30100aaa5c7d7883f075",
+      "change": "Complete original test/procedure retained; explicit optional external helper input, no inherited host setup; recipient opt-in negative test added."
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a03644b1ce8f864d724ce55fb73761fa436ff5ad27ba21ac34ad875e9613f6d9"
+    },
+    {
+      "path": "LICENSE-ORIGINAL-MIT",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "d5bfe613d79ce48cdb80b38848d4387583e6d7095ce8c639f475c36c9412159d"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "29753a4eaeaba8859c242750931cfde2712567b67034e6e27fe2ec62a29c7402"
+    }
+  ]
+}

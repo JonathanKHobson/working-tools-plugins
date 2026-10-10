@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-06.2",
+  "items": [
+    {
+      "id": "poster",
+      "name": "Poster",
+      "category": "Communication",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "ads-marketing",
+      "summary": "One strong visual, a readable headline and space for essential details.",
+      "prompt": "Create a poster concept with one dominant visual relationship that communicates the subject. Use clear hierarchy and deliberate negative space. Include only supplied text, reproduced verbatim; do not invent dates, venue details, claims or logos. Keep essential content inside a comfortable crop margin. Treat the result as raster artwork; editable typography and print setup can be finished by Graphic Design Studio.",
+      "ratio": "2:3",
+      "detail": "Balanced",
+      "reference": "optional",
+      "checks": [
+        "Headline and essential details match supplied copy",
+        "Visual communicates the topic without its caption",
+        "Edges survive the intended crop"
+      ],
+      "exampleSubject": "A community night of astronomy, with the Moon as the focal image",
+      "previewAsset": "poster.jpg"
+    },
+    {
+      "id": "interior",
+      "name": "Interior refresh",
+      "category": "Spaces",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "precise-object-edit",
+      "summary": "Change the room’s finishes or furnishings while preserving its structure.",
+      "prompt": "Edit the supplied room image according to the requested changes. Preserve camera position, room geometry, windows, doors and fixed features unless the user explicitly changes them. Match perspective, contact shadows and existing light. Treat furniture scale and material choices as a visual proposal, not measured build or purchasing specifications.",
+      "ratio": "3:2",
+      "detail": "Balanced",
+      "reference": "required",
+      "checks": [
+        "Fixed room features and perspective remain consistent",
+        "Furniture contacts the floor plausibly",
+        "Requested changes are distinguishable from preserved features"
+      ],
+      "exampleSubject": "Replace a living room’s bulky coffee table with a low oak table and a woven rug",
+      "previewAsset": "interior.jpg"
+    },
+    {
+      "id": "logo",
+      "name": "Logo exploration",
+      "category": "Identity",
+      "domains": [
+        "graphic",
+        "ux",
+        "creative"
+      ],
+      "useCase": "logo-brand",
+      "summary": "Explore a distinctive mark before rebuilding approved artwork as vector.",
+      "prompt": "Explore one original logo direction using a simple, recognizable silhouette and restrained geometry appropriate to the subject. Show a single mark on an uncluttered field, not a mockup montage. Use a name or wordmark only if supplied verbatim. Favor legibility at small size and a viable one-color version. This is raster concept exploration, not a trademark clearance or editable vector deliverable; preserve an existing logo system when supplied.",
+      "ratio": "1:1",
+      "detail": "Concise",
+      "reference": "optional",
+      "checks": [
+        "Mark is recognizable at small size",
+        "Supplied lettering is exact",
+        "No claim of trademark clearance or vector source"
+      ],
+      "exampleSubject": "A small desert observatory: a crescent moon and a simple horizon",
+      "previewAsset": "logo.jpg"
+    },
+    {
+      "id": "headshot",
+      "name": "Reference headshot",
+      "category": "Identity",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "identity-preserve",
+      "summary": "Adjust portrait lighting and setting while preserving the supplied person.",
+      "prompt": "Use the supplied portrait as the identity reference. Create the requested professional headshot while preserving facial structure, skin tone, age and distinctive features. Make only requested grooming, wardrobe, background or lighting changes. Use natural skin texture, plausible catchlights and a relaxed expression. Do not invent professional credentials or make unrequested body or identity changes.",
+      "ratio": "4:5",
+      "detail": "Balanced",
+      "reference": "required",
+      "checks": [
+        "Identity and distinctive features match the reference",
+        "Skin texture and hair edges look natural",
+        "Requested wardrobe and background changes are accurate"
+      ],
+      "exampleSubject": "The person in the attached portrait in soft window light against a neutral wall",
+      "previewAsset": "headshot.jpg"
+    },
+    {
+      "id": "icon",
+      "name": "Single illustrated icon",
+      "category": "Identity",
+      "domains": [
+        "graphic",
+        "ux",
+        "video"
+      ],
+      "useCase": "stylized-concept",
+      "summary": "Generate one recoverable icon or cutout with a consistent silhouette.",
+      "prompt": "Create one isolated illustrated icon representing the subject, with a clear silhouette and enough margin to avoid clipping. Follow the supplied visual system, viewpoint and palette. Do not generate a sheet, grid or additional icons. Avoid tiny text and fine details that disappear at actual use size. When transparency is selected, use a genuinely transparent background with clean edges; do not draw a checkerboard. Existing code-native or vector icon edits should stay with their source owner.",
+      "ratio": "1:1",
+      "detail": "Concise",
+      "reference": "optional",
+      "checks": [
+        "One asset only, without clipped edges",
+        "Legible at intended use size",
+        "Alpha verified if transparency was requested"
+      ],
+      "exampleSubject": "A friendly ceramic telescope icon for a learning app",
+      "previewAsset": "icon.png"
+    },
+    {
+      "id": "product-photo",
+      "name": "Product photo",
+      "category": "Product",
+      "domains": [
+        "graphic",
+        "ux"
+      ],
+      "useCase": "product-mockup",
+      "summary": "Stage a product with believable lighting, materials and contact.",
+      "prompt": "Create a product photograph or concept shot of the subject. If a real product reference is supplied, preserve its shape, proportions, color and exact labeling. Use coherent light direction, material response and contact shadows on a restrained set. Use only supplied brand marks. Without a product reference, identify the result as a concept rather than an accurate photograph of a real inventory item.",
+      "ratio": "4:5",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Product geometry and label match the reference when supplied",
+        "Contact shadows and reflections are plausible",
+        "Concept versus real-product status is clear"
+      ],
+      "exampleSubject": "A handmade blue ceramic cup on a matte stone plinth in morning light",
+      "previewAsset": "product-photo.jpg"
+    },
+    {
+      "id": "merch",
+      "name": "Merch concept",
+      "category": "Product",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "product-mockup",
+      "summary": "Preview an artwork placement on one physical item.",
+      "prompt": "Show one merchandise concept using the requested item and artwork. Respect supplied artwork, colors and exact lettering; match perspective, fabric folds or surface curvature without distorting the intended design. Keep the artwork placement visible and evaluate its scale. This is a product visualization, not production-ready artwork or a guarantee of print color, embroidery or manufacturing feasibility.",
+      "ratio": "1:1",
+      "detail": "Balanced",
+      "reference": "optional",
+      "checks": [
+        "Placement and scale are easy to evaluate",
+        "Supplied artwork has not drifted",
+        "Manufacturing and print files remain a separate handoff"
+      ],
+      "exampleSubject": "An unbranded cream tote with a single bold lunar illustration",
+      "previewAsset": "merch.jpg"
+    },
+    {
+      "id": "infographic",
+      "name": "Infographic concept",
+      "category": "Communication",
+      "domains": [
+        "graphic",
+        "ux"
+      ],
+      "useCase": "infographic-diagram",
+      "summary": "Make a small set of supplied relationships visually understandable.",
+      "prompt": "Create an infographic from the supplied facts and relationships. Use a clear reading order, distinct visual grouping and only the labels needed to decode the idea. Reproduce provided labels and numbers exactly. Do not invent data, citations, causal claims or scientific details. For precise quantitative charts, leave measurement and chart encoding to a deterministic visualization workflow; this image is a visual concept until its content is verified.",
+      "ratio": "2:3",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Each label and number matches supplied source",
+        "Reading order expresses the intended relationship",
+        "No decorative element implies an unsupported measurement"
+      ],
+      "exampleSubject": "A three-stage composting process: collect scraps, mix with dry material, mature into compost",
+      "previewAsset": "infographic.jpg"
+    },
+    {
+      "id": "flyer",
+      "name": "Event flyer",
+      "category": "Communication",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "ads-marketing",
+      "summary": "Combine one event image with practical, accurate event information.",
+      "prompt": "Create an event flyer that gives priority to the supplied event name and clear visual theme. Include only the supplied date, time, location, price and call to action, with exact wording. Keep details readable and reserve clean areas for any copy that will be added later. Do not fabricate a QR code, sponsor logo, availability claim or booking link. Verify final print and platform crops with Graphic Design Studio.",
+      "ratio": "4:5",
+      "detail": "Balanced",
+      "reference": "optional",
+      "checks": [
+        "All event facts match the brief",
+        "Essential copy survives a phone-size view",
+        "No fabricated QR or availability details"
+      ],
+      "exampleSubject": "A local sketch walk, with an illustrated notebook and tree-lined path",
+      "previewAsset": "flyer.jpg"
+    },
+    {
+      "id": "book-cover",
+      "name": "Book cover",
+      "category": "Story",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "illustration-story",
+      "summary": "Turn the book’s central tension into one compelling cover image.",
+      "prompt": "Create a front-cover concept grounded in the supplied story, genre and intended reader. Let one visual tension or relationship carry the idea. Preserve named story details and avoid invented plot events. Reserve appropriate title and author space; render only supplied text verbatim. This is front-cover artwork, not a full print wrap, spine measurement or publisher-ready file.",
+      "ratio": "2:3",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Image fits the supplied genre and story",
+        "Title area remains usable at thumbnail size",
+        "No invented author, endorsement or plot detail"
+      ],
+      "exampleSubject": "A mystery about a lighthouse keeper who finds letters from the future",
+      "previewAsset": "book-cover.jpg"
+    },
+    {
+      "id": "ui-concept",
+      "name": "App or website concept",
+      "category": "Interfaces",
+      "domains": [
+        "ux",
+        "graphic"
+      ],
+      "useCase": "ui-mockup",
+      "summary": "Explore visual direction for one screen, then rebuild its behavior in code.",
+      "prompt": "Create a visual concept for one app or website screen around the supplied user task. Follow existing brand and interface references when present. Use a clear hierarchy, realistic content, familiar controls and enough space for readable text. Do not invent research findings, product metrics or working interactions. Label the deliverable as a static visual concept; the UX owner must rebuild and test layout, semantics, responsive states and behavior in code or the appropriate editor.",
+      "ratio": "16:9",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Primary task and action are obvious",
+        "Existing interface conventions are preserved",
+        "Static concept is not described as a working application"
+      ],
+      "exampleSubject": "A desktop community workshop booking screen showing one class and its schedule",
+      "previewAsset": "ui-concept.jpg"
+    },
+    {
+      "id": "packaging",
+      "name": "Packaging concept",
+      "category": "Product",
+      "domains": [
+        "graphic",
+        "creative"
+      ],
+      "useCase": "product-mockup",
+      "summary": "Explore package form, material and label hierarchy.",
+      "prompt": "Create a packaging concept for the subject. Use coherent form, folds, seams and material texture, with a readable front label. Preserve supplied product claims, net quantity and brand details exactly; do not invent certification marks, ingredients or regulatory claims. Show a useful viewing angle without a multi-panel collage. This is a visualization, not a measured dieline, legal label review or manufacturing file.",
+      "ratio": "4:5",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Package structure and perspective are coherent",
+        "All claims and required text are source-grounded",
+        "Dieline and production readiness are not implied"
+      ],
+      "exampleSubject": "A simple kraft tea carton with a restrained botanical label",
+      "previewAsset": "packaging.jpg"
+    },
+    {
+      "id": "ad-creative",
+      "name": "Ad creative",
+      "category": "Communication",
+      "domains": [
+        "graphic",
+        "ux"
+      ],
+      "useCase": "ads-marketing",
+      "summary": "Connect one audience need to a source-grounded product promise.",
+      "prompt": "Create one ad concept for the supplied audience, offer and channel. Use a specific visual relationship that supports the stated benefit and a clear space for the call to action. Preserve exact approved copy and brand assets. Do not invent discounts, testimonials, performance metrics, availability or guarantees. Keep subject and essential copy inside a flexible crop area for the requested placement.",
+      "ratio": "4:5",
+      "detail": "Balanced",
+      "reference": "optional",
+      "checks": [
+        "One clear message and action",
+        "Offer and claims match approved source",
+        "Channel crop does not remove critical information"
+      ],
+      "exampleSubject": "A beginner pottery workshop that helps people make their first useful cup",
+      "previewAsset": "ad-creative.jpg"
+    },
+    {
+      "id": "thumbnail",
+      "name": "Video thumbnail",
+      "category": "Communication",
+      "domains": [
+        "graphic",
+        "creative",
+        "video"
+      ],
+      "useCase": "ads-marketing",
+      "summary": "Create a readable visual promise that matches the actual video.",
+      "prompt": "Create a video thumbnail concept with one focal subject and a meaningful contrast, reveal or transformation from the supplied video topic. Keep it recognizable when small. Use little text and only exact supplied wording. Do not imply an event, result, endorsement or reaction absent from the video. Preserve provided subject identity. Favor a clear composition over a collage of unrelated props.",
+      "ratio": "16:9",
+      "detail": "Balanced",
+      "reference": "optional",
+      "checks": [
+        "Visual promise matches actual video content",
+        "Subject reads at thumbnail size",
+        "Text is short, exact and readable"
+      ],
+      "exampleSubject": "A side-by-side view of a plain clay lump and the finished handmade cup",
+      "previewAsset": "thumbnail.jpg"
+    },
+    {
+      "id": "motion-styleframe",
+      "name": "Motion styleframe",
+      "category": "Motion",
+      "domains": [
+        "video",
+        "graphic",
+        "creative"
+      ],
+      "useCase": "stylized-concept",
+      "summary": "Establish one shot’s composition and material language before animation.",
+      "prompt": "Create one still styleframe for the described shot of a code-authored motion piece. Specify a clear focal object, background depth, light direction, material language and safe area for later typography. Keep text separate unless explicitly requested. Compose for the stated future camera or object movement, leaving travel space. This is a still direction reference, not rendered footage or editable scene layers. Video Production owns scene timing, animation, audio and export; rebuild geometry in code when that is the intended output.",
+      "ratio": "16:9",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "One shot and focal action are understandable",
+        "Composition leaves room for the intended motion",
+        "Still reference and code/render ownership are explicit"
+      ],
+      "exampleSubject": "A polished ceramic moon rotates slowly above a dark studio plinth, with open space on the left for a title",
+      "previewAsset": "motion-styleframe.jpg"
+    },
+    {
+      "id": "motion-asset",
+      "name": "Separable motion asset",
+      "category": "Motion",
+      "domains": [
+        "video",
+        "graphic",
+        "ux"
+      ],
+      "useCase": "stylized-concept",
+      "summary": "Generate one clean prop or texture for compositing in a motion scene.",
+      "prompt": "Generate exactly one separable asset for the described motion scene. Match supplied viewpoint, lighting and palette; keep the complete silhouette inside the image with generous edge clearance. Exclude embedded titles, scene decorations and additional objects. If a cutout is requested, use real transparency and avoid a baked background shadow; inspect the alpha and edges before compositing. For a texture, specify tiling intent and inspect seams rather than assume seamlessness. Output remains a raster asset; Video Production owns its integration, transforms, timing and render.",
+      "ratio": "1:1",
+      "detail": "Detailed",
+      "reference": "optional",
+      "checks": [
+        "Only one recoverable asset is present",
+        "Edges and actual alpha are verified where requested",
+        "Scale, viewpoint and lighting fit the destination scene"
+      ],
+      "exampleSubject": "A single sculpted white paper crescent moon viewed straight on, for a slow parallax title sequence",
+      "previewAsset": "motion-asset.png"
+    }
+  ]
+}

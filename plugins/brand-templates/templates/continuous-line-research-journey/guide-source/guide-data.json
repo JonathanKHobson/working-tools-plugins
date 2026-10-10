@@ -1,0 +1,139 @@
+{
+  "id": "continuous-line-research-journey",
+  "name": "First Line Research",
+  "summary": "A research identity that follows a person’s initial route while keeping the evidence ledger separate from the illustrative journey.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#263530",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#924321",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#EAF0EB",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#56625D",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Chalkboard",
+      "usage": "Short conceptual journey statements."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Observation, evidence register and qualification text."
+    }
+  ],
+  "recognitionRules": [
+    "Use a continuous conceptual line as a reading path across observations and questions.",
+    "Pair Gill Sans explanation with restrained Chalkboard annotations.",
+    "Keep the evidence register on its own structured page.",
+    "Use rust to mark moments worth investigating, not to label participant failure."
+  ],
+  "voice": {
+    "traits": [
+      "curious",
+      "humane",
+      "traceable"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Follow the first move. Ask what made it make sense.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use FIRST LINE in Gill Sans with a single open stroke continuing beneath the name. The line must not become a closed loop or maze.",
+  "invariants": [
+    "Use a continuous conceptual line as a reading path across observations and questions.",
+    "Pair Gill Sans explanation with restrained Chalkboard annotations.",
+    "Keep the evidence register on its own structured page."
+  ],
+  "adaptations": [
+    "A short poster may show three stops along the line.",
+    "Detailed records remain in a linked ledger rather than crowding the path.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Chalkboard",
+      "renderFamily": "Kalam",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/kalam/Kalam-Regular.ttf",
+      "bold": "assets/fonts/kalam/Kalam-Bold.ttf",
+      "license": "assets/fonts/kalam/OFL.txt",
+      "sourceFontDependency": "Chalkboard is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Gill Sans",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": 64,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

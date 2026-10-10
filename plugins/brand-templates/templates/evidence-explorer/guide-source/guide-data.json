@@ -1,0 +1,160 @@
+{
+  "id": "evidence-explorer",
+  "name": "The Evidence Shelf",
+  "summary": "An editorial evidence identity that invites browsing while preserving the path back to each source.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FBF7EF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#302B26",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#823C2C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#EEE4D8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#715243",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#B6A99B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Record titles and collection propositions."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Source root reading family for long evidence text."
+    },
+    {
+      "role": "label",
+      "family": "Arial",
+      "usage": "Controls and compact metadata only."
+    }
+  ],
+  "recognitionRules": [
+    "Use warm paper and brown-rust links with serif reading text.",
+    "Keep record titles, metadata and source details in a stable hierarchy.",
+    "Let filters narrow the shelf without rewriting the evidence.",
+    "Use rules and pale inset fields to distinguish navigation from source content."
+  ],
+  "voice": {
+    "traits": [
+      "curatorial",
+      "patient",
+      "traceable"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Find a useful record. Read it in context. Follow it back.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE EVIDENCE SHELF as a Georgia wordmark over a long open rule. No bookcase illustration; the rule acts as a shelf without enclosing records.",
+  "invariants": [
+    "Use warm paper and brown-rust links with serif reading text.",
+    "Keep record titles, metadata and source details in a stable hierarchy.",
+    "Let filters narrow the shelf without rewriting the evidence."
+  ],
+  "adaptations": [
+    "A collection page may be dense, but record pages remain spacious.",
+    "Print exports keep source IDs and retrieval paths.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "label",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

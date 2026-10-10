@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "social-campaign-concept",
+  "version": "0.2.1",
+  "name": "Rivet Swap Collective",
+  "summary": "A neighborhood campaign identity with the urgency of pasted street graphics and a concrete invitation to keep clothes in use.",
+  "category": "Community & culture",
+  "tags": [
+    "presentation",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "social-campaign-concept"
+  ],
+  "sourceTemplateNames": {
+    "social-campaign-concept": "Social Campaign Concept"
+  },
+  "templateVariations": [
+    {
+      "templateId": "social-campaign-concept",
+      "name": "Social Campaign Concept",
+      "format": "presentation",
+      "sourceHash": "7a6c899c5b0aa3a573a9767d9375904b50b8f0ce01052b09374a75bd93d56fd9",
+      "foundationSha256": "e188c8958db52d78a2ac61e46e9e821cb660f2d7e050f886740a90dad062d76b",
+      "designSpecSha256": "f160075d5b43e3effcb621e86541156a4548336e7e01b5e9a5bc84e249c882ee",
+      "referenceDirectory": "references/social-campaign-concept"
+    }
+  ],
+  "sourceHash": "7a6c899c5b0aa3a573a9767d9375904b50b8f0ce01052b09374a75bd93d56fd9",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F8F2E5",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#181818",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#B92318",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#F5E333",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 9 / title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / title.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "social-campaign-concept",
+      "sourceFingerprint": "7a6c899c5b0aa3a573a9767d9375904b50b8f0ce01052b09374a75bd93d56fd9"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "social-campaign-concept",
+      "sourceFingerprint": "7a6c899c5b0aa3a573a9767d9375904b50b8f0ce01052b09374a75bd93d56fd9"
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact statements over original punk-paper composition.",
+    "Keep red and yellow as loud interventions against black ink and warm paper.",
+    "Make the action and event details readable without relying on the decorative background.",
+    "Keep the swap offer, participation conditions and unconfirmed details separate."
+  ],
+  "writingLinks": [
+    {
+      "id": "V19",
+      "name": "Purposeful manifesto",
+      "reason": "Emphatic campaign voice that keeps results explicitly unknown.",
+      "sourceTemplateId": "social-campaign-concept",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Keep it in circulation. Bring something wearable. Find something new to you.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use RIVET SWAP COLLECTIVE in condensed Impact with one off-center solid dot acting as a rivet. Avoid recycling arrows or an activist seal.",
+  "invariants": [
+    "Use Impact statements over original punk-paper composition.",
+    "Keep red and yellow as loud interventions against black ink and warm paper.",
+    "Make the action and event details readable without relying on the decorative background."
+  ],
+  "adaptations": [
+    "Social cards use one action per frame.",
+    "Street posters retain date, location and participation details even when the slogan is large.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/social-campaign-concept.pdf",
+    "preview": "media/social-campaign-concept-guide.webp",
+    "markdown": "guides/social-campaign-concept.md"
+  },
+  "bundle": {
+    "href": "bundles/social-campaign-concept-brand-kit.zip",
+    "filename": "Rivet Swap Collective brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/social-campaign-concept-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/social-campaign-concept-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/social-campaign-concept-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

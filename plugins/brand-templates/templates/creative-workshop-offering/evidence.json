@@ -1,0 +1,249 @@
+{
+  "profile": {
+    "id": "creative-workshop-offering",
+    "name": "Hands at Work",
+    "templateIds": [
+      "creative-workshop-offering"
+    ],
+    "category": "Learning & workshops",
+    "summary": "A workshop identity that joins an expressive serif invitation to a clear sequence of making and practical attendance details.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#F6F1E5",
+        "evidence": ":root --paper; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#173C31",
+        "evidence": ":root --ink; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Primary",
+        "role": "primary",
+        "hex": "#973F2E",
+        "evidence": ":root --rust; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Accent",
+        "role": "accent",
+        "hex": "#7E3123",
+        "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Tinos",
+        "usage": "Source CSS alias WorkshopSerif resolves to fonts/tinos/Tinos-Bold.ttf; workshop titles."
+      },
+      {
+        "role": "body",
+        "family": "Arimo",
+        "usage": "Source alias WorkshopSans resolves to the Arimo regular and bold WOFF2 files; instructions and practical detail."
+      }
+    ],
+    "recognitionRules": [
+      "Pair the workshop serif display face with the source sans-serif body.",
+      "Use forest ink on cream, with rust reserved for the primary action.",
+      "Number the workshop stages and give each a title and short description.",
+      "Keep materials, access and attendance facts together below the invitation."
+    ],
+    "voice": {
+      "traits": [
+        "warm",
+        "tactile",
+        "clear"
+      ],
+      "principles": [
+        "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Start with a simple material. Make something you can hold.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid promises that every participant will master the skill.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Try one version, then compare it with the criterion.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use HANDS AT WORK as a serif wordmark with a short underline ending before the final letter. No hand illustration or craft-tool cluster.",
+    "invariants": [
+      "Pair the workshop serif display face with the source sans-serif body.",
+      "Use forest ink on cream, with rust reserved for the primary action.",
+      "Number the workshop stages and give each a title and short description."
+    ],
+    "adaptations": [
+      "A poster keeps invitation, date and one action.",
+      "A participant sheet expands the numbered stages and removes promotional language.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "creative-workshop-offering",
+      "displayName": "Creative Workshop Offering",
+      "format": "site",
+      "nameSignals": [
+        "Creative Workshop Offering"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19",
+      "evidence": [
+        "installed-skills/artifact-template-studio-creative-workshop-offering/SKILL.md",
+        "installed-skills/artifact-template-studio-creative-workshop-offering/DESIGN.md",
+        "installed-skills/artifact-template-studio-creative-workshop-offering/design/foundations.json",
+        "installed-skills/artifact-template-studio-creative-workshop-offering/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "styles/print.css:body",
+          "observation": "{'font-size': '10pt', 'background': 'white'}"
+        },
+        {
+          "id": "source-7",
+          "location": "styles/print.css:.site-header",
+          "observation": "{'padding': '0 0 8pt'}"
+        },
+        {
+          "id": "source-9",
+          "location": "styles/print.css:.hero",
+          "observation": "{'grid-template-columns': '1.3fr 1fr', 'gap': '18pt', 'padding': '14pt 0'}"
+        },
+        {
+          "id": "source-56",
+          "location": "styles/screen.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-69",
+          "location": "styles/screen.css:.site-header",
+          "observation": "{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '28px', 'padding': '16px 0 8px', 'border-bottom': 'var(--rule)'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/creative-workshop-offering-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#173C31",
+        "background": "#F6F1E5",
+        "contrastRatio": 10.79,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "creative-workshop-offering",
+      "name": "Creative Workshop Offering",
+      "format": "site",
+      "sourceHash": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19",
+      "foundationSha256": "9d06b41b26c5214ad3a4b89c34bebe68cbd9749273a83b525277ee367c2f8a8f",
+      "designSpecSha256": "1ef828633b4a03bc0c084bebe8ee82e4d4a7eaf2745442ce53162118b485bbe2",
+      "referenceDirectory": "references/creative-workshop-offering"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use HANDS AT WORK as a serif wordmark with a short underline ending before the final letter. No hand illustration or craft-tool cluster.",
+    "productionMethod": "outlined typography and identity-specific geometric construction",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Tinos / WorkshopSerif",
+      "renderFamily": "Tinos",
+      "decision": "exact source family",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "One lowercase x-height around the wordmark, including its shortened underline.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+      "symbolWidthPx": null,
+      "secondaryWidthPx": 180
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Source CSS alias WorkshopSerif resolves to fonts/tinos/Tinos-Bold.ttf; workshop titles.",
+      "sourceFamily": "Tinos",
+      "sourceFamilySelected": "Tinos",
+      "renderFamily": "Tinos",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/tinos/Tinos-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61"
+        },
+        "bold": {
+          "path": "assets/fonts/tinos/Tinos-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "393269dbab8899f938db19783eca5eac92eb431f7ae0ab45b8349ca895f1a06b"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/tinos/OFL.txt",
+      "licenseSha256": "cb3382d4643e8b02c12e322c220a3c76a5020d667e4fd4e7c75e744cca6caa6b",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family present in the source template; regular and bold are assembled from its local source and official upstream Tinos release.",
+      "sourceTemplateId": "creative-workshop-offering",
+      "sourceFingerprint": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19"
+    },
+    {
+      "role": "body",
+      "usage": "Source alias WorkshopSans resolves to the Arimo regular and bold WOFF2 files; instructions and practical detail.",
+      "sourceFamily": "Arimo",
+      "sourceFamilySelected": "Arimo",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "creative-workshop-offering",
+      "sourceFingerprint": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "printmaking-mini-zine",
+  "version": "0.2.1",
+  "name": "Try a Mark",
+  "summary": "A small experimental identity that encourages material play through forceful titles, plain instructions and a record of attempts.",
+  "category": "Arts & exhibition",
+  "tags": [
+    "document",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "printmaking-mini-zine"
+  ],
+  "sourceTemplateNames": {
+    "printmaking-mini-zine": "Printmaking Mini Zine"
+  },
+  "templateVariations": [
+    {
+      "templateId": "printmaking-mini-zine",
+      "name": "Printmaking Mini Zine",
+      "format": "document",
+      "sourceHash": "4728a1f945edf399cb7741acf9dd9e8f8a9c41bace85b2f13de44a86752365f2",
+      "foundationSha256": "ac67c618e7862c3c5a90ad937abacfc1c3e2c53f6c19c064ecfa50eb87277408",
+      "designSpecSha256": "788571191d55d81c095e2c377b83545ba610e6b09fc856d158f387d7a6a222af",
+      "referenceDirectory": "references/printmaking-mini-zine"
+    }
+  ],
+  "sourceHash": "4728a1f945edf399cb7741acf9dd9e8f8a9c41bace85b2f13de44a86752365f2",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Print rust",
+      "role": "primary",
+      "hex": "#754436",
+      "evidence": "Native reference.docx word/styles.xml: style ZineLabel; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Short invitations and panel titles."
+    },
+    {
+      "role": "body",
+      "family": "Courier New",
+      "usage": "Material notes, instructions and observations."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Short invitations and panel titles.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "printmaking-mini-zine",
+      "sourceFingerprint": "4728a1f945edf399cb7741acf9dd9e8f8a9c41bace85b2f13de44a86752365f2"
+    },
+    {
+      "role": "body",
+      "usage": "Material notes, instructions and observations.",
+      "sourceFamily": "Courier New",
+      "sourceFamilySelected": "Courier New",
+      "renderFamily": "Cousine",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cousine/Cousine-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1da22250675fc4c42fcf3a9736c44bc0570516105331443b663fd5cfbd1412fe"
+        },
+        "bold": {
+          "path": "assets/fonts/cousine/Cousine-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "17c8a7245156d2253531c9e529474937b09d9f641c5ae7695c5e33f22822eef4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cousine/OFL.txt",
+      "licenseSha256": "b81c4d4dc0a9f72c9155e78187316e016e2012a8102468804173dc61468b906d",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Courier New is a separately licensed Microsoft/system font; not bundled. Open Courier-compatible monospaced substitute for proprietary Courier New.",
+      "sourceTemplateId": "printmaking-mini-zine",
+      "sourceFingerprint": "4728a1f945edf399cb7741acf9dd9e8f8a9c41bace85b2f13de44a86752365f2"
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact for the short invitation and Courier New for working notes.",
+    "Keep each experiment compact enough to fit a zine panel.",
+    "Leave space for a printed mark and a short observation.",
+    "Show variation across attempts without ranking them as good or bad.",
+    "Use rust PRINT LAB labels and black condensed invitations above textured collage examples, with monospaced working notes."
+  ],
+  "writingLinks": [
+    {
+      "id": "V13",
+      "name": "Marginal notebook",
+      "reason": "Punk zine notes combined with a simple one-variable trial.",
+      "sourceTemplateId": "printmaking-mini-zine",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Make one mark. Change the pressure. See what the paper tells you.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use TRY A MARK in Impact with one irregular solid rectangle as a new supporting mark. Keep the rectangle simple enough for one-color printing.",
+  "invariants": [
+    "Use Impact for the short invitation and Courier New for working notes.",
+    "Keep each experiment compact enough to fit a zine panel.",
+    "Leave space for a printed mark and a short observation."
+  ],
+  "adaptations": [
+    "Folded and digital editions retain the experiment order.",
+    "The mark can vary by issue while the wordmark remains stable.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/printmaking-mini-zine.pdf",
+    "preview": "media/printmaking-mini-zine-guide.webp",
+    "markdown": "guides/printmaking-mini-zine.md"
+  },
+  "bundle": {
+    "href": "bundles/printmaking-mini-zine-brand-kit.zip",
+    "filename": "Try a Mark brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/printmaking-mini-zine-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/printmaking-mini-zine-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/printmaking-mini-zine-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

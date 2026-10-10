@@ -1,0 +1,141 @@
+{
+  "id": "portfolio-case-study-site",
+  "name": "Case Notes",
+  "summary": "A portfolio identity that treats a case as an inspectable piece of work, with clear authorship, artifacts and reflection.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F5F2EC",
+      "evidence": ":root --paper; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#292923",
+      "evidence": ":root --ink; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#973B2B",
+      "evidence": ":root --accent; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Surface",
+      "role": "surface",
+      "hex": "#E9E5DC",
+      "evidence": ":root --surface; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Rule",
+      "role": "rule",
+      "hex": "#B8B4AA",
+      "evidence": ":root --rule; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#5D5C53",
+      "evidence": ":root --muted; reusable role derives from source variable and usage"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville,Georgia,serif",
+      "usage": "Titles and short section openings; source .reflection."
+    },
+    {
+      "role": "body",
+      "family": "\"Avenir Next\",Avenir,system-ui,sans-serif",
+      "usage": "Reading text, supporting labels and detailed explanations; source font rules."
+    }
+  ],
+  "recognitionRules": [
+    "Use warm paper, serif case titles and a restrained sans-serif navigation frame.",
+    "Keep project facts and disclosure near the opening.",
+    "Attach captions to every artifact and distinguish evidence from reflection.",
+    "Use rust for editorial emphasis and green for focus states, not interchangeable brand decoration."
+  ],
+  "voice": {
+    "traits": [
+      "reflective",
+      "precise",
+      "evidence-minded"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Here is the work, the part I owned and the question it leaves open.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Retain CASE NOTES as an Avenir wordmark with a small case number after a slash. No standalone symbol.",
+  "invariants": [
+    "Use warm paper, serif case titles and a restrained sans-serif navigation frame.",
+    "Keep project facts and disclosure near the opening.",
+    "Attach captions to every artifact and distinguish evidence from reflection."
+  ],
+  "adaptations": [
+    "A case excerpt retains contribution and disclosure before images.",
+    "Mobile pages stack the lead and facts without changing their order.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville,Georgia,serif",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "\"Avenir Next\",Avenir,system-ui,sans-serif",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

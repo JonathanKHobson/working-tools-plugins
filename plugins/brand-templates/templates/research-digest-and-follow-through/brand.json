@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "research-digest-and-follow-through",
+  "version": "0.2.1",
+  "name": "The Research Digest",
+  "summary": "An editorial research identity that makes an update readable and its follow-through accountable.",
+  "category": "Research & evidence",
+  "tags": [
+    "document",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "research-digest-and-follow-through"
+  ],
+  "sourceTemplateNames": {
+    "research-digest-and-follow-through": "Research Digest and Follow-Through"
+  },
+  "templateVariations": [
+    {
+      "templateId": "research-digest-and-follow-through",
+      "name": "Research Digest and Follow-Through",
+      "format": "document",
+      "sourceHash": "79c7268bf24ca508f955f1e98cdeb4970298956770e82256d4998c7da14e40ee",
+      "foundationSha256": "4776cb0f2146914042e64130e498cf7e6b8c8906f679a75ee68ab767dfbe1f76",
+      "designSpecSha256": "208fae6d83dda36ed2b198dbf94671daf8a21393d062e320ec2558b7de684408",
+      "referenceDirectory": "references/research-digest-and-follow-through"
+    }
+  ],
+  "sourceHash": "79c7268bf24ca508f955f1e98cdeb4970298956770e82256d4998c7da14e40ee",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Digest purple",
+      "role": "primary",
+      "hex": "#673D74",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #673D74; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source used style RecordHeading."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Small."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style RecordHeading.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "research-digest-and-follow-through",
+      "sourceFingerprint": "79c7268bf24ca508f955f1e98cdeb4970298956770e82256d4998c7da14e40ee"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Small.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "research-digest-and-follow-through",
+      "sourceFingerprint": "79c7268bf24ca508f955f1e98cdeb4970298956770e82256d4998c7da14e40ee"
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact for the digest masthead and Gill Sans for reading text.",
+    "Keep issue number, date and first-read context above the story.",
+    "Use purple bands with white section labels and purple source links to distinguish New Evidence from Decision & Follow-through; keep Impact headlines black.",
+    "Give follow-through an owner, action and status rather than a vague closing recommendation."
+  ],
+  "writingLinks": [
+    {
+      "id": "V17",
+      "name": "News brief",
+      "reason": "Leads with what changed and keeps delivery separate from measured outcomes.",
+      "sourceTemplateId": "research-digest-and-follow-through",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Read the update. Keep the record. Know who moves next.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE RESEARCH DIGEST as an Impact masthead with a small Gill Sans issue line. No news icon.",
+  "invariants": [
+    "Use Impact for the digest masthead and Gill Sans for reading text.",
+    "Keep issue number, date and first-read context above the story.",
+    "Use purple bands with white section labels and purple source links to distinguish New Evidence from Decision & Follow-through; keep Impact headlines black."
+  ],
+  "adaptations": [
+    "A short edition may include one finding and one action.",
+    "Archive pages retain issue dates and source identifiers.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/research-digest-and-follow-through.pdf",
+    "preview": "media/research-digest-and-follow-through-guide.webp",
+    "markdown": "guides/research-digest-and-follow-through.md"
+  },
+  "bundle": {
+    "href": "bundles/research-digest-and-follow-through-brand-kit.zip",
+    "filename": "The Research Digest brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/research-digest-and-follow-through-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/research-digest-and-follow-through-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/research-digest-and-follow-through-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

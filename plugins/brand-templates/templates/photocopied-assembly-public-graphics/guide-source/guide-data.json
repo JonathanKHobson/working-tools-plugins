@@ -1,0 +1,129 @@
+{
+  "id": "photocopied-assembly-public-graphics",
+  "name": "Open Press",
+  "summary": "A public-graphics identity with the energy of assembled paper, forceful type and a clear invitation to make something.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F0EADF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#161616",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#B92236",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Cut Paper",
+      "role": "cut-paper",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 4 / title2."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 4 / footer."
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact OPEN PRESS lettering with a vertical spine and a contrasting title strip.",
+    "Keep the paper-and-red palette tactile without reducing text contrast.",
+    "Use American Typewriter only for a secondary workshop-note voice.",
+    "On the reverse, organize the activity into numbered paper-like steps."
+  ],
+  "voice": {
+    "traits": [
+      "bold",
+      "hands-on",
+      "welcoming"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "You make it. You keep it. Start with one shape.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use OPEN PRESS as an offset two-line Impact wordmark with a red rectangular strip behind PRESS. Keep the uneven assembly deliberate, not randomly distressed.",
+  "invariants": [
+    "Use Impact OPEN PRESS lettering with a vertical spine and a contrasting title strip.",
+    "Keep the paper-and-red palette tactile without reducing text contrast.",
+    "Use American Typewriter only for a secondary workshop-note voice."
+  ],
+  "adaptations": [
+    "Posters may use larger paper overlaps; instructions use flat, quiet fields.",
+    "A one-color edition keeps the spine and offset title geometry.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One PRESS strip inset around the outside of the combined OPEN and offset strip silhouette.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": null,
+    "secondaryWidthPx": 180
+  }
+}

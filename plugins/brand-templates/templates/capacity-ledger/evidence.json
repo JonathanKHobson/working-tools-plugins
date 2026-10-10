@@ -1,0 +1,283 @@
+{
+  "profile": {
+    "id": "capacity-ledger",
+    "name": "Room to Gather",
+    "templateIds": [
+      "capacity-ledger"
+    ],
+    "category": "Planning & operations",
+    "summary": "A capacity planning identity that keeps recorded enrollment, available places and hypothetical expansion visibly distinct.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#243746",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#243746",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#EFF3F6",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Editable field",
+        "role": "input-surface",
+        "hex": "#FFF2CC",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style 20."
+      }
+    ],
+    "recognitionRules": [
+      "Use dark slate header bands, pale result cells and amber editable entry cells.",
+      "Keep Overview, Sessions and Definitions as separate reading functions.",
+      "Show counts and percentages with explicit denominators.",
+      "Retain blank, missing-input and no-capacity states rather than converting unknowns to zero.",
+      "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents."
+    ],
+    "voice": {
+      "traits": [
+        "practical",
+        "calm",
+        "accountable"
+      ],
+      "principles": [
+        "Name the choice, its owner and the condition that makes it complete.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Count the places. Check the demand. Make room deliberately.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "This is the assumption; this is the decision it affects.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use ROOM TO GATHER in Arial beside a two-column count motif: one solid rule and one open rule. Never imply a filled percentage without data.",
+    "invariants": [
+      "Use dark slate header bands, pale result cells and amber editable entry cells.",
+      "Keep Overview, Sessions and Definitions as separate reading functions.",
+      "Show counts and percentages with explicit denominators."
+    ],
+    "adaptations": [
+      "A meeting card may show recorded and scenario capacity side by side.",
+      "Keep inputs labeled in monochrome exports.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "capacity-ledger",
+      "displayName": "Capacity Ledger",
+      "format": "spreadsheet",
+      "nameSignals": [
+        "Capacity ledger",
+        "Cedar Learning Lab · fictional demonstration",
+        "Recorded seats",
+        "Result",
+        "Hypothetical capacity"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "3340da33a282b4107877ba10f839ca96ee69a7a261e986cf68453df320b53e4f",
+      "evidence": [
+        "installed-skills/artifact-template-studio-capacity-ledger/SKILL.md",
+        "installed-skills/artifact-template-studio-capacity-ledger/DESIGN.md",
+        "installed-skills/artifact-template-studio-capacity-ledger/design/foundations.json",
+        "installed-skills/artifact-template-studio-capacity-ledger/assets/reference.xlsx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style 2",
+          "observation": "{'id': 2, 'cells': 29, 'examples': ['Overview!A4', 'Overview!A7', 'Overview!D7', 'Overview!A8', 'Overview!D8', 'Overview!A9', 'Overview!D9', 'Overview!A10'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#243746'"
+        },
+        {
+          "id": "source-2",
+          "location": "used style 24",
+          "observation": "{'id': 24, 'cells': 26, 'examples': ['Overview!B10', 'Overview!E10', 'Sessions!E5', 'Sessions!H5', 'Sessions!E6', 'Sessions!H6', 'Sessions!E7', 'Sessions!H7'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#24374"
+        },
+        {
+          "id": "source-3",
+          "location": "used style 10",
+          "observation": "{'id': 10, 'cells': 19, 'examples': ['Overview!B7', 'Overview!E7', 'Overview!B8', 'Overview!E8', 'Overview!B9', 'Overview!E9', 'Overview!B11', 'Sessions!I5'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#243746"
+        },
+        {
+          "id": "source-4",
+          "location": "used style 26",
+          "observation": "{'id': 26, 'cells': 12, 'examples': ['Sessions!D5', 'Sessions!D6', 'Sessions!D7', 'Sessions!D8', 'Sessions!D9', 'Sessions!D10', 'Sessions!D11', 'Sessions!D12'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#2437"
+        },
+        {
+          "id": "source-5",
+          "location": "used style 18",
+          "observation": "{'id': 18, 'cells': 12, 'examples': ['Sessions!F5', 'Sessions!F6', 'Sessions!F7', 'Sessions!F8', 'Sessions!F9', 'Sessions!F10', 'Sessions!F11', 'Sessions!F12'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#2437"
+        }
+      ],
+      "editorialSource": {
+        "overview": "A three-sheet capacity workbook: Overview compares recorded and hypothetical figures, Sessions holds 12 entry rows and guarded calculations, and Definitions explains the terms. Arial 11 pt is used for cells and bold 17 pt titles appear at A2. Dark #243746 headers, pale #EFF3F6 results and amber #FFF2CC input cells distinguish roles.",
+        "invariants": [
+          "The amber input fill spans the Sessions entry area, including A5:C16 and scenario-seat cells G5:G16; it is not limited to the prefilled first three rows.",
+          "Overview formulas reference Sessions totals, including B7=Sessions!B18 and E7=Sessions!G18. The scenario changes capacity while enrollment stays recorded.",
+          "Sessions formulas retain blank, Missing input and No capacity outcomes as appropriate. The local PDF uses LiberationSans resources although workbook styles request Arial."
+        ],
+        "adaptationChecks": [
+          "If the 12 entry rows change, update row-18 totals, formulas, validations, conditional formatting and Overview references together.",
+          "Exercise blank capacity, zero capacity and overbooking cases; verify unknowns do not become misleading zeroes.",
+          "Check edited labels against Overview A=36/C=4/D=30 and Definitions B=73 character widths, and replace the fictional organization label with supported facts."
+        ]
+      },
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/capacity-ledger.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#243746",
+        "background": "#FFFFFF",
+        "contrastRatio": 12.28,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    },
+    "conditionalColors": [
+      {
+        "name": "State surface / Missing",
+        "role": "conditional-fill",
+        "hex": "#FCE5E1",
+        "sourceRules": [
+          {
+            "range": "Sessions!F5:F16",
+            "condition": "Missing",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Sessions!F5:F16",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Missing; Over",
+        "source": "reference.xlsx conditional formatting: Sessions!F5:F16, Sessions!F5:F16"
+      },
+      {
+        "name": "State text / Missing",
+        "role": "conditional-text",
+        "hex": "#8B251A",
+        "sourceRules": [
+          {
+            "range": "Sessions!F5:F16",
+            "condition": "Missing",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Sessions!F5:F16",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Missing; Over",
+        "source": "reference.xlsx conditional formatting: Sessions!F5:F16, Sessions!F5:F16"
+      }
+    ]
+  },
+  "sourceVariations": [
+    {
+      "templateId": "capacity-ledger",
+      "name": "Capacity Ledger",
+      "format": "spreadsheet",
+      "sourceHash": "3340da33a282b4107877ba10f839ca96ee69a7a261e986cf68453df320b53e4f",
+      "foundationSha256": "52537191d30c53bafa9cec5afc83324647e2a862a2b97d6f5c47e556d55e9f27",
+      "designSpecSha256": "da5585f5fa61919b187e4b900171c7ebc07a6432fe3154646cab489f2080baa8",
+      "referenceDirectory": "references/capacity-ledger"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use ROOM TO GATHER in Arial beside a two-column count motif: one solid rule and one open rule. Never imply a filled percentage without data.",
+    "productionMethod": "Brand-specific outlined typography with capacity-columns source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": 32,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style 20.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "capacity-ledger",
+      "sourceFingerprint": "3340da33a282b4107877ba10f839ca96ee69a7a261e986cf68453df320b53e4f"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

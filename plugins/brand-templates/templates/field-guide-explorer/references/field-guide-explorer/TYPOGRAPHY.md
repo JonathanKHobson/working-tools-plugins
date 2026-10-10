@@ -1,0 +1,93 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `h1,h2,h3` · `base` · `assets/source/styles/main.css`: `{'font-family': 'var(--display)', 'font-weight': '600', 'line-height': '1.13'}`.
+- `h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '60px', 'letter-spacing': '-2.2px'}`.
+- `h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '32px', 'letter-spacing': '-.8px'}`.
+- `h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '23px', 'letter-spacing': '-.3px'}`.
+- `.brand` · `base` · `assets/source/styles/main.css`: `{'letter-spacing': '-.7px'}`.
+- `.masthead nav` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.index-rail h2` · `base` · `assets/source/styles/main.css`: `{'letter-spacing': '.8px'}`.
+- `.index-rail a` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px', 'line-height': '1.35'}`.
+- `.index-rail a[aria-current]` · `base` · `assets/source/styles/main.css`: `{'font-weight': '600'}`.
+- `.index-rail p` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.breadcrumbs` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.hero h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '54px'}`.
+- `.hero .deck` · `base` · `assets/source/styles/main.css`: `{'font-size': '29px', 'line-height': '1.22'}`.
+- `.actions` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.notice,figcaption,.record-basis` · `base` · `assets/source/styles/main.css`: `{'font-size': '16px', 'line-height': '1.4'}`.
+- `.index-row` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.index-row h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.outline-link` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.record-heading .deck` · `base` · `assets/source/styles/main.css`: `{'font-size': '24px'}`.
+- `.source-strip>h2` · `base` · `assets/source/styles/main.css`: `{'letter-spacing': '1.1px'}`.
+- `.source-columns h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '30px'}`.
+- `.next-prev` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.deck` · `base` · `assets/source/styles/main.css`: `{'font-size': '26px', 'line-height': '1.35'}`.
+- `.comparison-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '56px'}`.
+- `form label` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px', 'font-weight': '600'}`.
+- `select` · `base` · `assets/source/styles/main.css`: `{'font-weight': '400'}`.
+- `.pair-media h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '24px'}`.
+- `.pair-media section>a` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.pair-media .notice` · `base` · `assets/source/styles/main.css`: `{'font-size': '15px'}`.
+- `table` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px', 'line-height': '1.35'}`.
+- `th` · `base` · `assets/source/styles/main.css`: `{'font-weight': '600'}`.
+- `.state-notice` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.missing-image` · `base` · `assets/source/styles/main.css`: `{'font-size': '20px'}`.
+- `.reading-list h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `blockquote` · `base` · `assets/source/styles/main.css`: `{'font-size': '24px'}`.
+- `.guide h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `.guide p` · `base` · `assets/source/styles/main.css`: `{'line-height': '1.55'}`.
+- `code` · `base` · `assets/source/styles/main.css`: `{'font-size': '.88em'}`.
+- `footer` · `base` · `assets/source/styles/main.css`: `{'font-size': '14px'}`.
+- `.hero h1` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '44px'}`.
+- `.hero .deck` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '26px'}`.
+- `.index-row h3` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '20px'}`.
+- `.record-heading h1` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '52px'}`.
+- `h2` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `body` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.brand` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '26px'}`.
+- `.masthead nav` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '17px'}`.
+- `.index-rail a` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px'}`.
+- `.breadcrumbs` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px'}`.
+- `.hero h1,h1,.record-heading h1,.comparison-heading h1` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '40px', 'letter-spacing': '-1.4px'}`.
+- `.hero .deck,.deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '23px'}`.
+- `.hero .notice` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px'}`.
+- `.index-row h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.big-number` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '42px'}`.
+- `.record-heading .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '21px'}`.
+- `.source-columns h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '27px'}`.
+- `.comparison-heading .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.pair-media h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '21px'}`.
+- `.pair-media .notice` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '15px'}`.
+- `table` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '17px'}`.
+- `.reading h1` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '40px'}`.
+- `.reading h2` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '27px'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '14px'}`.
+- `.table-hint` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'line-height': '1.4'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.hero h1,h1,.comparison-heading h1,.record-heading h1,.reading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt', 'letter-spacing': '-.5pt'}`.
+- `.hero .deck,.deck` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.index-row` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.index-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.collection-list h2,h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.big-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '29pt'}`.
+- `.record-heading .deck` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.record-study figcaption,.notice,figcaption,.record-basis` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.observation h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.source-columns h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.source-columns p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.pair-media h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.pair-media section>a` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.pair-media .notice` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `table` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.state-notice` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.reading-list h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.guide h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.guide p` · `base` · `assets/source/styles/print.css`: `{'line-height': '1.45'}`.
+- `pre` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `blockquote` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.missing-image` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.

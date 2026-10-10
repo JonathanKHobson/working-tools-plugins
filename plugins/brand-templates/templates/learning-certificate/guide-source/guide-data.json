@@ -1,0 +1,127 @@
+{
+  "id": "learning-certificate",
+  "name": "A Record of Participation",
+  "summary": "A certificate identity that gives an occasion dignity while stating exactly what the document records.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#232820",
+      "evidence": "used style Heading2 explicit text color"
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source used style CertificateRecipient."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CertificateNote."
+    }
+  ],
+  "recognitionRules": [
+    "Use a formal Baskerville title with plain Arial participant and activity details.",
+    "Keep the recipient name as the visual center.",
+    "Separate participation wording from any assessed achievement.",
+    "Give date, issuer and qualification enough room to be read."
+  ],
+  "voice": {
+    "traits": [
+      "respectful",
+      "precise",
+      "celebratory"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A moment of participation, clearly recorded.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use A RECORD OF PARTICIPATION as a restrained serif wordmark with paired fine rules. No seal, medal or ribbon that implies accreditation.",
+  "invariants": [
+    "Use a formal Baskerville title with plain Arial participant and activity details.",
+    "Keep the recipient name as the visual center.",
+    "Separate participation wording from any assessed achievement."
+  ],
+  "adaptations": [
+    "A digital certificate keeps all verification details as real text.",
+    "Change the occasion without changing the claim level.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

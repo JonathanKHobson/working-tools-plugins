@@ -1,0 +1,283 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/styles/main.css`: `{'box-sizing': 'border-box'}`.
+- `html` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--ink)', 'background': 'var(--page)'}`.
+- `body` · `base` · `assets/source/styles/main.css`: `{'margin': '0', 'font': '20px/1.45 var(--body)'}`.
+- `a` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--accent)', 'text-decoration-thickness': '1px', 'text-underline-offset': '5px'}`.
+- `a:hover` · `base` · `assets/source/styles/main.css`: `{'text-decoration-thickness': '2px'}`.
+- `a:focus-visible,button:focus-visible,select:focus-visible,[tabindex]:focus-visible` · `base` · `assets/source/styles/main.css`: `{'outline': '3px solid var(--accent)', 'outline-offset': '4px'}`.
+- `button,select` · `base` · `assets/source/styles/main.css`: `{'font': '600 18px/1.3 var(--body)', 'color': 'var(--ink)'}`.
+- `button,.button` · `base` · `assets/source/styles/main.css`: `{'border': '0', 'border-radius': '0', 'background': 'var(--accent)', 'color': 'white', 'padding': '13px 22px', 'text-decoration': 'none', 'font': '600 18px/1.3 var(--body)', 'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'gap': '24px', 'min-height': '48px', 'cursor': 'pointer'}`.
+- `button:hover,.button:hover` · `base` · `assets/source/styles/main.css`: `{'background': '#25475e'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/main.css`: `{'font-family': 'var(--display)', 'font-weight': '600', 'line-height': '1.13', 'margin': '0'}`.
+- `h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '60px', 'letter-spacing': '-2.2px'}`.
+- `h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '32px', 'letter-spacing': '-.8px'}`.
+- `h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '23px', 'letter-spacing': '-.3px'}`.
+- `p` · `base` · `assets/source/styles/main.css`: `{'margin': '14px 0'}`.
+- `figure` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `img` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'max-width': '100%'}`.
+- `[hidden]` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.site` · `base` · `assets/source/styles/main.css`: `{'max-width': '1600px', 'margin': 'auto', 'padding': '0 36px'}`.
+- `.masthead` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '32px', 'border-bottom': '1px solid var(--rule)', 'min-height': '76px'}`.
+- `.brand` · `base` · `assets/source/styles/main.css`: `{'font': '600 28px/1.2 var(--display)', 'color': 'var(--ink)', 'text-decoration': 'none', 'letter-spacing': '-.7px'}`.
+- `.masthead nav` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '36px', 'font-size': '18px'}`.
+- `.masthead nav a` · `base` · `assets/source/styles/main.css`: `{'text-decoration': 'none', 'padding': '24px 0'}`.
+- `.masthead nav a[aria-current]` · `base` · `assets/source/styles/main.css`: `{'text-decoration': 'underline'}`.
+- `.atlas-layout` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '232px minmax(0,1fr)'}`.
+- `.index-rail` · `base` · `assets/source/styles/main.css`: `{'padding': '28px 16px 32px 0', 'border-right': '1px solid var(--rule)'}`.
+- `.index-rail h2` · `base` · `assets/source/styles/main.css`: `{'font': '400 16px/1.4 var(--body)', 'letter-spacing': '.8px', 'margin': '0 0 24px'}`.
+- `.index-rail ol` · `base` · `assets/source/styles/main.css`: `{'list-style': 'none', 'padding': '0', 'margin': '0'}`.
+- `.index-rail a` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'start', 'gap': '15px', 'margin-left': '-12px', 'padding': '14px 8px 14px 12px', 'border-left': '4px solid transparent', 'text-decoration': 'none', 'font-size': '18px', 'line-height': '1.35'}`.
+- `.index-rail a:hover` · `base` · `assets/source/styles/main.css`: `{'background': '#d8e5ea'}`.
+- `.index-rail a[aria-current]` · `base` · `assets/source/styles/main.css`: `{'font-weight': '600', 'border-color': 'var(--gold)'}`.
+- `.record-number` · `base` · `assets/source/styles/main.css`: `{'font-variant-numeric': 'tabular-nums', 'flex-shrink': '0'}`.
+- `.index-rail p` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `main` · `base` · `assets/source/styles/main.css`: `{'padding': '24px 0 36px 32px', 'min-width': '0', 'min-height': 'calc(100vh - 158px)'}`.
+- `.breadcrumbs` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '20px', 'font-size': '18px', 'margin-bottom': '22px'}`.
+- `.breadcrumbs a` · `base` · `assets/source/styles/main.css`: `{'text-decoration': 'none'}`.
+- `.hero` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.17fr 1fr', 'gap': '36px', 'align-items': 'center'}`.
+- `.hero h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '54px', 'max-width': '540px', 'white-space': 'pre-line'}`.
+- `.hero .deck` · `base` · `assets/source/styles/main.css`: `{'font-size': '29px', 'line-height': '1.22', 'margin': '22px 0 18px'}`.
+- `.hero-copy>p:not(.notice)` · `base` · `assets/source/styles/main.css`: `{'max-width': '580px'}`.
+- `.hero .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '405px'}`.
+- `.media-well` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--well)', 'display': 'flex', 'align-items': 'center', 'justify-content': 'center', 'width': '100%', 'min-width': '0', 'overflow': 'hidden'}`.
+- `.media-well img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': '100%', 'object-fit': 'contain'}`.
+- `.hero .media-well img[src$="paper.png"],.record-study .media-well img[src$="paper.png"]` · `base` · `assets/source/styles/main.css`: `{'width': '92%', 'height': '92%'}`.
+- `.actions` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '30px', 'align-items': 'center', 'flex-wrap': 'wrap', 'margin': '28px 0 24px', 'font-size': '18px'}`.
+- `.notice,figcaption,.record-basis` · `base` · `assets/source/styles/main.css`: `{'font-size': '16px', 'line-height': '1.4', 'color': '#466176'}`.
+- `.notice` · `base` · `assets/source/styles/main.css`: `{'margin': '16px 0 0'}`.
+- `.collection-list` · `base` · `assets/source/styles/main.css`: `{'border-top': '1px solid var(--rule)', 'margin-top': '30px', 'padding-top': '22px'}`.
+- `.collection-list h2` · `base` · `assets/source/styles/main.css`: `{'margin-bottom': '14px'}`.
+- `.index-row` · `base` · `assets/source/styles/main.css`: `{'border-top': '1px solid var(--rule)', 'display': 'grid', 'grid-template-columns': '44px 1.3fr .75fr 1fr', 'gap': '20px', 'align-items': 'center', 'padding': '14px 0', 'font-size': '18px'}`.
+- `.index-row:last-child` · `base` · `assets/source/styles/main.css`: `{'border-bottom': '1px solid var(--rule)'}`.
+- `.index-row>.record-number` · `base` · `assets/source/styles/main.css`: `{'font': '600 24px var(--display)', 'color': 'var(--gold-text)'}`.
+- `.index-row h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.index-row h3 a` · `base` · `assets/source/styles/main.css`: `{'color': 'var(--ink)', 'text-decoration': 'none'}`.
+- `.index-row h3 a:hover` · `base` · `assets/source/styles/main.css`: `{'text-decoration': 'underline'}`.
+- `.outline-link` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block', 'margin-top': '20px', 'font-size': '18px'}`.
+- `.record-heading` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'start', 'gap': '28px', 'margin': '0 0 26px'}`.
+- `.big-number` · `base` · `assets/source/styles/main.css`: `{'font': '400 62px/1 var(--display)', 'color': 'var(--gold-text)', 'padding-right': '26px', 'border-right': '1px solid var(--rule)'}`.
+- `.record-heading .family` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0 0', 'color': '#466176'}`.
+- `.record-heading .deck` · `base` · `assets/source/styles/main.css`: `{'margin': '0', 'font-size': '24px'}`.
+- `.record-study` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.17fr 1fr', 'gap': '30px'}`.
+- `.record-study .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '355px'}`.
+- `.record-study figcaption` · `base` · `assets/source/styles/main.css`: `{'margin-top': '10px'}`.
+- `.observation` · `base` · `assets/source/styles/main.css`: `{'border-left': '1px solid var(--rule)', 'padding-left': '28px'}`.
+- `.facts` · `base` · `assets/source/styles/main.css`: `{'margin': '18px 0'}`.
+- `.facts>div` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '36% 1fr', 'gap': '20px', 'border-top': '1px solid var(--rule)', 'padding': '12px 0'}`.
+- `.facts>div:last-child` · `base` · `assets/source/styles/main.css`: `{'border-bottom': '1px solid var(--rule)'}`.
+- `.facts dd` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `.observation-note` · `base` · `assets/source/styles/main.css`: `{'margin-top': '34px'}`.
+- `.observation-note:before` · `base` · `assets/source/styles/main.css`: `{'content': '""', 'display': 'block', 'width': '64px', 'height': '3px', 'background': 'var(--accent)', 'margin-bottom': '16px'}`.
+- `.source-strip` · `base` · `assets/source/styles/main.css`: `{'border-top': '1px solid var(--rule)', 'border-bottom': '1px solid var(--rule)', 'margin-top': '28px', 'padding': '22px 0'}`.
+- `.source-strip>h2` · `base` · `assets/source/styles/main.css`: `{'font': '400 16px/1.4 var(--body)', 'letter-spacing': '1.1px', 'margin-bottom': '18px'}`.
+- `.source-columns` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '.8fr 1.2fr', 'gap': '32px'}`.
+- `.source-columns h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '30px'}`.
+- `.source-columns>div:last-child` · `base` · `assets/source/styles/main.css`: `{'border-left': '1px solid var(--rule)', 'padding-left': '32px'}`.
+- `.source-columns p` · `base` · `assets/source/styles/main.css`: `{'margin': '0 0 10px'}`.
+- `.source-columns>div:first-child p` · `base` · `assets/source/styles/main.css`: `{'margin-top': '12px', 'color': '#466176'}`.
+- `.next-prev` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '30px', 'flex-wrap': 'wrap', 'margin-top': '24px', 'font-size': '18px'}`.
+- `.deck` · `base` · `assets/source/styles/main.css`: `{'font-size': '26px', 'line-height': '1.35'}`.
+- `.comparison-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': '56px'}`.
+- `.comparison-heading .deck` · `base` · `assets/source/styles/main.css`: `{'margin': '10px 0 24px'}`.
+- `form` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'end', 'gap': '24px', 'margin': '0 0 26px'}`.
+- `form label` · `base` · `assets/source/styles/main.css`: `{'white-space': 'nowrap', 'display': 'flex', 'align-items': 'center', 'gap': '16px', 'flex': '1', 'font-size': '18px', 'font-weight': '600'}`.
+- `select` · `base` · `assets/source/styles/main.css`: `{'border': '1px solid var(--rule)', 'border-radius': '0', 'background': '#f8fbfc', 'padding': '12px', 'min-width': '0', 'width': '100%', 'min-height': '48px', 'font-weight': '400'}`.
+- `form button` · `base` · `assets/source/styles/main.css`: `{'flex-shrink': '0'}`.
+- `.pair-media` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '24px'}`.
+- `.pair-media .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '246px'}`.
+- `.pair-media h3` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0 2px', 'font-size': '24px'}`.
+- `.pair-media section>a` · `base` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.pair-media .notice` · `base` · `assets/source/styles/main.css`: `{'font-size': '15px', 'margin': '8px 0 18px'}`.
+- `.comparison-scroll` · `base` · `assets/source/styles/main.css`: `{'max-width': '100%', 'overflow-x': 'auto'}`.
+- `table` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'border-collapse': 'collapse', 'text-align': 'left', 'table-layout': 'fixed', 'font-size': '18px', 'line-height': '1.35'}`.
+- `th,td` · `base` · `assets/source/styles/main.css`: `{'padding': '10px 12px', 'border-top': '1px solid var(--rule)', 'vertical-align': 'top', 'overflow-wrap': 'anywhere'}`.
+- `tr:last-child` · `base` · `assets/source/styles/main.css`: `{'border-bottom': '1px solid var(--rule)'}`.
+- `th` · `base` · `assets/source/styles/main.css`: `{'font-weight': '600'}`.
+- `thead th:first-child,tbody th` · `base` · `assets/source/styles/main.css`: `{'width': '22%'}`.
+- `.state-notice` · `base` · `assets/source/styles/main.css`: `{'border-left': '3px solid var(--gold)', 'padding': '10px 16px', 'margin': '0 0 20px', 'background': 'var(--well)', 'font-size': '18px'}`.
+- `.missing-image` · `base` · `assets/source/styles/main.css`: `{'color': '#466176', 'font-size': '20px', 'padding': '24px', 'text-align': 'center'}`.
+- `.reading` · `base` · `assets/source/styles/main.css`: `{'max-width': '960px'}`.
+- `.reading h1` · `base` · `assets/source/styles/main.css`: `{'max-width': '950px'}`.
+- `.reading>h2` · `base` · `assets/source/styles/main.css`: `{'margin': '38px 0 16px'}`.
+- `.reading-list` · `base` · `assets/source/styles/main.css`: `{'padding': '0 0 0 32px', 'margin': '30px 0'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/main.css`: `{'border-top': '1px solid var(--rule)', 'padding': '22px 0 22px 16px'}`.
+- `.reading-list h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `.reading-list p` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0'}`.
+- `blockquote` · `base` · `assets/source/styles/main.css`: `{'border-left': '3px solid var(--gold)', 'margin': '20px 0', 'padding': '8px 0 8px 24px', 'font-size': '24px'}`.
+- `.source-records` · `base` · `assets/source/styles/main.css`: `{'padding-left': '24px'}`.
+- `.source-records li` · `base` · `assets/source/styles/main.css`: `{'padding': '6px 0'}`.
+- `.guide-steps` · `base` · `assets/source/styles/main.css`: `{'padding-left': '28px'}`.
+- `.guide-steps li` · `base` · `assets/source/styles/main.css`: `{'padding': '20px 0 20px 10px', 'border-top': '1px solid var(--rule)', 'break-inside': 'avoid'}`.
+- `.guide h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `.guide p` · `base` · `assets/source/styles/main.css`: `{'line-height': '1.55'}`.
+- `code` · `base` · `assets/source/styles/main.css`: `{'font-size': '.88em', 'background': 'var(--well)', 'padding': '1px 4px', 'overflow-wrap': 'anywhere'}`.
+- `pre` · `base` · `assets/source/styles/main.css`: `{'background': 'var(--well)', 'padding': '16px', 'white-space': 'pre-wrap', 'overflow-wrap': 'anywhere'}`.
+- `.blank-state` · `base` · `assets/source/styles/main.css`: `{'max-width': '760px', 'padding': '20px 0'}`.
+- `.blank-state h2` · `base` · `assets/source/styles/main.css`: `{'margin': '50px 0 20px'}`.
+- `footer` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '32px', 'padding': '18px 0 24px', 'border-top': '1px solid var(--rule)', 'font-size': '14px', 'color': '#466176'}`.
+- `footer>p` · `base` · `assets/source/styles/main.css`: `{'margin': '0', 'max-width': '58%'}`.
+- `footer>div` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '20px'}`.
+- `footer a` · `base` · `assets/source/styles/main.css`: `{'white-space': 'nowrap'}`.
+- `.sr-only` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'overflow': 'hidden', 'clip-path': 'inset(50%)', 'white-space': 'nowrap'}`.
+- `.skip-link` · `base` · `assets/source/styles/main.css`: `{'position': 'fixed', 'top': '-100px', 'left': '12px', 'z-index': '10', 'padding': '12px', 'background': 'var(--ink)', 'color': 'white'}`.
+- `.skip-link:focus` · `base` · `assets/source/styles/main.css`: `{'top': '12px'}`.
+- `.site` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'padding': '0 24px'}`.
+- `.atlas-layout` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '190px minmax(0,1fr)'}`.
+- `main` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'padding-left': '24px'}`.
+- `.hero` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '24px', 'grid-template-columns': '1fr 1fr'}`.
+- `.hero h1` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '44px'}`.
+- `.hero .deck` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '26px'}`.
+- `.hero .media-well` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'height': '360px'}`.
+- `.actions` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '18px'}`.
+- `.index-row` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '32px 1.3fr .7fr 1fr', 'gap': '12px'}`.
+- `.index-row h3` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '20px'}`.
+- `form` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '16px'}`.
+- `form label` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `form select` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'margin-top': '6px'}`.
+- `.record-heading h1` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '52px'}`.
+- `.record-study` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr 1fr', 'gap': '24px'}`.
+- `.record-study .media-well` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'height': '320px'}`.
+- `.observation` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'padding-left': '24px'}`.
+- `h2` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'font-size': '28px'}`.
+- `body` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '18px'}`.
+- `.site` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '0 20px'}`.
+- `.masthead` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'padding': '18px 0 12px', 'min-height': '0'}`.
+- `.brand` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '26px'}`.
+- `.masthead nav` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '24px', 'flex-wrap': 'wrap', 'margin-top': '16px', 'font-size': '17px'}`.
+- `.masthead nav a` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '4px 0'}`.
+- `.atlas-layout` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.index-rail` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'border-right': '0', 'border-bottom': '1px solid var(--rule)', 'padding': '20px 0 12px'}`.
+- `.index-rail h2` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin-bottom': '8px'}`.
+- `.index-rail ol` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 12px'}`.
+- `.index-rail a` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px', 'gap': '8px', 'margin': '0', 'padding': '10px 6px'}`.
+- `.index-rail p` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '6px 0'}`.
+- `main` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '20px 0 30px', 'min-height': '0'}`.
+- `.breadcrumbs` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px', 'margin-bottom': '20px'}`.
+- `.hero` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'flex', 'flex-direction': 'column-reverse', 'gap': '22px', 'align-items': 'stretch'}`.
+- `.hero h1,h1,.record-heading h1,.comparison-heading h1` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '40px', 'letter-spacing': '-1.4px'}`.
+- `.hero .deck,.deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '23px'}`.
+- `.hero .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '270px'}`.
+- `.hero .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '18px 0 12px'}`.
+- `.actions` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '22px 0'}`.
+- `.hero .notice` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '16px'}`.
+- `.collection-list` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin-top': '24px'}`.
+- `.index-row` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '28px 1fr', 'gap': '6px 12px', 'align-items': 'start', 'padding': '16px 0'}`.
+- `.index-row>span:nth-child(3),.index-row>span:nth-child(4)` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'grid-column': '2'}`.
+- `.index-row h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.record-heading` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '18px'}`.
+- `.big-number` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '42px', 'padding-right': '16px'}`.
+- `.record-heading .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '21px'}`.
+- `.record-study` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.record-study .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '280px'}`.
+- `.observation` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'border-left': '0', 'padding': '26px 0 0'}`.
+- `.source-columns` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.source-columns>div:last-child` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'border-left': '0', 'padding': '20px 0 0'}`.
+- `.source-columns h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '27px'}`.
+- `.next-prev` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '20px'}`.
+- `form` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `form label` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'margin': '0 0 14px'}`.
+- `form button` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'width': '100%'}`.
+- `.comparison-heading .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '22px'}`.
+- `.pair-media` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '16px'}`.
+- `.pair-media .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '180px'}`.
+- `.pair-media h3` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '21px', 'overflow-wrap': 'anywhere'}`.
+- `.pair-media .notice` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '15px'}`.
+- `table` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'min-width': '560px', 'font-size': '17px'}`.
+- `th,td` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '10px'}`.
+- `.reading h1` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '40px'}`.
+- `.reading h2` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'font-size': '27px'}`.
+- `.reading-list` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding-left': '20px'}`.
+- `.reading-list>li` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding-left': '4px'}`.
+- `.guide-steps` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding-left': '20px'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'font-size': '14px', 'padding': '20px 0'}`.
+- `footer>p` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'max-width': 'none', 'margin-bottom': '16px'}`.
+- `footer>div` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'align-items': 'start', 'gap': '16px', 'flex-wrap': 'wrap'}`.
+- `.facts>div` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '34% 1fr', 'gap': '16px'}`.
+- `*` · `@media (prefers-reduced-motion:reduce)` · `assets/source/styles/main.css`: `{'scroll-behavior': 'auto'}`.
+- `.media-well:has(img[src$="clay.png"]),.media-well:has(img[src$="cord.png"])` · `base` · `assets/source/styles/main.css`: `{'background': '#eaf1f2'}`.
+- `.table-hint` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.table-hint` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'font-size': '16px', 'color': '#466176', 'margin': '12px 0'}`.
+- `form label` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'white-space': 'normal'}`.
+- `html` · `base` · `assets/source/styles/print.css`: `{'background': 'white', 'color': '#172e3e'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'line-height': '1.4'}`.
+- `.site` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `.masthead` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '0 0 8mm'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.masthead nav,.index-rail,.skip-link,form,.breadcrumbs,.next-prev,.outline-link,#static-notice,#comparison-status` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.atlas-layout` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `main` · `base` · `assets/source/styles/print.css`: `{'padding': '8mm 0', 'min-height': '0'}`.
+- `.hero` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.hero-copy` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.hero h1,h1,.comparison-heading h1,.record-heading h1,.reading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt', 'letter-spacing': '-.5pt'}`.
+- `.hero .deck,.deck` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.hero .specimen-media` · `base` · `assets/source/styles/print.css`: `{'float': 'right', 'width': '45%', 'margin': '0 0 5mm 6mm'}`.
+- `.hero .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '55mm'}`.
+- `.actions` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.collection-list` · `base` · `assets/source/styles/print.css`: `{'clear': 'both', 'margin-top': '8mm', 'padding-top': '5mm'}`.
+- `.index-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '10mm 1.3fr .8fr 1fr', 'gap': '4mm', 'font-size': '10pt', 'padding': '4mm 0'}`.
+- `.index-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.collection-list h2,h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.record-heading` · `base` · `assets/source/styles/print.css`: `{'margin-bottom': '6mm'}`.
+- `.big-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '29pt'}`.
+- `.record-heading .deck` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.record-study` · `base` · `assets/source/styles/print.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '6mm'}`.
+- `.record-study .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '58mm'}`.
+- `.record-study figcaption,.notice,figcaption,.record-basis` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.observation` · `base` · `assets/source/styles/print.css`: `{'padding-left': '5mm'}`.
+- `.observation h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0', 'gap': '3mm'}`.
+- `.observation-note` · `base` · `assets/source/styles/print.css`: `{'margin-top': '6mm'}`.
+- `.source-strip` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid', 'margin-top': '6mm', 'padding': '5mm 0'}`.
+- `.source-columns` · `base` · `assets/source/styles/print.css`: `{'gap': '6mm'}`.
+- `.source-columns h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.source-columns>div:last-child` · `base` · `assets/source/styles/print.css`: `{'padding-left': '6mm'}`.
+- `.source-columns p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.pair-media` · `base` · `assets/source/styles/print.css`: `{'gap': '5mm', 'break-inside': 'avoid'}`.
+- `.pair-media .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '48mm'}`.
+- `.pair-media h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.pair-media section>a` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.pair-media .notice` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.comparison-scroll` · `base` · `assets/source/styles/print.css`: `{'overflow': 'visible'}`.
+- `table` · `base` · `assets/source/styles/print.css`: `{'min-width': '0', 'font-size': '10pt', 'table-layout': 'fixed'}`.
+- `th,td` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm', 'overflow-wrap': 'anywhere'}`.
+- `thead` · `base` · `assets/source/styles/print.css`: `{'display': 'table-header-group'}`.
+- `tr` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.state-notice` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.reading` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.reading>h2` · `base` · `assets/source/styles/print.css`: `{'margin': '7mm 0 3mm'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid', 'padding': '4mm 0'}`.
+- `.reading-list h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.guide-steps li` · `base` · `assets/source/styles/print.css`: `{'padding': '4mm 0', 'break-inside': 'auto'}`.
+- `.guide h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt', 'break-after': 'avoid'}`.
+- `.guide p` · `base` · `assets/source/styles/print.css`: `{'line-height': '1.45'}`.
+- `pre` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'padding': '3mm', 'break-inside': 'avoid'}`.
+- `blockquote` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'font-size': '9pt', 'break-inside': 'avoid', 'padding-top': '4mm'}`.
+- `footer>p` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'margin-bottom': '3mm'}`.
+- `footer>div` · `base` · `assets/source/styles/print.css`: `{'display': 'flex'}`.
+- `a` · `base` · `assets/source/styles/print.css`: `{'color': '#173e59'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/print.css`: `{'break-after': 'avoid'}`.
+- `img` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.blank-state h2` · `base` · `assets/source/styles/print.css`: `{'margin': '8mm 0 4mm'}`.
+- `.missing-image` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.table-hint` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.reading-list` · `base` · `assets/source/styles/print.css`: `{'margin': '4mm 0'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/print.css`: `{'padding': '2.5mm 0'}`.
+- `.reading-list p` · `base` · `assets/source/styles/print.css`: `{'margin': '1.5mm 0'}`.
+- `.masthead` · `base` · `assets/source/styles/print.css`: `{'padding-bottom': '6mm'}`.
+- `main` · `base` · `assets/source/styles/print.css`: `{'padding': '6mm 0 3mm'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'padding': '2.5mm 0'}`.
+- `.source-strip` · `base` · `assets/source/styles/print.css`: `{'margin-top': '4mm', 'padding': '3mm 0'}`.
+- `th,td` · `base` · `assets/source/styles/print.css`: `{'padding': '2mm 3mm'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'padding-top': '3mm'}`.
+- `.facts` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0'}`.
+- `.observation-note` · `base` · `assets/source/styles/print.css`: `{'margin-top': '3mm'}`.
+- `.observation-note:before` · `base` · `assets/source/styles/print.css`: `{'margin-bottom': '2mm'}`.
+- `.source-strip>h2` · `base` · `assets/source/styles/print.css`: `{'margin-bottom': '3mm'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'padding-bottom': '0'}`.
+
+Media/font files: assets/clay.png, assets/cord.png, assets/paper.png.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

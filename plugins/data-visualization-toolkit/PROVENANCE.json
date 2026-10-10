@@ -1,6 +1,6 @@
 {
   "package": "data-visualization-toolkit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "scope": "All shipped files except this self-describing inventory;external archive receipt includes its hash. Exact no-grant libraries and private data/routing excluded.",
   "files": [
     {
@@ -8,7 +8,7 @@
       "bytes": 385,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "3553e83bef325d9a1d53cbb68384f1bd42d08a556b2d1167497bd697809dceca",
+      "output_sha256": "6cc3bf3308f8b44562f6981c491f28a180e872e88ae0b0283c6aae1f4938383b",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -19,7 +19,7 @@
       "bytes": 1108,
       "source_relative": "canonical-data-visualization-toolkit/.codex-plugin/plugin.json",
       "source_sha256": "7a6456ff7c9d22f337c028dd8aaeae4ebacffc2743698ff4ffef5e3167cf64ad",
-      "output_sha256": "b282ad6b8ca0fdaf98d8b2cf98138af155afb8a5f7afba8c531d085ac9c93ac6",
+      "output_sha256": "15c42d94be643b50b5992189400362bd4885354cd61e24eac53122e08bc0a20e",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -46,6 +46,17 @@
       "license": "MIT",
       "license_notice": "LICENSE",
       "status": "modified"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
+      "license": "MIT",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition",
+      "bytes": 708,
+      "output_sha256": "16b9480e3f45445a2d9e243470d1f77a1bfa8804384377fa24424f4f3a5c83e5"
     },
     {
       "path": "LICENSE",
@@ -170,10 +181,10 @@
     },
     {
       "path": "examples/sample_stdio.py",
-      "bytes": 2193,
+      "bytes": 3214,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "e1b4a118fc40420533038297949c195dea9805344b00212e5b3c4856cbc2f285",
+      "output_sha256": "2b648dbe66bc37599c9981f4ffd2804f5718a143893ec7b85908d24b34e17349",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -1995,11 +2006,22 @@
       "status": "unchanged"
     },
     {
+      "path": "mcp.json",
+      "bytes": 338,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "186563127819865fc88c8c1c2c144d45bdda9aa5114dfaf2936947f2d2f4fd2d",
+      "rights": "Jonathan Kyle Hobson original portable MCP configuration",
+      "license": "MIT",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
       "path": "plugin.json",
       "bytes": 1380,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "087fae0b249d18b85c2f6ab4e85ad3c1f5076bda1c73ce66f738f2b6b7770f76",
+      "output_sha256": "4cf39e9ac6c5f7e1efd6f129dbee86b2696badd2aac01319d6fad2e77cfde261",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -2172,10 +2194,10 @@
     },
     {
       "path": "runtime/data-explorer/requirements.txt",
-      "bytes": 12,
+      "bytes": 30,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "2be59ec00f23de78b8bb79ca54619150d7669a6e6f14558ecf9b006129a8d0d9",
+      "output_sha256": "a942e821aeefd4f48b71df2d1a3ea80e682c50dbebffb84711ea356289859c95",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -2183,10 +2205,10 @@
     },
     {
       "path": "runtime/data-explorer/server.py",
-      "bytes": 5070,
+      "bytes": 6739,
       "source_relative": "firstparty-data-explorer/server.py",
       "source_sha256": "252d2d9d5727b4e0c8ae133476e3c7315941dd8282c4b35961803432f92fa902",
-      "output_sha256": "b01ca0cbae2f12790a8787b2eac8c45a39eeb4cf18bb93d2e6bfc0866905a014",
+      "output_sha256": "f5f1d365aa052d17bc1830c2f212916d869fefe1eb6bd3aa12abcba28b64f2f4",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -2202,6 +2224,17 @@
       "license": "MIT",
       "license_notice": "LICENSE",
       "status": "unchanged"
+    },
+    {
+      "path": "runtime/data-explorer/tests/test_create_schema.py",
+      "source_relative": null,
+      "source_sha256": null,
+      "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
+      "license": "MIT",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition",
+      "bytes": 3480,
+      "output_sha256": "52e78107ca71db2c6fa1494d1bd029c902883d4b3f483101c5395aed111a4316"
     },
     {
       "path": "runtime/data-explorer/tests/test_explorer.py",
@@ -2274,7 +2307,7 @@
       "bytes": 1428,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "2cadc6568d0a5baab01caf3f800f32951def0092e4130400cf226edb7079d003",
+      "output_sha256": "bbd93366a0fe91d9558e72e1345f179f817559693e6a4a043ac832715f367d32",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license": "MIT",
       "license_notice": "LICENSE",
@@ -2939,17 +2972,6 @@
       "license": "MIT",
       "license_notice": "third-party/npm/dependency-notices.json",
       "status": "unchanged"
-    },
-    {
-      "path": "mcp.json",
-      "bytes": 338,
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "186563127819865fc88c8c1c2c144d45bdda9aa5114dfaf2936947f2d2f4fd2d",
-      "rights": "Jonathan Kyle Hobson original portable MCP configuration",
-      "license": "MIT",
-      "license_notice": "LICENSE",
-      "status": "original-public-addition"
     }
   ],
   "public_patch": {

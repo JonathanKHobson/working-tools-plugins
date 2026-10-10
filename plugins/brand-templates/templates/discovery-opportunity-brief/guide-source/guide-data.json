@@ -1,0 +1,139 @@
+{
+  "id": "discovery-opportunity-brief",
+  "name": "Before the Journey",
+  "summary": "A discovery identity that makes a practical user problem concrete before proposing a solution.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Evidence header",
+      "role": "primary",
+      "hex": "#653B21",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #653B21; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Evidence row",
+      "role": "surface",
+      "hex": "#FAF0DB",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #FAF0DB; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Fieldnote band",
+      "role": "accent",
+      "hex": "#F4D69B",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F4D69B; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Rockwell",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style FieldNote."
+    }
+  ],
+  "recognitionRules": [
+    "Open with the outcome people need in a strong Rockwell-accented hierarchy.",
+    "Use fieldnote labels and a clear opportunity number.",
+    "Keep observation, interpretation and proposed response in separate blocks.",
+    "Use amber fieldnote bands and brown table headers to organize evidence, retaining black reading text and explicit source labels."
+  ],
+  "voice": {
+    "traits": [
+      "empathetic",
+      "specific",
+      "exploratory"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Before someone sets out, make the next step clear.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use BEFORE THE JOURNEY in Rockwell with a small monospaced opportunity number. No compass or map pin.",
+  "invariants": [
+    "Open with the outcome people need in a strong Rockwell-accented hierarchy.",
+    "Use fieldnote labels and a clear opportunity number.",
+    "Keep observation, interpretation and proposed response in separate blocks."
+  ],
+  "adaptations": [
+    "A new opportunity changes the headline and evidence together.",
+    "A one-page version retains the user outcome and uncertainty.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Rockwell",
+      "renderFamily": "Zilla Slab",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/zilla-slab/ZillaSlab-Regular.ttf",
+      "bold": "assets/fonts/zilla-slab/ZillaSlab-Bold.ttf",
+      "license": "assets/fonts/zilla-slab/OFL.txt",
+      "sourceFontDependency": "Rockwell is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

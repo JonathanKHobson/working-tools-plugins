@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "id": "portfolio-case-study-site",
+    "name": "Case Notes",
+    "templateIds": [
+      "portfolio-case-study-site"
+    ],
+    "category": "Portfolio & career",
+    "summary": "A portfolio identity that treats a case as an inspectable piece of work, with clear authorship, artifacts and reflection.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#F5F2EC",
+        "evidence": ":root --paper; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#292923",
+        "evidence": ":root --ink; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Primary",
+        "role": "primary",
+        "hex": "#973B2B",
+        "evidence": ":root --accent; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Surface",
+        "role": "surface",
+        "hex": "#E9E5DC",
+        "evidence": ":root --surface; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Rule",
+        "role": "rule",
+        "hex": "#B8B4AA",
+        "evidence": ":root --rule; reusable role derives from source variable and usage"
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#5D5C53",
+        "evidence": ":root --muted; reusable role derives from source variable and usage"
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Baskerville,Georgia,serif",
+        "usage": "Titles and short section openings; source .reflection."
+      },
+      {
+        "role": "body",
+        "family": "\"Avenir Next\",Avenir,system-ui,sans-serif",
+        "usage": "Reading text, supporting labels and detailed explanations; source font rules."
+      }
+    ],
+    "recognitionRules": [
+      "Use warm paper, serif case titles and a restrained sans-serif navigation frame.",
+      "Keep project facts and disclosure near the opening.",
+      "Attach captions to every artifact and distinguish evidence from reflection.",
+      "Use rust for editorial emphasis and green for focus states, not interchangeable brand decoration."
+    ],
+    "voice": {
+      "traits": [
+        "reflective",
+        "precise",
+        "evidence-minded"
+      ],
+      "principles": [
+        "Name the work and the contribution before describing personal qualities.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Here is the work, the part I owned and the question it leaves open.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "I made this part; the team decided what happened next.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Retain CASE NOTES as an Avenir wordmark with a small case number after a slash. No standalone symbol.",
+    "invariants": [
+      "Use warm paper, serif case titles and a restrained sans-serif navigation frame.",
+      "Keep project facts and disclosure near the opening.",
+      "Attach captions to every artifact and distinguish evidence from reflection."
+    ],
+    "adaptations": [
+      "A case excerpt retains contribution and disclosure before images.",
+      "Mobile pages stack the lead and facts without changing their order.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "portfolio-case-study-site",
+      "displayName": "Portfolio Case Study",
+      "format": "site",
+      "nameSignals": [
+        "{{TITLE}} | Skip to case study",
+        "brand | CASE NOTES | / 05 | Work | Evidence | Reflection | {{CASE}} | SPECIMEN DETAIL",
+        "dialog-title | Close | × | View actual size | Fit view shows the whole specimen. | Specimen image unavailable. Its caption and full text remain below. | Specimen text"
+      ],
+      "nameStatus": "Name retained from a fictional source specimen; not a real-world organization claim.",
+      "fingerprint": "69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df",
+      "evidence": [
+        "installed-skills/artifact-template-studio-portfolio-case-study-site/SKILL.md",
+        "installed-skills/artifact-template-studio-portfolio-case-study-site/DESIGN.md",
+        "installed-skills/artifact-template-studio-portfolio-case-study-site/design/foundations.json",
+        "installed-skills/artifact-template-studio-portfolio-case-study-site/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "src/styles.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-18",
+          "location": "src/styles.css:.site-header",
+          "observation": "{'max-width': '1440px', 'margin': 'auto', 'display': 'flex', 'justify-content': 'space-between', 'gap': '2rem', 'padding': '1.5rem 3rem', 'border-bottom': '1px solid var(--rule)'}"
+        },
+        {
+          "id": "source-109",
+          "location": "src/styles.css:.site-header",
+          "observation": "{'padding': '1rem 2rem'}"
+        },
+        {
+          "id": "source-119",
+          "location": "src/styles.css:.site-header",
+          "observation": "{'padding': '1rem 1.25rem', 'flex-direction': 'column', 'gap': '.4rem'}"
+        }
+      ],
+      "editorialSource": {
+        "overview": "A single-page case study with a 1440 px content cap, warm paper #f5f2ec, ink #292923 and rust accent #973b2b. A serif hero leads into a paired lead/disclosure area, three-column facts, specimen stages, context, evidence, outcome and credits. An artifact dialog supports closer image inspection.",
+        "invariants": [
+          "Base colors are defined in :root variables in src/styles.css. The print scope overrides --paper to #fff and --surface to #eeece6; additional literal rule colors also exist and are documented by selector.",
+          "Headings use the Baskerville/Georgia serif stack; body uses the Avenir Next/Avenir/system-ui stack at 16 px and 1.6 line height. Actual installed faces can differ by viewer.",
+          "The source has responsive scopes at 1000 px and 650 px plus print rules. The main reading order runs from #overview through #work, #decisions, #evidence, #outcome and #credits."
+        ],
+        "adaptationChecks": [
+          "Inspect desktop, 1000 px and 650 px widths for the lead, facts and evidence grids, then check print pagination and image sizing.",
+          "Test the artifact dialog, zoom, keyboard close, visible focus, skip link, transcript disclosure and failed-image fallback after changes.",
+          "Keep specimen captions, source status and alt text tied to actual evidence. Confirm replacement asset rights; CSS system font stacks do not themselves establish licensing for redistributed font files."
+        ]
+      },
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/portfolio-case-study-site-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#292923",
+        "background": "#F5F2EC",
+        "contrastRatio": 13.09,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "portfolio-case-study-site",
+      "name": "Portfolio Case Study",
+      "format": "site",
+      "sourceHash": "69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df",
+      "foundationSha256": "638067ce3a22ffdccc55ee2846536520ddee19347759e1f391faa466a92989da",
+      "designSpecSha256": "69a455872529de38c2fa95ba517108e601ceaa0493da724dc9a7ca288835d42f",
+      "referenceDirectory": "references/portfolio-case-study-site"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Retain CASE NOTES as an Avenir wordmark with a small case number after a slash. No standalone symbol.",
+    "productionMethod": "Brand-specific outlined typography with none source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "decision": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source .reflection.",
+      "sourceFamily": "Baskerville,Georgia,serif",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "portfolio-case-study-site",
+      "sourceFingerprint": "69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source font rules.",
+      "sourceFamily": "\"Avenir Next\",Avenir,system-ui,sans-serif",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "portfolio-case-study-site",
+      "sourceFingerprint": "69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

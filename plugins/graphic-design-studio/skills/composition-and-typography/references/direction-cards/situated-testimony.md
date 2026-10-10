@@ -1,0 +1,13 @@
+# Conditional art-direction card
+
+Integrated 2026-09-30 as original transfer guidance. Read the full card for its task. These are contextual mechanisms, not named-artist presets or evidence of a universal aesthetic advantage. Historical interpretation, rights and user-test limits travel with the method.
+
+## DC4 — Situated testimony
+
+**Prompt:** A project is about a place or community with histories that affect the message. **Audience relationship:** participant whose experience may enter the work, under a consent and editorial process. **Hierarchy:** community-authored testimony or a verified place fact leads; organizer explanation supports it. **Type:** quotations readable, attributed as agreed; display does not disguise the speaker. **Image/material:** locally gathered language and site features only when rights/consent permit. **Rhythm/density:** multiple voices can coexist without one being reduced to a decorative quote. **Color/motion:** chosen with participants and site context; no inherited activist palette.
+
+**Precedent/limit:** Yale identifies de Bretteville's *Biddy Mason: Time and Place* as public work in Los Angeles [S01]. Goldstein describes *Remembering Little Tokyo* and the A Train station as works incorporating community histories and words [S04]. These are distinct sites and communities; the mechanism is listening, negotiation and situated display, not lifting their iconography. **Example:** for a learning-commons wall, invite three consented neighbor statements about why they teach or learn, allow correction and withdrawal before print, and pair them with the actual open-house facts. **Counterexample:** invented testimonial copy presented as a resident quote. **Transfer:** a dashboard may include attributed qualitative context beside metrics, with privacy protections and clear distinction from measured data. **Rights:** do not invent, scrape or reuse community stories. **Test:** speaker signoff and audience comprehension; ask whether a quote's context survives.
+
+## Installed evidence and examples
+
+[Source ledger](../../assets/art-direction/sources.json), [evaluation tasks](../../assets/art-direction/same-brief-visual-review.md), [executed render checks](../../assets/art-direction/public-review.md). Original same-fact examples: [open grid](../../assets/art-direction/examples/direction-a-open-grid.html), [public broadside](../../assets/art-direction/examples/direction-b-street-broadside.html), [time routes](../../assets/art-direction/examples/direction-c-time-routes.html). These demonstrate composition choices, not real community participation or reader-performance improvements. The source ledger preserves date disagreements and limits of inspected precedents; no historical artwork is included.

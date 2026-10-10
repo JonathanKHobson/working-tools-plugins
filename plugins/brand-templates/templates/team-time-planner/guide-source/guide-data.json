@@ -1,0 +1,190 @@
+{
+  "id": "team-time-planner",
+  "name": "Time Together",
+  "summary": "A team-planning identity that makes effort, timing and dependencies visible without treating every hour as interchangeable capacity.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#243746",
+      "evidence": "used style 22 font color"
+    },
+    {
+      "name": "Input Surface",
+      "role": "input-surface",
+      "hex": "#FFF2CC",
+      "evidence": "used style 16 fill at Availability!A5, Availability!A6"
+    },
+    {
+      "name": "Surface",
+      "role": "surface",
+      "hex": "#EBE4EE",
+      "evidence": "used style 21 fill at Weekly plan!B7, Weekly plan!C7"
+    }
+  ],
+  "conditionalColors": [
+    {
+      "name": "State surface / Over",
+      "role": "conditional-fill",
+      "hex": "#FCE5E1",
+      "sourceRules": [
+        {
+          "range": "Weekly plan!B10:F10",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Weekly plan!B14:F14",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Weekly plan!B18:F18",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Tasks!F5:F15",
+          "condition": "Unassigned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "Over; Unassigned",
+      "source": "reference.xlsx conditional formatting: Weekly plan!B10:F10, Weekly plan!B14:F14, Weekly plan!B18:F18, Tasks!F5:F15"
+    },
+    {
+      "name": "State text / Over",
+      "role": "conditional-text",
+      "hex": "#8B251A",
+      "sourceRules": [
+        {
+          "range": "Weekly plan!B10:F10",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Weekly plan!B14:F14",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Weekly plan!B18:F18",
+          "condition": "Over",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Tasks!F5:F15",
+          "condition": "Unassigned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "Over; Unassigned",
+      "source": "reference.xlsx conditional formatting: Weekly plan!B10:F10, Weekly plan!B14:F14, Weekly plan!B18:F18, Tasks!F5:F15"
+    }
+  ],
+  "typography": [
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style 4."
+    }
+  ],
+  "recognitionRules": [
+    "Use slate headers with pale lavender working areas.",
+    "Keep amber editable planning cells distinct from calculated fields.",
+    "Align people, weeks and tasks in a stable matrix.",
+    "Show the planning period and assumptions above the table.",
+    "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents.",
+    "Keep lavender person blocks and amber editable inputs; over-capacity and unassigned states use pink/red conditional warnings."
+  ],
+  "voice": {
+    "traits": [
+      "realistic",
+      "cooperative",
+      "clear"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Make the time visible before making the promise.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use TIME TOGETHER in Arial with four equal short weekly rules. No clock or stopwatch icon.",
+  "invariants": [
+    "Use slate headers with pale lavender working areas.",
+    "Keep amber editable planning cells distinct from calculated fields.",
+    "Align people, weeks and tasks in a stable matrix."
+  ],
+  "adaptations": [
+    "A meeting view can focus on the current week and next dependency.",
+    "Retain assumptions when exporting totals.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "spreadsheet",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

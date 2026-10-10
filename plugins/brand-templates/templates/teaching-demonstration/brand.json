@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "teaching-demonstration",
+  "version": "0.2.1",
+  "name": "A Task to Try",
+  "summary": "A teaching identity that makes an observable action, a material set and a reasoned choice visible to learners.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Teaching & learning"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "teaching-demonstration"
+  ],
+  "sourceTemplateNames": {
+    "teaching-demonstration": "Teaching Demonstration"
+  },
+  "templateVariations": [
+    {
+      "templateId": "teaching-demonstration",
+      "name": "Teaching Demonstration",
+      "format": "presentation",
+      "sourceHash": "36e87a36cea8e101fa530716f2d8e1d0f3af28c52bea939314abc9fbfa4af292",
+      "foundationSha256": "82ffa3f943853f89db82d909918e258a7c1628e631d6ab11fc9774cc00b2e325",
+      "designSpecSha256": "61ebef80e30c631517abd0b6d861bfd6799f765a6e8fbfd4c1789db6b11c50ad",
+      "referenceDirectory": "references/teaching-demonstration"
+    }
+  ],
+  "sourceHash": "36e87a36cea8e101fa530716f2d8e1d0f3af28c52bea939314abc9fbfa4af292",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F1EDFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#211B39",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#5835B7",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#D6EF70",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Trebuchet MS",
+      "usage": "Titles and short section openings; source slide 9 / headline."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / headline.",
+      "sourceFamily": "Trebuchet MS",
+      "sourceFamilySelected": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Trebuchet MS is a separately licensed Microsoft/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "teaching-demonstration",
+      "sourceFingerprint": "36e87a36cea8e101fa530716f2d8e1d0f3af28c52bea939314abc9fbfa4af292"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "teaching-demonstration",
+      "sourceFingerprint": "36e87a36cea8e101fa530716f2d8e1d0f3af28c52bea939314abc9fbfa4af292"
+    }
+  ],
+  "recognitionRules": [
+    "Use a pencil-and-paper cover with a quiet text field.",
+    "Pair Trebuchet headings with Arial instructional detail.",
+    "Use violet and pale lavender with lime reserved for focused learning cues.",
+    "Show the lesson map and success criteria before practice.",
+    "Keep alternative response modes visible alongside the task."
+  ],
+  "writingLinks": [
+    {
+      "id": "V11",
+      "name": "Patient coach",
+      "reason": "Worked example and reveal sequence leading to practice and transfer.",
+      "sourceTemplateId": "teaching-demonstration",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Try the task. Name the choice. Explain the reason.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use A TASK TO TRY in Trebuchet with a short pencil-like diagonal stroke outside the wordmark. No graduation cap or achievement badge.",
+  "invariants": [
+    "Use a pencil-and-paper cover with a quiet text field.",
+    "Pair Trebuchet headings with Arial instructional detail.",
+    "Use violet and pale lavender with lime reserved for focused learning cues."
+  ],
+  "adaptations": [
+    "A short demonstration retains task, example and check.",
+    "Participant sheets remove presenter navigation while preserving success criteria.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/teaching-demonstration.pdf",
+    "preview": "media/teaching-demonstration-guide.webp",
+    "markdown": "guides/teaching-demonstration.md"
+  },
+  "bundle": {
+    "href": "bundles/teaching-demonstration-brand-kit.zip",
+    "filename": "A Task to Try brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/teaching-demonstration-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/teaching-demonstration-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/teaching-demonstration-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

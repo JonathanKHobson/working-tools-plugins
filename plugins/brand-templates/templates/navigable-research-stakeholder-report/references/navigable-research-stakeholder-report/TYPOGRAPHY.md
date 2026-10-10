@@ -1,0 +1,52 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `6c40f3b6ca2d9b9802f99e70b03193ecfe8f94028cc0dd45fb45dd5deae3a20f` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `h1,h2,h3` · `base` · `assets/source/src/styles.css`: `{'line-height': '1.18'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2rem,4.2vw,3.5rem)', 'letter-spacing': '-.035em'}`.
+- `h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.85rem', 'letter-spacing': '-.025em'}`.
+- `h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.3rem'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'font-size': '.95rem', 'line-height': '1.4'}`.
+- `.wordmark` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.35rem', 'font-weight': '800', 'letter-spacing': '.06em'}`.
+- `.wordmark span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'font-weight': '400', 'letter-spacing': '0'}`.
+- `.fictional` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'font-weight': '700', 'letter-spacing': '.035em'}`.
+- `.rail-label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'font-weight': '700', 'text-transform': 'uppercase', 'letter-spacing': '.07em'}`.
+- `.rail a` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'line-height': '1.5'}`.
+- `.rail-note` · `base` · `assets/source/src/styles.css`: `{'font-size': '.9rem', 'line-height': '1.7'}`.
+- `.eyebrow` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700', 'font-size': '.875rem', 'letter-spacing': '.08em'}`.
+- `.eyebrow span` · `base` · `assets/source/src/styles.css`: `{'font-weight': '400', 'letter-spacing': '0'}`.
+- `.answer h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.65rem'}`.
+- `.status` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'font-weight': '700', 'text-transform': 'uppercase', 'letter-spacing': '.06em'}`.
+- `.owner-note` · `base` · `assets/source/src/styles.css`: `{'font-size': '.95rem'}`.
+- `.metrics strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.6rem', 'font-weight': '700', 'line-height': '1.3', 'letter-spacing': '-.03em'}`.
+- `.metrics strong span` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.15rem', 'font-weight': '400', 'letter-spacing': '0'}`.
+- `.metrics p` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `.count-basis` · `base` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `.limit-strip strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '.95rem'}`.
+- `.finding-label` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700', 'font-size': '.95rem'}`.
+- `.finding-label span` · `base` · `assets/source/src/styles.css`: `{'font-weight': '400', 'font-size': '.875rem'}`.
+- `.finding h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem'}`.
+- `.field dt` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700', 'font-size': '.95rem'}`.
+- `summary` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700', 'line-height': '1.5'}`.
+- `.decision-link` · `base` · `assets/source/src/styles.css`: `{'font-size': '.95rem'}`.
+- `#record-status` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.record>summary` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.05rem'}`.
+- `.source-locator` · `base` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `footer` · `base` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `.wordmark span` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.fictional` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.rail a` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '.95rem'}`.
+- `.answer h2` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '1.45rem'}`.
+- `.metrics strong` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '2.2rem'}`.
+- `.metrics p` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `.metrics strong span` · `@media (max-width:760px)` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `body` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.fictional` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `h1` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '25pt'}`.
+- `h2,.answer h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '17pt'}`.
+- `h3,.finding h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '14pt'}`.
+- `.metrics strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '24pt'}`.
+- `.count-basis,.owner-note,.metrics p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.status` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.field dt` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `footer` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.

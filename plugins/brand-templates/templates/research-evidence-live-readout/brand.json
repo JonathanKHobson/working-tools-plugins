@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "research-evidence-live-readout",
+  "version": "0.2.1",
+  "name": "Atlas Live Evidence",
+  "summary": "A presentation identity for explaining a bounded study aloud while keeping its scope and untested areas visible.",
+  "category": "Research & evidence",
+  "tags": [
+    "presentation",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "research-evidence-live-readout"
+  ],
+  "sourceTemplateNames": {
+    "research-evidence-live-readout": "Research Evidence Live Readout"
+  },
+  "templateVariations": [
+    {
+      "templateId": "research-evidence-live-readout",
+      "name": "Research Evidence Live Readout",
+      "format": "presentation",
+      "sourceHash": "5a84477041f0dfc11b6426bc751db96870f595fc28d445ca4ff8ef36103a7ce6",
+      "foundationSha256": "ff7aab354818bc54fd6180b42203d1794e0df206649c0c6ccce292b745a28199",
+      "designSpecSha256": "8f1f0b83cf4b93fd9e28f49a2a4da40e7c576182cbb1bfadbdcc43cc3cfaf23a",
+      "referenceDirectory": "references/research-evidence-live-readout"
+    }
+  ],
+  "sourceHash": "5a84477041f0dfc11b6426bc751db96870f595fc28d445ca4ff8ef36103a7ce6",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FCFCF8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#1E2933",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#13685F",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#475861",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F2F4F5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Evidence header",
+      "role": "header",
+      "hex": "#233642",
+      "evidence": "Native ppt/slides/slide4.xml Observed in the fixture table tcPr. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    },
+    {
+      "name": "Header labels",
+      "role": "reverse-text",
+      "hex": "#FFFFFF",
+      "evidence": "Native ppt/slides/slide4.xml Observed in the fixture run color. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source slide 8 / body."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / body."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 8 / body.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "research-evidence-live-readout",
+      "sourceFingerprint": "5a84477041f0dfc11b6426bc751db96870f595fc28d445ca4ff8ef36103a7ce6"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / body.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "research-evidence-live-readout",
+      "sourceFingerprint": "5a84477041f0dfc11b6426bc751db96870f595fc28d445ca4ff8ef36103a7ce6"
+    }
+  ],
+  "recognitionRules": [
+    "Use plain Arial with strong declarative slide titles.",
+    "Keep source and study scope in a stable lower text area.",
+    "Pair What happened and What remains untested as equally legible columns.",
+    "Reserve teal for the proposal or evidence route, not for overstating confidence."
+  ],
+  "writingLinks": [
+    {
+      "id": "V12",
+      "name": "Research register",
+      "reason": "Bounded finding presented live with its uncertainty and decision records.",
+      "sourceTemplateId": "research-evidence-live-readout",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P27",
+          "name": "Evidence-to-decision researcher",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Here is what happened in the study, and what the study cannot yet tell us.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use ATLAS LIVE EVIDENCE in Arial with a small study ID after a slash. No waveform or live-broadcast symbol.",
+  "invariants": [
+    "Use plain Arial with strong declarative slide titles.",
+    "Keep source and study scope in a stable lower text area.",
+    "Pair What happened and What remains untested as equally legible columns."
+  ],
+  "adaptations": [
+    "A recording version retains scope text at readable size.",
+    "A handout can add detail after the spoken proposition, not inside the title.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/research-evidence-live-readout.pdf",
+    "preview": "media/research-evidence-live-readout-guide.webp",
+    "markdown": "guides/research-evidence-live-readout.md"
+  },
+  "bundle": {
+    "href": "bundles/research-evidence-live-readout-brand-kit.zip",
+    "filename": "Atlas Live Evidence brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/research-evidence-live-readout-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/research-evidence-live-readout-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/research-evidence-live-readout-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

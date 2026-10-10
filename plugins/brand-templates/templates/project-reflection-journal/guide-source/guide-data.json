@@ -1,0 +1,154 @@
+{
+  "id": "project-reflection-journal",
+  "name": "A Quieter Practice",
+  "summary": "A reflective project identity that starts from one small material observation and follows it into a change worth trying.",
+  "category": "Creative practice",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Reflection label",
+      "role": "primary",
+      "hex": "#574936",
+      "evidence": "Native reference.docx word/styles.xml: style JournalLabel; text."
+    },
+    {
+      "name": "Journal link",
+      "role": "link",
+      "hex": "#304D4A",
+      "evidence": "Native reference.docx word/styles.xml: style JournalLink; text."
+    },
+    {
+      "name": "Journal rule",
+      "role": "rule",
+      "hex": "#A99E8D",
+      "evidence": "Native reference.docx word/styles.xml: style JournalRule; border."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Native Title, Heading1 and JournalOpening use Baskerville for reflective openings."
+    },
+    {
+      "role": "body",
+      "family": "Baskerville",
+      "usage": "Native Normal paragraphs use Baskerville 13 pt for sustained reflection."
+    },
+    {
+      "role": "labels",
+      "family": "Noto Sans",
+      "usage": "Heading2, JournalLabel, metadata and links use Noto Sans for the record layer."
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for reflective titles and reading paragraphs; reserve Noto Sans for record headings, metadata and links.",
+    "Keep the observation concrete before introducing an explanation.",
+    "Give the attempted change and its result separate passages.",
+    "Leave room for an image or sketch with a factual caption."
+  ],
+  "voice": {
+    "traits": [
+      "reflective",
+      "material",
+      "patient"
+    ],
+    "principles": [
+      "Let a concrete image or material action carry the opening; explain the work plainly afterward.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Notice the small thing that keeps returning. Try a change you can describe.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid abstract manifestos that displace the actual work.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Begin with one thing you can make or inspect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use A QUIETER PRACTICE in Baskerville with a short light rule below the name. No leaf or mindfulness symbol.",
+  "invariants": [
+    "Use Baskerville for reflective titles and reading paragraphs; reserve Noto Sans for record headings, metadata and links.",
+    "Keep the observation concrete before introducing an explanation.",
+    "Give the attempted change and its result separate passages."
+  ],
+  "adaptations": [
+    "A daily note may use only observation, change and reflection.",
+    "A project review can gather several dated entries without rewriting their uncertainty.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "labels",
+      "sourceFamily": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+      "bold": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+      "license": "assets/fonts/noto-sans/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

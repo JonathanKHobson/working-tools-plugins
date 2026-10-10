@@ -1,0 +1,1386 @@
+{
+  "source": "assets/reference.xlsx",
+  "kind": "spreadsheet",
+  "sourceHash": "61b90301f41bf6609e21b147032d13a3a7ee647e2660f95b455bc8c74f9539fd",
+  "sourceHashScope": "source file bytes",
+  "sourceFileHashes": {
+    "reference.xlsx": "61b90301f41bf6609e21b147032d13a3a7ee647e2660f95b455bc8c74f9539fd"
+  },
+  "sheets": [
+    {
+      "name": "Cost planner",
+      "range": "A1:H32",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "Cost scenario planner"
+        },
+        {
+          "cell": "B3",
+          "value": "Fictional production plan. Amounts are USD for one planning period."
+        },
+        {
+          "cell": "B6",
+          "value": "Case selected:"
+        },
+        {
+          "cell": "C6",
+          "value": "1"
+        },
+        {
+          "cell": "D6",
+          "value": "=IF(C6=1,\"Baseline\",IF(C6=2,\"Candidate\",\"Choose 1 or 2\"))"
+        },
+        {
+          "cell": "F6",
+          "value": "1 = Baseline 2 = Candidate"
+        },
+        {
+          "cell": "B8",
+          "value": "Assumption"
+        },
+        {
+          "cell": "C8",
+          "value": "Case"
+        },
+        {
+          "cell": "D8",
+          "value": "Value"
+        },
+        {
+          "cell": "F8",
+          "value": "Selected-case calculation"
+        },
+        {
+          "cell": "G8",
+          "value": "USD"
+        },
+        {
+          "cell": "B9",
+          "value": "Units produced and sold"
+        },
+        {
+          "cell": "C9",
+          "value": "Active Selection"
+        },
+        {
+          "cell": "D9",
+          "value": "=IF($C$6=1,IF(ISNUMBER(D10),D10,\"n.a.\"),IF($C$6=2,IF(ISNUMBER(D11),D11,\"n.a.\"),\"n.a.\"))"
+        },
+        {
+          "cell": "C10",
+          "value": "Baseline"
+        },
+        {
+          "cell": "D10",
+          "value": "120"
+        }
+      ],
+      "formulaCount": 13,
+      "formulaAnchors": [
+        "D6",
+        "D9",
+        "G10",
+        "G11",
+        "G12",
+        "D13",
+        "G13",
+        "G14",
+        "G16",
+        "D17",
+        "F18",
+        "D21"
+      ],
+      "stylesUsed": {
+        "3": 206,
+        "23": 10,
+        "42": 8,
+        "6": 6,
+        "40": 5,
+        "41": 4,
+        "5": 2,
+        "18": 2,
+        "20": 2,
+        "39": 2,
+        "4": 1,
+        "9": 1
+      },
+      "styledBlankCells": 188,
+      "blankStylesUsed": {
+        "3": 181,
+        "6": 6,
+        "40": 1
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 3.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 28.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 20.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 4.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 49.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 18.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 9.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 30,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 31,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 32,
+          "heightPt": 25.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting D9>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting D13>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting D17>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting D21>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting D25>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting F18>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting G16>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting D9>",
+          "type": "containsText",
+          "priority": 1,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting D13>",
+          "type": "containsText",
+          "priority": 2,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting D17>",
+          "type": "containsText",
+          "priority": 3,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting D21>",
+          "type": "containsText",
+          "priority": 4,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting D25>",
+          "type": "containsText",
+          "priority": 5,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting F18>",
+          "type": "notContainsText",
+          "priority": 6,
+          "formula": [],
+          "operator": null,
+          "text": "Inputs complete",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G16>",
+          "type": "containsText",
+          "priority": 7,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [
+        {
+          "range": "C6",
+          "type": "whole",
+          "formula1": "1"
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    }
+  ],
+  "directColors": [
+    "#211C19",
+    "#5A2D22",
+    "#F4EBE6",
+    "#CEBAB1",
+    "#0000CC",
+    "#FFF2CC",
+    "#FFFFFF",
+    "#006100"
+  ],
+  "conditionalColors": [
+    "#9C0006",
+    "#FFC7CE"
+  ],
+  "fonts": [
+    "Arial"
+  ],
+  "fontSizesPt": [
+    11.0,
+    17.0
+  ],
+  "styles": 45,
+  "usedStyles": [
+    {
+      "id": 3,
+      "cells": 206,
+      "styledBlankCells": 181,
+      "examples": [
+        "Cost planner!A1",
+        "Cost planner!B1",
+        "Cost planner!C1",
+        "Cost planner!D1",
+        "Cost planner!E1",
+        "Cost planner!F1",
+        "Cost planner!G1",
+        "Cost planner!H1"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 23,
+      "cells": 10,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!B9",
+        "Cost planner!C9",
+        "Cost planner!B13",
+        "Cost planner!C13",
+        "Cost planner!B17",
+        "Cost planner!C17",
+        "Cost planner!B21",
+        "Cost planner!C21"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F4EBE6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#CEBAB1"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 42,
+      "cells": 8,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D14",
+        "Cost planner!D15",
+        "Cost planner!D18",
+        "Cost planner!D19",
+        "Cost planner!D22",
+        "Cost planner!D23",
+        "Cost planner!D26",
+        "Cost planner!D27"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "\"$\"#,##0.00;(\"$\"#,##0.00);\"-\";@"
+    },
+    {
+      "id": 6,
+      "cells": 6,
+      "styledBlankCells": 6,
+      "examples": [
+        "Cost planner!B4",
+        "Cost planner!C4",
+        "Cost planner!D4",
+        "Cost planner!E4",
+        "Cost planner!F4",
+        "Cost planner!G4"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#5A2D22"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 40,
+      "cells": 5,
+      "styledBlankCells": 1,
+      "examples": [
+        "Cost planner!G10",
+        "Cost planner!G11",
+        "Cost planner!G12",
+        "Cost planner!G13",
+        "Cost planner!G15"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "\"$\"#,##0.00;(\"$\"#,##0.00);\"-\";@"
+    },
+    {
+      "id": 41,
+      "cells": 4,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D13",
+        "Cost planner!D17",
+        "Cost planner!D21",
+        "Cost planner!D25"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F4EBE6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#CEBAB1"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "\"$\"#,##0.00;(\"$\"#,##0.00);\"-\";@"
+    },
+    {
+      "id": 5,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!B3",
+        "Cost planner!B30"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": true,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 18,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!B8",
+        "Cost planner!F8"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#5A2D22",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 20,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D8",
+        "Cost planner!G8"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#5A2D22",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 39,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D10",
+        "Cost planner!D11"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "#,##0.00;(#,##0.00);\"–\";@"
+    },
+    {
+      "id": 4,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!B2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 17.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 9,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!C6"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 12,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D6"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#006100"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "dotted",
+          "color": "#5A2D22"
+        },
+        "right": {
+          "style": "dotted",
+          "color": "#5A2D22"
+        },
+        "top": {
+          "style": "dotted",
+          "color": "#5A2D22"
+        },
+        "bottom": {
+          "style": "dotted",
+          "color": "#5A2D22"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 19,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!C8"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#5A2D22",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 38,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!D9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F4EBE6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#CEBAB1"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "#,##0.00;(#,##0.00);\"–\";@"
+    },
+    {
+      "id": 34,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!F14"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#5A2D22"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 43,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!G14"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#5A2D22"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "\"$\"#,##0.00;(\"$\"#,##0.00);\"-\";@"
+    },
+    {
+      "id": 36,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!F16"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "medium",
+          "color": "#5A2D22"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 44,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Cost planner!G16"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#211C19"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "medium",
+          "color": "#5A2D22"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "\"$\"#,##0.00;(\"$\"#,##0.00);\"-\";@"
+    }
+  ],
+  "renderedPreview": {
+    "localFile": "office-pdf/cost-scenario-planner.pdf",
+    "sha256": "7aaa0233f7b3bb4627fba1456bfa4b3bc0bfe19eae9f2deb31943c8d16c3d278",
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Calc",
+    "pageCount": 1,
+    "fontResources": [
+      "LiberationSans",
+      "LiberationSans-Bold",
+      "LiberationSans-Italic"
+    ],
+    "bundleIncludesPdf": false,
+    "publicPreviewRouteIfBuilt": "previews/cost-scenario-planner.pdf"
+  }
+}

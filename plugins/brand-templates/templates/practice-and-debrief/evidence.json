@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "id": "practice-and-debrief",
+    "name": "Try and Reflect",
+    "templateIds": [
+      "practice-and-debrief"
+    ],
+    "category": "Learning & workshops",
+    "summary": "A learning identity that keeps a short practice cycle visible: attempt, model, revision and reflection.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#1E2933",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#214BC4",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#FFFDF7",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#626A79",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Cover Field",
+        "role": "cover-field",
+        "hex": "#214BC4",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Worked example ink",
+        "role": "secondary-text",
+        "hex": "#222B3D",
+        "evidence": "Native ppt/slides/slide2.xml text A complete brief. Structural role corroborated at the native OOXML element, not assigned by palette order."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Arial",
+        "usage": "Titles and short section openings; source slide 7 / cue."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source slide 7 / cue."
+      }
+    ],
+    "recognitionRules": [
+      "Give each slide one large Arial action heading and a small timing label.",
+      "Use white instructional type on the blue opening field, then blue emphasis within the quiet white reading layouts.",
+      "Place the starting request and worked example in clearly separate areas.",
+      "Keep write, speak or think options visible without making one the default."
+    ],
+    "voice": {
+      "traits": [
+        "encouraging",
+        "concrete",
+        "flexible"
+      ],
+      "principles": [
+        "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Try it once. Notice what is missing. Make the next version clearer.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid promises that every participant will master the skill.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Try one version, then compare it with the criterion.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use TRY AND REFLECT in Arial with two short parallel strokes, the second slightly longer. Avoid a completion checkmark.",
+    "invariants": [
+      "Give each slide one large Arial action heading and a small timing label.",
+      "Use white instructional type on the blue opening field, then blue emphasis within the quiet white reading layouts.",
+      "Place the starting request and worked example in clearly separate areas."
+    ],
+    "adaptations": [
+      "A handout can put attempt and reflection on one page.",
+      "Keep timing as a plan unless it has been measured.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "practice-and-debrief",
+      "displayName": "Practice and Debrief",
+      "format": "presentation",
+      "nameSignals": [
+        "A request someone can use",
+        "2 min",
+        "Example learning activity",
+        "What is missing from “Help with my class”? Name one detail a person or AI assistant would need.",
+        "You can write, speak or think quietly. No account or software is needed."
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "9b5328efa7e16d4b0a7bf5a7faa8f4c6cef6a3bb1081705344c0ce81091ce276",
+      "evidence": [
+        "installed-skills/artifact-template-studio-practice-and-debrief/SKILL.md",
+        "installed-skills/artifact-template-studio-practice-and-debrief/DESIGN.md",
+        "installed-skills/artifact-template-studio-practice-and-debrief/design/foundations.json",
+        "installed-skills/artifact-template-studio-practice-and-debrief/assets/reference.pptx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "slide 1 / heading",
+          "observation": "A request someone can use; [{'font': 'Arial', 'sizePt': 46.5, 'bold': True, 'italic': None, 'color': '#FFFFFF', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-2",
+          "location": "slide 1 / timing",
+          "observation": "2 min; [{'font': 'Arial', 'sizePt': 16.5, 'bold': True, 'italic': None, 'color': '#FFFFFF', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-3",
+          "location": "slide 1 / footer",
+          "observation": "Example learning activity; [{'font': 'Arial', 'sizePt': 13.5, 'bold': False, 'italic': None, 'color': '#FFFFFF', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-4",
+          "location": "slide 1 / body",
+          "observation": "What is missing from “Help with my class”? Name one detail a person or AI assistant would need.; [{'font': 'Arial', 'sizePt': 28.5, 'bold': False, 'italic': None, 'color': '#FFFFFF', 'alignment': None}]; fill None"
+        },
+        {
+          "id": "source-5",
+          "location": "slide 1 / cue",
+          "observation": "You can write, speak or think quietly. No account or software is needed.; [{'font': 'Arial', 'sizePt': 18.75, 'bold': False, 'italic': None, 'color': '#FFFFFF', 'alignment': None}]; fill None"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/practice-and-debrief.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#1E2933",
+        "background": "#FFFFFF",
+        "contrastRatio": 14.79,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "practice-and-debrief",
+      "name": "Practice and Debrief",
+      "format": "presentation",
+      "sourceHash": "9b5328efa7e16d4b0a7bf5a7faa8f4c6cef6a3bb1081705344c0ce81091ce276",
+      "foundationSha256": "633dabef7934e4bfec1223cb3bc3a47fa7a4e1c0094bebe3bf1d80b6e5064a60",
+      "designSpecSha256": "035fb570e11cfafa4ce1d85a7df8bd0644ee285ede04b84840050208fd7453ad",
+      "referenceDirectory": "references/practice-and-debrief"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use TRY AND REFLECT in Arial with two short parallel strokes, the second slightly longer. Avoid a completion checkmark.",
+    "productionMethod": "Brand-specific outlined typography with attempt-rules source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 7 / cue.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "practice-and-debrief",
+      "sourceFingerprint": "9b5328efa7e16d4b0a7bf5a7faa8f4c6cef6a3bb1081705344c0ce81091ce276"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 7 / cue.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "practice-and-debrief",
+      "sourceFingerprint": "9b5328efa7e16d4b0a7bf5a7faa8f4c6cef6a3bb1081705344c0ce81091ce276"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "community-program-a4-edition",
+  "version": "0.2.1",
+  "name": "Cedar Learning Days",
+  "summary": "A public programme identity that makes dates, session choices and practical attendance information easy to carry and scan.",
+  "category": "Learning & workshops",
+  "tags": [
+    "document",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "community-program-a4-edition",
+    "community-program-print-edition"
+  ],
+  "sourceTemplateNames": {
+    "community-program-a4-edition": "Community Program A4 Edition",
+    "community-program-print-edition": "Community Program Print Edition"
+  },
+  "templateVariations": [
+    {
+      "templateId": "community-program-a4-edition",
+      "name": "Community Program A4 Edition",
+      "format": "document",
+      "sourceHash": "51de73ffa809c805485616925e8f8370c931b3c150fe96f154567f768f2a61f1",
+      "foundationSha256": "3e2c3e3d07eb786901e5bbf858a2c2b4fff4feb80602044b515c0d0fd0895b61",
+      "designSpecSha256": "183d6fa988824fd880b852649d2238b2b6ce5d693712d3522b78689a0fe953b2",
+      "referenceDirectory": "references/community-program-a4-edition"
+    },
+    {
+      "templateId": "community-program-print-edition",
+      "name": "Community Program Print Edition",
+      "format": "document",
+      "sourceHash": "e6d43d1f26852fada36694b7c8a6510b52c92f6b43a306f38b7a70e40f89f1c0",
+      "foundationSha256": "d042a1eacd22fb40546600f759bf73bbf5deb206dd12376cd425e8805b4ef6a9",
+      "designSpecSha256": "760ca3cbc73244fae7259b316d0fa24ec57962394fe34df29d6f32270d5b9b5f",
+      "referenceDirectory": "references/community-program-print-edition"
+    }
+  ],
+  "sourceHash": "51de73ffa809c805485616925e8f8370c931b3c150fe96f154567f768f2a61f1",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Programme header",
+      "role": "header",
+      "hex": "#333333",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #333333; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Calibri",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Title.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "community-program-a4-edition",
+      "sourceFingerprint": "51de73ffa809c805485616925e8f8370c931b3c150fe96f154567f768f2a61f1"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle.",
+      "sourceFamily": "Calibri",
+      "sourceFamilySelected": "Calibri",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled.",
+      "justification": "Portable variant selected. Calibri is a separately licensed Microsoft/Office font; not bundled. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "community-program-a4-edition",
+      "sourceFingerprint": "51de73ffa809c805485616925e8f8370c931b3c150fe96f154567f768f2a61f1"
+    }
+  ],
+  "recognitionRules": [
+    "Keep the event name, dates and short programme promise at the top.",
+    "Pair Georgia headings with Calibri programme detail.",
+    "Align session time, title and practical notes in a consistent reading order.",
+    "Keep black-on-white print clarity across A4 and companion print editions."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Welcoming programme that leads with an invitation and then gives practical details.",
+      "sourceTemplateId": "community-program-a4-edition",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Find a session that fits. Bring a question. Leave time to try.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use CEDAR LEARNING DAYS as a Georgia wordmark with the dates in a smaller Calibri line. No tree emblem is required.",
+  "invariants": [
+    "Keep the event name, dates and short programme promise at the top.",
+    "Pair Georgia headings with Calibri programme detail.",
+    "Align session time, title and practical notes in a consistent reading order."
+  ],
+  "adaptations": [
+    "A4 and alternate print formats share the same identity and content hierarchy.",
+    "Change page breaks to fit the paper, never shrink essential access text.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/community-program-a4-edition.pdf",
+    "preview": "media/community-program-a4-edition-guide.webp",
+    "markdown": "guides/community-program-a4-edition.md"
+  },
+  "bundle": {
+    "href": "bundles/community-program-a4-edition-brand-kit.zip",
+    "filename": "Cedar Learning Days brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/community-program-a4-edition-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/community-program-a4-edition-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/community-program-a4-edition-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

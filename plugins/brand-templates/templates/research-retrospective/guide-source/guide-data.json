@@ -1,0 +1,161 @@
+{
+  "id": "research-retrospective",
+  "name": "The Dated Record",
+  "summary": "An archival research identity that shows how a conclusion changed as evidence arrived, with chronology as its organizing device.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F5F3EC",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#242B28",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#923B2B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary",
+      "role": "secondary",
+      "hex": "#365145",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#DCE4DA",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Evidence panel",
+      "role": "surface-white",
+      "hex": "#FFFFFF",
+      "evidence": "Native ppt/slides/slide3.xml shape solidFill. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Dossier title and record propositions."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Historical explanation and current interpretation."
+    },
+    {
+      "role": "index",
+      "family": "Courier New",
+      "usage": "File labels, dates and evidence identifiers."
+    }
+  ],
+  "recognitionRules": [
+    "Use a dated rail and file identifiers throughout the dossier.",
+    "Pair Arial explanation with monospaced evidence codes.",
+    "Keep the archival cover image distinct from the reading field.",
+    "Separate duplicate exports from independent evidence.",
+    "Give the current conclusion a route back through earlier records."
+  ],
+  "voice": {
+    "traits": [
+      "historical",
+      "candid",
+      "traceable"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A conclusion has a history. Keep the dates where the reader can see them.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE DATED RECORD in Arial with a Courier file code and three short date ticks. No rubber-stamp approval mark.",
+  "invariants": [
+    "Use a dated rail and file identifiers throughout the dossier.",
+    "Pair Arial explanation with monospaced evidence codes.",
+    "Keep the archival cover image distinct from the reading field."
+  ],
+  "adaptations": [
+    "A short retrospective retains the turning-point records.",
+    "Long dossiers expand the index without rewriting earlier conclusions as if they were known from the start.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "index",
+      "sourceFamily": "Courier New",
+      "renderFamily": "Cousine",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/cousine/Cousine-Regular.ttf",
+      "bold": "assets/fonts/cousine/Cousine-Bold.ttf",
+      "license": "assets/fonts/cousine/OFL.txt",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "capability-proof-sheet",
+  "name": "Useful Proof",
+  "summary": "A compact capability identity that links an offer to a concrete sample and a bounded account of contribution.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Proof red",
+      "role": "primary",
+      "hex": "#B33525",
+      "evidence": "Native reference.docx word/styles.xml: style ProofLabel, style ProofIndex; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source used style ProofContact."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style ProofContact."
+    }
+  ],
+  "recognitionRules": [
+    "Lead with the capability in the title, not a long personal introduction.",
+    "Use a clear label-name-metadata hierarchy above the proof body.",
+    "Keep a single reading column with brief evidence blocks and an explicit next conversation.",
+    "Use red category labels, evidence numbers and invitation cues against black reading text on white; preserve the left number gutter."
+  ],
+  "voice": {
+    "traits": [
+      "specific",
+      "economical",
+      "credible"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Here is the work I can do, and a sample you can inspect.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use USEFUL PROOF as a plain Arial wordmark with one short baseline rule. No icon or score seal.",
+  "invariants": [
+    "Lead with the capability in the title, not a long personal introduction.",
+    "Use a clear label-name-metadata hierarchy above the proof body.",
+    "Keep a single reading column with brief evidence blocks and an explicit next conversation."
+  ],
+  "adaptations": [
+    "For a different audience change the capability statement and sample together.",
+    "Keep the sheet to one coherent offer.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

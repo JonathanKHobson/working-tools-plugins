@@ -1,0 +1,341 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "project-health-instrument-desk",
+  "version": "0.2.1",
+  "name": "Project Instrument Desk",
+  "summary": "A project-review identity that treats status as an instrument reading to inspect, not a reassuring traffic-light summary.",
+  "category": "Planning & operations",
+  "tags": [
+    "spreadsheet",
+    "Planning & analysis"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "project-health-instrument-desk"
+  ],
+  "sourceTemplateNames": {
+    "project-health-instrument-desk": "Project Health Instrument Desk"
+  },
+  "templateVariations": [
+    {
+      "templateId": "project-health-instrument-desk",
+      "name": "Project Health Instrument Desk",
+      "format": "spreadsheet",
+      "sourceHash": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933",
+      "foundationSha256": "afabb36c8bf23af0e0cadebc108fca86946a2609f6f12f96cc62d9f1e1a29219",
+      "designSpecSha256": "5e9890483cc84d364957a17bc1a688d23a2ad47ae6f09a37e618c3389b9997ee",
+      "referenceDirectory": "references/project-health-instrument-desk"
+    }
+  ],
+  "sourceHash": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#101B24",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#101B24",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#E3EEF6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Attention Surface",
+      "role": "attention-surface",
+      "hex": "#FFF0D6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [
+    {
+      "name": "State surface / 0",
+      "role": "conditional-fill",
+      "hex": "#FBE2DE",
+      "sourceRules": [
+        {
+          "range": "Review!C12:C15",
+          "condition": "0",
+          "operator": "greaterThan",
+          "ruleType": "cellIs"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Actual missing",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Invalid actual",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Duplicate ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Missing ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check task / plan",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check state",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Over planned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "0; Actual missing; Invalid actual; Duplicate ID; Missing ID; Check task / plan; Check state; Over planned",
+      "source": "reference.xlsx conditional formatting: Review!C12:C15, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54"
+    },
+    {
+      "name": "State text / 0",
+      "role": "conditional-text",
+      "hex": "#972F2A",
+      "sourceRules": [
+        {
+          "range": "Review!C12:C15",
+          "condition": "0",
+          "operator": "greaterThan",
+          "ruleType": "cellIs"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Actual missing",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Invalid actual",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Duplicate ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Missing ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check task / plan",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check state",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Over planned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "0; Actual missing; Invalid actual; Duplicate ID; Missing ID; Check task / plan; Check state; Over planned",
+      "source": "reference.xlsx conditional formatting: Review!C12:C15, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Menlo",
+      "usage": "Instrument labels, counts and technical fields."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica Neue",
+      "usage": "Explanatory notes and decisions."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Instrument labels, counts and technical fields.",
+      "sourceFamily": "Menlo",
+      "sourceFamilySelected": "Menlo",
+      "renderFamily": "IBM Plex Mono",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "7c6fbddca4b700be918f5f6183d9bd4464fa427fe435f0b480d77fe2bb8c5a43"
+        },
+        "semibold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "f04d7c488ddf7d1fa99f2574efc3406ea4cbe17bb1af3a1ab960f84d0c96a172"
+        },
+        "bold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "74e5eedcfa4596497d34e19023cabdabd3a8c852b903007a5654a59591a72ffb"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/ibm-plex-mono/OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Menlo is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Menlo is an Apple/system font; not bundled. Exact OFL family from IBM's official static TTF package; semibold supports the source's IBM Plex Mono SmBld role.",
+      "sourceTemplateId": "project-health-instrument-desk",
+      "sourceFingerprint": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933"
+    },
+    {
+      "role": "body",
+      "usage": "Explanatory notes and decisions.",
+      "sourceFamily": "Helvetica Neue",
+      "sourceFamilySelected": "Helvetica Neue",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Helvetica Neue is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Helvetica Neue is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "project-health-instrument-desk",
+      "sourceFingerprint": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933"
+    }
+  ],
+  "recognitionRules": [
+    "Use a dark ink framework with pale blue reading areas and warm exception fields.",
+    "Pair Menlo instrument labels with Helvetica Neue explanations.",
+    "Give key counts and decision fields enough space to read at a glance.",
+    "Keep evidence, interpretation and next action distinct within the review.",
+    "Do not merge with Issue Desk solely because both use dark instrument styling.",
+    "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents.",
+    "Use pink/red validation cells for missing, invalid or over-planned actuals; retain the dark header and pale-blue summary field."
+  ],
+  "writingLinks": [
+    {
+      "id": "V10",
+      "name": "Technical reference",
+      "reason": "Exact rules separate completion, effort, missing actuals and reported zeros.",
+      "sourceTemplateId": "project-health-instrument-desk",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P43",
+          "name": "Dry technical annotator",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Read the signal. Check the record. Choose the next intervention.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use PROJECT INSTRUMENT DESK in Menlo with a small pair of calibration ticks. No speedometer or heartbeat icon.",
+  "invariants": [
+    "Use a dark ink framework with pale blue reading areas and warm exception fields.",
+    "Pair Menlo instrument labels with Helvetica Neue explanations.",
+    "Give key counts and decision fields enough space to read at a glance."
+  ],
+  "adaptations": [
+    "A compact review retains the decision and evidence fields.",
+    "Monochrome editions use labels and border weight to retain status meaning.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/project-health-instrument-desk.pdf",
+    "preview": "media/project-health-instrument-desk-guide.webp",
+    "markdown": "guides/project-health-instrument-desk.md"
+  },
+  "bundle": {
+    "href": "bundles/project-health-instrument-desk-brand-kit.zip",
+    "filename": "Project Instrument Desk brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/project-health-instrument-desk-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/project-health-instrument-desk-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/project-health-instrument-desk-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

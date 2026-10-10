@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "creative-project-treatment",
+  "version": "0.2.1",
+  "name": "The Last Key Studio",
+  "summary": "A story-development identity that pairs a literary title with a production-readable account of premise, scenes and decisions.",
+  "category": "Creative practice",
+  "tags": [
+    "document",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "creative-project-treatment"
+  ],
+  "sourceTemplateNames": {
+    "creative-project-treatment": "Creative Project Treatment"
+  },
+  "templateVariations": [
+    {
+      "templateId": "creative-project-treatment",
+      "name": "Creative Project Treatment",
+      "format": "document",
+      "sourceHash": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be",
+      "foundationSha256": "24f6de11c7af4a14d177ef7d4c16bbc210ab89161ff1935d3c76d6479c367933",
+      "designSpecSha256": "5ecf23d30d0efeb786eed8aa8d10cb4d2afb862f9a641b96e0cae487f0dacb74",
+      "referenceDirectory": "references/creative-project-treatment"
+    }
+  ],
+  "sourceHash": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#303030",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Treatment table",
+      "role": "surface",
+      "hex": "#F5F3EF",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F5F3EF; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Source Serif 4 Display",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Source Sans 3",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Metadata."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Title.",
+      "sourceFamily": "Source Serif 4 Display",
+      "sourceFamilySelected": "Source Serif 4 Display",
+      "renderFamily": "Atlas Editorial Serif",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a47adba2edffa2055acbeb7dea0162256b87a926b9a3877231e1452abc7d0cc9"
+        },
+        "bold": {
+          "path": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "81c7c1c7c7da666bc760ee88fbbfcf13da1453c110693491f6b8430054d0e7ee"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/atlas-editorial-serif/OFL.txt",
+      "licenseSha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Uses the exact OFL Source Serif 4 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "sourceTemplateId": "creative-project-treatment",
+      "sourceFingerprint": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Metadata.",
+      "sourceFamily": "Source Sans 3",
+      "sourceFamilySelected": "Source Sans 3",
+      "renderFamily": "Atlas Reader Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "5d69e6cdbda35cdfaabeb080c150c208602fe5b3d706a9695af4c2a79e28cd8a"
+        },
+        "bold": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "c4614a244fc3305921e4d700a4309dd136d32dce1a066a59628755796149220e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/atlas-reader-sans/OFL.txt",
+      "licenseSha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Uses the exact OFL Source Sans 3 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "sourceTemplateId": "creative-project-treatment",
+      "sourceFingerprint": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be"
+    }
+  ],
+  "recognitionRules": [
+    "Use Source Serif 4 Display for the title and chapter openings.",
+    "Use Source Sans 3 for production detail and longer explanation.",
+    "Keep the story-in-one-breath summary near the opening.",
+    "Separate creative intention from practical requirements and unconfirmed production facts."
+  ],
+  "writingLinks": [
+    {
+      "id": "V04",
+      "name": "Scene-led feature",
+      "reason": "A treatment that defines a production through its scene and its significance.",
+      "sourceTemplateId": "creative-project-treatment",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Begin with the moment that cannot stay the same.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE LAST KEY in Source Serif 4 Display with a small STUDIO descriptor. No key pictogram; keep the narrative open to more than one story.",
+  "invariants": [
+    "Use Source Serif 4 Display for the title and chapter openings.",
+    "Use Source Sans 3 for production detail and longer explanation.",
+    "Keep the story-in-one-breath summary near the opening."
+  ],
+  "adaptations": [
+    "A new project may replace the title while retaining the serif/sans hierarchy.",
+    "A pitch extract includes premise, tone and the next production decision.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/creative-project-treatment.pdf",
+    "preview": "media/creative-project-treatment-guide.webp",
+    "markdown": "guides/creative-project-treatment.md"
+  },
+  "bundle": {
+    "href": "bundles/creative-project-treatment-brand-kit.zip",
+    "filename": "The Last Key Studio brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/creative-project-treatment-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/creative-project-treatment-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/creative-project-treatment-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

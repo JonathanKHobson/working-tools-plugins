@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "recruiter-evidence-map",
+  "version": "0.2.1",
+  "name": "The Relevant Record",
+  "summary": "A career identity that helps a reviewer connect a role requirement to an inspectable example without inventing a fit score.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "recruiter-evidence-map"
+  ],
+  "sourceTemplateNames": {
+    "recruiter-evidence-map": "Recruiter Evidence Map"
+  },
+  "templateVariations": [
+    {
+      "templateId": "recruiter-evidence-map",
+      "name": "Recruiter Evidence Map",
+      "format": "document",
+      "sourceHash": "12de4dc30bf137255a99149d993a976ee4f140a600e45c4cdf4d9e79a288bf2f",
+      "foundationSha256": "d02457066e7a22d5e9d61410a4b9345b2e9c27d055c34402953953d1119cd6b5",
+      "designSpecSha256": "ea2da6c359fde61488492e6fb2955c62008647d605db3cd8cfc110d756f37cbc",
+      "referenceDirectory": "references/recruiter-evidence-map"
+    }
+  ],
+  "sourceHash": "12de4dc30bf137255a99149d993a976ee4f140a600e45c4cdf4d9e79a288bf2f",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#171B20",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Forwarding scope",
+      "role": "surface",
+      "hex": "#EDF2F4",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #EDF2F4; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Metadata gray",
+      "role": "secondary-text",
+      "hex": "#565656",
+      "evidence": "Native reference.docx word/styles.xml: style Footer, style EMNotice, style EMMeta; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source used style EMObservation."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style EMObservation."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style EMObservation.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "recruiter-evidence-map",
+      "sourceFingerprint": "12de4dc30bf137255a99149d993a976ee4f140a600e45c4cdf4d9e79a288bf2f"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style EMObservation.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "recruiter-evidence-map",
+      "sourceFingerprint": "12de4dc30bf137255a99149d993a976ee4f140a600e45c4cdf4d9e79a288bf2f"
+    }
+  ],
+  "recognitionRules": [
+    "Use a simple Arial evidence map with clear requirement and proof fields.",
+    "Keep forwarding scope visible above the record.",
+    "Separate direct experience from transferable experience and unknowns.",
+    "Use concise source pointers rather than unexplained ratings."
+  ],
+  "writingLinks": [
+    {
+      "id": "V21",
+      "name": "Documentary collage",
+      "reason": "Attributed claims and sources assembled without hiding where they came from.",
+      "sourceTemplateId": "recruiter-evidence-map",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Match the requirement to a record someone can inspect.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE RELEVANT RECORD in Arial with a small monospaced evidence ID. No target or ranking badge.",
+  "invariants": [
+    "Use a simple Arial evidence map with clear requirement and proof fields.",
+    "Keep forwarding scope visible above the record.",
+    "Separate direct experience from transferable experience and unknowns."
+  ],
+  "adaptations": [
+    "A role-specific version changes the requirement column while preserving source facts.",
+    "A forwarded version retains scope and contact context.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/recruiter-evidence-map.pdf",
+    "preview": "media/recruiter-evidence-map-guide.webp",
+    "markdown": "guides/recruiter-evidence-map.md"
+  },
+  "bundle": {
+    "href": "bundles/recruiter-evidence-map-brand-kit.zip",
+    "filename": "The Relevant Record brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/recruiter-evidence-map-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/recruiter-evidence-map-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/recruiter-evidence-map-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

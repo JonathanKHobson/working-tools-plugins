@@ -1,0 +1,133 @@
+{
+  "id": "five-frame-evidence-story",
+  "name": "Five Frames",
+  "summary": "A portfolio identity that makes a compact argument through five deliberate frames, each carrying one job.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F4F1E8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#153B46",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#153B46",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#E6BE57",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source slide 5 / f5_title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 5 / f5_footer."
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for the central proposition and Avenir for evidence and navigation.",
+    "Keep the five-frame sequence explicit in page labels.",
+    "Use dark teal, warm paper and a restrained gold marker.",
+    "Give each frame one focal statement, one supporting element and a visible qualification."
+  ],
+  "voice": {
+    "traits": [
+      "focused",
+      "articulate",
+      "evidence-minded"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "One proposition. Five frames. Enough evidence to begin a conversation.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use FIVE FRAMES in Avenir beside five short aligned ticks, with only the current frame emphasized in applications. The mark itself stays neutral.",
+  "invariants": [
+    "Use Baskerville for the central proposition and Avenir for evidence and navigation.",
+    "Keep the five-frame sequence explicit in page labels.",
+    "Use dark teal, warm paper and a restrained gold marker."
+  ],
+  "adaptations": [
+    "A mobile sequence can use five stacked sections.",
+    "A one-page overview keeps the numbered order and short propositions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 64,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

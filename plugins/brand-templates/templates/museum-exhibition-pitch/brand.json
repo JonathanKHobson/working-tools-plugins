@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "museum-exhibition-pitch",
+  "version": "0.2.1",
+  "name": "A Second Life",
+  "summary": "An exhibition identity that asks what makes ordinary objects worth keeping, with an editorial balance of object and interpretation.",
+  "category": "Arts & exhibition",
+  "tags": [
+    "presentation",
+    "Exhibitions & culture"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "museum-exhibition-pitch"
+  ],
+  "sourceTemplateNames": {
+    "museum-exhibition-pitch": "Museum Exhibition Pitch"
+  },
+  "templateVariations": [
+    {
+      "templateId": "museum-exhibition-pitch",
+      "name": "Museum Exhibition Pitch",
+      "format": "presentation",
+      "sourceHash": "cbeb4a3e29412dca47657e96b31572238f0a0f843fc9d2631d8f43afb2dd03f3",
+      "foundationSha256": "04c0e249e190e6b6d47efa141c35e29b9fb82448783517b1dfa42da2fe0d5909",
+      "designSpecSha256": "2d31fa8b524405cf029f0dc8c402c54489abb1ff6811b308d1244ece3292f200",
+      "referenceDirectory": "references/museum-exhibition-pitch"
+    }
+  ],
+  "sourceHash": "cbeb4a3e29412dca47657e96b31572238f0a0f843fc9d2631d8f43afb2dd03f3",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F6F3EC",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#262624",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#8B3B2D",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source slide 8 / request."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / status."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 8 / request.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "museum-exhibition-pitch",
+      "sourceFingerprint": "cbeb4a3e29412dca47657e96b31572238f0a0f843fc9d2631d8f43afb2dd03f3"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 8 / status.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "museum-exhibition-pitch",
+      "sourceFingerprint": "cbeb4a3e29412dca47657e96b31572238f0a0f843fc9d2631d8f43afb2dd03f3"
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville titles with Gill Sans curatorial text.",
+    "Keep warm paper, charcoal and rust as a quiet material palette.",
+    "Give each concept object a clear image, caption and interpretive question.",
+    "Keep collection access and opening status separate from the creative premise."
+  ],
+  "writingLinks": [
+    {
+      "id": "V01",
+      "name": "Decision first",
+      "reason": "Curatorial pitch ending in a bounded decision request.",
+      "sourceTemplateId": "museum-exhibition-pitch",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P28",
+          "name": "Constraint-aware recommender",
+          "type": "alias"
+        }
+      ]
+    }
+  ],
+  "quote": "What makes an ordinary thing worth keeping?",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use A SECOND LIFE in Baskerville with a small interrupted baseline. No recycling arrows; the identity concerns interpretation as well as reuse.",
+  "invariants": [
+    "Use Baskerville titles with Gill Sans curatorial text.",
+    "Keep warm paper, charcoal and rust as a quiet material palette.",
+    "Give each concept object a clear image, caption and interpretive question."
+  ],
+  "adaptations": [
+    "A wall label retains the question and object record.",
+    "A proposal expands access and production requirements behind the same editorial front.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/museum-exhibition-pitch.pdf",
+    "preview": "media/museum-exhibition-pitch-guide.webp",
+    "markdown": "guides/museum-exhibition-pitch.md"
+  },
+  "bundle": {
+    "href": "bundles/museum-exhibition-pitch-brand-kit.zip",
+    "filename": "A Second Life brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/museum-exhibition-pitch-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/museum-exhibition-pitch-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/museum-exhibition-pitch-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

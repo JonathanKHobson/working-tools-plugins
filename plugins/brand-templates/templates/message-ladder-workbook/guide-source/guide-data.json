@@ -1,0 +1,139 @@
+{
+  "id": "message-ladder-workbook",
+  "name": "One Clear Message",
+  "summary": "A writing identity that helps a person connect a central message to reasons, evidence and an appropriate invitation.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Ladder purple",
+      "role": "primary",
+      "hex": "#673D74",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #673D74; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Ladder row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Writing rule",
+      "role": "rule",
+      "hex": "#C7BACB",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #C7BACB; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Reflective opening or core message statement."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Ladder labels, prompts and evidence notes."
+    }
+  ],
+  "recognitionRules": [
+    "Pair Baskerville reflection with Gill Sans working labels.",
+    "Make the ladder levels explicit through alignment and spacing.",
+    "Keep the core message short before adding proof.",
+    "Provide separate space for audience language and unsupported claims to remove."
+  ],
+  "voice": {
+    "traits": [
+      "lucid",
+      "persuasive",
+      "disciplined"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Say one thing clearly. Give it a reason to be believed.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use ONE CLEAR MESSAGE in Gill Sans with three ascending short rules of equal weight. The rules show structure, not growth metrics.",
+  "invariants": [
+    "Pair Baskerville reflection with Gill Sans working labels.",
+    "Make the ladder levels explicit through alignment and spacing.",
+    "Keep the core message short before adding proof."
+  ],
+  "adaptations": [
+    "A single worksheet retains message, reason, proof and invitation.",
+    "A workshop deck can reveal one level at a time.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Gill Sans",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "open-studio-invitation",
+  "version": "0.2.1",
+  "name": "Open Studio Hours",
+  "summary": "A public invitation identity that makes the act of entering a creative space feel simple and concrete.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "open-studio-invitation"
+  ],
+  "sourceTemplateNames": {
+    "open-studio-invitation": "Open Studio Invitation"
+  },
+  "templateVariations": [
+    {
+      "templateId": "open-studio-invitation",
+      "name": "Open Studio Invitation",
+      "format": "document",
+      "sourceHash": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a",
+      "foundationSha256": "6bf722a258ac9fdd4c94e1b81be23a3b430d387bc164b6930d6e785ae6a8fbd6",
+      "designSpecSha256": "bb8f441068369464ae3834dd78915ac2f44899423131497fece3c11dfcc1a4e9",
+      "referenceDirectory": "references/open-studio-invitation"
+    }
+  ],
+  "sourceHash": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#161616",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Studio red",
+      "role": "primary",
+      "hex": "#AD351F",
+      "evidence": "Native reference.docx word/styles.xml: style SAI, style PPress, style IStudio; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source used style SSubtitle."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style F23Art."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style SSubtitle.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "open-studio-invitation",
+      "sourceFingerprint": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style F23Art.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "open-studio-invitation",
+      "sourceFingerprint": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a"
+    }
+  ],
+  "recognitionRules": [
+    "Use oversized black OPEN and red STUDIO in Impact, with alternating black/red irregular open frames beneath the invitation.",
+    "Keep category and practical details in compact Arial text.",
+    "Give date, location and attendance action a distinct block.",
+    "Leave enough negative space that the invitation works from a distance."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Typographic invitation that states admission conditions clearly.",
+      "sourceTemplateId": "open-studio-invitation",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P31",
+          "name": "Consent-first invitation",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Come in. See what is taking shape.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use OPEN STUDIO HOURS as a bold two-line Impact wordmark with HOURS in small Arial. The typography is the sign; no door pictogram.",
+  "invariants": [
+    "Use oversized black OPEN and red STUDIO in Impact, with alternating black/red irregular open frames beneath the invitation.",
+    "Keep category and practical details in compact Arial text.",
+    "Give date, location and attendance action a distinct block."
+  ],
+  "adaptations": [
+    "A street poster emphasizes the invitation; a digital card adds access details.",
+    "Keep the word OPEN legible at the smallest intended size.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/open-studio-invitation.pdf",
+    "preview": "media/open-studio-invitation-guide.webp",
+    "markdown": "guides/open-studio-invitation.md"
+  },
+  "bundle": {
+    "href": "bundles/open-studio-invitation-brand-kit.zip",
+    "filename": "Open Studio Hours brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/open-studio-invitation-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/open-studio-invitation-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/open-studio-invitation-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

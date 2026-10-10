@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "comparative-evidence-dashboard",
+  "version": "0.2.1",
+  "name": "Studio Evidence Desk",
+  "summary": "An analytical identity that makes comparisons inspectable on a dark reading surface, with clear separation between evidence and gaps.",
+  "category": "Research & evidence",
+  "tags": [
+    "site",
+    "Planning & analysis"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "comparative-evidence-dashboard"
+  ],
+  "sourceTemplateNames": {
+    "comparative-evidence-dashboard": "Comparative Evidence Dashboard"
+  },
+  "templateVariations": [
+    {
+      "templateId": "comparative-evidence-dashboard",
+      "name": "Comparative Evidence Dashboard",
+      "format": "site",
+      "sourceHash": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41",
+      "foundationSha256": "5174230dc243c883106d527d8309d30c272b0f5e2f320570811625883cf96450",
+      "designSpecSha256": "7bd6e48f44cff4c66202195a74449f670ff5ac9e3e4a2b4ee37f70ca6cc79cbd",
+      "referenceDirectory": "references/comparative-evidence-dashboard"
+    }
+  ],
+  "sourceHash": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#15191D",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#F0F3F0",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#A2DCC8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Gap",
+      "role": "gap",
+      "hex": "#EAC58A",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#1C2227",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#485259",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#B6C0C5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Dashboard headings, labels and comparison controls."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Editorial explanation and method reading."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Dashboard headings, labels and comparison controls.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "comparative-evidence-dashboard",
+      "sourceFingerprint": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41"
+    },
+    {
+      "role": "body",
+      "usage": "Editorial explanation and method reading.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "comparative-evidence-dashboard",
+      "sourceFingerprint": "1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41"
+    }
+  ],
+  "recognitionRules": [
+    "Use the dark ground and slightly lighter panels as an instrument surface.",
+    "Reserve mint for supported comparison emphasis and amber for gaps.",
+    "Align chart scales and comparison rows to the same numerical frame.",
+    "Keep the scope band and method adjacent to the interpretation."
+  ],
+  "writingLinks": [
+    {
+      "id": "V12",
+      "name": "Research register",
+      "reason": "Bounded snapshot comparison that keeps missing outcomes visible.",
+      "sourceTemplateId": "comparative-evidence-dashboard",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Compare what is present. Keep what is missing in view.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use STUDIO / EVIDENCE as a compact Avenir wordmark separated by a thin slash. A small pair of aligned scale ticks may accompany it; no dashboard gauge icon.",
+  "invariants": [
+    "Use the dark ground and slightly lighter panels as an instrument surface.",
+    "Reserve mint for supported comparison emphasis and amber for gaps.",
+    "Align chart scales and comparison rows to the same numerical frame."
+  ],
+  "adaptations": [
+    "Light print editions translate dark panels into rule-separated areas.",
+    "Retain gap labels even when color is removed.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/comparative-evidence-dashboard.pdf",
+    "preview": "media/comparative-evidence-dashboard-guide.webp",
+    "markdown": "guides/comparative-evidence-dashboard.md"
+  },
+  "bundle": {
+    "href": "bundles/comparative-evidence-dashboard-brand-kit.zip",
+    "filename": "Studio Evidence Desk brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/comparative-evidence-dashboard-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/comparative-evidence-dashboard-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/comparative-evidence-dashboard-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

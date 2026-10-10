@@ -1,0 +1,128 @@
+{
+  "id": "lesson-activity-cards",
+  "name": "Pattern Practice",
+  "summary": "A card-based learning identity that invites short experiments with a rule, a response and a simple way to compare attempts.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Practice teal",
+      "role": "primary",
+      "hex": "#185E65",
+      "evidence": "Native reference.docx word/styles.xml: style CardPattern, style CardLabel; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Chalkboard",
+      "usage": "Native Title and Heading1 plus CardNumber use Chalkboard for activity titles and large card numbers."
+    },
+    {
+      "role": "body",
+      "family": "Trebuchet MS",
+      "usage": "Normal, CardBody and supporting labels use Trebuchet MS for instructions and materials."
+    }
+  ],
+  "recognitionRules": [
+    "Use Chalkboard activity titles and large card numbers, with Trebuchet instructions and teal practice labels.",
+    "Give each card one activity with materials and an action prompt.",
+    "Use symbols only when accompanied by a readable label.",
+    "Keep enough open space for a learner’s own pattern or explanation.",
+    "Use teal activity labels and pattern symbols; retain handwritten Chalkboard titles above practical Trebuchet instructions."
+  ],
+  "voice": {
+    "traits": [
+      "playful",
+      "concrete",
+      "encouraging"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Find the rule. Try it another way. Tell someone what you noticed.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use PATTERN PRACTICE in Trebuchet with a three-unit repeating mark whose last unit is open. Avoid a puzzle-piece symbol.",
+  "invariants": [
+    "Use Chalkboard activity titles and large card numbers, with Trebuchet instructions and teal practice labels.",
+    "Give each card one activity with materials and an action prompt.",
+    "Use symbols only when accompanied by a readable label."
+  ],
+  "adaptations": [
+    "Large-format cards support group use; small cards retain the same reading order.",
+    "New activities may change the pattern while keeping the prompt structure.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Chalkboard",
+      "renderFamily": "Kalam",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/kalam/Kalam-Regular.ttf",
+      "bold": "assets/fonts/kalam/Kalam-Bold.ttf",
+      "license": "assets/fonts/kalam/OFL.txt",
+      "sourceFontDependency": "Chalkboard is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

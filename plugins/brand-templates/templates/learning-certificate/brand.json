@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "learning-certificate",
+  "version": "0.2.1",
+  "name": "A Record of Participation",
+  "summary": "A certificate identity that gives an occasion dignity while stating exactly what the document records.",
+  "category": "Learning & workshops",
+  "tags": [
+    "document",
+    "Teaching & learning"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "learning-certificate"
+  ],
+  "sourceTemplateNames": {
+    "learning-certificate": "Learning Certificate"
+  },
+  "templateVariations": [
+    {
+      "templateId": "learning-certificate",
+      "name": "Learning Certificate",
+      "format": "document",
+      "sourceHash": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128",
+      "foundationSha256": "1c69a4860f97dbb5d2305eb00bbce85f74b061e03c2f6a2889c5f008768c2b76",
+      "designSpecSha256": "e7ea84f28c38b8f276a87dbde92395815dd62416b3308c5b99921f1915783d9a",
+      "referenceDirectory": "references/learning-certificate"
+    }
+  ],
+  "sourceHash": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#232820",
+      "evidence": "used style Heading2 explicit text color"
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source used style CertificateRecipient."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CertificateNote."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style CertificateRecipient.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "learning-certificate",
+      "sourceFingerprint": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CertificateNote.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "learning-certificate",
+      "sourceFingerprint": "7ce6c3394e8978b6698f0aa1b0e4d29619810b2e75df2440d72c2c5eb57c7128"
+    }
+  ],
+  "recognitionRules": [
+    "Use a formal Baskerville title with plain Arial participant and activity details.",
+    "Keep the recipient name as the visual center.",
+    "Separate participation wording from any assessed achievement.",
+    "Give date, issuer and qualification enough room to be read."
+  ],
+  "writingLinks": [
+    {
+      "id": "V10",
+      "name": "Technical reference",
+      "reason": "Formal record whose fields must state scope and dates exactly.",
+      "sourceTemplateId": "learning-certificate",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A moment of participation, clearly recorded.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use A RECORD OF PARTICIPATION as a restrained serif wordmark with paired fine rules. No seal, medal or ribbon that implies accreditation.",
+  "invariants": [
+    "Use a formal Baskerville title with plain Arial participant and activity details.",
+    "Keep the recipient name as the visual center.",
+    "Separate participation wording from any assessed achievement."
+  ],
+  "adaptations": [
+    "A digital certificate keeps all verification details as real text.",
+    "Change the occasion without changing the claim level.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/learning-certificate.pdf",
+    "preview": "media/learning-certificate-guide.webp",
+    "markdown": "guides/learning-certificate.md"
+  },
+  "bundle": {
+    "href": "bundles/learning-certificate-brand-kit.zip",
+    "filename": "A Record of Participation brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/learning-certificate-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/learning-certificate-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/learning-certificate-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

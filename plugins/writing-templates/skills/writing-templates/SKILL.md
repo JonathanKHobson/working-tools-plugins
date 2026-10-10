@@ -1,0 +1,18 @@
+---
+name: writing-templates
+description: Select and apply an authorized external writing resource with complete guides, actual base/module routes, four-axis references and bounded offline draft QA.
+---
+
+# Writing Templates
+
+For a capabilities or getting-started question, consult the [human guide](../../README.md). For a defined task, start with the reader's job, supplied facts, task context and requested format. This is the full original runtime with an explicit external-collection binding, not a bundled 53-resource prose collection. Read the [collection contract](../../docs/collection-contract.md). Keep private personal material project-owned.
+
+Search names, descriptions, tags and mechanisms with `search_writing_voice_library` without presenting a widget. Use `browse_writing_voice_library` only when the human is choosing, browsing or inspecting intentionally presented options. `prepare_writing_voice_handoff` verifies a registered exact ID, actual base and routed modules, versions, selected/base guides, examples, source-edition readings, four-axis references and QA closure. Read those returned authorities before drafting. Profiles, candidates, modules, aliases and merges remain distinct. An empty result is not evidence of a corpus gap. Optional feedback remains sanitized, provisional and nonblocking.
+
+The supplied brief governs facts, format and authorization. Preserve names, numbers, quotations, negations, uncertainty and protected spans. Use an identified technique rather than a historical author's identity, distinctive wording or factual claims. Synthetic demonstrations are not project facts. Axis levels describe editorial prominence, not numeric acceptance thresholds, and cannot override template constraints. Resolve unsuitable task fit and serious-incident overrides before expressive tone. APA and MLA remain separate optional format conventions.
+
+After the complete selected/base guides and modules, read the actual routed four-axis references, then draft. Apply the separately supplied approved compact editorial companion while preserving useful template mechanics and factual fidelity. Run the verified offline QA workflow and selected profile with Node 20+; the complete engine is included under `library/voice-library/validation/`. Numeric F01-F08 measurements describe prose; only explicit task bounds are acceptance constraints. Passage-based editorial ratings, meaning, reader fit and template movement require review. Keep useful text unchanged. Report automated QA as not run when executable tools are unavailable. A successful script exit is not proof of factual or stylistic quality.
+
+For an approved personal or brand voice, let Writing Quality own authentic-sample matching and final language review. Do not import private samples into this public package. For a new resource, inspect the external schema and closest guides first. Prefer a module, alias or extension when the difference is tone, task, genre or layout. Develop a complete candidate with suitable original specimen, two transfer examples, failure/repair, mechanism, task fit, truth contract and source references. Research claims need actual sources. Review whole pieces, observe representative invocation, keep measurements distinct from editorial judgments, and register only after authorization using the existing collection's owner. Candidate, saved, registered, verified, sent and published are separate states.
+
+A prepared handoff does not draft, send, publish, install or deploy. The synthetic fixture proves the contract only and supplies no claimed private voice or replacement style collection.

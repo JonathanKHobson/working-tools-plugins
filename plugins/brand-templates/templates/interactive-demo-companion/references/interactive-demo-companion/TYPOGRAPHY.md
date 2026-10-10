@@ -1,0 +1,72 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `89f1f57a0351a00d12d4129034bcf8fe7296b69dea7328f5c6b5a84aae3f196e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '23pt'}`.
+- `.step-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt', 'line-height': '1.1'}`.
+- `.intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt', 'line-height': '1.4'}`.
+- `.boundary,.boundary.mono` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.work-area` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.work-area h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '22pt'}`.
+- `.work-area p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.work-area h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.work-area legend` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.choice strong` · `base` · `assets/source/styles/print.css`: `{'font-size': '13pt'}`.
+- `.choice small` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.fields,.record .fields` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.feedback` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.reading-intro,.fallback` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.reading-intro h1,.fallback h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '28pt'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.reading-sheet h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '23pt'}`.
+- `.reading-sheet h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt'}`.
+- `.reading-sheet .source-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt', 'line-height': '1.4'}`.
+- `.author-prompts` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `:root` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Arimo,Arial,sans-serif', 'font-size': '16px'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,3.4vw,3.25rem)', 'font-weight': '700', 'line-height': '1'}`.
+- `button` · `base` · `assets/source/styles/screen.css`: `{'line-height': '1.25'}`.
+- `.steps li[aria-current]` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2.75rem,4.6vw,4.4rem)', 'line-height': '1.02', 'letter-spacing': '-.045em', 'font-weight': '700'}`.
+- `.intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(1.25rem,1.875vw,1.8rem)', 'line-height': '1.4'}`.
+- `.boundary` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem', 'line-height': '1.5'}`.
+- `.mono` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'CourierPrime,monospace'}`.
+- `.small` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-area` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem', 'line-height': '1.4'}`.
+- `.work-area h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(1.7rem,2.75vw,2.65rem)', 'line-height': '1.12', 'letter-spacing': '-.035em'}`.
+- `h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem', 'line-height': '1.2', 'letter-spacing': '-.02em'}`.
+- `.work-area legend` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700', 'font-size': '1.8rem', 'line-height': '1.2'}`.
+- `.choice strong` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(1.25rem,1.8vw,1.75rem)', 'line-height': '1.25'}`.
+- `.choice small` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem', 'line-height': '1.4'}`.
+- `.record .fields` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Arimo,Arial,sans-serif'}`.
+- `.record dt` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'CourierPrime,monospace'}`.
+- `.actions span` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.feedback` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.criterion small,.source-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'line-height': '1.5'}`.
+- `.fallback,.reading-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.4rem', 'line-height': '1.5'}`.
+- `.reading-intro h1,.fallback h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2.75rem,4.5vw,4.5rem)'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem', 'line-height': '1.5'}`.
+- `.reading-sheet h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2.5rem', 'line-height': '1.1'}`.
+- `.reading-sheet h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.reading-choices dt` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `nav` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `nav button` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.boundary` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.brand` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2.1rem'}`.
+- `.steps` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem'}`.
+- `.step-number` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '4rem'}`.
+- `h1` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2.75rem', 'letter-spacing': '-.035em'}`.
+- `.intro` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.boundary,.boundary.mono` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-area h2` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.choice strong` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.4rem'}`.
+- `.choice small` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-area p` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.fields` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.05rem'}`.
+- `.work-area legend` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.actions button` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem'}`.
+- `.reading-sheet` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.reading-sheet h2` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'font-size': '.85rem'}`.
+- `.fields dt` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.

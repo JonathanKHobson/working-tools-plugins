@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "product-comparison-lab",
+  "version": "0.2.1",
+  "name": "The Comparison Lab",
+  "summary": "A product-review identity that puts alternatives on one evidence desk with equal schematics, stable labels and visible revision status.",
+  "category": "Research & evidence",
+  "tags": [
+    "presentation",
+    "Decisions & reviews"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "product-comparison-lab"
+  ],
+  "sourceTemplateNames": {
+    "product-comparison-lab": "Product Comparison Lab"
+  },
+  "templateVariations": [
+    {
+      "templateId": "product-comparison-lab",
+      "name": "Product Comparison Lab",
+      "format": "presentation",
+      "sourceHash": "365da7059e78b6a8326e6a0cda752c9be771d685f1b31ddddae6f22aa2109729",
+      "foundationSha256": "793381ee5aa99a9b0b5912e3a4af7e10b192cafbe09d5afbefde5e31f219f0a1",
+      "designSpecSha256": "66466b5b8974b74eea5cbbb589c51eb5427ca706718dbb6b7348b2dc301870c3",
+      "referenceDirectory": "references/product-comparison-lab"
+    }
+  ],
+  "sourceHash": "365da7059e78b6a8326e6a0cda752c9be771d685f1b31ddddae6f22aa2109729",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F1F3F2",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#182D34",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#026B69",
+      "evidence": "slide 1 / rail-accent fill"
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#8A4B13",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Large comparison titles and short conclusions."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Explanations and criteria."
+    },
+    {
+      "role": "index",
+      "family": "Courier New",
+      "usage": "Concept IDs, revision and specification labels."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Large comparison titles and short conclusions.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "product-comparison-lab",
+      "sourceFingerprint": "365da7059e78b6a8326e6a0cda752c9be771d685f1b31ddddae6f22aa2109729"
+    },
+    {
+      "role": "body",
+      "usage": "Explanations and criteria.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "product-comparison-lab",
+      "sourceFingerprint": "365da7059e78b6a8326e6a0cda752c9be771d685f1b31ddddae6f22aa2109729"
+    },
+    {
+      "role": "index",
+      "usage": "Concept IDs, revision and specification labels.",
+      "sourceFamily": "Courier New",
+      "sourceFamilySelected": "Courier New",
+      "renderFamily": "Cousine",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cousine/Cousine-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1da22250675fc4c42fcf3a9736c44bc0570516105331443b663fd5cfbd1412fe"
+        },
+        "bold": {
+          "path": "assets/fonts/cousine/Cousine-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "17c8a7245156d2253531c9e529474937b09d9f641c5ae7695c5e33f22822eef4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cousine/OFL.txt",
+      "licenseSha256": "b81c4d4dc0a9f72c9155e78187316e016e2012a8102468804173dc61468b906d",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Courier New is a separately licensed Microsoft/system font; not bundled. Open Courier-compatible monospaced substitute for proprietary Courier New.",
+      "sourceTemplateId": "product-comparison-lab",
+      "sourceFingerprint": "365da7059e78b6a8326e6a0cda752c9be771d685f1b31ddddae6f22aa2109729"
+    }
+  ],
+  "recognitionRules": [
+    "Keep a numbered vertical rail and revision line on every page.",
+    "Use monospaced labels for concepts and measured specifications.",
+    "Give each concept an equal-sized schematic panel.",
+    "Use teal and rust for distinct comparison functions, not winner and loser decoration."
+  ],
+  "writingLinks": [
+    {
+      "id": "V05",
+      "name": "Skeptical investigator",
+      "reason": "Gates and sensitivity checks test which concept holds up against unknowns.",
+      "sourceTemplateId": "product-comparison-lab",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Three concepts. The same questions. A decision worth testing.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE COMPARISON LAB in Arial with a compact Courier revision code and three equal vertical strokes. No flask icon.",
+  "invariants": [
+    "Keep a numbered vertical rail and revision line on every page.",
+    "Use monospaced labels for concepts and measured specifications.",
+    "Give each concept an equal-sized schematic panel."
+  ],
+  "adaptations": [
+    "A short review can use one shared comparison spread.",
+    "Retain concept IDs when moving from schematic to physical prototype.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/product-comparison-lab.pdf",
+    "preview": "media/product-comparison-lab-guide.webp",
+    "markdown": "guides/product-comparison-lab.md"
+  },
+  "bundle": {
+    "href": "bundles/product-comparison-lab-brand-kit.zip",
+    "filename": "The Comparison Lab brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/product-comparison-lab-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/product-comparison-lab-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/product-comparison-lab-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

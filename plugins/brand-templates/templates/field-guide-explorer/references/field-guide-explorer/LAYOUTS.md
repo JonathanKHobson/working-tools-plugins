@@ -1,0 +1,171 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `4ac4b20c59fde3d0c355b69a990230a8a553ea3b688aa30a152dd2aa144e76b5` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: . Render modules: src/client.mjs, src/compare.mjs, src/components.mjs, src/document.mjs, src/domain.mjs, src/guide.mjs, src/overview.mjs, src/record.mjs, src/text.mjs.
+
+Section IDs: #comparison-heading, #comparison-form, #static-notice, #comparison-status, #comparison-content, #source-limits, #main, #collection-data.
+
+Responsive scopes: @media (max-width:1200px), @media (max-width:760px), @media (prefers-reduced-motion:reduce).
+
+- `body` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `button,.button` · `base` · `assets/source/styles/main.css`: `{'padding': '13px 22px', 'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'gap': '24px', 'min-height': '48px'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `p` · `base` · `assets/source/styles/main.css`: `{'margin': '14px 0'}`.
+- `figure` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `img` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'max-width': '100%'}`.
+- `[hidden]` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.site` · `base` · `assets/source/styles/main.css`: `{'max-width': '1600px', 'margin': 'auto', 'padding': '0 36px'}`.
+- `.masthead` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '32px', 'min-height': '76px'}`.
+- `.masthead nav` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '36px'}`.
+- `.masthead nav a` · `base` · `assets/source/styles/main.css`: `{'padding': '24px 0'}`.
+- `.atlas-layout` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '232px minmax(0,1fr)'}`.
+- `.index-rail` · `base` · `assets/source/styles/main.css`: `{'padding': '28px 16px 32px 0'}`.
+- `.index-rail h2` · `base` · `assets/source/styles/main.css`: `{'margin': '0 0 24px'}`.
+- `.index-rail ol` · `base` · `assets/source/styles/main.css`: `{'padding': '0', 'margin': '0'}`.
+- `.index-rail a` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'start', 'gap': '15px', 'padding': '14px 8px 14px 12px'}`.
+- `main` · `base` · `assets/source/styles/main.css`: `{'padding': '24px 0 36px 32px', 'min-width': '0', 'min-height': 'calc(100vh - 158px)'}`.
+- `.breadcrumbs` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '20px'}`.
+- `.hero` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.17fr 1fr', 'gap': '36px', 'align-items': 'center'}`.
+- `.hero h1` · `base` · `assets/source/styles/main.css`: `{'max-width': '540px'}`.
+- `.hero .deck` · `base` · `assets/source/styles/main.css`: `{'margin': '22px 0 18px'}`.
+- `.hero-copy>p:not(.notice)` · `base` · `assets/source/styles/main.css`: `{'max-width': '580px'}`.
+- `.hero .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '405px'}`.
+- `.media-well` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'center', 'width': '100%', 'min-width': '0'}`.
+- `.media-well img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': '100%'}`.
+- `.hero .media-well img[src$="paper.png"],.record-study .media-well img[src$="paper.png"]` · `base` · `assets/source/styles/main.css`: `{'width': '92%', 'height': '92%'}`.
+- `.actions` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '30px', 'align-items': 'center', 'margin': '28px 0 24px'}`.
+- `.notice` · `base` · `assets/source/styles/main.css`: `{'margin': '16px 0 0'}`.
+- `.index-row` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '44px 1.3fr .75fr 1fr', 'gap': '20px', 'align-items': 'center', 'padding': '14px 0'}`.
+- `.outline-link` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block'}`.
+- `.record-heading` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'start', 'gap': '28px', 'margin': '0 0 26px'}`.
+- `.record-heading .family` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0 0'}`.
+- `.record-heading .deck` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `.record-study` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.17fr 1fr', 'gap': '30px'}`.
+- `.record-study .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '355px'}`.
+- `.facts` · `base` · `assets/source/styles/main.css`: `{'margin': '18px 0'}`.
+- `.facts>div` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '36% 1fr', 'gap': '20px', 'padding': '12px 0'}`.
+- `.facts dd` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `.observation-note:before` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'width': '64px', 'height': '3px'}`.
+- `.source-strip` · `base` · `assets/source/styles/main.css`: `{'padding': '22px 0'}`.
+- `.source-columns` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '.8fr 1.2fr', 'gap': '32px'}`.
+- `.source-columns p` · `base` · `assets/source/styles/main.css`: `{'margin': '0 0 10px'}`.
+- `.next-prev` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '30px'}`.
+- `.comparison-heading .deck` · `base` · `assets/source/styles/main.css`: `{'margin': '10px 0 24px'}`.
+- `form` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'end', 'gap': '24px', 'margin': '0 0 26px'}`.
+- `form label` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '16px'}`.
+- `select` · `base` · `assets/source/styles/main.css`: `{'padding': '12px', 'min-width': '0', 'width': '100%', 'min-height': '48px'}`.
+- `.pair-media` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '24px'}`.
+- `.pair-media .media-well` · `base` · `assets/source/styles/main.css`: `{'height': '246px'}`.
+- `.pair-media h3` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0 2px'}`.
+- `.pair-media .notice` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0 18px'}`.
+- `.comparison-scroll` · `base` · `assets/source/styles/main.css`: `{'max-width': '100%'}`.
+- `table` · `base` · `assets/source/styles/main.css`: `{'width': '100%'}`.
+- `th,td` · `base` · `assets/source/styles/main.css`: `{'padding': '10px 12px'}`.
+- `thead th:first-child,tbody th` · `base` · `assets/source/styles/main.css`: `{'width': '22%'}`.
+- `.state-notice` · `base` · `assets/source/styles/main.css`: `{'padding': '10px 16px', 'margin': '0 0 20px'}`.
+- `.missing-image` · `base` · `assets/source/styles/main.css`: `{'padding': '24px'}`.
+- `.reading` · `base` · `assets/source/styles/main.css`: `{'max-width': '960px'}`.
+- `.reading h1` · `base` · `assets/source/styles/main.css`: `{'max-width': '950px'}`.
+- `.reading>h2` · `base` · `assets/source/styles/main.css`: `{'margin': '38px 0 16px'}`.
+- `.reading-list` · `base` · `assets/source/styles/main.css`: `{'padding': '0 0 0 32px', 'margin': '30px 0'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/main.css`: `{'padding': '22px 0 22px 16px'}`.
+- `.reading-list p` · `base` · `assets/source/styles/main.css`: `{'margin': '8px 0'}`.
+- `blockquote` · `base` · `assets/source/styles/main.css`: `{'margin': '20px 0', 'padding': '8px 0 8px 24px'}`.
+- `.source-records li` · `base` · `assets/source/styles/main.css`: `{'padding': '6px 0'}`.
+- `.guide-steps li` · `base` · `assets/source/styles/main.css`: `{'padding': '20px 0 20px 10px', 'break-inside': 'avoid'}`.
+- `code` · `base` · `assets/source/styles/main.css`: `{'padding': '1px 4px'}`.
+- `pre` · `base` · `assets/source/styles/main.css`: `{'padding': '16px'}`.
+- `.blank-state` · `base` · `assets/source/styles/main.css`: `{'max-width': '760px', 'padding': '20px 0'}`.
+- `.blank-state h2` · `base` · `assets/source/styles/main.css`: `{'margin': '50px 0 20px'}`.
+- `footer` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '32px', 'padding': '18px 0 24px'}`.
+- `footer>p` · `base` · `assets/source/styles/main.css`: `{'margin': '0', 'max-width': '58%'}`.
+- `footer>div` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '20px'}`.
+- `.sr-only` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px'}`.
+- `.skip-link` · `base` · `assets/source/styles/main.css`: `{'position': 'fixed', 'padding': '12px'}`.
+- `.site` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'padding': '0 24px'}`.
+- `.atlas-layout` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '190px minmax(0,1fr)'}`.
+- `.hero` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '24px', 'grid-template-columns': '1fr 1fr'}`.
+- `.hero .media-well` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'height': '360px'}`.
+- `.actions` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '18px'}`.
+- `.index-row` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '32px 1.3fr .7fr 1fr', 'gap': '12px'}`.
+- `form` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'gap': '16px'}`.
+- `form label` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.record-study` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr 1fr', 'gap': '24px'}`.
+- `.record-study .media-well` · `@media (max-width:1200px)` · `assets/source/styles/main.css`: `{'height': '320px'}`.
+- `.site` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '0 20px'}`.
+- `.masthead` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'padding': '18px 0 12px', 'min-height': '0'}`.
+- `.masthead nav` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '24px'}`.
+- `.masthead nav a` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '4px 0'}`.
+- `.atlas-layout` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.index-rail` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '20px 0 12px'}`.
+- `.index-rail ol` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 12px'}`.
+- `.index-rail a` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '8px', 'margin': '0', 'padding': '10px 6px'}`.
+- `.index-rail p` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '6px 0'}`.
+- `main` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '20px 0 30px', 'min-height': '0'}`.
+- `.hero` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'flex', 'flex-direction': 'column-reverse', 'gap': '22px', 'align-items': 'stretch'}`.
+- `.hero .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '270px'}`.
+- `.hero .deck` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '18px 0 12px'}`.
+- `.actions` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'margin': '22px 0'}`.
+- `.index-row` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '28px 1fr', 'gap': '6px 12px', 'align-items': 'start', 'padding': '16px 0'}`.
+- `.record-heading` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '18px'}`.
+- `.record-study` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.record-study .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '280px'}`.
+- `.observation` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '26px 0 0'}`.
+- `.source-columns` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.source-columns>div:last-child` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '20px 0 0'}`.
+- `.next-prev` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '20px'}`.
+- `form` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `form label` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'margin': '0 0 14px'}`.
+- `form button` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'width': '100%'}`.
+- `.pair-media` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'gap': '16px'}`.
+- `.pair-media .media-well` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'height': '180px'}`.
+- `table` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'min-width': '560px'}`.
+- `th,td` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'padding': '10px'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'padding': '20px 0'}`.
+- `footer>p` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'max-width': 'none'}`.
+- `footer>div` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'align-items': 'start', 'gap': '16px'}`.
+- `.facts>div` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '34% 1fr', 'gap': '16px'}`.
+- `.table-hint` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.table-hint` · `@media (max-width:760px)` · `assets/source/styles/main.css`: `{'display': 'block', 'margin': '12px 0'}`.
+- `.site` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `.masthead` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '0 0 8mm'}`.
+- `.masthead nav,.index-rail,.skip-link,form,.breadcrumbs,.next-prev,.outline-link,#static-notice,#comparison-status` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.atlas-layout` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `main` · `base` · `assets/source/styles/print.css`: `{'padding': '8mm 0', 'min-height': '0'}`.
+- `.hero` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.hero-copy` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.hero .specimen-media` · `base` · `assets/source/styles/print.css`: `{'width': '45%', 'margin': '0 0 5mm 6mm'}`.
+- `.hero .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '55mm'}`.
+- `.actions` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.index-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '10mm 1.3fr .8fr 1fr', 'gap': '4mm', 'padding': '4mm 0'}`.
+- `.record-study` · `base` · `assets/source/styles/print.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '6mm'}`.
+- `.record-study .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '58mm'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0', 'gap': '3mm'}`.
+- `.source-strip` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid', 'padding': '5mm 0'}`.
+- `.source-columns` · `base` · `assets/source/styles/print.css`: `{'gap': '6mm'}`.
+- `.pair-media` · `base` · `assets/source/styles/print.css`: `{'gap': '5mm', 'break-inside': 'avoid'}`.
+- `.pair-media .media-well` · `base` · `assets/source/styles/print.css`: `{'height': '48mm'}`.
+- `table` · `base` · `assets/source/styles/print.css`: `{'min-width': '0'}`.
+- `th,td` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm'}`.
+- `thead` · `base` · `assets/source/styles/print.css`: `{'display': 'table-header-group'}`.
+- `tr` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.reading` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.reading>h2` · `base` · `assets/source/styles/print.css`: `{'margin': '7mm 0 3mm'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid', 'padding': '4mm 0'}`.
+- `.guide-steps li` · `base` · `assets/source/styles/print.css`: `{'padding': '4mm 0', 'break-inside': 'auto'}`.
+- `pre` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm', 'break-inside': 'avoid'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'break-inside': 'avoid'}`.
+- `footer>p` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `footer>div` · `base` · `assets/source/styles/print.css`: `{'display': 'flex'}`.
+- `img` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.blank-state h2` · `base` · `assets/source/styles/print.css`: `{'margin': '8mm 0 4mm'}`.
+- `.table-hint` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.reading-list` · `base` · `assets/source/styles/print.css`: `{'margin': '4mm 0'}`.
+- `.reading-list>li` · `base` · `assets/source/styles/print.css`: `{'padding': '2.5mm 0'}`.
+- `.reading-list p` · `base` · `assets/source/styles/print.css`: `{'margin': '1.5mm 0'}`.
+- `main` · `base` · `assets/source/styles/print.css`: `{'padding': '6mm 0 3mm'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'padding': '2.5mm 0'}`.
+- `.source-strip` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0'}`.
+- `th,td` · `base` · `assets/source/styles/print.css`: `{'padding': '2mm 3mm'}`.
+- `.facts` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0'}`.

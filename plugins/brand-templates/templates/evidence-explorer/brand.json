@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "evidence-explorer",
+  "version": "0.2.1",
+  "name": "The Evidence Shelf",
+  "summary": "An editorial evidence identity that invites browsing while preserving the path back to each source.",
+  "category": "Research & evidence",
+  "tags": [
+    "site",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "evidence-explorer"
+  ],
+  "sourceTemplateNames": {
+    "evidence-explorer": "Evidence Explorer"
+  },
+  "templateVariations": [
+    {
+      "templateId": "evidence-explorer",
+      "name": "Evidence Explorer",
+      "format": "site",
+      "sourceHash": "331a9a761bf23f00b1ab82cb2da06521afc51a0a761996b67c971b6a4f59524d",
+      "foundationSha256": "ec25c84af78f6cc32953ae20421bd3d57ee40fb221d1e5ab650728e5221ad781",
+      "designSpecSha256": "edf6eeee43c2de8cc2a2937b678eba074bcbfa000d0057691671ae6f718b2d99",
+      "referenceDirectory": "references/evidence-explorer"
+    }
+  ],
+  "sourceHash": "331a9a761bf23f00b1ab82cb2da06521afc51a0a761996b67c971b6a4f59524d",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FBF7EF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#302B26",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#823C2C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#EEE4D8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#715243",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#B6A99B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Record titles and collection propositions."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Source root reading family for long evidence text."
+    },
+    {
+      "role": "label",
+      "family": "Arial",
+      "usage": "Controls and compact metadata only."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Record titles and collection propositions.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "evidence-explorer",
+      "sourceFingerprint": "331a9a761bf23f00b1ab82cb2da06521afc51a0a761996b67c971b6a4f59524d"
+    },
+    {
+      "role": "body",
+      "usage": "Source root reading family for long evidence text.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "evidence-explorer",
+      "sourceFingerprint": "331a9a761bf23f00b1ab82cb2da06521afc51a0a761996b67c971b6a4f59524d"
+    },
+    {
+      "role": "label",
+      "usage": "Controls and compact metadata only.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "evidence-explorer",
+      "sourceFingerprint": "331a9a761bf23f00b1ab82cb2da06521afc51a0a761996b67c971b6a4f59524d"
+    }
+  ],
+  "recognitionRules": [
+    "Use warm paper and brown-rust links with serif reading text.",
+    "Keep record titles, metadata and source details in a stable hierarchy.",
+    "Let filters narrow the shelf without rewriting the evidence.",
+    "Use rules and pale inset fields to distinguish navigation from source content."
+  ],
+  "writingLinks": [
+    {
+      "id": "V05",
+      "name": "Skeptical investigator",
+      "reason": "Lets readers inspect claims against their sources and limits.",
+      "sourceTemplateId": "evidence-explorer",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Find a useful record. Read it in context. Follow it back.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE EVIDENCE SHELF as a Georgia wordmark over a long open rule. No bookcase illustration; the rule acts as a shelf without enclosing records.",
+  "invariants": [
+    "Use warm paper and brown-rust links with serif reading text.",
+    "Keep record titles, metadata and source details in a stable hierarchy.",
+    "Let filters narrow the shelf without rewriting the evidence."
+  ],
+  "adaptations": [
+    "A collection page may be dense, but record pages remain spacious.",
+    "Print exports keep source IDs and retrieval paths.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/evidence-explorer.pdf",
+    "preview": "media/evidence-explorer-guide.webp",
+    "markdown": "guides/evidence-explorer.md"
+  },
+  "bundle": {
+    "href": "bundles/evidence-explorer-brand-kit.zip",
+    "filename": "The Evidence Shelf brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/evidence-explorer-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/evidence-explorer-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/evidence-explorer-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

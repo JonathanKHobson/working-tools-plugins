@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "brand-library": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/brand_library_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

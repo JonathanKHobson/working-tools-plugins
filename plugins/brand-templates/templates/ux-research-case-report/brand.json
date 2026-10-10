@@ -1,0 +1,244 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "ux-research-case-report",
+  "version": "0.2.1",
+  "name": "The Service Study",
+  "summary": "A research-report identity that explains a formative study through task, method, evidence and the practical decision it informs.",
+  "category": "Research & evidence",
+  "tags": [
+    "document",
+    "Research & evidence"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "ux-research-case-report"
+  ],
+  "sourceTemplateNames": {
+    "ux-research-case-report": "UX Research Case Report"
+  },
+  "templateVariations": [
+    {
+      "templateId": "ux-research-case-report",
+      "name": "UX Research Case Report",
+      "format": "document",
+      "sourceHash": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825",
+      "foundationSha256": "93dfe74b2e9453692b051d3a21b5531e8395be947ceed170ff47fc54f62b9ece",
+      "designSpecSha256": "b16f363d9c5ffc12f64cfe948631af96748860778ddf7f6adba66b633c167161",
+      "referenceDirectory": "references/ux-research-case-report"
+    }
+  ],
+  "sourceHash": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Research table header",
+      "role": "primary",
+      "hex": "#303E3B",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #303E3B; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Research table row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Native Title and research section headings use Baskerville."
+    },
+    {
+      "role": "body",
+      "family": "Baskerville",
+      "usage": "Native Normal paragraphs use Baskerville 12 pt for the report narrative."
+    },
+    {
+      "role": "labels",
+      "family": "Gill Sans",
+      "usage": "Subtitle, Caption, CaseMetadata and CaseEvidence use Gill Sans for supporting information."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Native Title and research section headings use Baskerville.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    },
+    {
+      "role": "body",
+      "usage": "Native Normal paragraphs use Baskerville 12 pt for the report narrative.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    },
+    {
+      "role": "labels",
+      "usage": "Subtitle, Caption, CaseMetadata and CaseEvidence use Gill Sans for supporting information.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+    "Keep study and task near the opening before findings.",
+    "Separate participant observations from the researcher’s interpretation.",
+    "Use dark green-gray table headers with white labels and pale rows; source IDs remain explicit in the black reading text."
+  ],
+  "writingLinks": [
+    {
+      "id": "V12",
+      "name": "Research register",
+      "reason": "Separates occurrence from impact judgments and states gaps.",
+      "sourceTemplateId": "ux-research-case-report",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P35",
+          "name": "Annotated field observer",
+          "type": "merge"
+        }
+      ]
+    }
+  ],
+  "quote": "Understand the task before judging the interface.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE SERVICE STUDY in Gill Sans with a small report number and a thin rule. No magnifying-glass or person silhouette.",
+  "invariants": [
+    "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+    "Keep study and task near the opening before findings.",
+    "Separate participant observations from the researcher’s interpretation."
+  ],
+  "adaptations": [
+    "A short report retains method and limits even when findings are condensed.",
+    "An appendix expands the record without interrupting the main argument.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/ux-research-case-report.pdf",
+    "preview": "media/ux-research-case-report-guide.webp",
+    "markdown": "guides/ux-research-case-report.md"
+  },
+  "bundle": {
+    "href": "bundles/ux-research-case-report-brand-kit.zip",
+    "filename": "The Service Study brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/ux-research-case-report-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/ux-research-case-report-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/ux-research-case-report-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

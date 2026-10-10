@@ -1,0 +1,853 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "ef6167e89717deb0132fba93ed9b8d7ad072a7c333370d47c7b7cd9faa06c1b3",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "index.html": "c04b94f9907e4d6e63ae37a3b2a14c5d0fa85286c76d686a811505fed197b3fa",
+    "scripts/build.mjs": "72386b72624fdadb65ad0d3ee7863edb23cd9661aee918d0b10fecbfe08b4465",
+    "scripts/serve.mjs": "c44a638db1be6210fcf937d9c601c02fc25b3bf0a6bfff80f20ecd15e9ef79b3",
+    "src/data.js": "bf4cf7d84f04197436d0b99088b1889a0dc963abda8aa8d20aba87b6cc54c696",
+    "src/dom.js": "bee44f30f8d8365a2a83a5019cd5ca860174d8f4e32a5907329655656350d3c0",
+    "src/domain.js": "96cca9e69818f957d5fbd9a8295e5c4e2ab90b6c2782ceaa13a3ff08f23ed06f",
+    "src/main.js": "350d24e405503c8389ae264cca36f0e770c384b6f96dd7a7560da62059b1a4ea",
+    "src/styles.css": "34e2ced0a7e774d7ffb34beec781716d646ee346165a449d82d4cd81f663d30a",
+    "src/view.js": "fb3047ecc2ab340453413858863066e24a2032a59e549bf467d91680cba2c58a"
+  },
+  "css": [
+    "src/styles.css"
+  ],
+  "js": [
+    "src/data.js",
+    "src/dom.js",
+    "src/domain.js",
+    "src/main.js",
+    "src/view.js"
+  ],
+  "html": [
+    "index.html"
+  ],
+  "variables": [],
+  "colors": [
+    "#16383a",
+    "#fff",
+    "#ad4b16",
+    "#316560",
+    "#385856",
+    "#f4f5ef",
+    "#47686a",
+    "#e2ece7",
+    "#fff2df",
+    "#dceae4",
+    "#8da09a",
+    "#a7b7ae",
+    "#934113",
+    "#83a599"
+  ],
+  "selectors": [
+    ".filters",
+    "*",
+    "button,select",
+    ".shell",
+    "h2",
+    "h3",
+    ".reset",
+    ".results-heading",
+    "#result-count",
+    ".session",
+    ".when .time",
+    "footer",
+    "footer span",
+    ".filters fieldset button",
+    "body",
+    "button,summary,select",
+    "button",
+    "button:hover",
+    ":focus-visible",
+    ".skip",
+    ".skip:focus",
+    ".hero",
+    ".eyebrow",
+    "h1",
+    ".intro",
+    ".notice",
+    ".filters label",
+    ".filters select"
+  ],
+  "componentRules": [
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,select",
+      "properties": {
+        "font": "inherit"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,summary,select",
+      "properties": {
+        "cursor": "pointer"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,select",
+      "properties": {
+        "min-height": "48px",
+        "border": "1px solid #47686a",
+        "border-radius": "5px",
+        "background": "#fff",
+        "color": "#16383a"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button",
+      "properties": {
+        "padding": "10px 17px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button:hover",
+      "properties": {
+        "background": "#e2ece7"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ":focus-visible",
+      "properties": {
+        "outline": "3px solid #ad4b16",
+        "outline-offset": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "position": "absolute",
+        "left": "20px",
+        "top": "-80px",
+        "background": "white",
+        "padding": "12px",
+        "z-index": "2"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "top": "12px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".shell",
+      "properties": {
+        "max-width": "1160px",
+        "margin": "auto",
+        "padding": "54px 44px 30px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".hero",
+      "properties": {
+        "max-width": "850px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".12em",
+        "font-size": ".75rem",
+        "font-weight": "700",
+        "color": "#316560",
+        "margin": "0 0 20px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.35rem,5vw,4rem)",
+        "line-height": "1.05",
+        "letter-spacing": "-.04em",
+        "margin": "0 0 24px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.4rem",
+        "letter-spacing": "-.02em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.5rem",
+        "line-height": "1.2",
+        "letter-spacing": "-.025em",
+        "margin": "15px 0 13px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".intro",
+      "properties": {
+        "font-size": "1.2rem",
+        "max-width": "680px",
+        "margin-bottom": "32px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".notice",
+      "properties": {
+        "border-left": "4px solid #ad4b16",
+        "background": "#fff2df",
+        "padding": "14px 18px",
+        "font-size": ".86rem",
+        "margin": "0 0 32px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr 1.55fr auto",
+        "gap": "18px",
+        "align-items": "end",
+        "border-top": "2px solid #16383a",
+        "padding-top": "24px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters label",
+      "properties": {
+        "display": "block",
+        "font-size": ".82rem",
+        "font-weight": "700",
+        "margin-bottom": "8px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters select",
+      "properties": {
+        "padding": "10px",
+        "width": "100%",
+        "max-width": "100%"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reset",
+      "properties": {
+        "white-space": "nowrap",
+        "background": "transparent"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".active-filters",
+      "properties": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "10px",
+        "margin": "16px 0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".active-filters button",
+      "properties": {
+        "font-size": ".8rem",
+        "min-height": "40px",
+        "background": "#dceae4"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".results-heading",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "align-items": "center",
+        "border-bottom": "1px solid #8da09a",
+        "margin-top": "28px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#result-count",
+      "properties": {
+        "font-size": ".85rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "155px minmax(0,1fr)",
+        "gap": "34px",
+        "border-bottom": "1px solid #a7b7ae",
+        "padding": "28px 0 30px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when p",
+      "properties": {
+        "margin": "0",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when .time",
+      "properties": {
+        "font-size": ".83rem",
+        "font-weight": "400",
+        "margin-top": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session-meta",
+      "properties": {
+        "display": "flex",
+        "gap": "15px",
+        "flex-wrap": "wrap",
+        "font-size": ".72rem",
+        "font-weight": "700",
+        "text-transform": "uppercase",
+        "letter-spacing": ".045em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session-meta span+span",
+      "properties": {
+        "color": "#316560"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session-meta .unknown",
+      "properties": {
+        "color": "#934113"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session-content>p",
+      "properties": {
+        "max-width": "700px",
+        "margin": "0 0 18px",
+        "color": "#385856"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "width": "max-content",
+        "max-width": "100%",
+        "font-size": ".9rem",
+        "font-weight": "700",
+        "min-height": "44px",
+        "padding": "8px 0",
+        "text-decoration": "underline",
+        "text-underline-offset": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".details-body",
+      "properties": {
+        "border-left": "3px solid #83a599",
+        "padding": "1px 0 1px 18px",
+        "font-size": ".9rem",
+        "max-width": "700px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty",
+      "properties": {
+        "padding": "38px 0 45px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty p",
+      "properties": {
+        "max-width": "680px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "20px",
+        "font-size": ".74rem",
+        "color": "#385856",
+        "margin-top": "45px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer span",
+      "properties": {
+        "max-width": "260px",
+        "text-align": "right"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".shell",
+      "properties": {
+        "padding": "32px 22px"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters",
+      "properties": {
+        "grid-template-columns": "1fr 1fr"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters>div:nth-child(3)",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reset",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "15px"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when",
+      "properties": {
+        "display": "flex",
+        "gap": "18px"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when .time",
+      "properties": {
+        "margin-top": "0"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".results-heading",
+      "properties": {
+        "gap": "15px"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#result-count",
+      "properties": {
+        "white-space": "nowrap",
+        "font-size": ".75rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.3rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer span",
+      "properties": {
+        "display": "block",
+        "text-align": "left",
+        "margin-top": "12px"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "*",
+      "properties": {
+        "scroll-behavior": "auto"
+      },
+      "context": "@media (prefers-reduced-motion:reduce)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters",
+      "properties": {
+        "grid-template-columns": "1fr 1.55fr auto"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters fieldset",
+      "properties": {
+        "grid-column": "1/-1",
+        "border": "0",
+        "margin": "0",
+        "padding": "0",
+        "display": "flex",
+        "gap": "10px",
+        "flex-wrap": "wrap"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters legend",
+      "properties": {
+        "font-size": ".82rem",
+        "font-weight": "700",
+        "margin-bottom": "8px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters [aria-pressed=true]",
+      "properties": {
+        "background": "#16383a",
+        "color": "#fff"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters fieldset button",
+      "properties": {
+        "min-width": "95px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters",
+      "properties": {
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters>div",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters fieldset button",
+      "properties": {
+        "min-width": "calc(50% - 5px)"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    }
+  ],
+  "responsive": [
+    "@media (max-width:750px)",
+    "@media (prefers-reduced-motion:reduce)"
+  ],
+  "typography": [
+    {
+      "selector": ":root",
+      "properties": {
+        "font-family": "Arial,Helvetica,sans-serif",
+        "font-size": "18px",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".12em",
+        "font-size": ".75rem",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.35rem,5vw,4rem)",
+        "line-height": "1.05",
+        "letter-spacing": "-.04em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.4rem",
+        "letter-spacing": "-.02em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.5rem",
+        "line-height": "1.2",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".intro",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".notice",
+      "properties": {
+        "font-size": ".86rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters label",
+      "properties": {
+        "font-size": ".82rem",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".active-filters button",
+      "properties": {
+        "font-size": ".8rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#result-count",
+      "properties": {
+        "font-size": ".85rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when p",
+      "properties": {
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".when .time",
+      "properties": {
+        "font-size": ".83rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".session-meta",
+      "properties": {
+        "font-size": ".72rem",
+        "font-weight": "700",
+        "text-transform": "uppercase",
+        "letter-spacing": ".045em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "font-size": ".9rem",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".details-body",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": ".74rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#result-count",
+      "properties": {
+        "font-size": ".75rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.3rem"
+      },
+      "context": "@media (max-width:750px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".filters legend",
+      "properties": {
+        "font-size": ".82rem",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    }
+  ],
+  "headings": [],
+  "ids": [
+    "app"
+  ],
+  "assets": [],
+  "assetPolicy": null,
+  "contentFiles": [],
+  "renderedPreview": null
+}

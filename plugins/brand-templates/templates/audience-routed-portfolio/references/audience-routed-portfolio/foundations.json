@@ -1,0 +1,2745 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "55f21e8c544bf50e763d5560cfd720c9600b01598f165a07aa51f3f935d7bb25",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "client/context.js": "13b3ea088fb98def94aa0a818f8c87cc5726f5258ed16d913976055a23528436",
+    "fonts/arimo/Arimo-Bold.woff2": "aa46ca497a25f3c52fc71f4d92cc8565a38bad9b435c3941ce19bfeaca2ca068",
+    "fonts/arimo/Arimo-Regular.woff2": "e8bcd8a8d8686ccf4918fe42cfae32a207c8d5cbe9e2e470b452df7e50ddc79c",
+    "scripts/build.mjs": "8c198a699c39ef750ec4c185a01d8acfd24d9572f243b84386018049f7b14240",
+    "scripts/serve.mjs": "1d29a0af7d3870b8dbac752c3f9421633c9fe45bef28ecbd601249a6f6db3d62",
+    "src/domain.mjs": "f69bb97304406a7d1298642c62cac67d22dd7fedf7574f4c4f7e8fe46fbd9538",
+    "src/pages.mjs": "1294b064c7448d41debde8e7c95e17e6c2952c46b6b0965287badbbe89eaf805",
+    "src/render.mjs": "c9cbd5f99f9d256ed8649dac660bc5a6c0cf902f70e3854651db1ecc839b754c",
+    "styles/site.css": "5835c89bf2d85d278f4c9c3fa2812e7d083d3505f48f73331768f7e1ed099167"
+  },
+  "css": [
+    "styles/site.css"
+  ],
+  "js": [
+    "client/context.js",
+    "src/domain.mjs",
+    "src/pages.mjs",
+    "src/render.mjs"
+  ],
+  "html": [],
+  "variables": [
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--blue",
+      "value": "#061cd1"
+    },
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--ink",
+      "value": "#161a23"
+    },
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--muted",
+      "value": "#595f73"
+    },
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--rule",
+      "value": "#9da6c2"
+    },
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--paper",
+      "value": "#fff"
+    },
+    {
+      "source": "styles/site.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--sample",
+      "value": "#f3f4f7"
+    }
+  ],
+  "colors": [
+    "#061cd1",
+    "#161a23",
+    "#595f73",
+    "#9da6c2",
+    "#fff",
+    "#f3f4f7",
+    "#f0f3ff",
+    "#d4d8e3"
+  ],
+  "selectors": [
+    ".site-header",
+    ".site-header nav",
+    ".audience-rail h2",
+    ".audience-rail p",
+    ".project-row",
+    ".project-name strong",
+    ".project-meta",
+    ".case-subtitle",
+    ".case-section",
+    ".section-content",
+    ".sample dl>div",
+    ".case-end",
+    ".brand",
+    ".site-header nav a",
+    ".index-intro",
+    ".index-intro p",
+    ".project-list li",
+    ".project-name>span",
+    ".row-arrow",
+    ".back",
+    ".case h1",
+    ".case-metadata",
+    ".case-section h2",
+    ".sample figcaption",
+    ".route-reason",
+    ".after-route",
+    ".credits p",
+    "html"
+  ],
+  "componentRules": [
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "html",
+      "properties": {
+        "scroll-behavior": "auto"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "overflow-wrap": "anywhere",
+        "margin": "0",
+        "background": "var(--paper)",
+        "color": "var(--ink)",
+        "font-family": "Arimo,Arial,sans-serif",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "var(--blue)",
+        "text-decoration": "underline",
+        "text-decoration-thickness": "1px",
+        "text-underline-offset": "4px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "a:hover",
+      "properties": {
+        "text-decoration-thickness": "2px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "a:focus-visible",
+      "properties": {
+        "outline": "3px solid var(--blue)",
+        "outline-offset": "6px",
+        "background": "#f0f3ff"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h1,h2,h3,p,dl,dd,figure",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "color": "var(--blue)",
+        "font-size": "clamp(3.2rem,8.8vw,7.45rem)",
+        "line-height": "1.04",
+        "letter-spacing": "-.065em",
+        "font-weight": "700",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h2,h3",
+      "properties": {
+        "line-height": "1.16",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.2rem",
+        "margin-top": "1.05em",
+        "margin-bottom": ".25em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "p+p",
+      "properties": {
+        "margin-top": ".9em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".page",
+      "properties": {
+        "width": "min(100%,1648px)",
+        "padding": "0 3.6vw",
+        "margin": "auto"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "min-height": "82px",
+        "display": "flex",
+        "gap": "2rem",
+        "align-items": "center",
+        "justify-content": "space-between",
+        "border-bottom": "1px solid var(--blue)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.55rem",
+        "font-weight": "700",
+        "text-decoration": "none",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "display": "flex",
+        "gap": "2.25rem",
+        "align-items": "center",
+        "font-size": "1.16rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav a",
+      "properties": {
+        "min-height": "44px",
+        "display": "flex",
+        "align-items": "center"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "position": "absolute",
+        "z-index": "10",
+        "left": "1rem",
+        "top": "0",
+        "transform": "translateY(-150%)",
+        "padding": ".65rem",
+        "background": "white"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "transform": "none"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "main:focus",
+      "properties": {
+        "outline": "none"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "7fr 3.2fr",
+        "align-items": "center",
+        "gap": "5vw",
+        "padding": "52px 0 46px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p",
+      "properties": {
+        "font-size": "1.33rem",
+        "line-height": "1.25"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "border-top": "1px solid var(--blue)",
+        "border-bottom": "1px solid var(--blue)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail>div",
+      "properties": {
+        "min-width": "0",
+        "overflow-wrap": "anywhere",
+        "padding": "22px 2.4vw 24px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail>div+div",
+      "properties": {
+        "border-left": "1px solid var(--blue)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "2.35rem",
+        "line-height": "1.15"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "margin-top": ".15rem",
+        "font-size": "1.35rem",
+        "line-height": "1.3"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".work-index",
+      "properties": {
+        "margin-top": "32px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".work-index>h2,.route-heading",
+      "properties": {
+        "font-size": "1.55rem",
+        "margin-bottom": "14px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-list",
+      "properties": {
+        "list-style": "none",
+        "padding": "0",
+        "margin": "0",
+        "border-top": "1px solid var(--blue)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-list li",
+      "properties": {
+        "border-bottom": "1px solid var(--blue)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-row",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "9% 55% 1fr 30px",
+        "gap": "20px",
+        "align-items": "center",
+        "padding": "19px 0 21px",
+        "min-height": "129px",
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-row:hover .project-name strong,.project-row:focus .project-name strong",
+      "properties": {
+        "text-decoration": "underline",
+        "text-underline-offset": "6px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".number",
+      "properties": {
+        "color": "var(--muted)",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name",
+      "properties": {
+        "display": "flex",
+        "flex-direction": "column",
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "color": "var(--blue)",
+        "font-size": "3rem",
+        "line-height": "1.08",
+        "letter-spacing": "-.045em",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "1.26rem",
+        "line-height": "1.25",
+        "margin-top": "3px",
+        "color": "var(--ink)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "color": "var(--muted)",
+        "font-size": "1rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "font-size": "2.2rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".home footer",
+      "properties": {
+        "border-top": "0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "border-top": "1px solid var(--rule)",
+        "display": "flex",
+        "align-items": "flex-start",
+        "justify-content": "space-between",
+        "gap": "1.5rem",
+        "padding": "27px 0 29px",
+        "color": "var(--muted)",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer p",
+      "properties": {
+        "max-width": "65%"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".back::before",
+      "properties": {
+        "content": "\"← \""
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".back",
+      "properties": {
+        "display": "inline-block",
+        "margin": "22px 0 18px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".reading main,.route main,.notes main,.case main",
+      "properties": {
+        "padding-bottom": "26px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .page,.notes .page,.route .page",
+      "properties": {
+        "max-width": "1350px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "clamp(3.4rem,11.8vw,7rem)",
+        "letter-spacing": "-.055em",
+        "line-height": "1"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "overflow-wrap": "anywhere",
+        "font-size": "2.55rem",
+        "font-weight": "700",
+        "line-height": "1.14",
+        "letter-spacing": "-.04em",
+        "margin-top": ".3rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.58rem",
+        "line-height": "1.3",
+        "margin-top": ".55rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr 1fr",
+        "gap": "0",
+        "margin": "28px 0 27px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata>div",
+      "properties": {
+        "padding-right": "1.4rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata>div+div",
+      "properties": {
+        "padding-left": "1.9rem",
+        "border-left": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt",
+      "properties": {
+        "font-size": "1rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dd",
+      "properties": {
+        "font-size": "1.12rem",
+        "margin-top": ".1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata>div:first-child dd::first-letter",
+      "properties": {
+        "text-transform": "uppercase"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "23% minmax(0,1fr)",
+        "gap": "4%",
+        "padding": "25px 0",
+        "border-top": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "1.65rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2 span",
+      "properties": {
+        "color": "var(--blue)",
+        "display": "block",
+        "margin-bottom": ".2rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "min-width": "0",
+        "border-left": "1px solid var(--rule)",
+        "padding-left": "2.2rem",
+        "font-size": "1.23rem",
+        "line-height": "1.42"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl",
+      "properties": {
+        "border-top": "7px solid var(--blue)",
+        "background": "var(--sample)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl>div",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "29% minmax(0,1fr)",
+        "gap": "1.1rem",
+        "padding": "18px 20px",
+        "border-bottom": "1px solid #d4d8e3"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl>div:last-child",
+      "properties": {
+        "border-bottom": "none"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt",
+      "properties": {
+        "font-size": "1rem",
+        "font-weight": "700",
+        "text-transform": "uppercase"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dd",
+      "properties": {
+        "font-size": "1.04rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": ".89rem",
+        "color": "var(--muted)",
+        "margin-top": "10px",
+        "line-height": "1.35"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "display": "flex",
+        "gap": "2.25rem",
+        "flex-wrap": "wrap",
+        "border-top": "1px solid var(--rule)",
+        "padding-top": "23px",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case footer",
+      "properties": {
+        "font-size": ".78rem",
+        "border-top": "0",
+        "padding-top": "0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".empty-proof",
+      "properties": {
+        "border-top": "7px solid var(--blue)",
+        "padding": "18px",
+        "background": "var(--sample)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".empty-proof h3",
+      "properties": {
+        "margin-top": "0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route h1,.notes h1,.not-found h1",
+      "properties": {
+        "margin-top": "28px",
+        "font-size": "clamp(3rem,8vw,6rem)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "max-width": "850px",
+        "font-size": "1.25rem",
+        "margin": "26px 0 40px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-heading",
+      "properties": {
+        "margin-top": "30px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "2rem",
+        "margin-top": "34px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route p",
+      "properties": {
+        "max-width": "730px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".notes .lead",
+      "properties": {
+        "margin-bottom": "36px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits",
+      "properties": {
+        "border-top": "1px solid var(--rule)",
+        "padding": "28px 0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits h2",
+      "properties": {
+        "font-size": "1.6rem",
+        "margin-bottom": "18px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "max-width": "850px",
+        "font-size": "1.12rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".not-found .lead",
+      "properties": {
+        "margin": "30px 0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".not-found .audience-rail",
+      "properties": {
+        "margin": "45px 0"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".not-found main",
+      "properties": {
+        "min-height": "70vh"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "#reading-routes",
+      "properties": {
+        "scroll-margin-top": "20px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .page",
+      "properties": {
+        "padding-right": "4.4vw",
+        "padding-left": "4.4vw"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header",
+      "properties": {
+        "min-height": "68px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .brand,.case .site-header nav",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header nav a",
+      "properties": {
+        "color": "var(--ink)",
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header nav a:hover",
+      "properties": {
+        "text-decoration": "underline"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".home .project-row",
+      "properties": {
+        "grid-template-columns": "9% 55% 1fr 42px"
+      },
+      "context": "@media (min-width:1400px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".home .index-intro h1",
+      "properties": {
+        "white-space": "nowrap"
+      },
+      "context": "@media (min-width:1400px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".home .index-intro",
+      "properties": {
+        "gap": "5.2vw"
+      },
+      "context": "@media (min-width:1400px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "gap": "1.25rem",
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "24px",
+        "padding": "36px 0"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro h1",
+      "properties": {
+        "font-size": "clamp(3.7rem,10vw,6rem)"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p",
+      "properties": {
+        "max-width": "560px"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "1.9rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "1.15rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-row",
+      "properties": {
+        "grid-template-columns": "7% 53% 1fr 26px",
+        "gap": "13px"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "2.4rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "clamp(3.4rem,11vw,6.5rem)"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl>div",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": ".35rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "padding-left": "1.4rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section",
+      "properties": {
+        "grid-template-columns": "23% minmax(0,1fr)",
+        "gap": "3%"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".page,.case .page",
+      "properties": {
+        "padding": "0 22px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "align-items": "flex-start",
+        "flex-direction": "column",
+        "gap": ".35rem",
+        "padding": "18px 0 10px",
+        "min-height": "100px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.35rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "width": "100%",
+        "gap": "1.15rem",
+        "flex-wrap": "wrap",
+        "font-size": ".94rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav a",
+      "properties": {
+        "min-height": "38px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro h1",
+      "properties": {
+        "font-size": "3.5rem",
+        "white-space": "normal",
+        "letter-spacing": "-.055em"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail",
+      "properties": {
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail>div",
+      "properties": {
+        "min-width": "0",
+        "overflow-wrap": "anywhere",
+        "padding": "18px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail>div+div",
+      "properties": {
+        "border-left": "0",
+        "border-top": "1px solid var(--blue)"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "1.85rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".work-index>h2",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-row",
+      "properties": {
+        "grid-template-columns": "24px minmax(0,1fr) auto",
+        "gap": "10px",
+        "padding": "20px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".number",
+      "properties": {
+        "align-self": "start",
+        "padding-top": ".3rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.04em"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "1.05rem",
+        "line-height": "1.35",
+        "margin-top": "7px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "grid-column": "2",
+        "grid-row": "2",
+        "font-size": ".92rem",
+        "margin-top": "2px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "grid-column": "3",
+        "grid-row": "1",
+        "font-size": "1.5rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-list li",
+      "properties": {
+        "min-width": "0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "display": "block",
+        "font-size": ".83rem",
+        "line-height": "1.45",
+        "padding": "22px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer p",
+      "properties": {
+        "max-width": "none"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer a",
+      "properties": {
+        "display": "inline-block",
+        "margin-top": "12px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".back",
+      "properties": {
+        "margin": "20px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "3.8rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "1.6rem",
+        "margin-top": "12px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.25rem",
+        "line-height": "1.4",
+        "margin-top": "15px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "12px",
+        "margin": "28px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata>div,.case-metadata>div+div",
+      "properties": {
+        "padding": "0",
+        "border-left": "0",
+        "display": "grid",
+        "grid-template-columns": "minmax(0,.8fr) minmax(0,1.4fr)",
+        "gap": "12px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt,.case-metadata dd",
+      "properties": {
+        "font-size": ".95rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "16px",
+        "padding": "22px 0"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "1.45rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2 span",
+      "properties": {
+        "display": "inline",
+        "margin-right": "12px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "border": "0",
+        "padding": "0",
+        "font-size": "1.12rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl>div",
+      "properties": {
+        "padding": "15px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dd",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": ".83rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "font-size": ".95rem",
+        "gap": "20px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route a",
+      "properties": {
+        "display": "inline-block",
+        "margin-top": "20px"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route h1,.notes h1,.not-found h1",
+      "properties": {
+        "font-size": "3.2rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "font-size": "1.15rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "font-size": "1.05rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.12rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header",
+      "properties": {
+        "min-height": "35pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header nav",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .brand",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case main",
+      "properties": {
+        "padding-bottom": "0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case footer",
+      "properties": {
+        "padding": "8pt 0",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "break-after": "avoid"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "color": "#161a23"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".page,.case .page,.notes .page,.route .page",
+      "properties": {
+        "width": "auto",
+        "max-width": "none",
+        "padding": "0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "min-height": "35pt",
+        "padding": "0 0 10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "font-size": "9pt",
+        "gap": "12pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav a",
+      "properties": {
+        "min-height": "0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h1,.case h1,.index-intro h1,.route h1,.notes h1",
+      "properties": {
+        "font-size": "40pt",
+        "white-space": "normal"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro",
+      "properties": {
+        "padding": "24pt 0",
+        "gap": "20pt",
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p,.lead",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-row",
+      "properties": {
+        "grid-template-columns": "7% 52% 1fr 14pt",
+        "min-height": "0",
+        "padding": "13pt 0",
+        "gap": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "21pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata",
+      "properties": {
+        "margin": "18pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt,.case-metadata dd",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section",
+      "properties": {
+        "padding": "9pt 0",
+        "grid-template-columns": "22% minmax(0,1fr)",
+        "gap": "4%",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "14pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "font-size": "11pt",
+        "line-height": "1.4",
+        "padding-left": "14pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content h3",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dl>div",
+      "properties": {
+        "padding": "9pt",
+        "gap": "8pt",
+        "grid-template-columns": "29% minmax(0,1fr)"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt,.sample dd",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "font-size": "9pt",
+        "padding-top": "12pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer,.case footer",
+      "properties": {
+        "font-size": "8pt",
+        "padding": "16pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".back",
+      "properties": {
+        "font-size": "9pt",
+        "margin": "12pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "#061cd1"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-list li",
+      "properties": {
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "font-size": "12pt",
+        "margin": "18pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".notes .lead",
+      "properties": {
+        "margin-bottom": "20pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored .section-content p+p",
+      "properties": {
+        "margin-top": ".45em"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored .section-content h3",
+      "properties": {
+        "margin-top": ".6em"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored .case-section",
+      "properties": {
+        "padding": "7pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored .case-metadata",
+      "properties": {
+        "margin": "12pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored .case-end",
+      "properties": {
+        "padding-top": "8pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".authored footer",
+      "properties": {
+        "padding": "8pt 0"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    }
+  ],
+  "responsive": [
+    "@media print",
+    "@media (min-width:1400px)",
+    "@media (max-width:1000px)",
+    "@media (max-width:640px)"
+  ],
+  "typography": [
+    {
+      "selector": ":root",
+      "properties": {
+        "font-size": "18px"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "font-family": "Arimo,Arial,sans-serif",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(3.2rem,8.8vw,7.45rem)",
+        "line-height": "1.04",
+        "letter-spacing": "-.065em",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h2,h3",
+      "properties": {
+        "line-height": "1.16",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.55rem",
+        "font-weight": "700",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "font-size": "1.16rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p",
+      "properties": {
+        "font-size": "1.33rem",
+        "line-height": "1.25"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "2.35rem",
+        "line-height": "1.15"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "1.35rem",
+        "line-height": "1.3"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".work-index>h2,.route-heading",
+      "properties": {
+        "font-size": "1.55rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".number",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "3rem",
+        "line-height": "1.08",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "1.26rem",
+        "line-height": "1.25"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": "1rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "font-size": "2.2rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "clamp(3.4rem,11.8vw,7rem)",
+        "letter-spacing": "-.055em",
+        "line-height": "1"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "2.55rem",
+        "font-weight": "700",
+        "line-height": "1.14",
+        "letter-spacing": "-.04em"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.58rem",
+        "line-height": "1.3"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dd",
+      "properties": {
+        "font-size": "1.12rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata>div:first-child dd::first-letter",
+      "properties": {
+        "text-transform": "uppercase"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "1.65rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "font-size": "1.23rem",
+        "line-height": "1.42"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt",
+      "properties": {
+        "font-size": "1rem",
+        "font-weight": "700",
+        "text-transform": "uppercase"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dd",
+      "properties": {
+        "font-size": "1.04rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": ".89rem",
+        "line-height": "1.35"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case footer",
+      "properties": {
+        "font-size": ".78rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route h1,.notes h1,.not-found h1",
+      "properties": {
+        "font-size": "clamp(3rem,8vw,6rem)"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits h2",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "font-size": "1.12rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .brand,.case .site-header nav",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro h1",
+      "properties": {
+        "font-size": "clamp(3.7rem,10vw,6rem)"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "1.9rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "1.15rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "2.4rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "clamp(3.4rem,11vw,6.5rem)"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.35rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "font-size": ".94rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro h1",
+      "properties": {
+        "font-size": "3.5rem",
+        "letter-spacing": "-.055em"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "1.85rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".work-index>h2",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.04em"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "1.05rem",
+        "line-height": "1.35"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": ".92rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": ".83rem",
+        "line-height": "1.45"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case h1",
+      "properties": {
+        "font-size": "3.8rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.25rem",
+        "line-height": "1.4"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt,.case-metadata dd",
+      "properties": {
+        "font-size": ".95rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "1.45rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "font-size": "1.12rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dd",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": ".83rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "font-size": ".95rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route h1,.notes h1,.not-found h1",
+      "properties": {
+        "font-size": "3.2rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "font-size": "1.15rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "font-size": "1.05rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.12rem"
+      },
+      "context": "@media (max-width:640px)",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .site-header nav",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case .brand",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".site-header nav",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "h1,.case h1,.index-intro h1,.route h1,.notes h1",
+      "properties": {
+        "font-size": "40pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".index-intro p,.lead",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail h2",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".audience-rail p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name strong",
+      "properties": {
+        "font-size": "21pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-name>span",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".project-meta",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-subtitle",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-metadata dt,.case-metadata dd",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-section h2",
+      "properties": {
+        "font-size": "14pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content",
+      "properties": {
+        "font-size": "11pt",
+        "line-height": "1.4"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".section-content h3",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample dt,.sample dd",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".sample figcaption",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".case-end",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": "footer,.case footer",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".back",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".row-arrow",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".credits p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".route-reason",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    },
+    {
+      "selector": ".after-route",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "styles/site.css"
+    }
+  ],
+  "headings": [
+    "Suggested reading order",
+    "Sample provenance",
+    "Outcome source",
+    "Source limitations",
+    "Tradeoff",
+    "Next evidence needed",
+    "Evidence notes.",
+    "Design and authorship",
+    "Page not found."
+  ],
+  "ids": [
+    "all-work",
+    "main",
+    "reading-context",
+    "reading-routes"
+  ],
+  "assets": [
+    "fonts/arimo/Arimo-Bold.woff2",
+    "fonts/arimo/Arimo-Regular.woff2"
+  ],
+  "assetPolicy": null,
+  "contentFiles": [
+    "content/portfolio.json",
+    "fonts/arimo/provenance.json"
+  ],
+  "renderedPreview": null
+}

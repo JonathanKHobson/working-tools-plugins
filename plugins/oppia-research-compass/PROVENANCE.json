@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "package": "oppia-research-compass",
+  "version": "0.4.1",
+  "canonical_source": "oppia-research-compass",
+  "source_tree_sha256": "dfaefd97fdd3a3589469f3d0d526573492df7df45847526d7b5169549485e715",
+  "retained_skill_heads": 10,
+  "mcp_tools": 10,
+  "private_source_exclusions": {
+    ".mcp.json": "Automatic runtime registration omitted; receiving host explicitly selects runtime/corpus.",
+    "mcp/oppia-research-compass/data/oppia_research.sqlite": "Private Oppia team evidence corpus, excerpts/respondent/study identifiers and release history excluded. Replaced by a generated zero-row schema-compatible database."
+  },
+  "files": [
+    {
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "ac8596137f18ed508a088df5402da98cab113833bb11d32f435dd21b31bd4843",
+      "path": ".codex-plugin/plugin.json",
+      "output_sha256": "cca1bb8174317113fc242ed1f880c0a46dbf546ad970866e07451e12bb9728fc",
+      "change": "Complete public source identity and exact corpus exclusion."
+    },
+    {
+      "source_relative": ".mcp.json",
+      "source_sha256": "c6154af6e84ea7f799b361b2a9bb83794ef559d172b2fe0d3ef30aeb3f6a5719",
+      "path": null,
+      "output_sha256": null,
+      "change": "Automatic runtime registration omitted; receiving host explicitly selects runtime/corpus."
+    },
+    {
+      "source_relative": "LICENSE",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "path": "LICENSE",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83",
+      "path": "LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "NOTICE",
+      "source_sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f",
+      "path": "NOTICE",
+      "output_sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "README.md",
+      "source_sha256": "11716c6bfa064f4c5e56897835eb8dd06cec835fe3803d60575933d151c0efb2",
+      "path": "README.md",
+      "output_sha256": "312bcf21b4f7bd8c17ff6f56d5c02cd71736a478f473bf79bdaad6705e50abc7",
+      "change": "Full original onboarding and precise schema/empty/missing-data semantics and prerequisites."
+    },
+    {
+      "source_relative": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "594bbd7e143f74355f8481977687a2bb8544fdead60330809a0d974362e90d59",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "output_sha256": "afd9c40a0526fcdc2012b4874de4b5bb815d22b803b42e0485e79a625a359f19",
+      "change": "Preserve existing notice and exact public method/code vs private data boundary."
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/LICENSE",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "path": "mcp/oppia-research-compass/LICENSE",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83",
+      "path": "mcp/oppia-research-compass/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "90442c2450a20228ee52cf4c5d61b29826aae64806930bbc6e23d62a7487bc83",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/NOTICE",
+      "source_sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f",
+      "path": "mcp/oppia-research-compass/NOTICE",
+      "output_sha256": "1c7be3ba40ff8ae9fcc8893f334003bc903fad307dc05a956c862bd384bc7a3f",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/README.md",
+      "source_sha256": "faa62f27a5abe7f91c9cfaa035d04bd436bae5bf9dbaaf7f59ae25bfcacc001f",
+      "path": "mcp/oppia-research-compass/README.md",
+      "output_sha256": "faa62f27a5abe7f91c9cfaa035d04bd436bae5bf9dbaaf7f59ae25bfcacc001f",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/SPEC.md",
+      "source_sha256": "a341eab325109985cf8154dd07fa330abbedee5c3ed34e5cdf50d4afc61ac533",
+      "path": "mcp/oppia-research-compass/SPEC.md",
+      "output_sha256": "a341eab325109985cf8154dd07fa330abbedee5c3ed34e5cdf50d4afc61ac533",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "594bbd7e143f74355f8481977687a2bb8544fdead60330809a0d974362e90d59",
+      "path": "mcp/oppia-research-compass/THIRD_PARTY_NOTICES.md",
+      "output_sha256": "594bbd7e143f74355f8481977687a2bb8544fdead60330809a0d974362e90d59",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/data/oppia_research.sqlite",
+      "source_sha256": "f0797526b27a70093239712e00d7b2ada6fdad6b2535234e22ab2d85c05e27df",
+      "path": "mcp/oppia-research-compass/data/oppia_research.sqlite",
+      "output_sha256": "344f0e750a91903209dbcb38512d61f86b42eba2de2ca8fb2e61e03049f759d5",
+      "change": "Private Oppia team evidence corpus, excerpts/respondent/study identifiers and release history excluded. Replaced by a generated zero-row schema-compatible database."
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/manifest.json",
+      "source_sha256": "795dd192b74ec4c219cda33a5fb557db1ef26b451985f796b28d79d5d9a330a3",
+      "path": "mcp/oppia-research-compass/manifest.json",
+      "output_sha256": "5f7340768e5b9c6c9eb0ef86ab4b2e1360e70136badb6a50f7a2b3785da04af7",
+      "change": "Full ten-tool MCPB manifest retained with empty-corpus edition status."
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/mcpb_launcher.py",
+      "source_sha256": "671891879596b72de46d1530ad0321f24fa1910ab520daa50fb953daefcfba34",
+      "path": "mcp/oppia-research-compass/mcpb_launcher.py",
+      "output_sha256": "671891879596b72de46d1530ad0321f24fa1910ab520daa50fb953daefcfba34",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/oppia_research_compass/__init__.py",
+      "source_sha256": "b31e270efcc925f7f63e6445c6e878640f16c3407c55661039424780291becfc",
+      "path": "mcp/oppia-research-compass/oppia_research_compass/__init__.py",
+      "output_sha256": "b31e270efcc925f7f63e6445c6e878640f16c3407c55661039424780291becfc",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/oppia_research_compass/contracts.py",
+      "source_sha256": "d0ca80302f39489d6408a58c168ad822cd5ada7a6e699222b04e712d2818a5c7",
+      "path": "mcp/oppia-research-compass/oppia_research_compass/contracts.py",
+      "output_sha256": "d0ca80302f39489d6408a58c168ad822cd5ada7a6e699222b04e712d2818a5c7",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/oppia_research_compass/repository.py",
+      "source_sha256": "07a01bebce50a81fc3e0caa3a2137b8cde16ae6b4d4d4d2dce4f8419f5745c71",
+      "path": "mcp/oppia-research-compass/oppia_research_compass/repository.py",
+      "output_sha256": "07a01bebce50a81fc3e0caa3a2137b8cde16ae6b4d4d4d2dce4f8419f5745c71",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/oppia_research_compass/server.py",
+      "source_sha256": "b8a842152f31f5815a19a30696910aa05b559db8d7270d1f2a43e779ffa58b4d",
+      "path": "mcp/oppia-research-compass/oppia_research_compass/server.py",
+      "output_sha256": "b8a842152f31f5815a19a30696910aa05b559db8d7270d1f2a43e779ffa58b4d",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/oppia_research_compass/service.py",
+      "source_sha256": "6e1e2cdfe90d49e58f271bcf504214d094738fa6bccc7a29f88a3d722c609426",
+      "path": "mcp/oppia-research-compass/oppia_research_compass/service.py",
+      "output_sha256": "6e1e2cdfe90d49e58f271bcf504214d094738fa6bccc7a29f88a3d722c609426",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/pyproject.toml",
+      "source_sha256": "785e5829f556f824783d5ddfb43657f04d151c62c987f323d11458a0c18b39f1",
+      "path": "mcp/oppia-research-compass/pyproject.toml",
+      "output_sha256": "3c51d33f031da56af5cf9f4c4e0563f2f811f70e848f688867a5b090fc9900a6",
+      "change": "Public edition version; declared MCP dependency unchanged."
+    },
+    {
+      "source_relative": "mcp/oppia-research-compass/server.py",
+      "source_sha256": "e686835dadc40943b4440208ec6071a3f799242ab89ad41cab0faa5d36370172",
+      "path": "mcp/oppia-research-compass/server.py",
+      "output_sha256": "e686835dadc40943b4440208ec6071a3f799242ab89ad41cab0faa5d36370172",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "d35042f13eb095b0762aa0bd5439b560f4c72d917584b2fe5d15acebfdc5d265",
+      "path": "references/professional-agents/README.md",
+      "output_sha256": "31f0a454fcaed18a178ea11140e9ea305cdc4efd9a61cec0fdbcb47f6ab87e93",
+      "change": "Complete original method/reference retained; private corpus handles and host locators excluded, recipient corpus status explicit."
+    },
+    {
+      "source_relative": "references/professional-agents/research-lead.md",
+      "source_sha256": "a9456dc1d0160927dd9920e044fe57746c802a4441f62dfe0f943f126619eb83",
+      "path": "references/professional-agents/research-lead.md",
+      "output_sha256": "c1903b2ec17bda4864c28335039c24b489e572e212adc7834cdb1108e4b28339",
+      "change": "Complete original method/reference retained; private corpus handles and host locators excluded, recipient corpus status explicit."
+    },
+    {
+      "source_relative": "references/professional-agents/ux-researcher.md",
+      "source_sha256": "03fca8c5f1d9fc4224f27c7fa95d244fe053c5eede03a4405ded50b0e876d2b8",
+      "path": "references/professional-agents/ux-researcher.md",
+      "output_sha256": "227659d7d4c70d76487d6d39b60b67e917f4a9fcf4dc7ecb9200e41d09801723",
+      "change": "Complete original method/reference retained; private corpus handles and host locators excluded, recipient corpus status explicit."
+    },
+    {
+      "source_relative": "skills/oppia-competitive-analysis/SKILL.md",
+      "source_sha256": "d3ae3614ca36853548e2c12c1ffeda6ca43c782a263cd2d989f293f658d5db80",
+      "path": "skills/oppia-competitive-analysis/SKILL.md",
+      "output_sha256": "d3ae3614ca36853548e2c12c1ffeda6ca43c782a263cd2d989f293f658d5db80",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-cuj-research/SKILL.md",
+      "source_sha256": "f9cbaeb024aaabed08353cd136c38da86e43575e9331ff50d1e2b9a981751d5c",
+      "path": "skills/oppia-cuj-research/SKILL.md",
+      "output_sha256": "f9cbaeb024aaabed08353cd136c38da86e43575e9331ff50d1e2b9a981751d5c",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-heuristic-evaluation/SKILL.md",
+      "source_sha256": "ffc7e5cc2688dcf00d08aca8d4e2b719330de61f3e406625d4b0ca8775af095e",
+      "path": "skills/oppia-heuristic-evaluation/SKILL.md",
+      "output_sha256": "ffc7e5cc2688dcf00d08aca8d4e2b719330de61f3e406625d4b0ca8775af095e",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-interview-study-design/SKILL.md",
+      "source_sha256": "df905338efddd97091bea1f68a9d2b1af224fe187eb80beaab20891e4bf38a7d",
+      "path": "skills/oppia-interview-study-design/SKILL.md",
+      "output_sha256": "df905338efddd97091bea1f68a9d2b1af224fe187eb80beaab20891e4bf38a7d",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-netnography/SKILL.md",
+      "source_sha256": "309b377c5652598cf766ae2e2a3cac67cc4209123a6a99b8071d5b5b695d8d14",
+      "path": "skills/oppia-netnography/SKILL.md",
+      "output_sha256": "309b377c5652598cf766ae2e2a3cac67cc4209123a6a99b8071d5b5b695d8d14",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-persona-research/SKILL.md",
+      "source_sha256": "fabd61a38e3bfd2c3581bfd700660eafc757a80a0b762581e2ffc348aad2d408",
+      "path": "skills/oppia-persona-research/SKILL.md",
+      "output_sha256": "fabd61a38e3bfd2c3581bfd700660eafc757a80a0b762581e2ffc348aad2d408",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-compass/SKILL.md",
+      "source_sha256": "8bb32c0e180f9bdaeb84e39011948c68fd61177dda17026ceb650a3b5af31321",
+      "path": "skills/oppia-research-compass/SKILL.md",
+      "output_sha256": "8bb32c0e180f9bdaeb84e39011948c68fd61177dda17026ceb650a3b5af31321",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/SKILL.md",
+      "source_sha256": "8262fd8b2dfaeb8839e8b4b2fafbd5a696f401a9e9c643924301915b82b86d17",
+      "path": "skills/oppia-research-orchestrator/SKILL.md",
+      "output_sha256": "16daa8a38b9db84eec6bdb1278c2afdbe9626b8cb5a6facca5555bea5af1b1ca",
+      "change": "Complete original method/reference retained; private corpus handles and host locators excluded, recipient corpus status explicit."
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/evals/routing-cases.json",
+      "source_sha256": "d349950d5664c4017dd587ed6a9278684966efc5bd48677a8a20414d399e72e7",
+      "path": "skills/oppia-research-orchestrator/evals/routing-cases.json",
+      "output_sha256": "d349950d5664c4017dd587ed6a9278684966efc5bd48677a8a20414d399e72e7",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/evidence-first-contract.md",
+      "source_sha256": "00276e9d73b99863c14e8bccba69821cbb89552eed9a1ba05ca7387fe4a0e551",
+      "path": "skills/oppia-research-orchestrator/references/evidence-first-contract.md",
+      "output_sha256": "00276e9d73b99863c14e8bccba69821cbb89552eed9a1ba05ca7387fe4a0e551",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/external-source-review-research-question-framing-skill-v1.0.0.md",
+      "source_sha256": "747b1971fd15d8f91562ad8248071d42feef95203de60d39e7533ff61a8c90d1",
+      "path": "skills/oppia-research-orchestrator/references/external-source-review-research-question-framing-skill-v1.0.0.md",
+      "output_sha256": "747b1971fd15d8f91562ad8248071d42feef95203de60d39e7533ff61a8c90d1",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/external-source-review-ux-research-skill-v1.0.0.md",
+      "source_sha256": "b710f9dbb88338819d98d07417fec93a61f2c7ecf38ee3b4bfc635975e153afc",
+      "path": "skills/oppia-research-orchestrator/references/external-source-review-ux-research-skill-v1.0.0.md",
+      "output_sha256": "b710f9dbb88338819d98d07417fec93a61f2c7ecf38ee3b4bfc635975e153afc",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/research-quality-gates.md",
+      "source_sha256": "f58f7b76c32788b2b261cbcc0f16f32e91959646eca4f94222428e1de7454e08",
+      "path": "skills/oppia-research-orchestrator/references/research-quality-gates.md",
+      "output_sha256": "f58f7b76c32788b2b261cbcc0f16f32e91959646eca4f94222428e1de7454e08",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/routing-map.md",
+      "source_sha256": "a6908f64c144fede90ff0ae28a95bcbc09bcde9133da824423549851dc36f706",
+      "path": "skills/oppia-research-orchestrator/references/routing-map.md",
+      "output_sha256": "a6908f64c144fede90ff0ae28a95bcbc09bcde9133da824423549851dc36f706",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-orchestrator/references/source-register.json",
+      "source_sha256": "184a09d5f1dd8f73e7e1beaa21b7fe5aa43e27d4e77da4f2c6c2423a3780b20a",
+      "path": "skills/oppia-research-orchestrator/references/source-register.json",
+      "output_sha256": "d8f902963951005483faa834f58885a5fccf7d2662de29ed4e818df407d8edda",
+      "change": "Retain full adopted-method/source-category/archive hashes; private Drive handles/titles and actual corpus coverage excluded."
+    },
+    {
+      "source_relative": "skills/oppia-research-question-design/SKILL.md",
+      "source_sha256": "c9f5e1fa8a01d257498c6404fe9df3e62c6bd9b5c54d9527cfb4b683dd0b475c",
+      "path": "skills/oppia-research-question-design/SKILL.md",
+      "output_sha256": "c9f5e1fa8a01d257498c6404fe9df3e62c6bd9b5c54d9527cfb4b683dd0b475c",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-question-design/assets/oppia-research-question-framing-card.md",
+      "source_sha256": "fa9e39cd16a5ff40cfe904952e702f5915d85a245fbdf071ccd299fb86ce5466",
+      "path": "skills/oppia-research-question-design/assets/oppia-research-question-framing-card.md",
+      "output_sha256": "fa9e39cd16a5ff40cfe904952e702f5915d85a245fbdf071ccd299fb86ce5466",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-research-question-design/references/question-framing-framework.md",
+      "source_sha256": "77b3344e7527f2016c4a7a44d12f95d7bcebe0a8375ab1bf9c8d9233e14e992f",
+      "path": "skills/oppia-research-question-design/references/question-framing-framework.md",
+      "output_sha256": "77b3344e7527f2016c4a7a44d12f95d7bcebe0a8375ab1bf9c8d9233e14e992f",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "source_relative": "skills/oppia-usability-testing/SKILL.md",
+      "source_sha256": "544039b2664bb0e7ff39d4eeb412d9d7bcefdc3ce284982cde773d69f661ae5b",
+      "path": "skills/oppia-usability-testing/SKILL.md",
+      "output_sha256": "544039b2664bb0e7ff39d4eeb412d9d7bcefdc3ce284982cde773d69f661ae5b",
+      "change": "Byte-exact complete source retained"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "5eb49a387950a6c473aaee931276c2cb25bbfb8513aa214f44e2d6c6a245bad7",
+      "change": "Original authorship, existing licenses, static adaptation and excluded private inputs."
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "489d1da5ec02567d5fe90624ca10d9ba17c9916cd1ce3474752ef47a60d4de24",
+      "change": "Portable identity."
+    },
+    {
+      "path": "mcp/oppia-research-compass/data/schema.sql",
+      "sha256": "f08f8914f560e71d9a646b654852f76ae9a119043110abeedbb40314497163a8",
+      "change": "Original structural SQL schema only, no corpus row or source handle copied."
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "0437636f625ce2d15eb2b195cde6ecfb64e90bfaf901ce2b53a09cf62c25d789",
+      "change": "Claude methods adapter, no automatic runtime."
+    }
+  ]
+}

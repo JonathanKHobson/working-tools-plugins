@@ -5,7 +5,7 @@ import hashlib,json,re,urllib.parse
 ROOT=Path(__file__).resolve().parents[1]
 def main():
     for rel in ["plugin.json",".codex-plugin/plugin.json",".claude-plugin/plugin.json"]:
-        manifest=json.loads((ROOT/rel).read_text());assert manifest["name"]=="data-visualization-toolkit" and manifest["version"]=="0.2.0"
+        manifest=json.loads((ROOT/rel).read_text());assert manifest["name"]=="data-visualization-toolkit" and manifest["version"]=="0.2.2"
     heads=list((ROOT/"skills").glob("*/SKILL.md"));assert len(heads)==13
     original=ROOT/"libraries/build-web-data-visualization"
     records=(ROOT/"docs/source-manifest.sha256").read_text().splitlines();assert len(records)==164

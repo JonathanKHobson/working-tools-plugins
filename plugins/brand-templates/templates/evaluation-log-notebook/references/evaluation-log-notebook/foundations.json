@@ -1,0 +1,1535 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "0b64dc6d35a6b63998b3034b922c545d491af6852d2834c0b2ef989b6dbb9e3a",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "index.html": "6ed5f4ac9b5ab94df4d9fdf8b7ddade5c093c57bd3f61e9331a987194543f066",
+    "scripts/build.mjs": "912abefccd7395d28114e2858a7bb2214a4027d689eea6dced2ac0bc1986b956",
+    "scripts/serve.mjs": "ca69e9808c133fcdaf014f083f6831aea05b94c1145266580a5202ca87ea7abb",
+    "src/agent-tools.js": "f72a22ae0f3c3f48c3bc6e8c565c1ade7c862771e651fecffd617ec1c852307c",
+    "src/data.js": "eb7452f274705f9eee53914de65dc4a4732493887823f2e3431ac5860d489cc2",
+    "src/domain.js": "63058175c10f7f34b225adc0ffe9e5450ad4c54d2c41b40bbe449e2cdedbcc43",
+    "src/main.js": "0e3480974d79dcb3c7d05e592d662bdaa52fd7868d9297c9d21221f6831b0d1b",
+    "src/styles.css": "1c682b0b8a87c32cb6f07f8201e8d0dead60fee65f59c5ad0f63fbd16a37fa84",
+    "src/view.js": "e1d151177045299f7e9935e34c5b641217b3c32d59b4bdda59ebacb780f5dbd0"
+  },
+  "css": [
+    "src/styles.css"
+  ],
+  "js": [
+    "src/agent-tools.js",
+    "src/data.js",
+    "src/domain.js",
+    "src/main.js",
+    "src/view.js"
+  ],
+  "html": [
+    "index.html"
+  ],
+  "variables": [
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--paper",
+      "value": "#102820"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--ink",
+      "value": "#d9f4df"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--accent",
+      "value": "#b8dc92"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--meta",
+      "value": "#f1c989"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--rule",
+      "value": "#66806c"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--panel",
+      "value": "#19392c"
+    }
+  ],
+  "colors": [
+    "#edb2a8",
+    "#17291f",
+    "#526554",
+    "#102820",
+    "#d9f4df",
+    "#b8dc92",
+    "#f1c989",
+    "#66806c",
+    "#19392c",
+    "#a7bfaa"
+  ],
+  "selectors": [
+    ".rail",
+    "footer",
+    "h1",
+    ".mast",
+    ".intro",
+    ".workspace",
+    ".rail section",
+    ".log",
+    ".state",
+    ".evidence",
+    "body",
+    "button",
+    "p",
+    ".scope",
+    ".runline",
+    ".to-top",
+    ".section-heading",
+    ".section-heading h2",
+    ".controls",
+    ".controls label",
+    ".log-tools",
+    ".log-tools button",
+    ".entry",
+    ".entry-meta",
+    ".evidence dd",
+    "summary",
+    ".detail-body",
+    ".rail .decision"
+  ],
+  "componentRules": [
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "inherit",
+        "text-underline-offset": ".3em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,input,select",
+      "properties": {
+        "font": "inherit"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,select",
+      "properties": {
+        "cursor": "pointer"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button",
+      "properties": {
+        "border": "1px solid var(--accent)",
+        "background": "transparent",
+        "color": "var(--accent)",
+        "padding": ".65rem .85rem",
+        "min-height": "44px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button:hover",
+      "properties": {
+        "background": "var(--accent)",
+        "color": "var(--paper)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "input,select",
+      "properties": {
+        "width": "100%",
+        "padding": ".7rem .6rem",
+        "background": "var(--paper)",
+        "border": "1px solid var(--rule)",
+        "color": "var(--ink)",
+        "min-height": "44px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "input::placeholder",
+      "properties": {
+        "color": "#a7bfaa"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible",
+      "properties": {
+        "outline": "3px solid var(--meta)",
+        "outline-offset": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "line-height": "1.7",
+        "margin": ".6rem 0 1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1,h2,h3",
+      "properties": {
+        "margin": "0",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.1rem,4.1vw,4.1rem)",
+        "line-height": "1.13",
+        "letter-spacing": "-.05em",
+        "max-width": "19ch",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.15rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.35rem",
+        "line-height": "1.5",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "main,header,section,aside,article",
+      "properties": {
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "p,dd,span,summary",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".mast",
+      "properties": {
+        "border-bottom": "1px solid var(--rule)",
+        "padding": "1.25rem 4vw",
+        "display": "flex",
+        "gap": "1rem",
+        "justify-content": "space-between",
+        "font-size": ".875rem",
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".wordmark",
+      "properties": {
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".intro",
+      "properties": {
+        "padding": "3.5rem 4vw 2rem",
+        "border-bottom": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": ".875rem",
+        "text-transform": "uppercase",
+        "letter-spacing": ".14em",
+        "color": "var(--meta)",
+        "margin": "0 0 1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".question",
+      "properties": {
+        "font-family": "system-ui,sans-serif",
+        "font-size": "1.35rem",
+        "max-width": "56ch",
+        "margin": "1.5rem 0 .8rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".scope",
+      "properties": {
+        "font-family": "system-ui,sans-serif",
+        "max-width": "78ch",
+        "margin": "0 0 2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".runline",
+      "properties": {
+        "display": "flex",
+        "gap": "1rem 3rem",
+        "flex-wrap": "wrap",
+        "font-size": ".875rem",
+        "color": "var(--meta)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".workspace",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(240px,1fr) minmax(0,2.4fr)",
+        "max-width": "1600px",
+        "margin": "auto"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail",
+      "properties": {
+        "padding": "2.5rem 2.5vw 2.5rem 4vw",
+        "border-right": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail section",
+      "properties": {
+        "margin-bottom": "2.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail h2",
+      "properties": {
+        "color": "var(--meta)",
+        "font-size": ".875rem",
+        "letter-spacing": ".03em",
+        "margin-bottom": "1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail p",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".totals",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".totals div",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "padding": ".45rem 0",
+        "border-bottom": "1px dotted var(--rule)",
+        "gap": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".totals dd",
+      "properties": {
+        "font-size": "1.5rem",
+        "color": "var(--accent)",
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".small",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".decision",
+      "properties": {
+        "border-left": "3px solid var(--accent)",
+        "padding-left": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".to-top",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log",
+      "properties": {
+        "padding": "2.5rem 4vw 2.5rem 2.5vw",
+        "scroll-margin": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "1rem",
+        "align-items": "baseline",
+        "margin-bottom": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading h2",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls label",
+      "properties": {
+        "font-size": ".875rem",
+        "display": "grid",
+        "gap": ".5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".search",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls button",
+      "properties": {
+        "justify-self": "start",
+        "align-self": "end"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools",
+      "properties": {
+        "margin": "1.25rem 0 2rem",
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": ".75rem",
+        "align-items": "center"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools p",
+      "properties": {
+        "width": "100%",
+        "font-size": ".875rem",
+        "color": "var(--meta)",
+        "margin": "0 0 .3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools button",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry",
+      "properties": {
+        "padding": "1.8rem 0 2rem",
+        "border-top": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry-meta",
+      "properties": {
+        "display": "flex",
+        "gap": ".8rem 1.5rem",
+        "flex-wrap": "wrap",
+        "align-items": "center",
+        "margin-bottom": "1rem",
+        "font-size": ".875rem",
+        "color": "var(--meta)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".state",
+      "properties": {
+        "border": "1px solid var(--rule)",
+        "padding": ".15rem .55rem",
+        "margin-left": "auto",
+        "color": "var(--ink)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".failed",
+      "properties": {
+        "border-color": "#edb2a8",
+        "color": "#edb2a8"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".needs-review",
+      "properties": {
+        "border-color": "var(--meta)",
+        "color": "var(--meta)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".not-run",
+      "properties": {
+        "border-style": "dashed"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".passed",
+      "properties": {
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".category",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "margin": ".4rem 0 1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "8rem minmax(0,1fr)",
+        "gap": ".65rem 1rem",
+        "font-family": "system-ui,sans-serif",
+        "line-height": "1.65"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence dt",
+      "properties": {
+        "font-family": "Menlo,Consolas,monospace",
+        "font-size": ".875rem",
+        "color": "var(--meta)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence dd",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".missing",
+      "properties": {
+        "font-style": "italic"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "font-size": ".875rem",
+        "cursor": "pointer",
+        "padding": ".8rem 0",
+        "min-height": "44px",
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body",
+      "properties": {
+        "padding": ".4rem 1rem",
+        "background": "var(--panel)",
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body strong",
+      "properties": {
+        "font-weight": "600",
+        "color": "var(--meta)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty",
+      "properties": {
+        "border-block": "1px dashed var(--rule)",
+        "padding": "2rem 0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty p",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "border-top": "1px solid var(--rule)",
+        "padding": "2rem 4vw",
+        "display": "grid",
+        "grid-template-columns": "1fr 2fr",
+        "gap": "2rem",
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer>span",
+      "properties": {
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer p",
+      "properties": {
+        "margin": "0",
+        "max-width": "70ch",
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "position": "absolute",
+        "left": "1rem",
+        "top": "-8rem",
+        "background": "var(--meta)",
+        "color": "var(--paper)",
+        "padding": "1rem",
+        "z-index": "5"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".boot,.error",
+      "properties": {
+        "padding": "3rem 4vw"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".error",
+      "properties": {
+        "max-width": "65rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".error h1",
+      "properties": {
+        "font-size": "2.5rem",
+        "margin-bottom": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".workspace",
+      "properties": {
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail",
+      "properties": {
+        "border-right": "0",
+        "border-bottom": "1px solid var(--rule)",
+        "padding": "2rem 5vw",
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail section",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail .decision",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log",
+      "properties": {
+        "padding": "2rem 5vw"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".intro",
+      "properties": {
+        "padding": "2.5rem 5vw 2rem"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".mast",
+      "properties": {
+        "padding": "1rem 5vw",
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".to-top",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading",
+      "properties": {
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:850px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail",
+      "properties": {
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls",
+      "properties": {
+        "grid-template-columns": "1fr"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls label",
+      "properties": {
+        "grid-column": "auto"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": ".2rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence dd",
+      "properties": {
+        "margin-bottom": ".8rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry-meta",
+      "properties": {
+        "gap": ".65rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".state",
+      "properties": {
+        "margin-left": "0"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".runline",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".runline span",
+      "properties": {
+        "display": "block",
+        "margin-top": ".7rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "2.2rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools button",
+      "properties": {
+        "width": "100%"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button",
+      "properties": {
+        "max-width": "100%",
+        "white-space": "normal"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry h3",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "background": "white"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".mast,.intro,.rail,.entry,footer",
+      "properties": {
+        "border-color": "#526554"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".mast",
+      "properties": {
+        "padding": "0 0 5mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".intro",
+      "properties": {
+        "padding": "8mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "27pt",
+        "max-width": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".workspace",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail",
+      "properties": {
+        "border-right": "0",
+        "padding": "7mm 0",
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "5mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail section",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail .decision",
+      "properties": {
+        "grid-column": "1/-1"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log",
+      "properties": {
+        "padding": "7mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls,.log-tools button,.skip,.to-top",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools",
+      "properties": {
+        "margin": "3mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry",
+      "properties": {
+        "break-inside": "avoid",
+        "padding": "5mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body",
+      "properties": {
+        "background": "transparent",
+        "padding": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body p",
+      "properties": {
+        "margin": ".3rem 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".eyebrow,.mast,.runline,.rail h2,.totals dd,.entry-meta,.state,.category,.evidence dt,summary,.detail-body strong,.log-tools p,footer>span",
+      "properties": {
+        "color": "#17291f"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".state",
+      "properties": {
+        "border-color": "#526554"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence",
+      "properties": {
+        "grid-template-columns": "23mm 1fr"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".scope",
+      "properties": {
+        "margin-bottom": "3mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "line-height": "1.45"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "padding": "5mm 0",
+        "display": "block"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading h2",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry h3",
+      "properties": {
+        "font-size": "14pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "padding": "2mm 0",
+        "min-height": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    }
+  ],
+  "responsive": [
+    "@media print",
+    "@media (max-width:850px)",
+    "@media (max-width:540px)"
+  ],
+  "typography": [
+    {
+      "selector": ":root",
+      "properties": {
+        "font-family": "Menlo,Consolas,monospace",
+        "font-size": "16px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "line-height": "1.7"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.1rem,4.1vw,4.1rem)",
+        "line-height": "1.13",
+        "letter-spacing": "-.05em",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "1.15rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.35rem",
+        "line-height": "1.5",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".mast",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": ".875rem",
+        "text-transform": "uppercase",
+        "letter-spacing": ".14em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".question",
+      "properties": {
+        "font-family": "system-ui,sans-serif",
+        "font-size": "1.35rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".scope",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".runline",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail h2",
+      "properties": {
+        "font-size": ".875rem",
+        "letter-spacing": ".03em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".rail p",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".totals dd",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".small",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".to-top",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading h2",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".controls label",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools p",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".log-tools button",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry-meta",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".category",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence",
+      "properties": {
+        "font-family": "system-ui,sans-serif",
+        "line-height": "1.65"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence dt",
+      "properties": {
+        "font-family": "Menlo,Consolas,monospace",
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".detail-body strong",
+      "properties": {
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty p",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "footer p",
+      "properties": {
+        "font-family": "system-ui,sans-serif"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".error h1",
+      "properties": {
+        "font-size": "2.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "2.2rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry h3",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:540px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ":root",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "27pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "line-height": "1.45"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-heading h2",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".entry h3",
+      "properties": {
+        "font-size": "14pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    }
+  ],
+  "headings": [
+    "The records need a correction.",
+    "01 / Full notebook",
+    "02 / Reading the log",
+    "03 / Next decision",
+    "Evaluation log"
+  ],
+  "ids": [
+    "app",
+    "top",
+    "log",
+    "filters",
+    "query",
+    "status",
+    "category",
+    "selection",
+    "download",
+    "print",
+    "records"
+  ],
+  "assets": [],
+  "assetPolicy": null,
+  "contentFiles": [],
+  "renderedPreview": null
+}

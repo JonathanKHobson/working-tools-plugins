@@ -1,0 +1,26 @@
+{
+  "name": "brand-templates",
+  "version": "0.1.1",
+  "description": "Complete brand-kit chooser and verified source-closure handoffs for explicitly supplied external collections.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Brand Templates",
+        "shortDescription": "Choose and adapt a complete reusable brand identity",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Interactive"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "profile": {
+    "id": "exhibition-visitor-guide",
+    "name": "Objects and Light",
+    "templateIds": [
+      "exhibition-visitor-guide"
+    ],
+    "category": "Arts & exhibition",
+    "summary": "A visitor identity that offers a small number of ways to look without telling the viewer what to feel.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#000000",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Route rust",
+        "role": "link",
+        "hex": "#813A25",
+        "evidence": "Native reference.docx word/styles.xml: style GalleryRoute; text."
+      },
+      {
+        "name": "Object label rust",
+        "role": "primary",
+        "hex": "#95482D",
+        "evidence": "Native reference.docx word/styles.xml: style GalleryLabel; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Futura",
+        "usage": "Titles and short section openings; source used style GalleryLabel."
+      },
+      {
+        "role": "body",
+        "family": "Optima",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style GalleryRoute."
+      }
+    ],
+    "recognitionRules": [
+      "Pair Optima interpretation with Futura navigational labels.",
+      "Use object numbers as stable anchors from image to caption.",
+      "Give each looking prompt its own space.",
+      "Keep interpretation distinct from object facts and provenance.",
+      "Use rust object labels and route links with dark interpretation text; isolate each object image and its caption."
+    ],
+    "voice": {
+      "traits": [
+        "open",
+        "observant",
+        "gentle"
+      ],
+      "principles": [
+        "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Three forms. Three ways to look. Take the time you need.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Look at the edge, then read the record.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use OBJECTS AND LIGHT in Optima with a small offset line beneath LIGHT. No sunburst; leave the visual field to the objects.",
+    "invariants": [
+      "Pair Optima interpretation with Futura navigational labels.",
+      "Use object numbers as stable anchors from image to caption.",
+      "Give each looking prompt its own space."
+    ],
+    "adaptations": [
+      "A pocket guide can use one object per panel.",
+      "An exhibition label keeps one looking prompt and the essential record.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "exhibition-visitor-guide",
+      "displayName": "Exhibition Visitor Guide",
+      "format": "document",
+      "nameSignals": [
+        "Objects and Light",
+        "Three forms. Three ways to look.",
+        "Choose your sequence",
+        "01 / Crescent Vessel",
+        "02 / Slotted Panel",
+        "03 / Open Loop"
+      ],
+      "nameStatus": "Name retained from a fictional source specimen; not a real-world organization claim.",
+      "fingerprint": "7397e3f64a90f2efb11b959ef0740a3d7bb2eba0da2c80984ef313e27fbec609",
+      "evidence": [
+        "installed-skills/artifact-template-studio-exhibition-visitor-guide/SKILL.md",
+        "installed-skills/artifact-template-studio-exhibition-visitor-guide/DESIGN.md",
+        "installed-skills/artifact-template-studio-exhibition-visitor-guide/design/foundations.json",
+        "installed-skills/artifact-template-studio-exhibition-visitor-guide/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 27, 'basedOn': None, 'font': 'Optima', 'sizePt': 11.5, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 9.0, 'lineSpacingPt': None, 'lineSpacingMultiplier': "
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 6, 'basedOn': 'Normal', 'font': 'Futura', 'sizePt': 28.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 10.0, 'lineSpacingPt': None, 'lineSpacingMult"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 17, 'basedOn': 'Normal', 'font': 'Futura', 'sizePt': 11.5, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 5.0, 'lineSpacingPt': None, 'lineSpacingMulti"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Futura', 'sizePt': 36.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 10.0, 'lineSpacingPt': None, 'lineSpacingMultiplier'"
+        },
+        {
+          "id": "source-5",
+          "location": "used style GalleryLead",
+          "observation": "{'id': 'GalleryLead', 'name': 'Gallery Lead', 'usedParagraphs': 5, 'basedOn': None, 'font': 'Optima', 'sizePt': 18.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 12.0, 'lineSpacingPt': None, 'lineSpacingMu"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/exhibition-visitor-guide.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "contrastRatio": 21.0,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "exhibition-visitor-guide",
+      "name": "Exhibition Visitor Guide",
+      "format": "document",
+      "sourceHash": "7397e3f64a90f2efb11b959ef0740a3d7bb2eba0da2c80984ef313e27fbec609",
+      "foundationSha256": "5513f71286d7673a45949a5400469cd2078424e30a3a1f5bb25124781754f549",
+      "designSpecSha256": "f7c88313a2b221a8c46075f5fc55f74695834b27876ef2b3edf92d6d96a9c68f",
+      "referenceDirectory": "references/exhibition-visitor-guide"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use OBJECTS AND LIGHT in Optima with a small offset line beneath LIGHT. No sunburst; leave the visual field to the objects.",
+    "productionMethod": "Brand-specific outlined typography with light-offset source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "decision": "Portable variant selected. Optima is an Apple/system font; not bundled. Exact OFL source family; official static files are used.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style GalleryLabel.",
+      "sourceFamily": "Futura",
+      "sourceFamilySelected": "Futura",
+      "renderFamily": "Jost",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/jost/Jost-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "cbef5f7e581b6b40cbbb423358a84e65d109a13bf68b2776c1677dd9733e1794"
+        },
+        "bold": {
+          "path": "assets/fonts/jost/Jost-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "5df8ac407696f78a27769ef4a22965fb257659575cb1dac5122c66db10caddc4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/jost/OFL.txt",
+      "licenseSha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Futura is an Apple/system or separately licensed font; not bundled. Open geometric sans substitute for proprietary Futura source dependencies.",
+      "sourceTemplateId": "exhibition-visitor-guide",
+      "sourceFingerprint": "7397e3f64a90f2efb11b959ef0740a3d7bb2eba0da2c80984ef313e27fbec609"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style GalleryRoute.",
+      "sourceFamily": "Optima",
+      "sourceFamilySelected": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10"
+        },
+        "bold": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "a3055a1893759bdbd7504bb22abc583769e7974c49353176eac0b03792c9fb8e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/alegreya-sans/OFL.txt",
+      "licenseSha256": "0677891e6a143f297350d260ad766ad33bfc18ed5fa4f213acf648d6b597ec1a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Optima is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Optima is an Apple/system font; not bundled. Exact OFL source family; official static files are used.",
+      "sourceTemplateId": "exhibition-visitor-guide",
+      "sourceFingerprint": "7397e3f64a90f2efb11b959ef0740a3d7bb2eba0da2c80984ef313e27fbec609"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,258 @@
+{
+  "profile": {
+    "id": "demo-cue-cards",
+    "name": "Show the Work",
+    "templateIds": [
+      "demo-cue-cards"
+    ],
+    "category": "Learning & workshops",
+    "summary": "A presenter’s identity that turns a demonstration into a sequence of visible actions with room to recover when something changes.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#202327",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Cue paper",
+        "role": "surface",
+        "hex": "#F4F1E9",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #F4F1E9; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Cue amber",
+        "role": "primary",
+        "hex": "#72500C",
+        "evidence": "Native reference.docx word/styles.xml: style Heading2; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Avenir Next",
+        "usage": "Large card actions and scene labels."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Presenter cues, timing notes and recovery prompts."
+      }
+    ],
+    "recognitionRules": [
+      "Number each cue card and give it one imperative heading.",
+      "Put planned time near the action, clearly distinguished from measured timing.",
+      "Separate what to show from what to say.",
+      "Use large Avenir headings and plain Arial cue text with generous whitespace.",
+      "Use dark cue bars, warm-paper supplied-state panels and amber SHOW / DO or CHECK labels to separate performance roles."
+    ],
+    "voice": {
+      "traits": [
+        "direct",
+        "steady",
+        "demonstrative"
+      ],
+      "principles": [
+        "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Set the purpose. Show the baseline. Let the change speak.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid promises that every participant will master the skill.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Try one version, then compare it with the criterion.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use SHOW THE WORK as a simple Avenir wordmark beside three short sequential bars. The bars mark scenes, not progress completion.",
+    "invariants": [
+      "Number each cue card and give it one imperative heading.",
+      "Put planned time near the action, clearly distinguished from measured timing.",
+      "Separate what to show from what to say."
+    ],
+    "adaptations": [
+      "A rehearsal deck can enlarge each card without adding content.",
+      "Keep recovery notes in a secondary text area.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "demo-cue-cards",
+      "displayName": "Demo Cue Cards",
+      "format": "document",
+      "nameSignals": [
+        "01 / Set the purpose",
+        "02 / Show the baseline",
+        "03 / Preview one choice",
+        "04 / Apply the choice",
+        "05 / Reset the view",
+        "06 / Close the loop"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "dfbb1490d37f8354c5b69e9c9c6f4c76cbdcec6f40eda1146acfcb2fcc091e5a",
+      "evidence": [
+        "installed-skills/artifact-template-studio-demo-cue-cards/SKILL.md",
+        "installed-skills/artifact-template-studio-demo-cue-cards/DESIGN.md",
+        "installed-skills/artifact-template-studio-demo-cue-cards/design/foundations.json",
+        "installed-skills/artifact-template-studio-demo-cue-cards/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 47, 'basedOn': None, 'font': 'Arial', 'sizePt': 13.5, 'bold': False, 'italic': None, 'color': '#202327', 'spaceBeforePt': 0.0, 'spaceAfterPt': 5.0, 'lineSpacingPt': None, 'lineSpacingMultiplier': 1"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 6, 'basedOn': 'Normal', 'font': 'Avenir Next', 'sizePt': 24.0, 'bold': True, 'italic': None, 'color': '#202327', 'spaceBeforePt': 0.0, 'spaceAfterPt': 4.0, 'lineSpacingPt': None, 'lineSpacingM"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 24, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 11.0, 'bold': True, 'italic': None, 'color': '#72500C', 'spaceBeforePt': 0.0, 'spaceAfterPt': 3.0, 'lineSpacingPt': None, 'lineSpacingMultip"
+        },
+        {
+          "id": "source-4",
+          "location": "used style CueLabel",
+          "observation": "{'id': 'CueLabel', 'name': 'Cue Label', 'usedParagraphs': 6, 'basedOn': None, 'font': 'Arial', 'sizePt': 10.0, 'bold': True, 'italic': None, 'color': '#202327', 'spaceBeforePt': 0.0, 'spaceAfterPt': 4.0, 'lineSpacingPt': None, 'lineSpacingMultiplier'"
+        },
+        {
+          "id": "source-5",
+          "location": "used style CueTiming",
+          "observation": "{'id': 'CueTiming', 'name': 'Cue Timing', 'usedParagraphs': 6, 'basedOn': None, 'font': 'Arial', 'sizePt': 11.0, 'bold': True, 'italic': None, 'color': '#202327', 'spaceBeforePt': 0.0, 'spaceAfterPt': 5.0, 'lineSpacingPt': None, 'lineSpacingMultiplie"
+        }
+      ],
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/demo-cue-cards.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#202327",
+        "background": "#FFFFFF",
+        "contrastRatio": 15.78,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "demo-cue-cards",
+      "name": "Demo Cue Cards",
+      "format": "document",
+      "sourceHash": "dfbb1490d37f8354c5b69e9c9c6f4c76cbdcec6f40eda1146acfcb2fcc091e5a",
+      "foundationSha256": "d5d182faf68616bbaea26aa57729224797055fa147ffc0d1ce630bc6af3eeb54",
+      "designSpecSha256": "3188b1b996c50dd00692761b94d18f4e79ad1bd2274f37d09c3bbefbe81b9462",
+      "referenceDirectory": "references/demo-cue-cards"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use SHOW THE WORK as a simple Avenir wordmark beside three short sequential bars. The bars mark scenes, not progress completion.",
+    "productionMethod": "Brand-specific outlined typography with scene-bars source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "decision": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": 32,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Large card actions and scene labels.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "demo-cue-cards",
+      "sourceFingerprint": "dfbb1490d37f8354c5b69e9c9c6f4c76cbdcec6f40eda1146acfcb2fcc091e5a"
+    },
+    {
+      "role": "body",
+      "usage": "Presenter cues, timing notes and recovery prompts.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "demo-cue-cards",
+      "sourceFingerprint": "dfbb1490d37f8354c5b69e9c9c6f4c76cbdcec6f40eda1146acfcb2fcc091e5a"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,822 @@
+{
+  "schema_version": "codex.skill-routing-index.v1",
+  "updated_at": "2026-10-06",
+  "primary_root": "~/.codex/skills",
+  "macbook_root": "<verified-volume>",
+  "principles": [
+    "Start with the smallest skill that owns the immediate output.",
+    "Use routers for broad domains and specialists for detailed execution.",
+    "Keep cross-references short; detailed rules live in the owning skill.",
+    "Use MCPs only for live data, app, service, or tool boundaries.",
+    "Respect current user authorization and host policy for external, paid, destructive, credential or bulk actions; skill routing grants no new authority.",
+    "Maintain methods in personal plugin sources; never edit installed caches.",
+    "Compatibility entrypoints are disabled; their direct file links resolve the current owner.",
+    "Use platform/tool providers on demand; do not create an environment for markdown routing.",
+    "Name entrypoints for a capability or action, without vendor superlatives; add a new head for a distinct recurring workflow or different tools/validation, and keep method depth in conditional references.",
+    "Prefer the existing plugin owner; split independent use cases into focused skills. Target 8–10 diverse workflows without padding and preserve full source methods/support rather than summaries."
+  ],
+  "gateway_skills": [
+    "work-management:focus-work",
+    "work-management:project-structure",
+    "skill-authoring",
+    "creative-writing-studio:creative-project-router",
+    "gm-roleplay-router",
+    "ux-design-toolkit:design-studio",
+    "writing-quality-studio:communication-crafter",
+    "navigating-mental-health-evidence"
+  ],
+  "families": [
+    {
+      "id": "project-setup",
+      "label": "Project Setup And Structure",
+      "entrypoints": [
+        "work-management:project-structure"
+      ],
+      "next": [
+        "work-management:product-definition",
+        "pattern-picker",
+        "skill-authoring",
+        "mac-ops-toolkit:mac-environment-conventions"
+      ]
+    },
+    {
+      "id": "creative-story-books",
+      "label": "Creative, Story, And Books",
+      "entrypoints": [
+        "creative-writing-studio:creative-project-router"
+      ],
+      "next": [
+        "creative-writing-studio:creative-project-context",
+        "creative-writing-studio:story-book-router",
+        "creative-writing-studio:story-architecture",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "creative-writing-studio:publishing-router",
+        "creative-writing-studio:show-vs-tell-craft",
+        "creative-writing-studio:story-atlas-prep",
+        "creative-writing-studio:horror-story-crafter"
+      ]
+    },
+    {
+      "id": "ttrpg-table",
+      "label": "TTRPG And Table Work",
+      "entrypoints": [
+        "gm-roleplay-router",
+        "ttrpg-router"
+      ],
+      "next": [
+        "live-table-director",
+        "creative-writing-studio:story-atlas-prep",
+        "improv-roleplay-coach",
+        "player-facilitator",
+        "npc-performance-director",
+        "pacing-scene-director",
+        "rules-teaching-coach",
+        "safety-accessibility-facilitator",
+        "professional-public-gm",
+        "pro-gm-venue-outreach",
+        "debrief-canon-maintainer",
+        "daggerheart-adapter",
+        "personal-gm-style-adapter",
+        "creative-writing-studio:creative-project-context",
+        "creative-writing-studio:story-architecture",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "ux-design-toolkit:design-studio",
+        "creative-writing-studio:publishing-router",
+        "writing-quality-studio:communication-crafter",
+        "creative-writing-studio:show-vs-tell-craft"
+      ]
+    },
+    {
+      "id": "publishing-shareables",
+      "label": "Publishing, Shareables, And Public Artifacts",
+      "entrypoints": [
+        "creative-writing-studio:publishing-router"
+      ],
+      "next": [
+        "html-presentation-builder",
+        "ux-design-toolkit:design-studio",
+        "writing-quality-studio:communication-crafter",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "creative-writing-studio:show-vs-tell-craft"
+      ]
+    },
+    {
+      "id": "marketing-strategy",
+      "label": "Marketing Strategy Studio",
+      "entrypoints": [
+        "marketing-strategy-studio:marketing-strategy-operator"
+      ],
+      "next": [
+        "marketing-strategy-studio:brand-discovery",
+        "marketing-strategy-studio:brand-design",
+        "marketing-strategy-studio:campaign-and-launch",
+        "marketing-strategy-studio:conversion-and-offers",
+        "marketing-strategy-studio:lifecycle-and-outreach",
+        "marketing-strategy-studio:marketing-creative-production",
+        "marketing-strategy-studio:marketing-measurement",
+        "marketing-strategy-studio:paid-campaigns",
+        "marketing-strategy-studio:search-and-discovery",
+        "research-methodology-local:research-methodology",
+        "research-methodology-local:current-social-research",
+        "social-content-studio:social-content",
+        "writing-quality-studio:communication-crafter",
+        "graphic-design-studio:graphic-design"
+      ]
+    },
+    {
+      "id": "social-content",
+      "label": "Social Content Studio",
+      "entrypoints": [
+        "social-content-studio:social-content",
+        "social-content-studio:social-publishing"
+      ],
+      "next": [
+        "social-content-studio:channel-adaptation",
+        "social-content-studio:content-calendar",
+        "social-content-studio:professional-social-proof",
+        "social-content-studio:short-form-video",
+        "social-content-studio:social-editorial-review",
+        "social-content-studio:social-preview",
+        "research-methodology-local:current-social-research",
+        "marketing-strategy-studio:marketing-strategy-operator",
+        "graphic-design-studio:campaign-format-adaptation"
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research Studio",
+      "entrypoints": [
+        "research-methodology-local:research-methodology",
+        "research-methodology-local:academic-writing",
+        "research-methodology-local:current-social-research"
+      ],
+      "next": [
+        "research-methodology-local:critical-reasoning",
+        "research-methodology-local:evidence-review",
+        "research-methodology-local:karpathy-guidelines",
+        "research-methodology-local:research-handoff",
+        "research-methodology-local:source-discovery",
+        "survey-studio:survey-strategist"
+      ]
+    },
+    {
+      "id": "ux-frontend-visual",
+      "label": "UX, Frontend, And Visual Quality",
+      "entrypoints": [
+        "ux-design-toolkit:design-studio"
+      ],
+      "next": [
+        "ux-design-toolkit:dashboard-design",
+        "ux-design-toolkit:design-reference-lookup",
+        "ux-design-toolkit:design-review",
+        "ux-design-toolkit:design-systems",
+        "ux-design-toolkit:interaction-resilience",
+        "ux-design-toolkit:motion-and-performance",
+        "ux-design-toolkit:responsive-design",
+        "ux-design-toolkit:spreadsheet-usability",
+        "ux-design-toolkit:stitch-design",
+        "ux-design-toolkit:ux-heuristic-compass",
+        "ux-design-toolkit:ux-writer",
+        "graphic-design-studio:infographic-design",
+        "data-visualization-toolkit:data-visualization"
+      ]
+    },
+    {
+      "id": "data-visualization",
+      "label": "Data Visualization Toolkit",
+      "entrypoints": [
+        "data-visualization-toolkit:data-visualization"
+      ],
+      "next": [
+        "data-visualization-toolkit:dense-and-gpu-rendering",
+        "data-visualization-toolkit:gantt-and-schedules",
+        "data-visualization-toolkit:interactive-explanations",
+        "data-visualization-toolkit:live-dashboards",
+        "data-visualization-toolkit:maps-and-cartography",
+        "data-visualization-toolkit:reports-and-export",
+        "data-visualization-toolkit:scientific-figures-and-tables",
+        "data-visualization-toolkit:statistical-evidence",
+        "data-visualization-toolkit:structural-diagrams",
+        "data-visualization-toolkit:visual-stories",
+        "data-visualization-toolkit:visualization-verification",
+        "data-visualization-toolkit:web-chart-engineering",
+        "graphic-design-studio:infographic-design",
+        "ux-design-toolkit:dashboard-design"
+      ]
+    },
+    {
+      "id": "video-production",
+      "label": "Video Production Studio",
+      "entrypoints": [
+        "video-production-workflow:plan-video-production"
+      ],
+      "next": [
+        "video-production-workflow:analyze-music-pacing",
+        "video-production-workflow:analyze-video-content",
+        "video-production-workflow:compose-slideshow-video",
+        "video-production-workflow:conform-video-delivery",
+        "video-production-workflow:create-motion-graphics",
+        "video-production-workflow:create-video-typography",
+        "video-production-workflow:design-video-storyboards",
+        "video-production-workflow:edit-dialogue-footage",
+        "video-production-workflow:edit-davinci-resolve",
+        "video-production-workflow:evolve-video-workflow",
+        "video-production-workflow:exchange-video-timelines",
+        "video-production-workflow:ingest-video-assets",
+        "video-production-workflow:install-video-toolchain",
+        "video-production-workflow:mix-video-audio",
+        "video-production-workflow:render-video-project",
+        "video-production-workflow:validate-video-quality",
+        "creative-writing-studio:story-book-router"
+      ]
+    },
+    {
+      "id": "games-play",
+      "label": "Games And Play",
+      "entrypoints": [
+        "game-creation-studio:game-creation-studio",
+        "develop-web-game",
+        "game-designer"
+      ],
+      "next": [
+        "board-game-design",
+        "gm-roleplay-router",
+        "ttrpg-router",
+        "creative-writing-studio:story-architecture",
+        "ux-design-toolkit:design-studio",
+        "game-creation-studio:game-asset-production",
+        "game-creation-studio:game-asset-vendoring",
+        "game-creation-studio:game-visual-debugging",
+        "game-creation-studio:game-performance-optimization"
+      ]
+    },
+    {
+      "id": "mcp-local-data-apps",
+      "label": "MCP, Local Data, And App Tooling",
+      "entrypoints": [
+        "development-studio:build-mcp-apps",
+        "local-data-mcp-builder",
+        "local-mcp-debugging",
+        "chatgpt-apps"
+      ],
+      "next": [
+        "local-app-pipeline",
+        "safe-install-review",
+        "master-security-toolkit:software-security-review",
+        "work-management:project-structure",
+        "development-studio:use-alpic",
+        "ux-design-toolkit:design-studio",
+        "data-visualization-toolkit:interactive-explanations",
+        "development-studio:development-studio",
+        "development-studio:local-mcp-systems"
+      ]
+    },
+    {
+      "id": "prompt-playbook",
+      "label": "Prompt Playbook Studio",
+      "entrypoints": [
+        "prompt-playbook-studio:prompt-playbook"
+      ],
+      "next": [
+        "prompt-playbook-studio:execution-briefs",
+        "prompt-playbook-studio:prompt-design",
+        "prompt-playbook-studio:prompt-evaluation",
+        "prompt-playbook-studio:prompt-knowledge-retrieval",
+        "prompt-playbook-studio:prompt-patterns",
+        "prompt-playbook-studio:prompt-refinement",
+        "prompt-playbook-studio:prompt-safety"
+      ]
+    },
+    {
+      "id": "security-review",
+      "label": "Software, Application And Instruction Security",
+      "entrypoints": [
+        "master-security-toolkit:software-security-review",
+        "master-security-toolkit:instruction-security-review",
+        "master-security-toolkit:application-security-testing"
+      ],
+      "next": [
+        "master-security-toolkit:agent-artifact-scanning",
+        "master-security-toolkit:indirect-injection-review",
+        "master-security-toolkit:mcp-security-review",
+        "master-security-toolkit:permission-and-data-review",
+        "master-security-toolkit:security-regression-tests",
+        "master-security-toolkit:software-provenance"
+      ]
+    },
+    {
+      "id": "mac-storage",
+      "label": "Mac Operations And Storage",
+      "entrypoints": [
+        "mac-ops-toolkit:mac-environment-conventions",
+        "storage-memory-manager"
+      ],
+      "next": [
+        "mac-ops-toolkit:mac-troubleshooter",
+        "local-storage-mcp",
+        "work-management:focus-work",
+        "master-security-toolkit:software-security-review"
+      ]
+    },
+    {
+      "id": "mental-health-evidence",
+      "label": "Mental Health Evidence And Care Navigation",
+      "entrypoints": [
+        "navigating-mental-health-evidence"
+      ],
+      "next": []
+    },
+    {
+      "id": "career-packets",
+      "label": "Career Studio",
+      "entrypoints": [
+        "career-studio:campaign",
+        "career-studio:submissions",
+        "career-studio:portfolio-package"
+      ],
+      "next": [
+        "career-studio:application-statements",
+        "career-studio:career-interviews",
+        "career-studio:career-outreach",
+        "career-studio:cover-letter",
+        "career-studio:portfolio",
+        "career-studio:resume"
+      ]
+    },
+    {
+      "id": "research-handoffs",
+      "label": "Research And Design Handoffs",
+      "entrypoints": [
+        "writing-quality-studio:communication-crafter",
+        "loom-walkthrough-scripting"
+      ],
+      "next": [
+        "writing-quality-studio:communication-crafter"
+      ]
+    },
+    {
+      "id": "paid-gm-operations",
+      "label": "Paid GM Coordination",
+      "entrypoints": [
+        "paid-gm-event-coordination",
+        "pro-gm-venue-outreach",
+        "rpg-community-coordination"
+      ],
+      "next": [
+        "professional-public-gm",
+        "solo-service-operations:invoice-preparation",
+        "solo-service-operations:payment-reconciliation",
+        "solo-service-operations:invoice-follow-up",
+        "gmail-send-review"
+      ],
+      "selection": "Venue prospects/pitches: pro-gm-venue-outreach; existing venue offers/fees/time/support/compensation: paid-gm-event-coordination; bounded community replies/catch-ups: rpg-community-coordination. Gmail review only for authorized Gmail sends."
+    },
+    {
+      "id": "work-management",
+      "label": "Focus, Requirements and Structure",
+      "entrypoints": [
+        "work-management:focus-work",
+        "work-management:product-definition",
+        "work-management:project-structure",
+        "work-management:parallel-work"
+      ],
+      "next": [
+        "work-management:plugin-maintenance",
+        "work-management:tool-workflow-routing",
+        "work-management:work-handoff",
+        "work-management:worker-delegation",
+        "reasoning-studio:critical-reasoning",
+        "work-management:find-skills"
+      ]
+    },
+    {
+      "id": "writing-quality",
+      "label": "Writing Quality Studio",
+      "entrypoints": [
+        "writing-quality-studio:natural-prose-editor",
+        "writing-quality-studio:communication-crafter"
+      ],
+      "next": [
+        "writing-quality-studio:humanizer-deep-audit",
+        "writing-quality-studio:long-document-editing",
+        "writing-quality-studio:plain-language-editing",
+        "writing-quality-studio:spoken-and-scripted-writing",
+        "writing-quality-studio:technical-instructions",
+        "writing-quality-studio:voice-and-style",
+        "marketing-strategy-studio:lifecycle-and-outreach",
+        "gmail-send-review"
+      ],
+      "selection": "Final outgoing email, contact messages, posts, articles and Substack/newsletters receive natural-prose-editor even for draft/send/publish requests; routine replies bypass strategy, not review. Deep Audit adds source/citation/style depth. Gmail actions use gmail-send-review; recheck changed text after personalization/composer edits."
+    },
+    {
+      "id": "mac-operations",
+      "label": "Mac Operations",
+      "entrypoints": [
+        "mac-ops-toolkit:mac-environment-conventions",
+        "mac-ops-toolkit:mac-troubleshooter"
+      ],
+      "next": [
+        "mac-ops-toolkit:app-window-recovery",
+        "mac-ops-toolkit:application-installation",
+        "mac-ops-toolkit:process-diagnosis",
+        "mac-ops-toolkit:storage-migration",
+        "mac-ops-toolkit:symlink-audit",
+        "mac-ops-toolkit:updater-recovery",
+        "work-management:focus-work",
+        "master-security-toolkit:software-security-review"
+      ]
+    },
+    {
+      "id": "surveys",
+      "label": "Surveys And Questionnaires",
+      "entrypoints": [
+        "survey-studio:survey-strategist"
+      ],
+      "next": [
+        "survey-studio:survey-accessibility-and-privacy",
+        "survey-studio:survey-analysis-codebooks",
+        "survey-studio:survey-export",
+        "survey-studio:survey-flow-and-logic",
+        "survey-studio:survey-pilot-and-quality",
+        "survey-studio:survey-question-design",
+        "survey-studio:survey-sampling",
+        "research-methodology-local:research-methodology",
+        "ux-design-toolkit:design-studio"
+      ]
+    },
+    {
+      "id": "graphic-design",
+      "label": "Graphic Design",
+      "entrypoints": [
+        "graphic-design-studio:graphic-design"
+      ],
+      "next": [
+        "graphic-design-studio:campaign-format-adaptation",
+        "graphic-design-studio:composition-and-typography",
+        "graphic-design-studio:graphic-asset-compositing",
+        "graphic-design-studio:graphic-design-review",
+        "graphic-design-studio:infographic-design",
+        "graphic-design-studio:print-and-export-preflight",
+        "graphic-design-studio:promotional-design-copy"
+      ]
+    },
+    {
+      "id": "solo-service-operations",
+      "label": "Solo Service Operations",
+      "entrypoints": [
+        "solo-service-operations:invoice-preparation",
+        "solo-service-operations:invoice-follow-up",
+        "solo-service-operations:payment-reconciliation",
+        "solo-service-operations:cash-flow-planning"
+      ],
+      "next": [
+        "marketing-strategy-studio:lifecycle-and-outreach",
+        "work-management:project-structure"
+      ]
+    },
+    {
+      "id": "post-workshop-closeout",
+      "label": "Post-workshop operational closeout",
+      "entrypoints": [
+        "workshop-facilitator:workshop-debrief-transfer"
+      ],
+      "next": [
+        "video-production-workflow:ingest-video-assets",
+        "video-production-workflow:edit-dialogue-footage",
+        "writing-quality-studio:communication-crafter",
+        "marketing-strategy-studio:lifecycle-and-outreach",
+        "gmail-send-review",
+        "instructional-design-studio:learning-evaluation",
+        "survey-studio:survey-analysis-codebooks",
+        "solo-service-operations:invoice-preparation",
+        "solo-service-operations:payment-reconciliation",
+        "solo-service-operations:invoice-follow-up",
+        "career-studio:portfolio"
+      ],
+      "selection": "Select only applicable post-session work; preserve debrief/transfer, actual artifacts, approved terms and current authorization. Wrap-up alone does not authorize sending, invoice issue, publication or monitoring."
+    },
+    {
+      "id": "grant-lifecycle",
+      "label": "Grant Lifecycle",
+      "entrypoints": [
+        "writing-quality-studio:grant-process-crafter"
+      ],
+      "next": [
+        "writing-quality-studio:natural-prose-editor",
+        "writing-quality-studio:long-document-editing"
+      ]
+    },
+    {
+      "id": "project-evidence-checkpoint",
+      "label": "Project Evidence Checkpoint",
+      "entrypoints": [
+        "work-management:evidence-review"
+      ],
+      "next": [
+        "career-studio:portfolio-package"
+      ]
+    },
+    {
+      "id": "reasoning-studio",
+      "label": "Reasoning Studio",
+      "entrypoints": [
+        "reasoning-studio:critical-reasoning"
+      ],
+      "next": [
+        "reasoning-studio:socratic-questioning",
+        "reasoning-studio:alternative-perspectives"
+      ]
+    }
+  ],
+  "cross_links": [
+    {
+      "from": "work-management:focus-work",
+      "to": [
+        "work-management:project-structure",
+        "creative-writing-studio:creative-project-router",
+        "gm-roleplay-router",
+        "marketing-strategy-studio:marketing-strategy-operator",
+        "social-content-studio:social-content",
+        "writing-quality-studio:communication-crafter",
+        "ux-design-toolkit:design-studio",
+        "local-data-mcp-builder",
+        "safe-install-review",
+        "work-management:parallel-work"
+      ],
+      "why": "Top-level sequencing should hand broad work to the smallest domain router."
+    },
+    {
+      "from": "work-management:project-structure",
+      "to": [
+        "creative-writing-studio:creative-project-router",
+        "gm-roleplay-router",
+        "ux-design-toolkit:design-studio",
+        "develop-web-game",
+        "game-designer",
+        "local-data-mcp-builder",
+        "marketing-strategy-studio:marketing-strategy-operator",
+        "social-content-studio:social-content",
+        "writing-quality-studio:communication-crafter",
+        "skill-authoring",
+        "mac-ops-toolkit:mac-environment-conventions"
+      ],
+      "why": "Structure decisions should respect the project domain before files are created."
+    },
+    {
+      "from": "skill-authoring",
+      "to": [
+        "work-management:focus-work",
+        "work-management:project-structure",
+        "safe-install-review",
+        "systematic-debugging"
+      ],
+      "why": "Skill changes need routing maintenance, structure checks, security review, and script debugging."
+    },
+    {
+      "from": "creative-writing-studio:creative-project-router",
+      "to": [
+        "work-management:project-structure",
+        "creative-writing-studio:creative-project-context",
+        "creative-writing-studio:story-book-router",
+        "creative-writing-studio:story-architecture",
+        "creative-writing-studio:publishing-router",
+        "gm-roleplay-router",
+        "ttrpg-router",
+        "board-game-design",
+        "game-designer",
+        "writing-quality-studio:communication-crafter",
+        "marketing-strategy-studio:marketing-strategy-operator",
+        "social-content-studio:social-content",
+        "ux-design-toolkit:design-studio",
+        "creative-writing-studio:show-vs-tell-craft"
+      ],
+      "why": "Creative work frequently becomes structured projects, public communication, publishing, table work, or game design."
+    },
+    {
+      "from": "gm-roleplay-router",
+      "to": [
+        "live-table-director",
+        "creative-writing-studio:story-atlas-prep",
+        "improv-roleplay-coach",
+        "player-facilitator",
+        "npc-performance-director",
+        "pacing-scene-director",
+        "rules-teaching-coach",
+        "safety-accessibility-facilitator",
+        "professional-public-gm",
+        "debrief-canon-maintainer",
+        "daggerheart-adapter",
+        "personal-gm-style-adapter",
+        "ttrpg-router",
+        "creative-writing-studio:creative-project-context",
+        "creative-writing-studio:story-architecture",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "creative-writing-studio:publishing-router",
+        "ux-design-toolkit:design-studio",
+        "writing-quality-studio:communication-crafter",
+        "creative-writing-studio:show-vs-tell-craft"
+      ],
+      "why": "Live and multi-mode GM work needs compact table direction while preserving canon, source, privacy, public artifact, and communication boundaries."
+    },
+    {
+      "from": "live-table-director",
+      "to": [
+        "gm-roleplay-router",
+        "ttrpg-router"
+      ],
+      "why": "Live-table output should stay compact, but route back to the GM/TTRPG layer when the user asks for deeper prep, rules, or debrief work."
+    },
+    {
+      "from": "ttrpg-router",
+      "to": [
+        "gm-roleplay-router",
+        "live-table-director",
+        "creative-writing-studio:story-atlas-prep",
+        "player-facilitator",
+        "npc-performance-director",
+        "pacing-scene-director",
+        "rules-teaching-coach",
+        "safety-accessibility-facilitator",
+        "professional-public-gm",
+        "debrief-canon-maintainer",
+        "daggerheart-adapter",
+        "personal-gm-style-adapter",
+        "creative-writing-studio:creative-project-context",
+        "creative-writing-studio:story-architecture",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "board-game-design",
+        "game-designer",
+        "ux-design-toolkit:design-studio",
+        "writing-quality-studio:communication-crafter",
+        "creative-writing-studio:publishing-router",
+        "creative-writing-studio:show-vs-tell-craft"
+      ],
+      "why": "Campaign work crosses canon, story, rights, systems, visual, communication, and handout boundaries."
+    },
+    {
+      "from": "creative-writing-studio:publishing-router",
+      "to": [
+        "creative-writing-studio:creative-project-router",
+        "ux-design-toolkit:design-studio",
+        "html-presentation-builder",
+        "writing-quality-studio:communication-crafter",
+        "creative-writing-studio:originality-rights-and-provenance",
+        "creative-writing-studio:show-vs-tell-craft"
+      ],
+      "why": "Publishing work needs source, visual, frontend, narrative, accessibility, and rights gates."
+    },
+    {
+      "from": "work-management:tool-workflow-routing",
+      "to": [
+        "ux-design-toolkit:ux-heuristic-compass",
+        "reasoning-studio:critical-reasoning",
+        "prompt-playbook-studio:prompt-playbook"
+      ],
+      "why": "Outcome-based Compass selection; bounded checks within authorized tasks, optional formal depth, actual provider discovery required."
+    }
+  ],
+  "shareables": {
+    "mac_mini_root": "$PROJECT_VOLUME/Documents/My Projects/MCPs/shareables/shareables-mcp",
+    "macbook_root": "<verified-volume> Projects/MCPs/shareables/shareables-mcp",
+    "sync_excludes": [
+      ".git",
+      ".codex-backups",
+      ".pytest_cache",
+      "__pycache__",
+      ".tmp",
+      "output",
+      "data",
+      "portable",
+      "node_modules"
+    ]
+  },
+  "legacy_aliases": {
+    "frontend-ux": "ux-design-toolkit:design-studio",
+    "design-taste-gate": "ux-design-toolkit:design-studio",
+    "visual-asset-integration": "ux-design-toolkit:design-studio",
+    "ux-writer": "ux-design-toolkit:ux-writer",
+    "ux-heuristic-compass": "ux-design-toolkit:ux-heuristic-compass",
+    "ui-ux-pro-max": "ux-design-toolkit:design-reference-lookup",
+    "figma": "figma:figma-use",
+    "figma-implement-design": "figma:figma-design-to-code",
+    "communication-story-crafter": "writing-quality-studio:communication-crafter",
+    "ux-research-follow-up-drafting": "writing-quality-studio:communication-crafter",
+    "focus-ops-manager": "work-management:focus-work",
+    "prd-strategist": "work-management:product-definition",
+    "plain-to-dev": "work-management:product-definition",
+    "project-structure-architect": "work-management:project-structure",
+    "pdf": "pdf:pdf",
+    "mac-environment-conventions": "mac-ops-toolkit:mac-environment-conventions",
+    "mac-troubleshooter": "mac-ops-toolkit:mac-troubleshooter",
+    "creative-project-router": "creative-writing-studio:creative-project-router",
+    "creative-project-context": "creative-writing-studio:creative-project-context",
+    "story-book-router": "creative-writing-studio:story-book-router",
+    "story-architecture": "creative-writing-studio:story-architecture",
+    "show-vs-tell-craft": "creative-writing-studio:show-vs-tell-craft",
+    "horror-story-crafter": "creative-writing-studio:horror-story-crafter",
+    "story-atlas-prep": "creative-writing-studio:story-atlas-prep",
+    "originality-rights-and-provenance": "creative-writing-studio:originality-rights-and-provenance",
+    "publishing-router": "creative-writing-studio:publishing-router",
+    "humanizer": "writing-quality-studio:humanizer-deep-audit",
+    "write-like-me": "writing-quality-studio:natural-prose-editor",
+    "writing-quality-studio:ux-research-follow-up": "writing-quality-studio:communication-crafter",
+    "resume-crafter": "career-studio:resume",
+    "cover-letter-crafter": "career-studio:cover-letter",
+    "portfolio-crafter": "career-studio:portfolio",
+    "portfolio-package-assembly": "career-studio:portfolio-package",
+    "job-application-campaign": "career-studio:campaign",
+    "job-application-submissions": "career-studio:submissions",
+    "marketing-strategy-operator": "marketing-strategy-studio:marketing-strategy-operator",
+    "social-content-studio": "social-content-studio:social-content",
+    "current-social-research": "research-methodology-local:current-social-research",
+    "prompt-playbook": "prompt-playbook-studio:prompt-playbook",
+    "personal-security-check": "master-security-toolkit:software-security-review",
+    "codex-coordinator": "work-management:parallel-work",
+    "figma-to-stitch-design-iteration": "ux-design-toolkit:stitch-design",
+    "stitch-workbench": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-workbench": "ux-design-toolkit:stitch-design",
+    "stitch-flow-prototyping": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-flow-prototyping": "ux-design-toolkit:stitch-design",
+    "stitch-design-review": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-design-review": "ux-design-toolkit:stitch-design",
+    "stitch-component-assets": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-component-assets": "ux-design-toolkit:stitch-design",
+    "stitch-export-handoff": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-export-handoff": "ux-design-toolkit:stitch-design",
+    "stitch-library-evidence": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-library-evidence": "ux-design-toolkit:stitch-design",
+    "stitch-design-system": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-design-system": "ux-design-toolkit:stitch-design",
+    "stitch-design-partner": "ux-design-toolkit:stitch-design",
+    "stitch-design-studio:stitch-design-partner": "ux-design-toolkit:stitch-design",
+    "vibe-check": "ux-design-toolkit:design-studio",
+    "sora": "video-production-workflow:plan-video-production",
+    "build-web-data-visualization": "data-visualization-toolkit:data-visualization",
+    "data-visualization": "data-visualization-toolkit:data-visualization",
+    "visualization-strategy-and-critique": "data-visualization-toolkit:data-visualization",
+    "statistical-and-uncertainty-visualization": "data-visualization-toolkit:data-visualization",
+    "accessibility-and-inclusive-visualization": "data-visualization-toolkit:data-visualization",
+    "testing-data-visualizations": "data-visualization-toolkit:data-visualization",
+    "dashboards-and-real-time-visualization": "data-visualization-toolkit:data-visualization",
+    "gantt-chart-visualization": "data-visualization-toolkit:data-visualization",
+    "geospatial-and-cartographic-visualization": "data-visualization-toolkit:data-visualization",
+    "node-link-and-diagram-layout": "data-visualization-toolkit:data-visualization",
+    "uml-and-software-architecture-visualization": "data-visualization-toolkit:data-visualization",
+    "scrollytelling-and-parallax-data-visualization": "data-visualization-toolkit:data-visualization",
+    "reports-pdfs-and-slide-automation": "data-visualization-toolkit:data-visualization",
+    "grammar-of-graphics-and-declarative-visualization": "data-visualization-toolkit:data-visualization",
+    "d3-data-visualization": "data-visualization-toolkit:data-visualization",
+    "canvas2d-data-visualization": "data-visualization-toolkit:data-visualization",
+    "threejs-data-visualization": "data-visualization-toolkit:data-visualization",
+    "react-and-nextjs-data-visualization": "data-visualization-toolkit:data-visualization",
+    "typescript-data-visualization-engineering": "data-visualization-toolkit:data-visualization",
+    "visual-production-workflow": "graphic-design-studio:graphic-design",
+    "grant-process-crafter": "writing-quality-studio:grant-process-crafter",
+    "build-mcp-apps": "development-studio:build-mcp-apps",
+    "build-mcp-apps:build-mcp-apps": "development-studio:build-mcp-apps",
+    "build-mcp-apps:use-alpic": "development-studio:use-alpic",
+    "superpowers": "development-studio:development-studio",
+    "game-development-studio": "game-creation-studio:game-creation-studio",
+    "superpowers:brainstorming": "development-studio:development-studio",
+    "superpowers:using-superpowers": "development-studio:development-studio",
+    "superpowers:writing-plans": "development-studio:implement-software",
+    "superpowers:executing-plans": "development-studio:implement-software",
+    "superpowers:subagent-driven-development": "development-studio:implement-software",
+    "superpowers:dispatching-parallel-agents": "development-studio:implement-software",
+    "superpowers:using-git-worktrees": "development-studio:implement-software",
+    "superpowers:systematic-debugging": "development-studio:debug-software",
+    "superpowers:test-driven-development": "development-studio:test-software",
+    "superpowers:verification-before-completion": "development-studio:review-and-release",
+    "superpowers:requesting-code-review": "development-studio:review-and-release",
+    "superpowers:receiving-code-review": "development-studio:review-and-release",
+    "superpowers:finishing-a-development-branch": "development-studio:review-and-release",
+    "superpowers:diagnosing-superpowers": "development-studio:evaluate-dev-workflows",
+    "superpowers:writing-skills": "development-studio:evaluate-dev-workflows",
+    "game-development-studio:game-asset-production": "game-creation-studio:game-asset-production",
+    "game-development-studio:game-asset-vendoring": "game-creation-studio:game-asset-vendoring",
+    "game-development-studio:game-visual-debugging": "game-creation-studio:game-visual-debugging",
+    "game-development-studio:game-performance-optimization": "game-creation-studio:game-performance-optimization"
+  },
+  "plugin_roots": {
+    "ux-design-toolkit": "~/plugins/ux-design-toolkit",
+    "work-management": "${PLUGIN_ROOT}",
+    "writing-quality-studio": "~/plugins/writing-quality-studio",
+    "mac-ops-toolkit": "~/plugins/mac-ops-toolkit",
+    "creative-writing-studio": "~/plugins/creative-writing-studio",
+    "survey-studio": "~/plugins/survey-studio",
+    "research-methodology-local": "~/plugins/research-methodology-local",
+    "graphic-design-studio": "~/plugins/graphic-design-studio",
+    "career-studio": "~/plugins/career-studio",
+    "marketing-strategy-studio": "~/plugins/marketing-strategy-studio",
+    "social-content-studio": "~/plugins/social-content-studio",
+    "prompt-playbook-studio": "~/plugins/prompt-playbook-studio",
+    "master-security-toolkit": "~/plugins/master-security-toolkit",
+    "data-visualization-toolkit": "~/plugins/data-visualization-toolkit",
+    "video-production-workflow": "~/plugins/video-production-workflow",
+    "instructional-design-studio": "~/plugins/instructional-design-studio",
+    "solo-service-operations": "~/plugins/solo-service-operations",
+    "workshop-facilitator": "~/plugins/workshop-facilitator",
+    "development-studio": "~/plugins/development-studio",
+    "game-creation-studio": "~/plugins/game-creation-studio"
+  }
+}

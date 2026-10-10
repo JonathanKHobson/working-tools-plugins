@@ -4,10 +4,27 @@ import argparse
 import sqlite3
 import sys
 from pathlib import Path
+from typing import Any, Literal
+from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from store import ExplorerError, ExplorerStore
 ROOT=Path(__file__).resolve().parent
 RESOURCE_URI='ui://data-explorer/explorer.html'
 RESOURCE_MIME='text/html;profile=mcp-app'
+
+
+class ColumnDefinition(BaseModel):
+    """Disclose the nested column contract without coercing caller values."""
+    model_config = ConfigDict(extra='forbid', strict=True)
+    key: StrictStr = Field(description="Unique safe column identifier, other than id; every row values object must use this exact key.")
+    label: StrictStr = Field(description="Human-readable column label. Use label, not name.")
+    type: Literal['number', 'category', 'text'] = Field(description="At least one column must have type number.")
+    unit: StrictStr | None = Field(default=None, description="Optional unit for a number column only, at most 30 characters; omit for category/text.")
+
+class DatasetRow(BaseModel):
+    """Rows retain arbitrary exact values until the existing store validates them."""
+    model_config = ConfigDict(extra='forbid', strict=True)
+    id: StrictStr = Field(description="Unique stable row identifier, at most 80 characters; letters, digits, underscore, period, colon and hyphen.")
+    values: dict[str, Any] = Field(description="Object containing exactly all declared column keys. Number values are finite numbers or null; category/text values are strings or null. Zero is known; null is missing.", json_schema_extra={"additionalProperties": {"type": ["string", "number", "null"]}})
 
 def render_html(root=ROOT):
     path=root/'dist'/'widget.html'
@@ -33,9 +50,9 @@ def create_server(data_dir=None):
             return CallToolResult(content=[TextContent(type='text',text=f'{exc.code}: {exc}')],structuredContent=error,isError=True)
         except (sqlite3.Error,OSError):
             return CallToolResult(content=[TextContent(type='text',text='storage_error: private explorer storage unavailable')],structuredContent={'error':{'code':'storage_error','message':'private explorer storage unavailable'}},isError=True)
-    @server.tool(name='data_create_dataset',title='Create private dataset',description='Create an immutable private tabular dataset with explicit source title/revision and synthetic flag. Supply 1–12 typed columns and up to 500 rows, each {id,values} with exact column keys. At least one numeric column. No import, file reading, queries, inference or cleaning. Returns saved view metadata and aggregate, without raw rows.',annotations=write)
-    def data_create_dataset(title:str,source_revision:str,synthetic:bool,columns:list[dict],rows:list[dict]):
-        return result(lambda:store.create(title,source_revision,synthetic,columns,rows),'Dataset created')
+    @server.tool(name='data_create_dataset',title='Create private dataset',description='Create an immutable private tabular dataset with explicit source title/revision and synthetic flag. Supply 1–12 columns, each {key,label,type,optional unit}, with type number/category/text. Use label, not name. Rows are {id,values} with exact column keys; at most 500 rows. Zero is known and null is missing. At least one numeric column. No import, file reading, queries, inference or cleaning. Returns saved view metadata and aggregate, without raw rows.',annotations=write)
+    def data_create_dataset(title:str,source_revision:str,synthetic:bool,columns:list[ColumnDefinition]=Field(min_length=1,max_length=12),rows:list[DatasetRow]=Field(max_length=500)):
+        return result(lambda:store.create(title,source_revision,synthetic,[column.model_dump(exclude_unset=True) for column in columns],[row.model_dump() for row in rows]),'Dataset created')
     @server.tool(name='data_open_explorer',title='Open data explorer',description='Open the private dataset in the interactive explorer. The view includes source rows for the app; use data_read_view for model-only summary.',annotations=read,meta=ui_meta)
     def data_open_explorer(dataset_id:str):
         return result(lambda:store.read(dataset_id,True),'Explorer opened')

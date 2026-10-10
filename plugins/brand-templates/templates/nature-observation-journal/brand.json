@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "nature-observation-journal",
+  "version": "0.2.1",
+  "name": "Return to One Place",
+  "summary": "An observation identity built around repeated visits, modest notes and the difference between what was seen and what was inferred.",
+  "category": "Research & evidence",
+  "tags": [
+    "document",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "nature-observation-journal"
+  ],
+  "sourceTemplateNames": {
+    "nature-observation-journal": "Nature Observation Journal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "nature-observation-journal",
+      "name": "Nature Observation Journal",
+      "format": "document",
+      "sourceHash": "af38526b1ae06f80699058ea632088ff3213760db98d2e5b993d49ea83bcf4ce",
+      "foundationSha256": "d7055d806da66a5a9466eb17a1326c96202187dc8c02e4c177ed1fcdb24528fe",
+      "designSpecSha256": "2f58068504bc523ac2a4ce788f58f671fc0a48e720ee15f56844fb6de8763f2e",
+      "referenceDirectory": "references/nature-observation-journal"
+    }
+  ],
+  "sourceHash": "af38526b1ae06f80699058ea632088ff3213760db98d2e5b993d49ea83bcf4ce",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#263C32",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Observation panel",
+      "role": "surface",
+      "hex": "#E4EEDC",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #E4EEDC; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Field rule",
+      "role": "primary",
+      "hex": "#49614A",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #49614A; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Writing rule",
+      "role": "rule",
+      "hex": "#8B998A",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #8B998A; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Cochin",
+      "usage": "Reflective chapter or entry openings."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Observation prompts, dates and recording labels."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Reflective chapter or entry openings.",
+      "sourceFamily": "Cochin",
+      "sourceFamilySelected": "Cochin",
+      "renderFamily": "Cormorant Garamond",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "78e01718e96f1a8689597a63b21ddaaf44dd785ee7cf5e92dd70a741c79cfae5"
+        },
+        "bold": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "012a87dc5658bdc4599ba507348e8ce5a432de636b7f29584cd949692ed5c3da"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cormorant-garamond/OFL.txt",
+      "licenseSha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Cochin is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Cochin is an Apple/system font; not bundled. Open high-contrast serif substitute for proprietary Didot or Cochin, selected according to the source profile.",
+      "sourceTemplateId": "nature-observation-journal",
+      "sourceFingerprint": "af38526b1ae06f80699058ea632088ff3213760db98d2e5b993d49ea83bcf4ce"
+    },
+    {
+      "role": "body",
+      "usage": "Observation prompts, dates and recording labels.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "nature-observation-journal",
+      "sourceFingerprint": "af38526b1ae06f80699058ea632088ff3213760db98d2e5b993d49ea83bcf4ce"
+    }
+  ],
+  "recognitionRules": [
+    "Pair Cochin reflective headings with Avenir field labels.",
+    "Keep date, location and conditions in a stable entry header.",
+    "Give observation and interpretation separate writing areas.",
+    "Leave room for sketches without requiring drawing skill."
+  ],
+  "writingLinks": [
+    {
+      "id": "V13",
+      "name": "Marginal notebook",
+      "reason": "Fieldbook notes that keep tentative identifications separate from observations.",
+      "sourceTemplateId": "nature-observation-journal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Return to one place. Notice what stayed, and what did not.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use RETURN TO ONE PLACE in Cochin with a small repeated pair of vertical marks. No leaf icon or nature seal.",
+  "invariants": [
+    "Pair Cochin reflective headings with Avenir field labels.",
+    "Keep date, location and conditions in a stable entry header.",
+    "Give observation and interpretation separate writing areas."
+  ],
+  "adaptations": [
+    "A pocket version reduces prompts but retains date and conditions.",
+    "Seasonal editions change examples, not the observation discipline.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/nature-observation-journal.pdf",
+    "preview": "media/nature-observation-journal-guide.webp",
+    "markdown": "guides/nature-observation-journal.md"
+  },
+  "bundle": {
+    "href": "bundles/nature-observation-journal-brand-kit.zip",
+    "filename": "Return to One Place brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/nature-observation-journal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/nature-observation-journal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/nature-observation-journal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,17 @@
+# A Task to Try · layout
+
+## Composition rules
+
+- Use a pencil-and-paper cover with a quiet text field.
+- Pair Trebuchet headings with Arial instructional detail.
+- Use violet and pale lavender with lime reserved for focused learning cues.
+- Show the lesson map and success criteria before practice.
+- Keep alternative response modes visible alongside the task.
+
+## Exact originating-format geometry
+
+The following source extracts retain measured units and actual component positions. EMUs, points, cell units and CSS pixels are not interchangeable. They describe the originating template; adapt by relationships when changing format, and retain exact values when reproducing the original.
+
+- [Teaching Demonstration: native layouts](references/teaching-demonstration/LAYOUTS.md)
+
+For a new composition, choose the content order first, establish the dominant reading anchor, then place the recurring elements listed in [COMPONENTS.md](COMPONENTS.md). Keep margins and alignment consistent within the artifact. Preserve useful empty space and let long content flow rather than compressing every role. The guide's applications demonstrate authored extensions; they are not an assertion that all formats share identical geometry.

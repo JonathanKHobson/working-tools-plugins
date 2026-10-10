@@ -1,0 +1,10 @@
+# Editable tables and media
+
+Source: `assets/reference.docx` · SHA-256 `58d3741a213e93117d121a9e2b60ee5f640a03d0c883b42fc4db4ff2f925732a` (source file bytes). These are source observations; user-authorized changes may replace them.
+
+- Table 1: 7 × 2, style `Normal Table`, widths `[1051, 2837]` twips, header ['Amount', 'Ingredient']; borders `{'top': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'left': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'bottom': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'right': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'insideH': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'insideV': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}}`; first-cell margins `{'top': {'w': '105', 'type': 'dxa'}, 'bottom': {'w': '105', 'type': 'dxa'}, 'left': {'w': '85', 'type': 'dxa'}, 'right': {'w': '85', 'type': 'dxa'}}`. Source: `word/document.xml`.
+  - Observed table colors: #FFFFFF shading fill (12 uses); #D9D9D9 border (6 uses); #E8E8E8 shading fill (2 uses).
+- Table 2: 7 × 2, style `Normal Table`, widths `[1051, 2837]` twips, header ['Amount', 'Ingredient']; borders `{'top': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'left': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'bottom': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'right': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'insideH': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}, 'insideV': {'val': 'single', 'sz': '4', 'color': 'D9D9D9'}}`; first-cell margins `{'top': {'w': '105', 'type': 'dxa'}, 'bottom': {'w': '105', 'type': 'dxa'}, 'left': {'w': '85', 'type': 'dxa'}, 'right': {'w': '85', 'type': 'dxa'}}`. Source: `word/document.xml`.
+  - Observed table colors: #FFFFFF shading fill (12 uses); #D9D9D9 border (6 uses); #E8E8E8 shading fill (2 uses).
+
+Used drawing media: `word/media/image1.png` at paragraph: [drawing or blank paragraph] (SHA-256 `a0bff07f3e93794164d5aa0144fe3a038634157fd4cb23288597182f2e0be8cc`). Media rights are not established by the Office package.

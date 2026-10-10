@@ -1,0 +1,12 @@
+# Editable tables and media
+
+Source: `assets/reference.docx` · SHA-256 `13ffd209226534dd1ec2aed9f61d8453237b787bae989d77b0fcff795c779976` (source file bytes). These are source observations; user-authorized changes may replace them.
+
+- Table 1: 9 × 3, style `Normal Table`, widths `[1191, 2268, 6406]` twips, header ['Minutes', 'Phase', 'Learner action and facilitator response']; borders `{'top': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'bottom': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'insideH': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'left': {'val': 'nil'}, 'right': {'val': 'nil'}, 'insideV': {'val': 'nil'}}`; first-cell margins `{'top': {'w': '85', 'type': 'dxa'}, 'bottom': {'w': '85', 'type': 'dxa'}, 'left': {'w': '80', 'type': 'dxa'}, 'right': {'w': '80', 'type': 'dxa'}}`. Source: `word/document.xml`.
+  - Observed table colors: #E7EDE1 shading fill (3 uses); #BCC8B9 border (3 uses).
+- Table 2: 4 × 3, style `Normal Table`, widths `[1531, 4252, 4082]` twips, header ['Criterion', 'Ready', 'Revise']; borders `{'top': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'bottom': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'insideH': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'left': {'val': 'nil'}, 'right': {'val': 'nil'}, 'insideV': {'val': 'nil'}}`; first-cell margins `{'top': {'w': '85', 'type': 'dxa'}, 'bottom': {'w': '85', 'type': 'dxa'}, 'left': {'w': '80', 'type': 'dxa'}, 'right': {'w': '80', 'type': 'dxa'}}`. Source: `word/document.xml`.
+  - Observed table colors: #E7EDE1 shading fill (3 uses); #BCC8B9 border (3 uses).
+- Table 3: 5 × 4, style `Normal Table`, widths `[4252, 1757, 1928, 1928]` twips, header ['Resource', 'Quantity', 'Rate', 'Cost']; borders `{'top': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'bottom': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'insideH': {'val': 'single', 'sz': '4', 'color': 'BCC8B9'}, 'left': {'val': 'nil'}, 'right': {'val': 'nil'}, 'insideV': {'val': 'nil'}}`; first-cell margins `{'top': {'w': '85', 'type': 'dxa'}, 'bottom': {'w': '85', 'type': 'dxa'}, 'left': {'w': '80', 'type': 'dxa'}, 'right': {'w': '80', 'type': 'dxa'}}`. Source: `word/document.xml`.
+  - Observed table colors: #E7EDE1 shading fill (4 uses); #BCC8B9 border (3 uses).
+
+Used drawing media: `word/media/image1.png` at paragraph: [drawing or blank paragraph] (SHA-256 `24c1f2d35e5e1df7b4bf71f9f95a293470fc40c5f5bbae4286dc44d43da47aa3`). Media rights are not established by the Office package.

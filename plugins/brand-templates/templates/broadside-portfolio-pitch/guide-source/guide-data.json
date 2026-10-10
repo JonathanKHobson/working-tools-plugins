@@ -1,0 +1,129 @@
+{
+  "id": "broadside-portfolio-pitch",
+  "name": "Let Stories Travel",
+  "summary": "A spoken portfolio identity with the energy of a printed broadside and the discipline of a three-part live argument.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FAF8F0",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#171717",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Display Field",
+      "role": "display-field",
+      "hex": "#E4F64E",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#F4B8D4",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 6 / title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / contact."
+    }
+  ],
+  "recognitionRules": [
+    "Use oversized condensed Impact statements with small Avenir authorship lines.",
+    "Pair acid yellow and pink interventions with an otherwise dark-ink, pale-paper composition.",
+    "Organize the proposition as words, paths and moments separated by act rules.",
+    "Keep a clear project title and role credit below the opening statement."
+  ],
+  "voice": {
+    "traits": [
+      "energetic",
+      "articulate",
+      "purposeful"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A story needs a way in, a reason to stay and a route onward.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use LET STORIES TRAVEL in a tight stacked Impact wordmark. The stack is the mark; do not add a travel arrow or globe.",
+  "invariants": [
+    "Use oversized condensed Impact statements with small Avenir authorship lines.",
+    "Pair acid yellow and pink interventions with an otherwise dark-ink, pale-paper composition.",
+    "Organize the proposition as words, paths and moments separated by act rules."
+  ],
+  "adaptations": [
+    "A leave-behind can reduce the stack to two lines and retain the three acts.",
+    "Use colored interventions on one focal phrase per page.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

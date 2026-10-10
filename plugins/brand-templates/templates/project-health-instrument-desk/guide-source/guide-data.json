@@ -1,0 +1,260 @@
+{
+  "id": "project-health-instrument-desk",
+  "name": "Project Instrument Desk",
+  "summary": "A project-review identity that treats status as an instrument reading to inspect, not a reassuring traffic-light summary.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#101B24",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#101B24",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#E3EEF6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Attention Surface",
+      "role": "attention-surface",
+      "hex": "#FFF0D6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [
+    {
+      "name": "State surface / 0",
+      "role": "conditional-fill",
+      "hex": "#FBE2DE",
+      "sourceRules": [
+        {
+          "range": "Review!C12:C15",
+          "condition": "0",
+          "operator": "greaterThan",
+          "ruleType": "cellIs"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Actual missing",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Invalid actual",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Duplicate ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Missing ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check task / plan",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check state",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Over planned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "0; Actual missing; Invalid actual; Duplicate ID; Missing ID; Check task / plan; Check state; Over planned",
+      "source": "reference.xlsx conditional formatting: Review!C12:C15, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54"
+    },
+    {
+      "name": "State text / 0",
+      "role": "conditional-text",
+      "hex": "#972F2A",
+      "sourceRules": [
+        {
+          "range": "Review!C12:C15",
+          "condition": "0",
+          "operator": "greaterThan",
+          "ruleType": "cellIs"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Actual missing",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Invalid actual",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Duplicate ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Missing ID",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check task / plan",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Check state",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        },
+        {
+          "range": "Task log!G5:G54",
+          "condition": "Over planned",
+          "operator": "containsText",
+          "ruleType": "containsText"
+        }
+      ],
+      "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+      "condition": "0; Actual missing; Invalid actual; Duplicate ID; Missing ID; Check task / plan; Check state; Over planned",
+      "source": "reference.xlsx conditional formatting: Review!C12:C15, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54, Task log!G5:G54"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Menlo",
+      "usage": "Instrument labels, counts and technical fields."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica Neue",
+      "usage": "Explanatory notes and decisions."
+    }
+  ],
+  "recognitionRules": [
+    "Use a dark ink framework with pale blue reading areas and warm exception fields.",
+    "Pair Menlo instrument labels with Helvetica Neue explanations.",
+    "Give key counts and decision fields enough space to read at a glance.",
+    "Keep evidence, interpretation and next action distinct within the review.",
+    "Do not merge with Issue Desk solely because both use dark instrument styling.",
+    "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents.",
+    "Use pink/red validation cells for missing, invalid or over-planned actuals; retain the dark header and pale-blue summary field."
+  ],
+  "voice": {
+    "traits": [
+      "diagnostic",
+      "calm",
+      "exact"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Read the signal. Check the record. Choose the next intervention.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use PROJECT INSTRUMENT DESK in Menlo with a small pair of calibration ticks. No speedometer or heartbeat icon.",
+  "invariants": [
+    "Use a dark ink framework with pale blue reading areas and warm exception fields.",
+    "Pair Menlo instrument labels with Helvetica Neue explanations.",
+    "Give key counts and decision fields enough space to read at a glance."
+  ],
+  "adaptations": [
+    "A compact review retains the decision and evidence fields.",
+    "Monochrome editions use labels and border weight to retain status meaning.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "spreadsheet",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Menlo",
+      "renderFamily": "IBM Plex Mono",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf",
+      "bold": "assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf",
+      "license": "assets/fonts/ibm-plex-mono/OFL.txt",
+      "sourceFontDependency": "Menlo is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Helvetica Neue",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Helvetica Neue is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

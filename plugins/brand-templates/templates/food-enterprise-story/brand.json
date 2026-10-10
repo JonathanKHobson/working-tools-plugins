@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "food-enterprise-story",
+  "version": "0.2.1",
+  "name": "Little Lunch",
+  "summary": "A small food-enterprise identity that uses an approachable editorial story to connect the offer, the making and the practical plan.",
+  "category": "Community & culture",
+  "tags": [
+    "presentation",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "food-enterprise-story"
+  ],
+  "sourceTemplateNames": {
+    "food-enterprise-story": "Food Enterprise Story"
+  },
+  "templateVariations": [
+    {
+      "templateId": "food-enterprise-story",
+      "name": "Food Enterprise Story",
+      "format": "presentation",
+      "sourceHash": "d2a788311166de9492fdffd91e5f3fe6f41871a3533924bd9410e910374f2fd1",
+      "foundationSha256": "486e143a931fc9d31e8999a76e8541f34508e94e9503dad3a823f433d3bf92f4",
+      "designSpecSha256": "b5027ca04a351fb7e08f5fa76c3d894b361f35b5c3a9860c19181ac7401ed44f",
+      "referenceDirectory": "references/food-enterprise-story"
+    }
+  ],
+  "sourceHash": "d2a788311166de9492fdffd91e5f3fe6f41871a3533924bd9410e910374f2fd1",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F8EFDA",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#173D34",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#A84324",
+      "evidence": "slide 2 / header-divider fill"
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source slide 9 / ask."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / ask.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "food-enterprise-story",
+      "sourceFingerprint": "d2a788311166de9492fdffd91e5f3fe6f41871a3533924bd9410e910374f2fd1"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "food-enterprise-story",
+      "sourceFingerprint": "d2a788311166de9492fdffd91e5f3fe6f41871a3533924bd9410e910374f2fd1"
+    }
+  ],
+  "recognitionRules": [
+    "Use forest green and warm cream with rust food-story accents.",
+    "Pair Georgia narrative headings with Arial practical detail.",
+    "Keep the product idea separate from untested demand and operational assumptions.",
+    "Use a few generous food or making images with useful captions."
+  ],
+  "writingLinks": [
+    {
+      "id": "V04",
+      "name": "Scene-led feature",
+      "reason": "Grounded concept scene that widens to economics, unknowns and a decision.",
+      "sourceTemplateId": "food-enterprise-story",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A small lunch, carefully made. Start with what goes on the table.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use LITTLE LUNCH in Georgia with a modest Arial descriptor. A short curved underline may suggest a plate edge; avoid a complete restaurant badge.",
+  "invariants": [
+    "Use forest green and warm cream with rust food-story accents.",
+    "Pair Georgia narrative headings with Arial practical detail.",
+    "Keep the product idea separate from untested demand and operational assumptions."
+  ],
+  "adaptations": [
+    "Menus prioritize food names and practical details.",
+    "Business pages retain the same warmth while exposing cost and capacity assumptions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/food-enterprise-story.pdf",
+    "preview": "media/food-enterprise-story-guide.webp",
+    "markdown": "guides/food-enterprise-story.md"
+  },
+  "bundle": {
+    "href": "bundles/food-enterprise-story-brand-kit.zip",
+    "filename": "Little Lunch brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/food-enterprise-story-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/food-enterprise-story-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/food-enterprise-story-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

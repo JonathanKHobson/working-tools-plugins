@@ -1,6 +1,6 @@
 # Working Tools plugins
 
-Practical AI workflows and local tools by Kyle Hobson. Choose an individual package for design, video, teaching, game creation or solo-service operations. Each public edition includes its operative skill instructions, requirements, source and notices.
+Practical AI workflows and local tools by Kyle Hobson. Choose an individual package for design, video, teaching, research, writing, project work and solo-service operations. Each public edition includes its operative skill instructions, requirements, source and notices.
 
 **Start with the [installation guide](docs/install.md)**, or [browse Working Tools](https://working-tools.jkylehobson.chatgpt.site/). You do not need to install the whole collection.
 
@@ -24,6 +24,11 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |
+| Structure a project and deliver a verified handoff | [Work Management](plugins/work-management/) | Your project context and optional recipient bindings |
+| Retrieve and compare research evidence | [Oppia Research Compass](plugins/oppia-research-compass/) | Your own authorized corpus; no team records included |
+| Compose graphics and prepare production files | [Graphic Design Studio](plugins/graphic-design-studio/) | Source content, host creative tools and optional local runtime |
+| Start from an editable fictional brand kit | [Brand Templates](plugins/brand-templates/) | A brief; 104 original kits included |
+| Retrieve and verify writing guidance | [Writing Templates](plugins/writing-templates/) | Your authorized sources; synthetic examples included |
 
 Check [tested compatibility](docs/compatibility.md) before choosing a host. A workflow can help an agent use an app; it does not supply that app, a paid account or a remotely hosted service. The [release registry](catalog/packages.json) owns versions and availability. Provider-owned tools and restricted local Studios are not silently bundled.
 

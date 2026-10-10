@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Direction A · Open Grid — Linden Street Learning Commons Fall Open House (fictional)</title>
+<!--
+  Packet: research-2026-09-29/packets/03-art-direction · examples/direction-a-open-grid.html
+  FICTIONAL EVENT — design demonstration only. Stable facts: examples/README.md § "Stable facts".
+  Direction card: open-authorship.md (under references/direction-cards). Mechanism, not a style copy:
+    equal-weight modules for many contributors; blank modules the audience completes on site;
+    ordinary-sized fact band; one diagonal gesture formed by the blank cells.
+  Mechanism sources: S03 (Pink: invited contributions), S04 (ellipsis as a place for other voices).
+  Deliberately NOT borrowed: the precedent's pink colour, its handwriting, its dimensions or any of its imagery.
+  No external fonts, images, scripts or network requests. Public edition: browser-rendered examples reviewed at900px and390px; see ../public-review.md for scope.
+-->
+<style>
+  :root{
+    --field:#eef2ea; --card:#ffffff; --ink:#1e2a22; --muted:#4a5a4f; --invite:#8a2250; --backdrop:#c9cfc6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:"Gill Sans","Gill Sans MT",Seravek,"Trebuchet MS",Candara,"Segoe UI",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--backdrop);color:var(--ink);font-family:var(--sans);line-height:1.3;
+       display:flex;flex-direction:column;align-items:center;gap:28px;padding:28px 12px 56px}
+  .frame{width:min(100%,820px);container-type:inline-size}
+  .poster{
+    --fs-kicker:1.6cqw; --fs-head:6.6cqw; --fs-deck:2.2cqw; --fs-tag:1.45cqw; --fs-title:2.3cqw; --fs-when:1.6cqw;
+    --fs-meta:1.6cqw; --fs-label:1.45cqw; --fs-fact:2.05cqw; --gap:1.5cqw; --pad:5cqw;
+    aspect-ratio:4/5; background:var(--field);
+    padding:var(--pad) var(--pad) calc(var(--pad) * .8);
+    display:grid; grid-template-rows:auto auto 1fr auto auto; row-gap:2.4cqw;
+    box-shadow:0 1px 3px rgba(0,0,0,.25);
+  }
+  .kicker{display:flex;justify-content:space-between;gap:2cqw;font-size:var(--fs-kicker);
+          letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  h1{font-family:var(--serif);font-weight:600;font-size:var(--fs-head);line-height:1.02;letter-spacing:-.01em}
+  h1 .invite{color:var(--invite)}
+  .deck{font-size:var(--fs-deck);max-width:64cqw;margin-top:1.4cqw}
+
+  /* Equal modules: every workshop and every blank invitation gets the same area and the same type. */
+  .grid{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);gap:var(--gap);min-height:0}
+  .cell{background:var(--card);padding:1.5cqw 1.6cqw;display:flex;flex-direction:column;gap:.6cqw;min-height:0}
+  .tag{font-size:var(--fs-tag);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .title{font-size:var(--fs-title);font-weight:600;line-height:1.12}
+  .when{font-size:var(--fs-when);margin-top:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+  /* Blank cells: an outline instead of a fill, so the absence reads as room rather than as a missing record. */
+  .idea{background:transparent;border:.3cqw dashed var(--invite)}
+  .idea .title{color:var(--invite);font-family:var(--serif);font-style:italic}
+  .idea .when{color:var(--ink)}
+
+  .term{font-size:var(--fs-meta);color:var(--muted)}
+  .facts{display:grid;grid-template-columns:1.15fr 1fr 1.15fr;gap:3cqw;border-top:.35cqw solid var(--ink);padding-top:1.8cqw}
+  .facts h2{font-size:var(--fs-label);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:.5cqw}
+  .facts p{font-size:var(--fs-fact);line-height:1.28}
+  .facts p + p{margin-top:.6cqw}
+  .facts strong{font-weight:700}
+  .num{font-variant-numeric:tabular-nums}
+
+  .notes{width:min(100%,820px);font:15px/1.5 system-ui,sans-serif;color:#1b1b1b;background:#fff;padding:18px 20px;border-radius:4px}
+  .notes h2{font-size:15px;margin-bottom:6px}
+  .notes li{margin-left:18px}
+
+  /* Narrow screens: recompose (two columns, reflowed facts) rather than shrinking the artboard to an unreadable thumbnail. */
+  @media (max-width:600px){
+    .poster{aspect-ratio:auto;--fs-kicker:.72rem;--fs-head:2.1rem;--fs-deck:1rem;--fs-tag:.7rem;--fs-title:1rem;
+            --fs-when:.82rem;--fs-meta:.85rem;--fs-label:.72rem;--fs-fact:.95rem;--gap:8px;--pad:20px;row-gap:16px}
+    .kicker{flex-direction:column;gap:4px}
+    .grid{grid-template-columns:repeat(2,1fr);grid-template-rows:none}
+    .cell{padding:10px 12px;gap:4px;min-height:96px}
+    .idea{border-width:2px}
+    .facts{grid-template-columns:1fr;gap:14px;border-top-width:3px;padding-top:12px}
+  }
+  @media print{
+    body{background:none;padding:0}
+    .notes{display:none}
+    .frame{width:100%}
+    .poster{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <article class="poster" aria-label="Poster: Linden Street Learning Commons Fall Open House (fictional event)">
+    <header class="kicker">
+      <span>Linden Street Learning Commons · Fall Open House</span>
+      <span>Fictional event · design demonstration</span>
+    </header>
+
+    <div>
+      <h1>Twelve workshops.<br>Room for yours<span class="invite" aria-hidden="true">…</span></h1>
+      <p class="deck">Meet the instructors, try a 15-minute sample class, and add the workshop you want next term to the idea wall.</p>
+    </div>
+
+    <ol class="grid" aria-label="Fall workshops, with four blank cells for new ideas">
+      <li class="cell"><span class="tag">Work &amp; Money</span><span class="title">Bookkeeping Basics</span><span class="when">Mon · weeks 1–4</span></li>
+      <li class="cell"><span class="tag">Work &amp; Money</span><span class="title">Resume Studio</span><span class="when">Mon · weeks 5–8</span></li>
+      <li class="cell"><span class="tag">Work &amp; Money</span><span class="title">Spreadsheets from Zero</span><span class="when">Tue · weeks 1–8</span></li>
+      <li class="cell idea"><span class="title">Your idea</span><span class="when">Blank on purpose — suggest next term’s workshop on Oct 22.</span></li>
+
+      <li class="cell"><span class="tag">Languages &amp; Media</span><span class="title">Conversational Spanish</span><span class="when">Tue · weeks 1–8</span></li>
+      <li class="cell"><span class="tag">Languages &amp; Media</span><span class="title">Community Radio</span><span class="when">Wed · weeks 1–6</span></li>
+      <li class="cell idea"><span class="title">Your idea</span><span class="when">What could a neighbor teach?</span></li>
+      <li class="cell"><span class="tag">Languages &amp; Media</span><span class="title">Phone Photography</span><span class="when">Wed · weeks 7–8</span></li>
+
+      <li class="cell"><span class="tag">Home &amp; Neighborhood</span><span class="title">Know Your Lease</span><span class="when">Wed · weeks 1–3</span></li>
+      <li class="cell idea"><span class="title">Your idea</span><span class="when">What would you learn next?</span></li>
+      <li class="cell"><span class="tag">Making</span><span class="title">Watercolor Journaling</span><span class="when">Thu · weeks 1–4</span></li>
+      <li class="cell"><span class="tag">Making</span><span class="title">Beginning Guitar</span><span class="when">Thu · weeks 1–8</span></li>
+
+      <li class="cell idea"><span class="title">Your idea</span><span class="when">Pin it to the idea wall.</span></li>
+      <li class="cell"><span class="tag">Making</span><span class="title">Coding for Absolute Beginners</span><span class="when">Thu · weeks 5–8</span></li>
+      <li class="cell"><span class="tag">Home &amp; Neighborhood</span><span class="title">Budget Cooking</span><span class="when">Sat · weeks 1–4</span></li>
+      <li class="cell"><span class="tag">Home &amp; Neighborhood</span><span class="title">Home Repair Basics</span><span class="when">Sat · weeks 5–8</span></li>
+    </ol>
+
+    <p class="term">Fall term: 8 weeks from the week of November 2, 2026 · weeknights 6:30–8:30 p.m. · Saturdays 10 a.m.–noon</p>
+
+    <section class="facts" aria-label="Open house details">
+      <div>
+        <h2>When</h2>
+        <p><strong>Thursday, October 22, 2026</strong><br><span class="num">5:30–8:00 p.m.</span></p>
+        <p>Sample classes at <span class="num">5:45, 6:30 and 7:15</span></p>
+      </div>
+      <div>
+        <h2>Where</h2>
+        <p><strong>210 Linden Street</strong><br>Room 104 &amp; the courtyard</p>
+        <p>Step-free entrance on Linden Street</p>
+      </div>
+      <div>
+        <h2>Free · no registration</h2>
+        <p>ASL interpretation on request by Oct 15: hello@linden-commons.example</p>
+        <p>linden-commons.example/open-house</p>
+      </div>
+    </section>
+  </article>
+</div>
+
+<section class="notes" aria-label="Design notes, not part of the poster">
+  <h2>Design notes (reviewer-facing; not part of the poster)</h2>
+  <ul>
+    <li><strong>Concept:</strong> the program is made with its neighbors, so every workshop and every blank invitation gets the same module. The grid is the image.</li>
+    <li><strong>Audience relationship:</strong> co-author. On the printed sheet, the four dashed cells are meant to be written in or pinned over at the event.</li>
+    <li><strong>Hierarchy:</strong> the headline states a fact (twelve) and an invitation. The logistics sit in one calm band, and nothing is ranked inside the grid.</li>
+    <li><strong>Do not transfer:</strong> unranked equal modules to an exception-monitoring dashboard, where the reader needs the few items that need attention first.</li>
+  </ul>
+</section>
+</body>
+</html>

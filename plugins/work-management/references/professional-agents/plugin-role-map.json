@@ -1,0 +1,1744 @@
+{
+  "schema_version": "1.0",
+  "status": "Local roster installed; mapping is capability routing, not runtime certification of each provider.",
+  "as_of": "2026-10-06",
+  "source_role_catalog": "catalog.json",
+  "plugin_count": 126,
+  "support_kind_definitions": {
+    "direct_role_owner": "Plugin named as owner_plugin for at least one mapped catalog role.",
+    "shared_provider": "Plugin supports mapped roles but does not own their contracts.",
+    "general_capability": "Installed provider has no justified catalog-role match.",
+    "inactive_not_executable": "Disabled catalog entry, not an active dependency."
+  },
+  "plugins": [
+    {
+      "plugin_id": "video-production-workflow@personal",
+      "display_name": "Video Production Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Plan, design motion, edit, mix, render and validate video, including code-authored animated stories and authentic narration-led explainers.",
+      "role_ids": [
+        "media-quality-reviewer",
+        "motion-designer",
+        "storyboard-artist",
+        "video-editor",
+        "video-producer",
+        "cinematographer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-video-production-workflow>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "oppia-research-compass@personal",
+      "display_name": "Oppia Research Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Find and reuse historical Oppia UX evidence, assess its limits, and design focused follow-up research for an authorized Oppia team decision.",
+      "role_ids": [
+        "research-lead",
+        "ux-researcher"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-oppia-research-compass>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "instructional-design-studio@personal",
+      "display_name": "Instructional Design Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design evidence-backed lessons, assessments and courses with observable learner practice and feedback.",
+      "role_ids": [
+        "instructional-designer",
+        "instructor",
+        "learning-quality-reviewer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-instructional-design-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "workshop-facilitator@personal",
+      "display_name": "Workshop Facilitation Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design workshop agendas, guide live group process, synthesize evidence and close with a reviewable decision or next action.",
+      "role_ids": [
+        "workshop-facilitator"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-workshop-facilitator>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "graphic-design-studio@personal",
+      "display_name": "Graphic Design Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design, compose, adapt, and verify static graphics and visual direction for motion pieces.",
+      "role_ids": [
+        "art-director",
+        "graphic-designer",
+        "brand-design-reviewer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-graphic-design-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "figma-design-workflow@personal",
+      "display_name": "Figma Design Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Figma and FigJam editor workflows, editable Stitch imports, visual references, and evidence-based visual QA.",
+      "role_ids": [
+        "figma-designer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-figma-design-workflow>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "ux-design-toolkit@personal",
+      "display_name": "UX Design Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design, review and improve product interfaces, from usable wording and responsive layouts to interaction states, design systems and evidence-backed audits.",
+      "role_ids": [
+        "content-designer",
+        "design-quality-reviewer",
+        "ui-designer",
+        "ux-designer",
+        "web-designer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-ux-design-toolkit>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "writing-quality-studio@personal",
+      "display_name": "Writing Quality Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Focused workflows for natural prose, voice, plain language, technical instructions, long documents, spoken writing, communication and source audits, plus the full grant lifecycle from eligibility and project design through reporting and closeout. Personal voice preservation stays here; generic Writing Library templates and its picker live in Writing Templates. Includes filtered document comment replies with verified writeback.",
+      "role_ids": [
+        "editor",
+        "professional-writer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-writing-quality-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "work-management@personal",
+      "display_name": "Work Management Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff.",
+      "role_ids": [
+        "agent-systems-maintainer",
+        "evidence-curator",
+        "focus-and-continuity-partner",
+        "product-manager",
+        "program-manager",
+        "project-manager",
+        "solutions-architect",
+        "council-moderator"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "${PLUGIN_ROOT}/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "mac-ops-toolkit@personal",
+      "display_name": "Mac Operations Toolkit",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state.",
+      "role_ids": [
+        "it-operations-specialist"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-mac-ops-toolkit>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "creative-writing-studio@personal",
+      "display_name": "Creative Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Creative project routing for stories, games, GM prep, craft, provenance, and publishing.",
+      "role_ids": [
+        "fiction-writer",
+        "producer",
+        "rights-and-provenance-reviewer",
+        "ttrpg-game-master",
+        "game-designer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-creative-writing-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "survey-studio@personal",
+      "display_name": "Survey Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Focused survey strategy, question design, sampling, logic, accessibility/privacy, pilot QA, exports and analysis/codebooks.",
+      "role_ids": [
+        "survey-researcher"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-survey-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "research-methodology-local@personal",
+      "display_name": "Research Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Evidence-led research, academic manuscript writing and review, and implementation handoffs.",
+      "role_ids": [
+        "evidence-reviewer",
+        "researcher",
+        "health-evidence-researcher"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-research-methodology-local>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "reasoning-studio@personal",
+      "display_name": "Reasoning Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning.",
+      "role_ids": [
+        "decision-analyst",
+        "reasoning-philosopher",
+        "socratic-partner",
+        "ethicist",
+        "systems-thinker",
+        "skeptical-reviewer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-reasoning-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "career-studio@personal",
+      "display_name": "Career Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Evidence-backed career proof, applications and interviews, with LinkedIn profile audits, professional inbox triage and individualized outreach.",
+      "role_ids": [
+        "career-strategist",
+        "career-coach",
+        "job-search-specialist"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-career-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "social-content-studio@personal",
+      "display_name": "Social Content Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Grounded social content, LinkedIn hooks and conversations, verified trends, platform-specific reuse and measured learning, with authorized publishing readback.",
+      "role_ids": [
+        "social-content-producer",
+        "social-media-manager"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-social-content-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "marketing-strategy-studio@personal",
+      "display_name": "Marketing Strategy Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Evidence-led brand discovery, personal and organizational identity, brand design, positioning, campaigns, search and measurement.",
+      "role_ids": [
+        "campaign-manager",
+        "marketing-strategist",
+        "brand-discovery-facilitator",
+        "positioning-strategist"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-marketing-strategy-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "prompt-playbook-studio@personal",
+      "display_name": "Prompt Playbook Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Write, repair and test prompts that preserve the intended task, using focused methods, optional Prompt Compass workflows and selected pattern references.",
+      "role_ids": [
+        "prompt-architect",
+        "prompt-evaluator",
+        "prompt-engineer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-prompt-playbook-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "master-security-toolkit@personal",
+      "display_name": "Master Security Toolkit",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes.",
+      "role_ids": [
+        "ai-security-reviewer",
+        "security-reviewer",
+        "security-specialist"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-master-security-toolkit>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "data-visualization-toolkit@personal",
+      "display_name": "Data Visualization Toolkit",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Choose, build, critique, and verify truthful data visualizations with complete web visualization methods across charts, maps, diagrams, dashboards, stories, and exports.",
+      "role_ids": [
+        "data-analyst",
+        "data-visualization-designer",
+        "data-scientist"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-data-visualization-toolkit>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "solo-service-operations@personal",
+      "display_name": "Solo Service Operations",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Evidence-backed invoice preparation, personal client workflows, agreed terms, payment reconciliation and cash-flow planning.",
+      "role_ids": [
+        "business-operations-specialist",
+        "business-advisor"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-solo-service-operations>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "discord@personal",
+      "display_name": "Discord",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity.",
+      "role_ids": [
+        "community-manager"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-discord>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "writing-templates@personal",
+      "display_name": "Writing Templates",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Generic Writing Library templates, examples, measured sample features, offline draft QA, and a read-only MCP picker with verified handoffs.",
+      "role_ids": [
+        "professional-writer",
+        "editor"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Local role contracts and skill routing installed. Select a relevant role; tool access and authorization remain task-specific.",
+      "source_manifest": "<installed-writing-templates>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "build-mcp-apps@personal",
+      "display_name": "Build MCP Apps",
+      "enabled": false,
+      "marketplace": "personal",
+      "provider_purpose": "Build or improve interactive MCP apps and their servers, from a clear user task through protocol and host verification.",
+      "role_ids": [
+        "mcp-application-engineer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Retired method wrapper; active full methods route through development-studio@personal. Historical provider record is not an execution dependency.",
+      "source_manifest": "<installed-build-mcp-apps>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "documents@openai-primary-runtime",
+      "display_name": "Documents",
+      "enabled": true,
+      "marketplace": "openai-primary-runtime",
+      "provider_purpose": "Create and edit document artifacts in Codex, including Word files and Google Docs.",
+      "role_ids": [
+        "professional-writer",
+        "editor"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "pdf@openai-primary-runtime",
+      "display_name": "PDF",
+      "enabled": true,
+      "marketplace": "openai-primary-runtime",
+      "provider_purpose": "Read, create, inspect, render, and verify PDF files in Codex.",
+      "role_ids": [
+        "evidence-curator",
+        "professional-writer",
+        "design-quality-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/pdf/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "spreadsheets@openai-primary-runtime",
+      "display_name": "Spreadsheets",
+      "enabled": true,
+      "marketplace": "openai-primary-runtime",
+      "provider_purpose": "Create, edit, analyze, visualize, render, and export spreadsheets, Microsoft Excel or Google Sheets-ready workbooks in Codex.",
+      "role_ids": [
+        "data-analyst",
+        "business-operations-specialist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "presentations@openai-primary-runtime",
+      "display_name": "Presentations",
+      "enabled": true,
+      "marketplace": "openai-primary-runtime",
+      "provider_purpose": "Create, edit, render, verify, and export presentation slide decks. Use when Codex needs to build or modify a deck, slidedeck, presentation deck, slide deck, slides, PowerPoint, Google Slides, PPT, PPTX, .ppt, or .pptx file.",
+      "role_ids": [
+        "instructional-designer",
+        "professional-writer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/presentations/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "template-creator@openai-primary-runtime",
+      "display_name": "Template Creator",
+      "enabled": true,
+      "marketplace": "openai-primary-runtime",
+      "provider_purpose": "Create and update personal templates from files, Google Docs, Slides, and Sheets links, ImageGen or Product Design images, emails, Slack messages, and Site projects.",
+      "role_ids": [
+        "professional-writer",
+        "content-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "codex-app-tools@openai-bundled",
+      "display_name": "codex-app-tools",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Exposes Codex desktop app tools through one local MCP server.",
+      "role_ids": [
+        "agent-systems-maintainer",
+        "project-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/codex-app-tools/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "browser@openai-bundled",
+      "display_name": "Browser",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Browser / browser-use plugin\n\nAliases: @browser, @browser-use, browser-use, Browser, in-app browser.\n\nUse Browser, the ChatGPT in-app browser, when the user asks to open, inspect, navigate, test, click, type, or screenshot local web targets such as localhost, 127.0.0.1, ::1, file:// URLs, or the current in-app browser tab.\n\nAfter significant frontend changes to a local app, use Browser to open the relevant local target when it is known or obvious, unless the user asks for another browser tool.\n\nFor requests like \"open localhost:3000\" or \"open to localhost:4000\", navigate the in-app browser to http://localhost:3000 or http://localhost:4000.\n\nDo not satisfy explicit @browser or @browser-use requests with macOS `open`, shell commands, or generic web browsing unless the user asks for another browser tool or approves a fallback.",
+      "role_ids": [
+        "ux-researcher",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/browser/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "unified-computer-use@openai-bundled",
+      "display_name": "unified-computer-use",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "App-managed browser automation runtime.",
+      "role_ids": [
+        "ux-researcher",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/unified-computer-use/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "chrome@openai-bundled",
+      "display_name": "Chrome",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Chrome automation for tasks that depend on the user's existing Chrome state: tabs, logged-in sessions, cookies, extensions, and ChatGPT Chrome Extension setup. Prefer purpose-built connectors, APIs, or CLIs. If one fails due to missing or expired authentication, ask the user to reauthenticate or explicitly approve Chrome as a fallback.",
+      "role_ids": [
+        "ux-researcher",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/chrome/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "computer-use@openai-bundled",
+      "display_name": "Computer Use",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Control desktop apps on macOS from ChatGPT through Computer Use. Prefer purpose-built connectors, APIs, or CLIs.",
+      "role_ids": [
+        "ux-researcher",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-use/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "messages@openai-bundled",
+      "display_name": "Messages",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Read, search, and send messages from the native macOS Messages app",
+      "role_ids": [
+        "community-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/messages/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "record-and-replay@openai-bundled",
+      "display_name": "Record & Replay",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Record what I'm doing on my Mac",
+      "role_ids": [
+        "agent-systems-maintainer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/record-and-replay/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "computer-history@openai-bundled",
+      "display_name": "Computer History",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Ask ChatGPT about what you were doing recently",
+      "role_ids": [
+        "evidence-curator"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/computer-history/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "code-review@openai-bundled",
+      "display_name": "Code Review",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Review and manage GitHub pull requests from Codex.",
+      "role_ids": [
+        "security-reviewer",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/code-review/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "visualize@openai-bundled",
+      "display_name": "Visualize",
+      "enabled": true,
+      "marketplace": "openai-bundled",
+      "provider_purpose": "Create interactive charts, maps, diagrams, simulations, 3D models, data explorers, and UI previews directly in Codex.",
+      "role_ids": [
+        "data-visualization-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/.tmp/bundled-marketplaces/openai-bundled/plugins/visualize/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "ttrpg-gm-director@local-skill-plugins",
+      "display_name": "TTRPG GM Director",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "GM roleplay, live table direction, TTRPG prep, Story Atlas, Daggerheart-aware teaching, safety, canon, and debrief skills.",
+      "role_ids": [
+        "ttrpg-game-master",
+        "game-designer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/ttrpg-gm-director/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "marketing-social-studio@local-skill-plugins",
+      "display_name": "Marketing Social Studio",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "Marketing strategy, social content, current social research, and communication framing skills.",
+      "role_ids": [
+        "marketing-strategist",
+        "social-media-manager"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/marketing-social-studio/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "builder-tools@local-skill-plugins",
+      "display_name": "Builder Tools",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "Project structure, product planning, engineering translation, code intelligence, deployment, and debugging skills.",
+      "role_ids": [
+        "software-engineer",
+        "project-manager"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/builder-tools/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "mcp-workbench@local-skill-plugins",
+      "display_name": "MCP Workbench",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "Local MCP, app, storage, security review, Compass, Shareables, and tool-building skills.",
+      "role_ids": [
+        "mcp-application-engineer",
+        "security-reviewer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/mcp-workbench/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "career-grants-studio@local-skill-plugins",
+      "display_name": "Career Grants Studio",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "Resume, cover letter, portfolio, grant, and career/application communication skills.",
+      "role_ids": [
+        "career-strategist",
+        "professional-writer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/career-grants-studio/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "media-io-toolkit@local-skill-plugins",
+      "display_name": "Media IO Toolkit",
+      "enabled": false,
+      "marketplace": "local-skill-plugins",
+      "provider_purpose": "Document, PDF, presentation, image, audio, transcript, screenshot, and HTML artifact skills.",
+      "role_ids": [
+        "media-quality-reviewer",
+        "professional-writer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Disabled in the installed catalog; not an executable dependency or currently available role capability.",
+      "source_manifest": "~/.codex/local-plugin-workspace/dist/codex-marketplace/plugins/media-io-toolkit/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "mental-health-navigation@mental-health-local",
+      "display_name": "Mental Health Navigation",
+      "enabled": true,
+      "marketplace": "mental-health-local",
+      "provider_purpose": "Local, non-diagnostic mental-health evidence navigation, assessment support, care preparation, journaling, and safety-aware behavior support.",
+      "role_ids": [
+        "mental-health-navigator",
+        "supportive-skills-coach"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Catalog mapping only. The plugin supplies domain skills or tools; a native role profile must be selected and host permissions still apply.",
+      "source_manifest": "$PROJECT_VOLUME/Documents/My Projects/navigating-mental-health-evidence/dist/codex-marketplace/plugins/mental-health-navigation/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "gmail@openai-curated-remote",
+      "display_name": "Gmail",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Work with Gmail using the configured Gmail app connector.",
+      "role_ids": [
+        "professional-writer",
+        "community-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/gmail/0.1.10/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "google-drive@openai-curated-remote",
+      "display_name": "Google Drive",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
+      "role_ids": [
+        "evidence-curator",
+        "professional-writer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.16/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "github@openai-curated-remote",
+      "display_name": "GitHub",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer",
+        "security-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "canva@openai-curated-remote",
+      "display_name": "Canva",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Bring your Canva design workflow into Codex and create, refine, and review designs through natural conversation.\n\nWhat Canva can do: \nCreate designs: Turn a brief, outline, or draft copy into a presentation, doc, poster, flyer, social post, resume, and more. \nGenerate images: Create photos, illustrations, icons, and graphics from a prompt, or restyle an image you already have. \nRemove backgrounds: Lift the subject out of an image onto a transparent background. Upload files: Bring attachments and files from your chat into Canva to use in your designs. \nResize for social media: Adapt a design for Facebook, Instagram, and LinkedIn in one step. \nBulk create: Generate multiple designs from spreadsheet data using a brand template. \nEdit designs: Update text, media, and formatting, or reposition and resize elements. \nGet design feedback: Receive structured feedback on visual hierarchy, layout, readability, consistency, and accessibility. \nImplement feedback: Review comment threads and apply clear, actionable changes. Brand check: Check colors, fonts, logo usage, and copy against your Brand Kit.\n\nOnce installed, describe what you want in plain language or invoke Canva directly with @Canva.\n\nTry prompts like:\n\n@Canva, create a pitch deck from this outline.\n@Canva, make an Instagram post announcing our Friday sale.\n@Canva, generate an illustration of a lighthouse at dawn.\n@Canva, remove the background from this photo.\n@Canva, upload this PDF and turn it into a presentation.\n@Canva, resize this design for social media.\n@Canva, create designs from this spreadsheet using my brand template.\n@Canva, update the headline in this design.\n@Canva, implement the feedback in the comment threads.\n@Canva, check this design against my Brand Kit.\nRequirements: Connect your Canva account to use the plugin. Bulk Create requires an eligible Canva Enterprise plan. Design and image generation use Canva AI credits.\n\nWant to take a more hands-on approach? Instantly open your design in Canva's powerful editor for the final touches.",
+      "role_ids": [
+        "graphic-designer",
+        "social-content-producer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/canva/17.0.1/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "slack@openai-curated-remote",
+      "display_name": "Slack",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Work with Slack using the configured Slack integration.",
+      "role_ids": [
+        "community-manager",
+        "program-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/slack/0.1.8/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "vercel@openai-curated-remote",
+      "display_name": "Vercel",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build and deploy web apps and AI agents on Vercel.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/vercel/0.54.1/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "google-calendar@openai-curated-remote",
+      "display_name": "Google Calendar",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
+      "role_ids": [
+        "project-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/google-calendar/1.2.7/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6943a2c078b0819188de39e4fe168d9b@openai-curated-remote",
+      "display_name": "Tarot",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Kick-start your tarot reading right inside ChatGPT. Ask AI Tarot to shuffle digital tarot cards, lay a three-card spread, and return clear, private divination insights—no ads or waiting rooms.\n\nHow to Use Tarot in ChatGPT\n\n1. Connect: Connect the Tarot app to ChatGPT.\n2. Trigger: Type Commands: Simply type \"@\" then choose the Tarot app, or type “Tarot” (followed by a space) in the chat box.\n3. Create: You are ready to go! Try asking specifically:\n\"Pull tarot cards for my love life.\"\n\"Draw three tarot cards and interpret the spread for my upcoming week.\"\n“Provide a three-card tarot reading on balancing work and health.”\n\nWant to dive deeper? Keep asking follow-ups in chat or open the full app for richer symbolism and saved readings.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use. Tarot output is entertainment, not research evidence.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6943a2c078b0819188de39e4fe168d9b/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69fde861d3988191a7157df33544f855@openai-curated-remote",
+      "display_name": "Ask Tarot Cards",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Tarot Reading is an interactive tarot app for personal insight, reflection, and intuitive exploration. Ask a question, choose your preferred tarot spread, pull the cards yourself, and receive a personalized reading based on your question and the cards you draw.\n\nThe app supports a one-card pull, two-card spread, three-card spread, and the deeper seven-card Horseshoe spread. Whether you are looking for a quick daily card, clarity around a specific situation, or a more detailed spread reading, Tarot Reading helps you explore the messages, themes, and symbolism of the cards in relation to your question.\n\nEach reading is tailored to your chosen spread and card selection, offering a thoughtful interpretation that can help you reflect on your emotions, choices, relationships, and current circumstances through the lens of tarot.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use. Tarot output is entertainment, not research evidence.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69fde861d3988191a7157df33544f855/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "sales@openai-curated-remote",
+      "display_name": "Sales",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Practical seller and sales-leadership dashboards and sales workflows. Understand customer context, prepare for meetings, follow up after calls, manage pipeline, plan deals, build business cases and customer decision decks, review forecasts, find customer evidence, coach reps, and work from CRM context.",
+      "role_ids": [
+        "business-advisor",
+        "campaign-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/sales/1.1.0-alpha.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "figma@openai-curated-remote",
+      "display_name": "Figma",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Bring your Figma workflows for creating, reviewing, and implementing designs into your ChatGPT and Codex conversations. Send your product screens to Figma where they become editable layers using your designs system components. Share these designs and collaborate with your team, or send them back to Codex to implement the designs in your codebase. You can also create and edit polished decks in Figma Slides, or generate diagrams in FigJam.",
+      "role_ids": [
+        "figma-designer",
+        "ux-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/figma/15.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6982856578088191a6cf4a963662adf0@openai-curated-remote",
+      "display_name": "Indeed Job Search",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Search jobs on Indeed that match your resume and career goals, with Indeed for ChatGPT.\n\nConnect your Indeed profile to search for job opportunities based on your resume, skills, and career history. View job details and company insights without ever leaving the chat.\n\nWith Indeed in the conversation you can:\nSearch for jobs using your Indeed profile\nView details for specific jobs\nLearn more about potential employers\n\nTap apply to take the next steps on Indeed.",
+      "role_ids": [
+        "job-search-specialist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6982856578088191a6cf4a963662adf0/6.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69949aa62bf48191be5e57a01202beca@openai-curated-remote",
+      "display_name": "LinkedIn",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Look up any professional on LinkedIn without leaving ChatGPT. See their title, company, location and follower count — then tap through to their full LinkedIn profile to connect.",
+      "role_ids": [
+        "career-strategist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69949aa62bf48191be5e57a01202beca/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "data-analytics@openai-curated-remote",
+      "display_name": "Data",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Answer product and business questions with data",
+      "role_ids": [
+        "data-analyst",
+        "data-scientist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/data-analytics/1.0.11/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "ads-manager@openai-curated-remote",
+      "display_name": "ChatGPT Ads Manager",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Use Ads Manager to discover and manage ad accounts, campaigns, ad groups, and ads; analyze performance, conversions, and change history; upload creative images; and, when available, complete self-serve account setup. When multiple campaigns need selection, call list_campaigns with include_performance_metrics=true so the gated picker can show recent performance.",
+      "role_ids": [
+        "campaign-manager",
+        "marketing-strategist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/ads-manager/0.1.27/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "zoom@openai-curated-remote",
+      "display_name": "Zoom",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Zoom connects Codex to Zoom meeting context through the Zoom app connector and provides developer workflows for planning, building, debugging, and reviewing Zoom integrations across APIs, SDKs, webhooks, WebSockets, bots, and automation use cases.",
+      "role_ids": [
+        "evidence-curator",
+        "workshop-facilitator"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/zoom/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "public-equity-investing@openai-curated-remote",
+      "display_name": "Public Equity Investing",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Public equity investing workflows for listed-company research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence, sell-side research notes, risk sizing, hedging, dashboards, and investment memos.",
+      "role_ids": [
+        "data-analyst",
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/public-equity-investing/0.1.31/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-697b4f3e714c8191a274be3ece643759@openai-curated-remote",
+      "display_name": "MyFonts",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Discover fonts by personality, genre, use case, aesthetics, industry — or identify fonts directly from an image. Describe your project, mood, style, creative direction or upload an image in chat and get curated font recommendations that match your intent.\n\n1. Identify font from an image — Upload any image and get the matching fonts in seconds, powered by WhatTheFont.\n2. Discover fonts by description — Describe your project's mood, style, industry, or vibe and get curated font recommendations that match.\n\nOnce installed, describe what you want in plain language or invoke MyFonts directly with @MyFonts.\nTry prompts like:\n- @MyFonts Find me a serif that feels editorial and literary, but less traditional than Garamond or Baskerville.\n- @MyFonts Recommend fonts for a campaign that should feel rebellious, youthful, and premium.\n- @MyFonts identify the font used in the attached image.\n- @MyFonts WhatTheFont used in the image.\n- @MyFonts Suggest fonts for a boutique hotel identity inspired by old European signage, but updated for a contemporary luxury audience.",
+      "role_ids": [
+        "graphic-designer",
+        "brand-design-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-697b4f3e714c8191a274be3ece643759/3.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6954f3d85c7881918ea8bc9cb482342b@openai-curated-remote",
+      "display_name": "to3D",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "to3D helps users convert 2D images into simple 3D glTF model. You can upload an image, preview the generated 3D result, and export it for further editing or use in design tools. The app is designed to make basic 3D conversion fast and accessible, even for users without professional 3D software experience.",
+      "role_ids": [
+        "graphic-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6954f3d85c7881918ea8bc9cb482342b/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-699d522f170c81919c824678c7c03732@openai-curated-remote",
+      "display_name": "Adobe Express",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Adobe Express helps you create designs for free. Start creating with templates, customize text, adjust colors, and swap images to match your style. Curious what else it can do? Just ask in the chat.\n\nThis plugin is currently in beta.",
+      "role_ids": [
+        "social-content-producer",
+        "graphic-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-699d522f170c81919c824678c7c03732/7.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69312da8e4dc81919370cb86fd172b6c@openai-curated-remote",
+      "display_name": "Adobe",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Adobe unlocks more ways to create and get work done from the conversation. Previously available as Photoshop, the Adobe connector now brings creativity and productivity capabilities across Creative Cloud and Acrobat. Describe what you want to make or change, and Adobe can help turn ideas, images, videos, and documents into polished outputs — from editing photos and creating PDFs to designing social assets, resizing videos, searching Creative Cloud assets, and generating data-driven documents.\nKey capabilities:\n\n* Retouch portraits or edit photos in bulk: Drop in photos and describe the look you want — adjust color, lighting, and tone; remove distractions and generate new elements; apply Lightroom presets; remove backgrounds; blur, crop, resize, and expand images.\n* Design from template: Start from an Express template, update text and colors, and then animate for social media or convert to PDF.\n* Refine video for any platform: Upload a horizontal clip and ask to reformat it for YouTube Shorts, Instagram Reels, or any platform. You can also stitch clips into a single sequence.\n* Search and organize creative work: Describe what you're looking for and surface assets from your Creative Cloud library — by subject, style, mood, or content — without browsing folders.\n* Work with PDFs and documents: Create and convert polished PDFs and documents.\n* Create data-driven documents: Describe your output and provide your data — the connector turns raw data or content into formatted, shareable PDFs, including badges, cards, catalogs, and more.\n\nYou can get started as a guest, and sign in with your Adobe account for more capabilities and tools, Creative Cloud storage, and saved work across sessions.",
+      "role_ids": [
+        "graphic-designer",
+        "art-director"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69312da8e4dc81919370cb86fd172b6c/10.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "hugging-face@openai-curated-remote",
+      "display_name": "Hugging Face",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Inspect models, datasets, Spaces, and research",
+      "role_ids": [
+        "researcher",
+        "data-scientist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/hugging-face/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "shutterstock@openai-curated-remote",
+      "display_name": "Shutterstock",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Search and download high-quality images, videos, music, and sound effects for any project — fast, simple, and ready to use.",
+      "role_ids": [
+        "art-director",
+        "graphic-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/shutterstock/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a09fca2104c8191b160df27196228dd@openai-curated-remote",
+      "display_name": "Legal Data Hunter",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Legal Data Hunter connects ChatGPT to the world's fastest-growing open legal corpus — a continuously-updated index of 32M+ documents from 180+ jurisdictions. LDH ingests directly from official registries — Légifrance, BOE, EUR-Lex, RIS, the Bundesgerichtshof, the European Court of Human Rights, and hundreds more — and exposes them through a focused tool surface: hybrid semantic + keyword search, citation resolution (ECLI, CELEX, case numbers, article references with 95% accuracy across 184 sources), full-text retrieval, and discovery tools that tell the assistant what we have for a jurisdiction before it queries.\n\nFree tier covers 20 searches/day for punctual research needs; paid plans scale to 100,000/month. Used by lawyers, paralegals, and legal-tech builders worldwide.",
+      "role_ids": [
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a09fca2104c8191b160df27196228dd/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69c1784c29208191a35b4ddef3c7e6d5@openai-curated-remote",
+      "display_name": "Wikiloc",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Describe where you want to go and what you want to do, and skip the search. Get a tailored selection of trails from Wikiloc's 77 million authentic trails, shared by 20 million outdoor enthusiasts worldwide.\n\nAsk for hiking routes near your destination, cycling paths that match your fitness level, or hidden trails locals love. Explore interactive trail maps with waypoints marking peaks, waterfalls, viewpoints, and other highlights mapped by the Wikiloc community. \n\nSee over 140 million photos taken along the trails so you know what awaits before you plan your next adventure.\n\nTry asking:\n\n- \"Find me family-friendly trails in Spain\"\n- \"Show me mountain bike routes in the Alps around 20km\"\n- \"I'm visiting Italy next week. Find me 3 beautiful hikes near the Dolomites with lake views\"\n- \"I want to see the great cliffs of Ireland. Recommend me some hikes\"\n- \"Show me some stunning hikes ideal for a weekend in California\"",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69c1784c29208191a35b4ddef3c7e6d5/3.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-699f4c39cd908191bf68865e0aa1aa4a@openai-curated-remote",
+      "display_name": "Travel 101: Trip Itineraries",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Travel 101 helps you plan trips by turning your preferences into full itineraries. Get a day-by-day plan with flights, accommodation, activities, budget, maps, and more. Save and edit your itinerary in Scratchpad, and share it with travel buddies. No forms or rigid templates, just describe your vibe and get a ready-to-use plan.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-699f4c39cd908191bf68865e0aa1aa4a/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "creative-production@openai-curated-remote",
+      "display_name": "Creative Production",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Explore campaign ideas, concept images, mood boards, product placements, ad directions, listing images, social posts, and launch assets.",
+      "role_ids": [
+        "art-director",
+        "campaign-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/creative-production/0.1.25/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6938a94a61d881918ef32cb999ff937c@openai-curated-remote",
+      "display_name": "Apple Music",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build playlists and find music",
+      "role_ids": [
+        "video-editor",
+        "video-producer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6938a94a61d881918ef32cb999ff937c/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a04f88a5fbc8191b8679c1ae31f2779@openai-curated-remote",
+      "display_name": "Academic Writing Toolkit",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Academic Writing Toolkit helps users review pasted academic writing materials in ChatGPT. It can audit citation consistency between draft prose and reading-note source lines, check conservative British English spelling, flag paragraph-level logic issues, validate BibTeX records offline, and create a standard reading-notes Markdown template.",
+      "role_ids": [
+        "editor",
+        "researcher"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a04f88a5fbc8191b8679c1ae31f2779/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "openai-developers@openai-curated-remote",
+      "display_name": "OpenAI Developers",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Develop AI apps and agents with OpenAI best practices",
+      "role_ids": [
+        "mcp-application-engineer",
+        "software-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/openai-developers/1.3.6/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-696e890a45388191b24c4a36d2177201@openai-curated-remote",
+      "display_name": "Color Designer - Palette Maker",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Get perfect color ideas in seconds. Ask ChatGPT to suggest colors that work well together, then see them as a simple palette you can use right away. You can keep the colors you like, remove the ones you do not, change any color, or add new ones. The goal is to help you move from an idea to a useful color palette without getting stuck or spending a long time making small choices.\n\nEvery suggested color appears as a large color tile that is easy to see. If a color does not fit your project, tap the remove button. Want another idea? Add a new color. Need to fine tune a palette? Change a color instead of starting over. You stay in control while ChatGPT helps you explore new combinations. The result feels fast, simple, and playful, even if you have never worked with color before.\n\nThe app is made for anyone. You do not need to know color theory. You do not need to remember color names or search through huge lists. Just describe what you want, let ChatGPT suggest a palette, and make small edits until everything looks right. It works well for beginners, designers, artists, students, teachers, developers, and anyone making something that needs good colors.\n\nA simple editing flow keeps everything easy to understand. Each color is shown as a big square so it is easy to compare with the others. The remove button is always nearby, making it clear how to take a color away. An empty tile with a plus sign lets you add another color whenever you want. Because every action is visible, you always know what to do next.\n\nThis makes the app useful for many kinds of projects. Build a brand palette. Pick colors for a website. Try ideas for a mobile app. Match colors for a game. Create art. Plan a room. Design a poster. Choose colors for a presentation. Make social media graphics. Find colors for invitations, stickers, shirts, or school projects. Even if you only want a fun mix of colors to inspire you, the app can help.\n\nChatGPT can suggest calm colors, bright colors, warm colors, cool colors, playful colors, elegant colors, nature inspired colors, seasonal colors, or almost any style you can describe. If your idea changes, simply ask for another direction and keep editing until the palette feels right. You are never locked into the first answer.\n\nBecause the palette is interactive, experimenting is easy. Swap one color instead of replacing everything. Keep your favorite shades while trying new accents. Remove colors that feel too dark, too bright, or too similar. Add another color when the design needs more variety. Small changes can quickly lead to a palette that feels balanced and complete.\n\nThe clean layout helps you focus on the colors instead of extra menus or complicated tools. Large color blocks make differences easy to spot. Clear controls reduce confusion. The interface encourages trying new ideas because changing your mind only takes a tap.\n\nThe app is also a great way to learn. As you explore different palettes, you naturally see how colors work together. You begin to notice contrast, harmony, and balance without reading long lessons. Every new suggestion is another chance to discover combinations you might never have picked yourself.\n\nWhether you already know exactly what you want or you are starting with nothing but a simple idea, this app helps turn words into color palettes that are easy to edit, easy to understand, and ready for your next creative project. It combines ChatGPT’s ability to generate fresh ideas with a straightforward editing experience, making color selection feel less like work and more like play.",
+      "role_ids": [
+        "art-director",
+        "brand-design-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-696e890a45388191b24c4a36d2177201/3.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6945d9d84c5c8191a28343ae9d7b6e8b@openai-curated-remote",
+      "display_name": "MyFitnessPal",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Generate meal plans, recipes, and personalized nutrition guidance",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6945d9d84c5c8191a28343ae9d7b6e8b/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "google-contacts@openai-curated-remote",
+      "display_name": "Google Contacts",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Find people and contact details from Google Contacts.",
+      "role_ids": [
+        "community-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/google-contacts/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69b03224c5a8819199b40e6b47789f5e@openai-curated-remote",
+      "display_name": "24/7 Calendar",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "A quick easy way to check a wall calendar from ChatGPT. See how the dates line up, check when Saturday falls, see how long until the end of the month...\n\ne.g.\n\n- \"@24/7 Calendar Show me next month in a calendar view\"\n- \"@24/7 Calendar Bring up next year in a calendar\"\n- \"@24/7 Calendar Show me a calendar of this month, with today highlighted\"",
+      "role_ids": [
+        "project-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69b03224c5a8819199b40e6b47789f5e/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6938a7d323f48191aeabaf579802bf45@openai-curated-remote",
+      "display_name": "Adobe Acrobat",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Adobe Acrobat for ChatGPT helps you transform and organize documents seamlessly. Edit, reorder, rotate, split, or merge pages; convert PDFs to other formats or redact sensitive details; and extract text from scans with OCR. You can also compress files and build organized packets in seconds. Ideal for students, professionals, and anyone who wants fast, reliable PDF solutions without opening another app.",
+      "role_ids": [
+        "professional-writer",
+        "editor"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6938a7d323f48191aeabaf579802bf45/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a1ac4817a6081919b271261c0c96277@openai-curated-remote",
+      "display_name": "Supericons",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Supericons helps people find and preview SVG icons by meaning, UI role, library, style, or supported language. It can recommend a consistent icon set for up to 20 parts of a product interface, show visual previews, and return exact SVG code when an icon is selected.",
+      "role_ids": [
+        "ui-designer",
+        "graphic-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a1ac4817a6081919b271261c0c96277/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6985bc6832e08191a84d52138b4716cd@openai-curated-remote",
+      "display_name": "TimerTime",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "A fast, simple way to set a timer in a ChatGPT conversation, and play a sound when finished.\n\ne.g.\n\n- \"@TimerTime 2 minutes\"\n- \"Start a one hour @TimerTime\"\n- \"@TimerTime 30 seconds\"",
+      "role_ids": [
+        "project-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6985bc6832e08191a84d52138b4716cd/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69050bf6de9c8191b3968f2cc08d33d6@openai-curated-remote",
+      "display_name": "Tripadvisor",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "The Tripadvisor app brings trusted reviews and hotel insights into ChatGPT, offering a faster, more confident way to find the perfect place to stay. Travelers can explore top-rated hotels on an interactive, map-first view to instantly understand neighborhoods, distance, and vibe. They can refine results naturally through conversational follow-ups, access rich hotel details including traveler photos, recent reviews, amenities, compare price offers and click out seamlessly to booking partners or Tripadvisor for deeper research.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69050bf6de9c8191b3968f2cc08d33d6/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6923772ef3d48191b6b18899af1cb037@openai-curated-remote",
+      "display_name": "Target",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Target's app provides a curated, conversational shopping experience right within ChatGPT. It allows shoppers to ask for ideas, browse and build multi-item baskets, shop for fresh food, and check out using their choice fulfillment options — including Drive Up, Order Pickup, and Shipping.\nFor example, a guest can tag the Target app in ChatGPT and say, “Help me plan a family holiday movie night,” and instantly get curated ideas — cozy blankets, candles, snacks, slippers, and more. They can browse the options, build the perfect basket, and check out through their Target account. And soon, Target will add new features like Target Circle linking and same-day delivery.",
+      "role_ids": [
+        "art-director"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6923772ef3d48191b6b18899af1cb037/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a695eda913881919ef52582023f0ca2@openai-curated-remote",
+      "display_name": "Infographic Artist",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Infographic Artist helps designers study iconic brand systems, navigate a mechanism graph, compare precedents, generate original creative directions, critique uploaded proposals on five visual axes, triage perceptual similarity, and turn feedback into measurable design exercises.",
+      "role_ids": [
+        "brand-design-reviewer",
+        "marketing-strategist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a695eda913881919ef52582023f0ca2/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a2899a821dc8191ae811fc34c0417df@openai-curated-remote",
+      "display_name": "TRIP PLANNER Travel Itinerary",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Turn your trip planning request into a day-by-day itinerary, shown at a glance in the neatly organized Travel Vibes Scratchpad widget while the planning continues in the chat.\n\nUse it when you need a travel plan, an itinerary, a day-by-day schedule, or things to do in a place: a city break, weekend getaway, long weekend, sightseeing, layover, trip with kids, road trip, day trip, multi-day travel, multi-city route, multi-country trip, Euro trip, vacation, holiday, honeymoon, multi-generational and family trip, group trip, solo trip, health and wellness trip, sport or festival trip, business meeting travel or business trip.\n\nShare your trip plan with your travel companions by link, or download it as a PDF or an image. Get an email for all your travel planning confirmations. Use Travel Vibes to understand what to do each day, places to see, local tips, food and restaurants, and where to stay. Find hotels and flights, build a budget and keep track of travel finances, keep an event and activity calendar, choose dates, and build travel routes and flight routes. Get help on the level of a high-class travel agent or travel guide.\n\nPeople using our app have traveled across Europe, Asia, Africa, the Americas, and even Antarctica. Travel Vibes has helped plan trips to France, Spain, the United States, Turkey, Italy, Mexico, the United Kingdom, Germany, Japan, Greece, Thailand, Austria, Saudi Arabia, Portugal, Malaysia, the Netherlands, India, Canada, Poland, Vietnam, Morocco, Croatia, South Korea, Egypt, Indonesia, Hungary, Singapore, Switzerland, Albania, Tunisia, Uzbekistan, Belgium, South Africa, Sweden, Bulgaria, the Dominican Republic, Australia, Colombia, Brazil, Cambodia, Bahrain, Argentina, Ireland, the Philippines, Chile, Jordan, Georgia, Slovenia, Qatar and many other countries.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a2899a821dc8191ae811fc34c0417df/5.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a3e6f8666948191bbb4af07bb4a7f0a@openai-curated-remote",
+      "display_name": "FLIGHTS Trip & Travel Routes",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "FLIGHTS finds flights that actually fit your trip—not just the cheapest ticket.\n\nShare your itinerary, dates, and preferences to get routes matched to your whole plan: arrival times that work with hotel check-in, layovers that don't consume a travel day, and multi-city routes built around the places you'll visit. Compare prices, direct flights, and budget alternatives—then book wherever works best.\n\nDon't have an itinerary yet? FLIGHTS can help you build your trip around the flight. Find the right route first, then book at the best price.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a3e6f8666948191bbb4af07bb4a7f0a/5.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a8d784b60cc81919aeafbfaeda5fbcf@openai-curated-remote",
+      "display_name": "ElevenLabs",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "ElevenLabs helps users create and manage voice agents, review conversations, manage knowledge and tools, and generate speech, images, video and custom voices.",
+      "role_ids": [
+        "video-producer",
+        "motion-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a8d784b60cc81919aeafbfaeda5fbcf/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69457f83763881918ea06cc67fc9b6b0@openai-curated-remote",
+      "display_name": "Social Post Previewer",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Create realistic social post mockups for Instagram, Threads, Facebook, X, YouTube, TikTok, and Instagram Stories. Review the caption, image, and platform layout before publishing.",
+      "role_ids": [
+        "social-content-producer",
+        "social-media-manager"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69457f83763881918ea06cc67fc9b6b0/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a51822f866c8191bc04373a796eb243@openai-curated-remote",
+      "display_name": "Safeway",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Ask Safeway to reorder your weekly groceries, build a grocery cart from a shopping list, find recipe ingredients, and discover product swaps, all without leaving the chat.\n\nTry prompts like:\n1. Reorder my weekly groceries\n2. Build a cart from a photo of my shopping list\n3. Find ingredients for this recipe\n4. Find gluten-free alternatives\n\nBuild, update, and review your grocery order in the chat. At checkout, eligible coupons, offers, and deals are automatically applied to help you save.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a51822f866c8191bc04373a796eb243/3.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a2778c220848191856aa589f026800f@openai-curated-remote",
+      "display_name": "Post Metadata Extractor",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Post Metadata Extractor extracts structured metadata fields from social media posting requests.\n\nIt receives submitted social post request text and returns platform, post time, topic, asset requirements, missing fields, source text, and errors.\n\nThe app is read-only and stateless. It does not write social posts, publish posts, schedule posts, recommend platforms, create assets, contact external services, or perform operational actions. It only processes the submitted text for the current request.",
+      "role_ids": [
+        "social-content-producer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a2778c220848191856aa589f026800f/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6963606dd8e081919e40c8808349e47b@openai-curated-remote",
+      "display_name": "Safe2Sign: Contract Risk Check",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "\"Safe2Sign: Contract Risk Check\" helps you review contracts and spot common red flags before signing. Get a clear, card-based overview with risk flags and concise notes on key clauses. Click any card to ask ChatGPT for a deeper explanation.\n\nHow it works:\nThe app contains a checklist of common issues for different contract types:\n- Lease\n- Employment\n- Freelance\n- General agreements\nThe app instructs ChatGPT to assess your agreement through the checklist tailored to your contract type. Results of the review are presented as clickable \"Ok\" / \"Warning\" / \"High-Risk\" cards.\n\nDisclaimers:\n- Use this app as an extra set of eyes - not a replacement for legal advice.\n- Get a lawyer’s review for high-value, high-risk, or unfamiliar terms.\n- Read the full contract and make sure you understand it before signing.\n\nNot legal advice. The developer of \"Safe2Sign: Contract Risk Check\" is not a law firm and does not provide legal advice. No attorney-client relationship is created. Outputs are AI-generated and may be inaccurate, incomplete, or outdated. Use it for informational purposes only and consult a qualified attorney for legal advice before signing. Do not use this app for criminal law matters, immigration matters, or family law disputes.",
+      "role_ids": [
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6963606dd8e081919e40c8808349e47b/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6947371809048191bec85a12dfa57a36@openai-curated-remote",
+      "display_name": "Compare Text",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Compare two versions of text side-by-side and see exactly what changed. This app highlights additions in green, deletions in red, and shows unchanged text clearly. Perfect for reviewing edits, comparing draft versions, tracking document changes, or seeing what modifications were made to your writing. Get instant visual feedback on differences between any two texts with detailed statistics on additions, deletions, and modifications.",
+      "role_ids": [
+        "editor",
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6947371809048191bec85a12dfa57a36/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a1fdd66c9fc81919bf49f27278aa5f6@openai-curated-remote",
+      "display_name": "Interview Feedback Extractor",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Interview Feedback Extractor turns interview feedback into clean structured fields.\n\nIt extracts strengths, risks, and suggested next steps from recruiter or interviewer notes, helping recruiting workflows stay clear and consistent.\n\nIt only structures the feedback provided by the user. It does not make hiring decisions, contact candidates, schedule interviews, update ATS systems, or provide final recruiting judgments.",
+      "role_ids": [
+        "career-strategist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a1fdd66c9fc81919bf49f27278aa5f6/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a2627e8dd008191bd2677adb12151b9@openai-curated-remote",
+      "display_name": "Content Brief Extractor",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Content Brief Extractor extracts structured content brief fields from content request text. It returns topic, target audience, channel, deadline, missing fields, and errors. It does not write content, create marketing strategy, choose channels, schedule posts, publish content, or call external systems. The app is stateless, read-only, and only processes the submitted text for the current request.",
+      "role_ids": [
+        "content-designer",
+        "marketing-strategist"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a2627e8dd008191bd2677adb12151b9/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69bbcee644ec819184f2fa9217211861@openai-curated-remote",
+      "display_name": "RentCafe",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "The RentCafe app helps you find rentals across the U.S. Just describe what you’re looking for and add your preferred budget, city, neighborhood, number of bedrooms, pet policies, amenities, or move-in date. You’ll get matching listings with pricing, availability and property details. \n\nYou can refine your results through follow-up questions, compare communities, and explore photos and amenities, all within the conversation.  \n\nUse it to: \n- Find rentals by city, neighborhood, or price range \n- Ask for must-haves like parking, in-unit laundry, or pet-friendly buildings \n- Check current availability and floor plan options \n- Compare properties before you reach out \n\nIdeas to get you started: \n- Show me one-bedroom apartments in Denver under $1,800 \n- Find pet-friendly apartments near downtown Austin \n- What amenities are available at this property? \n\nConnect RentCafe for a faster, more flexible search.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69bbcee644ec819184f2fa9217211861/2.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "openai-ads-conversions@openai-curated-remote",
+      "display_name": "OpenAI Ads Conversions",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Set up OpenAI Ads Measurement Pixel and optional Conversions API instrumentation.",
+      "role_ids": [
+        "campaign-manager",
+        "data-analyst"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/openai-ads-conversions/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-695b033d7c888191a792484bc36b35ef@openai-curated-remote",
+      "display_name": "Is It Safe To Travel?",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Get instant safety ratings for 200+ countries and major cities worldwide. Combines US State Department advisories, UK Foreign Office warnings, live conflict data (ACLED), and global news monitoring (GDELT) into one comprehensive safety score. Search any destination to see current threat levels, recent incidents, safety trends, and nearby city comparisons. All data updates in real-time from official government sources and verified news feeds—completely free with no limits.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-695b033d7c888191a792484bc36b35ef/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-69e216be26608191960a26af7e9f320d@openai-curated-remote",
+      "display_name": "Direct Book AI",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Search hotels, check live availability, \nand get the cheapest direct rate \nstraight from the hotel's own booking engine,\nplus any promo  codes the hotel is running. \nNo OTAs, no middlemen, no commission markup. \nYou see the real price and book direct.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-69e216be26608191960a26af7e9f320d/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a2f8d084db08191aec15ef7735968f1@openai-curated-remote",
+      "display_name": "Form Field Extractor",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Form Field Extractor extracts field names and values from user-provided form text and returns a structured field result.\n\nIt is designed for forms such as registration forms, application forms, customer intake forms, feedback forms, onboarding forms, and similar business form text.\n\nThe app can identify form-like lines, extract field names and values, normalize field names when requested, identify empty fields, and provide a short extraction summary.\n\nThis app is read-only. It does not submit forms, modify forms, validate required fields, check whether a form is ready to submit, approve or reject applications, contact people, send emails, call phone numbers, update CRM systems, update databases, or perform any external system action.",
+      "role_ids": [
+        "survey-researcher",
+        "content-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a2f8d084db08191aec15ef7735968f1/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6a7623de3ab881918f64ee87cd6a86b4@openai-curated-remote",
+      "display_name": "Promptbanken",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Promptbanken is an open, curated library of ready-to-use prompt templates for municipalities, schools, companies, associations, and individuals. Search the catalog for a task, fetch a chosen template in full, and follow a prompt package step by step — directly in ChatGPT.\n\nThe published connector is open, read-only, and requires no account or sign-in. It receives only the parameters its tools define: a search term, a role word, filters, and the id or slug of a catalog entry. Nothing else from the conversation reaches the server, and the connector publishes no write tools, so it cannot store anything. Search terms are never stored — only the length of a query is counted in anonymous usage statistics.",
+      "role_ids": [
+        "prompt-architect",
+        "prompt-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6a7623de3ab881918f64ee87cd6a86b4/1.2.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "app-6945bd12ee14819184ce491e3b104da6@openai-curated-remote",
+      "display_name": "Firehouse Subs",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "With the official Firehouse Subs® app, explore our menu and find your nearest Firehouse Subs® restaurant anytime, anywhere. And in most locations, you can even order ahead.\n\nSpecific features include:\n- Find your Firehouse Subs®: Locate your nearest Firehouse Subs® restaurant\n- Offers: Discover the hottest offers and deals right from your mobile device.\n- Menu: Explore your Firehouse Subs® favorites and discover our hottest new menu additions. Plus, you can browse item descriptions at any time.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/app-6945bd12ee14819184ce491e3b104da6/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "defense-factory@openai-curated-remote",
+      "display_name": "Codex Security Cloud",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Cloud security scans, findings, and continuous repository monitoring.",
+      "role_ids": [
+        "security-reviewer",
+        "software-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/defense-factory/0.1.1/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "healthcare-public-data@openai-curated-remote",
+      "display_name": "Healthcare Public Data",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Research public healthcare evidence, clinical trials, medications, devices, providers, hospitals, and Medicare data.",
+      "role_ids": [
+        "health-evidence-researcher",
+        "researcher"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/healthcare-public-data/0.1.5/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "investment-banking@openai-curated-remote",
+      "display_name": "Investment Banking",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Investment banking workflows for M&A, coverage, sponsors, capital markets, LevFin, restructuring, valuation, diligence, pitch materials, and deal execution.",
+      "role_ids": [
+        "data-analyst",
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission. High-stakes claims require current primary-source verification and professional review as appropriate.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/investment-banking/0.1.29/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "novelist@openai-curated-remote",
+      "display_name": "Novelist",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Manage story assets, apply genre-aware writing strategies, review outlines and manuscripts, maintain continuity, and publish validated EPUBs.",
+      "role_ids": [
+        "fiction-writer",
+        "producer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/novelist/0.2.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "codex-material-themes@openai-curated-remote",
+      "display_name": "Codex Material Themes",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Guided Codex theme recommendations, previews, font selection, and localized import instructions.",
+      "role_ids": [
+        "ui-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/codex-material-themes/1.0.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "game-development-studio@openai-curated-remote",
+      "display_name": "Game Development Studio",
+      "enabled": false,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Local-first game asset production, vendoring, render diagnosis, and bounded performance workflows.",
+      "role_ids": [
+        "game-designer",
+        "graphic-designer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Retired method wrapper; active full methods route through game-creation-studio@personal. Historical provider record is not an execution dependency.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/game-development-studio/1.0.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "image-generator@openai-curated-remote",
+      "display_name": "Image Generator",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Generate the images a website needs, at the size each slot expects and as a set that matches. Hero and OG images, section and product shots, blog thumbnails and headshot placeholders — every file named, sized, and shipped with alt text, plus an optional B12 website to put them on.",
+      "role_ids": [
+        "graphic-designer",
+        "art-director"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/image-generator/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "research-plugin@openai-curated-remote",
+      "display_name": "Research Methodology",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Evidence-led research for any domain: compare options, review literature, diagnose failures, and analyze markets with exploratory, descriptive, and historical causal workflows.",
+      "role_ids": [
+        "researcher",
+        "evidence-reviewer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/research-plugin/1.1.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "diagram-builder@openai-curated-remote",
+      "display_name": "Diagram Builder",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Draw how your business actually works — process flows, client onboarding, swimlanes, decision trees, org charts and timelines — as a real .svg in your brand colors, with every arrow labeled and marked placeholders instead of invented steps, plus an optional B12 website in the same colors.",
+      "role_ids": [
+        "data-visualization-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/diagram-builder/1.0.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "test-android-apps@openai-curated-remote",
+      "display_name": "Test Android Apps",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Test Android apps with emulator workflows for reproduction, screenshots, UI inspection, log capture, and performance profiling.",
+      "role_ids": [
+        "qa-engineer",
+        "software-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/test-android-apps/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "superpowers@openai-curated-remote",
+      "display_name": "Superpowers",
+      "enabled": false,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "inactive_not_executable",
+      "limitation": "Retired method wrapper; active full methods route through development-studio@personal. Historical provider record is not an execution dependency.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "plugin-eval@openai-curated-remote",
+      "display_name": "Plugin Eval",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Evaluate Codex skills and plugins from chat with a beginner-friendly start command, local-first reports, token budget explanations, and guided benchmarking.",
+      "role_ids": [
+        "prompt-evaluator",
+        "agent-systems-maintainer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/plugin-eval/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "game-studio@openai-curated-remote",
+      "display_name": "Game Studio",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Design, prototype, and ship browser games with guided 2D and 3D workflows, asset pipelines, and playtesting support.",
+      "role_ids": [
+        "game-designer",
+        "software-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/game-studio/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "build-macos-apps@openai-curated-remote",
+      "display_name": "Build macOS Apps",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build, run, test, debug, instrument, and implement local macOS apps using Xcode, SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/build-macos-apps/0.1.4/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "build-web-apps@openai-curated-remote",
+      "display_name": "Build Web Apps",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Catalog mapping only. The plugin supplies domain skills or tools; a native role profile must be selected and host permissions still apply.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/build-web-apps/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "build-ios-apps@openai-curated-remote",
+      "display_name": "Build iOS Apps",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build iOS apps with workflows for App Intents, SwiftUI UI work, Simulator mirroring in the Codex in-app browser, performance profiling, leak investigation, and simulator debugging.",
+      "role_ids": [
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/build-ios-apps/0.1.2/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "openai-templates@openai-curated-remote",
+      "display_name": "Default templates",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "OpenAI default document, presentation, and spreadsheet templates.",
+      "role_ids": [
+        "professional-writer",
+        "data-analyst"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "pages@openai-curated-remote",
+      "display_name": "Pages",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Create, read, and edit pages and spaces with ChatGPT Space.",
+      "role_ids": [
+        "professional-writer",
+        "evidence-curator"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/pages/0.1.20/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "sites@openai-curated-remote",
+      "display_name": "Sites",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Build and deploy websites with Sites. Use of Sites is subject to the ChatGPT Sites Terms (https://openai.com/policies/chatgpt-sites-terms/), and you are responsible for your website content.",
+      "role_ids": [
+        "web-designer",
+        "software-engineer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/sites/0.1.75/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "plugin-management@openai-curated-remote",
+      "display_name": "Plugin Management",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Discover relevant plugins and manage app connections, permissions, and dependencies.",
+      "role_ids": [
+        "agent-systems-maintainer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Task-specific provider capability. It does not create or select a native role; tools depend on host availability and permission.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "work-pets@openai-curated-remote",
+      "display_name": "Pets",
+      "enabled": true,
+      "marketplace": "openai-curated-remote",
+      "provider_purpose": "Create and manage animated companion pets that appear inside ChatGPT Work mode.",
+      "role_ids": [],
+      "support_kind": "general_capability",
+      "limitation": "No justified role match in the current catalog. Keep as an optional provider; do not invent a role or treat installation as automatic use.",
+      "source_manifest": "~/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "development-studio@personal",
+      "display_name": "Development Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design, implement, debug and verify software using complete development methods, MCP app workflows and explicit platform-provider routes.",
+      "role_ids": [
+        "mcp-application-engineer",
+        "software-engineer",
+        "qa-engineer"
+      ],
+      "support_kind": "direct_role_owner",
+      "limitation": "Complete local methods and owner routes; external platform or game-dev execution dependencies remain separate.",
+      "source_manifest": "<installed-development-studio>/.codex-plugin/plugin.json"
+    },
+    {
+      "plugin_id": "game-creation-studio@personal",
+      "display_name": "Game Creation Studio",
+      "enabled": true,
+      "marketplace": "personal",
+      "provider_purpose": "Design, prototype, test, and prepare games with source-grounded asset and diagnostic workflows.",
+      "role_ids": [
+        "game-designer",
+        "graphic-designer"
+      ],
+      "support_kind": "shared_provider",
+      "limitation": "Complete local methods and owner routes; external platform or game-dev execution dependencies remain separate.",
+      "source_manifest": "<installed-game-creation-studio>/.codex-plugin/plugin.json"
+    }
+  ]
+}

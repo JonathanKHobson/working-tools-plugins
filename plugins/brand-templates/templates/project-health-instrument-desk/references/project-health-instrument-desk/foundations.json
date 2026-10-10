@@ -1,0 +1,2949 @@
+{
+  "source": "assets/reference.xlsx",
+  "kind": "spreadsheet",
+  "sourceHash": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933",
+  "sourceHashScope": "source file bytes",
+  "sourceFileHashes": {
+    "reference.xlsx": "a2baf3652cdc2110fb75760d0223f7e3cce7a7a00121cb94b3ea20f1ebd27933"
+  },
+  "sheets": [
+    {
+      "name": "Review",
+      "range": "A1:I34",
+      "mergedRanges": [
+        "B32:H32",
+        "B24:C24",
+        "E26:H26",
+        "B18:C19",
+        "B25:C25",
+        "E24:H24",
+        "B21:H21",
+        "B28:C28",
+        "B30:H30",
+        "E25:H25",
+        "B26:C26",
+        "B27:C27",
+        "B3:H3",
+        "E27:H27",
+        "E28:H28"
+      ],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "Project health"
+        },
+        {
+          "cell": "B3",
+          "value": "Fictional studio project"
+        },
+        {
+          "cell": "B5",
+          "value": "Review measure"
+        },
+        {
+          "cell": "C5",
+          "value": "Value"
+        },
+        {
+          "cell": "B6",
+          "value": "Task records"
+        },
+        {
+          "cell": "C6",
+          "value": "=COUNTA('Task log'!A5:A54)"
+        },
+        {
+          "cell": "B7",
+          "value": "Marked done"
+        },
+        {
+          "cell": "C7",
+          "value": "=COUNTIFS('Task log'!A5:A54,\"<>\",'Task log'!E5:E54,\"Done\")"
+        },
+        {
+          "cell": "B8",
+          "value": "Completion share"
+        },
+        {
+          "cell": "C8",
+          "value": "=IF(C6=0,\"n.a.\",C7/C6)"
+        },
+        {
+          "cell": "B9",
+          "value": "Planned hours"
+        },
+        {
+          "cell": "C9",
+          "value": "=IF(OR(C6=0,COUNTIFS('Task log'!G5:G54,\"Check task / plan\")>0),\"n.a.\",SUMIFS('Task…"
+        },
+        {
+          "cell": "B10",
+          "value": "Reported actual hours"
+        },
+        {
+          "cell": "C10",
+          "value": "=IF(C6=0,\"n.a.\",SUMIFS('Task log'!D5:D54,'Task log'!H5:H54,\"Reported\"))"
+        },
+        {
+          "cell": "B11",
+          "value": "Actuals reported"
+        },
+        {
+          "cell": "C11",
+          "value": "=COUNTIFS('Task log'!H5:H54,\"Reported\")"
+        }
+      ],
+      "formulaCount": 22,
+      "formulaAnchors": [
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "B18"
+      ],
+      "stylesUsed": {
+        "2": 206,
+        "67": 20,
+        "23": 15,
+        "5": 7,
+        "10": 5,
+        "6": 4,
+        "11": 3,
+        "21": 3,
+        "16": 2,
+        "3": 1,
+        "4": 1,
+        "63": 1
+      },
+      "styledBlankCells": 232,
+      "blankStylesUsed": {
+        "2": 200,
+        "67": 20,
+        "5": 7,
+        "23": 5
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 3.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 30.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 14.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 4.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "I",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 28.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 35.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 35.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 35.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 35.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 35.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 30,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 31,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 32,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 33,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 34,
+          "heightPt": 25.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting C12:C15>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting C12:C15>",
+          "type": "cellIs",
+          "priority": 1,
+          "formula": [
+            "0"
+          ],
+          "operator": "greaterThan",
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [],
+      "tables": [],
+      "charts": 1,
+      "images": 0
+    },
+    {
+      "name": "Task log",
+      "range": "A1:H57",
+      "mergedRanges": [
+        "A56:H56",
+        "A57:H57",
+        "A3:H3"
+      ],
+      "anchors": [
+        {
+          "cell": "A2",
+          "value": "Task log"
+        },
+        {
+          "cell": "A3",
+          "value": "Fictional inputs. Amber cells are editable; blue cells calculate. Blank actual =…"
+        },
+        {
+          "cell": "A4",
+          "value": "Task ID"
+        },
+        {
+          "cell": "B4",
+          "value": "Task"
+        },
+        {
+          "cell": "C4",
+          "value": "Planned h"
+        },
+        {
+          "cell": "D4",
+          "value": "Actual h"
+        },
+        {
+          "cell": "E4",
+          "value": "State"
+        },
+        {
+          "cell": "F4",
+          "value": "Variance h"
+        },
+        {
+          "cell": "G4",
+          "value": "Review reason"
+        },
+        {
+          "cell": "H4",
+          "value": "Actual record"
+        },
+        {
+          "cell": "A5",
+          "value": "T01"
+        },
+        {
+          "cell": "B5",
+          "value": "Discovery"
+        },
+        {
+          "cell": "C5",
+          "value": "20"
+        },
+        {
+          "cell": "D5",
+          "value": "18"
+        },
+        {
+          "cell": "E5",
+          "value": "Done"
+        },
+        {
+          "cell": "F5",
+          "value": "=IF(A5=\"\",\"\",IF(AND(ISNUMBER(C5),ISNUMBER(D5),C5>=0,D5>=0),D5-C5,\"n.a.\"))"
+        }
+      ],
+      "formulaCount": 150,
+      "formulaAnchors": [
+        "F5",
+        "G5",
+        "H5",
+        "F6",
+        "G6",
+        "H6",
+        "F7",
+        "G7",
+        "H7",
+        "F8",
+        "G8",
+        "H8"
+      ],
+      "stylesUsed": {
+        "70": 96,
+        "47": 48,
+        "48": 48,
+        "50": 48,
+        "71": 48,
+        "52": 48,
+        "60": 48,
+        "2": 23,
+        "31": 6,
+        "68": 2,
+        "72": 2,
+        "62": 2
+      },
+      "styledBlankCells": 259,
+      "blankStylesUsed": {
+        "70": 93,
+        "47": 46,
+        "48": 46,
+        "50": 46,
+        "2": 23,
+        "72": 2,
+        "53": 1,
+        "54": 1,
+        "56": 1
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 34.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 13.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 13.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 16.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 27.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 18.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 30,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 31,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 32,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 33,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 34,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 35,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 36,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 37,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 38,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 39,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 40,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 41,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 42,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 43,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 44,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 45,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 46,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 47,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 48,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 49,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 50,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 51,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 52,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 53,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 54,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 55,
+          "heightPt": 25.0,
+          "hidden": false
+        },
+        {
+          "row": 56,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 57,
+          "heightPt": 30.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "rules": 7
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 1,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Actual missing",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 2,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Invalid actual",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 3,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Duplicate ID",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 4,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Missing ID",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 5,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Check task / plan",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 6,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Check state",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting G5:G54>",
+          "type": "containsText",
+          "priority": 7,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Over planned",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FBE2DE"
+          },
+          "fontColor": "#972F2A",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [
+        {
+          "range": "C5:D54",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "E5:E54",
+          "type": "list",
+          "formula1": "\"Not started,In progress,Done\""
+        }
+      ],
+      "tables": [
+        "HealthTasks"
+      ],
+      "charts": 0,
+      "images": 0
+    }
+  ],
+  "directColors": [
+    "#BCC8CF",
+    "#101B24",
+    "#FFF0D6",
+    "#E3EEF6",
+    "#FFFFFF"
+  ],
+  "conditionalColors": [
+    "#972F2A",
+    "#FBE2DE"
+  ],
+  "fonts": [
+    "Menlo",
+    "Helvetica Neue",
+    "Carlito"
+  ],
+  "fontSizesPt": [
+    10.0,
+    11.0,
+    12.0,
+    18.0
+  ],
+  "styles": 74,
+  "usedStyles": [
+    {
+      "id": 2,
+      "cells": 229,
+      "styledBlankCells": 223,
+      "examples": [
+        "Review!A1",
+        "Review!B1",
+        "Review!C1",
+        "Review!D1",
+        "Review!E1",
+        "Review!F1",
+        "Review!G1",
+        "Review!H1"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 70,
+      "cells": 96,
+      "styledBlankCells": 93,
+      "examples": [
+        "Task log!C6",
+        "Task log!D6",
+        "Task log!C7",
+        "Task log!D7",
+        "Task log!C8",
+        "Task log!D8",
+        "Task log!C9",
+        "Task log!D9"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0\"  \""
+    },
+    {
+      "id": 47,
+      "cells": 48,
+      "styledBlankCells": 46,
+      "examples": [
+        "Task log!A6",
+        "Task log!A7",
+        "Task log!A8",
+        "Task log!A9",
+        "Task log!A10",
+        "Task log!A11",
+        "Task log!A12",
+        "Task log!A13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 48,
+      "cells": 48,
+      "styledBlankCells": 46,
+      "examples": [
+        "Task log!B6",
+        "Task log!B7",
+        "Task log!B8",
+        "Task log!B9",
+        "Task log!B10",
+        "Task log!B11",
+        "Task log!B12",
+        "Task log!B13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 50,
+      "cells": 48,
+      "styledBlankCells": 46,
+      "examples": [
+        "Task log!E6",
+        "Task log!E7",
+        "Task log!E8",
+        "Task log!E9",
+        "Task log!E10",
+        "Task log!E11",
+        "Task log!E12",
+        "Task log!E13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 71,
+      "cells": 48,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!F6",
+        "Task log!F7",
+        "Task log!F8",
+        "Task log!F9",
+        "Task log!F10",
+        "Task log!F11",
+        "Task log!F12",
+        "Task log!F13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "+0.0\"  \";-0.0\"  \";0.0\"  \";@\"  \""
+    },
+    {
+      "id": 52,
+      "cells": 48,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!G6",
+        "Task log!G7",
+        "Task log!G8",
+        "Task log!G9",
+        "Task log!G10",
+        "Task log!G11",
+        "Task log!G12",
+        "Task log!G13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 60,
+      "cells": 48,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!H6",
+        "Task log!H7",
+        "Task log!H8",
+        "Task log!H9",
+        "Task log!H10",
+        "Task log!H11",
+        "Task log!H12",
+        "Task log!H13"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 67,
+      "cells": 20,
+      "styledBlankCells": 20,
+      "examples": [
+        "Review!C24",
+        "Review!F24",
+        "Review!G24",
+        "Review!H24",
+        "Review!C25",
+        "Review!F25",
+        "Review!G25",
+        "Review!H25"
+      ],
+      "font": {
+        "name": "Carlito",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": null
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": null,
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 23,
+      "cells": 15,
+      "styledBlankCells": 5,
+      "examples": [
+        "Review!B24",
+        "Review!D24",
+        "Review!E24",
+        "Review!B25",
+        "Review!D25",
+        "Review!E25",
+        "Review!B26",
+        "Review!D26"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 5,
+      "cells": 7,
+      "styledBlankCells": 7,
+      "examples": [
+        "Review!B4",
+        "Review!C4",
+        "Review!D4",
+        "Review!E4",
+        "Review!F4",
+        "Review!G4",
+        "Review!H4"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "medium",
+          "color": "#101B24"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 31,
+      "cells": 6,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!B4",
+        "Task log!C4",
+        "Task log!D4",
+        "Task log!E4",
+        "Task log!F4",
+        "Task log!G4"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 10,
+      "cells": 5,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B6",
+        "Review!B9",
+        "Review!B11",
+        "Review!B14",
+        "Review!B16"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 6,
+      "cells": 4,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C7",
+        "Review!C12",
+        "Review!C13",
+        "Review!C15"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 11,
+      "cells": 3,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C6",
+        "Review!C11",
+        "Review!C14"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 21,
+      "cells": 3,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B21",
+        "Review!B30",
+        "Review!B32"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 3,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B2",
+        "Task log!A2"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 18.0,
+        "bold": true,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 4,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B3",
+        "Task log!A3"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 16,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B5",
+        "Review!C5"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 68,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!C5",
+        "Task log!D5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0\"  \""
+    },
+    {
+      "id": 72,
+      "cells": 2,
+      "styledBlankCells": 2,
+      "examples": [
+        "Task log!C54",
+        "Task log!D54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0\"  \""
+    },
+    {
+      "id": 62,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!A56",
+        "Task log!A57"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 63,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C8"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0%"
+    },
+    {
+      "id": 64,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C9"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 65,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C10"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 66,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!C16"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "+0.0;-0.0;0.0"
+    },
+    {
+      "id": 19,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B18"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 12.0,
+        "bold": true,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 15,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Review!B23"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 30,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!A4"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 32,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!H4"
+      ],
+      "font": {
+        "name": "Helvetica Neue",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 41,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!A5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 42,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!B5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 44,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!E5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 69,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!F5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "+0.0\"  \";-0.0\"  \";0.0\"  \";@\"  \""
+    },
+    {
+      "id": 46,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!G5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 59,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!H5"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 53,
+      "cells": 1,
+      "styledBlankCells": 1,
+      "examples": [
+        "Task log!A54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 54,
+      "cells": 1,
+      "styledBlankCells": 1,
+      "examples": [
+        "Task log!B54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 56,
+      "cells": 1,
+      "styledBlankCells": 1,
+      "examples": [
+        "Task log!E54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF0D6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 73,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!F54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "+0.0\"  \";-0.0\"  \";0.0\"  \";@\"  \""
+    },
+    {
+      "id": 58,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!G54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 61,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Task log!H54"
+      ],
+      "font": {
+        "name": "Menlo",
+        "sizePt": 10.0,
+        "bold": false,
+        "italic": false,
+        "color": "#101B24"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#E3EEF6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": "thin",
+          "color": "#BCC8CF"
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    }
+  ],
+  "renderedPreview": {
+    "localFile": "office-pdf/project-health-instrument-desk.pdf",
+    "sha256": "6ec69793cce1a0c7ebacaa6553909a84a6f7cbdd2a8acf8482b36f07ea7bff7f",
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Calc",
+    "pageCount": 2,
+    "fontResources": [
+      "FrankRuhlHofshi-Bold",
+      "LinuxLibertineG"
+    ],
+    "bundleIncludesPdf": false,
+    "publicPreviewRouteIfBuilt": "previews/project-health-instrument-desk.pdf"
+  }
+}

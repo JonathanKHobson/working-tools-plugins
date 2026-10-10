@@ -1,0 +1,145 @@
+{
+  "id": "nature-observation-journal",
+  "name": "Return to One Place",
+  "summary": "An observation identity built around repeated visits, modest notes and the difference between what was seen and what was inferred.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#263C32",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Observation panel",
+      "role": "surface",
+      "hex": "#E4EEDC",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #E4EEDC; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Field rule",
+      "role": "primary",
+      "hex": "#49614A",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #49614A; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Writing rule",
+      "role": "rule",
+      "hex": "#8B998A",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #8B998A; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Cochin",
+      "usage": "Reflective chapter or entry openings."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Observation prompts, dates and recording labels."
+    }
+  ],
+  "recognitionRules": [
+    "Pair Cochin reflective headings with Avenir field labels.",
+    "Keep date, location and conditions in a stable entry header.",
+    "Give observation and interpretation separate writing areas.",
+    "Leave room for sketches without requiring drawing skill."
+  ],
+  "voice": {
+    "traits": [
+      "patient",
+      "attentive",
+      "humble"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Return to one place. Notice what stayed, and what did not.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use RETURN TO ONE PLACE in Cochin with a small repeated pair of vertical marks. No leaf icon or nature seal.",
+  "invariants": [
+    "Pair Cochin reflective headings with Avenir field labels.",
+    "Keep date, location and conditions in a stable entry header.",
+    "Give observation and interpretation separate writing areas."
+  ],
+  "adaptations": [
+    "A pocket version reduces prompts but retains date and conditions.",
+    "Seasonal editions change examples, not the observation discipline.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Cochin",
+      "renderFamily": "Cormorant Garamond",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf",
+      "bold": "assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf",
+      "license": "assets/fonts/cormorant-garamond/OFL.txt",
+      "sourceFontDependency": "Cochin is an Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

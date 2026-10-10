@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "broadside-portfolio-pitch",
+  "version": "0.2.1",
+  "name": "Let Stories Travel",
+  "summary": "A spoken portfolio identity with the energy of a printed broadside and the discipline of a three-part live argument.",
+  "category": "Portfolio & career",
+  "tags": [
+    "presentation",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "broadside-portfolio-pitch"
+  ],
+  "sourceTemplateNames": {
+    "broadside-portfolio-pitch": "Broadside Portfolio Pitch"
+  },
+  "templateVariations": [
+    {
+      "templateId": "broadside-portfolio-pitch",
+      "name": "Broadside Portfolio Pitch",
+      "format": "presentation",
+      "sourceHash": "80a19e3650f9c921a355aca1d1954013a3fd7e74bf272d7eba8a79a43e969d97",
+      "foundationSha256": "e423afef0af628480aad3b083f63ed831a93ab7cb66e71b4ab0f707e52f00836",
+      "designSpecSha256": "2d6327e88c199c8ec035853689513533bcca64d11b60baf29deb99719ec979c3",
+      "referenceDirectory": "references/broadside-portfolio-pitch"
+    }
+  ],
+  "sourceHash": "80a19e3650f9c921a355aca1d1954013a3fd7e74bf272d7eba8a79a43e969d97",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FAF8F0",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#171717",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Display Field",
+      "role": "display-field",
+      "hex": "#E4F64E",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#F4B8D4",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 6 / title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / contact."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 6 / title.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "broadside-portfolio-pitch",
+      "sourceFingerprint": "80a19e3650f9c921a355aca1d1954013a3fd7e74bf272d7eba8a79a43e969d97"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / contact.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "broadside-portfolio-pitch",
+      "sourceFingerprint": "80a19e3650f9c921a355aca1d1954013a3fd7e74bf272d7eba8a79a43e969d97"
+    }
+  ],
+  "recognitionRules": [
+    "Use oversized condensed Impact statements with small Avenir authorship lines.",
+    "Pair acid yellow and pink interventions with an otherwise dark-ink, pale-paper composition.",
+    "Organize the proposition as words, paths and moments separated by act rules.",
+    "Keep a clear project title and role credit below the opening statement."
+  ],
+  "writingLinks": [
+    {
+      "id": "V19",
+      "name": "Purposeful manifesto",
+      "reason": "Theatrical emphasis kept honest by contribution credits and an evidence-to-next-step sequence.",
+      "sourceTemplateId": "broadside-portfolio-pitch",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A story needs a way in, a reason to stay and a route onward.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use LET STORIES TRAVEL in a tight stacked Impact wordmark. The stack is the mark; do not add a travel arrow or globe.",
+  "invariants": [
+    "Use oversized condensed Impact statements with small Avenir authorship lines.",
+    "Pair acid yellow and pink interventions with an otherwise dark-ink, pale-paper composition.",
+    "Organize the proposition as words, paths and moments separated by act rules."
+  ],
+  "adaptations": [
+    "A leave-behind can reduce the stack to two lines and retain the three acts.",
+    "Use colored interventions on one focal phrase per page.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/broadside-portfolio-pitch.pdf",
+    "preview": "media/broadside-portfolio-pitch-guide.webp",
+    "markdown": "guides/broadside-portfolio-pitch.md"
+  },
+  "bundle": {
+    "href": "bundles/broadside-portfolio-pitch-brand-kit.zip",
+    "filename": "Let Stories Travel brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/broadside-portfolio-pitch-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/broadside-portfolio-pitch-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/broadside-portfolio-pitch-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

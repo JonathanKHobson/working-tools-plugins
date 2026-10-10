@@ -1,0 +1,102 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `:root` · `base` · `assets/source/src/styles.css`: `{'font-family': '"Avenir Next",Avenir,system-ui,sans-serif', 'font-size': '16px', 'line-height': '1.5'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'line-height': '1.3'}`.
+- `button.primary` · `base` · `assets/source/src/styles.css`: `{'font-weight': '650'}`.
+- `h1,h2,h3` · `base` · `assets/source/src/styles.css`: `{'font-weight': '600'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2.5rem,5vw,4rem)', 'line-height': '1.05', 'letter-spacing': '-.035em'}`.
+- `h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem', 'line-height': '1.25', 'letter-spacing': '-.02em'}`.
+- `h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'line-height': '1.3'}`.
+- `.masthead` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem', 'letter-spacing': '.1em'}`.
+- `.wordmark` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700'}`.
+- `.eyebrow` · `base` · `assets/source/src/styles.css`: `{'font-size': '.75rem', 'letter-spacing': '.15em', 'font-weight': '650'}`.
+- `.description` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.125rem'}`.
+- `.stamp` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.stamp strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.25rem'}`.
+- `.scope-tag` · `base` · `assets/source/src/styles.css`: `{'font-size': '.7rem', 'letter-spacing': '.12em'}`.
+- `.scope-band strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'font-weight': '500'}`.
+- `.actions button` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `#pending` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.toggle` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.3rem'}`.
+- `label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.help` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.unit` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.metrics span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.78rem'}`.
+- `.metrics strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.65rem', 'letter-spacing': '-.04em', 'font-weight': '500', 'line-height': '1.35'}`.
+- `.metrics .unavailable-rate` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.6rem', 'line-height': '1.55'}`.
+- `.metrics small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem'}`.
+- `.chart-scale` · `base` · `assets/source/src/styles.css`: `{'font-size': '.7rem'}`.
+- `.program-label p,.gap-label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem'}`.
+- `.measure strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.15rem', 'line-height': '1.3', 'font-weight': '600'}`.
+- `.measure span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem'}`.
+- `.chart-note` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.small-mark` · `base` · `assets/source/src/styles.css`: `{'font-family': 'Georgia,serif'}`.
+- `.method h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.2rem'}`.
+- `.method p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.boundary h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.records-section .section-heading>p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.records-help` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.record-date` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.record-date small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.7rem'}`.
+- `.record-title strong` · `base` · `assets/source/src/styles.css`: `{'font-weight': '500', 'font-size': '1rem'}`.
+- `.record-title>span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.record-result` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `.record-result small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.7rem'}`.
+- `.missing` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.record-toggle` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.2rem', 'line-height': '1'}`.
+- `.record-detail dt` · `base` · `assets/source/src/styles.css`: `{'font-size': '.75rem'}`.
+- `.record-detail dd` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.2rem'}`.
+- `.record-detail p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem'}`.
+- `.record-detail p strong` · `base` · `assets/source/src/styles.css`: `{'font-weight': '500'}`.
+- `.empty-mark` · `base` · `assets/source/src/styles.css`: `{'font-size': '2rem'}`.
+- `.empty h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.4rem'}`.
+- `.empty p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `.provenance p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.load-panel h1` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.5rem'}`.
+- `h1` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2rem,8vw,2.5rem)'}`.
+- `.masthead` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'letter-spacing': '.06em', 'font-size': '.65rem'}`.
+- `.description` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `.stamp` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.75rem'}`.
+- `.stamp strong` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.actions button` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.metrics strong` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '2.7rem'}`.
+- `.metrics span` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.75rem'}`.
+- `.metrics small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.72rem'}`.
+- `.record-result` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.9rem'}`.
+- `.record-detail dd` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `.record-result .missing` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.load-panel h1` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '2rem'}`.
+- `:root` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.masthead` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.intro h1` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '30pt'}`.
+- `.description` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.stamp strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt'}`.
+- `.eyebrow` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.scope-band strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.scope-tag` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7pt'}`.
+- `.unit` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.section-heading h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '17pt'}`.
+- `.metrics strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '28pt'}`.
+- `.metrics span,.metrics small` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.chart-scale` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.program-label h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.program-label p,.gap-label,.measure span` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.measure strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt'}`.
+- `.chart-note` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.method h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt'}`.
+- `.method p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.boundary h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.records-help` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.record-date` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.record-date small` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7pt'}`.
+- `.record-title strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.record-title>span` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.record-result` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.record-result small` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7pt'}`.
+- `.missing` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.record-detail dt` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.record-detail dd` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.record-detail p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.provenance p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.

@@ -1,0 +1,145 @@
+{
+  "id": "print-studio-interview-portfolio",
+  "name": "Print Studio Notes",
+  "summary": "A portfolio identity that uses the visual language of a print studio to explain a newcomer’s first visit and the design decisions behind it.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F1E9D8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#24231F",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#15478C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#B92D19",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Ornamental accent",
+      "role": "ornament",
+      "hex": "#EDAD39",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reversed labels",
+      "role": "reverse-text",
+      "hex": "#FFFFFF",
+      "evidence": "Native Native reference.pptx explicit run white; secondary reversed labels. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Futura",
+      "usage": "Titles and short section openings; source slide 10 / title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 10 / footer."
+    }
+  ],
+  "recognitionRules": [
+    "Use Futura display titles with clear Arial case narration.",
+    "Keep primary blue, red and yellow accents against warm paper.",
+    "Give the prototype artifact a prominent place rather than replacing it with abstract diagrams.",
+    "Keep the brief, constraint and proposed response in a readable sequence."
+  ],
+  "voice": {
+    "traits": [
+      "practical",
+      "expressive",
+      "explanatory"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Help someone begin making. Show the choices that make beginning easier.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use PRINT STUDIO NOTES in Futura with three small offset registration-like bars. Do not copy actual printer registration marks as certification.",
+  "invariants": [
+    "Use Futura display titles with clear Arial case narration.",
+    "Keep primary blue, red and yellow accents against warm paper.",
+    "Give the prototype artifact a prominent place rather than replacing it with abstract diagrams."
+  ],
+  "adaptations": [
+    "A portfolio cover may use all three accents; evidence pages use one at a time.",
+    "Retain prototype status beside the artifact.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Futura",
+      "renderFamily": "Jost",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/jost/Jost-Regular.ttf",
+      "bold": "assets/fonts/jost/Jost-Bold.ttf",
+      "license": "assets/fonts/jost/OFL.txt",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

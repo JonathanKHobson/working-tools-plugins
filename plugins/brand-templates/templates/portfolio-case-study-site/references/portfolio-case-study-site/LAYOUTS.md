@@ -1,0 +1,131 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: index.html. Render modules: src/domain.mjs, src/main.js, src/render.mjs.
+
+Section IDs: #artifact-dialog, #dialog-title, #close-dialog, #zoom-artifact, #viewer-help, #dialog-image, #dialog-caption, #dialog-source, #dialog-transcript, #overview, #work, #decisions, #evidence, #outcome, #credits, #print-case.
+
+Responsive scopes: @media (max-width:1000px), @media (max-width:650px), @media print.
+
+- `body` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `[hidden]` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `h1,h2,h3,p,figure` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'max-width': '1100px'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'padding': '.5rem .85rem', 'min-height': '44px'}`.
+- `.skip:not(:focus)` · `base` · `assets/source/src/styles.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px'}`.
+- `.skip:focus` · `base` · `assets/source/src/styles.css`: `{'position': 'fixed', 'padding': '12px'}`.
+- `.site-header` · `base` · `assets/source/src/styles.css`: `{'max-width': '1440px', 'margin': 'auto', 'display': 'flex', 'justify-content': 'space-between', 'gap': '2rem', 'padding': '1.5rem 3rem'}`.
+- `.brand` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'align-items': 'center', 'min-height': '44px'}`.
+- `.case-nav` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '2rem'}`.
+- `.case-nav a` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'align-items': 'center', 'min-height': '44px'}`.
+- `main` · `base` · `assets/source/src/styles.css`: `{'max-width': '1440px', 'margin': 'auto', 'padding': '0 3rem'}`.
+- `.case-lead` · `base` · `assets/source/src/styles.css`: `{'padding': '4rem 0 2.5rem'}`.
+- `.lead-row` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1.4fr) minmax(0,1fr)', 'gap': '5rem', 'margin': '2rem 0 2.5rem', 'align-items': 'start'}`.
+- `.lead` · `base` · `assets/source/src/styles.css`: `{'max-width': '42em'}`.
+- `.case-facts` · `base` · `assets/source/src/styles.css`: `{'margin': '0', 'display': 'grid', 'grid-template-columns': '1.2fr 1fr 1fr', 'gap': '2rem'}`.
+- `.case-facts dd` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.case-facts dd span` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.artifact` · `base` · `assets/source/src/styles.css`: `{'margin': '0 0 4.5rem'}`.
+- `.specimen-stage` · `base` · `assets/source/src/styles.css`: `{'position': 'relative', 'padding': '3.5rem', 'display': 'flex', 'flex-direction': 'column', 'align-items': 'center', 'gap': '1.5rem', 'min-width': '0'}`.
+- `.specimen-stage>img` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'width': 'auto', 'max-width': '100%', 'height': 'auto', 'max-height': '650px'}`.
+- `.inspect` · `base` · `assets/source/src/styles.css`: `{'display': 'inline-flex', 'align-items': 'center', 'gap': '1.8rem', 'padding': '.5rem .9rem', 'min-height': '44px'}`.
+- `.artifact figcaption` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(200px,1fr) minmax(0,2fr)'}`.
+- `.transcript summary` · `base` · `assets/source/src/styles.css`: `{'min-height': '44px', 'display': 'list-item', 'padding': '.5rem 0'}`.
+- `.transcript p` · `base` · `assets/source/src/styles.css`: `{'padding': '.75rem 0'}`.
+- `.context-section` · `base` · `assets/source/src/styles.css`: `{'margin': '4.5rem 0'}`.
+- `.section-label` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.context-grid` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) minmax(0,1.25fr)', 'gap': '7rem'}`.
+- `.reading p` · `base` · `assets/source/src/styles.css`: `{'max-width': '45em'}`.
+- `.artifact.secondary` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1.3fr) minmax(0,1fr)', 'gap': '3rem', 'align-items': 'center'}`.
+- `.artifact.secondary .specimen-stage` · `base` · `assets/source/src/styles.css`: `{'padding': '2rem'}`.
+- `.artifact.secondary figcaption` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'padding': '0'}`.
+- `.portrait .specimen-stage>img` · `base` · `assets/source/src/styles.css`: `{'width': 'auto', 'max-width': '100%', 'max-height': '720px'}`.
+- `.portrait.secondary` · `base` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr) minmax(0,1fr)'}`.
+- `.evidence-section` · `base` · `assets/source/src/styles.css`: `{'padding': '2.5rem 0', 'margin': '1rem 0 3rem'}`.
+- `.section-intro` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.25fr', 'gap': '7rem'}`.
+- `.section-intro>p` · `base` · `assets/source/src/styles.css`: `{'max-width': '45em'}`.
+- `.evidence-register` · `base` · `assets/source/src/styles.css`: `{'padding': '0', 'margin': '0'}`.
+- `.evidence-register>li` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr 1fr', 'gap': '2.5rem', 'padding': '2rem 0'}`.
+- `.note-id` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.evidence-note h3` · `base` · `assets/source/src/styles.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px'}`.
+- `.outcome-section` · `base` · `assets/source/src/styles.css`: `{'padding': '2.5rem 0 4rem'}`.
+- `.outcome-section>h2` · `base` · `assets/source/src/styles.css`: `{'max-width': '1000px'}`.
+- `.outcome-grid` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'repeat(3,minmax(0,1fr))', 'gap': '2.5rem'}`.
+- `.reflection` · `base` · `assets/source/src/styles.css`: `{'max-width': '940px'}`.
+- `#credits` · `base` · `assets/source/src/styles.css`: `{'padding': '2.5rem 0 3rem', 'display': 'grid', 'grid-template-columns': '1fr 1.25fr', 'gap': '7rem'}`.
+- `.credits` · `base` · `assets/source/src/styles.css`: `{'margin': '0', 'padding': '0'}`.
+- `.credits strong,.credits span` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.footer-actions` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '1.5rem'}`.
+- `.footer-actions>a` · `base` · `assets/source/src/styles.css`: `{'min-height': '44px', 'display': 'inline-flex', 'align-items': 'center'}`.
+- `.empty-specimen` · `base` · `assets/source/src/styles.css`: `{'padding': '3rem', 'margin': '1rem 0 4rem', 'max-width': '1000px'}`.
+- `.empty-specimen h2` · `base` · `assets/source/src/styles.css`: `{'margin': '1rem 0'}`.
+- `.empty-evidence` · `base` · `assets/source/src/styles.css`: `{'max-width': '60em'}`.
+- `dialog` · `base` · `assets/source/src/styles.css`: `{'padding': '0', 'width': 'min(1260px,calc(100% - 3rem))', 'max-width': '1260px', 'max-height': '92dvh'}`.
+- `.dialog-head` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'start', 'gap': '1rem', 'padding': '1.5rem 2rem', 'position': 'sticky'}`.
+- `.dialog-toolbar` · `base` · `assets/source/src/styles.css`: `{'padding': '1rem 2rem', 'display': 'flex', 'align-items': 'center', 'gap': '1.5rem'}`.
+- `.viewer-viewport` · `base` · `assets/source/src/styles.css`: `{'max-height': '56dvh', 'min-height': '160px', 'margin': '0 2rem', 'display': 'grid'}`.
+- `.viewer-viewport>img` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'max-width': '100%', 'max-height': '56dvh', 'width': 'auto', 'height': 'auto'}`.
+- `.viewer-viewport.actual-size` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.viewer-viewport.actual-size>img` · `base` · `assets/source/src/styles.css`: `{'width': 'var(--native-width)', 'max-width': 'none', 'max-height': 'none', 'height': 'auto'}`.
+- `.dialog-reading` · `base` · `assets/source/src/styles.css`: `{'padding': '1.5rem 2rem 2rem'}`.
+- `.dialog-reading p` · `base` · `assets/source/src/styles.css`: `{'max-width': '65em'}`.
+- `.image-error` · `base` · `assets/source/src/styles.css`: `{'padding': '2rem', 'max-width': '40em'}`.
+- `.site-header` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'padding': '1rem 2rem'}`.
+- `main` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'padding': '0 2rem'}`.
+- `.lead-row,.context-grid,.section-intro,#credits` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'gap': '3rem'}`.
+- `.specimen-stage` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'padding': '2.5rem'}`.
+- `.artifact.secondary` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'gap': '2rem'}`.
+- `.artifact figcaption` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'gap': '.5rem 2rem'}`.
+- `.evidence-register>li,.outcome-grid` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'gap': '1.5rem'}`.
+- `.case-nav` · `@media (max-width:1000px)` · `assets/source/src/styles.css`: `{'gap': '1.4rem'}`.
+- `.site-header` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem 1.25rem', 'flex-direction': 'column', 'gap': '.4rem'}`.
+- `.case-nav` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'justify-content': 'space-between', 'gap': '1rem'}`.
+- `main` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '0 1.25rem'}`.
+- `.case-lead` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '2.5rem 0 2rem'}`.
+- `.lead-row` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'display': 'block', 'margin': '1.5rem 0'}`.
+- `.case-facts` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '1rem'}`.
+- `.case-facts>div` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.specimen-stage` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem', 'gap': '1rem'}`.
+- `.specimen-stage>img` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'max-height': 'none'}`.
+- `.artifact figcaption` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.context-section` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'margin': '3rem 0'}`.
+- `.context-grid,.section-intro,#credits` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.artifact.secondary,.portrait.secondary` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.artifact.secondary .specimen-stage` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem'}`.
+- `.evidence-register>li,.outcome-grid` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '1.5rem'}`.
+- `.evidence-register>li` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1.5rem 0'}`.
+- `#credits` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '2rem 0'}`.
+- `.empty-specimen` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1.5rem'}`.
+- `dialog` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'width': 'calc(100% - 1rem)', 'max-height': '94dvh'}`.
+- `.dialog-head` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem', 'gap': '.5rem'}`.
+- `.dialog-toolbar` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem', 'gap': '1rem'}`.
+- `.viewer-viewport` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'margin': '0 1rem', 'max-height': '50dvh'}`.
+- `.viewer-viewport>img` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'max-height': '50dvh'}`.
+- `.dialog-reading` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'padding': '1rem'}`.
+- `.portrait .specimen-stage>img` · `@media (max-width:650px)` · `assets/source/src/styles.css`: `{'max-height': 'none', 'width': '100%'}`.
+- `.site-header,.skip,.inspect,.footer-actions,dialog` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `main` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0', 'max-width': 'none'}`.
+- `.case-lead` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 0 5mm'}`.
+- `h1` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none'}`.
+- `.lead-row` · `@media print` · `assets/source/src/styles.css`: `{'gap': '8mm', 'margin': '5mm 0', 'grid-template-columns': '1.3fr 1fr'}`.
+- `.case-facts` · `@media print` · `assets/source/src/styles.css`: `{'gap': '5mm', 'grid-template-columns': '1.2fr 1fr 1fr'}`.
+- `.artifact` · `@media print` · `assets/source/src/styles.css`: `{'margin': '5mm 0 8mm', 'break-inside': 'avoid'}`.
+- `.specimen-stage,.artifact.secondary .specimen-stage` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm', 'gap': '0'}`.
+- `.specimen-stage>img` · `@media print` · `assets/source/src/styles.css`: `{'max-height': '100mm'}`.
+- `.portrait .specimen-stage>img` · `@media print` · `assets/source/src/styles.css`: `{'max-height': '125mm', 'width': 'auto'}`.
+- `.artifact.portrait` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.1fr', 'gap': '7mm', 'align-items': 'start'}`.
+- `.artifact figcaption` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.transcript summary` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.transcript p` · `@media print` · `assets/source/src/styles.css`: `{'padding': '1mm 0'}`.
+- `.context-section` · `@media print` · `assets/source/src/styles.css`: `{'margin': '8mm 0', 'break-inside': 'avoid'}`.
+- `.context-grid,.section-intro,#credits` · `@media print` · `assets/source/src/styles.css`: `{'gap': '8mm', 'display': 'grid', 'grid-template-columns': '1fr 1.25fr'}`.
+- `.artifact.secondary` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1.15fr 1fr', 'gap': '7mm', 'align-items': 'start'}`.
+- `.evidence-section` · `@media print` · `assets/source/src/styles.css`: `{'margin': '6mm 0', 'padding': '6mm 0'}`.
+- `.section-intro` · `@media print` · `assets/source/src/styles.css`: `{'break-inside': 'avoid'}`.
+- `.evidence-section:has(.empty-evidence)` · `@media print` · `assets/source/src/styles.css`: `{'break-inside': 'avoid'}`.
+- `.evidence-register>li` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr 1fr 1fr', 'gap': '5mm', 'padding': '5mm 0', 'break-inside': 'avoid'}`.
+- `.outcome-section` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm 0', 'break-inside': 'avoid'}`.
+- `.outcome-grid` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': 'repeat(3,1fr)', 'gap': '5mm'}`.
+- `#credits` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm 0', 'break-inside': 'avoid'}`.
+- `.empty-specimen` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm', 'margin': '5mm 0'}`.

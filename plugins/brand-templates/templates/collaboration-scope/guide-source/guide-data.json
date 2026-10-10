@@ -1,0 +1,133 @@
+{
+  "id": "collaboration-scope",
+  "name": "Shared Scope",
+  "summary": "An agreement identity that makes collaborative work legible through ownership, versioning and observable acceptance checks.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Scope header",
+      "role": "primary",
+      "hex": "#263D4B",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #263D4B; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Scope row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Calibri",
+      "usage": "Titles and short section openings; source used style Subtitle."
+    },
+    {
+      "role": "body",
+      "family": "Calibri",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+    }
+  ],
+  "recognitionRules": [
+    "Place Working agreement and version beneath the title.",
+    "Use clear Calibri headings and compact acceptance tables.",
+    "Separate what each person provides from what the joint result must contain.",
+    "Keep changes recorded as dated decisions rather than invisible wording revisions."
+  ],
+  "voice": {
+    "traits": [
+      "cooperative",
+      "exact",
+      "straightforward"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Agree on the work before the work begins.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use SHARED SCOPE in Calibri with two short rules meeting at one baseline. Keep it typographic, not a partnership handshake symbol.",
+  "invariants": [
+    "Place Working agreement and version beneath the title.",
+    "Use clear Calibri headings and compact acceptance tables.",
+    "Separate what each person provides from what the joint result must contain."
+  ],
+  "adaptations": [
+    "A small collaboration can use one page with roles, output and checks.",
+    "Preserve the version line in every export.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

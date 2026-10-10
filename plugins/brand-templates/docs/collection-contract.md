@@ -1,0 +1,5 @@
+# External Brand collection contract
+
+By default the runtime uses the included original 104 kits. To use a separate collection, set `BRAND_TEMPLATES_DATA_ROOT` to an authorized directory outside the installed package. It must contain `library/catalog.json` with `brands`, `templates/{id}/` complete kits, catalog-relative preview files under `library/`, and `provenance/source-files.json` with exact SHA-256 rows. The full runtime uses the original ID contract and verifies the catalog pin and every registered selected-kit file before a handoff. Paths must remain inside the collection and symlink source files are rejected.
+
+Catalog records preserve ID/name/summary/category/tags/version, source-template IDs, source hash, rights summary, previews, recognition rules, colors and typography. Each real selected kit must include SKILL.md, DESIGN.md and its relevant source assets and notices. Review actual rights and source closure before pinning. The fixture creator registers newly authored test bytes and refuses a nonempty or package-internal destination. It does not admit existing private collections or grant rights to them.

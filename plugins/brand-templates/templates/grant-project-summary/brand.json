@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "grant-project-summary",
+  "version": "0.2.1",
+  "name": "Print Stories Together",
+  "summary": "A community-project identity that describes a proposed activity in accessible language and connects resources to a bounded public purpose.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "grant-project-summary"
+  ],
+  "sourceTemplateNames": {
+    "grant-project-summary": "Grant Project Summary"
+  },
+  "templateVariations": [
+    {
+      "templateId": "grant-project-summary",
+      "name": "Grant Project Summary",
+      "format": "document",
+      "sourceHash": "8b5cf430012cf172e3d6aaf195f4505aacbfe7d0aad0cb0438e0332124cdf731",
+      "foundationSha256": "04555b927a23e4cf259e630b520be3e6cb50eb02054ec68071b309b39e04d377",
+      "designSpecSha256": "4e93d2605eebaa0a5945ba6b06b078c0ffe49ff620fe04324525ff833dbec10d",
+      "referenceDirectory": "references/grant-project-summary"
+    }
+  ],
+  "sourceHash": "8b5cf430012cf172e3d6aaf195f4505aacbfe7d0aad0cb0438e0332124cdf731",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#243B40",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Grant table header",
+      "role": "primary",
+      "hex": "#2E5D64",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #2E5D64; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Grant table row",
+      "role": "surface",
+      "hex": "#F3F5F4",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F3F5F4; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Trebuchet MS",
+      "usage": "Titles and short section openings; source used style CivicAmount."
+    },
+    {
+      "role": "body",
+      "family": "Verdana",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CivicBreak."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style CivicAmount.",
+      "sourceFamily": "Trebuchet MS",
+      "sourceFamilySelected": "Trebuchet MS",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Trebuchet MS is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Trebuchet MS is a separately licensed Microsoft/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "grant-project-summary",
+      "sourceFingerprint": "8b5cf430012cf172e3d6aaf195f4505aacbfe7d0aad0cb0438e0332124cdf731"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CivicBreak.",
+      "sourceFamily": "Verdana",
+      "sourceFamilySelected": "Verdana",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Verdana is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Verdana is a separately licensed Microsoft/system font; not bundled. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "grant-project-summary",
+      "sourceFingerprint": "8b5cf430012cf172e3d6aaf195f4505aacbfe7d0aad0cb0438e0332124cdf731"
+    }
+  ],
+  "recognitionRules": [
+    "Use Verdana body text and Trebuchet headings for comfortable document reading.",
+    "Open with the proposed case before budget and delivery detail.",
+    "Separate intended benefits from evidence already available.",
+    "Keep participant activity, staffing and evaluation in distinct sections.",
+    "Use teal budget/delivery table headers with white labels, pale rows and black major titles."
+  ],
+  "writingLinks": [
+    {
+      "id": "V01",
+      "name": "Decision first",
+      "reason": "Names the proposed funding decision and preserves budget assumptions and funding status.",
+      "sourceTemplateId": "grant-project-summary",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Make a story you can share. Build the conditions that let people take part.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use PRINT STORIES TOGETHER in Trebuchet with three short uneven lines suggesting printed text. Avoid a book or charity seal.",
+  "invariants": [
+    "Use Verdana body text and Trebuchet headings for comfortable document reading.",
+    "Open with the proposed case before budget and delivery detail.",
+    "Separate intended benefits from evidence already available."
+  ],
+  "adaptations": [
+    "A funder summary may condense delivery detail but retains the proposed status.",
+    "A participant invitation replaces funding language with practical choices.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/grant-project-summary.pdf",
+    "preview": "media/grant-project-summary-guide.webp",
+    "markdown": "guides/grant-project-summary.md"
+  },
+  "bundle": {
+    "href": "bundles/grant-project-summary-brand-kit.zip",
+    "filename": "Print Stories Together brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/grant-project-summary-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/grant-project-summary-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/grant-project-summary-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

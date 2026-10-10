@@ -1,0 +1,289 @@
+{
+  "profile": {
+    "id": "team-time-planner",
+    "name": "Time Together",
+    "templateIds": [
+      "team-time-planner"
+    ],
+    "category": "Planning & operations",
+    "summary": "A team-planning identity that makes effort, timing and dependencies visible without treating every hour as interchangeable capacity.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#243746",
+        "evidence": "used style 22 font color"
+      },
+      {
+        "name": "Input Surface",
+        "role": "input-surface",
+        "hex": "#FFF2CC",
+        "evidence": "used style 16 fill at Availability!A5, Availability!A6"
+      },
+      {
+        "name": "Surface",
+        "role": "surface",
+        "hex": "#EBE4EE",
+        "evidence": "used style 21 fill at Weekly plan!B7, Weekly plan!C7"
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style 4."
+      }
+    ],
+    "recognitionRules": [
+      "Use slate headers with pale lavender working areas.",
+      "Keep amber editable planning cells distinct from calculated fields.",
+      "Align people, weeks and tasks in a stable matrix.",
+      "Show the planning period and assumptions above the table.",
+      "Preserve the source conditional state colors and accompanying labels only when their recorded condition applies; do not turn exception, venue or validation colors into universal logo accents.",
+      "Keep lavender person blocks and amber editable inputs; over-capacity and unassigned states use pink/red conditional warnings."
+    ],
+    "voice": {
+      "traits": [
+        "realistic",
+        "cooperative",
+        "clear"
+      ],
+      "principles": [
+        "Name the choice, its owner and the condition that makes it complete.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Make the time visible before making the promise.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "This is the assumption; this is the decision it affects.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use TIME TOGETHER in Arial with four equal short weekly rules. No clock or stopwatch icon.",
+    "invariants": [
+      "Use slate headers with pale lavender working areas.",
+      "Keep amber editable planning cells distinct from calculated fields.",
+      "Align people, weeks and tasks in a stable matrix."
+    ],
+    "adaptations": [
+      "A meeting view can focus on the current week and next dependency.",
+      "Retain assumptions when exporting totals.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "team-time-planner",
+      "displayName": "Team Time Planner",
+      "format": "spreadsheet",
+      "nameSignals": [
+        "Team time planner",
+        "Workshop launch · four-week fictional plan",
+        "Person and measure",
+        "2026-10-05 00:00:00",
+        "2026-10-12 00:00:00"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "3e3777e30e9798fd36d0591917eba52ed78510f618e76bf29bf7e6ccbf754d95",
+      "evidence": [
+        "installed-skills/artifact-template-studio-team-time-planner/SKILL.md",
+        "installed-skills/artifact-template-studio-team-time-planner/DESIGN.md",
+        "installed-skills/artifact-template-studio-team-time-planner/design/foundations.json",
+        "installed-skills/artifact-template-studio-team-time-planner/assets/reference.xlsx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style 22",
+          "observation": "{'id': 22, 'cells': 45, 'examples': ['Weekly plan!B8', 'Weekly plan!C8', 'Weekly plan!D8', 'Weekly plan!E8', 'Weekly plan!F8', 'Weekly plan!B9', 'Weekly plan!C9', 'Weekly plan!D9'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': F"
+        },
+        {
+          "id": "source-2",
+          "location": "used style 18",
+          "observation": "{'id': 18, 'cells': 44, 'examples': ['Tasks!F5', 'Tasks!F6', 'Tasks!F7', 'Tasks!F8', 'Tasks!F9', 'Tasks!F10', 'Tasks!F11', 'Tasks!F12'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#243746'}, 'fill': {'pattern'"
+        },
+        {
+          "id": "source-3",
+          "location": "used style 2",
+          "observation": "{'id': 2, 'cells': 31, 'examples': ['Weekly plan!A4', 'Weekly plan!A8', 'Weekly plan!A9', 'Weekly plan!A10', 'Weekly plan!A12', 'Weekly plan!A13', 'Weekly plan!A14', 'Weekly plan!A16'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic"
+        },
+        {
+          "id": "source-4",
+          "location": "used style 16",
+          "observation": "{'id': 16, 'cells': 27, 'examples': ['Availability!A5', 'Availability!A6', 'Availability!A7', 'Tasks!A5', 'Tasks!B5', 'Tasks!C5', 'Tasks!A6', 'Tasks!B6'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': False, 'color': '#243746'}, "
+        },
+        {
+          "id": "source-5",
+          "location": "used style 24",
+          "observation": "{'id': 24, 'cells': 20, 'examples': ['Availability!B5', 'Availability!C5', 'Availability!D5', 'Availability!E5', 'Availability!B6', 'Availability!C6', 'Availability!D6', 'Availability!E6'], 'font': {'name': 'Arial', 'sizePt': 11.0, 'bold': False, 'it"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/team-time-planner.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#243746",
+        "background": "#FFFFFF",
+        "contrastRatio": 12.28,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    },
+    "conditionalColors": [
+      {
+        "name": "State surface / Over",
+        "role": "conditional-fill",
+        "hex": "#FCE5E1",
+        "sourceRules": [
+          {
+            "range": "Weekly plan!B10:F10",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Weekly plan!B14:F14",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Weekly plan!B18:F18",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Tasks!F5:F15",
+            "condition": "Unassigned",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Over; Unassigned",
+        "source": "reference.xlsx conditional formatting: Weekly plan!B10:F10, Weekly plan!B14:F14, Weekly plan!B18:F18, Tasks!F5:F15"
+      },
+      {
+        "name": "State text / Over",
+        "role": "conditional-text",
+        "hex": "#8B251A",
+        "sourceRules": [
+          {
+            "range": "Weekly plan!B10:F10",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Weekly plan!B14:F14",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Weekly plan!B18:F18",
+            "condition": "Over",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          },
+          {
+            "range": "Tasks!F5:F15",
+            "condition": "Unassigned",
+            "operator": "containsText",
+            "ruleType": "containsText"
+          }
+        ],
+        "evidence": "Native reference.xlsx conditional formatting differential style; exact condition retained. Not a universal identity accent.",
+        "condition": "Over; Unassigned",
+        "source": "reference.xlsx conditional formatting: Weekly plan!B10:F10, Weekly plan!B14:F14, Weekly plan!B18:F18, Tasks!F5:F15"
+      }
+    ]
+  },
+  "sourceVariations": [
+    {
+      "templateId": "team-time-planner",
+      "name": "Team Time Planner",
+      "format": "spreadsheet",
+      "sourceHash": "3e3777e30e9798fd36d0591917eba52ed78510f618e76bf29bf7e6ccbf754d95",
+      "foundationSha256": "22bfcda5c89f4472c3b314ec7d98dd8911bf5cd73a01579a051a0348bd1ae0c7",
+      "designSpecSha256": "b53adaa27195fd24aaeab64a402eeeafd9a812cc105e0d6386b930a253e7a67c",
+      "referenceDirectory": "references/team-time-planner"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use TIME TOGETHER in Arial with four equal short weekly rules. No clock or stopwatch icon.",
+    "productionMethod": "Brand-specific outlined typography with weekly-rules source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "decision": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style 4.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "team-time-planner",
+      "sourceFingerprint": "3e3777e30e9798fd36d0591917eba52ed78510f618e76bf29bf7e6ccbf754d95"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

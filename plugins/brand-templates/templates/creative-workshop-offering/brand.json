@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "creative-workshop-offering",
+  "version": "0.2.1",
+  "name": "Hands at Work",
+  "summary": "A workshop identity that joins an expressive serif invitation to a clear sequence of making and practical attendance details.",
+  "category": "Learning & workshops",
+  "tags": [
+    "site",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "creative-workshop-offering"
+  ],
+  "sourceTemplateNames": {
+    "creative-workshop-offering": "Creative Workshop Offering"
+  },
+  "templateVariations": [
+    {
+      "templateId": "creative-workshop-offering",
+      "name": "Creative Workshop Offering",
+      "format": "site",
+      "sourceHash": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19",
+      "foundationSha256": "9d06b41b26c5214ad3a4b89c34bebe68cbd9749273a83b525277ee367c2f8a8f",
+      "designSpecSha256": "1ef828633b4a03bc0c084bebe8ee82e4d4a7eaf2745442ce53162118b485bbe2",
+      "referenceDirectory": "references/creative-workshop-offering"
+    }
+  ],
+  "sourceHash": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F6F1E5",
+      "evidence": ":root --paper; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#173C31",
+      "evidence": ":root --ink; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#973F2E",
+      "evidence": ":root --rust; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#7E3123",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Tinos",
+      "usage": "Source CSS alias WorkshopSerif resolves to fonts/tinos/Tinos-Bold.ttf; workshop titles."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Source alias WorkshopSans resolves to the Arimo regular and bold WOFF2 files; instructions and practical detail."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Source CSS alias WorkshopSerif resolves to fonts/tinos/Tinos-Bold.ttf; workshop titles.",
+      "sourceFamily": "Tinos",
+      "sourceFamilySelected": "Tinos",
+      "renderFamily": "Tinos",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/tinos/Tinos-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61"
+        },
+        "bold": {
+          "path": "assets/fonts/tinos/Tinos-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "393269dbab8899f938db19783eca5eac92eb431f7ae0ab45b8349ca895f1a06b"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/tinos/OFL.txt",
+      "licenseSha256": "cb3382d4643e8b02c12e322c220a3c76a5020d667e4fd4e7c75e744cca6caa6b",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family present in the source template; regular and bold are assembled from its local source and official upstream Tinos release.",
+      "sourceTemplateId": "creative-workshop-offering",
+      "sourceFingerprint": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19"
+    },
+    {
+      "role": "body",
+      "usage": "Source alias WorkshopSans resolves to the Arimo regular and bold WOFF2 files; instructions and practical detail.",
+      "sourceFamily": "Arimo",
+      "sourceFamilySelected": "Arimo",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "creative-workshop-offering",
+      "sourceFingerprint": "2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19"
+    }
+  ],
+  "recognitionRules": [
+    "Pair the workshop serif display face with the source sans-serif body.",
+    "Use forest ink on cream, with rust reserved for the primary action.",
+    "Number the workshop stages and give each a title and short description.",
+    "Keep materials, access and attendance facts together below the invitation."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Invitation to learners that is clear about access, unknowns and the next step.",
+      "sourceTemplateId": "creative-workshop-offering",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P31",
+          "name": "Consent-first invitation",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Start with a simple material. Make something you can hold.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use HANDS AT WORK as a serif wordmark with a short underline ending before the final letter. No hand illustration or craft-tool cluster.",
+  "invariants": [
+    "Pair the workshop serif display face with the source sans-serif body.",
+    "Use forest ink on cream, with rust reserved for the primary action.",
+    "Number the workshop stages and give each a title and short description."
+  ],
+  "adaptations": [
+    "A poster keeps invitation, date and one action.",
+    "A participant sheet expands the numbered stages and removes promotional language.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/creative-workshop-offering.pdf",
+    "preview": "media/creative-workshop-offering-guide.webp",
+    "markdown": "guides/creative-workshop-offering.md"
+  },
+  "bundle": {
+    "href": "bundles/creative-workshop-offering-brand-kit.zip",
+    "filename": "Hands at Work brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/creative-workshop-offering-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/creative-workshop-offering-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/creative-workshop-offering-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

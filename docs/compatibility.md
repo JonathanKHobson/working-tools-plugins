@@ -20,6 +20,11 @@ Tests distinguish installation, execution and provider access. Versioned release
 | Data Visualization | Real stdio initialization, four tools, resource and fictional-data calculations passed; zero and missing values checked | Restricted reference libraries are excluded; native host widget acceptance is a separate check |
 | Reasoning and Survey | Explicit helper binding, 35 survey tests, eight synthetic instruments and eleven exports passed | No real respondent results, live provider operation or external survey-platform import is claimed |
 | Discord and Mac operations | Three mocked-launcher tests, shell syntax and a synthetic timestamped backup with hash readback passed | No live Discord access, real user file move or Mac recovery is claimed |
+| Work Management | 29 tests, project scaffolding with existing-content preservation, change packets and missing-binding behavior passed | One external helper integration explicitly skipped; hooks are opt-in and personal records are absent |
+| Oppia Research Compass | Ten service contracts, synthetic FTS evidence retrieval/comparison, privacy rejection and unchanged input checks passed | Default database is empty; no private team corpus or live research-provider access included |
+| Graphic Design | Real four-tool MCP initialization, production helpers, bad-PDF rejection, QR/input integrity and rendered synthetic examples passed | Prompt preparation does not perform image generation; optional chooser depends on Design Templates |
+| Brand Templates | All 104 original kits passed real stdio handoff and source/asset hash checks; chooser preview rendered | Separate Fresh Curiosity A2 assets excluded; font notices retained |
+| Writing Templates | Synthetic source retrieval, integrity checks and 18 offline QA behaviors passed | Real author voice/profile collection excluded; recipient supplies authorized sources |
 
 The fresh-environment checks use empty extraction folders, a new Python environment and separately named marketplace caches. They are not a second computer. macOS is the verified local platform. The repository CI checks portable package integrity on Linux; it does not establish every provider integration. No package is claimed published in the official OpenAI Plugin Directory.
 

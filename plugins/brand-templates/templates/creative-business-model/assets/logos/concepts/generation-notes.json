@@ -1,0 +1,32 @@
+{
+  "workflow": "logo@2026-10-06.2",
+  "tool": "built-in imagegen",
+  "sourceContext": "Native creative-business-model cover: film reel with orbital bands; profile calls for open orbital arc and node, no globe.",
+  "attempts": [
+    {
+      "file": "orbit-exploration-01.png",
+      "status": "rejected",
+      "reason": "Unrequested glow and no opaque pixels in RGBA output.",
+      "distribution": "Not included in the brand kit; retained in private build review evidence."
+    },
+    {
+      "file": "orbit-exploration-02.png",
+      "status": "rejected",
+      "reason": "Flattening edit did not remove glow or establish opaque shape interiors.",
+      "distribution": "Not included in the brand kit; retained in private build review evidence."
+    },
+    {
+      "file": "orbit-flat-concept.png",
+      "status": "selected for vector development",
+      "prompt": "A single flat BLACK logo on a plain pure WHITE background. A cinematic film-reel circle with THREE LARGE WHITE ROUND HOLES, surrounded by ONE OPEN diagonal ellipse orbit and one detached black circular satellite at upper right. Vector-style stencil, SOLID OPAQUE BLACK INK, absolutely NO shading, NO glow, NO shadow, NO 3D, NO gradient, NO texture. Bold uniform shape. This is a professional small motion-story studio brandmark, not a space illustration. Optical balance, compact confident silhouette, open negative spaces. No words, no letters, no border, no mockup, no multiple versions. Draw it as a black ink stamp designed to work at 24 pixels.",
+      "format": "RGB PNG raster concept, not vector"
+    },
+    {
+      "file": "orbit-transparent-concept.png",
+      "status": "background-extraction output retained",
+      "prompt": "Background extraction only. Preserve this exact solid black logo and every contour. Remove the white background and the three white holes to genuine alpha transparency. Keep the logo shapes fully opaque solid black, alpha 255 inside the shapes. No recoloring, no gradients, no shadows, no glow, no restyling, no change to geometry. Transparent PNG cutout of exactly the shown logo.",
+      "format": "RGBA PNG, alpha range 0\u2013255; not vector"
+    }
+  ],
+  "production": "Separately authored SVG geometry interprets the film-reel and open-orbit relationship with mathematically defined circles, arc segments and cutouts. Production PNG has genuine alpha from SVG rasterization."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "creative-project-treatment",
+  "name": "The Last Key Studio",
+  "summary": "A story-development identity that pairs a literary title with a production-readable account of premise, scenes and decisions.",
+  "category": "Creative practice",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#303030",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Treatment table",
+      "role": "surface",
+      "hex": "#F5F3EF",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F5F3EF; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Source Serif 4 Display",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Source Sans 3",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Metadata."
+    }
+  ],
+  "recognitionRules": [
+    "Use Source Serif 4 Display for the title and chapter openings.",
+    "Use Source Sans 3 for production detail and longer explanation.",
+    "Keep the story-in-one-breath summary near the opening.",
+    "Separate creative intention from practical requirements and unconfirmed production facts."
+  ],
+  "voice": {
+    "traits": [
+      "literary",
+      "economical",
+      "practical"
+    ],
+    "principles": [
+      "Let a concrete image or material action carry the opening; explain the work plainly afterward.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Begin with the moment that cannot stay the same.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid abstract manifestos that displace the actual work.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Begin with one thing you can make or inspect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE LAST KEY in Source Serif 4 Display with a small STUDIO descriptor. No key pictogram; keep the narrative open to more than one story.",
+  "invariants": [
+    "Use Source Serif 4 Display for the title and chapter openings.",
+    "Use Source Sans 3 for production detail and longer explanation.",
+    "Keep the story-in-one-breath summary near the opening."
+  ],
+  "adaptations": [
+    "A new project may replace the title while retaining the serif/sans hierarchy.",
+    "A pitch extract includes premise, tone and the next production decision.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Source Serif 4 Display",
+      "renderFamily": "Atlas Editorial Serif",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Regular.ttf",
+      "bold": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Bold.ttf",
+      "license": "assets/fonts/atlas-editorial-serif/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Source Sans 3",
+      "renderFamily": "Atlas Reader Sans",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Regular.ttf",
+      "bold": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Bold.ttf",
+      "license": "assets/fonts/atlas-reader-sans/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

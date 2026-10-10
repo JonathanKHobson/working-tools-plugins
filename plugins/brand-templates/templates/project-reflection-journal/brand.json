@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "project-reflection-journal",
+  "version": "0.2.1",
+  "name": "A Quieter Practice",
+  "summary": "A reflective project identity that starts from one small material observation and follows it into a change worth trying.",
+  "category": "Creative practice",
+  "tags": [
+    "document",
+    "Editorial & journals"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "project-reflection-journal"
+  ],
+  "sourceTemplateNames": {
+    "project-reflection-journal": "Project Reflection Journal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "project-reflection-journal",
+      "name": "Project Reflection Journal",
+      "format": "document",
+      "sourceHash": "1498aad8180259ddce8b14397cc6ad6e93cb84addbf72bd094640e3f31bfbf9f",
+      "foundationSha256": "d419359bc6671edc92f102a76efabc6eef0b1fb05895aea2e9c22550a385db03",
+      "designSpecSha256": "240ec12597145b5af30d90dd1fe1b6257157ee816d1c13a4b6fa137c8c67917e",
+      "referenceDirectory": "references/project-reflection-journal"
+    }
+  ],
+  "sourceHash": "1498aad8180259ddce8b14397cc6ad6e93cb84addbf72bd094640e3f31bfbf9f",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Reflection label",
+      "role": "primary",
+      "hex": "#574936",
+      "evidence": "Native reference.docx word/styles.xml: style JournalLabel; text."
+    },
+    {
+      "name": "Journal link",
+      "role": "link",
+      "hex": "#304D4A",
+      "evidence": "Native reference.docx word/styles.xml: style JournalLink; text."
+    },
+    {
+      "name": "Journal rule",
+      "role": "rule",
+      "hex": "#A99E8D",
+      "evidence": "Native reference.docx word/styles.xml: style JournalRule; border."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Native Title, Heading1 and JournalOpening use Baskerville for reflective openings."
+    },
+    {
+      "role": "body",
+      "family": "Baskerville",
+      "usage": "Native Normal paragraphs use Baskerville 13 pt for sustained reflection."
+    },
+    {
+      "role": "labels",
+      "family": "Noto Sans",
+      "usage": "Heading2, JournalLabel, metadata and links use Noto Sans for the record layer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Native Title, Heading1 and JournalOpening use Baskerville for reflective openings.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "project-reflection-journal",
+      "sourceFingerprint": "1498aad8180259ddce8b14397cc6ad6e93cb84addbf72bd094640e3f31bfbf9f"
+    },
+    {
+      "role": "body",
+      "usage": "Native Normal paragraphs use Baskerville 13 pt for sustained reflection.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "project-reflection-journal",
+      "sourceFingerprint": "1498aad8180259ddce8b14397cc6ad6e93cb84addbf72bd094640e3f31bfbf9f"
+    },
+    {
+      "role": "labels",
+      "usage": "Heading2, JournalLabel, metadata and links use Noto Sans for the record layer.",
+      "sourceFamily": "Noto Sans",
+      "sourceFamilySelected": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "project-reflection-journal",
+      "sourceFingerprint": "1498aad8180259ddce8b14397cc6ad6e93cb84addbf72bd094640e3f31bfbf9f"
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for reflective titles and reading paragraphs; reserve Noto Sans for record headings, metadata and links.",
+    "Keep the observation concrete before introducing an explanation.",
+    "Give the attempted change and its result separate passages.",
+    "Leave room for an image or sketch with a factual caption."
+  ],
+  "writingLinks": [
+    {
+      "id": "V13",
+      "name": "Marginal notebook",
+      "reason": "Dated literary notes that gather into one bounded next test.",
+      "sourceTemplateId": "project-reflection-journal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Notice the small thing that keeps returning. Try a change you can describe.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use A QUIETER PRACTICE in Baskerville with a short light rule below the name. No leaf or mindfulness symbol.",
+  "invariants": [
+    "Use Baskerville for reflective titles and reading paragraphs; reserve Noto Sans for record headings, metadata and links.",
+    "Keep the observation concrete before introducing an explanation.",
+    "Give the attempted change and its result separate passages."
+  ],
+  "adaptations": [
+    "A daily note may use only observation, change and reflection.",
+    "A project review can gather several dated entries without rewriting their uncertainty.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/project-reflection-journal.pdf",
+    "preview": "media/project-reflection-journal-guide.webp",
+    "markdown": "guides/project-reflection-journal.md"
+  },
+  "bundle": {
+    "href": "bundles/project-reflection-journal-brand-kit.zip",
+    "filename": "A Quieter Practice brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/project-reflection-journal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/project-reflection-journal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/project-reflection-journal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

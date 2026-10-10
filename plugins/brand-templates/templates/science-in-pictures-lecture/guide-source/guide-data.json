@@ -1,0 +1,164 @@
+{
+  "id": "science-in-pictures-lecture",
+  "name": "Light and Viewpoint",
+  "summary": "A scientific learning identity that uses a small number of well-captioned images to connect a visible phenomenon with a model.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FBFBF9",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#404040",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#1F6F5F",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Heading",
+      "role": "heading",
+      "hex": "#171717",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#B6B6B0",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#E7E9E6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Table light rule",
+      "role": "rule-light",
+      "hex": "#D8D8D4",
+      "evidence": "Native ppt/slides/slide5.xml Cause table lower border. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    },
+    {
+      "name": "Table dark rule",
+      "role": "rule-dark",
+      "hex": "#8D8D88",
+      "evidence": "Native ppt/slides/slide5.xml Feature table upper border. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    },
+    {
+      "name": "Diagram rule",
+      "role": "rule",
+      "hex": "#999D99",
+      "evidence": "Native ppt/slides/slide3.xml shape line. Structural role corroborated at the native OOXML element, not assigned by palette order."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Charter",
+      "usage": "Titles and short section openings; source slide 9 / takeaway."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / credit."
+    }
+  ],
+  "recognitionRules": [
+    "Use Charter for explanatory reading and Helvetica for navigation.",
+    "Give each scientific plate a number, source and useful caption.",
+    "Use restrained green only to guide attention within an otherwise neutral field.",
+    "Ask for an explanation before revealing the model.",
+    "Keep image provenance and illustrative model limits visible."
+  ],
+  "voice": {
+    "traits": [
+      "curious",
+      "explanatory",
+      "careful"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "What you see depends on where you look from. Let us test the model.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use LIGHT AND VIEWPOINT in Helvetica with two offset open circles connected by a thin line. This is a new diagrammatic mark, not an astronomical institution’s logo.",
+  "invariants": [
+    "Use Charter for explanatory reading and Helvetica for navigation.",
+    "Give each scientific plate a number, source and useful caption.",
+    "Use restrained green only to guide attention within an otherwise neutral field."
+  ],
+  "adaptations": [
+    "A handout retains image credits and the learner’s explanation prompt.",
+    "Simplify diagrams before reducing caption size.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Charter",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Charter is a system or separately licensed font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Helvetica",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Helvetica is a separately licensed/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

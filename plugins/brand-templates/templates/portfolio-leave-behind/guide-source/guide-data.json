@@ -1,0 +1,124 @@
+{
+  "id": "portfolio-leave-behind",
+  "name": "Work to Keep",
+  "summary": "A portable portfolio identity that gives a reader a small, coherent sample they can revisit after a conversation.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Case label slate",
+      "role": "primary",
+      "hex": "#38545F",
+      "evidence": "Native reference.docx word/styles.xml: style PortfolioLabel; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Case titles and editorial propositions."
+    },
+    {
+      "role": "body",
+      "family": "Helvetica Neue",
+      "usage": "Contribution, metadata and sample explanation."
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville project headings with Helvetica Neue explanatory copy.",
+    "Keep each case label close to its artifact.",
+    "Separate the sample, contribution and qualification in a compact reading order.",
+    "Use monochrome editorial structure so the work remains central.",
+    "Use slate-blue case labels above serif project titles; retain the two-column artifact/contribution arrangement."
+  ],
+  "voice": {
+    "traits": [
+      "considered",
+      "concise",
+      "useful"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A small sample, with enough context to read it again.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use WORK TO KEEP in Baskerville with a small Helvetica edition label. No folder or bookmark icon.",
+  "invariants": [
+    "Use Baskerville project headings with Helvetica Neue explanatory copy.",
+    "Keep each case label close to its artifact.",
+    "Separate the sample, contribution and qualification in a compact reading order."
+  ],
+  "adaptations": [
+    "A single-sheet edition can contain one complete case.",
+    "A longer leave-behind repeats the same case anatomy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Helvetica Neue",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Helvetica Neue is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

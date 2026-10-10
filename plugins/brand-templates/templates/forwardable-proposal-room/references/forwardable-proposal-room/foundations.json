@@ -1,0 +1,2719 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "client/index.js": "bce0afca0457a353c53bf5ff5cbd24ad06c25656fb4ed69337a1496f8930edc3",
+    "fonts/arimo/Arimo-Bold.woff2": "aa46ca497a25f3c52fc71f4d92cc8565a38bad9b435c3941ce19bfeaca2ca068",
+    "fonts/arimo/Arimo-Regular.woff2": "e8bcd8a8d8686ccf4918fe42cfae32a207c8d5cbe9e2e470b452df7e50ddc79c",
+    "scripts/build.mjs": "e9fb35a1577a8939d4fdd553730e71aecf30d26dac3d543eb1b90aab9334c97f",
+    "scripts/serve.mjs": "62d0c37a821ec6e1e09dbb30957729437152e796fdf6d8602dbac83da627f740",
+    "src/domain.mjs": "100319c0026b40b5b190cc656fb0345ed6f862e493a219bdf3705a5364d45c05",
+    "src/render.mjs": "be6c6a617ec6f6e03a2768957d956fb71fa95f7bea82d1d021b4296797b78d2d",
+    "src/sections.mjs": "cd5b2807b55b062e09aa0c22cd60dac98a10f0bb0bb0eb97780024dbbd906719",
+    "styles/print.css": "21aa96c0b65bce1b183dcca7e7adb1081ca019764e35e98e75a014420731d05f",
+    "styles/screen.css": "9560ce4811fcd0104f0de8cf0f75feb41765ead6ec69058baa71d62f5323618b"
+  },
+  "css": [
+    "styles/print.css",
+    "styles/screen.css"
+  ],
+  "js": [
+    "client/index.js",
+    "src/domain.mjs",
+    "src/render.mjs",
+    "src/sections.mjs"
+  ],
+  "html": [],
+  "variables": [
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--paper",
+      "value": "#fff"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--ink",
+      "value": "#202634"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--accent",
+      "value": "#882b42"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--muted",
+      "value": "#59606c"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--line",
+      "value": "#b8bdc4"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--specimen",
+      "value": "#f5f5f7"
+    }
+  ],
+  "colors": [
+    "#fff",
+    "#202634",
+    "#882b42",
+    "#59606c",
+    "#b8bdc4",
+    "#f5f5f7"
+  ],
+  "selectors": [
+    ".layout",
+    "h1",
+    "h2",
+    ".document-meta",
+    ".facts",
+    ".deliverable",
+    ".stages",
+    ".stages tbody th",
+    ".decision-row",
+    ".chapter",
+    ".chapter+.chapter",
+    "h3",
+    ".lead",
+    ".columns",
+    ".specimen",
+    ".specimen h4",
+    ".specimen dl>div",
+    ".record>div",
+    ".stages th,.stages td",
+    ".input-row",
+    ".decision-row h3",
+    ".outcomes",
+    ".document-footer",
+    ".index",
+    ".stages td:last-child",
+    ".stages th span",
+    ".decision-row .permalink",
+    "body"
+  ],
+  "componentRules": [
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "font-size": "11pt",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "display": "block",
+        "max-width": "none",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".index,.skip,.permalink,.chapter>p:last-child>a,.document-footer>a",
+      "properties": {
+        "display": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chapter",
+      "properties": {
+        "padding": "0",
+        "margin": "0",
+        "min-height": "0",
+        "break-before": "page",
+        "border": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chapter:first-child",
+      "properties": {
+        "break-before": "auto"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chapter+.chapter",
+      "properties": {
+        "padding-top": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "margin-bottom": "18pt",
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "38pt",
+        "max-width": "none",
+        "letter-spacing": "-.03em"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "31pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h4",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "13pt",
+        "margin": "12pt 0 18pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".facts",
+      "properties": {
+        "margin": "18pt 0 24pt",
+        "padding": "12pt 0",
+        "grid-template-columns": "1fr 1.4fr 1fr"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".facts dt,.subtle",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".facts dd",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".columns",
+      "properties": {
+        "grid-template-columns": "1fr 1fr",
+        "gap": "20pt",
+        "margin-bottom": "22pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".deliverable",
+      "properties": {
+        "grid-template-columns": "minmax(0,.85fr) minmax(0,1.4fr)",
+        "gap": "20pt",
+        "padding": "16pt 0",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".deliverable h3",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen",
+      "properties": {
+        "padding": "14pt",
+        "print-color-adjust": "exact",
+        "-webkit-print-color-adjust": "exact"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "20pt",
+        "margin-bottom": "12pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dl>div",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "3pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dt",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dd",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dl",
+      "properties": {
+        "gap": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".record",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".record>div",
+      "properties": {
+        "grid-template-columns": "6rem minmax(0,1fr)",
+        "gap": "7pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".provenance summary",
+      "properties": {
+        "min-height": "0",
+        "padding": "5pt 0",
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".proof-state",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "font-size": "10pt",
+        "margin-top": "18pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages th,.stages td",
+      "properties": {
+        "padding": "12pt 5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages thead th",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".inputs-heading",
+      "properties": {
+        "margin-top": "24pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".input-row",
+      "properties": {
+        "grid-template-columns": "42pt minmax(0,1fr)",
+        "gap": "10pt",
+        "padding": "12pt 0",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".input-row p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".input-row .subtle",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".ref",
+      "properties": {
+        "font-size": "19pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".decision-row",
+      "properties": {
+        "grid-template-columns": "42pt minmax(0,1fr)",
+        "gap": "12pt",
+        "padding": "18pt 0",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".outcomes",
+      "properties": {
+        "padding-top": "15pt",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".outcomes h3",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".outcomes p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".document-footer",
+      "properties": {
+        "display": "block",
+        "font-size": "8pt",
+        "margin-top": "22pt",
+        "padding-top": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "inherit",
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ":target:not(.chapter)",
+      "properties": {
+        "outline": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h1,h2,h3,h4",
+      "properties": {
+        "break-after": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".context-note",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "thead",
+      "properties": {
+        "display": "table-header-group"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "tr",
+      "properties": {
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".subheading",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source-label",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "margin": "0",
+        "font-size": "1.125rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3,h4,p,dl",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3,h4",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "line-height": "1.12",
+        "font-weight": "400",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(3.5rem,5.6vw,5.5rem)",
+        "letter-spacing": "-.045em",
+        "max-width": "18ch"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(3rem,4.5vw,4.5rem)",
+        "letter-spacing": "-.035em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.02em",
+        "margin-bottom": ".65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h4",
+      "properties": {
+        "font-size": "1.5rem",
+        "margin-bottom": ".55rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "p+ p",
+      "properties": {
+        "margin-top": ".65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "var(--accent)",
+        "text-underline-offset": ".22em",
+        "text-decoration-thickness": "1px",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a:hover",
+      "properties": {
+        "text-decoration-thickness": "2px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a:focus-visible,summary:focus-visible",
+      "properties": {
+        "outline": "3px solid var(--accent)",
+        "outline-offset": "5px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "p,dd,dt,td,th",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dd",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dt",
+      "properties": {
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "13.75rem minmax(0,1fr)",
+        "gap": "4.25rem",
+        "max-width": "100rem",
+        "margin": "auto",
+        "padding": "2.5rem 3rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index",
+      "properties": {
+        "position": "sticky",
+        "top": "2.5rem",
+        "align-self": "start",
+        "min-height": "calc(100vh - 5rem)",
+        "border-right": "1px solid var(--line)",
+        "padding-right": "1.75rem",
+        "display": "flex",
+        "flex-direction": "column",
+        "gap": "3rem",
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".identity",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.4rem",
+        "font-weight": "700",
+        "line-height": "1.2"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index .subtle",
+      "properties": {
+        "margin-top": ".6rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav",
+      "properties": {
+        "display": "flex",
+        "flex-direction": "column",
+        "gap": "1.1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav a",
+      "properties": {
+        "display": "flex",
+        "gap": ".8rem",
+        "align-items": "baseline",
+        "min-height": "2.75rem",
+        "padding": ".45rem 0",
+        "color": "var(--ink)",
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.3rem",
+        "text-decoration": "none",
+        "border-bottom": "1px solid transparent"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav a[aria-current=\"location\"]",
+      "properties": {
+        "color": "var(--accent)",
+        "border-color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav a:hover",
+      "properties": {
+        "text-decoration": "underline"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav span",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".rail-note",
+      "properties": {
+        "margin-top": "auto",
+        "color": "var(--muted)",
+        "font-size": ".875rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".rail-note p+p",
+      "properties": {
+        "margin-top": ".4rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "main:focus",
+      "properties": {
+        "outline": "none"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chapter",
+      "properties": {
+        "padding": "0 0 4rem",
+        "scroll-margin-top": "2.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chapter+.chapter",
+      "properties": {
+        "border-top": "1px solid var(--line)",
+        "padding-top": "3.5rem",
+        "min-height": "calc(100vh - 5rem)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "align-items": "baseline",
+        "gap": "1rem",
+        "border-bottom": "1px solid var(--line)",
+        "padding-bottom": ".7rem",
+        "margin-bottom": "2rem",
+        "color": "var(--muted)",
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta p:first-child",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".07em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta p+p",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.4rem",
+        "line-height": "1.45",
+        "margin-top": "1.1rem",
+        "margin-bottom": "1.75rem",
+        "max-width": "62ch"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1.4fr 1fr",
+        "gap": "1.5rem",
+        "border-block": "1px solid var(--line)",
+        "padding": "1.25rem 0",
+        "margin": "2rem 0 2.75rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts dt",
+      "properties": {
+        "font-size": ".875rem",
+        "margin-bottom": ".35rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts dd",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".columns",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "repeat(2,minmax(0,1fr))",
+        "gap": "3rem",
+        "margin-bottom": "2.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".columns+ h3",
+      "properties": {
+        "margin-top": ".5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "#brief>p:not(.lead)",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".subtle",
+      "properties": {
+        "font-size": ".9375rem",
+        "color": "var(--muted)",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".context-note",
+      "properties": {
+        "border-left": "3px solid var(--accent)",
+        "padding-left": "1rem",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "text-transform": "uppercase",
+        "letter-spacing": ".055em",
+        "margin-bottom": ".65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".proof-state",
+      "properties": {
+        "font-size": "1rem",
+        "color": "var(--muted)",
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".permalink",
+      "properties": {
+        "font-size": ".875rem",
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".deliverable",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(0,.85fr) minmax(0,1.4fr)",
+        "gap": "2.5rem",
+        "border-top": "1px solid var(--line)",
+        "padding": "1.65rem 0",
+        "scroll-margin-top": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".deliverable h3",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen",
+      "properties": {
+        "background": "var(--specimen)",
+        "border-top": "5px solid var(--accent)",
+        "padding": "1.75rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "2rem",
+        "margin-bottom": "1.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dl",
+      "properties": {
+        "display": "grid",
+        "gap": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dl>div",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(0,.7fr) minmax(0,1.5fr)",
+        "gap": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dt",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".04em",
+        "font-size": ".875rem",
+        "font-weight": "700",
+        "color": "var(--ink)",
+        "padding-top": ".2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dd",
+      "properties": {
+        "font-size": "1rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "margin-top": ".75rem",
+        "font-size": ".875rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "cursor": "pointer",
+        "min-height": "2.75rem",
+        "padding": ".4rem 0",
+        "color": "var(--accent)",
+        "text-decoration": "underline",
+        "text-underline-offset": ".2em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record",
+      "properties": {
+        "font-size": ".875rem",
+        "line-height": "1.5",
+        "display": "grid",
+        "gap": ".4rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record>div",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "7.5rem minmax(0,1fr)",
+        "gap": ".75rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record dt",
+      "properties": {
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record dd",
+      "properties": {
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "border-collapse": "collapse",
+        "width": "100%",
+        "margin-top": "2rem",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th",
+      "properties": {
+        "text-align": "left",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th,.stages td",
+      "properties": {
+        "border-bottom": "1px solid var(--line)",
+        "padding": "1.1rem .5rem",
+        "vertical-align": "top"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages thead th",
+      "properties": {
+        "color": "var(--muted)",
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.5rem",
+        "width": "26%"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td:last-child",
+      "properties": {
+        "width": "17%"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th:first-child",
+      "properties": {
+        "padding-left": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th span",
+      "properties": {
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".inputs-heading",
+      "properties": {
+        "margin-top": "2.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "3.5rem minmax(0,1fr)",
+        "gap": "1rem",
+        "border-bottom": "1px solid var(--line)",
+        "padding": "1.1rem 0",
+        "scroll-margin-top": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".ref",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "color": "var(--accent)",
+        "font-size": "1.7rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row .subtle",
+      "properties": {
+        "margin-top": ".4rem",
+        "font-size": ".9375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "3.5rem minmax(0,1fr) 6rem",
+        "gap": "1.25rem",
+        "border-top": "1px solid var(--line)",
+        "padding": "1.75rem 0",
+        "scroll-margin-top": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "1.65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row .permalink",
+      "properties": {
+        "margin": "0",
+        "padding-top": ".4rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row .record",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes",
+      "properties": {
+        "border-top": "3px solid var(--accent)",
+        "padding-top": "1.5rem",
+        "margin-top": "1rem",
+        "margin-bottom": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes h3",
+      "properties": {
+        "font-size": "1.65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes .record",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer",
+      "properties": {
+        "display": "flex",
+        "gap": "2rem",
+        "justify-content": "space-between",
+        "border-top": "1px solid var(--line)",
+        "padding-top": "1rem",
+        "font-size": ".875rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer p",
+      "properties": {
+        "max-width": "75ch"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer>a",
+      "properties": {
+        "flex-shrink": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "position": "fixed",
+        "z-index": "10",
+        "left": "1rem",
+        "top": "-10rem",
+        "padding": ".7rem 1rem",
+        "background": "white",
+        "border": "2px solid var(--accent)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "top": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".sr-only",
+      "properties": {
+        "position": "absolute",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "clip-path": "inset(50%)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ":target:not(.chapter)",
+      "properties": {
+        "outline": "2px solid var(--accent)",
+        "outline-offset": "5px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "grid-template-columns": "11rem minmax(0,1fr)",
+        "gap": "2.25rem",
+        "padding": "2rem"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index",
+      "properties": {
+        "padding-right": "1rem",
+        "top": "2rem",
+        "min-height": "calc(100vh - 4rem)"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".columns",
+      "properties": {
+        "gap": "2rem"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".deliverable",
+      "properties": {
+        "grid-template-columns": "minmax(0,1fr)",
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts",
+      "properties": {
+        "grid-template-columns": "1fr 1fr"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row",
+      "properties": {
+        "grid-template-columns": "3rem minmax(0,1fr)"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row .permalink",
+      "properties": {
+        "grid-column": "2"
+      },
+      "context": "@media (max-width:70rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "display": "block",
+        "padding": "1.5rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index",
+      "properties": {
+        "position": "static",
+        "min-height": "0",
+        "border-right": "0",
+        "border-bottom": "1px solid var(--line)",
+        "padding": "0 0 1.25rem",
+        "margin-bottom": "2rem",
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index nav",
+      "properties": {
+        "flex-direction": "row",
+        "flex-wrap": "wrap",
+        "gap": ".25rem 1.5rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index nav a",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".rail-note",
+      "properties": {
+        "display": "flex",
+        "gap": "1rem",
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".rail-note p+p",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chapter",
+      "properties": {
+        "scroll-margin-top": "1rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chapter+.chapter",
+      "properties": {
+        "padding-top": "2.5rem",
+        "min-height": "0"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "3.5rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "3rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "margin-bottom": "1.5rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "padding": "1.25rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta p+p",
+      "properties": {
+        "margin-top": ".5rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "2.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "2.6rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".columns,.facts",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts",
+      "properties": {
+        "margin": "1.5rem 0 2rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".deliverable",
+      "properties": {
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen",
+      "properties": {
+        "padding": "1.25rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dl>div",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": ".3rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "1.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record>div",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "0"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row",
+      "properties": {
+        "grid-template-columns": "3.5rem minmax(0,1fr)",
+        "gap": ".75rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "font-size": ".9375rem",
+        "table-layout": "fixed"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "1.2rem",
+        "width": "25%"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td:last-child",
+      "properties": {
+        "width": "24%"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td",
+      "properties": {
+        "padding-inline": ".35rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th span",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer>a",
+      "properties": {
+        "display": "inline-block",
+        "margin-top": "1rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row",
+      "properties": {
+        "grid-template-columns": "3.5rem minmax(0,1fr)"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes",
+      "properties": {
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".subheading",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.02em",
+        "margin-bottom": ".65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source-label",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "margin-bottom": ".6rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".layout",
+      "properties": {
+        "padding": "1rem"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row,.input-row",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row>.ref,.input-row>.ref",
+      "properties": {
+        "margin-bottom": ".6rem"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row .permalink",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages,.stages tbody,.stages tr,.stages th,.stages td",
+      "properties": {
+        "display": "block",
+        "width": "100%"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "table-layout": "auto"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages thead",
+      "properties": {
+        "position": "absolute",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "clip-path": "inset(50%)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody tr",
+      "properties": {
+        "border-top": "1px solid var(--line)",
+        "padding": "1rem 0"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th,.stages td",
+      "properties": {
+        "border": "0",
+        "padding": ".3rem 0"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th span",
+      "properties": {
+        "display": "inline"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td:last-child",
+      "properties": {
+        "color": "var(--muted)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td:last-child::before",
+      "properties": {
+        "content": "\"Estimate: \"",
+        "font-weight": "700"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2rem,9vw,2.8rem)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(2rem,8vw,2.6rem)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".skip:not(:focus)",
+      "properties": {
+        "clip-path": "inset(50%)",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "white-space": "nowrap",
+        "padding": "0",
+        "border": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    }
+  ],
+  "responsive": [
+    "@media (max-width:70rem)",
+    "@media (max-width:52rem),(max-height:40rem)",
+    "@media (max-width:38rem)",
+    "@media screen and (max-width:38rem)"
+  ],
+  "typography": [
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "font-size": "11pt",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "38pt",
+        "letter-spacing": "-.03em"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "31pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h4",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "13pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".facts dt,.subtle",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".facts dd",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".deliverable h3",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dt",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".specimen dd",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".record",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".proof-state",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".stages thead th",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".input-row p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".input-row .subtle",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".ref",
+      "properties": {
+        "font-size": "19pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".outcomes h3",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".outcomes p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".document-footer",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".context-note",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".subheading",
+      "properties": {
+        "font-size": "20pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source-label",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ":root",
+      "properties": {
+        "font-family": "Arimo,Arial,sans-serif",
+        "font-size": "100%"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "font-size": "1.125rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3,h4",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "line-height": "1.12",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(3.5rem,5.6vw,5.5rem)",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(3rem,4.5vw,4.5rem)",
+        "letter-spacing": "-.035em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.02em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h4",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".identity",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.4rem",
+        "font-weight": "700",
+        "line-height": "1.2"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav a",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.3rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "nav span",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".rail-note",
+      "properties": {
+        "font-size": ".875rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-meta p:first-child",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".07em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.4rem",
+        "line-height": "1.45"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts dt",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".facts dd",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".subtle",
+      "properties": {
+        "font-size": ".9375rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".context-note",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".eyebrow",
+      "properties": {
+        "font-size": ".875rem",
+        "text-transform": "uppercase",
+        "letter-spacing": ".055em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".proof-state",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".permalink",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".deliverable h3",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dt",
+      "properties": {
+        "text-transform": "uppercase",
+        "letter-spacing": ".04em",
+        "font-size": ".875rem",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen dd",
+      "properties": {
+        "font-size": "1rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record",
+      "properties": {
+        "font-size": ".875rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".record dt",
+      "properties": {
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages th",
+      "properties": {
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages thead th",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.5rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".ref",
+      "properties": {
+        "font-family": "Georgia,\"Times New Roman\",serif",
+        "font-size": "1.7rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".input-row .subtle",
+      "properties": {
+        "font-size": ".9375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "1.65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes h3",
+      "properties": {
+        "font-size": "1.65rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".outcomes p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".document-footer",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".index nav a",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "3.5rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "3rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:52rem),(max-height:40rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "2.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "2.6rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".specimen h4",
+      "properties": {
+        "font-size": "1.8rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".decision-row h3",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages",
+      "properties": {
+        "font-size": ".9375rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".subheading",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.02em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source-label",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages tbody th",
+      "properties": {
+        "font-size": "1.5rem"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".stages td:last-child::before",
+      "properties": {
+        "font-weight": "700"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2rem,9vw,2.8rem)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(2rem,8vw,2.6rem)"
+      },
+      "context": "@media screen and (max-width:38rem)",
+      "source": "styles/screen.css"
+    }
+  ],
+  "headings": [
+    "The engagement",
+    "What is outside scope",
+    "What this proposal can show",
+    "Inputs needed before drafting",
+    "Engagement approval",
+    "Outcome evidence"
+  ],
+  "ids": [
+    "main",
+    "brief",
+    "brief-title",
+    "approval",
+    "outcome"
+  ],
+  "assets": [
+    "fonts/arimo/Arimo-Bold.woff2",
+    "fonts/arimo/Arimo-Regular.woff2"
+  ],
+  "assetPolicy": null,
+  "contentFiles": [
+    "content/proposal.json",
+    "fonts/arimo/provenance.json"
+  ],
+  "renderedPreview": null
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "five-frame-evidence-story",
+  "version": "0.2.1",
+  "name": "Five Frames",
+  "summary": "A portfolio identity that makes a compact argument through five deliberate frames, each carrying one job.",
+  "category": "Portfolio & career",
+  "tags": [
+    "presentation",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "five-frame-evidence-story"
+  ],
+  "sourceTemplateNames": {
+    "five-frame-evidence-story": "Five-Frame Evidence Story"
+  },
+  "templateVariations": [
+    {
+      "templateId": "five-frame-evidence-story",
+      "name": "Five-Frame Evidence Story",
+      "format": "presentation",
+      "sourceHash": "e14960db54630b40a6128db0b8ca3b42e7791e8a98c210160ba451b1c736e7f8",
+      "foundationSha256": "91f40da4150e026dc559328e248e02ad42d3bb245ab4dfb1f798b4be0bd326aa",
+      "designSpecSha256": "288ad50b9408e67dc8c81b448f05b738cfcbbd63c39e115ebf711fa9924490f2",
+      "referenceDirectory": "references/five-frame-evidence-story"
+    }
+  ],
+  "sourceHash": "e14960db54630b40a6128db0b8ca3b42e7791e8a98c210160ba451b1c736e7f8",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F4F1E8",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#153B46",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#153B46",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#E6BE57",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source slide 5 / f5_title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 5 / f5_footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 5 / f5_title.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "five-frame-evidence-story",
+      "sourceFingerprint": "e14960db54630b40a6128db0b8ca3b42e7791e8a98c210160ba451b1c736e7f8"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 5 / f5_footer.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "five-frame-evidence-story",
+      "sourceFingerprint": "e14960db54630b40a6128db0b8ca3b42e7791e8a98c210160ba451b1c736e7f8"
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for the central proposition and Avenir for evidence and navigation.",
+    "Keep the five-frame sequence explicit in page labels.",
+    "Use dark teal, warm paper and a restrained gold marker.",
+    "Give each frame one focal statement, one supporting element and a visible qualification."
+  ],
+  "writingLinks": [
+    {
+      "id": "V23",
+      "name": "Conversational micro-essay",
+      "reason": "A compact arc from proposition to proof to invitation.",
+      "sourceTemplateId": "five-frame-evidence-story",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "One proposition. Five frames. Enough evidence to begin a conversation.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use FIVE FRAMES in Avenir beside five short aligned ticks, with only the current frame emphasized in applications. The mark itself stays neutral.",
+  "invariants": [
+    "Use Baskerville for the central proposition and Avenir for evidence and navigation.",
+    "Keep the five-frame sequence explicit in page labels.",
+    "Use dark teal, warm paper and a restrained gold marker."
+  ],
+  "adaptations": [
+    "A mobile sequence can use five stacked sections.",
+    "A one-page overview keeps the numbered order and short propositions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/five-frame-evidence-story.pdf",
+    "preview": "media/five-frame-evidence-story-guide.webp",
+    "markdown": "guides/five-frame-evidence-story.md"
+  },
+  "bundle": {
+    "href": "bundles/five-frame-evidence-story-brand-kit.zip",
+    "filename": "Five Frames brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/five-frame-evidence-story-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/five-frame-evidence-story-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/five-frame-evidence-story-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

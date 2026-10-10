@@ -1,0 +1,219 @@
+{
+  "profile": {
+    "id": "artist-exhibition",
+    "name": "Objects in Sequence",
+    "templateIds": [
+      "artist-exhibition"
+    ],
+    "category": "Arts & exhibition",
+    "summary": "A quiet exhibition identity that gives artwork, captions and chronology room to be read on their own terms.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#262823",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Identity emphasis",
+        "role": "primary",
+        "hex": "#8C3F25",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Secondary Text",
+        "role": "secondary-text",
+        "hex": "#62645D",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Structural rule",
+        "role": "rule",
+        "hex": "#A6A79F",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      }
+    ],
+    "typography": [
+      {
+        "role": "body",
+        "family": "Arimo,Arial,sans-serif",
+        "usage": "Retain source reading hierarchy; fallback is an explicit guide production choice where extraction is incomplete."
+      }
+    ],
+    "recognitionRules": [
+      "Use a restrained sans-serif masthead and broad white margins around work.",
+      "Keep image captions immediately attached to the corresponding object.",
+      "Make chronology a vertical sequence of date and event pairs.",
+      "Reserve rust for links; gray rules organize the catalogue without competing with images."
+    ],
+    "voice": {
+      "traits": [
+        "attentive",
+        "restrained",
+        "descriptive"
+      ],
+      "principles": [
+        "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Look closely. Read the note. Return to the work.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Look at the edge, then read the record.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use OBJECTS IN SEQUENCE as a small Arimo wordmark aligned to the image edge. No symbol: the consistent caption alignment is the identifying gesture.",
+    "invariants": [
+      "Use a restrained sans-serif masthead and broad white margins around work.",
+      "Keep image captions immediately attached to the corresponding object.",
+      "Make chronology a vertical sequence of date and event pairs."
+    ],
+    "adaptations": [
+      "A printed list can replace large images with numbered thumbnails.",
+      "Keep the same caption order when works change.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "artist-exhibition",
+      "displayName": "Artist Exhibition",
+      "format": "site",
+      "nameSignals": [
+        "Artist Exhibition"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "d0648cba0f1b276196d028bcbb6add9fb82d2a18837355641579f312f7563c79",
+      "evidence": [
+        "installed-skills/artifact-template-studio-artist-exhibition/SKILL.md",
+        "installed-skills/artifact-template-studio-artist-exhibition/DESIGN.md",
+        "installed-skills/artifact-template-studio-artist-exhibition/design/foundations.json",
+        "installed-skills/artifact-template-studio-artist-exhibition/assets/source"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-2",
+          "location": "styles/print.css:body",
+          "observation": "{'background': 'white', 'color': '#262823'}"
+        },
+        {
+          "id": "source-6",
+          "location": "styles/print.css:.masthead",
+          "observation": "{'min-height': '0', 'padding': '0 0 5mm'}"
+        },
+        {
+          "id": "source-53",
+          "location": "styles/screen.css:body",
+          "observation": "{'margin': '0'}"
+        },
+        {
+          "id": "source-63",
+          "location": "styles/screen.css:.masthead",
+          "observation": "{'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-between', 'gap': '2rem', 'align-items': 'center', 'min-height': '90px', 'border-bottom': '1px solid var(--line)', 'padding': '30px 0'}"
+        },
+        {
+          "id": "source-119",
+          "location": "styles/screen.css:.masthead",
+          "observation": "{'align-items': 'flex-start', 'flex-wrap': 'wrap', 'gap': '22px'}"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/artist-exhibition-desktop.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#262823",
+        "background": "#FFFFFF",
+        "contrastRatio": 14.89,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "artist-exhibition",
+      "name": "Artist Exhibition",
+      "format": "site",
+      "sourceHash": "d0648cba0f1b276196d028bcbb6add9fb82d2a18837355641579f312f7563c79",
+      "foundationSha256": "d6a4b5656b984ea002018180a89623c2400cf6de55c4506522a38691c74e47ac",
+      "designSpecSha256": "2b775c2893b39f7333428584aaad5dbf26d6bf1a1f1edd1054100671854a28c3",
+      "referenceDirectory": "references/artist-exhibition"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use OBJECTS IN SEQUENCE as a small Arimo wordmark aligned to the image edge. No symbol: the consistent caption alignment is the identifying gesture.",
+    "productionMethod": "Brand-specific outlined typography with caption-align source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Arimo",
+      "renderFamily": "Arimo",
+      "decision": "Exact licensed source family for the source role. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "body",
+      "usage": "Retain source reading hierarchy; fallback is an explicit guide production choice where extraction is incomplete.",
+      "sourceFamily": "Arimo,Arial,sans-serif",
+      "sourceFamilySelected": "Arimo",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "artist-exhibition",
+      "sourceFingerprint": "d0648cba0f1b276196d028bcbb6add9fb82d2a18837355641579f312f7563c79"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

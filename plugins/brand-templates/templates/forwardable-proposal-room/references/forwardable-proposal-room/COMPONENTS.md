@@ -1,0 +1,209 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `html` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'line-height': '1.4'}`.
+- `.layout` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'max-width': 'none', 'padding': '0'}`.
+- `.index,.skip,.permalink,.chapter>p:last-child>a,.document-footer>a` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.chapter` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'margin': '0', 'min-height': '0', 'break-before': 'page', 'border': '0'}`.
+- `.chapter:first-child` · `base` · `assets/source/styles/print.css`: `{'break-before': 'auto'}`.
+- `.chapter+.chapter` · `base` · `assets/source/styles/print.css`: `{'padding-top': '0'}`.
+- `.document-meta` · `base` · `assets/source/styles/print.css`: `{'margin-bottom': '18pt', 'font-size': '9pt'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '38pt', 'max-width': 'none', 'letter-spacing': '-.03em'}`.
+- `h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '31pt'}`.
+- `h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `h4` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.lead` · `base` · `assets/source/styles/print.css`: `{'font-size': '13pt', 'margin': '12pt 0 18pt'}`.
+- `.facts` · `base` · `assets/source/styles/print.css`: `{'margin': '18pt 0 24pt', 'padding': '12pt 0', 'grid-template-columns': '1fr 1.4fr 1fr'}`.
+- `.facts dt,.subtle` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.facts dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.columns` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr 1fr', 'gap': '20pt', 'margin-bottom': '22pt'}`.
+- `.deliverable` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': 'minmax(0,.85fr) minmax(0,1.4fr)', 'gap': '20pt', 'padding': '16pt 0', 'break-inside': 'avoid'}`.
+- `.deliverable h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.eyebrow` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.specimen` · `base` · `assets/source/styles/print.css`: `{'padding': '14pt', 'print-color-adjust': 'exact', '-webkit-print-color-adjust': 'exact'}`.
+- `.specimen h4` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt', 'margin-bottom': '12pt'}`.
+- `.specimen dl>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr', 'gap': '3pt'}`.
+- `.specimen dt` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.specimen dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.specimen dl` · `base` · `assets/source/styles/print.css`: `{'gap': '10pt'}`.
+- `.record` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.record>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '6rem minmax(0,1fr)', 'gap': '7pt'}`.
+- `.provenance` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.provenance summary` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '5pt 0', 'text-decoration': 'none'}`.
+- `.proof-state` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.stages` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'margin-top': '18pt'}`.
+- `.stages th,.stages td` · `base` · `assets/source/styles/print.css`: `{'padding': '12pt 5pt'}`.
+- `.stages tbody th` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.stages thead th` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.inputs-heading` · `base` · `assets/source/styles/print.css`: `{'margin-top': '24pt'}`.
+- `.input-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '42pt minmax(0,1fr)', 'gap': '10pt', 'padding': '12pt 0', 'break-inside': 'avoid'}`.
+- `.input-row p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.input-row .subtle` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.ref` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.decision-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '42pt minmax(0,1fr)', 'gap': '12pt', 'padding': '18pt 0', 'break-inside': 'avoid'}`.
+- `.decision-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.outcomes` · `base` · `assets/source/styles/print.css`: `{'padding-top': '15pt', 'break-inside': 'avoid'}`.
+- `.outcomes h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.outcomes p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.document-footer` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'font-size': '8pt', 'margin-top': '22pt', 'padding-top': '10pt'}`.
+- `a` · `base` · `assets/source/styles/print.css`: `{'color': 'inherit', 'text-decoration': 'none'}`.
+- `:target:not(.chapter)` · `base` · `assets/source/styles/print.css`: `{'outline': 'none'}`.
+- `h1,h2,h3,h4` · `base` · `assets/source/styles/print.css`: `{'break-after': 'avoid'}`.
+- `.context-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `thead` · `base` · `assets/source/styles/print.css`: `{'display': 'table-header-group'}`.
+- `tr` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.subheading` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.source-label` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `*` · `base` · `assets/source/styles/screen.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'font-size': '1.125rem', 'line-height': '1.5'}`.
+- `h1,h2,h3,h4,p,dl` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `h1,h2,h3,h4` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'line-height': '1.12', 'font-weight': '400', 'overflow-wrap': 'anywhere'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(3.5rem,5.6vw,5.5rem)', 'letter-spacing': '-.045em', 'max-width': '18ch'}`.
+- `h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(3rem,4.5vw,4.5rem)', 'letter-spacing': '-.035em'}`.
+- `h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'letter-spacing': '-.02em', 'margin-bottom': '.65rem'}`.
+- `h4` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem', 'margin-bottom': '.55rem'}`.
+- `p+ p` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.65rem'}`.
+- `a` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--accent)', 'text-underline-offset': '.22em', 'text-decoration-thickness': '1px', 'overflow-wrap': 'anywhere'}`.
+- `a:hover` · `base` · `assets/source/styles/screen.css`: `{'text-decoration-thickness': '2px'}`.
+- `a:focus-visible,summary:focus-visible` · `base` · `assets/source/styles/screen.css`: `{'outline': '3px solid var(--accent)', 'outline-offset': '5px'}`.
+- `p,dd,dt,td,th` · `base` · `assets/source/styles/screen.css`: `{'overflow-wrap': 'anywhere'}`.
+- `dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `dt` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--muted)'}`.
+- `.layout` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '13.75rem minmax(0,1fr)', 'gap': '4.25rem', 'max-width': '100rem', 'margin': 'auto', 'padding': '2.5rem 3rem'}`.
+- `.index` · `base` · `assets/source/styles/screen.css`: `{'position': 'sticky', 'top': '2.5rem', 'align-self': 'start', 'min-height': 'calc(100vh - 5rem)', 'border-right': '1px solid var(--line)', 'padding-right': '1.75rem', 'display': 'flex', 'flex-direction': 'column', 'gap': '3rem', 'min-width': '0'}`.
+- `.identity` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.4rem', 'font-weight': '700', 'line-height': '1.2'}`.
+- `.index .subtle` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.6rem'}`.
+- `nav` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '1.1rem'}`.
+- `nav a` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'gap': '.8rem', 'align-items': 'baseline', 'min-height': '2.75rem', 'padding': '.45rem 0', 'color': 'var(--ink)', 'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.3rem', 'text-decoration': 'none', 'border-bottom': '1px solid transparent'}`.
+- `nav a[aria-current="location"]` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--accent)', 'border-color': 'var(--accent)'}`.
+- `nav a:hover` · `base` · `assets/source/styles/screen.css`: `{'text-decoration': 'underline'}`.
+- `nav span` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.rail-note` · `base` · `assets/source/styles/screen.css`: `{'margin-top': 'auto', 'color': 'var(--muted)', 'font-size': '.875rem', 'line-height': '1.5'}`.
+- `.rail-note p+p` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.4rem'}`.
+- `main` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0'}`.
+- `main:focus` · `base` · `assets/source/styles/screen.css`: `{'outline': 'none'}`.
+- `.chapter` · `base` · `assets/source/styles/screen.css`: `{'padding': '0 0 4rem', 'scroll-margin-top': '2.5rem'}`.
+- `.chapter+.chapter` · `base` · `assets/source/styles/screen.css`: `{'border-top': '1px solid var(--line)', 'padding-top': '3.5rem', 'min-height': 'calc(100vh - 5rem)'}`.
+- `.document-meta` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'baseline', 'gap': '1rem', 'border-bottom': '1px solid var(--line)', 'padding-bottom': '.7rem', 'margin-bottom': '2rem', 'color': 'var(--muted)', 'font-size': '.875rem'}`.
+- `.document-meta p:first-child` · `base` · `assets/source/styles/screen.css`: `{'text-transform': 'uppercase', 'letter-spacing': '.07em'}`.
+- `.document-meta p+p` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `.lead` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.4rem', 'line-height': '1.45', 'margin-top': '1.1rem', 'margin-bottom': '1.75rem', 'max-width': '62ch'}`.
+- `.facts` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.4fr 1fr', 'gap': '1.5rem', 'border-block': '1px solid var(--line)', 'padding': '1.25rem 0', 'margin': '2rem 0 2.75rem'}`.
+- `.facts dt` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'margin-bottom': '.35rem'}`.
+- `.facts dd` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.columns` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'repeat(2,minmax(0,1fr))', 'gap': '3rem', 'margin-bottom': '2.5rem'}`.
+- `.columns+ h3` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.5rem'}`.
+- `#brief>p:not(.lead)` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '1rem'}`.
+- `.subtle` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.9375rem', 'color': 'var(--muted)', 'line-height': '1.5'}`.
+- `.context-note` · `base` · `assets/source/styles/screen.css`: `{'border-left': '3px solid var(--accent)', 'padding-left': '1rem', 'font-size': '1rem'}`.
+- `.eyebrow` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'color': 'var(--accent)', 'text-transform': 'uppercase', 'letter-spacing': '.055em', 'margin-bottom': '.65rem'}`.
+- `.proof-state` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'color': 'var(--muted)', 'margin-top': '1rem'}`.
+- `.permalink` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'margin-top': '1rem'}`.
+- `.deliverable` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,.85fr) minmax(0,1.4fr)', 'gap': '2.5rem', 'border-top': '1px solid var(--line)', 'padding': '1.65rem 0', 'scroll-margin-top': '2rem'}`.
+- `.deliverable h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `.specimen` · `base` · `assets/source/styles/screen.css`: `{'background': 'var(--specimen)', 'border-top': '5px solid var(--accent)', 'padding': '1.75rem'}`.
+- `.specimen h4` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'margin-bottom': '1.5rem'}`.
+- `.specimen dl` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'gap': '1rem'}`.
+- `.specimen dl>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,.7fr) minmax(0,1.5fr)', 'gap': '1.25rem'}`.
+- `.specimen dt` · `base` · `assets/source/styles/screen.css`: `{'text-transform': 'uppercase', 'letter-spacing': '.04em', 'font-size': '.875rem', 'font-weight': '700', 'color': 'var(--ink)', 'padding-top': '.2rem'}`.
+- `.specimen dd` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem', 'line-height': '1.5'}`.
+- `.provenance` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.75rem', 'font-size': '.875rem', 'color': 'var(--muted)'}`.
+- `summary` · `base` · `assets/source/styles/screen.css`: `{'cursor': 'pointer', 'min-height': '2.75rem', 'padding': '.4rem 0', 'color': 'var(--accent)', 'text-decoration': 'underline', 'text-underline-offset': '.2em'}`.
+- `.record` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'line-height': '1.5', 'display': 'grid', 'gap': '.4rem'}`.
+- `.record>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '7.5rem minmax(0,1fr)', 'gap': '.75rem'}`.
+- `.record dt` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `.record dd` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0'}`.
+- `.stages` · `base` · `assets/source/styles/screen.css`: `{'border-collapse': 'collapse', 'width': '100%', 'margin-top': '2rem', 'font-size': '1rem'}`.
+- `.stages th` · `base` · `assets/source/styles/screen.css`: `{'text-align': 'left', 'font-weight': '400'}`.
+- `.stages th,.stages td` · `base` · `assets/source/styles/screen.css`: `{'border-bottom': '1px solid var(--line)', 'padding': '1.1rem .5rem', 'vertical-align': 'top'}`.
+- `.stages thead th` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--muted)', 'font-size': '.875rem'}`.
+- `.stages tbody th` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'font-size': '1.5rem', 'width': '26%'}`.
+- `.stages td:last-child` · `base` · `assets/source/styles/screen.css`: `{'width': '17%'}`.
+- `.stages th:first-child` · `base` · `assets/source/styles/screen.css`: `{'padding-left': '0'}`.
+- `.stages th span` · `base` · `assets/source/styles/screen.css`: `{'color': 'var(--muted)'}`.
+- `.inputs-heading` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '2.5rem'}`.
+- `.input-row` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '3.5rem minmax(0,1fr)', 'gap': '1rem', 'border-bottom': '1px solid var(--line)', 'padding': '1.1rem 0', 'scroll-margin-top': '2rem'}`.
+- `.input-row p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.ref` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Georgia,"Times New Roman",serif', 'color': 'var(--accent)', 'font-size': '1.7rem'}`.
+- `.input-row .subtle` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '.4rem', 'font-size': '.9375rem'}`.
+- `.decision-row` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '3.5rem minmax(0,1fr) 6rem', 'gap': '1.25rem', 'border-top': '1px solid var(--line)', 'padding': '1.75rem 0', 'scroll-margin-top': '2rem'}`.
+- `.decision-row h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.65rem'}`.
+- `.decision-row .permalink` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'padding-top': '.4rem'}`.
+- `.decision-row .record` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '1rem'}`.
+- `.outcomes` · `base` · `assets/source/styles/screen.css`: `{'border-top': '3px solid var(--accent)', 'padding-top': '1.5rem', 'margin-top': '1rem', 'margin-bottom': '0'}`.
+- `.outcomes h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.65rem'}`.
+- `.outcomes p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.outcomes .record` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '1rem'}`.
+- `.document-footer` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'gap': '2rem', 'justify-content': 'space-between', 'border-top': '1px solid var(--line)', 'padding-top': '1rem', 'font-size': '.875rem', 'color': 'var(--muted)'}`.
+- `.document-footer p` · `base` · `assets/source/styles/screen.css`: `{'max-width': '75ch'}`.
+- `.document-footer>a` · `base` · `assets/source/styles/screen.css`: `{'flex-shrink': '0'}`.
+- `.skip` · `base` · `assets/source/styles/screen.css`: `{'position': 'fixed', 'z-index': '10', 'left': '1rem', 'top': '-10rem', 'padding': '.7rem 1rem', 'background': 'white', 'border': '2px solid var(--accent)'}`.
+- `.skip:focus` · `base` · `assets/source/styles/screen.css`: `{'top': '1rem'}`.
+- `.sr-only` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'overflow': 'hidden', 'clip-path': 'inset(50%)'}`.
+- `:target:not(.chapter)` · `base` · `assets/source/styles/screen.css`: `{'outline': '2px solid var(--accent)', 'outline-offset': '5px'}`.
+- `.layout` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '11rem minmax(0,1fr)', 'gap': '2.25rem', 'padding': '2rem'}`.
+- `.index` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'padding-right': '1rem', 'top': '2rem', 'min-height': 'calc(100vh - 4rem)'}`.
+- `.columns` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'gap': '2rem'}`.
+- `.deliverable` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '1.5rem'}`.
+- `.facts` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr 1fr'}`.
+- `.decision-row` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '3rem minmax(0,1fr)'}`.
+- `.decision-row .permalink` · `@media (max-width:70rem)` · `assets/source/styles/screen.css`: `{'grid-column': '2'}`.
+- `.layout` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'display': 'block', 'padding': '1.5rem'}`.
+- `.index` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'position': 'static', 'min-height': '0', 'border-right': '0', 'border-bottom': '1px solid var(--line)', 'padding': '0 0 1.25rem', 'margin-bottom': '2rem', 'gap': '1rem'}`.
+- `.index nav` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'flex-direction': 'row', 'flex-wrap': 'wrap', 'gap': '.25rem 1.5rem'}`.
+- `.index nav a` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem'}`.
+- `.rail-note` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'display': 'flex', 'gap': '1rem', 'flex-wrap': 'wrap'}`.
+- `.rail-note p+p` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `.chapter` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'scroll-margin-top': '1rem'}`.
+- `.chapter+.chapter` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'padding-top': '2.5rem', 'min-height': '0'}`.
+- `h1` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '3.5rem'}`.
+- `h2` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '3rem'}`.
+- `.lead` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.document-meta` · `@media (max-width:52rem),(max-height:40rem)` · `assets/source/styles/screen.css`: `{'margin-bottom': '1.5rem'}`.
+- `.layout` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'padding': '1.25rem'}`.
+- `.document-meta` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.document-meta p+p` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'margin-top': '.5rem'}`.
+- `h1` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '2.8rem'}`.
+- `h2` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '2.6rem'}`.
+- `h3` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.columns,.facts` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '1.5rem'}`.
+- `.facts` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'margin': '1.5rem 0 2rem'}`.
+- `.deliverable` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'gap': '1rem'}`.
+- `.specimen` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'padding': '1.25rem'}`.
+- `.specimen dl>div` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '.3rem'}`.
+- `.specimen h4` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.8rem'}`.
+- `.record>div` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '0'}`.
+- `.decision-row` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '3.5rem minmax(0,1fr)', 'gap': '.75rem'}`.
+- `.decision-row h3` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.6rem'}`.
+- `.stages` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '.9375rem', 'table-layout': 'fixed'}`.
+- `.stages tbody th` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.2rem', 'width': '25%'}`.
+- `.stages td:last-child` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'width': '24%'}`.
+- `.stages td` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'padding-inline': '.35rem'}`.
+- `.stages th span` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.document-footer` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.document-footer>a` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'inline-block', 'margin-top': '1rem'}`.
+- `.input-row` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '3.5rem minmax(0,1fr)'}`.
+- `.outcomes` · `@media (max-width:38rem)` · `assets/source/styles/screen.css`: `{'gap': '1.5rem'}`.
+- `.subheading` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'letter-spacing': '-.02em', 'margin-bottom': '.65rem'}`.
+- `.source-label` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.875rem', 'color': 'var(--accent)', 'margin-bottom': '.6rem'}`.
+- `.layout` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'padding': '1rem'}`.
+- `.decision-row,.input-row` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.decision-row>.ref,.input-row>.ref` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'margin-bottom': '.6rem'}`.
+- `.decision-row .permalink` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'margin-top': '1rem'}`.
+- `.stages,.stages tbody,.stages tr,.stages th,.stages td` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'block', 'width': '100%'}`.
+- `.stages` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'table-layout': 'auto'}`.
+- `.stages thead` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'overflow': 'hidden', 'clip-path': 'inset(50%)'}`.
+- `.stages tbody tr` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'border-top': '1px solid var(--line)', 'padding': '1rem 0'}`.
+- `.stages th,.stages td` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'border': '0', 'padding': '.3rem 0'}`.
+- `.stages tbody th` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem'}`.
+- `.stages th span` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'display': 'inline'}`.
+- `.stages td:last-child` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'color': 'var(--muted)'}`.
+- `.stages td:last-child::before` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'content': '"Estimate: "', 'font-weight': '700'}`.
+- `h1` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,9vw,2.8rem)'}`.
+- `h2` · `@media screen and (max-width:38rem)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2rem,8vw,2.6rem)'}`.
+- `.skip:not(:focus)` · `base` · `assets/source/styles/screen.css`: `{'clip-path': 'inset(50%)', 'width': '1px', 'height': '1px', 'overflow': 'hidden', 'white-space': 'nowrap', 'padding': '0', 'border': '0'}`.
+
+Media/font files: fonts/arimo/Arimo-Bold.woff2, fonts/arimo/Arimo-Regular.woff2.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

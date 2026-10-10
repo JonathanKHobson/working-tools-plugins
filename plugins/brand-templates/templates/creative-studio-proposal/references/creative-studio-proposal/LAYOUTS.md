@@ -1,0 +1,105 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: . Render modules: browser/enquiry.mjs, build.mjs, src/domain.mjs, src/guide.mjs, src/html.mjs, src/shell.mjs, src/together.mjs, src/validate.mjs, src/work.mjs, tests/contract.test.mjs.
+
+Section IDs: #enquiry-form, #aim, #no-js-enquiry, #enquiry-data, #main, #service-choices, #service-panels, #enquiry-title, #route-notice, #audience, #timing, #budget, #unknown-help, #clear-draft, #draft-status, #draft-result, #draft-title, #draft-text, #draft-print, #copy-draft, #download-draft, #work-title, #guide.
+
+Responsive scopes: @media (max-width:800px), @media (prefers-reduced-motion:no-preference).
+
+- `body` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `img` · `base` · `assets/source/styles/main.css`: `{'max-width': '100%', 'display': 'block'}`.
+- `figure,p,h1,h2,h3` · `base` · `assets/source/styles/main.css`: `{'margin': '0'}`.
+- `.wrap` · `base` · `assets/source/styles/main.css`: `{'max-width': '1600px'}`.
+- `.site-header` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '1.5rem'}`.
+- `.site-header nav` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '2.6rem'}`.
+- `.site-header nav a` · `base` · `assets/source/styles/main.css`: `{'padding': '.2rem 0'}`.
+- `.skip-link` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'padding': '.5rem'}`.
+- `.opening` · `base` · `assets/source/styles/main.css`: `{'position': 'relative'}`.
+- `.opening h1` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'max-width': '76%'}`.
+- `.intro` · `base` · `assets/source/styles/main.css`: `{'max-width': '40rem'}`.
+- `.planes` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'width': '37%', 'height': '13rem'}`.
+- `.planes i` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'position': 'absolute', 'width': '65%', 'height': '1.7rem'}`.
+- `.planes b` · `base` · `assets/source/styles/main.css`: `{'display': 'block', 'position': 'absolute', 'width': '26%', 'height': '11rem'}`.
+- `.work-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1.26fr 1fr', 'gap': '1.2rem', 'align-items': 'start'}`.
+- `.work-item>a` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block', 'min-height': '2.2rem'}`.
+- `.work-item img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': 'auto'}`.
+- `.site-footer>div` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.back-link` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-block', 'margin': '.15rem 0 .65rem'}`.
+- `.case-heading .subtitle` · `base` · `assets/source/styles/main.css`: `{'margin': '.15rem 0 .45rem'}`.
+- `.case-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '2.2fr 1fr', 'gap': '1.1rem', 'align-items': 'start'}`.
+- `.case-grid img` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'height': 'auto'}`.
+- `.scope-band` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '2.2fr 1fr', 'gap': '.6rem', 'align-items': 'stretch'}`.
+- `.scope-band>div` · `base` · `assets/source/styles/main.css`: `{'padding': '.6rem .8rem'}`.
+- `.button` · `base` · `assets/source/styles/main.css`: `{'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'padding': '.7rem 1rem', 'min-height': '2.7rem', 'gap': '.5rem'}`.
+- `.empty,.no-image` · `base` · `assets/source/styles/main.css`: `{'padding': '2rem'}`.
+- `.empty p,.no-image p+p` · `base` · `assets/source/styles/main.css`: `{'margin': '.5rem 0'}`.
+- `.no-image` · `base` · `assets/source/styles/main.css`: `{'min-height': '13rem', 'display': 'grid'}`.
+- `.site-header` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'gap': '.75rem'}`.
+- `.site-header nav` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'gap': '1.5rem'}`.
+- `.opening h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'max-width': '100%'}`.
+- `.planes` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.work-grid,.case-grid,.scope-band` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr'}`.
+- `.work-grid` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'gap': '1.5rem'}`.
+- `.case-rail` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'padding': '1rem 0 0'}`.
+- `.site-footer>div` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'flex-direction': 'column', 'gap': '.4rem'}`.
+- `[hidden]` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.sr-only` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'padding': '0', 'margin': '-1px'}`.
+- `.together-heading` · `base` · `assets/source/styles/main.css`: `{'margin': '.9rem 0 1.8rem'}`.
+- `.together-heading .intro` · `base` · `assets/source/styles/main.css`: `{'max-width': 'none'}`.
+- `.engagement-grid` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.08fr', 'gap': '3rem'}`.
+- `.service-choices` · `base` · `assets/source/styles/main.css`: `{'padding': '0', 'margin': '0 0 .8rem', 'display': 'flex', 'gap': '.6rem'}`.
+- `.service-choices label` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'min-width': '10rem'}`.
+- `.service-choices input` · `base` · `assets/source/styles/main.css`: `{'position': 'absolute', 'margin': '0'}`.
+- `.service-choices span` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'center', 'padding': '.75rem', 'min-height': '3rem', 'height': '100%'}`.
+- `.service-panel` · `base` · `assets/source/styles/main.css`: `{'padding': '1.4rem 1.5rem'}`.
+- `.service-panel .fit` · `base` · `assets/source/styles/main.css`: `{'margin': '.4rem 0 1.2rem'}`.
+- `.service-panel ul` · `base` · `assets/source/styles/main.css`: `{'padding': '0', 'margin': '0'}`.
+- `.enquiry label` · `base` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.enquiry textarea,.enquiry input` · `base` · `assets/source/styles/main.css`: `{'width': '100%', 'padding': '.55rem .65rem'}`.
+- `.enquiry textarea` · `base` · `assets/source/styles/main.css`: `{'min-height': '5.5rem'}`.
+- `.field-pair` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '.75rem'}`.
+- `.help` · `base` · `assets/source/styles/main.css`: `{'margin': '.4rem 0 .7rem'}`.
+- `.actions` · `base` · `assets/source/styles/main.css`: `{'display': 'flex', 'gap': '.7rem'}`.
+- `.draft-note,.no-js-guide` · `base` · `assets/source/styles/main.css`: `{'padding': '1rem 1.2rem'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/main.css`: `{'min-height': '18rem'}`.
+- `.notice` · `base` · `assets/source/styles/main.css`: `{'padding': '.5rem'}`.
+- `.author-guide` · `base` · `assets/source/styles/main.css`: `{'max-width': '58rem'}`.
+- `.author-guide section` · `base` · `assets/source/styles/main.css`: `{'margin': '2rem 0'}`.
+- `.author-guide li` · `base` · `assets/source/styles/main.css`: `{'margin': '.45rem 0'}`.
+- `.engagement-grid` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr', 'gap': '2rem'}`.
+- `.field-pair` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'grid-template-columns': '1fr'}`.
+- `.service-panel` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'padding': '1.2rem'}`.
+- `.print-only` · `base` · `assets/source/styles/main.css`: `{'display': 'none'}`.
+- `.hero-heading` · `base` · `assets/source/styles/main.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,2.1fr) minmax(0,1fr)', 'gap': '1rem'}`.
+- `.hero-heading h1` · `base` · `assets/source/styles/main.css`: `{'max-width': 'none'}`.
+- `.hero-heading .planes` · `base` · `assets/source/styles/main.css`: `{'position': 'relative', 'width': '100%', 'height': '100%'}`.
+- `.hero-heading .planes i` · `base` · `assets/source/styles/main.css`: `{'width': '80%'}`.
+- `.hero-heading` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'display': 'block'}`.
+- `.wrap` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'max-width': 'none'}`.
+- `.site-header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 5mm'}`.
+- `.site-header nav,.skip-link,.planes` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.opening h1,.case-heading h1` · `base` · `assets/source/styles/print.css`: `{'max-width': '100%'}`.
+- `.intro` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.work-grid` · `base` · `assets/source/styles/print.css`: `{'gap': '6mm'}`.
+- `.work-item` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `.case-grid` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr 1.8fr'}`.
+- `.scope-band` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'break-inside': 'avoid'}`.
+- `.scope-band>div` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0'}`.
+- `.scope-band .button` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.site-footer` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.site-footer>div` · `base` · `assets/source/styles/print.css`: `{'gap': '4mm'}`.
+- `.engagement-grid` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.service-choices,.enquiry form,.enquiry .actions` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.service-panel` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0', 'break-inside': 'avoid'}`.
+- `.service-panel[hidden]` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.draft-note` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.no-js-guide` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'padding': '0'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/print.css`: `{'height': 'auto', 'min-height': '100mm'}`.
+- `.author-guide` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `.author-guide section` · `base` · `assets/source/styles/print.css`: `{'margin': '6mm 0'}`.
+- `.author-guide .button` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.draft-result textarea,.draft-result label` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.print-only` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.draft-note,.no-js-guide` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.

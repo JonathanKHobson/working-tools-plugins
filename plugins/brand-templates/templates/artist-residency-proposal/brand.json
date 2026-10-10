@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "artist-residency-proposal",
+  "version": "0.2.1",
+  "name": "Common Material",
+  "summary": "A residency proposal identity that combines a generous literary title with a clear, workable account of making and participation.",
+  "category": "Arts & exhibition",
+  "tags": [
+    "document",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "artist-residency-proposal"
+  ],
+  "sourceTemplateNames": {
+    "artist-residency-proposal": "Artist Residency Proposal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "artist-residency-proposal",
+      "name": "Artist Residency Proposal",
+      "format": "document",
+      "sourceHash": "bcb3116210af725ae38d50f9014e5e8ef18a3b896d9174cb6f75ebb25e6c1c56",
+      "foundationSha256": "1a7496354f493f18bd51a023e4a9343df27efaa26cd60b1910502d76757e31ec",
+      "designSpecSha256": "4db9fec307a823efeb7c8625f39cdc1f74d6ba2fb387fdc7a4be0b4856b93b77",
+      "referenceDirectory": "references/artist-residency-proposal"
+    }
+  ],
+  "sourceHash": "bcb3116210af725ae38d50f9014e5e8ef18a3b896d9174cb6f75ebb25e6c1c56",
+  "colors": [
+    {
+      "name": "Residency peach",
+      "role": "background",
+      "hex": "#FAE6D4",
+      "evidence": "Native reference.docx peach page ground confirmed in rendered cover; word/document.xml repeats #FAE6D4 working surfaces."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#302A3B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Warm table ground",
+      "role": "surface",
+      "hex": "#FFF7EE",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #FFF7EE; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Olive rule",
+      "role": "rule",
+      "hex": "#B8C26F",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #B8C26F; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Residency plum",
+      "role": "primary",
+      "hex": "#853D5A",
+      "evidence": "Native reference.docx word/styles.xml: style Metadata, style Heading2; text."
+    },
+    {
+      "name": "Reversed table labels",
+      "role": "reverse-text",
+      "hex": "#FFFFFF",
+      "evidence": "Native reference.docx word/document.xml: paragraph: Test, paragraph: Method, paragraph: Decision it informs; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Fraunces 72pt Soft",
+      "usage": "Residency proposition and chapter openings; keep the soft serif character."
+    },
+    {
+      "role": "body",
+      "family": "Alegreya Sans",
+      "usage": "Proposal narrative, practical requirements and schedules."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Residency proposition and chapter openings; keep the soft serif character.",
+      "sourceFamily": "Fraunces 72pt Soft",
+      "sourceFamilySelected": "Fraunces 72pt Soft",
+      "renderFamily": "Fraunces",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/fraunces/Fraunces-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a3674c1d4307bca94c54c4ed0dfefcbfab3c787e14a69345ab1e008970c94ccd"
+        },
+        "bold": {
+          "path": "assets/fonts/fraunces/Fraunces-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "b294902f297bc5fc1899524de5a9bc5cbd2955c7685351b2f3114943f855367a"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/fraunces/OFL.txt",
+      "licenseSha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family in the user's research kit; static guide instances use SOFT=100 and opsz=72 to reflect the source's Fraunces 72pt Soft label.",
+      "sourceTemplateId": "artist-residency-proposal",
+      "sourceFingerprint": "bcb3116210af725ae38d50f9014e5e8ef18a3b896d9174cb6f75ebb25e6c1c56"
+    },
+    {
+      "role": "body",
+      "usage": "Proposal narrative, practical requirements and schedules.",
+      "sourceFamily": "Alegreya Sans",
+      "sourceFamilySelected": "Alegreya Sans",
+      "renderFamily": "Alegreya Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10"
+        },
+        "bold": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "a3055a1893759bdbd7504bb22abc583769e7974c49353176eac0b03792c9fb8e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/alegreya-sans/OFL.txt",
+      "licenseSha256": "0677891e6a143f297350d260ad766ad33bfc18ed5fa4f213acf648d6b597ec1a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official static files are used.",
+      "sourceTemplateId": "artist-residency-proposal",
+      "sourceFingerprint": "bcb3116210af725ae38d50f9014e5e8ef18a3b896d9174cb6f75ebb25e6c1c56"
+    }
+  ],
+  "recognitionRules": [
+    "Use Fraunces display typography for the residency proposition and Alegreya Sans for delivery detail.",
+    "Keep the warm peach page ground, plum reading ink and a generous first-page title interval; the open painted vessel is supporting source artwork.",
+    "Separate the creative premise, participant experience and production requirements.",
+    "Treat the proposal as an invitation to review, not an announced residency."
+  ],
+  "writingLinks": [
+    {
+      "id": "V20",
+      "name": "Personal letter",
+      "reason": "An addressed proposal that combines owned artistic statements with practical plans.",
+      "sourceTemplateId": "artist-residency-proposal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A place to make, and time to notice what making changes.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use COMMON MATERIAL in the source’s soft Fraunces display face, with no symbol. Keep the wordmark text editable and provide a licensed substitute if the source font cannot travel.",
+  "invariants": [
+    "Use Fraunces display typography for the residency proposition and Alegreya Sans for delivery detail.",
+    "Keep the warm peach page ground, plum reading ink and a generous first-page title interval; the open painted vessel is supporting source artwork.",
+    "Separate the creative premise, participant experience and production requirements."
+  ],
+  "adaptations": [
+    "Use the display face sparingly in schedule-heavy pages.",
+    "Adapt the subject and location without changing the proposal’s reading hierarchy.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/artist-residency-proposal.pdf",
+    "preview": "media/artist-residency-proposal-guide.webp",
+    "markdown": "guides/artist-residency-proposal.md"
+  },
+  "bundle": {
+    "href": "bundles/artist-residency-proposal-brand-kit.zip",
+    "filename": "Common Material brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/artist-residency-proposal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/artist-residency-proposal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/artist-residency-proposal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

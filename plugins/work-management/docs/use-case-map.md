@@ -1,0 +1,16 @@
+# Work Management Studio: choose a workflow
+
+For capabilities, first requests and setup, read [Start here](../README.md). For a known task use the matching skill directly. Read its complete procedure and only the conditional support it calls for. A listed MCP or provider still needs current runtime verification.
+
+| Skill | Outcome and selection trigger |
+| --- | --- |
+| [evidence-review](../skills/evidence-review/SKILL.md) | Review a deliberately selected project checkpoint for portfolio evidence, feedback and decisions; create scoped claim cards with human review before saving private evidence. |
+| [find-skills](../skills/find-skills/SKILL.md) | Find and fill demonstrated ecosystem gaps using repositories, skills, plugins, research or proven project methods; security-review and integrate into existing Studios and Toolkits first. Use for requested audits, supplied candidates or recurring uncovered workflows. |
+| [focus-work](../skills/focus-work/SKILL.md) | Evaluate new ideas, compare directions, resolve competing priorities and define one shippable outcome. Use worker-delegation for a worker handoff, parallel-work for shared-checkout coordination and tool-workflow-routing for owner selection. |
+| [parallel-work](../skills/parallel-work/SKILL.md) | Coordinate opted-in parallel Codex tasks in one shared Git checkout using a bounded per-thread claim board. Use for an explicit shared-checkout coordination request or an already enabled project marker; ordinary work and Claude delegation do not use this native Codex board. |
+| [plugin-maintenance](../skills/plugin-maintenance/SKILL.md) | Audit, merge, split, validate and update maintained plugins while preserving full procedures and actual provider capabilities. |
+| [product-definition](../skills/product-definition/SKILL.md) | Turn a product idea or feature request into the smallest useful brief, buildable requirements, or developer-language translation. Use for MVP scope, PRDs, feature specs, acceptance criteria, or “what do developers call this?” requests. |
+| [project-structure](../skills/project-structure/SKILL.md) | Consult the owning architecture at the start of every new or continued project and when scope changes; choose or repair file boundaries only when the current work needs them. A requested one-off single-file artifact can stay single-file. |
+| [tool-workflow-routing](../skills/tool-workflow-routing/SKILL.md) | Explain Work Management Studio capabilities and getting started, or proactively choose the smallest relevant plugin, skill, app or MCP for a concrete task; consult project structure for new or continued projects and resolve provider overlap or missing capabilities. |
+| [work-handoff](../skills/work-handoff/SKILL.md) | Create a page on the shared site when Kyle wants to share or give an idea to someone, or prepare a shareable artifact or bounded handoff with source ownership, current state, decisions, next action and verification evidence. |
+| [worker-delegation](../skills/worker-delegation/SKILL.md) | Proactively delegate substantial independent work to Codex agents, Claude or another verified worker; use subagents for steps and separate chats for independent durable goals under current tool authorization. |

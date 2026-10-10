@@ -1,0 +1,117 @@
+{
+  "id": "neutral-discovery-guide",
+  "name": "One Recent Experience",
+  "summary": "A research-conversation identity that favors a concrete recent event over general opinions or leading questions.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Calibri",
+      "usage": "Titles and short section openings; source used style Subtitle."
+    },
+    {
+      "role": "body",
+      "family": "Calibri",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+    }
+  ],
+  "recognitionRules": [
+    "Use a plain Calibri document with a clear facilitator-copy label.",
+    "Put the time boundary and conversation scope near the title.",
+    "Separate primary questions from optional probes.",
+    "Leave note space between prompts and keep suggested interpretations out of participant-facing wording."
+  ],
+  "voice": {
+    "traits": [
+      "neutral",
+      "attentive",
+      "unhurried"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Tell me about the last time you did that.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use ONE RECENT EXPERIENCE as a small Calibri wordmark above a simple date line. No speech-bubble logo.",
+  "invariants": [
+    "Use a plain Calibri document with a clear facilitator-copy label.",
+    "Put the time boundary and conversation scope near the title.",
+    "Separate primary questions from optional probes."
+  ],
+  "adaptations": [
+    "A short interview may use fewer probes, keeping the same recent-event opening.",
+    "Participant versions remove facilitator-only notes.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

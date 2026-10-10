@@ -1,0 +1,133 @@
+{
+  "id": "social-campaign-concept",
+  "name": "Rivet Swap Collective",
+  "summary": "A neighborhood campaign identity with the urgency of pasted street graphics and a concrete invitation to keep clothes in use.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F8F2E5",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#181818",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#B92318",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#F5E333",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 9 / title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact statements over original punk-paper composition.",
+    "Keep red and yellow as loud interventions against black ink and warm paper.",
+    "Make the action and event details readable without relying on the decorative background.",
+    "Keep the swap offer, participation conditions and unconfirmed details separate."
+  ],
+  "voice": {
+    "traits": [
+      "energetic",
+      "neighborly",
+      "resourceful"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Keep it in circulation. Bring something wearable. Find something new to you.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use RIVET SWAP COLLECTIVE in condensed Impact with one off-center solid dot acting as a rivet. Avoid recycling arrows or an activist seal.",
+  "invariants": [
+    "Use Impact statements over original punk-paper composition.",
+    "Keep red and yellow as loud interventions against black ink and warm paper.",
+    "Make the action and event details readable without relying on the decorative background."
+  ],
+  "adaptations": [
+    "Social cards use one action per frame.",
+    "Street posters retain date, location and participation details even when the slogan is large.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

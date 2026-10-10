@@ -1,0 +1,257 @@
+{
+  "profile": {
+    "id": "creative-project-treatment",
+    "name": "The Last Key Studio",
+    "templateIds": [
+      "creative-project-treatment"
+    ],
+    "category": "Creative practice",
+    "summary": "A story-development identity that pairs a literary title with a production-readable account of premise, scenes and decisions.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#303030",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Treatment table",
+        "role": "surface",
+        "hex": "#F5F3EF",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #F5F3EF; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Title ink",
+        "role": "display-ink",
+        "hex": "#000000",
+        "evidence": "Native reference.docx word/styles.xml: style Title, style Heading2, style Heading1; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Source Serif 4 Display",
+        "usage": "Titles and short section openings; source used style Title."
+      },
+      {
+        "role": "body",
+        "family": "Source Sans 3",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style Metadata."
+      }
+    ],
+    "recognitionRules": [
+      "Use Source Serif 4 Display for the title and chapter openings.",
+      "Use Source Sans 3 for production detail and longer explanation.",
+      "Keep the story-in-one-breath summary near the opening.",
+      "Separate creative intention from practical requirements and unconfirmed production facts."
+    ],
+    "voice": {
+      "traits": [
+        "literary",
+        "economical",
+        "practical"
+      ],
+      "principles": [
+        "Let a concrete image or material action carry the opening; explain the work plainly afterward.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Begin with the moment that cannot stay the same.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid abstract manifestos that displace the actual work.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Begin with one thing you can make or inspect.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use THE LAST KEY in Source Serif 4 Display with a small STUDIO descriptor. No key pictogram; keep the narrative open to more than one story.",
+    "invariants": [
+      "Use Source Serif 4 Display for the title and chapter openings.",
+      "Use Source Sans 3 for production detail and longer explanation.",
+      "Keep the story-in-one-breath summary near the opening."
+    ],
+    "adaptations": [
+      "A new project may replace the title while retaining the serif/sans hierarchy.",
+      "A pitch extract includes premise, tone and the next production decision.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "creative-project-treatment",
+      "displayName": "Creative Project Treatment",
+      "format": "document",
+      "nameSignals": [
+        "The Last Key",
+        "The story in one breath",
+        "Three scenes",
+        "Visual references we will make",
+        "Sound and accessible delivery",
+        "Shot outline"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be",
+      "evidence": [
+        "installed-skills/artifact-template-studio-creative-project-treatment/SKILL.md",
+        "installed-skills/artifact-template-studio-creative-project-treatment/DESIGN.md",
+        "installed-skills/artifact-template-studio-creative-project-treatment/design/foundations.json",
+        "installed-skills/artifact-template-studio-creative-project-treatment/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 35, 'basedOn': None, 'font': 'Source Sans 3', 'sizePt': 11.5, 'bold': False, 'italic': False, 'color': '#303030', 'spaceBeforePt': 0.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': 15.0, 'lineSpacingMulti"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 9, 'basedOn': 'Normal', 'font': 'Source Serif 4 Display', 'sizePt': 23.0, 'bold': False, 'italic': False, 'color': '#000000', 'spaceBeforePt': 15.0, 'spaceAfterPt': 9.0, 'lineSpacingPt': 27.0,"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 3, 'basedOn': 'Normal', 'font': 'Source Sans 3', 'sizePt': 13.0, 'bold': True, 'italic': False, 'color': '#000000', 'spaceBeforePt': 12.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': 17.0, 'lineSpac"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Source Serif 4 Display', 'sizePt': 42.0, 'bold': False, 'italic': False, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 12.0, 'lineSpacingPt': 46.0, 'lineS"
+        },
+        {
+          "id": "source-5",
+          "location": "used style Subtitle",
+          "observation": "{'id': 'Subtitle', 'name': 'Subtitle', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Source Sans 3', 'sizePt': 12.0, 'bold': False, 'italic': False, 'color': '#303030', 'spaceBeforePt': 0.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': 15.0, 'lineSpaci"
+        }
+      ],
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/creative-project-treatment.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#303030",
+        "background": "#FFFFFF",
+        "contrastRatio": 13.2,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "creative-project-treatment",
+      "name": "Creative Project Treatment",
+      "format": "document",
+      "sourceHash": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be",
+      "foundationSha256": "24f6de11c7af4a14d177ef7d4c16bbc210ab89161ff1935d3c76d6479c367933",
+      "designSpecSha256": "5ecf23d30d0efeb786eed8aa8d10cb4d2afb862f9a641b96e0cae487f0dacb74",
+      "referenceDirectory": "references/creative-project-treatment"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use THE LAST KEY in Source Serif 4 Display with a small STUDIO descriptor. No key pictogram; keep the narrative open to more than one story.",
+    "productionMethod": "Brand-specific outlined typography with none source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Source Serif 4 Display",
+      "renderFamily": "Atlas Editorial Serif",
+      "decision": "Exact licensed source family for the source role. Uses the exact OFL Source Serif 4 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 280,
+      "secondaryWidthPx": 220,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Title.",
+      "sourceFamily": "Source Serif 4 Display",
+      "sourceFamilySelected": "Source Serif 4 Display",
+      "renderFamily": "Atlas Editorial Serif",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a47adba2edffa2055acbeb7dea0162256b87a926b9a3877231e1452abc7d0cc9"
+        },
+        "bold": {
+          "path": "assets/fonts/atlas-editorial-serif/AtlasEditorialSerif-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "81c7c1c7c7da666bc760ee88fbbfcf13da1453c110693491f6b8430054d0e7ee"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/atlas-editorial-serif/OFL.txt",
+      "licenseSha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Uses the exact OFL Source Serif 4 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "sourceTemplateId": "creative-project-treatment",
+      "sourceFingerprint": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Metadata.",
+      "sourceFamily": "Source Sans 3",
+      "sourceFamilySelected": "Source Sans 3",
+      "renderFamily": "Atlas Reader Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "5d69e6cdbda35cdfaabeb080c150c208602fe5b3d706a9695af4c2a79e28cd8a"
+        },
+        "bold": {
+          "path": "assets/fonts/atlas-reader-sans/AtlasReaderSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "c4614a244fc3305921e4d700a4309dd136d32dce1a066a59628755796149220e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/atlas-reader-sans/OFL.txt",
+      "licenseSha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Uses the exact OFL Source Sans 3 glyph source as static instances; family metadata is renamed to comply with the Reserved Font Name Source.",
+      "sourceTemplateId": "creative-project-treatment",
+      "sourceFingerprint": "947f3e25f7c959876976cbaccf64f1f0fdcad43d74f24d982c10cb5d20f3f1be"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

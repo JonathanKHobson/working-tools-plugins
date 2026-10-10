@@ -1,0 +1,302 @@
+{
+  "profile": {
+    "id": "applied-ai-workflow-case",
+    "name": "Trace Practice",
+    "templateIds": [
+      "applied-ai-workflow-case"
+    ],
+    "category": "Research & evidence",
+    "summary": "A technical case identity built around inspectable before-and-after work, explicit boundaries and an authored trace register.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Reading ground",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Rendered source page 1 white reading ground. Mint is a secondary/reversed source color, not the whole page background."
+      },
+      {
+        "name": "Reading ink",
+        "role": "text",
+        "hex": "#172D47",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Accent",
+        "role": "accent",
+        "hex": "#EAC16F",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Supporting field",
+        "role": "surface",
+        "hex": "#AADCDD",
+        "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+      },
+      {
+        "name": "Table row",
+        "role": "surface",
+        "hex": "#F1F5F7",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #F1F5F7; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Table rule",
+        "role": "rule",
+        "hex": "#C7D4DA",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #C7D4DA; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Mint support",
+        "role": "support",
+        "hex": "#EAF3F1",
+        "evidence": "Native direct run color #EAF3F1; retain for supporting/reversed areas rather than assuming page fill."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "IBM Plex Mono SmBld",
+        "usage": "Titles and short section openings; source used style Title."
+      },
+      {
+        "role": "body",
+        "family": "IBM Plex Sans",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style TableBody."
+      }
+    ],
+    "recognitionRules": [
+      "Use numbered sections to move from decision to inputs, comparison and complete trace.",
+      "Pair IBM Plex Sans explanations with mono labels for prompts, IDs and limits.",
+      "Keep the proposed output beside the baseline, giving qualifications equal prominence.",
+      "Use pale mint reading areas and gold as a bounded emphasis, never a success signal."
+    ],
+    "voice": {
+      "traits": [
+        "precise",
+        "candid",
+        "inspectable"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Show the instruction, the change and the limit that survived.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use TRACE PRACTICE in IBM Plex Sans with a small monospaced trace number aligned to the baseline. An open bracket is supporting punctuation, not a certification badge.",
+    "invariants": [
+      "Use numbered sections to move from decision to inputs, comparison and complete trace.",
+      "Pair IBM Plex Sans explanations with mono labels for prompts, IDs and limits.",
+      "Keep the proposed output beside the baseline, giving qualifications equal prominence."
+    ],
+    "adaptations": [
+      "For a short case, keep one comparison and its full qualification.",
+      "Expand the register independently of the opening narrative.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "applied-ai-workflow-case",
+      "displayName": "Applied AI Workflow Case",
+      "format": "document",
+      "nameSignals": [
+        "Can a draft assistant preserve the limits in a workshop information sheet?",
+        "01 / Decision and audience",
+        "02 / Inputs and boundaries",
+        "03 / Before and proposed after",
+        "04 / Drafting instruction and comparison rule",
+        "05 / Complete authored trace register"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "9da71d8ed9d641d7478043293b3034f78cf65acddc57aa9e666be07078292d0d",
+      "evidence": [
+        "installed-skills/artifact-template-studio-applied-ai-workflow-case/SKILL.md",
+        "installed-skills/artifact-template-studio-applied-ai-workflow-case/DESIGN.md",
+        "installed-skills/artifact-template-studio-applied-ai-workflow-case/design/foundations.json",
+        "installed-skills/artifact-template-studio-applied-ai-workflow-case/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 23, 'basedOn': None, 'font': 'IBM Plex Sans', 'sizePt': 11.5, 'bold': False, 'italic': False, 'color': '#172D47', 'spaceBeforePt': 0.0, 'spaceAfterPt': 6.0, 'lineSpacingPt': 15.0, 'lineSpacingMulti"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 8, 'basedOn': 'Normal', 'font': 'IBM Plex Mono SmBld', 'sizePt': 16.0, 'bold': False, 'italic': False, 'color': '#172D47', 'spaceBeforePt': 15.0, 'spaceAfterPt': 9.0, 'lineSpacingPt': 20.0, 'l"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'IBM Plex Sans', 'sizePt': 12.5, 'bold': True, 'italic': False, 'color': '#172D47', 'spaceBeforePt': 12.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': 16.0, 'lineSpac"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'IBM Plex Mono SmBld', 'sizePt': 24.0, 'bold': False, 'italic': False, 'color': '#172D47', 'spaceBeforePt': 0.0, 'spaceAfterPt': 14.0, 'lineSpacingPt': 28.0, 'lineSpac"
+        },
+        {
+          "id": "source-5",
+          "location": "used style Subtitle",
+          "observation": "{'id': 'Subtitle', 'name': 'Subtitle', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'IBM Plex Mono', 'sizePt': 10.5, 'bold': False, 'italic': False, 'color': '#172D47', 'spaceBeforePt': 0.0, 'spaceAfterPt': 10.0, 'lineSpacingPt': 13.0, 'lineSpac"
+        }
+      ],
+      "editorialSource": {
+        "overview": "An A4-length document with a 24 pt IBM Plex Mono SmBld title, numbered decision sections, and a single-column IBM Plex Sans body. Four native tables carry workflow and evidence registers. The source uses navy #172D47 text and separate pale fills for emphasis.",
+        "invariants": [
+          "Used named styles include Normal, Heading 1/2, Title, Subtitle, Caption, Table Body and Diagram. Heading 1 is 16 pt IBM Plex Mono SmBld with 15 pt before, 9 pt after and keep-with-next enabled.",
+          "The eight main section headings follow a 01 / through 08 / pattern. The subtitle's D11-A revision/date and the Northbank example are demonstration metadata.",
+          "The source body style is IBM Plex Sans 11.5 pt with 15 pt line spacing. The four native tables have explicit widths, borders and first-cell margins recorded in COMPONENTS.md."
+        ],
+        "adaptationChecks": [
+          "Apply named Heading 1 and Table Body styles when editing sections and registers; check section numbering and table fit after edits.",
+          "Inspect Diagram-style workflow lines for unwanted wrapping and render the complete document because pagination can change.",
+          "Replace demo identifiers and claims with supported project facts. Confirm permission if embedding or redistributing font files; the DOCX itself does not establish font licensing."
+        ]
+      },
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/applied-ai-workflow-case.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#172D47",
+        "background": "#FFFFFF",
+        "contrastRatio": 13.97,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "applied-ai-workflow-case",
+      "name": "Applied AI Workflow Case",
+      "format": "document",
+      "sourceHash": "9da71d8ed9d641d7478043293b3034f78cf65acddc57aa9e666be07078292d0d",
+      "foundationSha256": "ee2d80e223888457a1baa34371cf7cd83c63032f10bec8ad4cd6ea4829cd6f67",
+      "designSpecSha256": "c603c6941944ab0c967c0160c1a5170ad44086c92f9156957d39a3b5e37d0a33",
+      "referenceDirectory": "references/applied-ai-workflow-case"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use TRACE PRACTICE in IBM Plex Sans with a small monospaced trace number aligned to the baseline. An open bracket is supporting punctuation, not a certification badge.",
+    "productionMethod": "Brand-specific outlined typography with trace-bracket source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "IBM Plex Sans",
+      "renderFamily": "IBM Plex Sans",
+      "decision": "Exact licensed source family for the source role. Exact OFL family from IBM's official static TTF package; original static faces avoid variable-font instancing.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Title.",
+      "sourceFamily": "IBM Plex Mono SmBld",
+      "sourceFamilySelected": "IBM Plex Mono SmBld",
+      "renderFamily": "IBM Plex Mono",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "7c6fbddca4b700be918f5f6183d9bd4464fa427fe435f0b480d77fe2bb8c5a43"
+        },
+        "semibold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "f04d7c488ddf7d1fa99f2574efc3406ea4cbe17bb1af3a1ab960f84d0c96a172"
+        },
+        "bold": {
+          "path": "assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "74e5eedcfa4596497d34e19023cabdabd3a8c852b903007a5654a59591a72ffb"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/ibm-plex-mono/OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family from IBM's official static TTF package; semibold supports the source's IBM Plex Mono SmBld role.",
+      "sourceTemplateId": "applied-ai-workflow-case",
+      "sourceFingerprint": "9da71d8ed9d641d7478043293b3034f78cf65acddc57aa9e666be07078292d0d"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style TableBody.",
+      "sourceFamily": "IBM Plex Sans",
+      "sourceFamilySelected": "IBM Plex Sans",
+      "renderFamily": "IBM Plex Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/ibm-plex-sans/IBMPlexSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "975dcda37d80f038dcd143c22e33ca2d97a0cc5a929aace1c749153b0fe1afa5"
+        },
+        "semibold": {
+          "path": "assets/fonts/ibm-plex-sans/IBMPlexSans-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "a20caf8286023a6a7a85e40b1d2a4ae9fc3e3b1f9eda8f4c542dd4986af67bb1"
+        },
+        "bold": {
+          "path": "assets/fonts/ibm-plex-sans/IBMPlexSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "9e6c74a889a700d707613d24548fe4ffa6bc59559a0689d2cf9e133bdcdafb2f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/ibm-plex-sans/OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family from IBM's official static TTF package; original static faces avoid variable-font instancing.",
+      "sourceTemplateId": "applied-ai-workflow-case",
+      "sourceFingerprint": "9da71d8ed9d641d7478043293b3034f78cf65acddc57aa9e666be07078292d0d"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

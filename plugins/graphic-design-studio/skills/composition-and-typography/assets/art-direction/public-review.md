@@ -1,0 +1,3 @@
+# Public example review
+
+These three original fictional layouts were browser-rendered at 900×1100 and 390×844 for the public edition. At inspected views, all pages fit without horizontal overflow and preserve the fictional notice, source event facts, twelve workshops and distinct entry paths. The open grid keeps invitation spaces, the broadside groups subjects, and the time route groups weekdays. Rendered review did not approve these as real advertisements, establish audience comprehension, guarantee complete accessibility or certify physical print quality. Use [the worked comparative review](same-brief-visual-review.md) for a new brief and its counterexamples. Source-specific research limits remain in [the source ledger](sources.json) and [limits](unresolved.md).

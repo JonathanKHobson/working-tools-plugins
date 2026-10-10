@@ -1,0 +1,130 @@
+{
+  "id": "audience-routed-portfolio",
+  "name": "Routes of Work",
+  "summary": "A portfolio identity that lets different readers choose relevant evidence before committing to a full case study.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "body background in styles/site.css"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#161A23",
+      "evidence": "body color in styles/site.css"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#061CD1",
+      "evidence": ":root --blue; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Surface",
+      "role": "surface",
+      "hex": "#F3F4F7",
+      "evidence": ":root --sample; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Rule",
+      "role": "rule",
+      "hex": "#9DA6C2",
+      "evidence": ":root --rule; reusable role derives from source variable and usage"
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#595F73",
+      "evidence": ":root --muted; reusable role derives from source variable and usage"
+    }
+  ],
+  "typography": [
+    {
+      "role": "body",
+      "family": "Arimo,Arial,sans-serif",
+      "usage": "Reading text, supporting labels and detailed explanations; source body."
+    }
+  ],
+  "recognitionRules": [
+    "Keep the audience rail separate from the project list.",
+    "Use electric blue for navigation and selected routes on a white ground.",
+    "Build project rows from a strong name, concise metadata and a clear entry point.",
+    "Carry case subtitles and sample evidence in quiet gray fields."
+  ],
+  "voice": {
+    "traits": [
+      "direct",
+      "selective",
+      "helpful"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Choose what you need to see. Start with the work that answers it.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use ROUTES OF WORK as an Arimo wordmark with three short aligned route rules. Keep the rules open, not enclosed in an app icon.",
+  "invariants": [
+    "Keep the audience rail separate from the project list.",
+    "Use electric blue for navigation and selected routes on a white ground.",
+    "Build project rows from a strong name, concise metadata and a clear entry point."
+  ],
+  "adaptations": [
+    "On mobile, turn the audience rail into a simple ordered set of links.",
+    "Case pages retain the blue route back to the portfolio.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "body",
+      "sourceFamily": "Arimo,Arial,sans-serif",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

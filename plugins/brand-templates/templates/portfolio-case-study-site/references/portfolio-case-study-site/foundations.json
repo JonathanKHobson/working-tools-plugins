@@ -1,0 +1,2834 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "69ec8d06689d208bba1173af415b2c831600f398a2f85c15efdf205c59f6f7df",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "assets/request-state.svg": "f32f0b092946a683d18285037b42d0fcb47b808109de7a364481cf7976d5f36f",
+    "assets/selection-workspace.svg": "06db6e1c0f75570e2ea10ea5b1a044d1214379cc7ba397281f342e728a264c2c",
+    "index.html": "6ea61ac336cabc13b198bd8546466c1a5b08e906430e159bf3bfca77e12a71f9",
+    "scripts/build.mjs": "d9e62f102c33fdf8905bf1d08468f76b00c8aa02818b36ba16f641011e26ba0f",
+    "scripts/serve.mjs": "c213352112c8f7c62a3999b32d4845ed69897eff2aea38b5d6ccf3c215ef6902",
+    "src/domain.mjs": "69ea07c24339cdc9170dee30c247da042478245959ae21893316ddc606286688",
+    "src/main.js": "942427a9b5920485632649e116754d79360e06483d3a76be1429ccfb3b59b1e5",
+    "src/render.mjs": "fc475f2ed94a8a5d1c61a22a0b3e9f33f50c497eca7cb185050a4291448873aa",
+    "src/styles.css": "5abd11b21d658d4f773f21bcc7dfded7151d2e0b1370662a815088426a4a1f1a"
+  },
+  "css": [
+    "src/styles.css"
+  ],
+  "js": [
+    "src/domain.mjs",
+    "src/main.js",
+    "src/render.mjs"
+  ],
+  "html": [
+    "index.html"
+  ],
+  "variables": [
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--paper",
+      "value": "#f5f2ec"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--surface",
+      "value": "#e9e5dc"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--ink",
+      "value": "#292923"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--muted",
+      "value": "#5d5c53"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--accent",
+      "value": "#973b2b"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--rule",
+      "value": "#b8b4aa"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--focus",
+      "value": "#36594e"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--space",
+      "value": "8px"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--sans",
+      "value": "\"Avenir Next\",Avenir,system-ui,sans-serif"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--serif",
+      "value": "Baskerville,Georgia,serif"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "@media print",
+      "selector": ":root",
+      "name": "--paper",
+      "value": "#fff"
+    },
+    {
+      "source": "src/styles.css",
+      "context": "@media print",
+      "selector": ":root",
+      "name": "--surface",
+      "value": "#eeece6"
+    }
+  ],
+  "colors": [
+    "#fff",
+    "#f5f2ec",
+    "#e9e5dc",
+    "#292923",
+    "#5d5c53",
+    "#973b2b",
+    "#b8b4aa",
+    "#36594e",
+    "#d0cbbf",
+    "#161714cc",
+    "#eeece6"
+  ],
+  "selectors": [
+    "main",
+    ".artifact figcaption",
+    "h1",
+    "h2",
+    ".site-header",
+    ".case-nav",
+    ".case-lead",
+    ".project-label",
+    ".lead-row",
+    ".lead",
+    ".disclosure",
+    ".case-facts",
+    ".case-facts dt",
+    ".artifact",
+    ".specimen-stage",
+    ".specimen-stage>img",
+    ".context-section",
+    ".section-label",
+    ".artifact.secondary",
+    ".portrait .specimen-stage>img",
+    ".evidence-section",
+    ".evidence-register>li",
+    ".outcome-section",
+    ".outcome-grid",
+    ".reflection",
+    "#credits",
+    ".empty-specimen",
+    "body.dialog-open"
+  ],
+  "componentRules": [
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body.dialog-open",
+      "properties": {
+        "overflow": "hidden"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "[hidden]",
+      "properties": {
+        "display": "none"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1,h2,h3,p,figure",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1,h2",
+      "properties": {
+        "font-family": "var(--serif)",
+        "font-weight": "400",
+        "line-height": "1.08",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(3rem,6.6vw,6.5rem)",
+        "max-width": "1100px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(2rem,3.4vw,3.6rem)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.1rem",
+        "line-height": "1.35",
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button,a,summary",
+      "properties": {
+        "touch-action": "manipulation"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "inherit",
+        "text-decoration-thickness": "1px",
+        "text-underline-offset": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button",
+      "properties": {
+        "font": "inherit",
+        "color": "var(--ink)",
+        "background": "transparent",
+        "border": "1px solid var(--ink)",
+        "padding": ".5rem .85rem",
+        "min-height": "44px",
+        "cursor": "pointer"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button:hover",
+      "properties": {
+        "background": "var(--surface)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "button:disabled",
+      "properties": {
+        "color": "var(--muted)",
+        "border-color": "var(--rule)",
+        "cursor": "default"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ":focus-visible",
+      "properties": {
+        "outline": "3px solid var(--focus)",
+        "outline-offset": "5px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip:not(:focus)",
+      "properties": {
+        "position": "absolute",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "clip": "rect(0,0,0,0)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "position": "fixed",
+        "z-index": "20",
+        "top": "8px",
+        "left": "8px",
+        "padding": "12px",
+        "background": "var(--paper)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "max-width": "1440px",
+        "margin": "auto",
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "2rem",
+        "padding": "1.5rem 3rem",
+        "border-bottom": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1rem",
+        "letter-spacing": ".06em",
+        "font-weight": "650",
+        "text-decoration": "none",
+        "display": "flex",
+        "align-items": "center",
+        "min-height": "44px",
+        "white-space": "nowrap"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".brand span",
+      "properties": {
+        "color": "var(--accent)",
+        "margin-left": ".6rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav",
+      "properties": {
+        "display": "flex",
+        "gap": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav a",
+      "properties": {
+        "font-size": "1rem",
+        "text-decoration": "none",
+        "display": "flex",
+        "align-items": "center",
+        "min-height": "44px",
+        "border-bottom": "1px solid transparent"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav a:hover",
+      "properties": {
+        "border-color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "max-width": "1440px",
+        "margin": "auto",
+        "padding": "0 3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-lead",
+      "properties": {
+        "padding": "4rem 0 2.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": ".875rem",
+        "text-transform": "uppercase",
+        "letter-spacing": ".1em",
+        "margin-bottom": "1.5rem",
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead-row",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(0,1.4fr) minmax(0,1fr)",
+        "gap": "5rem",
+        "margin": "2rem 0 2.5rem",
+        "align-items": "start"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.3rem",
+        "line-height": "1.5",
+        "max-width": "42em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".disclosure",
+      "properties": {
+        "font-size": "1rem",
+        "color": "var(--muted)",
+        "border-left": "2px solid var(--accent)",
+        "padding-left": "1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts",
+      "properties": {
+        "margin": "0",
+        "display": "grid",
+        "grid-template-columns": "1.2fr 1fr 1fr",
+        "gap": "2rem",
+        "border-top": "1px solid var(--rule)",
+        "padding-top": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dt",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--muted)",
+        "margin-bottom": ".3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd",
+      "properties": {
+        "margin": "0",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd span",
+      "properties": {
+        "display": "block",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact",
+      "properties": {
+        "margin": "0 0 4.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage",
+      "properties": {
+        "position": "relative",
+        "background": "var(--surface)",
+        "padding": "3.5rem",
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "gap": "1.5rem",
+        "border": "1px solid #d0cbbf",
+        "min-width": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage>img",
+      "properties": {
+        "display": "block",
+        "width": "auto",
+        "max-width": "100%",
+        "height": "auto",
+        "max-height": "650px",
+        "object-fit": "contain"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".inspect",
+      "properties": {
+        "display": "inline-flex",
+        "align-items": "center",
+        "gap": "1.8rem",
+        "background": "var(--paper)",
+        "border": "1px solid var(--ink)",
+        "padding": ".5rem .9rem",
+        "text-decoration": "none",
+        "min-height": "44px",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".inspect:hover",
+      "properties": {
+        "background": "#fff"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(200px,1fr) minmax(0,2fr)",
+        "column-gap": "3rem",
+        "row-gap": ".5rem",
+        "padding-top": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-index",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "grid-column": "1",
+        "grid-row": "1"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption h3",
+      "properties": {
+        "grid-column": "1",
+        "grid-row": "2",
+        "font-size": "1.3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption",
+      "properties": {
+        "grid-column": "2",
+        "grid-row": "1/3",
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".contribution",
+      "properties": {
+        "grid-column": "2",
+        "font-size": "1rem",
+        "color": "var(--muted)",
+        "border-top": "1px solid var(--rule)",
+        "padding-top": ".8rem",
+        "margin-top": ".5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption>.source",
+      "properties": {
+        "grid-column": "2"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript",
+      "properties": {
+        "grid-column": "2"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript summary",
+      "properties": {
+        "cursor": "pointer",
+        "min-height": "44px",
+        "display": "list-item",
+        "padding": ".5rem 0",
+        "font-size": "1rem",
+        "text-decoration": "underline",
+        "text-underline-offset": "4px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript p",
+      "properties": {
+        "font-size": "1rem",
+        "padding": ".75rem 0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-section",
+      "properties": {
+        "margin": "4.5rem 0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-label",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "letter-spacing": ".1em",
+        "display": "block",
+        "margin-bottom": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-grid",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(0,1fr) minmax(0,1.25fr)",
+        "gap": "7rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p",
+      "properties": {
+        "font-size": "1.1rem",
+        "max-width": "45em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p+p",
+      "properties": {
+        "margin-top": "1.2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading strong",
+      "properties": {
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "minmax(0,1.3fr) minmax(0,1fr)",
+        "gap": "3rem",
+        "align-items": "center",
+        "padding-top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary .specimen-stage",
+      "properties": {
+        "padding": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary figcaption",
+      "properties": {
+        "display": "block",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary figcaption>*+*",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary .source",
+      "properties": {
+        "margin-top": ".8rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary .contribution",
+      "properties": {
+        "margin-top": "1.25rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".portrait .specimen-stage>img",
+      "properties": {
+        "width": "auto",
+        "max-width": "100%",
+        "max-height": "720px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".portrait.secondary",
+      "properties": {
+        "grid-template-columns": "minmax(0,1fr) minmax(0,1fr)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-section",
+      "properties": {
+        "border-top": "1px solid var(--ink)",
+        "padding": "2.5rem 0",
+        "margin": "1rem 0 3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1.25fr",
+        "gap": "7rem",
+        "margin-bottom": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro>p",
+      "properties": {
+        "font-size": "1.1rem",
+        "max-width": "45em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register",
+      "properties": {
+        "list-style": "none",
+        "padding": "0",
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register>li",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr 1fr",
+        "gap": "2.5rem",
+        "padding": "2rem 0",
+        "border-top": "1px solid var(--rule)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register h3",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--muted)",
+        "margin-bottom": ".6rem",
+        "font-weight": "500"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p.source",
+      "properties": {
+        "font-size": ".875rem",
+        "margin-top": ".75rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".note-id",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)",
+        "display": "block",
+        "margin-bottom": ".75rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-note h3",
+      "properties": {
+        "position": "absolute",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "clip": "rect(0,0,0,0)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-section",
+      "properties": {
+        "border-top": "1px solid var(--ink)",
+        "padding": "2.5rem 0 4rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-section>h2",
+      "properties": {
+        "max-width": "1000px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "repeat(3,minmax(0,1fr))",
+        "gap": "2.5rem",
+        "margin-top": "2.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid h3",
+      "properties": {
+        "font-size": "1rem",
+        "margin-bottom": ".75rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-family": "var(--serif)",
+        "font-size": "1.8rem",
+        "line-height": "1.3",
+        "max-width": "940px",
+        "margin-top": "3.5rem",
+        "padding-left": "1.5rem",
+        "border-left": "2px solid var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#credits",
+      "properties": {
+        "border-top": "1px solid var(--rule)",
+        "padding": "2.5rem 0 3rem",
+        "display": "grid",
+        "grid-template-columns": "1fr 1.25fr",
+        "gap": "7rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits",
+      "properties": {
+        "list-style": "none",
+        "margin": "0",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits li+li",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong,.credits span",
+      "properties": {
+        "display": "block",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong",
+      "properties": {
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits span",
+      "properties": {
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".provenance p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".provenance p+p",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".footer-actions",
+      "properties": {
+        "display": "flex",
+        "align-items": "center",
+        "gap": "1.5rem",
+        "flex-wrap": "wrap",
+        "margin-top": "1.5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".footer-actions>a",
+      "properties": {
+        "min-height": "44px",
+        "display": "inline-flex",
+        "align-items": "center",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen",
+      "properties": {
+        "border": "1px dashed var(--rule)",
+        "padding": "3rem",
+        "margin": "1rem 0 4rem",
+        "max-width": "1000px"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen>span",
+      "properties": {
+        "font-size": ".875rem",
+        "color": "var(--accent)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen h2",
+      "properties": {
+        "margin": "1rem 0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-evidence",
+      "properties": {
+        "border-top": "1px solid var(--rule)",
+        "padding-top": "1.5rem",
+        "max-width": "60em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "dialog",
+      "properties": {
+        "color": "var(--ink)",
+        "background": "var(--paper)",
+        "border": "1px solid var(--ink)",
+        "padding": "0",
+        "width": "min(1260px,calc(100% - 3rem))",
+        "max-width": "1260px",
+        "max-height": "92dvh",
+        "overflow": "auto"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "dialog::backdrop",
+      "properties": {
+        "background": "#161714cc"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "align-items": "start",
+        "gap": "1rem",
+        "padding": "1.5rem 2rem",
+        "border-bottom": "1px solid var(--rule)",
+        "position": "sticky",
+        "top": "0",
+        "background": "var(--paper)",
+        "z-index": "1"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head .section-label",
+      "properties": {
+        "font-size": ".875rem",
+        "margin-bottom": ".5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head h2",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head button",
+      "properties": {
+        "flex-shrink": "0"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-toolbar",
+      "properties": {
+        "padding": "1rem 2rem",
+        "display": "flex",
+        "align-items": "center",
+        "gap": "1.5rem",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport",
+      "properties": {
+        "background": "var(--surface)",
+        "overflow": "auto",
+        "max-height": "56dvh",
+        "min-height": "160px",
+        "margin": "0 2rem",
+        "display": "grid",
+        "place-items": "center"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport>img",
+      "properties": {
+        "display": "block",
+        "max-width": "100%",
+        "max-height": "56dvh",
+        "width": "auto",
+        "height": "auto"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport.actual-size",
+      "properties": {
+        "display": "block"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport.actual-size>img",
+      "properties": {
+        "width": "var(--native-width)",
+        "max-width": "none",
+        "max-height": "none",
+        "height": "auto"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading",
+      "properties": {
+        "padding": "1.5rem 2rem 2rem",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading p",
+      "properties": {
+        "max-width": "65em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading p+p",
+      "properties": {
+        "margin-top": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading h3",
+      "properties": {
+        "margin-top": "1.5rem",
+        "margin-bottom": ".5rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".image-error",
+      "properties": {
+        "font-size": "1rem",
+        "padding": "2rem",
+        "max-width": "40em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "padding": "1rem 2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "padding": "0 2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead-row,.context-grid,.section-intro,#credits",
+      "properties": {
+        "gap": "3rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage",
+      "properties": {
+        "padding": "2.5rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary",
+      "properties": {
+        "gap": "2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption",
+      "properties": {
+        "gap": ".5rem 2rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register>li,.outcome-grid",
+      "properties": {
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav",
+      "properties": {
+        "gap": "1.4rem"
+      },
+      "context": "@media (max-width:1000px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.5rem,10vw,4rem)",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "2.2rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".site-header",
+      "properties": {
+        "padding": "1rem 1.25rem",
+        "flex-direction": "column",
+        "gap": ".4rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav",
+      "properties": {
+        "justify-content": "space-between",
+        "gap": "1rem",
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "padding": "0 1.25rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-lead",
+      "properties": {
+        "padding": "2.5rem 0 2rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": ".875rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead-row",
+      "properties": {
+        "display": "block",
+        "margin": "1.5rem 0"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".disclosure",
+      "properties": {
+        "margin-top": "1.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts>div",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dt",
+      "properties": {
+        "margin-bottom": ".25rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd,.case-facts dt",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage",
+      "properties": {
+        "padding": "1rem",
+        "gap": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage>img",
+      "properties": {
+        "max-height": "none"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact",
+      "properties": {
+        "margin-bottom": "3rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption",
+      "properties": {
+        "display": "block",
+        "padding-top": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption>*+*",
+      "properties": {
+        "margin-top": ".75rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-section",
+      "properties": {
+        "margin": "3rem 0"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-grid,.section-intro,#credits",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-grid h2,.section-intro h2",
+      "properties": {
+        "margin-bottom": "1.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p,.section-intro>p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-label",
+      "properties": {
+        "margin-bottom": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary,.portrait.secondary",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary .specimen-stage",
+      "properties": {
+        "padding": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary figcaption",
+      "properties": {
+        "padding-top": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-section",
+      "properties": {
+        "padding-top": "2rem",
+        "margin-bottom": "1.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register>li,.outcome-grid",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "1.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register>li",
+      "properties": {
+        "padding": "1.5rem 0"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-section",
+      "properties": {
+        "padding-top": "2rem",
+        "padding-bottom": "2.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid",
+      "properties": {
+        "margin-top": "1.5rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-size": "1.6rem",
+        "margin-top": "2rem",
+        "padding-left": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#credits",
+      "properties": {
+        "padding": "2rem 0"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "margin-top": "2rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen",
+      "properties": {
+        "padding": "1.5rem",
+        "margin-bottom": "2rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "dialog",
+      "properties": {
+        "width": "calc(100% - 1rem)",
+        "max-height": "94dvh"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head",
+      "properties": {
+        "padding": "1rem",
+        "gap": ".5rem",
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head h2",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-toolbar",
+      "properties": {
+        "padding": "1rem",
+        "gap": "1rem",
+        "flex-wrap": "wrap"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport",
+      "properties": {
+        "margin": "0 1rem",
+        "max-height": "50dvh"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".viewer-viewport>img",
+      "properties": {
+        "max-height": "50dvh"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading",
+      "properties": {
+        "padding": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".portrait .specimen-stage>img",
+      "properties": {
+        "max-height": "none",
+        "width": "100%"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".site-header,.skip,.inspect,.footer-actions,dialog",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "body.dialog-open",
+      "properties": {
+        "overflow": "visible"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "padding": "0",
+        "max-width": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-lead",
+      "properties": {
+        "padding": "0 0 5mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "30pt",
+        "max-width": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "22pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": "8pt",
+        "margin-bottom": "4mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead-row",
+      "properties": {
+        "gap": "8mm",
+        "margin": "5mm 0",
+        "grid-template-columns": "1.3fr 1fr"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".disclosure",
+      "properties": {
+        "font-size": "9pt",
+        "padding-left": "4mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts",
+      "properties": {
+        "padding-top": "4mm",
+        "gap": "5mm",
+        "grid-template-columns": "1.2fr 1fr 1fr"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dt",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact",
+      "properties": {
+        "margin": "5mm 0 8mm",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage,.artifact.secondary .specimen-stage",
+      "properties": {
+        "padding": "6mm",
+        "gap": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-stage>img",
+      "properties": {
+        "max-height": "100mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".portrait .specimen-stage>img",
+      "properties": {
+        "max-height": "125mm",
+        "width": "auto"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.portrait",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1.1fr",
+        "gap": "7mm",
+        "align-items": "start"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.portrait figcaption",
+      "properties": {
+        "padding-top": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption",
+      "properties": {
+        "display": "block",
+        "padding-top": "4mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption>*+*",
+      "properties": {
+        "margin-top": "2mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-index,.source,.artifact figcaption>.source",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption h3",
+      "properties": {
+        "font-size": "13pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption,.contribution",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".contribution",
+      "properties": {
+        "padding-top": "2mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript",
+      "properties": {
+        "margin-top": "2mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript summary",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript p",
+      "properties": {
+        "font-size": "9pt",
+        "padding": "1mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-section",
+      "properties": {
+        "margin": "8mm 0",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".context-grid,.section-intro,#credits",
+      "properties": {
+        "gap": "8mm",
+        "display": "grid",
+        "grid-template-columns": "1fr 1.25fr"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p+p",
+      "properties": {
+        "margin-top": "3mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-label",
+      "properties": {
+        "font-size": "8pt",
+        "margin-bottom": "4mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1.15fr 1fr",
+        "gap": "7mm",
+        "align-items": "start"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary figcaption>*+*",
+      "properties": {
+        "margin-top": "3mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact.secondary .contribution",
+      "properties": {
+        "margin-top": "3mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-section",
+      "properties": {
+        "margin": "6mm 0",
+        "padding": "6mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro",
+      "properties": {
+        "margin-bottom": "5mm",
+        "break-inside": "avoid",
+        "break-after": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-section:has(.empty-evidence)",
+      "properties": {
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro>p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register>li",
+      "properties": {
+        "grid-template-columns": "1fr 1fr 1fr",
+        "gap": "5mm",
+        "padding": "5mm 0",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register h3,.note-id",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p.source",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-section",
+      "properties": {
+        "padding": "6mm 0",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid",
+      "properties": {
+        "grid-template-columns": "repeat(3,1fr)",
+        "gap": "5mm",
+        "margin-top": "5mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid h3,.outcome-grid p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-size": "16pt",
+        "margin-top": "7mm",
+        "padding-left": "5mm"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "#credits",
+      "properties": {
+        "padding": "6mm 0",
+        "break-inside": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong,.credits span,.provenance p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".provenance",
+      "properties": {
+        "margin-top": "0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen",
+      "properties": {
+        "padding": "6mm",
+        "margin": "5mm 0"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-evidence",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2,h3",
+      "properties": {
+        "break-after": "avoid"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    }
+  ],
+  "responsive": [
+    "@media (max-width:1000px)",
+    "@media (max-width:650px)",
+    "@media print"
+  ],
+  "typography": [
+    {
+      "selector": ":root",
+      "properties": {
+        "font-family": "var(--sans)",
+        "font-size": "16px",
+        "line-height": "1.6"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1,h2",
+      "properties": {
+        "font-family": "var(--serif)",
+        "font-weight": "400",
+        "line-height": "1.08",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(3rem,6.6vw,6.5rem)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "clamp(2rem,3.4vw,3.6rem)"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "1.1rem",
+        "line-height": "1.35",
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1rem",
+        "letter-spacing": ".06em",
+        "font-weight": "650"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-nav a",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": ".875rem",
+        "text-transform": "uppercase",
+        "letter-spacing": ".1em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.3rem",
+        "line-height": "1.5"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".disclosure",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dt",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".inspect",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-index",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption h3",
+      "properties": {
+        "font-size": "1.3rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".contribution",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript summary",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-label",
+      "properties": {
+        "font-size": ".875rem",
+        "letter-spacing": ".1em"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading strong",
+      "properties": {
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro>p",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register h3",
+      "properties": {
+        "font-size": ".875rem",
+        "font-weight": "500"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p.source",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".note-id",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid h3",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-family": "var(--serif)",
+        "font-size": "1.8rem",
+        "line-height": "1.3"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong,.credits span",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong",
+      "properties": {
+        "font-weight": "600"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".provenance p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".footer-actions>a",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-specimen>span",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head .section-label",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head h2",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-toolbar",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-reading",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".image-error",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "clamp(2.5rem,10vw,4rem)"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "2.2rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": ".9rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": ".875rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p,.section-intro>p",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".dialog-head h2",
+      "properties": {
+        "font-size": "1.6rem"
+      },
+      "context": "@media (max-width:650px)",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ":root",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "30pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h2",
+      "properties": {
+        "font-size": "22pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": "h3",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".project-label",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".disclosure",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dt",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".case-facts dd",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".specimen-index,.source,.artifact figcaption>.source",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact figcaption h3",
+      "properties": {
+        "font-size": "13pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".artifact-caption,.contribution",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".transcript p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reading p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-label",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".section-intro>p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register h3,.note-id",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".evidence-register p.source",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".outcome-grid h3,.outcome-grid p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".reflection",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".credits strong,.credits span,.provenance p",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    },
+    {
+      "selector": ".empty-evidence",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "@media print",
+      "source": "src/styles.css"
+    }
+  ],
+  "headings": [
+    "",
+    "Specimen text",
+    "Add a specimen and name your contribution.",
+    "Observation",
+    "Decision influenced",
+    "Limit & source",
+    "Produced",
+    "Measured",
+    "Next check"
+  ],
+  "ids": [
+    "artifact-dialog",
+    "dialog-title",
+    "close-dialog",
+    "zoom-artifact",
+    "viewer-help",
+    "dialog-image",
+    "dialog-caption",
+    "dialog-source",
+    "dialog-transcript",
+    "overview",
+    "work",
+    "decisions",
+    "evidence",
+    "outcome",
+    "credits",
+    "print-case"
+  ],
+  "assets": [
+    "assets/request-state.svg",
+    "assets/selection-workspace.svg"
+  ],
+  "assetPolicy": "Original editable vectors for a fictional demonstration; no real user, client or shipped-product evidence.",
+  "contentFiles": [
+    "content/case.json"
+  ],
+  "renderedPreview": null,
+  "reviewedEditorial": {
+    "overview": "A single-page case study with a 1440 px content cap, warm paper #f5f2ec, ink #292923 and rust accent #973b2b. A serif hero leads into a paired lead/disclosure area, three-column facts, specimen stages, context, evidence, outcome and credits. An artifact dialog supports closer image inspection.",
+    "invariants": [
+      "Base colors are defined in :root variables in src/styles.css. The print scope overrides --paper to #fff and --surface to #eeece6; additional literal rule colors also exist and are documented by selector.",
+      "Headings use the Baskerville/Georgia serif stack; body uses the Avenir Next/Avenir/system-ui stack at 16 px and 1.6 line height. Actual installed faces can differ by viewer.",
+      "The source has responsive scopes at 1000 px and 650 px plus print rules. The main reading order runs from #overview through #work, #decisions, #evidence, #outcome and #credits."
+    ],
+    "adaptationChecks": [
+      "Inspect desktop, 1000 px and 650 px widths for the lead, facts and evidence grids, then check print pagination and image sizing.",
+      "Test the artifact dialog, zoom, keyboard close, visible focus, skip link, transcript disclosure and failed-image fallback after changes.",
+      "Keep specimen captions, source status and alt text tied to actual evidence. Confirm replacement asset rights; CSS system font stacks do not themselves establish licensing for redistributed font files."
+    ]
+  }
+}

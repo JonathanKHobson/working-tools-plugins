@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "event-programme-playbill",
+  "version": "0.2.1",
+  "name": "The Night Window",
+  "summary": "A performance identity that pairs a forceful title with a quiet programme readers can use before the lights go down.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "event-programme-playbill"
+  ],
+  "sourceTemplateNames": {
+    "event-programme-playbill": "Event Programme Playbill"
+  },
+  "templateVariations": [
+    {
+      "templateId": "event-programme-playbill",
+      "name": "Event Programme Playbill",
+      "format": "document",
+      "sourceHash": "9a0b7d89ac3bf34bb8ba54d7e7f1bfe8f2a69312c96640888c360b93f551b753",
+      "foundationSha256": "5e314be243c7235a41398e2e9b0f3d694f4993c622fdef3aa6efe4fd4bd1dd91",
+      "designSpecSha256": "b29b195bc32783ff2f3bded152fc6a431dacc04bd4fa7598461944a7d63cdc0e",
+      "referenceDirectory": "references/event-programme-playbill"
+    }
+  ],
+  "sourceHash": "9a0b7d89ac3bf34bb8ba54d7e7f1bfe8f2a69312c96640888c360b93f551b753",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Programme paper",
+      "role": "surface",
+      "hex": "#F2E8DC",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2E8DC; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme rule",
+      "role": "rule",
+      "hex": "#B5AAA2",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #B5AAA2; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme burgundy",
+      "role": "primary",
+      "hex": "#713B4B",
+      "evidence": "Native reference.docx word/styles.xml: style ProgrammeLabel; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Performance title and short front-cover statements."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Programme sequence, contextual notes and credits."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Performance title and short front-cover statements.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "event-programme-playbill",
+      "sourceFingerprint": "9a0b7d89ac3bf34bb8ba54d7e7f1bfe8f2a69312c96640888c360b93f551b753"
+    },
+    {
+      "role": "body",
+      "usage": "Programme sequence, contextual notes and credits.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "event-programme-playbill",
+      "sourceFingerprint": "9a0b7d89ac3bf34bb8ba54d7e7f1bfe8f2a69312c96640888c360b93f551b753"
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact for the performance title and Georgia for programme reading.",
+    "Keep cast, sequence and contextual notes in distinct text sections.",
+    "Give credits a clear hierarchy rather than shrinking them into a decorative footer.",
+    "Retain monochrome print legibility in folded formats.",
+    "Use burgundy programme labels with the black condensed title; retain the warm-paper supporting panels."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Theatrical programme that welcomes the audience and gives practical access information.",
+      "sourceTemplateId": "event-programme-playbill",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A window opens. Take your seat and follow the evening.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE NIGHT WINDOW as a narrow stacked Impact wordmark with one vertical gap between words. Avoid a literal window illustration.",
+  "invariants": [
+    "Use Impact for the performance title and Georgia for programme reading.",
+    "Keep cast, sequence and contextual notes in distinct text sections.",
+    "Give credits a clear hierarchy rather than shrinking them into a decorative footer."
+  ],
+  "adaptations": [
+    "A poster emphasizes title and time; a playbill expands sequence and credits.",
+    "Keep essential programme information readable in dim light.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/event-programme-playbill.pdf",
+    "preview": "media/event-programme-playbill-guide.webp",
+    "markdown": "guides/event-programme-playbill.md"
+  },
+  "bundle": {
+    "href": "bundles/event-programme-playbill-brand-kit.zip",
+    "filename": "The Night Window brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/event-programme-playbill-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/event-programme-playbill-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/event-programme-playbill-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

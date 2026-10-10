@@ -1,0 +1,146 @@
+{
+  "id": "recipe-collection",
+  "name": "The Shared Table",
+  "summary": "A recipe identity that pairs welcoming food writing with a repeatable structure for ingredients, preparation and serving.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#29251E",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Recipe working row",
+      "role": "surface",
+      "hex": "#E8E8E8",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #E8E8E8; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Recipe rust",
+      "role": "primary",
+      "hex": "#80412B",
+      "evidence": "Native reference.docx word/styles.xml: style RecipeLabel, style RecipeFolio; text."
+    },
+    {
+      "name": "Recipe green",
+      "role": "link",
+      "hex": "#264E48",
+      "evidence": "Native reference.docx word/styles.xml: style RecipeLink; text."
+    },
+    {
+      "name": "Recipe title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style RecipeHeader, style RecipeContents; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Rockwell",
+      "usage": "Recipe names and collection titles."
+    },
+    {
+      "role": "body",
+      "family": "Noto Sans",
+      "usage": "Ingredients, quantities, method and notes."
+    }
+  ],
+  "recognitionRules": [
+    "Use Rockwell recipe headings with Noto Sans instructions.",
+    "Keep ingredients separate from the ordered method.",
+    "Make yield and practical preparation notes easy to find.",
+    "Use generous white space so the page can be consulted while cooking.",
+    "Use rust collection labels and green recipe links, with black recipe headings and roomy ingredient/method areas."
+  ],
+  "voice": {
+    "traits": [
+      "generous",
+      "practical",
+      "appetizing"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Something bright for the table. A method you can follow as you cook.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE SHARED TABLE in Rockwell with a broad short underline. No fork-and-spoon crest.",
+  "invariants": [
+    "Use Rockwell recipe headings with Noto Sans instructions.",
+    "Keep ingredients separate from the ordered method.",
+    "Make yield and practical preparation notes easy to find."
+  ],
+  "adaptations": [
+    "A recipe card retains yield, ingredients and complete method.",
+    "A collection opener may add a short food story without interrupting the recipe structure.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Rockwell",
+      "renderFamily": "Zilla Slab",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/zilla-slab/ZillaSlab-Regular.ttf",
+      "bold": "assets/fonts/zilla-slab/ZillaSlab-Bold.ttf",
+      "license": "assets/fonts/zilla-slab/OFL.txt",
+      "sourceFontDependency": "Rockwell is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+      "bold": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+      "license": "assets/fonts/noto-sans/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

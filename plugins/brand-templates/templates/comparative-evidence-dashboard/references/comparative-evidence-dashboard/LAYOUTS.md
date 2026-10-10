@@ -1,0 +1,125 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: index.html. Render modules: src/domain.js, src/main.js, src/view.js.
+
+Section IDs: #loading, #load-error, #load-message, #retry, #app, #edition, #title, #description, #snapshot, #owner, #scope, #download, #print, #filter-panel, #pending, #filters, #program, #from, #through, #filter-error, #cancel, #reset, #announcement, #comparison.
+
+Responsive scopes: @media (max-width:1100px), @media (max-width:700px), @media print.
+
+- `body` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'padding': '.6rem .9rem', 'min-height': '44px'}`.
+- `h1,h2,h3,p` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `[hidden]` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.print-only` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.sr-only,.skip:not(:focus)` · `base` · `assets/source/src/styles.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px'}`.
+- `.skip:focus` · `base` · `assets/source/src/styles.css`: `{'position': 'fixed', 'padding': '.7rem'}`.
+- `.masthead` · `base` · `assets/source/src/styles.css`: `{'padding': '1rem max(2rem,calc((100vw - 1320px)/2))', 'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `main` · `base` · `assets/source/src/styles.css`: `{'max-width': '1384px', 'margin': 'auto', 'padding': '0 2rem'}`.
+- `main>*` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `.intro>*` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `.intro` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) 230px', 'gap': '4rem', 'padding': '3.8rem 0 3rem'}`.
+- `.description` · `base` · `assets/source/src/styles.css`: `{'max-width': '700px'}`.
+- `.stamp` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.4rem'}`.
+- `.scope-band` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '1rem', 'padding': '1rem 0'}`.
+- `.scope-band p` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.3rem', 'min-width': '0'}`.
+- `.actions` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.6rem'}`.
+- `#filter-panel>summary` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '1rem', 'align-items': 'center', 'padding': '.9rem 0', 'min-height': '48px'}`.
+- `summary::-webkit-details-marker` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `#filters` · `base` · `assets/source/src/styles.css`: `{'padding': '.25rem 0 1.5rem'}`.
+- `.fields` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '2fr 1fr 1fr', 'gap': '1rem'}`.
+- `label` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.4rem', 'min-width': '0'}`.
+- `input,select` · `base` · `assets/source/src/styles.css`: `{'width': '100%', 'min-width': '0', 'padding': '.65rem .75rem', 'min-height': '46px'}`.
+- `.help` · `base` · `assets/source/src/styles.css`: `{'margin': '.8rem 0 1rem'}`.
+- `.form-actions` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.75rem'}`.
+- `#filter-error` · `base` · `assets/source/src/styles.css`: `{'padding': '.6rem 1rem', 'margin': '1rem 0'}`.
+- `.analysis-grid` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) 260px', 'gap': '3rem', 'margin': '2.5rem 0 3.5rem'}`.
+- `.section-heading` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'align-items': 'end', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.metrics` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.25fr 1.2fr', 'margin': '1.8rem 0 2.8rem'}`.
+- `.metrics>div` · `base` · `assets/source/src/styles.css`: `{'padding': '0 1rem', 'display': 'flex', 'flex-direction': 'column', 'gap': '.15rem', 'min-width': '0'}`.
+- `.chart-scale` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'margin': '0 140px .2rem 210px'}`.
+- `.comparison-row` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '190px minmax(0,1fr) 120px', 'gap': '20px', 'align-items': 'start', 'padding': '1.25rem 0'}`.
+- `.bar-track` · `base` · `assets/source/src/styles.css`: `{'height': '20px', 'position': 'relative'}`.
+- `.bar` · `base` · `assets/source/src/styles.css`: `{'height': '100%', 'display': 'block'}`.
+- `.measure` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.15rem'}`.
+- `.chart-note` · `base` · `assets/source/src/styles.css`: `{'max-width': '48em'}`.
+- `.small-mark` · `base` · `assets/source/src/styles.css`: `{'display': 'inline-grid', 'width': '1.6rem', 'height': '1.6rem'}`.
+- `.records-help` · `base` · `assets/source/src/styles.css`: `{'margin': '1rem 0 1.5rem'}`.
+- `.record summary` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '140px minmax(0,1fr) 185px 16px', 'gap': '1.5rem', 'padding': '1.1rem .2rem', 'align-items': 'center'}`.
+- `.record-date small` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record-title` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `.record-title strong` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record-title>span` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record-result small` · `base` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record-detail` · `base` · `assets/source/src/styles.css`: `{'padding': '1rem 1.5rem 1.5rem'}`.
+- `.record-detail dl` · `base` · `assets/source/src/styles.css`: `{'margin': '0 0 1rem', 'display': 'flex', 'gap': '2.5rem'}`.
+- `.record-detail dd` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.record-detail p` · `base` · `assets/source/src/styles.css`: `{'margin': '.5rem 0'}`.
+- `.empty` · `base` · `assets/source/src/styles.css`: `{'padding': '2rem 0', 'max-width': '40em'}`.
+- `.empty h3` · `base` · `assets/source/src/styles.css`: `{'margin': '.4rem 0'}`.
+- `.provenance` · `base` · `assets/source/src/styles.css`: `{'margin': '3rem 0 2rem', 'max-width': '76em'}`.
+- `.load-panel` · `base` · `assets/source/src/styles.css`: `{'max-width': '900px', 'margin': '5rem auto', 'padding': '2rem'}`.
+- `.analysis-grid` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr)'}`.
+- `.method` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 2rem', 'padding': '1.5rem 0 0'}`.
+- `.small-mark` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.method .boundary` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'padding': '0'}`.
+- `.comparison-row` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '210px minmax(0,1fr) 120px'}`.
+- `.intro` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'gap': '2rem'}`.
+- `main` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '0 1.25rem'}`.
+- `.masthead` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem 1.25rem'}`.
+- `.intro` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '1.5rem', 'padding': '2.3rem 0 1.75rem'}`.
+- `.stamp` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem 0 0', 'display': 'flex', 'flex-direction': 'row', 'gap': '.3rem .75rem'}`.
+- `.scope-band` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'align-items': 'start', 'flex-direction': 'column'}`.
+- `.actions` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'width': '100%'}`.
+- `.fields` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr'}`.
+- `.section-heading` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'align-items': 'start', 'flex-direction': 'column', 'gap': '.5rem'}`.
+- `.analysis-grid` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'gap': '1.75rem', 'margin': '2rem 0'}`.
+- `.metrics` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr 1fr', 'margin': '1.5rem 0 2rem', 'gap': '1.3rem 0'}`.
+- `.metrics>div` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '0 .8rem'}`.
+- `.metrics>div:nth-child(3)` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem 0 0'}`.
+- `.chart-scale` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '0 0 .3rem'}`.
+- `.comparison-row` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '.8rem'}`.
+- `.measure` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'flex-direction': 'row', 'align-items': 'baseline', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.measure span` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'max-width': '45%'}`.
+- `.method` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record summary` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr) 20px', 'gap': '.5rem .5rem', 'padding': '1.15rem 0'}`.
+- `.record-date` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.75rem', 'align-items': 'center'}`.
+- `.record-date small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.record-result small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'display': 'inline'}`.
+- `.record-detail` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem'}`.
+- `.record-detail dl` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'gap': '1rem'}`.
+- `.provenance` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '2rem 0'}`.
+- `.load-panel` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '2rem auto', 'padding': '1.25rem'}`.
+- `.screen-only` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.print-only` · `@media print` · `assets/source/src/styles.css`: `{'display': 'inline'}`.
+- `.skip,.actions,#filter-panel,.snapshot-label,.record-toggle,.small-mark` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `main` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `.masthead` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 0 7mm'}`.
+- `.intro` · `@media print` · `assets/source/src/styles.css`: `{'padding': '9mm 0 7mm', 'grid-template-columns': '1fr 45mm', 'gap': '8mm'}`.
+- `.description` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none'}`.
+- `.scope-band` · `@media print` · `assets/source/src/styles.css`: `{'padding': '4mm 0'}`.
+- `.analysis-grid` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block', 'margin': '7mm 0'}`.
+- `.section-heading` · `@media print` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'row', 'align-items': 'end'}`.
+- `.metrics` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.1fr 1.2fr', 'margin': '6mm 0 8mm', 'gap': '0'}`.
+- `.metrics>div` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 4mm'}`.
+- `.metrics>div:nth-child(3)` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 0 0 4mm'}`.
+- `.chart-scale` · `@media print` · `assets/source/src/styles.css`: `{'margin': '0 36mm 1mm 47mm'}`.
+- `.comparison-row` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '42mm minmax(0,1fr) 31mm', 'gap': '5mm', 'padding': '4mm 0', 'break-inside': 'avoid'}`.
+- `.measure` · `@media print` · `assets/source/src/styles.css`: `{'flex-direction': 'column', 'align-items': 'stretch', 'gap': '.15rem'}`.
+- `.measure span` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none'}`.
+- `.bar-track` · `@media print` · `assets/source/src/styles.css`: `{'height': '5mm'}`.
+- `.method` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 7mm', 'padding': '4mm 0 0', 'break-inside': 'avoid'}`.
+- `.method .boundary` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0'}`.
+- `.empty-selection .records-section` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.records-help` · `@media print` · `assets/source/src/styles.css`: `{'margin': '3mm 0 5mm'}`.
+- `.record` · `@media print` · `assets/source/src/styles.css`: `{'break-inside': 'avoid'}`.
+- `.record summary` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '28mm minmax(0,1fr) 38mm', 'gap': '5mm', 'padding': '4mm 0 2mm'}`.
+- `.record-date` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.record-result small` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block', 'margin': '0'}`.
+- `.record-detail` · `@media print` · `assets/source/src/styles.css`: `{'padding': '3mm 4mm'}`.
+- `.record-detail dl` · `@media print` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '5mm'}`.
+- `.record-detail p` · `@media print` · `assets/source/src/styles.css`: `{'margin': '1.5mm 0'}`.
+- `.provenance` · `@media print` · `assets/source/src/styles.css`: `{'margin': '6mm 0 0', 'break-inside': 'avoid'}`.
+- `.empty` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm 0'}`.
+- `.empty button` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.

@@ -1,0 +1,136 @@
+{
+  "id": "career-bridge-letter",
+  "name": "A Useful Transition",
+  "summary": "A correspondence identity for explaining why prior work matters to a specific opportunity without overstating equivalence.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#25302B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Subject green",
+      "role": "primary",
+      "hex": "#254B40",
+      "evidence": "Native reference.docx word/styles.xml: style CBLSubject, style CBLFocus; text."
+    },
+    {
+      "name": "Contact green",
+      "role": "secondary-text",
+      "hex": "#44534C",
+      "evidence": "Native reference.docx word/styles.xml: style CBLNotice, style CBLDate, style CBLContact; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Carlito",
+      "usage": "Titles and short section openings; source used style CBLSignature."
+    },
+    {
+      "role": "body",
+      "family": "Carlito",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBLSignature."
+    }
+  ],
+  "recognitionRules": [
+    "Keep the name and focus line compact above the letter.",
+    "Use Carlito paragraphs with a clear opening reason, evidence passage and courteous close.",
+    "Leave generous white space around the salutation and signature.",
+    "Describe one transferable practice in concrete terms rather than repeating every resume item.",
+    "Use green subject/focus labels and quieter green-gray contact information above dark reading paragraphs."
+  ],
+  "voice": {
+    "traits": [
+      "warm",
+      "relevant",
+      "candid"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "I would bring a tested way of making difficult work easier to follow.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use A USEFUL TRANSITION as a modest Carlito letterhead; no standalone symbol. In real correspondence the person’s name replaces the library identity.",
+  "invariants": [
+    "Keep the name and focus line compact above the letter.",
+    "Use Carlito paragraphs with a clear opening reason, evidence passage and courteous close.",
+    "Leave generous white space around the salutation and signature."
+  ],
+  "adaptations": [
+    "Adapt the first and final paragraphs to the recipient.",
+    "Retain the evidence paragraph’s factual limits across versions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Carlito",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": null
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Carlito",
+      "renderFamily": "Carlito",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/carlito/Carlito-Regular.ttf",
+      "bold": "assets/fonts/carlito/Carlito-Bold.ttf",
+      "license": "assets/fonts/carlito/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

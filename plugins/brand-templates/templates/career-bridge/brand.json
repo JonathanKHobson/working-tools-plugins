@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "career-bridge",
+  "version": "0.2.1",
+  "name": "Across Practice",
+  "summary": "A career identity that translates experience into a new context through a clear record of transferable work.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "career-bridge"
+  ],
+  "sourceTemplateNames": {
+    "career-bridge": "Career Bridge"
+  },
+  "templateVariations": [
+    {
+      "templateId": "career-bridge",
+      "name": "Career Bridge",
+      "format": "document",
+      "sourceHash": "77a939dfc8415937c5723618276481b87e10d6035ec395fca2f441398f2e26fa",
+      "foundationSha256": "65a7c7e02f02fca5c7f7aa024a84e531421f0b6597b999b6f3a85db0cc3a590b",
+      "designSpecSha256": "ad8facc7e8dc38276e366df7bdb83f172178fd39f7af8b689a91fcc2a2dc34f6",
+      "referenceDirectory": "references/career-bridge"
+    }
+  ],
+  "sourceHash": "77a939dfc8415937c5723618276481b87e10d6035ec395fca2f441398f2e26fa",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#25302B",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Section green",
+      "role": "primary",
+      "hex": "#254B40",
+      "evidence": "Native reference.docx word/styles.xml: style Heading2, style Heading1, style CBTarget; text."
+    },
+    {
+      "name": "Metadata green",
+      "role": "secondary-text",
+      "hex": "#44534C",
+      "evidence": "Native reference.docx word/styles.xml: style CBRelevance, style CBNotice, style CBDates; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Carlito",
+      "usage": "Titles and short section openings; source used style CBDates."
+    },
+    {
+      "role": "body",
+      "family": "Carlito",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBDates."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style CBDates.",
+      "sourceFamily": "Carlito",
+      "sourceFamilySelected": "Carlito",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "career-bridge",
+      "sourceFingerprint": "77a939dfc8415937c5723618276481b87e10d6035ec395fca2f441398f2e26fa"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CBDates.",
+      "sourceFamily": "Carlito",
+      "sourceFamilySelected": "Carlito",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "career-bridge",
+      "sourceFingerprint": "77a939dfc8415937c5723618276481b87e10d6035ec395fca2f441398f2e26fa"
+    }
+  ],
+  "recognitionRules": [
+    "Use a prominent name and short professional focus before experience.",
+    "Keep Carlito for an open, readable resume rhythm.",
+    "Group transferable evidence by relevance while preserving actual dates and role boundaries.",
+    "Use restrained section rules and ordinary bullets rather than skill-rating graphics.",
+    "Use dark green section headings and target-role labels, quieter green-gray contact metadata and a black name; keep the white page."
+  ],
+  "writingLinks": [
+    {
+      "id": "V10",
+      "name": "Technical reference",
+      "reason": "Structured resume records with exact status and stated limits.",
+      "sourceTemplateId": "career-bridge",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "The setting may change. The work offers a useful starting point.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use ACROSS PRACTICE as a simple Carlito wordmark with a small baseline extension. No bridge illustration; the connection is made by the evidence.",
+  "invariants": [
+    "Use a prominent name and short professional focus before experience.",
+    "Keep Carlito for an open, readable resume rhythm.",
+    "Group transferable evidence by relevance while preserving actual dates and role boundaries."
+  ],
+  "adaptations": [
+    "Adapt the opening focus to the role while keeping the underlying experience intact.",
+    "A letter can echo the header without reproducing the resume.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/career-bridge.pdf",
+    "preview": "media/career-bridge-guide.webp",
+    "markdown": "guides/career-bridge.md"
+  },
+  "bundle": {
+    "href": "bundles/career-bridge-brand-kit.zip",
+    "filename": "Across Practice brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/career-bridge-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/career-bridge-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/career-bridge-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

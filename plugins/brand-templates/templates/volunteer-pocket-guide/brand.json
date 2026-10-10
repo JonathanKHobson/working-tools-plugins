@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "volunteer-pocket-guide",
+  "version": "0.2.1",
+  "name": "First Shift",
+  "summary": "A pocket-guide identity that helps a new volunteer move from arrival to useful action with clear cues and a route to help.",
+  "category": "Community & culture",
+  "tags": [
+    "document",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "volunteer-pocket-guide"
+  ],
+  "sourceTemplateNames": {
+    "volunteer-pocket-guide": "Volunteer Pocket Guide"
+  },
+  "templateVariations": [
+    {
+      "templateId": "volunteer-pocket-guide",
+      "name": "Volunteer Pocket Guide",
+      "format": "document",
+      "sourceHash": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1",
+      "foundationSha256": "1e0bac7b73f6ed546393fef2f4064fef58d8ff5eb54a5723d5b8017e47d4fd78",
+      "designSpecSha256": "57a21e1501c5b344895f587e071a240f153faeb31b2e991045db9811dbde555e",
+      "referenceDirectory": "references/volunteer-pocket-guide"
+    }
+  ],
+  "sourceHash": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#213D38",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Route green",
+      "role": "primary",
+      "hex": "#426257",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #426257; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Route panel",
+      "role": "surface",
+      "hex": "#DCE6DE",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #DCE6DE; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Stage ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Heading1; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "DIN Condensed",
+      "usage": "Short route and stage labels, with enough tracking to read at pocket size."
+    },
+    {
+      "role": "body",
+      "family": "Noto Sans",
+      "usage": "Volunteer actions, help details and practical notes."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Short route and stage labels, with enough tracking to read at pocket size.",
+      "sourceFamily": "DIN Condensed",
+      "sourceFamilySelected": "DIN Condensed",
+      "renderFamily": "Barlow Condensed",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+        },
+        "semibold": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+        },
+        "bold": {
+          "path": "assets/fonts/barlow-condensed/BarlowCondensed-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/barlow-condensed/OFL.txt",
+      "licenseSha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "DIN Condensed is a separately licensed commercial font; not bundled.",
+      "justification": "Portable variant selected. DIN Condensed is a separately licensed commercial font; not bundled. Open condensed grotesque substitute for proprietary DIN Condensed source dependencies.",
+      "sourceTemplateId": "volunteer-pocket-guide",
+      "sourceFingerprint": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1"
+    },
+    {
+      "role": "body",
+      "usage": "Volunteer actions, help details and practical notes.",
+      "sourceFamily": "Noto Sans",
+      "sourceFamilySelected": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d62b60e9dee54b008045f651c8948a3ffc02107906a7e206262e37412bf931d8"
+        },
+        "bold": {
+          "path": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "7bf390c263eaee093614bb0944fadb9a5dd7554d6f69ed91b1f65b4a59408a15"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/noto-sans/OFL.txt",
+      "licenseSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "volunteer-pocket-guide",
+      "sourceFingerprint": "2d2d3bea1213010d3b26777bca45cf93ac9b75a7f1c5065bfd3075c270fe5dc1"
+    }
+  ],
+  "recognitionRules": [
+    "Use DIN Condensed for short stage headings and Noto Sans for instructions.",
+    "Organize the guide around the actual sequence of arrival and work.",
+    "Keep contact or help information separate and easy to find.",
+    "Use sage route panels with green left rails, underlined numbered stage names and right-aligned page numbers; keep instructions in dark green ink."
+  ],
+  "writingLinks": [
+    {
+      "id": "V09",
+      "name": "Plain-language service",
+      "reason": "Volunteers need clear routines, role boundaries and exception fallbacks.",
+      "sourceTemplateId": "volunteer-pocket-guide",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P44",
+          "name": "Question-led field guide",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "Arrive. Find your person. Know the next useful thing to do.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use FIRST SHIFT in DIN Condensed with a small Noto Sans guide label and one vertical route rule. No helping-hands symbol.",
+  "invariants": [
+    "Use DIN Condensed for short stage headings and Noto Sans for instructions.",
+    "Organize the guide around the actual sequence of arrival and work.",
+    "Keep contact or help information separate and easy to find."
+  ],
+  "adaptations": [
+    "A pocket fold keeps the help panel visible when closed.",
+    "A digital version uses the same stage names as the printed guide.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/volunteer-pocket-guide.pdf",
+    "preview": "media/volunteer-pocket-guide-guide.webp",
+    "markdown": "guides/volunteer-pocket-guide.md"
+  },
+  "bundle": {
+    "href": "bundles/volunteer-pocket-guide-brand-kit.zip",
+    "filename": "First Shift brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/volunteer-pocket-guide-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/volunteer-pocket-guide-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/volunteer-pocket-guide-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

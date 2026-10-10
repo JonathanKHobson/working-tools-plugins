@@ -1,0 +1,220 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `2ee97e1b1f4f7a54256f252d44ebbfa47b6e01fa870ae344e831484819a9af19` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/styles/print.css`: `{'color': '#173c31', 'background': 'transparent'}`.
+- `body` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'background': 'white'}`.
+- `main` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none'}`.
+- `main>section` · `base` · `assets/source/styles/print.css`: `{'padding': '0', 'margin': '0', 'break-before': 'page'}`.
+- `main>section:first-child` · `base` · `assets/source/styles/print.css`: `{'break-before': 'auto'}`.
+- `.skip-link,nav` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.site-header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 8pt'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '22pt'}`.
+- `.hero` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1.3fr 1fr', 'gap': '18pt', 'padding': '14pt 0'}`.
+- `.hero-copy` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '36pt'}`.
+- `.hero-intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt', 'margin': '14pt 0'}`.
+- `.audience,.session-status` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.primary-action` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt', 'padding': '6pt 0', 'min-height': '0', 'margin': '10pt 0', 'text-decoration': 'underline'}`.
+- `.botanical img` · `base` · `assets/source/styles/print.css`: `{'max-height': '320pt'}`.
+- `.summary-row,.session .summary-row` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '35% 1fr', 'gap': '12pt', 'padding': '14pt 0', 'margin': '0'}`.
+- `.summary-row h2,.summary-row h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.summary-row>p,.summary-row>div,.session .summary-row>div` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'padding-left': '14pt'}`.
+- `.section-title,.session .section-title,.practical .section-title` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt', 'max-width': 'none'}`.
+- `.section-intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '14pt', 'margin': '14pt 0 20pt'}`.
+- `.stages li` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '10% 34% 56%', 'padding': '14pt 0', 'min-height': '0', 'break-inside': 'avoid', 'gap': '0'}`.
+- `.stage-number` · `base` · `assets/source/styles/print.css`: `{'font-size': '32pt'}`.
+- `.stage-title` · `base` · `assets/source/styles/print.css`: `{'padding-left': '12pt'}`.
+- `.stage-title h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.stage-title p,.stage-description` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.stage-description` · `base` · `assets/source/styles/print.css`: `{'grid-column': 'auto', 'padding-left': '18pt'}`.
+- `.practical-columns` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '1fr 1fr', 'gap': '20pt', 'padding': '14pt 0'}`.
+- `.practical h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '21pt'}`.
+- `.participation` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.material-status,.materials,.next-step>p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.materials li` · `base` · `assets/source/styles/print.css`: `{'padding': '5pt 0'}`.
+- `.participation-heading` · `base` · `assets/source/styles/print.css`: `{'margin': '18pt 0 8pt'}`.
+- `.supports summary` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'padding': '8pt 0', 'min-height': '0'}`.
+- `.supports summary::after` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.supports details,.supports summary` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.supports details::details-content` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'content-visibility': 'visible'}`.
+- `.supports details>*` · `base` · `assets/source/styles/print.css`: `{'display': 'block'}`.
+- `.support-body` · `base` · `assets/source/styles/print.css`: `{'padding': '8pt 0', 'font-size': '10pt'}`.
+- `.access-note` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.decisions` · `base` · `assets/source/styles/print.css`: `{'border-left': '0', 'padding': '0', 'margin': '0', 'border-top': '0'}`.
+- `.facts>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '44% 1fr', 'padding': '8pt 0', 'break-inside': 'avoid'}`.
+- `dt` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.facts dd` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.next-step` · `base` · `assets/source/styles/print.css`: `{'padding-top': '18pt', 'break-inside': 'avoid'}`.
+- `.next-step ol` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt', 'padding-left': '22pt'}`.
+- `.next-step li::marker` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.practical footer` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt', 'padding': '12pt 0'}`.
+- `.record` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.art-note` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '15pt'}`.
+- `.art-note h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '20pt'}`.
+- `.art-note p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.outcome` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `a` · `base` · `assets/source/styles/print.css`: `{'color': 'inherit'}`.
+- `.recovery h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '28pt'}`.
+- `*` · `base` · `assets/source/styles/screen.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `h1,h2,h3,p,ul,ol,dl,figure` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `h1,h2,h3,.brand,.primary-action,.stage-number,dt` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'WorkshopSerif,Georgia,serif', 'font-weight': '700'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/screen.css`: `{'line-height': '1.06', 'letter-spacing': '-.045em'}`.
+- `a` · `base` · `assets/source/styles/screen.css`: `{'color': 'inherit', 'text-underline-offset': '.2em'}`.
+- `a,summary` · `base` · `assets/source/styles/screen.css`: `{'touch-action': 'manipulation'}`.
+- `a:focus-visible,summary:focus-visible` · `base` · `assets/source/styles/screen.css`: `{'outline': '3px solid var(--rust)', 'outline-offset': '6px'}`.
+- `a:hover` · `base` · `assets/source/styles/screen.css`: `{'text-decoration-thickness': '2px'}`.
+- `main` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1920px', 'margin': 'auto'}`.
+- `main>section` · `base` · `assets/source/styles/screen.css`: `{'padding': '0 var(--gutter)', 'scroll-margin-top': '24px'}`.
+- `h1,h2,h3,p,li,dt,dd,summary,.stage-number` · `base` · `assets/source/styles/screen.css`: `{'overflow-wrap': 'anywhere'}`.
+- `.skip-link` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'left': '24px', 'top': '12px', 'transform': 'translateY(-180%)', 'background': 'var(--paper)', 'padding': '12px', 'z-index': '2'}`.
+- `.skip-link:focus` · `base` · `assets/source/styles/screen.css`: `{'transform': 'none'}`.
+- `.site-header` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '28px', 'padding': '16px 0 8px', 'border-bottom': 'var(--rule)'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(38px,4.25vw,72px)', 'line-height': '1.1', 'letter-spacing': '-.045em', 'text-decoration': 'none'}`.
+- `.site-header nav` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'flex-wrap': 'wrap', 'gap': '0', 'font-size': '20px'}`.
+- `.site-header nav a` · `base` · `assets/source/styles/screen.css`: `{'padding': '6px 27px', 'text-decoration': 'none', 'min-height': '44px', 'display': 'flex', 'align-items': 'center'}`.
+- `.site-header nav a+a` · `base` · `assets/source/styles/screen.css`: `{'border-left': '1px solid var(--ink)'}`.
+- `.site-header nav a:last-child` · `base` · `assets/source/styles/screen.css`: `{'padding-right': '0'}`.
+- `.hero` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1.6fr) minmax(0,1fr)', 'gap': '42px', 'align-items': 'center', 'padding': '16px 0 24px'}`.
+- `.hero-copy` · `base` · `assets/source/styles/screen.css`: `{'padding': '50px 0 8px'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(56px,8.5vw,138px)', 'line-height': '1.04', 'letter-spacing': '-.055em'}`.
+- `.hero-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.6vw,42px)', 'line-height': '1.24', 'margin': '26px 0 20px'}`.
+- `.audience` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'line-height': '1.4'}`.
+- `.primary-action` · `base` · `assets/source/styles/screen.css`: `{'display': 'inline-flex', 'align-items': 'center', 'justify-content': 'center', 'background': 'var(--rust)', 'color': 'var(--paper)', 'font-size': '40px', 'line-height': '1.2', 'padding': '17px 50px', 'min-width': 'min(500px,100%)', 'margin': '30px 0 20px', 'min-height': '64px', 'text-decoration': 'none'}`.
+- `.primary-action:hover` · `base` · `assets/source/styles/screen.css`: `{'background': '#7e3123'}`.
+- `.session-status` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px', 'line-height': '1.4'}`.
+- `.botanical` · `base` · `assets/source/styles/screen.css`: `{'border': 'var(--rule)', 'padding': '4px', 'align-self': 'stretch', 'display': 'flex', 'align-items': 'center'}`.
+- `.botanical img` · `base` · `assets/source/styles/screen.css`: `{'display': 'block', 'width': '100%', 'height': 'auto', 'max-height': '730px', 'object-fit': 'contain'}`.
+- `.art-note` · `base` · `assets/source/styles/screen.css`: `{'border': 'var(--rule)', 'padding': '36px', 'min-height': '400px', 'display': 'flex', 'flex-direction': 'column', 'justify-content': 'center', 'gap': '28px'}`.
+- `.art-note h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '44px'}`.
+- `.summary-row` · `base` · `assets/source/styles/screen.css`: `{'border-top': 'var(--rule)', 'display': 'grid', 'grid-template-columns': '46% minmax(0,1fr)', 'gap': '28px', 'padding': '24px 0 34px', 'align-items': 'start'}`.
+- `.summary-row h2,.summary-row h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(34px,3.65vw,58px)'}`.
+- `.summary-row>p,.summary-row>div` · `base` · `assets/source/styles/screen.css`: `{'border-left': '1px solid var(--ink)', 'padding-left': '58px', 'font-size': '21px'}`.
+- `.section-title` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(54px,7.2vw,116px)', 'max-width': '1250px', 'line-height': '1.01'}`.
+- `.section-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.5vw,40px)', 'line-height': '1.3', 'margin': '24px 0 30px'}`.
+- `.session,.practical` · `base` · `assets/source/styles/screen.css`: `{'margin-top': '62px', 'padding-top': '16px'}`.
+- `.session .section-title` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1000px', 'font-size': 'clamp(54px,7.8vw,120px)'}`.
+- `.stages` · `base` · `assets/source/styles/screen.css`: `{'list-style': 'none', 'padding': '0'}`.
+- `.stages li` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '13% 42% minmax(0,1fr)', 'padding': '18px 0', 'min-height': '132px', 'border-top': 'var(--rule)', 'align-items': 'center'}`.
+- `.stage-number` · `base` · `assets/source/styles/screen.css`: `{'font-size': '96px', 'color': 'var(--rust)', 'line-height': '1', 'letter-spacing': '-.055em'}`.
+- `.stage-title` · `base` · `assets/source/styles/screen.css`: `{'border-left': '1px solid var(--ink)', 'padding': '0 26px 0 60px'}`.
+- `.stage-title h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(28px,3.3vw,52px)', 'letter-spacing': '-.045em', 'line-height': '1.07'}`.
+- `.stage-title p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'margin-top': '4px'}`.
+- `.stage-description` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'line-height': '1.4', 'padding-left': '36px'}`.
+- `.session .summary-row` · `base` · `assets/source/styles/screen.css`: `{'grid-template-columns': '43% minmax(0,1fr)', 'padding-top': '28px'}`.
+- `.session .summary-row>div` · `base` · `assets/source/styles/screen.css`: `{'font-size': '24px', 'padding-left': '44px'}`.
+- `.practical-columns` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '50% minmax(0,1fr)', 'border-top': 'var(--rule)', 'padding': '30px 0'}`.
+- `.participation` · `base` · `assets/source/styles/screen.css`: `{'padding-right': '44px'}`.
+- `.practical h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(36px,3.65vw,58px)'}`.
+- `.material-status` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px', 'margin': '6px 0 18px'}`.
+- `.materials` · `base` · `assets/source/styles/screen.css`: `{'list-style': 'none', 'padding': '0', 'font-size': '28px'}`.
+- `.materials li` · `base` · `assets/source/styles/screen.css`: `{'padding': '10px 0', 'border-bottom': '1px solid var(--ink)'}`.
+- `.participation-heading` · `base` · `assets/source/styles/screen.css`: `{'margin': '34px 0 12px'}`.
+- `.supports summary` · `base` · `assets/source/styles/screen.css`: `{'cursor': 'pointer', 'list-style': 'none', 'padding': '16px 38px 16px 0', 'border-bottom': '1px solid var(--ink)', 'font-size': '26px', 'position': 'relative', 'min-height': '54px'}`.
+- `.supports summary::-webkit-details-marker` · `base` · `assets/source/styles/screen.css`: `{'display': 'none'}`.
+- `.supports summary::after` · `base` · `assets/source/styles/screen.css`: `{'content': '"▶"', 'position': 'absolute', 'right': '12px', 'top': '18px', 'color': 'var(--rust)', 'font-size': '22px'}`.
+- `.supports details[open] summary::after` · `base` · `assets/source/styles/screen.css`: `{'content': '"▼"'}`.
+- `.support-body` · `base` · `assets/source/styles/screen.css`: `{'padding': '18px 12px 22px', 'border-bottom': '1px solid var(--ink)', 'font-size': '22px'}`.
+- `.access-note` · `base` · `assets/source/styles/screen.css`: `{'font-size': '23px', 'margin-top': '22px'}`.
+- `.decisions` · `base` · `assets/source/styles/screen.css`: `{'border-left': '1px solid var(--ink)', 'padding-left': '58px'}`.
+- `.facts>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': '43% minmax(0,1fr)', 'padding': '14px 0 18px', 'border-bottom': '1px solid var(--ink)', 'align-items': 'start', 'gap': '22px'}`.
+- `.facts>div:first-child` · `base` · `assets/source/styles/screen.css`: `{'padding-top': '0'}`.
+- `dt` · `base` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(26px,2.5vw,40px)', 'line-height': '1.15', 'letter-spacing': '-.04em'}`.
+- `dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'border-left': '1px solid var(--ink)', 'padding-left': '30px', 'font-size': '28px'}`.
+- `.next-step` · `base` · `assets/source/styles/screen.css`: `{'padding-top': '28px', 'scroll-margin-top': '24px'}`.
+- `.next-step>p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '28px', 'margin': '14px 0'}`.
+- `.next-step ol` · `base` · `assets/source/styles/screen.css`: `{'font-size': '26px', 'padding-left': '56px', 'line-height': '1.45'}`.
+- `.next-step li` · `base` · `assets/source/styles/screen.css`: `{'padding-left': '6px', 'margin': '4px 0'}`.
+- `.next-step li::marker` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'WorkshopSerif,Georgia,serif', 'font-weight': '700', 'color': 'var(--rust)', 'font-size': '36px'}`.
+- `.practical footer` · `base` · `assets/source/styles/screen.css`: `{'border-top': 'var(--rule)', 'padding': '20px 0 30px', 'font-size': '22px'}`.
+- `.record` · `base` · `assets/source/styles/screen.css`: `{'font-size': '18px', 'line-height': '1.45', 'margin': '14px 0 0'}`.
+- `.outcome` · `base` · `assets/source/styles/screen.css`: `{'font-size': '22px', 'margin-top': '16px'}`.
+- `.recovery` · `base` · `assets/source/styles/screen.css`: `{'padding': 'var(--gutter)'}`.
+- `.recovery h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': '64px'}`.
+- `.recovery p` · `base` · `assets/source/styles/screen.css`: `{'margin': '28px 0'}`.
+- `.site-header` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'align-items': 'flex-start'}`.
+- `.site-header nav` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '16px', 'justify-content': 'flex-end'}`.
+- `.site-header nav a` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding': '4px 14px'}`.
+- `.hero` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'gap': '28px'}`.
+- `.hero-copy` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-top': '28px'}`.
+- `.hero-intro` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.audience,.session-status` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `.primary-action` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '26px', 'padding': '16px 30px'}`.
+- `.summary-row>p,.summary-row>div` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-left': '24px', 'font-size': '20px'}`.
+- `.stage-number` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '68px'}`.
+- `.stage-title` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-left': '24px'}`.
+- `.stage-title p,.stage-description` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.stage-description` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-left': '20px'}`.
+- `.decisions` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-left': '30px'}`.
+- `.participation` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-right': '28px'}`.
+- `.material-status,.materials,.facts dd,.next-step>p` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.supports summary,.next-step ol,.access-note` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '20px'}`.
+- `.facts>div` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'gap': '12px'}`.
+- `.facts dd` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'padding-left': '14px'}`.
+- `.practical footer` · `@media (max-width:1100px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `.site-header` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'flex-direction': 'column', 'gap': '14px'}`.
+- `.site-header nav` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'justify-content': 'flex-start'}`.
+- `.site-header nav a:first-child` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding-left': '0'}`.
+- `.hero` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'padding-top': '30px'}`.
+- `.hero-copy` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `h1` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(48px,9.5vw,86px)'}`.
+- `.hero-intro` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-width': '750px'}`.
+- `.botanical` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-width': '550px', 'width': '100%', 'justify-self': 'center'}`.
+- `.botanical img` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'max-height': '600px'}`.
+- `.summary-row` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'margin-top': '22px', 'grid-template-columns': '1fr', 'gap': '18px'}`.
+- `.summary-row>p,.summary-row>div` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'border-left': '0', 'padding-left': '0'}`.
+- `.session .summary-row` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr'}`.
+- `.session .summary-row>div` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding-left': '0'}`.
+- `.practical-columns` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr'}`.
+- `.participation` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding-right': '0'}`.
+- `.decisions` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'border-left': '0', 'padding-left': '0', 'margin-top': '36px', 'border-top': 'var(--rule)', 'padding-top': '28px'}`.
+- `.section-title,.session .section-title` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(46px,8vw,80px)'}`.
+- `.section-intro` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': '26px'}`.
+- `.stages li` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '18% minmax(0,1fr)', 'gap': '16px 0'}`.
+- `.stage-title` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'padding-left': '24px'}`.
+- `.stage-description` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'grid-column': '2', 'padding-left': '24px'}`.
+- `.stage-number` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'align-self': 'start'}`.
+- `.practical h3` · `@media (max-width:900px)` · `assets/source/styles/screen.css`: `{'font-size': '40px'}`.
+- `.brand` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '42px'}`.
+- `.site-header nav` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '16px', 'column-gap': '12px'}`.
+- `.site-header nav a` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding': '6px 0'}`.
+- `.site-header nav a+a` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'border': '0'}`.
+- `.hero` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding-top': '24px'}`.
+- `h1` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '49px', 'letter-spacing': '-.055em'}`.
+- `.hero-intro` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '25px'}`.
+- `.primary-action` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'width': '100%', 'font-size': '25px', 'padding': '16px 12px'}`.
+- `.section-title,.session .section-title` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '46px'}`.
+- `.section-intro` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '23px'}`.
+- `.summary-row h2,.summary-row h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '34px'}`.
+- `.stages li` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '48px minmax(0,1fr)'}`.
+- `.stage-number` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '48px'}`.
+- `.stage-title` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding-left': '16px'}`.
+- `.stage-title h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '28px'}`.
+- `.stage-title p,.stage-description` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '18px'}`.
+- `.stage-description` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding-left': '16px'}`.
+- `.facts>div` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '42% minmax(0,1fr)', 'gap': '10px'}`.
+- `dt` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '24px'}`.
+- `.facts dd` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '19px', 'padding-left': '12px'}`.
+- `.practical h3` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '35px'}`.
+- `.materials,.material-status,.next-step>p` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '22px'}`.
+- `.next-step ol` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding-left': '40px'}`.
+- `.next-step li::marker` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '29px'}`.
+- `.art-note` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'padding': '24px', 'min-height': '260px'}`.
+- `.art-note h2` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '34px'}`.
+- `.session,.practical` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'margin-top': '44px'}`.
+- `.record` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'font-size': '16px'}`.
+- `*` · `@media (prefers-reduced-motion:reduce)` · `assets/source/styles/screen.css`: `{'scroll-behavior': 'auto'}`.
+- `.practical .section-title` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(100px,8.6vw,138px)'}`.
+- `.practical .section-intro` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'margin': '0 0 16px'}`.
+- `.practical h3` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'font-size': '64px'}`.
+- `.materials li` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'padding': '8px 0'}`.
+- `.material-status` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'margin-bottom': '12px'}`.
+- `.participation-heading` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'margin-top': '28px'}`.
+- `.supports summary` · `@media (min-width:1101px)` · `assets/source/styles/screen.css`: `{'padding-top': '14px', 'padding-bottom': '14px'}`.
+- `.facts>div` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.facts dd` · `@media (max-width:480px)` · `assets/source/styles/screen.css`: `{'border-left': '0', 'padding-left': '0', 'margin-top': '8px'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0', 'max-width': '100%', 'overflow-wrap': 'anywhere'}`.
+
+Media/font files: assets/art/botanical-original.png, fonts/arimo/Arimo-Bold.woff2, fonts/arimo/Arimo-Regular.woff2.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

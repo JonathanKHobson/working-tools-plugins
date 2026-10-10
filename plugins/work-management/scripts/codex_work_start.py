@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""Remind Codex of Kyle's requested proactive work defaults.
+
+This hook supplies context only. The agent uses the native goal tools; the
+hook never edits goal storage, reads transcripts, or starts another process.
+"""
+
+from __future__ import annotations
+
+import os
+import json
+import sys
+
+MAX_INPUT_BYTES = 1_048_576
+CONTEXT = (
+    "Native goal reminder: Apply automatic native goals only if the receiving user explicitly requested them "
+    "for work requests; verify their current explicit preference and host instructions. "
+    "For an actionable user request, use get_goal before substantive work. "
+    "If there is no unfinished goal, call create_goal with the concrete "
+    "requested outcome without asking again when that explicit request is active. Reuse an "
+    "unfinished goal for related follow-ups; never mark it complete just to "
+    "replace it. Follow the native tool's lifecycle rules for paused, blocked, "
+    "or limited goals. Do not restart after a pause/stop request or override "
+    "the user's current opt-out. Greetings, acknowledgments, status-only "
+    "questions and goal-control messages need no new goal. Omit token_budget "
+    "unless explicitly requested. Complete a goal only after the requested "
+    "outcome is achieved and verified. If native goal tools are unavailable, "
+    "continue the requested work and briefly disclose that limitation. This "
+    "reminder creates no goal itself and grants no new action permissions.\n\n"
+    "Work Management: for new or continued project work, consult "
+    "work-management:project-structure (the former Project Architect) before "
+    "creating or reorganizing files, and revisit when scope changes. Reuse "
+    "guidance already in context. Select the smallest relevant plugin/skill "
+    "proactively; use tool-workflow-routing only when ownership is unclear. "
+    "For substantial tasks, use worker-delegation to assign useful independent "
+    "work to Claude or another verified suitable worker while the lead "
+    "progresses. For deeper research, prefer standard ChatGPT Web with Pro "
+    "visibly selected, using the existing subscription-offload procedure; "
+    "the dedicated Deep Research feature requires a specific user request. "
+    "Check returned sources and integrate the result. If the receiving user explicitly requests "
+    "separate Codex chats for multiple independent durable goals; use subagents "
+    "for steps/subtasks within one goal, preserve one goal per chat, and honor "
+    "the current native creation/messaging rules. Keep trivial work local. "
+    "No new skills, catalogs, folders, external jobs or chats merely to satisfy "
+    "this reminder. These are conditional work defaults, not a mandatory "
+    "orchestration ceremony.\n\n"
+    "Chat naming: at the first substantive work turn and when scope changes, "
+    "check this chat's native title. Preserve an explicitly user-chosen title. "
+    "Otherwise replace an automatic sentence, vague label or obsolete title "
+    "with Project or domain · Durable role (for example, Computer · Hook Repair). "
+    "For a one-off task use a concise domain and concrete outcome. Use "
+    "set_thread_title on this chat and verify native readback; avoid renaming "
+    "other chats or repeating an already-correct rename.\n\n"
+    "At meaningful closeout under learning-capture authorization, use "
+    "evidence-review's feedback-to-method review for consequential signals "
+    "already in context. Link source, owner, task fix, transfer decision and "
+    "validation/rollback in the project record. Reuse existing methods; apply "
+    "only authorized owner changes. Skip trivial/no-signal turns. No history "
+    "crawl, automatic skill/memory writes or implied human claim acceptance.\n\n"
+    "Before final closeout, review resources this chat actually started: "
+    "scripts, dev servers, browser sessions and temporary tool helpers. Close "
+    "finished task-owned resources and verify exits; retain explicitly ongoing "
+    "jobs and name what remains needed. Age, low CPU, a shared cwd, or the same "
+    "Codex parent does not prove chat ownership. Preserve other chats' work, "
+    "protected services and platform-managed MCP connections. Do not end all "
+    "loaded chats' helpers or disable shared MCPs to satisfy closeout."
+)
+
+
+def main() -> None:
+    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") != "1":
+        return
+    try:
+        raw = sys.stdin.buffer.read(MAX_INPUT_BYTES + 1)
+        if not raw or len(raw) > MAX_INPUT_BYTES:
+            return
+        payload = json.loads(raw)
+        if not isinstance(payload, dict):
+            return
+        if payload.get("hook_event_name") != "UserPromptSubmit":
+            return
+        prompt = payload.get("prompt")
+        if not isinstance(prompt, str) or not prompt.strip():
+            return
+    except (OSError, ValueError, TypeError, RecursionError):
+        return
+
+    json.dump(
+        {
+            "continue": True,
+            "hookSpecificOutput": {
+                "hookEventName": "UserPromptSubmit",
+                "additionalContext": CONTEXT,
+            },
+        },
+        sys.stdout,
+    )
+    sys.stdout.write("\n")
+
+
+if __name__ == "__main__":
+    main()

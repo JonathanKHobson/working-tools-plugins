@@ -1,0 +1,127 @@
+{
+  "id": "documentary-story-treatment",
+  "name": "The Waterline",
+  "summary": "A documentary-development identity that uses a horizon as an organizing thought while making the status of every image explicit.",
+  "category": "Arts & exhibition",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#16191B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#F4F2EA",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#B7D5DF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next Condensed",
+      "usage": "Titles and short section openings; source slide 9 / request."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / status."
+    }
+  ],
+  "recognitionRules": [
+    "Give the concept frame a generous image area with a distinct credit field.",
+    "Use condensed Avenir for the title and Avenir for production explanation.",
+    "Keep blue-gray, off-white and near-black tied to the shoreline atmosphere.",
+    "Separate the film’s question from access, footage and production assumptions."
+  ],
+  "voice": {
+    "traits": [
+      "observational",
+      "patient",
+      "precise"
+    ],
+    "principles": [
+      "Invite attention before offering interpretation; keep object facts and imaginative response distinct.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Stay with the edge long enough to notice what changes.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid prescribing a viewer’s feelings or implying unverified provenance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Look at the edge, then read the record.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE WATERLINE in Avenir Next Condensed across a low horizontal rule. No wave icon; let the image carry the place.",
+  "invariants": [
+    "Give the concept frame a generous image area with a distinct credit field.",
+    "Use condensed Avenir for the title and Avenir for production explanation.",
+    "Keep blue-gray, off-white and near-black tied to the shoreline atmosphere."
+  ],
+  "adaptations": [
+    "A treatment may use concept imagery only with visible labels.",
+    "A production edition replaces assumptions with verified shot and access records.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Avenir Next Condensed",
+      "renderFamily": "Oswald",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/oswald/Oswald-Regular.ttf",
+      "bold": "assets/fonts/oswald/Oswald-Bold.ttf",
+      "license": "assets/fonts/oswald/OFL.txt",
+      "sourceFontDependency": "Avenir Next Condensed is a separately licensed Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

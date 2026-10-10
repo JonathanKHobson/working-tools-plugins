@@ -1,0 +1,239 @@
+# CSS component rules and source assets
+
+Source: `assets/source` · SHA-256 `1b776cc6a0c0f637cb41ecaf2bf8e5a1811037d04f1c69b685c8cd5b7d2e4b41` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `*` · `base` · `assets/source/src/styles.css`: `{'box-sizing': 'border-box'}`.
+- `body` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `button,input,select` · `base` · `assets/source/src/styles.css`: `{'font': 'inherit'}`.
+- `button,input,select,summary` · `base` · `assets/source/src/styles.css`: `{'touch-action': 'manipulation'}`.
+- `button,summary` · `base` · `assets/source/src/styles.css`: `{'cursor': 'pointer'}`.
+- `button` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--ink)', 'background': 'none', 'border': '1px solid #73828b', 'border-radius': '3px', 'padding': '.6rem .9rem', 'min-height': '44px', 'line-height': '1.3'}`.
+- `button:hover` · `base` · `assets/source/src/styles.css`: `{'background': '#303a41'}`.
+- `button.primary` · `base` · `assets/source/src/styles.css`: `{'background': 'var(--accent)', 'color': '#14271e', 'border-color': 'var(--accent)', 'font-weight': '650'}`.
+- `a` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--accent)'}`.
+- `:focus-visible` · `base` · `assets/source/src/styles.css`: `{'outline': '3px solid var(--gap)', 'outline-offset': '4px'}`.
+- `h1,h2,h3,p` · `base` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `h1,h2,h3` · `base` · `assets/source/src/styles.css`: `{'font-weight': '600'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2.5rem,5vw,4rem)', 'line-height': '1.05', 'letter-spacing': '-.035em'}`.
+- `h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.5rem', 'line-height': '1.25', 'letter-spacing': '-.02em'}`.
+- `h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'line-height': '1.3'}`.
+- `[hidden]` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.print-only` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.sr-only,.skip:not(:focus)` · `base` · `assets/source/src/styles.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'overflow': 'hidden', 'clip': 'rect(0,0,0,0)', 'white-space': 'nowrap'}`.
+- `.skip:focus` · `base` · `assets/source/src/styles.css`: `{'position': 'fixed', 'z-index': '10', 'top': '.5rem', 'left': '.5rem', 'background': 'var(--ink)', 'color': 'var(--ground)', 'padding': '.7rem'}`.
+- `.masthead` · `base` · `assets/source/src/styles.css`: `{'border-bottom': '1px solid var(--line)', 'padding': '1rem max(2rem,calc((100vw - 1320px)/2))', 'display': 'flex', 'justify-content': 'space-between', 'gap': '1rem', 'font-size': '.8rem', 'letter-spacing': '.1em'}`.
+- `.wordmark` · `base` · `assets/source/src/styles.css`: `{'font-weight': '700'}`.
+- `.wordmark span,.snapshot-label` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--muted)'}`.
+- `main` · `base` · `assets/source/src/styles.css`: `{'max-width': '1384px', 'margin': 'auto', 'padding': '0 2rem'}`.
+- `main>*` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `.intro>*` · `base` · `assets/source/src/styles.css`: `{'min-width': '0'}`.
+- `h1` · `base` · `assets/source/src/styles.css`: `{'overflow-wrap': 'anywhere'}`.
+- `.intro` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) 230px', 'gap': '4rem', 'padding': '3.8rem 0 3rem'}`.
+- `.eyebrow` · `base` · `assets/source/src/styles.css`: `{'font-size': '.75rem', 'letter-spacing': '.15em', 'font-weight': '650', 'color': 'var(--muted)', 'margin-bottom': '.8rem'}`.
+- `.description` · `base` · `assets/source/src/styles.css`: `{'max-width': '700px', 'font-size': '1.125rem', 'color': 'var(--muted)', 'margin-top': '1.25rem'}`.
+- `.stamp` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.4rem', 'border-left': '1px solid var(--line)', 'padding-left': '1.5rem', 'align-self': 'end', 'font-size': '.85rem', 'color': 'var(--muted)'}`.
+- `.stamp strong` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--ink)', 'font-size': '1.25rem'}`.
+- `.scope-band` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)', 'border-bottom': '1px solid var(--line)', 'display': 'flex', 'justify-content': 'space-between', 'align-items': 'center', 'gap': '1rem', 'padding': '1rem 0'}`.
+- `.scope-band p` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.3rem', 'min-width': '0', 'overflow-wrap': 'anywhere'}`.
+- `.scope-tag` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--accent)', 'font-size': '.7rem', 'letter-spacing': '.12em'}`.
+- `.scope-band strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'font-weight': '500'}`.
+- `.actions` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.6rem', 'flex-wrap': 'wrap', 'flex-shrink': '0'}`.
+- `.actions button` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `#filter-panel` · `base` · `assets/source/src/styles.css`: `{'border-bottom': '1px solid var(--line)'}`.
+- `#filter-panel>summary` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '1rem', 'align-items': 'center', 'list-style': 'none', 'padding': '.9rem 0', 'min-height': '48px'}`.
+- `summary::-webkit-details-marker` · `base` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `#pending` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem', 'color': 'var(--gap)'}`.
+- `.toggle` · `base` · `assets/source/src/styles.css`: `{'margin-left': 'auto', 'font-size': '1.3rem'}`.
+- `#filter-panel[open] .toggle,.record[open] .record-toggle` · `base` · `assets/source/src/styles.css`: `{'transform': 'rotate(45deg)'}`.
+- `#filters` · `base` · `assets/source/src/styles.css`: `{'padding': '.25rem 0 1.5rem'}`.
+- `.fields` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '2fr 1fr 1fr', 'gap': '1rem'}`.
+- `label` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'gap': '.4rem', 'color': 'var(--muted)', 'font-size': '.875rem', 'min-width': '0'}`.
+- `input,select` · `base` · `assets/source/src/styles.css`: `{'width': '100%', 'min-width': '0', 'padding': '.65rem .75rem', 'background': '#222b32', 'border': '1px solid #73828b', 'border-radius': '3px', 'color': 'var(--ink)', 'min-height': '46px'}`.
+- `select` · `base` · `assets/source/src/styles.css`: `{'white-space': 'normal'}`.
+- `.help` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem', 'color': 'var(--muted)', 'margin': '.8rem 0 1rem'}`.
+- `.form-actions` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '.75rem', 'flex-wrap': 'wrap'}`.
+- `#filter-error` · `base` · `assets/source/src/styles.css`: `{'border-left': '3px solid var(--gap)', 'padding': '.6rem 1rem', 'margin': '1rem 0', 'color': 'var(--gap)'}`.
+- `.analysis-grid` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) 260px', 'gap': '3rem', 'margin': '2.5rem 0 3.5rem'}`.
+- `.section-heading` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'align-items': 'end', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.unit` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--muted)', 'font-size': '.8rem', 'text-align': 'right', 'flex-shrink': '0'}`.
+- `.metrics` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.25fr 1.2fr', 'margin': '1.8rem 0 2.8rem'}`.
+- `.metrics>div` · `base` · `assets/source/src/styles.css`: `{'padding': '0 1rem', 'border-left': '1px solid var(--line)', 'display': 'flex', 'flex-direction': 'column', 'gap': '.15rem', 'min-width': '0'}`.
+- `.metrics>div:first-child` · `base` · `assets/source/src/styles.css`: `{'border': '0', 'padding-left': '0'}`.
+- `.metrics>div:last-child` · `base` · `assets/source/src/styles.css`: `{'padding-right': '0'}`.
+- `.metrics span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.78rem', 'color': 'var(--muted)'}`.
+- `.metrics strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.65rem', 'letter-spacing': '-.04em', 'font-weight': '500', 'font-variant-numeric': 'tabular-nums', 'line-height': '1.35'}`.
+- `.metrics .rate-total` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--accent)'}`.
+- `.metrics .unavailable-rate` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.6rem', 'line-height': '1.55'}`.
+- `.metrics small` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem', 'color': 'var(--muted)'}`.
+- `.chart-scale` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'justify-content': 'space-between', 'margin': '0 140px .2rem 210px', 'font-size': '.7rem', 'color': 'var(--muted)'}`.
+- `.comparison-row` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '190px minmax(0,1fr) 120px', 'gap': '20px', 'align-items': 'start', 'padding': '1.25rem 0', 'border-top': '1px solid var(--line)'}`.
+- `.program-label` · `base` · `assets/source/src/styles.css`: `{'overflow-wrap': 'anywhere'}`.
+- `.program-label p,.gap-label` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem', 'color': 'var(--muted)', 'margin-top': '.35rem'}`.
+- `.bar-zone` · `base` · `assets/source/src/styles.css`: `{'padding-top': '.15rem'}`.
+- `.bar-track` · `base` · `assets/source/src/styles.css`: `{'height': '20px', 'background': '#343e45', 'border-right': '1px solid #65737b', 'position': 'relative', 'background-image': 'linear-gradient(to right,transparent calc(50% - .5px),#65737b 50%,transparent calc(50% + .5px))'}`.
+- `.bar` · `base` · `assets/source/src/styles.css`: `{'height': '100%', 'display': 'block', 'background': 'var(--accent)'}`.
+- `.bar-track.unavailable` · `base` · `assets/source/src/styles.css`: `{'background': 'repeating-linear-gradient(135deg,#263038 0px,#263038 5px,#59656c 5px,#59656c 6px)'}`.
+- `.has-gap` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--gap)'}`.
+- `.measure` · `base` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'column', 'text-align': 'right', 'gap': '.15rem'}`.
+- `.measure strong` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.15rem', 'line-height': '1.3', 'font-variant-numeric': 'tabular-nums', 'font-weight': '600'}`.
+- `.measure span` · `base` · `assets/source/src/styles.css`: `{'font-size': '.72rem', 'color': 'var(--muted)'}`.
+- `.chart-note` · `base` · `assets/source/src/styles.css`: `{'margin-top': '1.25rem', 'color': 'var(--muted)', 'font-size': '.8rem', 'max-width': '48em'}`.
+- `.method` · `base` · `assets/source/src/styles.css`: `{'border-left': '1px solid var(--line)', 'padding-left': '1.5rem'}`.
+- `.small-mark` · `base` · `assets/source/src/styles.css`: `{'display': 'inline-grid', 'place-items': 'center', 'width': '1.6rem', 'height': '1.6rem', 'border': '1px solid var(--gap)', 'border-radius': '50%', 'font-style': 'italic', 'font-family': 'Georgia,serif', 'color': 'var(--gap)', 'margin-bottom': '1rem'}`.
+- `.method h2` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.2rem', 'margin-bottom': '1rem'}`.
+- `.method p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem', 'color': 'var(--muted)', 'margin-bottom': '1rem'}`.
+- `#coverage` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--gap)'}`.
+- `.boundary` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)', 'padding-top': '1.25rem'}`.
+- `.boundary h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem', 'margin-bottom': '.6rem'}`.
+- `.records-section` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)', 'padding-top': '2rem'}`.
+- `.records-section .section-heading>p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.875rem', 'color': 'var(--muted)'}`.
+- `.records-help` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem', 'margin': '1rem 0 1.5rem', 'color': 'var(--muted)'}`.
+- `.record` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)'}`.
+- `.record:last-child` · `base` · `assets/source/src/styles.css`: `{'border-bottom': '1px solid var(--line)'}`.
+- `.record summary` · `base` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '140px minmax(0,1fr) 185px 16px', 'gap': '1.5rem', 'padding': '1.1rem .2rem', 'list-style': 'none', 'align-items': 'center'}`.
+- `.record-date` · `base` · `assets/source/src/styles.css`: `{'font-variant-numeric': 'tabular-nums', 'font-size': '.85rem', 'color': 'var(--muted)'}`.
+- `.record-date small` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'font-size': '.7rem', 'margin-top': '.25rem'}`.
+- `.record-title` · `base` · `assets/source/src/styles.css`: `{'min-width': '0', 'overflow-wrap': 'anywhere'}`.
+- `.record-title strong` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'font-weight': '500', 'font-size': '1rem'}`.
+- `.record-title>span` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'font-size': '.8rem', 'color': 'var(--muted)', 'margin-top': '.25rem'}`.
+- `.record-result` · `base` · `assets/source/src/styles.css`: `{'text-align': 'right', 'font-variant-numeric': 'tabular-nums', 'font-size': '1rem'}`.
+- `.record-result small` · `base` · `assets/source/src/styles.css`: `{'display': 'block', 'font-size': '.7rem', 'color': 'var(--muted)'}`.
+- `.missing` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--gap)', 'font-size': '.85rem'}`.
+- `.record-toggle` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.2rem', 'color': 'var(--muted)', 'line-height': '1'}`.
+- `.record-detail` · `base` · `assets/source/src/styles.css`: `{'padding': '1rem 1.5rem 1.5rem', 'margin-bottom': '1rem', 'background': 'var(--panel)', 'border-left': '3px solid var(--accent)', 'overflow-wrap': 'anywhere'}`.
+- `.record-detail dl` · `base` · `assets/source/src/styles.css`: `{'margin': '0 0 1rem', 'display': 'flex', 'gap': '2.5rem', 'flex-wrap': 'wrap'}`.
+- `.record-detail dt` · `base` · `assets/source/src/styles.css`: `{'font-size': '.75rem', 'color': 'var(--muted)'}`.
+- `.record-detail dd` · `base` · `assets/source/src/styles.css`: `{'margin': '0', 'font-size': '1.2rem'}`.
+- `.record-detail p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.85rem', 'color': 'var(--muted)', 'margin': '.5rem 0'}`.
+- `.record-detail p strong` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--ink)', 'font-weight': '500'}`.
+- `.empty` · `base` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)', 'padding': '2rem 0', 'max-width': '40em'}`.
+- `.empty-mark` · `base` · `assets/source/src/styles.css`: `{'font-size': '2rem', 'color': 'var(--gap)'}`.
+- `.empty h3` · `base` · `assets/source/src/styles.css`: `{'font-size': '1.4rem', 'margin': '.4rem 0'}`.
+- `.empty p` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--muted)', 'font-size': '.9rem'}`.
+- `.empty button` · `base` · `assets/source/src/styles.css`: `{'margin-top': '1.25rem'}`.
+- `.provenance` · `base` · `assets/source/src/styles.css`: `{'margin': '3rem 0 2rem', 'max-width': '76em'}`.
+- `.provenance p` · `base` · `assets/source/src/styles.css`: `{'font-size': '.8rem', 'color': 'var(--muted)', 'margin-bottom': '.6rem'}`.
+- `.load-panel` · `base` · `assets/source/src/styles.css`: `{'max-width': '900px', 'margin': '5rem auto', 'padding': '2rem'}`.
+- `.load-panel h1` · `base` · `assets/source/src/styles.css`: `{'font-size': '2.5rem', 'margin-bottom': '1.5rem'}`.
+- `.load-panel p` · `base` · `assets/source/src/styles.css`: `{'color': 'var(--muted)', 'margin-bottom': '1.5rem'}`.
+- `.analysis-grid` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr)'}`.
+- `.method` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 2rem', 'border-left': '0', 'border-top': '1px solid var(--line)', 'padding': '1.5rem 0 0'}`.
+- `.small-mark` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.method h2` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-column': '1/-1'}`.
+- `.method .boundary` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-column': '2', 'grid-row': '2/4', 'border': '0', 'padding': '0'}`.
+- `.chart-scale` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'margin-left': '230px'}`.
+- `.comparison-row` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '210px minmax(0,1fr) 120px'}`.
+- `.intro` · `@media (max-width:1100px)` · `assets/source/src/styles.css`: `{'gap': '2rem'}`.
+- `h1` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': 'clamp(2rem,8vw,2.5rem)'}`.
+- `main` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '0 1.25rem'}`.
+- `.masthead` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem 1.25rem', 'letter-spacing': '.06em', 'font-size': '.65rem', 'flex-wrap': 'wrap'}`.
+- `.intro` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr', 'gap': '1.5rem', 'padding': '2.3rem 0 1.75rem'}`.
+- `.description` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '1rem', 'margin-top': '1rem'}`.
+- `.stamp` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'border-left': '0', 'border-top': '1px solid var(--line)', 'padding': '1rem 0 0', 'display': 'flex', 'flex-direction': 'row', 'flex-wrap': 'wrap', 'gap': '.3rem .75rem', 'font-size': '.75rem'}`.
+- `.stamp strong` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.875rem'}`.
+- `.stamp #owner` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'flex-basis': '100%'}`.
+- `.scope-band` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'align-items': 'start', 'flex-direction': 'column'}`.
+- `.actions` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'width': '100%'}`.
+- `.actions button` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.fields` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr'}`.
+- `.section-heading` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'align-items': 'start', 'flex-direction': 'column', 'gap': '.5rem'}`.
+- `.unit` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'text-align': 'left'}`.
+- `.analysis-grid` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'gap': '1.75rem', 'margin': '2rem 0'}`.
+- `.metrics` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': '1fr 1fr', 'margin': '1.5rem 0 2rem', 'gap': '1.3rem 0'}`.
+- `.metrics>div` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '0 .8rem'}`.
+- `.metrics>div:nth-child(3)` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1/-1', 'border': '0', 'padding': '1rem 0 0', 'border-top': '1px solid var(--line)'}`.
+- `.metrics strong` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '2.7rem'}`.
+- `.metrics span` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.75rem'}`.
+- `.metrics small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.72rem'}`.
+- `.chart-scale` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '0 0 .3rem'}`.
+- `.comparison-row` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '.8rem'}`.
+- `.program-label` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1', 'grid-row': '1'}`.
+- `.measure` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1', 'grid-row': '2', 'text-align': 'left', 'flex-direction': 'row', 'align-items': 'baseline', 'justify-content': 'space-between', 'gap': '1rem'}`.
+- `.measure span` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'max-width': '45%', 'text-align': 'right'}`.
+- `.bar-zone` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1', 'grid-row': '3'}`.
+- `.method` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'display': 'block'}`.
+- `.method .boundary` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'border-top': '1px solid var(--line)', 'padding-top': '1rem'}`.
+- `.record summary` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-template-columns': 'minmax(0,1fr) 20px', 'gap': '.5rem .5rem', 'padding': '1.15rem 0'}`.
+- `.record-date` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1', 'display': 'flex', 'gap': '.75rem', 'align-items': 'center'}`.
+- `.record-date small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '0'}`.
+- `.record-title` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1'}`.
+- `.record-result` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '1', 'text-align': 'left', 'font-size': '.9rem'}`.
+- `.record-result small` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'display': 'inline', 'margin-left': '.6rem'}`.
+- `.record-toggle` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'grid-column': '2', 'grid-row': '1/4'}`.
+- `.record-detail` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'padding': '1rem'}`.
+- `.record-detail dl` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'gap': '1rem'}`.
+- `.record-detail dl>div` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'flex-basis': '100%'}`.
+- `.record-detail dd` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '1rem'}`.
+- `.record-result .missing` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '.8rem'}`.
+- `.provenance` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '2rem 0'}`.
+- `.load-panel` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'margin': '2rem auto', 'padding': '1.25rem'}`.
+- `.load-panel h1` · `@media (max-width:700px)` · `assets/source/src/styles.css`: `{'font-size': '2rem'}`.
+- `.screen-only` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.print-only` · `@media print` · `assets/source/src/styles.css`: `{'display': 'inline'}`.
+- `body` · `@media print` · `assets/source/src/styles.css`: `{'background': '#fff'}`.
+- `.skip,.actions,#filter-panel,.snapshot-label,.record-toggle,.small-mark` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `main` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `.masthead` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 0 7mm', 'font-size': '8pt', 'border-color': '#73847c'}`.
+- `.wordmark span` · `@media print` · `assets/source/src/styles.css`: `{'color': '#45534f'}`.
+- `.intro` · `@media print` · `assets/source/src/styles.css`: `{'padding': '9mm 0 7mm', 'grid-template-columns': '1fr 45mm', 'gap': '8mm'}`.
+- `.intro h1` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '30pt'}`.
+- `.description` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt', 'max-width': 'none'}`.
+- `.stamp` · `@media print` · `assets/source/src/styles.css`: `{'padding-left': '5mm'}`.
+- `.stamp strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt'}`.
+- `.eyebrow` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.scope-band` · `@media print` · `assets/source/src/styles.css`: `{'padding': '4mm 0'}`.
+- `.scope-band strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.scope-tag` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7pt', 'color': '#25624e'}`.
+- `.analysis-grid` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block', 'margin': '7mm 0'}`.
+- `.section-heading` · `@media print` · `assets/source/src/styles.css`: `{'display': 'flex', 'flex-direction': 'row', 'align-items': 'end'}`.
+- `.unit` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.section-heading h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '17pt'}`.
+- `.metrics` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1.1fr 1.2fr', 'margin': '6mm 0 8mm', 'gap': '0'}`.
+- `.metrics>div` · `@media print` · `assets/source/src/styles.css`: `{'padding': '0 4mm', 'border-left': '1px solid var(--line)'}`.
+- `.metrics>div:nth-child(3)` · `@media print` · `assets/source/src/styles.css`: `{'grid-column': 'auto', 'border-top': '0', 'border-left': '1px solid var(--line)', 'padding': '0 0 0 4mm'}`.
+- `.metrics strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '28pt'}`.
+- `.metrics span,.metrics small` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.chart-scale` · `@media print` · `assets/source/src/styles.css`: `{'margin': '0 36mm 1mm 47mm', 'font-size': '7.5pt'}`.
+- `.comparison-row` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '42mm minmax(0,1fr) 31mm', 'gap': '5mm', 'padding': '4mm 0', 'break-inside': 'avoid'}`.
+- `.program-label` · `@media print` · `assets/source/src/styles.css`: `{'grid-area': 'auto'}`.
+- `.bar-zone` · `@media print` · `assets/source/src/styles.css`: `{'grid-area': 'auto'}`.
+- `.measure` · `@media print` · `assets/source/src/styles.css`: `{'grid-area': 'auto', 'flex-direction': 'column', 'text-align': 'right', 'align-items': 'stretch', 'gap': '.15rem'}`.
+- `.measure span` · `@media print` · `assets/source/src/styles.css`: `{'max-width': 'none'}`.
+- `.bar-track` · `@media print` · `assets/source/src/styles.css`: `{'height': '5mm', 'background-color': '#e4ebe6', 'border-color': '#72857c'}`.
+- `.bar-track.unavailable` · `@media print` · `assets/source/src/styles.css`: `{'background': 'repeating-linear-gradient(135deg,#edf0ed 0px,#edf0ed 5px,#78877e 5px,#78877e 6px)'}`.
+- `.program-label h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.program-label p,.gap-label,.measure span` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.measure strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt'}`.
+- `.chart-note` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt', 'margin-top': '4mm'}`.
+- `.method` · `@media print` · `assets/source/src/styles.css`: `{'display': 'grid', 'grid-template-columns': '1fr 1fr', 'gap': '0 7mm', 'border': '0', 'border-top': '1px solid var(--line)', 'padding': '4mm 0 0', 'margin-top': '5mm', 'break-inside': 'avoid'}`.
+- `.method h2` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '12pt', 'margin-bottom': '3mm'}`.
+- `.method p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt', 'margin-bottom': '3mm'}`.
+- `.method .boundary` · `@media print` · `assets/source/src/styles.css`: `{'border': '0', 'padding': '0', 'grid-column': '2', 'grid-row': '2/4'}`.
+- `.boundary h3` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt'}`.
+- `.empty-selection .records-section` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+- `.records-section` · `@media print` · `assets/source/src/styles.css`: `{'break-before': 'auto', 'padding-top': '7mm', 'border': '0'}`.
+- `.records-section>.section-heading,.records-help` · `@media print` · `assets/source/src/styles.css`: `{'break-after': 'avoid'}`.
+- `.records-help` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '9pt', 'margin': '3mm 0 5mm'}`.
+- `.record` · `@media print` · `assets/source/src/styles.css`: `{'break-inside': 'avoid'}`.
+- `.record summary` · `@media print` · `assets/source/src/styles.css`: `{'grid-template-columns': '28mm minmax(0,1fr) 38mm', 'gap': '5mm', 'padding': '4mm 0 2mm'}`.
+- `.record-date` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block', 'grid-area': 'auto', 'font-size': '8pt'}`.
+- `.record-date small` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7pt', 'margin-top': '1mm'}`.
+- `.record-title` · `@media print` · `assets/source/src/styles.css`: `{'grid-area': 'auto'}`.
+- `.record-title strong` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.record-title>span` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.record-result` · `@media print` · `assets/source/src/styles.css`: `{'grid-area': 'auto', 'font-size': '10pt', 'text-align': 'right'}`.
+- `.record-result small` · `@media print` · `assets/source/src/styles.css`: `{'display': 'block', 'margin': '0', 'font-size': '7pt'}`.
+- `.missing` · `@media print` · `assets/source/src/styles.css`: `{'color': '#725221', 'font-size': '9pt'}`.
+- `.record-detail` · `@media print` · `assets/source/src/styles.css`: `{'padding': '3mm 4mm', 'margin-bottom': '4mm', 'border-left': '1mm solid #25624e'}`.
+- `.record-detail dl` · `@media print` · `assets/source/src/styles.css`: `{'display': 'flex', 'gap': '5mm', 'margin-bottom': '2mm'}`.
+- `.record-detail dl>div` · `@media print` · `assets/source/src/styles.css`: `{'flex-basis': 'auto'}`.
+- `.record-detail dt` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '7.5pt'}`.
+- `.record-detail dd` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '10pt'}`.
+- `.record-detail p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt', 'margin': '1.5mm 0'}`.
+- `.provenance` · `@media print` · `assets/source/src/styles.css`: `{'margin': '6mm 0 0', 'break-inside': 'avoid'}`.
+- `.provenance p` · `@media print` · `assets/source/src/styles.css`: `{'font-size': '8pt'}`.
+- `.empty` · `@media print` · `assets/source/src/styles.css`: `{'padding': '6mm 0'}`.
+- `.empty button` · `@media print` · `assets/source/src/styles.css`: `{'display': 'none'}`.
+
+Media/font files: none.
+Asset policy from source manifest: no explicit policy found; confirm permissions before external reuse.

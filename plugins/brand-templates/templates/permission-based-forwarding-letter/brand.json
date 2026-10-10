@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "permission-based-forwarding-letter",
+  "version": "0.2.1",
+  "name": "With Permission",
+  "summary": "A correspondence identity that makes the intended recipient, purpose and limits of forwarding clear.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Portfolios & careers"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "permission-based-forwarding-letter"
+  ],
+  "sourceTemplateNames": {
+    "permission-based-forwarding-letter": "Permission Based Forwarding Letter"
+  },
+  "templateVariations": [
+    {
+      "templateId": "permission-based-forwarding-letter",
+      "name": "Permission Based Forwarding Letter",
+      "format": "document",
+      "sourceHash": "81833526b09e6ba9acffb30fcfb0cb958fd0b80bbede200a92ff6848471762f4",
+      "foundationSha256": "e6ce56bf4d2b73ecfa2a47549d20ea475fa4695e364ef82a7949638dfce62720",
+      "designSpecSha256": "1ed263cf296fb9586dc8345b75894b535baa15b88a77ad538c8df24c9a94dc4c",
+      "referenceDirectory": "references/permission-based-forwarding-letter"
+    }
+  ],
+  "sourceHash": "81833526b09e6ba9acffb30fcfb0cb958fd0b80bbede200a92ff6848471762f4",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#171B20",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Scope slate",
+      "role": "primary",
+      "hex": "#354653",
+      "evidence": "Native reference.docx word/styles.xml: style PFScope; text."
+    },
+    {
+      "name": "Notice slate",
+      "role": "secondary-text",
+      "hex": "#47535D",
+      "evidence": "Native reference.docx word/styles.xml: style PFNotice; text."
+    },
+    {
+      "name": "Title ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style PFSubject; text."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source used style Title."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style PFSignature."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Title.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "permission-based-forwarding-letter",
+      "sourceFingerprint": "81833526b09e6ba9acffb30fcfb0cb958fd0b80bbede200a92ff6848471762f4"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style PFSignature.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "permission-based-forwarding-letter",
+      "sourceFingerprint": "81833526b09e6ba9acffb30fcfb0cb958fd0b80bbede200a92ff6848471762f4"
+    }
+  ],
+  "recognitionRules": [
+    "Use a modest title and a clearly visible forwarding-scope statement.",
+    "Keep the permission request separate from the text that could be forwarded.",
+    "Use ordinary Arial paragraphs with a calm, spacious signature area.",
+    "Do not turn a planning example into evidence that permission was received."
+  ],
+  "writingLinks": [
+    {
+      "id": "V20",
+      "name": "Personal letter",
+      "reason": "Relational letter with an easy-to-decline ask and exact permission limits.",
+      "sourceTemplateId": "permission-based-forwarding-letter",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P41",
+          "name": "Compressed correspondence",
+          "type": "module"
+        }
+      ]
+    }
+  ],
+  "quote": "If this would be useful to share, may I send you a short version to forward?",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use WITH PERMISSION in a quiet Arial letterhead with one fine rule. No approval stamp or envelope symbol.",
+  "invariants": [
+    "Use a modest title and a clearly visible forwarding-scope statement.",
+    "Keep the permission request separate from the text that could be forwarded.",
+    "Use ordinary Arial paragraphs with a calm, spacious signature area."
+  ],
+  "adaptations": [
+    "A real message uses the sender’s name and recipient-specific context.",
+    "Keep scope wording intact when personalizing the introduction.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/permission-based-forwarding-letter.pdf",
+    "preview": "media/permission-based-forwarding-letter-guide.webp",
+    "markdown": "guides/permission-based-forwarding-letter.md"
+  },
+  "bundle": {
+    "href": "bundles/permission-based-forwarding-letter-brand-kit.zip",
+    "filename": "With Permission brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/permission-based-forwarding-letter-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/permission-based-forwarding-letter-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/permission-based-forwarding-letter-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

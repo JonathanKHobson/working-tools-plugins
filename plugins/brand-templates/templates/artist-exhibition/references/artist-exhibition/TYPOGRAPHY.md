@@ -1,0 +1,85 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `d0648cba0f1b276196d028bcbb6add9fb82d2a18837355641579f312f7563c79` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `html` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.brand` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '38pt'}`.
+- `.lead` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.status` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.diagnostic` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.caption h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.caption p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.work-notes` · `base` · `assets/source/styles/print.css`: `{'font-size': '10.5pt', 'line-height': '1.32'}`.
+- `.work-notes h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.work-notes .note-title` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.source` · `base` · `assets/source/styles/print.css`: `{'font-size': '9.5pt'}`.
+- `.work-notes p` · `base` · `assets/source/styles/print.css`: `{'line-height': '1.35'}`.
+- `summary` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt', 'font-weight': '700'}`.
+- `dl` · `base` · `assets/source/styles/print.css`: `{'font-size': '8.5pt'}`.
+- `dd` · `base` · `assets/source/styles/print.css`: `{'line-height': '1.25'}`.
+- `.source-limit` · `base` · `assets/source/styles/print.css`: `{'font-size': '8pt'}`.
+- `.unavailable` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.unavailable strong` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.unavailable p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.local-label` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.chronology>h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '34pt'}`.
+- `.chronology-intro` · `base` · `assets/source/styles/print.css`: `{'font-size': '13pt'}`.
+- `.event-date` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.event-date p` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.event h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '16pt'}`.
+- `.event>div>p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.event dl` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.viewing>h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '23pt'}`.
+- `.viewing>div` · `base` · `assets/source/styles/print.css`: `{'font-size': '10.5pt'}`.
+- `.credit` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.empty-chronology` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.empty-chronology h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `:root` · `base` · `assets/source/styles/screen.css`: `{'font-family': 'Arimo,Arial,sans-serif', 'font-size': '16px'}`.
+- `p` · `base` · `assets/source/styles/screen.css`: `{'line-height': '1.42'}`.
+- `h1,h2,h3` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '400', 'line-height': '1.08', 'letter-spacing': '-.025em'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem', 'font-weight': '700', 'letter-spacing': '-.025em'}`.
+- `.masthead nav` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': '4.5rem', 'line-height': '1.02', 'letter-spacing': '-.045em'}`.
+- `.lead` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.625rem', 'line-height': '1.4'}`.
+- `.status` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.diagnostic` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.work-index` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.caption h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem', 'line-height': '1.2', 'font-weight': '700', 'letter-spacing': '-.025em'}`.
+- `.caption p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.work-notes` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.work-notes h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem', 'font-weight': '700', 'letter-spacing': '-.02em'}`.
+- `.work-notes .note-title` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2.125rem', 'font-weight': '400'}`.
+- `.source` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `dl` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `dt` · `base` · `assets/source/styles/screen.css`: `{'font-weight': '700'}`.
+- `dd` · `base` · `assets/source/styles/screen.css`: `{'line-height': '1.4'}`.
+- `.source-limit` · `base` · `assets/source/styles/screen.css`: `{'font-size': '.95rem'}`.
+- `.next-link` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1rem'}`.
+- `.unavailable` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.
+- `.unavailable strong` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.5rem', 'font-weight': '400'}`.
+- `.local-label` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.chronology>h2` · `base` · `assets/source/styles/screen.css`: `{'font-size': '4.5rem', 'line-height': '1.02', 'letter-spacing': '-.045em'}`.
+- `.chronology-intro` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.75rem', 'line-height': '1.4'}`.
+- `.event-date` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem', 'letter-spacing': '-.04em'}`.
+- `.event-date p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem', 'letter-spacing': '0'}`.
+- `.event h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `.event>div>p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.event dl` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.1rem'}`.
+- `.empty-chronology` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.empty-chronology h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '2rem'}`.
+- `.viewing>h3` · `base` · `assets/source/styles/screen.css`: `{'font-size': '3rem'}`.
+- `.viewing>div` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.credit` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `footer` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.recovery h1` · `base` · `assets/source/styles/screen.css`: `{'font-size': '3rem'}`.
+- `.recovery p` · `base` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `h1,.chronology>h2` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': 'clamp(2.5rem,8vw,4.5rem)', 'line-height': '1.05'}`.
+- `.lead` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.status` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.125rem'}`.
+- `.event-date` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.625rem'}`.
+- `.event h3` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.75rem'}`.
+- `.chronology-intro` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.375rem'}`.
+- `.viewing>h3` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '2.5rem'}`.
+- `.local-label` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.2rem'}`.
+- `footer` · `@media (max-width:700px)` · `assets/source/styles/screen.css`: `{'font-size': '1.25rem'}`.

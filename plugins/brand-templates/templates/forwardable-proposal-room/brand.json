@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "forwardable-proposal-room",
+  "version": "0.2.1",
+  "name": "The Proposal Room",
+  "summary": "A proposal identity designed for a reader who receives the link without the original conversation.",
+  "category": "Planning & operations",
+  "tags": [
+    "site",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "forwardable-proposal-room"
+  ],
+  "sourceTemplateNames": {
+    "forwardable-proposal-room": "Forwardable Proposal Room"
+  },
+  "templateVariations": [
+    {
+      "templateId": "forwardable-proposal-room",
+      "name": "Forwardable Proposal Room",
+      "format": "site",
+      "sourceHash": "3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e",
+      "foundationSha256": "e9541f67fede4cea4212ab5f1e51c36c0e18d20f7cf3fb5cbd57af650d98f2c5",
+      "designSpecSha256": "f7ed6ad13faf610fcd930c700454e113073b0d4776adc4b110b534b3a73c5058",
+      "referenceDirectory": "references/forwardable-proposal-room"
+    }
+  ],
+  "sourceHash": "3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#202634",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#882B42",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F5F5F7",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#59606C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#B8BDC4",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Proposal title and selected editorial headings."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Source root font; scope, navigation and proposal detail."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Proposal title and selected editorial headings.",
+      "sourceFamily": "Georgia",
+      "sourceFamilySelected": "Georgia",
+      "renderFamily": "Lora",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lora/Lora-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "0328a3899b3f8fbc72502763e6ece7fa01448db6b92d6d2c076edb3b631a2649"
+        },
+        "bold": {
+          "path": "assets/fonts/lora/Lora-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "60f8c2bae422c2b0005ccb064a2f4b359f00d09bec819a52d44a4b6d336a7b0f"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lora/OFL.txt",
+      "licenseSha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.",
+      "sourceTemplateId": "forwardable-proposal-room",
+      "sourceFingerprint": "3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e"
+    },
+    {
+      "role": "body",
+      "usage": "Source root font; scope, navigation and proposal detail.",
+      "sourceFamily": "Arimo",
+      "sourceFamilySelected": "Arimo",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "forwardable-proposal-room",
+      "sourceFingerprint": "3397f344e01162c0d4e21cded025872d7d6d189943b558faa6bf1e8463492b0e"
+    }
+  ],
+  "recognitionRules": [
+    "Lead with the decision and context needed by a forwarded reader.",
+    "Use a clear sans-serif frame with serif explanatory passages.",
+    "Reserve burgundy for key actions and headings on a white ground.",
+    "Keep scope, evidence and next steps accessible as distinct sections."
+  ],
+  "writingLinks": [
+    {
+      "id": "V01",
+      "name": "Decision first",
+      "reason": "Proposal organised around scope, dependencies and a separate decision register.",
+      "sourceTemplateId": "forwardable-proposal-room",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P28",
+          "name": "Constraint-aware recommender",
+          "type": "alias"
+        }
+      ]
+    }
+  ],
+  "quote": "Everything needed for the next decision, in one place.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE PROPOSAL ROOM in Georgia with a small Arimo project identifier beneath it. No house icon.",
+  "invariants": [
+    "Lead with the decision and context needed by a forwarded reader.",
+    "Use a clear sans-serif frame with serif explanatory passages.",
+    "Reserve burgundy for key actions and headings on a white ground."
+  ],
+  "adaptations": [
+    "A PDF extract includes the context and decision, not just the attractive opening.",
+    "Keep forwarding notes separate from proposal commitments.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/forwardable-proposal-room.pdf",
+    "preview": "media/forwardable-proposal-room-guide.webp",
+    "markdown": "guides/forwardable-proposal-room.md"
+  },
+  "bundle": {
+    "href": "bundles/forwardable-proposal-room-brand-kit.zip",
+    "filename": "The Proposal Room brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/forwardable-proposal-room-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/forwardable-proposal-room-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/forwardable-proposal-room-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

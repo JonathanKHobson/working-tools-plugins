@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "beginner-practice-workbook",
+  "version": "0.2.1",
+  "name": "Field Notes Practice",
+  "summary": "A learning identity that turns an uncertain first attempt into something learners can inspect and improve.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Teaching & learning"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "beginner-practice-workbook"
+  ],
+  "sourceTemplateNames": {
+    "beginner-practice-workbook": "Beginner Practice Workbook"
+  },
+  "templateVariations": [
+    {
+      "templateId": "beginner-practice-workbook",
+      "name": "Beginner Practice Workbook",
+      "format": "presentation",
+      "sourceHash": "5bf8e6db4d640e3d27debb827955779d1646c264931b3cf5524a00d5b129b08a",
+      "foundationSha256": "ecc81efc16f022a3840a74d7166e9c0b1560af165558bebbb2705ef9b4c91d03",
+      "designSpecSha256": "f9d78e878de8eb645d741b79d198578453483964aa8f29ec4af8f38d5a034031",
+      "referenceDirectory": "references/beginner-practice-workbook"
+    }
+  ],
+  "sourceHash": "5bf8e6db4d640e3d27debb827955779d1646c264931b3cf5524a00d5b129b08a",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#273B35",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#704A2C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#B9C3A2",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#7E897D",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Noteworthy",
+      "usage": "Titles and short section openings; source slide 4 / transferLabel."
+    },
+    {
+      "role": "body",
+      "family": "Optima",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 4 / footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 4 / transferLabel.",
+      "sourceFamily": "Noteworthy",
+      "sourceFamilySelected": "Noteworthy",
+      "renderFamily": "Kalam",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/kalam/Kalam-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b"
+        },
+        "bold": {
+          "path": "assets/fonts/kalam/Kalam-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/kalam/OFL.txt",
+      "licenseSha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Noteworthy is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Noteworthy is an Apple/system font; not bundled. Open handwritten display substitute for proprietary Chalkboard and Noteworthy system fonts.",
+      "sourceTemplateId": "beginner-practice-workbook",
+      "sourceFingerprint": "5bf8e6db4d640e3d27debb827955779d1646c264931b3cf5524a00d5b129b08a"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 4 / footer.",
+      "sourceFamily": "Optima",
+      "sourceFamilySelected": "Optima",
+      "renderFamily": "Alegreya Sans",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10"
+        },
+        "bold": {
+          "path": "assets/fonts/alegreya-sans/AlegreyaSans-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "a3055a1893759bdbd7504bb22abc583769e7974c49353176eac0b03792c9fb8e"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/alegreya-sans/OFL.txt",
+      "licenseSha256": "0677891e6a143f297350d260ad766ad33bfc18ed5fa4f213acf648d6b597ec1a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Optima is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Optima is an Apple/system font; not bundled. Exact OFL source family; official static files are used.",
+      "sourceTemplateId": "beginner-practice-workbook",
+      "sourceFingerprint": "5bf8e6db4d640e3d27debb827955779d1646c264931b3cf5524a00d5b129b08a"
+    }
+  ],
+  "recognitionRules": [
+    "Retain the notebook margin and top rule as a stable writing frame.",
+    "Pair Optima instructions with Noteworthy annotations only where a handwritten cue adds meaning.",
+    "Place a worked example before the guided attempt, with response lines close to each prompt.",
+    "Use muted green and earth tones without tinting every writing area."
+  ],
+  "writingLinks": [
+    {
+      "id": "V11",
+      "name": "Patient coach",
+      "reason": "Moves a beginner through supported steps to independent practice without condescension.",
+      "sourceTemplateId": "beginner-practice-workbook",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Try a first version. Compare it with the example. Change one thing.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use FIELD NOTES in Optima with PRACTICE below and a short margin rule to the left. No illustrated notebook icon is needed.",
+  "invariants": [
+    "Retain the notebook margin and top rule as a stable writing frame.",
+    "Pair Optima instructions with Noteworthy annotations only where a handwritten cue adds meaning.",
+    "Place a worked example before the guided attempt, with response lines close to each prompt."
+  ],
+  "adaptations": [
+    "A single activity sheet retains the example, attempt and reflection sequence.",
+    "Increase writing space rather than compressing prompts for print.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/beginner-practice-workbook.pdf",
+    "preview": "media/beginner-practice-workbook-guide.webp",
+    "markdown": "guides/beginner-practice-workbook.md"
+  },
+  "bundle": {
+    "href": "bundles/beginner-practice-workbook-brand-kit.zip",
+    "filename": "Field Notes Practice brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/beginner-practice-workbook-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/beginner-practice-workbook-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/beginner-practice-workbook-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

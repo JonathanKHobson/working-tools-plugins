@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "pilot-decision-review",
+  "version": "0.2.1",
+  "name": "Next Pilot",
+  "summary": "A decision identity that makes a modest test proposal legible alongside what is known and what still needs evidence.",
+  "category": "Research & evidence",
+  "tags": [
+    "presentation",
+    "Decisions & reviews"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "pilot-decision-review"
+  ],
+  "sourceTemplateNames": {
+    "pilot-decision-review": "Pilot Decision Review"
+  },
+  "templateVariations": [
+    {
+      "templateId": "pilot-decision-review",
+      "name": "Pilot Decision Review",
+      "format": "presentation",
+      "sourceHash": "ca75de4ad635202c9a9322c0f26dde794959e7f972362b9dbb059e6b04fa04a1",
+      "foundationSha256": "49d3c15f2058282b6bb0dc72150217899b0805a5be560fa223b2cec4d183eca9",
+      "designSpecSha256": "0efa1f42c630b7668ba5616af58ba785b68579d81e3c89e992b1d52d8e40704e",
+      "referenceDirectory": "references/pilot-decision-review"
+    }
+  ],
+  "sourceHash": "ca75de4ad635202c9a9322c0f26dde794959e7f972362b9dbb059e6b04fa04a1",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#1E2933",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#233642",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#865C0C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F2F4F5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#52616B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source slide 6 / footer."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 6 / footer.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "pilot-decision-review",
+      "sourceFingerprint": "ca75de4ad635202c9a9322c0f26dde794959e7f972362b9dbb059e6b04fa04a1"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 6 / footer.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "pilot-decision-review",
+      "sourceFingerprint": "ca75de4ad635202c9a9322c0f26dde794959e7f972362b9dbb059e6b04fa04a1"
+    }
+  ],
+  "recognitionRules": [
+    "Lead with a direct recommendation heading on a clean white slide.",
+    "Use paired Known and Still unknown columns.",
+    "Keep the pilot size and duration concrete in the opening.",
+    "Use slate text and restrained warm emphasis without adding a success dashboard."
+  ],
+  "writingLinks": [
+    {
+      "id": "V01",
+      "name": "Decision first",
+      "reason": "Bounded recommendation with an owner and a review trigger.",
+      "sourceTemplateId": "pilot-decision-review",
+      "status": "editorial-suggestion",
+      "modules": [
+        {
+          "id": "P28",
+          "name": "Constraint-aware recommender",
+          "type": "alias"
+        }
+      ]
+    }
+  ],
+  "quote": "Choose a small test that can answer the next question.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use NEXT PILOT in bold Arial with one short forward rule ending before an open dot. No rocket or upward-growth arrow.",
+  "invariants": [
+    "Lead with a direct recommendation heading on a clean white slide.",
+    "Use paired Known and Still unknown columns.",
+    "Keep the pilot size and duration concrete in the opening."
+  ],
+  "adaptations": [
+    "A one-page decision record keeps recommendation, unknowns and test conditions.",
+    "Expand only the evidence needed to assess the next step.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/pilot-decision-review.pdf",
+    "preview": "media/pilot-decision-review-guide.webp",
+    "markdown": "guides/pilot-decision-review.md"
+  },
+  "bundle": {
+    "href": "bundles/pilot-decision-review-brand-kit.zip",
+    "filename": "Next Pilot brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/pilot-decision-review-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/pilot-decision-review-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/pilot-decision-review-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

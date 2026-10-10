@@ -1,0 +1,148 @@
+{
+  "id": "product-comparison-lab",
+  "name": "The Comparison Lab",
+  "summary": "A product-review identity that puts alternatives on one evidence desk with equal schematics, stable labels and visible revision status.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F1F3F2",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#182D34",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#026B69",
+      "evidence": "slide 1 / rail-accent fill"
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#8A4B13",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Large comparison titles and short conclusions."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Explanations and criteria."
+    },
+    {
+      "role": "index",
+      "family": "Courier New",
+      "usage": "Concept IDs, revision and specification labels."
+    }
+  ],
+  "recognitionRules": [
+    "Keep a numbered vertical rail and revision line on every page.",
+    "Use monospaced labels for concepts and measured specifications.",
+    "Give each concept an equal-sized schematic panel.",
+    "Use teal and rust for distinct comparison functions, not winner and loser decoration."
+  ],
+  "voice": {
+    "traits": [
+      "systematic",
+      "fair",
+      "precise"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Three concepts. The same questions. A decision worth testing.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE COMPARISON LAB in Arial with a compact Courier revision code and three equal vertical strokes. No flask icon.",
+  "invariants": [
+    "Keep a numbered vertical rail and revision line on every page.",
+    "Use monospaced labels for concepts and measured specifications.",
+    "Give each concept an equal-sized schematic panel."
+  ],
+  "adaptations": [
+    "A short review can use one shared comparison spread.",
+    "Retain concept IDs when moving from schematic to physical prototype.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "symbol",
+      "png": "assets/logos/symbol.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "index",
+      "sourceFamily": "Courier New",
+      "renderFamily": "Cousine",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/cousine/Cousine-Regular.ttf",
+      "bold": "assets/fonts/cousine/Cousine-Bold.ttf",
+      "license": "assets/fonts/cousine/OFL.txt",
+      "sourceFontDependency": "Courier New is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": 32,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

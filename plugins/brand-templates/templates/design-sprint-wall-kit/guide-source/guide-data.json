@@ -1,0 +1,164 @@
+{
+  "id": "design-sprint-wall-kit",
+  "name": "Frame to Test",
+  "summary": "A workshop identity built from movable evidence, short stage labels and decisions that can be traced back to the wall.",
+  "category": "Learning & workshops",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#562C30",
+      "evidence": "used style Heading1 explicit text color"
+    },
+    {
+      "name": "Working slip",
+      "role": "surface",
+      "hex": "#F5F2EC",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F5F2EC; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Slip border",
+      "role": "rule",
+      "hex": "#C9C1B8",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #C9C1B8; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Reading ink",
+      "role": "body-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title, style Normal, style KitTestBody; text."
+    },
+    {
+      "name": "Source link",
+      "role": "link",
+      "hex": "#304D4A",
+      "evidence": "Native reference.docx word/styles.xml: style KitLink; text."
+    },
+    {
+      "name": "Prompt amber",
+      "role": "accent",
+      "hex": "#F2C467",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    },
+    {
+      "name": "Prompt sage",
+      "role": "secondary",
+      "hex": "#A9C4B9",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    },
+    {
+      "name": "Prompt paper",
+      "role": "motif-ground",
+      "hex": "#F8E9D0",
+      "evidence": "Native reference.docx word/media/image1.png exact repeated pixels; visible source geometric/illustrative strip. Artwork color, not a body-text color."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Titles and short section openings; source used style KitPrompt."
+    },
+    {
+      "role": "body",
+      "family": "Noto Sans",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style KitBreak."
+    }
+  ],
+  "recognitionRules": [
+    "Use large numbered stage labels and separate evidence slips.",
+    "Pair Avenir display labels with Noto Sans working text.",
+    "Keep one prompt or observation per movable unit.",
+    "Distinguish an observed record from an idea or a chosen test through explicit headings.",
+    "Use the source row of outlined prompt shapes with amber, sage and warm-paper fills; keep burgundy stage labels and black working text distinct."
+  ],
+  "voice": {
+    "traits": [
+      "active",
+      "focused",
+      "collaborative"
+    ],
+    "principles": [
+      "Use short action sentences; follow an invitation with a concrete material, choice or check.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Put the evidence where the team can see it. Choose one thing to test.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid promises that every participant will master the skill.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Try one version, then compare it with the criterion.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use FRAME TO TEST in Avenir with four spaced short rules representing stages. No lightning bolt or sprint mascot.",
+  "invariants": [
+    "Use large numbered stage labels and separate evidence slips.",
+    "Pair Avenir display labels with Noto Sans working text.",
+    "Keep one prompt or observation per movable unit."
+  ],
+  "adaptations": [
+    "Small groups can use tabletop sheets instead of a wall.",
+    "Keep the evidence-slip labels in photographed or digital versions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+      "bold": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+      "license": "assets/fonts/finlandica/OFL.txt",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Noto Sans",
+      "renderFamily": "Noto Sans",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/noto-sans/NotoSans-Regular.ttf",
+      "bold": "assets/fonts/noto-sans/NotoSans-Bold.ttf",
+      "license": "assets/fonts/noto-sans/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

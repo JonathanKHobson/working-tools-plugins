@@ -1,0 +1,127 @@
+{
+  "id": "community-newspaper",
+  "name": "The Common Paper",
+  "summary": "A local editorial identity whose authority comes from readable reporting, visible attribution and the familiar rhythm of a newspaper.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Table header",
+      "role": "header",
+      "hex": "#202020",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #202020; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Titles and short section openings; source used style Heading3."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style NewsDeck."
+    }
+  ],
+  "recognitionRules": [
+    "Use the full serif masthead above a ruled issue line.",
+    "Separate stories with columns, subheads and captions rather than rounded cards.",
+    "Keep black-and-white reproduction as a first-class edition.",
+    "Distinguish headlines, reported text and editorial notes through type and spacing."
+  ],
+  "voice": {
+    "traits": [
+      "local",
+      "observant",
+      "attributable"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A shared place deserves a paper with room for more than one voice.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE COMMON PAPER as a Baskerville or source serif masthead with paired rules. No separate logo symbol.",
+  "invariants": [
+    "Use the full serif masthead above a ruled issue line.",
+    "Separate stories with columns, subheads and captions rather than rounded cards.",
+    "Keep black-and-white reproduction as a first-class edition."
+  ],
+  "adaptations": [
+    "A digital issue can stack columns while retaining story order and bylines.",
+    "A single-sheet edition keeps one strong lead story.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

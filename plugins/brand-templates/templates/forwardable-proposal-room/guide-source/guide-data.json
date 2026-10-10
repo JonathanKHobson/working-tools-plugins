@@ -1,0 +1,141 @@
+{
+  "id": "forwardable-proposal-room",
+  "name": "The Proposal Room",
+  "summary": "A proposal identity designed for a reader who receives the link without the original conversation.",
+  "category": "Planning & operations",
+  "palette": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#202634",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#882B42",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#F5F5F7",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#59606C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Structural rule",
+      "role": "rule",
+      "hex": "#B8BDC4",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Proposal title and selected editorial headings."
+    },
+    {
+      "role": "body",
+      "family": "Arimo",
+      "usage": "Source root font; scope, navigation and proposal detail."
+    }
+  ],
+  "recognitionRules": [
+    "Lead with the decision and context needed by a forwarded reader.",
+    "Use a clear sans-serif frame with serif explanatory passages.",
+    "Reserve burgundy for key actions and headings on a white ground.",
+    "Keep scope, evidence and next steps accessible as distinct sections."
+  ],
+  "voice": {
+    "traits": [
+      "welcoming",
+      "self-contained",
+      "precise"
+    ],
+    "principles": [
+      "Name the choice, its owner and the condition that makes it complete.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Everything needed for the next decision, in one place.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid certainty about forecasts, capacity or commitments that are still provisional.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "This is the assumption; this is the decision it affects.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE PROPOSAL ROOM in Georgia with a small Arimo project identifier beneath it. No house icon.",
+  "invariants": [
+    "Lead with the decision and context needed by a forwarded reader.",
+    "Use a clear sans-serif frame with serif explanatory passages.",
+    "Reserve burgundy for key actions and headings on a white ground."
+  ],
+  "adaptations": [
+    "A PDF extract includes the context and decision, not just the attractive opening.",
+    "Keep forwarding notes separate from proposal commitments.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "site",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arimo",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "exact",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": null
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 280,
+    "secondaryWidthPx": 220,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "annual-community-review",
+  "name": "The Common Thread",
+  "summary": "A community review told as a newspaper: shared activity receives editorial weight without turning counts into impact claims.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#F5F2E9",
+      "evidence": "ppt/slides/slide1.xml p:bg"
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#242422",
+      "evidence": "Dominant text-run color in source richSlides"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#772831",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Georgia",
+      "usage": "Titles and short section openings; source slide 9 / big."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / page."
+    }
+  ],
+  "recognitionRules": [
+    "Set the Georgia masthead above paired horizontal rules, with issue information aligned to its right.",
+    "Use narrow narrative columns beside a workbench illustration rather than a grid of corporate statistic cards.",
+    "Make large section numbers a reading route; burgundy identifies bylines and editorial emphasis.",
+    "Keep participation counts separate from repair or learning outcomes."
+  ],
+  "voice": {
+    "traits": [
+      "neighborly",
+      "accountable",
+      "editorial"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A year of small repairs deserves a careful record.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use the full Georgia masthead with a thick-over-thin rule pair. No standalone emblem is necessary.",
+  "invariants": [
+    "Set the Georgia masthead above paired horizontal rules, with issue information aligned to its right.",
+    "Use narrow narrative columns beside a workbench illustration rather than a grid of corporate statistic cards.",
+    "Make large section numbers a reading route; burgundy identifies bylines and editorial emphasis."
+  ],
+  "adaptations": [
+    "A one-page issue may retain one image, one count and one attributed story.",
+    "Use black-only paired rules in economical print editions.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "presentation",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "One half of the capital T height around the masthead, measured outside the paired rules.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "status": "Conservative production recommendation after inspection at primary220px, secondary180px and symbols32/64px. Trial Ledger record code and Orbit descriptor motivate larger full-lockup minima; use secondary in narrow spaces.",
+    "symbolWidthPx": null,
+    "secondaryWidthPx": 180
+  }
+}

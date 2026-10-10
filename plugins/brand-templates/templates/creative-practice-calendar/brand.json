@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "creative-practice-calendar",
+  "version": "0.2.1",
+  "name": "Make Room to Try",
+  "summary": "A practice identity that treats a calendar as an invitation to small experiments rather than a measure of constant productivity.",
+  "category": "Creative practice",
+  "tags": [
+    "document",
+    "Planning & analysis"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "creative-practice-calendar"
+  ],
+  "sourceTemplateNames": {
+    "creative-practice-calendar": "Creative Practice Calendar"
+  },
+  "templateVariations": [
+    {
+      "templateId": "creative-practice-calendar",
+      "name": "Creative Practice Calendar",
+      "format": "document",
+      "sourceHash": "7fa724c4d7cc6ac260dfdc20ab3607f2be76ae29a132370a46ecd569264d565c",
+      "foundationSha256": "ca34c35fbe80f20961447d9d676d51c5a45fadc60eb19b226473a8459f0ba979",
+      "designSpecSha256": "e5f3974b4a48eecbafb3e7d43abde555f197666e8c78b672842f5180d1dae0c8",
+      "referenceDirectory": "references/creative-practice-calendar"
+    }
+  ],
+  "sourceHash": "7fa724c4d7cc6ac260dfdc20ab3607f2be76ae29a132370a46ecd569264d565c",
+  "colors": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Weekday peach",
+      "role": "primary",
+      "hex": "#FAD3C3",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #FAD3C3; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Weekday mint",
+      "role": "secondary",
+      "hex": "#C6E5D7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #C6E5D7; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Weekday lavender",
+      "role": "accent",
+      "hex": "#DCD0EF",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #DCD0EF; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Calendar grid",
+      "role": "rule",
+      "hex": "#787878",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #787878; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial Rounded MT Bold",
+      "usage": "Titles and short section openings; source used style Heading2."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CalendarDay."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Heading2.",
+      "sourceFamily": "Arial Rounded MT Bold",
+      "sourceFamilySelected": "Arial Rounded MT Bold",
+      "renderFamily": "Nunito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/nunito/Nunito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1ed86105530b5ffd704693f6843b090e2e26530c7a7ec999e1bc5098a50774ae"
+        },
+        "bold": {
+          "path": "assets/fonts/nunito/Nunito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "87ca6421aa8b61697e7abbb60248a3d81cdd086a20a69de8fcb3c5ab80f58bf5"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/nunito/OFL.txt",
+      "licenseSha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial Rounded MT Bold is a separately licensed system font; not bundled.",
+      "justification": "Portable variant selected. Arial Rounded MT Bold is a separately licensed system font; not bundled. Open rounded sans substitute for proprietary Arial Rounded MT Bold.",
+      "sourceTemplateId": "creative-practice-calendar",
+      "sourceFingerprint": "7fa724c4d7cc6ac260dfdc20ab3607f2be76ae29a132370a46ecd569264d565c"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style CalendarDay.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "creative-practice-calendar",
+      "sourceFingerprint": "7fa724c4d7cc6ac260dfdc20ab3607f2be76ae29a132370a46ecd569264d565c"
+    }
+  ],
+  "recognitionRules": [
+    "Use a strong month heading and a rounded display invitation.",
+    "Keep each day’s prompt brief enough to leave writing space.",
+    "Separate planned practice from completed practice through labels, not celebratory scores.",
+    "Use repeating peach, mint and lavender weekday header cells over a fine gray seven-column calendar; retain the circle, wedge, square and zigzag source motif as a small companion."
+  ],
+  "writingLinks": [
+    {
+      "id": "V23",
+      "name": "Conversational micro-essay",
+      "reason": "Light prompts and open space for a brief reflective habit.",
+      "sourceTemplateId": "creative-practice-calendar",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A little time. One small experiment. Something worth noticing.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use MAKE ROOM TO TRY as a rounded typographic stack with one deliberately open square beneath it. The square is writing space, not a checkbox.",
+  "invariants": [
+    "Use a strong month heading and a rounded display invitation.",
+    "Keep each day’s prompt brief enough to leave writing space.",
+    "Separate planned practice from completed practice through labels, not celebratory scores."
+  ],
+  "adaptations": [
+    "Weekly editions can enlarge seven prompts without changing their tone.",
+    "Leave blank days available for the user’s own practice.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/creative-practice-calendar.pdf",
+    "preview": "media/creative-practice-calendar-guide.webp",
+    "markdown": "guides/creative-practice-calendar.md"
+  },
+  "bundle": {
+    "href": "bundles/creative-practice-calendar-brand-kit.zip",
+    "filename": "Make Room to Try brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/creative-practice-calendar-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/creative-practice-calendar-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/creative-practice-calendar-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

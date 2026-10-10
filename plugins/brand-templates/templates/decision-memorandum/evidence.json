@@ -1,0 +1,277 @@
+{
+  "profile": {
+    "id": "decision-memorandum",
+    "name": "The Decision Record",
+    "templateIds": [
+      "decision-memorandum",
+      "decision-memorandum-evidence-appendix"
+    ],
+    "category": "Research & evidence",
+    "summary": "A memorandum identity that places the requested decision before its reasoning and keeps the evidence available for inspection.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#000000",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Decision header",
+        "role": "primary",
+        "hex": "#263D4B",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #263D4B; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Decision row",
+        "role": "surface",
+        "hex": "#F2F5F7",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Calibri",
+        "usage": "Titles and short section openings; source used style Subtitle."
+      },
+      {
+        "role": "body",
+        "family": "Calibri",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle."
+      }
+    ],
+    "recognitionRules": [
+      "Use a compact title, recipient and date before the recommendation.",
+      "Keep Calibri headings and black reading text, with navy table headers, white header labels and pale alternating rows.",
+      "Separate evidence, limits and next action into clearly named sections.",
+      "Treat the evidence appendix as an extension of the same record, preserving IDs and terminology."
+    ],
+    "voice": {
+      "traits": [
+        "decisive",
+        "accountable",
+        "concise"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Make the decision visible. Keep the reason close.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use THE DECISION RECORD in bold Calibri with a thin horizontal rule and a small record number. No seal or approval checkmark.",
+    "invariants": [
+      "Use a compact title, recipient and date before the recommendation.",
+      "Keep Calibri headings and black reading text, with navy table headers, white header labels and pale alternating rows.",
+      "Separate evidence, limits and next action into clearly named sections."
+    ],
+    "adaptations": [
+      "Brief and appendix editions share one identity.",
+      "A short memo may link evidence rather than reproduce it, while preserving the decision text.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "decision-memorandum",
+      "displayName": "Decision Memorandum",
+      "format": "document",
+      "nameSignals": [
+        "Library reminder pilot decision",
+        "Evidence and limits",
+        "Alternatives and follow through"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "748e52678c6ebb2d2f2e2f37c84685074b1b57d2613f69393d74cff0a58a81a6",
+      "evidence": [
+        "installed-skills/artifact-template-studio-decision-memorandum/SKILL.md",
+        "installed-skills/artifact-template-studio-decision-memorandum/DESIGN.md",
+        "installed-skills/artifact-template-studio-decision-memorandum/design/foundations.json",
+        "installed-skills/artifact-template-studio-decision-memorandum/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 53, 'basedOn': None, 'font': 'Calibri', 'sizePt': 11.5, 'bold': None, 'italic': None, 'color': '#000000', 'spaceBeforePt': None, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMultiplier':"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 2, 'basedOn': 'Normal', 'font': 'Calibri', 'sizePt': 18.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 13.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMult"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 9, 'basedOn': 'Normal', 'font': 'Calibri', 'sizePt': 13.0, 'bold': True, 'italic': None, 'color': '#000000', 'spaceBeforePt': 13.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMult"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Calibri', 'sizePt': 25.0, 'bold': None, 'italic': None, 'color': '#000000', 'spaceBeforePt': None, 'spaceAfterPt': 14.0, 'lineSpacingPt': None, 'lineSpacingMultiplier"
+        },
+        {
+          "id": "source-5",
+          "location": "used style Subtitle",
+          "observation": "{'id': 'Subtitle', 'name': 'Subtitle', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Calibri', 'sizePt': 12.0, 'bold': None, 'italic': False, 'color': '#000000', 'spaceBeforePt': None, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMult"
+        }
+      ],
+      "editionSources": [
+        {
+          "templateId": "decision-memorandum-evidence-appendix",
+          "evidence": [
+            "installed-skills/artifact-template-studio-decision-memorandum-evidence-appendix/SKILL.md",
+            "installed-skills/artifact-template-studio-decision-memorandum-evidence-appendix/DESIGN.md",
+            "installed-skills/artifact-template-studio-decision-memorandum-evidence-appendix/design/foundations.json",
+            "installed-skills/artifact-template-studio-decision-memorandum-evidence-appendix/assets/reference.docx"
+          ],
+          "fingerprint": "1dab7c47a558531b675d2261e0c9e27194883f1a930d43c79625cb8837a64fee",
+          "basis": "Explicit companion edition with matching source title and authored content structure; not grouped merely by colors."
+        }
+      ],
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/decision-memorandum.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "contrastRatio": 21.0,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "decision-memorandum",
+      "name": "Decision Memorandum",
+      "format": "document",
+      "sourceHash": "748e52678c6ebb2d2f2e2f37c84685074b1b57d2613f69393d74cff0a58a81a6",
+      "foundationSha256": "996ba1fde7a9a3d0f4174d2a1f06a2a2f48b5178eb20c856f915034f4a504001",
+      "designSpecSha256": "e7118093b97c0969063accc50080e42c11308288fe4aec018087dd340d7e0c89",
+      "referenceDirectory": "references/decision-memorandum"
+    },
+    {
+      "templateId": "decision-memorandum-evidence-appendix",
+      "name": "Decision Memorandum Evidence Appendix",
+      "format": "document",
+      "sourceHash": "1dab7c47a558531b675d2261e0c9e27194883f1a930d43c79625cb8837a64fee",
+      "foundationSha256": "6817da6e832636f788dfe3b51600475dca33163cec563ce96963cf6a57e84957",
+      "designSpecSha256": "d1ffd547342e7bdf31bc0df1b0eda375cc3064a004049e74e791df8be2f7e32e",
+      "referenceDirectory": "references/decision-memorandum-evidence-appendix"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use THE DECISION RECORD in bold Calibri with a thin horizontal rule and a small record number. No seal or approval checkmark.",
+    "productionMethod": "Brand-specific outlined typography with record-rule source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Calibri",
+      "renderFamily": "Carlito",
+      "decision": "Portable variant selected. Calibri is a separately licensed Microsoft/Office font; not bundled. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style Subtitle.",
+      "sourceFamily": "Calibri",
+      "sourceFamilySelected": "Calibri",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled.",
+      "justification": "Portable variant selected. Calibri is a separately licensed Microsoft/Office font; not bundled. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "decision-memorandum",
+      "sourceFingerprint": "748e52678c6ebb2d2f2e2f37c84685074b1b57d2613f69393d74cff0a58a81a6"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style Subtitle.",
+      "sourceFamily": "Calibri",
+      "sourceFamilySelected": "Calibri",
+      "renderFamily": "Carlito",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/carlito/Carlito-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595"
+        },
+        "bold": {
+          "path": "assets/fonts/carlito/Carlito-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/carlito/OFL.txt",
+      "licenseSha256": "58402f82a7c332a700294988fe7554fbb0a63a8d27ccc1ee3bbc640311990a00",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Calibri is a separately licensed Microsoft/Office font; not bundled.",
+      "justification": "Portable variant selected. Calibri is a separately licensed Microsoft/Office font; not bundled. Exact OFL family named by the source profile; also a practical metric-compatible Calibri substitute.",
+      "sourceTemplateId": "decision-memorandum",
+      "sourceFingerprint": "748e52678c6ebb2d2f2e2f37c84685074b1b57d2613f69393d74cff0a58a81a6"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

@@ -1,0 +1,135 @@
+{
+  "id": "problem-and-method-letter",
+  "name": "Problem to Practice",
+  "summary": "A professional correspondence identity that begins with a relevant problem and explains a concrete way of working on it.",
+  "category": "Portfolio & career",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#171B20",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Focus navy",
+      "role": "primary",
+      "hex": "#142D41",
+      "evidence": "Native reference.docx word/styles.xml: style PMSubject, style PMHeadline; text."
+    },
+    {
+      "name": "Contact slate",
+      "role": "secondary-text",
+      "hex": "#47535D",
+      "evidence": "Native reference.docx word/styles.xml: style PMNotice, style PMDate, style PMContact; text."
+    },
+    {
+      "name": "Name ink",
+      "role": "display-ink",
+      "hex": "#000000",
+      "evidence": "Native reference.docx word/styles.xml: style Title; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Arial",
+      "usage": "Titles and short section openings; source used style PMSignature."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style PMSignature."
+    }
+  ],
+  "recognitionRules": [
+    "Use a clear name header and a short problem-oriented headline.",
+    "Keep the method explanation in one focused evidence paragraph.",
+    "Use Arial with restrained spacing and ordinary letter conventions.",
+    "Separate relevant experience from any claim about a future employer’s needs."
+  ],
+  "voice": {
+    "traits": [
+      "relevant",
+      "thoughtful",
+      "direct"
+    ],
+    "principles": [
+      "Name the work and the contribution before describing personal qualities.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A useful starting point is a problem we can name and a method we can inspect.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid unsupported expertise labels and turning prototypes into shipped outcomes.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "I made this part; the team decided what happened next.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use PROBLEM TO PRACTICE as a plain Arial letterhead. No arrow symbol; the connection belongs in the prose.",
+  "invariants": [
+    "Use a clear name header and a short problem-oriented headline.",
+    "Keep the method explanation in one focused evidence paragraph.",
+    "Use Arial with restrained spacing and ordinary letter conventions."
+  ],
+  "adaptations": [
+    "Tailor the problem statement only when supported by the recipient’s context.",
+    "Keep examples concise enough for a one-page letter.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Arial",
+      "renderFamily": "Arimo",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/arimo/Arimo-Regular.ttf",
+      "bold": "assets/fonts/arimo/Arimo-Bold.ttf",
+      "license": "assets/fonts/arimo/OFL.txt",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

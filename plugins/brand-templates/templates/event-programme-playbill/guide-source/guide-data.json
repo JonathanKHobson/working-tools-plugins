@@ -1,0 +1,140 @@
+{
+  "id": "event-programme-playbill",
+  "name": "The Night Window",
+  "summary": "A performance identity that pairs a forceful title with a quiet programme readers can use before the lights go down.",
+  "category": "Community & culture",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Programme paper",
+      "role": "surface",
+      "hex": "#F2E8DC",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2E8DC; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme rule",
+      "role": "rule",
+      "hex": "#B5AAA2",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #B5AAA2; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Programme burgundy",
+      "role": "primary",
+      "hex": "#713B4B",
+      "evidence": "Native reference.docx word/styles.xml: style ProgrammeLabel; text."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Performance title and short front-cover statements."
+    },
+    {
+      "role": "body",
+      "family": "Georgia",
+      "usage": "Programme sequence, contextual notes and credits."
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact for the performance title and Georgia for programme reading.",
+    "Keep cast, sequence and contextual notes in distinct text sections.",
+    "Give credits a clear hierarchy rather than shrinking them into a decorative footer.",
+    "Retain monochrome print legibility in folded formats.",
+    "Use burgundy programme labels with the black condensed title; retain the warm-paper supporting panels."
+  ],
+  "voice": {
+    "traits": [
+      "atmospheric",
+      "courteous",
+      "concise"
+    ],
+    "principles": [
+      "Make the invitation warm and the practical details exact.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "A window opens. Take your seat and follow the evening.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid speaking for an entire community or implying confirmed attendance.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "Come for the part that interests you; here is what to expect.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE NIGHT WINDOW as a narrow stacked Impact wordmark with one vertical gap between words. Avoid a literal window illustration.",
+  "invariants": [
+    "Use Impact for the performance title and Georgia for programme reading.",
+    "Keep cast, sequence and contextual notes in distinct text sections.",
+    "Give credits a clear hierarchy rather than shrinking them into a decorative footer."
+  ],
+  "adaptations": [
+    "A poster emphasizes title and time; a playbill expands sequence and credits.",
+    "Keep essential programme information readable in dim light.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/anton/Anton-Regular.ttf",
+      "bold": "assets/fonts/anton/Anton-Regular.ttf",
+      "license": "assets/fonts/anton/OFL.txt",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Georgia",
+      "renderFamily": "Lora",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lora/Lora-Regular.ttf",
+      "bold": "assets/fonts/lora/Lora-Bold.ttf",
+      "license": "assets/fonts/lora/OFL.txt",
+      "sourceFontDependency": "Georgia is a separately licensed Microsoft/system font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "profile": {
+    "id": "ux-research-case-report",
+    "name": "The Service Study",
+    "templateIds": [
+      "ux-research-case-report"
+    ],
+    "category": "Research & evidence",
+    "summary": "A research-report identity that explains a formative study through task, method, evidence and the practical decision it informs.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#000000",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Research table header",
+        "role": "primary",
+        "hex": "#303E3B",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #303E3B; source visual and native-design-style-audit corroboration."
+      },
+      {
+        "name": "Research table row",
+        "role": "surface",
+        "hex": "#F2F5F7",
+        "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Baskerville",
+        "usage": "Native Title and research section headings use Baskerville."
+      },
+      {
+        "role": "body",
+        "family": "Baskerville",
+        "usage": "Native Normal paragraphs use Baskerville 12 pt for the report narrative."
+      },
+      {
+        "role": "labels",
+        "family": "Gill Sans",
+        "usage": "Subtitle, Caption, CaseMetadata and CaseEvidence use Gill Sans for supporting information."
+      }
+    ],
+    "recognitionRules": [
+      "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+      "Keep study and task near the opening before findings.",
+      "Separate participant observations from the researcher’s interpretation.",
+      "Use dark green-gray table headers with white labels and pale rows; source IDs remain explicit in the black reading text."
+    ],
+    "voice": {
+      "traits": [
+        "analytical",
+        "humane",
+        "transparent"
+      ],
+      "principles": [
+        "Move from observation to interpretation to a bounded next question.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Understand the task before judging the interface.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid “proves” when the material only supports a hypothesis.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use THE SERVICE STUDY in Gill Sans with a small report number and a thin rule. No magnifying-glass or person silhouette.",
+    "invariants": [
+      "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+      "Keep study and task near the opening before findings.",
+      "Separate participant observations from the researcher’s interpretation."
+    ],
+    "adaptations": [
+      "A short report retains method and limits even when findings are condensed.",
+      "An appendix expands the record without interrupting the main argument.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "ux-research-case-report",
+      "displayName": "UX Research Case Report",
+      "format": "document",
+      "nameSignals": [
+        "Library room booking research",
+        "1 Study and task",
+        "2 Findings and proposed responses",
+        "3 Decisions and limits",
+        "4 Evidence register"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825",
+      "evidence": [
+        "installed-skills/artifact-template-studio-ux-research-case-report/SKILL.md",
+        "installed-skills/artifact-template-studio-ux-research-case-report/DESIGN.md",
+        "installed-skills/artifact-template-studio-ux-research-case-report/design/foundations.json",
+        "installed-skills/artifact-template-studio-ux-research-case-report/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 47, 'basedOn': None, 'font': 'Baskerville', 'sizePt': 12.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMultipli"
+        },
+        {
+          "id": "source-2",
+          "location": "used style Heading1",
+          "observation": "{'id': 'Heading1', 'name': 'Heading 1', 'usedParagraphs': 4, 'basedOn': 'Normal', 'font': 'Baskerville', 'sizePt': 23.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 18.0, 'spaceAfterPt': 12.0, 'lineSpacingPt': None, 'lineSpaci"
+        },
+        {
+          "id": "source-3",
+          "location": "used style Heading2",
+          "observation": "{'id': 'Heading2', 'name': 'Heading 2', 'usedParagraphs': 3, 'basedOn': 'Normal', 'font': 'Baskerville', 'sizePt': 19.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 14.0, 'spaceAfterPt': 8.0, 'lineSpacingPt': None, 'lineSpacin"
+        },
+        {
+          "id": "source-4",
+          "location": "used style Title",
+          "observation": "{'id': 'Title', 'name': 'Title', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Baskerville', 'sizePt': 36.0, 'bold': False, 'italic': None, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 16.0, 'lineSpacingPt': None, 'lineSpacingMultip"
+        },
+        {
+          "id": "source-5",
+          "location": "used style Subtitle",
+          "observation": "{'id': 'Subtitle', 'name': 'Subtitle', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Gill Sans', 'sizePt': 13.0, 'bold': False, 'italic': True, 'color': '#000000', 'spaceBeforePt': 0.0, 'spaceAfterPt': 10.0, 'lineSpacingPt': None, 'lineSpacingMu"
+        }
+      ],
+      "fidelityCorrections": [
+        "Restored active native table, panel or rule colors omitted by earlier style-only palette extraction; body text color is retained."
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/ux-research-case-report.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "contrastRatio": 21.0,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "ux-research-case-report",
+      "name": "UX Research Case Report",
+      "format": "document",
+      "sourceHash": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825",
+      "foundationSha256": "93dfe74b2e9453692b051d3a21b5531e8395be947ceed170ff47fc54f62b9ece",
+      "designSpecSha256": "b16f363d9c5ffc12f64cfe948631af96748860778ddf7f6adba66b633c167161",
+      "referenceDirectory": "references/ux-research-case-report"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use THE SERVICE STUDY in Gill Sans with a small report number and a thin rule. No magnifying-glass or person silhouette.",
+    "productionMethod": "Brand-specific outlined typography with study-rule source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Gill Sans",
+      "renderFamily": "Lato",
+      "decision": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 220,
+      "secondaryWidthPx": 180,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Native Title and research section headings use Baskerville.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    },
+    {
+      "role": "body",
+      "usage": "Native Normal paragraphs use Baskerville 12 pt for the report narrative.",
+      "sourceFamily": "Baskerville",
+      "sourceFamilySelected": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "6957b04d9987de3906fa4fd5e0f8456fa993615be02cf0940d68fdf8d9cd7cfc"
+        },
+        "bold": {
+          "path": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "68eae6062311ebf542ea3fc29f4bcacc5c29513550beef702b9003cc2b14fae3"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/libre-baskerville/OFL.txt",
+      "licenseSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled.",
+      "justification": "Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    },
+    {
+      "role": "labels",
+      "usage": "Subtitle, Caption, CaseMetadata and CaseEvidence use Gill Sans for supporting information.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "ux-research-case-report",
+      "sourceFingerprint": "f0048a2b24887f46a1d0eee2788810a04b47da03292bccb89de00dec23107825"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

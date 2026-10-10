@@ -1,0 +1,79 @@
+{
+  "manifest_version": "0.4",
+  "name": "oppia-research-compass",
+  "display_name": "Oppia Research Compass",
+  "version": "0.4.1",
+  "description": "Full read-only Oppia research runtime; private corpus excluded; schema-compatible empty starter.",
+  "long_description": "Oppia Research Compass lets authorized Oppia research team members search historical research, browse studies and interviews, retrieve source-labeled evidence, compare findings, and audit evidence bundles. The plugin orchestrator routes remaining work to focused, source-traceable question-framing, interview, usability, competitive-analysis, netnography, persona, heuristic-evaluation, and CUJ skills. Eight of ten MCP tools operate directly on Oppia data. No AI Glossary, personal notes, automatic external-source runtime, or write tools are included. This source edition supplies zero real records. Configure OPPIA_RESEARCH_DB_PATH for an independently authorized compatible recipient corpus.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "server": {
+    "type": "uv",
+    "entry_point": "mcpb_launcher.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${__dirname}",
+        "mcpb_launcher.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "oppia_research_overview",
+      "description": "Explain the Oppia corpus, tool hierarchy, freshness, privacy, and runtime policy."
+    },
+    {
+      "name": "oppia_research",
+      "description": "Default Oppia-first router for broad research questions."
+    },
+    {
+      "name": "search_oppia_research",
+      "description": "Search Oppia evidence and return source-labeled excerpts with stable IDs."
+    },
+    {
+      "name": "browse_oppia_studies",
+      "description": "Browse non-interview Oppia research records."
+    },
+    {
+      "name": "browse_oppia_interviews",
+      "description": "Browse Oppia interview and persona records."
+    },
+    {
+      "name": "get_oppia_record",
+      "description": "Retrieve one Oppia research record and its evidence index."
+    },
+    {
+      "name": "get_oppia_evidence",
+      "description": "Retrieve one full Oppia evidence chunk by stable evidence ID."
+    },
+    {
+      "name": "compare_oppia_findings",
+      "description": "Compare two bounded evidence searches inside the Oppia corpus."
+    },
+    {
+      "name": "plan_oppia_research",
+      "description": "Supporting tool for a bounded Oppia research or external-evidence follow-up."
+    },
+    {
+      "name": "audit_oppia_evidence",
+      "description": "Supporting tool for checking an Oppia evidence bundle before synthesis."
+    }
+  ],
+  "keywords": [
+    "oppia",
+    "ux-research",
+    "research-repository",
+    "evidence-retrieval",
+    "mcp",
+    "ux-research-methods",
+    "research-orchestrator"
+  ],
+  "license": "AGPL-3.0-only"
+}

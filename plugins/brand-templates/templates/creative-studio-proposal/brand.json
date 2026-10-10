@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "creative-studio-proposal",
+  "version": "0.2.1",
+  "name": "Bright Assembly",
+  "summary": "A studio identity that pairs electric-blue confidence with a visible account of how creative work will be organized and delivered.",
+  "category": "Creative practice",
+  "tags": [
+    "site",
+    "Proposals & pitches"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "creative-studio-proposal"
+  ],
+  "sourceTemplateNames": {
+    "creative-studio-proposal": "Creative Studio Proposal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "creative-studio-proposal",
+      "name": "Creative Studio Proposal",
+      "format": "site",
+      "sourceHash": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7",
+      "foundationSha256": "0c91b7062d85c5103b2a6b9c38e1ccdeb2ec1478017ea653fd31ffc042c07d39",
+      "designSpecSha256": "203b658f0c233e16512cda3fd10ba5c89fe794f420f7dfb9b4b57cc42c1a6bb7",
+      "referenceDirectory": "references/creative-studio-proposal"
+    }
+  ],
+  "sourceHash": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#171720",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#283CDB",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Display Field",
+      "role": "display-field",
+      "hex": "#F4F447",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#BCE7D5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Secondary Text",
+      "role": "secondary-text",
+      "hex": "#686872",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Archivo,Arial,sans-serif",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source h1,h2,h3,.wordmark.",
+      "sourceFamily": "Archivo,Arial,sans-serif",
+      "sourceFamilySelected": "Archivo",
+      "renderFamily": "Archivo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/archivo/Archivo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "8742b93ef591ec4610b7949566aa9a994a73890076c172de866d7b421abe471e"
+        },
+        "bold": {
+          "path": "assets/fonts/archivo/Archivo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "c6d46b41aa0f276db315da650e4d26dcdd524221713ccd15863dd15c66a1f50c"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/archivo/OFL.txt",
+      "licenseSha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official Google Fonts variable source is statically instanced.",
+      "sourceTemplateId": "creative-studio-proposal",
+      "sourceFingerprint": "4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7"
+    }
+  ],
+  "recognitionRules": [
+    "Use Archivo headlines with large open spacing around the proposition.",
+    "Let blue, yellow and mint form distinct fields rather than blended gradients.",
+    "Keep the work grid separate from engagement and service panels.",
+    "Make the enquiry area a clear next step after the scope is understood."
+  ],
+  "writingLinks": [
+    {
+      "id": "V02",
+      "name": "Warm colleague",
+      "reason": "Practical, peer-level offer with clear service boundaries and an answerable enquiry.",
+      "sourceTemplateId": "creative-studio-proposal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Bring the brief. We will make the work and the working plan clear.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use BRIGHT ASSEMBLY in Archivo with a small offset rectangular color block. Keep the block outside the letterforms and avoid a generic app tile.",
+  "invariants": [
+    "Use Archivo headlines with large open spacing around the proposition.",
+    "Let blue, yellow and mint form distinct fields rather than blended gradients.",
+    "Keep the work grid separate from engagement and service panels."
+  ],
+  "adaptations": [
+    "Use one color field per proposal section.",
+    "Reduce saturated fields in long reading documents while retaining the blue wordmark.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/creative-studio-proposal.pdf",
+    "preview": "media/creative-studio-proposal-guide.webp",
+    "markdown": "guides/creative-studio-proposal.md"
+  },
+  "bundle": {
+    "href": "bundles/creative-studio-proposal-brand-kit.zip",
+    "filename": "Bright Assembly brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/creative-studio-proposal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/creative-studio-proposal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/creative-studio-proposal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

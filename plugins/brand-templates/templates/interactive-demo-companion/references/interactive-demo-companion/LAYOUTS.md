@@ -1,0 +1,108 @@
+# Routes, sections and responsive layout
+
+Source: `assets/source` · SHA-256 `89f1f57a0351a00d12d4129034bcf8fe7296b69dea7328f5c6b5a84aae3f196e` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+HTML: . Render modules: src/client.mjs, src/document.mjs, src/domain.mjs, src/state.mjs, src/text.mjs, src/views.mjs.
+
+Section IDs: #panel-title, #reset-demo, #main, #fallback, #view, #announcement, #stage-title.
+
+Responsive scopes: @media (max-width:1050px), @media (max-width:760px), @media (max-width:400px), @media (prefers-reduced-motion:reduce).
+
+- `.page` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'padding': '0'}`.
+- `header` · `base` · `assets/source/styles/print.css`: `{'padding': '0 0 8mm'}`.
+- `nav,.skip,.actions,input,.steps,#reset-demo` · `base` · `assets/source/styles/print.css`: `{'display': 'none'}`.
+- `.stage` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'margin': '8mm 0'}`.
+- `.step-number` · `base` · `assets/source/styles/print.css`: `{'margin': '0'}`.
+- `h1` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0 5mm'}`.
+- `.boundary,.boundary.mono` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0'}`.
+- `.work-area` · `base` · `assets/source/styles/print.css`: `{'min-height': '0', 'padding': '5mm 0'}`.
+- `.work-area p` · `base` · `assets/source/styles/print.css`: `{'margin': '4mm 0'}`.
+- `.work-area legend` · `base` · `assets/source/styles/print.css`: `{'padding': '4mm 0'}`.
+- `.choice` · `base` · `assets/source/styles/print.css`: `{'padding': '4mm 0', 'min-height': '0', 'break-inside': 'avoid'}`.
+- `.selected` · `base` · `assets/source/styles/print.css`: `{'min-height': '0'}`.
+- `.fields,.record .fields` · `base` · `assets/source/styles/print.css`: `{'margin': '4mm 0'}`.
+- `.fields>div,.record .fields>div` · `base` · `assets/source/styles/print.css`: `{'grid-template-columns': '35% 1fr', 'gap': '4mm', 'padding': '2mm 0', 'break-inside': 'avoid'}`.
+- `.record dt,.record dd` · `base` · `assets/source/styles/print.css`: `{'padding': '0'}`.
+- `.feedback` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm'}`.
+- `.reading-intro,.fallback` · `base` · `assets/source/styles/print.css`: `{'padding': '6mm 0'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/print.css`: `{'max-width': 'none', 'margin': '0', 'padding': '7mm 0 0'}`.
+- `.reading-sheet h2` · `base` · `assets/source/styles/print.css`: `{'margin': '4mm 0'}`.
+- `.reading-sheet h3` · `base` · `assets/source/styles/print.css`: `{'margin': '5mm 0 2mm'}`.
+- `.reading-sheet p` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0'}`.
+- `.reading-choices>div` · `base` · `assets/source/styles/print.css`: `{'margin': '3mm 0', 'break-inside': 'avoid'}`.
+- `.criterion,.feedback` · `base` · `assets/source/styles/print.css`: `{'break-inside': 'avoid'}`.
+- `footer` · `base` · `assets/source/styles/print.css`: `{'padding': '3mm 0', 'display': 'block'}`.
+- `footer span` · `base` · `assets/source/styles/print.css`: `{'display': 'block', 'margin': '1mm 0'}`.
+- `body` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `[hidden]` · `base` · `assets/source/styles/screen.css`: `{'display': 'none'}`.
+- `.page` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1536px', 'padding': '0 3.8%', 'margin': 'auto'}`.
+- `header` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'justify-content': 'space-between', 'gap': '24px', 'padding': '26px 0 28px'}`.
+- `.brand` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0'}`.
+- `nav` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'center', 'gap': '34px'}`.
+- `button` · `base` · `assets/source/styles/screen.css`: `{'padding': '14px 28px', 'min-height': '48px'}`.
+- `.steps` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'padding': '0', 'display': 'grid', 'grid-template-columns': 'repeat(4,minmax(0,1fr))'}`.
+- `.steps li` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 24px', 'min-height': '62px'}`.
+- `.stage` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(0,1fr) minmax(0,2fr)', 'gap': '40px', 'align-items': 'start'}`.
+- `.explanation` · `base` · `assets/source/styles/screen.css`: `{'min-width': '0'}`.
+- `.step-number` · `base` · `assets/source/styles/screen.css`: `{'margin': '8px 0 10px'}`.
+- `h1` · `base` · `assets/source/styles/screen.css`: `{'margin': '16px 0 26px'}`.
+- `.intro` · `base` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `.boundary` · `base` · `assets/source/styles/screen.css`: `{'margin': '38px 0 0'}`.
+- `.work-area` · `base` · `assets/source/styles/screen.css`: `{'padding': '20px 24px 22px', 'min-width': '0', 'min-height': '670px'}`.
+- `.work-area h2` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'padding': '0 0 20px'}`.
+- `h3` · `base` · `assets/source/styles/screen.css`: `{'margin': '20px 0 12px'}`.
+- `.work-area p` · `base` · `assets/source/styles/screen.css`: `{'margin': '22px 0'}`.
+- `.work-area fieldset` · `base` · `assets/source/styles/screen.css`: `{'padding': '0', 'margin': '0'}`.
+- `.work-area legend` · `base` · `assets/source/styles/screen.css`: `{'padding': '24px 0 12px'}`.
+- `.choice` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'align-items': 'flex-start', 'gap': '28px', 'min-height': '98px', 'padding': '19px 20px'}`.
+- `.choice input` · `base` · `assets/source/styles/screen.css`: `{'width': '24px', 'height': '24px', 'margin': '6px 0 0'}`.
+- `.choice strong` · `base` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.choice small` · `base` · `assets/source/styles/screen.css`: `{'display': 'block'}`.
+- `.selected` · `base` · `assets/source/styles/screen.css`: `{'min-height': '174px'}`.
+- `.selected .small` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0 10px'}`.
+- `.selected h3` · `base` · `assets/source/styles/screen.css`: `{'margin': '8px 0 14px'}`.
+- `.fields` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0 26px'}`.
+- `.fields>div` · `base` · `assets/source/styles/screen.css`: `{'display': 'grid', 'grid-template-columns': 'minmax(100px,.3fr) minmax(0,1fr)', 'gap': '20px'}`.
+- `.fields dt,.fields dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '0', 'min-width': '0'}`.
+- `.record .fields>div` · `base` · `assets/source/styles/screen.css`: `{'padding': '0', 'gap': '0', 'grid-template-columns': 'minmax(0,.48fr) minmax(0,1fr)'}`.
+- `.record dt` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 14px'}`.
+- `.record dd` · `base` · `assets/source/styles/screen.css`: `{'padding': '16px 32px'}`.
+- `.actions` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'gap': '32px', 'align-items': 'center'}`.
+- `.feedback` · `base` · `assets/source/styles/screen.css`: `{'padding': '14px 18px'}`.
+- `.criterion` · `base` · `assets/source/styles/screen.css`: `{'padding': '20px 0'}`.
+- `.author-prompts li` · `base` · `assets/source/styles/screen.css`: `{'margin': '16px 0'}`.
+- `footer` · `base` · `assets/source/styles/screen.css`: `{'display': 'flex', 'justify-content': 'space-between', 'gap': '24px', 'padding': '16px 0 32px'}`.
+- `.skip` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'padding': '16px'}`.
+- `.sr-only` · `base` · `assets/source/styles/screen.css`: `{'position': 'absolute', 'width': '1px', 'height': '1px', 'padding': '0'}`.
+- `.fallback,.reading-intro` · `base` · `assets/source/styles/screen.css`: `{'padding': '36px 0', 'max-width': '980px'}`.
+- `.reading-sheet` · `base` · `assets/source/styles/screen.css`: `{'max-width': '1040px', 'margin': '30px auto', 'padding': '32px'}`.
+- `.reading-choices>div` · `base` · `assets/source/styles/screen.css`: `{'margin': '18px 0'}`.
+- `.reading-choices dd` · `base` · `assets/source/styles/screen.css`: `{'margin': '6px 0 0'}`.
+- `nav` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '18px'}`.
+- `nav button` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '12px 18px'}`.
+- `.stage` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '28px'}`.
+- `.work-area` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '20px', 'min-height': '0'}`.
+- `.choice` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '16px', 'padding': '18px 0'}`.
+- `.steps li` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '16px'}`.
+- `.actions` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'gap': '20px'}`.
+- `.record .fields>div` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': '1fr', 'gap': '8px', 'padding': '16px 0'}`.
+- `.record dt,.record dd` · `@media (max-width:1050px)` · `assets/source/styles/screen.css`: `{'padding': '0'}`.
+- `.page` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '0 24px'}`.
+- `header` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'align-items': 'flex-start', 'padding': '24px 0'}`.
+- `nav` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'width': '100%', 'justify-content': 'space-between', 'gap': '12px'}`.
+- `.steps` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'repeat(auto-fit,minmax(min(100%,8rem),1fr))'}`.
+- `.steps li` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '14px 10px', 'min-height': '52px'}`.
+- `.stage` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '28px'}`.
+- `.step-number` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'margin': '0'}`.
+- `h1` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'margin': '10px 0 18px'}`.
+- `.work-area` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '20px 18px'}`.
+- `.fields>div` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(72px,.4fr) minmax(0,1fr)', 'gap': '14px'}`.
+- `.actions` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'gap': '16px'}`.
+- `.actions button` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '14px 18px'}`.
+- `.selected` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'min-height': '0'}`.
+- `.reading-sheet` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '22px 18px'}`.
+- `footer` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'flex-direction': 'column', 'gap': '10px'}`.
+- `.record .fields>div` · `@media (max-width:760px)` · `assets/source/styles/screen.css`: `{'padding': '14px 0'}`.
+- `.page` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'padding': '0 20px'}`.
+- `.work-area` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'padding': '18px 14px'}`.
+- `.fields>div` · `@media (max-width:400px)` · `assets/source/styles/screen.css`: `{'grid-template-columns': 'minmax(0,1fr)', 'gap': '0'}`.

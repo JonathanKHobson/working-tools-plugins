@@ -1,0 +1,236 @@
+{
+  "profile": {
+    "id": "open-studio-invitation",
+    "name": "Open Studio Hours",
+    "templateIds": [
+      "open-studio-invitation"
+    ],
+    "category": "Community & culture",
+    "summary": "A public invitation identity that makes the act of entering a creative space feel simple and concrete.",
+    "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+    "palette": [
+      {
+        "name": "Background",
+        "role": "background",
+        "hex": "#FFFFFF",
+        "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+      },
+      {
+        "name": "Text",
+        "role": "text",
+        "hex": "#161616",
+        "evidence": "used style Normal explicit text color"
+      },
+      {
+        "name": "Studio red",
+        "role": "primary",
+        "hex": "#AD351F",
+        "evidence": "Native reference.docx word/styles.xml: style SAI, style PPress, style IStudio; text."
+      }
+    ],
+    "typography": [
+      {
+        "role": "display",
+        "family": "Impact",
+        "usage": "Titles and short section openings; source used style SSubtitle."
+      },
+      {
+        "role": "body",
+        "family": "Arial",
+        "usage": "Reading text, supporting labels and detailed explanations; source used style F23Art."
+      }
+    ],
+    "recognitionRules": [
+      "Use oversized black OPEN and red STUDIO in Impact, with alternating black/red irregular open frames beneath the invitation.",
+      "Keep category and practical details in compact Arial text.",
+      "Give date, location and attendance action a distinct block.",
+      "Leave enough negative space that the invitation works from a distance."
+    ],
+    "voice": {
+      "traits": [
+        "welcoming",
+        "bold",
+        "uncomplicated"
+      ],
+      "principles": [
+        "Make the invitation warm and the practical details exact.",
+        "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+      ],
+      "sample": "Come in. See what is taking shape.",
+      "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+      "avoid": [
+        "Avoid speaking for an entire community or implying confirmed attendance.",
+        "Avoid invented testimonials, performance claims and quotation attribution."
+      ],
+      "secondaryExample": "Come for the part that interests you; here is what to expect.",
+      "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+    },
+    "logoDirection": "Use OPEN STUDIO HOURS as a bold two-line Impact wordmark with HOURS in small Arial. The typography is the sign; no door pictogram.",
+    "invariants": [
+      "Use oversized black OPEN and red STUDIO in Impact, with alternating black/red irregular open frames beneath the invitation.",
+      "Keep category and practical details in compact Arial text.",
+      "Give date, location and attendance action a distinct block."
+    ],
+    "adaptations": [
+      "A street poster emphasizes the invitation; a digital card adds access details.",
+      "Keep the word OPEN legible at the smallest intended size.",
+      "Keep the full name with any new symbol until the audience can recognize it independently."
+    ],
+    "source": {
+      "templateId": "open-studio-invitation",
+      "displayName": "Open Studio Invitation",
+      "format": "document",
+      "nameSignals": [
+        "Open Studio Invitation"
+      ],
+      "nameStatus": "Editorial name derived for this reusable identity; source specimen names remain fictional.",
+      "fingerprint": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a",
+      "evidence": [
+        "installed-skills/artifact-template-studio-open-studio-invitation/SKILL.md",
+        "installed-skills/artifact-template-studio-open-studio-invitation/DESIGN.md",
+        "installed-skills/artifact-template-studio-open-studio-invitation/design/foundations.json",
+        "installed-skills/artifact-template-studio-open-studio-invitation/assets/reference.docx"
+      ],
+      "observationBoundary": "Source values and component names are observed; identity naming, verbal examples and reusable rules are editorial design choices. Rendered application QA is tracked separately.",
+      "anchors": [
+        {
+          "id": "source-1",
+          "location": "used style Normal",
+          "observation": "{'id': 'Normal', 'name': 'Normal', 'usedParagraphs': 3, 'basedOn': None, 'font': 'Arial', 'sizePt': 11.0, 'bold': False, 'italic': None, 'color': '#161616', 'spaceBeforePt': 0.0, 'spaceAfterPt': 0.0, 'lineSpacingPt': None, 'lineSpacingMultiplier': 1."
+        },
+        {
+          "id": "source-2",
+          "location": "used style F23Spacer",
+          "observation": "{'id': 'F23Spacer', 'name': 'F23 Spacer', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 1.0, 'bold': False, 'italic': None, 'color': '#161616', 'spaceBeforePt': 0.0, 'spaceAfterPt': 0.0, 'lineSpacingPt': None, 'lineSpacingMulti"
+        },
+        {
+          "id": "source-3",
+          "location": "used style ICategory",
+          "observation": "{'id': 'ICategory', 'name': 'I Category', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Arial', 'sizePt': 9.0, 'bold': True, 'italic': None, 'color': '#161616', 'spaceBeforePt': 0.0, 'spaceAfterPt': 7.0, 'lineSpacingPt': None, 'lineSpacingMultip"
+        },
+        {
+          "id": "source-4",
+          "location": "used style IOpen",
+          "observation": "{'id': 'IOpen', 'name': 'I Open', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Impact', 'sizePt': 60.0, 'bold': False, 'italic': None, 'color': '#161616', 'spaceBeforePt': 0.0, 'spaceAfterPt': 0.0, 'lineSpacingPt': None, 'lineSpacingMultiplier'"
+        },
+        {
+          "id": "source-5",
+          "location": "used style IStudio",
+          "observation": "{'id': 'IStudio', 'name': 'I Studio', 'usedParagraphs': 1, 'basedOn': 'Normal', 'font': 'Impact', 'sizePt': 79.0, 'bold': False, 'italic': None, 'color': '#AD351F', 'spaceBeforePt': 0.0, 'spaceAfterPt': 0.0, 'lineSpacingPt': None, 'lineSpacingMultipl"
+        }
+      ],
+      "visualFidelityReview": {
+        "date": "2026-10-07",
+        "scope": "Native rendered cover/desktop preview reviewed on 104-identity contact boards; discrepancies opened individually. Native XML corroborates exact values. This does not claim every page was visually inspected.",
+        "nativePreview": "design-library/img/full/open-studio-invitation.webp",
+        "logoBoundary": "The authored brand wordmark and symbol are new editorial proposals unless separately identified as preserved source geometry; supporting native artwork and functional color roles are not replaced by the new logo."
+      }
+    },
+    "rights": {
+      "identity": "Original editorial identity for a fictional template-derived system; names are not trademark-cleared.",
+      "fonts": "Family names identify source typography; redistribution requires font-specific license evidence. A system-installed font is not a redistributable asset.",
+      "assets": "Use only local source assets with recorded permission; no external brands or reference-kit identities are included."
+    },
+    "recognitionRulesStatus": "Editorial translation of source mechanisms. Exact source observations are recorded separately; final applications require rendered review.",
+    "logoDirectionStatus": "New design direction, not proof of a finished, trademark-cleared or approved logo.",
+    "accessibility": {
+      "readingPair": {
+        "foreground": "#161616",
+        "background": "#FFFFFF",
+        "contrastRatio": 18.1,
+        "wcagAAForNormalText": true
+      },
+      "scope": "Calculated solid-color reading pair only. Accent text, controls, image overlays, font rendering, small marks and final layouts require application-specific review. Decorative palette colors are not automatically valid text colors."
+    }
+  },
+  "sourceVariations": [
+    {
+      "templateId": "open-studio-invitation",
+      "name": "Open Studio Invitation",
+      "format": "document",
+      "sourceHash": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a",
+      "foundationSha256": "6bf722a258ac9fdd4c94e1b81be23a3b430d387bc164b6930d6e785ae6a8fbd6",
+      "designSpecSha256": "bb8f441068369464ae3834dd78915ac2f44899423131497fece3c11dfcc1a4e9",
+      "referenceDirectory": "references/open-studio-invitation"
+    }
+  ],
+  "logoProduction": {
+    "decision": "Use OPEN STUDIO HOURS as a bold two-line Impact wordmark with HOURS in small Arial. The typography is the sign; no door pictogram.",
+    "productionMethod": "Brand-specific outlined typography with none source mechanism. Precise native geometry; no raster masquerading as SVG.",
+    "productionNotes": "Self-contained SVG masters contain real paths. PNG exports are rendered at 2x with MuPDF. No raster is described as editable vector. Source family substitutions are explicit in fontsUsed and brand-font-plan.",
+    "typeDependency": {
+      "sourceFamily": "Impact",
+      "renderFamily": "Anton",
+      "decision": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "status": "resolved for logo assets; source family retained as provenance"
+    },
+    "clearSpace": {
+      "rule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+      "status": "production rule for review; asset canvas padding is not the full application exclusion zone"
+    },
+    "minimumSize": {
+      "primaryWidthPx": 280,
+      "secondaryWidthPx": 220,
+      "symbolWidthPx": null,
+      "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+    }
+  },
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source used style SSubtitle.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "open-studio-invitation",
+      "sourceFingerprint": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source used style F23Art.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "open-studio-invitation",
+      "sourceFingerprint": "d56e6639fb864e7d6f031ddc45c851d39429e4ad0d1e582e5549651164787a5a"
+    }
+  ],
+  "verification": "Source records and asset provenance checked; rendered guide review is tracked separately in project evidence."
+}

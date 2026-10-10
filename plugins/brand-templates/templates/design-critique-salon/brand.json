@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "design-critique-salon",
+  "version": "0.2.1",
+  "name": "Open Room",
+  "summary": "A critique identity that combines editorial collage with a deliberately bounded conversation about one design question.",
+  "category": "Creative practice",
+  "tags": [
+    "presentation",
+    "Workshops & facilitation"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "design-critique-salon"
+  ],
+  "sourceTemplateNames": {
+    "design-critique-salon": "Design Critique Salon"
+  },
+  "templateVariations": [
+    {
+      "templateId": "design-critique-salon",
+      "name": "Design Critique Salon",
+      "format": "presentation",
+      "sourceHash": "4522505e2ed3bbd42232308f938f43dcd9412115a756b7be4c7143c1a4fdad44",
+      "foundationSha256": "eace8f9401a8deb3de02491c87d8023ee4d128b72b8ae6c88fc5f929b1fada51",
+      "designSpecSha256": "0e869d860ab73f69fb7399a6a07f13721400722737098cd1293103cfee5db48f",
+      "referenceDirectory": "references/design-critique-salon"
+    }
+  ],
+  "sourceHash": "4522505e2ed3bbd42232308f938f43dcd9412115a756b7be4c7143c1a4fdad44",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#FFFDF6",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#24232B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#8B355A",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#CDEBE5",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Futura",
+      "usage": "Titles and short section openings; source slide 9 / title."
+    },
+    {
+      "role": "body",
+      "family": "Gill Sans",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / navNext."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / title.",
+      "sourceFamily": "Futura",
+      "sourceFamilySelected": "Futura",
+      "renderFamily": "Jost",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/jost/Jost-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "cbef5f7e581b6b40cbbb423358a84e65d109a13bf68b2776c1677dd9733e1794"
+        },
+        "bold": {
+          "path": "assets/fonts/jost/Jost-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "5df8ac407696f78a27769ef4a22965fb257659575cb1dac5122c66db10caddc4"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/jost/OFL.txt",
+      "licenseSha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Futura is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Futura is an Apple/system or separately licensed font; not bundled. Open geometric sans substitute for proprietary Futura source dependencies.",
+      "sourceTemplateId": "design-critique-salon",
+      "sourceFingerprint": "4522505e2ed3bbd42232308f938f43dcd9412115a756b7be4c7143c1a4fdad44"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / navNext.",
+      "sourceFamily": "Gill Sans",
+      "sourceFamilySelected": "Gill Sans",
+      "renderFamily": "Lato",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/lato/Lato-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+        },
+        "semibold": {
+          "path": "assets/fonts/lato/Lato-SemiBold.ttf",
+          "weight": 600,
+          "style": "normal",
+          "name": "SemiBold",
+          "sha256": "71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c"
+        },
+        "bold": {
+          "path": "assets/fonts/lato/Lato-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/lato/OFL.txt",
+      "licenseSha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Gill Sans is an Apple/system or separately licensed font; not bundled. Open humanist sans substitute for proprietary Helvetica Neue or Gill Sans source dependencies.",
+      "sourceTemplateId": "design-critique-salon",
+      "sourceFingerprint": "4522505e2ed3bbd42232308f938f43dcd9412115a756b7be4c7143c1a4fdad44"
+    }
+  ],
+  "recognitionRules": [
+    "Use a paper-collage opening and the short Futura refrain LOOK. LOOK AGAIN.",
+    "Pair plum and pale mint on a quiet cream ground.",
+    "Give the critique question a full focal area before showing feedback prompts.",
+    "Make open decisions, fixed constraints and the presenter’s authority explicit."
+  ],
+  "writingLinks": [
+    {
+      "id": "V22",
+      "name": "Reflective critic",
+      "reason": "Critique that separates observation from interpretation before a bounded choice.",
+      "sourceTemplateId": "design-critique-salon",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Look once for the first impression. Look again for the reason.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use OPEN ROOM in Futura with two open corner brackets facing a shared space. The space is the mark; do not close it into a box.",
+  "invariants": [
+    "Use a paper-collage opening and the short Futura refrain LOOK. LOOK AGAIN.",
+    "Pair plum and pale mint on a quiet cream ground.",
+    "Give the critique question a full focal area before showing feedback prompts."
+  ],
+  "adaptations": [
+    "Worksheets reduce collage to one small edge detail.",
+    "Retain one critique question even when several artifacts are reviewed.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/design-critique-salon.pdf",
+    "preview": "media/design-critique-salon-guide.webp",
+    "markdown": "guides/design-critique-salon.md"
+  },
+  "bundle": {
+    "href": "bundles/design-critique-salon-brand-kit.zip",
+    "filename": "Open Room brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/design-critique-salon-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/design-critique-salon-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/design-critique-salon-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "ux-research-case-report",
+  "name": "The Service Study",
+  "summary": "A research-report identity that explains a formative study through task, method, evidence and the practical decision it informs.",
+  "category": "Research & evidence",
+  "palette": [
+    {
+      "name": "Background",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "evidence": "Native Office page/sheet white ground; explicit design choice retaining the reading surface."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#000000",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Research table header",
+      "role": "primary",
+      "hex": "#303E3B",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #303E3B; source visual and native-design-style-audit corroboration."
+    },
+    {
+      "name": "Research table row",
+      "role": "surface",
+      "hex": "#F2F5F7",
+      "evidence": "Native reference.docx word/document.xml active shading/border value #F2F5F7; source visual and native-design-style-audit corroboration."
+    }
+  ],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Baskerville",
+      "usage": "Native Title and research section headings use Baskerville."
+    },
+    {
+      "role": "body",
+      "family": "Baskerville",
+      "usage": "Native Normal paragraphs use Baskerville 12 pt for the report narrative."
+    },
+    {
+      "role": "labels",
+      "family": "Gill Sans",
+      "usage": "Subtitle, Caption, CaseMetadata and CaseEvidence use Gill Sans for supporting information."
+    }
+  ],
+  "recognitionRules": [
+    "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+    "Keep study and task near the opening before findings.",
+    "Separate participant observations from the researcher’s interpretation.",
+    "Use dark green-gray table headers with white labels and pale rows; source IDs remain explicit in the black reading text."
+  ],
+  "voice": {
+    "traits": [
+      "analytical",
+      "humane",
+      "transparent"
+    ],
+    "principles": [
+      "Move from observation to interpretation to a bounded next question.",
+      "Use the identity’s sample as a rhythm and vocabulary reference, not as a factual project claim."
+    ],
+    "sample": "Understand the task before judging the interface.",
+    "sampleStatus": "Original fictional brand copy authored for this guide, not a quotation or factual claim.",
+    "avoid": [
+      "Avoid “proves” when the material only supports a hypothesis.",
+      "Avoid invented testimonials, performance claims and quotation attribution."
+    ],
+    "secondaryExample": "A record suggests a direction; it does not speak for every person.",
+    "cadence": "Short opening, concrete follow-through; vary sentence length for explanation."
+  },
+  "logoDirection": "Use THE SERVICE STUDY in Gill Sans with a small report number and a thin rule. No magnifying-glass or person silhouette.",
+  "invariants": [
+    "Use Baskerville for report headings and narrative paragraphs; use Gill Sans for subtitle, metadata, captions and evidence labels.",
+    "Keep study and task near the opening before findings.",
+    "Separate participant observations from the researcher’s interpretation."
+  ],
+  "adaptations": [
+    "A short report retains method and limits even when findings are condensed.",
+    "An appendix expands the record without interrupting the main argument.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "format": "document",
+  "logos": [
+    {
+      "kind": "primary",
+      "png": "assets/logos/primary.png"
+    },
+    {
+      "kind": "secondary",
+      "png": "assets/logos/secondary.png"
+    },
+    {
+      "kind": "mono",
+      "png": "assets/logos/mono.png"
+    },
+    {
+      "kind": "reverse",
+      "png": "assets/logos/reverse.png"
+    },
+    {
+      "kind": "motif",
+      "png": "assets/logos/motif.png"
+    }
+  ],
+  "fonts": [
+    {
+      "role": "display",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "body",
+      "sourceFamily": "Baskerville",
+      "renderFamily": "Libre Baskerville",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/libre-baskerville/LibreBaskerville-Regular.ttf",
+      "bold": "assets/fonts/libre-baskerville/LibreBaskerville-Bold.ttf",
+      "license": "assets/fonts/libre-baskerville/OFL.txt",
+      "sourceFontDependency": "Baskerville is a separately licensed/system font; not bundled."
+    },
+    {
+      "role": "labels",
+      "sourceFamily": "Gill Sans",
+      "renderFamily": "Lato",
+      "exactOrSubstitute": "substitute",
+      "regular": "assets/fonts/lato/Lato-Regular.ttf",
+      "bold": "assets/fonts/lato/Lato-Bold.ttf",
+      "license": "assets/fonts/lato/OFL.txt",
+      "sourceFontDependency": "Gill Sans is an Apple/system or separately licensed font; not bundled."
+    }
+  ],
+  "brandDir": "..",
+  "clearSpaceRule": "Keep one half of the main wordmark cap height clear around the full silhouette, including its source-derived supporting device.",
+  "minimumSize": {
+    "primaryWidthPx": 220,
+    "secondaryWidthPx": 180,
+    "symbolWidthPx": null,
+    "status": "production minimum based on rendered 220/180px wordmark and 32/64px symbol inspection; verify again for unusual substrates"
+  }
+}

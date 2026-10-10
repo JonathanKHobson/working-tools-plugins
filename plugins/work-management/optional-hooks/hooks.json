@@ -1,0 +1,54 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
+            "timeout": 3,
+            "statusMessage": "Applying proactive work and native goal preferences"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/decision_review_hint.py\"",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/decision_review_hint.py\"",
+            "timeout": 3,
+            "statusMessage": "Checking whether a lightweight decision review is relevant"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_session_start.py\"",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_session_start.py\"",
+            "timeout": 5,
+            "statusMessage": "Checking the Codex task-boundary board"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_stop_guard.py\"",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_stop_guard.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

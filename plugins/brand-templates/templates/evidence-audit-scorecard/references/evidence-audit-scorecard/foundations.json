@@ -1,0 +1,1939 @@
+{
+  "source": "assets/reference.xlsx",
+  "kind": "spreadsheet",
+  "sourceHash": "253a016948ec360fb844c00c14835db77496b5f42bb40997b6602d8d16d4b397",
+  "sourceHashScope": "source file bytes",
+  "sourceFileHashes": {
+    "reference.xlsx": "253a016948ec360fb844c00c14835db77496b5f42bb40997b6602d8d16d4b397"
+  },
+  "sheets": [
+    {
+      "name": "Scorecard",
+      "range": "A1:L29",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "Evidence audit scorecard"
+        },
+        {
+          "cell": "B3",
+          "value": "Fictional six-session review: six issues, including one unverified report."
+        },
+        {
+          "cell": "B5",
+          "value": "Severity"
+        },
+        {
+          "cell": "C5",
+          "value": "0.6"
+        },
+        {
+          "cell": "D5",
+          "value": "Frequency"
+        },
+        {
+          "cell": "E5",
+          "value": "0.4"
+        },
+        {
+          "cell": "F5",
+          "value": "Total"
+        },
+        {
+          "cell": "G5",
+          "value": "=IF(COUNT(C5,E5)=2,SUM(C5,E5),\"n.a.\")"
+        },
+        {
+          "cell": "B6",
+          "value": "=IF(COUNT(C5,E5)<>2,\"WEIGHTS…"
+        },
+        {
+          "cell": "D6",
+          "value": "Scoreable"
+        },
+        {
+          "cell": "E6",
+          "value": "=COUNT(H10:H18)"
+        },
+        {
+          "cell": "F6",
+          "value": "On hold"
+        },
+        {
+          "cell": "G6",
+          "value": "=COUNTIF(H10:H18,\"n.a.\")"
+        },
+        {
+          "cell": "H6",
+          "value": "Scope"
+        },
+        {
+          "cell": "I6",
+          "value": "9 slots"
+        },
+        {
+          "cell": "B8",
+          "value": "Edit amber inputs on Evidence. All nine slots feed this scorecard; display order does not…"
+        }
+      ],
+      "formulaCount": 94,
+      "formulaAnchors": [
+        "G5",
+        "B6",
+        "E6",
+        "G6",
+        "B10",
+        "C10",
+        "D10",
+        "E10",
+        "F10",
+        "G10",
+        "H10",
+        "I10"
+      ],
+      "stylesUsed": {
+        "3": 232,
+        "25": 20,
+        "32": 16,
+        "5": 10,
+        "14": 10,
+        "23": 10,
+        "26": 10,
+        "30": 8,
+        "33": 8,
+        "24": 5,
+        "37": 5,
+        "31": 4
+      },
+      "styledBlankCells": 225,
+      "blankStylesUsed": {
+        "3": 214,
+        "5": 10,
+        "12": 1
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 3.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 13.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 31.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 25.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 12.0,
+          "hidden": false
+        },
+        {
+          "column": "I",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "J",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "K",
+          "widthCharacters": 25.0,
+          "hidden": false
+        },
+        {
+          "column": "L",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 8.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 36.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 37.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 23.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting G10:G18>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting H10:I18>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting J10:J18>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting B6>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting G10:G18>",
+          "type": "containsText",
+          "priority": 1,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Scorable",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#E0EEE7"
+          },
+          "fontColor": "#18563B",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting H10:I18>",
+          "type": "containsText",
+          "priority": 2,
+          "formula": [],
+          "operator": "containsText",
+          "text": "n.a.",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFF1D1"
+          },
+          "fontColor": "#704000",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting J10:J18>",
+          "type": "containsText",
+          "priority": 3,
+          "formula": [],
+          "operator": "containsText",
+          "text": "TIE",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#A4D8E2"
+          },
+          "fontColor": "#101B24",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting B6>",
+          "type": "notContainsText",
+          "priority": 4,
+          "formula": [],
+          "operator": null,
+          "text": "WEIGHTS OK",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FFC7CE"
+          },
+          "fontColor": "#9C0006",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [
+        {
+          "range": "C5",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "E5",
+          "type": "decimal",
+          "formula1": "0"
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    },
+    {
+      "name": "Evidence",
+      "range": "A1:L29",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "Issue evidence ledger"
+        },
+        {
+          "cell": "B3",
+          "value": "Original fictional records. Reviewed is an entered human judgment, not a formula proving…"
+        },
+        {
+          "cell": "B5",
+          "value": "INPUTS: ID, finding, review state, reference, observation, owner, rationale and ratings.…"
+        },
+        {
+          "cell": "B6",
+          "value": "Keep each issue on one row. Clear a whole row to remove it. Do not erase the source record…"
+        },
+        {
+          "cell": "B8",
+          "value": "Issue ID"
+        },
+        {
+          "cell": "C8",
+          "value": "Finding"
+        },
+        {
+          "cell": "D8",
+          "value": "Review state"
+        },
+        {
+          "cell": "E8",
+          "value": "Evidence ref"
+        },
+        {
+          "cell": "F8",
+          "value": "Observation"
+        },
+        {
+          "cell": "G8",
+          "value": "Owner"
+        },
+        {
+          "cell": "H8",
+          "value": "Priority rationale"
+        },
+        {
+          "cell": "I8",
+          "value": "Severity"
+        },
+        {
+          "cell": "J8",
+          "value": "Freq."
+        },
+        {
+          "cell": "K8",
+          "value": "Effort"
+        },
+        {
+          "cell": "B9",
+          "value": "AUD-01"
+        },
+        {
+          "cell": "C9",
+          "value": "Reset route hidden"
+        }
+      ],
+      "formulaCount": 0,
+      "formulaAnchors": [],
+      "stylesUsed": {
+        "3": 237,
+        "17": 54,
+        "39": 27,
+        "5": 10,
+        "14": 10,
+        "18": 9,
+        "4": 1
+      },
+      "styledBlankCells": 269,
+      "blankStylesUsed": {
+        "3": 228,
+        "17": 19,
+        "5": 10,
+        "39": 9,
+        "18": 3
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 3.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 12.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 23.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 14.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 20.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 33.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 24.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 33.0,
+          "hidden": false
+        },
+        {
+          "column": "I",
+          "widthCharacters": 9.0,
+          "hidden": false
+        },
+        {
+          "column": "J",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "K",
+          "widthCharacters": 9.0,
+          "hidden": false
+        },
+        {
+          "column": "L",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 32.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 8.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 36.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 46.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 23.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 23.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [],
+      "conditionalFormattingRules": [],
+      "validations": [
+        {
+          "range": "D9",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I9",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J9",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K9",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D10",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I10",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J10",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K10",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D11",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I11",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J11",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K11",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D12",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I12",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J12",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K12",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D13",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I13",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J13",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K13",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D14",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I14",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J14",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K14",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D15",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I15",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J15",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K15",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D16",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I16",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J16",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K16",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "D17",
+          "type": "list",
+          "formula1": "\"Reviewed,Reported\""
+        },
+        {
+          "range": "I17",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "J17",
+          "type": "whole",
+          "formula1": "1"
+        },
+        {
+          "range": "K17",
+          "type": "whole",
+          "formula1": "1"
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    }
+  ],
+  "directColors": [
+    "#16252E",
+    "#D5DFE5",
+    "#0000CC",
+    "#FFF1D1",
+    "#FFFFFF",
+    "#A4D8E2",
+    "#F0F4F6",
+    "#E3EEF6",
+    "#101B24"
+  ],
+  "conditionalColors": [
+    "#18563B",
+    "#E0EEE7",
+    "#704000",
+    "#FFF1D1",
+    "#101B24",
+    "#A4D8E2",
+    "#9C0006",
+    "#FFC7CE"
+  ],
+  "fonts": [
+    "Arial",
+    "Courier New"
+  ],
+  "fontSizesPt": [
+    11.0,
+    17.0
+  ],
+  "styles": 40,
+  "usedStyles": [
+    {
+      "id": 3,
+      "cells": 469,
+      "styledBlankCells": 442,
+      "examples": [
+        "Scorecard!A1",
+        "Scorecard!B1",
+        "Scorecard!C1",
+        "Scorecard!D1",
+        "Scorecard!E1",
+        "Scorecard!F1",
+        "Scorecard!G1",
+        "Scorecard!H1"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 17,
+      "cells": 54,
+      "styledBlankCells": 19,
+      "examples": [
+        "Evidence!C9",
+        "Evidence!D9",
+        "Evidence!E9",
+        "Evidence!F9",
+        "Evidence!G9",
+        "Evidence!H9",
+        "Evidence!C10",
+        "Evidence!D10"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1D1",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 39,
+      "cells": 27,
+      "styledBlankCells": 9,
+      "examples": [
+        "Evidence!I9",
+        "Evidence!J9",
+        "Evidence!K9",
+        "Evidence!I10",
+        "Evidence!J10",
+        "Evidence!K10",
+        "Evidence!I11",
+        "Evidence!J11"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1D1",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "0;[Red](0);\"-\";@"
+    },
+    {
+      "id": 5,
+      "cells": 20,
+      "styledBlankCells": 20,
+      "examples": [
+        "Scorecard!B4",
+        "Scorecard!C4",
+        "Scorecard!D4",
+        "Scorecard!E4",
+        "Scorecard!F4",
+        "Scorecard!G4",
+        "Scorecard!H4",
+        "Scorecard!I4"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "medium",
+          "color": "#A4D8E2"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 14,
+      "cells": 20,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!B9",
+        "Scorecard!C9",
+        "Scorecard!D9",
+        "Scorecard!E9",
+        "Scorecard!F9",
+        "Scorecard!G9",
+        "Scorecard!H9",
+        "Scorecard!I9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#E3EEF6"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "medium",
+          "color": "#A4D8E2"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 25,
+      "cells": 20,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!D10",
+        "Scorecard!E10",
+        "Scorecard!F10",
+        "Scorecard!I10",
+        "Scorecard!D12",
+        "Scorecard!E12",
+        "Scorecard!F12",
+        "Scorecard!I12"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 32,
+      "cells": 16,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!D11",
+        "Scorecard!E11",
+        "Scorecard!F11",
+        "Scorecard!I11",
+        "Scorecard!D13",
+        "Scorecard!E13",
+        "Scorecard!F13",
+        "Scorecard!I13"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F0F4F6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 23,
+      "cells": 10,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!C10",
+        "Scorecard!K10",
+        "Scorecard!C12",
+        "Scorecard!K12",
+        "Scorecard!C14",
+        "Scorecard!K14",
+        "Scorecard!C16",
+        "Scorecard!K16"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 26,
+      "cells": 10,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!G10",
+        "Scorecard!J10",
+        "Scorecard!G12",
+        "Scorecard!J12",
+        "Scorecard!G14",
+        "Scorecard!J14",
+        "Scorecard!G16",
+        "Scorecard!J16"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 18,
+      "cells": 9,
+      "styledBlankCells": 3,
+      "examples": [
+        "Evidence!B9",
+        "Evidence!B10",
+        "Evidence!B11",
+        "Evidence!B12",
+        "Evidence!B13",
+        "Evidence!B14",
+        "Evidence!B15",
+        "Evidence!B16"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1D1",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 30,
+      "cells": 8,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!C11",
+        "Scorecard!K11",
+        "Scorecard!C13",
+        "Scorecard!K13",
+        "Scorecard!C15",
+        "Scorecard!K15",
+        "Scorecard!C17",
+        "Scorecard!K17"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F0F4F6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 33,
+      "cells": 8,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!G11",
+        "Scorecard!J11",
+        "Scorecard!G13",
+        "Scorecard!J13",
+        "Scorecard!G15",
+        "Scorecard!J15",
+        "Scorecard!G17",
+        "Scorecard!J17"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F0F4F6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 24,
+      "cells": 5,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!B10",
+        "Scorecard!B12",
+        "Scorecard!B14",
+        "Scorecard!B16",
+        "Scorecard!B18"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 37,
+      "cells": 5,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!H10",
+        "Scorecard!H12",
+        "Scorecard!H14",
+        "Scorecard!H16",
+        "Scorecard!H18"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "0.00;(0.00);\"-\";@"
+    },
+    {
+      "id": 31,
+      "cells": 4,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!B11",
+        "Scorecard!B13",
+        "Scorecard!B15",
+        "Scorecard!B17"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F0F4F6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 38,
+      "cells": 4,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!H11",
+        "Scorecard!H13",
+        "Scorecard!H15",
+        "Scorecard!H17"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#F0F4F6",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#D5DFE5"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "0.00;(0.00);\"-\";@"
+    },
+    {
+      "id": 4,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!B2",
+        "Evidence!B2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 17.0,
+        "bold": true,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 35,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!C5",
+        "Scorecard!E5"
+      ],
+      "font": {
+        "name": "Courier New",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#0000CC"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1D1",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "0%;(0%);\"-\";@"
+    },
+    {
+      "id": 12,
+      "cells": 2,
+      "styledBlankCells": 1,
+      "examples": [
+        "Scorecard!B6",
+        "Scorecard!C6"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#E3EEF6"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#101B24",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 36,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Scorecard!G5"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#16252E"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": false
+      },
+      "numberFormat": "0%;(0%);\"-\";@"
+    }
+  ],
+  "renderedPreview": {
+    "localFile": "office-pdf/evidence-audit-scorecard.pdf",
+    "sha256": "047853f9bd6daa2f0539fc2c76521f15e6fb48c05fe180d9556b64338a859f7e",
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Calc",
+    "pageCount": 2,
+    "fontResources": [
+      "LiberationMono",
+      "LiberationMono-Bold",
+      "LiberationSans",
+      "LiberationSans-Bold"
+    ],
+    "bundleIncludesPdf": false,
+    "publicPreviewRouteIfBuilt": "previews/evidence-audit-scorecard.pdf"
+  }
+}

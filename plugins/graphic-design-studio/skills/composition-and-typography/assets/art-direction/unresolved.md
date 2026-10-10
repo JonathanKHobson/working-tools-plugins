@@ -1,0 +1,8 @@
+# Unresolved and limits
+
+1. The original examples are fictional layouts. Check actual exported artifacts at poster-like and mobile sizes. Color contrast, overflow, focus order, physical print and audience comprehension remain unverified.
+2. SFMOMA records *Pink poster* as 1973; People's Graphic Design Archive labels *Pink (1974)*. The exact date and relationship of these records need archival resolution before a precise historical claim. The contributed archive's process description is qualified; the saved SFMOMA result did not corroborate construction details or a 6×6 grid.
+3. The International Council of Design lists de Bretteville's 1973 essay, but the large PDF exceeded the saved fetch limit. This packet does not quote or characterize the essay's argument. Original creator/site records for some public works and their rights may require further inspection before publication.
+4. The historical poster and two poster comps are private user references. Their embedded portrait and other third-party rights were not established. No source imagery was copied. No Figma node/file reference was supplied in this lane.
+5. The HTML event is entirely fictional, including address and `.example` contact. A live program would require confirmed logistics, collection/consent plan for suggestions, accessibility commitments and brand/print specs before use.
+6. Anthropic repository results were inspected as a method comparison only. The exact current revision, canvas font files and per-font licenses were not validated. No code or dependencies were imported. One Reddit domain check failed, so practitioner discussion was not used as evidence.

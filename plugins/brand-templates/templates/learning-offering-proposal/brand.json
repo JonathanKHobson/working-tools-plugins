@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "learning-offering-proposal",
+  "version": "0.2.1",
+  "name": "Practice First",
+  "summary": "A learning-offer identity that makes the participant’s activity and observable check more important than promotional promises.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Teaching & learning"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "learning-offering-proposal"
+  ],
+  "sourceTemplateNames": {
+    "learning-offering-proposal": "Learning Offering Proposal"
+  },
+  "templateVariations": [
+    {
+      "templateId": "learning-offering-proposal",
+      "name": "Learning Offering Proposal",
+      "format": "presentation",
+      "sourceHash": "6a9e2610b26db63dea74e3bcd9adb3c1a08af7933276a594bf66db0853a5a966",
+      "foundationSha256": "46b0c0cee0274aefd1808a9ea8000f98841574b9e41252fbb03109a76155246c",
+      "designSpecSha256": "58c7877b070f455dba9a90270ab2158aca2fd6910a7537a9d885f3a33cdde7a6",
+      "referenceDirectory": "references/learning-offering-proposal"
+    }
+  ],
+  "sourceHash": "6a9e2610b26db63dea74e3bcd9adb3c1a08af7933276a594bf66db0853a5a966",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F3E9D2",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#292E27",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#264B3C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#8B442B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Palatino",
+      "usage": "Titles and short section openings; source slide 9 / title."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / navSchedule."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 9 / title.",
+      "sourceFamily": "Palatino",
+      "sourceFamilySelected": "Palatino",
+      "renderFamily": "Literata",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/literata/Literata-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "1428bf61c212b80a15ea0b1b32261e8c22411f67ec7cb182221b01d40622b52f"
+        },
+        "bold": {
+          "path": "assets/fonts/literata/Literata-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "b26eb4cfb5cbf0f2f42e485edcbdce4a088fdea7498f30728a74a66dfcbccf20"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/literata/OFL.txt",
+      "licenseSha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Palatino is a system or separately licensed font; not bundled.",
+      "justification": "Portable variant selected. Palatino is a system or separately licensed font; not bundled. Open book serif substitute for proprietary Palatino or Charter source dependencies.",
+      "sourceTemplateId": "learning-offering-proposal",
+      "sourceFingerprint": "6a9e2610b26db63dea74e3bcd9adb3c1a08af7933276a594bf66db0853a5a966"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 9 / navSchedule.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "learning-offering-proposal",
+      "sourceFingerprint": "6a9e2610b26db63dea74e3bcd9adb3c1a08af7933276a594bf66db0853a5a966"
+    }
+  ],
+  "recognitionRules": [
+    "Pair Palatino propositions with Avenir practical detail.",
+    "Use forest green and cream with selective earth accents.",
+    "Present the practice, feedback and outcome check in a clear sequence.",
+    "Keep unpiloted status near the proposed offer."
+  ],
+  "writingLinks": [
+    {
+      "id": "V11",
+      "name": "Patient coach",
+      "reason": "Learning design aligned to outcomes, ending in a pilot decision.",
+      "sourceTemplateId": "learning-offering-proposal",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Give people something to try, and a way to see what changed.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use PRACTICE FIRST in Palatino with a small Avenir sequence number. No graduation cap or achievement star.",
+  "invariants": [
+    "Pair Palatino propositions with Avenir practical detail.",
+    "Use forest green and cream with selective earth accents.",
+    "Present the practice, feedback and outcome check in a clear sequence."
+  ],
+  "adaptations": [
+    "Short offers retain activity, audience and check.",
+    "Long proposals add delivery conditions without expanding the promise beyond the evidence.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/learning-offering-proposal.pdf",
+    "preview": "media/learning-offering-proposal-guide.webp",
+    "markdown": "guides/learning-offering-proposal.md"
+  },
+  "bundle": {
+    "href": "bundles/learning-offering-proposal-brand-kit.zip",
+    "filename": "Practice First brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/learning-offering-proposal-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/learning-offering-proposal-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/learning-offering-proposal-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

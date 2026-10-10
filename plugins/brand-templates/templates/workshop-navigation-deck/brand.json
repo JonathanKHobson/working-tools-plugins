@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "workshop-navigation-deck",
+  "version": "0.2.1",
+  "name": "Fieldnotes Workshop",
+  "summary": "A workshop identity that acts as a live navigation system, returning participants to evidence and choice throughout the session.",
+  "category": "Learning & workshops",
+  "tags": [
+    "presentation",
+    "Workshops & facilitation"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "workshop-navigation-deck"
+  ],
+  "sourceTemplateNames": {
+    "workshop-navigation-deck": "Workshop Navigation Deck"
+  },
+  "templateVariations": [
+    {
+      "templateId": "workshop-navigation-deck",
+      "name": "Workshop Navigation Deck",
+      "format": "presentation",
+      "sourceHash": "a2450ba9883ac582545427eadee882d2d5703f67412b28588fe428040c8a5cb4",
+      "foundationSha256": "f00f03bbe91f2b88155152cba4220d91a79b0728ba76146eaa8dc9b7ff9f2725",
+      "designSpecSha256": "df8e11e9502e3947353882667c9a5c898b54694bffdd063e9a09efdd3d29d0a0",
+      "referenceDirectory": "references/workshop-navigation-deck"
+    }
+  ],
+  "sourceHash": "a2450ba9883ac582545427eadee882d2d5703f67412b28588fe428040c8a5cb4",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F5F0DF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#263E3B",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#9A3F2C",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#EDCE73",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Supporting field",
+      "role": "surface",
+      "hex": "#C7D8C9",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Avenir Next",
+      "usage": "Workshop title, activity headings and navigation."
+    },
+    {
+      "role": "body",
+      "family": "Avenir Next",
+      "usage": "Instructions and evidence statements."
+    },
+    {
+      "role": "annotation",
+      "family": "Chalkboard SE",
+      "usage": "Selective handwritten-style cues, not navigation or long text."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Workshop title, activity headings and navigation.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "workshop-navigation-deck",
+      "sourceFingerprint": "a2450ba9883ac582545427eadee882d2d5703f67412b28588fe428040c8a5cb4"
+    },
+    {
+      "role": "body",
+      "usage": "Instructions and evidence statements.",
+      "sourceFamily": "Avenir Next",
+      "sourceFamilySelected": "Avenir Next",
+      "renderFamily": "Finlandica",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/finlandica/Finlandica-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "232932954f0c40e4bf8e47d8809f9527bcfb2b124fd36cd0dda421bad6744118"
+        },
+        "bold": {
+          "path": "assets/fonts/finlandica/Finlandica-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "4f48600f2b96662fbf6f441b17ec92bb4a9ccc9443ed6ecd1102bc08d88ae724"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/finlandica/OFL.txt",
+      "licenseSha256": "0a55f40011bdfbdd4a07ef363fdc054d92ca3a5f0fc66381aac82344bd9cec2c",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Avenir Next is a separately licensed Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Avenir Next is a separately licensed Apple/system font; not bundled. Humanist sans substitute for proprietary Avenir/Gill Sans/Trebuchet-like or unspecified system UI source faces; selected from the user's OFL research kit.",
+      "sourceTemplateId": "workshop-navigation-deck",
+      "sourceFingerprint": "a2450ba9883ac582545427eadee882d2d5703f67412b28588fe428040c8a5cb4"
+    },
+    {
+      "role": "annotation",
+      "usage": "Selective handwritten-style cues, not navigation or long text.",
+      "sourceFamily": "Chalkboard SE",
+      "sourceFamilySelected": "Chalkboard SE",
+      "renderFamily": "Kalam",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/kalam/Kalam-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b"
+        },
+        "bold": {
+          "path": "assets/fonts/kalam/Kalam-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/kalam/OFL.txt",
+      "licenseSha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Chalkboard SE is an Apple/system font; not bundled.",
+      "justification": "Portable variant selected. Chalkboard SE is an Apple/system font; not bundled. Open handwritten display substitute for proprietary Chalkboard and Noteworthy system fonts.",
+      "sourceTemplateId": "workshop-navigation-deck",
+      "sourceFingerprint": "a2450ba9883ac582545427eadee882d2d5703f67412b28588fe428040c8a5cb4"
+    }
+  ],
+  "recognitionRules": [
+    "Use a persistent spine, footer rule and return-to-menu tab.",
+    "Pair Avenir instructions with selective Chalkboard annotations.",
+    "Use green, cream and gold as the stable frame, with rust for focused cues.",
+    "Keep menu bands labeled with activity and planned duration.",
+    "Retain evidence IDs when moving from records to proposed tests."
+  ],
+  "writingLinks": [
+    {
+      "id": "V15",
+      "name": "Spoken invitation",
+      "reason": "Spoken facilitation with timed notes, preserved dissent and an equivalent written path.",
+      "sourceTemplateId": "workshop-navigation-deck",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "Start with the evidence. Return to the question. Choose a next test together.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use FIELDNOTES WORKSHOP in Avenir with a narrow vertical spine and a small workshop code. No compass or notebook icon.",
+  "invariants": [
+    "Use a persistent spine, footer rule and return-to-menu tab.",
+    "Pair Avenir instructions with selective Chalkboard annotations.",
+    "Use green, cream and gold as the stable frame, with rust for focused cues."
+  ],
+  "adaptations": [
+    "Short workshops can reduce menu items while keeping return navigation.",
+    "Print editions replace clickable tabs with page references.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/workshop-navigation-deck.pdf",
+    "preview": "media/workshop-navigation-deck-guide.webp",
+    "markdown": "guides/workshop-navigation-deck.md"
+  },
+  "bundle": {
+    "href": "bundles/workshop-navigation-deck-brand-kit.zip",
+    "filename": "Fieldnotes Workshop brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/workshop-navigation-deck-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/workshop-navigation-deck-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/workshop-navigation-deck-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

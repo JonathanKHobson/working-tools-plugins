@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "photocopied-assembly-public-graphics",
+  "version": "0.2.1",
+  "name": "Open Press",
+  "summary": "A public-graphics identity with the energy of assembled paper, forceful type and a clear invitation to make something.",
+  "category": "Arts & exhibition",
+  "tags": [
+    "presentation",
+    "Events & programmes"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "photocopied-assembly-public-graphics"
+  ],
+  "sourceTemplateNames": {
+    "photocopied-assembly-public-graphics": "Photocopied Assembly Public Graphics"
+  },
+  "templateVariations": [
+    {
+      "templateId": "photocopied-assembly-public-graphics",
+      "name": "Photocopied Assembly Public Graphics",
+      "format": "presentation",
+      "sourceHash": "59cf6fc72ab95bb19da47634bdac20ec95e35d070a66fa4eb1eb8101bc6b7b36",
+      "foundationSha256": "adb60ff54bb6c10473f044947646096b601de8046c0e264b6697d4c9bdee3a1f",
+      "designSpecSha256": "f6ba971cc054876258da1786f6056e08aa4c7920a385aaa84470532a1bfb0bb5",
+      "referenceDirectory": "references/photocopied-assembly-public-graphics"
+    }
+  ],
+  "sourceHash": "59cf6fc72ab95bb19da47634bdac20ec95e35d070a66fa4eb1eb8101bc6b7b36",
+  "colors": [
+    {
+      "name": "Reading ground",
+      "role": "background",
+      "hex": "#F0EADF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Reading ink",
+      "role": "text",
+      "hex": "#161616",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Identity emphasis",
+      "role": "primary",
+      "hex": "#B92236",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    },
+    {
+      "name": "Cut Paper",
+      "role": "cut-paper",
+      "hex": "#FFFFFF",
+      "evidence": "Exact value observed in native source/foundations or CSS. This semantic role is a deliberate editorial identity decision after reviewing native usage; alternate cover and reading grounds are distinguished."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Impact",
+      "usage": "Titles and short section openings; source slide 4 / title2."
+    },
+    {
+      "role": "body",
+      "family": "Arial",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 4 / footer."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Titles and short section openings; source slide 4 / title2.",
+      "sourceFamily": "Impact",
+      "sourceFamilySelected": "Impact",
+      "renderFamily": "Anton",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/anton/Anton-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/anton/OFL.txt",
+      "licenseSha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Impact is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Impact is a separately licensed Microsoft/system font; not bundled. Exact OFL family already shipped by the source template; the family is intentionally supplied as a single display weight.",
+      "sourceTemplateId": "photocopied-assembly-public-graphics",
+      "sourceFingerprint": "59cf6fc72ab95bb19da47634bdac20ec95e35d070a66fa4eb1eb8101bc6b7b36"
+    },
+    {
+      "role": "body",
+      "usage": "Reading text, supporting labels and detailed explanations; source slide 4 / footer.",
+      "sourceFamily": "Arial",
+      "sourceFamilySelected": "Arial",
+      "renderFamily": "Arimo",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/arimo/Arimo-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "958de728e956b4a6c18f4a7445491b15b024e10e2fc859ac826946e73fecf8af"
+        },
+        "bold": {
+          "path": "assets/fonts/arimo/Arimo-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "ebbc3ee9e3422d1cae1fad5ed15f900af76a15d752990932905ef1038e98c2dd"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/arimo/OFL.txt",
+      "licenseSha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": "Arial is a separately licensed Microsoft/system font; not bundled.",
+      "justification": "Portable variant selected. Arial is a separately licensed Microsoft/system font; not bundled. Arimo is available from verified open-font sources; for Arial roles it provides a metrics-compatible portable choice.",
+      "sourceTemplateId": "photocopied-assembly-public-graphics",
+      "sourceFingerprint": "59cf6fc72ab95bb19da47634bdac20ec95e35d070a66fa4eb1eb8101bc6b7b36"
+    }
+  ],
+  "recognitionRules": [
+    "Use Impact OPEN PRESS lettering with a vertical spine and a contrasting title strip.",
+    "Keep the paper-and-red palette tactile without reducing text contrast.",
+    "Use American Typewriter only for a secondary workshop-note voice.",
+    "On the reverse, organize the activity into numbered paper-like steps."
+  ],
+  "writingLinks": [
+    {
+      "id": "V19",
+      "name": "Purposeful manifesto",
+      "reason": "Emphatic public graphics that still state event facts clearly.",
+      "sourceTemplateId": "photocopied-assembly-public-graphics",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "You make it. You keep it. Start with one shape.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use OPEN PRESS as an offset two-line Impact wordmark with a red rectangular strip behind PRESS. Keep the uneven assembly deliberate, not randomly distressed.",
+  "invariants": [
+    "Use Impact OPEN PRESS lettering with a vertical spine and a contrasting title strip.",
+    "Keep the paper-and-red palette tactile without reducing text contrast.",
+    "Use American Typewriter only for a secondary workshop-note voice."
+  ],
+  "adaptations": [
+    "Posters may use larger paper overlaps; instructions use flat, quiet fields.",
+    "A one-color edition keeps the spine and offset title geometry.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/photocopied-assembly-public-graphics.pdf",
+    "preview": "media/photocopied-assembly-public-graphics-guide.webp",
+    "markdown": "guides/photocopied-assembly-public-graphics.md"
+  },
+  "bundle": {
+    "href": "bundles/photocopied-assembly-public-graphics-brand-kit.zip",
+    "filename": "Open Press brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/photocopied-assembly-public-graphics-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/photocopied-assembly-public-graphics-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/photocopied-assembly-public-graphics-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}

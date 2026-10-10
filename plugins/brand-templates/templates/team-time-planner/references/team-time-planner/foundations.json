@@ -1,0 +1,1803 @@
+{
+  "source": "assets/reference.xlsx",
+  "kind": "spreadsheet",
+  "sourceHash": "3e3777e30e9798fd36d0591917eba52ed78510f618e76bf29bf7e6ccbf754d95",
+  "sourceHashScope": "source file bytes",
+  "sourceFileHashes": {
+    "reference.xlsx": "3e3777e30e9798fd36d0591917eba52ed78510f618e76bf29bf7e6ccbf754d95"
+  },
+  "sheets": [
+    {
+      "name": "Weekly plan",
+      "range": "A1:F28",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "A2",
+          "value": "Team time planner"
+        },
+        {
+          "cell": "A4",
+          "value": "Workshop launch · four-week fictional plan"
+        },
+        {
+          "cell": "A6",
+          "value": "Person and measure"
+        },
+        {
+          "cell": "B6",
+          "value": "2026-10-05 00:00:00"
+        },
+        {
+          "cell": "C6",
+          "value": "2026-10-12 00:00:00"
+        },
+        {
+          "cell": "D6",
+          "value": "2026-10-19 00:00:00"
+        },
+        {
+          "cell": "E6",
+          "value": "2026-10-26 00:00:00"
+        },
+        {
+          "cell": "F6",
+          "value": "Total h"
+        },
+        {
+          "cell": "A7",
+          "value": "Mira planned h"
+        },
+        {
+          "cell": "B7",
+          "value": "=SUMIFS(Tasks!$E$5:$E$44,Tasks!$C$5:$C$44,Availability!$A5,Tasks!$D$5:$D$44,B$6)"
+        },
+        {
+          "cell": "C7",
+          "value": "=SUMIFS(Tasks!$E$5:$E$44,Tasks!$C$5:$C$44,Availability!$A5,Tasks!$D$5:$D$44,C$6)"
+        },
+        {
+          "cell": "D7",
+          "value": "=SUMIFS(Tasks!$E$5:$E$44,Tasks!$C$5:$C$44,Availability!$A5,Tasks!$D$5:$D$44,D$6)"
+        },
+        {
+          "cell": "E7",
+          "value": "=SUMIFS(Tasks!$E$5:$E$44,Tasks!$C$5:$C$44,Availability!$A5,Tasks!$D$5:$D$44,E$6)"
+        },
+        {
+          "cell": "F7",
+          "value": "=SUM(B7:E7)"
+        },
+        {
+          "cell": "A8",
+          "value": "Available h"
+        },
+        {
+          "cell": "B8",
+          "value": "=IF(ISNUMBER(Availability!B5),Availability!B5,\"Missing\")"
+        }
+      ],
+      "formulaCount": 70,
+      "formulaAnchors": [
+        "B7",
+        "C7",
+        "D7",
+        "E7",
+        "F7",
+        "B8",
+        "C8",
+        "D8",
+        "E8",
+        "F8",
+        "B9",
+        "C9"
+      ],
+      "stylesUsed": {
+        "2": 75,
+        "22": 50,
+        "21": 15,
+        "23": 10,
+        "4": 6,
+        "20": 4,
+        "11": 3,
+        "8": 2,
+        "12": 2,
+        "3": 1
+      },
+      "styledBlankCells": 74,
+      "blankStylesUsed": {
+        "2": 63,
+        "4": 6,
+        "22": 5
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 35.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 16.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 26.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting B10:F10>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting B14:F14>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting B18:F18>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting B10:F10>",
+          "type": "containsText",
+          "priority": 1,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Over",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FCE5E1"
+          },
+          "fontColor": "#8B251A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting B14:F14>",
+          "type": "containsText",
+          "priority": 2,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Over",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FCE5E1"
+          },
+          "fontColor": "#8B251A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting B18:F18>",
+          "type": "containsText",
+          "priority": 3,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Over",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FCE5E1"
+          },
+          "fontColor": "#8B251A",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    },
+    {
+      "name": "Availability",
+      "range": "A1:F18",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "A2",
+          "value": "Weekly availability"
+        },
+        {
+          "cell": "A3",
+          "value": "Editable hours by person · week begins Monday"
+        },
+        {
+          "cell": "A4",
+          "value": "Person"
+        },
+        {
+          "cell": "B4",
+          "value": "2026-10-05 00:00:00"
+        },
+        {
+          "cell": "C4",
+          "value": "2026-10-12 00:00:00"
+        },
+        {
+          "cell": "D4",
+          "value": "2026-10-19 00:00:00"
+        },
+        {
+          "cell": "E4",
+          "value": "2026-10-26 00:00:00"
+        },
+        {
+          "cell": "F4",
+          "value": "Total h"
+        },
+        {
+          "cell": "A5",
+          "value": "Mira"
+        },
+        {
+          "cell": "B5",
+          "value": "8"
+        },
+        {
+          "cell": "C5",
+          "value": "8"
+        },
+        {
+          "cell": "D5",
+          "value": "8"
+        },
+        {
+          "cell": "E5",
+          "value": "8"
+        },
+        {
+          "cell": "F5",
+          "value": "=SUM(B5:E5)"
+        },
+        {
+          "cell": "A6",
+          "value": "Jules"
+        },
+        {
+          "cell": "B6",
+          "value": "6"
+        }
+      ],
+      "formulaCount": 3,
+      "formulaAnchors": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "stylesUsed": {
+        "2": 80,
+        "24": 12,
+        "4": 6,
+        "20": 4,
+        "16": 3,
+        "8": 2,
+        "3": 1
+      },
+      "styledBlankCells": 80,
+      "blankStylesUsed": {
+        "2": 75,
+        "4": 5
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 24.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 16.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 26.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [],
+      "conditionalFormattingRules": [],
+      "validations": [
+        {
+          "range": "B5:E7",
+          "type": "decimal",
+          "formula1": "0"
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    },
+    {
+      "name": "Tasks",
+      "range": "A1:F44",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "A2",
+          "value": "Task inputs"
+        },
+        {
+          "cell": "A3",
+          "value": "Fictional task estimates · amber cells are editable"
+        },
+        {
+          "cell": "A4",
+          "value": "Task ID"
+        },
+        {
+          "cell": "B4",
+          "value": "Task"
+        },
+        {
+          "cell": "C4",
+          "value": "Owner"
+        },
+        {
+          "cell": "D4",
+          "value": "Week of"
+        },
+        {
+          "cell": "E4",
+          "value": "Planned h"
+        },
+        {
+          "cell": "F4",
+          "value": "Assignment"
+        },
+        {
+          "cell": "A5",
+          "value": "T01"
+        },
+        {
+          "cell": "B5",
+          "value": "Write the workshop brief"
+        },
+        {
+          "cell": "C5",
+          "value": "Mira"
+        },
+        {
+          "cell": "D5",
+          "value": "2026-10-05 00:00:00"
+        },
+        {
+          "cell": "E5",
+          "value": "6"
+        },
+        {
+          "cell": "F5",
+          "value": "=IF(A5=\"\",\"\",IF(C5=\"\",\"Unassigned\",IF(COUNTIFS(Availability!$A$5:$A$7,C5)=0,\"Unknown…"
+        },
+        {
+          "cell": "A6",
+          "value": "T02"
+        },
+        {
+          "cell": "B6",
+          "value": "Draft the activity sequence"
+        }
+      ],
+      "formulaCount": 40,
+      "formulaAnchors": [
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "stylesUsed": {
+        "18": 40,
+        "2": 36,
+        "16": 33,
+        "25": 11,
+        "24": 11,
+        "4": 6,
+        "8": 6,
+        "3": 1
+      },
+      "styledBlankCells": 56,
+      "blankStylesUsed": {
+        "2": 36,
+        "16": 9,
+        "4": 5,
+        "25": 3,
+        "24": 3
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 12.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 46.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 18.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 16.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 15.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 25.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 26.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting F5:F15>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting F5:F15>",
+          "type": "containsText",
+          "priority": 1,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Unassigned",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FCE5E1"
+          },
+          "fontColor": "#8B251A",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [
+        {
+          "range": "E5:E44",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C5:C44",
+          "type": "list",
+          "formula1": "\"Mira,Jules,Noor\""
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    },
+    {
+      "name": "Checks",
+      "range": "A1:C19",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "A2",
+          "value": "Checks and update notes"
+        },
+        {
+          "cell": "A5",
+          "value": "Check"
+        },
+        {
+          "cell": "B5",
+          "value": "Result"
+        },
+        {
+          "cell": "C5",
+          "value": "Meaning"
+        },
+        {
+          "cell": "A6",
+          "value": "Total task hours"
+        },
+        {
+          "cell": "B6",
+          "value": "=SUM(Tasks!E5:E44)"
+        },
+        {
+          "cell": "C6",
+          "value": "All recorded task estimates, including unassigned work."
+        },
+        {
+          "cell": "A7",
+          "value": "Hours shown in weekly plan"
+        },
+        {
+          "cell": "B7",
+          "value": "='Weekly plan'!F20"
+        },
+        {
+          "cell": "C7",
+          "value": "Sum across the visible weeks."
+        },
+        {
+          "cell": "A8",
+          "value": "Unscheduled hours"
+        },
+        {
+          "cell": "B8",
+          "value": "=B6-B7"
+        },
+        {
+          "cell": "C8",
+          "value": "Nonzero means a task date falls outside the plan weeks."
+        },
+        {
+          "cell": "A9",
+          "value": "Unknown owners"
+        },
+        {
+          "cell": "B9",
+          "value": "=COUNTIFS(Tasks!F5:F44,\"Unknown owner\")"
+        },
+        {
+          "cell": "C9",
+          "value": "Resolve names that do not appear in Availability."
+        }
+      ],
+      "formulaCount": 4,
+      "formulaAnchors": [
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+      ],
+      "stylesUsed": {
+        "2": 46,
+        "18": 4,
+        "4": 3,
+        "8": 3,
+        "3": 1
+      },
+      "styledBlankCells": 35,
+      "blankStylesUsed": {
+        "2": 32,
+        "4": 3
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 37.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 25.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 70.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 26.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 26.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [],
+      "conditionalFormattingRules": [],
+      "validations": [],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    }
+  ],
+  "directColors": [
+    "#243746",
+    "#FFF2CC",
+    "#FFFFFF",
+    "#EBE4EE"
+  ],
+  "conditionalColors": [
+    "#8B251A",
+    "#FCE5E1"
+  ],
+  "fonts": [
+    "Arial"
+  ],
+  "fontSizesPt": [
+    11.0,
+    17.0
+  ],
+  "styles": 26,
+  "usedStyles": [
+    {
+      "id": 2,
+      "cells": 237,
+      "styledBlankCells": 206,
+      "examples": [
+        "Weekly plan!A1",
+        "Weekly plan!B1",
+        "Weekly plan!C1",
+        "Weekly plan!D1",
+        "Weekly plan!E1",
+        "Weekly plan!F1",
+        "Weekly plan!B2",
+        "Weekly plan!C2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 22,
+      "cells": 50,
+      "styledBlankCells": 5,
+      "examples": [
+        "Weekly plan!B8",
+        "Weekly plan!C8",
+        "Weekly plan!D8",
+        "Weekly plan!E8",
+        "Weekly plan!F8",
+        "Weekly plan!B9",
+        "Weekly plan!C9",
+        "Weekly plan!D9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 18,
+      "cells": 44,
+      "styledBlankCells": 0,
+      "examples": [
+        "Tasks!F5",
+        "Tasks!F6",
+        "Tasks!F7",
+        "Tasks!F8",
+        "Tasks!F9",
+        "Tasks!F10",
+        "Tasks!F11",
+        "Tasks!F12"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 16,
+      "cells": 36,
+      "styledBlankCells": 9,
+      "examples": [
+        "Availability!A5",
+        "Availability!A6",
+        "Availability!A7",
+        "Tasks!A5",
+        "Tasks!B5",
+        "Tasks!C5",
+        "Tasks!A6",
+        "Tasks!B6"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 24,
+      "cells": 23,
+      "styledBlankCells": 3,
+      "examples": [
+        "Availability!B5",
+        "Availability!C5",
+        "Availability!D5",
+        "Availability!E5",
+        "Availability!B6",
+        "Availability!C6",
+        "Availability!D6",
+        "Availability!E6"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 4,
+      "cells": 21,
+      "styledBlankCells": 19,
+      "examples": [
+        "Weekly plan!A3",
+        "Weekly plan!B3",
+        "Weekly plan!C3",
+        "Weekly plan!D3",
+        "Weekly plan!E3",
+        "Weekly plan!F3",
+        "Availability!A3",
+        "Availability!B3"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#243746"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 21,
+      "cells": 15,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!B7",
+        "Weekly plan!C7",
+        "Weekly plan!D7",
+        "Weekly plan!E7",
+        "Weekly plan!F7",
+        "Weekly plan!B11",
+        "Weekly plan!C11",
+        "Weekly plan!D11"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#EBE4EE",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 8,
+      "cells": 13,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!A6",
+        "Weekly plan!F6",
+        "Availability!A4",
+        "Availability!F4",
+        "Tasks!A4",
+        "Tasks!B4",
+        "Tasks!C4",
+        "Tasks!D4"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#243746",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 25,
+      "cells": 11,
+      "styledBlankCells": 3,
+      "examples": [
+        "Tasks!D5",
+        "Tasks!D6",
+        "Tasks!D7",
+        "Tasks!D8",
+        "Tasks!D9",
+        "Tasks!D10",
+        "Tasks!D11",
+        "Tasks!D12"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF2CC",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "mmm d, yyyy"
+    },
+    {
+      "id": 23,
+      "cells": 10,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!B20",
+        "Weekly plan!C20",
+        "Weekly plan!D20",
+        "Weekly plan!E20",
+        "Weekly plan!F20",
+        "Weekly plan!B21",
+        "Weekly plan!C21",
+        "Weekly plan!D21"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "0.0"
+    },
+    {
+      "id": 20,
+      "cells": 8,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!B6",
+        "Weekly plan!C6",
+        "Weekly plan!D6",
+        "Weekly plan!E6",
+        "Availability!B4",
+        "Availability!C4",
+        "Availability!D4",
+        "Availability!E4"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#243746",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "mmm d"
+    },
+    {
+      "id": 3,
+      "cells": 4,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!A2",
+        "Availability!A2",
+        "Tasks!A2",
+        "Checks!A2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 17.0,
+        "bold": true,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 11,
+      "cells": 3,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!A7",
+        "Weekly plan!A11",
+        "Weekly plan!A15"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#EBE4EE",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 12,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Weekly plan!A20",
+        "Weekly plan!A21"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#243746"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    }
+  ],
+  "renderedPreview": {
+    "localFile": "office-pdf/team-time-planner.pdf",
+    "sha256": "ff56f1226f4af1db831d08632fbcaef7701eb7778cb96595846987a6467a1aa9",
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Calc",
+    "pageCount": 4,
+    "fontResources": [
+      "LiberationSans",
+      "LiberationSans-Bold"
+    ],
+    "bundleIncludesPdf": false,
+    "publicPreviewRouteIfBuilt": "previews/team-time-planner.pdf"
+  }
+}

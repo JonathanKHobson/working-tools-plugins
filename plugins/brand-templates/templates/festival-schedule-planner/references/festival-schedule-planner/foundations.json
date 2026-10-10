@@ -1,0 +1,2019 @@
+{
+  "source": "assets/reference.xlsx",
+  "kind": "spreadsheet",
+  "sourceHash": "20375904a62257155d267faf8022538b06412e02295964f5d5a5d86a89737e11",
+  "sourceHashScope": "source file bytes",
+  "sourceFileHashes": {
+    "reference.xlsx": "20375904a62257155d267faf8022538b06412e02295964f5d5a5d86a89737e11"
+  },
+  "sheets": [
+    {
+      "name": "Timetable",
+      "range": "A1:G28",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "FESTIVAL SCHEDULE"
+        },
+        {
+          "cell": "B3",
+          "value": "='Sessions'!B3"
+        },
+        {
+          "cell": "B5",
+          "value": "Valid"
+        },
+        {
+          "cell": "C5",
+          "value": "=IF(Sessions!B7=\"Ready\",COUNTIFS(Sessions!G10:G21,\"Valid\"),\"n.a.\")"
+        },
+        {
+          "cell": "D5",
+          "value": "=IF(Sessions!B7=\"Ready\",\"Repair rows:…"
+        },
+        {
+          "cell": "E5",
+          "value": "=IF(Sessions!B7=\"Ready\",\"Overlap rows: \"&COUNTIFS(Sessions!I10:I21,\">0\"),\"Overlap: n.a.\")"
+        },
+        {
+          "cell": "F5",
+          "value": "=IF(Sessions!B7=\"Ready\",\"Outside view: \"&COUNTIFS(Sessions!J10:J21,\"Outside view\"),\"View:…"
+        },
+        {
+          "cell": "B6",
+          "value": "=IF(NOT(ISNUMBER(Sessions!I5)),\"Day:…"
+        },
+        {
+          "cell": "D6",
+          "value": "=\"Controls: \"&Sessions!B7"
+        },
+        {
+          "cell": "B7",
+          "value": "IDs occupy any part of each half hour. Exact times are on Sessions."
+        },
+        {
+          "cell": "B8",
+          "value": "From"
+        },
+        {
+          "cell": "C8",
+          "value": "Until"
+        },
+        {
+          "cell": "D8",
+          "value": "=IF(Sessions!C5=\"\",\"[Room name]\",Sessions!C5)"
+        },
+        {
+          "cell": "E8",
+          "value": "=IF(Sessions!D5=\"\",\"[Room name]\",Sessions!D5)"
+        },
+        {
+          "cell": "F8",
+          "value": "=IF(Sessions!E5=\"\",\"[Room name]\",Sessions!E5)"
+        },
+        {
+          "cell": "B9",
+          "value": "=IF(Sessions!$B$7=\"Ready\",Sessions!$G$5+0/48,\"\")"
+        }
+      ],
+      "formulaCount": 70,
+      "formulaAnchors": [
+        "B3",
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "B6",
+        "D6",
+        "D8",
+        "E8",
+        "F8",
+        "B9",
+        "C9"
+      ],
+      "stylesUsed": {
+        "2": 124,
+        "44": 18,
+        "45": 18,
+        "46": 12,
+        "47": 12,
+        "4": 5,
+        "21": 3,
+        "3": 1,
+        "32": 1,
+        "20": 1,
+        "22": 1
+      },
+      "styledBlankCells": 116,
+      "blankStylesUsed": {
+        "2": 111,
+        "4": 5
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 3.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 32.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 32.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 32.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 8.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 24.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting D9:D20>",
+          "rules": 2
+        },
+        {
+          "range": "<ConditionalFormatting E9:E20>",
+          "rules": 2
+        },
+        {
+          "range": "<ConditionalFormatting F9:F20>",
+          "rules": 2
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting D9:D20>",
+          "type": "expression",
+          "priority": 1,
+          "formula": [
+            "AND(D9<>\"\",ISERROR(SEARCH(\"!\",D9)))"
+          ],
+          "operator": null,
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#DBE9F1"
+          },
+          "fontColor": "#152B3A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting D9:D20>",
+          "type": "containsText",
+          "priority": 2,
+          "formula": [],
+          "operator": "containsText",
+          "text": "!",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FADBDD"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting E9:E20>",
+          "type": "expression",
+          "priority": 3,
+          "formula": [
+            "AND(E9<>\"\",ISERROR(SEARCH(\"!\",E9)))"
+          ],
+          "operator": null,
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#E4EBDD"
+          },
+          "fontColor": "#152B3A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting E9:E20>",
+          "type": "containsText",
+          "priority": 4,
+          "formula": [],
+          "operator": "containsText",
+          "text": "!",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FADBDD"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting F9:F20>",
+          "type": "expression",
+          "priority": 5,
+          "formula": [
+            "AND(F9<>\"\",ISERROR(SEARCH(\"!\",F9)))"
+          ],
+          "operator": null,
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#EEE2DB"
+          },
+          "fontColor": "#152B3A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting F9:F20>",
+          "type": "containsText",
+          "priority": 6,
+          "formula": [],
+          "operator": "containsText",
+          "text": "!",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FADBDD"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    },
+    {
+      "name": "Sessions",
+      "range": "A1:L31",
+      "mergedRanges": [],
+      "anchors": [
+        {
+          "cell": "B2",
+          "value": "SESSION REGISTER"
+        },
+        {
+          "cell": "B3",
+          "value": "Junction Arts Day. Fictional programme draft. Times include any room setup you reserve."
+        },
+        {
+          "cell": "B5",
+          "value": "Room names"
+        },
+        {
+          "cell": "C5",
+          "value": "Hall"
+        },
+        {
+          "cell": "D5",
+          "value": "Studio"
+        },
+        {
+          "cell": "E5",
+          "value": "Courtyard"
+        },
+        {
+          "cell": "F5",
+          "value": "View starts"
+        },
+        {
+          "cell": "G5",
+          "value": "9:00:00"
+        },
+        {
+          "cell": "H5",
+          "value": "Day"
+        },
+        {
+          "cell": "I5",
+          "value": "2026-11-14 00:00:00"
+        },
+        {
+          "cell": "J5",
+          "value": "Room keys"
+        },
+        {
+          "cell": "K5",
+          "value": "=UPPER(TRIM(C5))"
+        },
+        {
+          "cell": "K6",
+          "value": "=UPPER(TRIM(D5))"
+        },
+        {
+          "cell": "B7",
+          "value": "=IF(COUNT(I5)<>1,\"Enter day\",IF(OR(I5<1,I5>2958465,MOD(I5,1)<>0),\"Check…"
+        },
+        {
+          "cell": "G7",
+          "value": "Amber cells are editable."
+        },
+        {
+          "cell": "K7",
+          "value": "=UPPER(TRIM(E5))"
+        }
+      ],
+      "formulaCount": 64,
+      "formulaAnchors": [
+        "K5",
+        "K6",
+        "B7",
+        "K7",
+        "G10",
+        "H10",
+        "I10",
+        "J10",
+        "K10",
+        "G11",
+        "H11",
+        "I11"
+      ],
+      "stylesUsed": {
+        "2": 209,
+        "26": 36,
+        "24": 36,
+        "29": 24,
+        "50": 24,
+        "51": 12,
+        "4": 10,
+        "21": 9,
+        "43": 3,
+        "10": 3,
+        "3": 1,
+        "48": 1
+      },
+      "styledBlankCells": 211,
+      "blankStylesUsed": {
+        "2": 193,
+        "4": 10,
+        "26": 7,
+        "50": 1
+      },
+      "columns": [
+        {
+          "column": "A",
+          "widthCharacters": 5.0,
+          "hidden": false
+        },
+        {
+          "column": "B",
+          "widthCharacters": 29.0,
+          "hidden": false
+        },
+        {
+          "column": "C",
+          "widthCharacters": 16.0,
+          "hidden": false
+        },
+        {
+          "column": "D",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "E",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "F",
+          "widthCharacters": 28.0,
+          "hidden": false
+        },
+        {
+          "column": "G",
+          "widthCharacters": 24.0,
+          "hidden": false
+        },
+        {
+          "column": "H",
+          "widthCharacters": 10.0,
+          "hidden": false
+        },
+        {
+          "column": "I",
+          "widthCharacters": 12.0,
+          "hidden": false
+        },
+        {
+          "column": "J",
+          "widthCharacters": 17.0,
+          "hidden": false
+        },
+        {
+          "column": "K",
+          "widthCharacters": 16.0,
+          "hidden": false
+        },
+        {
+          "column": "L",
+          "widthCharacters": 3.0,
+          "hidden": false
+        }
+      ],
+      "rows": [
+        {
+          "row": 1,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 2,
+          "heightPt": 34.0,
+          "hidden": false
+        },
+        {
+          "row": 3,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 4,
+          "heightPt": 8.0,
+          "hidden": false
+        },
+        {
+          "row": 5,
+          "heightPt": 36.0,
+          "hidden": false
+        },
+        {
+          "row": 6,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 7,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 8,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 9,
+          "heightPt": 30.0,
+          "hidden": false
+        },
+        {
+          "row": 10,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 11,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 12,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 13,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 14,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 15,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 16,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 17,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 18,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 19,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 20,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 21,
+          "heightPt": 40.0,
+          "hidden": false
+        },
+        {
+          "row": 22,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 23,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 24,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 25,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 26,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 27,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 28,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 29,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 30,
+          "heightPt": 24.0,
+          "hidden": false
+        },
+        {
+          "row": 31,
+          "heightPt": 24.0,
+          "hidden": false
+        }
+      ],
+      "conditionalFormatting": [
+        {
+          "range": "<ConditionalFormatting G10:G21>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting I10:I21>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting J10:J21>",
+          "rules": 1
+        },
+        {
+          "range": "<ConditionalFormatting B7>",
+          "rules": 1
+        }
+      ],
+      "conditionalFormattingRules": [
+        {
+          "range": "<ConditionalFormatting G10:G21>",
+          "type": "expression",
+          "priority": 1,
+          "formula": [
+            "AND($G10<>\"\",$G10<>\"Valid\")"
+          ],
+          "operator": null,
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FDE4D5"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting I10:I21>",
+          "type": "cellIs",
+          "priority": 2,
+          "formula": [
+            "0"
+          ],
+          "operator": "greaterThan",
+          "text": null,
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FADBDD"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting J10:J21>",
+          "type": "containsText",
+          "priority": 3,
+          "formula": [],
+          "operator": "containsText",
+          "text": "Outside",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#F6CF3E"
+          },
+          "fontColor": "#152B3A",
+          "border": null,
+          "colorScale": null
+        },
+        {
+          "range": "<ConditionalFormatting B7>",
+          "type": "notContainsText",
+          "priority": 4,
+          "formula": [],
+          "operator": null,
+          "text": "Ready",
+          "fill": {
+            "pattern": "solid",
+            "foreground": "#000000",
+            "background": "#FDE4D5"
+          },
+          "fontColor": "#A4262C",
+          "border": null,
+          "colorScale": null
+        }
+      ],
+      "validations": [
+        {
+          "range": "G5",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C10",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D10:E10",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C11",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D11:E11",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C12",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D12:E12",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C13",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D13:E13",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C14",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D14:E14",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C15",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D15:E15",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C16",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D16:E16",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C17",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D17:E17",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C18",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D18:E18",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C19",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D19:E19",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C20",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D20:E20",
+          "type": "decimal",
+          "formula1": "0"
+        },
+        {
+          "range": "C21",
+          "type": "list",
+          "formula1": "$C$5:$E$5"
+        },
+        {
+          "range": "D21:E21",
+          "type": "decimal",
+          "formula1": "0"
+        }
+      ],
+      "tables": [],
+      "charts": 0,
+      "images": 0
+    }
+  ],
+  "directColors": [
+    "#152B3A",
+    "#CFD7DA",
+    "#FFFFFF",
+    "#1C457A",
+    "#FFF1CD",
+    "#EFF3F4",
+    "#F6CF3E",
+    "#475B65"
+  ],
+  "conditionalColors": [
+    "#A4262C",
+    "#152B3A",
+    "#FADBDD",
+    "#FDE4D5",
+    "#DBE9F1",
+    "#E4EBDD",
+    "#EEE2DB",
+    "#F6CF3E"
+  ],
+  "fonts": [
+    "Arial"
+  ],
+  "fontSizesPt": [
+    11.0,
+    17.0
+  ],
+  "styles": 52,
+  "usedStyles": [
+    {
+      "id": 2,
+      "cells": 333,
+      "styledBlankCells": 304,
+      "examples": [
+        "Timetable!A1",
+        "Timetable!B1",
+        "Timetable!C1",
+        "Timetable!D1",
+        "Timetable!E1",
+        "Timetable!F1",
+        "Timetable!G1",
+        "Timetable!A2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 26,
+      "cells": 36,
+      "styledBlankCells": 7,
+      "examples": [
+        "Sessions!B10",
+        "Sessions!C10",
+        "Sessions!F10",
+        "Sessions!B11",
+        "Sessions!C11",
+        "Sessions!F11",
+        "Sessions!B12",
+        "Sessions!C12"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#1C457A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1CD",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 24,
+      "cells": 36,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!G10",
+        "Sessions!J10",
+        "Sessions!K10",
+        "Sessions!G11",
+        "Sessions!J11",
+        "Sessions!K11",
+        "Sessions!G12",
+        "Sessions!J12"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 29,
+      "cells": 24,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!A10",
+        "Sessions!I10",
+        "Sessions!A11",
+        "Sessions!I11",
+        "Sessions!A12",
+        "Sessions!I12",
+        "Sessions!A13",
+        "Sessions!I13"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 50,
+      "cells": 24,
+      "styledBlankCells": 1,
+      "examples": [
+        "Sessions!D10",
+        "Sessions!E10",
+        "Sessions!D11",
+        "Sessions!E11",
+        "Sessions!D12",
+        "Sessions!E12",
+        "Sessions!D13",
+        "Sessions!E13"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#1C457A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1CD",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "[h]:mm"
+    },
+    {
+      "id": 44,
+      "cells": 18,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!D9",
+        "Timetable!E9",
+        "Timetable!F9",
+        "Timetable!D11",
+        "Timetable!E11",
+        "Timetable!F11",
+        "Timetable!D13",
+        "Timetable!E13"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 45,
+      "cells": 18,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!D10",
+        "Timetable!E10",
+        "Timetable!F10",
+        "Timetable!D12",
+        "Timetable!E12",
+        "Timetable!F12",
+        "Timetable!D14",
+        "Timetable!E14"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#EFF3F4",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "medium",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 4,
+      "cells": 15,
+      "styledBlankCells": 15,
+      "examples": [
+        "Timetable!B4",
+        "Timetable!C4",
+        "Timetable!D4",
+        "Timetable!E4",
+        "Timetable!F4",
+        "Sessions!B4",
+        "Sessions!C4",
+        "Sessions!D4"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thick",
+          "color": "#F6CF3E"
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 21,
+      "cells": 12,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!C8",
+        "Timetable!D8",
+        "Timetable!E8",
+        "Sessions!B9",
+        "Sessions!C9",
+        "Sessions!D9",
+        "Sessions!E9",
+        "Sessions!F9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#152B3A",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 46,
+      "cells": 12,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!B9",
+        "Timetable!C9",
+        "Timetable!B11",
+        "Timetable!C11",
+        "Timetable!B13",
+        "Timetable!C13",
+        "Timetable!B15",
+        "Timetable!C15"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFFFFF",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "[h]:mm"
+    },
+    {
+      "id": 47,
+      "cells": 12,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!B10",
+        "Timetable!C10",
+        "Timetable!B12",
+        "Timetable!C12",
+        "Timetable!B14",
+        "Timetable!C14",
+        "Timetable!B16",
+        "Timetable!C16"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#EFF3F4",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "medium",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "right",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": "[h]:mm"
+    },
+    {
+      "id": 51,
+      "cells": 12,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!H10",
+        "Sessions!H11",
+        "Sessions!H12",
+        "Sessions!H13",
+        "Sessions!H14",
+        "Sessions!H15",
+        "Sessions!H16",
+        "Sessions!H17"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": "thin",
+          "color": "#CFD7DA"
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 2
+    },
+    {
+      "id": 43,
+      "cells": 3,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!C5",
+        "Sessions!D5",
+        "Sessions!E5"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#1C457A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1CD",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 10,
+      "cells": 3,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!K5",
+        "Sessions!K6",
+        "Sessions!K7"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": true,
+        "color": "#475B65"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 3,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!B2",
+        "Sessions!B2"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 17.0,
+        "bold": true,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 20,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!B8",
+        "Sessions!A9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#152B3A",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 22,
+      "cells": 2,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!F8",
+        "Sessions!K9"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#FFFFFF"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#152B3A",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": "thin",
+          "color": "#FFFFFF"
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": true
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 32,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Timetable!C5"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "center",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    },
+    {
+      "id": 48,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!G5"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#1C457A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1CD",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "[h]:mm"
+    },
+    {
+      "id": 49,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!I5"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": false,
+        "italic": false,
+        "color": "#1C457A"
+      },
+      "fill": {
+        "pattern": "solid",
+        "foreground": "#FFF1CD",
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": "left",
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": "mm/dd/yyyy"
+    },
+    {
+      "id": 11,
+      "cells": 1,
+      "styledBlankCells": 0,
+      "examples": [
+        "Sessions!B7"
+      ],
+      "font": {
+        "name": "Arial",
+        "sizePt": 11.0,
+        "bold": true,
+        "italic": false,
+        "color": "#152B3A"
+      },
+      "fill": {
+        "pattern": null,
+        "foreground": null,
+        "background": null
+      },
+      "border": {
+        "left": {
+          "style": null,
+          "color": null
+        },
+        "right": {
+          "style": null,
+          "color": null
+        },
+        "top": {
+          "style": null,
+          "color": null
+        },
+        "bottom": {
+          "style": null,
+          "color": null
+        }
+      },
+      "alignment": {
+        "horizontal": null,
+        "vertical": "center",
+        "wrap": null
+      },
+      "numberFormat": 0
+    }
+  ],
+  "renderedPreview": {
+    "localFile": "office-pdf/festival-schedule-planner.pdf",
+    "sha256": "8a86f771d6e4db9acb1ab48ee8516969cb460e1684a0559a538d31ed27ec148f",
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Calc",
+    "pageCount": 2,
+    "fontResources": [
+      "LiberationSans",
+      "LiberationSans-Bold",
+      "LiberationSans-Italic"
+    ],
+    "bundleIncludesPdf": false,
+    "publicPreviewRouteIfBuilt": "previews/festival-schedule-planner.pdf"
+  }
+}

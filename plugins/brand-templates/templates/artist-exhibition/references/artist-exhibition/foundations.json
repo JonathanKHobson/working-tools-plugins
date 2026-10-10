@@ -1,0 +1,2119 @@
+{
+  "source": "assets/source",
+  "kind": "site",
+  "sourceHash": "d0648cba0f1b276196d028bcbb6add9fb82d2a18837355641579f312f7563c79",
+  "sourceHashScope": "relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata",
+  "sourceFileHashes": {
+    "assets/art/between-planes.png": "b7647c2b7336e9a5d581be4872645ecc0a0c6a1abab1ca57100ff84ca474e8c8",
+    "assets/art/held-edge.png": "fa4fe149ec22de6926f7452a3926962d89cd454b0d2bb9d6377ddcf3c14167cc",
+    "assets/art/pause-in-field.png": "ec7bd59e5028b233ebc5c4929560a38f70a6cceb246e49134f0eaa255883f25b",
+    "fonts/arimo/Arimo-Bold.woff2": "aa46ca497a25f3c52fc71f4d92cc8565a38bad9b435c3941ce19bfeaca2ca068",
+    "fonts/arimo/Arimo-Regular.woff2": "e8bcd8a8d8686ccf4918fe42cfae32a207c8d5cbe9e2e470b452df7e50ddc79c",
+    "scripts/build.mjs": "8637000c7d4aff6b5ec1b4ae51ffbaec3edb6310c8a2fa4fbc21d6a9a5e96c24",
+    "scripts/serve.mjs": "e7eb8adf9017f9f16915090d54ac5af52870d26f84ff274fb548a0ca0145e10b",
+    "src/assets.mjs": "7407abb2ec37fa0a8e1ceba5b9960eb62ea7ef25b61432a111cd23131998bfa6",
+    "src/domain.mjs": "4e23804606e3ac43a1ce02d30513158fd8c23f8cf8a48a20446dc37967b0544f",
+    "src/png.mjs": "a6f448faa6298c5ca9e77d26956b8983d8824851576cd85681c0040738849966",
+    "src/render.mjs": "c8706f47120526c56f3e593be4045e0f82ef23e7302325de1de5a807ffcd1c58",
+    "src/sections.mjs": "95779472d67f34dab031cc06d6cd01d60f5379528db2160a56062cea993506af",
+    "styles/print.css": "e645d844e50b4e98f133977f6dd9f7ccb01b3e4cbb6d98850990952c3e8e3219",
+    "styles/screen.css": "3a216803deda0cc8c05e6ecfdd47c42ba9f926e3a46b510fed877a7d0012994a"
+  },
+  "css": [
+    "styles/print.css",
+    "styles/screen.css"
+  ],
+  "js": [
+    "src/assets.mjs",
+    "src/domain.mjs",
+    "src/png.mjs",
+    "src/render.mjs",
+    "src/sections.mjs"
+  ],
+  "html": [],
+  "variables": [
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--muted",
+      "value": "#62645d"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--link",
+      "value": "#8c3f25"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--line",
+      "value": "#a6a79f"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "base",
+      "selector": ":root",
+      "name": "--gutter",
+      "value": "48px"
+    },
+    {
+      "source": "styles/screen.css",
+      "context": "@media (max-width:700px)",
+      "selector": ":root",
+      "name": "--gutter",
+      "value": "20px"
+    }
+  ],
+  "colors": [
+    "#262823",
+    "#fff",
+    "#62645d",
+    "#8c3f25",
+    "#a6a79f"
+  ],
+  "selectors": [
+    ".masthead",
+    ".introduction",
+    ".lead",
+    ".status",
+    ".caption",
+    ".caption p",
+    ".work-notes",
+    ".local-label",
+    ".chronology-intro",
+    ".event",
+    ".event-date",
+    ".event h3",
+    ".viewing>h3",
+    "html",
+    "body",
+    "main",
+    "a",
+    ".brand",
+    "h1",
+    ".diagnostic",
+    ".work",
+    ".caption h2",
+    ".artwork",
+    ".work-notes h3",
+    ".work-notes .note-title",
+    ".source",
+    "details",
+    "summary"
+  ],
+  "componentRules": [
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "background": "white",
+        "color": "#262823"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "max-width": "none",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "inherit"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".skip,.masthead nav,.work-index,.next-link,footer",
+      "properties": {
+        "display": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".masthead",
+      "properties": {
+        "min-height": "0",
+        "padding": "0 0 5mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".introduction",
+      "properties": {
+        "padding": "8mm 0 0",
+        "break-after": "page"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "38pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "17pt",
+        "margin-top": "7mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "11pt",
+        "margin-top": "7mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".diagnostic",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work",
+      "properties": {
+        "break-before": "page",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".caption",
+      "properties": {
+        "margin-bottom": "4mm",
+        "display": "block"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".caption h2",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".caption p",
+      "properties": {
+        "font-size": "10pt",
+        "margin-top": "2mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".artwork",
+      "properties": {
+        "max-height": "102mm",
+        "width": "100%",
+        "object-fit": "contain",
+        "object-position": "left center",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "8mm",
+        "margin-top": "6mm",
+        "font-size": "10.5pt",
+        "line-height": "1.32"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes h3",
+      "properties": {
+        "font-size": "11pt",
+        "margin-bottom": "3mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes .note-title",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": "9.5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes p",
+      "properties": {
+        "line-height": "1.35"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "details",
+      "properties": {
+        "margin-top": "3mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "font-size": "10pt",
+        "text-decoration": "none",
+        "font-weight": "700",
+        "list-style": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "summary::after",
+      "properties": {
+        "content": "none"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "details::details-content",
+      "properties": {
+        "display": "block",
+        "content-visibility": "visible"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "details>*:not(summary)",
+      "properties": {
+        "display": "block"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "dl",
+      "properties": {
+        "font-size": "8.5pt",
+        "margin-top": "3mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "dl div",
+      "properties": {
+        "margin-bottom": "2mm",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "dd",
+      "properties": {
+        "margin-top": ".5mm",
+        "line-height": "1.25"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source-limit",
+      "properties": {
+        "font-size": "8pt",
+        "margin-top": "2mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable",
+      "properties": {
+        "padding": "10mm 0",
+        "font-size": "12pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable strong",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chronology",
+      "properties": {
+        "break-before": "page",
+        "padding": "0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "11pt",
+        "padding": "0 0 4mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chronology>h2",
+      "properties": {
+        "font-size": "34pt",
+        "margin-top": "7mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "13pt",
+        "margin": "6mm 0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event",
+      "properties": {
+        "grid-template-columns": "36mm 1fr",
+        "gap": "7mm",
+        "padding": "7mm 0 5mm",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event-date p",
+      "properties": {
+        "font-size": "10pt",
+        "margin-top": "2mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "16pt",
+        "margin-bottom": "3mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event>div>p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event dl",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".viewing",
+      "properties": {
+        "padding-top": "8mm",
+        "break-inside": "avoid"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "23pt",
+        "margin-bottom": "4mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".viewing>div",
+      "properties": {
+        "grid-template-columns": "1fr 1fr",
+        "gap": "8mm",
+        "font-size": "10.5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".credit",
+      "properties": {
+        "font-size": "9pt",
+        "margin-top": "6mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".empty-chronology",
+      "properties": {
+        "font-size": "11pt",
+        "padding": "7mm 0"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".empty-chronology h3",
+      "properties": {
+        "font-size": "17pt",
+        "margin-bottom": "4mm"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".editorial-break",
+      "properties": {
+        "display": "initial"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "*",
+      "properties": {
+        "box-sizing": "border-box"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "body",
+      "properties": {
+        "margin": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "main",
+      "properties": {
+        "max-width": "1536px",
+        "margin": "0 auto",
+        "padding": "0 var(--gutter)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "margin": "0",
+        "line-height": "1.42"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3",
+      "properties": {
+        "margin": "0",
+        "font-weight": "400",
+        "line-height": "1.08",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a",
+      "properties": {
+        "color": "var(--link)",
+        "text-decoration": "underline",
+        "text-underline-offset": ".16em",
+        "text-decoration-thickness": "1px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a:hover",
+      "properties": {
+        "color": "#262823"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "a:focus-visible,summary:focus-visible",
+      "properties": {
+        "outline": "3px solid var(--link)",
+        "outline-offset": "6px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".skip",
+      "properties": {
+        "position": "fixed",
+        "top": "8px",
+        "left": "8px",
+        "width": "1px",
+        "height": "1px",
+        "overflow": "hidden",
+        "clip-path": "inset(50%)",
+        "z-index": "10"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".skip:focus",
+      "properties": {
+        "width": "auto",
+        "height": "auto",
+        "clip-path": "none",
+        "padding": "12px",
+        "background": "#fff"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "section,nav[id],details,article[id]",
+      "properties": {
+        "scroll-margin-top": "24px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead",
+      "properties": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "justify-content": "space-between",
+        "gap": "2rem",
+        "align-items": "center",
+        "min-height": "90px",
+        "border-bottom": "1px solid var(--line)",
+        "padding": "30px 0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.375rem",
+        "font-weight": "700",
+        "color": "inherit",
+        "text-decoration": "none",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead nav",
+      "properties": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "3.5rem",
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead nav a",
+      "properties": {
+        "color": "inherit"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".introduction",
+      "properties": {
+        "padding": "43px 0 31px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "4.5rem",
+        "line-height": "1.02",
+        "max-width": "1100px",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.625rem",
+        "color": "var(--muted)",
+        "margin-top": "34px",
+        "max-width": "1100px",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "1.25rem",
+        "color": "var(--muted)",
+        "margin-top": "30px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".diagnostic",
+      "properties": {
+        "font-size": "1rem",
+        "border-left": "3px solid var(--link)",
+        "padding-left": "16px",
+        "margin-top": "22px",
+        "max-width": "900px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-index",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "2rem",
+        "border-top": "1px solid var(--line)",
+        "padding": "28px 0 58px",
+        "font-size": "1.25rem",
+        "flex-wrap": "wrap"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work",
+      "properties": {
+        "padding-bottom": "44px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "align-items": "baseline",
+        "gap": "32px",
+        "margin-bottom": "20px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption h2",
+      "properties": {
+        "font-size": "1.5rem",
+        "line-height": "1.2",
+        "font-weight": "700",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption p",
+      "properties": {
+        "font-size": "1.125rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".artwork",
+      "properties": {
+        "display": "block",
+        "width": "100%",
+        "height": "auto",
+        "object-fit": "contain"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "60px",
+        "margin-top": "38px",
+        "font-size": "1.25rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes h3",
+      "properties": {
+        "font-size": "1.5rem",
+        "font-weight": "700",
+        "color": "#262823",
+        "letter-spacing": "-.02em",
+        "margin-bottom": "12px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes .note-title",
+      "properties": {
+        "font-size": "2.125rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".physical",
+      "properties": {
+        "margin-top": "18px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "details",
+      "properties": {
+        "margin-top": "18px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "color": "var(--link)",
+        "text-decoration": "underline",
+        "text-underline-offset": ".16em",
+        "cursor": "pointer",
+        "list-style": "none"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "summary::-webkit-details-marker",
+      "properties": {
+        "display": "none"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "summary::after",
+      "properties": {
+        "content": "\" +\"",
+        "text-decoration": "none"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "details[open] summary::after",
+      "properties": {
+        "content": "\" −\""
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dl",
+      "properties": {
+        "font-size": "1rem",
+        "margin": "22px 0 0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dl div",
+      "properties": {
+        "margin-bottom": "14px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dt",
+      "properties": {
+        "font-weight": "700",
+        "color": "#262823"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dd",
+      "properties": {
+        "margin": "3px 0 0",
+        "overflow-wrap": "anywhere",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source-limit",
+      "properties": {
+        "font-size": ".95rem",
+        "margin-top": "12px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".next-link",
+      "properties": {
+        "border-top": "1px solid var(--line)",
+        "margin-top": "38px",
+        "padding-top": "16px",
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".next-link a",
+      "properties": {
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".unavailable",
+      "properties": {
+        "padding": "36px 0",
+        "border-top": "1px solid var(--line)",
+        "border-bottom": "1px solid var(--line)",
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".unavailable strong",
+      "properties": {
+        "font-size": "1.5rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".unavailable p",
+      "properties": {
+        "margin-top": "16px",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology",
+      "properties": {
+        "padding-top": "32px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "1.375rem",
+        "padding": "28px 0 32px",
+        "border-bottom": "1px solid var(--line)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology>h2",
+      "properties": {
+        "font-size": "4.5rem",
+        "line-height": "1.02",
+        "letter-spacing": "-.045em",
+        "margin-top": "42px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "1.75rem",
+        "color": "var(--muted)",
+        "margin": "34px 0 38px",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology-intro p+p",
+      "properties": {
+        "margin-top": "4px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "240px 1fr",
+        "gap": "56px",
+        "padding": "48px 0 40px",
+        "border-top": "1px solid var(--line)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.04em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date p",
+      "properties": {
+        "font-size": "1.375rem",
+        "color": "var(--muted)",
+        "letter-spacing": "0",
+        "margin-top": "12px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "2rem",
+        "margin": "0 0 16px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event>div>p",
+      "properties": {
+        "color": "var(--muted)",
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event dl",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".empty-chronology",
+      "properties": {
+        "border-top": "1px solid var(--line)",
+        "padding": "40px 0",
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".empty-chronology h3",
+      "properties": {
+        "font-size": "2rem",
+        "margin-bottom": "18px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing",
+      "properties": {
+        "padding-top": "56px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "3rem",
+        "margin-bottom": "24px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>div",
+      "properties": {
+        "display": "grid",
+        "grid-template-columns": "1fr 1fr",
+        "gap": "60px",
+        "font-size": "1.375rem",
+        "color": "var(--muted)"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".credit",
+      "properties": {
+        "font-size": "1.125rem",
+        "color": "var(--muted)",
+        "margin-top": "38px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "gap": "24px",
+        "border-top": "1px solid var(--line)",
+        "margin-top": "32px",
+        "padding": "24px 0 42px",
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".recovery",
+      "properties": {
+        "padding-top": "80px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".recovery h1",
+      "properties": {
+        "font-size": "3rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".recovery p",
+      "properties": {
+        "font-size": "1.375rem",
+        "margin": "28px 0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead",
+      "properties": {
+        "align-items": "flex-start",
+        "flex-wrap": "wrap",
+        "gap": "22px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead nav",
+      "properties": {
+        "gap": "2rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".introduction",
+      "properties": {
+        "padding-top": "35px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,.chronology>h2",
+      "properties": {
+        "font-size": "clamp(2.5rem,8vw,4.5rem)",
+        "line-height": "1.05",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".editorial-break",
+      "properties": {
+        "display": "none"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-index",
+      "properties": {
+        "padding-bottom": "38px",
+        "flex-direction": "column",
+        "gap": "14px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption",
+      "properties": {
+        "display": "block"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption p",
+      "properties": {
+        "margin-top": "10px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes,.viewing>div",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "28px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes",
+      "properties": {
+        "margin-top": "24px"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event",
+      "properties": {
+        "grid-template-columns": "1fr",
+        "gap": "22px",
+        "padding": "32px 0"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "1.625rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "1.75rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "2.5rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "1.2rem",
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source,.work-notes,.event>div>p,.viewing>div",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "flex-wrap": "wrap",
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "html",
+      "properties": {
+        "scroll-behavior": "auto"
+      },
+      "context": "@media (prefers-reduced-motion:reduce)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3,.masthead,.work-index",
+      "properties": {
+        "overflow-wrap": "anywhere"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    }
+  ],
+  "responsive": [
+    "@media (max-width:700px)",
+    "@media (prefers-reduced-motion:reduce)"
+  ],
+  "typography": [
+    {
+      "selector": "html",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "38pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".diagnostic",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".caption h2",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".caption p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes",
+      "properties": {
+        "font-size": "10.5pt",
+        "line-height": "1.32"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes h3",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes .note-title",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": "9.5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".work-notes p",
+      "properties": {
+        "line-height": "1.35"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "summary",
+      "properties": {
+        "font-size": "10pt",
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "dl",
+      "properties": {
+        "font-size": "8.5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": "dd",
+      "properties": {
+        "line-height": "1.25"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".source-limit",
+      "properties": {
+        "font-size": "8pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable",
+      "properties": {
+        "font-size": "12pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable strong",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".unavailable p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chronology>h2",
+      "properties": {
+        "font-size": "34pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "13pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "15pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event-date p",
+      "properties": {
+        "font-size": "10pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "16pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event>div>p",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".event dl",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "23pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".viewing>div",
+      "properties": {
+        "font-size": "10.5pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".credit",
+      "properties": {
+        "font-size": "9pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".empty-chronology",
+      "properties": {
+        "font-size": "11pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ".empty-chronology h3",
+      "properties": {
+        "font-size": "17pt"
+      },
+      "context": "base",
+      "source": "styles/print.css"
+    },
+    {
+      "selector": ":root",
+      "properties": {
+        "font-family": "Arimo,Arial,sans-serif",
+        "font-size": "16px"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "p",
+      "properties": {
+        "line-height": "1.42"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,h2,h3",
+      "properties": {
+        "font-weight": "400",
+        "line-height": "1.08",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".brand",
+      "properties": {
+        "font-size": "1.375rem",
+        "font-weight": "700",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".masthead nav",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1",
+      "properties": {
+        "font-size": "4.5rem",
+        "line-height": "1.02",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.625rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".diagnostic",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-index",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption h2",
+      "properties": {
+        "font-size": "1.5rem",
+        "line-height": "1.2",
+        "font-weight": "700",
+        "letter-spacing": "-.025em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".caption p",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes h3",
+      "properties": {
+        "font-size": "1.5rem",
+        "font-weight": "700",
+        "letter-spacing": "-.02em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".work-notes .note-title",
+      "properties": {
+        "font-size": "2.125rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dl",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dt",
+      "properties": {
+        "font-weight": "700"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "dd",
+      "properties": {
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".source-limit",
+      "properties": {
+        "font-size": ".95rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".next-link",
+      "properties": {
+        "font-size": "1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".unavailable",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".unavailable strong",
+      "properties": {
+        "font-size": "1.5rem",
+        "font-weight": "400"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology>h2",
+      "properties": {
+        "font-size": "4.5rem",
+        "line-height": "1.02",
+        "letter-spacing": "-.045em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "1.75rem",
+        "line-height": "1.4"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "2rem",
+        "letter-spacing": "-.04em"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date p",
+      "properties": {
+        "font-size": "1.375rem",
+        "letter-spacing": "0"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event>div>p",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event dl",
+      "properties": {
+        "font-size": "1.1rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".empty-chronology",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".empty-chronology h3",
+      "properties": {
+        "font-size": "2rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "3rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>div",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".credit",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".recovery h1",
+      "properties": {
+        "font-size": "3rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".recovery p",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "base",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "h1,.chronology>h2",
+      "properties": {
+        "font-size": "clamp(2.5rem,8vw,4.5rem)",
+        "line-height": "1.05"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".lead",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".status",
+      "properties": {
+        "font-size": "1.125rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event-date",
+      "properties": {
+        "font-size": "1.625rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".event h3",
+      "properties": {
+        "font-size": "1.75rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".chronology-intro",
+      "properties": {
+        "font-size": "1.375rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".viewing>h3",
+      "properties": {
+        "font-size": "2.5rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": ".local-label",
+      "properties": {
+        "font-size": "1.2rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    },
+    {
+      "selector": "footer",
+      "properties": {
+        "font-size": "1.25rem"
+      },
+      "context": "@media (max-width:700px)",
+      "source": "styles/screen.css"
+    }
+  ],
+  "headings": [
+    "Page not found",
+    "Source &amp; medium",
+    "Availability",
+    "No event records supplied"
+  ],
+  "ids": [
+    "main",
+    "top",
+    "exhibition-title",
+    "works",
+    "chronology",
+    "chronology-title",
+    "viewing",
+    "viewing-title"
+  ],
+  "assets": [
+    "assets/art/between-planes.png",
+    "assets/art/held-edge.png",
+    "assets/art/pause-in-field.png",
+    "fonts/arimo/Arimo-Bold.woff2",
+    "fonts/arimo/Arimo-Regular.woff2"
+  ],
+  "assetPolicy": null,
+  "contentFiles": [
+    "content/exhibition.json",
+    "fonts/arimo/provenance.json"
+  ],
+  "renderedPreview": null
+}

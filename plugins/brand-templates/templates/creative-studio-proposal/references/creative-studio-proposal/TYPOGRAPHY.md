@@ -1,0 +1,62 @@
+# CSS typography by scope
+
+Source: `assets/source` · SHA-256 `4068f7b2481fb8540fbedf75a11e4c0473e49b9dec3337d9d7cda828e749cfd7` (relative filenames and bytes of CSS, JS, MJS, HTML, image and font files; excludes editable JSON/Markdown, package metadata, generated dist, host metadata). These are source observations; user-authorized changes may replace them.
+
+- `h1,h2,h3,.wordmark` · `base` · `assets/source/styles/main.css`: `{'font-family': 'Archivo,Arial,sans-serif', 'font-weight': '900', 'line-height': '1.08', 'letter-spacing': '-.055em'}`.
+- `h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.7rem,5.85vw,4.5rem)'}`.
+- `h2` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(1.8rem,3.1vw,2.4rem)'}`.
+- `h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.4rem'}`.
+- `.wordmark` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.7rem', 'text-transform': 'uppercase', 'letter-spacing': '-.055em'}`.
+- `.intro` · `base` · `assets/source/styles/main.css`: `{'line-height': '1.25'}`.
+- `.project-figure figcaption` · `base` · `assets/source/styles/main.css`: `{'font-size': '.7rem', 'line-height': '1.35'}`.
+- `.site-footer .small` · `base` · `assets/source/styles/main.css`: `{'font-size': '.7rem'}`.
+- `.case-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.8rem,6vw,4.7rem)'}`.
+- `.case-heading .subtitle` · `base` · `assets/source/styles/main.css`: `{'letter-spacing': '-.05em'}`.
+- `.evidence-note` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.case-rail h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.55rem'}`.
+- `.case-rail p` · `base` · `assets/source/styles/main.css`: `{'font-size': '1rem', 'line-height': '1.35'}`.
+- `.scope-band h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.55rem'}`.
+- `.scope-band p` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.next-study` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `:root` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '112.5%'}`.
+- `.wordmark` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '1.4rem'}`.
+- `.opening h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.5rem,8.3vw,4.5rem)'}`.
+- `.case-heading h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.4rem,9vw,4.5rem)'}`.
+- `.project-figure figcaption` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '.78rem'}`.
+- `.together-heading h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.3rem,5.1vw,4rem)'}`.
+- `.service-choices span` · `base` · `assets/source/styles/main.css`: `{'font-weight': '700'}`.
+- `.service-panel h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '2rem'}`.
+- `.service-panel .fit` · `base` · `assets/source/styles/main.css`: `{'font-weight': '700'}`.
+- `.service-panel h3` · `base` · `assets/source/styles/main.css`: `{'letter-spacing': '0'}`.
+- `.boundary` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.enquiry h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '2.1rem'}`.
+- `.enquiry label` · `base` · `assets/source/styles/main.css`: `{'font-weight': '700'}`.
+- `.enquiry textarea,.enquiry input` · `base` · `assets/source/styles/main.css`: `{'line-height': '1.35'}`.
+- `.help` · `base` · `assets/source/styles/main.css`: `{'font-size': '.75rem'}`.
+- `.draft-note h3` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.1rem'}`.
+- `.draft-note p` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9rem'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/main.css`: `{'font-size': '.85rem'}`.
+- `.author-guide h1` · `base` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.8rem,5.5vw,4.2rem)'}`.
+- `.author-guide h2` · `base` · `assets/source/styles/main.css`: `{'font-size': '1.6rem'}`.
+- `code` · `base` · `assets/source/styles/main.css`: `{'font-size': '.9em'}`.
+- `.together-heading h1` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': 'clamp(2.3rem,8vw,3.5rem)'}`.
+- `.enquiry h2` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '1.8rem'}`.
+- `.help` · `@media (max-width:800px)` · `assets/source/styles/main.css`: `{'font-size': '.8rem'}`.
+- `.wordmark` · `base` · `assets/source/styles/print.css`: `{'font-size': '18pt'}`.
+- `.opening h1,.case-heading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt'}`.
+- `h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.project-figure figcaption,.site-footer .small` · `base` · `assets/source/styles/print.css`: `{'font-size': '9pt'}`.
+- `.case-rail h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '15pt'}`.
+- `.case-rail p` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.next-study` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.together-heading h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt'}`.
+- `.service-panel h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.service-panel h3` · `base` · `assets/source/styles/print.css`: `{'font-size': '12pt'}`.
+- `.service-panel ul,.service-panel p,.boundary` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.
+- `.enquiry h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '19pt'}`.
+- `.draft-note p,.help` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.draft-result textarea` · `base` · `assets/source/styles/print.css`: `{'font-size': '10pt'}`.
+- `.author-guide h1` · `base` · `assets/source/styles/print.css`: `{'font-size': '30pt'}`.
+- `.author-guide h2` · `base` · `assets/source/styles/print.css`: `{'font-size': '17pt'}`.
+- `.author-guide p,.author-guide li` · `base` · `assets/source/styles/print.css`: `{'font-size': '11pt'}`.

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "brand-library/1",
+  "id": "teaching-philosophy-folio",
+  "version": "0.2.1",
+  "name": "The Teaching Practice",
+  "summary": "A reflective teaching identity that connects a philosophical statement to concrete choices in materials, facilitation and feedback.",
+  "category": "Portfolio & career",
+  "tags": [
+    "document",
+    "Teaching & learning"
+  ],
+  "identityKind": "reusableStyle",
+  "origin": "templateDerived",
+  "status": "authored",
+  "sourceTemplateIds": [
+    "teaching-philosophy-folio"
+  ],
+  "sourceTemplateNames": {
+    "teaching-philosophy-folio": "Teaching Philosophy Folio"
+  },
+  "templateVariations": [
+    {
+      "templateId": "teaching-philosophy-folio",
+      "name": "Teaching Philosophy Folio",
+      "format": "document",
+      "sourceHash": "5bc0294a4665e955f0b0cd62c8f57dc0b4a81a01f1e777f32e3e71f232564f84",
+      "foundationSha256": "de698764b13036b412d5eba19fa8322869cd6b9ed34703939e0db093d0c308d1",
+      "designSpecSha256": "56449a50b2a32715a16e885bfa0e2cc949198de0c032eaa3f1452489a1975e55",
+      "referenceDirectory": "references/teaching-philosophy-folio"
+    }
+  ],
+  "sourceHash": "5bc0294a4665e955f0b0cd62c8f57dc0b4a81a01f1e777f32e3e71f232564f84",
+  "colors": [
+    {
+      "name": "Folio cream",
+      "role": "background",
+      "hex": "#FFF9ED",
+      "evidence": "Native cover rendering shows cream page field; #FFF9ED also repeats as active word/document.xml surface shading."
+    },
+    {
+      "name": "Text",
+      "role": "text",
+      "hex": "#262C36",
+      "evidence": "used style Normal explicit text color"
+    },
+    {
+      "name": "Primary",
+      "role": "primary",
+      "hex": "#344F70",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    },
+    {
+      "name": "Accent",
+      "role": "accent",
+      "hex": "#000000",
+      "evidence": "Observed direct source color; this reusable accent role is an editorial choice, not an inferred original token."
+    }
+  ],
+  "conditionalColors": [],
+  "typography": [
+    {
+      "role": "display",
+      "family": "Cormorant Garamond",
+      "usage": "Folio title and philosophical propositions."
+    },
+    {
+      "role": "body",
+      "family": "Alegreya",
+      "usage": "Reflective reading text, examples and evidence."
+    }
+  ],
+  "portableTypography": [
+    {
+      "role": "display",
+      "usage": "Folio title and philosophical propositions.",
+      "sourceFamily": "Cormorant Garamond",
+      "sourceFamilySelected": "Cormorant Garamond",
+      "renderFamily": "Cormorant Garamond",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "78e01718e96f1a8689597a63b21ddaaf44dd785ee7cf5e92dd70a741c79cfae5"
+        },
+        "bold": {
+          "path": "assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "012a87dc5658bdc4599ba507348e8ce5a432de636b7f29584cd949692ed5c3da"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/cormorant-garamond/OFL.txt",
+      "licenseSha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "exactOrSubstitute": "substitute",
+      "sourceFontDependency": null,
+      "justification": "Portable font family substitution. Open high-contrast serif substitute for proprietary Didot or Cochin, selected according to the source profile.",
+      "sourceTemplateId": "teaching-philosophy-folio",
+      "sourceFingerprint": "5bc0294a4665e955f0b0cd62c8f57dc0b4a81a01f1e777f32e3e71f232564f84"
+    },
+    {
+      "role": "body",
+      "usage": "Reflective reading text, examples and evidence.",
+      "sourceFamily": "Alegreya",
+      "sourceFamilySelected": "Alegreya",
+      "renderFamily": "Alegreya",
+      "files": {
+        "regular": {
+          "path": "assets/fonts/alegreya/Alegreya-Regular.ttf",
+          "weight": 400,
+          "style": "normal",
+          "name": "Regular",
+          "sha256": "2bb81936a973fbbf9307c13c5653276ecd85a353c64011991c885e9dbb5d46ee"
+        },
+        "bold": {
+          "path": "assets/fonts/alegreya/Alegreya-Bold.ttf",
+          "weight": 700,
+          "style": "normal",
+          "name": "Bold",
+          "sha256": "57b78aad72611e3f31839ab48f72f7598d2fddf14f8bdb58cff344cc23475cc8"
+        }
+      },
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/fonts/alegreya/OFL.txt",
+      "licenseSha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "exactOrSubstitute": "exact",
+      "sourceFontDependency": null,
+      "justification": "Exact licensed source family for the source role. Exact OFL source family; official variable source is statically instanced.",
+      "sourceTemplateId": "teaching-philosophy-folio",
+      "sourceFingerprint": "5bc0294a4665e955f0b0cd62c8f57dc0b4a81a01f1e777f32e3e71f232564f84"
+    }
+  ],
+  "recognitionRules": [
+    "Pair Cormorant Garamond display with Alegreya reading text.",
+    "Use a warm cream folio field, dark serif reading text and a separate blue marginal commentary track linked by numbered references.",
+    "Give examples of teaching behavior space beside the principle they demonstrate.",
+    "Keep aspirations separate from observed learner outcomes."
+  ],
+  "writingLinks": [
+    {
+      "id": "V14",
+      "name": "Braided reflection",
+      "reason": "Narrative and marginal notes braided together and backed by evidence logs.",
+      "sourceTemplateId": "teaching-philosophy-folio",
+      "status": "editorial-suggestion",
+      "modules": []
+    }
+  ],
+  "quote": "A teaching principle matters when it changes what happens in the room.",
+  "rightsSummary": "Original fictional identity and vector logos; portable font binaries retain their licenses. Source family dependencies and substitutions are documented.",
+  "logoDirection": "Use THE TEACHING PRACTICE in Cormorant Garamond with an Alegreya descriptor. No academic crest.",
+  "invariants": [
+    "Pair Cormorant Garamond display with Alegreya reading text.",
+    "Use a warm cream folio field, dark serif reading text and a separate blue marginal commentary track linked by numbered references.",
+    "Give examples of teaching behavior space beside the principle they demonstrate."
+  ],
+  "adaptations": [
+    "A job-application extract can use one principle and one example.",
+    "A full folio expands evidence without turning the introduction into a manifesto.",
+    "Keep the full name with any new symbol until the audience can recognize it independently."
+  ],
+  "decisionStatus": "Template-derived editorial identity for the requested library. Creative rules are proposed production directions; no real organization or official endorsement is asserted.",
+  "guide": {
+    "pdf": "guides/teaching-philosophy-folio.pdf",
+    "preview": "media/teaching-philosophy-folio-guide.webp",
+    "markdown": "guides/teaching-philosophy-folio.md"
+  },
+  "bundle": {
+    "href": "bundles/teaching-philosophy-folio-brand-kit.zip",
+    "filename": "The Teaching Practice brand kit.zip"
+  },
+  "previews": [
+    {
+      "src": "media/teaching-philosophy-folio-guide.webp",
+      "label": "Brand guide"
+    },
+    {
+      "src": "media/teaching-philosophy-folio-rules.webp",
+      "label": "Logo and layout rules"
+    },
+    {
+      "src": "media/teaching-philosophy-folio-source.webp",
+      "label": "Originating design example"
+    }
+  ],
+  "localFiles": {
+    "guide": "guide.pdf",
+    "skill": "SKILL.md",
+    "design": "DESIGN.md",
+    "guideSource": "guide-source/render_guide.py"
+  }
+}
