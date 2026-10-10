@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product experience pulse</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5;color:#171717;background:#f5f5f5}
+body{margin:0}.shell{max-width:760px;margin:0 auto;padding:2rem 1rem 5rem}header,section,.consent{background:#fff;border:1px solid #ddd;border-radius:.75rem;padding:1.25rem;margin-bottom:1rem}
+fieldset{border:0;padding:0;margin:0}legend{font-weight:700;font-size:1.05rem;margin-bottom:.5rem}.meta{color:#555;font-size:.9rem}.required{font-weight:600}.option{display:flex;gap:.65rem;align-items:flex-start;padding:.35rem 0}
+input,select,textarea{font:inherit}input[type=text],input[type=number],input[type=date],select,textarea{width:100%;box-sizing:border-box;padding:.65rem;border:1px solid #777;border-radius:.35rem}textarea{min-height:8rem}
+.scale{display:flex;flex-wrap:wrap;gap:.5rem}.scale-point label{display:flex;flex-direction:column;align-items:center;border:1px solid #aaa;border-radius:.35rem;padding:.4rem;min-width:4rem}.value{font-weight:700}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #bbb;padding:.55rem;text-align:center}th[scope=row]{text-align:left}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media print{body{background:#fff}.shell{max-width:none;padding:0}header,section,.consent{border:0;break-inside:avoid}.meta{color:#000}}
+</style>
+</head>
+<body><main class="shell">
+<header><h1>Product experience pulse</h1><p>Measure task outcome and perceived ease for a recent product task so the team can identify experience regressions and diagnostic follow-up needs.</p><p class="meta">Estimated time: 3 minutes · Survey ID: <code>product-experience-pulse</code></p></header>
+<div class="consent"><h2>Before you begin</h2><p>Participation is voluntary. You may skip optional questions or stop at any time.</p><p class="meta">Questions: research@example.com</p></div>
+<form aria-label="Survey preview">
+<section id="block-experience"><h2>Your recent experience</h2>
+<div class="question" data-question-id="task_outcome">
+<fieldset><legend>What happened the last time you tried to complete this task?</legend><div class="meta"><span class="required">Required</span> · ID: <code>task_outcome</code></div>
+<div class="option"><input id="task_outcome_1" name="task_outcome" type="radio" value="completed" required><label for="task_outcome_1">I completed it</label></div>
+<div class="option"><input id="task_outcome_2" name="task_outcome" type="radio" value="partial" required><label for="task_outcome_2">I completed part of it</label></div>
+<div class="option"><input id="task_outcome_3" name="task_outcome" type="radio" value="not_completed" required><label for="task_outcome_3">I did not complete it</label></div>
+<div class="option"><input id="task_outcome_4" name="task_outcome" type="radio" value="not_sure" required><label for="task_outcome_4">I am not sure</label></div>
+</fieldset></div>
+<div class="question" data-question-id="task_ease">
+<fieldset><legend>How easy or difficult was it to complete as much of the task as you did?</legend><div class="meta"><span class="required">Required</span> · ID: <code>task_ease</code></div>
+<div class="scale" role="radiogroup">
+<div class="scale-point"><input id="task_ease_1" name="task_ease" type="radio" value="1" required><label for="task_ease_1"><span class="value">1</span><span>Very difficult</span></label></div>
+<div class="scale-point"><input id="task_ease_2" name="task_ease" type="radio" value="2" required><label for="task_ease_2"><span class="value">2</span><span>2</span></label></div>
+<div class="scale-point"><input id="task_ease_3" name="task_ease" type="radio" value="3" required><label for="task_ease_3"><span class="value">3</span><span>3</span></label></div>
+<div class="scale-point"><input id="task_ease_4" name="task_ease" type="radio" value="4" required><label for="task_ease_4"><span class="value">4</span><span>Neither easy nor difficult</span></label></div>
+<div class="scale-point"><input id="task_ease_5" name="task_ease" type="radio" value="5" required><label for="task_ease_5"><span class="value">5</span><span>5</span></label></div>
+<div class="scale-point"><input id="task_ease_6" name="task_ease" type="radio" value="6" required><label for="task_ease_6"><span class="value">6</span><span>6</span></label></div>
+<div class="scale-point"><input id="task_ease_7" name="task_ease" type="radio" value="7" required><label for="task_ease_7"><span class="value">7</span><span>Very easy</span></label></div>
+</div>
+</fieldset></div>
+<div class="question" data-question-id="main_obstacle">
+<fieldset><legend>What was the main obstacle, if any?</legend><div class="meta">Optional · ID: <code>main_obstacle</code></div>
+<div class="option"><input id="main_obstacle_1" name="main_obstacle" type="radio" value="none" data-exclusive="true"><label for="main_obstacle_1">No obstacle</label></div>
+<div class="option"><input id="main_obstacle_2" name="main_obstacle" type="radio" value="could_not_find"><label for="main_obstacle_2">I could not find what I needed</label></div>
+<div class="option"><input id="main_obstacle_3" name="main_obstacle" type="radio" value="instructions"><label for="main_obstacle_3">The instructions were unclear</label></div>
+<div class="option"><input id="main_obstacle_4" name="main_obstacle" type="radio" value="technical"><label for="main_obstacle_4">Something did not work as expected</label></div>
+<div class="option"><input id="main_obstacle_5" name="main_obstacle" type="radio" value="information"><label for="main_obstacle_5">I did not have the information I needed</label></div>
+<div class="option"><input id="main_obstacle_6" name="main_obstacle" type="radio" value="time"><label for="main_obstacle_6">It took more time than I had</label></div>
+<div class="option"><input id="main_obstacle_7" name="main_obstacle" type="radio" value="other"><label for="main_obstacle_7">Another obstacle</label></div>
+</fieldset></div>
+<div class="question" data-question-id="improvement">
+<fieldset><legend>What is one change that would have made this task easier?</legend><div class="meta">Optional · ID: <code>improvement</code></div>
+<label class="sr-only" for="improvement_input">What is one change that would have made this task easier?</label><textarea id="improvement_input" name="improvement"></textarea>
+</fieldset></div>
+</section>
+<section id="block-close"><h2>Close</h2>
+<div class="question" data-question-id="future_research">
+<fieldset><legend>May the research team invite you to a separate follow-up study?</legend><div class="meta">Optional · ID: <code>future_research</code></div>
+<div class="option"><input id="future_research_1" name="future_research" type="radio" value="yes"><label for="future_research_1">Yes</label></div>
+<div class="option"><input id="future_research_2" name="future_research" type="radio" value="no"><label for="future_research_2">No</label></div>
+<div class="option"><input id="future_research_3" name="future_research" type="radio" value="not_sure"><label for="future_research_3">Not sure</label></div>
+</fieldset></div>
+</section>
+</form>
+<section><h2>Thank you</h2><p>Thank you for sharing your experience.</p></section>
+</main></body></html>

@@ -1,0 +1,171 @@
+{
+  "survey": {
+    "id": "shared-learning-feedback",
+    "title": "Quick learning feedback",
+    "version": "0.1.0",
+    "objective": "Help the facilitator choose one improvement and identify needs for follow-up practice before repeating this learning experience.",
+    "target_audience": "People who participated in the named course or live workshop; report completion status separately if reliably known.",
+    "mode": "web",
+    "estimated_minutes": 1,
+    "owner": "Facilitator of the named learning experience",
+    "consent": {
+      "required": false,
+      "text": "Your feedback is optional and helps improve the next learning experience. You may skip any question or close the form. Please do not include personal information in your comments.",
+      "contact": "Contact the facilitator through the course or workshop contact channel."
+    },
+    "privacy": {
+      "identifiability": "identified",
+      "collects_pii": true,
+      "retention": "Draft assumption: owner must set and disclose retention and response access before fielding.",
+      "jurisdictions": [
+        "US"
+      ],
+      "security_notes": "Conservative handling classification until the destination is inspected; not a finding about actual collection. Verify account linkage, logging, context combinations and incidental identifiers in free text. Do not promise anonymity."
+    }
+  },
+  "analysis_plan": {
+    "decisions": [
+      "Facilitator chooses the next experience improvement and whether to offer follow-up practice."
+    ],
+    "primary_metrics": [
+      "overall_experience",
+      "application_confidence"
+    ],
+    "segments": [],
+    "exclusions": [
+      "Tagged synthetic test responses",
+      "Confirmed technical retry duplicates; preserve the intended submission"
+    ],
+    "sample_size_basis": "Invite eligible participants; descriptive feedback, no representativeness or statistical power claim.",
+    "missing_data_plan": "Show a valid-answer denominator for each item. Keep skips and NA distinct from numeric ratings; do not impute.",
+    "open_text_plan": "Code improvement suggestions by actionable theme and redact identifying details before sharing.",
+    "decision_rules": [
+      "Review each reported obstacle before the next run; select an actionable improvement with the owner, using rating distributions and context. No unsupported pass/fail threshold."
+    ]
+  },
+  "blocks": [
+    {
+      "id": "feedback",
+      "title": "About this learning experience",
+      "questions": [
+        {
+          "id": "overall_experience",
+          "export_tag": "overall_experience",
+          "type": "single_choice",
+          "text": "Overall, how would you rate this learning experience?",
+          "required": false,
+          "rationale": "Review the rating distribution to decide whether the experience needs investigation before repeating it.",
+          "construct": "overall experience",
+          "analysis_use": "Review the rating distribution to decide whether the experience needs investigation before repeating it.",
+          "choices": [
+            {
+              "id": "c1",
+              "value": 1,
+              "label": "Very poor"
+            },
+            {
+              "id": "c2",
+              "value": 2,
+              "label": "Poor"
+            },
+            {
+              "id": "c3",
+              "value": 3,
+              "label": "Neither poor nor good"
+            },
+            {
+              "id": "c4",
+              "value": 4,
+              "label": "Good"
+            },
+            {
+              "id": "c5",
+              "value": 5,
+              "label": "Very good"
+            }
+          ]
+        },
+        {
+          "id": "application_confidence",
+          "export_tag": "application_confidence",
+          "type": "single_choice",
+          "text": "How confident are you that you can use what this learning experience covered?",
+          "required": false,
+          "rationale": "Identify whether participants report needing follow-up practice or support; this is not a test of learning.",
+          "construct": "perceived application confidence",
+          "analysis_use": "Identify whether participants report needing follow-up practice or support; this is not a test of learning.",
+          "choices": [
+            {
+              "id": "c1",
+              "value": 1,
+              "label": "Not at all confident"
+            },
+            {
+              "id": "c2",
+              "value": 2,
+              "label": "Slightly confident"
+            },
+            {
+              "id": "c3",
+              "value": 3,
+              "label": "Moderately confident"
+            },
+            {
+              "id": "c4",
+              "value": 4,
+              "label": "Very confident"
+            },
+            {
+              "id": "c5",
+              "value": 5,
+              "label": "Extremely confident"
+            },
+            {
+              "id": "not_applicable",
+              "value": "NA",
+              "label": "Not applicable — I did not cover enough to judge"
+            }
+          ]
+        },
+        {
+          "id": "improvement",
+          "export_tag": "improvement",
+          "type": "textarea",
+          "text": "What is one thing we could improve for next time?",
+          "required": false,
+          "rationale": "Code suggestions into actionable themes for the next revision; do not treat comment counts as population prevalence.",
+          "construct": "suggested improvement",
+          "analysis_use": "Code suggestions into actionable themes for the next revision; do not treat comment counts as population prevalence.",
+          "pii": true,
+          "platform_notes": {
+            "privacy": "No identifier is requested, but optional free text may contain identifying information. Restrict access and redact before sharing."
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "status": "draft_pretest_pending",
+    "scale_provenance": "New wording and fully specified choices; not copied as a validated scale from the game survey.",
+    "context_contract": {
+      "experience_kind": [
+        "course",
+        "workshop"
+      ],
+      "experience_id": "Resolve the named experience from trusted metadata.",
+      "collection_source": [
+        "course_end",
+        "standalone_link"
+      ],
+      "instrument_version": "0.1.0"
+    },
+    "presentation": "One page. Show the resolved experience title/date above the shared questions. One minute is an untested target.",
+    "release_checks": [
+      "Resolve privacy, retention, owner contact and jurisdiction",
+      "Pretest comprehension and timing",
+      "Verify both paths, persistence, access controls and data export"
+    ],
+    "context_analysis": "Report counts by experience, instrument version and collection source from the response envelope; avoid pooled claims without a population rationale.",
+    "privacy_status": "unverified; handle as identified data until reviewed"
+  }
+}

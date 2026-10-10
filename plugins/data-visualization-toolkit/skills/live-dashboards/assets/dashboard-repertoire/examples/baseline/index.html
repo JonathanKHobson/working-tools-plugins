@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workshop sessions — occupancy and feedback (synthetic data) · baseline</title>
+  <link rel="stylesheet" href="baseline.css">
+</head>
+<body>
+  <a class="skip" href="#chart-heading">Skip to occupancy chart</a>
+  <header class="page-head">
+    <p class="eyebrow">Baseline · generated from installed skills before new research</p>
+    <h1>Workshop sessions, weeks 1–8</h1>
+    <p class="synthetic-note">Synthetic demonstration data — fictional values, not real program results.</p>
+  </header>
+
+  <main id="app">
+    <!-- Active state summary stays visible outside any control panel -->
+    <section class="scope" aria-labelledby="scope-heading">
+      <h2 id="scope-heading" class="visually-hidden">Current view</h2>
+      <p id="scope-summary" class="scope-summary" aria-live="polite"></p>
+      <button type="button" id="reset-all" class="btn btn-quiet">Reset view</button>
+    </section>
+
+    <section class="controls" aria-labelledby="controls-heading">
+      <h2 id="controls-heading" class="visually-hidden">Filters</h2>
+      <label>From week
+        <select id="week-from"></select>
+      </label>
+      <label>To week
+        <select id="week-to"></select>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="below-only"> Only sessions below 60% occupancy
+      </label>
+    </section>
+
+    <div class="layout">
+      <section class="panel chart-panel" aria-labelledby="chart-heading">
+        <div class="panel-head">
+          <h2 id="chart-heading" tabindex="-1">Occupancy by session</h2>
+          <p class="panel-sub">Enrolled ÷ capacity. Sorted lowest first. Dashed line marks 60%. Select up to two sessions to compare.</p>
+        </div>
+        <div id="chart" class="chart"></div>
+        <div id="empty-state" class="state state-empty" hidden>
+          <p><strong>No sessions match these filters.</strong> <span id="empty-detail"></span></p>
+          <div class="state-actions">
+            <button type="button" id="empty-clear-below" class="btn">Show all occupancy levels</button>
+            <button type="button" id="empty-reset" class="btn btn-quiet">Reset all filters</button>
+          </div>
+        </div>
+        <div id="error-state" class="state state-error" role="alert" hidden></div>
+      </section>
+
+      <aside class="side">
+        <section class="panel" aria-labelledby="compare-heading">
+          <div class="panel-head">
+            <h2 id="compare-heading">Compare two sessions</h2>
+            <p class="panel-sub">Same scales for both. Ratings show response counts; small counts are not reliable.</p>
+          </div>
+          <div id="compare"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="scenario-heading">
+          <div class="panel-head">
+            <h2 id="scenario-heading">Capacity scenario</h2>
+            <p class="panel-sub">Hypothetical only. Changes capacity; enrollment is held at current values. Not a forecast. Source data is not changed.</p>
+          </div>
+          <form id="scenario-form" class="scenario-form" novalidate>
+            <label>Session
+              <select id="scenario-session"></select>
+            </label>
+            <label>Hypothetical capacity
+              <input type="number" id="scenario-capacity" inputmode="numeric" min="1" max="200" step="1" aria-describedby="scenario-error">
+            </label>
+            <p id="scenario-error" class="field-error" aria-live="polite"></p>
+            <div class="state-actions">
+              <button type="submit" class="btn">Apply scenario</button>
+              <button type="button" id="scenario-restore" class="btn btn-quiet">Restore original capacity</button>
+            </div>
+          </form>
+          <p id="scenario-status" class="scenario-status" aria-live="polite"></p>
+        </section>
+      </aside>
+    </div>
+
+    <section class="panel table-panel" aria-labelledby="table-heading">
+      <div class="panel-head">
+        <h2 id="table-heading">All values in current view</h2>
+        <p class="panel-sub">Text equivalent of the chart. Scenario values are marked.</p>
+      </div>
+      <div class="table-scroll" tabindex="0" role="region" aria-labelledby="table-heading">
+        <table id="data-table"></table>
+      </div>
+    </section>
+
+    <p id="announcer" class="visually-hidden" aria-live="polite"></p>
+  </main>
+
+  <footer class="page-foot">
+    <p>Data: synthetic-workshop-sessions v1.0.0 (fictional). Occupancy = enrollment ÷ capacity. Pooled occupancy sums enrollment and capacity across the sessions in view.</p>
+  </footer>
+
+  <script src="../shared/sessions-data.js"></script>
+  <script src="baseline.js"></script>
+</body>
+</html>

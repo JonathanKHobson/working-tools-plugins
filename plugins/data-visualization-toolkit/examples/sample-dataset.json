@@ -1,0 +1,48 @@
+{
+  "title": "Fictional workshop durations",
+  "source_revision": "synthetic-public-v1",
+  "synthetic": true,
+  "columns": [
+    {
+      "key": "group",
+      "label": "Group",
+      "type": "category"
+    },
+    {
+      "key": "duration",
+      "label": "Duration",
+      "type": "number",
+      "unit": "minutes"
+    }
+  ],
+  "rows": [
+    {
+      "id": "a",
+      "values": {
+        "group": "North",
+        "duration": 20
+      }
+    },
+    {
+      "id": "b",
+      "values": {
+        "group": "South",
+        "duration": 0
+      }
+    },
+    {
+      "id": "c",
+      "values": {
+        "group": "North",
+        "duration": null
+      }
+    },
+    {
+      "id": "d",
+      "values": {
+        "group": "South",
+        "duration": 40
+      }
+    }
+  ]
+}

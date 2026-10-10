@@ -1,0 +1,25 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+body { max-width: 48rem; margin: 0 auto; padding: 1.5rem; }
+main { display: block; }
+fieldset { margin: 1.5rem 0; padding: 1rem; border: 1px solid currentColor; }
+legend { font-weight: 700; padding: 0 .4rem; }
+label { display: block; margin: .6rem 0; }
+input, select, textarea, button { font: inherit; min-height: 2.75rem; }
+input[type="radio"], input[type="checkbox"] { min-height: auto; inline-size: 1.25rem; block-size: 1.25rem; margin-inline-end: .5rem; }
+textarea { inline-size: 100%; min-block-size: 8rem; }
+.help, .optional, .research-note { max-width: 65ch; }
+.required { font-weight: 700; }
+:focus-visible { outline: .2rem solid currentColor; outline-offset: .2rem; }
+.error { border-inline-start: .35rem solid currentColor; padding-inline-start: .75rem; font-weight: 700; }
+.matrix { overflow-x: auto; }
+table { border-collapse: collapse; inline-size: 100%; }
+th, td { border: 1px solid currentColor; padding: .6rem; text-align: start; }
+@media (max-width: 40rem) {
+  body { padding: 1rem; }
+  .matrix table, .matrix thead, .matrix tbody, .matrix tr, .matrix th, .matrix td { display: block; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

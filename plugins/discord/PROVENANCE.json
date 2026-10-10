@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "package": "discord",
+  "version": "0.1.1",
+  "canonical_source": "discord",
+  "source_tree_sha256": "00dfe213323b284181646974bfb1f6a5a3324499cbe8a63ddfd2f9dbb4361d4b",
+  "retained_skill_heads": 2,
+  "omissions": {
+    ".mcp.json": "Automatic provider registration excluded; optional complete original launcher retained. Receiving host chooses provider installation and configuration separately."
+  },
+  "source_files": [
+    {
+      "source": ".codex-plugin/plugin.json",
+      "source_sha256": "7d4d95830b3538188361bfdd0a8e2611d06c3566342472d8f0d35b1aae948cbf",
+      "output": ".codex-plugin/plugin.json",
+      "output_sha256": "717993b665a10bf8d84dcfb67efbe7cac2533465d49214ec72b3305f0745ce7f",
+      "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup."
+    },
+    {
+      "source": ".mcp.json",
+      "source_sha256": "d11269c4fc43c7e87df7bf77da7508d6e672ae1bb85f15a0ea9f9f570996d465",
+      "output": null,
+      "output_sha256": null,
+      "change": "Automatic provider registration excluded; optional complete original launcher retained. Receiving host chooses provider installation and configuration separately."
+    },
+    {
+      "source": "README.md",
+      "source_sha256": "2efbb89190266f7c03bb301497565a96b25f654df9bd02e6f8a98f8638fd1db5",
+      "output": "README.md",
+      "output_sha256": "fd437f611be2cdac88e6ba228713ee42f681c3d18f5be40a39b7e46cb6f060ef",
+      "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior."
+    },
+    {
+      "source": "docs/access-options.md",
+      "source_sha256": "671df7e157b00ba3903dce5b4470878287b54748c94a6b0c4e49414239b6ee36",
+      "output": "docs/access-options.md",
+      "output_sha256": "671df7e157b00ba3903dce5b4470878287b54748c94a6b0c4e49414239b6ee36",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "docs/project-map.md",
+      "source_sha256": "28a40aa5dc4b9aae78f95bff722523b8af52ef611cee02fa25bb56313e4201d4",
+      "output": "docs/project-map.md",
+      "output_sha256": "c7bfcc7b200004b63dcefb7d27b3c95f6618ba6b8b17d9da0e69369e8101f95b",
+      "change": "Actual public topology and optional launcher state; all implementation routes retained."
+    },
+    {
+      "source": "docs/use-case-map.md",
+      "source_sha256": "acce8e851588a39a0518606397f06a6939d5630f004ff508cf210d30460f0663",
+      "output": "docs/use-case-map.md",
+      "output_sha256": "acce8e851588a39a0518606397f06a6939d5630f004ff508cf210d30460f0663",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/professional-agents/README.md",
+      "source_sha256": "e3ac29f89582f0f18defced12c9b1d085223987c8ac483b2747995436f7c517e",
+      "output": "references/professional-agents/README.md",
+      "output_sha256": "ac129f8f6f1621fa0569b1f57c1c2116da5583362f95b32c258c0e84badbfe24",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "references/professional-agents/community-manager.md",
+      "source_sha256": "d48a0426711178540778c9d94654fd42d6dbcba5b62946ee625d2c40f29cbe08",
+      "output": "references/professional-agents/community-manager.md",
+      "output_sha256": "5f8d7de6bf471fda137af1929702642c0121eb97cf4d6f99a3227e50f673c2be",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "scripts/launch.py",
+      "source_sha256": "5feeab8de913854705b96626e24c61e8d01e4f11133e27a59cefa6d6117bc8bb",
+      "output": "scripts/launch.py",
+      "output_sha256": "5feeab8de913854705b96626e24c61e8d01e4f11133e27a59cefa6d6117bc8bb",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/discord-computer-use/SKILL.md",
+      "source_sha256": "0df6b3ae68284ca45e2daf259d443ee8a42d8b34eb364c98ab72701c17246769",
+      "output": "skills/discord-computer-use/SKILL.md",
+      "output_sha256": "0df6b3ae68284ca45e2daf259d443ee8a42d8b34eb364c98ab72701c17246769",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/discord/SKILL.md",
+      "source_sha256": "28a88191534ef49f9d07e14187545c477a5ebfcf3d87efee619fc451fbb82ff6",
+      "output": "skills/discord/SKILL.md",
+      "output_sha256": "28a88191534ef49f9d07e14187545c477a5ebfcf3d87efee619fc451fbb82ff6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "tests/test_launch.py",
+      "source_sha256": "9b08b179a56a4c5cbcdeb0ff0bde7f166c241ab6c499ec4f919a894f5930cd1a",
+      "output": "tests/test_launch.py",
+      "output_sha256": "9b08b179a56a4c5cbcdeb0ff0bde7f166c241ab6c499ec4f919a894f5930cd1a",
+      "change": "Byte-exact retained source"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "756bee8de9e60b427450a58a5d838222ab68b3bcdc0f3a679430a9622b827ea2"
+    },
+    {
+      "path": "docs/first-party-lineage.json",
+      "sha256": "f6a5073aac73b2a8f041a8cb1d50db2b281083de355162b634f9f1d71277fdca"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "74b24a1fb50dbabc4e7f29fcbd307a2c9b36efa9d02631b7b0314f2ab9357117"
+    }
+  ],
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "source_sha256": "7d4d95830b3538188361bfdd0a8e2611d06c3566342472d8f0d35b1aae948cbf",
+      "output_sha256": "717993b665a10bf8d84dcfb67efbe7cac2533465d49214ec72b3305f0745ce7f"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "2efbb89190266f7c03bb301497565a96b25f654df9bd02e6f8a98f8638fd1db5",
+      "output_sha256": "fd437f611be2cdac88e6ba228713ee42f681c3d18f5be40a39b7e46cb6f060ef"
+    },
+    {
+      "path": "docs/access-options.md",
+      "source_sha256": "671df7e157b00ba3903dce5b4470878287b54748c94a6b0c4e49414239b6ee36",
+      "output_sha256": "671df7e157b00ba3903dce5b4470878287b54748c94a6b0c4e49414239b6ee36"
+    },
+    {
+      "path": "docs/project-map.md",
+      "source_sha256": "28a40aa5dc4b9aae78f95bff722523b8af52ef611cee02fa25bb56313e4201d4",
+      "output_sha256": "c7bfcc7b200004b63dcefb7d27b3c95f6618ba6b8b17d9da0e69369e8101f95b"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "source_sha256": "acce8e851588a39a0518606397f06a6939d5630f004ff508cf210d30460f0663",
+      "output_sha256": "acce8e851588a39a0518606397f06a6939d5630f004ff508cf210d30460f0663"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "source_sha256": "e3ac29f89582f0f18defced12c9b1d085223987c8ac483b2747995436f7c517e",
+      "output_sha256": "ac129f8f6f1621fa0569b1f57c1c2116da5583362f95b32c258c0e84badbfe24"
+    },
+    {
+      "path": "references/professional-agents/community-manager.md",
+      "source_sha256": "d48a0426711178540778c9d94654fd42d6dbcba5b62946ee625d2c40f29cbe08",
+      "output_sha256": "5f8d7de6bf471fda137af1929702642c0121eb97cf4d6f99a3227e50f673c2be"
+    },
+    {
+      "path": "scripts/launch.py",
+      "source_sha256": "5feeab8de913854705b96626e24c61e8d01e4f11133e27a59cefa6d6117bc8bb",
+      "output_sha256": "5feeab8de913854705b96626e24c61e8d01e4f11133e27a59cefa6d6117bc8bb"
+    },
+    {
+      "path": "skills/discord-computer-use/SKILL.md",
+      "source_sha256": "0df6b3ae68284ca45e2daf259d443ee8a42d8b34eb364c98ab72701c17246769",
+      "output_sha256": "0df6b3ae68284ca45e2daf259d443ee8a42d8b34eb364c98ab72701c17246769"
+    },
+    {
+      "path": "skills/discord/SKILL.md",
+      "source_sha256": "28a88191534ef49f9d07e14187545c477a5ebfcf3d87efee619fc451fbb82ff6",
+      "output_sha256": "28a88191534ef49f9d07e14187545c477a5ebfcf3d87efee619fc451fbb82ff6"
+    },
+    {
+      "path": "tests/test_launch.py",
+      "source_sha256": "9b08b179a56a4c5cbcdeb0ff0bde7f166c241ab6c499ec4f919a894f5930cd1a",
+      "output_sha256": "9b08b179a56a4c5cbcdeb0ff0bde7f166c241ab6c499ec4f919a894f5930cd1a"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "756bee8de9e60b427450a58a5d838222ab68b3bcdc0f3a679430a9622b827ea2"
+    },
+    {
+      "path": "docs/first-party-lineage.json",
+      "sha256": "f6a5073aac73b2a8f041a8cb1d50db2b281083de355162b634f9f1d71277fdca"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "74b24a1fb50dbabc4e7f29fcbd307a2c9b36efa9d02631b7b0314f2ab9357117"
+    }
+  ]
+}

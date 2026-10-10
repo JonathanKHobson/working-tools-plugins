@@ -1,0 +1,53 @@
+{
+  "skill": "survey-strategist",
+  "cases": [
+    {
+      "name": "brief transactional pulse",
+      "request": "Create a two-minute survey shown after a failed bank transfer.",
+      "must_include": ["decision and trigger", "privacy/sensitivity review", "behavioral outcome", "one focused diagnostic", "optional open end", "frequency cap", "pretest and export QA"],
+      "must_avoid": ["generic NPS as the only outcome", "required financial details", "claiming anonymity with linked account data"]
+    },
+    {
+      "name": "qualitative discovery boundary",
+      "request": "Make a survey that tells us all the unknown reasons people abandon our service.",
+      "must_include": ["challenge survey-only approach", "recommend interviews or triangulation", "survey role after discovery", "sampling population"],
+      "must_avoid": ["long open-text form presented as an interview replacement"]
+    },
+    {
+      "name": "Qualtrics advanced import",
+      "request": "Export my survey for Qualtrics with IDs and recodes.",
+      "must_include": ["canonical source", "Advanced TXT", "UTF-8", "validator", "warning manifest", "manual programming checklist", "test import and response export"],
+      "must_avoid": ["fabricated QSF", "undocumented tags", "silent loss of logic"]
+    },
+    {
+      "name": "employee pulse",
+      "request": "Create a psychological safety pulse and compare teams.",
+      "must_include": ["confidentiality not automatic anonymity", "optional sensitive items", "minimum reporting cells", "anti-retaliation concern", "validated-measure/licensing check", "aggregate reporting"],
+      "must_avoid": ["individual employment decisions", "required free-text disclosure", "small-team quotes"]
+    },
+    {
+      "name": "international questionnaire",
+      "request": "Use one global survey to compare customers in ten countries.",
+      "must_include": ["local categories", "translation and cognitive pretest", "measurement equivalence", "mode/coverage", "locale metadata", "invariance or item-function review"],
+      "must_avoid": ["literal translation only", "US demographic categories applied globally"]
+    },
+    {
+      "name": "existing survey audit",
+      "request": "Audit a 40-item matrix-heavy satisfaction questionnaire.",
+      "must_include": ["objective-to-item map", "matrix/mobile/accessibility", "burden estimate", "choice/scale review", "logic and test exports", "release verdict"],
+      "must_avoid": ["cosmetic rewrite without deletion", "score that overrides blockers"]
+    },
+    {
+      "name": "response export",
+      "request": "Prepare Qualtrics responses for analysis in CSV.",
+      "must_include": ["labels versus values", "codebook", "multi-select and matrix structure", "missing states", "time zone", "raw immutable copy", "formula-injection protection", "test response reconciliation"],
+      "must_avoid": ["treating blank as zero", "opening untrusted formulas"]
+    },
+    {
+      "name": "operational intake form",
+      "request": "Create a service intake form with name, email, issue description and file upload.",
+      "must_include": ["service purpose not research", "field necessity", "identified privacy notice", "upload security", "accessible labels and errors", "confirmation", "retention/access"],
+      "must_avoid": ["anonymous claim", "unrestricted file types", "placeholder-only labels"]
+    }
+  ]
+}

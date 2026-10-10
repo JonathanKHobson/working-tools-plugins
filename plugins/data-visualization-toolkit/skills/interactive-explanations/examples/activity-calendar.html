@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activity calendar · fictional example</title>
+  <style>
+    :root { color-scheme: light dark; font: 16px/1.45 system-ui, sans-serif; --ink: light-dark(#18232e,#eef3f7); --muted: light-dark(#526170,#b9c5d0); --paper: light-dark(#fff,#17212b); --ground: light-dark(#f5f7fa,#101820); --border: light-dark(#bdcbd7,#627485); --focus: light-dark(#075985,#7dd3fc); --one: light-dark(#cdebdc,#245744); --two: light-dark(#88cfaa,#367e5c); --three: light-dark(#317c54,#95d4ad); }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--ground); }
+    main { max-width: 800px; margin: auto; padding: 24px; }
+    h1 { font-size: clamp(1.5rem, 4vw, 2rem); margin: 0 0 6px; }
+    h2 { font-size: 1.2rem; margin: 24px 0 8px; }
+    p { margin: 8px 0 16px; }
+    .note { color: var(--muted); max-width: 70ch; }
+    .calendar { display: grid; grid-template-columns: repeat(7,minmax(0,1fr)); gap: 6px; max-width: 680px; }
+    .weekday { text-align: center; font-size: .85rem; color: var(--muted); }
+    .day { font: inherit; min-height: 84px; text-align: left; border: 1px solid var(--border); border-radius: 7px; background: var(--paper); color: var(--ink); padding: 8px; }
+    .day[data-count="1"] { background: var(--one); }
+    .day[data-count="2"] { background: var(--two); }
+    .day[data-count="3"] { background: var(--three); color: light-dark(#fff,#17212b); }
+    .day[data-missing="true"] { background: repeating-linear-gradient(135deg, var(--paper) 0 7px, var(--ground) 7px 14px); }
+    .day[aria-pressed="true"] { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .day:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .date { display: block; font-weight: 600; }
+    .value { display: block; margin-top: 8px; font-size: 1.15rem; font-weight: 700; }
+    .legend { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 14px 0; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .swatch { width: 18px; height: 18px; border: 1px solid var(--border); border-radius: 3px; }
+    .zero { background: var(--paper); } .one { background: var(--one); } .two { background: var(--two); } .three { background: var(--three); } .missing { background: repeating-linear-gradient(135deg,var(--paper) 0 3px,var(--ground) 3px 6px); }
+    output { display: block; padding: 12px; min-height: 66px; border-left: 4px solid var(--focus); background: var(--paper); }
+    table { border-collapse: collapse; width: 100%; background: var(--paper); }
+    th,td { text-align: left; padding: 8px; border-bottom: 1px solid var(--border); }
+    th { font-weight: 650; }
+    code { font-size: .9em; overflow-wrap: anywhere; }
+    @media (max-width: 520px) { main { padding: 16px; } .calendar { gap: 3px; } .day { min-height: 67px; padding: 4px; } .weekday { font-size: .72rem; } .value { margin-top: 3px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Workshop activity by local date</h1>
+  <p class="note">Fictional 14-day example, October 1–14, 2026 inclusive. Each cell counts distinct session-start record IDs by the date of <code>started_at</code> in <strong>America/Phoenix</strong>. This is a count of records, not hours or a productivity score.</p>
+  <div id="calendar" class="calendar" role="group" aria-label="Workshop activity, October 1 through 14, 2026"></div>
+  <div class="legend" aria-label="Activity key"><span><i class="swatch zero" aria-hidden="true"></i>0 checked, no records</span><span><i class="swatch one" aria-hidden="true"></i>1 record</span><span><i class="swatch two" aria-hidden="true"></i>2 records</span><span><i class="swatch three" aria-hidden="true"></i>3 records</span><span><i class="swatch missing" aria-hidden="true"></i>— source not checked</span></div>
+  <output id="detail" aria-live="polite">Select a date to see its coverage and contributing record IDs.</output>
+  <h2>Fixture records and coverage</h2>
+  <p class="note">Invented record IDs are shown for auditability. Days 5 and 11 were not checked; their missing state must not be read as zero. Other dates were checked in this fixture. Duplicate IDs would count once per local date.</p>
+  <table><thead><tr><th scope="col">Record ID</th><th scope="col">started_at (UTC)</th><th scope="col">Phoenix date</th></tr></thead><tbody id="records"></tbody></table>
+</main>
+<script>
+  const zone = 'America/Phoenix';
+  const checkedDays = new Set([1,2,3,4,6,7,8,9,10,12,13,14]);
+  const records = [
+    ['S-01','2026-10-01T16:00:00Z'], ['S-02','2026-10-02T01:10:00Z'],
+    ['S-03','2026-10-02T17:00:00Z'], ['S-04','2026-10-04T18:00:00Z'],
+    ['S-05','2026-10-07T15:00:00Z'], ['S-06','2026-10-07T20:00:00Z'],
+    ['S-07','2026-10-08T02:15:00Z'], ['S-08','2026-10-08T16:00:00Z'],
+    ['S-09','2026-10-08T23:00:00Z'], ['S-10','2026-10-10T19:00:00Z'],
+    ['S-11','2026-10-12T16:00:00Z'], ['S-12','2026-10-14T15:00:00Z'],
+    ['S-13','2026-10-14T21:00:00Z']
+  ];
+  const formatter = new Intl.DateTimeFormat('en-US', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' });
+  function localDate(timestamp) {
+    const parts = Object.fromEntries(formatter.formatToParts(new Date(timestamp)).filter(part => part.type !== 'literal').map(part => [part.type,part.value]));
+    return `${parts.year}-${parts.month}-${parts.day}`;
+  }
+  const byDate = new Map();
+  for (const [id,startedAt] of records) {
+    const day = localDate(startedAt);
+    if (!byDate.has(day)) byDate.set(day,new Set());
+    byDate.get(day).add(id);
+  }
+  const calendar = document.getElementById('calendar');
+  const detail = document.getElementById('detail');
+  for (const label of ['Thu','Fri','Sat','Sun','Mon','Tue','Wed']) {
+    const heading = document.createElement('div'); heading.className = 'weekday'; heading.textContent = label; calendar.append(heading);
+  }
+  for (let day = 1; day <= 14; day++) {
+    const date = `2026-10-${String(day).padStart(2,'0')}`;
+    const checked = checkedDays.has(day);
+    const ids = [...(byDate.get(date) || [])];
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'day';
+    button.dataset.missing = String(!checked);
+    button.dataset.count = checked ? String(Math.min(ids.length,3)) : '';
+    button.setAttribute('aria-pressed','false');
+    button.setAttribute('aria-label',`October ${day}, 2026: ${checked ? `${ids.length} ${ids.length === 1 ? 'record' : 'records'}` : 'source not checked'}`);
+    const dateLabel = document.createElement('span'); dateLabel.className = 'date'; dateLabel.textContent = String(day);
+    const value = document.createElement('span'); value.className = 'value'; value.textContent = checked ? String(ids.length) : '—';
+    button.append(dateLabel,value);
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.day').forEach(cell => cell.setAttribute('aria-pressed','false'));
+      button.setAttribute('aria-pressed','true');
+      detail.textContent = checked ? `October ${day}: ${ids.length} ${ids.length === 1 ? 'record' : 'records'}${ids.length ? ` (${ids.join(', ')})` : '; source checked and no qualifying records found'}.` : `October ${day}: source not checked. The number of records is unknown.`;
+    });
+    calendar.append(button);
+  }
+  const recordBody = document.getElementById('records');
+  for (const [id,startedAt] of records) {
+    const row = document.createElement('tr');
+    for (const value of [id,startedAt,localDate(startedAt)]) {
+      const cell = document.createElement('td'); cell.textContent = value; row.append(cell);
+    }
+    recordBody.append(row);
+  }
+</script>
+</body>
+</html>

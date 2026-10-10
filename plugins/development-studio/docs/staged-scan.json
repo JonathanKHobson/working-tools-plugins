@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "tool": {
+    "name": "agent-skillguard",
+    "version": "0.1.5"
+  },
+  "claim_boundary": "Potential policy violations only; this report does not establish that an artifact is safe or malicious.",
+  "scan": {
+    "root": ".",
+    "files_scanned": 186,
+    "bytes_scanned": 921758,
+    "scan_digest_sha256": "dfa982a240f8fce8b11a247158d5e088d437b972dbb899298ec3da361c87f58f",
+    "rule_pack": "default-rules.json",
+    "rule_count": 8,
+    "minimum_severity": "low",
+    "symlinks_followed": false
+  },
+  "summary": {
+    "active_findings": 0,
+    "suppressed_findings": 0,
+    "by_severity": {
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "critical": 0
+    },
+    "result": "no_actionable_findings"
+  },
+  "findings": []
+}

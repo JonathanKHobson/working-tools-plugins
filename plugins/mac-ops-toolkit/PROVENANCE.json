@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "package": "mac-ops-toolkit",
+  "version": "0.2.2",
+  "canonical_source": "mac-ops-toolkit",
+  "source_tree_sha256": "b1d18c233a113008346692d16eb7ddbce3716d0e74192a7b5802e0c311f013e1",
+  "retained_skill_heads": 8,
+  "omissions": {},
+  "source_files": [
+    {
+      "source": ".codex-plugin/plugin.json",
+      "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
+      "output": ".codex-plugin/plugin.json",
+      "output_sha256": "0ca6eec31375c994aa91d5ace58030130659e022edda1223d3fe9d65a8dc343b",
+      "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup."
+    },
+    {
+      "source": "README.md",
+      "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
+      "output": "README.md",
+      "output_sha256": "aa8dc741cb7f29b0270c0060e1ed56955a4367f995c51e347071a3fc650fd2d0",
+      "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior."
+    },
+    {
+      "source": "docs/project-map.md",
+      "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
+      "output": "docs/project-map.md",
+      "output_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "docs/source-to-target.md",
+      "source_sha256": "bb94952e5a94fd771a1068b898e8aae4ddecd4d65011f1d7467f98ab08f4dbc4",
+      "output": "docs/source-to-target.md",
+      "output_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "docs/use-case-map.md",
+      "source_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
+      "output": "docs/use-case-map.md",
+      "output_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "docs/validation.md",
+      "source_sha256": "22538c1d015e5c962d6f83f093c57a2cd8ba11305d1994a2a60891887d67f850",
+      "output": "docs/validation.md",
+      "output_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "references/professional-agents/README.md",
+      "source_sha256": "9e9919bb66acfa571631bfa66945f7063925ef324cf9648f12b239c8bc1f4370",
+      "output": "references/professional-agents/README.md",
+      "output_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "references/professional-agents/it-operations-specialist.md",
+      "source_sha256": "e5085e092be3a1956c51aab0212aa1c318413c40a47ea4386f7bcb4880cc8671",
+      "output": "references/professional-agents/it-operations-specialist.md",
+      "output_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "references/recovery/backup-restore-drill.md",
+      "source_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
+      "output": "references/recovery/backup-restore-drill.md",
+      "output_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/evidence-to-collect.md",
+      "source_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
+      "output": "references/recovery/evidence-to-collect.md",
+      "output_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/invisible-window-or-app-open-with-no-window.md",
+      "source_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
+      "output": "references/recovery/invisible-window-or-app-open-with-no-window.md",
+      "output_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/login-item-launch-race.md",
+      "source_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
+      "output": "references/recovery/login-item-launch-race.md",
+      "output_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/narrow-reset-pattern.md",
+      "source_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
+      "output": "references/recovery/narrow-reset-pattern.md",
+      "output_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/process-will-not-quit.md",
+      "source_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
+      "output": "references/recovery/process-will-not-quit.md",
+      "output_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/storage-cleanup-and-migration.md",
+      "source_sha256": "2cbd5c8b439a89c4681dff12152449f97fca6467d0d30f6f8d899a9b9fb5d470",
+      "output": "references/recovery/storage-cleanup-and-migration.md",
+      "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "references/recovery/storage-notes.md",
+      "source_sha256": "ef5959b275b21cc8ac37e63c1cc8dad35e83bf5647384ae1114058033b414115",
+      "output": "references/recovery/storage-notes.md",
+      "output_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/app-window-recovery/SKILL.md",
+      "source_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
+      "output": "skills/app-window-recovery/SKILL.md",
+      "output_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/app-window-recovery/agents/openai.yaml",
+      "source_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
+      "output": "skills/app-window-recovery/agents/openai.yaml",
+      "output_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/application-installation/SKILL.md",
+      "source_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
+      "output": "skills/application-installation/SKILL.md",
+      "output_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/application-installation/agents/openai.yaml",
+      "source_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
+      "output": "skills/application-installation/agents/openai.yaml",
+      "output_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-environment-conventions/SKILL.md",
+      "source_sha256": "e87ab806320271c8a499dc0fda067538e8a37102d3cdc40d83bbd5153cd630e4",
+      "output": "skills/mac-environment-conventions/SKILL.md",
+      "output_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-environment-conventions/SKILL.original.md",
+      "source_sha256": "89064f1b8460e739584da11becbefc52c711ab3b883f3a5e7a3be2189280e0c5",
+      "output": "skills/mac-environment-conventions/SKILL.original.md",
+      "output_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-environment-conventions/agents/openai.yaml",
+      "source_sha256": "faf0abbb645c08445447ea5c36b8ab5cdbc13ef765b7773b484a0c873e486f39",
+      "output": "skills/mac-environment-conventions/agents/openai.yaml",
+      "output_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
+      "source_sha256": "929a22a9b8603c50ec7bdbdeff8d558d27bc2fadc85f6cb3ec0f609d2f8f2f5c",
+      "output": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
+      "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-environment-conventions/references/install-targets.md",
+      "source_sha256": "8a13a21193932387c8c33784dae82fc54c35de310fc4c0dbe0c0cde4f36c3b0e",
+      "output": "skills/mac-environment-conventions/references/install-targets.md",
+      "output_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-environment-conventions/references/storage-layout.md",
+      "source_sha256": "2de3a1b3e0ea4ba0fa039655d8fa1db558306b9b997d89ab4ddf16d12dfafc58",
+      "output": "skills/mac-environment-conventions/references/storage-layout.md",
+      "output_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-environment-conventions/references/symlink-rules.md",
+      "source_sha256": "1d237640862f1296081d5d6edaf5542630d12b27163c59c7c4cc3fb1ca0d8108",
+      "output": "skills/mac-environment-conventions/references/symlink-rules.md",
+      "output_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-troubleshooter/SKILL.md",
+      "source_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
+      "output": "skills/mac-troubleshooter/SKILL.md",
+      "output_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-troubleshooter/SKILL.original.md",
+      "source_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
+      "output": "skills/mac-troubleshooter/SKILL.original.md",
+      "output_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-troubleshooter/agents/openai.yaml",
+      "source_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
+      "output": "skills/mac-troubleshooter/agents/openai.yaml",
+      "output_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-troubleshooter/references/recovery-playbook.md",
+      "source_sha256": "30126d9a26176cdd072197bc0d5a66d10830314befb4b921e0338146b8a355be",
+      "output": "skills/mac-troubleshooter/references/recovery-playbook.md",
+      "output_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/mac-troubleshooter/scripts/app_window_state.sh",
+      "source_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
+      "output": "skills/mac-troubleshooter/scripts/app_window_state.sh",
+      "output_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
+      "source_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
+      "output": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
+      "output_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/process-diagnosis/SKILL.md",
+      "source_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
+      "output": "skills/process-diagnosis/SKILL.md",
+      "output_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/process-diagnosis/agents/openai.yaml",
+      "source_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
+      "output": "skills/process-diagnosis/agents/openai.yaml",
+      "output_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/storage-migration/SKILL.md",
+      "source_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
+      "output": "skills/storage-migration/SKILL.md",
+      "output_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/storage-migration/agents/openai.yaml",
+      "source_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
+      "output": "skills/storage-migration/agents/openai.yaml",
+      "output_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/symlink-audit/SKILL.md",
+      "source_sha256": "ddeb2186a9051e243496acd0b1592fb3c23491c93469bc86d95df6b840bbfdcc",
+      "output": "skills/symlink-audit/SKILL.md",
+      "output_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b",
+      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
+    },
+    {
+      "source": "skills/symlink-audit/agents/openai.yaml",
+      "source_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
+      "output": "skills/symlink-audit/agents/openai.yaml",
+      "output_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/updater-recovery/SKILL.md",
+      "source_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
+      "output": "skills/updater-recovery/SKILL.md",
+      "output_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
+      "change": "Byte-exact retained source"
+    },
+    {
+      "source": "skills/updater-recovery/agents/openai.yaml",
+      "source_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
+      "output": "skills/updater-recovery/agents/openai.yaml",
+      "output_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
+      "change": "Byte-exact retained source"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "89c06d996d87b86a7b1ccef6718835aa11933087a107cb59a2fc77426f265dcd"
+    },
+    {
+      "path": "docs/first-party-lineage.json",
+      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "ca42e98f70e14ef3361a08012a1127d3951e0e54c052040ab8b4e5c278c18c1c"
+    }
+  ],
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
+      "output_sha256": "0ca6eec31375c994aa91d5ace58030130659e022edda1223d3fe9d65a8dc343b"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
+      "output_sha256": "aa8dc741cb7f29b0270c0060e1ed56955a4367f995c51e347071a3fc650fd2d0"
+    },
+    {
+      "path": "docs/project-map.md",
+      "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
+      "output_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516"
+    },
+    {
+      "path": "docs/source-to-target.md",
+      "source_sha256": "bb94952e5a94fd771a1068b898e8aae4ddecd4d65011f1d7467f98ab08f4dbc4",
+      "output_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75"
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "source_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
+      "output_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d"
+    },
+    {
+      "path": "docs/validation.md",
+      "source_sha256": "22538c1d015e5c962d6f83f093c57a2cd8ba11305d1994a2a60891887d67f850",
+      "output_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "source_sha256": "9e9919bb66acfa571631bfa66945f7063925ef324cf9648f12b239c8bc1f4370",
+      "output_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec"
+    },
+    {
+      "path": "references/professional-agents/it-operations-specialist.md",
+      "source_sha256": "e5085e092be3a1956c51aab0212aa1c318413c40a47ea4386f7bcb4880cc8671",
+      "output_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9"
+    },
+    {
+      "path": "references/recovery/backup-restore-drill.md",
+      "source_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
+      "output_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1"
+    },
+    {
+      "path": "references/recovery/evidence-to-collect.md",
+      "source_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
+      "output_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0"
+    },
+    {
+      "path": "references/recovery/invisible-window-or-app-open-with-no-window.md",
+      "source_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
+      "output_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996"
+    },
+    {
+      "path": "references/recovery/login-item-launch-race.md",
+      "source_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
+      "output_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536"
+    },
+    {
+      "path": "references/recovery/narrow-reset-pattern.md",
+      "source_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
+      "output_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125"
+    },
+    {
+      "path": "references/recovery/process-will-not-quit.md",
+      "source_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
+      "output_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813"
+    },
+    {
+      "path": "references/recovery/storage-cleanup-and-migration.md",
+      "source_sha256": "2cbd5c8b439a89c4681dff12152449f97fca6467d0d30f6f8d899a9b9fb5d470",
+      "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6"
+    },
+    {
+      "path": "references/recovery/storage-notes.md",
+      "source_sha256": "ef5959b275b21cc8ac37e63c1cc8dad35e83bf5647384ae1114058033b414115",
+      "output_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4"
+    },
+    {
+      "path": "skills/app-window-recovery/SKILL.md",
+      "source_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
+      "output_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a"
+    },
+    {
+      "path": "skills/app-window-recovery/agents/openai.yaml",
+      "source_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
+      "output_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643"
+    },
+    {
+      "path": "skills/application-installation/SKILL.md",
+      "source_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
+      "output_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab"
+    },
+    {
+      "path": "skills/application-installation/agents/openai.yaml",
+      "source_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
+      "output_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2"
+    },
+    {
+      "path": "skills/mac-environment-conventions/SKILL.md",
+      "source_sha256": "e87ab806320271c8a499dc0fda067538e8a37102d3cdc40d83bbd5153cd630e4",
+      "output_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd"
+    },
+    {
+      "path": "skills/mac-environment-conventions/SKILL.original.md",
+      "source_sha256": "89064f1b8460e739584da11becbefc52c711ab3b883f3a5e7a3be2189280e0c5",
+      "output_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624"
+    },
+    {
+      "path": "skills/mac-environment-conventions/agents/openai.yaml",
+      "source_sha256": "faf0abbb645c08445447ea5c36b8ab5cdbc13ef765b7773b484a0c873e486f39",
+      "output_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69"
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
+      "source_sha256": "929a22a9b8603c50ec7bdbdeff8d558d27bc2fadc85f6cb3ec0f609d2f8f2f5c",
+      "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880"
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/install-targets.md",
+      "source_sha256": "8a13a21193932387c8c33784dae82fc54c35de310fc4c0dbe0c0cde4f36c3b0e",
+      "output_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884"
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/storage-layout.md",
+      "source_sha256": "2de3a1b3e0ea4ba0fa039655d8fa1db558306b9b997d89ab4ddf16d12dfafc58",
+      "output_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea"
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/symlink-rules.md",
+      "source_sha256": "1d237640862f1296081d5d6edaf5542630d12b27163c59c7c4cc3fb1ca0d8108",
+      "output_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c"
+    },
+    {
+      "path": "skills/mac-troubleshooter/SKILL.md",
+      "source_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
+      "output_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e"
+    },
+    {
+      "path": "skills/mac-troubleshooter/SKILL.original.md",
+      "source_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
+      "output_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134"
+    },
+    {
+      "path": "skills/mac-troubleshooter/agents/openai.yaml",
+      "source_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
+      "output_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0"
+    },
+    {
+      "path": "skills/mac-troubleshooter/references/recovery-playbook.md",
+      "source_sha256": "30126d9a26176cdd072197bc0d5a66d10830314befb4b921e0338146b8a355be",
+      "output_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6"
+    },
+    {
+      "path": "skills/mac-troubleshooter/scripts/app_window_state.sh",
+      "source_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
+      "output_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496"
+    },
+    {
+      "path": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
+      "source_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
+      "output_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854"
+    },
+    {
+      "path": "skills/process-diagnosis/SKILL.md",
+      "source_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
+      "output_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72"
+    },
+    {
+      "path": "skills/process-diagnosis/agents/openai.yaml",
+      "source_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
+      "output_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763"
+    },
+    {
+      "path": "skills/storage-migration/SKILL.md",
+      "source_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
+      "output_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544"
+    },
+    {
+      "path": "skills/storage-migration/agents/openai.yaml",
+      "source_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
+      "output_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234"
+    },
+    {
+      "path": "skills/symlink-audit/SKILL.md",
+      "source_sha256": "ddeb2186a9051e243496acd0b1592fb3c23491c93469bc86d95df6b840bbfdcc",
+      "output_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b"
+    },
+    {
+      "path": "skills/symlink-audit/agents/openai.yaml",
+      "source_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
+      "output_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842"
+    },
+    {
+      "path": "skills/updater-recovery/SKILL.md",
+      "source_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
+      "output_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c"
+    },
+    {
+      "path": "skills/updater-recovery/agents/openai.yaml",
+      "source_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
+      "output_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "89c06d996d87b86a7b1ccef6718835aa11933087a107cb59a2fc77426f265dcd"
+    },
+    {
+      "path": "docs/first-party-lineage.json",
+      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "ca42e98f70e14ef3361a08012a1127d3951e0e54c052040ab8b4e5c278c18c1c"
+    }
+  ]
+}

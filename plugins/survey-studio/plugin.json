@@ -1,0 +1,25 @@
+{
+  "name": "survey-studio",
+  "version": "0.1.1",
+  "description": "Focused survey strategy, question design, sampling, logic, accessibility/privacy, pilot QA, exports and analysis/codebooks. 8 retained skill heads. One restricted supplied QuestionTypes.txt archive excluded; all original procedure/helper content retained.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Survey Toolkit",
+        "shortDescription": "Design, build and validate surveys",
+        "longDescription": "Independent workflows for survey strategy, question design, sampling, flow and branching, accessibility/privacy, pilot quality, exports and analysis/codebooks. Research Studio and UX Design Studio refer survey construction here while retaining research framing and interface review.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Use $survey-studio:survey-strategist to choose and build the survey workflow for this decision."
+      }
+    }
+  }
+}

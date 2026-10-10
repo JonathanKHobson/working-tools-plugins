@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Video storyboard</title><style>__STORYBOARD_CSS__</style></head><body>
+<main>
+  <header><div><h1>Video storyboard</h1><p id="state" class="subtle">Waiting for storyboard…</p></div></header>
+  <section id="inline-view" aria-label="Storyboard summary"><div class="section-head"><h2 id="inline-title">Untitled storyboard</h2><span id="inline-total" class="subtle"></span></div><ol id="inline-shots" aria-label="Shot summaries"></ol><div class="footer-actions"><button id="open-editor" class="primary" type="button">Open editor</button><button id="edit-here" type="button" hidden>Edit here</button></div></section>
+  <section id="editor-view" aria-label="Storyboard editor" hidden><div class="header-actions editor-actions"><button id="check-updates" type="button">Check for updates</button><button id="assistant-update" type="button" hidden>Send update to assistant</button><button id="reload" type="button" hidden>Reload saved version (discard edits)</button><button id="save" class="primary" type="button">Save storyboard</button></div>
+    <label class="title-field">Storyboard title<input id="title" maxlength="200" autocomplete="off"></label>
+    <div class="section-head"><h2>Shots</h2><span id="total" class="subtle"></span></div>
+    <ol id="shots" aria-label="Ordered storyboard shots"></ol>
+    <div class="footer-actions"><button id="add" type="button">Add shot</button><button id="draw" type="button" disabled>Prepare Draw and Think handoff</button></div>
+    <section id="handoff" hidden><h2>Draw and Think handoff</h2><p class="subtle">This prepares a request. A drawing board is created only after the assistant confirms it.</p><label>Prepared prompt<textarea id="prompt" rows="8" readonly></textarea></label><div class="footer-actions"><button id="send" class="primary" type="button" hidden>Send to conversation</button><button id="copy" type="button">Copy prompt</button></div></section>
+  </section>
+  <p id="status" role="status" aria-live="polite"></p>
+</main><script>__LIBRARY_BRIDGE__</script><script>__STORYBOARD_MEDIA_JS__</script><script>__STORYBOARD_JS__</script></body></html>

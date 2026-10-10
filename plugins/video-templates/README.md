@@ -1,0 +1,11 @@
+# Video Templates
+
+Reusable video discovery and editable storyboarding, with one skill and the existing `video-style-library` MCP interface. The public catalog contains 30 families, 38 exact examples and seven distinct pinned staged methods. Catalog selection preserves hashes, rights summaries, review limits and source availability. Video Production Studio retains production and render QA.
+
+Start with [onboarding](docs/onboarding.md), [the discovery skill](skills/video-templates/SKILL.md), [source provenance](docs/source-provenance.json) and [rights/dependencies](docs/rights.md). The [project map](docs/project-map.md) identifies the maintained boundaries.
+
+The public edition includes the complete chooser, catalog adapter, eleven MCP tools, two app resources, revisioned storyboard store, media validation and seven pinned MIT animation methods. The 30-family/38-example catalog is a factual metadata projection: identities, technical hashes, public links, availability and source-reported rights summaries. Creative prompts, film recipes, fonts, music, films and reference bundle bodies are excluded. The originating public links keep those materials at their existing owners. An explicit user-supplied catalog can provide richer material under that user's rights.
+
+Install from the [Working Tools guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/install.md). Python 3.10+ and the dependencies in `requirements.txt` are required. Root `plugin.json`/`mcp.json` supply the portable local stdio definition; `.codex-plugin`, `.claude-plugin` and `.mcp.json` supply host compatibility metadata. Set `VIDEO_TEMPLATES_PYTHON` to your MCP-equipped interpreter when needed. Private state and host bindings stay outside the package.
+
+Run `python3 scripts/validate.py`, then use the selected MCP-equipped interpreter for `tests/test_stdio.py`. The test relocates the complete package and uses a fresh private fixture: it lists real tools/resources, validates exact method/example hashes, creates and patches a storyboard, checks idempotent retry and revision conflict, reads sketch media and prepares the separate drawing handoff. A missing provider is not a missing storyboard backend. Native host widget interaction and film reproduction remain separate receiving-host checks.

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survey id="product-experience-pulse" version="1.0.0">
+  <metadata>
+    <title>Product experience pulse</title>
+    <objective>Measure task outcome and perceived ease for a recent product task so the team can identify experience regressions and diagnostic follow-up needs.</objective>
+    <target_audience>People who attempted the target task in the product within the past 7 days.</target_audience>
+    <mode>web</mode>
+    <estimated_minutes>3</estimated_minutes>
+  </metadata>
+  <analysisPlan>
+    <decisions>
+      <item>Investigate or prioritize the task when completion or ease crosses a prespecified monitoring threshold.</item>
+    </decisions>
+    <primary_metrics>
+      <item>task_outcome</item>
+      <item>task_ease</item>
+    </primary_metrics>
+    <secondary_metrics />
+    <segments />
+    <exclusions>
+      <item>test responses</item>
+      <item>ineligible responses</item>
+    </exclusions>
+  </analysisPlan>
+  <blocks>
+    <block id="experience" title="Your recent experience">
+      <question id="task_outcome" exportTag="task_outcome" type="single_choice" required="true">
+        <text>What happened the last time you tried to complete this task?</text>
+        <rationale>Establishes the behavioral outcome for the focal episode.</rationale>
+        <construct>self-reported task outcome</construct>
+        <analysis_use>Report completion distribution and use it to interpret ease.</analysis_use>
+        <choices>
+          <choice id="completed" value="completed">I completed it</choice>
+          <choice id="partial" value="partial">I completed part of it</choice>
+          <choice id="not_completed" value="not_completed">I did not complete it</choice>
+          <choice id="not_sure" value="not_sure">I am not sure</choice>
+        </choices>
+      </question>
+      <question id="task_ease" exportTag="task_ease" type="rating" required="true">
+        <text>How easy or difficult was it to complete as much of the task as you did?</text>
+        <rationale>Measures perceived ease for the same focal episode.</rationale>
+        <construct>perceived task ease</construct>
+        <analysis_use>Primary experience metric; report the full distribution and compare by task outcome.</analysis_use>
+        <scale min="1" max="7" step="1">
+          <anchor value="1">Very difficult</anchor>
+          <anchor value="4">Neither easy nor difficult</anchor>
+          <anchor value="7">Very easy</anchor>
+        </scale>
+      </question>
+      <question id="main_obstacle" exportTag="main_obstacle" type="single_choice" required="false">
+        <text>What was the main obstacle, if any?</text>
+        <rationale>Provides a structured diagnostic for the primary outcome.</rationale>
+        <construct>primary task obstacle</construct>
+        <analysis_use>Report shares among respondents who encountered an obstacle and compare with ease.</analysis_use>
+        <choices>
+          <choice id="none" value="none">No obstacle</choice>
+          <choice id="could_not_find" value="could_not_find">I could not find what I needed</choice>
+          <choice id="instructions" value="instructions">The instructions were unclear</choice>
+          <choice id="technical" value="technical">Something did not work as expected</choice>
+          <choice id="information" value="information">I did not have the information I needed</choice>
+          <choice id="time" value="time">It took more time than I had</choice>
+          <choice id="other" value="other">Another obstacle</choice>
+        </choices>
+      </question>
+      <question id="improvement" exportTag="improvement" type="textarea" required="false">
+        <text>What is one change that would have made this task easier?</text>
+        <rationale>Collects focused diagnostic detail without requiring a long response.</rationale>
+        <construct>suggested task improvement</construct>
+        <analysis_use>Code themes and connect them to outcome and ease; do not treat theme counts as population prevalence without context.</analysis_use>
+      </question>
+    </block>
+    <block id="close" title="Close">
+      <question id="future_research" exportTag="future_research" type="single_choice" required="false">
+        <text>May the research team invite you to a separate follow-up study?</text>
+        <rationale>Obtains permission for future contact without collecting contact data in this survey.</rationale>
+        <construct>follow-up permission</construct>
+        <analysis_use>Use only with an approved external contact linkage process.</analysis_use>
+        <choices>
+          <choice id="yes" value="yes">Yes</choice>
+          <choice id="no" value="no">No</choice>
+          <choice id="not_sure" value="not_sure">Not sure</choice>
+        </choices>
+      </question>
+    </block>
+  </blocks>
+</survey>

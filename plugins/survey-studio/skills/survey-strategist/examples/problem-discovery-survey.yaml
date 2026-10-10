@@ -1,0 +1,209 @@
+survey:
+  id: problem-discovery-survey
+  title: Problem discovery survey
+  version: 1.0.0
+  objective: Estimate the prevalence, frequency, and impact of candidate workflow
+    problems identified in prior qualitative research.
+  target_audience: People who perform the target workflow at least monthly and have
+    done so within the past 30 days.
+  mode: web
+  estimated_minutes: 6
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Participation is voluntary. You may skip optional questions or stop at any
+      time.
+    contact: research@example.com
+  privacy:
+    identifiability: anonymous
+    collects_pii: false
+    retention: Delete raw responses after 12 months.
+    jurisdictions:
+    - US
+analysis_plan:
+  decisions:
+  - Select which problem areas warrant deeper research or solution development based
+    on prevalence, impact, and strategic fit.
+  primary_metrics:
+  - problem_frequency
+  - problem_impact
+  segments:
+  - workflow_role
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: eligibility
+  title: Your workflow
+  questions:
+  - id: workflow_role
+    type: single_choice
+    text: Which option best describes your role in this workflow?
+    required: true
+    rationale: Confirms the respondent perspective and supports planned segmentation.
+    construct: workflow role
+    analysis_use: Use for eligibility and compare primary outcomes across prespecified
+      role groups.
+    choices:
+    - id: doer
+      label: I complete the workflow myself
+      value: doer
+    - id: manager
+      label: I manage or review the workflow
+      value: manager
+    - id: both
+      label: I both complete and manage it
+      value: both
+    - id: none
+      label: None of these
+      value: none
+      exclusive: true
+  - id: last_completed
+    type: single_choice
+    text: When did you last complete or manage this workflow?
+    required: true
+    rationale: Bounds recall and supports eligibility.
+    construct: workflow recency
+    analysis_use: Exclude respondents without experience in the past 30 days.
+    choices:
+    - id: week
+      label: Within the past 7 days
+      value: week
+    - id: month
+      label: 8–30 days ago
+      value: month
+    - id: older
+      label: More than 30 days ago
+      value: older
+    - id: never
+      label: I have never done this
+      value: never
+- id: problems
+  title: Problems and workarounds
+  questions:
+  - id: problems_seen
+    type: multi_choice
+    text: Which of these occurred during the past 30 days?
+    required: true
+    rationale: Measures candidate problem prevalence with a defined reference period.
+    construct: workflow problem occurrence
+    analysis_use: Report respondent percentage for each problem; randomize substantive
+      choices.
+    choices:
+    - id: find
+      label: Could not find required information
+      value: find
+    - id: reentry
+      label: Had to enter the same information more than once
+      value: reentry
+    - id: wait
+      label: Waited for an approval or dependency
+      value: wait
+    - id: error
+      label: Encountered an error or failed step
+      value: error
+    - id: handoff
+      label: Lost context during a handoff
+      value: handoff
+    - id: none
+      label: None of these
+      value: none
+      exclusive: true
+    randomize_choices: true
+  - id: problem_frequency
+    type: single_choice
+    text: On how many workflow attempts did at least one of these problems occur in
+      the past 30 days?
+    required: true
+    rationale: Measures frequency at a level respondents can estimate.
+    construct: problem frequency
+    analysis_use: Primary prevalence metric among eligible respondents.
+    choices:
+    - id: zero
+      label: 0 attempts
+      value: 0
+    - id: one
+      label: 1 attempt
+      value: 1
+    - id: two_three
+      label: 2–3 attempts
+      value: 2
+    - id: four_six
+      label: 4–6 attempts
+      value: 4
+    - id: seven_plus
+      label: 7 or more attempts
+      value: 7
+    - id: not_sure
+      label: Not sure
+      value: not_sure
+  - id: problem_impact
+    type: rating
+    text: How much did the most consequential problem affect your ability to finish
+      the workflow?
+    required: false
+    rationale: Measures perceived consequence of the focal problem.
+    construct: problem impact
+    analysis_use: Primary impact metric among respondents reporting a problem.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Not at all
+        '3': A moderate amount
+        '5': A great deal
+    display_if:
+      question_id: problems_seen
+      operator: not_contains
+      value: none
+  - id: workaround
+    type: multi_choice
+    text: What did you do in response to the problem?
+    required: false
+    rationale: Identifies existing alternatives and costs.
+    construct: problem workaround
+    analysis_use: Report workaround shares among problem reporters and use to recruit
+      follow-up research.
+    choices:
+    - id: retry
+      label: Tried the same step again
+      value: retry
+    - id: manual
+      label: Used a manual process
+      value: manual
+    - id: asked
+      label: Asked another person for help
+      value: asked
+    - id: other_tool
+      label: Used another tool
+      value: other_tool
+    - id: stopped
+      label: Stopped the workflow
+      value: stopped
+    - id: other
+      label: Did something else
+      value: other
+      open_text: true
+    display_if:
+      question_id: problems_seen
+      operator: not_contains
+      value: none
+  - id: episode_detail
+    type: textarea
+    text: What happened during the most consequential problem?
+    required: false
+    rationale: Captures episode context and respondent language for deeper diagnosis.
+    construct: problem episode narrative
+    analysis_use: Code mechanisms and edge cases; use selected quotes only after de-identification.
+    display_if:
+      question_id: problems_seen
+      operator: not_contains
+      value: none
+    help_text: Please do not include names, account numbers, or confidential information.

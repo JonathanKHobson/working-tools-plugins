@@ -43,7 +43,7 @@ def validate_package(record):
   if p.stat().st_size>10*1024*1024:problem(f'oversized source file {p.relative_to(root)}')
   try:text=p.read_text()
   except UnicodeDecodeError:continue
-  if re.search(r'/(?:Users|Volumes)/[^\s\"\']+|plugin_asdk_app_[a-z0-9]+|sk-(?:proj-)?[a-zA-Z0-9_-]{25,}',text) and not exempt('privacy_exceptions',p):problem(f'private binding/credential candidate in {p.relative_to(root)}')
+  if re.search(r'/(?:Users|Volumes)/[^\s\"\']+|plugin_asdk_app_[a-z0-9]+|(?<![A-Za-z0-9_-])sk-(?:proj-)?[a-zA-Z0-9_-]{25,}',text) and not exempt('privacy_exceptions',p):problem(f'private binding/credential candidate in {p.relative_to(root)}')
   if p.name=='SKILL.md':
    front=re.match(r'^---\n(.*?)\n---',text,re.S)
    if not front or not all(re.search(r'(?m)^'+key+r':\s*\S+',front[1]) for key in ['name','description']):problem(f'invalid frontmatter {p.relative_to(root)}')

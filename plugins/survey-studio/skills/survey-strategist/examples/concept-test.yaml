@@ -1,0 +1,163 @@
+survey:
+  id: concept-test
+  title: Concept test
+  version: 1.0.0
+  objective: Evaluate whether a product concept is understood, relevant, differentiated,
+    and concerning before investing in a prototype.
+  target_audience: People in the intended market who have the relevant need or behavior.
+  mode: web
+  estimated_minutes: 5
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Participation is voluntary. You may skip optional questions or stop at any
+      time.
+    contact: research@example.com
+  privacy:
+    identifiability: anonymous
+    collects_pii: false
+    retention: Delete raw responses after 12 months.
+    jurisdictions:
+    - US
+analysis_plan:
+  decisions:
+  - Advance, revise, or stop the concept based on comprehension, relevance, concern
+    patterns, and follow-up qualitative evidence.
+  primary_metrics:
+  - concept_relevance
+  - concept_clarity
+  segments: []
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: context
+  title: Current approach
+  questions:
+  - id: current_approach
+    type: single_choice
+    text: How do you currently handle this need?
+    required: true
+    rationale: Anchors concept evaluation in current behavior.
+    construct: current solution
+    analysis_use: Describe current alternatives and compare concept relevance across
+      approaches.
+    choices:
+    - id: manual
+      label: A manual process
+      value: manual
+    - id: specialized
+      label: A specialized product or service
+      value: specialized
+    - id: general
+      label: A general-purpose tool
+      value: general
+    - id: person
+      label: Another person handles it
+      value: person
+    - id: not_addressed
+      label: I do not currently address it
+      value: not_addressed
+    - id: other
+      label: Another approach
+      value: other
+      open_text: true
+- id: concept
+  title: Concept
+  questions:
+  - id: concept_stimulus
+    type: descriptive
+    text: Imagine a service that organizes the required information, identifies missing
+      steps, and lets you review the result before anything is submitted.
+    required: false
+    rationale: Presents the concept in neutral, capability-focused language.
+    construct: concept exposure
+    analysis_use: Stimulus only; preserve exact version and exposure order.
+    platform_notes:
+      stimulus_version: A
+  - id: concept_understanding
+    type: textarea
+    text: In your own words, what would this service help you do?
+    required: false
+    rationale: Checks comprehension before evaluative scales.
+    construct: concept comprehension
+    analysis_use: Code accurate, partial, and inaccurate interpretations before interpreting
+      ratings.
+  - id: concept_clarity
+    type: rating
+    text: How clear or unclear is the concept?
+    required: true
+    rationale: Measures perceived clarity after open comprehension.
+    construct: concept clarity
+    analysis_use: Primary clarity distribution and comparison by comprehension code.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Very unclear
+        '3': Neither clear nor unclear
+        '5': Very clear
+  - id: concept_relevance
+    type: rating
+    text: How relevant or irrelevant is this concept to your current needs?
+    required: true
+    rationale: Measures personal relevance without asking purchase intention.
+    construct: concept relevance
+    analysis_use: Primary relevance distribution and comparison by current approach.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Not at all relevant
+        '3': Moderately relevant
+        '5': Extremely relevant
+  - id: concept_concerns
+    type: multi_choice
+    text: Which concerns, if any, would you want resolved?
+    required: false
+    rationale: Identifies barriers for follow-up and concept revision.
+    construct: concept concerns
+    analysis_use: Report concern shares; do not infer adoption probability.
+    choices:
+    - id: accuracy
+      label: Accuracy of the result
+      value: accuracy
+    - id: control
+      label: Control over what is submitted
+      value: control
+    - id: privacy
+      label: Privacy and data use
+      value: privacy
+    - id: setup
+      label: Time needed to set it up
+      value: setup
+    - id: compatibility
+      label: Compatibility with my current process
+      value: compatibility
+    - id: cost
+      label: Cost
+      value: cost
+    - id: none
+      label: No concerns at this point
+      value: none
+      exclusive: true
+    - id: other
+      label: Another concern
+      value: other
+      open_text: true
+    randomize_choices: true
+  - id: concept_change
+    type: textarea
+    text: What is the one change that would make this concept more useful to you?
+    required: false
+    rationale: Collects focused improvement direction.
+    construct: concept improvement
+    analysis_use: Code changes and connect to comprehension, relevance, and concerns.

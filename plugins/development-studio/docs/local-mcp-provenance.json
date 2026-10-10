@@ -1,0 +1,299 @@
+{
+  "source_package": "MCP Workbench 0.1.0 generated first-party local Codex skill bundle; canonical source roots separately verified",
+  "admission": "Public portable edition: original methods/support licensed MIT by the owner; no configuration activation or blanket helper runtime acceptance.",
+  "files": [
+    {
+      "source": "local-data-mcp-builder/SKILL.md",
+      "source_sha256": "03d4d364db75ba0ca577b17aaefbb6801c3c9e1ffc2705856fd74afcf58f579e",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/SKILL.md",
+      "target_sha256": "dec25a5116267b66459c4ab0a468c79940884489af0e3173d8880f45fb27bd8f",
+      "disposition": "public-portability-adaptation",
+      "omission": "private host and project-specific examples generalized; complete core workflow retained",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized",
+        "external skill links changed to installed-plugin routes"
+      ],
+      "pre_public_target_sha256": "4c991cf3c68fe39001c1545fc6d894e753d1ebc5625569f41dfcfaa012de2605",
+      "public_change": "Replace generic external-volume example with portable placeholder; complete diagnostic procedures and actual path-detection code retained."
+    },
+    {
+      "source": "local-data-mcp-builder/agents/openai.yaml",
+      "source_sha256": "b74e18be6bb4c74399c111d0e67d445014f239046cecf2306daf6ded81ef6d08",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/agents/openai.yaml",
+      "target_sha256": "b74e18be6bb4c74399c111d0e67d445014f239046cecf2306daf6ded81ef6d08",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/config-snippets/claude_desktop_config.json",
+      "source_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/claude_desktop_config.json",
+      "target_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/config-snippets/codex-config.toml",
+      "source_sha256": "369c27c570ce9016038eb5200d49fde0131d48ef148b442016ac54f8b541d135",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/codex-config.toml",
+      "target_sha256": "369c27c570ce9016038eb5200d49fde0131d48ef148b442016ac54f8b541d135",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/config-snippets/project-mcp.json",
+      "source_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/project-mcp.json",
+      "target_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/build_index.py",
+      "source_sha256": "e8111f79664a2192b636992110da235130acc628534a6f3035bd12063bd5f352",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/build_index.py",
+      "target_sha256": "e8111f79664a2192b636992110da235130acc628534a6f3035bd12063bd5f352",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/common.py",
+      "source_sha256": "33358d1dec6a155f83332763eb3135117da40fba4a848dcfa22934f59320b2ed",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/common.py",
+      "target_sha256": "33358d1dec6a155f83332763eb3135117da40fba4a848dcfa22934f59320b2ed",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/contracts.py",
+      "source_sha256": "369214dbb523ace9e56f5be3776113d194b2a407e99e34abcf43f69a902b8139",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/contracts.py",
+      "target_sha256": "369214dbb523ace9e56f5be3776113d194b2a407e99e34abcf43f69a902b8139",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/lens_queries.jsonl",
+      "source_sha256": "f2df695cbf9302c973c34aa9fb719559f7a4726ad6ea950e4c0047f04bbb5753",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/lens_queries.jsonl",
+      "target_sha256": "f2df695cbf9302c973c34aa9fb719559f7a4726ad6ea950e4c0047f04bbb5753",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/run_retrieval_eval.py",
+      "source_sha256": "e742e1834245d13f8d7410c2c4ddf1cc87f98834f10e1f66934d7d3bf8a454bc",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/run_retrieval_eval.py",
+      "target_sha256": "e742e1834245d13f8d7410c2c4ddf1cc87f98834f10e1f66934d7d3bf8a454bc",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/assets/python-local-mcp/mcp_server.py",
+      "source_sha256": "65b6e52c8a2f6f8247216f4ab8a8dfadddb53aa3aff8430e2b688b4350455fdf",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/mcp_server.py",
+      "target_sha256": "65b6e52c8a2f6f8247216f4ab8a8dfadddb53aa3aff8430e2b688b4350455fdf",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/references/chatgpt-history-example.md",
+      "source_sha256": "d8c4750a14783d19a41f4fd2de4c070afbbae9ec031a654e5327bc67cdbc01ef",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/chatgpt-history-example.md",
+      "target_sha256": "13f84b61e330fa08faa885c436595f579b2db0eaf26de7111bf6d67c01999683",
+      "disposition": "adapted portable copy",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/references/client-configs.md",
+      "source_sha256": "9d8dfc691686cdd271a43ea1347ca11e19b1982ee00379afb05b93129bb9bef9",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/client-configs.md",
+      "target_sha256": "01fb16145112a545fbc5dcbea1ae59b7697fc58eaa669b75f09fe38899c487bc",
+      "disposition": "public-portability-adaptation",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ],
+      "omission": "none",
+      "pre_public_target_sha256": "fee5d3662986d59ca76e812f9f4cee742ffef9175506742acf66e7595dc5e843",
+      "public_change": "Replace generic external-volume example with portable placeholder; complete diagnostic procedures and actual path-detection code retained."
+    },
+    {
+      "source": "local-data-mcp-builder/references/compass-informed-retrieval-hardening.md",
+      "source_sha256": "da67ad2a057726aca2b042358514603a5458521e8a098d3e5ddf5a3be07b3b06",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/compass-informed-retrieval-hardening.md",
+      "target_sha256": "513da6f455323ad2f351fcd76d57ef7ffe29323aec914ad33e1396ee9698e750",
+      "disposition": "adapted portable copy",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/references/context-engineering-mcp-reliability.md",
+      "source_sha256": "44b7f6eef1b3330b397273fb66f3fe65dd53ae8c40d7c063ca196fb76a2b5544",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/context-engineering-mcp-reliability.md",
+      "target_sha256": "44b7f6eef1b3330b397273fb66f3fe65dd53ae8c40d7c063ca196fb76a2b5544",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/references/mcp-skill-package-structure.md",
+      "source_sha256": "51f4ce1b4ebf4dc44bfc33aa50441697e968087de0a4cd16b4d99916017d9627",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/mcp-skill-package-structure.md",
+      "target_sha256": "51f4ce1b4ebf4dc44bfc33aa50441697e968087de0a4cd16b4d99916017d9627",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/references/storage-and-runtime.md",
+      "source_sha256": "ca0369e1f4931054229155c27be04f8654e609a8e87c0f20442eba39aa3302cc",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/storage-and-runtime.md",
+      "target_sha256": "602dc63c88014765ac93209a7c162a1859f7bbbc3d7f87ae244dc26458310e82",
+      "disposition": "public-portability-adaptation",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ],
+      "omission": "none",
+      "pre_public_target_sha256": "cd541257c8045100358422969b89c001d0a212ab79a1b8e3fe5dfd956f9b6a7f",
+      "public_change": "Replace generic external-volume example with portable placeholder; complete diagnostic procedures and actual path-detection code retained."
+    },
+    {
+      "source": "local-data-mcp-builder/references/troubleshooting.md",
+      "source_sha256": "918e2b0c5fcfb0620c56cd23f7501ccceced00ea802d69f385e678ae95a49225",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/troubleshooting.md",
+      "target_sha256": "aeace6be37e8be72866769d2c950dc81ea9b5515994c19596252214bba015d4a",
+      "disposition": "public-portability-adaptation",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ],
+      "omission": "none",
+      "pre_public_target_sha256": "acd2de5ef758777defd22b489c89a3ac40b627000ade94f13f759b16ca26c31d",
+      "public_change": "Replace generic external-volume example with portable placeholder; complete diagnostic procedures and actual path-detection code retained."
+    },
+    {
+      "source": "local-data-mcp-builder/references/workflow.md",
+      "source_sha256": "88dcd7230c6ea478294a17bc2f8512b909c0575b8cee634f3506eea634980c39",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/references/workflow.md",
+      "target_sha256": "88dcd7230c6ea478294a17bc2f8512b909c0575b8cee634f3506eea634980c39",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/check_claude_mcp_fleet.py",
+      "source_sha256": "3e6dc07ec83328b1aaa0c46e793f6f0e0bb584cea88a3a57af8fd10f805b77bb",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/check_claude_mcp_fleet.py",
+      "target_sha256": "2bc67a9d53e629bb37638db4457a97e03a0733ecb8dca4e321bb20eabf653f88",
+      "disposition": "adapted portable copy",
+      "adaptations": [
+        "absolute host paths replaced by placeholders"
+      ],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/check_local_mcp.py",
+      "source_sha256": "635125ee23226b401e410ac0017d78a206f5ac8e3a3065c04c2ad295aacf8dc3",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/check_local_mcp.py",
+      "target_sha256": "9792fe4fff7f762014f3100f4df3aaa5bf8fc34cfe197005dc8fb1a12be970f6",
+      "disposition": "public-portability-adaptation",
+      "adaptations": [
+        "absolute host paths replaced by placeholders"
+      ],
+      "omission": "none",
+      "pre_public_target_sha256": "2c6d8248090c007fc537e7e64b26a816f044aff245bf6409a7b2877697fe2d0f",
+      "public_change": "Portable diagnostic output placeholder; actual launcher validation and process behavior unchanged."
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/claude_fleet_common.py",
+      "source_sha256": "f5a2b1ee1e4dfd39266fbc40664f9ddd4ef4cb6d8e50709a97c6dd0c6439d7fc",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/claude_fleet_common.py",
+      "target_sha256": "ad7ddd93e46968f1697fe896e3fa9d412a2c49e1765e8fdcb89cfffc7aaf5dde",
+      "disposition": "adapted portable copy; host-specific profile, incident, example, or default removed as applicable",
+      "omission": "private fleet names, quarantine and expected-tool defaults removed; operator must supply current inventory",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized"
+      ]
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/clean_external_python_artifacts.sh",
+      "source_sha256": "78c77757a5f72a7207896b3a06f1399a497b2c533a2b101b866a1633f56986eb",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/clean_external_python_artifacts.sh",
+      "target_sha256": "78c77757a5f72a7207896b3a06f1399a497b2c533a2b101b866a1633f56986eb",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/compare_client_mcp_configs.py",
+      "source_sha256": "f418c39658b7ec0b9cf7243bad32a486aa7d7614a990a7a714ebf428b732f54c",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/compare_client_mcp_configs.py",
+      "target_sha256": "f418c39658b7ec0b9cf7243bad32a486aa7d7614a990a7a714ebf428b732f54c",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/generate_claude_fleet_report.py",
+      "source_sha256": "2048d31fb0c85595d4a112fc79f43365846993cf8b66302f634f36b3e6ae9f5a",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/generate_claude_fleet_report.py",
+      "target_sha256": "2048d31fb0c85595d4a112fc79f43365846993cf8b66302f634f36b3e6ae9f5a",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/print_config_snippets.py",
+      "source_sha256": "35a63e44c79025e4dc5bef94261f9b066ddac21a7f070f896b19b7e65666c3fc",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/print_config_snippets.py",
+      "target_sha256": "35a63e44c79025e4dc5bef94261f9b066ddac21a7f070f896b19b7e65666c3fc",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-data-mcp-builder/scripts/smoke_claude_profile.py",
+      "source_sha256": "d79b5a4ee19b6cc2fc8e850e83387e71959c3ea5db445f2c359c16306ed05b98",
+      "target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/smoke_claude_profile.py",
+      "target_sha256": "d79b5a4ee19b6cc2fc8e850e83387e71959c3ea5db445f2c359c16306ed05b98",
+      "disposition": "byte-identical copy",
+      "adaptations": [],
+      "omission": "none"
+    },
+    {
+      "source": "local-mcp-debugging/SKILL.md",
+      "source_sha256": "9ba966a1039d34687302fecf064fdf99a81b7245837f1baade6578cbfbe127cb",
+      "target": "libraries/local-mcp-methods/local-mcp-debugging/SKILL.md",
+      "target_sha256": "b86f7c842dbfbff467fd57d5fb8f95dfcf54f51c748f802b063e8658d3cc095a",
+      "disposition": "adapted portable copy; host-specific profile, incident, example, or default removed as applicable",
+      "omission": "private historical Codex memory-MCP incident commands replaced by reusable diagnostic procedure",
+      "adaptations": [
+        "absolute host paths replaced by placeholders",
+        "private names, profile defaults, or project inventory generalized",
+        "external skill links changed to installed-plugin routes",
+        "historical host incident condensed to transferable diagnostic procedure"
+      ]
+    }
+  ]
+}

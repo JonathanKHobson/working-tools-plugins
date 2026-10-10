@@ -1,0 +1,218 @@
+{
+  "reviewed_date": "2026-10-10",
+  "bundle_identity": "mcp-workbench@0.1.0, generated local-skill-plugins bundle",
+  "publisher_evidence": "Bundle manifest longDescription explicitly identifies first-party local Codex skills and x-local-package names canonical roots. Existing canonical original method/support files independently inspected for third-party attribution/imports; none found in admitted closure.",
+  "current_original_grant": "MIT, Jonathan Kyle Hobson, under current public-export authorization",
+  "bundle_evidence": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "172368deffa0a61896db407047dea16454a92c29919c9b46670128bae4a15b1e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "968a3f2370b869062e9c877d541678ba4e6889fb1257b11818c4a48a19a8ef18"
+    },
+    {
+      "path": "manifests/skill-membership.json",
+      "sha256": "e05410d369933c387604e9595ba36c2b947a452dde8050cd3783f2b1ae38cbe5"
+    }
+  ],
+  "files": [
+    {
+      "canonical_relative_source": "local-data-mcp-builder/SKILL.md",
+      "admitted_source_sha256": "03d4d364db75ba0ca577b17aaefbb6801c3c9e1ffc2705856fd74afcf58f579e",
+      "current_canonical_sha256": "0447a8d7103b94ca22835e9828b1072a044381bd5c1fd7c234a0c185b2d784af",
+      "same_current_source": false,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/SKILL.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/agents/openai.yaml",
+      "admitted_source_sha256": "b74e18be6bb4c74399c111d0e67d445014f239046cecf2306daf6ded81ef6d08",
+      "current_canonical_sha256": "b74e18be6bb4c74399c111d0e67d445014f239046cecf2306daf6ded81ef6d08",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/agents/openai.yaml"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/config-snippets/claude_desktop_config.json",
+      "admitted_source_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "current_canonical_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/claude_desktop_config.json"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/config-snippets/codex-config.toml",
+      "admitted_source_sha256": "369c27c570ce9016038eb5200d49fde0131d48ef148b442016ac54f8b541d135",
+      "current_canonical_sha256": "369c27c570ce9016038eb5200d49fde0131d48ef148b442016ac54f8b541d135",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/codex-config.toml"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/config-snippets/project-mcp.json",
+      "admitted_source_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "current_canonical_sha256": "573e091c983ef94dc0a95b9e46cd64beafaa4b6042ddc6feb1571890e47246f3",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/config-snippets/project-mcp.json"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/build_index.py",
+      "admitted_source_sha256": "e8111f79664a2192b636992110da235130acc628534a6f3035bd12063bd5f352",
+      "current_canonical_sha256": "e8111f79664a2192b636992110da235130acc628534a6f3035bd12063bd5f352",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/build_index.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/common.py",
+      "admitted_source_sha256": "33358d1dec6a155f83332763eb3135117da40fba4a848dcfa22934f59320b2ed",
+      "current_canonical_sha256": "33358d1dec6a155f83332763eb3135117da40fba4a848dcfa22934f59320b2ed",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/common.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/contracts.py",
+      "admitted_source_sha256": "369214dbb523ace9e56f5be3776113d194b2a407e99e34abcf43f69a902b8139",
+      "current_canonical_sha256": "369214dbb523ace9e56f5be3776113d194b2a407e99e34abcf43f69a902b8139",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/contracts.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/lens_queries.jsonl",
+      "admitted_source_sha256": "f2df695cbf9302c973c34aa9fb719559f7a4726ad6ea950e4c0047f04bbb5753",
+      "current_canonical_sha256": "f2df695cbf9302c973c34aa9fb719559f7a4726ad6ea950e4c0047f04bbb5753",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/lens_queries.jsonl"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/run_retrieval_eval.py",
+      "admitted_source_sha256": "e742e1834245d13f8d7410c2c4ddf1cc87f98834f10e1f66934d7d3bf8a454bc",
+      "current_canonical_sha256": "e742e1834245d13f8d7410c2c4ddf1cc87f98834f10e1f66934d7d3bf8a454bc",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/evals/retrieval/run_retrieval_eval.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/assets/python-local-mcp/mcp_server.py",
+      "admitted_source_sha256": "65b6e52c8a2f6f8247216f4ab8a8dfadddb53aa3aff8430e2b688b4350455fdf",
+      "current_canonical_sha256": "65b6e52c8a2f6f8247216f4ab8a8dfadddb53aa3aff8430e2b688b4350455fdf",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/assets/python-local-mcp/mcp_server.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/chatgpt-history-example.md",
+      "admitted_source_sha256": "d8c4750a14783d19a41f4fd2de4c070afbbae9ec031a654e5327bc67cdbc01ef",
+      "current_canonical_sha256": "d8c4750a14783d19a41f4fd2de4c070afbbae9ec031a654e5327bc67cdbc01ef",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/chatgpt-history-example.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/client-configs.md",
+      "admitted_source_sha256": "9d8dfc691686cdd271a43ea1347ca11e19b1982ee00379afb05b93129bb9bef9",
+      "current_canonical_sha256": "9d8dfc691686cdd271a43ea1347ca11e19b1982ee00379afb05b93129bb9bef9",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/client-configs.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/compass-informed-retrieval-hardening.md",
+      "admitted_source_sha256": "da67ad2a057726aca2b042358514603a5458521e8a098d3e5ddf5a3be07b3b06",
+      "current_canonical_sha256": "da67ad2a057726aca2b042358514603a5458521e8a098d3e5ddf5a3be07b3b06",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/compass-informed-retrieval-hardening.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/context-engineering-mcp-reliability.md",
+      "admitted_source_sha256": "44b7f6eef1b3330b397273fb66f3fe65dd53ae8c40d7c063ca196fb76a2b5544",
+      "current_canonical_sha256": "44b7f6eef1b3330b397273fb66f3fe65dd53ae8c40d7c063ca196fb76a2b5544",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/context-engineering-mcp-reliability.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/mcp-skill-package-structure.md",
+      "admitted_source_sha256": "51f4ce1b4ebf4dc44bfc33aa50441697e968087de0a4cd16b4d99916017d9627",
+      "current_canonical_sha256": "51f4ce1b4ebf4dc44bfc33aa50441697e968087de0a4cd16b4d99916017d9627",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/mcp-skill-package-structure.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/storage-and-runtime.md",
+      "admitted_source_sha256": "ca0369e1f4931054229155c27be04f8654e609a8e87c0f20442eba39aa3302cc",
+      "current_canonical_sha256": "ca0369e1f4931054229155c27be04f8654e609a8e87c0f20442eba39aa3302cc",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/storage-and-runtime.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/troubleshooting.md",
+      "admitted_source_sha256": "918e2b0c5fcfb0620c56cd23f7501ccceced00ea802d69f385e678ae95a49225",
+      "current_canonical_sha256": "918e2b0c5fcfb0620c56cd23f7501ccceced00ea802d69f385e678ae95a49225",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/troubleshooting.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/references/workflow.md",
+      "admitted_source_sha256": "88dcd7230c6ea478294a17bc2f8512b909c0575b8cee634f3506eea634980c39",
+      "current_canonical_sha256": "88dcd7230c6ea478294a17bc2f8512b909c0575b8cee634f3506eea634980c39",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/references/workflow.md"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/check_claude_mcp_fleet.py",
+      "admitted_source_sha256": "3e6dc07ec83328b1aaa0c46e793f6f0e0bb584cea88a3a57af8fd10f805b77bb",
+      "current_canonical_sha256": "3e6dc07ec83328b1aaa0c46e793f6f0e0bb584cea88a3a57af8fd10f805b77bb",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/check_claude_mcp_fleet.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/check_local_mcp.py",
+      "admitted_source_sha256": "635125ee23226b401e410ac0017d78a206f5ac8e3a3065c04c2ad295aacf8dc3",
+      "current_canonical_sha256": "635125ee23226b401e410ac0017d78a206f5ac8e3a3065c04c2ad295aacf8dc3",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/check_local_mcp.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/claude_fleet_common.py",
+      "admitted_source_sha256": "f5a2b1ee1e4dfd39266fbc40664f9ddd4ef4cb6d8e50709a97c6dd0c6439d7fc",
+      "current_canonical_sha256": "f5a2b1ee1e4dfd39266fbc40664f9ddd4ef4cb6d8e50709a97c6dd0c6439d7fc",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/claude_fleet_common.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/clean_external_python_artifacts.sh",
+      "admitted_source_sha256": "78c77757a5f72a7207896b3a06f1399a497b2c533a2b101b866a1633f56986eb",
+      "current_canonical_sha256": "78c77757a5f72a7207896b3a06f1399a497b2c533a2b101b866a1633f56986eb",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/clean_external_python_artifacts.sh"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/compare_client_mcp_configs.py",
+      "admitted_source_sha256": "f418c39658b7ec0b9cf7243bad32a486aa7d7614a990a7a714ebf428b732f54c",
+      "current_canonical_sha256": "f418c39658b7ec0b9cf7243bad32a486aa7d7614a990a7a714ebf428b732f54c",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/compare_client_mcp_configs.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/generate_claude_fleet_report.py",
+      "admitted_source_sha256": "2048d31fb0c85595d4a112fc79f43365846993cf8b66302f634f36b3e6ae9f5a",
+      "current_canonical_sha256": "2048d31fb0c85595d4a112fc79f43365846993cf8b66302f634f36b3e6ae9f5a",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/generate_claude_fleet_report.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/print_config_snippets.py",
+      "admitted_source_sha256": "35a63e44c79025e4dc5bef94261f9b066ddac21a7f070f896b19b7e65666c3fc",
+      "current_canonical_sha256": "35a63e44c79025e4dc5bef94261f9b066ddac21a7f070f896b19b7e65666c3fc",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/print_config_snippets.py"
+    },
+    {
+      "canonical_relative_source": "local-data-mcp-builder/scripts/smoke_claude_profile.py",
+      "admitted_source_sha256": "d79b5a4ee19b6cc2fc8e850e83387e71959c3ea5db445f2c359c16306ed05b98",
+      "current_canonical_sha256": "d79b5a4ee19b6cc2fc8e850e83387e71959c3ea5db445f2c359c16306ed05b98",
+      "same_current_source": true,
+      "export_target": "libraries/local-mcp-methods/local-data-mcp-builder/scripts/smoke_claude_profile.py"
+    },
+    {
+      "canonical_relative_source": "local-mcp-debugging/SKILL.md",
+      "admitted_source_sha256": "9ba966a1039d34687302fecf064fdf99a81b7245837f1baade6578cbfbe127cb",
+      "current_canonical_sha256": "59f8c8e245ad5ca26c8401a289cadcf5b85e95f27be3b40b442740eede34b143",
+      "same_current_source": false,
+      "export_target": "libraries/local-mcp-methods/local-mcp-debugging/SKILL.md"
+    }
+  ]
+}

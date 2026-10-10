@@ -1,0 +1,48 @@
+survey:
+  id: example-survey
+  title: Example survey
+  version: 1.0.0
+  objective: State the decision this survey will inform.
+  target_audience: Define who should answer and the relevant experience window.
+  mode: web
+  estimated_minutes: 5
+  consent:
+    required: true
+    text: Participation is voluntary. You may skip any optional question.
+    contact: research@example.com
+  privacy:
+    identifiability: anonymous
+    collects_pii: false
+    retention: Define a retention and deletion schedule.
+    jurisdictions: [US]
+analysis_plan:
+  decisions:
+    - Name the decision owner and decision threshold.
+  primary_metrics: [outcome_metric]
+  segments: []
+  exclusions: [test responses]
+blocks:
+  - id: core
+    title: Core questions
+    questions:
+      - id: outcome_metric
+        type: rating
+        text: How easy or difficult was it to complete the task?
+        required: true
+        rationale: Measures perceived task effort.
+        construct: task ease
+        analysis_use: Primary outcome; report distribution and top-two-box only if prespecified.
+        scale:
+          min: 1
+          max: 7
+          step: 1
+          anchors:
+            "1": Very difficult
+            "7": Very easy
+      - id: why
+        type: textarea
+        text: What is the main reason for your rating?
+        required: false
+        rationale: Provides diagnostic context for the primary outcome.
+        construct: reason for task-ease rating
+        analysis_use: Code into themes and connect to rating ranges.

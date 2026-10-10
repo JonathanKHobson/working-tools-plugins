@@ -16,6 +16,8 @@ Replace `stitch-design-studio` with the package you chose. Open a fresh chat aft
 
 The separate `working-tools` marketplace does not update an existing `personal` installation. If you maintain your own edition, choose the intended source and avoid invoking duplicate skill names without a namespace.
 
+The marketplace identifies the installation source. A skill uses its package namespace: for example, `figma-design-workflow:figma-ui-operator`, not `working-tools:figma-ui-operator`. A fresh chat should list the selected skill and its installed package path. If several editions are installed, verify the path before running it.
+
 ## Claude Code
 
 ```sh

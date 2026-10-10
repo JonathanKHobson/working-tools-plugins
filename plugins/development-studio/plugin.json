@@ -1,0 +1,28 @@
+{
+  "name": "development-studio",
+  "version": "0.1.1",
+  "description": "Design, implement, debug and verify software using complete development methods, MCP app workflows and explicit platform-provider routes. Complete public edition: 11 retained skill heads; no restricted source methods omitted.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT AND Apache-2.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Development Studio",
+        "shortDescription": "Software delivery methods, MCP apps and platform workflows",
+        "longDescription": "Turn a concrete software task into a verified change with focused design, implementation, debugging, testing, review and MCP workflows. Preserves licensed Superpowers and Alpic methods and routes native platform work to official providers. No server, account, credential, SDK or deployment is installed by this method package.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Help me implement and verify a feature in this project.",
+          "Build or repair an MCP app."
+        ]
+      }
+    }
+  }
+}

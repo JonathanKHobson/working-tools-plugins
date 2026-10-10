@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "owner": "Design Templates",
+  "recipes": [
+    {
+      "id": "first-result",
+      "templateId": "readiness-workbench",
+      "name": "Three-step first-result guide",
+      "purpose": "Adapt an existing checklist to one tool setup or workshop preparation outcome.",
+      "requiredInputs": ["One observable first result", "Three ordered actions", "Evidence or explicitly self-reported completion for each action"],
+      "sourceMap": [
+        {"path": "assets/source/src/data.js", "target": "plan.title, intro and notice", "change": "Name the result and whether checks record self-report or observed evidence."},
+        {"path": "assets/source/src/data.js", "target": "plan.tasks[].id, group, title, required, done and note", "change": "Use three stable task IDs in order. Replace all demo done states with supplied facts. Put the instruction and evidence location in note."}
+      ],
+      "checks": ["The next required task agrees with the actual checked state", "Copying or opening an instruction never proves completion", "A fresh session does not inherit fictional demo completion"],
+      "limits": "Uses the existing checklist and next-task behavior. Does not add automatic setup detection, prompt-copy controls or a new wizard."
+    },
+    {
+      "id": "dated-practice-run",
+      "templateId": "creative-practice-calendar",
+      "name": "Dated lesson or practice run",
+      "purpose": "Adapt the existing two-page calendar to a supplied month and short recurring practice series.",
+      "requiredInputs": ["Month and year", "Explicit scheduled dates", "Up to three short practice instructions"],
+      "sourceMap": [
+        {"path": "assets/reference.docx", "target": "Page 1 month heading, Monday-to-Sunday table, A/B/C key and session-count footer", "change": "Rebuild date placement for the supplied month. Derive the planned session count from the marked dates."},
+        {"path": "assets/reference.docx", "target": "Page 2 A/B/C prompt menu and reflection areas", "change": "Replace the three practice instructions. Leave outcome reflections blank until supplied."}
+      ],
+      "checks": ["Every marked date falls in the supplied month and correct weekday column", "The footer count equals scheduled entries", "Scheduled activity is never described as completed participation"],
+      "limits": "A native document adaptation, not a scheduler or a separate interactive release board. No publishing, completion or attendance is inferred."
+    },
+    {
+      "id": "evidence-history",
+      "templateId": "evaluation-log-notebook",
+      "name": "Dated evaluation and change record",
+      "purpose": "Keep a short, source-backed history of template checks and revisions in the existing notebook.",
+      "requiredInputs": ["Dated records with stable IDs", "Criterion and observed result for each completed check", "Evidence references or an explicit missing-evidence state"],
+      "sourceMap": [
+        {"path": "assets/source/src/data.js", "target": "title, scope, revision, question, protocol and decision", "change": "Define what this record covers and what it cannot establish."},
+        {"path": "assets/source/src/data.js", "target": "records[].id, date, title, category, status, criterion, observation, source and note", "change": "Use supplied dates and the supported passed/failed/needs-review/not-run states. Keep missing observations and sources null where appropriate."}
+      ],
+      "checks": ["IDs are unique and every date is supported", "Not-run entries have no invented observed outcome", "Date filtering does not claim to reconstruct the entire system at that date"],
+      "limits": "A record list using existing filters and detail views. It does not implement a graph, time-travel state or automatic activity capture."
+    }
+  ]
+}

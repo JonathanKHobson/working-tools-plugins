@@ -15,6 +15,15 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Plan an accessible workshop | [Workshop Facilitator](plugins/workshop-facilitator/) | Purpose, participants and constraints |
 | Scope and playtest a game | [Game Creation Studio](plugins/game-creation-studio/) | A game idea and your chosen engine |
 | Prepare invoices or reconcile payments | [Solo Service Operations](plugins/solo-service-operations/) | Your own records; Python for the helper |
+| Build an MCP app or local integration | [Build MCP Apps](plugins/build-mcp-apps/), [Development Studio](plugins/development-studio/) | Coding tools and the selected runtime |
+| Choose video references and plan a storyboard | [Video Templates](plugins/video-templates/) | Python and an MCP Apps host for the widget |
+| Explore data and explain a chart | [Data Visualization Toolkit](plugins/data-visualization-toolkit/) | Your dataset; Python for Data Explorer |
+| Choose an activity from your own collection | [Activities Templates](plugins/activities-templates/) | Python and an authorized activity catalog |
+| Find and hand off a verified design source | [Design Templates](plugins/design-templates/) | Python and your authorized template collection |
+| Test an argument or consequential assumption | [Reasoning Studio](plugins/reasoning-studio/) | A claim and its evidence |
+| Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
+| Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |
+| Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |
 
 Check [tested compatibility](docs/compatibility.md) before choosing a host. A workflow can help an agent use an app; it does not supply that app, a paid account or a remotely hosted service. The [release registry](catalog/packages.json) owns versions and availability. Provider-owned tools and restricted local Studios are not silently bundled.
 

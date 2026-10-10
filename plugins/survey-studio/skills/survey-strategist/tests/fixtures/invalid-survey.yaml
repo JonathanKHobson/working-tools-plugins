@@ -1,0 +1,46 @@
+survey:
+  id: invalid-survey
+  title: Invalid survey fixture
+  version: 0.1.0
+  objective: Demonstrate quality failures for automated tests.
+  target_audience: Anyone, regardless of whether they have relevant experience.
+  mode: web
+  estimated_minutes: 20
+  consent:
+    required: true
+    text: By continuing you agree to everything.
+    contact: nobody@example.com
+  privacy:
+    identifiability: anonymous
+    collects_pii: false
+    retention: Keep forever.
+    jurisdictions: [US]
+analysis_plan:
+  decisions: [Use the results somehow.]
+  primary_metrics: [leading_item]
+  segments: []
+  exclusions: []
+blocks:
+  - id: demographics
+    title: About you
+    questions:
+      - id: gender
+        type: text
+        text: What is your gender?
+        required: true
+        sensitive: true
+        rationale: Collects an identity characteristic.
+        construct: demographic gender
+        analysis_use: Segment every result whether or not the sample supports it.
+      - id: leading_item
+        type: rating
+        text: Don't you agree our brilliant product is easy and useful?
+        required: true
+        rationale: Measures two positive product attributes.
+        construct: ease and usefulness
+        analysis_use: Treat as the primary success metric.
+        scale:
+          min: 1
+          max: 5
+          step: 1
+          anchors: {"1": Disagree, "5": Agree}

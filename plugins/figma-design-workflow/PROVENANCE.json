@@ -1,6 +1,6 @@
 {
   "package": "figma-design-workflow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "source_owner": "figma-design-workflow",
   "source_revision": "Source tree had no enclosing Git checkout; SHA256 identifies reviewed inputs.",
   "source_tree_sha256": "fb5a06b7e1c1143080a338dbce3604ac5716602ac58ca3c7b626fa38ae6f33dc",
@@ -13,9 +13,9 @@
     {
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "33592edc4e0a3be082c4a5764bcdb4f3d958bdcca80bb751c6e09b2ff5d624cb",
-      "output_sha256": "99bfef8f848b53c7d7d26fbad6c6f0e28e29d0225d20feca1d3fd44402eccb39",
+      "output_sha256": "15bf00af54d114c6e4438c748f3e52acbfa7549fd2452442b31a9cdc4e67bc7e",
       "transformed": true,
-      "transformation": "Set portable public version 0.1.1, original MIT grant, public source identity and method-only capabilities.",
+      "transformation": "Set portable public version 0.1.1, original MIT grant, public source identity and method-only capabilities. Public 0.1.2 limits starter prompts to three.",
       "rights": "Inspected original authored workflow/fixture/helper; original MIT public edition. External documentation is attributed, not bundled."
     },
     {
@@ -334,5 +334,9 @@
       "Valid plugin README and role links are rejected by old standalone skill boundary"
     ],
     "portable_repair": "Retain full workflow; normalize description and validate exact declared plugin closure with 900-word entrypoint ceiling."
+  },
+  "public_patch": {
+    "version": "0.1.2",
+    "reason": "Limit starter prompts to three, matching current Codex host; operative methods unchanged."
   }
 }

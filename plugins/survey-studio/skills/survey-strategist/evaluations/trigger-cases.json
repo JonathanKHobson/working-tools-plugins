@@ -1,0 +1,21 @@
+{
+  "skill": "survey-strategist",
+  "cases": [
+    {"request": "Design a 5-minute customer onboarding survey and export it as Qualtrics Advanced TXT.", "should_trigger": true, "reason": "Survey creation plus Qualtrics export."},
+    {"request": "Audit these questionnaire items for leading wording and overlapping choices.", "should_trigger": true, "reason": "Questionnaire quality audit."},
+    {"request": "Create an accessible intake form that collects email and a support request.", "should_trigger": true, "reason": "Form design, privacy and accessibility."},
+    {"request": "Should I use interviews or a survey to discover why customers churn?", "should_trigger": true, "reason": "Method selection and triangulation."},
+    {"request": "Turn this YAML survey into HTML, PDF, DOCX and a codebook.", "should_trigger": true, "reason": "Canonical instrument export."},
+    {"request": "Build a screener for adults who used our workflow in the last month.", "should_trigger": true, "reason": "Research recruitment screener."},
+    {"request": "Review our employee pulse for confidentiality and small-cell risks.", "should_trigger": true, "reason": "Sensitive survey QA."},
+    {"request": "Explain how to code multiple-select survey responses in CSV.", "should_trigger": true, "reason": "Survey response-data export and codebook."},
+    {"request": "Create a product concept test with a relevance scale and one open-ended follow-up.", "should_trigger": true, "reason": "Concept-test survey design."},
+    {"request": "Validate this Qualtrics TXT file before I import it.", "should_trigger": true, "reason": "Qualtrics import validation."},
+    {"request": "Summarize this completed survey report for executives.", "should_trigger": false, "reason": "Pure report summarization unless instrument/method audit is requested."},
+    {"request": "Analyze my product telemetry and build a retention dashboard.", "should_trigger": false, "reason": "Product analytics without survey work."},
+    {"request": "Write interview questions for a 60-minute discovery session.", "should_trigger": false, "reason": "Interview guide only; another research skill may be better unless survey triangulation is requested."},
+    {"request": "Make a PDF from this existing essay.", "should_trigger": false, "reason": "Generic document conversion."},
+    {"request": "Fix the CSS on my checkout page.", "should_trigger": false, "reason": "Frontend implementation without a form-research request."},
+    {"request": "Translate this paragraph into Spanish.", "should_trigger": false, "reason": "Generic translation."}
+  ]
+}

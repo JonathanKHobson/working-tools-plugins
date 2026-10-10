@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "claim": "Declarative selection/coverage map, not a tool router or model-selection benchmark.",
+  "skills": [
+    {
+      "skill": "development-studio",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/brainstorming/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/using-superpowers/SKILL.md"
+      ]
+    },
+    {
+      "skill": "implement-software",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/writing-plans/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/executing-plans/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/subagent-driven-development/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/dispatching-parallel-agents/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/using-git-worktrees/SKILL.md"
+      ]
+    },
+    {
+      "skill": "debug-software",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/systematic-debugging/SKILL.md"
+      ]
+    },
+    {
+      "skill": "test-software",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/test-driven-development/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/verification-before-completion/SKILL.md"
+      ]
+    },
+    {
+      "skill": "review-and-release",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/requesting-code-review/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/receiving-code-review/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/finishing-a-development-branch/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/verification-before-completion/SKILL.md"
+      ]
+    },
+    {
+      "skill": "evaluate-dev-workflows",
+      "full_methods": [
+        "libraries/superpowers-6.4.2/skills/diagnosing-superpowers/SKILL.md",
+        "libraries/superpowers-6.4.2/skills/writing-skills/SKILL.md"
+      ]
+    },
+    {
+      "skill": "build-web-software",
+      "full_methods": []
+    },
+    {
+      "skill": "build-native-software",
+      "full_methods": []
+    },
+    {
+      "skill": "build-mcp-apps",
+      "full_methods": []
+    },
+    {
+      "skill": "use-alpic",
+      "full_methods": []
+    },
+    {
+      "skill": "local-mcp-systems",
+      "full_methods": []
+    }
+  ],
+  "provider_routes": {
+    "build-web-software": [
+      "build-web-apps"
+    ],
+    "build-native-software": [
+      "build-ios-apps",
+      "build-macos-apps",
+      "test-android-apps"
+    ],
+    "evaluate-dev-workflows": [
+      "plugin-eval"
+    ]
+  },
+  "special_disposition": {
+    "using-superpowers": "Preserved for framework migration and provenance; universal hook superseded by focused discovery."
+  }
+}

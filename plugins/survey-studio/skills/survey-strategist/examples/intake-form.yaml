@@ -1,0 +1,178 @@
+survey:
+  id: service-intake-form
+  title: Service intake form
+  version: 1.0.0
+  objective: Collect the minimum contact and request information required to route
+    a person to the appropriate service team.
+  target_audience: People requesting support from the service.
+  mode: web
+  estimated_minutes: 5
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Submit this form only if you want the service team to use the information
+      to respond to your request. Do not include passwords or payment-card details.
+    contact: research@example.com
+  privacy:
+    identifiability: identified
+    collects_pii: true
+    retention: Retain submitted contact and case information for 24 months, then delete
+      unless a longer period is required.
+    jurisdictions:
+    - US
+    data_controller: Example service team
+    sensitive_data:
+    - contact information
+    - support request details
+    security_notes: Restrict access to assigned staff and approved administrators.
+analysis_plan:
+  decisions:
+  - Route each request to the correct team and identify urgent safety issues through
+    a separate approved process.
+  primary_metrics: []
+  segments:
+  - request_category
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: request
+  title: Your request
+  questions:
+  - id: request_category
+    type: single_choice
+    text: What kind of help do you need?
+    required: true
+    rationale: Routes the request to the correct workflow.
+    construct: request category
+    analysis_use: Use for operational routing and aggregate service-volume reporting.
+    choices:
+    - id: account
+      label: Account access
+      value: account
+    - id: billing
+      label: Billing or payment
+      value: billing
+    - id: technical
+      label: Technical problem
+      value: technical
+    - id: accessibility
+      label: Accessibility support
+      value: accessibility
+    - id: privacy
+      label: Privacy or data request
+      value: privacy
+    - id: other
+      label: Something else
+      value: other
+      open_text: true
+  - id: request_summary
+    type: textarea
+    text: Briefly describe what you need help with.
+    required: true
+    rationale: Provides enough context for triage.
+    construct: request summary
+    analysis_use: Route and resolve the request; redact unnecessary sensitive information
+      in analytical copies.
+    help_text: Do not include passwords, full payment-card numbers, or information
+      about another person.
+    sensitive: true
+    required_justification: The service team cannot route or resolve a request without
+      a short description of the issue.
+  - id: urgency
+    type: single_choice
+    text: When do you need a response?
+    required: false
+    rationale: Supports operational prioritization without claiming emergency support.
+    construct: response urgency
+    analysis_use: Use with service policy and category, not as the sole risk signal.
+    choices:
+    - id: today
+      label: Today
+      value: today
+    - id: two_days
+      label: Within 2 business days
+      value: two_days
+    - id: week
+      label: Within 1 week
+      value: week
+    - id: no_deadline
+      label: No specific deadline
+      value: no_deadline
+- id: contact
+  title: How to contact you
+  questions:
+  - id: contact_details
+    type: form
+    text: How may the service team contact you?
+    required: true
+    rationale: Collects the minimum identity and contact fields needed to respond.
+    construct: requester contact
+    analysis_use: Use only to contact the requester and manage the case.
+    pii: true
+    fields:
+    - id: full_name
+      type: text
+      text: Name
+      required: true
+      rationale: Identifies the requester for the service interaction.
+      construct: requester name
+      analysis_use: Use for service correspondence.
+      pii: true
+    - id: email
+      type: text
+      text: Email address
+      required: true
+      rationale: Provides the response channel.
+      construct: requester email
+      analysis_use: Use for service correspondence and status updates.
+      pii: true
+      validation:
+        format: email
+    - id: phone
+      type: text
+      text: Phone number
+      required: false
+      rationale: Provides an optional alternate contact channel.
+      construct: requester phone
+      analysis_use: Use only if phone contact is needed and authorized.
+      pii: true
+  - id: contact_preference
+    type: single_choice
+    text: Which contact method do you prefer?
+    required: false
+    rationale: Respects the requester’s channel preference.
+    construct: contact preference
+    analysis_use: Use to select the first response channel.
+    choices:
+    - id: email
+      label: Email
+      value: email
+    - id: phone
+      label: Phone
+      value: phone
+- id: confirmation
+  title: Confirmation
+  questions:
+  - id: accuracy_attestation
+    type: single_choice
+    text: Is the information ready to submit?
+    required: true
+    rationale: Provides a final review checkpoint without legalistic attestation.
+    construct: submission readiness
+    analysis_use: Allow submission only when ready.
+    choices:
+    - id: 'yes'
+      label: Yes, submit it
+      value: 'yes'
+    - id: review
+      label: No, I need to review it
+      value: review
+    platform_notes:
+      web: Provide a review step and do not submit when value is review.

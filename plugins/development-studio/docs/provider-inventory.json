@@ -1,0 +1,2204 @@
+{
+  "schema_version": 1,
+  "observed_date": "2026-10-08",
+  "providers": [
+    {
+      "id": "build-web-apps",
+      "version": "0.1.2",
+      "publisher_claim": "OpenAI",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "frontend-app-builder",
+          "frontmatter_name": "frontend-app-builder",
+          "path": "skills/frontend-app-builder/SKILL.md"
+        },
+        {
+          "directory": "frontend-testing-debugging",
+          "frontmatter_name": "frontend-testing-debugging",
+          "path": "skills/frontend-testing-debugging/SKILL.md"
+        },
+        {
+          "directory": "react-best-practices",
+          "frontmatter_name": "react-best-practices",
+          "path": "skills/react-best-practices/SKILL.md"
+        },
+        {
+          "directory": "shadcn-best-practices",
+          "frontmatter_name": "shadcn",
+          "path": "skills/shadcn-best-practices/SKILL.md"
+        },
+        {
+          "directory": "stripe-best-practices",
+          "frontmatter_name": "stripe-best-practices",
+          "path": "skills/stripe-best-practices/SKILL.md"
+        },
+        {
+          "directory": "supabase-best-practices",
+          "frontmatter_name": "supabase-postgres-best-practices",
+          "path": "skills/supabase-best-practices/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "676d1aab332c7bbacfbf59da0d61b1ced0ac3297c5e7788f72110cbd49915968",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7eaff90c5dfa91d5b578e1bd0b4c3ca8e45f164f60137b4bb95082f91b5481a4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "5dacb70fd8e1d12c83346b45a5d0cf18858f533cd91c038ce9325b5d807d7c7e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/app-icon.png",
+          "sha256": "d83c4aebc93b4d894973ef6891e2135709e0ec4a91cdf51f1af7c9f9075f632a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/build-web-apps-small.svg",
+          "sha256": "4e86903c559333574b27cfcd1972d6866932881436c268b468a6745a68eacc3e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/frontend-app-builder/SKILL.md",
+          "sha256": "9273de02827b29534be28fb2b37154c1571ac38b4e20d3ef5482b7e22af67394",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/frontend-app-builder/agents/openai.yaml",
+          "sha256": "dab34c13d0cc9b0ded83371995bedb30c7454a2d2429f864d71420a98170507c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/frontend-app-builder/references/imagegen-website-concepts.md",
+          "sha256": "f91e229a26d15e5611f2cd8917fec516e66175119acdb8e6e15639c64ef70836",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/frontend-testing-debugging/SKILL.md",
+          "sha256": "03724620cf7e7de425b607a5492f572d867b1cf5d9c92c74bf50d057d7415e0b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/frontend-testing-debugging/agents/openai.yaml",
+          "sha256": "82477c78c6f601cb85fa21d30f61624f49fd28ab75351e65093ee6afb04f864c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/AGENTS.md",
+          "sha256": "6327efcce0c631580cee5bf2dcac8f884a81172a0261fa3c8ca458a72f603165",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/README.md",
+          "sha256": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/SKILL.md",
+          "sha256": "cc7d03309817f392c419a203e1bc1f1759ef94831f7dbedf39d91a35ac5bc86a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/agents/openai.yaml",
+          "sha256": "c7183028e6c3160fae6e99c036bf32958c9a48577ad0731adc124aaffc599b75",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/metadata.json",
+          "sha256": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/_sections.md",
+          "sha256": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/_template.md",
+          "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-event-handler-refs.md",
+          "sha256": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-init-once.md",
+          "sha256": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-use-latest.md",
+          "sha256": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-api-routes.md",
+          "sha256": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-defer-await.md",
+          "sha256": "9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-dependencies.md",
+          "sha256": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-parallel.md",
+          "sha256": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-suspense-boundaries.md",
+          "sha256": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-barrel-imports.md",
+          "sha256": "9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-conditional.md",
+          "sha256": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-defer-third-party.md",
+          "sha256": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-dynamic-imports.md",
+          "sha256": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-preload.md",
+          "sha256": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-event-listeners.md",
+          "sha256": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-localstorage-schema.md",
+          "sha256": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-passive-event-listeners.md",
+          "sha256": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-swr-dedup.md",
+          "sha256": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-batch-dom-css.md",
+          "sha256": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-function-results.md",
+          "sha256": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-property-access.md",
+          "sha256": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-storage.md",
+          "sha256": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-combine-iterations.md",
+          "sha256": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-early-exit.md",
+          "sha256": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-flatmap-filter.md",
+          "sha256": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-hoist-regexp.md",
+          "sha256": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-index-maps.md",
+          "sha256": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-length-check-first.md",
+          "sha256": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-min-max-loop.md",
+          "sha256": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-set-map-lookups.md",
+          "sha256": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-tosorted-immutable.md",
+          "sha256": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-activity.md",
+          "sha256": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+          "sha256": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-conditional-render.md",
+          "sha256": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-content-visibility.md",
+          "sha256": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hoist-jsx.md",
+          "sha256": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+          "sha256": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+          "sha256": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-resource-hints.md",
+          "sha256": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-script-defer-async.md",
+          "sha256": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-svg-precision.md",
+          "sha256": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-usetransition-loading.md",
+          "sha256": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-defer-reads.md",
+          "sha256": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-dependencies.md",
+          "sha256": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-derived-state-no-effect.md",
+          "sha256": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-derived-state.md",
+          "sha256": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-functional-setstate.md",
+          "sha256": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-lazy-state-init.md",
+          "sha256": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-memo-with-default-value.md",
+          "sha256": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-memo.md",
+          "sha256": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-move-effect-to-event.md",
+          "sha256": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-no-inline-components.md",
+          "sha256": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+          "sha256": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-split-combined-hooks.md",
+          "sha256": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-transitions.md",
+          "sha256": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-use-deferred-value.md",
+          "sha256": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-use-ref-transient-values.md",
+          "sha256": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-after-nonblocking.md",
+          "sha256": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-auth-actions.md",
+          "sha256": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-cache-lru.md",
+          "sha256": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-cache-react.md",
+          "sha256": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-dedup-props.md",
+          "sha256": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-hoist-static-io.md",
+          "sha256": "f90610d0f0db0fa8da5cf99790ed3369544a5b9b671bc4198347c95ec3325db4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-parallel-fetching.md",
+          "sha256": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-serialization.md",
+          "sha256": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/SKILL.md",
+          "sha256": "7678f5168d4ee6f3ae3ce4d3d41c654f0aebc7b88cbc392a9504822dec0dff28",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/agents/openai.yaml",
+          "sha256": "35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/assets/shadcn-small.png",
+          "sha256": "0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/assets/shadcn.png",
+          "sha256": "7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/cli.md",
+          "sha256": "ba3bc1f4466daf1fafee42bc21b3a8b1d4fc76d4c109a7c936074d9cf8293c4b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/customization.md",
+          "sha256": "12e4d5fd4ae05ec4cef759035d3a70fec474d857298fe0a0effa8880112f8a54",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/evals/evals.json",
+          "sha256": "97ebb931d690578ee64e445d84f406be2a8799812d38d3cb1bb216e68291eb2b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/mcp.md",
+          "sha256": "03cf3e9ad820bb2922c19b50164070d5c4b324c12869275f79174ceec8b43b1c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/rules/base-vs-radix.md",
+          "sha256": "2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/rules/composition.md",
+          "sha256": "de068e5aa5351dd8e4af7bfb7a6333302445c15527eaeee521d8591e95e7d709",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/rules/forms.md",
+          "sha256": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/rules/icons.md",
+          "sha256": "d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/shadcn-best-practices/rules/styling.md",
+          "sha256": "4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/SKILL.md",
+          "sha256": "5062f0c980030af377a0ac33b77c9d233676e2ecbb57b3d3cd8734fc0da464b2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/agents/openai.yaml",
+          "sha256": "c8e40f8109e1592e089dd7261bd608341a6e7612f78376c0f850ccc010d69092",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/references/billing.md",
+          "sha256": "03f0708cedb178cf9f37563e9436ad356aa5a9230354c0febe3b6eb17eef0414",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/references/connect.md",
+          "sha256": "72f7f7091897126eac28bf5ed165ccd466f583ba2f227c2c4ee9a1c36eed7957",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/references/payments.md",
+          "sha256": "7b5d1c28bef5b5c3f54988f88299fe6adb3e339f3fec9208a1f7516dc70ec559",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/stripe-best-practices/references/treasury.md",
+          "sha256": "1468c006e6dbd506917578e63d7fc0f30ff6b64424506015448e3ab820b979c0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/AGENTS.md",
+          "sha256": "bc26c551fda72e50b66e132854aa63ead7280c93b0d1f6bbb6c4f841e7c1202e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/README.md",
+          "sha256": "210d26cc0466a1bfb9ab95e57d7fe8a80644ef3fd860769bcb4ec9989a7d7a8f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/SKILL.md",
+          "sha256": "cfc4da3ed47c14f4fb24c5b4db4be443fa200e12e71d674fb1270eecce87a302",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/agents/openai.yaml",
+          "sha256": "f8029a40d11c3118ba0fde1afa0822eb9698e7bc478d974c8129f252f0a35126",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/_contributing.md",
+          "sha256": "7265c8c26812c9aad31fdd3936473f887c295c486eca82775ce5598d99ec7858",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/_sections.md",
+          "sha256": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/_template.md",
+          "sha256": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/advanced-full-text-search.md",
+          "sha256": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/advanced-jsonb-indexing.md",
+          "sha256": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/conn-idle-timeout.md",
+          "sha256": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/conn-limits.md",
+          "sha256": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/conn-pooling.md",
+          "sha256": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/conn-prepared-statements.md",
+          "sha256": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/data-batch-inserts.md",
+          "sha256": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/data-n-plus-one.md",
+          "sha256": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/data-pagination.md",
+          "sha256": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/data-upsert.md",
+          "sha256": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/lock-advisory.md",
+          "sha256": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/lock-deadlock-prevention.md",
+          "sha256": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/lock-short-transactions.md",
+          "sha256": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/lock-skip-locked.md",
+          "sha256": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/monitor-explain-analyze.md",
+          "sha256": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/monitor-pg-stat-statements.md",
+          "sha256": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/monitor-vacuum-analyze.md",
+          "sha256": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/query-composite-indexes.md",
+          "sha256": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/query-covering-indexes.md",
+          "sha256": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/query-index-types.md",
+          "sha256": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/query-missing-indexes.md",
+          "sha256": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/query-partial-indexes.md",
+          "sha256": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-constraints.md",
+          "sha256": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-data-types.md",
+          "sha256": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-foreign-key-indexes.md",
+          "sha256": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-lowercase-identifiers.md",
+          "sha256": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-partitioning.md",
+          "sha256": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/schema-primary-keys.md",
+          "sha256": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/security-privileges.md",
+          "sha256": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/security-rls-basics.md",
+          "sha256": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/supabase-best-practices/references/security-rls-performance.md",
+          "sha256": "ee62c6e34468df8673d625291c1fcd7fb87041f122325eba224fc492cfe01bb3",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    },
+    {
+      "id": "build-ios-apps",
+      "version": "0.1.2",
+      "publisher_claim": "OpenAI",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "ios-app-intents",
+          "frontmatter_name": "ios-app-intents",
+          "path": "skills/ios-app-intents/SKILL.md"
+        },
+        {
+          "directory": "ios-debugger-agent",
+          "frontmatter_name": "ios-debugger-agent",
+          "path": "skills/ios-debugger-agent/SKILL.md"
+        },
+        {
+          "directory": "ios-ettrace-performance",
+          "frontmatter_name": "ios-ettrace-performance",
+          "path": "skills/ios-ettrace-performance/SKILL.md"
+        },
+        {
+          "directory": "ios-memgraph-leaks",
+          "frontmatter_name": "ios-memgraph-leaks",
+          "path": "skills/ios-memgraph-leaks/SKILL.md"
+        },
+        {
+          "directory": "ios-simulator-browser",
+          "frontmatter_name": "ios-simulator-browser",
+          "path": "skills/ios-simulator-browser/SKILL.md"
+        },
+        {
+          "directory": "swiftui-liquid-glass",
+          "frontmatter_name": "swiftui-liquid-glass",
+          "path": "skills/swiftui-liquid-glass/SKILL.md"
+        },
+        {
+          "directory": "swiftui-performance-audit",
+          "frontmatter_name": "swiftui-performance-audit",
+          "path": "skills/swiftui-performance-audit/SKILL.md"
+        },
+        {
+          "directory": "swiftui-ui-patterns",
+          "frontmatter_name": "swiftui-ui-patterns",
+          "path": "skills/swiftui-ui-patterns/SKILL.md"
+        },
+        {
+          "directory": "swiftui-view-refactor",
+          "frontmatter_name": "swiftui-view-refactor",
+          "path": "skills/swiftui-view-refactor/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "86d4a225cb929ab68f00f6258a75daffb02122dd34875dabd349c3474dc35908",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": ".mcp.json",
+          "sha256": "31ef1307db3e60fb9b2a3612c159ccc9850b5f036c921cf77c7a405f7065ec23",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d7ccfa9eaf361eba898bc2865260715cd85fe2ad5193b91502c1014c4a8fa9b4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "9acdeec5c7001ee7077c670810bf710cea733a07e8d6e74910df04355aee83f9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/app-icon.png",
+          "sha256": "d5389b5252eb373894508c6a8b1f65d8a7837b2672c3955276ee8cdd75780e4d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/build-ios-apps-small.svg",
+          "sha256": "259e81a36bdab4c6a14d8783918a9fdc2138aa9b787eed3f6f3dd566e9630c21",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/SKILL.md",
+          "sha256": "ecfa87ec1070bccfdfa0d21ee997bbfbfd78edfb1f22da5da9c05ff006e9fa52",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/agents/openai.yaml",
+          "sha256": "fdbaa2b63a8b3df1cae4f29a6343be1613a2653aad5169e080eea461f7e24ab8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/references/code-templates.md",
+          "sha256": "61cbb6f21a9d5086510c83cdbf1b5294ce8adb19b00aa700a2900000ea70a42b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/references/example-patterns.md",
+          "sha256": "282cf1d6ec24e4c9c7ad7c90a633561beb618945b98318f5075a7cc378a2578d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/references/first-pass-checklist.md",
+          "sha256": "6e2314e53e76e2cb9cbe0d97aadae7a5de2b377b21103c9d94e3689f35caeb84",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-app-intents/references/system-surfaces.md",
+          "sha256": "fac15cd93295aec0e25756cb8354052123a7406e643f2c475b3cee706f4b1b7a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-debugger-agent/SKILL.md",
+          "sha256": "bb8ad932ec473cee097c9c8d106051134e9ab6cf9dc85d6a8e62ce80ad24c385",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-debugger-agent/agents/openai.yaml",
+          "sha256": "ff0c1b20fa7a4c6762eb47a34a58e3fc14b3d59583d9c328e04d7a3a7c6ffcb2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-ettrace-performance/SKILL.md",
+          "sha256": "1888c0b2fc6b7d9f3d54d06333e9628a2c4660b9d9b5ddf3edc37f126c773935",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-ettrace-performance/agents/openai.yaml",
+          "sha256": "3c36ae177c3b03862f6cc9a696c9b4ca6143bf27b4801af94562e516289aa2fd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-ettrace-performance/scripts/analyze_flamegraph_json.py",
+          "sha256": "99b3201bafc2ddfd7ba75d6c8d5a4c28dc3878a7edbc6e99d2c508eb49facf68",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-ettrace-performance/scripts/collect_ios_dsyms.sh",
+          "sha256": "73513faf2bae123b5db626b7c624e50df2dfd29dd0cf10955c6fe4f43d13670d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-memgraph-leaks/SKILL.md",
+          "sha256": "f09a1e78c00b342196035f6570723f16e40e34a800d353c7c885d1dab4dc8781",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-memgraph-leaks/agents/openai.yaml",
+          "sha256": "f1ec30de8eab5a7a0861df4a35caaf40adb9728aad6b7375d7fee822aaec8359",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-memgraph-leaks/scripts/capture_sim_memgraph.sh",
+          "sha256": "284e767f1fb90144fcb208140ba8806c2fd27d384e3e9b6733958de3aac48e19",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-memgraph-leaks/scripts/summarize_memgraph_leaks.py",
+          "sha256": "0488f210ba3cd281f15c9e3d0597d7e9089969885ba51331e7a31ead0fb8de1e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/SKILL.md",
+          "sha256": "f3f0216323cd7713a73f1bc4beee1b740a7867f20affef331760dd1932a1ec4b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/agents/openai.yaml",
+          "sha256": "5d8456581dff088d54021c9dddbdc2a1a693e12cab9731a7f66cdcfae2fa67dd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/scripts/lib/xcode-project.mjs",
+          "sha256": "6afc26c8cb60b25781f190682ff7a0f2af5ac16f69653f6e95297a47eb291571",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/scripts/swiftui-preview-browser.mjs",
+          "sha256": "6d6a3c19e55e8d281cc51dadb42d618b0159315505f219925e49e27f057ecdc0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/scripts/templates/FocusedPreviewApp.swift",
+          "sha256": "c9e5a4c920b7e93e87f38f1ce77a0b72fbf64ff893ad5c8bca1440b7c655d630",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/scripts/templates/FocusedPreviewHotReloadRuntime.swift",
+          "sha256": "5ac44063da575ac975fc85344b6ff5c8a902959a77fac2524ef2a12c3e1647c7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/ios-simulator-browser/scripts/templates/PreviewBrowserEntries.swift",
+          "sha256": "9acc2fd1055e302778dc9642dfb7b66f62e81efcc9fe311dc886cc909a10335c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-liquid-glass/SKILL.md",
+          "sha256": "8e9ec37d9b6ed146672faf12c88be61d367c280ab6159bfbc7726a122030b78b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-liquid-glass/agents/openai.yaml",
+          "sha256": "c0558fe64c07f3cef63a002c4dacaf32fd9424700356d2fdc1262a2b27481e56",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-liquid-glass/references/liquid-glass.md",
+          "sha256": "76b075006934bd4bdba7df53fa046502db3c2f6cc3d383d58e56bff308468608",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/SKILL.md",
+          "sha256": "6fc6bd4d49b49ccb2089be706c449f195daa7db2c36d8097d883426488eb4b1a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/agents/openai.yaml",
+          "sha256": "64d8aba830402802fe9d01bdea7745ab249eae0e734e248c3c348c899a79ab9a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/code-smells.md",
+          "sha256": "c9834da9bde40952100147c7fa0dab12c21bcd762878da7c07b6cd260093ebb8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/demystify-swiftui-performance-wwdc23.md",
+          "sha256": "7cffafe3903293479b73f71d822fe5209d307645d55f18d4fbbdf90a5f708d52",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/optimizing-swiftui-performance-instruments.md",
+          "sha256": "f3980f725406cd4158ace27e058b7b7a57478025f48d50512e99a20f9fa0fa9b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/profiling-intake.md",
+          "sha256": "636ae046936183a7ac5412458926d0a8babe4e05396955d3608f9a7320913bcd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/report-template.md",
+          "sha256": "c09e67323c3c0ebcacd647be9117f258d11ec58001ba0e5683c13c2bc4d21ff2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/understanding-hangs-in-your-app.md",
+          "sha256": "3631b56751e5853fd04c1397f7cc5eb9f8d7f057a83509244fa82a4b57fc56fc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-performance-audit/references/understanding-improving-swiftui-performance.md",
+          "sha256": "fd7a624c10af787c5673b748dee95d789ead1329e69f6471a9495682d0775643",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/SKILL.md",
+          "sha256": "a96f078512c6c679a3504ec20e0eedff4a9be3a06eb9a95107f3556c081bb708",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/agents/openai.yaml",
+          "sha256": "25a1a4c8a8843cb959c18ef651f41a9665e6dfa15985722b077fced55f7ed247",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/app-wiring.md",
+          "sha256": "1bc324647990b52b79cf577820b78a92193c533e7c7d5b0aec9143b507899804",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/async-state.md",
+          "sha256": "32fda340cf74042c14b41ea06edd0df6bb595c0a61a3061615bd9c5f7220fcb2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/components-index.md",
+          "sha256": "a2808ff1c2a038a29e71efb56fce214da15b9352cc2cfc136105c60cf769cea5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/controls.md",
+          "sha256": "7cf464a6ebc7ed2fbccd6dda4e0580ec737be1e0125ab7373b95470018371950",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/deeplinks.md",
+          "sha256": "eb9317a02c38b941d51c0e724537942ea26af1f6a1b65f55e0aad0bbf5b4fe63",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/focus.md",
+          "sha256": "918c9b5d66c096c790f713f94682f0516e41ebf6f1ea8cfbe3a1691c160641d7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/form.md",
+          "sha256": "d340d0df5b785570154f508aa116ea1b1a6de3555a8cc813fe2ef72a5b7c10c5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/grids.md",
+          "sha256": "6156536603c0e1d47123941a7dabcd146558094d3481153c475b075ff2afb9fc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/haptics.md",
+          "sha256": "b24eb42d469be2547471417923b211a2567c1b10fcf1936fda08d05bfe33d89e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/input-toolbar.md",
+          "sha256": "4704b09633f24fa0b8f5f1be31f887ca5d03d32f7a885d17c11010631b406c1d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/lightweight-clients.md",
+          "sha256": "8ab515d516c1ee6ba34a72b377127c189bfd48095ac698c281679d97e914709c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/list.md",
+          "sha256": "08252610bb7379da7151e54ad6248bcdc39244db85ff08fdb7c0e841ffd324d8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/loading-placeholders.md",
+          "sha256": "d8e181e3e59c4e6b440be7615c1384f6a18eff7942680add7c548edbbb6ab391",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/macos-settings.md",
+          "sha256": "f86a86bfbf2aa6aee99fca111b4a62cbc37949cea558f40bbdeb795a0f5212b3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/matched-transitions.md",
+          "sha256": "06e45d1c4143900b81882c8ba6c0e53e59ea8efee8dbe50c92b22ded2cc60899",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/media.md",
+          "sha256": "055b26c2ae925c16de71cdbc46ef9466185eb9004398cd065318e574d85eda83",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/menu-bar.md",
+          "sha256": "969083aafd71220edbae2152b1e1a46cb9e2f2d9225afb5a618ab23f8ecafca6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/navigationstack.md",
+          "sha256": "b49ae75c66b22116947447f1ed66e6467d65b38be6db31cfe8a413ff95f24440",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/overlay.md",
+          "sha256": "74863d81b7ef60abd13a65b621b2199358adfc49b07e769b8b796a430c995fe2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/performance.md",
+          "sha256": "616ec9e7e475fdef34089e87e0abae2765d79e3edd99cb101b1e0f618fd12ac0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/previews.md",
+          "sha256": "ef4684e27b0e398b7b3d0a50ea17509db499d749041448975aa661ca00711b14",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/scroll-reveal.md",
+          "sha256": "fb00545a6297043ff00f156dac86ee7ca039cec167392e671abb1d7f103be505",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/scrollview.md",
+          "sha256": "fe30a174fd58408523b9321a25dd155389e1d0fbb45c0d4c2834fcd6f69d6040",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/searchable.md",
+          "sha256": "9265654c1b4651aeb89fa73735c94fcf6e8923d89053dbb309c3fb65a11ce716",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/sheets.md",
+          "sha256": "ceb2d48f917e2f8ecaf3a3d7b4ba283188fe8f10ddf15c480f172a248d8477ac",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/split-views.md",
+          "sha256": "b2076e1094f8c4ed54e4e5b0fb9b5029daf39bfc72c61dc478721d0e6b5872f0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/tabview.md",
+          "sha256": "0e1d8143b3481e9b862cc2b2a6f0ac388cea97cb3eda9252f33349b5dd16879d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/theming.md",
+          "sha256": "cbf2bac6a2e115fe0d2ef55e943736e74d5652baef620ac10cd6cbc689e07981",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/title-menus.md",
+          "sha256": "64dc98d720d848b49423adc8960116e225a28a0a527bc9c3b16b10a1268d2765",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/top-bar.md",
+          "sha256": "3b98471adcb3f5b13dff4a35bf2cebcd5c36b1f0cafa9f12ad149178998ce1d7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-view-refactor/SKILL.md",
+          "sha256": "129cbb511987985ed7bf9e3f20443632a7becdf0c2824ded6b52241cc339243a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-view-refactor/agents/openai.yaml",
+          "sha256": "31e4415b55e1f04b29fb4a2c3c8267adaa3c7089ec21e5072900f38a5c95142e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-view-refactor/references/mv-patterns.md",
+          "sha256": "8140a642ad16f33d416b987ddcb04755727d2409f535bd1c83ebc7ecfd438515",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    },
+    {
+      "id": "build-macos-apps",
+      "version": "0.1.4",
+      "publisher_claim": "OpenAI",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "appkit-interop",
+          "frontmatter_name": "appkit-interop",
+          "path": "skills/appkit-interop/SKILL.md"
+        },
+        {
+          "directory": "build-run-debug",
+          "frontmatter_name": "build-run-debug",
+          "path": "skills/build-run-debug/SKILL.md"
+        },
+        {
+          "directory": "liquid-glass",
+          "frontmatter_name": "liquid-glass",
+          "path": "skills/liquid-glass/SKILL.md"
+        },
+        {
+          "directory": "packaging-notarization",
+          "frontmatter_name": "packaging-notarization",
+          "path": "skills/packaging-notarization/SKILL.md"
+        },
+        {
+          "directory": "signing-entitlements",
+          "frontmatter_name": "signing-entitlements",
+          "path": "skills/signing-entitlements/SKILL.md"
+        },
+        {
+          "directory": "swiftpm-macos",
+          "frontmatter_name": "swiftpm-macos",
+          "path": "skills/swiftpm-macos/SKILL.md"
+        },
+        {
+          "directory": "swiftui-patterns",
+          "frontmatter_name": "swiftui-patterns",
+          "path": "skills/swiftui-patterns/SKILL.md"
+        },
+        {
+          "directory": "telemetry",
+          "frontmatter_name": "telemetry",
+          "path": "skills/telemetry/SKILL.md"
+        },
+        {
+          "directory": "test-triage",
+          "frontmatter_name": "test-triage",
+          "path": "skills/test-triage/SKILL.md"
+        },
+        {
+          "directory": "view-refactor",
+          "frontmatter_name": "view-refactor",
+          "path": "skills/view-refactor/SKILL.md"
+        },
+        {
+          "directory": "window-management",
+          "frontmatter_name": "window-management",
+          "path": "skills/window-management/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "d8d9c85281df68af2a2012ab6365b2789a573bd399692dacc4b2d5bfd06c0450",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "README.md",
+          "sha256": "f7bf1559963f3e708e1a46bae5a2a930be441cf034e9b40b02adb6092ee89abd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "7080fa20d0501cfd7cb4f256f4f0431e2ebd3ec04b1de3b20dcc3461e4188b6b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/app-icon.png",
+          "sha256": "d5389b5252eb373894508c6a8b1f65d8a7837b2672c3955276ee8cdd75780e4d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/build-macos-apps-small.svg",
+          "sha256": "b70b97ab0afbf614452cd52a07de2c7d32c9dcb1e2f642ae410ef1b44caa25c6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "commands/build-and-run-macos-app.md",
+          "sha256": "ed7cfae2db75e58b2e93b52b461a9b084da7003214974716f6bd2248751467ef",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "commands/fix-codesign-error.md",
+          "sha256": "b0b2a121c0977c959adcdfe66a749f3e1b62ccaabf4d4cf643a7cfd9e75dfaf2",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "commands/test-macos-app.md",
+          "sha256": "3562a2a30eae6dd185e54804b67136052b8ffad28d2101671244e59d5323581e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/SKILL.md",
+          "sha256": "7c91be82e30340ed9c929270f102965da3d67bcf509eecf8bf207c8a679fd3b6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/agents/openai.yaml",
+          "sha256": "a023b56dcc7df94e021eb540180c932ac22c1e0d588a909fb1d88e85cdd43185",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/references/drag-drop-pasteboard.md",
+          "sha256": "cd84d602c155679b75bee7ce4c3ff1d10baff1ed7214dfcfde4d6531db992c30",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/references/representables.md",
+          "sha256": "858e16577ffd5fa6c37faad4d9c43f7c0f9feac84051279673ca5a8e145b1190",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/references/responder-menus.md",
+          "sha256": "df1a3a1baf83566c5984a16ce61ac9d78ffafcda4d7636e27cfc8e5b19a5bd8b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/appkit-interop/references/window-panels.md",
+          "sha256": "50cda1bd49e5176fc481c396f6a2ba11e1470e4cb177e9be5fb9fecde03f9857",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/build-run-debug/SKILL.md",
+          "sha256": "bd32f3fa611fd731d01113450929aaeab8b40bfdda669b6cad76d877a096b722",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/build-run-debug/agents/openai.yaml",
+          "sha256": "f1cf1fd94481aa3d337125b7d3dee67745fee01b65e16e539e396e368e64395c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/build-run-debug/references/run-button-bootstrap.md",
+          "sha256": "927483096a5610c731b1bb49a106e0d4453fdb08cb872c299b86c8370ae856a7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/liquid-glass/SKILL.md",
+          "sha256": "b2bbb5ea8a62523931d89d9db47cfecf6745406f17722cbe7a6f1c06026472c3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/liquid-glass/agents/openai.yaml",
+          "sha256": "30fa5b43fdf1c9e327eb12b1dac12bacc4d56f66dca48fa2c0e7e2c47e085d02",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/packaging-notarization/SKILL.md",
+          "sha256": "adc0d5e0c48e74ac6c5078b5846d00cbb798a8fd08bd775590f23793c8e69b2b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/packaging-notarization/agents/openai.yaml",
+          "sha256": "0721dc84ec9140f9574b68e1423c8f44b98b8732bda40a1f692556a77b444cfa",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/signing-entitlements/SKILL.md",
+          "sha256": "79326e5096325b53c4350db9e1586c9a2ef56976705f01c24d3643a592dc3030",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/signing-entitlements/agents/openai.yaml",
+          "sha256": "5fd5c99a32497274c88987614203a287f20a22e44df788f8750cb72e474a8b75",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftpm-macos/SKILL.md",
+          "sha256": "4bd2a889a2f96569773b8d408710326df715f5cfa7c4b3e942be4f895e2b382a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftpm-macos/agents/openai.yaml",
+          "sha256": "ade556909559f350382c204e4e236494d94adfa72696d24cef2359e72021bee1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/SKILL.md",
+          "sha256": "ebfc06b1c1e11cadec83e5c204b20f33f01db1c36cb5796639567bd8eac0fe07",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/agents/openai.yaml",
+          "sha256": "cd39805b7030e7b047ab9295041f455536ce454398bc2367d5b5b9f7122238f8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/commands-menus.md",
+          "sha256": "d1319d31280eb82bd533b6018d05650b19d6a80ae4b75e8b8880b6be3cb103aa",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/components-index.md",
+          "sha256": "d2ab7e5faf4af0fdda108f0e902a3ade16d3bfa14f227c7f19c5c89960d732a0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/menu-bar-extra.md",
+          "sha256": "764bb146d18f1323e81dd9d9b1005927e2eff640fff3fe4166d1b7c439b79822",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/settings.md",
+          "sha256": "612e24bd82fb3f0c6e7d0160df6d68a2385a505dd7da5316fba9efba6aae3d2f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/split-inspectors.md",
+          "sha256": "1ded6f878f69fdab87e3fb791de4b260cf9a872a5ff697f915d13f8def59b9ca",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/swiftui-patterns/references/windowing.md",
+          "sha256": "12556564d1c2287ba12da006ec50cee16acd5c7101ff33795c6c008d872fba53",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/telemetry/SKILL.md",
+          "sha256": "64fae6fd88c411d108b321462f90b74deb42fb043b815baae04b199a07dfbd25",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/telemetry/agents/openai.yaml",
+          "sha256": "bf243b6d413bde9486203a3fd7cc51b01c521d5eb02a4a9f1bfe6d2083d0d533",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/test-triage/SKILL.md",
+          "sha256": "e6ed34d34d2b4f62a262f3ab9076ab02bfb75d7661491383493bee78545b7851",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/test-triage/agents/openai.yaml",
+          "sha256": "6f8150c07ac8bf704b50a8048a9367e48e6b6580835aab7aba19dc9a115c92bb",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/view-refactor/SKILL.md",
+          "sha256": "924b1a3a6f894443d26987346bc21fa8bf0815d463d2f741cb58a3e4321dc854",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/view-refactor/agents/openai.yaml",
+          "sha256": "75a9e18609c45534580ee17793e88d6d0d0078f5a315238211d71038ad9cd95e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/window-management/SKILL.md",
+          "sha256": "9fea3f84f6cd96c629bbb45cfe2715e9669a737f088a3453a20bd6083067e64d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/window-management/agents/openai.yaml",
+          "sha256": "662d7dfae05139feda8c243b7ad138e82f4a2636b8b5043e924744729859bf20",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/window-management/references/api-snippets.md",
+          "sha256": "3eae26aac164ef8314c6d62c4b9c5feef150e321ab4c90db46fe6faf02977f40",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    },
+    {
+      "id": "test-android-apps",
+      "version": "0.1.2",
+      "publisher_claim": "OpenAI",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "android-emulator-qa",
+          "frontmatter_name": "android-emulator-qa",
+          "path": "skills/android-emulator-qa/SKILL.md"
+        },
+        {
+          "directory": "android-performance",
+          "frontmatter_name": "android-performance",
+          "path": "skills/android-performance/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "0b5ddf8db9cd0ce0364b8fdc3743593491b7fd57cab1ad957409f46d66c2265f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "6ac5844288465f50e9eece2510b4ba1ac374ac32f4517a940a936cd8443e46c7",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/app-icon.png",
+          "sha256": "3e9984bfb849473e25a31b2df5b030209f27f76c0a5754008aa0460599ee34b4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/test-android-apps-small.svg",
+          "sha256": "5d3932c17c9320ff877842f6684dadb9c914d3621c3c538bbef4aa5481d8b21e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "plugin.lock.json",
+          "sha256": "abdf510d1cab3b2bc4036c488b88b0f3014536cd049a5ac31a0591520bce7001",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-emulator-qa/LICENSE.txt",
+          "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-emulator-qa/SKILL.md",
+          "sha256": "0ce182ad60db73ea663f0eab6793f4fbf63b4b4e2ebba596a61b7b3b8985eeac",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-emulator-qa/agents/openai.yaml",
+          "sha256": "044c402ec483ef4e5c0fc50e463b48affed394d16a4e03b8736dae1ec2051874",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-emulator-qa/scripts/ui_pick.py",
+          "sha256": "642b10a7f6a84dc456cdec703f22a542703bdc6b48e75a77511a870953b138c8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-emulator-qa/scripts/ui_tree_summarize.py",
+          "sha256": "9f3cb05ff7c67a5efa1bf29020a16b85dfb61afbac9fbe1c2dc775e01c45443b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-performance/SKILL.md",
+          "sha256": "931867cdf98318c0efaad503c87f2e29e4650d97d4f2bc80e58490e0011aa791",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-performance/agents/openai.yaml",
+          "sha256": "1655cec8c00430ff778fd7f0ccb45a40faa117766591f74fc690d8d6f855ab79",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-performance/scripts/heapprofd_reports.sh",
+          "sha256": "908b41329a7c80e6772ce5000471848e746c49650fa7b6a03bc50515e24c427d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/android-performance/scripts/simpleperf_hotspots.sh",
+          "sha256": "a10d44c7cad6509b954292183ebb4acc67005ea16a9b8ae0398ea3857d5d6afb",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    },
+    {
+      "id": "plugin-eval",
+      "version": "0.1.2",
+      "publisher_claim": "OpenAI Codex",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "evaluate-plugin",
+          "frontmatter_name": "evaluate-plugin",
+          "path": "skills/evaluate-plugin/SKILL.md"
+        },
+        {
+          "directory": "evaluate-skill",
+          "frontmatter_name": "evaluate-skill",
+          "path": "skills/evaluate-skill/SKILL.md"
+        },
+        {
+          "directory": "improve-skill",
+          "frontmatter_name": "improve-skill",
+          "path": "skills/improve-skill/SKILL.md"
+        },
+        {
+          "directory": "metric-pack-designer",
+          "frontmatter_name": "metric-pack-designer",
+          "path": "skills/metric-pack-designer/SKILL.md"
+        },
+        {
+          "directory": "plugin-eval",
+          "frontmatter_name": "plugin-eval",
+          "path": "skills/plugin-eval/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "72b434478d5008496d17d43b9b847121f47145f71177540ab47893b1559c5aed",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "d28a5e1bf2e39e6bde3c828b13dc4ca8bb156a570592b65e0e08521ef54b1b8c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a2edf44403872bc74c4cb4233d28c73e5d4e2c24a6703912ae4f3634dd2065a1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/plugin-eval.svg",
+          "sha256": "380b1c2dfbc55538d7ea0ad1fa86a3aab8e8ccf53d07cbd42f47e9a1a2fad9d5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/coverage-samples/coverage-final.json",
+          "sha256": "81735262592fbeafefd908c33e3df3f5ffb8a5b45e9fbaf6c61f4416f57f5cbe",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/coverage-samples/coverage.xml",
+          "sha256": "b9fd119e892d614b3e9492e5e6d76a6bf6eb5194b4ee7ce332139dad3cf3a508",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/coverage-samples/lcov.info",
+          "sha256": "000af92b94d7eeff092c06154a746a6faf57b8adffd73cb2e8b9f7aa61f8adcf",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/metric-pack/emit-pack.js",
+          "sha256": "b2e94767d6ec8287ba0c67d8e2568b1b0d8ad9603e716c5bb5c6bf74f373ecc6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/metric-pack/manifest.json",
+          "sha256": "6c92da5e3cbaff46968def12c95903ff97adb31d3ee027a58f8bfdc91feaeccc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/minimal-plugin/.codex-plugin/plugin.json",
+          "sha256": "22506549f793aa9ccd189549312101f9bc06ffb61c0837e3a607532124570082",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/minimal-plugin/assets/minimal.svg",
+          "sha256": "c67f46b29f1ab3063563fb37867a5c40eb934adc50d2d401732df42c08ed1841",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/minimal-plugin/skills/minimal-plugin-skill/SKILL.md",
+          "sha256": "34ec920dc659a7b7a1c0ea0f5412c978c62ad8a6d7a5eb8821f64c869f61c38c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/minimal-skill/SKILL.md",
+          "sha256": "bd81c3bbb459d3e1bd6dec1d657a49aa6c53a0efd2943200bf81d4cd35f455f4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/minimal-skill/references/details.md",
+          "sha256": "f1f14ada3209b5a0d13ea628040750eb44b229c4af835c44a3639c36596f64d8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/multi-skill-plugin/.codex-plugin/plugin.json",
+          "sha256": "c777b2fb736d10c877f1023c2bfe1bbd60b4b50018e7b98d2f0f2455dc860494",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/multi-skill-plugin/assets/multi.svg",
+          "sha256": "17b23f803ed656aeda44633a81a550bd47e21ece0ce0388370faebc9d2f666af",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/multi-skill-plugin/skills/alpha/SKILL.md",
+          "sha256": "68699be779ee5d3e4a2f247fce6927238ec1d5656f254812725f8700b96c4298",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/multi-skill-plugin/skills/beta/SKILL.md",
+          "sha256": "4a0439463565c4923fb6ca63d6ffca745c48215c9187f2f5c01eab71220b445c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/observed-usage/responses.jsonl",
+          "sha256": "dcd1fda00084818e63c598eee7f7ac03ea82820a7b443a985b6035fa98eeae4b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/ts-python-sample/src/sample.py",
+          "sha256": "398bba0dfa3671514d355a447f488e944d14c8e2a868b93695608baf488c245a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/ts-python-sample/src/sample.ts",
+          "sha256": "b75d7dff906987ae317e6613ce76b8a02ecbd6d1c1eb5a92a456db0d168dd829",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/ts-python-sample/tests/sample.test.ts",
+          "sha256": "168d055a4c7466d89a789dcd689c41161dc9229a9f59612efa8c41a5358b098c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "fixtures/ts-python-sample/tests/test_sample.py",
+          "sha256": "a0ddbe38bb1593519d5827924a4cb19090a6d94e88921423cd29e21c79a7642d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "package.json",
+          "sha256": "92d67bf1492c8b4ddb50dadf579777682e3e10af5a7063d48b6753f4a8ac9f99",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/benchmark-harness.md",
+          "sha256": "e54ac0bbe02f8c3774c3cef540aaaa0278603c8c65441c77eb37c27ced6b64f3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/chat-first-workflows.md",
+          "sha256": "97d8c6cfb03a33ff0c0b956e8c3d0e061c6eb5cc0074847621f8b3a8ad7a2746",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/evaluation-result-schema.md",
+          "sha256": "d28093191147b51c7a9d3d71715447f458229f0cb378e42b1ea7f6531db20245",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/metric-pack-manifest.md",
+          "sha256": "6984750130bcc59468a3f7f941a52610c6b9503cb7a27814567289a8895a82c4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/observed-usage.md",
+          "sha256": "1fc5aadaaf65183b42a18d764dac579bb13cbd5f9dd27d46ea38394440b07783",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/technical-design.md",
+          "sha256": "22516fc42598cf2a8f42d96533d0b34d269622018f5681ed055f8ffc99fe5e0d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "scripts/plugin-eval.js",
+          "sha256": "6013d9b280e3ca76de00f6269937650867d991ae6455fdd8d853b38c2382c563",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/evaluate-plugin/SKILL.md",
+          "sha256": "7941c0541ecdf57bae1846a783ddd11eb4bc3235b06a2b3ed5659380cf9b4c14",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/evaluate-plugin/agents/openai.yaml",
+          "sha256": "e41c985aa22339358f3342e052921f98c06e0b7d0f02688256c6246030779c5e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/evaluate-skill/SKILL.md",
+          "sha256": "92697228260f93c79967607822b0d998f68ce742de9440df51426fb71f2d4d64",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/evaluate-skill/agents/openai.yaml",
+          "sha256": "c009da732f4cf3daab6335e14044fd7a7b08f759b749280ec6dfd7ed2a730a8f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/improve-skill/SKILL.md",
+          "sha256": "9b407623e1c1d64d918d05e6ec6430234f687ff14b28c4f17a693d07d7711d36",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/improve-skill/agents/openai.yaml",
+          "sha256": "e3c19d0ade75d2209e3d61c73be2f82096aa100bd6f1e56d5ee0d406131ee09f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/metric-pack-designer/SKILL.md",
+          "sha256": "cf1d5677a7308f24f3219b2132912f3d9859451b203f3086f3f87ff0e43c2e56",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/metric-pack-designer/agents/openai.yaml",
+          "sha256": "0b2a6fd5aee1f711ccb0128329fdd894f0ccf65a25423f50b3f925abec14dcb5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/plugin-eval/SKILL.md",
+          "sha256": "07663cf8ef7c66d469d628bbca0de368d0578c8e7c7663a3dbc340d2cf6d772b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/plugin-eval/agents/openai.yaml",
+          "sha256": "dfee403cf88fc819f736de7df54907ab088636423599b5b3421d95b788d72dc4",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/cli.js",
+          "sha256": "b71d954f4ef13e3c8d3bc6f660bd1e695354419d0954046408ac2d2b5c111746",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/analyze.js",
+          "sha256": "cba4973dfd65c273e647f7b390881378debb56b5216f8031d6153ecd597b0ee3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/baseline.js",
+          "sha256": "1826575aa57f699f00a38023924daf3b409838affb873c89cd000c3b9b81c80e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/benchmark-events.js",
+          "sha256": "eaa14f4f228edf76d0c66877a3e482a8273d624c48a01725493fdfb815ec7f90",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/benchmark-workspace.js",
+          "sha256": "ae3a2c8b686cdd6db3d56350629a47e36d83a6818a90ae36f96ef37245ea6d0f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/benchmark.js",
+          "sha256": "61d9a840f798976660b75576a1fd24829403d080029f33b7f7d09a13539a9078",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/budget.js",
+          "sha256": "1bf96bc4f743a6822720a934c5a84180a05f2d3a7f5c929ef3949ee87c6165bb",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/compare.js",
+          "sha256": "c5104e9c0d0a57b1a47b327cb8351eca42f3feb44703591702c16d3d1a30f63a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/improvement-brief.js",
+          "sha256": "3a7afbb6ed846470012fac1a656bae5ce690c97980a43db3c6681871fceb8d96",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/measurement-plan.js",
+          "sha256": "40dea776a26249dad0485af0b4b99093280cf2d8f03c83409d925267d69ba3e5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/metric-packs.js",
+          "sha256": "06722780614e0bafcd84d1be128b81b47df2133b3f63f1820c6d5392060fad3b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/observed-usage.js",
+          "sha256": "e4140122bfb68d8a3aa965f2a896fb4aec980eb50908e429f9ae44588c24dfc3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/presentation.js",
+          "sha256": "274beb483bee0c9960c0fa22b61748917b445d1417f9bfb5d2bea74860a9c6de",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/schema.js",
+          "sha256": "dbafa3695bcd5843d8d8b29f506493b6936337989aa17d75c916512592af00c6",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/scoring.js",
+          "sha256": "b604b95df63392ce09da9d0764c25bd1274d96ea10295aa0c6c4bf0bb6f0c827",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/target.js",
+          "sha256": "35020e8232ed0e0508794de459064fe4a6edb2558065d6f4a8ca4a0f153af0cb",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/core/workflow-guide.js",
+          "sha256": "50a4e259eea67936041c729c3d6584472d429ae0ac9a358502822610ff8e74b1",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/code.js",
+          "sha256": "33b66994a78a8bd9667b75792c538b82cc2968d053c7409bcc7adb07f11509bd",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/coverage.js",
+          "sha256": "c07cd3d8691b37af1333f52d8501e1aef067a78b76f59cf22c381eeea87dbcd5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/plugin.js",
+          "sha256": "52acc1fdc7685f8fb10dca30b746ac3a4faf18ae7e421abbabf36fbd71d466b5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/python.js",
+          "sha256": "9bc1e367711430e258bed376e9ad472a0b9ae90125cbea1c5df27f21831ba3b0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/skill.js",
+          "sha256": "2900c16f0136c66bc713fa3dead3a5ca8f2810d628905c35834d25cd31785f19",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/evaluators/typescript.js",
+          "sha256": "7554a0b564f46023b93b5ec9a7bc2d30c3f1488e420ab75dee26080d23af4bd3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/index.js",
+          "sha256": "2abde4b4d22c803a8c2bc57a26d54fd115214f37180f6c560c17ec370c1a36d9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/lib/files.js",
+          "sha256": "624bad2cc090697160bee172bacb3715a7f8cc8843247a585e8b47673d2dec67",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/lib/frontmatter.js",
+          "sha256": "537c0adb94499f1bf91ecbb720fe9fe9b49c1ad08ce2c9bd5e823d7d1a67a611",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/lib/tokens.js",
+          "sha256": "2180d310200b8f139046b3a59deb4621e4617f9d4459bf74afd4ef34bd2eb1e3",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/renderers/html.js",
+          "sha256": "538cd6149a6699398f093769841ac3681bc9659a53936d35b6c84306bfb57c02",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/renderers/index.js",
+          "sha256": "272c5e199972f5c38a415ba25a0ea8b5c69e88574d0a8cd0f9b474176763bbbe",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "src/renderers/markdown.js",
+          "sha256": "5d146b3f6e1fd891ea7d7c40b90a96636098e1c61ce4af2ae9976ea37d2fa18a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "tests/plugin-eval.test.js",
+          "sha256": "f101cce8d62a7c5b74ded546bc40cfb9337c7827477623b84a2b538507150c9d",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    },
+    {
+      "id": "game-studio",
+      "version": "0.1.2",
+      "publisher_claim": "OpenAI",
+      "evidence": "Installed manifest author/developer/repository; no cryptographic publisher attestation obtained.",
+      "repository": "https://github.com/openai/plugins",
+      "license_claim": "MIT",
+      "disposition": "retain-official-provider-untouched",
+      "skills": [
+        {
+          "directory": "game-playtest",
+          "frontmatter_name": "game-playtest",
+          "path": "skills/game-playtest/SKILL.md"
+        },
+        {
+          "directory": "game-studio",
+          "frontmatter_name": "game-studio",
+          "path": "skills/game-studio/SKILL.md"
+        },
+        {
+          "directory": "game-ui-frontend",
+          "frontmatter_name": "game-ui-frontend",
+          "path": "skills/game-ui-frontend/SKILL.md"
+        },
+        {
+          "directory": "phaser-2d-game",
+          "frontmatter_name": "phaser-2d-game",
+          "path": "skills/phaser-2d-game/SKILL.md"
+        },
+        {
+          "directory": "react-three-fiber-game",
+          "frontmatter_name": "react-three-fiber-game",
+          "path": "skills/react-three-fiber-game/SKILL.md"
+        },
+        {
+          "directory": "sprite-pipeline",
+          "frontmatter_name": "sprite-pipeline",
+          "path": "skills/sprite-pipeline/SKILL.md"
+        },
+        {
+          "directory": "three-webgl-game",
+          "frontmatter_name": "three-webgl-game",
+          "path": "skills/three-webgl-game/SKILL.md"
+        },
+        {
+          "directory": "web-3d-asset-pipeline",
+          "frontmatter_name": "web-3d-asset-pipeline",
+          "path": "skills/web-3d-asset-pipeline/SKILL.md"
+        },
+        {
+          "directory": "web-game-foundations",
+          "frontmatter_name": "web-game-foundations",
+          "path": "skills/web-game-foundations/SKILL.md"
+        }
+      ],
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "edd750d7ab6df61834916cfc2498fd71c0c19fd9523e1e300fd4d958630e6cd5",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/app-icon.png",
+          "sha256": "5b3b083e4acc72b2d905e08b99dff08b811c1140aeb25adfc878a278e6dff20e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "assets/game-studio.svg",
+          "sha256": "8a1c309bf1d37f8f70361263ca09e44c196d41673d7c036fbebb9a698db4243f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/alternative-3d-engines.md",
+          "sha256": "cbb3c09a86ec838ddae81dd4bdbb5bfa3ed993b3551392374458117d04d3b413",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/engine-selection.md",
+          "sha256": "8a4113a5a51d89a679d258aef17ecd0e6b85544c303e8b807f7971c5726c5f70",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/frontend-prompts.md",
+          "sha256": "3485139464cb56670bbdaef5f65bb0c657fc27b4c7106723005f5fe79aed0368",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/gltf-loading-starter.md",
+          "sha256": "d5a13a894b2a22e5562044cbece99b07ba7414bc9db667004aac5119451ccf6d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/phaser-architecture.md",
+          "sha256": "c7c5b4c611d5c7aa40349a49d6fc37fa52e13d6c326088a662d55b717db877ae",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/playtest-checklist.md",
+          "sha256": "d8a4119f3912064c1328f7c537ff5fa94004f3aa81acba33d518758bf7fb8a3c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/rapier-integration-starter.md",
+          "sha256": "2b518d8305b33ade922bf6e82d886e11ce12fdbae5884c4834da90432ff0e953",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/react-three-fiber-stack.md",
+          "sha256": "344a78b61cdff9ad8139ad874fcd832554ab5d465bc680e8568104e1b7d0980e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/react-three-fiber-starter.md",
+          "sha256": "f66806159f15d38eadd9deccc792548622e1f02164a83eaf53393324c1524119",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/sprite-pipeline.md",
+          "sha256": "75ccf6f3329e3af78f55d804c6997675297dc239ce282570d47a59f65241a009",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/three-hud-layout-patterns.md",
+          "sha256": "5b7c0d49b0495b4be7bf0b860302b74b125e7db681edaec5594909c91f9af090",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/three-webgl-architecture.md",
+          "sha256": "703adaedc9355f0ba47cec65d1594d76f3955e7c20ea8b304d98035fa4bc909e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/threejs-stack.md",
+          "sha256": "1fa03624f7ab879f61f26c69f664f7d7932558732795bef4c5dbc4adf595304d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/threejs-vanilla-starter.md",
+          "sha256": "ecb594ebba4cc6804e8a74ebd800e0610fdca515113225efbcfe5f0001c03b29",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/web-3d-asset-pipeline.md",
+          "sha256": "036bb8a469519735d4d43ebab686e8e26639f4a35c74360e0c9dc176c1026c65",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "references/webgl-debugging-and-performance.md",
+          "sha256": "09c3efac9fae5ff7fee7fb75a6a40be6956da6028e0517d2a3ff5829709bb71a",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "scripts/build_sprite_edit_canvas.py",
+          "sha256": "c04fa1becb078c02c60f66ce8ada736983fef77e09f80158816b23098d889b95",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "scripts/normalize_sprite_strip.py",
+          "sha256": "746403f79454a9ae072fd46e337f9b0b3dad9bd07b080b7523e412a71f3a8ec0",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "scripts/render_sprite_preview_sheet.py",
+          "sha256": "a72468c463b12a44898a26981b14e6f35eb60c0d1814566dd3e32fea85a3e890",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-playtest/SKILL.md",
+          "sha256": "413f2453c602678962fab62446144f2929fcd5b9239f209c7889cc592d2b5be8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-playtest/agents/openai.yaml",
+          "sha256": "40f1fa63786745e9127bab780e4db18fc463c940ea4d8d0e0f862eccd224e53e",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-studio/SKILL.md",
+          "sha256": "87c32773f787b338064e3b7cf5e237a46b5c12e9ffe082927349ebb9584fd15b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-studio/agents/openai.yaml",
+          "sha256": "b844d035f2fab4512842660aa7e1cb021f5ea2cdacaa24837c53569ac9d9f352",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-ui-frontend/SKILL.md",
+          "sha256": "cd017fe0761207dcfd801f236490896cbf1cd6627ee267c801a19c7c780b7a01",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/game-ui-frontend/agents/openai.yaml",
+          "sha256": "f82611816d1a3cecee1344543c717aeb906eecbc95ee7f97a212eacb48023aa9",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/phaser-2d-game/SKILL.md",
+          "sha256": "f740df62cb4c6c0f7f5457be4f860d9d163f4cd1df78326c5a61de03d9d7efb8",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/phaser-2d-game/agents/openai.yaml",
+          "sha256": "6492bc935c9ea1237dadbb3dc4129fb3b827aa632f54bc9b8e86634374e6737b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-three-fiber-game/SKILL.md",
+          "sha256": "45e5aa86ff3a6a71d1f3f2ab6f0267ce4ca4d35d9e1883a483c16bc9b201db4d",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/react-three-fiber-game/agents/openai.yaml",
+          "sha256": "1c97d5c1eded6d566350c62f62791b5c037faf2b52e4b5e5ea2efa084ede6899",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/sprite-pipeline/SKILL.md",
+          "sha256": "eaaca5ef3faef575164e0775394980318b5561ba54fe7552dbe41971717cc7fc",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/sprite-pipeline/agents/openai.yaml",
+          "sha256": "e99afc9cc7b8514566fe7622cd83fcf2b447fc1443e764642e2f3c3de2181f80",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/three-webgl-game/SKILL.md",
+          "sha256": "0e7dabddb98442387c29a8c1269c12b69430addca8d47df0fa9f1ee2e7a3dd7f",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/three-webgl-game/agents/openai.yaml",
+          "sha256": "e2f8d12441c70a9fa57a78160a12537bf987d5a0003f937bdc1f911bdc2a6998",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/web-3d-asset-pipeline/SKILL.md",
+          "sha256": "22f39ea4eaabd9e9771a90957ed7f3a52c6837ee37b054962675c689ba8ef630",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/web-3d-asset-pipeline/agents/openai.yaml",
+          "sha256": "0865c13e734648451881e5b08ab0654272de316775bed6b9fd55ba8af101e43c",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/web-game-foundations/SKILL.md",
+          "sha256": "ef35c1954fa07d10673c1a5a7749656319494fd0675dd2be9671e2dd3cbd7e1b",
+          "disposition": "retained-provider-no-copy"
+        },
+        {
+          "path": "skills/web-game-foundations/agents/openai.yaml",
+          "sha256": "199ebde0ec55d0bc60364a824098a11e53a9419fac98c9904033679a03f6b45c",
+          "disposition": "retained-provider-no-copy"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "discord",
+  "version": "0.1.1",
+  "description": "Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity. 2 retained skill heads; one automatic registration omitted; full launcher retained.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Discord",
+        "shortDescription": "Guild tools and careful personal DM routing",
+        "longDescription": "Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity. Search indexed guild conversations or read a focused current channel/thread. Draft a reply from the relevant conversation context. Send an explicitly authorized bot message, or use the narrow personal-account UI route when appropriate. Start with a concrete task or ask what this plugin can do. The MCP speaks as a bot. It does not inherit your personal account or all your DMs. Indexed history can be stale; a plugin installation does not prove bot access.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Find the latest discussion in a Discord channel.",
+          "Draft a reply to this Discord message."
+        ]
+      }
+    }
+  }
+}

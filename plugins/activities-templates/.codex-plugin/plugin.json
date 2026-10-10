@@ -1,0 +1,28 @@
+{
+  "name": "activities-templates",
+  "version": "0.1.1",
+  "description": "Reusable activity and method catalog, scoped retrieval and chooser runtime. Source notes and private data stay externally bound.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Activities Templates",
+    "shortDescription": "Choose activities and reusable methods",
+    "longDescription": "Search reusable activity guides and methods in a selected domain, inspect their complete source and review status, or open a chooser for human selection. Adapt the selected guide through the relevant production studio. This package provides the shared catalog runtime and preserves existing scoped Atlas tool IDs. Its private catalog is an external dependency; installing the package does not supply or grant access to the private Atlas corpus.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find an activity for this audience and timebox.",
+      "Help me choose a reusable method for this task."
+    ]
+  },
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+}

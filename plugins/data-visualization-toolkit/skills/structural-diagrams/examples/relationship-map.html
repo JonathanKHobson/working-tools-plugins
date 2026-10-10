@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evidence-linked relationship map · fictional example</title>
+  <style>
+    :root { color-scheme: light dark; font: 16px/1.45 system-ui, sans-serif; --ink: light-dark(#17212b,#eef3f7); --muted: light-dark(#526170,#b7c3cf); --paper: light-dark(#fff,#17212b); --ground: light-dark(#f5f7fa,#101820); --line: light-dark(#a8b8c5,#7d91a3); --focus: light-dark(#075985,#7dd3fc); --border: light-dark(#cbd5df,#536575); }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--ground); }
+    main { max-width: 1040px; padding: 24px; margin: auto; }
+    h1 { font-size: clamp(1.5rem, 4vw, 2rem); margin: 0 0 6px; }
+    h2 { font-size: 1.2rem; margin: 26px 0 8px; }
+    p { margin: 8px 0 16px; }
+    .note { color: var(--muted); max-width: 75ch; }
+    .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin: 20px 0 12px; }
+    label { display: grid; gap: 5px; font-weight: 600; }
+    input { font: inherit; min-width: min(290px,80vw); padding: 9px 11px; color: var(--ink); background: var(--paper); border: 1px solid var(--border); border-radius: 6px; }
+    button { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--border); border-radius: 6px; min-height: 44px; padding: 8px 12px; }
+    button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .board-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--paper); }
+    .board { width: 800px; height: 420px; position: relative; }
+    svg { width: 800px; height: 420px; position: absolute; inset: 0; }
+    .edge { fill: none; stroke: var(--line); stroke-width: 2.5; }
+    .edge[data-status="inference"] { stroke-dasharray: 10 6; }
+    .edge[data-status="unknown"] { stroke-dasharray: 2 7; stroke-linecap: round; }
+    .board[data-focused] .edge:not(.active), .board[data-focused] .node:not(.active) { opacity: .18; }
+    .node { position: absolute; width: 154px; min-height: 64px; transform: translate(-50%,-50%); text-align: center; font-weight: 650; box-shadow: 0 1px 2px #0002; }
+    .node.active { outline: 3px solid var(--focus); outline-offset: 2px; }
+    .node small { display: block; font-weight: 400; color: var(--muted); }
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; margin: 12px 0; color: var(--muted); }
+    .legend span::before { content: ""; display: inline-block; width: 30px; border-top: 3px solid var(--line); vertical-align: middle; margin-right: 7px; }
+    .legend .inference::before { border-top-style: dashed; }
+    .legend .unknown::before { border-top-style: dotted; }
+    output { display: block; min-height: 48px; padding: 10px 12px; border-left: 4px solid var(--focus); background: var(--paper); }
+    ol { padding-left: 1.5rem; }
+    li { margin: 9px 0; }
+    .status { font-weight: 700; }
+    .record { border-top: 1px solid var(--border); padding: 9px 0; }
+    code { font-size: .9em; }
+    @media (max-width: 600px) { main { padding: 16px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>How a workshop packet connects</h1>
+  <p class="note">Fictional, deliberately incomplete packet. Five invented records (<a href="#records">R-01–R-05</a>) illustrate evidence-linked relationships. This map does not represent a real archive or claim that every connection is known.</p>
+  <div class="controls">
+    <label for="search">Find an entity<input id="search" type="search" placeholder="Name or ID, such as agenda" autocomplete="off"></label>
+    <button id="reset" type="button">Reset map</button>
+  </div>
+  <p class="note" id="map-desc">Select an entity to focus its immediate relationships. The map scrolls horizontally on narrow screens; the complete relationship list follows it.</p>
+  <div class="board-scroll" id="board-scroll" role="region" aria-label="Scrollable relationship map" aria-describedby="map-desc" tabindex="0">
+    <div class="board" id="board">
+      <svg viewBox="0 0 800 420" aria-hidden="true" focusable="false">
+        <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs>
+        <path class="edge" data-from="intake" data-to="agenda" data-status="fact" d="M172 188 L323 132" marker-end="url(#arrow)"/>
+        <path class="edge" data-from="intake" data-to="roster" data-status="fact" d="M172 232 L323 298" marker-end="url(#arrow)"/>
+        <path class="edge" data-from="agenda" data-to="venue" data-status="fact" d="M477 120 L628 120" marker-end="url(#arrow)"/>
+        <path class="edge" data-from="roster" data-to="followup" data-status="fact" d="M477 310 L628 310" marker-end="url(#arrow)"/>
+        <path class="edge" data-from="agenda" data-to="followup" data-status="inference" d="M477 143 L628 287" marker-end="url(#arrow)"/>
+        <path class="edge" data-from="venue" data-to="followup" data-status="unknown" d="M705 153 L705 277" marker-end="url(#arrow)"/>
+      </svg>
+      <button class="node" data-id="intake" style="left:95px;top:210px" type="button">Intake<small>N-01</small></button>
+      <button class="node" data-id="agenda" style="left:400px;top:120px" type="button">Agenda<small>N-02</small></button>
+      <button class="node" data-id="roster" style="left:400px;top:310px" type="button">Roster<small>N-03</small></button>
+      <button class="node" data-id="venue" style="left:705px;top:120px" type="button">Venue<small>N-04</small></button>
+      <button class="node" data-id="followup" style="left:705px;top:310px" type="button">Follow-up<small>N-05</small></button>
+    </div>
+  </div>
+  <div class="legend" aria-label="Relationship status"><span>Fact · solid</span><span class="inference">Inference · dashed</span><span class="unknown">Unknown · dotted</span></div>
+  <output id="selection" aria-live="polite">All five entities and six candidate links are shown. Select an entity to inspect its neighborhood.</output>
+  <h2>Relationship ledger</h2>
+  <ol id="relationships">
+    <li data-from="intake" data-to="agenda"><span class="status">Fact:</span> Intake → Agenda, assigned planning task. <a href="#r01">R-01</a>.</li>
+    <li data-from="intake" data-to="roster"><span class="status">Fact:</span> Intake → Roster, supplied attendee list. <a href="#r02">R-02</a>.</li>
+    <li data-from="agenda" data-to="venue"><span class="status">Fact:</span> Agenda → Venue, specifies a room-setup request. <a href="#r03">R-03</a>. Delivery of that request was not checked.</li>
+    <li data-from="roster" data-to="followup"><span class="status">Fact:</span> Roster → Follow-up, names carried into follow-up draft. <a href="#r04">R-04</a>.</li>
+    <li data-from="agenda" data-to="followup"><span class="status">Inference:</span> Agenda → Follow-up may determine recap topics; the recap draft lists matching headings, but no instruction to transfer them was found. <a href="#r03">R-03</a>, <a href="#r04">R-04</a>.</li>
+    <li data-from="venue" data-to="followup"><span class="status">Unknown:</span> Venue → Follow-up responsibility is unresolved. The checklist mentions room notes without assigning an owner or confirming delivery. <a href="#r05">R-05</a>.</li>
+  </ol>
+  <h2 id="records">Synthetic source records</h2>
+  <p class="note">These brief excerpts are invented for this example. IDs are local fixture citations, not links to external records.</p>
+  <div class="record" id="r01"><strong>R-01 · Intake note:</strong> “Draft the workshop agenda from the intake request.”</div>
+  <div class="record" id="r02"><strong>R-02 · Intake attachment:</strong> “Use this attendee roster for the session.”</div>
+  <div class="record" id="r03"><strong>R-03 · Agenda note:</strong> “Sections: opening, practice, next steps. Ask the venue for U-shaped seating and a display.”</div>
+  <div class="record" id="r04"><strong>R-04 · Follow-up draft:</strong> “Names imported from the roster; sections: opening, practice, next steps.”</div>
+  <div class="record" id="r05"><strong>R-05 · Checklist:</strong> “Room notes for recap?” No owner or completion mark appears.</div>
+</main>
+<script>
+  const board = document.getElementById('board');
+  const nodes = [...document.querySelectorAll('.node')];
+  const edges = [...document.querySelectorAll('.edge')];
+  const selection = document.getElementById('selection');
+  const search = document.getElementById('search');
+  const names = Object.fromEntries(nodes.map(node => [node.dataset.id, node.firstChild.textContent.trim()]));
+  let focused = null;
+
+  function render() {
+    const query = search.value.trim().toLowerCase();
+    const matches = nodes.filter(node => `${names[node.dataset.id]} ${node.querySelector('small').textContent}`.toLowerCase().includes(query));
+    const active = focused ? new Set([focused, ...edges.filter(edge => edge.dataset.from === focused || edge.dataset.to === focused).flatMap(edge => [edge.dataset.from, edge.dataset.to])]) : query ? new Set(matches.map(node => node.dataset.id)) : null;
+    board.toggleAttribute('data-focused', Boolean(active));
+    nodes.forEach(node => {
+      node.classList.toggle('active', Boolean(active?.has(node.dataset.id)));
+      node.setAttribute('aria-pressed', String(node.dataset.id === focused));
+    });
+    edges.forEach(edge => edge.classList.toggle('active', focused ? edge.dataset.from === focused || edge.dataset.to === focused : Boolean(active && active.has(edge.dataset.from) && active.has(edge.dataset.to))));
+    document.querySelectorAll('#relationships li').forEach(item => {
+      item.hidden = Boolean(focused && item.dataset.from !== focused && item.dataset.to !== focused);
+    });
+    if (focused) {
+      const count = edges.filter(edge => edge.dataset.from === focused || edge.dataset.to === focused).length;
+      selection.textContent = `${names[focused]}: ${count} adjacent candidate links. The ledger below shows their direction, status and source IDs.`;
+    } else if (query) {
+      selection.textContent = matches.length ? `${matches.length} matching ${matches.length === 1 ? 'entity' : 'entities'}. Select a match to inspect its links.` : 'No matching entity. Clear search or reset to show all.';
+    } else {
+      selection.textContent = 'All five entities and six candidate links are shown. Select an entity to inspect its neighborhood.';
+    }
+  }
+  nodes.forEach(node => node.addEventListener('click', () => { focused = node.dataset.id; search.value = ''; render(); }));
+  search.addEventListener('input', () => {
+    focused = null; render();
+    const query = search.value.trim().toLowerCase();
+    const match = query && nodes.find(node => `${names[node.dataset.id]} ${node.querySelector('small').textContent}`.toLowerCase().includes(query));
+    if (match) document.getElementById('board-scroll').scrollLeft = Math.max(0, match.offsetLeft - 24);
+  });
+  document.getElementById('reset').addEventListener('click', () => { focused = null; search.value = ''; render(); search.focus(); });
+  render();
+</script>
+</body>
+</html>

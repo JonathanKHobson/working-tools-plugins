@@ -1,0 +1,137 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "atlas-career": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "career"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-creative": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "creative"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-instructional": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "instructional"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-marketing": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "marketing"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-security": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "security"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-prompt": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "prompt"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-reasoning": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "reasoning"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-research": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "research"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-ux": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "ux"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-work-management": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "work-management"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-facilitation": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "facilitation"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    },
+    "atlas-writing": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/atlas_library_mcp.py",
+        "writing"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    }
+  }
+}

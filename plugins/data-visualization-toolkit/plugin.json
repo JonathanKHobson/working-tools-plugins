@@ -1,0 +1,32 @@
+{
+  "name": "data-visualization-toolkit",
+  "version": "0.2.0",
+  "description": "Choose, build, critique, and verify truthful data visualizations with complete web visualization methods across charts, maps, diagrams, dashboards, stories, and exports.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Data Visualization Toolkit",
+        "shortDescription": "Chart strategy, visual methods and QA",
+        "longDescription": "Full MIT web visualization methods and original analytical workflows, with a bundled local Data Explorer MCP App. Excludes separately licensed proprietary Visualize and unlicensed Scientific Visuals source.",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Choose the clearest visual for this data and audience.",
+          "Review this chart for accuracy and accessibility.",
+          "Build and verify a source-backed visualization in the chosen format."
+        ]
+      }
+    }
+  }
+}

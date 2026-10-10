@@ -1,0 +1,16 @@
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {gzipSync} from 'node:zlib';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const root=new URL('.',import.meta.url);
+const require=createRequire(new URL('./package.json',root));
+const {build}=require('esbuild');
+const entry=fileURLToPath(new URL('./web/app.js',root));
+const result=await build({entryPoints:[entry],bundle:true,write:false,outfile:'widget.js',platform:'browser',format:'iife',target:['es2022'],minify:true,legalComments:'inline',metafile:true,resolveExtensions:['.js'],plugins:[{name:'pinned-deps',setup(b){b.onResolve({filter:/^@modelcontextprotocol\/ext-apps$/},()=>({path:require.resolve('@modelcontextprotocol/ext-apps')}));}}]});
+await writeFile(new URL('./build-metafile.json',root),JSON.stringify(result.metafile,null,2));
+const js=result.outputFiles.find(f=>f.path.endsWith('.js'))?.text;if(!js)throw Error('Missing JS bundle');
+const css=await readFile(new URL('./web/style.css',root),'utf8');
+const payload=gzipSync(Buffer.from(JSON.stringify({js,css})),{level:9}).toString('base64');
+const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' blob:; style-src 'unsafe-inline'; connect-src 'self'"><title>Data Explorer</title></head><body><div id="root" role="status">Opening data explorer…</div><script id="bundle" type="application/octet-stream">${payload}</script><script>(async()=>{try{const node=document.getElementById('bundle');const bytes=Uint8Array.from(atob(node.textContent),c=>c.charCodeAt(0));node.remove();const data=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());const style=document.createElement('style');style.textContent=data.css;document.head.append(style);const script=document.createElement('script');script.textContent=data.js;document.body.append(script)}catch(e){document.getElementById('root').textContent='Data explorer could not load: '+e.message}})()</script></body></html>`;
+if(Buffer.byteLength(html)>1_000_000)throw Error('Widget exceeds 1 MB');
+await mkdir(new URL('./dist/',root),{recursive:true});await writeFile(new URL('./dist/widget.html',root),html);console.log(JSON.stringify({bytes:Buffer.byteLength(html),output:'dist/widget.html'}));

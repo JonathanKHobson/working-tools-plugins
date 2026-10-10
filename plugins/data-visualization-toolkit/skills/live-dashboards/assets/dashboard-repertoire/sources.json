@@ -1,0 +1,120 @@
+{
+  "packet": "01-dashboards",
+  "access_date": "2026-09-29",
+  "provenance": "Primary publication links and claim limits support original task-specific adaptations; source papers and rendered pages are not bundled.",
+  "sources": [
+    {
+      "id": "S01",
+      "class": "primary research",
+      "author_institution": "Gleicher, Albers, Walker, Jusufi, Hansen and Roberts",
+      "title": "Visual Comparison for Information Visualization",
+      "date": "2011",
+      "url": "https://graphics.cs.wisc.edu/Papers/2011/GAWJHR11/paper.pdf",
+      "claim_used": "Juxtaposition, superposition and explicit encoding provide a vocabulary for designing two-item comparisons.",
+      "limit": "Taxonomy, not an experiment proving this prototype improves decisions.",
+      "reuse": "Paraphrase and original task-specific adaptation only; PDFs and rendered publication pages excluded from bundles.",
+      "verified_url": "https://graphics.cs.wisc.edu/Papers/2011/GAWJHR11/paper.pdf"
+    },
+    {
+      "id": "S02",
+      "class": "primary research",
+      "author_institution": "Heer and Shneiderman",
+      "title": "Interactive Dynamics for Visual Analysis",
+      "date": "2012",
+      "url": "https://idl.cs.washington.edu/files/2012-InteractiveDynamics-CACM.pdf",
+      "claim_used": "Analysis can involve coordinated views, explicit histories and reversible actions; the packet adapts these into state contracts.",
+      "limit": "Illustrative taxonomy and design recommendations, not exhaustive survey or measured benefit for this prototype.",
+      "reuse": "Paraphrase and original task-specific adaptation only; PDFs and rendered publication pages excluded from bundles.",
+      "verified_url": "https://idl.cs.washington.edu/files/2012-InteractiveDynamics-CACM.pdf"
+    },
+    {
+      "id": "S03",
+      "class": "primary research",
+      "author_institution": "Segel and Heer",
+      "title": "Narrative Visualization: Telling Stories with Data",
+      "date": "2010",
+      "url": "https://idl.cs.washington.edu/files/2010-Narrative-InfoVis.pdf",
+      "claim_used": "Martini glass, interactive slideshow and drill-down are candidate author/reader structures.",
+      "limit": "Design-space analysis, not experimental evidence that an editorial route outperforms a workbench.",
+      "reuse": "Paraphrase and original task-specific adaptation only; PDFs and rendered publication pages excluded from bundles.",
+      "verified_url": "https://homes.cs.washington.edu/~jheer/files/narrative.pdf"
+    },
+    {
+      "id": "S04",
+      "class": "primary research",
+      "author_institution": "Sarikaya, Correll, Bartram, Tory and Fisher",
+      "title": "What Do We Talk About When We Talk About Dashboards?",
+      "date": "2019",
+      "url": "https://alper.datav.is/assets/publications/dashboards/dashboards-preprint.pdf",
+      "claim_used": "Dashboard genres are a research lead, not a verified claim in this packet.",
+      "limit": "Draft references to exact cluster counts and quotes require direct verification.",
+      "reuse": "Keep as follow-up reading, not as primary support for a proposed rule."
+    },
+    {
+      "id": "S05",
+      "class": "primary research",
+      "author_institution": "Gathani, Hulsebos, Gale, Haas and Demiralp",
+      "title": "Augmenting Decision Making via Interactive What-If Analysis",
+      "date": "2022",
+      "url": "https://arxiv.org/abs/2109.06160",
+      "claim_used": "What-if exploration can be treated as a distinct analysis mode; prototype uses simple capacity arithmetic only.",
+      "limit": "The four operations and any exact baseline-versus-scenario prescription were not verified from full text. No forecast claim.",
+      "reuse": "Conceptual context only."
+    },
+    {
+      "id": "S06",
+      "class": "official informative accessibility guidance (Understanding page, not normative standard)",
+      "author_institution": "W3C WAI",
+      "title": "Understanding SC 4.1.3 Status Messages",
+      "date": "WCAG 2.2 page; page date not verified",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "claim_used": "A concise updated result count can be announced without moving focus; the results list itself is not the status message.",
+      "limit": "Implementation requires actual assistive-technology/browser check; none is claimed here.",
+      "reuse": "Use live-region status design; verify the exact normative text before quoting."
+    },
+    {
+      "id": "S07",
+      "class": "official informative accessibility guidance (Understanding page, not normative standard)",
+      "author_institution": "W3C WAI",
+      "title": "Understanding SC 2.5.8 Target Size (Minimum)",
+      "date": "WCAG 2.2 page; page date not verified",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "claim_used": "Pointer targets should be checked against the criterion and exceptions.",
+      "limit": "No measured target audit was completed in this subtask.",
+      "reuse": "Accessibility QA reference."
+    },
+    {
+      "id": "S08",
+      "class": "community lead",
+      "author_institution": "Zoho Analytics community user",
+      "title": "Applying dashboard filters to KPI widgets",
+      "date": "not verified",
+      "url": "https://help.zoho.com/portal/ar/community/topic/applying-dashboard-filters-to-kpi-widgets",
+      "claim_used": "One report says filters affect charts but not KPI widgets.",
+      "limit": "Single report; neither prevalence nor vendor behavior is established.",
+      "reuse": "Failure-mode prompt only."
+    },
+    {
+      "id": "S09",
+      "class": "repository example",
+      "author_institution": "w95/awesome-claude-corporate-skills",
+      "title": "interactive-dashboard-builder/SKILL.md",
+      "date": "repository update date not verified",
+      "url": "https://github.com/w95/awesome-claude-corporate-skills/blob/main/10-data-analytics/interactive-dashboard-builder/SKILL.md",
+      "claim_used": "An external example uses a header/KPI-grid/chart/table recipe and filters; useful as a duplication warning.",
+      "limit": "License, tests and maintenance not established; do not copy code.",
+      "reuse": "Reject as an integration dependency; inspect repo before any future adoption."
+    },
+    {
+      "id": "S10",
+      "class": "repository example",
+      "author_institution": "NTCoding/claude-skillz",
+      "title": "data-visualization/SKILL.md",
+      "date": "not verified",
+      "url": "https://github.com/NTCoding/claude-skillz/blob/main/data-visualization/SKILL.md",
+      "claim_used": "Broad interaction list exists elsewhere; it does not supply a scenario or reset contract in the fetched summary.",
+      "limit": "License, references, tests and exact coverage unverified.",
+      "reuse": "No external code or content copied."
+    }
+  ]
+}

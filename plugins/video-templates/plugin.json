@@ -1,0 +1,32 @@
+{
+  "name": "video-templates",
+  "version": "0.1.1",
+  "description": "Seven pinned animation methods, public example metadata and complete revisioned local storyboarding.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT AND MIT (retained Animate notice)",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Video Templates",
+        "shortDescription": "Video families, references and editable storyboards",
+        "developerName": "Kyle Hobson",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Browse video templates and choose an exact example.",
+          "Build an editable storyboard from my idea."
+        ],
+        "brandColor": "#6D5DFB"
+      }
+    }
+  }
+}

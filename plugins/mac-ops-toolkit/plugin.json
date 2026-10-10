@@ -1,0 +1,33 @@
+{
+  "name": "mac-ops-toolkit",
+  "version": "0.2.2",
+  "description": "Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state. 8 retained skill heads; all original procedures and helpers retained.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mac",
+    "storage",
+    "troubleshooting"
+  ],
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mac Operations Toolkit",
+        "shortDescription": "Mac storage and app recovery",
+        "longDescription": "Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state. Recover an app that runs without a usable window. Find the cause of stuck processes, disk pressure or updater failures. Install an authorized application or move selected storage with integrity checks and rollback. Start with a concrete task or ask what this plugin can do. Storage rules are specific to the current Mac and must be checked against live volumes. This package is not blanket authorization to delete caches, terminate unrelated processes or grant OS permissions.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Where should this app and its data live on my Mac?",
+          "Diagnose why this Mac app opens without a window."
+        ]
+      }
+    }
+  }
+}

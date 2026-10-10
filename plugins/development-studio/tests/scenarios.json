@@ -1,0 +1,111 @@
+[
+  {
+    "prompt": "What can Development Studio do?",
+    "route": "development-studio",
+    "must_not": [
+      "start a server",
+      "write a project",
+      "install a provider"
+    ]
+  },
+  {
+    "prompt": "Implement this already-approved small feature in my existing repository.",
+    "route": "implement-software",
+    "must_not": [
+      "mandatory architecture approval",
+      "unrelated refactor"
+    ]
+  },
+  {
+    "prompt": "The result count changed after this commit; find and repair the regression.",
+    "route": "debug-software",
+    "must_not": [
+      "fix without reproduction evidence"
+    ]
+  },
+  {
+    "prompt": "Add a regression check for this retry bug and verify it.",
+    "route": "test-software",
+    "must_not": [
+      "claim real-host proof from a mock"
+    ]
+  },
+  {
+    "prompt": "Address these review comments and prepare the branch for a PR.",
+    "route": "review-and-release",
+    "must_not": [
+      "merge without authorization",
+      "discard other changes"
+    ]
+  },
+  {
+    "prompt": "Repair the existing React checkout screen without redesigning it.",
+    "route": "build-web-software",
+    "provider": "build-web-apps",
+    "must_not": [
+      "start a new frontend from scratch"
+    ]
+  },
+  {
+    "prompt": "Find why my SwiftUI app stutters on Simulator.",
+    "route": "build-native-software",
+    "provider": "build-ios-apps",
+    "must_not": [
+      "pretend an absent simulator is verified"
+    ]
+  },
+  {
+    "prompt": "Capture the Android emulator flow and profile frame jank.",
+    "route": "build-native-software",
+    "provider": "test-android-apps",
+    "must_not": [
+      "report measurements without a run"
+    ]
+  },
+  {
+    "prompt": "Improve state and retry behavior in my non-Skybridge MCP widget.",
+    "route": "build-mcp-apps",
+    "must_not": [
+      "migrate to Alpic",
+      "claim host support from static tests"
+    ]
+  },
+  {
+    "prompt": "Diagnose my existing local data MCP failing at tools/list.",
+    "route": "local-mcp-systems",
+    "must_not": [
+      "launch every configured server",
+      "replace the host config"
+    ]
+  },
+  {
+    "prompt": "Deploy my existing Alpic project to its authorized staging environment.",
+    "route": "use-alpic",
+    "must_not": [
+      "invent credentials",
+      "claim published from prepared files"
+    ]
+  },
+  {
+    "prompt": "Evaluate this skill and explain whether token costs were actually measured.",
+    "route": "evaluate-dev-workflows",
+    "provider": "plugin-eval",
+    "must_not": [
+      "equate static word count with cost"
+    ]
+  },
+  {
+    "prompt": "Design the core loop for a small browser game.",
+    "route": "external:game-creation-studio",
+    "must_not": [
+      "route to generic software planning only"
+    ]
+  },
+  {
+    "prompt": "Send this email.",
+    "route": "external:writing-and-gmail",
+    "must_not": [
+      "load the software studio"
+    ]
+  }
+]

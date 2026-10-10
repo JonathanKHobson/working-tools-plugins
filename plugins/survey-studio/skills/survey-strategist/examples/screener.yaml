@@ -1,0 +1,175 @@
+survey:
+  id: research-screener
+  title: Research participation screener
+  version: 1.0.0
+  objective: Determine eligibility and quota fit for a study about recent use of a
+    workflow without revealing the desired answers.
+  target_audience: Adults in the recruitment frame who may have used the target workflow.
+  mode: web
+  estimated_minutes: 3
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Answering is voluntary and does not guarantee selection. You may skip optional
+      questions or stop at any time.
+    contact: research@example.com
+  privacy:
+    identifiability: pseudonymous
+    collects_pii: false
+    retention: Delete ineligible screening responses after 90 days and retain minimum
+      recruitment disposition data.
+    jurisdictions:
+    - US
+    sensitive_data:
+    - age eligibility
+    security_notes: Keep contact details in the recruitment system, separate from
+      screener answers.
+analysis_plan:
+  decisions:
+  - Invite eligible participants while documenting recruitment disposition and minimizing
+    collected data.
+  primary_metrics: []
+  segments:
+  - experience_level
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: eligibility
+  title: Eligibility
+  questions:
+  - id: adult_eligibility
+    type: single_choice
+    text: Which age range includes you?
+    required: false
+    rationale: Checks adult eligibility with a refusal route.
+    construct: adult eligibility
+    analysis_use: Terminate under-age or refused responses according to the approved
+      protocol.
+    choices:
+    - id: under18
+      label: Under 18
+      value: under18
+    - id: adult
+      label: 18 or older
+      value: adult
+    - id: prefer_not
+      label: Prefer not to answer
+      value: prefer_not
+      exclusive: true
+    sensitive: true
+    platform_notes:
+      qualtrics:
+        branching: Terminate unless value is adult.
+    screening: true
+  - id: workflow_recency
+    type: single_choice
+    text: When did you last use the target workflow?
+    required: true
+    rationale: Checks the required experience window.
+    construct: workflow recency
+    analysis_use: Eligible when within the approved recency window.
+    choices:
+    - id: week
+      label: Within the past 7 days
+      value: week
+    - id: month
+      label: 8–30 days ago
+      value: month
+    - id: quarter
+      label: 31–90 days ago
+      value: quarter
+    - id: older
+      label: More than 90 days ago
+      value: older
+    - id: never
+      label: I have not used it
+      value: never
+    platform_notes:
+      qualtrics:
+        branching: Terminate if value is older or never.
+  - id: experience_level
+    type: single_choice
+    text: About how many times have you used the workflow in the past 90 days?
+    required: true
+    rationale: Supports experience quotas without revealing a preferred amount.
+    construct: workflow experience level
+    analysis_use: Use for prespecified novice/experienced quotas.
+    choices:
+    - id: one
+      label: 1 time
+      value: 1
+    - id: two_three
+      label: 2–3 times
+      value: 2
+    - id: four_six
+      label: 4–6 times
+      value: 4
+    - id: seven_plus
+      label: 7 or more times
+      value: 7
+    - id: not_sure
+      label: Not sure
+      value: not_sure
+  - id: research_conflict
+    type: multi_choice
+    text: Which of these apply to you?
+    required: false
+    rationale: Identifies conflicts or expertise that may affect eligibility.
+    construct: research conflict
+    analysis_use: Apply only approved exclusion rules; preserve all other respondents.
+    choices:
+    - id: employee
+      label: I work for the sponsoring organization
+      value: employee
+    - id: competitor
+      label: I work for a direct competitor
+      value: competitor
+    - id: researcher
+      label: I conduct research about this type of product
+      value: researcher
+    - id: none
+      label: None of these
+      value: none
+      exclusive: true
+    - id: prefer_not
+      label: Prefer not to answer
+      value: prefer_not
+      exclusive: true
+    sensitive: true
+    platform_notes:
+      qualtrics:
+        branching: Apply approved exclusion rules without exposing them to respondents.
+- id: close
+  title: Participation
+  questions:
+  - id: availability
+    type: multi_choice
+    text: Which session times could you attend?
+    required: false
+    rationale: Collects operational availability after substantive eligibility.
+    construct: session availability
+    analysis_use: Match eligible respondents to approved session slots.
+    choices:
+    - id: weekday_morning
+      label: Weekday morning
+      value: weekday_morning
+    - id: weekday_afternoon
+      label: Weekday afternoon
+      value: weekday_afternoon
+    - id: weekday_evening
+      label: Weekday evening
+      value: weekday_evening
+    - id: weekend
+      label: Weekend
+      value: weekend
+    - id: none
+      label: None of these
+      value: none
+      exclusive: true

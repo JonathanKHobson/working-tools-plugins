@@ -1,0 +1,30 @@
+{
+  "name": "design-templates",
+  "version": "0.1.1",
+  "description": "Reusable visual templates with source-bound design handoffs, token checks and small adaptation recipes.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Design Templates",
+        "shortDescription": "Reusable visual templates, editable sources and verified handoffs",
+        "longDescription": "Complete source-integrity chooser, verified design handoffs, token checks and inventory tools for explicitly supplied editable sources. Restricted private templates are excluded.",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "Open Design Library and compare Site templates.",
+          "Find a reusable presentation or document template."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+survey:
+  id: post-task-usability
+  title: Post-task usability survey
+  version: 1.0.0
+  objective: Measure self-reported task outcome, perceived ease, confidence, and the
+    main issue immediately after a usability task.
+  target_audience: Participants who just attempted the specified usability task.
+  mode: web
+  estimated_minutes: 3
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Participation is voluntary. You may skip optional questions or stop at any
+      time.
+    contact: research@example.com
+  privacy:
+    identifiability: anonymous
+    collects_pii: false
+    retention: Delete raw responses after 12 months.
+    jurisdictions:
+    - US
+analysis_plan:
+  decisions:
+  - Identify tasks needing design investigation and interpret observed behavior with
+    participant perception.
+  primary_metrics:
+  - task_success
+  - perceived_ease
+  segments: []
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: post_task
+  title: About the task
+  questions:
+  - id: task_success
+    type: single_choice
+    text: Were you able to reach the task goal?
+    required: true
+    rationale: Captures the participant’s understanding of task success.
+    construct: self-reported task success
+    analysis_use: Compare with observed success and investigate disagreements.
+    choices:
+    - id: 'yes'
+      label: Yes, completely
+      value: 'yes'
+    - id: partial
+      label: Partly
+      value: partial
+    - id: 'no'
+      label: 'No'
+      value: 'no'
+    - id: unsure
+      label: I am not sure
+      value: unsure
+  - id: perceived_ease
+    type: rating
+    text: How easy or difficult was this task?
+    required: true
+    rationale: Measures perceived ease immediately after the task.
+    construct: post-task perceived ease
+    analysis_use: Primary perceptual outcome; report full 1–7 distribution.
+    scale:
+      min: 1
+      max: 7
+      step: 1
+      anchors:
+        '1': Very difficult
+        '4': Neither easy nor difficult
+        '7': Very easy
+    source: Original generic item; do not claim SEQ benchmark equivalence.
+  - id: task_confidence
+    type: rating
+    text: How confident are you that the result is correct?
+    required: false
+    rationale: Measures confidence in the task result, which can differ from ease.
+    construct: task-result confidence
+    analysis_use: Compare with observed correctness and perceived ease.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Not at all confident
+        '3': Moderately confident
+        '5': Extremely confident
+  - id: main_issue
+    type: textarea
+    text: What was the main thing that made the task difficult, if anything?
+    required: false
+    rationale: Provides a focused diagnostic in the participant’s words.
+    construct: task difficulty diagnostic
+    analysis_use: Code observed and reported issues together; preserve disagreement.

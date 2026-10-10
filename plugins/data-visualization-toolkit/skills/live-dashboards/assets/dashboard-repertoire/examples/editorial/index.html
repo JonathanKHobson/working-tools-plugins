@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where do the seats go unused? — a guided look at twelve workshop sessions (synthetic data)</title>
+  <link rel="stylesheet" href="editorial.css">
+</head>
+<body>
+  <a class="skip" href="#explore">Skip to the explorer</a>
+
+  <header class="lede" id="top">
+    <p class="kicker">Program review · twelve workshop sessions · eight weeks · <strong>synthetic data</strong></p>
+    <h1>Where do the seats go <em>unused?</em></h1>
+    <p class="standfirst" id="standfirst"></p>
+  </header>
+
+  <!-- Scope ribbon: always states which slice every sentence below describes -->
+  <div class="ribbon" role="region" aria-label="Reading scope">
+    <p id="ribbon-text"></p>
+    <div class="ribbon-actions">
+      <a href="#explore" class="ribbon-link">Change scope</a>
+      <button type="button" id="ribbon-reset" class="link-btn">Reset</button>
+    </div>
+  </div>
+
+  <nav class="chapters" aria-label="Chapters">
+    <ol>
+      <li><a href="#ch-seats">Seats</a></li>
+      <li><a href="#ch-pair">Two sessions</a></li>
+      <li><a href="#ch-whatif">What if</a></li>
+      <li><a href="#explore">Explore</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section class="chapter" id="ch-seats" aria-labelledby="h-seats">
+      <p class="chapter-no">1</p>
+      <h2 id="h-seats" tabindex="-1">Every square is a seat</h2>
+      <p class="deck">Filled squares are enrolled participants. Open squares are empty seats. The notch marks 60% of each room. Rows are in calendar order.</p>
+      <div class="seatmap-wrap">
+        <div id="seatmap" class="seatmap" role="region" aria-label="Session seat rows" tabindex="0"></div>
+        <aside class="margin-notes" id="margin-notes" aria-label="Computed notes for this scope"></aside>
+      </div>
+      <div id="seat-empty" class="empty" hidden></div>
+      <p class="how">Select a row to put it into the side-by-side reading in chapter 2.</p>
+    </section>
+
+    <section class="chapter" id="ch-pair" aria-labelledby="h-pair">
+      <p class="chapter-no">2</p>
+      <h2 id="h-pair" tabindex="-1">Two sessions, side by side</h2>
+      <p class="deck" id="pair-rule"></p>
+      <div class="pair-pickers">
+        <label>First session <select id="pick-1"></select></label>
+        <label>Second session <select id="pick-2"></select></label>
+      </div>
+      <p id="pair-error" class="error-text" aria-live="assertive"></p>
+      <div id="pair" class="pair"></div>
+    </section>
+
+    <section class="chapter" id="ch-whatif" aria-labelledby="h-whatif">
+      <p class="chapter-no">3</p>
+      <h2 id="h-whatif" tabindex="-1">What if a room were smaller?</h2>
+      <p class="deck">Move the capacity for one session and watch its occupancy change. Enrollment stays at the recorded number. This is arithmetic, not a forecast. The source figures never change.</p>
+      <div class="whatif-controls">
+        <label>Session <select id="wi-session"></select></label>
+        <label for="wi-cap">Hypothetical capacity: <output id="wi-out" for="wi-cap"></output> seats</label>
+        <input type="range" id="wi-cap" step="1" aria-describedby="wi-sentence">
+        <div class="row-actions">
+          <button type="button" id="wi-goal" class="btn"></button>
+          <button type="button" id="wi-restore" class="btn quiet"></button>
+        </div>
+      </div>
+      <div id="wi-strip" class="wi-strip" aria-hidden="true"></div>
+      <p id="wi-sentence" class="wi-sentence"></p>
+      <div id="wi-active"></div>
+    </section>
+
+    <section class="chapter explore" id="explore" aria-labelledby="h-explore">
+      <p class="chapter-no">4</p>
+      <h2 id="h-explore" tabindex="-1">Explore on your own</h2>
+      <p class="deck">Changing the scope here rewrites every sentence above, including the headline figures.</p>
+      <div class="explore-controls">
+        <fieldset>
+          <legend>Weeks</legend>
+          <div class="presets" role="group" aria-label="Week presets">
+            <button type="button" class="btn quiet" data-preset="1-8">All</button>
+            <button type="button" class="btn quiet" data-preset="1-4">Weeks 1–4</button>
+            <button type="button" class="btn quiet" data-preset="5-8">Weeks 5–8</button>
+          </div>
+          <label>From <select id="ex-from"></select></label>
+          <label>To <select id="ex-to"></select></label>
+        </fieldset>
+        <label class="check"><input type="checkbox" id="ex-below"> Only sessions below 60% occupied</label>
+      </div>
+      <div id="ex-empty" class="empty" hidden></div>
+      <div class="table-scroll" role="region" aria-labelledby="h-explore" tabindex="0">
+        <table id="ex-table"></table>
+      </div>
+    </section>
+
+    <div id="error-state" class="error-state" role="alert" hidden></div>
+  </main>
+
+  <footer class="colophon">
+    <p><strong>About these numbers.</strong> Fictional demonstration data (synthetic-workshop-sessions v1.0.0). Occupancy is enrolled ÷ capacity. Overall figures sum enrollment and capacity across the sessions in scope. Ratings are means of 1–5 responses with counts shown. Differences are descriptive only; sampling and comparability are unknown. Hypothetical capacities are marked with dashed outlines and the word “hypothetical”.</p>
+  </footer>
+
+  <p class="visually-hidden" id="announcer" aria-live="polite"></p>
+
+  <script src="../shared/sessions-data.js"></script>
+  <script src="../shared/session-model.js"></script>
+  <script src="editorial.js"></script>
+</body>
+</html>

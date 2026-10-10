@@ -1,0 +1,13 @@
+# Rights and dependencies
+
+This public edition distributes Kyle Hobson's chooser, adapters and complete storyboard runtime under the retained MIT license. The first-party chooser came from UX Design Studio and is maintained by Design Templates. Its original source had no standalone license; the authorized public edition uses this package's first-party MIT grant, rather than claiming a third-party grant from that absence. Exact source and export hashes are recorded in PROVENANCE.json.
+
+The complete staged Animate method closure comes from cth9191/animate, revision 7e5eb56feb2dd573f890e1b7b34748af43d58263, under its retained MIT notice. All 112 pinned source/support files remain byte-exact. The seven widget thumbnails are newly resized JPEG derivatives of the retained, licensed styles/*/sample.png files. No private project references or external film frames are copied into the package. The source procedures remain references; browsing does not execute their Node/ffmpeg tools.
+
+The catalog contains a metadata-only projection of the source Activity Atlas catalog: family/example IDs and titles, categories, technical media hashes/dimensions, public URLs, download inventories/availability and attributed license summaries. Creative starter prompts, style narratives, recipes, source files, film/music/font bytes and reference bundles are excluded. Public links refer to material kept at its originating owner. A reported download license or available URL is not this package's permission to reuse the linked content. Read the chosen bundle notices and establish rights before adaptation or redistribution. No endpoint or playback review is renewed by exporting metadata.
+
+Users may bind their own catalog through VIDEO_LIBRARY_CATALOG or the external bindings file. That material is user-supplied data, not this package's licensed content. Preserve its provenance, rights and privacy separately. Public URL filtering continues to reject local and off-origin media in the chooser.
+
+The local stdio service needs Python 3.10+, the MCP SDK and Pillow. Browser interaction needs a compatible MCP App host and bridge. Standalone HTML is a rendered inspection fixture; it cannot save through MCP by itself. Production tooling, accounts, optional speech providers, Node, browser capture, ffmpeg, paid credits and film-specific assets remain external prerequisites. Installing or testing this package does not prove film reproduction or listening approval.
+
+No private bindings, credentials, host profiles, storyboard databases or user reference images are distributed. The complete upstream notices remain in libraries/animate-methods/LICENSE, PROVENANCE.md and SOURCE-MANIFEST.json.

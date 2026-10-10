@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "description": "Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning. 3 retained skill heads. Four nonoperative icon/automatic-registration files excluded; no operative methods omitted.",
+  "keywords": [
+    "reasoning",
+    "socratic",
+    "critical-compass",
+    "arguments",
+    "assumptions",
+    "perspectives"
+  ],
+  "name": "reasoning-studio",
+  "version": "0.1.3",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "brandColor": "#256D85",
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Stress-test this claim and identify what evidence would change it.",
+          "Help me question this assumption one question at a time.",
+          "Compare the strongest credible explanations and preserve the disagreement."
+        ],
+        "developerName": "Jonathan Kyle Hobson",
+        "displayName": "Reasoning Toolkit",
+        "longDescription": "Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning. Check a claim against its strongest credible alternative. Work through a consequential assumption one question at a time. Audit supplied reasoning with Critical Compass and preserve evidence, uncertainty and dissent. Start with a concrete task or ask what this plugin can do. Reasoning frameworks and model agreement do not supply independent evidence. Advanced panels are an explicit mode, and human-loop questions require real user answers.",
+        "shortDescription": "Clearer claims and decisions"
+      }
+    }
+  }
+}

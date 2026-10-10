@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session workbench — occupancy, comparison, capacity scenario (synthetic data)</title>
+  <link rel="stylesheet" href="workbench.css">
+</head>
+<body>
+  <a class="skip" href="#ledger-heading">Skip to session ledger</a>
+
+  <header class="masthead">
+    <div>
+      <h1>Session workbench</h1>
+      <p class="sub">12 workshop sessions · weeks 1–8 · <strong>synthetic demonstration data</strong></p>
+    </div>
+    <p class="legend-inline" aria-hidden="true">
+      <span class="key key-below"></span> below 60% occupied
+      <span class="key key-ok"></span> 60% or more
+      <span class="key key-ghost"></span> hypothetical capacity
+    </p>
+  </header>
+
+  <!-- Command bar: scope provenance, undo, reset. Stays visible (sticky). -->
+  <div class="command" role="region" aria-label="Current scope and history">
+    <div class="scope">
+      <span class="count" id="scope-count"></span>
+      <ul class="chips" id="scope-chips" aria-label="Active constraints"></ul>
+    </div>
+    <div class="command-actions">
+      <details class="filter-disclosure" id="filter-disclosure">
+        <summary>Filters</summary>
+        <div class="filter-body">
+          <label>From week <select id="week-from"></select></label>
+          <label>To week <select id="week-to"></select></label>
+          <label class="check"><input type="checkbox" id="below-only"> Below 60% only</label>
+          <p class="hint">Or drag across the week axis in the plot.</p>
+        </div>
+      </details>
+      <button type="button" class="tool" id="undo" disabled>Undo<span class="kbd" aria-hidden="true">⌘Z</span></button>
+      <button type="button" class="tool" id="reset">Reset</button>
+    </div>
+  </div>
+
+  <main class="bench" id="bench">
+    <section class="plot-zone" aria-labelledby="plot-heading">
+      <div class="zone-head">
+        <h2 id="plot-heading">Occupancy by week</h2>
+        <p class="zone-note">Enrolled ÷ capacity. Shaded band = below 60%. Faded weeks are outside the filter and kept for context.</p>
+      </div>
+      <div class="plot-wrap" id="plot-wrap" tabindex="0" role="group"
+           aria-describedby="plot-help" aria-label="Occupancy plot. Use left and right arrow keys to move between sessions in scope, Enter to pin for comparison.">
+        <svg id="plot" role="img" aria-labelledby="plot-summary"></svg>
+        <p id="plot-summary" class="visually-hidden"></p>
+        <div id="plot-empty" class="empty" hidden></div>
+      </div>
+      <p id="plot-help" class="hint">Pointer: click a dot to pin it, drag across the week axis to set the range. Keyboard: arrow keys move, Enter pins, Escape clears the cursor. Every action is also available in the ledger below.</p>
+    </section>
+
+    <aside class="inspector" aria-label="Comparison and scenario">
+      <section class="tray" id="tray" aria-labelledby="tray-heading" tabindex="-1">
+        <h2 id="tray-heading">Compare A / B</h2>
+        <div id="tray-body"></div>
+      </section>
+
+      <section class="scenario" id="scenario" aria-labelledby="scenario-heading" tabindex="-1">
+        <h2 id="scenario-heading">Capacity scenario <span class="flag">Hypothetical</span></h2>
+        <p class="zone-note">Changes capacity only. Enrollment stays at recorded values. This is arithmetic, not a forecast of demand. Source data never changes.</p>
+        <form id="scenario-form" novalidate>
+          <label for="sc-session">Session</label>
+          <select id="sc-session"></select>
+          <label for="sc-cap">Hypothetical capacity (seats)</label>
+          <div class="stepper">
+            <button type="button" class="tool" id="sc-dec" aria-label="One seat fewer">−</button>
+            <input id="sc-cap" type="number" inputmode="numeric" min="1" max="200" step="1" aria-describedby="sc-error sc-preview">
+            <button type="button" class="tool" id="sc-inc" aria-label="One seat more">+</button>
+          </div>
+          <p id="sc-preview" class="preview" aria-live="polite"></p>
+          <p id="sc-error" class="error-text" aria-live="assertive"></p>
+          <div class="row-actions">
+            <button type="submit" class="primary">Apply</button>
+            <button type="button" class="tool" id="sc-goal"></button>
+          </div>
+        </form>
+        <div id="sc-ledger"></div>
+      </section>
+    </aside>
+
+    <section class="ledger-zone" aria-labelledby="ledger-heading">
+      <div class="zone-head">
+        <h2 id="ledger-heading" tabindex="-1">Session ledger</h2>
+        <p class="zone-note" id="ledger-note"></p>
+      </div>
+      <div class="ledger-scroll" role="region" aria-labelledby="ledger-heading" tabindex="0">
+        <table id="ledger"></table>
+      </div>
+    </section>
+
+    <div id="error-state" class="error-state" role="alert" hidden></div>
+  </main>
+
+  <!-- Narrow screens: keeps the A/B result next to the place you pinned from -->
+  <div class="tray-mini" id="tray-mini" hidden>
+    <p id="tray-mini-text"></p>
+    <button type="button" class="tool" id="tray-mini-open">Open comparison</button>
+  </div>
+
+  <p class="visually-hidden" id="announcer" aria-live="polite"></p>
+
+  <footer class="foot">
+    Dataset synthetic-workshop-sessions v1.0.0 (fictional). Pooled occupancy = total enrolled ÷ total capacity across sessions in scope. Ratings are means of 1–5 responses; each mean keeps its response count. Differences are descriptive only; sampling and comparability are unknown.
+  </footer>
+
+  <script src="../shared/sessions-data.js"></script>
+  <script src="../shared/session-model.js"></script>
+  <script src="workbench.js"></script>
+</body>
+</html>

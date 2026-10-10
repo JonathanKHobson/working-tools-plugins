@@ -1,0 +1,153 @@
+survey:
+  id: employee-pulse
+  title: Employee pulse survey
+  version: 1.0.0
+  objective: Monitor workload, enablement, belonging, and psychological safety so
+    leaders can choose a limited set of accountable workplace actions.
+  target_audience: Current employees invited through an approved sampling process,
+    excluding groups too small for confidential reporting.
+  mode: web
+  estimated_minutes: 5
+  languages:
+  - en-US
+  owner: Research team
+  consent:
+    required: true
+    text: Participation is voluntary. Responses are confidential rather than anonymous
+      and will be reported only under approved aggregation rules.
+    contact: research@example.com
+  privacy:
+    identifiability: pseudonymous
+    collects_pii: false
+    retention: Delete response-level data after 12 months and retain approved aggregates.
+    jurisdictions:
+    - US
+    sensitive_data:
+    - workplace wellbeing
+    - psychological safety
+    security_notes: Restrict raw access; suppress or combine small reporting groups.
+analysis_plan:
+  decisions:
+  - Select and communicate workplace actions while suppressing small cells and avoiding
+    individual employment decisions.
+  primary_metrics:
+  - workload_manageable
+  - safety_speak
+  segments:
+  - work_arrangement
+  exclusions:
+  - test responses
+  - ineligible responses
+  missing_data_plan: Keep logic-skipped, optional missing, not applicable, and refusal
+    distinct.
+  open_text_plan: Code focused open text using a versioned thematic codebook and review
+    a validation sample.
+blocks:
+- id: experience
+  title: Your work experience
+  questions:
+  - id: workload_manageable
+    type: likert
+    text: My workload was manageable during the past 2 weeks.
+    required: true
+    rationale: Measures recent perceived workload manageability.
+    construct: workload manageability
+    analysis_use: Primary pulse metric; report distribution and trend under consistent
+      sampling.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Strongly disagree
+        '3': Neither agree nor disagree
+        '5': Strongly agree
+  - id: resources
+    type: likert
+    text: I had the resources I needed to do my work during the past 2 weeks.
+    required: true
+    rationale: Measures recent enablement.
+    construct: work enablement
+    analysis_use: Report distribution and compare with workload using prespecified
+      groups.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Strongly disagree
+        '3': Neither agree nor disagree
+        '5': Strongly agree
+  - id: safety_speak
+    type: likert
+    text: I could raise a work concern without fear of unfair consequences during
+      the past 2 weeks.
+    required: false
+    rationale: Measures a sensitive component of psychological safety.
+    construct: safety to raise concerns
+    analysis_use: Primary safety signal; report only with minimum-cell and confidentiality
+      controls.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Strongly disagree
+        '3': Neither agree nor disagree
+        '5': Strongly agree
+    sensitive: true
+  - id: belonging
+    type: likert
+    text: I felt that I belonged on my team during the past 2 weeks.
+    required: false
+    rationale: Measures recent belonging.
+    construct: team belonging
+    analysis_use: Secondary metric; avoid reporting small or identifiable groups.
+    scale:
+      min: 1
+      max: 5
+      step: 1
+      anchors:
+        '1': Strongly disagree
+        '3': Neither agree nor disagree
+        '5': Strongly agree
+    sensitive: true
+  - id: priority_change
+    type: textarea
+    text: What is one change that would most improve your work experience?
+    required: false
+    rationale: Collects a focused actionable suggestion.
+    construct: workplace improvement
+    analysis_use: Code themes, redact identifiers, and do not attribute comments without
+      explicit permission.
+    help_text: Please do not name coworkers or include information that could identify
+      another person.
+- id: context
+  title: Work context
+  questions:
+  - id: work_arrangement
+    type: single_choice
+    text: Which work arrangement applied to you most during the past 2 weeks?
+    required: false
+    rationale: Provides an analytically relevant context variable.
+    construct: work arrangement
+    analysis_use: Use only for prespecified comparison when minimum reporting thresholds
+      are met.
+    choices:
+    - id: onsite
+      label: Mostly on-site
+      value: onsite
+    - id: hybrid
+      label: A mix of on-site and remote
+      value: hybrid
+    - id: remote
+      label: Mostly remote
+      value: remote
+    - id: varied
+      label: It varied in another way
+      value: varied
+    - id: prefer_not
+      label: Prefer not to answer
+      value: prefer_not
+      exclusive: true
+    sensitive: true
