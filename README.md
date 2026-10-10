@@ -14,9 +14,9 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Operate an ArtCraft creative app | [ArtCraft Design Toolkit](plugins/artcraft-design-toolkit/) | Python and separately installed ArtCraft CLI |
 | Create or inspect a Figma design | [Figma Design Toolkit](plugins/figma-design-workflow/) | Figma access and a supported host tool |
 | Design a lesson or assessment | [Instructional Design Studio](plugins/instructional-design-studio/) | Learner context and objectives |
-| Plan an accessible workshop | [Workshop Facilitator](plugins/workshop-facilitator/) | Purpose, participants and constraints |
+| Plan an accessible workshop | [Workshop Facilitation Toolkit](plugins/workshop-facilitator/) | Purpose, participants and constraints |
 | Design a game or run a tabletop session | [Game Creation Studio](plugins/game-creation-studio/) | A game idea and your chosen engine |
-| Manage paid services, invoices and email review | [Solo Service Operations](plugins/solo-service-operations/) | Your own records; Python for the helper |
+| Manage paid services, invoices and email review | [Solo Service Operations Studio](plugins/solo-service-operations/) | Your own records; Python for the helper |
 | Build an MCP app or local integration | [Build MCP Apps](plugins/build-mcp-apps/), [Development Studio](plugins/development-studio/) | Coding tools and the selected runtime |
 | Choose video references and plan a storyboard | [Video Templates](plugins/video-templates/) | Python and an MCP Apps host for the widget |
 | Explore data and explain a chart | [Data Visualization Toolkit](plugins/data-visualization-toolkit/) | Your dataset; Python for Data Explorer |
@@ -31,10 +31,8 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Edit prose, preserve facts and audit sources | [Writing Quality Studio](plugins/writing-quality-studio/) | Your draft, source facts and any authentic voice samples |
 | Test an argument or choose a reasoning framework | [Reasoning Toolkit](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
-| Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |
-| Structure a project and deliver a verified handoff | [Work Management](plugins/work-management/) | Your project context and optional recipient bindings |
-| Retrieve and compare research evidence | [Oppia Research Compass](plugins/oppia-research-compass/) | Your own authorized corpus; no team records included |
+| Structure a project and deliver a verified handoff | [Work Management Studio](plugins/work-management/) | Your project context and optional recipient bindings |
 | Design and review a usable product interface | [UX Design Studio](plugins/ux-design-toolkit/) | Your screen, user task and design context; optional runtime and provider setup is documented |
 | Compose graphics and prepare production files | [Graphic Design Studio](plugins/graphic-design-studio/) | Source content, host creative tools and optional local runtime |
 | Start from an editable fictional brand kit | [Brand Templates](plugins/brand-templates/) | A brief; 104 original kits included |
@@ -47,7 +45,7 @@ Check [tested compatibility](docs/compatibility.md) before choosing a host. A wo
 - First-time users: [install and run a small task](docs/install.md).
 - Experienced users: [compatibility and dependencies](docs/compatibility.md), [release downloads](https://github.com/JonathanKHobson/working-tools-plugins/releases).
 - Contributors and AI coding agents: [project map](docs/project-map.md), [contributing](CONTRIBUTING.md), [source architecture](docs/architecture.md).
-- Existing Compass users: [legacy transition](docs/compass-transition.md). Your existing downloads and active capabilities remain available.
+- Existing Compass users: [find each tool's current plugin](docs/compass-transition.md), or open the [Legacy Library](https://working-tools.jkylehobson.chatgpt.site/legacy/) for original releases and earlier collections.
 - Help and trust: [support](SUPPORT.md), [security reporting](SECURITY.md), [accessibility](ACCESSIBILITY.md), and each package's LICENSE and THIRD_PARTY_NOTICES.md.
 
 GitHub is the source and download home. The Working Tools Site is a separately reviewed public catalog. Marketplace distribution is separate from official OpenAI Plugin Directory publication.
