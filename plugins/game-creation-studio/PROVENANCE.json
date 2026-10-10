@@ -1,0 +1,799 @@
+{
+  "package": "game-creation-studio",
+  "version": "0.2.0",
+  "first_party_author": "Jonathan Kyle Hobson",
+  "scope": "All public files except this self-describing provenance file. Public release archive supplies complete external hash receipt. Canonical source paths and task receipts remain outside public package.",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 390,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "85a218ce9a20272d196ef9b005334b72af70af7b83a6a89ec888ea3f56ef1952",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 1323,
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "5fca2b51023f29fea88579a9404fdedc43f2f2b5b8978d49d8f2a7a999c9cc8b",
+      "output_sha256": "04df8499cb747d25e52c0e0c04aa9df504f7a6cc243b540ccca4a2de69f3ee92",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "modified"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 69,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "5efc0208fadb93cdc8e89f70178ad7a0da484a72242e9722e19b05104cf2adb0",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "PUBLIC_DISTRIBUTION.md",
+      "bytes": 984,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "b9e3d426330cfbd2a5058cf008d663ae73cdb02b41e5c3fdf6dc94c49104c69f",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4970,
+      "source_relative": "README.md",
+      "source_sha256": "b8ffecbb29b20dbb4aa3a6bf5c854d9f87f368bd3a95e41c3d0665eafeefb3a2",
+      "output_sha256": "48336861f29b101859be1aa3d19bfc267ba13bbad8d74c31eb6c92eb3a79939c",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "modified"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1027,
+      "source_relative": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "ac93fa4a3c34840e5ceae667d224c0d3cbc7e265c1f72bbc59c3ea72e646759e",
+      "output_sha256": "e60f578c234259b679a78c06f56300ad45d338f34a2f2c929e76cb45c339c2ba",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "modified"
+    },
+    {
+      "path": "docs/installation.md",
+      "bytes": 787,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "e361ee271295af38ef759756e04bc3aab34b2aa09e8ee953a4a98c19316ac924",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "docs/project-map.md",
+      "bytes": 1268,
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "72091fb4e8b14d7049a1975641f6e54ac1d62da134f58741f8dde8c4ae3f6678",
+      "output_sha256": "72091fb4e8b14d7049a1975641f6e54ac1d62da134f58741f8dde8c4ae3f6678",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "docs/routes.json",
+      "bytes": 2983,
+      "source_relative": "docs/routes.json",
+      "source_sha256": "2d572ebabe725a33cef63f45728ebc95b0d3bb5073e3d50bc77f29c0b81c8356",
+      "output_sha256": "2d572ebabe725a33cef63f45728ebc95b0d3bb5073e3d50bc77f29c0b81c8356",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "examples/lantern-courier.md",
+      "bytes": 1522,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "dfbb9d20cd1c9716112d26abe0488c8a72a600d20f36a67e609b132ec475bda7",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "plugin.json",
+      "bytes": 581,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "46cc3bea361a9e8735912d558ed1c757fdce87bda9f9b38d5c11b0609f98a768",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "original-public-addition",
+      "integration_change": "Use official portable schema fields; skills/ follows specification defaults. Native Codex and Claude skill declarations remain in their manifests."
+    },
+    {
+      "path": "provenance/coverage.json",
+      "bytes": 12111,
+      "source_relative": "provenance/coverage.json",
+      "source_sha256": "4450840a98192cb1694f9f931c3c7e964b474377f40972b890390f3361394163",
+      "output_sha256": "ca42513cc15a59b63680db3145686561669938619bfc01697bd9ef033df2de42",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "modified"
+    },
+    {
+      "path": "skills/game-asset-production/SKILL.md",
+      "bytes": 3279,
+      "source_relative": "skills/game-asset-production/SKILL.md",
+      "source_sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e",
+      "output_sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-production/agents/openai.yaml",
+      "bytes": 306,
+      "source_relative": "skills/game-asset-production/agents/openai.yaml",
+      "source_sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f",
+      "output_sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-production/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "skills/game-asset-production/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-production/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "skills/game-asset-production/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-production/references/commands.md",
+      "bytes": 3490,
+      "source_relative": "skills/game-asset-production/references/commands.md",
+      "source_sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d",
+      "output_sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-vendoring/SKILL.md",
+      "bytes": 2011,
+      "source_relative": "skills/game-asset-vendoring/SKILL.md",
+      "source_sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd",
+      "output_sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-vendoring/agents/openai.yaml",
+      "bytes": 321,
+      "source_relative": "skills/game-asset-vendoring/agents/openai.yaml",
+      "source_sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65",
+      "output_sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-vendoring/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "skills/game-asset-vendoring/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-vendoring/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "skills/game-asset-vendoring/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-asset-vendoring/references/commands.md",
+      "bytes": 1522,
+      "source_relative": "skills/game-asset-vendoring/references/commands.md",
+      "source_sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab",
+      "output_sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-core-loop/SKILL.md",
+      "bytes": 2176,
+      "source_relative": "skills/game-core-loop/SKILL.md",
+      "source_sha256": "e49e96330ed76bd27ea673f1db2fae6900efbb286fdf18b2856d00b0dc06b353",
+      "output_sha256": "e49e96330ed76bd27ea673f1db2fae6900efbb286fdf18b2856d00b0dc06b353",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-creation-studio/SKILL.md",
+      "bytes": 2859,
+      "source_relative": "skills/game-creation-studio/SKILL.md",
+      "source_sha256": "d16934c8699d562d09bf0e5fff92f755d7a491b6c56ca1eadb64a2877e49bf3a",
+      "output_sha256": "d16934c8699d562d09bf0e5fff92f755d7a491b6c56ca1eadb64a2877e49bf3a",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-performance-optimization/SKILL.md",
+      "bytes": 2311,
+      "source_relative": "skills/game-performance-optimization/SKILL.md",
+      "source_sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282",
+      "output_sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-performance-optimization/agents/openai.yaml",
+      "bytes": 333,
+      "source_relative": "skills/game-performance-optimization/agents/openai.yaml",
+      "source_sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c",
+      "output_sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-performance-optimization/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "skills/game-performance-optimization/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-performance-optimization/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "skills/game-performance-optimization/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-performance-optimization/references/optimization-loop.md",
+      "bytes": 1851,
+      "source_relative": "skills/game-performance-optimization/references/optimization-loop.md",
+      "source_sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982",
+      "output_sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-playtest-release/SKILL.md",
+      "bytes": 2329,
+      "source_relative": "skills/game-playtest-release/SKILL.md",
+      "source_sha256": "fff1dc6bc73605570a04f0aef960d73bd273059b546c11cb8dd9a3bace178865",
+      "output_sha256": "fff1dc6bc73605570a04f0aef960d73bd273059b546c11cb8dd9a3bace178865",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-prototype-scope/SKILL.md",
+      "bytes": 2100,
+      "source_relative": "skills/game-prototype-scope/SKILL.md",
+      "source_sha256": "2805856d8f944e9f7e7a8b9163bc388516b43d0e2adc5ee8b1f3013b36ced92d",
+      "output_sha256": "2805856d8f944e9f7e7a8b9163bc388516b43d0e2adc5ee8b1f3013b36ced92d",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-ui-accessibility/SKILL.md",
+      "bytes": 2100,
+      "source_relative": "skills/game-ui-accessibility/SKILL.md",
+      "source_sha256": "726125c5c523b172210c1b2b17a35d2dc4727aa99e5c98971df4e7a3fdc82f14",
+      "output_sha256": "726125c5c523b172210c1b2b17a35d2dc4727aa99e5c98971df4e7a3fdc82f14",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-visual-debugging/SKILL.md",
+      "bytes": 2410,
+      "source_relative": "skills/game-visual-debugging/SKILL.md",
+      "source_sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687",
+      "output_sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-visual-debugging/agents/openai.yaml",
+      "bytes": 327,
+      "source_relative": "skills/game-visual-debugging/agents/openai.yaml",
+      "source_sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840",
+      "output_sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-visual-debugging/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "skills/game-visual-debugging/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-visual-debugging/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "skills/game-visual-debugging/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/game-visual-debugging/references/capture-workflow.md",
+      "bytes": 2197,
+      "source_relative": "skills/game-visual-debugging/references/capture-workflow.md",
+      "source_sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1",
+      "output_sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/gameplay-systems/SKILL.md",
+      "bytes": 2123,
+      "source_relative": "skills/gameplay-systems/SKILL.md",
+      "source_sha256": "c345e0b3ea43c45acacbf80f60a6cecd967e45ad5f47d4bc62c172ef70c38ce4",
+      "output_sha256": "c345e0b3ea43c45acacbf80f60a6cecd967e45ad5f47d4bc62c172ef70c38ce4",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "tests/route-cases.json",
+      "bytes": 2533,
+      "source_relative": "tests/route-cases.json",
+      "source_sha256": "c7d02bd228a3130b8e85b5c8f865597748d9a3233337e2b2aa354f3c1c65ec3e",
+      "output_sha256": "c7d02bd228a3130b8e85b5c8f865597748d9a3233337e2b2aa354f3c1c65ec3e",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "tests/validate.py",
+      "bytes": 3732,
+      "source_relative": "tests/validate.py",
+      "source_sha256": "6425555cce1d74ee317ba1e8dd567983a7a7a1ff956894bf3a49e84dc184c87c",
+      "output_sha256": "891b4d44bb404614bac24911f9467173394a08a1c1fc85ca57a2d62fa0ca0370",
+      "rights": "MIT: Jonathan Kyle Hobson original contribution",
+      "license_notice": "LICENSE",
+      "status": "modified"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/composer-icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/composer-icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/logo.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/logo.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/.codex-plugin/plugin.json",
+      "bytes": 2275,
+      "source_relative": "vendor/game-development-studio-1.0.2/.codex-plugin/plugin.json",
+      "source_sha256": "f9d9936c513c74eeb2460814c895a57c172a4bbf6b1b48c6885bcfcd5642fc91",
+      "output_sha256": "f9d9936c513c74eeb2460814c895a57c172a4bbf6b1b48c6885bcfcd5642fc91",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/CHANGELOG.md",
+      "bytes": 1455,
+      "source_relative": "vendor/game-development-studio-1.0.2/CHANGELOG.md",
+      "source_sha256": "40b58720ce2c62f85d97064c18cd93ae255fd23f9ed50a8cb4645945924aa84b",
+      "output_sha256": "40b58720ce2c62f85d97064c18cd93ae255fd23f9ed50a8cb4645945924aa84b",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/LICENSE",
+      "bytes": 1066,
+      "source_relative": "vendor/game-development-studio-1.0.2/LICENSE",
+      "source_sha256": "915b4af615fcf20f331b7aa09822ea6dff49cc8e39c1ab5860ed5b91fe4aa79d",
+      "output_sha256": "915b4af615fcf20f331b7aa09822ea6dff49cc8e39c1ab5860ed5b91fe4aa79d",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/PRIVACY.md",
+      "bytes": 4604,
+      "source_relative": "vendor/game-development-studio-1.0.2/PRIVACY.md",
+      "source_sha256": "d08e7a6744daa5bdb0b53f34c7779a77beab470c5455ad0781ce004e7574288d",
+      "output_sha256": "d08e7a6744daa5bdb0b53f34c7779a77beab470c5455ad0781ce004e7574288d",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/README.md",
+      "bytes": 2368,
+      "source_relative": "vendor/game-development-studio-1.0.2/README.md",
+      "source_sha256": "37bbe3cba05d416570392be066aa2717e0df7307d414d63671b2233644f1bf9b",
+      "output_sha256": "37bbe3cba05d416570392be066aa2717e0df7307d414d63671b2233644f1bf9b",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/SECURITY.md",
+      "bytes": 1915,
+      "source_relative": "vendor/game-development-studio-1.0.2/SECURITY.md",
+      "source_sha256": "979b43bc64c33f99e0a277632b6676f130c375b986322f8de589588a4915a159",
+      "output_sha256": "979b43bc64c33f99e0a277632b6676f130c375b986322f8de589588a4915a159",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/SUPPORT.md",
+      "bytes": 659,
+      "source_relative": "vendor/game-development-studio-1.0.2/SUPPORT.md",
+      "source_sha256": "ada254256b8ead125f271945e780f138278bfe585d3ca985156ba9dde24c6f48",
+      "output_sha256": "ada254256b8ead125f271945e780f138278bfe585d3ca985156ba9dde24c6f48",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/TERMS.md",
+      "bytes": 3539,
+      "source_relative": "vendor/game-development-studio-1.0.2/TERMS.md",
+      "source_sha256": "3fc670e4dfd9c3be9fc8af755bd93871b0d3fbce7bfbb7a87bdcde8dcbd4e576",
+      "output_sha256": "3fc670e4dfd9c3be9fc8af755bd93871b0d3fbce7bfbb7a87bdcde8dcbd4e576",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/SKILL.md",
+      "bytes": 3279,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-production/SKILL.md",
+      "source_sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e",
+      "output_sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/agents/openai.yaml",
+      "bytes": 306,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-production/agents/openai.yaml",
+      "source_sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f",
+      "output_sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-production/references/commands.md",
+      "bytes": 3490,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-production/references/commands.md",
+      "source_sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d",
+      "output_sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/SKILL.md",
+      "bytes": 2011,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/SKILL.md",
+      "source_sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd",
+      "output_sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/agents/openai.yaml",
+      "bytes": 321,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/agents/openai.yaml",
+      "source_sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65",
+      "output_sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/references/commands.md",
+      "bytes": 1522,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/references/commands.md",
+      "source_sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab",
+      "output_sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/SKILL.md",
+      "bytes": 3419,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-development-studio/SKILL.md",
+      "source_sha256": "f7af90bdf452567a9223b8197713272df5ffe4495f8728574f071fb67d35e022",
+      "output_sha256": "f7af90bdf452567a9223b8197713272df5ffe4495f8728574f071fb67d35e022",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/agents/openai.yaml",
+      "bytes": 337,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-development-studio/agents/openai.yaml",
+      "source_sha256": "fe578573adaca5227537d2099cbed4d84e50f84340df8a13ddfa5911497c7258",
+      "output_sha256": "fe578573adaca5227537d2099cbed4d84e50f84340df8a13ddfa5911497c7258",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-development-studio/references/routes.md",
+      "bytes": 1620,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-development-studio/references/routes.md",
+      "source_sha256": "b1acd1ae47b99a1ae600a989c4f0f2c6b73a2c084224e18413cc18ee6bf81252",
+      "output_sha256": "b1acd1ae47b99a1ae600a989c4f0f2c6b73a2c084224e18413cc18ee6bf81252",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/SKILL.md",
+      "bytes": 2311,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/SKILL.md",
+      "source_sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282",
+      "output_sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/agents/openai.yaml",
+      "bytes": 333,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/agents/openai.yaml",
+      "source_sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c",
+      "output_sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/references/optimization-loop.md",
+      "bytes": 1851,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/references/optimization-loop.md",
+      "source_sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982",
+      "output_sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/SKILL.md",
+      "bytes": 2410,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/SKILL.md",
+      "source_sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687",
+      "output_sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/agents/openai.yaml",
+      "bytes": 327,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/agents/openai.yaml",
+      "source_sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840",
+      "output_sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon-provenance.json",
+      "bytes": 1230,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon-provenance.json",
+      "source_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "output_sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon.png",
+      "bytes": 1303154,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon.png",
+      "source_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "output_sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/references/capture-workflow.md",
+      "bytes": 2197,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/references/capture-workflow.md",
+      "source_sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1",
+      "output_sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/game-development-studio-1.0.2/skills/manifest.json",
+      "bytes": 1268,
+      "source_relative": "vendor/game-development-studio-1.0.2/skills/manifest.json",
+      "source_sha256": "230f348c0d1a6ed8d86aacef1c4e8de4132c3712e2b18d6a1426ae70b009fcd3",
+      "output_sha256": "230f348c0d1a6ed8d86aacef1c4e8de4132c3712e2b18d6a1426ae70b009fcd3",
+      "rights": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
+      "license_notice": "vendor/game-development-studio-1.0.2/LICENSE",
+      "status": "unchanged"
+    }
+  ]
+}

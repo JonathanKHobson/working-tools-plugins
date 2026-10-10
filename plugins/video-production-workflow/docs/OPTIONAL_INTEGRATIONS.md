@@ -1,0 +1,13 @@
+# Optional integrations and external dependencies
+
+The standalone runtime requires Python 3.10+ and FFmpeg/ffprobe with the filters and encoders needed by the project. Install these separately under their own terms. No binary, font, model, browser, API account, private binding, credential or MCP server is shipped. `video-workflow check` reports availability and media capabilities. Explicit `VIDEO_WORKFLOW_FFMPEG` and `VIDEO_WORKFLOW_FFPROBE` paths take precedence over an optional `VIDEO_WORKFLOW_HOME/.runtime/bin` and PATH.
+
+Python baseline dependencies are PyYAML, Pillow, NumPy and jsonschema. Optional `audio`, `analysis`, `interchange`, `python-renderer` and `dev` extras are declared in `pyproject.toml`. Optional transcription/analysis may download model files and require separate rights and capacity checks.
+
+Remotion, HyperFrames, Manim, Motion Canvas, Blender and DaVinci Resolve are external rendering/editing choices. Adapters are handoff interfaces, not a promise that those runtimes are installed or tested. Remotion has separate commercial/source-available terms; Blender and other applications can be copyleft. Resolve requires an edition-aware native install and editable reopen/readback verification when that result is requested.
+
+Video Templates, Draw and Think, UX Design Studio's chooser, Graphic Design Studio, Work Management, Writing Quality Studio, Instructional Design Studio and Social Content Studio are optional named owners mentioned in retained skill guidance. Verify actual installed access before calling their tools. Core manifest, storyboard, render, caption, probe and QA commands work without those plugins. No catalog/widget/MCP backend is bundled. Publishing, uploads, provider spending and external account actions are separate task authorization.
+
+Preserved Sora code documents a retired provider route and remains inactive. Retained Animate and HyperFrames sources include optional local/browser/network helpers; inspect and explicitly configure them before execution. MIT/Apache source rights do not grant rights to externally fetched imagery, trademarks, voices, fonts or reference pixels.
+
+Text rendering resolves a real installed font file and uses it for both line wrapping and FFmpeg `drawtext`. Set `VIDEO_WORKFLOW_FONT` to a licensed TTF/OTF file to bind typography explicitly, or declare `style.font` / item `font` as a project-relative file. The default DejaVu Sans family can use locally installed Arial on macOS/Windows when DejaVu is absent; this changes typography across machines. A missing declared file or unknown family fails rather than silently producing blank titles. No font bytes are distributed.

@@ -1,0 +1,35 @@
+# ArtCraft app interfaces
+
+These are documented upstream interfaces, checked October 10, 2026. Commands and flags may change; check the matching installed CLI's `--help` before use. All seven official repositories are under [`storytold`](https://github.com/storytold), with a universal macOS DMG and **separate** universal macOS CLI ZIP in each release. The [ArtCraft app pages](https://getartcraft.com/apps) have shown older versions than GitHub releases. Match desktop and CLI versions, verify release checksums, and inspect signing on the actual downloaded artifacts.
+
+| App and task | CLI discovery and bounded work | MCP or live control | Storage detail and source |
+|---|---|---|---|
+| **PhotoCraft**: image editing | `photocraft-cli commands`; `run input.psd --cmd image.adjustments.invert --out output.png`; `serve` is a JSON-lines headless session. | `photocraft-cli mcp` is headless; `mcp --bridge 127.0.0.1:7878 --control-token-file PATH` connects to desktop `photocraft --control 7878` using the same private token. | Headless `mcp`/`serve` file access needs explicit `--automation-read-root` and `--automation-write-root`; bridge roots belong on the desktop process. [CLI](https://github.com/storytold/photocraft/blob/main/book/src/automation/cli.md), [control](https://github.com/storytold/photocraft/blob/main/docs/control-protocol.md). |
+| **VectorCraft**: vector illustration | `vectorcraft-cli commands`; `run --in in.svg --cmd select.all --export out.svg`. | `mcp --headless` is explicit; `mcp --connect 127.0.0.1:7979` drives `vectorcraft --control 7979`. Bare `mcp` tries live and falls back to headless, so pin the intended mode. | The desktop loopback control port has no authentication; open it only during the task. [MCP and CLI](https://github.com/storytold/vectorcraft/blob/main/docs/mcp.md), [control](https://github.com/storytold/vectorcraft/blob/main/docs/control-protocol.md). |
+| **FilmCraft**: video editing | `filmcraft-cli commands`, `describe ID`, `--project p.fcproj --save exec ID`, `import`, `export`, `run`. | `mcp --demo` or `mcp --project p.fcproj` is headless; `mcp --bridge 127.0.0.1:9876` drives `filmcraft --control 9876`. | `export --list-presets` accepts `--data-dir` for another preset library. Loopback control has no authentication. [Agents](https://github.com/storytold/filmcraft/blob/main/docs/agents.md), [control](https://github.com/storytold/filmcraft/blob/main/docs/control-protocol.md). |
+| **LightCraft**: photo library and raw development | `lightcraft-cli commands`, `controls`, `run --library DIR …`, `render in.dng -o out.jpg`. | `mcp --library DIR` is persistent headless; `mcp --connect 127.0.0.1:7980` drives `lightcraft --library DIR --control 7980`. | Put `--library` on the external drive; `catalog.lock` prevents headless and desktop from opening it simultaneously. Copy/move imports go under its `Originals/`; settings, logs, and optional models do not move with the library. Loopback control has no authentication. [MCP](https://github.com/storytold/lightcraft/blob/main/docs/mcp.md), [control](https://github.com/storytold/lightcraft/blob/main/docs/control-protocol.md). |
+| **PdfCraft**: PDF workbench | `pdfcraft-cli tools` gives JSON schemas; `run TOOL key=value --root DIR`; `info`, `render`, `text`, `edit`, `combine`, `split`, `check` are direct commands. | `mcp --root DIR --compact` is an opt-in stdio server; desktop UI control uses `pdfcraft --control FILE` and `pdfcraft-cli ui --control FILE METHOD`. | `--root` confines tool file reads and writes. Edits stay in memory until `doc_save`. [README](https://github.com/storytold/pdfcraft/blob/main/README.md), [CLI source](https://github.com/storytold/pdfcraft/blob/main/apps/pdfcraft-cli/src/main.rs). |
+| **EffectCraft**: motion graphics | `effectcraft-cli commands`; `exec --list --schemas --json`; `exec ID --params JSON --empty --save-as project.ecproj`; `render-frame`. | `mcp` is headless; `mcp --bridge 9877` drives `effectcraft --control 9877`. `mcp --autosave` checkpoints headless edits. | `EFFECTCRAFT_CONFIG_DIR` overrides config location; autosave sessions otherwise use the config directory. Loopback control has no authentication. [Agents](https://github.com/storytold/effectcraft/blob/main/docs/agents.md), [control](https://github.com/storytold/effectcraft/blob/main/docs/control-protocol.md). |
+| **DesignCraft**: page layout | `designcraft-cli commands FILTER`, `describe ID`, `script file.dcs --save out.designcraft --export out.pdf`; `run` and `app` are also available. | `mcp` is headless; `mcp --connect 7979` drives `designcraft --control 7979`. | The desktop loopback control port has no authentication. Story text offsets use UTF-8 bytes. Settings and logs normally remain in macOS Application Support. [Agents](https://github.com/storytold/designcraft/blob/main/docs/agents.md), [MCP](https://github.com/storytold/designcraft/blob/main/docs/mcp.md). |
+
+The plugin registers one `artcraft-toolkit` gateway. That gateway starts the selected native stdio server only for an open session. Confirm a real native tool call and its output before treating the integration as working. Live control should be stopped after the task. The app pages market broad capabilities; the commands above are the narrower documented routes and still require installed-binary and rendered-behavior checks.
+
+## Direct native MCP entries, if needed outside this plugin
+
+The toolkit gateway handles ordinary on-demand use. If another client must connect directly to an app, use **one selected entry** for a task, with that host's verified absolute CLI path in `command`. This is a template for clients that accept `mcpServers`; it is not an installed configuration or a recommendation to enable all seven. For live mode, launch the matching desktop app with its control setting first and close the listener when finished.
+
+```json
+{"mcpServers":{"selected-artcraft-app":{"command":"/verified/absolute/path/to/selected-cli","args":["mcp"]}}}
+```
+
+| App | Headless `args` | Live `args` |
+|---|---|---|
+| PhotoCraft | `["mcp", "--automation-read-root", "/project/input", "--automation-write-root", "/project/output"]` | `["mcp", "--bridge", "127.0.0.1:7878", "--control-token-file", "/private/token"]` |
+| VectorCraft | `["mcp", "--headless"]` | `["mcp", "--connect", "127.0.0.1:7979"]` |
+| FilmCraft | `["mcp", "--project", "/project/edit.fcproj"]` | `["mcp", "--bridge", "127.0.0.1:9876"]` |
+| LightCraft | `["mcp", "--library", "/external/library"]` | `["mcp", "--connect", "127.0.0.1:7980"]` |
+| PdfCraft | `["mcp", "--root", "/project/pdfs", "--compact"]` | Use the separate `pdfcraft-cli ui --control FILE` interface, not a live MCP mode. |
+| EffectCraft | `["mcp", "--autosave"]` | `["mcp", "--bridge", "9877"]` |
+| DesignCraft | `["mcp"]` | `["mcp", "--connect", "7979"]` |
+
+The PhotoCraft read and write directories must exist before starting headless automation. In its live mode, set the read/write roots on the desktop process. Use a private token file, never a token copied into a shared command line.

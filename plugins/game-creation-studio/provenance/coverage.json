@@ -1,0 +1,242 @@
+{
+  "schema": "game-creation-studio.source-coverage.v1",
+  "source": {
+    "name": "Game Development Studio",
+    "version": "1.0.2",
+    "publisher": "Benjamin Michael Haire",
+    "sourceRepository": "https://github.com/theisegoria/game-development-studio-skills",
+    "license": "MIT",
+    "licenseFile": "vendor/game-development-studio-1.0.2/LICENSE",
+    "admission": "source snapshot statically scanned; no candidate helper executed"
+  },
+  "adaptation": {
+    "newPackage": "Game Creation Studio",
+    "newOriginalMethods": [
+      "game-core-loop",
+      "game-prototype-scope",
+      "gameplay-systems",
+      "game-ui-accessibility",
+      "game-playtest-release"
+    ],
+    "umbrella": "skills/game-creation-studio/SKILL.md",
+    "officialProvider": "OpenAI Game Studio remains separate",
+    "rights": "Original Game Creation Studio contributions by Jonathan Kyle Hobson released under MIT; vendor source retains Benjamin Michael Haire / Ben Haire MIT notice"
+  },
+  "files": [
+    {
+      "source": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/composer-icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/.codex-plugin/assets/logo.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/.codex-plugin/plugin.json",
+      "sha256": "f9d9936c513c74eeb2460814c895a57c172a4bbf6b1b48c6885bcfcd5642fc91",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/CHANGELOG.md",
+      "sha256": "40b58720ce2c62f85d97064c18cd93ae255fd23f9ed50a8cb4645945924aa84b",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/LICENSE",
+      "sha256": "915b4af615fcf20f331b7aa09822ea6dff49cc8e39c1ab5860ed5b91fe4aa79d",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/PRIVACY.md",
+      "sha256": "d08e7a6744daa5bdb0b53f34c7779a77beab470c5455ad0781ce004e7574288d",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/README.md",
+      "sha256": "37bbe3cba05d416570392be066aa2717e0df7307d414d63671b2233644f1bf9b",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/SECURITY.md",
+      "sha256": "979b43bc64c33f99e0a277632b6676f130c375b986322f8de589588a4915a159",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/SUPPORT.md",
+      "sha256": "ada254256b8ead125f271945e780f138278bfe585d3ca985156ba9dde24c6f48",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/TERMS.md",
+      "sha256": "3fc670e4dfd9c3be9fc8af755bd93871b0d3fbce7bfbb7a87bdcde8dcbd4e576",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "retained-source-support-or-metadata"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-production/SKILL.md",
+      "sha256": "f7e57cdbaf02f678ef2230575175b1027af4c74568c866dcd5968a787bc1802e",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-production/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-production/agents/openai.yaml",
+      "sha256": "8399dc6d2f79dc167b9422d7451fc839c33748c63705ee6c487c043084b8f05f",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-production/agents/openai.yaml"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-production/assets/icon-provenance.json"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-production/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-production/assets/icon.png"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-production/references/commands.md",
+      "sha256": "5e1df9abadc746d4b4a290422d4d3fa658e72e80e75b376ac20bbf7ca082639d",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-production/references/commands.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/SKILL.md",
+      "sha256": "eabd1d349e56b75a40929583bf5d345205b5677a73322483f59c495bca078edd",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-vendoring/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/agents/openai.yaml",
+      "sha256": "026fd0fec70faebfc223977f63251c871ef53e24b9783cd0d0ee76d1320aac65",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-vendoring/agents/openai.yaml"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-vendoring/assets/icon-provenance.json"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-vendoring/assets/icon.png"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-asset-vendoring/references/commands.md",
+      "sha256": "b1b442b20a158af48006043f5c736424812d003197fbfb36e0588e109cd744ab",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-asset-vendoring/references/commands.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-development-studio/SKILL.md",
+      "sha256": "f7af90bdf452567a9223b8197713272df5ffe4495f8728574f071fb67d35e022",
+      "disposition": "upstream-router-retained-integrated-in-new-router",
+      "activeRoute": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-development-studio/agents/openai.yaml",
+      "sha256": "fe578573adaca5227537d2099cbed4d84e50f84340df8a13ddfa5911497c7258",
+      "disposition": "upstream-router-retained-integrated-in-new-router",
+      "activeRoute": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "upstream-router-retained-integrated-in-new-router",
+      "activeRoute": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-development-studio/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "upstream-router-retained-integrated-in-new-router",
+      "activeRoute": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-development-studio/references/routes.md",
+      "sha256": "b1acd1ae47b99a1ae600a989c4f0f2c6b73a2c084224e18413cc18ee6bf81252",
+      "disposition": "upstream-router-retained-integrated-in-new-router",
+      "activeRoute": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/SKILL.md",
+      "sha256": "8425967ab22552eb70a106f20ffe14e6dfb8bc318cb1145d0e717f56097b1282",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-performance-optimization/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/agents/openai.yaml",
+      "sha256": "8b93c7c99fa8edf8e95a6133ce129c32f7bbaca843a297aa23dab5a563c1024c",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-performance-optimization/agents/openai.yaml"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-performance-optimization/assets/icon-provenance.json"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-performance-optimization/assets/icon.png"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-performance-optimization/references/optimization-loop.md",
+      "sha256": "48ce30ca04eb2315c22116146a187139635283529b9f78ba0a4320c4b2c5d982",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-performance-optimization/references/optimization-loop.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/SKILL.md",
+      "sha256": "26adddb0a57f877f9d9cf173139b45031c02b3b82185dec335e7d7d845798687",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-visual-debugging/SKILL.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/agents/openai.yaml",
+      "sha256": "065f7f8ac6b8699d9c0ad0550004aebde18194d600164876e531ceafa3356840",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-visual-debugging/agents/openai.yaml"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon-provenance.json",
+      "sha256": "2eda5a1522ef1079abc3f3dfd9dffc58de58ef5c64b8a961660551c0e201dcfd",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-visual-debugging/assets/icon-provenance.json"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/assets/icon.png",
+      "sha256": "1e72c066c6a387d24bc4ec3d2509e2b5a12841335b5fdec3758a00d09d494fde",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-visual-debugging/assets/icon.png"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/game-visual-debugging/references/capture-workflow.md",
+      "sha256": "b7ca756a32c34837b42dd971f682bc34c25726064fefd19c4c9e3fbbc1387cf1",
+      "disposition": "active-byte-identical",
+      "activeCopy": "skills/game-visual-debugging/references/capture-workflow.md"
+    },
+    {
+      "source": "vendor/game-development-studio-1.0.2/skills/manifest.json",
+      "sha256": "230f348c0d1a6ed8d86aacef1c4e8de4132c3712e2b18d6a1426ae70b009fcd3",
+      "disposition": "retained-source-support-or-metadata"
+    }
+  ]
+}

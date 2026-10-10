@@ -1,0 +1,461 @@
+{
+  "reviewed_at": "2026-07-22",
+  "policy": {
+    "copy_code_only_when": "explicitly approved and attribution/license obligations are preserved",
+    "unlicensed": "research-only-no-copy",
+    "copyleft": "invoke as external tool or isolate; do not vendor into MIT code without legal review",
+    "platform_specs": "reverify at delivery time"
+  },
+  "sources": [
+    {
+      "id": "agent-skills-spec",
+      "title": "Agent Skills specification",
+      "url": "https://agentskills.io/specification",
+      "kind": "specification",
+      "license": "documentation-terms",
+      "usage": "architecture-reference",
+      "notes": "Skill folder, frontmatter, progressive disclosure, and portability conventions."
+    },
+    {
+      "id": "openai-skills",
+      "title": "OpenAI Skills repository",
+      "url": "https://github.com/openai/skills",
+      "kind": "repository",
+      "license": "mixed-per-skill",
+      "usage": "architecture-reference",
+      "notes": "Official Codex skill-creator and plugin-creator patterns; verify each subdirectory license."
+    },
+    {
+      "id": "anthropic-skills",
+      "title": "Anthropic Skills repository",
+      "url": "https://github.com/anthropics/skills",
+      "kind": "repository",
+      "license": "mixed-per-skill",
+      "usage": "architecture-reference",
+      "notes": "Cross-harness skill examples and authoring conventions; no code copied automatically."
+    },
+    {
+      "id": "video-use",
+      "title": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "kind": "repository",
+      "license": "MIT",
+      "usage": "adapt-ideas-with-attribution",
+      "notes": "Conversation-driven editing, word-level transcript workflow, EDL, staged FFmpeg render, self-QA."
+    },
+    {
+      "id": "claude-video-watch",
+      "title": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "kind": "repository",
+      "license": "MIT",
+      "usage": "adapt-ideas-with-attribution",
+      "notes": "Video understanding through captions, scene-aware frame extraction, detail budgets, and setup checks."
+    },
+    {
+      "id": "claude-shorts",
+      "title": "AgriciDaniel/claude-shorts",
+      "url": "https://github.com/AgriciDaniel/claude-shorts",
+      "kind": "repository",
+      "license": "MIT",
+      "usage": "adapt-ideas-with-attribution",
+      "notes": "Longform-to-shorts pipeline, scoring, word/silence boundary snapping, reframing, captions, export validation."
+    },
+    {
+      "id": "remotion-superpowers",
+      "title": "DojoCodingLabs/remotion-superpowers",
+      "url": "https://github.com/DojoCodingLabs/remotion-superpowers",
+      "kind": "repository",
+      "license": "MIT",
+      "usage": "adapt-ideas-with-attribution",
+      "notes": "Modular Remotion production rules, audio-first timing, media generation, review and CI rendering patterns."
+    },
+    {
+      "id": "remotion-skills",
+      "title": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "kind": "repository",
+      "license": "not-found-at-review-time",
+      "usage": "research-only-no-copy",
+      "notes": "Useful internal workflow ideas; absence of a repository license means do not copy or redistribute content."
+    },
+    {
+      "id": "remotion",
+      "title": "Remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "kind": "renderer",
+      "license": "custom-source-available",
+      "usage": "optional-integration-only",
+      "notes": "React-based programmatic video renderer. Verify current commercial license before adoption."
+    },
+    {
+      "id": "hyperframes",
+      "title": "HyperFrames",
+      "url": "https://github.com/hyperframes/hyperframes",
+      "kind": "renderer",
+      "license": "Apache-2.0",
+      "usage": "optional-integration",
+      "notes": "HTML/CSS/JavaScript frame-accurate renderer suited to UI motion and kinetic typography."
+    },
+    {
+      "id": "motion-canvas",
+      "title": "Motion Canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "kind": "renderer",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "TypeScript generator-based animation for explanatory motion graphics."
+    },
+    {
+      "id": "manim",
+      "title": "Manim Community",
+      "url": "https://github.com/ManimCommunity/manim",
+      "kind": "renderer",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "Python mathematical and diagram animation engine."
+    },
+    {
+      "id": "blender",
+      "title": "Blender Video Sequence Editor and Python API",
+      "url": "https://docs.blender.org/manual/en/latest/video_editing/index.html",
+      "kind": "renderer",
+      "license": "GPL-3.0-or-later",
+      "usage": "invoke-external-tool-no-code-copy",
+      "notes": "Heavyweight VSE, compositing, 3D and scripting; keep Blender code/process isolated from permissive plugin code."
+    },
+    {
+      "id": "ffmpeg",
+      "title": "FFmpeg documentation",
+      "url": "https://ffmpeg.org/documentation.html",
+      "kind": "primary-documentation",
+      "license": "LGPL-2.1-or-later-or-GPL-build-dependent",
+      "usage": "invoke-external-tool",
+      "notes": "Baseline media probe, decode, filter, encode, mux, loudness, subtitles, transitions and quality checks."
+    },
+    {
+      "id": "ffprobe",
+      "title": "ffprobe documentation",
+      "url": "https://ffmpeg.org/ffprobe.html",
+      "kind": "primary-documentation",
+      "license": "LGPL-2.1-or-later-or-GPL-build-dependent",
+      "usage": "invoke-external-tool",
+      "notes": "Machine-readable stream, format, duration, color and codec inspection."
+    },
+    {
+      "id": "moviepy",
+      "title": "MoviePy",
+      "url": "https://github.com/Zulko/moviepy",
+      "kind": "library",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "Python composition convenience layer; prefer FFmpeg for fragile, high-volume, or codec-sensitive stages."
+    },
+    {
+      "id": "pyav",
+      "title": "PyAV",
+      "url": "https://pyav.org/docs/stable/",
+      "kind": "library",
+      "license": "BSD-3-Clause",
+      "usage": "optional-integration",
+      "notes": "Pythonic FFmpeg bindings for frame/packet-level analysis and custom processing."
+    },
+    {
+      "id": "opentimelineio",
+      "title": "OpenTimelineIO",
+      "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+      "kind": "interchange",
+      "license": "Apache-2.0",
+      "usage": "optional-integration",
+      "notes": "Editorial timeline interchange model and adapters; media remains external."
+    },
+    {
+      "id": "pyscenedetect",
+      "title": "PySceneDetect",
+      "url": "https://www.scenedetect.com/docs/latest/",
+      "kind": "analysis-library",
+      "license": "BSD-3-Clause",
+      "usage": "optional-integration",
+      "notes": "Shot-change detection, scene lists, splitting and CLI workflows."
+    },
+    {
+      "id": "faster-whisper",
+      "title": "faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "kind": "analysis-library",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "Local Whisper transcription via CTranslate2, including word-level timestamps."
+    },
+    {
+      "id": "whisper",
+      "title": "OpenAI Whisper",
+      "url": "https://github.com/openai/whisper",
+      "kind": "analysis-library",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "Automatic speech recognition baseline and timestamped transcription."
+    },
+    {
+      "id": "whisperx",
+      "title": "WhisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "kind": "analysis-library",
+      "license": "BSD-style-verify-current",
+      "usage": "optional-integration",
+      "notes": "Forced alignment and diarization options for more precise word timing."
+    },
+    {
+      "id": "librosa",
+      "title": "librosa",
+      "url": "https://librosa.org/doc/latest/",
+      "kind": "analysis-library",
+      "license": "ISC",
+      "usage": "runtime-dependency-optional",
+      "notes": "Beat tracking, onset strength, RMS energy, spectral and temporal music features."
+    },
+    {
+      "id": "essentia",
+      "title": "Essentia",
+      "url": "https://essentia.upf.edu/documentation/",
+      "kind": "analysis-library",
+      "license": "AGPL-3.0-or-commercial",
+      "usage": "invoke-or-optional-separate-environment",
+      "notes": "Advanced music descriptors and structure; keep licensing implications explicit."
+    },
+    {
+      "id": "aubio",
+      "title": "aubio",
+      "url": "https://aubio.org/",
+      "kind": "analysis-library",
+      "license": "GPL-3.0",
+      "usage": "invoke-external-tool-no-code-copy",
+      "notes": "Low-latency onset, beat, tempo and pitch analysis."
+    },
+    {
+      "id": "pyloudnorm",
+      "title": "pyloudnorm",
+      "url": "https://github.com/csteinmetz1/pyloudnorm",
+      "kind": "analysis-library",
+      "license": "MIT",
+      "usage": "runtime-dependency-optional",
+      "notes": "Python implementation of ITU-R BS.1770 loudness measurement and normalization helpers."
+    },
+    {
+      "id": "mediapipe",
+      "title": "MediaPipe Tasks Vision",
+      "url": "https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector/python",
+      "kind": "analysis-library",
+      "license": "Apache-2.0",
+      "usage": "optional-integration",
+      "notes": "Face and object detection for subject-aware reframing and crop suggestions."
+    },
+    {
+      "id": "opencv",
+      "title": "OpenCV",
+      "url": "https://docs.opencv.org/",
+      "kind": "analysis-library",
+      "license": "Apache-2.0",
+      "usage": "optional-integration",
+      "notes": "Frame sampling, optical flow, blur/exposure analysis, tracking, and image transforms."
+    },
+    {
+      "id": "pillow",
+      "title": "Pillow",
+      "url": "https://pillow.readthedocs.io/",
+      "kind": "library",
+      "license": "HPND",
+      "usage": "runtime-dependency",
+      "notes": "Image normalization, title cards, contact sheets, simple animation frames, and text measurement."
+    },
+    {
+      "id": "fonttools",
+      "title": "fontTools",
+      "url": "https://fonttools.readthedocs.io/",
+      "kind": "library",
+      "license": "MIT",
+      "usage": "optional-integration",
+      "notes": "Font metadata, subsetting and variable-font inspection; does not grant font redistribution rights."
+    },
+    {
+      "id": "wcag-captions",
+      "title": "W3C captions guidance",
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "kind": "standard-guidance",
+      "license": "W3C-document-license",
+      "usage": "accessibility-reference",
+      "notes": "Captions provide synchronized text for speech and meaningful non-speech audio."
+    },
+    {
+      "id": "wcag-contrast",
+      "title": "WCAG contrast guidance",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "kind": "standard-guidance",
+      "license": "W3C-document-license",
+      "usage": "accessibility-reference",
+      "notes": "Contrast criteria and rationale for readable text; video overlays still require contextual judgment."
+    },
+    {
+      "id": "itu-bs1770",
+      "title": "ITU-R BS.1770",
+      "url": "https://www.itu.int/rec/R-REC-BS.1770",
+      "kind": "standard",
+      "license": "standards-terms",
+      "usage": "audio-reference",
+      "notes": "Algorithms for programme loudness and true-peak audio measurement."
+    },
+    {
+      "id": "ebu-r128",
+      "title": "EBU R 128",
+      "url": "https://tech.ebu.ch/publications/r128",
+      "kind": "standard",
+      "license": "documentation-terms",
+      "usage": "audio-reference",
+      "notes": "Broadcast loudness normalization guidance built on BS.1770."
+    },
+    {
+      "id": "youtube-upload",
+      "title": "YouTube recommended upload encoding settings",
+      "url": "https://support.google.com/youtube/answer/1722171",
+      "kind": "platform-documentation",
+      "license": "site-terms",
+      "usage": "delivery-reference-reverify",
+      "notes": "Container, codec, frame rate, aspect ratio and audio recommendations; recheck before final delivery."
+    },
+    {
+      "id": "youtube-aspect",
+      "title": "YouTube aspect ratio guidance",
+      "url": "https://support.google.com/youtube/answer/6375112",
+      "kind": "platform-documentation",
+      "license": "site-terms",
+      "usage": "delivery-reference-reverify",
+      "notes": "Player adaptation and native aspect-ratio guidance."
+    },
+    {
+      "id": "tiktok-specs",
+      "title": "TikTok business video specifications",
+      "url": "https://ads.tiktok.com/help/article/video-ads-specifications",
+      "kind": "platform-documentation",
+      "license": "site-terms",
+      "usage": "delivery-reference-reverify",
+      "notes": "Official advertising specs used as a cautious technical proxy; organic product UI may differ."
+    },
+    {
+      "id": "meta-reels",
+      "title": "Meta Reels creative and technical guidance",
+      "url": "https://www.facebook.com/business/help/1038071743007909",
+      "kind": "platform-documentation",
+      "license": "site-terms",
+      "usage": "delivery-reference-reverify",
+      "notes": "Reels aspect, media and creative guidance; user-interface overlays change over time."
+    },
+    {
+      "id": "linkedin-video",
+      "title": "LinkedIn video specifications",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a548108",
+      "kind": "platform-documentation",
+      "license": "site-terms",
+      "usage": "delivery-reference-reverify",
+      "notes": "Supported video formats and constraints; recheck before export."
+    },
+    {
+      "id": "yt-dlp",
+      "title": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "kind": "tool",
+      "license": "Unlicense",
+      "usage": "optional-integration",
+      "notes": "Media acquisition only when the user has rights and the site permits access."
+    },
+    {
+      "id": "editly",
+      "title": "Editly",
+      "url": "https://github.com/mifi/editly",
+      "kind": "renderer",
+      "license": "MIT",
+      "usage": "research-and-optional-integration",
+      "notes": "Declarative JSON/JavaScript video editing patterns and transitions."
+    },
+    {
+      "id": "mlt",
+      "title": "MLT Multimedia Framework",
+      "url": "https://www.mltframework.org/",
+      "kind": "framework",
+      "license": "LGPL-2.1-or-later",
+      "usage": "optional-integration",
+      "notes": "Timeline-based multimedia engine used by nonlinear editors; candidate for future adapter."
+    },
+    {
+      "id": "frei0r",
+      "title": "frei0r video effects",
+      "url": "https://frei0r.dyne.org/",
+      "kind": "effects-framework",
+      "license": "GPL-2.0-or-later",
+      "usage": "invoke-through-compatible-host",
+      "notes": "Portable video effects plugins; verify host and distribution implications."
+    },
+    {
+      "id": "mediainfo",
+      "title": "MediaInfo",
+      "url": "https://github.com/MediaArea/MediaInfo",
+      "kind": "inspection-tool",
+      "license": "BSD-2-Clause",
+      "usage": "optional-integration",
+      "notes": "Detailed container, stream, codec, color, HDR, timecode and metadata inspection beyond the baseline ffprobe report."
+    },
+    {
+      "id": "exiftool",
+      "title": "ExifTool",
+      "url": "https://github.com/exiftool/exiftool",
+      "kind": "metadata-tool",
+      "license": "Artistic-1.0-Perl-or-GPL-1.0-or-later",
+      "usage": "invoke-external-tool-no-code-copy",
+      "notes": "Broad camera, image, audio and video metadata inspection and controlled metadata edits; retain original files and use write operations cautiously."
+    },
+    {
+      "id": "vmaf",
+      "title": "Netflix VMAF",
+      "url": "https://github.com/Netflix/vmaf",
+      "kind": "quality-metric",
+      "license": "BSD-2-Clause-Patent",
+      "usage": "optional-integration",
+      "notes": "Full-reference perceptual video quality metric for comparing encodes or delivery variants when a trusted reference master exists."
+    },
+    {
+      "id": "shaka-packager",
+      "title": "Shaka Packager",
+      "url": "https://github.com/shaka-project/shaka-packager",
+      "kind": "delivery-tool",
+      "license": "BSD-3-Clause",
+      "usage": "optional-integration",
+      "notes": "DASH and HLS packaging, encryption and manifest generation after editorial mastering; not a creative renderer."
+    },
+    {
+      "id": "mediaconch",
+      "title": "MediaConch",
+      "url": "https://mediaarea.net/MediaConch",
+      "kind": "conformance-tool",
+      "license": "BSD-2-Clause-verify-current-components",
+      "usage": "invoke-external-tool",
+      "notes": "Policy and implementation conformance checking for audiovisual containers; verify current package/component licensing before redistribution."
+    },
+    {
+      "id": "qctools",
+      "title": "QCTools",
+      "url": "https://mediaarea.net/QCTools",
+      "kind": "quality-control-tool",
+      "license": "GPL-3.0-program-and-BSD-3-Clause-BAVC-code",
+      "usage": "invoke-external-tool-no-code-copy",
+      "notes": "Signal-level plots, waveform/vectorscope views, broadcast-range and temporal artifact analysis for difficult masters and archival QC."
+    },
+    {
+      "id": "ai-video-editing-pack",
+      "title": "Payton Bilodeau AI Video Editing Pack",
+      "url": "https://github.com/paytonbilodeau/ai-video-editing-pack",
+      "kind": "repository",
+      "license": "custom-Free-Use-Terms",
+      "usage": "research-only-no-copy",
+      "notes": "Reviewed 2026-10-07; revision 23902d2676bf2597389d4b2ad1a9de1942ebd0e4. Independent attributed Resolve methods only; no code/templates/assets vendored. See research/AI_VIDEO_EDITING_PACK_REVIEW.md."
+    }
+  ]
+}

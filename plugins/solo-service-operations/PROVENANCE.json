@@ -1,0 +1,529 @@
+{
+  "package": "solo-service-operations",
+  "version": "0.2.0",
+  "first_party_author": "Jonathan Kyle Hobson",
+  "scope": "All public files except this self-describing provenance file. Public release archive supplies complete external hash receipt. Canonical source paths and task receipts remain outside public package.",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 310,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "df9cbd85817e0c03806a657d2d832d3d8ca54b279a90ed38a8548ba75dab04a1",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 1027,
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "34cba540c0f348b44675603e1466c52d06e0b07021065f801cd9c6cb3804b232",
+      "output_sha256": "ed125508128710d2fcd4ca7c7a8455327019a907b9941ef0d2fb7c18ff886836",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 69,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "5efc0208fadb93cdc8e89f70178ad7a0da484a72242e9722e19b05104cf2adb0",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "source_relative": "LICENSE",
+      "source_sha256": "85b9ad04723d087a6d4b3d2ed9fd58eb4cdc74aa5ae22ba32543b537c674a5e7",
+      "output_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 896,
+      "source_relative": "NOTICE",
+      "source_sha256": "e6ec800e9fc216e0b44dde523f3912accaecb858d38d34499cd2e55f448c6214",
+      "output_sha256": "d827ae0e3fe4a0c5010d268da70345768904b600cf6709ba9514978780ed5935",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "PUBLIC_DISTRIBUTION.md",
+      "bytes": 1374,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "3ebb8e813791b8daa5be058c60e9119b23b21e233735254096d7e2459753e1f4",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4116,
+      "source_relative": "README.md",
+      "source_sha256": "d86b2613dff6936fd35594f4da6e1f7f63b7498ea3887a6c3e3da4f865a927e4",
+      "output_sha256": "0fd855909a1da7eda7a5b9474fa08f824489bef08dab41c1f30dc3581f9523e4",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 958,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "7b12d7e379ffaaa20f9b062241d0c52eef012b1d85be51b7add15bbb608c38f9",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "docs/installation.md",
+      "bytes": 787,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "e361ee271295af38ef759756e04bc3aab34b2aa09e8ee953a4a98c19316ac924",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "docs/project-map.md",
+      "bytes": 1632,
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "a0a12f0a79ac829e75fd4ebfa08c6f50d23fa5544a19498f0c85ce78c113729c",
+      "output_sha256": "b83a61016508ddb01c43943801997c710517563e7ae5c22b50b1bd43b3b978b6",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "docs/provenance.md",
+      "bytes": 3189,
+      "source_relative": "docs/provenance.md",
+      "source_sha256": "cfe20ecd5a8fc2c5ed344f28ce85a634d2d69d06b32d31965e1e32d172ba2f8a",
+      "output_sha256": "8baf584eecec5f52f6ea7fac3e3bfb3bb3a20815f160fe61a830c0e9ebca70f2",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "docs/upstream-provenance.json",
+      "bytes": 4782,
+      "source_relative": "docs/upstream-provenance.json",
+      "source_sha256": "a4c2cd201231a14e9f423494bdaf1346e46bbd574e99c950827d1edd1595db21",
+      "output_sha256": "a4c2cd201231a14e9f423494bdaf1346e46bbd574e99c950827d1edd1595db21",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "examples/reconciliation-input.json",
+      "bytes": 889,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "a18c83cb4a2bb272b2e4f596bf911004bc0c567bf329cc598aa58cb34d346dde",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/LICENSE",
+      "bytes": 11607,
+      "source_relative": "libraries/knowledge-work-plugins/LICENSE",
+      "source_sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "output_sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/finance/LICENSE",
+      "bytes": 11358,
+      "source_relative": "libraries/knowledge-work-plugins/finance/LICENSE",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "output_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/finance/skills/reconciliation/SKILL.original.md",
+      "bytes": 8144,
+      "source_relative": "libraries/knowledge-work-plugins/finance/skills/reconciliation/SKILL.original.md",
+      "source_sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "output_sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/artifact-style.md",
+      "bytes": 15320,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/artifact-style.md",
+      "source_sha256": "fd691d1e07b7e77a0fae64f4ff2c628bb9b2f2aae21029b15215e038e58ed0f5",
+      "output_sha256": "fd691d1e07b7e77a0fae64f4ff2c628bb9b2f2aae21029b15215e038e58ed0f5",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/connector-call-shapes.md",
+      "bytes": 6796,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/connector-call-shapes.md",
+      "source_sha256": "22a7ef0942b6644a258da56dc1004b1e287f51510444fc8531ae296e71ccc88a",
+      "output_sha256": "22a7ef0942b6644a258da56dc1004b1e287f51510444fc8531ae296e71ccc88a",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/connector-neutrality.md",
+      "bytes": 7534,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/connector-neutrality.md",
+      "source_sha256": "9d533c0e0f54a20e9b3b650d293dc66f6f51d10bdb523dd700bb61ae34a35cb2",
+      "output_sha256": "9d533c0e0f54a20e9b3b650d293dc66f6f51d10bdb523dd700bb61ae34a35cb2",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/currency-and-locale.md",
+      "bytes": 5460,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/currency-and-locale.md",
+      "source_sha256": "8b1fb6326c1de987b2f118a0e3e559083708775eb4c17dd2eacc8d726dbd5dc8",
+      "output_sha256": "8b1fb6326c1de987b2f118a0e3e559083708775eb4c17dd2eacc8d726dbd5dc8",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/quickbooks-report-traps.md",
+      "bytes": 9449,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/quickbooks-report-traps.md",
+      "source_sha256": "e7504fb72a3f53f5be19c4cd24dcc8aac42dfc175f9f4c0206f48b9170f62bdc",
+      "output_sha256": "e7504fb72a3f53f5be19c4cd24dcc8aac42dfc175f9f4c0206f48b9170f62bdc",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/tenant-scope.md",
+      "bytes": 2244,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/tenant-scope.md",
+      "source_sha256": "3db7cf4a7e7eca6b6cd25a0d06d33876f5c91c679c1d98a6f131e02b3246b441",
+      "output_sha256": "3db7cf4a7e7eca6b6cd25a0d06d33876f5c91c679c1d98a6f131e02b3246b441",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/untrusted-content.md",
+      "bytes": 4584,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/untrusted-content.md",
+      "source_sha256": "d48587210f93e30127762f87f6a0c725ae2d6f0f196740595094451897e2fdb4",
+      "output_sha256": "d48587210f93e30127762f87f6a0c725ae2d6f0f196740595094451897e2fdb4",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/shared/voice-profile.md",
+      "bytes": 5438,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/shared/voice-profile.md",
+      "source_sha256": "7a6657a3389746c30c4fcc14ae0fa7298c0f49350fa382296fc6b885c35583d5",
+      "output_sha256": "7a6657a3389746c30c4fcc14ae0fa7298c0f49350fa382296fc6b885c35583d5",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/SKILL.original.md",
+      "bytes": 12709,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/SKILL.original.md",
+      "source_sha256": "1e5584378c5817981899bfa81296d8a9c2a7e4381a2f1deed616194e51944fff",
+      "output_sha256": "1e5584378c5817981899bfa81296d8a9c2a7e4381a2f1deed616194e51944fff",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/examples/worked-example.md",
+      "bytes": 3690,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/examples/worked-example.md",
+      "source_sha256": "30afc3df4f2c3fb646fcd266879e8a8f1149c24dc4b784ce5b6de2dbf63c6a97",
+      "output_sha256": "30afc3df4f2c3fb646fcd266879e8a8f1149c24dc4b784ce5b6de2dbf63c6a97",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/gotchas.md",
+      "bytes": 2406,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/gotchas.md",
+      "source_sha256": "80ddfd841077d33853e4143287dee23b9a7c8d17c43d2d0286a91a5ba67199b4",
+      "output_sha256": "80ddfd841077d33853e4143287dee23b9a7c8d17c43d2d0286a91a5ba67199b4",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/v2_sources.md",
+      "bytes": 5358,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/cash-flow-snapshot/reference/v2_sources.md",
+      "source_sha256": "4d9139527fa81123731334eff18f00670e4d7a820731242c8ed228ee60d1a72f",
+      "output_sha256": "4d9139527fa81123731334eff18f00670e4d7a820731242c8ed228ee60d1a72f",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/SKILL.original.md",
+      "bytes": 11840,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/SKILL.original.md",
+      "source_sha256": "538d4b6c0120f8279d1f8bafcd2be79f9836959c75ee52f3dff4a77e3a3c6b66",
+      "output_sha256": "538d4b6c0120f8279d1f8bafcd2be79f9836959c75ee52f3dff4a77e3a3c6b66",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/examples/firm-reminder.md",
+      "bytes": 875,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/examples/firm-reminder.md",
+      "source_sha256": "028ddbdbb2b3c73907b04761a4c00ca0e3fb00a0c0b48f994932f8c273400da2",
+      "output_sha256": "028ddbdbb2b3c73907b04761a4c00ca0e3fb00a0c0b48f994932f8c273400da2",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/examples/gentle-reminder.md",
+      "bytes": 829,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/examples/gentle-reminder.md",
+      "source_sha256": "41795df28acb8e5272cfe17438b1f62c8f5d738876322571bcb64fbbde85cfe2",
+      "output_sha256": "41795df28acb8e5272cfe17438b1f62c8f5d738876322571bcb64fbbde85cfe2",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/gotchas.md",
+      "bytes": 5158,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/gotchas.md",
+      "source_sha256": "ec85aac5f34f0ac3688efe75e1c10e754314b8bf206f5748bf12d8f3b16ff53c",
+      "output_sha256": "ec85aac5f34f0ac3688efe75e1c10e754314b8bf206f5748bf12d8f3b16ff53c",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/tone-matching.md",
+      "bytes": 1703,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/tone-matching.md",
+      "source_sha256": "8bae97b8aed0ec1813c1cd51f3b36cd8285ebf911643484aac0781fd3a23f566",
+      "output_sha256": "8bae97b8aed0ec1813c1cd51f3b36cd8285ebf911643484aac0781fd3a23f566",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/v2_sources.md",
+      "bytes": 5772,
+      "source_relative": "libraries/knowledge-work-plugins/small-business/skills/invoice-chase/reference/v2_sources.md",
+      "source_sha256": "ea499f19abd14eb1b874440e0181e16af1e4042eb059ac487bc303a78c65f97d",
+      "output_sha256": "ea499f19abd14eb1b874440e0181e16af1e4042eb059ac487bc303a78c65f97d",
+      "rights": "Apache-2.0: anthropics/knowledge-work-plugins pinned selected source",
+      "license_notice": "libraries/knowledge-work-plugins/LICENSE and libraries/knowledge-work-plugins/finance/LICENSE",
+      "status": "unchanged"
+    },
+    {
+      "path": "plugin.json",
+      "bytes": 501,
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "665ab4b740e43270e4294d2848933883af913255728a1ab58fdcdb95619fb7e4",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "original-public-addition",
+      "integration_change": "Use official portable schema fields; skills/ follows specification defaults. Native Codex and Claude skill declarations remain in their manifests."
+    },
+    {
+      "path": "references/client-workflows.md",
+      "bytes": 1390,
+      "source_relative": "references/personal-workflows.md",
+      "source_sha256": "0331cac38c3b43f210abdbd456d929ea2a254ed689c8d9ed24bcb1f5692345d7",
+      "output_sha256": "a5cadc793d70cc5a9743e3af88ef8733b9f6f3e93d627cced50dae10486c6cf3",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "references/engagement-terms-record.md",
+      "bytes": 2291,
+      "source_relative": "references/engagement-terms-record.md",
+      "source_sha256": "d7c6ac1a63ca4cc994b4b81e5e30a17b9d63d4873886d4beb2764684117418e4",
+      "output_sha256": "d7c6ac1a63ca4cc994b4b81e5e30a17b9d63d4873886d4beb2764684117418e4",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "bytes": 739,
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "54aee80da251035fe62e34ae5464e91179d9416c85d3c7965e891dc99b90d31e",
+      "output_sha256": "754104119fdabdb9981f4fef824bab1dd8f00b56950b1efdb13c8c17328e9696",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "modified"
+    },
+    {
+      "path": "references/professional-agents/business-advisor.md",
+      "bytes": 2653,
+      "source_relative": "references/professional-agents/business-advisor.md",
+      "source_sha256": "fdeb9e07f4b0e0b6841bc6ed44e42cbcfe08dca72bab11e8ab3d8860a2037a9a",
+      "output_sha256": "0f8e550fab07313863231ae1012a5b70a6d5b51fd2f672d49e3575ba1ef512f9",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "modified"
+    },
+    {
+      "path": "references/professional-agents/business-operations-specialist.md",
+      "bytes": 2473,
+      "source_relative": "references/professional-agents/business-operations-specialist.md",
+      "source_sha256": "50f5455a380df95b4f34979f51ca20ccc8ccdb468fa5cade1b58e6e8302d4fe8",
+      "output_sha256": "f71f17fa02850efee30af75ace5195ef31eba497ac040a122e12b3dbf5fcb514",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "modified"
+    },
+    {
+      "path": "references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "bytes": 1079,
+      "source_relative": "work-management/references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+      "source_sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "output_sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "bytes": 1065,
+      "source_relative": "work-management/references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+      "source_sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da",
+      "output_sha256": "8ed27772f4430d6e3815599b849c1b6e59088671133ef67e9b1be4acef2b75da",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "bytes": 1068,
+      "source_relative": "work-management/references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+      "source_sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "output_sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "rights": "Original adapted role contracts with AgentLand/VoltAgent/Seth Hobson MIT lineage",
+      "license_notice": "references/professional-agents/source-notices/",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/reconciliation-input.md",
+      "bytes": 2526,
+      "source_relative": "references/reconciliation-input.md",
+      "source_sha256": "9a79ee533fe2b67619ca8834c2217f08cecd7b1667f3e19e302701ed95f6ad79",
+      "output_sha256": "9a79ee533fe2b67619ca8834c2217f08cecd7b1667f3e19e302701ed95f6ad79",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/source-and-data-boundaries.md",
+      "bytes": 2818,
+      "source_relative": "references/source-and-data-boundaries.md",
+      "source_sha256": "22c365eac7382f4f896c3c113d5c8eb70fff6e8d7fc050c8e0c579d1d07aadb8",
+      "output_sha256": "22c365eac7382f4f896c3c113d5c8eb70fff6e8d7fc050c8e0c579d1d07aadb8",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "references/work-evidence.md",
+      "bytes": 4517,
+      "source_relative": "references/work-evidence.md",
+      "source_sha256": "8b3a714dfbb14f1ae67252a4a32460359676cbe18067294fe3be3d374e624063",
+      "output_sha256": "50fcbb2248bba43c035a6feede05d06b3ea21d84ea3bbdad6425de2d43a578b6",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "scripts/reconcile.py",
+      "bytes": 6169,
+      "source_relative": "scripts/reconcile.py",
+      "source_sha256": "32a80e029fa1643bebe02ca6d44fdd0073cb53a04062cc363f032c68bb6d1194",
+      "output_sha256": "32a80e029fa1643bebe02ca6d44fdd0073cb53a04062cc363f032c68bb6d1194",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/cash-flow-planning/SKILL.md",
+      "bytes": 5708,
+      "source_relative": "skills/cash-flow-planning/SKILL.md",
+      "source_sha256": "d79da95ff0ed72feba226ec6759a71d8976dc351f8cdd31f2ea0fc4af9beb66c",
+      "output_sha256": "d79da95ff0ed72feba226ec6759a71d8976dc351f8cdd31f2ea0fc4af9beb66c",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/invoice-follow-up/SKILL.md",
+      "bytes": 5660,
+      "source_relative": "skills/invoice-follow-up/SKILL.md",
+      "source_sha256": "72efab54f16bc8feb6d06ea88ed3242a28c20f8033ed4db2966a508321a3dd82",
+      "output_sha256": "176ea18049500a75a9b3eeeca82c65dd435e281d6d2d914d95d77f3d9cf65328",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "skills/invoice-preparation/SKILL.md",
+      "bytes": 5587,
+      "source_relative": "skills/invoice-preparation/SKILL.md",
+      "source_sha256": "20807960f896233ae30f13850538ef70cca1c546d8f2f397a8a193e1d58abe0f",
+      "output_sha256": "2c544f5dd5c1ae19c990a86f83a991c26eb6a0c265835a0e769cfa0c62218c8d",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "modified"
+    },
+    {
+      "path": "skills/payment-reconciliation/SKILL.md",
+      "bytes": 6791,
+      "source_relative": "skills/payment-reconciliation/SKILL.md",
+      "source_sha256": "f214c1332f2ea05d8817faaa2849bcd0f350f2b2c189ff44b186e9fab28b0f5d",
+      "output_sha256": "f214c1332f2ea05d8817faaa2849bcd0f350f2b2c189ff44b186e9fab28b0f5d",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    },
+    {
+      "path": "tests/test_reconcile.py",
+      "bytes": 5217,
+      "source_relative": "tests/test_reconcile.py",
+      "source_sha256": "cb34c59b1c8f8bcd043648f41478ac1cc6e139acc4646a47ced63b553efc2ca4",
+      "output_sha256": "cb34c59b1c8f8bcd043648f41478ac1cc6e139acc4646a47ced63b553efc2ca4",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and NOTICE",
+      "status": "unchanged"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "solo-service-operations",
+  "version": "0.2.0",
+  "description": "Evidence-backed invoice preparation, follow-up, payment reconciliation and cash-flow planning from user-supplied records.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Solo Service Operations Studio",
+    "shortDescription": "Invoices, reconciliation and cash visibility",
+    "longDescription": "Prepare verified invoice documents from agreed terms and work evidence, reconcile payments and model cash with explicit uncertainty. No account connector or payment action is supplied.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Prepare an invoice review copy from my agreed terms and dated work evidence.",
+      "Reconcile these invoice and payment records.",
+      "Prepare follow-up drafts for these verified receivables."
+    ]
+  }
+}

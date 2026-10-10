@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video QA Report",
+  "type": "object",
+  "required": ["path", "probe", "checks", "passed"],
+  "properties": {
+    "path": {"type": "string"},
+    "probe": {"type": "object"},
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "status"],
+        "properties": {
+          "name": {"type": "string"},
+          "status": {"enum": ["pass", "warning", "fail"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "passed": {"type": "boolean"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reference to render — deterministic canvas example</title>
+<style>body{margin:0;padding:24px;background:#101418;color:#e9edf1;font:16px Arial,sans-serif}main{max-width:960px;margin:auto}canvas{display:block;width:100%;height:auto}nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:18px}button,input{font:inherit}button{padding:10px 18px;border:1px solid #7d8a96;border-radius:6px;background:#1b222a;color:inherit}button:focus-visible,input:focus-visible{outline:3px solid #e8c26a}input{flex:1;min-width:180px}p{color:#adb8c3;line-height:1.5}output{min-width:9ch}</style>
+<main><canvas id="film" width="960" height="540" aria-label="Three stages: reference, storyboard, render"></canvas><nav aria-label="Preview controls"><button id="play">Play</button><label for="frame">Frame</label><input id="frame" type="range" min="0" max="287" value="48"><output id="time">2.00 s</output></nav><p id="status" role="status">Loading the local Arial font…</p><p>Silent, 12-second example. Each frame is drawn from its index. The preview starts paused; reduced-motion preference disables autoplay. Export timing is independent of preview controls.</p></main>
+<script type="module">
+import {drawFrame,BEATS} from './scene.mjs';
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),range=document.querySelector('input'),out=document.querySelector('output'),play=document.querySelector('button'),status=document.querySelector('#status');
+let raf=0,start=0,base=0;
+function seek(frame){const n=Math.max(0,Math.min(287,Math.round(frame)));drawFrame(ctx,n,24);range.value=n;out.value=(n/24).toFixed(2)+' s';return n;}
+function stop(){cancelAnimationFrame(raf);raf=0;play.textContent='Play';}
+window.ready=(async()=>{const font=new FontFace('MotionExample','local("Arial")');await font.load();document.fonts.add(font);await document.fonts.ready;window.renderFrame=(frame)=>drawFrame(ctx,frame,24);window.sceneBeats=BEATS;seek(48);status.textContent='Ready · 960 × 540 · 24 fps · local Arial';})();
+window.ready.catch(e=>{status.textContent='Preview unavailable: '+e.message;play.disabled=true;range.disabled=true;});
+range.addEventListener('input',()=>{stop();seek(Number(range.value));});
+play.addEventListener('click',()=>{if(raf){stop();return;} if(matchMedia('(prefers-reduced-motion: reduce)').matches){seek((Number(range.value)<96)?144:(Number(range.value)<192)?264:48);status.textContent='Reduced motion: moved to the next held frame.';return;}base=Number(range.value)>=287?0:Number(range.value);start=performance.now();play.textContent='Pause';function tick(now){const n=seek(base+(now-start)*24/1000);if(n===287){stop();return;}raf=requestAnimationFrame(tick);}raf=requestAnimationFrame(tick);});
+addEventListener('pagehide',stop);
+</script></html>

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-production-workflow"
+version = "0.3.0"
+license = {file = "LICENSE"}
+authors = [{name = "Jonathan Kyle Hobson"}]
+readme = "README.md"
+description = "Declarative, agent-friendly programmatic video production workflow"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0",
+  "Pillow>=10.1",
+  "numpy>=1.26",
+  "jsonschema>=4.20",
+]
+
+[project.optional-dependencies]
+audio = ["librosa>=0.10", "soundfile>=0.12", "pyloudnorm>=0.1"]
+analysis = ["scenedetect>=0.7", "faster-whisper>=1.1", "mediapipe>=0.10"]
+interchange = ["opentimelineio>=0.17"]
+python-renderer = ["moviepy>=2.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+video-workflow = "video_workflow.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+include = ["video_workflow*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

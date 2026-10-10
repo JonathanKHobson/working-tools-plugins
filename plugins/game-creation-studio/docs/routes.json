@@ -1,0 +1,36 @@
+{
+  "schema": "game-creation-studio.routes.v1",
+  "entrypoint": "game-creation-studio",
+  "localSkills": [
+    {"id": "game-creation-studio", "useWhen": "cross-discipline game request or package help", "skill": "skills/game-creation-studio/SKILL.md"},
+    {"id": "game-core-loop", "useWhen": "fantasy, verbs, choice, feedback, loop", "skill": "skills/game-core-loop/SKILL.md"},
+    {"id": "game-prototype-scope", "useWhen": "playable slice, cut list, milestone", "skill": "skills/game-prototype-scope/SKILL.md"},
+    {"id": "gameplay-systems", "useWhen": "rules, progression, balance, state, saves", "skill": "skills/gameplay-systems/SKILL.md"},
+    {"id": "game-ui-accessibility", "useWhen": "HUD, menus, controls, onboarding, accessibility", "skill": "skills/game-ui-accessibility/SKILL.md"},
+    {"id": "game-playtest-release", "useWhen": "player observation, issue triage, release checks", "skill": "skills/game-playtest-release/SKILL.md"},
+    {"id": "game-asset-production", "useWhen": "produce and validate canonical game asset", "skill": "skills/game-asset-production/SKILL.md", "requiresForCommands": "game-dev CLI"},
+    {"id": "game-asset-vendoring", "useWhen": "verify, license-check, and admit package", "skill": "skills/game-asset-vendoring/SKILL.md", "requiresForCommands": "game-dev CLI"},
+    {"id": "game-visual-debugging", "useWhen": "adapter capture, telemetry, semantic render diff", "skill": "skills/game-visual-debugging/SKILL.md", "requiresForCommands": "game-dev CLI"},
+    {"id": "game-performance-optimization", "useWhen": "sealed metrics and bounded optimization", "skill": "skills/game-performance-optimization/SKILL.md", "requiresForCommands": "game-dev CLI"}
+  ],
+  "officialBrowserGameProvider": {
+    "package": "OpenAI Game Studio",
+    "pluginId": "game-studio",
+    "relationship": "external installed provider, not bundled or modified",
+    "skills": [
+      {"id": "game-studio", "useWhen": "browser game stack selection and cross-domain routing"},
+      {"id": "web-game-foundations", "useWhen": "browser architecture, shared gameplay foundation and engine choice"},
+      {"id": "phaser-2d-game", "useWhen": "2D Phaser implementation"},
+      {"id": "three-webgl-game", "useWhen": "plain Three.js implementation"},
+      {"id": "react-three-fiber-game", "useWhen": "React-hosted 3D implementation"},
+      {"id": "sprite-pipeline", "useWhen": "2D sprite generation and normalization"},
+      {"id": "web-3d-asset-pipeline", "useWhen": "shipping GLB, glTF, texture and runtime asset optimization"},
+      {"id": "game-ui-frontend", "useWhen": "browser HUD, menus, frontend implementation"},
+      {"id": "game-playtest", "useWhen": "browser playtest and visual QA"}
+    ]
+  },
+  "dependencies": {
+    "gameDevCli": "separately installed; check presence and capabilities when a third-party technical command is needed",
+    "browserProvider": "separately installed OpenAI Game Studio; confirm available before claiming an execution route"
+  }
+}

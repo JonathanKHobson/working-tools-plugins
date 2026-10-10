@@ -1,0 +1,65 @@
+{
+  "title": "Check and revise a fictional AI event notice",
+  "max_points": 6,
+  "outcomes": [
+    {
+      "id": "O1",
+      "description": "Given a source and AI draft, distinguish supported, contradictory, and unknown claims."
+    },
+    {
+      "id": "O2",
+      "description": "Revise the draft for its audience and explain a correction using source evidence."
+    }
+  ],
+  "practice": [
+    {
+      "id": "P1",
+      "description": "Compare a worked correction, then repair another claim with a source hint.",
+      "outcome_ids": [
+        "O1"
+      ]
+    },
+    {
+      "id": "P2",
+      "description": "Revise a short notice, compare with a peer, and retry with feedback.",
+      "outcome_ids": [
+        "O1",
+        "O2"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "id": "A1",
+      "description": "Independently revise a new fictional notice and explain one evidence-based change.",
+      "outcome_ids": [
+        "O1",
+        "O2"
+      ]
+    }
+  ],
+  "rubric": [
+    {
+      "id": "R1",
+      "description": "Stated facts are supported; unknowns remain omitted or flagged.",
+      "outcome_id": "O1",
+      "assessment_id": "A1",
+      "points": 2
+    },
+    {
+      "id": "R2",
+      "description": "The revision meets audience and task constraints.",
+      "outcome_id": "O2",
+      "assessment_id": "A1",
+      "points": 2
+    },
+    {
+      "id": "R3",
+      "description": "The rationale links an edit to a specific source discrepancy.",
+      "outcome_id": "O2",
+      "assessment_id": "A1",
+      "points": 2
+    }
+  ]
+}
+

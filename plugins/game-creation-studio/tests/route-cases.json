@@ -1,0 +1,24 @@
+{
+  "schema": "game-creation-studio.route-cases.v1",
+  "cases": [
+    {"prompt": "Help me build a browser game; I have no stack yet", "expectedLocal": "game-creation-studio", "expectedOfficial": "game-studio"},
+    {"prompt": "What is the player doing minute to minute in this idea?", "expectedLocal": "game-core-loop"},
+    {"prompt": "Scope a weekend prototype with one complete run", "expectedLocal": "game-prototype-scope"},
+    {"prompt": "Balance this turn economy and save transitions", "expectedLocal": "gameplay-systems"},
+    {"prompt": "Make my game HUD work on keyboard and touch", "expectedLocal": "game-ui-accessibility", "expectedOfficial": "game-ui-frontend"},
+    {"prompt": "Observe a player and decide if this build is ready", "expectedLocal": "game-playtest-release", "expectedOfficial": "game-playtest"},
+    {"prompt": "Package this GLB with provenance and validation", "expectedLocal": "game-asset-production"},
+    {"prompt": "License-check this package and admit it to my game", "expectedLocal": "game-asset-vendoring"},
+    {"prompt": "Find this renderer regression using a sealed capture", "expectedLocal": "game-visual-debugging"},
+    {"prompt": "Compare frame time from two sealed runs", "expectedLocal": "game-performance-optimization"},
+    {"prompt": "Build a Phaser 2D mechanic", "expectedLocal": "game-creation-studio", "expectedOfficial": "phaser-2d-game"},
+    {"prompt": "Implement a plain Three.js level", "expectedLocal": "game-creation-studio", "expectedOfficial": "three-webgl-game"},
+    {"prompt": "Implement a React Three Fiber scene", "expectedLocal": "game-creation-studio", "expectedOfficial": "react-three-fiber-game"},
+    {"prompt": "Normalize sprite frames for the browser", "expectedLocal": "game-creation-studio", "expectedOfficial": "sprite-pipeline"},
+    {"prompt": "Optimize GLB delivery size for the web", "expectedLocal": "game-creation-studio", "expectedOfficial": "web-3d-asset-pipeline"},
+    {"prompt": "Choose browser architecture for my game", "expectedLocal": "game-creation-studio", "expectedOfficial": "web-game-foundations"},
+    {"prompt": "What can Game Creation Studio do?", "expectedLocal": "game-creation-studio", "expectedBehavior": "help only; no command or scan"},
+    {"prompt": "The game-dev CLI is missing. Can you design a core loop?", "expectedLocal": "game-core-loop", "expectedBehavior": "continue design without CLI"},
+    {"prompt": "Do a general React dashboard", "expectedLocal": null, "expectedBehavior": "do not route to game package"}
+  ]
+}

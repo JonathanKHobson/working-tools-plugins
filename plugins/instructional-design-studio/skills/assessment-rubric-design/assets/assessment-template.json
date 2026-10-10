@@ -1,0 +1,41 @@
+{
+  "schema_version": "assessment-authoring-1",
+  "id": "room-booking-practice-v1",
+  "status": "draft",
+  "purpose": "formative",
+  "intended_use": "Choose further practice on a missed booking constraint; no mastery decision.",
+  "conditions": {
+    "allowed_aids": "The complete fictional rule card remains visible. No outside booking policy applies.",
+    "collaboration": "Individual first response; discussion after submission.",
+    "ai_assistance": "No generated answer for the first response; optional discussion afterward.",
+    "timing": "Untimed; 3 minutes is a planning estimate, not a score criterion.",
+    "access": "Plain text or spoken response; no drag, color or speed requirement."
+  },
+  "outcomes": [{"id": "LO-01", "claim": "Select a room and duration satisfying all constraints in a supplied rule card.", "evidence": "Choice accommodates capacity, equipment and required time.", "decision_use": "Use the missed constraint to choose the next worked example."}],
+  "sources": [{
+    "id": "SRC-01", "title": "Fictional Harbor Library room card", "version": "1", "kind": "fictional",
+    "content": "Room M: 12 seats, no projector. Room N: 20 seats, projector. Both are available. Book whole 30-minute blocks, reserving enough time for the full session. A group of 16 needs a projector for 50 minutes. No setup or cleanup time is required in this exercise."
+  }],
+  "items": [{
+    "id": "BOOK-01", "objective_ids": ["LO-01"],
+    "claim": "Apply all three booking constraints together.", "evidence": "Select Room N for 60 minutes.",
+    "source_refs": [{"source_id": "SRC-01", "locator": "Complete fictional room card, version 1", "supports": "M lacks capacity/equipment; N fits both; 50 minutes requires two 30-minute blocks."}],
+    "format": "single-select",
+    "cognitive_demand": {"label": "apply", "rationale": "Apply capacity, equipment and duration rules to this request."},
+    "difficulty": {"intended": "introductory", "observed": null},
+    "stem": "Which booking meets every requirement in the rule card?",
+    "response_directions": "Read the card and select one. One point for the correct choice; otherwise zero. No penalty.",
+    "options": [
+      {"id": "A", "text": "Room M for 60 minutes", "rationale": "Enough time, but M lacks the seats and projector; hypothesized capacity/equipment omission."},
+      {"id": "B", "text": "Room N for 30 minutes", "rationale": "Capacity and equipment fit, but time is insufficient; hypothesized rounding-down error."},
+      {"id": "C", "text": "Room N for 60 minutes", "rationale": "All three constraints are met."}
+    ],
+    "key": {"correct_option_ids": ["C"]},
+    "scoring": {"policy": "exact-match", "points_possible": 1, "penalty_rule": "none"},
+    "feedback": {
+      "explanation": "N's 20 seats and projector meet the requirements; 50 minutes needs two whole 30-minute blocks.",
+      "next_step": "Explain the missed constraint, then retry with 10 people, no projector, 40 minutes. Either room for 60 minutes fits; do not force a unique room key."
+    },
+    "review": {"source_verified": false, "independent_key_check": false, "pilot_status": "not-piloted"}
+  }]
+}

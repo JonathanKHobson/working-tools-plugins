@@ -1,0 +1,20 @@
+name: Package or documentation problem
+description: Report a reproducible problem without private data.
+body:
+  - type: input
+    id: package
+    attributes:
+      label: Package and version
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Client and operating system
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Expected behavior and synthetic reproduction
+      description: Do not include credentials, personal data or private project files.
+    validations:
+      required: true

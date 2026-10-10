@@ -1,0 +1,118 @@
+{
+  "video-production-workflow": {
+    "reference_exceptions": [
+      {
+        "path": "libraries/hyperframes-methods/source/skills/hyperframes-cli/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "38f888789b89d30379ef50c96f9b8d9ae71bd62e5317171bdba0c168f2b30680",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "b35f1f8eff68e9ff480a5d5d343a1bf5a40ebb7d0d9be20b0b980cfdb36047f3",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/general-video/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "fae0dd26658b765d60f383e25a10a8ece0dcdde7d5c02ec406d1eca76ae1f1f7",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "df1879ec7971ecfca42654c2027e38f3868d168fa20d5dcadf14288ad07c0567",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/SKILL.md",
+        "target": "../hyperframes-creative/references/motion-principles.md",
+        "source_sha256": "df1879ec7971ecfca42654c2027e38f3868d168fa20d5dcadf14288ad07c0567",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/SKILL.md",
+        "target": "../hyperframes-creative/references/data-in-motion.md",
+        "source_sha256": "df1879ec7971ecfca42654c2027e38f3868d168fa20d5dcadf14288ad07c0567",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/agents/builder.md",
+        "target": "../../hyperframes-creative/references/motion-principles.md",
+        "source_sha256": "49d48122d976b6314e191609f960fcac45052d416997b08d05aaba06d65ba079",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/agents/builder.md",
+        "target": "../../hyperframes-creative/references/data-in-motion.md",
+        "source_sha256": "49d48122d976b6314e191609f960fcac45052d416997b08d05aaba06d65ba079",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/categories/charts/module.md",
+        "target": "../../../hyperframes-creative/references/data-in-motion.md",
+        "source_sha256": "91300c08867db9a0ea55fab6d8cf010010997c147c20dbc720f6334037cea9ca",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/motion-graphics/categories/stat/module.md",
+        "target": "../../../hyperframes-creative/references/data-in-motion.md",
+        "source_sha256": "4890f6cd7010d8718fab01f8e02525164f6c06242aea24df22944aa85ecba7f0",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/hyperframes-core/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "18ac7784765cc29af5a4d88f2a63a15deaf5395985009af188b5e3718edcfe3d",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/hyperframes-methods/source/skills/hyperframes-keyframes/SKILL.md",
+        "target": "../hyperframes/references/plugin-installation.md",
+        "source_sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/youtube-agent-methods/README.md",
+        "target": "templates/voice.md",
+        "source_sha256": "6ca16ff2c83405ea859093168bbe31552f56a8b59a191962067b6c732781cfd8",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      },
+      {
+        "path": "libraries/youtube-agent-methods/README.md",
+        "target": "skills/yt-script/hooks.json",
+        "source_sha256": "6ca16ff2c83405ea859093168bbe31552f56a8b59a191962067b6c732781cfd8",
+        "reason": "byte-preserved inactive upstream source refers to unselected external historical source"
+      }
+    ],
+    "privacy_exceptions": [
+      {
+        "path": "libraries/hyperframes-methods/source/skills/hyperframes-cli/references/preview-render.md",
+        "sha256": "8faf5de843c2b6d8277d91767bc0c63f391b8b01289320fc05bfb8c58b1e408a",
+        "matched_lines": [
+          {
+            "line": 178,
+            "text": "**Feedback is submitted to a public channel \u2014 anonymize before sending.** Redact absolute paths (which leak user home directory + machine identity), any user or project names embedded in paths, secrets, and credentials. Path arguments in the command should stay relative to the project directory (`./renders/out.mp4`, not `/Users/<user>/Documents/\u2026/out.mp4`; `.hf-tmp/`, not `/home/<user>/projects/<real-name>/.hf-tmp/`). Similarly strip absolute paths from `EXACT ERROR:` stack traces and log excerpts \u2014 keep the file basename and line number, drop the leading directory. Preserve flags and relevant `HF_*` / `PRODUCER_*` variables verbatim. If the failure no longer reproduces, include the last failing command and log excerpt (redacted the same way). Share a project link only when one is already available and safe to share."
+          }
+        ],
+        "reason": "generic redaction examples or regex assertions; no actual user path/binding"
+      },
+      {
+        "path": "tests/test_public_portability.py",
+        "sha256": "4057a7082fd40281f12610a92b6632b481361723dcea4a868611da031fa0bf9c",
+        "matched_lines": [
+          {
+            "line": 22,
+            "text": "            assert not re.search(r'/Users/[A-Za-z0-9_.-]+/(?:plugins|\\.codex)', text), str(path.relative_to(ROOT))"
+          },
+          {
+            "line": 23,
+            "text": "            assert not re.search(r'/Volumes/[A-Za-z0-9_.-]+/', text), str(path.relative_to(ROOT))"
+          }
+        ],
+        "reason": "generic redaction examples or regex assertions; no actual user path/binding"
+      }
+    ]
+  }
+}

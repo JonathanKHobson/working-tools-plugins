@@ -1,0 +1,11 @@
+# HyperFrames methods — pinned inactive source
+
+- Source: https://github.com/heygen-com/hyperframes/tree/f6b38216263e0f9a8d67b4518a9b5dde71284169/skills
+- Revision: `f6b38216263e0f9a8d67b4518a9b5dde71284169`
+- License: Apache-2.0; retain `source/LICENSE`, preserve existing notices and mark modifications to copied files if made.
+- Contents: complete selected skill subtrees for `hyperframes-core`, `hyperframes-animation`, `hyperframes-keyframes`, `hyperframes-cli`, `motion-graphics`, and `general-video`, including their local references, blueprints, examples, agents and scripts. Per-file SHA-256 and Git blob IDs are in `SOURCE-MANIFEST.json`; all copied bytes were checked against the pinned tree and rehashed after copying.
+- Status: inactive reference library. No HyperFrames runtime was installed, invoked, registered or enabled. Selected source references other HyperFrames skills and hosted catalogs not included here; the retained corpus is not a standalone working distribution.
+
+## Admission review
+
+The staged source was scanned on 2026-10-06 with the reviewed local `skillguard_scan.py`: exit 0, 151 eligible files and 1,265,121 bytes scanned, 0 active and 0 suppressed findings; scan digest `fae2cc2da44ec9cbd3791e0b2a65481e07a659920f871ae4673606ae56a4b44c`. The full selected copy contains 176 files. The scanner did not cover the `.mjs` and `.html` files as executable/runtime behavior. Manual static review identified reachable code that must remain inactive pending a separate runtime review: `hyperframes-animation/scripts/package-loader.mjs` can install npm packages and start subprocesses; `motion-graphics/grounding/locate.mjs` reads `GEMINI_API_KEY` and calls Google's API; `motion-graphics/categories/maps/bake-basemap.mjs` loads remote map/CDN data and writes output. Test scripts also spawn processes and write temporary files. The skill prose directs `npx` installation/update, hosted catalog searches, and renderer commands. These instructions are retained as historical source data, not adopted as host authority. No candidate script, HTML example, package install or provider call was executed. Dynamic network behavior, transitive packages, browser rendering and license status of externally fetched media are unverified.

@@ -1,0 +1,38 @@
+{
+  "name": "game-creation-studio",
+  "version": "0.2.0",
+  "description": "Design, prototype, test, and prepare games with source-grounded asset and diagnostic workflows.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Game Creation Studio",
+    "shortDescription": "Shape and ship playable games.",
+    "longDescription": "Focused game design and production methods, with preserved Game Development Studio asset, vendoring, visual diagnosis, and performance methods. Browser implementation routes to the separately installed OpenAI Game Studio. Optional game-dev CLI execution is a separate dependency and is not installed by this package.",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Game design",
+      "Prototype scoping",
+      "Gameplay systems",
+      "Game UI",
+      "Playtesting",
+      "Asset production",
+      "Render diagnosis",
+      "Performance analysis"
+    ],
+    "defaultPrompt": [
+      "Design a small playable core loop from this game idea.",
+      "Turn this concept into a one-week prototype and playtest.",
+      "Diagnose this game capture and telemetry."
+    ]
+  },
+  "keywords": [
+    "game-design",
+    "game-development",
+    "game-assets",
+    "playtesting",
+    "game-ui"
+  ],
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT"
+}

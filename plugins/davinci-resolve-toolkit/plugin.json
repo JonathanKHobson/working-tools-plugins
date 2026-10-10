@@ -1,0 +1,33 @@
+{
+  "name": "davinci-resolve-toolkit",
+  "version": "0.1.1",
+  "description": "Use DaVinci Resolve from Codex with verified app control, interchange, scripting and AI-assisted workflows.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DaVinci Resolve Toolkit",
+        "shortDescription": "Operate Resolve through verified Codex workflows",
+        "longDescription": "Practical Resolve app operation, timeline interchange, scripts and AI-assisted workflows, with clear edition boundaries and saved-state verification.",
+        "developerName": "Kyle Hobson",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Operate my DaVinci Resolve project and verify the saved result.",
+          "Prepare and import a reviewed timeline into Resolve.",
+          "Check which Resolve scripting and MCP workflows are supported on this installation."
+        ]
+      }
+    }
+  }
+}

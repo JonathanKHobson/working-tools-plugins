@@ -1,0 +1,169 @@
+{
+  "version": "studio-v3-1",
+  "sourceTemplate": "v.3 Outline Template",
+  "sections": [
+    {
+      "step": "overview",
+      "sourceStep": 0,
+      "name": "Project Information",
+      "originalFields": [
+        "Instructor Name",
+        "Project Title",
+        "Additional Project Information",
+        "Difficulty Level",
+        "Software/ Tool"
+      ],
+      "extensions": [
+        "Audience",
+        "L3 Advanced",
+        "Technical Requirements",
+        "Target Minutes",
+        "Delivery Scope"
+      ]
+    },
+    {
+      "step": "goals",
+      "sourceStep": 1,
+      "name": "Write Your Outcome and Learning Objectives",
+      "originalFields": [
+        "Project Outcome",
+        "Learning Objective 1",
+        "Learning Objective 2",
+        "Learning Objective 3",
+        "Prerequisites"
+      ],
+      "extensions": [
+        "Stable Objective IDs"
+      ]
+    },
+    {
+      "step": "project",
+      "sourceStep": 2,
+      "name": "Your Project",
+      "originalFields": [
+        "Project Artifact",
+        "Real-World Connection",
+        "Project Scenario"
+      ],
+      "extensions": [
+        "Learner Role"
+      ]
+    },
+    {
+      "step": "tasks",
+      "sourceStep": 3,
+      "name": "Explain What Learners Will Do in Each Task",
+      "originalColumns": [
+        "Task Objective",
+        "Task Description",
+        "Step-by-Step Learner Actions",
+        "Aligned Learning Objective",
+        "Task Type",
+        "Estimated Time"
+      ],
+      "extensions": [
+        "Stable Task ID",
+        "Discussion, Orientation, Setup, Transition, Quiz and Cumulative Categories",
+        "Live or Self-Paced Delivery",
+        "Optional Scope",
+        "Built Lesson References"
+      ]
+    },
+    {
+      "step": "cumulative",
+      "sourceStep": 4,
+      "name": "Design a Cumulative Activity",
+      "originalFields": [
+        "Cumulative Activity Description"
+      ],
+      "extensions": [
+        "Situation",
+        "Inputs",
+        "Output",
+        "Permitted Help",
+        "Criteria",
+        "Estimated Time",
+        "Objective Alignment",
+        "Instructor Solution",
+        "Recording URL"
+      ]
+    },
+    {
+      "step": "assessment",
+      "sourceStep": 5,
+      "name": "Craft Your End-of-Project Quiz",
+      "originalColumns": [
+        "Task #",
+        "Aligned Learning Objective",
+        "Assessment Question",
+        "Answer Choices"
+      ],
+      "extensions": [
+        "Stable Assessment ID",
+        "Answer Key",
+        "Explanation",
+        "Feedback",
+        "Selection Instructions",
+        "Scoring Instructions"
+      ]
+    },
+    {
+      "step": "description",
+      "sourceStep": 6,
+      "name": "Write a Description For Your Project",
+      "originalFields": [
+        "Guided Project Description"
+      ],
+      "extensions": []
+    }
+  ],
+  "rules": {
+    "objectives": 3,
+    "beginnerTitleCharacters": 59,
+    "instructionalTaskMinutes": [
+      3,
+      7
+    ],
+    "cumulativeMinutes": [
+      10,
+      20
+    ],
+    "descriptionWords": [
+      150,
+      250
+    ],
+    "minimumAssessmentChoices": 4
+  },
+  "extensionCategories": {
+    "difficulty": [
+      "foundational",
+      "intermediate",
+      "advanced"
+    ],
+    "taskType": [
+      "instructional",
+      "practice",
+      "discussion",
+      "orientation",
+      "setup",
+      "transition",
+      "quiz",
+      "cumulative"
+    ],
+    "delivery": [
+      "live",
+      "self-paced"
+    ],
+    "taskDelivery": [
+      "both",
+      "live",
+      "self-paced"
+    ]
+  },
+  "timing": {
+    "source": "Studio extension to original instructional-only sum",
+    "budget": "Selected delivery scope; whole-course and bounded pilot are distinct planning decisions. Record pilot boundary in Additional Project Information.",
+    "cumulative": "One Step 3 sequence reference. Its minutes are ignored (zero is valid). Step 4 owns the duration, counted once when the reference is in the selected delivery scope. The reference controls required versus optional. Duplicate references are invalid but never double-counted. A missing reference is a readiness gap; unplaced Step 4 time counts as required until scoped.",
+    "allTasks": "Count orientation, setup, instruction, independent practice, discussion, transitions, quiz, and applicable cumulative work."
+  }
+}

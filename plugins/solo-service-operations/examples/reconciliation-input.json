@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-01",
+  "invoices": [
+    {
+      "invoice_id": "DEMO-I1",
+      "customer_id": "DEMO-C1",
+      "amount": "600.00",
+      "currency": "USD",
+      "source_ref": "synthetic-invoice:1"
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "DEMO-P1",
+      "customer_id": "DEMO-C1",
+      "amount": "250.00",
+      "currency": "USD",
+      "source_ref": "synthetic-bank:1",
+      "status": "settled",
+      "settled_on": "2026-09-30",
+      "allocations": [
+        {
+          "invoice_id": "DEMO-I1",
+          "amount": "250.00"
+        }
+      ]
+    },
+    {
+      "payment_id": "DEMO-P2",
+      "customer_id": "DEMO-C1",
+      "amount": "350.00",
+      "currency": "USD",
+      "source_ref": "synthetic-bank:2",
+      "status": "pending",
+      "allocations": [
+        {
+          "invoice_id": "DEMO-I1",
+          "amount": "350.00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "video-production-workflow",
+  "version": "0.3.0",
+  "description": "Plan, design motion, edit, mix, render and validate video, including code-authored animated stories and authentic narration-led explainers.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "editing",
+    "ffmpeg",
+    "slideshow",
+    "music",
+    "captions",
+    "motion-graphics",
+    "codex",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Video Production Studio",
+    "shortDescription": "Video editing and motion storytelling",
+    "longDescription": "A multi-skill production system for inspecting assets, designing timelines, syncing visuals to music, editing footage, creating captions and motion graphics, rendering with code, and validating deliverables.",
+    "developerName": "Jonathan Kyle Hobson",
+    "category": "Creativity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create a motion-designed story with purposeful type, animation and sound.",
+      "Edit this footage into a polished short with captions.",
+      "Audit this video project and fix delivery problems."
+    ],
+    "brandColor": "#6D5DFB"
+  }
+}

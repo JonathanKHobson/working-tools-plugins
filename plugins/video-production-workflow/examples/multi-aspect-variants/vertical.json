@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "project": {
+    "id": "multi-aspect-vertical",
+    "title": "Multi-Aspect Vertical Example",
+    "intent": "Demonstrate the baseline FFmpeg pipeline",
+    "audience": "Plugin evaluators",
+    "status": "draft"
+  },
+  "delivery": {
+    "width": 360,
+    "height": 640,
+    "fps": 24,
+    "aspect_ratio": "9:16",
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "container": "mp4",
+    "platform": "tiktok"
+  },
+  "style": {
+    "background": "#0B0D12",
+    "foreground": "#FFFFFF",
+    "accent": "#6D5DFB",
+    "font": "DejaVu Sans",
+    "safe_margin_pct": 0.08,
+    "safe_area": {
+      "left_pct": 0.056,
+      "right_pct": 0.20,
+      "top_pct": 0.08,
+      "bottom_pct": 0.18,
+      "platform": "tiktok",
+      "reviewed_at": "2026-07-22",
+      "source": "conservative project overlay review; recheck before delivery"
+    },
+    "reading": {
+      "words_per_second": 3.0,
+      "minimum_text_hold_s": 2.5
+    },
+    "motion_intensity": "moderate"
+  },
+  "assets": {
+    "wide": {
+      "path": "../music-slideshow/assets/01-wide.png",
+      "type": "image",
+      "rights": "synthetic-example"
+    },
+    "portrait": {
+      "path": "../music-slideshow/assets/02-portrait.png",
+      "type": "image",
+      "rights": "synthetic-example"
+    },
+    "square": {
+      "path": "../music-slideshow/assets/03-square.png",
+      "type": "image",
+      "rights": "synthetic-example"
+    },
+    "music": {
+      "path": "../music-slideshow/assets/music.wav",
+      "type": "audio",
+      "rights": "synthetic-example"
+    }
+  },
+  "timeline": [
+    {
+      "id": "title",
+      "kind": "card",
+      "start": 0.0,
+      "duration": 2.5,
+      "background": "#0B0D12",
+      "text": "VIDEO PRODUCTION",
+      "font_size": 34,
+      "text_position": "center",
+      "transition": {
+        "type": "fade",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "wide",
+      "kind": "image",
+      "asset": "wide",
+      "start": 2.25,
+      "duration": 2.0,
+      "motion": "zoom-in",
+      "fit": "contain",
+      "transition": {
+        "type": "fade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "portrait",
+      "kind": "image",
+      "asset": "portrait",
+      "start": 3.9,
+      "duration": 2.0,
+      "motion": "pan-right",
+      "fit": "cover",
+      "transition": {
+        "type": "smoothleft",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "square",
+      "kind": "image",
+      "asset": "square",
+      "start": 5.55,
+      "duration": 2.45,
+      "motion": "zoom-out",
+      "fit": "contain"
+    }
+  ],
+  "audio": {
+    "music": {
+      "asset": "music",
+      "volume": 0.34
+    },
+    "voiceover": null,
+    "loudness": {
+      "enabled": false,
+      "target_lufs": -16.0,
+      "true_peak_db": -1.5,
+      "lra": 11.0
+    }
+  },
+  "captions": {
+    "enabled": true,
+    "source": "captions.srt",
+    "format": "srt",
+    "burn_in": true
+  },
+  "render": {
+    "quality": "preview",
+    "cache": true,
+    "faststart": true
+  },
+  "qa": {
+    "max_asset_uses_per_video": 1,
+    "minimum_cta_hold_s": 2.5,
+    "required": [
+      "probe",
+      "duration",
+      "streams",
+      "frame-samples",
+      "audio-peak"
+    ]
+  },
+  "provenance": {
+    "sources": [
+      {
+        "id": "all-assets",
+        "rights": "generated in repository by make_video_example.py"
+      }
+    ],
+    "decisions": [
+      "Phrase-led 120 BPM pacing",
+      "Mixed orientation fit treatments"
+    ]
+  }
+}

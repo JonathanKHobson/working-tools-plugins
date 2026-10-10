@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where do outside droplets come from? · Learning sheet</title>
+  <style>
+    :root{color-scheme:light;--ink:#152c36;--muted:#38545e;--blue:#0b6682;--pale:#eaf5f6;--line:#b4cdd1;--paper:#fffdf8}
+    *{box-sizing:border-box}body{margin:0;background:#dce8e9;color:var(--ink);font:17px/1.55 system-ui,-apple-system,sans-serif}
+    main{max-width:940px;margin:26px auto;padding:38px 46px 42px;background:var(--paper);box-shadow:0 8px 28px #1739441c}
+    h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.08;letter-spacing:-.04em;margin:.15em 0 .4em}
+    h2{font-size:1.25rem;line-height:1.2;margin:0 0 .6em}p{margin:.5em 0 1em}
+    .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+    .intro{max-width:67ch;color:var(--muted)}
+    .diagram{margin:25px 0 28px;padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--pale)}
+    svg{display:block;width:100%;height:auto}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;list-style:none;padding:0;margin:0 0 28px}
+    .steps li{background:#f3f4ed;border-left:4px solid var(--blue);padding:13px 15px}
+    .steps strong{display:block;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--blue)}
+    .practice{border-top:2px solid var(--ink);padding-top:24px}textarea{width:100%;min-height:92px;border:2px solid #7a9ba4;border-radius:8px;background:white;font:inherit;padding:12px;color:var(--ink)}
+    textarea:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid #dc7600;outline-offset:3px}
+    details{margin-top:15px;padding:13px 17px;background:#e6f2eb;border-radius:8px}summary{cursor:pointer;font-weight:750}small{color:var(--muted)}
+    @media(max-width:640px){body{background:var(--paper)}main{margin:0;padding:25px 19px;box-shadow:none}.steps{grid-template-columns:1fr}.diagram{padding:8px}}
+    @media print{body{background:white}main{margin:0;max-width:none;padding:0;box-shadow:none}.practice details{display:none}textarea{min-height:95px}a{color:inherit}}
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Science learning sheet · original schematic</p>
+  <h1>Where do the outside droplets come from?</h1>
+  <p class="intro">A chilled cup can become wet on the <strong>outside</strong>. Follow the three labeled parts, then explain where that water began.</p>
+  <figure class="diagram">
+    <svg viewBox="0 0 820 370" role="img" aria-labelledby="diagram-title diagram-desc" xmlns="http://www.w3.org/2000/svg">
+      <title id="diagram-title">Schematic of condensation on the outside of a cold cup</title>
+      <desc id="diagram-desc">Water vapor in surrounding air is shown near a cold cup. A labeled arrow points toward the cup surface, where liquid droplets form on the outside. The arrows and dots are illustrative, not measured amounts or a literal airflow path.</desc>
+      <rect x="6" y="6" width="808" height="358" rx="18" fill="#eaf5f6"/>
+      <text x="43" y="60" fill="#152c36" font-size="23" font-weight="700">1  Surrounding air</text>
+      <text x="43" y="90" fill="#38545e" font-size="19">contains invisible water vapor</text>
+      <circle cx="104" cy="153" r="8" fill="#5aacc0"/><circle cx="176" cy="187" r="8" fill="#5aacc0"/><circle cx="245" cy="142" r="8" fill="#5aacc0"/><circle cx="263" cy="235" r="8" fill="#5aacc0"/>
+      <path d="M281 190 C325 190 355 190 394 190" fill="none" stroke="#0b6682" stroke-width="5" stroke-linecap="round"/>
+      <path d="m384 179 15 11-15 11" fill="none" stroke="#0b6682" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="304" y="145" fill="#152c36" font-size="18" font-weight="700">2  Air cools</text>
+      <path d="M465 107 L695 107 L665 310 L495 310 Z" fill="#c2e9f0" stroke="#244955" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M460 107 Q580 135 700 107" fill="none" stroke="#244955" stroke-width="6"/>
+      <path d="M492 145 L667 145 L645 283 L513 283 Z" fill="#79b9d2" opacity=".63"/>
+      <text x="546" y="240" fill="#183d4d" font-size="25" font-weight="700">cold cup</text>
+      <ellipse cx="456" cy="151" rx="10" ry="17" fill="#0b6682"/><ellipse cx="470" cy="224" rx="9" ry="15" fill="#0b6682"/><ellipse cx="487" cy="271" rx="8" ry="13" fill="#0b6682"/>
+      <text x="43" y="327" fill="#152c36" font-size="21" font-weight="700">3  Liquid drops form on the outside</text>
+      <path d="M383 318 C414 297 432 273 455 239" fill="none" stroke="#0b6682" stroke-width="3"/>
+    </svg>
+    <figcaption><small>Arrows and dots explain a relationship. They do not show measured airflow, temperature, or droplet counts.</small></figcaption>
+  </figure>
+  <ol class="steps">
+    <li><strong>Notice</strong>Water appears on the outside of a cold cup.</li>
+    <li><strong>Explain</strong>Water vapor in nearby air cools at the surface.</li>
+    <li><strong>Name the change</strong>Vapor becomes liquid water: condensation.</li>
+  </ol>
+  <section class="practice" aria-labelledby="practice-title">
+    <h2 id="practice-title">Your turn</h2>
+    <label for="answer">A friend says the cup leaked. Where did the outside droplets begin, and what change happened?</label>
+    <textarea id="answer" aria-describedby="answer-hint"></textarea>
+    <p id="answer-hint"><small>Try one sentence before opening the answer.</small></p>
+    <details><summary>Check your answer</summary><p>The droplets began as water vapor in the surrounding air. Near the cold cup, that vapor became liquid water on the outside surface. The change is called <strong>condensation</strong>. The drawing alone does not prove a particular cup did not leak; the source explains this common cold-cup case.</p></details>
+  </section>
+  <p><small>Source: <a href="https://www.noaa.gov/jetstream/ll-sweatin">NOAA, “Sweatin' to the Coldies,” Overview and Discussion</a>. This is an original learning illustration based on that explanation, not an observed experiment or a measure of learning.</small></p>
+</main>
+</body>
+</html>

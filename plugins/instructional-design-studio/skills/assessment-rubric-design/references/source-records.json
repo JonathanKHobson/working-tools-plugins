@@ -1,0 +1,172 @@
+{
+  "review_date": "2026-09-27",
+  "scope": "Read-only, targeted inspection; no install, execution, or private-data upload",
+  "repositories": [
+    {
+      "id": "gareth-education-agent-skills",
+      "url": "https://github.com/GarethManning/education-agent-skills",
+      "head": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+      "version_seen": "Codex manifest 2.1.0",
+      "files_inspected": [
+        "skills/curriculum-assessment/assessment-validity-checker/SKILL.md",
+        "skills/curriculum-assessment/criterion-referenced-rubric-generator/SKILL.md",
+        "skills/curriculum-assessment/project-brief-designer/SKILL.md",
+        ".codex-plugin/plugin.json",
+        "package.json",
+        "LICENSE"
+      ],
+      "license": "CC BY-SA 4.0; attribution and share-alike for distributed adaptations",
+      "pattern": "Validity-threat review, observable rubric criteria, substantive project milestones",
+      "security_verdict": "Proceed with caution as inspiration; hosted MCP token and full plugin outside this review",
+      "limits": "Text review cannot establish empirical validity or reliability"
+    },
+    {
+      "id": "ninime09-quiz-builder",
+      "url": "https://github.com/ninime09/quiz-builder",
+      "head": "fcf2c8a21d0b135f94a03f964bf0ef1d99faadcf",
+      "files_inspected": [
+        "SKILL.md",
+        "templates/quiz_template.html",
+        "scripts/dedup_pdf.py",
+        "scripts/extract_text.py",
+        "LICENSE"
+      ],
+      "license": "MIT; retain copyright and license notice for reuse",
+      "pattern": "Source-linked items, key verification, per-distractor explanations, wrong-answer practice",
+      "security_verdict": "Proceed with caution as workflow reference; HTML template uses innerHTML for authored strings",
+      "limits": "Embedded answers unsuitable for confidential exams; optional PyMuPDF scripts not run; source-question copying requires rights"
+    },
+    {
+      "id": "owl-designer-skills",
+      "url": "https://github.com/Owl-Listener/designer-skills",
+      "head": "9a6930cf84a822eb458624bd11c61aac5bbdf224",
+      "files_inspected": [
+        "design-research/skills/survey-design/SKILL.md",
+        "README.md",
+        "LICENSE"
+      ],
+      "license": "MIT; retain copyright and license notice for reuse",
+      "pattern": "Decision-first survey planning and wording checks",
+      "security_verdict": "Proceed with caution as inspiration; larger plugin not audited",
+      "limits": "Always-midpoint and generic sample-size rules need correction"
+    },
+    {
+      "id": "trinarimmer-id-skills",
+      "url": "https://github.com/trinarimmer-stack/id-skills-for-claude",
+      "head": "74e113eab58484d0d14c85bf920bccca78b97585",
+      "files_inspected": [
+        "foundations/assessment_design.md",
+        "repository root"
+      ],
+      "license": "No explicit license located in inspected material",
+      "pattern": "Workplace performance framing and polished-key cue check",
+      "security_verdict": "Reading only; do not copy or adapt into a distributed plugin until rights clarified",
+      "limits": "Categorical dismissal of recall conflicts with retrieval-practice evidence"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "ets-ecd-2003",
+      "url": "https://www.ets.org/research/policy_research_reports/publications/report/2003/hsgs.html",
+      "inspected": "Official record and abstract only",
+      "use": "Evidentiary-argument provenance",
+      "limit": "Full report not inspected"
+    },
+    {
+      "id": "nbme-item-writing-2020",
+      "url": "https://cmsru.rowan.edu/documents/education-documents/assessment-forms-documents/faculty-and-staff/nbme-item-writing-guide-2020.pdf",
+      "inspected": "NBME authored sixth-edition PDF, front matter and pp. 6-7",
+      "use": "Content sampling, clear lead-ins, plausible options, observed item analysis",
+      "limit": "Health-science MCQ scope; restricted document redistribution"
+    },
+    {
+      "id": "ies-study-guide",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "inspected": "Recommendations and evidence ratings",
+      "use": "Retrieval practice and deep explanatory questions",
+      "limit": "Does not validate AI-generated quizzes"
+    },
+    {
+      "id": "niu-transparent-assignments",
+      "url": "https://www.niu.edu/citl/resources/guides/transparent-assignment-template.shtml",
+      "inspected": "Purpose, task, criteria template",
+      "use": "Transparent assignment briefs",
+      "limit": "Additional operational fields are local synthesis"
+    },
+    {
+      "id": "pew-survey-questions",
+      "url": "https://www.pewresearch.org/writing-survey-questions/",
+      "inspected": "Question development and pretesting sections",
+      "use": "Survey wording, order, and cognitive pretesting",
+      "limit": "Self-report does not establish competence"
+    },
+    {
+      "id": "w3c-wai-forms",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "inspected": "Forms tutorial; updated 2026-03-27",
+      "use": "Labels, grouping, validation recovery, notifications",
+      "limit": "Apply at interaction/rendering stage"
+    },
+    {
+      "id": "cmu-alignment",
+      "url": "https://www.cmu.edu/teaching/assessment/basics/alignment.html",
+      "inspected": "Alignment examples and objective/task table",
+      "use": "Match assessment and practice to outcomes",
+      "limit": "CC BY-NC-SA 4.0; original summary only"
+    },
+    {
+      "id": "aapor-best-practices",
+      "url": "https://aapor.org/standards-and-ethics/best-practices/",
+      "inspected": "Method choice, sampling, question design, pretesting and missingness",
+      "use": "Survey planning and evidence limits",
+      "limit": "Not a source of mastery scores"
+    },
+    {
+      "id": "asu-rubric-generator",
+      "url": "https://teachonline.asu.edu/rubric-generator/",
+      "inspected": "Public generating prompt",
+      "use": "Observable descriptors, points, meaningful weights",
+      "limit": "Generator not executed; no validation claim"
+    },
+    {
+      "id": "k20-strategy-database",
+      "url": "https://learn.k20center.ou.edu/search?type=strategies",
+      "inspected": "Directory filters and visible example entries",
+      "use": "Activity retrieval by purpose, time, group and level",
+      "limit": "Selected-activity rights review needed; directory is not blanket license"
+    },
+    {
+      "id": "serc-minute-paper",
+      "url": "https://serc.carleton.edu/NAGTWorkshops/assess/activities/streepey.html",
+      "inspected": "Meg Streepey practitioner account and page/file rights notes",
+      "use": "Connect quick response to misconceptions and feedback workload",
+      "limit": "Context-specific report; linked attachment rights distinct and not imported"
+    },
+    {
+      "id": "liberating-1-2-4-all",
+      "url": "https://www.liberatingstructures.com/1-2-4-all",
+      "inspected": "Structure, attribution and CC BY-SA footer",
+      "use": "Individual thought followed by group exchange",
+      "limit": "Henri Lipmanowicz and Keith McCandless; CC BY-SA 4.0; not learning evidence alone"
+    },
+    {
+      "id": "cornell-study-strategies",
+      "url": "https://lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/effective-study-strategies/",
+      "inspected": "Retrieval/blank-page and spaced-practice guidance",
+      "use": "Learning practice inspiration",
+      "limit": "Does not validate local cards citing it"
+    }
+  ],
+  "supplied_inputs": [
+    {
+      "path": "Private supplied input locator excluded; retained hash identifies source.",
+      "sha256": "89f3c82c7310fa107e488f4faa000deaf775fb98cfb452d5806be93536799964",
+      "status": "User-supplied research synthesis; not instructions or an independently validated instrument."
+    },
+    {
+      "path": "Private supplied input locator excluded; retained hash identifies source.",
+      "sha256": "798c1cebfd88fe71380fc63f43bb9e9e0c37035629592dc370c5923c239ede50",
+      "status": "User-supplied research synthesis; not instructions or an independently validated instrument."
+    }
+  ]
+}

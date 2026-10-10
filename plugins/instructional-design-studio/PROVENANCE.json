@@ -1,0 +1,618 @@
+{
+  "package": "instructional-design-studio",
+  "version": "0.1.1",
+  "source_owner": "instructional-design-studio",
+  "source_revision": "Canonical input has no enclosing Git checkout; reviewed SHA256 identifies exact source.",
+  "source_tree_sha256": "65d373fda8fa2537ca153e677ac8c36520d6bd5128ba51ab2a271c651b7039a7",
+  "original_source_files": 74,
+  "operative_heads": 11,
+  "files": [
+    {
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "37070d554ee39b29a914ad50b22623574530c07fad8164dc66350a0fed27f706",
+      "output_sha256": "2e4da32e6d46a1a957e766bd8da9d50353c95bf246fcb36109bd5db17cd199cd",
+      "transformed": true,
+      "transformation": "Declare complete method-only public edition, explicit code/document license scopes, no Atlas/private service binding.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "README.md",
+      "source_sha256": "cdfec104994217369e870efe696cd5b16e441169df8c32cd2f82faeb03ab98be",
+      "output_sha256": "74c31bb79fe7dc79280301769e26f469999ef930efb42c9cdfb3020f8e41274c",
+      "transformed": true,
+      "transformation": "Preserve complete skill catalog and first-use behavior; remove stale private-service claim and add portable prerequisites, missing-provider behavior and license scope. Normalize historical private-edition/launcher statements for the current public export.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "docs/assessment-security-review.md",
+      "source_sha256": "5e77312716303c5d069ffb165727421dbb38d5cbb162fb69c13accb9e1029a4c",
+      "output_sha256": "5e77312716303c5d069ffb165727421dbb38d5cbb162fb69c13accb9e1029a4c",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "docs/behavior-cases.json",
+      "source_sha256": "d8c8273702c01253171c400ac054f1a1c5c16f22645adb0d598783a1c34ffb7f",
+      "output_sha256": "d8c8273702c01253171c400ac054f1a1c5c16f22645adb0d598783a1c34ffb7f",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "c19c0b839c98aa31b0c57dad423f2975fe5fdd9ed78da06bace22e36c12dc7a8",
+      "output_sha256": "f7eb33ba208fe12755c224533dfecd0f907f9b4e4b2239b53d510a72a1c04713",
+      "transformed": true,
+      "transformation": "Identify portable source owner and exact method/runtime/private-data boundary. Normalize historical private-edition/launcher statements for the current public export.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "docs/verification.md",
+      "source_sha256": "5e4df6c87a970e32546d31dae14ef12383252e18218095d59a09bb196eb902de",
+      "output_sha256": "8b0c87d0d09f21c2e87d5010cbe2ae4b78b0be3f2de7cbdfb3cb5d644931d4ff",
+      "transformed": true,
+      "transformation": "Byte-identical original source retained Normalize historical private-edition/launcher statements for the current public export.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "references/atlas-library.md",
+      "source_sha256": "adfb1e4c8922663a4f46cbebeea67315c99b2154d09254fc5ed46da55129171f",
+      "output_sha256": "0d88647fcb7fa06e9022dda7b4a105ef7bb68a3b94a1ed621c486ae5a5fdaebe",
+      "transformed": true,
+      "transformation": "Preserve complete optional source-selection rules; remove private launcher claim and config dependency.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "7d94e5319853d60c198aa14a83dbad913f9698260c119069f3f5ef34f3346dac",
+      "output_sha256": "6cc5dee85f186e0a28f3930b1d45797c4e9e54fde33e6b63a86cc8995b6d20c1",
+      "transformed": true,
+      "transformation": "Retain role responsibility and complete available methods; normalize personal routes and explicitly externalize optional roles.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "references/professional-agents/instructional-designer.md",
+      "source_sha256": "4e0c3e28038805c02b978117ca734a0084901f01ad45e9ac974c19f4f0e5d486",
+      "output_sha256": "d296ff0473b56a1832dc11c8bb6fed6bfe2011d76afaf3d8087ad630f1f5895d",
+      "transformed": true,
+      "transformation": "Retain role responsibility and complete available methods; normalize personal routes and explicitly externalize optional roles.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "references/professional-agents/instructor.md",
+      "source_sha256": "1edeed103ea3e932ec1f91e1e5bc49f149c27d53b3193f47f2bc28df5ed35b6c",
+      "output_sha256": "5091fb7e241f00899a9ff50b0088097ebe529ab24f3421ccb51a2b8f7a806a91",
+      "transformed": true,
+      "transformation": "Retain role responsibility and complete available methods; normalize personal routes and explicitly externalize optional roles.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "references/professional-agents/learning-quality-reviewer.md",
+      "source_sha256": "e95837e5581e17f1244b4c7812c984ea25111234286883c92b583925bd631e6f",
+      "output_sha256": "119f25edbda075b4de07e0a77115182708b3d5db2fbf63815db0e1db13da5bc9",
+      "transformed": true,
+      "transformation": "Retain role responsibility and complete available methods; normalize personal routes and explicitly externalize optional roles.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/accessible-learning-design/SKILL.md",
+      "source_sha256": "69b5d0bb743ea266e2172fe95c7e96e9acdf0cb07943545c1c0e917f3b011865",
+      "output_sha256": "69b5d0bb743ea266e2172fe95c7e96e9acdf0cb07943545c1c0e917f3b011865",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/accessible-learning-design/agents/openai.yaml",
+      "source_sha256": "cdae931f65fa54a7601b3b3ca22800e260bcde571070b1e0784a286ba849066e",
+      "output_sha256": "cdae931f65fa54a7601b3b3ca22800e260bcde571070b1e0784a286ba849066e",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/accessible-learning-design/references/access-review.md",
+      "source_sha256": "8f9f549445990218e232f7434b2cd15ce9eeed7e51b9e2f923675f91bf0ab981",
+      "output_sha256": "8f9f549445990218e232f7434b2cd15ce9eeed7e51b9e2f923675f91bf0ab981",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/ai-literacy-education/SKILL.md",
+      "source_sha256": "c88d94b0f1203ea6aa70003862715cb9a20078ba665e0b1aa635c9b2d2a048ab",
+      "output_sha256": "1df42b3be3784d1304446add51db6df95d75f0c7da296f115dd4718902dba6da",
+      "transformed": true,
+      "transformation": "Replace author-specific history route with supplied instructor context; retain complete AI-literacy workflow.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/ai-literacy-education/agents/openai.yaml",
+      "source_sha256": "08d47674944b2e476a39bc7d8cc1e8529d209415b73c4e120f0d2f2c87a6baef",
+      "output_sha256": "08d47674944b2e476a39bc7d8cc1e8529d209415b73c4e120f0d2f2c87a6baef",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/ai-literacy-education/references/course-adaptation.md",
+      "source_sha256": "08b8316cc0bc5f4fb568e8ea4183cc97987c4358b1d3a7aa0fab679f85431ff1",
+      "output_sha256": "08b8316cc0bc5f4fb568e8ea4183cc97987c4358b1d3a7aa0fab679f85431ff1",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/SKILL.md",
+      "source_sha256": "8984bb2d5f74af60d6610b26e848f3859b79f304623859b89086c6705931dcf2",
+      "output_sha256": "8984bb2d5f74af60d6610b26e848f3859b79f304623859b89086c6705931dcf2",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/agents/openai.yaml",
+      "source_sha256": "fa29e54300507624c277c7e373922f329c2699f1e72aade1f12275b77fed75fb",
+      "output_sha256": "fa29e54300507624c277c7e373922f329c2699f1e72aade1f12275b77fed75fb",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/assets/assessment-template.json",
+      "source_sha256": "4c595772acf6e76a8069d8a50f4777a4d8eb2557253fb2a788a29069eed7fd8d",
+      "output_sha256": "4c595772acf6e76a8069d8a50f4777a4d8eb2557253fb2a788a29069eed7fd8d",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/assessment-guide.md",
+      "source_sha256": "b6ef858a3d717d8699eb75e376fae71a84842bbd72b15bab24d8bc359b0782a0",
+      "output_sha256": "b6ef858a3d717d8699eb75e376fae71a84842bbd72b15bab24d8bc359b0782a0",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/assignment-design.md",
+      "source_sha256": "8593710423a6799f0d6509f259ce767f87b63cdf54b854c8b2f09109e54e7e30",
+      "output_sha256": "8593710423a6799f0d6509f259ce767f87b63cdf54b854c8b2f09109e54e7e30",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/item-authoring.md",
+      "source_sha256": "b7a6a2b5e86c8ef62b2440f3aa6c57042e8d93422e7f7505b0d007b2f319010a",
+      "output_sha256": "b7a6a2b5e86c8ef62b2440f3aa6c57042e8d93422e7f7505b0d007b2f319010a",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/quality-and-validation.md",
+      "source_sha256": "a5fd35196bbeeb4ad03d8803ccd858643a950cd6cb00a3c6bf26afa5dc7ce10d",
+      "output_sha256": "a5fd35196bbeeb4ad03d8803ccd858643a950cd6cb00a3c6bf26afa5dc7ce10d",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/source-records.json",
+      "source_sha256": "8c115a0cb8ef77ae388fa866782a4d2cc0121f5245f53dfeeafa32d08aaa32a9",
+      "output_sha256": "3c6d49957d37352165c57694426a50c7f75a829e8202ece21a25bdc4ae3016dc",
+      "transformed": true,
+      "transformation": "Retain source identities/hashes/check limits while removing private machine input locators.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/sources.md",
+      "source_sha256": "5e3641eb17419e329b7cda3db9dff8734007e42abf47d7ad19b82568bfa50a4e",
+      "output_sha256": "5e3641eb17419e329b7cda3db9dff8734007e42abf47d7ad19b82568bfa50a4e",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/survey-boundary.md",
+      "source_sha256": "2286e51aa6271103c60217d38d70ba8fa2b1ed3151e3bd9d7c22f54d3d7e1138",
+      "output_sha256": "2286e51aa6271103c60217d38d70ba8fa2b1ed3151e3bd9d7c22f54d3d7e1138",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/references/worked-assessment.md",
+      "source_sha256": "6ef10cc4eb1e9fdd836d8ad9d089d44a4a7aa5221b2033e7cf191e924c2f77e8",
+      "output_sha256": "6ef10cc4eb1e9fdd836d8ad9d089d44a4a7aa5221b2033e7cf191e924c2f77e8",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/assessment-rubric-design/scripts/check_assessment.py",
+      "source_sha256": "5734d6760fb2fa304da60a1487d83566ff1c46a424f94623e40a1711a7e42408",
+      "output_sha256": "5734d6760fb2fa304da60a1487d83566ff1c46a424f94623e40a1711a7e42408",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/course-production-handoff/SKILL.md",
+      "source_sha256": "bf5e0638a8c6646d5efdec507b955426257bfcc6c5d42c8eeaaffa0cff1ab510",
+      "output_sha256": "bf5e0638a8c6646d5efdec507b955426257bfcc6c5d42c8eeaaffa0cff1ab510",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/course-production-handoff/agents/openai.yaml",
+      "source_sha256": "a2db01eb91529c8df14d24480697f38ea4e7a054f7d15535e841cc84e5a30e17",
+      "output_sha256": "a2db01eb91529c8df14d24480697f38ea4e7a054f7d15535e841cc84e5a30e17",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/course-production-handoff/references/course-media-integration.md",
+      "source_sha256": "dc0784747a7924eb23bfe753201cada438d34b90f0730617d8d38b3420eda8d1",
+      "output_sha256": "dc0784747a7924eb23bfe753201cada438d34b90f0730617d8d38b3420eda8d1",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/course-production-handoff/references/production-guide.md",
+      "source_sha256": "f93d982f895d3cdd00c1be99ec8579b0d5d162109df442b3f22b50836bd7daf6",
+      "output_sha256": "f93d982f895d3cdd00c1be99ec8579b0d5d162109df442b3f22b50836bd7daf6",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/course-production-handoff/references/target-lms-adapter.md",
+      "source_sha256": "82da3b101f1aca8d83ea7c65ed01d5a1dba5af0b54339fa74793dc128f9b4474",
+      "output_sha256": "82da3b101f1aca8d83ea7c65ed01d5a1dba5af0b54339fa74793dc128f9b4474",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/curriculum-backward-design/SKILL.md",
+      "source_sha256": "ec9509b7079bcee2d0d94e2b6b2c76b9bbc57bbc4e496ec1104db76fbdf369ac",
+      "output_sha256": "ec9509b7079bcee2d0d94e2b6b2c76b9bbc57bbc4e496ec1104db76fbdf369ac",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/curriculum-backward-design/agents/openai.yaml",
+      "source_sha256": "f6e913a971e4a4d25282859f4fd2316a02799f73a71dc7469fc1ad08799c0cbb",
+      "output_sha256": "f6e913a971e4a4d25282859f4fd2316a02799f73a71dc7469fc1ad08799c0cbb",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/curriculum-backward-design/assets/alignment-example.json",
+      "source_sha256": "22cee87eb3b9ee23565028271a8162c57f63f599b4085c59ad2b0967d6dd521f",
+      "output_sha256": "22cee87eb3b9ee23565028271a8162c57f63f599b4085c59ad2b0967d6dd521f",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/curriculum-backward-design/references/alignment-format.md",
+      "source_sha256": "5946dd00347cade7667fc905e9ba3a00e9f97a662c5f3f3b43e1b81d448fa29b",
+      "output_sha256": "5946dd00347cade7667fc905e9ba3a00e9f97a662c5f3f3b43e1b81d448fa29b",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/curriculum-backward-design/scripts/check_alignment.py",
+      "source_sha256": "4b555aebe4523f31a5effa12aa15c29fe2ea61ac41c1dabdc9d71bf88064fb7e",
+      "output_sha256": "4b555aebe4523f31a5effa12aa15c29fe2ea61ac41c1dabdc9d71bf88064fb7e",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/edu-role-play/SKILL.md",
+      "source_sha256": "964b00a3a5b3ab801800c611b45986abb592f4258879c2a7911f91a2d5225b9c",
+      "output_sha256": "964b00a3a5b3ab801800c611b45986abb592f4258879c2a7911f91a2d5225b9c",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/edu-role-play/agents/openai.yaml",
+      "source_sha256": "76595892733a231b3bb16ee5a30bee64e18ac57173ce9dd1e9ce8545ef885eeb",
+      "output_sha256": "76595892733a231b3bb16ee5a30bee64e18ac57173ce9dd1e9ce8545ef885eeb",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/SKILL.md",
+      "source_sha256": "d47558be504f78a887ca582b75539e4faa44028e9549869a52987caf887cf3bc",
+      "output_sha256": "d47558be504f78a887ca582b75539e4faa44028e9549869a52987caf887cf3bc",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/agents/openai.yaml",
+      "source_sha256": "bbe5f27da9914939e2fed1e85b220b291989b8a9703ee749f4bd485dd401aedf",
+      "output_sha256": "bbe5f27da9914939e2fed1e85b220b291989b8a9703ee749f4bd485dd401aedf",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/addie-decisions.md",
+      "source_sha256": "82d5fd65be06f1c61b81a136f897f9e137d3b413388e5f29a7509586ec3396af",
+      "output_sha256": "82d5fd65be06f1c61b81a136f897f9e137d3b413388e5f29a7509586ec3396af",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/ai-workshop-studio-v3-planning.md",
+      "source_sha256": "37d7afcb2adac5afe149f752e2e6c12e362a7cbd6d17e70b531e05ac788ff02d",
+      "output_sha256": "37d7afcb2adac5afe149f752e2e6c12e362a7cbd6d17e70b531e05ac788ff02d",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/ai-workshop-studio-v3-template.json",
+      "source_sha256": "79b1947a20c7bc4feee5b57f6e14aff354a470892c0e6b7dedb30eb687b7e07c",
+      "output_sha256": "79b1947a20c7bc4feee5b57f6e14aff354a470892c0e6b7dedb30eb687b7e07c",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/ai-workshop-studio-v3-template.provenance.json",
+      "source_sha256": "dd2063bcdf3d81313397b66632c123688227a8497f9ee79c30a5da74858b9214",
+      "output_sha256": "60800dad6e3633b235905424453c59aee16d55cb8fe9ec1c58c42c9bfad956fd",
+      "transformed": true,
+      "transformation": "Retain source identities/hashes/check limits while removing private machine input locators.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/learning-science.md",
+      "source_sha256": "bc2dac83281b9ceb1d5239ad2f2214225bf572101a8c1d93f2a729f6c21a289f",
+      "output_sha256": "bc2dac83281b9ceb1d5239ad2f2214225bf572101a8c1d93f2a729f6c21a289f",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/personal-grounding.md",
+      "source_sha256": "6096bcbd32f14499b90253b17d3376b6367920b4d40ab010d43ea50e46ce039c",
+      "output_sha256": "a811b0b3570ed8364e5166ef39f1b8ee2c6b208f7fb84a32cbcb20aa63761bee",
+      "transformed": true,
+      "transformation": "Remove private evidence ledger/Drive locators; retain every reusable original teaching default and evidence boundary.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/references/research-intake-2026-09.md",
+      "source_sha256": "9fe23da1f949821aa5b7d2d6a66d70cab85d951a01591499482eb6a8f8cb7b74",
+      "output_sha256": "9fe23da1f949821aa5b7d2d6a66d70cab85d951a01591499482eb6a8f8cb7b74",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/instructional-design/scripts/check_studio_v3_outline.py",
+      "source_sha256": "d748e223284fe8e3c1c4a25d586950dd18d44bc8c1b4e2f00f866dfb708e300b",
+      "output_sha256": "d748e223284fe8e3c1c4a25d586950dd18d44bc8c1b4e2f00f866dfb708e300b",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/SKILL.md",
+      "source_sha256": "1aeaf9266a29c1eab05174b5b2a74919d94b0c2327f8da889257510aab5b4fe4",
+      "output_sha256": "1aeaf9266a29c1eab05174b5b2a74919d94b0c2327f8da889257510aab5b4fe4",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/agents/openai.yaml",
+      "source_sha256": "4d523c1070aca884e5c11f105e4d5c84571c44ed3675367773ca0cd757e0a7b4",
+      "output_sha256": "4d523c1070aca884e5c11f105e4d5c84571c44ed3675367773ca0cd757e0a7b4",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/assets/DESIGN.md",
+      "source_sha256": "ba111a827a065af38f85b3e9e9ce702a4a9a96bb48889b0fb0f9ca82eeba3351",
+      "output_sha256": "ba111a827a065af38f85b3e9e9ce702a4a9a96bb48889b0fb0f9ca82eeba3351",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/assets/condensation-learning-sheet.html",
+      "source_sha256": "9d92ae4bb583f6281b9bb37ec38b65f7e9b88251321c15286559b8d63b2f774e",
+      "output_sha256": "9d92ae4bb583f6281b9bb37ec38b65f7e9b88251321c15286559b8d63b2f774e",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/references/condensation-learning-sheet.md",
+      "source_sha256": "ecf9ee87eabba5ccfa1757b3f88e66ccb6fcd49de0752dc241b37d723266fd4b",
+      "output_sha256": "ecf9ee87eabba5ccfa1757b3f88e66ccb6fcd49de0752dc241b37d723266fd4b",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-content-storyboarding/references/writing-voices.md",
+      "source_sha256": "5eaad11d622769c0255dcb4d2e5aecc2f9f379520548cf29682f6b00046a5302",
+      "output_sha256": "5eaad11d622769c0255dcb4d2e5aecc2f9f379520548cf29682f6b00046a5302",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-evaluation/SKILL.md",
+      "source_sha256": "d39895c1c44e6f8efc6eb8f0738989cd90ee627c26df778fbc905f52f1a31425",
+      "output_sha256": "d39895c1c44e6f8efc6eb8f0738989cd90ee627c26df778fbc905f52f1a31425",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-evaluation/agents/openai.yaml",
+      "source_sha256": "991b142afba1df54e6934404c0aef8409cab2d9300b0a4699e2ef72a638fd658",
+      "output_sha256": "991b142afba1df54e6934404c0aef8409cab2d9300b0a4699e2ef72a638fd658",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-evaluation/references/evaluation-patterns.md",
+      "source_sha256": "7cf6f98ea131ae8bed1d961a80df1635d98ad40c49f0e7214dfc58fda5c5fb12",
+      "output_sha256": "7cf6f98ea131ae8bed1d961a80df1635d98ad40c49f0e7214dfc58fda5c5fb12",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-needs-analysis/SKILL.md",
+      "source_sha256": "14117582c9bc0d0821d09d772f5e1797c8de7cb95cf7768cec234b65d87c2a51",
+      "output_sha256": "14117582c9bc0d0821d09d772f5e1797c8de7cb95cf7768cec234b65d87c2a51",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-needs-analysis/agents/openai.yaml",
+      "source_sha256": "35772a48691a70f00d2f56a491a904c923cce7b86c338f88a7cf59bce9e3a49f",
+      "output_sha256": "35772a48691a70f00d2f56a491a904c923cce7b86c338f88a7cf59bce9e3a49f",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/learning-needs-analysis/references/design-patterns.md",
+      "source_sha256": "3ff3c7f80b0aba5c7011d66dbf2a9f7eeb3a015223cbc7f38539421906a73aaf",
+      "output_sha256": "3ff3c7f80b0aba5c7011d66dbf2a9f7eeb3a015223cbc7f38539421906a73aaf",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/SKILL.md",
+      "source_sha256": "f27f8e2e454a82b02dc9d80e178bd3d430fb10ec19103836644cebc068ea9eca",
+      "output_sha256": "f27f8e2e454a82b02dc9d80e178bd3d430fb10ec19103836644cebc068ea9eca",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/agents/openai.yaml",
+      "source_sha256": "122a6e2d317a9ca1c7122b26815d452446cac8f4c0b4bcd7792cb9a26aece061",
+      "output_sha256": "122a6e2d317a9ca1c7122b26815d452446cac8f4c0b4bcd7792cb9a26aece061",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/assets/activity-library.json",
+      "source_sha256": "82ecbdbe5df0cc36c43d310511dc45d6633a6b1ac09cb13951490e791679a7a2",
+      "output_sha256": "901e6b4543a519ed1c7ab8b8405d7c8c7674a27a8dfbd9799a83dde812752ce7",
+      "transformed": true,
+      "transformation": "Project all 31 explicitly original adaptations, retaining complete prompts/evidence/criteria/retry/access fields; exclude unknown-rights source summaries, archival titles and private locators.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/references/activity-library.md",
+      "source_sha256": "f088e6c35fafed267c1902b4aaf91b43bd38598105a842535da729167c943094",
+      "output_sha256": "00239dadd82ba9e75c9ee4cc3a45fc47120e9de50b2a8c31f69c26e8e0c9c353",
+      "transformed": true,
+      "transformation": "Retain full activity design/retrieval method and 31 adaptations; accurately document public projection and external source rights boundary.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/references/lesson-patterns.md",
+      "source_sha256": "5ed154cf3cbb1d46977a1ca2e3498735fd212c9b7fb8b3cb06fa9834846cb1ad",
+      "output_sha256": "5ed154cf3cbb1d46977a1ca2e3498735fd212c9b7fb8b3cb06fa9834846cb1ad",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/references/technical-learning-resource-selection.md",
+      "source_sha256": "044ae083a832459712687b0cc1bf7e847fe2181d6d681216d5f4153cef7540f7",
+      "output_sha256": "044ae083a832459712687b0cc1bf7e847fe2181d6d681216d5f4153cef7540f7",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "skills/lesson-experience-design/scripts/search_activities.py",
+      "source_sha256": "30ca570077c85b71ddc13e1f20af34c8a61ea6ce06d7aa32170e63c9e97358b3",
+      "output_sha256": "1a7af1cceeccfef1019abf81683206e675e3e77bbce4dbeca231197a48befbbe",
+      "transformed": true,
+      "transformation": "Keep complete filtering/ranking/read behavior; validate opaque source reference rather than private path and search only original adaptation text, not excluded source summary.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "tests/test_activity_search.py",
+      "source_sha256": "607c577c0a3979b4c0d7d9342b0193a61bb0a31d8f10ee3f246e949a6cb777d9",
+      "output_sha256": "607c577c0a3979b4c0d7d9342b0193a61bb0a31d8f10ee3f246e949a6cb777d9",
+      "transformed": false,
+      "transformation": "Keep semantic search/rights/duplicate/malformed tests; expected title follows original public adaptation, not historical source-title field.",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "tests/test_assessment_checker.py",
+      "source_sha256": "c89c791b0033c5a341682ebb3efad7f50cc89817ff08e58e5ad207349e37ef5e",
+      "output_sha256": "c89c791b0033c5a341682ebb3efad7f50cc89817ff08e58e5ad207349e37ef5e",
+      "transformed": false,
+      "transformation": "Byte-identical original source retained",
+      "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": ".mcp.json",
+      "sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+      "reason": "Empty private MCP declaration or private compatibility launcher; optional external retrieval remains documented."
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "sha256": "2de7d68bdc9ae43cac37f1466efbb36f752bc443a48c9a9aa14dc258ac35f437",
+      "reason": "Empty private MCP declaration or private compatibility launcher; optional external retrieval remains documented."
+    }
+  ],
+  "public_projection": "31 complete explicitly original assessment adaptations; unknown-rights source summaries, source archive text/images and private locators excluded.",
+  "live_provider_execution": false,
+  "private_history_and_corpus_distributed": false,
+  "license_scopes": {
+    "code": "MIT",
+    "prose_and_original_educational_material": "CC-BY-SA-4.0"
+  },
+  "public_package_skill_count": 11,
+  "licensing_primary_source_checks": {
+    "checked_at": "2026-10-10",
+    "license_page": "https://www.liberatingstructures.com/cc-license",
+    "current_license": "CC-BY-SA-4.0",
+    "older_material_caveat": "Primary source warns that pre-June-2026 materials may retain different terms. No older source files/icons/scans distributed.",
+    "method_pages": [
+      "https://www.liberatingstructures.com/1-2-4-all/",
+      "https://www.liberatingstructures.com/troika-consulting/",
+      "https://www.liberatingstructures.com/what-so-what-now-what/"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+# Figma Design Workflow
+
+## One focused workflow
+
+- `skills/figma-ui-operator`: direct Figma operations and shared detailed guides.
+- `skills/figma-ui-operator/references/figjam-workshops.md`: conditional native FigJam authoring, preservation, reveal/lock/role checks, and review/reset handoff. Design UI guides do not establish FigJam API support.
+- `skills/stitch-figma-handoff`: convert/copy/paste, batch inventory, editable import QA.
+- `skills/design-reference-prep`: optional Claude Desktop/Claude Design and imagegen references before Stitch.
+- `skills/design-visual-qa`: visible usability, fidelity, structure, and Design Taste Gate.
+- `plugin.json`: portable discovery metadata.
+- `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`: host compatibility manifests.
+- `PROVENANCE.json` and `SOURCE-ATTRIBUTIONS.md`: source hashes, transformations and original/contributor boundaries.
+- `docs/release-validation.md`: current export checks and missing-provider scenario.
+- `docs/validation.md`: exact check results and live-test limits.
+
+Start at the relevant skill; load only the supporting guide needed for that step. Shared mechanics live in the operator references so fixes stay in one place. External tools remain supplied by the host: Computer Use for app interaction, optional built-in imagegen, optional Figma connector, and the user's accessible Claude/Stitch sessions. Claude Design availability is verified at execution time. There are no bundled MCP servers, hooks, credentials, or background processes.
+
+## Provenance and updates
+
+The operator is adapted from the user's supplied Figma UI Operator ZIP. Dated user-authorized task/history evidence informed import and recovery guidance; private source content is excluded. The focused QA guide adapts local design-taste-gate and UX heuristic principles without depending on their full tool stacks. Built-in imagegen remains a separate installed skill/runtime, not copied into this plugin.
+
+Edit the owning skill or shared reference, validate every skill plus the plugin, check internal links, then publish a separately versioned export and verify its installed copy. Source and installed package are distinct states. Keep unrelated project work and raw design exports outside this plugin.

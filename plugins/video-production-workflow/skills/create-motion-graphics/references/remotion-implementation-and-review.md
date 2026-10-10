@@ -1,0 +1,27 @@
+# Remotion implementation and review
+
+Read only after the brief and storyboard select Remotion for a concrete 2D React composition. The [motion storytelling](code-authored-motion-storytelling.md) and [art direction](art-directed-motion.md) contracts still decide message, visual identity, holds, sound and acceptance. This reference supplies the missing renderer-specific handoff; it does not install a tool or prescribe an aesthetic.
+
+## Prepare the local composition
+
+- Confirm the project's Remotion version, matching package versions, runtime, browser capture route and [license for the actual user and use](https://www.remotion.dev/docs/license/pricing). Use project-local dependencies and the current official API for that version. Do not run an upstream repository's installation script, unpinned package runner or example as a shortcut.
+- Keep source assets and licensed font files in the project's controlled source/work areas. Record asset hashes, font identity and rights, composition ID, dimensions, frame rate, duration in frames, and exact render command in the project. Put scene data and shared visual tokens in small project-owned modules when reuse warrants them. Do not replace a supplied brand with an example theme.
+- Map each storyboard beat to a frame interval and explicit visible, settled/fully readable, exit and audio-event frames. Reconcile `durationInFrames` with the last real scene, intended hold and any transition overlap. Render aspect variants from their own layout decisions; do not assume one crop preserves reading order.
+
+## Implement time from frames
+
+Use [`useCurrentFrame()` and `useVideoConfig()`](https://www.remotion.dev/docs/animating-properties) for frame-derived states. A `Sequence` changes its child's time origin; document whether a value is in composition or local scene frames before offsetting it. Derive timing constants from the event map and fps where practical. Avoid wall-clock timers, CSS transitions, unseeded randomness and uncontrolled async asset arrival in rendered motion. Check direct seeking and repeated frame rendering where determinism matters.
+
+Use [`interpolate()`](https://www.remotion.dev/docs/interpolate) or [`spring()`](https://www.remotion.dev/docs/spring) to express the intended trajectory and hold. Clamp a value when it must stop at its range endpoint. Linear movement can be right for a constant-rate semantic action; a spring, stagger, texture, parallax or animated exit is a design decision, not a blanket quality rule. Test actual position, opacity and readable hold on frames and in playback. Keep a simple background if the approved treatment calls for one.
+
+Select media components from the [current video-component comparison](https://www.remotion.dev/docs/video-tags) for the installed version. As of the October 2026 docs, new code is directed toward `@remotion/media` Video/Audio where supported; `OffthreadVideo` remains an alternative with different extraction behavior. Do not inherit an external rule that every video must use `OffthreadVideo`. Probe input duration, frame rate, audio and decode behavior; inspect the rendered clip at transitions. Use `staticFile()` for project-local public assets when appropriate, and bind exact source bytes in the project provenance.
+
+## Render a proof and review delivered bytes
+
+Render a representative passage before implementing the full piece. Save exact stills at the entrance, fully readable hold, transform midpoint, scene boundary, payoff and final frame using the installed version's [`remotion still --frame`](https://www.remotion.dev/docs/cli/still). Inspect those frames at target size, then play the passage at normal speed for pacing, continuity and audio. A still render checks scene code at a frame; also extract or seek the matching frame from the encoded output to catch export differences. Inspect captions, overlap, safe area, source fidelity, contrast, motion direction and the final hold. For loops, inspect the end-to-start transition in playback, not just equality of first and last stills.
+
+Use the installed version's [`remotion render` options](https://www.remotion.dev/docs/cli/render) and verify the output's stream metadata, dimensions, duration, frame rate and audio. Record the render hash, settings, font/media hashes and deviations from the storyboard. If the machine is under pressure, bound concurrency and media extraction threads rather than guessing that more parallel work will help. A proof passage does not certify the complete film. Route the exact final file through `validate-video-quality`, including visual inspection, audio listening/measurement when permitted, captions and delivery checks.
+
+## Source review and limits
+
+This is an original integration informed by the pinned `haidrrrry/claude-remotion-skill` review at `1dcbe5e3fc6cf970bd10d3cc05f0a8a5d19d0383` (MIT) and checked against the linked primary Remotion documentation on October 9, 2026. No upstream component, theme, example project, script or media is copied. Its useful concrete reminder is to render, inspect, fix and rerender; this plugin already owns that loop. The upstream's universal rules about easing, entrances, background layers, Ken Burns, sound and `OffthreadVideo` are not adopted because they can conflict with an approved visual or accessibility brief, and the current video-component docs supersede the last rule. Version-sensitive API, license and output behavior must be rechecked when a real Remotion project is built.

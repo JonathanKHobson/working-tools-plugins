@@ -1,0 +1,14 @@
+---
+name: game-creation-studio
+description: Use for a game creation request spanning design, prototype, assets, implementation, and playtest, or a question about Game Creation Studio. Select a focused method and preserve one coherent game outcome.
+---
+
+# Game Creation Studio
+
+Identify the player's goal, platform, available build or assets, audience, and next decision. For a help question, explain a few useful tasks from [the README](../../README.md) without starting a build or scan. For work, route immediately to the smallest focused skill using [routes](../../docs/routes.json). Use [core loop](../game-core-loop/SKILL.md) when a concept lacks a tested player action; use [prototype scope](../game-prototype-scope/SKILL.md) once the loop can be described. Route rule/balance work to [gameplay systems](../gameplay-systems/SKILL.md), UI/control/accessibility work to [game UI](../game-ui-accessibility/SKILL.md), and test/release work to [playtest release](../game-playtest-release/SKILL.md).
+
+For browser-game code, use the separately installed official OpenAI `game-studio` package and the exact specialist route in `docs/routes.json`. Its `game-studio` umbrella is for stack choice; Phaser 2D is its default when no 3D direction was requested. Its other eight specialists own browser architecture, implementation, sprite and 3D pipelines, UI, and playtest execution. Do not imply that this package installed or copied them. For another engine, inspect the game's actual project and use its native workflow; do not force browser guidance onto it.
+
+The preserved third-party technical methods are [asset production](../game-asset-production/SKILL.md), [asset vendoring](../game-asset-vendoring/SKILL.md), [visual debugging](../game-visual-debugging/SKILL.md), and [performance optimization](../game-performance-optimization/SKILL.md). Their complete command and evidence references remain linked in each skill. The source umbrella's full operating contract and cross-workflow handoffs are retained at [upstream router](../../vendor/game-development-studio-1.0.2/skills/game-development-studio/SKILL.md) and [upstream routes](../../vendor/game-development-studio-1.0.2/skills/game-development-studio/references/routes.md); read both whenever a technical request crosses those four skills. Apply current user authorization ahead of historical approval language.
+
+Keep design claims, static inspection, generated asset receipts, engine import, rendered behavior, human playtest, and released build separate. `game-dev` commands need a separately installed CLI. Verify its actual availability and capability before relying on command examples. Never claim a service, provider account, or successful run from this guidance package alone. Finish the requested slice, show the playable or reviewable evidence, and state the next decision only if one remains.

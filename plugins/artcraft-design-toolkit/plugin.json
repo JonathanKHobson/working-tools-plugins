@@ -1,0 +1,33 @@
+{
+  "name": "artcraft-design-toolkit",
+  "version": "0.2.1",
+  "description": "On-demand CLI and MCP gateway for seven ArtCraft creative apps, with one focused skill.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ArtCraft Design Toolkit",
+        "shortDescription": "Use ArtCraft apps from Codex when a craft task calls for them",
+        "longDescription": "Choose the relevant ArtCraft app, run its allowlisted CLI commands, or open its native MCP session through one on-demand gateway. Keeps the seven native servers off until selected for a task.",
+        "developerName": "Kyle Hobson",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Use the installed ArtCraft app that fits this editing task and show me the result.",
+          "Find the ArtCraft CLI for this app and verify its available commands.",
+          "Drive the live ArtCraft window for this task and inspect the rendered result."
+        ]
+      }
+    }
+  }
+}
