@@ -49,6 +49,29 @@ Disable a Codex package in the Plugins UI or use `enabled = false` in the docume
 
 For Claude, use `claude plugin update PACKAGE@working-tools`, `claude plugin disable PACKAGE@working-tools` and `claude plugin uninstall PACKAGE@working-tools`. Confirm current CLI help when using an older host.
 
+## Slow marketplace refreshes
+
+The repository includes complete methods and source packs, so its Git checkout can take several minutes. A timed-out refresh is not an installed update; inspect the installed version before retrying.
+
+On the maintainer Mac, Codex's marketplace upgrade hit a 30-second clone limit. Re-registering this public marketplace at `main` succeeded through the native manager. First record the existing marketplace ref and selected package versions. For this public source only, the recovery was:
+
+```sh
+codex plugin marketplace remove working-tools
+codex plugin marketplace add JonathanKHobson/working-tools-plugins --ref main
+codex plugin add PACKAGE@working-tools
+```
+
+Use your recorded ref instead of `main` if you intentionally pin releases. This is a recovery for the Working Tools marketplace registration, not a reason to remove another source or your project files.
+
+Claude's default refresh also timed out on the maintainer Mac. Its documented timeout override succeeded:
+
+```sh
+CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000 claude plugin marketplace update working-tools
+claude plugin update PACKAGE@working-tools
+```
+
+Use the same installation scope as the original install. Restart the session and check the installed manifest before claiming the update worked. A versioned ZIP remains available when marketplace acquisition is unavailable.
+
 ## Troubleshooting
 
 - Marketplace not found: confirm the repository URL, client version and network access; run marketplace list.

@@ -30,6 +30,27 @@ The fresh-environment checks use empty extraction folders, a new Python environm
 
 See each package README for its exact prerequisites, sample and optional tools. Native host MCP app acceptance is distinct from a direct stdio/resource-render test.
 
+## Canonical-source successor releases, 2026-10-10
+
+The following six releases preserve the same distributable bytes as their canonical local source at publication. GitHub downloads, the personal Codex installation, fresh public Codex installations and separate local-scope Claude installations were compared against their release file inventories. The six portable manifests also passed the official Agent Plugins 1.0.0 JSON Schema.
+
+| Package | Verified release | Distributable files |
+| --- | --- | --- |
+| Social Content Studio | [0.2.2](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/social-content-studio/v0.2.2) | 87 |
+| Creative Toolkit | [0.3.2](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/creative-writing-studio/v0.3.2) | 168 |
+| Prompt Playbook Studio | [0.2.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/prompt-playbook-studio/v0.2.1) | 106 |
+| Master Security Toolkit | [0.2.1](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/master-security-toolkit/v0.2.1) | 149 |
+| Career Studio | [0.2.0](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/career-studio/v0.2.0) | 183 |
+| Marketing Strategy Studio | [0.3.0](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/marketing-strategy-studio/v0.3.0) | 1,137 |
+
+Fresh native sessions discovered the packages and used their installed methods with optional providers absent. Codex's Career/Marketing samples read the required first-party references and correctly separated fictional application states and workshop facts from proposals. Claude's initial Career/Marketing sample loaded the heads but skipped required references; it is not a complete-method acceptance pass. A separate Claude Opus 5.5 run, with the fictional fixture boundary clarified, read the complete methods and required references and classified all three supplied receipt states correctly. Both results remain part of the evidence; the later result does not erase the initial failure.
+
+First-use output review also caught unsupported feedback/date claims in social drafts, an incorrect scene word count, and a security recommendation that relied on stripping imperative wording. These failures remain open quality findings for the affected released versions. Installation success does not validate every generated answer. Review factual claims and mechanical constraints before using a draft, and use authorization and tool boundaries rather than keyword stripping for instruction security.
+
+Optional Atlas, TTRPG, Draw and Think and Job Application Compass backends have separate acquisition and execution requirements. These package checks do not establish every backend, native hook, provider account, publishing action or Claude access to Codex-only publisher plugins. Rendered GitHub onboarding was checked at a desktop viewport; this is not a screen-reader or mobile acceptance claim. See the [refresh recovery notes](install.md#slow-marketplace-refreshes) for observed native Git timeout limitations.
+
+The earlier expanded-edition checks below are historical evidence for their tested versions. They do not close the ongoing canonical-source reconciliation for the rest of the ecosystem.
+
 ## Standalone method integration
 
 The expanded editions retain 45 additional complete procedures in 11 existing packages, including their eligible scripts, tests and references. Personal cases and machine bindings become explicitly labelled synthetic examples or recipient inputs. Upstream Apache and MIT sources retain their exact notices. The Go retrieval engine requires a recipient-authorized index; Pattern Picker includes eight original synthetic examples and requires authorized framework sources for real use. Neither package silently republishes its old source corpus.
