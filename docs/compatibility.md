@@ -113,3 +113,30 @@ A portable root manifest takes precedence over compatibility manifests. Six pack
 All 1,810 files matched canonical source, the maintained personal installation, the public source, and fresh native Codex and Claude marketplace installations. The six public ZIPs matched their release checksums, and both official manifest schemas passed. These results verify packaging and acquisition.
 
 A fresh Codex session using Reasoning Toolkit 0.2.3 made an actual `critical-review` call with a synthetic nonexistent snapshot ID. The backend returned its handled invalid-ID error, proving discovery and invocation without opening or writing a real review. This does not establish a complete review workflow, every optional backend, or recipient configuration on another computer. Existing private bindings and protected baseline services were preserved.
+
+## Canonical package alignment and collection continuity
+
+The following versions share their distributable methods, runtime, onboarding and names with the canonical local source. The maintained personal installation and native public Codex and Claude installations matched all 5,586 files. Public ZIPs were downloaded without authentication and matched their recorded release hashes.
+
+| Package | Verified release | Files |
+| --- | --- | --- |
+| Stitch Design Toolkit | [0.1.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/stitch-design-studio/v0.1.3) | 39 |
+| DaVinci Resolve Toolkit | [0.1.4](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/davinci-resolve-toolkit/v0.1.4) | 23 |
+| ArtCraft Design Toolkit | [0.2.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/artcraft-design-toolkit/v0.2.3) | 26 |
+| Workshop Facilitation Toolkit | [0.1.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/workshop-facilitator/v0.1.3) | 63 |
+| Build MCP Apps | [1.0.5](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/build-mcp-apps/v1.0.5) | 74 |
+| Video Templates | [0.1.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/video-templates/v0.1.3) | 170 |
+| Data Visualization Toolkit | [0.2.5](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/data-visualization-toolkit/v0.2.5) | 288 |
+| Activities Templates | [0.1.3](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/activities-templates/v0.1.3) | 47 |
+| Design Templates | [0.1.6](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/design-templates/v0.1.6) | 57 |
+| Survey Studio | [0.1.4](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/survey-studio/v0.1.4) | 164 |
+| Brand Templates | [0.1.4](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/brand-templates/v0.1.4) | 4,560 |
+| Writing Templates | [0.1.4](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/writing-templates/v0.1.4) | 75 |
+
+The source alignment keeps recipient-owned interpreter and collection bindings. Read-only checks still resolved the maintainer's full Design, Brand, Writing and Video collections. Those private or uncleared collections remain outside public archives; their absence is an explicit dependency, not a claim that an empty recipient collection contains the same resources. Data Visualization keeps identical provider entrypoints and loads complete separately held procedures when configured. Its 45 proprietary or ungranted provider files remain private.
+
+Data Explorer passed 18 launcher/provider-source checks, nine store tests and real synthetic native/portable stdio tasks. The library packages passed their source-integrity and synthetic protocol checks; Survey passed 35 tests. Writing Templates 0.1.4 additionally passed 21 Python tests and 18 Node QA checks, including a sentinel test proving that its sample generator copies only the named engine/support files and creates four fictional profiles. The earlier 0.1.3 archive is preserved and marked superseded.
+
+Claude's `install` command left an existing 0.1.3 installation unchanged and reported the available update. The supported `plugin update ... --scope local` path installed 0.1.4 with exact file parity. Use the original installation scope and verify the returned version.
+
+These checks establish the recorded package, local collection, helper and acquisition behavior. They do not establish every model-generated answer, native app rendering, optional provider, account integration or another computer's configuration. The unchanged runtime visuals retain their earlier scoped review; changed GitHub documentation was inspected at a desktop viewport.

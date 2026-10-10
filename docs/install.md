@@ -47,7 +47,7 @@ For Codex, run `codex plugin marketplace upgrade working-tools`, then reinstall 
 
 Disable a Codex package in the Plugins UI or use `enabled = false` in the documented project plugin configuration. Remove it with `codex plugin remove PACKAGE@working-tools`. Remove the marketplace with `codex plugin marketplace remove working-tools` when no longer needed. These operations do not uninstall provider apps or delete your projects.
 
-For Claude, use `claude plugin update PACKAGE@working-tools`, `claude plugin disable PACKAGE@working-tools` and `claude plugin uninstall PACKAGE@working-tools`. Confirm current CLI help when using an older host.
+For Claude, use `claude plugin update PACKAGE@working-tools`, `claude plugin disable PACKAGE@working-tools` and `claude plugin uninstall PACKAGE@working-tools`. Keep the original installation scope, such as `--scope local` for a local install. Repeating `install` can leave the installed version unchanged even after the marketplace offers an update. Read the command result and verify the installed version. Confirm current CLI help when using an older host.
 
 ## Slow marketplace refreshes
 
