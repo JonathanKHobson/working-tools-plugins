@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "critical-compass": {
+      "command": "python3",
+      "args": [
+        "scripts/compass_mcp.py",
+        "critical-compass"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    },
+    "critical-review": {
+      "command": "python3",
+      "args": [
+        "scripts/critical_review_mcp.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

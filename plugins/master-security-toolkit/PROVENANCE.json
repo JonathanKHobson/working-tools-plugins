@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "master-security-toolkit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "source_owner": "master-security-toolkit",
   "source_revision": "Canonical source has no enclosing Git checkout; private baseline archive and per-file SHA256 identify original source.",
   "source_tree_sha256": "d6237e81bd04a896e9a0586e292bd4d5b51c2e53a8cbfbfdaf4511de5cf25f99",
@@ -63,20 +63,21 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "76f50336dd23a5d351eaccba86e40db02aa39a0aa00186af7d0eb13429449c73",
+      "output_sha256": "91b92caedc4193a5fb955344cbdda0ea422e8800d03b7b8ef1f82b5a85ec100a",
       "origin": "new_author_owned",
-      "transformed": false,
-      "rights": "AGPL-3.0-only"
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "b3b455c1477d3b61d90609da786ff9905f714a3ba8247ea94aa81d0b6950b6a0",
+      "output_sha256": "e8e271cb5912cc401bb9f83319bc6320871708ab516305199f49792bb343b81e",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "AGPL-3.0-only",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "d8f8fa239837020a36184e6b746daabebac3f0501bda2ebcdb5f9c90549e86e0",
-      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained."
+      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": ".mcp.json",
@@ -777,10 +778,11 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "e564f6d1e6a105e32301c324d06d147b926a8982ad9c4d124e41ce2bae998c86",
+      "output_sha256": "60cb911a5492eb0a70c269711a29f598b5ee97eca9c1474fdfae22b1459b421a",
       "origin": "new_author_owned",
-      "transformed": false,
-      "rights": "AGPL-3.0-only"
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "references/application-security-testing.md",
@@ -1036,13 +1038,13 @@
     },
     {
       "path": "skills/indirect-injection-review/SKILL.md",
-      "output_sha256": "894ad41c177a07363ac15c5bc6ddf4ba140bb26e6074ca54107b73b58a27ceff",
+      "output_sha256": "e830f153eefbd155da669f805311fd03a472c58787181ca530055e5ff60ca7c0",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "skills/indirect-injection-review/SKILL.md",
       "source_sha256": "29752664a7b6a96db63e145245a29058122b5b09b70709f02dc3dd720d082a50",
-      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained."
+      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Indirect-injection entrypoint now invokes the existing shared action-boundary and regression method; original source hash and full method preserved."
     },
     {
       "path": "skills/indirect-injection-review/agents/openai.yaml",
@@ -1055,13 +1057,13 @@
     },
     {
       "path": "skills/instruction-security-review/SKILL.md",
-      "output_sha256": "dda44d9690a3ab81351a2fdbeff455a28863caccf9f9262a8a3335cd8e5ad136",
+      "output_sha256": "ae34f4f2239891dfffbdfe198d2317a46576e1dcad95a8edd77f38d8952a93be",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "skills/instruction-security-review/SKILL.md",
       "source_sha256": "8e0b1de8258fa1351ce0b7de0aa16081674f09c32e00d42ff47a49c3ba262f5c",
-      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained."
+      "transformation": "Portability, provider namespace, package identity, licensing or public first-use correction; first-party operative method retained. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "skills/instruction-security-review/agents/openai.yaml",
@@ -1074,12 +1076,13 @@
     },
     {
       "path": "skills/instruction-security-review/references/injection-review-patterns.md",
-      "output_sha256": "a042199c5332a3a2d1b6f10f056f374e8c5e51b2729900c133685e00efb73e8f",
+      "output_sha256": "3b4932ee74e2baae9945ee7696c689b8876ec967525f28a5fe8917a70a8c6871",
       "origin": "canonical_baseline",
-      "transformed": false,
+      "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "skills/instruction-security-review/references/injection-review-patterns.md",
-      "source_sha256": "a042199c5332a3a2d1b6f10f056f374e8c5e51b2729900c133685e00efb73e8f"
+      "source_sha256": "a042199c5332a3a2d1b6f10f056f374e8c5e51b2729900c133685e00efb73e8f",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained. Indirect-injection entrypoint now invokes the existing shared action-boundary and regression method; original source hash and full method preserved."
     },
     {
       "path": "skills/mcp-security-review/SKILL.md",
@@ -1372,5 +1375,14 @@
       "source_relative": "vendor/agent-skillguard/tools/verify_rule_corpus.py",
       "source_sha256": "f6dcfa04bc757386805d71211ad87fd49b31df67da186103e5a372063b0d8a3e"
     }
-  ]
+  ],
+  "quality_patch": {
+    "prior_version": "0.2.1",
+    "prechange_archive_sha256": "f4a27ae28bf447aa2f5d14dbdf37bf3eeb5b34d17c9259076a0eb9c3ce49bc5a",
+    "scope": "Bounded first-use corrections; previous FAILED receipts preserved; native retest pending.",
+    "route_coverage_correction": {
+      "prechange_archive_sha256": "4a592c29b07d90026142d418165301f24c2042a71a2b9966a8d149b49db0a213",
+      "scope": "Indirect-injection head uses existing shared reference for action authorization and no keyword stripping; native retest pending."
+    }
+  }
 }

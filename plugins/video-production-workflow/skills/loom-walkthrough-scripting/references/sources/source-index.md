@@ -1,3 +1,5 @@
-# Source index
+# Source index: loom-walkthrough-scripting
 
-This is a complete original workflow by Jonathan Kyle Hobson under the [root MIT grant](../../../../LICENSE). The public edition retains the full operative head, references and agent metadata; Loom Review additionally includes its complete original Python helper. Source hashes and transformations are in [the public file inventory](../../../../PUBLIC_FILE_MANIFEST.json). Private client history in Walkthrough Scripting became a full explicitly fictional worked scenario. Actual recordings, transcript/screenshots, current design approval and provider access remain recipient inputs, not bundled evidence.
+This complete first-party standalone method by Jonathan Kyle Hobson is incorporated into the canonical Video Production Workflow owner under the [owner MIT license](../../../../LICENSE). The method, supporting references and agent metadata remain present. The complete transcript/frame helper is included with `loom-review-packet`.
+
+[Source-first file provenance](../../../../docs/standalone-additions-provenance.json) records the original per-file hashes and the recipient adaptations. Historical client facts in the walkthrough example were replaced by an explicitly fictional worked scenario; the exact original remains in the author's private baseline archive and standalone source. Current video, transcript, frames, design approval and provider access must be supplied and verified for real work. This document does not claim native provider execution or completed recordings.

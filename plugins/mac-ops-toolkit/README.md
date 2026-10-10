@@ -1,6 +1,6 @@
 # Mac Operations Toolkit
 
-Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state.
 
@@ -55,9 +55,9 @@ Storage rules are specific to the current Mac and must be checked against live v
 
 ## Maintainer and existing integration notes
 
-The reviewed public source is `plugins/mac-ops-toolkit` in the Working Tools repository. Edit that source, update the package version and registry together, validate and build a distribution, then install the selected version through the host's plugin manager. Start a fresh chat for refreshed discovery. Preserve recipient configuration outside the package.
+The canonical owner and the Working Tools package share the same distributable implementation. Edit the canonical source, mirror reviewed files to the public package, validate both, then install the selected version through the host's plugin manager. Start a fresh chat for refreshed discovery. Preserve recipient configuration outside the package.
 
-Historical standalone entrypoints are compatibility routes. The current skill table and package project map define the public edition; private marketplace and cache paths are not installation requirements.
+Historical standalone entrypoints are compatibility routes. The current skill table and package project map define this implementation; private marketplace and cache paths are not installation requirements.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional agents
@@ -65,9 +65,9 @@ Historical standalone entrypoints are compatibility routes. The current skill ta
 [Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
 <!-- END PROFESSIONAL-AGENTS -->
 
-## Portable edition prerequisites and receiving-host storage roles
+## Prerequisites and receiving-host storage roles
 
-Ten complete skill heads, both historical original procedures, all recovery references and both shell helpers remain. There are no omitted source files. The literal placeholders `$ARCHIVE_VOLUME`, `$RUNTIME_VOLUME` and `<user>` stand for independently verified recipient volume names/user paths; never execute them literally or create a mountpoint. Establish a receiving-host role map with actual UUID, mounted path, filesystem, free space, archive/runtime/backup purpose, approved install roots and existing symlink patterns before any placement decision. Historical placement examples are conditional patterns, not facts about your Mac. Recheck the selected daily Claude profile rather than adopting the old private profile.
+Ten complete skill heads, both historical original procedures, all recovery references and both shell helpers remain. Private machine bindings remain in the author archive; no operative method or helper is omitted. The literal placeholders `$ARCHIVE_VOLUME`, `$RUNTIME_VOLUME` and `<user>` stand for independently verified recipient volume names/user paths; never execute them literally or create a mountpoint. Establish a receiving-host role map with actual UUID, mounted path, filesystem, free space, archive/runtime/backup purpose, approved install roots and existing symlink patterns before any placement decision. Historical placement examples are conditional patterns, not facts about your Mac. Recheck the selected daily Claude profile rather than adopting the old private profile.
 
 macOS is required for actual AppleScript/window inspection and Time Machine operations. Shell helpers use bash, standard system commands and `rg`; check local command availability and OS permissions. Other named skills/MCPs are optional receiving-host capabilities, not bundled services. The support-state backup helper preserves its timestamped copy behavior and does not establish a successful restore. Do not run recovery changes merely to test this package.
 
@@ -75,7 +75,7 @@ For “move this app to my external SSD” without a mounted, identified volume,
 
 `RUNTIME_VOLUME`, `ARCHIVE_VOLUME` and `SYSTEM_DATA_ROOT` are recipient-selected, verified mounted paths, not predefined environment values. Establish them from current volume identity and role evidence before translating any example command. macOS Data-volume inspection must use the actual current system data mount.
 
-## Standalone method additions in 0.3.0
+## Complete standalone storage methods
 
 10 complete skill heads are retained. The added methods are `local-storage-mcp`, `storage-memory-manager`. Complete references and operative helpers are included; only originating private binding/input records are projected to recipient templates. No automatic installation of providers, hooks or global configuration occurs.
 

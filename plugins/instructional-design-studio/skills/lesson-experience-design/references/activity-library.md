@@ -15,6 +15,8 @@ python3 scripts/search_activities.py --id fof-card-0051
 python3 scripts/search_activities.py --list-tags
 ```
 
+Source selection is explicit and bounded. `--library /path/to/authorized-library.json` takes priority. Otherwise the helper reads an optional recipient-owned `~/.config/studio-tools/instructional-activity-library.json` containing `{"library":"/path/to/authorized-library.json"}`. With no binding it uses the bundled 31 original assessment adaptations. A configured but missing or invalid private library is an error, not an empty search or a silent fallback. The result reports `explicit-library`, `recipient-binding` or `bundled-adaptations` without exposing the binding path. The private source library and binding stay outside the plugin.
+
 Multiple query terms all must match. The time filter uses the upper planning estimate and does not shorten the activity. If none fits, say so and explicitly adapt scope/timing. `--id` or `--full` returns the complete record; default output is a short shortlist. `--purpose diagnostic` filters proposed diagnostic uses. A non-match is not proof that the full vault lacks a suitable method. The helper reads this JSON only; it has no network, execution, vault-write or MCP dependency.
 
 ## Adapt before use

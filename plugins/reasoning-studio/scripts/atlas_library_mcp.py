@@ -10,7 +10,7 @@ DOMAIN = 'reasoning'
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--binding", type=Path, required=True, help="Operator-selected JSON runtime binding")
+    parser.add_argument("--binding", type=Path, default=Path.home() / ".config/studio-tools/atlas-library.json", help="Operator-selected JSON runtime binding; defaults to the current user's studio-tools file")
     options = parser.parse_args()
     config = json.loads(options.binding.expanduser().read_text())
     interpreter = Path(config['interpreter']).expanduser().absolute()

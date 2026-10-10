@@ -9,7 +9,7 @@ import sys
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("name", choices=["critical-compass"])
-    parser.add_argument("--binding", type=Path, required=True, help="Operator-selected JSON runtime binding")
+    parser.add_argument("--binding", type=Path, default=Path.home() / ".config/studio-tools/compass.json", help="Operator-selected JSON runtime binding; defaults to the current user's studio-tools file")
     options = parser.parse_args()
     binding = options.binding.expanduser()
     name = options.name

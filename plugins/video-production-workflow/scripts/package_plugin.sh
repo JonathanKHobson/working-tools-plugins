@@ -5,4 +5,5 @@ PYTHON="${PYTHON:-python3}"
 if [[ "${SKIP_VERIFY:-0}" != "1" ]]; then
   "$PYTHON" "$ROOT/scripts/verify_release.py"
 fi
-"$PYTHON" "$ROOT/scripts/package_public.py" "${1:-$ROOT/../video-production-workflow-0.3.0.zip}"
+VERSION="$("$PYTHON" -c 'import json,sys; print(json.load(open(sys.argv[1]))["version"])' "$ROOT/.codex-plugin/plugin.json")"
+"$PYTHON" "$ROOT/scripts/package_public.py" "${1:-$ROOT/../video-production-workflow-$VERSION.zip}"

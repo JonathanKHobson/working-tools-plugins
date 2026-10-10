@@ -1,6 +1,6 @@
 {
   "package": "game-creation-studio",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "first_party_author": "Jonathan Kyle Hobson",
   "scope": "All public files except this self-describing provenance file. Public release archive supplies complete external hash receipt. Canonical source paths and task receipts remain outside public package.",
   "files": [
@@ -9,7 +9,7 @@
       "bytes": 445,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "3e4df1779ac2159ef3670031cf05a0c1df9b5602ea711aad4af3d8d70a0be674",
+      "output_sha256": "df7062d620b99cc0b332d16b583a751de7f3c676097e8b47cfaccc3a987c0a98",
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
@@ -22,7 +22,7 @@
       "bytes": 1388,
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "5fca2b51023f29fea88579a9404fdedc43f2f2b5b8978d49d8f2a7a999c9cc8b",
-      "output_sha256": "f98c656a113fca025eacf7bba2610b78f0de5be3f45f7b26a7a8b93291eadecc",
+      "output_sha256": "72a4d6939c8c60b4f622e564678e6600d240c4955ee80317006b0ccff0efa3b0",
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "modified",
@@ -50,8 +50,8 @@
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
-      "bytes": 1059,
-      "output_sha256": "620f1c59d4b0d23b892ced48767d27ac4104b65a70921210eb6239b4facaeecc",
+      "bytes": 1244,
+      "output_sha256": "17c39c08a4768b73deeb59a2efb5b9803667211ee9cd750b9675db5739411384",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "prior_license_notice": "legal/prior-grants/0.3.0/LICENSE"
@@ -68,6 +68,31 @@
       "edition_license_scope": "See document",
       "license_scope_category": "license-and-notice",
       "prior_license_notice": "legal/prior-grants/0.3.0/LICENSE"
+    },
+    {
+      "path": "LICENSE-SCOPE.json",
+      "output_sha256": "b932836f1272c1ac310395e35a0762e1847e1fd081128b512d5e7f4d60ae146e",
+      "bytes": 48254,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change."
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "bytes": 1904,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
     },
     {
       "path": "PUBLIC_DISTRIBUTION.md",
@@ -87,7 +112,7 @@
       "bytes": 6428,
       "source_relative": "README.md",
       "source_sha256": "b8ffecbb29b20dbb4aa3a6bf5c854d9f87f368bd3a95e41c3d0665eafeefb3a2",
-      "output_sha256": "227829cde6974ab23d09cf9263bfe05a66894c686e38b5b0c5cfeb19fd2aa02c",
+      "output_sha256": "e72ca28e463a6c4acc5b84c503bf65f7ee0443ddded855bdd204e46e90059200",
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "modified",
@@ -213,11 +238,83 @@
       "prior_license_notice": "legal/prior-grants/0.3.0/LICENSE"
     },
     {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "bytes": 1112,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "bytes": 1106,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "bytes": 151,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/LICENSE",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "bytes": 1077,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
+      "output_sha256": "4c249ce9166a5ba414d7b8261ac0705373cd259d4d58613b75f1195645900bb6",
+      "bytes": 1813,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/release-license-record.json",
+      "output_sha256": "98b708b001d9b359473cb9afb3ac766c89991edd2b9a212701a02848c74f4dec",
+      "bytes": 730,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
       "path": "plugin.json",
       "bytes": 636,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "bac995ff8f90ffcf8fc20cbc73f0243a412c82100b46275ef70a0388ad97bbe8",
+      "output_sha256": "b4209ae3cbbd5d25e424e9372a8c120190a75ee48508012a05ff9a69551828c0",
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
@@ -246,8 +343,8 @@
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
-      "bytes": 9565,
-      "output_sha256": "500bd741b6045bef459598ac7f0bc47b70d2b4e3b4ca1c134a78d10620088b42",
+      "bytes": 11840,
+      "output_sha256": "272d5841ddaa9bda5a6b225af0cedd694c8b184d21e2b29c9b3fe8c6e89ddc08",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
       "prior_license_notice": "legal/prior-grants/0.3.0/LICENSE"
@@ -474,7 +571,7 @@
       "bytes": 196,
       "output_sha256": "03b1cc2051e3101347b6a82ffd704b39f7659b702cf5093e36e8e2b96ec7c396",
       "transformations": [],
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code",
       "prior_license_notice": "legal/prior-grants/0.3.0/LICENSE"
     },
@@ -991,7 +1088,7 @@
       "bytes": 3732,
       "source_relative": "tests/validate.py",
       "source_sha256": "6425555cce1d74ee317ba1e8dd567983a7a7a1ff956894bf3a49e84dc184c87c",
-      "output_sha256": "96adbad4aee3fbf01512c0d7c4413253d9eb1884b155a0ec767b44420e19b690",
+      "output_sha256": "143a3053514114368c9d00598c6aedb9dc3b62e8f665613ba76b54201b4ff760",
       "rights": "MIT: Jonathan Kyle Hobson original contribution",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "modified",
@@ -1454,103 +1551,6 @@
       "status": "unchanged",
       "edition_license_scope": "MIT: Benjamin Michael Haire / Ben Haire Game Development Studio 1.0.2 source",
       "license_scope_category": "retained-or-mixed-upstream"
-    },
-    {
-      "path": "LICENSE-SCOPE.json",
-      "output_sha256": "e3d02607397fb797ee5f695893e9f87059ef4889b361a99cba1291a2cd05df5a",
-      "bytes": 48254,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
-    },
-    {
-      "path": "LICENSING.md",
-      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
-      "bytes": 1904,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/BRAND-AND-ATTRIBUTION.md",
-      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
-      "bytes": 1112,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "bytes": 34523,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
-      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
-      "bytes": 1106,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/THIRD_PARTY_NOTICES.md",
-      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
-      "bytes": 151,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/LICENSE",
-      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
-      "bytes": 1077,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
-      "output_sha256": "4c249ce9166a5ba414d7b8261ac0705373cd259d4d58613b75f1195645900bb6",
-      "bytes": 1813,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/release-license-record.json",
-      "output_sha256": "98b708b001d9b359473cb9afb3ac766c89991edd2b9a212701a02848c74f4dec",
-      "bytes": 730,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
     }
   ],
   "license_transition": {
@@ -1560,5 +1560,11 @@
     "operative_bodies_unchanged": true,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "prepared_reconciliation": {
+    "canonical_pre_parity_archive_sha256": "fc99ba31bbcb9b93d7cb83bece02ac624f06fc290ac05c92dbf5468a3d51c797",
+    "public_distributable_files_before_self_inventories": 122,
+    "source_first": true,
+    "method_equivalence_claim": "Complete eligible procedures and support retained; live runtime/provider acceptance separately required."
   }
 }

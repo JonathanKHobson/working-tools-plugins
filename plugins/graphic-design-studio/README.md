@@ -1,6 +1,4 @@
 ---
-
-Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 project: graphic-design-studio
 type: plugin-guide
 status: active
@@ -8,6 +6,8 @@ tags: [graphic-design, flyers, posters, advertising]
 ---
 
 # Graphic Design Studio
+
+Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Make posters, flyers, advertisements, and promotional graphics whose composition, typography, imagery, and message work together. Use motion design here for visual direction across time: styleframes, kinetic type, and continuity review. Video Production owns scenes, rendering, audio and narration.
 
@@ -33,6 +33,9 @@ Start with **$graphic-design**. It selects only the specialist guidance the task
 | motion-design | Direct styleframes, kinetic type, and visual continuity across beats |
 | graphic-design-review | Review the rendered work with specific visual anchors and a taste pass |
 | print-and-export-preflight | Check dimensions, image resolution, live text, QR destinations, and deliverable files |
+| [hatch-pet](skills/hatch-pet/SKILL.md) | Produce and check a bounded animated pet asset with the retained scripts and recipient-owned host setup |
+| [html-presentation-builder](skills/html-presentation-builder/SKILL.md) | Build a readable browser presentation from supplied evidence and inspect the rendered result |
+| [lavish-axi](skills/lavish-axi/SKILL.md) | Use the complete graphic wrapper around a separately installed Lavish AXI runtime |
 
 For the full task list and direct links, see the [use-case map](docs/use-case-map.md).
 
@@ -44,7 +47,7 @@ See [project map](docs/project-map.md), [integration decisions](docs/integration
 
 Ask “Show me the image workflows” to browse 16 reusable recipes, or “Prepare a product-photo prompt” for direct assistance. Pick a workflow, describe the subject, set composition/detail preferences, and edit the visible prompt. Send it to the conversation to request generation, or copy it when the host cannot send. References are attached through the host conversation, not uploaded by this widget.
 
-The library uses public Design Templates’ maintained chooser. Install that package and set `DESIGN_TEMPLATES_ROOT` for separate installs; sibling packages in this repository are detected. Prepare the MCP interpreter as documented in [installation](docs/installation.md). Search/read/prepare run without the chooser; rendering the app needs the chooser. It has no image-provider credentials or generation runtime. Aspect ratio and detail are prompt preferences. See [workflow guidance](skills/graphic-design/references/image-workflows.md).
+The library uses Design Templates’ maintained chooser. Install that package and set `DESIGN_TEMPLATES_ROOT` for separate installs; sibling packages in this repository are detected. The existing local UX chooser remains a compatibility source when present. Prepare the MCP interpreter as documented in [installation](docs/installation.md), or keep an existing recipient-owned studio-tools interpreter binding. Search/read/prepare run without the chooser; rendering the app needs the chooser. It has no image-provider credentials or generation runtime. Aspect ratio and detail are prompt preferences. See [workflow guidance](skills/graphic-design/references/image-workflows.md).
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional agents
@@ -53,7 +56,7 @@ The library uses public Design Templates’ maintained chooser. Install that pac
 <!-- END PROFESSIONAL-AGENTS -->
 
 
-Public edition 0.3.1 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
+Public edition 0.3.2 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
 
 ## Presentations, local review and pet atlases
 

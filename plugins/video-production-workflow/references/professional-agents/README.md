@@ -1,4 +1,4 @@
-# Professional roles for video-production-workflow
+# Professional roles for Video Production Studio
 <!-- Managed by work-management professional-agents -->
 
 - **Media Quality Reviewer** (`studio-media-quality-reviewer`): Check rendered media against delivery requirements, source intent, and visible or audible defects. [Contract](media-quality-reviewer.md).

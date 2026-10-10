@@ -28,7 +28,10 @@ def test_legacy_skill_agents_and_references_and_compact_editor_routes() -> None:
     for skill in (root / "skills").iterdir():
         if not skill.is_dir():
             continue
-        if skill.name != "edit-davinci-resolve":
+        if skill.name in {"loom-review-packet", "loom-walkthrough-scripting"}:
+            assert (skill / "agents/openai.yaml").is_file()
+            assert (skill / "references/sources/source-index.md").is_file()
+        elif skill.name != "edit-davinci-resolve":
             assert len(list((skill / "agents").glob("*.md"))) >= 2
             assert len(list((skill / "references").glob("*.md"))) >= 6
             assert len(list((skill / "references/sources").glob("*.md"))) >= 5

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "graphic-design-studio",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,28 +16,28 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "f9f6b2d8449cea340fab20e12b189c4b4b9fc7b12513f2b4711161fa120f5ed8"
+      "sha256": "83d13973fc198ccee070ca01dd3cc6058aaef8b23c17ebc24e5c1dbb9b4c0776"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "6bd456bad67cda52558a347626e067608e42b3ec823387b1d701d01590a22648"
+      "sha256": "fc6582d983f8243ffc5f52b088b4c9a69a1af904b3d40b4dc1823b73bf050537"
     },
     {
       "path": ".mcp.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "e6cba3974b7faf7012d97591128d243cc89b9c65813650d701b527a9277f5cd6"
+      "sha256": "6dda9a316199e2301c2fd81a41ecd47b2b060e2e5e41f49b14e2144fbadd9bea"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "2e823dacf825e40a786cb900227ff8ba9d6f74650f0d62cd84b0f3ae76bb01be"
+      "sha256": "f0367a61823d63b3b83c5a984ad3be932d55edc4cca5034ca18f34608cd6ab1b"
     },
     {
       "path": "LICENSE",
@@ -65,7 +65,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "b365e2a41db52d3b792a570afcbe7ee1369ed2e5108434cc13b81c86f0755213"
+      "sha256": "fc1fecedef0fb00bf3e1bf013eda566c93084e0995bc0649d16a34ede76ea85c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -100,7 +100,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "112198a549a68df86812a7772b8be70c816bedc09640709e72f19790afc48a2f"
+      "sha256": "c1222e09a6818ab5d518d7eb5359a6ceeb168e00b6d5afa3ed2555e12dfc8142"
     },
     {
       "path": "docs/integration-map.md",
@@ -121,7 +121,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ebba9fe1bce1201bf76568ffbee174b279a174d859f1f2a9580b3e9a59bfdbea"
+      "sha256": "0b89f7f31dbe220690362a10a42d140c62c3de2c690215e448bd54857d2416a0"
     },
     {
       "path": "docs/shareables-svg-procedures.md",
@@ -562,7 +562,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "a3f82bbf2e8ecd934892f4f40ce2e2f34976f36a412cfd3a66da92ad855e75f3"
+      "sha256": "69c24673274f00ee5e61c507ebca581a0fab5f1f18b7808d5b4a919684461d59"
     },
     {
       "path": "provenance/standalone-source.json",
@@ -660,7 +660,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "c29c0ad9d67c3b7a2c82bcdeab4c4c299973c82bd954dce91dad11998e7aa7f3"
+      "sha256": "d8471e8ff45d8aee0b14443c17036bfd9b8543d13c18ce18faa4220350c68319"
     },
     {
       "path": "runtime/image-workflows/tests/test_editor.cjs",
@@ -835,7 +835,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "7dfc2097578e049d6c397b62a2fa9173faa10742800c5ee3f229c104491dd151"
+      "sha256": "404cd5ca6a14853282b6b683760ce28cf089a02cd40d6bab9898e140cd4f7f5c"
     },
     {
       "path": "skills/campaign-format-adaptation/SKILL.md",
@@ -1034,6 +1034,20 @@
       "sha256": "562a5c9def45d9c764ddb5b296e20123d1fddccc8688d2a762df60e2811e8e84"
     },
     {
+      "path": "skills/graphic-design-review/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "a8ee8ff46bff4a61cbc4060cd1aedb9149d13e5b4cdfbdeb4d8d294b7e22e25d"
+    },
+    {
+      "path": "skills/graphic-design-review/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
+      "sha256": "1b7aa1830934b2061c52e6f8568113c14b9d4542c59677f54fc787b9113a32b7"
+    },
+    {
       "path": "skills/graphic-design/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -1102,20 +1116,6 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "0bf1ae768952595d087982eddbcab224ad33487edbe87eadc7c20738b1c8425f"
-    },
-    {
-      "path": "skills/graphic-design-review/SKILL.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "a8ee8ff46bff4a61cbc4060cd1aedb9149d13e5b4cdfbdeb4d8d294b7e22e25d"
-    },
-    {
-      "path": "skills/graphic-design-review/agents/openai.yaml",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "1b7aa1830934b2061c52e6f8568113c14b9d4542c59677f54fc787b9113a32b7"
     },
     {
       "path": "skills/hatch-pet/LICENSE.txt",

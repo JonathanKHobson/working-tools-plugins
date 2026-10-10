@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "scope": "Source-first canonical additions only; no public mirror or installed cache modified",
+  "owner": "work-management",
+  "baseline_private_archive": {
+    "filename": "local-addition-prechange-work-management-20261010.tar.gz",
+    "sha256": "2bf981b1b9b3dd920bcecf025e96941b03e786f0324ea6d66c56eaf880e38578"
+  },
+  "rights_note": "Original standalone first-party methods and eligible support; recipient adaptations preserve method, with private source details retained only in the author’s recoverable archive and original standalone source. Existing owner licenses remain authoritative.",
+  "heads": [
+    {
+      "name": "cross-codex-workflow-exchange",
+      "rights_basis": "Original three-file coordination procedure; no external code",
+      "portability_constraint": "references/host-map.md: replace private host/account/SMB maps with explicit recipient binding schema; shared-working-preferences.md: remove personal account details, retain full operating procedure",
+      "files": [
+        {
+          "path": "skills/cross-codex-workflow-exchange/SKILL.md",
+          "sha256": "8678c1ec02b89b3cde822e45641a417479071e91d09a68d3f7f21c11fbd5df88",
+          "source": {
+            "id": "standalone:cross-codex-workflow-exchange/SKILL.md",
+            "sha256": "90f1bafe7f4516c9a470d5dcc12055050a074d1c76130c0c65add12919941bd0"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/cross-codex-workflow-exchange/references/host-map.md",
+          "sha256": "2f724b7aa7fa20c17ebb5f6432924630b204be55e57b23df44963a652d386d86",
+          "source": {
+            "id": "standalone:cross-codex-workflow-exchange/references/host-map.md",
+            "sha256": "596354764243eb0f1a418b2c35eb9644c0b26981c5210c62414057afe2e4e170"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+          "sha256": "b470fa2cdee30c324f3eb0237480e4f74d268c8f820d004b64019021b094fe76",
+          "source": {
+            "id": "standalone:cross-codex-workflow-exchange/references/shared-working-preferences.md",
+            "sha256": "731ce3e43e0900464e758559bfe4fc0f78c82dcadff8970918aa21d6ab37d8a8"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "github-conventions",
+      "rights_basis": "Original account-navigation method and full refresh_account_map.py helper",
+      "portability_constraint": "references/account-map.md contains private repository inventory: replace with empty recipient table; script owner/account and head defaults become explicit recipient arguments; preserve repository-navigation.md and entire helper",
+      "files": [
+        {
+          "path": "skills/github-conventions/SKILL.md",
+          "sha256": "899fe928c30dc6c67e64995c433e5a353fbf3e914f7da34db49423f2177bc558",
+          "source": {
+            "id": "standalone:github-conventions/SKILL.md",
+            "sha256": "5604f66514b9da49b0fac367be759258c84968fbfe5d942ade60ab36536ceb4b"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/github-conventions/agents/openai.yaml",
+          "sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807",
+          "source": {
+            "id": "standalone:github-conventions/agents/openai.yaml",
+            "sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/github-conventions/references/account-map.md",
+          "sha256": "ce39275a8b71461ef51c2e38f0f0bc89020cc7a0daf08e427b677d99c07974ee",
+          "source": {
+            "id": "standalone:github-conventions/references/account-map.md",
+            "sha256": "39f4ff1efbc980800c2ea93154af32b37c17d716af0b53b45d11a6c2081cca28"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/github-conventions/references/repository-navigation.md",
+          "sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4",
+          "source": {
+            "id": "standalone:github-conventions/references/repository-navigation.md",
+            "sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/github-conventions/scripts/refresh_account_map.py",
+          "sha256": "90b74e65d6ea285be99c9852866ffb2060f538cd20a4513a3beab38b1344e481",
+          "source": {
+            "id": "standalone:github-conventions/scripts/refresh_account_map.py",
+            "sha256": "8eb2fc2e696760ff77deedd361089c7f733b10bfa658eb740987a6854cc90bbd"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "obsidian-vault-router",
+      "rights_basis": "Original ten-file routing/metadata safeguards, no third-party vault content",
+      "portability_constraint": "references/{kyle-second-brain,kyle-storage-hub,kyle-shareables,knowledge-atlas,vault-routing}.md: explicit recipient role/path/provider bindings instead of private vault maps; preserve full procedures; current machine facts become receiving-host checks",
+      "files": [
+        {
+          "path": "skills/obsidian-vault-router/SKILL.md",
+          "sha256": "c17affdb2bd0e6692aba7ebeeda27834395b21d4be67be8a742ac4b75368801b",
+          "source": {
+            "id": "standalone:obsidian-vault-router/SKILL.md",
+            "sha256": "9430595feb6b430656d5bc29cf8f991b9f7f8eea6ff48cb9724833c776268cb8"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/agents/openai.yaml",
+          "sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187",
+          "source": {
+            "id": "standalone:obsidian-vault-router/agents/openai.yaml",
+            "sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+          "sha256": "b953987c385c840b686de4e986662b6a5ca9b7f296c8c8e0e226485f5636c924",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+            "sha256": "67b0d317a9de7480c32f8be5840dd013a28f20d12708d221fe1b59ac1f831dd4"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/knowledge-atlas.md",
+          "sha256": "66502910e04f197ec0ea71938d0473ea6f66f68149ece4213d93ecbd7d621783",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/knowledge-atlas.md",
+            "sha256": "11f3140da6629c3db7d49fd3a4272fc9e0b937a0bea751d0b66948e8118cb5fa"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/kyle-second-brain.md",
+          "sha256": "59a37e99b50f2662bf3cdc30f2bae8c5af08c0d1061a8e96dce085b33c3e9695",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/kyle-second-brain.md",
+            "sha256": "31a327382648be807e6e2bc453b7cf0b1dee78c71d4d0b58dd9ed236ad5a30d3"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/kyle-shareables.md",
+          "sha256": "a95d23da24c07cbff4940f7091dc03081cf9d666d4106b84b3a54d37ec36b9c8",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/kyle-shareables.md",
+            "sha256": "26751a899ac672b3d8458d4846fcef0f65f7571d40358325b3a96587c83740d6"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/kyle-storage-hub.md",
+          "sha256": "c0c7a65cc3c7b9407ae7dcb8bf5d1a90f5ffc3929d4b77e5198cf5251f4b2ee6",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/kyle-storage-hub.md",
+            "sha256": "d8a1607165021e4e8f645be1a86838702bfe84366e354c2f2772a7c3f3632e88"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/obsidian-core-practices.md",
+          "sha256": "f4ec1ae4a5a080d03b75a241fd1c54e50f05f03252be972dfa0a1556b82a0c0c",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/obsidian-core-practices.md",
+            "sha256": "8d26c8f3311f28bd1eceaaad7f1b60d1c8256f744e21d80439086122867f8a88"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/tool-selection-and-safety.md",
+          "sha256": "04f86839313b7117c2e71139d26543559fb3202a5fb85a0b18ab4e749b1a20e6",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/tool-selection-and-safety.md",
+            "sha256": "02ededce71838cfcc5feafb44dca26128ee731264aa1c9f426e44241a647e8d1"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/obsidian-vault-router/references/vault-routing.md",
+          "sha256": "d89bc7cc45aa6072d6e6b9c25ae4654e18da31bd7fdc06be31d051c770570051",
+          "source": {
+            "id": "standalone:obsidian-vault-router/references/vault-routing.md",
+            "sha256": "5d91b79e8123507db0c70d5f7b2ac4181d0833a03e34782ec85795254c09a0a7"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "skill-authoring",
+      "rights_basis": "Original local integration method, no imported skill-creator body",
+      "portability_constraint": "Replace host-specific validator paths and legacy focus-ops-manager relative routes with receiving host commands/current Work Management owner; retain full authoring/admission/onboarding procedure",
+      "files": [
+        {
+          "path": "skills/skill-authoring/SKILL.md",
+          "sha256": "977cd870411b020ffff32b4752ca7833ca78781f341dbbe79acefd42abe18956",
+          "source": {
+            "id": "standalone:skill-authoring/SKILL.md",
+            "sha256": "f938f9836704ec94e376ae5f72d96a00671000a16c551b20f11b2bd460ab258d"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    }
+  ]
+}

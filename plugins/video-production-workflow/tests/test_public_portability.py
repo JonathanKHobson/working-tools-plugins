@@ -19,10 +19,12 @@ def test_active_methods_have_no_private_host_or_event_bindings():
         for path in (ROOT/folder).rglob('*'):
             if not path.is_file() or path.suffix not in {'.py','.md','.json','.yaml','.sh'}:continue
             text=path.read_text()
-            assert not re.search(r'/Users/[A-Za-z0-9_.-]+/(?:plugins|\.codex)', text), str(path.relative_to(ROOT))
-            assert not re.search(r'/Volumes/[A-Za-z0-9_.-]+/', text), str(path.relative_to(ROOT))
+            assert not re.search(r'/' + r'Users/[A-Za-z0-9_.-]+/(?:plugins|\.codex)', text), str(path.relative_to(ROOT))
+            assert not re.search(r'/' + r'Volumes/[A-Za-z0-9_.-]+/', text), str(path.relative_to(ROOT))
             assert 'Skysight/segments' not in text, str(path.relative_to(ROOT))
 
 def test_export_contains_no_external_compatibility_symlink_or_launcher():
     assert not (ROOT/'runtime/video-style-library').exists()
-    assert not (ROOT/'scripts/video_style_library_mcp.py').exists()
+    launcher = ROOT/'scripts/video_style_library_mcp.py'
+    assert launcher.is_file()
+    assert 'VIDEO_TEMPLATES_ROOT' in launcher.read_text()

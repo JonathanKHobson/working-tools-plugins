@@ -13,11 +13,15 @@ from catalog import catalog, handoff, item, search
 
 def shared_ui_path() -> Path:
     declared = os.environ.get("DESIGN_TEMPLATES_ROOT")
-    owner = Path(declared).expanduser().absolute() if declared else Path(__file__).resolve().parents[3] / "design-templates"
-    shared = owner / "runtime/library-chooser"
-    if not all((shared / name).is_file() for name in ("index.html", "styles.css", "bridge.js", "app.js")):
-        raise ValueError("Install public design-templates and set DESIGN_TEMPLATES_ROOT to its package root; see docs/installation.md")
-    return shared
+    owners = ([Path(declared).expanduser().absolute()] if declared else [
+        Path(__file__).resolve().parents[3] / "design-templates",
+        Path.home() / "plugins/ux-design-toolkit",
+    ])
+    for owner in owners:
+        shared = owner / "runtime/library-chooser"
+        if all((shared / name).is_file() for name in ("index.html", "styles.css", "bridge.js", "app.js")):
+            return shared
+    raise ValueError("Install design-templates or set DESIGN_TEMPLATES_ROOT to its package root; see docs/installation.md")
 URI = "ui://graphic-design-studio/image-workflows-v2.html"
 
 

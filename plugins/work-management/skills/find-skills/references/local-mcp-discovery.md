@@ -1,6 +1,6 @@
 # Local MCP discovery and opportunity review
 
-Use when a task requires an unfamiliar workflow, existing tools cannot produce the requested output, or Kyle requests ecosystem expansion/opportunity review. Do not trigger solely because a goal is new, a tool name is unfamiliar, or a directory grew. Return to the authorized deliverable after one bounded discovery pass.
+Use when a task requires an unfamiliar workflow, existing tools cannot produce the requested output, or the user requests ecosystem expansion/opportunity review. Do not trigger solely because a goal is new, a tool name is unfamiliar, or a directory grew. Return to the authorized deliverable after one bounded discovery pass.
 
 ## Find the record
 
@@ -33,7 +33,7 @@ For MCPMarket, recheck the directory/search and relevant category or listing on 
 
 Every catalog entry starts unreviewed with costs and rights unknown. Before implementation, inspect original publisher/source, exact version, license, tools, dependencies, credentials, network access, persistence and permission scope. Apply Master Security Toolkit's existing review and staged scanning workflow. Security-review the customized result before native installation. Distinguish listed, inspected, recommended, admitted, installed and runtime-exercised.
 
-Consult private preferences before recommending. An installed official app takes precedence over a redundant third-party adapter. Deferred paid services remain deferred until Kyle changes that decision. Catalog refresh must never erase those choices.
+Consult private preferences before recommending. An installed official app takes precedence over a redundant third-party adapter. Deferred paid services remain deferred until the user changes that decision. Catalog refresh must never erase those choices.
 
 ## Verification examples
 

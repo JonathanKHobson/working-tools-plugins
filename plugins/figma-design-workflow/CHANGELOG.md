@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+Unify canonical and public source for all six complete design workflows; retain the full structural checker and recipient-ready provider guidance. Private author/client observations remain recoverable outside distribution.
+
 ## 0.2.2
 
 Clarify six available methods and the Mac Design Partners display title while preserving the stable skill ID.
@@ -8,7 +12,7 @@ Clarify six available methods and the Mac Design Partners display title while pr
 
 Apply the Compass license model to this new edition of first-party contributions. Preserve all earlier grants and unchanged upstream notices. Add explicit file scopes, attribution and reserved-mark boundaries. Operative method, helper and runtime bodies are unchanged.
 
-##0.2.0
+## 0.2.0
 
 Retain full eligible standalone methods and support with explicit recipient dependencies, exact source rights/provenance and bounded synthetic verification.
 

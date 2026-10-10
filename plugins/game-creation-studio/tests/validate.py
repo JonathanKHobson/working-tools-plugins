@@ -21,7 +21,7 @@ def main() -> None:
     cases = load("tests/route-cases.json")
     coverage = load("provenance/coverage.json")
     assert manifest["name"] == "game-creation-studio"
-    assert manifest["version"].split("+", 1)[0] == "0.3.0"
+    assert manifest["version"].split("+", 1)[0] == "0.3.2"
     assert manifest["skills"] == "./skills/"
     assert not any(manifest.get(key) for key in ("mcpServers", "hooks", "apps"))
     assert not (ROOT / ".mcp.json").exists()

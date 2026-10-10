@@ -3,8 +3,9 @@
     "image-workflows": {
       "command": "python3",
       "args": [
-        "${CLAUDE_PLUGIN_ROOT}/scripts/image_workflows_mcp.py"
+        "scripts/image_workflows_mcp.py"
       ],
+      "cwd": ".",
       "env": {
         "PYTHONDONTWRITEBYTECODE": "1"
       }

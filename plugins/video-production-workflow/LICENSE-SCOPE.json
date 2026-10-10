@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "video-production-workflow",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "e581d405cd2534cc9af76bd3d4ad89559f89ef8c3d6525c7b2773834b1697a2a"
+      "sha256": "7eab6f25f91ca527b6f313a29f5beb6032b2f3633ca8a553fd15545cd0db8f37"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "23ec1fab892b0f443670623e10d1e3d100c8a0ed1d0e839ddcd78c3463ca573d"
+      "sha256": "bed5166a4c16d4e9d09c6a90b341163ff7a86dd49ee780b21f98a85472e91fab"
     },
     {
       "path": ".gitignore",
@@ -44,14 +44,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1275f097a1a75824a78069e753b8573c9bc5fb49a947cc693af82a24d0df49e6"
+      "sha256": "7d9b00555ad3db2220aa2b66a061a226e98cb8cfc307ce0aae271ab100b957bc"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "c2c125cbfd1bec97fc6c02838efac9128a9a8e7394081465f3290530341e9836"
+      "sha256": "85e5ddf2f6acd4e00362d896d66633e17666e00949fc8a6b86fc0bbe69a1afc6"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -89,6 +89,13 @@
       "sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86"
     },
     {
+      "path": "PLUGIN_MAP.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "70b1e9c9b789a9dc79338c15ded3ca2c30448b20efb66309dbe8834664225ec4"
+    },
+    {
       "path": "PUBLIC_DISTRIBUTION.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -100,7 +107,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "266ee64274786010779379131837de0bc9a0a2dfdea0aa3670d1ea6374992fba"
+      "sha256": "6a0cb0f21d5addc22cd73ded347c7c52a3b45a9460576d3d3bff33d0fa9eeee0"
     },
     {
       "path": "SECURITY.md",
@@ -205,7 +212,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "64ad4200f5023b1385efbf4e0efaf0844b217fc97d3991775ce5c2c49ec9969c"
+      "sha256": "66e47b88b586ae2aebd537757c147be20ce17f15770d7dd2aa1d318f0469fd88"
     },
     {
       "path": "agents/quality-director.md",
@@ -247,7 +254,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "308472b008885ce9e6131fc85f60452b8f1db362078e718a52d9688fd30f8341"
+      "sha256": "a3e4ca3f186c247bcd20b9dc1e6d6391e9d8a3d9e810e0ce4b27218af9af5050"
+    },
+    {
+      "path": "docs/PROJECT_MEMORY.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "e8292fc6d00ab3ec7be7cd3cf4dd305ab17942350f327d0ba147875e0055ba83"
     },
     {
       "path": "docs/RENDERER_ADAPTER_CONTRACT.md",
@@ -257,11 +271,25 @@
       "sha256": "8c5d93091b82554b03707bc41cf87d8b2c9681788c0cd5c74c082cb3babfb407"
     },
     {
+      "path": "docs/evolution/efficiency-audit.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "dc0fd27bef8f8b8107053babd610836671a0cd9f4fdb352eb354761865c26bd4"
+    },
+    {
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1fcce947df74773c895c916932f62dacc31f4a221f0dee49cbd9f6d1acadc118"
+      "sha256": "d8741be341a071bc96c94746305a1eaba2f3caba88871256f92376e0cca60bfe"
+    },
+    {
+      "path": "docs/standalone-additions-provenance.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "9552814cb43683c6919590ab313b2b61478954813332b9663757874ad305a5fa"
     },
     {
       "path": "docs/use-case-map.md",
@@ -296,14 +324,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "19a08a3fcf83ef90b7b3dce3a0a4eefbb458ae0c3ec460220498fcf3bff976c6"
+      "sha256": "ce552f363f550f8cab86aad88ffefa6c8a401287df5a7c5971c44b770335e889"
     },
     {
       "path": "examples/deterministic-canvas/README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1fe86a81bab0a043c4ed6a8abd164748a6b266e8e5f4f4f5f35a3ebac67b7129"
+      "sha256": "dbb11cc1bdef3a95c7837742cb94fadfdcddaefbe6e196d073c6597b273ac303"
     },
     {
       "path": "examples/deterministic-canvas/preview.html",
@@ -2858,21 +2886,21 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "5b44c15fa63439baceeb86b837920d781adfaee26be3d819271e6f07e2b9a2bd"
+      "sha256": "6afe486c1c36277cd7b3a52947970efbaf38f3e6a5e45c176863e6743fdc07dc"
     },
     {
       "path": "pyproject.toml",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "6fff24ba24e2a706ec2a2250d54e30b608c3bef7b1a2169274912518d099a454"
+      "sha256": "ef4c24c6ae283933787920324369531b35fb46340eb835663d00030a70b3aea4"
     },
     {
       "path": "references/professional-agents/README.md",
       "category": "retained-or-mixed-upstream",
       "license": "Original adapted role contracts + AgentLand/VoltAgent/Seth Hobson MIT notices",
       "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
-      "sha256": "1c17d569fba73aeee3a1412a44f8d5de9d38b951a1bcc78f8bca6fbb2fb8cfb7"
+      "sha256": "649d209795fbdf3739b9ffe03115cdef86caf49ad55a423ce0393b09235f5443"
     },
     {
       "path": "references/professional-agents/cinematographer.md",
@@ -2980,11 +3008,102 @@
       "sha256": "d047eab582753e18fee598043375ece8dbd80d0daced1bc31dcc8b9e3fb39a7e"
     },
     {
+      "path": "research/AUDIO_AND_MUSIC_REFERENCE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "bbd3bad100876802b78ac84908e28752a6e2b3ae56934d486030cce61b3f214c"
+    },
+    {
+      "path": "research/CAPABILITY_MATRIX.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "355b81f7fde92a7c41850c094f9c33e80d618beef96d2a7ca23c532bd5ad4ab2"
+    },
+    {
+      "path": "research/GAP_ANALYSIS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "c20e877718200bd603a04d2f7b9e37cc6ff76e1613f7d79d3fe899b0fe90349f"
+    },
+    {
+      "path": "research/LICENSING_AND_PROVENANCE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "39924928306e10ef59e94ff5b1bd0a632b5cd4541a51e8a8c4fb3a827f47e068"
+    },
+    {
+      "path": "research/PLATFORM_DELIVERY.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "eae21766200d72783102b30ea0bdf7d6362e8eeeec53d85c73aa08f7089eaf5b"
+    },
+    {
+      "path": "research/QA_REFERENCE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "59045a601f41e8272607a0e1ad64ba005da3c61b60453025f14c28065287f3ff"
+    },
+    {
+      "path": "research/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "f0a340d5b9cd3debb973c96952722f42a3f363e6852e8ab2795a276ce5465e55"
+    },
+    {
+      "path": "research/RECOMMENDED_INSTALLS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "54256ee35696d42686a55ed68ebfc64f6ef1bdb605fee37ac76cfd9c5bfd8534"
+    },
+    {
+      "path": "research/RESEARCH_SYNTHESIS.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "644ba009294e39678a9211a70f740c06d0498a8f21046d5f5b471c7f6196681e"
+    },
+    {
+      "path": "research/SOURCE_REGISTRY.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "7097e2655f16a6beb3c00cb402efe946af18c36f6b39b778c66fa6f1a799db26"
+    },
+    {
+      "path": "research/TOOLCHAIN_DECISION_GUIDE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "8912fc0d592be006bb06db7eda656907201f186c6375e62802e9bfb5c6d93161"
+    },
+    {
+      "path": "research/VIDEO_DESIGN_REFERENCE.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "47fcc46944c1d8d6eb7173640a5ac3fc205c33ae6011c583e46ab1bd8996cd45"
+    },
+    {
       "path": "research/sources.lock.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "f8d018a9f3f4f00324841927458bbde5402861b679cdb4a3bfac55d7ac87b12f"
+    },
+    {
+      "path": "research/vendor/README.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "2731696fa9ff082691048f5efec17f13728fb53a56ba2261e77cc44579bf5474"
     },
     {
       "path": "schemas/animation-slot.schema.json",
@@ -3012,7 +3131,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "323f1cfe933c4fb804d3a92027b9e22b3a59785569b636021eaf89fe2c92b1e8"
+      "sha256": "9eaa46a77965da7031f57a4049a96bda4efea34586c1b0f63067d6cf06cb2715"
     },
     {
       "path": "scripts/bootstrap.sh",
@@ -3050,6 +3169,13 @@
       "sha256": "d8fe17f6b1a71e3b53d8a222c97dfde40b3fa2decc483fe84d195e3849e89b7a"
     },
     {
+      "path": "scripts/fetch_research_sources.sh",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "e2a882b77eb00d47d4daf0977743a222035eb6b1394fc070488edc5d101eeff2"
+    },
+    {
       "path": "scripts/install_toolchain.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
@@ -3075,7 +3201,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "44bafe41416f2ac4760b4897957afd9857b554b779ada6c524efb6239646f5ad"
+      "sha256": "7e719980eff56baf204f309c5bf8c29085a2b0c472ec2716defd45377157a407"
     },
     {
       "path": "scripts/package_public.py",
@@ -3118,6 +3244,13 @@
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "067b717fae4be1431c031cff66d19cfc9fb68fdcfacc2f01ac5c8f5502ade9ff"
+    },
+    {
+      "path": "scripts/video_style_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "1a00be68f5cbb51738064f7c3973718ca394bf7e12998a17301cd4fe932d04ec"
     },
     {
       "path": "skills/analyze-music-pacing/SKILL.md",
@@ -5133,7 +5266,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ecb46933ae32022967858b33278ad3a797451f125c15062e8af62d19093f31e4"
+      "sha256": "97ff77bcc57742c238680832a9d7f9929a94c6c633f69188e8b634e5ba47b691"
     },
     {
       "path": "skills/loom-review-packet/scripts/loom_review_packet.py",
@@ -5168,7 +5301,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ecb46933ae32022967858b33278ad3a797451f125c15062e8af62d19093f31e4"
+      "sha256": "83976a13431502c83ad4f99547caa52eb914b1347fe2b80f5e39b825cf106507"
     },
     {
       "path": "skills/mix-video-audio/SKILL.md",
@@ -5794,6 +5927,13 @@
       "sha256": "2f21c5529f8b4b34a1236784121211badfb19bdb5deb49ba03afecd9b6a45a48"
     },
     {
+      "path": "tests/conftest.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "0ccc4b673f6593ede9fa852cf08b42b94503a292ad27c2540b0b62e9625caf13"
+    },
+    {
       "path": "tests/test_audio.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
@@ -5833,7 +5973,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "899b90003fe5e0dab95cab9bd79a0121e81b6063ace61ca97f087ebc9b588b0e"
+      "sha256": "769def513d068a26f58dcc464fcb82cae916820c93ca5de5e7a939794ca7f6bb"
     },
     {
       "path": "tests/test_layout.py",
@@ -5861,7 +6001,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "17ee496e96bb3f460a6def0fd8dd29794f572c1121f3f25460efe422baba6d8c"
+      "sha256": "56cf470d78922c0c15849d6c85afd792d24f2f4f7daba6fa8c9760921232f6a4"
     },
     {
       "path": "tests/test_project_audit.py",
@@ -5882,14 +6022,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "4057a7082fd40281f12610a92b6632b481361723dcea4a868611da031fa0bf9c"
+      "sha256": "e33590bfa1bfa06b6e04c890d579e9d8b5a49ca54105791b312e78dd26f1475f"
     },
     {
       "path": "tests/test_qa_deep.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "9294bccd20abfda5943afd12b590c5a22261b3b2d38882d04334b67580db7de0"
+      "sha256": "6d41e736cbfeb6dac2bf5be4448870b059dbc8a7b06dd7e4752def062cc14f07"
     },
     {
       "path": "tests/test_reframe.py",
@@ -5917,7 +6057,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "1d2110123f9fbe161d740116685dd9611f87b500989fc907a2cacc819b94fecf"
+      "sha256": "8294d91c8067b73222d9b98567a8badcd6b56b8fcafb857188d38b93be7b03f6"
     },
     {
       "path": "tests/test_scripts_direct.py",
@@ -5931,7 +6071,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "9fecd24210260f3b3778f130201e6382b5c140f31355fa3e3d1a54e6c9860180"
+      "sha256": "0276611fc7ab73d2762005d054396e7dd6fa7951b177d5cace35ea107dedeb29"
     },
     {
       "path": "tests/test_source_registry.py",
@@ -5973,7 +6113,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "d8057c930222ed6793ab2719f9a091ba814db7656e82e936aa4cc9f87907a626"
+      "sha256": "e2ec510b48763034172eee3e2eab52bfa967f3c0e9717277a23969d7cedfa950"
     },
     {
       "path": "tests/test_youtube_chapters.py",
@@ -5987,7 +6127,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "3a4c3b566918d34ab283017e454d7797b081b27026f8182cd9a955e17232425b"
+      "sha256": "f34568770d6a2a2ab5b0245f5459003915d3577fa32519b19c19ad4a775c7349"
     },
     {
       "path": "video_workflow/audio.py",

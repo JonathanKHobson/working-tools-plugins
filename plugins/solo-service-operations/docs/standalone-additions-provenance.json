@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "scope": "Source-first canonical additions only; no public mirror or installed cache modified",
+  "owner": "solo-service-operations",
+  "baseline_private_archive": {
+    "filename": "local-addition-prechange-solo-service-operations-20261010.tar.gz",
+    "sha256": "478af103dbfceb1bda525c1ce8ae7b9605c643183974e8089d9ef781bfca12f8"
+  },
+  "rights_note": "Original standalone first-party methods and eligible support; recipient adaptations preserve method, with private source details retained only in the author’s recoverable archive and original standalone source. Existing owner licenses remain authoritative.",
+  "heads": [
+    {
+      "name": "gmail-send-review",
+      "rights_basis": "Original five-file send/draft gate method, full gate.py and test",
+      "portability_constraint": "Private interpreter/hook state paths become recipient binding; natural prose/voice routes are external prerequisites or user-supplied fallback, never copy proprietary Write Like Me; hook remains opt-in and receipts do not grant sending permission",
+      "files": [
+        {
+          "path": "skills/gmail-send-review/SKILL.md",
+          "sha256": "3303f5c932e6d152ab0bcbcf0b59bf803d443259e63b5b83a56590926a92009a",
+          "source": {
+            "id": "standalone:gmail-send-review/SKILL.md",
+            "sha256": "7bfeaef1f64d0131d56cab5e1ed336e5c9a495fcc4cc703b7d4f7b105ca19014"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/gmail-send-review/docs/project-map.md",
+          "sha256": "706ab00522e43f44dd09b2df1f022444e293aa682ebd7ba34ec0161a055a9f23",
+          "source": {
+            "id": "standalone:gmail-send-review/docs/project-map.md",
+            "sha256": "68ec0ba49722bb279eff8d8b73ca7180a8746f86193cef2a90da42d167673a68"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/gmail-send-review/references/scheduling-and-batches.md",
+          "sha256": "887928b9066b2c6fd7a2969d1d1987953d4a3c0f408531e83e7346d3bf014b38",
+          "source": {
+            "id": "standalone:gmail-send-review/references/scheduling-and-batches.md",
+            "sha256": "887928b9066b2c6fd7a2969d1d1987953d4a3c0f408531e83e7346d3bf014b38"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/gmail-send-review/scripts/gate.py",
+          "sha256": "59ed8304b6f8c9ed7b4686ab72d2cd575cb884b8cc03564f0151b9bd4d602f13",
+          "source": {
+            "id": "standalone:gmail-send-review/scripts/gate.py",
+            "sha256": "19689f49ac6125ab287a53e01ee3ea347061e72cdc11380608991b4f0461edc6"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/gmail-send-review/tests/test_gate.py",
+          "sha256": "22b679f954adc213586be054c44fefde8978a1a11d51996b497de967e62c8a39",
+          "source": {
+            "id": "standalone:gmail-send-review/tests/test_gate.py",
+            "sha256": "22b679f954adc213586be054c44fefde8978a1a11d51996b497de967e62c8a39"
+          },
+          "disposition": "byte-identical"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "paid-gm-event-coordination",
+      "rights_basis": "Original three-file public/paid-event planning procedure",
+      "portability_constraint": "references/recorded-workflow.md private actual event/venue/contact record becomes synthetic event fixture, preserving all operational checks",
+      "files": [
+        {
+          "path": "skills/paid-gm-event-coordination/SKILL.md",
+          "sha256": "ad27b6a1b98e0b88332fd3fa99db356c714bf24cd2c449ef90d7447681141542",
+          "source": {
+            "id": "standalone:paid-gm-event-coordination/SKILL.md",
+            "sha256": "13cf31a02e371ef5bac212c1e5a2105ca69a09ce522266086afec267c92da251"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/paid-gm-event-coordination/agents/openai.yaml",
+          "sha256": "7310131efa5556e35afbf5f4a2e3475effb8593c776137b5782f179021bc2510",
+          "source": {
+            "id": "standalone:paid-gm-event-coordination/agents/openai.yaml",
+            "sha256": "7310131efa5556e35afbf5f4a2e3475effb8593c776137b5782f179021bc2510"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/paid-gm-event-coordination/references/synthetic-example.md",
+          "sha256": "f882494c5d9b90e230165a22894796502cba1438fbf8bdb680636a892eccb19e",
+          "source": null,
+          "disposition": "explicitly fictional example; not historical personal evidence"
+        }
+      ],
+      "private_omissions": [
+        {
+          "source": {
+            "id": "standalone:paid-gm-event-coordination/references/recorded-workflow.md",
+            "sha256": "d6db916b8af43d3a23584a3f88ca4894a03968f792a647237b1cbbc4f884d106"
+          },
+          "reason": "Historical host, client, contact or conversation record; original preserved privately, not included as recipient method evidence"
+        }
+      ]
+    },
+    {
+      "name": "pro-gm-venue-outreach",
+      "rights_basis": "Original four-file outreach/message/log workflow",
+      "portability_constraint": "references/{workflow-record,message-and-log}.md actual contact/venue/history fields become recipient/synthetic; full draft/send/venue-confirmation separation preserved; packaging is not authorization to message",
+      "files": [
+        {
+          "path": "skills/pro-gm-venue-outreach/SKILL.md",
+          "sha256": "09eb0d16e885838180b285a440063dd40b9463ecc75a63f37daa4752cf9f2c37",
+          "source": {
+            "id": "standalone:pro-gm-venue-outreach/SKILL.md",
+            "sha256": "0fdeecd410b05500c0a2cefe35fea7f3fc5f25eaa2af47aef5c796aa01e2e203"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/pro-gm-venue-outreach/agents/openai.yaml",
+          "sha256": "a3def92c33605a194f4059c33173be3b4b45242319fd0d578470f989d4760823",
+          "source": {
+            "id": "standalone:pro-gm-venue-outreach/agents/openai.yaml",
+            "sha256": "a3def92c33605a194f4059c33173be3b4b45242319fd0d578470f989d4760823"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/pro-gm-venue-outreach/references/message-and-log.md",
+          "sha256": "4f485a58ccc2aea0b3f30c428c271c7337ace8fb0fbf4a04282b96f69c305d47",
+          "source": {
+            "id": "standalone:pro-gm-venue-outreach/references/message-and-log.md",
+            "sha256": "0559dacbbfa0d171fb4f3c8e0f17b11e3732e400d9557c43a196fcfef5264f24"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/pro-gm-venue-outreach/references/synthetic-example.md",
+          "sha256": "61af64eed0d3601b8787606d4768b1d0ff0dadfa2ccd0e29ed77825c9b12ee57",
+          "source": null,
+          "disposition": "explicitly fictional example; not historical personal evidence"
+        }
+      ],
+      "private_omissions": [
+        {
+          "source": {
+            "id": "standalone:pro-gm-venue-outreach/references/workflow-record.md",
+            "sha256": "a85aa2fdc83e087cbd8f5c33c2daceb003eaa0ba7906224895ef9cc66bba8654"
+          },
+          "reason": "Historical host, client, contact or conversation record; original preserved privately, not included as recipient method evidence"
+        }
+      ]
+    },
+    {
+      "name": "rpg-community-coordination",
+      "rights_basis": "Original three-file community coordination procedure",
+      "portability_constraint": "references/recorded-workflow.md private channel/community/person context becomes synthetic fixture; preserve actual authorization/readback boundaries",
+      "files": [
+        {
+          "path": "skills/rpg-community-coordination/SKILL.md",
+          "sha256": "aa0a565e2433a038a1a838d80c974f93958ea2e6d336176ccbeeae6415b1a47c",
+          "source": {
+            "id": "standalone:rpg-community-coordination/SKILL.md",
+            "sha256": "c48801eaefebdc9b67f083547b1db643bb15637f7cac87537a34d6c19b363abc"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/rpg-community-coordination/agents/openai.yaml",
+          "sha256": "9f0604718e170e40f18f9891de6579445d84d3ba0510890c4f627556a3652c43",
+          "source": {
+            "id": "standalone:rpg-community-coordination/agents/openai.yaml",
+            "sha256": "9f0604718e170e40f18f9891de6579445d84d3ba0510890c4f627556a3652c43"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/rpg-community-coordination/references/synthetic-example.md",
+          "sha256": "7e234c8626e365300660cb3eb218b0c0acdba6b80e3fa21afb25b9845d1c9d2b",
+          "source": null,
+          "disposition": "explicitly fictional example; not historical personal evidence"
+        }
+      ],
+      "private_omissions": [
+        {
+          "source": {
+            "id": "standalone:rpg-community-coordination/references/recorded-workflow.md",
+            "sha256": "003639abc03b7b0284520f8dd9a2bc85706f5a01bdf2ee1ff28b32feafdb949d"
+          },
+          "reason": "Historical host, client, contact or conversation record; original preserved privately, not included as recipient method evidence"
+        }
+      ]
+    }
+  ]
+}

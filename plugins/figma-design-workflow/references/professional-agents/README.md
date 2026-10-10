@@ -1,4 +1,4 @@
-# Professional roles for Figma Design Workflow
+# Professional roles for Figma Design Toolkit
 
 - **Figma Designer** (`studio-figma-designer`): Create and refine editable Figma/FigJam work from named source anchors, then verify changed frames against intent. Read the included [role contract](figma-designer.md).
 - **Design Quality Reviewer**: Inspect source fidelity, task behavior, accessibility and the visible result with the included [Design Visual QA](../../skills/design-visual-qa/SKILL.md) method.

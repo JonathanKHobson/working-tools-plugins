@@ -25,7 +25,7 @@ This plugin contains focused design skills and the read-only Image Gen Templates
 - `skills/graphic-asset-compositing/references/animated-vector-interop.md`: conditional animated SVG/Lottie fidelity and player feature matrix; `docs/motion-svg-source-notices.md` records source and licenses.
 - `skills/graphic-design-review/`: rendered review and teachable critique.
 - `skills/print-and-export-preflight/`: output checks; optional read-only PDF inspection script under `scripts/`.
-- `docs/`: package provenance, ownership, validation, and integration decisions.
+- `docs/`: package provenance, ownership, validation, and integration decisions. Three complete standalone heads live under `skills/hatch-pet`, `skills/html-presentation-builder`, and `skills/lavish-axi`; `provenance/standalone-source.json` records their source hashes and rights. Original local review receipts remain in the author’s source archive where their private path and dated host state are relevant.
 - `docs/distribution.md`: eligibility, source boundaries and verification scope.
 
 Every skill owns its instructions and UI metadata. Sibling links remain relative inside the package. Read the main skill first, then only the relevant specialist and reference. Research is supporting evidence, not a required reading assignment for every flyer.
@@ -48,8 +48,8 @@ Icon discovery: `skills/graphic-asset-compositing/references/icon-discovery.md` 
 
 Procedural-video art direction stays in `skills/motion-design/`; the Video Production owner routes complete Animate/Charlie methods and the shared video-style selection surface. No additional Graphic template catalog or renderer is registered.
 
-- `runtime/image-workflows/`: original bounded image recipe catalog, validated read/search/prepare tools and domain editor adapter. It reads public Design Templates’ canonical `runtime/library-chooser/` at render time; no copied generic runtime.
-- `scripts/image_workflows_mcp.py` and `.mcp.json`: launch using an explicitly prepared interpreter and public Design Templates chooser.
+- `runtime/image-workflows/`: original bounded image recipe catalog, validated read/search/prepare tools and domain editor adapter. It reads Design Templates’ canonical `runtime/library-chooser/` at render time, or the existing local UX compatibility projection when present; no copied generic runtime.
+- `scripts/image_workflows_mcp.py` and `.mcp.json`: launch using an explicitly prepared interpreter or the existing recipient-owned studio-tools interpreter binding and Design Templates chooser.
 - `skills/graphic-design/references/image-workflows.md`: canonical cross-domain guidance; official imagegen remains the execution owner.
 - `docs/image-workflows.md`: runtime ownership, source scope and verification limits.
 

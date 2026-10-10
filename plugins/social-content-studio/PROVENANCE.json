@@ -1,6 +1,6 @@
 {
   "package": "social-content-studio",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "source_owner": "social-content-studio",
   "source_revision": "Canonical input has no enclosing Git checkout; exact pre-change tree is preserved privately by archive SHA-256.",
   "prechange_archive_sha256": "92ef2a961b04f06213a453fa11c835b9fab1863118605fad5cb727d66bdd03dd",
@@ -34,19 +34,21 @@
       "path": ".claude-plugin/plugin.json",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "918b554b6889284f3a15b1c2387800b464f81102b7a9edc89786f22f5c9149f1",
+      "output_sha256": "c04b3300d1f03dc3c554d1be5953bad80d08d2985da1cf991e294283ff7b6392",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
-      "category": "first-party-code"
+      "category": "first-party-code",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "5cb874c943b9b6c0c340bfe2a3e0c376e88589269524ac6469471a88c4398449",
-      "output_sha256": "1e994cfc14efd7f53d5e9fe0f65499e96849d05dbbadd203bc83562943752061",
+      "output_sha256": "90ae3f09f4f6170d1b34402a5a8c7bfa2ef12fe9e316db5eff200166017d4313",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
-      "category": "first-party-code"
+      "category": "first-party-code",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "LICENSE",
@@ -61,7 +63,7 @@
       "path": "LICENSE-SCOPE.json",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "f61ccead8073bb009b3ad5538efa653ce9863b2e29965f75c8570529ca5ea0c0",
+      "output_sha256": "714fc8f1431cf902093691c0ad9e239e676e44544f83b96e4a551dc04fa1a4d3",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
       "category": "first-party-code"
@@ -313,10 +315,11 @@
       "path": "plugin.json",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "d23e7ee4355f140de80c0425936753fea94528d799ca87bf034e09a1c3883c24",
+      "output_sha256": "abe3f28133c7c4858b58240f68da61c63fc088c4a477e6217fb1557a3db14ac9",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
-      "category": "first-party-code"
+      "category": "first-party-code",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "references/professional-agents/README.md",
@@ -484,10 +487,11 @@
       "path": "references/social-methods/post-draft-gate.md",
       "source_relative": "references/social-methods/post-draft-gate.md",
       "source_sha256": "c7b2a76d463998a6422d286f8e7c285dd41acb9a118bd5baa03e6cde274bdf32",
-      "output_sha256": "c7b2a76d463998a6422d286f8e7c285dd41acb9a118bd5baa03e6cde274bdf32",
-      "disposition": "retained-byte-identical",
+      "output_sha256": "10cbbf8f303c122ea9e4d950146e040180fa78914cc484a74eef0b20f8efdee1",
+      "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
-      "category": "first-party-noncode"
+      "category": "first-party-noncode",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "references/social-methods/provider-social-prose.md",
@@ -664,10 +668,11 @@
       "path": "skills/social-content/SKILL.md",
       "source_relative": "skills/social-content/SKILL.md",
       "source_sha256": "298f81a8376e3fe85f478a1eba116b721658255fcaa2ded557404beb2604fe5a",
-      "output_sha256": "f41068fbfca0733590b88dc9117a5792d1ff35829df881b15a9ea7a654324f18",
+      "output_sha256": "9ca272e79ba529097d91f71981f0b076a57a15448dcc6faa9201c28aca71e996",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
-      "category": "first-party-noncode"
+      "category": "first-party-noncode",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "skills/social-content/references/adoption-map.md",
@@ -795,5 +800,10 @@
       "rights": "AGPL-3.0-only",
       "category": "first-party-code"
     }
-  ]
+  ],
+  "quality_patch": {
+    "prior_version": "0.2.2",
+    "prechange_archive_sha256": "d89a37a3872cf9c7ff44e6fde4b4f07957e6c9fcc740df4d5df8374566aff59f",
+    "scope": "Bounded first-use corrections; previous FAILED receipts preserved; native retest pending."
+  }
 }

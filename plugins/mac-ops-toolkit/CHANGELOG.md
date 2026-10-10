@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.3
+
+Unify the ten complete Mac operations methods and helpers with portable volume/provider bindings. Retain original recovery depth and author-private host evidence separately.
+
 ## 0.3.2
 
 Replace private installation instructions, complete the skill table, correct the MCP owner route and diagnose absent scan roots.

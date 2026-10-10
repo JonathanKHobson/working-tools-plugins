@@ -5,6 +5,22 @@ import json
 from pathlib import Path
 
 DEFAULT_LIBRARY = Path(__file__).resolve().parents[1] / 'assets/activity-library.json'
+DEFAULT_BINDING = Path.home() / '.config/studio-tools/instructional-activity-library.json'
+
+
+def select_library(explicit_library, explicit_binding):
+    """Use an explicit library, then recipient binding, then bundled adaptations."""
+    if explicit_library is not None:
+        return explicit_library.expanduser(), 'explicit-library'
+    binding = explicit_binding.expanduser() if explicit_binding is not None else DEFAULT_BINDING
+    if binding.is_file():
+        config = json.loads(binding.read_text(encoding='utf-8'))
+        if not isinstance(config, dict) or not isinstance(config.get('library'), str) or not config['library'].strip():
+            raise ValueError('Activity library binding requires a nonempty library path')
+        return Path(config['library']).expanduser(), 'recipient-binding'
+    if explicit_binding is not None:
+        raise ValueError('Selected activity library binding does not exist')
+    return DEFAULT_LIBRARY, 'bundled-adaptations'
 
 
 def load_library(path):
@@ -18,9 +34,12 @@ def load_library(path):
     for row in rows:
         if not isinstance(row, dict):
             raise ValueError('Activity must be an object')
-        for field in ('id', 'title', 'display_title', 'source_reference', 'source_sha256', 'readiness'):
+        for field in ('id', 'title', 'display_title', 'source_sha256', 'readiness'):
             if not isinstance(row.get(field), str) or not row[field].strip():
                 raise ValueError(f'Activity requires {field}')
+        if not any(isinstance(row.get(field), str) and row[field].strip()
+                   for field in ('source_reference', 'local_source_path')):
+            raise ValueError('Activity requires a source reference or local source path')
         if row['id'] in ids:
             raise ValueError(f'Duplicate activity ID: {row["id"]}')
         ids.add(row['id'])
@@ -52,6 +71,7 @@ def search(rows, query='', max_minutes=None, mode=None, purpose=None, activity_i
         if purpose and purpose not in row['purposes']:
             continue
         text = ' '.join([row['title'], row['display_title'], *row['tags'],
+                         row.get('original_activity_summary_paraphrase', ''),
                          row['assessment_adaptation']['learner_prompt'],
                          row['assessment_adaptation']['observable_evidence']]).casefold()
         if not all(term in text for term in terms):
@@ -70,8 +90,9 @@ def positive(value):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--library', type=Path, default=DEFAULT_LIBRARY)
-    parser.add_argument('--query', default='', help='Case-insensitive AND terms in title, tags, original prompt and evidence')
+    parser.add_argument('--library', type=Path, help='Explicit authorized activity library JSON; highest priority')
+    parser.add_argument('--binding', type=Path, help='Recipient-owned JSON binding with a library path')
+    parser.add_argument('--query', default='', help='Case-insensitive AND terms in title, tags, available source summary, prompt and evidence')
     parser.add_argument('--max-minutes', type=positive, help='Require upper planning estimate to fit; does not shorten an activity')
     parser.add_argument('--mode', choices=['solo', 'pair', 'group'])
     parser.add_argument('--purpose', choices=['diagnostic', 'formative'])
@@ -81,16 +102,17 @@ def main():
     parser.add_argument('--list-tags', action='store_true')
     args = parser.parse_args()
     try:
-        rows = load_library(args.library)
+        library, source_kind = select_library(args.library, args.binding)
+        rows = load_library(library)
         if args.list_tags:
-            result = {'tags': sorted({tag for row in rows for tag in row['tags']})}
+            result = {'source': source_kind, 'tags': sorted({tag for row in rows for tag in row['tags']})}
         else:
             found = search(rows, args.query, args.max_minutes, args.mode, args.purpose, args.activity_id)
             chosen = found[:args.limit]
             if not (args.full or args.activity_id):
                 chosen = [{k: row[k] for k in ('id', 'display_title', 'tags', 'duration_minutes', 'modes', 'purposes', 'readiness')} |
                           {'evidence': row['assessment_adaptation']['observable_evidence']} for row in chosen]
-            result = {'matches': len(found), 'returned': len(chosen), 'activities': chosen,
+            result = {'source': source_kind, 'matches': len(found), 'returned': len(chosen), 'activities': chosen,
                       'note': 'Proposed adaptations, not learner-validated. Inspect full card and author materials before use.'}
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "reasoning-studio",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,21 +16,28 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "d77953d61643ae201cdba3aa4e82b16fdf01e183cd11ea00b8ee4d7e43615033"
+      "sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "4b13434e1019b41540aed94a41334e34e29cdeff21cfe89e414a7747810130c4"
+      "sha256": "b879d6ac61bf87273d962071f66a974f051a7e5e3753469354f8dc4b3c6a5490"
+    },
+    {
+      "path": ".mcp.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; runtime and recipient bindings remain separate. Earlier grants and source-specific exceptions remain.",
+      "sha256": "7ad56b37808f2efb957f727a0c956ce75a5826ed2b973c61d0b3d51ac16a5697"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "f8f7b999d7e7a3d5286e6c5ccd826f0659e6c3ae2e0e81743ae66c799b5a0ea5"
+      "sha256": "b0711c06b8b936bf47870096ff36828b8c7ac1bc0c8a7e6b4b943bab7a6d705f"
     },
     {
       "path": "LICENSE",
@@ -79,7 +86,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "3ce5f82f99ad7b44f34cb297920dafd996151a6cb07f3dddb1a966c062f947b5"
+      "sha256": "dbf204d3f7606a3226761211025dceda1506ebad574f6e4dcb66adc8d6d08998"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -100,14 +107,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "51468b3b4e940382d5abc00075d1ce0a2430009172e96f0c9dc1edf484d882ac"
+      "sha256": "435b407e1861fbab3b561b88c77ca1a2f13f6031b4d418ac783bdc780561853b"
     },
     {
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "d28ee849202ce97e84874dfdaf2a8e13fc9e35393c03a341e324ad3f2bbc5f0b"
+      "sha256": "60f77cad67ef7d7163fb9377fdc42c906a405f585ed999f3b32c312265e68316"
     },
     {
       "path": "docs/use-case-map.md",
@@ -198,7 +205,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "148a59fc7ef648ddf98026a34273360acb5d7dda4a4701dce698d9a9637bf568"
+      "sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d"
     },
     {
       "path": "provenance/migration.json",
@@ -206,6 +213,13 @@
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "08857dfaffae55c3d9b571836537e3c4a14baa436e1bdbcb74bd2d8c36b415fc"
+    },
+    {
+      "path": "provenance/pattern-picker-addition.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; runtime and recipient bindings remain separate. Earlier grants and source-specific exceptions remain.",
+      "sha256": "acee0a37f8db760cd7d093a047c2216f5b00fa5e31c97b413c49a24816ed6abd"
     },
     {
       "path": "provenance/research-origin/.codex-plugin/plugin.json",
@@ -324,28 +338,28 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "4a37fe50a5ef5872fbe5dff6e7c19d7667ec2a4432706c7f419930da1327d387"
+      "sha256": "5616576243160fbbc97526a890a7d74a9aa17f8508961465a09e01eaf9d8cf83"
     },
     {
       "path": "scripts/compass_mcp.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "89f889febd41a30b10e6e17f04fb5fe832d2f62b298e24562a47fae45a670f2b"
+      "sha256": "fdb74e0f2bd0300df4f2fc810b6ab39d287a96de02e6c5daa4a4ee3979a397bf"
     },
     {
       "path": "scripts/critical_full_client.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "37c791f6795dba687df405d7b33d8c088d3dec69077299b1a48fa42c040866f1"
+      "sha256": "44131948a1bd86fb51c2ac7f0f0f88ab056a046758c9e3593e17cd4643a152fe"
     },
     {
       "path": "scripts/critical_review_mcp.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "f1872701a14bdfaa8890516442f2f19c6089779bfbad76218380b64ab17aba81"
+      "sha256": "ec7c29f50c5eeab02e59fa8d17639236ed35c7c676e4a7ec07c4ef9e41fb3869"
     },
     {
       "path": "skills/alternative-perspectives/SKILL.md",

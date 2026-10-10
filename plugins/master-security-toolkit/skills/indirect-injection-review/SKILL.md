@@ -20,7 +20,7 @@ If `injection-checker:indirect-injection-review` is actually discovered on this 
 2. Look for instruction-like content, hidden/rendered text, metadata, encoding/normalization tricks, content poisoning, and cross-modal discrepancies — treat these as leads requiring reachability confirmation, not automatic findings.
 3. Trace whether the untrusted content can influence a privileged assistant, persistent memory, tool choice/arguments, downstream rendering, or other users' context.
 4. Check whether untrusted text is explicitly delimited/labeled, whether summaries preserve provenance, and whether resulting actions are independently authorized from the original user's intent.
-5. Recommend a quarantine/data-only path, provenance retention, least-privilege processing, safe parsers/renderers, retrieval isolation, and regression fixtures — hand off to [SKILL](../security-regression-tests/SKILL.md) for the fixtures themselves.
+5. Apply the shared [injection paths and regression patterns](../instruction-security-review/references/injection-review-patterns.md) for the matching entry, action boundary and mitigation tests. Recommend provenance-preserving data isolation, least-privilege processing, safe parsers/renderers and retrieval scoping. Enforce accepted schemas, allowed tool arguments/destinations and authenticated user/resource authorization in application code independently of model judgment. Stripping imperative language or suspicious keywords is not a reliable injection control; a delimiter or data label alone does not establish isolation. Preserve the source evidence and test unauthorized action denial alongside legitimate task completion. Hand off to [SKILL](../security-regression-tests/SKILL.md) for the fixtures themselves.
 6. Do not fetch arbitrary live links or decode content if doing so would reach private endpoints or transmit sensitive data; use supplied artifacts or a clearly authorized public target.
 
 ## Required Evidence
@@ -29,7 +29,7 @@ Actual retrieved/document text or a bounded authorized fetch; quoted attacker-st
 
 ## Deliverable
 
-Source/entry point, boundary crossed, evidence, reachable impact, confidence, a safe sample test, mitigations, and unexamined areas.
+Source/entry point, boundary crossed, evidence, reachable impact, confidence, a safe sample test, mitigations, and unexamined areas. Distinguish a proposed control from enforced and verified behavior; report residual risk without claiming an injection-free model.
 
 ## Microexample
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "creative-writing-studio",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "source_owner": "creative-writing-studio",
   "source_revision": "Canonical source has no enclosing Git checkout; baseline archive and per-file SHA256 identify original source.",
   "source_tree_sha256": "595be9b64e427467f8906955b5deb0152f85190686caf46c41ec52a7a0dba144",
@@ -18,20 +18,21 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "3115ead71ca5a8cc964eedb7265ed4d1344b80f49b7ff84b6856dfe2151fb96b",
+      "output_sha256": "566b7e7d21c282c876099ee2ecf044eb9274db82cf680084830da5d3ce493e2c",
       "origin": "new_author_owned",
       "transformed": true,
-      "rights": "AGPL-3.0-only"
+      "rights": "AGPL-3.0-only",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "a3ace074351149eb734bb5bffdef999738984eda158cfe2b73f16d63812c320b",
+      "output_sha256": "84a465351f913f9b671ab3a244dc41741959e2ff60073f6361ba9a5695165774",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "AGPL-3.0-only",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "752ae41600679dcd52dd9bc870aa57ec14f1c7c69a28702ac720d9b35c4c44be",
-      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable."
+      "transformation": "Portable paths, first-use dependency boundary, provider namespace, package identity or current license scope; first-party method body retained where applicable. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": ".mcp.json",
@@ -975,10 +976,11 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "5c58a1df1e9775faeb2fc438135519497ad73af3392dc1e951255a5f0a2e153d",
+      "output_sha256": "f7359a4bcda7b1bed834c8301e9ae7bae7c490e5fe9f142988355cc73b68a262",
       "origin": "new_author_owned",
       "transformed": true,
-      "rights": "AGPL-3.0-only"
+      "rights": "AGPL-3.0-only",
+      "transformation": "Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "references/atlas-library.md",
@@ -1135,13 +1137,13 @@
     },
     {
       "path": "skills/creative-project-router/SKILL.md",
-      "output_sha256": "2c57aa79b79b6b11f08eab86e861718df0bee3fa5ea4eb7d234f2c851755f74b",
+      "output_sha256": "43a0bebfc1f9b3eac3d54f112bd2b05dcc92bf0ef0a00d5c6b392fc010807616",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "skills/creative-project-router/SKILL.md",
       "source_sha256": "60cec584a568738b31da192b7482cf5b52e977197f8828dd3d142f4a6fcab838",
-      "transformation": "Portability or method-reference correction; retained operative method."
+      "transformation": "Portability or method-reference correction; retained operative method. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "skills/horror-story-crafter/SKILL.md",
@@ -1480,13 +1482,13 @@
     },
     {
       "path": "skills/story-book-router/SKILL.md",
-      "output_sha256": "e185dfa130ebcd3899bb0d16a1a6bb53c6f7386ece6491656a923d63e4595326",
+      "output_sha256": "4e9c2d181135de455230530d78eec6f930ad4c023efa091987293742b947270a",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
       "source_relative": "skills/story-book-router/SKILL.md",
       "source_sha256": "12f3b871b9a1662a3b63840098f4389b8d409a860cbf8abce4c147aa5c667183",
-      "transformation": "Portability or method-reference correction; retained operative method."
+      "transformation": "Portability or method-reference correction; retained operative method. Source-first patch: factual traceability, verified mechanical constraints, or application-enforced security validation, as applicable; complete original procedures and grants retained."
     },
     {
       "path": "tests/test_ttrpg_compass_mcp.py",
@@ -1497,5 +1499,10 @@
       "source_relative": "tests/test_ttrpg_compass_mcp.py",
       "source_sha256": "a938206135d8d1e9abb77ecf0a88be7a3b4258f708cafbe0715e8df6dd023971"
     }
-  ]
+  ],
+  "quality_patch": {
+    "prior_version": "0.3.2",
+    "prechange_archive_sha256": "606a70828246466ad482a3adf96eaea6ec59df68d87cf798703e3611a0f593a0",
+    "scope": "Bounded first-use corrections; previous FAILED receipts preserved; native retest pending."
+  }
 }

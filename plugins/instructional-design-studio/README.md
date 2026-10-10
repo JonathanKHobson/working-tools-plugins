@@ -1,6 +1,6 @@
 # Instructional Design Studio
 
-Current edition **0.2.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Design a lesson, assessment or course path that connects an observable learner task with practice, feedback and evidence of learning. Specialist skills also cover access, AI literacy, production and evaluation.
 
@@ -30,11 +30,14 @@ Go straight to a specialist for a clear lesson, assessment or handoff. Use instr
 | [learning-content-storyboarding](skills/learning-content-storyboarding/SKILL.md) | Transform approved source material into lesson scripts, screen-by-screen storyboards, handouts, or instructional explanations while preserving source accuracy. |
 | [learning-evaluation](skills/learning-evaluation/SKILL.md) | Design or analyze a course pilot and evaluation using learner performance, retention, transfer, access, and practical improvement evidence. |
 | [learning-needs-analysis](skills/learning-needs-analysis/SKILL.md) | Diagnose a learning or performance gap using task, audience, context, and evidence analysis. Use before prescribing training or when an existing course is not solving the stated problem. |
+| [learning-experience-designer](skills/learning-experience-designer/SKILL.md) | Apply the complete first-party learner-task, practice, feedback and transfer method to a focused experience. |
 | [lesson-experience-design](skills/lesson-experience-design/SKILL.md) | Design a teachable lesson, microlearning unit, playful learning activity, or practice sequence with worked examples, observable learner evidence, feedback, and transfer. Retrieve and adapt assessment activities from the local library when useful. |
 
 ## Availability and recovery
 
-Text workflows work with supplied material. The portable edition declares no Atlas MCP or launcher. Optional scoped source retrieval can use a separately installed, user-configured Activities Templates/Atlas capability; [selection rules](references/atlas-library.md) preserve source and rights boundaries. Ordinary text workflows continue from supplied or bundled original references when that optional capability is unavailable.
+Text workflows work with supplied material. The portable edition includes the original fixed-domain `scripts/atlas_library_mcp.py` compatibility launcher. It reads a recipient-owned JSON binding through `--binding` or the current user’s standard studio-tools path; no Atlas server or corpus is bundled. Optional scoped source retrieval can also use a separately installed, user-configured Activities Templates/Atlas capability; [selection rules](references/atlas-library.md) preserve source and rights boundaries. Ordinary text workflows continue from supplied or bundled original references when that optional capability is unavailable.
+
+The activity-search helper uses an explicitly supplied `--library` first, an optional recipient-owned `~/.config/studio-tools/instructional-activity-library.json` binding second, and the bundled 31 original adaptations when no binding exists. A broken binding reports an error instead of silently dropping source context. See [activity archive](skills/lesson-experience-design/references/activity-library.md) for the binding shape and limits.
 
 Methods, examples, maintenance and source/privacy boundaries remain in [the project map](docs/project-map.md) and [verification record](docs/verification.md). Local checkers do not establish learning effectiveness, a working LMS import or publication. Keep course evidence in its owning project.
 
@@ -50,7 +53,7 @@ Methods, examples, maintenance and source/privacy boundaries remain in [the proj
 - [Learning science and design decisions](skills/instructional-design/references/learning-science.md)
 - [ADDIE decisions and evidence records](skills/instructional-design/references/addie-decisions.md) (for lifecycle or intervention decisions)
 - [September research intake and source limits](skills/instructional-design/references/research-intake-2026-09.md) (for provenance review)
-- [Personal teaching evidence](skills/instructional-design/references/personal-grounding.md)
+- [Teaching context and reusable defaults](skills/instructional-design/references/personal-grounding.md)
 - [AI Workshop Studio v3 planning path](skills/instructional-design/references/ai-workshop-studio-v3-planning.md) (conditional project extension)
 - [Worked lesson](skills/lesson-experience-design/references/lesson-patterns.md)
 - [Alignment JSON example](skills/curriculum-backward-design/assets/alignment-example.json)
@@ -69,7 +72,7 @@ This public method edition excludes private source locators, transcripts, emails
 
 Install this separately versioned package through the [Working Tools repository](https://github.com/JonathanKHobson/working-tools-plugins). Configure the `working-tools` marketplace with the current host's supported flow; in Codex use `codex plugin add instructional-design-studio@working-tools`, then start a fresh task to verify discovery. Use the host's supported removal command to uninstall. Your project, learner and workshop files are separate from the package.
 
-Bring the audience/group, intended observable result, time and approved source material. Text workflows need no account, private Atlas corpus or network service. Original read-only JSON helpers use Python 3.10 or later and the standard library. Visual production needs a separately available document/slide/web or design provider and actual rendered QA. Optional live boards/LMS/media export need your own accounts, permissions and demonstrated provider route. No participant data, credentials, MCP service, background job, tracking or native agent registration is included.
+Bring the audience/group, intended observable result, time and approved source material. Text workflows need no account, private Atlas corpus or network service. Original read-only JSON helpers use Python 3.10 or later and the standard library. Visual production needs a separately available document/slide/web or design provider and actual rendered QA. Optional live boards/LMS/media export need your own accounts, permissions and demonstrated provider route. No participant data, credentials, MCP service, background job, tracking or automatic Atlas registration is included. The optional compatibility launcher is source, not a running service.
 
 Example when a provider is missing: "I can prepare the complete lesson/workshop plan from the supplied material. This host currently has no authorized board/LMS editing route, so publishing, participant-role tests and rendered interaction remain unverified. I will provide the run sheet, materials and acceptance checks for the receiving environment." This is an authored expected boundary, not a recorded live execution.
 

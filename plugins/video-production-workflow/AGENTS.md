@@ -1,4 +1,4 @@
-# Video Production Workflow — Agent Operating Instructions
+# Video Production Studio — Agent Operating Instructions
 
 ## Start here
 

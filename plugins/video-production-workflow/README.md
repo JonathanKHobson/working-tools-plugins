@@ -1,43 +1,58 @@
-# Video Production Workflow
+# Video Production Studio
 
-Current edition **0.4.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.4.3** uses the [scoped licensing model](LICENSING.md): first-party code AGPL-3.0-only and first-party documentation, prompts, skills and methods CC BY-SA 4.0. Retained upstream grants and prior release permissions remain in force. The canonical owner and public package maintain the same distributable implementation; private source media, host bindings and generated receipts stay outside that payload.
 
-An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.2 is the portable public edition of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
+A production workflow that turns source footage, slides, images, audio, or a brief into a reviewable edit and verified video files. Bring the source media, audience, story or teaching goal, must-keep material, target duration/aspect ratio, and delivery destination. Start at the stage the project actually needs.
 
-## Quick start
+Try a first request:
 
-Install Python 3.10+ and FFmpeg/ffprobe separately, then from this directory:
+- “Turn these interview clips and transcript into a 60-second vertical short with accurate captions.” Result: a selected edit, rendered preview, caption review, and delivery files after QA.
+- “Make a paced photo montage from these images and this licensed song, keeping the final phrase intact.” Result: a music-aware timeline and rendered video with audio and visual checks.
+- “Review this finished lesson video and prepare YouTube and vertical variants.” Result: a QA report and exact, hash-bound files that meet the current delivery requirements.
+- “Finish this reviewed rough cut in DaVinci Resolve Free and give me an editable project.” Result: a checked timeline import, native finishing, saved project readback and reviewed render. [Resolve editing](skills/edit-davinci-resolve/SKILL.md) checks the installed edition; Free 21.1 uses file import and app controls. Native MCP requires supported Studio.
 
-```sh
+For an unclear or new project, start with [plan-video-production](skills/plan-video-production/SKILL.md). For a known stage, use the [task-to-skill map](docs/use-case-map.md) to go straight to ingest, editing, motion, audio, render, or delivery. A capabilities/getting-started answer should orient to the user's input and desired output, then carry out the selected task. This README is a human guide and is not automatically loaded into AI context. The workflow bundles no MCP server; media tools and optional renderers are local dependencies checked for the job.
+
+The project manifest is the editable contract. FFmpeg is the baseline renderer, while optional engines remain isolated adapters. The plugin preserves source media, supports phrase-reviewed music excerpts, measures text against asymmetric platform-safe areas, audits reading time and source reuse, and requires rendered-output QA.
+
+## Local toolchain setup
+
+```bash
+python3 scripts/check_environment.py
+python3 scripts/configure_runtime.py --ffmpeg /path/to/ffmpeg --ffprobe /path/to/ffprobe
 python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install '.[dev]'
-video-workflow check
-bash scripts/render_example.sh
-bash scripts/render_variants.sh
-python -m pytest -q
+.venv/bin/python -m pip install -e '.[dev]'
+.venv/bin/video-workflow check
 ```
 
-If FFmpeg/ffprobe are outside PATH, set `VIDEO_WORKFLOW_FFMPEG` and `VIDEO_WORKFLOW_FFPROBE` to existing executable paths. No private home path or media binary is included. The generated eight-second sample combines synthetic wide, portrait and square images with synthetic tone music, transitions and burned-in captions. Open `examples/music-slideshow/output/preview.mp4` and `contact-sheet.png` after rendering. Automated QA supports inspection; it does not establish visual craft or listening acceptance.
+Run `video-workflow audit-project project.json` before rendering. Run `python scripts/verify_release.py` with the declared development dependencies and FFmpeg available for the complete plugin release gate. [Optional integration requirements](docs/OPTIONAL_INTEGRATIONS.md) are separate from the core methods.
 
-The standalone CLI supports asset inventory/probing, transcript packing and range snapping, storyboard generation, music pacing analysis, rendering, contact sheets/timeline views/waveforms, measured QA, interchange, delivery preflight and hash-bound caption/provenance exports. Run `video-workflow --help` and consult the [operating guide](docs/OPERATING_GUIDE.md) and [manifest reference](docs/MANIFEST_REFERENCE.md).
+For finished lesson, workshop and Short handoffs, run the read-only
+`video-workflow preflight-delivery work/delivery.json`. The
+[delivery contract](skills/conform-video-delivery/references/delivery-preflight.md)
+checks final files and current review hashes in one batch; native publishing
+remains with Social Content Studio. See the
+[efficiency audit](docs/evolution/efficiency-audit.md) for applied learnings and limits.
 
-## Agent installation
+See [the operating guide](docs/OPERATING_GUIDE.md) for production use, [the plugin map](PLUGIN_MAP.md) for routing, and the [efficiency audit](docs/evolution/efficiency-audit.md) for dated source-learning limits. Historical project and evaluation records remain in the author's private archive.
 
-The root `plugin.json` declares portable identity. Native descriptors are retained in `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`; both discover `skills/`. Add this directory using the current host's native plugin manager. Version 0.4.1 passed native Codex and Claude marketplace installation and installed-file parity on 2026-10-10. This verifies installation, not native editor control or every optional provider. No private marketplace or MCP connection is modified by this package.
+## Procedural video styles and storyboards
 
-Start with `plan-video-production`, then select the smallest owner for ingest, analysis, storyboard, slideshow/dialogue editing, Resolve, typography, motion, audio, rendering, interchange, conform and quality validation. `evolve-video-workflow` maintains the system. The [project map](docs/project-map.md) explains the boundaries.
+Ask “Show me video styles,” “Storyboard this explanation in cut paper,” or “Build a deterministic JavaScript motion example.” When separately installed and verified, Video Templates can offer pinned Animate source styles with previews and license/source status. A Use request prepares a handoff; a separately available drawing widget can handle sketchable panels. Choosing a style does not render a video or approve a script.
 
-## Rights and boundaries
+The style chooser and storyboard editor are separately installed Video Templates capabilities. This package includes only an optional [compatibility launcher](scripts/video_style_library_mcp.py); it requires a recipient-selected Video Templates root or binding and is never auto-registered. Without that provider, continue with the included [storyboard method](skills/design-video-storyboards/SKILL.md) and supplied style references; do not claim catalog search, a created board or a rendered widget. See the [optional integration guide](docs/OPTIONAL_INTEGRATIONS.md) and [runnable canvas example](examples/deterministic-canvas/README.md). A fresh host connection may be needed after a separately authorized provider installation.
 
-Original code is AGPL-3.0-only; original methods and creative fixtures are CC BY-SA 4.0, copyright Jonathan Kyle Hobson. Separately licensed retained method libraries keep their own MIT or Apache-2.0 licenses, copyright notices and provenance. See [third-party notices](THIRD_PARTY_NOTICES.md) and [distribution provenance](PUBLIC_DISTRIBUTION.md). Upstream library procedures are conditional source material; their optional tools/providers are not installed or automatically invoked.
 
-Specialized renderer adapters and external studio integrations retain explicit setup requirements. The core FFmpeg workflow works independently. Review [optional integrations](docs/OPTIONAL_INTEGRATIONS.md) before choosing a provider, font, model, browser renderer or native editing tool. There is no upload/publishing adapter.
+### Storyboard together or delegate it
 
-## Review packets and walkthrough scripts
+With a separately verified storyboard backend, Video Studio can turn an idea into populated shot cards for collaboration or continue through a reviewed autonomous handoff. The external editor may support visual action, narration, duration, reordering, sketches and per-shot references; inspect its actual current controls and save/readback behavior. Without that backend, prepare the shot list and reviewable storyboard locally from supplied evidence. See [the participation workflow](skills/design-video-storyboards/references/video-style-discovery.md#shared-storyboarding-collaborative-or-autonomous).
 
-Two full first-party standalone methods are now included: [Loom Review Packet](skills/loom-review-packet/SKILL.md) and [Loom Walkthrough Scripting](skills/loom-walkthrough-scripting/SKILL.md).
+<!-- BEGIN PROFESSIONAL-AGENTS -->
+## Professional agents
 
-The packet helper extracts transcript timestamps, sorts a recipient cue CSV, copies supplied screenshots or captures video frames with separately installed FFmpeg, preserves raw input and writes an explicit complete/partial manifest plus linked feedback. It never downloads a Loom or sends feedback. Walkthrough scripting retains the full spoken-route, evidence-state and recording-readiness procedures, with a full fictional replacement for its private client case. Actual recordings, Figma access, stakeholder notes and authenticated browsers remain recipient inputs.
+[Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
+<!-- END PROFESSIONAL-AGENTS -->
 
-Run `python examples/loom-review-synthetic.py --output /your/new/sample-folder` for a real synthetic packet. Add `--capture` to exercise local FFmpeg frame capture. The helper refuses an existing packet output, and tests cover invalid timestamps, missing frames, explicit partial staging, input preservation and complete packet hashes. Fictional fixtures are not real UX observation or delivered stakeholder feedback.
+Original motion production starts with a concrete visual direction: expressive typography and photography/imagery, composition through time, purposeful movement and a justified spatial technique. A representative preview tests the direction before expansion; technical QA alone does not certify craft. See the [art-directed motion method](skills/create-motion-graphics/references/art-directed-motion.md). Routine approved edits reuse their existing direction.
+
+For style selection, compare treatments using the same content and format; retain accepted frames and a playable excerpt in the existing project style record. That record, not a palette-only preset, carries the selected visual language into later work.

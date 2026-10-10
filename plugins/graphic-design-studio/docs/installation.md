@@ -1,6 +1,6 @@
 # Install Graphic Design Studio
 
-Install this package using the [public platform guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/install.md). Skill instructions work without a Python environment. For the actual local MCP, use Python 3.10 or newer to create `.runtime/venv` under this package, then install `requirements.txt`. The manifest command `python3` only bootstraps the launcher; it can be an older host Python. For an external environment, set `IMAGE_WORKFLOWS_PYTHON` to its absolute interpreter path. The launcher preserves venv executable symlinks and never reads private host config or installs dependencies.
+Install this package using the [public platform guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/install.md). Skill instructions work without a Python environment. For the actual local MCP, use Python 3.10 or newer to create `.runtime/venv` under this package, then install `requirements.txt`. The manifest command `python3` only bootstraps the launcher; it can be an older host Python. For an external environment, set `IMAGE_WORKFLOWS_PYTHON` to its absolute interpreter path. The launcher preserves venv executable symlinks and never installs dependencies. When no package runtime or `IMAGE_WORKFLOWS_PYTHON` is selected, it can reuse the current user’s existing `~/.config/studio-tools/design-library.json` interpreter binding; that binding is never distributed.
 
 ```sh
 python3.12 -m venv .runtime/venv

@@ -2,43 +2,36 @@
 
 Use when Claude is a suitable worker. Common handoff and return checks live in
 [subscription-offload.md](subscription-offload.md); do not duplicate the whole
-Codex instruction stack in Claude. Retain Kyle's direct, warm, shipping-first
-operating style.
+Codex instruction stack in Claude. Retain the receiving user's stated tone and delivery preferences rather than imposing the author's style.
 
 ## Start with the subscription CLI
 
-Use the official subscription-authenticated CLI first for Claude work. Desktop
-or Web is appropriate only when If the receiving user explicitly requests it, the task needs a
+Use the official subscription-authenticated CLI when the receiving user has selected and authorized that route. Desktop or Web is appropriate when the user explicitly requests it, the task needs a
 feature available only through that interface, or the CLI still fails after
 bounded diagnosis and official login recovery. Missing authentication alone is
 not a reason to switch surfaces. Preserve existing jobs across all surfaces.
 
-Desktop login and terminal login are separate. Recheck CLI authentication before
-each dispatch; the local helper below does so without printing credentials.
+Desktop login and terminal login are separate. Recheck CLI authentication before each dispatch. The author-host helper described below is not bundled; a recipient must supply and review an equivalent helper before using that route.
 Keep individual recovery receipts and unresolved causes in the owning project.
 
 For supplied-context critique, drafting or extraction, check authentication:
 
 ```sh
-/opt/homebrew/bin/python3.12 "~/Documents/ChatGPT/Managing My Computer/scripts/claude_worker.py" --check
+python3 "$CLAUDE_WORKER_HELPER" --check
 ```
 
 Pass a compact authorized task on stdin to the same command without `--check`.
-Prefer Opus 5.5 after verifying its live availability. Use the supported CLI
+Select the model suited to the task after verifying live availability and the user's preferences. Use the supported CLI
 alias, such as `--model opus`, and `--json` to record the returned actual model
 from the inference receipt; an alias or selected name alone does not prove the
 version used. If the preferred version is unavailable, report the verified
 model actually used and choose a suitable available model within task scope.
-The helper defaults to Sonnet unless `--model` is supplied, so pass the model
-explicitly for Kyle's preferred route. Its effort setting is low; do not report
-High effort from this helper.
+Inspect the recipient helper's actual default and pass a model explicitly when a particular one was selected. Report only the effort level and model confirmed by the returned receipt.
 
 The helper has no file-editing, shell, browsing, MCP or skill tools; the lead
 supplies the evidence and validates the result. It stops on failure or timeout
 without retry, stores no session, and does not start a daemon. Do not mistake
-authentication-only `--check` for an inference test. The helper source and host
-capability record live in the existing Managing My Computer project, not a new
-model-routing framework.
+authentication-only `--check` for an inference test. The author-host helper source and capability record live outside this package. Its description is an acquisition boundary, not a claim that the receiving host has a callable backend.
 
 The helper strips inherited API/provider overrides, ignores custom settings,
 checks first-party subscription auth, and uses `--safe-mode --restricted`, an
@@ -57,11 +50,11 @@ scope. Keep the login terminal alive for its callback, then check its exit and
 run `claude auth status` before retrying the worker once. Record a sanitized
 receipt, never credential values, tokens, or the full transient OAuth URL.
 
-Ask Kyle to act only when an actual provider or tool requirement needs him,
+Ask the user to act only when an actual provider or tool requirement needs them,
 such as an MFA approval unavailable to the agent, a CAPTCHA confirmation, required
 personal confirmation, a new password, or terms acceptance. State the specific
 requirement and preserve the pending flow where
-possible. Do not assume every sign-in requires Kyle, and do not promise that
+possible. Do not assume every sign-in requires the user, and do not promise that
 future logins will always be unattended.
 
 For other CLI failures, inspect the concrete error, installed CLI/help,

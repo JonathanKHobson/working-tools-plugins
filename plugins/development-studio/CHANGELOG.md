@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+Reconcile all 21 complete canonical skill heads and eligible support with the public source; preserve method provenance and recipient runtime boundaries.
+
 ## 0.2.2
 
 Repair generated MCP app request timeouts, capability states, message acknowledgement and standalone fallback; add behavioral regression checks.

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "scope": "Source-first canonical additions only; no public mirror or installed cache modified",
+  "owner": "video-production-workflow",
+  "baseline_private_archive": {
+    "filename": "local-addition-prechange-video-production-workflow-20261010.tar.gz",
+    "sha256": "effcafd0afa937c0e870f8f559d1078707ad6ca09927ece06e74d335705c7740"
+  },
+  "rights_note": "Original standalone first-party methods and eligible support; recipient adaptations preserve method, with private source details retained only in the author’s recoverable archive and original standalone source. Existing owner licenses remain authoritative.",
+  "heads": [
+    {
+      "name": "loom-review-packet",
+      "rights_basis": "Original four-file packet procedure, full Python transcript/frame/cue helper",
+      "portability_constraint": "Recipient transcripts/screenshots/video/FFmpeg paths only; actual project/account records not bundled. Preserve helper behavior and full output/QA contract",
+      "files": [
+        {
+          "path": "skills/loom-review-packet/SKILL.md",
+          "sha256": "b519e8eb304305e7524095b7e47b11fa0585077688b69db131ef024a4f9cdf6a",
+          "source": {
+            "id": "standalone:loom-review-packet/SKILL.md",
+            "sha256": "a0cb92aad7b91fc934b96b5a00f2ce586a34c1ce0ee6bb8ae67a543d1df5e2ce"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/loom-review-packet/agents/openai.yaml",
+          "sha256": "06e9c37c3d4960358ffd56b48a80e3207d8bdbc6d154614377bfeeff3e6f995a",
+          "source": {
+            "id": "standalone:loom-review-packet/agents/openai.yaml",
+            "sha256": "06e9c37c3d4960358ffd56b48a80e3207d8bdbc6d154614377bfeeff3e6f995a"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/loom-review-packet/references/packet-format.md",
+          "sha256": "62450bbb5d14acc3fd1d282b70f5afcda5440ae3e9e4ff97ce84f84f744da16e",
+          "source": {
+            "id": "standalone:loom-review-packet/references/packet-format.md",
+            "sha256": "62450bbb5d14acc3fd1d282b70f5afcda5440ae3e9e4ff97ce84f84f744da16e"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/loom-review-packet/scripts/loom_review_packet.py",
+          "sha256": "618fe1a1cceddedb3a6d5913d3a93edcf038057d37f53a51531bcb154ebd6916",
+          "source": {
+            "id": "standalone:loom-review-packet/scripts/loom_review_packet.py",
+            "sha256": "618fe1a1cceddedb3a6d5913d3a93edcf038057d37f53a51531bcb154ebd6916"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/loom-review-packet/references/sources/source-index.md",
+          "sha256": "97ff77bcc57742c238680832a9d7f9929a94c6c633f69188e8b634e5ba47b691",
+          "source": null,
+          "disposition": "owner-required source index; points to file-level provenance and license"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "loom-walkthrough-scripting",
+      "rights_basis": "Original three-file narration workflow",
+      "portability_constraint": "references/recorded-workflow.md historical private/client example becomes fictional source-faithful example; preserve full timed-script structure/provider context",
+      "files": [
+        {
+          "path": "skills/loom-walkthrough-scripting/SKILL.md",
+          "sha256": "8431b09f0206a796b0a0932a0e9ed9362fac3095a1ec0a0077174f0546389610",
+          "source": {
+            "id": "standalone:loom-walkthrough-scripting/SKILL.md",
+            "sha256": "5447351f7cddb793ee83fa8ef5d5e1ca41fbfbc9e8c9fca20247649b9d2afe00"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/loom-walkthrough-scripting/agents/openai.yaml",
+          "sha256": "c7f4dc3008648f2d74c7555365801deda6dbb109aabc0844caae5ac8c20a0312",
+          "source": {
+            "id": "standalone:loom-walkthrough-scripting/agents/openai.yaml",
+            "sha256": "c7f4dc3008648f2d74c7555365801deda6dbb109aabc0844caae5ac8c20a0312"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/loom-walkthrough-scripting/references/recorded-workflow.md",
+          "sha256": "3264030a666d7873df034ef206d4be686fbb8a0e98d87ccf797f81bb41a83f35",
+          "source": {
+            "id": "standalone:loom-walkthrough-scripting/references/recorded-workflow.md",
+            "sha256": "aa213aab9f301f917644ad45ab50da63f77a99d23eef6b1f83f1f0cdcfe25390"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/loom-walkthrough-scripting/references/sources/source-index.md",
+          "sha256": "83976a13431502c83ad4f99547caa52eb914b1347fe2b80f5e39b825cf106507",
+          "source": null,
+          "disposition": "owner-required source index; points to file-level provenance and license"
+        }
+      ],
+      "private_omissions": []
+    }
+  ]
+}

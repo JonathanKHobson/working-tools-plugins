@@ -1,6 +1,6 @@
 ---
 name: work-handoff
-description: "Create a page on the shared site when Kyle wants to share or give an idea to someone, or prepare a shareable artifact or bounded handoff with source ownership, current state, decisions, next action and verification evidence."
+description: "Create a page on the user's selected shared site when they ask for one, or prepare a shareable artifact or bounded handoff with source ownership, current state, decisions, next action and verification evidence."
 ---
 
 # Work handoff
@@ -40,7 +40,7 @@ For a source-supported portfolio/content or authorized friend/collaborator hando
 
 ## Shareable web artifacts
 
-When Kyle wants to share/give an idea to someone, or requests a shareable or Sites artifact, read [the shared-site procedure](references/shareables-site.md). Add a page to the maintained Shareables site and update its homepage; reuse its identity rather than registering a Site for every artifact.
+When the user requests a shareable or Sites artifact, read [the shared-site procedure](references/shareables-site.md). If they selected or explicitly configured an existing maintained site, add a page there and update its homepage; otherwise establish the intended destination from the current task. Do not register a separate site without that scope.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

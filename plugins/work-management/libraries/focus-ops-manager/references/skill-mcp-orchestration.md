@@ -25,9 +25,7 @@ metadata when starting work; do not assume these aliases exist on other hosts.
 Use the current task's configured lead model; instructions cannot silently
 switch the already-running model. Do not raise reasoning effort by habit. Check
 the available API: this host's subagents accept Luna/Sol/Terra/Astra/5.5, but not
-Spark. Native task tools expose Spark. If a model override needs an explicit
-user preference, Kyle's delegation preference supplies it where host policy
-permits; otherwise preserve the task's model. Tell the user when a specifically requested model is unavailable and name the
+Spark. Native task tools expose Spark. If a model override needs an explicit user preference, use only the receiving user's current preference where host policy permits; otherwise preserve the task's model. Tell the user when a specifically requested model is unavailable and name the
 fallback. Unsupported overrides should fall
 back once to a supported appropriate choice, not trigger retries or a new CLI
 agent runtime.
@@ -62,7 +60,7 @@ Example: one lead judges portfolio evidence; Luna checks asset/link manifests;
 Sol implements a bounded export fix. The lead integrates and reviews the changed
 visual anchors. A ten-word copy change stays local.
 
-Kyle also authorizes suitable bounded work through existing Claude, standard
+A receiving user may also authorize bounded work through available Claude, standard
 ChatGPT Web, Gemini, Stitch, and Claude Design subscriptions. For research,
 drafting, or design exploration where offloading pays off, read
 [subscription-offload.md](subscription-offload.md). Use this capacity proactively
@@ -85,9 +83,7 @@ For a multi-chat initiative, read [one-lead initiative coordination](../../../sk
 
 Subagents are the default for steps and subtasks within one goal that should
 return to the lead. Use separate native chats for multiple independent durable
-goals that benefit from persistent context or later user follow-up. Kyle's
-standing explicit request is to separate those independent goals; apply it only
-when the current creation tool accepts that authorization, and never interpret
+goals that benefit from persistent context or later user follow-up. If the user explicitly requested separate chats for those goals, apply that request only when the current creation tool accepts it, and never interpret
 it as permission to create chats for ordinary steps. If the tool requires a new
 explicit request, keep the work in the current chat until that request exists.
 Reuse an appropriate existing chat where possible. Sending it a prompt requires

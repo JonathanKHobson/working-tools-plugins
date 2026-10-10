@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "work-management",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,21 +16,21 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "6eaa5e931d4cebc2ebdfea65b71ca87df08c1145436b4bc3f9327fb2d96844f5"
+      "sha256": "5a9af2876f13910fe6a689afb06d1129e3c98304f7739835abe1e4185fff0961"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "9e6a0ab2ad08cf21e2aa0d325d2f1cf304d8a45c8763a0fd7e58f64d70a0d76c"
+      "sha256": "155745c93f3789909a8afeaff5b3700a5e23e28905fbbe5bac2e45af51560d99"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "18176226a5fb55ecf0c1bb7d5e94b1fb5032a89ed4451265df79613204f56cf3"
+      "sha256": "ba0cf420b2cb2e3d8d7dcce064b28b1494a38ee5cd0c9a0d3bac527340458755"
     },
     {
       "path": "LICENSE",
@@ -65,7 +65,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "87dbcbcc86b4bb808d6a29981e2972c213f10a22880de6bdb3ebf2965da0a62d"
+      "sha256": "62ecdb6dc8da02cace38954610e8fae59c9be8d3bce6a55694002342478b4175"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -100,7 +100,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "3973d6e0c200d18eb70f89402bcd845290bff4581d52a4180b29e1d817165887"
+      "sha256": "faa4ca8b14b37870236b7b6943f596c001a30615cd6cda0d8519508676670f9a"
     },
     {
       "path": "docs/skill-plugin-map.md",
@@ -108,6 +108,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "249fff8b36a17b19141e0e6a94cdd30b0ade1728d98c07c5ea9cc030b4370e2c"
+    },
+    {
+      "path": "docs/standalone-additions-provenance.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned source-first addition; source-specific upstream exceptions and prior grants remain unchanged.",
+      "sha256": "da2a33612cb3487bc3f7755cd04f23cdd70c18ae5eada832dddd740eed232342"
     },
     {
       "path": "docs/use-case-map.md",
@@ -429,7 +436,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "e278116209d7f9672b2bf4c19f97a9863d5cbb71ea985bd8b4846afc23f5be81"
+      "sha256": "9dd086c83859c469dfac728d5e721488d3a084faf5ff4826646939bb550bc651"
     },
     {
       "path": "libraries/focus-ops-manager/references/codex-mcp-investigation-report.md",
@@ -443,7 +450,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "a477f88c9e6c672666ee8bb9e06462d04d32c3080d89df278b06a266dea224ce"
+      "sha256": "5c1951aec9c59d4aadf3a434b2dfeb95bf1e30894957b7b11ceeeb4a050e356b"
     },
     {
       "path": "libraries/focus-ops-manager/references/goals.md",
@@ -457,7 +464,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "939949c91f492f3a9b5226c53be585eb109fc311da68d52c57bcb83a87f67aab"
+      "sha256": "26c38b8fcc75f9205f9ceca1edd57d839333278c7123fb1585d4ecbe7f0c218a"
     },
     {
       "path": "libraries/focus-ops-manager/references/kyle-patterns.md",
@@ -478,7 +485,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "be7d0b7c96970ef790f9a7a9df12f9f5ad8cdb2e8f44bc1a1e0eb50ff6c66bde"
+      "sha256": "7716baee5175df3f90839def604ed32d30a5333eb2e26bd10df67debba963c94"
     },
     {
       "path": "libraries/focus-ops-manager/references/mcp-test-plan.md",
@@ -513,7 +520,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "58fbecb9c334094a6df8b8f08abfd145e94dbf3ac34e3116f7135f6b6d60cfc8"
+      "sha256": "c8c3f5b51ebb1f2ed6517682fac88a20e66bdbf6bc58b7adef1534005838dd59"
     },
     {
       "path": "libraries/focus-ops-manager/references/skill-provenance-catalog.md",
@@ -548,7 +555,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "073d2b61dbd9124283f2b1e3e6b8c5fcc472dec23289eba1c917646cccfd1c8e"
+      "sha256": "7686cf6a7e86e83a3af79e716122166065ad9973111cc33a82a9aa8b49ff3d47"
     },
     {
       "path": "libraries/focus-ops-manager/references/weekly-log.md",
@@ -919,14 +926,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "261e032fdcb1d8e6f9880407655e7ee95197b21628c00a3a7fa769486b0fa108"
+      "sha256": "6088afa0159610d0ea34d199a091e9ba0a127aeca33adae75b46f6177e16ea54"
     },
     {
       "path": "references/atlas-library.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "a0bcccc98af9093b3c3f152682eed46e368228390e65e58793f4badb2bdf5113"
+      "sha256": "3005a0aa5574c99f6ae684ffbd6b5bb8fa851ab165f920c4cb39e89813f1ad5e"
     },
     {
       "path": "references/beginner-discovery.md",
@@ -941,6 +948,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "88ea508bbe6efffdf3c670d5e8ebf5ea512c558ab09acab56ef08897d5d6ad62"
+    },
+    {
+      "path": "references/operations-map.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
+      "sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645"
     },
     {
       "path": "references/operations/browser-handoff.md",
@@ -1046,13 +1060,6 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "702fae593bd553b573526adaff6afb74dd182b958e631c57f2c1357847d0f5af"
-    },
-    {
-      "path": "references/operations-map.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645"
     },
     {
       "path": "references/plugin-maintenance.md",
@@ -1388,7 +1395,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "cc9dffb99477e85bce6ca1a2c8b7903b8712681b650ab0bc6a3cd920147812bc"
+      "sha256": "24ad0c957d3b5bfba24d776afb2c724c4f31454fd54e29a17c4b20c906a8da92"
     },
     {
       "path": "skills/find-skills/references/LICENSE",
@@ -1402,7 +1409,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "17e68073ded6012934dc1c904c447b7f18da8d98f455efa2b3664a422bd1629a"
+      "sha256": "3734019d333c32b9eb7e76ccaa6c67de245c86b8f8a78a1a3807fb9a968d66df"
     },
     {
       "path": "skills/find-skills/references/gap-filling-cycle.md",
@@ -1416,7 +1423,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "ad0af03f0f15c0fcbe5bb8fe24aebc15a7a6158f1bd420156ca40d4e795096ce"
+      "sha256": "ce896bfd179d7d5a01d877bba00171386794c8f0eae40de8e7c70b7ad3ed06d0"
     },
     {
       "path": "skills/find-skills/references/project-setup-assessment.md",
@@ -1437,14 +1444,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "46f512fdeae5c3373f3c791082347cc496bcb9c019c998d118d834fda552b2db"
+      "sha256": "f46e5df0d154b92828e3903438c7bfb3b4e6fb9647918dcd4b1ad21011a2dea1"
     },
     {
       "path": "skills/focus-work/references/action-first-output.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "b3afb456ed702eafd71a84295fa8e371b8c455163e4695925fdbdadfbde722e2"
+      "sha256": "b33869c8ce3eae6fa00498286cb78b5a3fa8ab5bf1d01e30ccab70024406ac04"
     },
     {
       "path": "skills/github-conventions/SKILL.md",
@@ -1654,7 +1661,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "47856337d958d164f201e2680193e622cc1da430a6aa36698d786d3a63391fb0"
+      "sha256": "39f6ef3df64fe32be60007b6ae76abfa87c3fafcb598615b275017b65dcf82c5"
     },
     {
       "path": "skills/project-structure/references/graph-grounded-explanation.md",
@@ -1689,7 +1696,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "822dc1715b087327ef13b530eaea13aabdc63140be25003c674cf2856fa3aa08"
+      "sha256": "3c54b0007a75c4a0d94f604fb64470c6bd1d1cab84ca449ddc8027b184acf761"
     },
     {
       "path": "skills/tool-workflow-routing/agents/openai.yaml",
@@ -1703,7 +1710,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "cda29e511748b42a08c0e53e747f249ad2b7462b098a81f31e8deb1c3895f825"
+      "sha256": "30b8103164b5e2a901c6ea13ad553d4ecf423b42dd1480ca58ca636372e8ee72"
     },
     {
       "path": "skills/work-handoff/agents/openai.yaml",
@@ -1738,7 +1745,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "97907d5ff031785e159faadadfc0a97e1499924cb3e9ab94510dce8d0320c855"
+      "sha256": "29c2e066f7d40fda30906520fdabdafed23a5c1df1eff826e00b5fdb3142b804"
     },
     {
       "path": "skills/worker-delegation/SKILL.md",

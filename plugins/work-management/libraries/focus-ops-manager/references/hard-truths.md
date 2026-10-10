@@ -8,7 +8,7 @@ Use these sparingly. One is usually enough.
 - An 8 that ships beats a 10 that never leaves your hard drive.
 - The mission being bigger than yourself is beautiful. It is also a way to avoid being accountable to anything specific.
 - You are not scattered. You are sequenced wrong. Pick one lane and run.
-- people the user chooses to prioritize is watching who you're becoming, not just what you're building. Are those the same person right now?
+- The people you choose to prioritize may care who you are becoming as much as what you are building. Do those align right now?
 - Your ChatGPT history has thousands of conversations. The market does not pay for conversations. It pays for outcomes.
 - The portfolio does not need to be perfect. It needs to be live.
 - If this new idea is real, it will still be real after the current deliverable ships.

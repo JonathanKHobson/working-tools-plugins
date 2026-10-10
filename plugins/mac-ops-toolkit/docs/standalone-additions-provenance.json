@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "scope": "Source-first canonical additions only; no public mirror or installed cache modified",
+  "owner": "mac-ops-toolkit",
+  "baseline_private_archive": {
+    "filename": "local-addition-prechange-mac-ops-toolkit-20261010.tar.gz",
+    "sha256": "17da6dacc09b87fc8fd0f989ee26cbcf429e92337cc0fc685a48087dd94db16d"
+  },
+  "rights_note": "Original standalone first-party methods and eligible support; recipient adaptations preserve method, with private source details retained only in the author’s recoverable archive and original standalone source. Existing owner licenses remain authoritative.",
+  "heads": [
+    {
+      "name": "local-storage-mcp",
+      "rights_basis": "Original read-only catalog/placement procedure",
+      "portability_constraint": "local_storage is an external recipient provider, not bundled runtime; private planning/home/drive paths become explicit recipient paths; missing provider must be reported; no file-content access inferred",
+      "files": [
+        {
+          "path": "skills/local-storage-mcp/SKILL.md",
+          "sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
+          "source": {
+            "id": "standalone:local-storage-mcp/SKILL.md",
+            "sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/local-storage-mcp/agents/openai.yaml",
+          "sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
+          "source": {
+            "id": "standalone:local-storage-mcp/agents/openai.yaml",
+            "sha256": "95e3626000361e5531ea05114a657f587c8435f99aa629061f4c803984535593"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    },
+    {
+      "name": "storage-memory-manager",
+      "rights_basis": "Original full method, cleanup-playbook, two read-only shell helpers",
+      "portability_constraint": "scripts/storage_hotspots.sh hard-coded volumes become supplied recipient volume list; cleanup-playbook host roots become recipient roots; preserve approval and protected-file safeguards; no automatic deletion",
+      "files": [
+        {
+          "path": "skills/storage-memory-manager/SKILL.md",
+          "sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
+          "source": {
+            "id": "standalone:storage-memory-manager/SKILL.md",
+            "sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/storage-memory-manager/agents/openai.yaml",
+          "sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+          "source": {
+            "id": "standalone:storage-memory-manager/agents/openai.yaml",
+            "sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/storage-memory-manager/references/cleanup-playbook.md",
+          "sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
+          "source": {
+            "id": "standalone:storage-memory-manager/references/cleanup-playbook.md",
+            "sha256": "34e5e1ea0709988d07da92cbc1cb0dc794200d2022c1605320e30dcd26b70085"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        },
+        {
+          "path": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+          "sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+          "source": {
+            "id": "standalone:storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+            "sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5"
+          },
+          "disposition": "byte-identical"
+        },
+        {
+          "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
+          "sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
+          "source": {
+            "id": "standalone:storage-memory-manager/scripts/storage_hotspots.sh",
+            "sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4"
+          },
+          "disposition": "reviewed-recipient-adaptation"
+        }
+      ],
+      "private_omissions": []
+    }
+  ]
+}

@@ -55,6 +55,7 @@ Use this as a clean-room model. Do not install or run the Story Skills CLI unles
 5. Preserve the user's voice and intentional choices. Do not flatten dialect, fragmentary style, repetition, nonlinear structure, unreliable narration, or deliberate ambiguity.
 6. Treat missing facts as questions or placeholders, not inventions.
 7. After drafting or revision, update or propose updates to continuity, timeline, character state, object state, knowledge state, questions, and promises/payoffs.
+8. Verify exact requested mechanical constraints on the final prose only, excluding headings and editorial notes. Check required and excluded elements as well as word/sentence limits. Use the user's counting convention; otherwise count whitespace-separated tokens containing a letter or number, excluding punctuation-only tokens, and state a different convention if it matters. Use a deterministic counter when allowed, or explicitly enumerate tokens for a tiny passage when tools are disallowed. Recount after any edit. Report an exact count only after checking it; an unverified estimate is not a passed constraint.
 
 ## Revision Workflow
 

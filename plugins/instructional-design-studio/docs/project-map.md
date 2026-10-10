@@ -7,7 +7,7 @@ This plugin is independent of job-application-compass. Portable source: this ind
 ## Layout
 
 - `.codex-plugin/plugin.json`: plugin identity, discovery, and starter prompts.
-- `skills/*/SKILL.md`: separate, narrowly described capabilities.
+- `skills/*/SKILL.md`: twelve separate, narrowly described capabilities, including the complete first-party `learning-experience-designer` method. `docs/learning-experience-designer-source.json` records its source and output hashes.
 - `skills/*/agents/openai.yaml`: display names and invocation prompts.
 - `skills/*/references/`: conditional guidance, method/source notes, and worked examples.
 - `skills/*/assets/`: examples/templates intended for adaptation into deliverables.
@@ -36,18 +36,18 @@ The AI Workshop Studio v3 planning path is a bounded extension of `skills/instru
 
 ## Assessment and activity extension
 
-`assessment-rubric-design` owns blueprint/item/assignment/scoring guidance, source review, a fictional JSON authoring example and `scripts/check_assessment.py`. It does not own delivery platforms or Survey Studio's instrument engine. `lesson-experience-design` owns `assets/activity-library.json` and `scripts/search_activities.py`: 31 local source-linked adaptations with status/rights fields. Search a few matches, then author concrete materials. Neither helper fetches source URLs or writes to the vault. `learning-evaluation` owns score interpretation and pilot/transfer decisions.
+`assessment-rubric-design` owns blueprint/item/assignment/scoring guidance, source review, a fictional JSON authoring example and `scripts/check_assessment.py`. It does not own delivery platforms or Survey Studio's instrument engine. `lesson-experience-design` owns `assets/activity-library.json` and `scripts/search_activities.py`: 31 complete original adaptations with source identities. The helper selects an explicit `--library`, then an optional recipient-owned studio-tools binding, then the bundled adaptations. A broken binding fails visibly. Search a few matches, then author concrete materials. Neither helper fetches source URLs or writes to the vault. `learning-evaluation` owns score interpretation and pilot/transfer decisions.
 
 Safe checks from this root: `python3 -m unittest discover -s tests -v`; `python3 skills/assessment-rubric-design/scripts/check_assessment.py skills/assessment-rubric-design/assets/assessment-template.json`; `python3 skills/lesson-experience-design/scripts/search_activities.py --query retrieval --limit 3`. Helpers require Python 3.9+ standard library; use an already available bundled runtime if system Python is unavailable. Draft warnings are expected. Source audit: `docs/assessment-security-review.md`. Activity sources remain personal-reference-only; a passing checker is not learning validation.
 
 `lesson-experience-design/references/technical-learning-resource-selection.md` owns the conditional tutorial/catalog viability check: selected destination, rights, setup, learner task and capability evidence. It imports no curriculum or learning platform.
 
-- `references/atlas-library.md`: scoped instructional Atlas retrieval and private human library. The public method edition includes no launcher or MCP declaration; separately configured receiving-host retrieval is optional, and no corpus is packaged.
+- `references/atlas-library.md`: scoped instructional Atlas retrieval and private human library. The portable edition includes the fixed-domain compatibility launcher at `scripts/atlas_library_mcp.py`, with recipient-owned `--binding` or the current user’s standard studio-tools path. No MCP service, automatic declaration or corpus is packaged.
 
 `learning-content-storyboarding/references/writing-voices.md` is the conditional bridge to the canonical writing owner; learning goals, practice, feedback, assessment and source accuracy stay with this plugin.
 
 ## Public edition
 
-All operative skill heads and their complete generic supporting procedures are preserved. Empty private MCP declarations and the machine compatibility launcher are excluded; optional Atlas/source retrieval uses the current host's separately configured capability. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.
+All operative skill heads and their complete generic supporting procedures are preserved. Empty private MCP declarations are excluded; the portable fixed-domain compatibility launcher is included; optional Atlas/source retrieval uses the current host's separately configured capability. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.
 
 Standalone method owners in 0.2.0: `skills/learning-experience-designer/`. Preserve full original procedures and their exact source/recipient-output hashes in PROVENANCE.json. Populated recipient inputs belong outside installation state.

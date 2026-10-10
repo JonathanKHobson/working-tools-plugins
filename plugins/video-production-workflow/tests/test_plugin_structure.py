@@ -19,6 +19,8 @@ EXPECTED = {
     "conform-video-delivery",
     "validate-video-quality",
     "evolve-video-workflow",
+    "loom-review-packet",
+    "loom-walkthrough-scripting",
 }
 
 
@@ -32,7 +34,7 @@ def test_plugin_manifest_and_skill_structure() -> None:
         path = skills / skill
         assert (path / "SKILL.md").is_file()
         assert (path / "agents/openai.yaml").is_file()
-        if skill != "edit-davinci-resolve":
+        if skill not in {"edit-davinci-resolve", "loom-review-packet", "loom-walkthrough-scripting"}:
             assert any((path / "agents").glob("*.md"))
             assert any((path / "scripts").glob("*"))
         assert any((path / "references").glob("*.md"))

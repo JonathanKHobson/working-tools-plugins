@@ -1,860 +1,11 @@
 {
   "schema_version": 1,
   "package": "mac-ops-toolkit",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "canonical_source": "mac-ops-toolkit",
-  "source_tree_sha256": "b1d18c233a113008346692d16eb7ddbce3716d0e74192a7b5802e0c311f013e1",
+  "source_tree_sha256": "4f5b99d33bc46a468ca08c836ab49d11c1db527fc7ac15ffcf326dfef01342b3",
   "retained_skill_heads": 10,
   "omissions": {},
-  "source_files": [
-    {
-      "source": ".codex-plugin/plugin.json",
-      "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
-      "output": ".codex-plugin/plugin.json",
-      "output_sha256": "78a4bfc51ac20f4dc6644495d5168590f7b5c9c4ae99c550968200ced995180a",
-      "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup.",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "source": "README.md",
-      "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
-      "output": "README.md",
-      "output_sha256": "1f52a06b89c2f5ba5313184e03dc02aef1688ebcad9c4d1a810704e9d2d45f08",
-      "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior.",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "source": "docs/project-map.md",
-      "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
-      "output": "docs/project-map.md",
-      "output_sha256": "fb3ac792a77710f798ba3e95ea47b1ac2b4386d1bc8fe7b96a4ec8da8a8afa15",
-      "change": "Complete original content retained with public recipient/metadata transformations"
-    },
-    {
-      "source": "docs/source-to-target.md",
-      "source_sha256": "bb94952e5a94fd771a1068b898e8aae4ddecd4d65011f1d7467f98ab08f4dbc4",
-      "output": "docs/source-to-target.md",
-      "output_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "docs/use-case-map.md",
-      "source_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
-      "output": "docs/use-case-map.md",
-      "output_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "docs/validation.md",
-      "source_sha256": "22538c1d015e5c962d6f83f093c57a2cd8ba11305d1994a2a60891887d67f850",
-      "output": "docs/validation.md",
-      "output_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "references/professional-agents/README.md",
-      "source_sha256": "9e9919bb66acfa571631bfa66945f7063925ef324cf9648f12b239c8bc1f4370",
-      "output": "references/professional-agents/README.md",
-      "output_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "references/professional-agents/it-operations-specialist.md",
-      "source_sha256": "e5085e092be3a1956c51aab0212aa1c318413c40a47ea4386f7bcb4880cc8671",
-      "output": "references/professional-agents/it-operations-specialist.md",
-      "output_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "references/recovery/backup-restore-drill.md",
-      "source_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
-      "output": "references/recovery/backup-restore-drill.md",
-      "output_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/evidence-to-collect.md",
-      "source_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
-      "output": "references/recovery/evidence-to-collect.md",
-      "output_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/invisible-window-or-app-open-with-no-window.md",
-      "source_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
-      "output": "references/recovery/invisible-window-or-app-open-with-no-window.md",
-      "output_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/login-item-launch-race.md",
-      "source_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
-      "output": "references/recovery/login-item-launch-race.md",
-      "output_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/narrow-reset-pattern.md",
-      "source_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
-      "output": "references/recovery/narrow-reset-pattern.md",
-      "output_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/process-will-not-quit.md",
-      "source_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
-      "output": "references/recovery/process-will-not-quit.md",
-      "output_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "references/recovery/storage-cleanup-and-migration.md",
-      "source_sha256": "2cbd5c8b439a89c4681dff12152449f97fca6467d0d30f6f8d899a9b9fb5d470",
-      "output": "references/recovery/storage-cleanup-and-migration.md",
-      "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
-      "change": "Complete original content retained with public recipient/metadata transformations"
-    },
-    {
-      "source": "references/recovery/storage-notes.md",
-      "source_sha256": "ef5959b275b21cc8ac37e63c1cc8dad35e83bf5647384ae1114058033b414115",
-      "output": "references/recovery/storage-notes.md",
-      "output_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/app-window-recovery/SKILL.md",
-      "source_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
-      "output": "skills/app-window-recovery/SKILL.md",
-      "output_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/app-window-recovery/agents/openai.yaml",
-      "source_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
-      "output": "skills/app-window-recovery/agents/openai.yaml",
-      "output_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/application-installation/SKILL.md",
-      "source_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
-      "output": "skills/application-installation/SKILL.md",
-      "output_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/application-installation/agents/openai.yaml",
-      "source_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
-      "output": "skills/application-installation/agents/openai.yaml",
-      "output_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/mac-environment-conventions/SKILL.md",
-      "source_sha256": "e87ab806320271c8a499dc0fda067538e8a37102d3cdc40d83bbd5153cd630e4",
-      "output": "skills/mac-environment-conventions/SKILL.md",
-      "output_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-environment-conventions/SKILL.original.md",
-      "source_sha256": "89064f1b8460e739584da11becbefc52c711ab3b883f3a5e7a3be2189280e0c5",
-      "output": "skills/mac-environment-conventions/SKILL.original.md",
-      "output_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-environment-conventions/agents/openai.yaml",
-      "source_sha256": "faf0abbb645c08445447ea5c36b8ab5cdbc13ef765b7773b484a0c873e486f39",
-      "output": "skills/mac-environment-conventions/agents/openai.yaml",
-      "output_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
-      "source_sha256": "929a22a9b8603c50ec7bdbdeff8d558d27bc2fadc85f6cb3ec0f609d2f8f2f5c",
-      "output": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
-      "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
-      "change": "Complete original content retained with public recipient/metadata transformations"
-    },
-    {
-      "source": "skills/mac-environment-conventions/references/install-targets.md",
-      "source_sha256": "8a13a21193932387c8c33784dae82fc54c35de310fc4c0dbe0c0cde4f36c3b0e",
-      "output": "skills/mac-environment-conventions/references/install-targets.md",
-      "output_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-environment-conventions/references/storage-layout.md",
-      "source_sha256": "2de3a1b3e0ea4ba0fa039655d8fa1db558306b9b997d89ab4ddf16d12dfafc58",
-      "output": "skills/mac-environment-conventions/references/storage-layout.md",
-      "output_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-environment-conventions/references/symlink-rules.md",
-      "source_sha256": "1d237640862f1296081d5d6edaf5542630d12b27163c59c7c4cc3fb1ca0d8108",
-      "output": "skills/mac-environment-conventions/references/symlink-rules.md",
-      "output_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-troubleshooter/SKILL.md",
-      "source_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
-      "output": "skills/mac-troubleshooter/SKILL.md",
-      "output_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/mac-troubleshooter/SKILL.original.md",
-      "source_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
-      "output": "skills/mac-troubleshooter/SKILL.original.md",
-      "output_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/mac-troubleshooter/agents/openai.yaml",
-      "source_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
-      "output": "skills/mac-troubleshooter/agents/openai.yaml",
-      "output_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/mac-troubleshooter/references/recovery-playbook.md",
-      "source_sha256": "30126d9a26176cdd072197bc0d5a66d10830314befb4b921e0338146b8a355be",
-      "output": "skills/mac-troubleshooter/references/recovery-playbook.md",
-      "output_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/mac-troubleshooter/scripts/app_window_state.sh",
-      "source_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
-      "output": "skills/mac-troubleshooter/scripts/app_window_state.sh",
-      "output_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
-      "source_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
-      "output": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
-      "output_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/process-diagnosis/SKILL.md",
-      "source_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
-      "output": "skills/process-diagnosis/SKILL.md",
-      "output_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/process-diagnosis/agents/openai.yaml",
-      "source_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
-      "output": "skills/process-diagnosis/agents/openai.yaml",
-      "output_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/storage-migration/SKILL.md",
-      "source_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
-      "output": "skills/storage-migration/SKILL.md",
-      "output_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/storage-migration/agents/openai.yaml",
-      "source_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
-      "output": "skills/storage-migration/agents/openai.yaml",
-      "output_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/symlink-audit/SKILL.md",
-      "source_sha256": "ddeb2186a9051e243496acd0b1592fb3c23491c93469bc86d95df6b840bbfdcc",
-      "output": "skills/symlink-audit/SKILL.md",
-      "output_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b",
-      "change": "Complete original procedure/role preserved; personal locators rebound to receiving-host roles and optional external routing, no automatic registration claim."
-    },
-    {
-      "source": "skills/symlink-audit/agents/openai.yaml",
-      "source_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
-      "output": "skills/symlink-audit/agents/openai.yaml",
-      "output_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/updater-recovery/SKILL.md",
-      "source_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
-      "output": "skills/updater-recovery/SKILL.md",
-      "output_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
-      "change": "Byte-exact retained source"
-    },
-    {
-      "source": "skills/updater-recovery/agents/openai.yaml",
-      "source_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
-      "output": "skills/updater-recovery/agents/openai.yaml",
-      "output_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
-      "change": "Byte-exact retained source"
-    }
-  ],
-  "generated_files": [
-    {
-      "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959"
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "87af98ae579a55a0e1db94b12ee15aa473dd7208a4790f31b97f495c824926d6"
-    },
-    {
-      "path": "plugin.json",
-      "sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7"
-    },
-    {
-      "path": "docs/first-party-lineage.json",
-      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393"
-    },
-    {
-      "path": ".claude-plugin/plugin.json",
-      "sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031"
-    }
-  ],
-  "files": [
-    {
-      "path": ".codex-plugin/plugin.json",
-      "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
-      "output_sha256": "78a4bfc51ac20f4dc6644495d5168590f7b5c9c4ae99c550968200ced995180a",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "README.md",
-      "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
-      "output_sha256": "1f52a06b89c2f5ba5313184e03dc02aef1688ebcad9c4d1a810704e9d2d45f08",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "docs/project-map.md",
-      "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
-      "output_sha256": "fb3ac792a77710f798ba3e95ea47b1ac2b4386d1bc8fe7b96a4ec8da8a8afa15",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "docs/source-to-target.md",
-      "source_sha256": "bb94952e5a94fd771a1068b898e8aae4ddecd4d65011f1d7467f98ab08f4dbc4",
-      "output_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "docs/use-case-map.md",
-      "source_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
-      "output_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "docs/validation.md",
-      "source_sha256": "22538c1d015e5c962d6f83f093c57a2cd8ba11305d1994a2a60891887d67f850",
-      "output_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/professional-agents/README.md",
-      "source_sha256": "9e9919bb66acfa571631bfa66945f7063925ef324cf9648f12b239c8bc1f4370",
-      "output_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec",
-      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
-      "license_scope_category": "retained-or-mixed-upstream"
-    },
-    {
-      "path": "references/professional-agents/it-operations-specialist.md",
-      "source_sha256": "e5085e092be3a1956c51aab0212aa1c318413c40a47ea4386f7bcb4880cc8671",
-      "output_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9",
-      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
-      "license_scope_category": "retained-or-mixed-upstream"
-    },
-    {
-      "path": "references/recovery/backup-restore-drill.md",
-      "source_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
-      "output_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/evidence-to-collect.md",
-      "source_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
-      "output_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/invisible-window-or-app-open-with-no-window.md",
-      "source_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
-      "output_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/login-item-launch-race.md",
-      "source_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
-      "output_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/narrow-reset-pattern.md",
-      "source_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
-      "output_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/process-will-not-quit.md",
-      "source_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
-      "output_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/storage-cleanup-and-migration.md",
-      "source_sha256": "2cbd5c8b439a89c4681dff12152449f97fca6467d0d30f6f8d899a9b9fb5d470",
-      "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "references/recovery/storage-notes.md",
-      "source_sha256": "ef5959b275b21cc8ac37e63c1cc8dad35e83bf5647384ae1114058033b414115",
-      "output_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/app-window-recovery/SKILL.md",
-      "source_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
-      "output_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/app-window-recovery/agents/openai.yaml",
-      "source_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
-      "output_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/application-installation/SKILL.md",
-      "source_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
-      "output_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/application-installation/agents/openai.yaml",
-      "source_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
-      "output_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/mac-environment-conventions/SKILL.md",
-      "source_sha256": "e87ab806320271c8a499dc0fda067538e8a37102d3cdc40d83bbd5153cd630e4",
-      "output_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-environment-conventions/SKILL.original.md",
-      "source_sha256": "89064f1b8460e739584da11becbefc52c711ab3b883f3a5e7a3be2189280e0c5",
-      "output_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-environment-conventions/agents/openai.yaml",
-      "source_sha256": "faf0abbb645c08445447ea5c36b8ab5cdbc13ef765b7773b484a0c873e486f39",
-      "output_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
-      "source_sha256": "929a22a9b8603c50ec7bdbdeff8d558d27bc2fadc85f6cb3ec0f609d2f8f2f5c",
-      "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-environment-conventions/references/install-targets.md",
-      "source_sha256": "8a13a21193932387c8c33784dae82fc54c35de310fc4c0dbe0c0cde4f36c3b0e",
-      "output_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-environment-conventions/references/storage-layout.md",
-      "source_sha256": "2de3a1b3e0ea4ba0fa039655d8fa1db558306b9b997d89ab4ddf16d12dfafc58",
-      "output_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-environment-conventions/references/symlink-rules.md",
-      "source_sha256": "1d237640862f1296081d5d6edaf5542630d12b27163c59c7c4cc3fb1ca0d8108",
-      "output_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-troubleshooter/SKILL.md",
-      "source_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
-      "output_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-troubleshooter/SKILL.original.md",
-      "source_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
-      "output_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-troubleshooter/agents/openai.yaml",
-      "source_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
-      "output_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/mac-troubleshooter/references/recovery-playbook.md",
-      "source_sha256": "30126d9a26176cdd072197bc0d5a66d10830314befb4b921e0338146b8a355be",
-      "output_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/mac-troubleshooter/scripts/app_window_state.sh",
-      "source_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
-      "output_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
-      "source_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
-      "output_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/process-diagnosis/SKILL.md",
-      "source_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
-      "output_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/process-diagnosis/agents/openai.yaml",
-      "source_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
-      "output_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/storage-migration/SKILL.md",
-      "source_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
-      "output_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/storage-migration/agents/openai.yaml",
-      "source_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
-      "output_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/symlink-audit/SKILL.md",
-      "source_sha256": "ddeb2186a9051e243496acd0b1592fb3c23491c93469bc86d95df6b840bbfdcc",
-      "output_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/symlink-audit/agents/openai.yaml",
-      "source_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
-      "output_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "skills/updater-recovery/SKILL.md",
-      "source_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
-      "output_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "skills/updater-recovery/agents/openai.yaml",
-      "source_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
-      "output_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
-      "output_sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "87af98ae579a55a0e1db94b12ee15aa473dd7208a4790f31b97f495c824926d6",
-      "output_sha256": "87af98ae579a55a0e1db94b12ee15aa473dd7208a4790f31b97f495c824926d6",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "plugin.json",
-      "sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7",
-      "output_sha256": "f56cbc11e27ff7639d24961ba64d485c6e1d498a66217544891e3bc9326889f7",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "docs/first-party-lineage.json",
-      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393",
-      "output_sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": ".claude-plugin/plugin.json",
-      "sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031",
-      "output_sha256": "e3bad9d397686ce6ecbfaeb20dd5aff188ac5711840ff87b9cba723906057031",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "source_relative": "standalone/local-storage-mcp/SKILL.md",
-      "source_owner": "standalone:local-storage-mcp",
-      "source_sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9",
-      "path": "skills/local-storage-mcp/SKILL.md",
-      "output_sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
-      "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "source_relative": "standalone/local-storage-mcp/agents/openai.yaml",
-      "source_owner": "standalone:local-storage-mcp",
-      "source_sha256": "95e3626000361e5531ea05114a657f587c8435f99aa629061f4c803984535593",
-      "path": "skills/local-storage-mcp/agents/openai.yaml",
-      "output_sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
-      "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "source_relative": "standalone/storage-memory-manager/SKILL.md",
-      "source_owner": "standalone:storage-memory-manager",
-      "source_sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9",
-      "path": "skills/storage-memory-manager/SKILL.md",
-      "output_sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
-      "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "source_relative": "standalone/storage-memory-manager/references/cleanup-playbook.md",
-      "source_owner": "standalone:storage-memory-manager",
-      "source_sha256": "34e5e1ea0709988d07da92cbc1cb0dc794200d2022c1605320e30dcd26b70085",
-      "path": "skills/storage-memory-manager/references/cleanup-playbook.md",
-      "output_sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
-      "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "source_relative": "standalone/storage-memory-manager/agents/openai.yaml",
-      "source_owner": "standalone:storage-memory-manager",
-      "source_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
-      "path": "skills/storage-memory-manager/agents/openai.yaml",
-      "output_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
-      "change": "Byte-exact standalone original source retained",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "source_relative": "standalone/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
-      "source_owner": "standalone:storage-memory-manager",
-      "source_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
-      "path": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
-      "output_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
-      "change": "Byte-exact standalone original source retained",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "source_relative": "standalone/storage-memory-manager/scripts/storage_hotspots.sh",
-      "source_owner": "standalone:storage-memory-manager",
-      "source_sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4",
-      "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
-      "output_sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
-      "change": "Complete standalone source retained; recipient bindings/current owner routes projected",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "CHANGELOG.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "00bb0e62f003bb27e8a051ee7f88d1dd3d021b28e176192a9bf5d36fe2515d51",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "LICENSE-SCOPE.json",
-      "output_sha256": "791a1603c9fb387e25b3e9206afb3e096e737a82a73861e0658a45f1a6963127",
-      "bytes": 24162,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "disposition": "transformed",
-      "public_maintenance": "Expanded first-use usability correction; source hash retained."
-    },
-    {
-      "path": "LICENSING.md",
-      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
-      "bytes": 1904,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/BRAND-AND-ATTRIBUTION.md",
-      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
-      "bytes": 1112,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "bytes": 34523,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
-      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
-      "bytes": 1106,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/THIRD_PARTY_NOTICES.md",
-      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
-      "bytes": 151,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/LICENSE",
-      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
-      "bytes": 1077,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/SOURCE-ATTRIBUTIONS.md.txt",
-      "output_sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef",
-      "bytes": 884,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
-      "output_sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967",
-      "bytes": 1429,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.3.0/release-license-record.json",
-      "output_sha256": "be5ebe068398e4b0a55b79ad70ef63979fbda03b5eea465477b7bee105b0b8b5",
-      "bytes": 909,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    }
-  ],
   "public_package_skill_count": 10,
   "standalone_additions": {
     "heads": [
@@ -932,15 +83,761 @@
     "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
     "prior_version": "0.3.0",
     "prior_grants_preserved": true,
-    "operative_bodies_unchanged": true,
+    "operative_bodies_unchanged": false,
     "scope_inventory": "LICENSE-SCOPE.json",
-    "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+    "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff",
+    "change_note": "Eligible first-party portability, recipient configuration, and complete standalone heads were reconciled in canonical source; prior grants and upstream licenses remain file-scoped."
   },
-  "expanded_first_use_patch": {
-    "base_public_commit": "73d7d44304570a47061873b454d3bd04c8dd49d7",
-    "previous_version": "0.3.1",
-    "change": "Replace private installation instructions, complete the skill table, correct the MCP owner route and diagnose absent scan roots.",
-    "source_hashes_preserved": true,
-    "native_host_and_provider_limits": "See repository docs/compatibility.md; no new provider acceptance inferred."
-  }
+  "scope": "Complete selected distributable canonical source; exact private prechange archives are recorded in a separate evidence receipt. Paths are relative to this package.",
+  "baseline_archive_sha256": "4f9323f9018893ba14f4a3fc961fa271f9e690cf27a94343f12ee0d5a48d502b",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "source_relative": ".claude-plugin/plugin.json",
+      "source_sha256": "7f22061f81c4aabad4cc0027ba399918ce813d670129c47130707645c55799b3",
+      "output_sha256": "7f22061f81c4aabad4cc0027ba399918ce813d670129c47130707645c55799b3",
+      "bytes": 623,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "02ab8fb770e5f9721fa16f004dbf91eddc37416f5b2097862e704d914fa5a23e",
+      "output_sha256": "02ab8fb770e5f9721fa16f004dbf91eddc37416f5b2097862e704d914fa5a23e",
+      "bytes": 1635,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": "CHANGELOG.md",
+      "source_sha256": "25f4b28013cc1196691a01f2222c2d0bf60d2d66045ea63993c2e48187710182",
+      "output_sha256": "25f4b28013cc1196691a01f2222c2d0bf60d2d66045ea63993c2e48187710182",
+      "bytes": 856,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "LICENSE",
+      "source_relative": "LICENSE",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "LICENSE-SCOPE.json",
+      "source_relative": "LICENSE-SCOPE.json",
+      "source_sha256": "16561ea475d9decb6cb2d4ed6455ace9a06f7ea04f097af9a62e5685e00c5e04",
+      "output_sha256": "16561ea475d9decb6cb2d4ed6455ace9a06f7ea04f097af9a62e5685e00c5e04",
+      "bytes": 24519,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "LICENSING.md",
+      "source_relative": "LICENSING.md",
+      "source_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "bytes": 1904,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "NOTICE.md",
+      "source_relative": "NOTICE.md",
+      "source_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "README.md",
+      "source_relative": "README.md",
+      "source_sha256": "bfbba10a86616822b244aafb082461e0fa83f9613bd225fa2de2c15b7c2d5239",
+      "output_sha256": "bfbba10a86616822b244aafb082461e0fa83f9613bd225fa2de2c15b7c2d5239",
+      "bytes": 8642,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "source_relative": "SOURCE-ATTRIBUTIONS.md",
+      "source_sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
+      "output_sha256": "9d43eabf086b05b3284edc3b5ec6e4262b0691afb8af1cecf95a18ddd76a0959",
+      "bytes": 1259,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_relative": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "87af98ae579a55a0e1db94b12ee15aa473dd7208a4790f31b97f495c824926d6",
+      "output_sha256": "87af98ae579a55a0e1db94b12ee15aa473dd7208a4790f31b97f495c824926d6",
+      "bytes": 1912,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/first-party-lineage.json",
+      "source_relative": "docs/first-party-lineage.json",
+      "source_sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393",
+      "output_sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393",
+      "bytes": 335,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/project-map.md",
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "53730adf5a1904f7d77b825703534ea8f1906515fb621ad5b30c97f8bcb21558",
+      "output_sha256": "53730adf5a1904f7d77b825703534ea8f1906515fb621ad5b30c97f8bcb21558",
+      "bytes": 1174,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/source-to-target.md",
+      "source_relative": "docs/source-to-target.md",
+      "source_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75",
+      "output_sha256": "af2b29c226364f9498efb1dcbb5eb38b96908e08e1f45f835f5a0c1fdb79da75",
+      "bytes": 2363,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/standalone-additions-provenance.json",
+      "source_relative": "docs/standalone-additions-provenance.json",
+      "source_sha256": "8f5d52159c38f5af1930cde0397e925659c6b05e2f59d20af2e049c0ad13a6d6",
+      "output_sha256": "8f5d52159c38f5af1930cde0397e925659c6b05e2f59d20af2e049c0ad13a6d6",
+      "bytes": 4527,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "source_relative": "docs/use-case-map.md",
+      "source_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
+      "output_sha256": "d630895ff3c27053d87f6840be8e34a81a89ee145cc070f0ead6ab742e098b0d",
+      "bytes": 2016,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "docs/validation.md",
+      "source_relative": "docs/validation.md",
+      "source_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401",
+      "output_sha256": "430cf1f92b71458c3d084cf38f922ecf47fdf111efa0f2725ac551460764d401",
+      "bytes": 1286,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "source_relative": "legal/BRAND-AND-ATTRIBUTION.md",
+      "source_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "bytes": 1112,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "source_relative": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_relative": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "bytes": 1106,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "source_relative": "legal/NOTICE.md",
+      "source_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "source_relative": "legal/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "bytes": 151,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "license-and-notice",
+      "edition_license_scope": "See document",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/LICENSE",
+      "source_relative": "legal/prior-grants/0.3.0/LICENSE",
+      "source_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "bytes": 1077,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "prior-or-upstream-grant",
+      "edition_license_scope": "See retained grant text",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/SOURCE-ATTRIBUTIONS.md.txt",
+      "source_relative": "legal/prior-grants/0.3.0/SOURCE-ATTRIBUTIONS.md.txt",
+      "source_sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef",
+      "output_sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef",
+      "bytes": 884,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "prior-or-upstream-grant",
+      "edition_license_scope": "See retained grant text",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
+      "source_relative": "legal/prior-grants/0.3.0/THIRD_PARTY_NOTICES.md.txt",
+      "source_sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967",
+      "output_sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967",
+      "bytes": 1429,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "prior-or-upstream-grant",
+      "edition_license_scope": "See retained grant text",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "legal/prior-grants/0.3.0/release-license-record.json",
+      "source_relative": "legal/prior-grants/0.3.0/release-license-record.json",
+      "source_sha256": "be5ebe068398e4b0a55b79ad70ef63979fbda03b5eea465477b7bee105b0b8b5",
+      "output_sha256": "be5ebe068398e4b0a55b79ad70ef63979fbda03b5eea465477b7bee105b0b8b5",
+      "bytes": 909,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "prior-or-upstream-grant",
+      "edition_license_scope": "See retained grant text",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "plugin.json",
+      "source_relative": "plugin.json",
+      "source_sha256": "18bedb45114e6e4ebfaf53ce901bed652b68ef5f7943a7a81463b1cf4a5683c6",
+      "output_sha256": "18bedb45114e6e4ebfaf53ce901bed652b68ef5f7943a7a81463b1cf4a5683c6",
+      "bytes": 1781,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec",
+      "output_sha256": "7beb4239ada36914fd92f4fd52933c77e6ad1ab405bf36586378f562c250adec",
+      "bytes": 511,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "retained-or-mixed-upstream",
+      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/professional-agents/it-operations-specialist.md",
+      "source_relative": "references/professional-agents/it-operations-specialist.md",
+      "source_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9",
+      "output_sha256": "f5936cf1040df2cfc0aedd4cdad2dfc4c86eccb118572dfbcde17755c7e1afd9",
+      "bytes": 2920,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "retained-or-mixed-upstream",
+      "edition_license_scope": "See THIRD_PARTY_NOTICES.md and retained source license",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/backup-restore-drill.md",
+      "source_relative": "references/recovery/backup-restore-drill.md",
+      "source_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
+      "output_sha256": "908a75d0a47c20cbcf00cf197f2f05baf61c5deae2ab254e9f2c60a11e7f6cf1",
+      "bytes": 5259,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/evidence-to-collect.md",
+      "source_relative": "references/recovery/evidence-to-collect.md",
+      "source_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
+      "output_sha256": "85b1bc14c4e582f43df7d3c03a75f028856cde5ed5a3b098ce64a176d59934a0",
+      "bytes": 212,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/invisible-window-or-app-open-with-no-window.md",
+      "source_relative": "references/recovery/invisible-window-or-app-open-with-no-window.md",
+      "source_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
+      "output_sha256": "a05df3c7d0bf59200e5028cd20a0bd1d3c0f6c7406240ec9227bf06c1289a996",
+      "bytes": 754,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/login-item-launch-race.md",
+      "source_relative": "references/recovery/login-item-launch-race.md",
+      "source_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
+      "output_sha256": "2a965acf8ed73743548eeac63bff517c3eef985a5d423391db81ebf97929b536",
+      "bytes": 367,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/narrow-reset-pattern.md",
+      "source_relative": "references/recovery/narrow-reset-pattern.md",
+      "source_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
+      "output_sha256": "4c881aab4f1d2d72b05d8aaaf6d97c83125ddedcee9de29c76b6df148ec23125",
+      "bytes": 477,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/process-will-not-quit.md",
+      "source_relative": "references/recovery/process-will-not-quit.md",
+      "source_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
+      "output_sha256": "9716e65b9513cf4c546482827c25dc7b32d4b1ff51fb8a172a72d21c6231c813",
+      "bytes": 321,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/storage-cleanup-and-migration.md",
+      "source_relative": "references/recovery/storage-cleanup-and-migration.md",
+      "source_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
+      "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
+      "bytes": 7543,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "references/recovery/storage-notes.md",
+      "source_relative": "references/recovery/storage-notes.md",
+      "source_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4",
+      "output_sha256": "e140e1f265189ded2cd7b3b534c50d5fb52b0490963f1c76fd5706db602852b4",
+      "bytes": 521,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/app-window-recovery/SKILL.md",
+      "source_relative": "skills/app-window-recovery/SKILL.md",
+      "source_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
+      "output_sha256": "9400dee0d43cc748f45d60dc8b289445969ded541af6f6ec4e61d35d9927825a",
+      "bytes": 2445,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/app-window-recovery/agents/openai.yaml",
+      "source_relative": "skills/app-window-recovery/agents/openai.yaml",
+      "source_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
+      "output_sha256": "39124685ad2c9b89af4258e2e5b29810bcdcf257110ce5d7afdb7f8e69848643",
+      "bytes": 247,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/application-installation/SKILL.md",
+      "source_relative": "skills/application-installation/SKILL.md",
+      "source_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
+      "output_sha256": "85067cc8c397f574375e2cc20ca4f9f73f81481a8640879f0eaeb2812e69e7ab",
+      "bytes": 2873,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/application-installation/agents/openai.yaml",
+      "source_relative": "skills/application-installation/agents/openai.yaml",
+      "source_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
+      "output_sha256": "fd55aee3212964b60422a31cd9aeb69d5273b85a08f971208982172bcfe9f2f2",
+      "bytes": 257,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/local-storage-mcp/SKILL.md",
+      "source_relative": "skills/local-storage-mcp/SKILL.md",
+      "source_sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
+      "output_sha256": "57c72eb92f206d1c022ccfdfbb343d8b807389576fc33b1e9b13083f02356584",
+      "bytes": 5591,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/local-storage-mcp/agents/openai.yaml",
+      "source_relative": "skills/local-storage-mcp/agents/openai.yaml",
+      "source_sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
+      "output_sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
+      "bytes": 319,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/SKILL.md",
+      "source_relative": "skills/mac-environment-conventions/SKILL.md",
+      "source_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd",
+      "output_sha256": "6bdeb209239ea9fbd9acfb0823070205848ff2acdf676ee1fa7e1049c859b0bd",
+      "bytes": 7634,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/SKILL.original.md",
+      "source_relative": "skills/mac-environment-conventions/SKILL.original.md",
+      "source_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624",
+      "output_sha256": "6a2801ccd1a246b1ad5438d3cdb1a2687dca3a598b8a6d2715eedf0f23f13624",
+      "bytes": 6257,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/agents/openai.yaml",
+      "source_relative": "skills/mac-environment-conventions/agents/openai.yaml",
+      "source_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69",
+      "output_sha256": "b7163f6c1d35f6094ad013f44ee9d58bd8fbc0e8b67372a8a5b51b41ca880a69",
+      "bytes": 354,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
+      "source_relative": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
+      "source_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
+      "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
+      "bytes": 3100,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/install-targets.md",
+      "source_relative": "skills/mac-environment-conventions/references/install-targets.md",
+      "source_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884",
+      "output_sha256": "cf48fb6564e41df2ea6711010276150eb56fb0c85b82a3d87033789d86511884",
+      "bytes": 2090,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/storage-layout.md",
+      "source_relative": "skills/mac-environment-conventions/references/storage-layout.md",
+      "source_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea",
+      "output_sha256": "c06eb628ebec6ce49e09d78c55ee1331d12f14f896dd302e886cc8b7600381ea",
+      "bytes": 2360,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-environment-conventions/references/symlink-rules.md",
+      "source_relative": "skills/mac-environment-conventions/references/symlink-rules.md",
+      "source_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c",
+      "output_sha256": "6fc4bb8d2da51304f176491e878323bd84d0e1c15394c8b55edf8e95a64f8a4c",
+      "bytes": 2587,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/SKILL.md",
+      "source_relative": "skills/mac-troubleshooter/SKILL.md",
+      "source_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
+      "output_sha256": "c6c1a0693fb082f93f61c33880406b242588cab3ca1884b3a7041135c2fbbc0e",
+      "bytes": 6117,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/SKILL.original.md",
+      "source_relative": "skills/mac-troubleshooter/SKILL.original.md",
+      "source_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
+      "output_sha256": "803d0d269618888b590fc54fa1d7a9b2dd96a8090fd4e3841f26e8cdb98c6134",
+      "bytes": 4276,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/agents/openai.yaml",
+      "source_relative": "skills/mac-troubleshooter/agents/openai.yaml",
+      "source_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
+      "output_sha256": "713ed7f8cc7a276c35623c67bb46a6909a6bf4ae0af42f784c11375f853678c0",
+      "bytes": 263,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/references/recovery-playbook.md",
+      "source_relative": "skills/mac-troubleshooter/references/recovery-playbook.md",
+      "source_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6",
+      "output_sha256": "0b8ada200c6b7ba75cd78be1e0a6f76eb073a83e017abea15e4ce98df5b416d6",
+      "bytes": 2404,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/scripts/app_window_state.sh",
+      "source_relative": "skills/mac-troubleshooter/scripts/app_window_state.sh",
+      "source_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
+      "output_sha256": "eaaf448b09175f4b69d3f59af53c4f1961332e91e7167d6db381529265068496",
+      "bytes": 927,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
+      "source_relative": "skills/mac-troubleshooter/scripts/support_state_backup.sh",
+      "source_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
+      "output_sha256": "66d5b53e88e4a31c3bbdfd39c7166d602d59209b0fb017bc1cf6e66ff3924854",
+      "bytes": 605,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/process-diagnosis/SKILL.md",
+      "source_relative": "skills/process-diagnosis/SKILL.md",
+      "source_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
+      "output_sha256": "8e8dedf2daff4369eb72e3e6fb86f841568360b81c7e7e825cc4734913bcda72",
+      "bytes": 2191,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/process-diagnosis/agents/openai.yaml",
+      "source_relative": "skills/process-diagnosis/agents/openai.yaml",
+      "source_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
+      "output_sha256": "a4a3ee232bb8b1030ce547bb327545847adf01f763bf46cd20fa017846278763",
+      "bytes": 243,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-memory-manager/SKILL.md",
+      "source_relative": "skills/storage-memory-manager/SKILL.md",
+      "source_sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
+      "output_sha256": "8ac6402c09099e6e74ff8554d39776fe9f40ba645c6c6f18c2c5bea1fcbcdf2a",
+      "bytes": 6970,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-memory-manager/agents/openai.yaml",
+      "source_relative": "skills/storage-memory-manager/agents/openai.yaml",
+      "source_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+      "output_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+      "bytes": 276,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-memory-manager/references/cleanup-playbook.md",
+      "source_relative": "skills/storage-memory-manager/references/cleanup-playbook.md",
+      "source_sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
+      "output_sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
+      "bytes": 1713,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+      "source_relative": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+      "source_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+      "output_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+      "bytes": 199,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
+      "source_relative": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
+      "source_sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
+      "output_sha256": "bb198b44718d9e43738a8b82d8c6eafd0564b1a5190167612873068cfc03d8f7",
+      "bytes": 1022,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-migration/SKILL.md",
+      "source_relative": "skills/storage-migration/SKILL.md",
+      "source_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
+      "output_sha256": "e202effc7c102cece0dad03cdba9974c79666e54599b165defb1695964d1b544",
+      "bytes": 3226,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/storage-migration/agents/openai.yaml",
+      "source_relative": "skills/storage-migration/agents/openai.yaml",
+      "source_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
+      "output_sha256": "5d2c7c82610ce69961152e4019513a38bae79a9bab95ad2195ca2eb5f50dd234",
+      "bytes": 243,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/symlink-audit/SKILL.md",
+      "source_relative": "skills/symlink-audit/SKILL.md",
+      "source_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b",
+      "output_sha256": "bd381283675d5cfc0de7c07436dffba816ea8a75de5987e6ee504162f6dda55b",
+      "bytes": 2350,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/symlink-audit/agents/openai.yaml",
+      "source_relative": "skills/symlink-audit/agents/openai.yaml",
+      "source_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
+      "output_sha256": "3c72aa724e961b7774ab7096509de804aa1f97c7a313eebe6cdfdf4fc07df842",
+      "bytes": 235,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/updater-recovery/SKILL.md",
+      "source_relative": "skills/updater-recovery/SKILL.md",
+      "source_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
+      "output_sha256": "8744538e457b20c5e1690fa8845f526f56061e825ff8a4eb6a5d6ea0d063ba3c",
+      "bytes": 2089,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    },
+    {
+      "path": "skills/updater-recovery/agents/openai.yaml",
+      "source_relative": "skills/updater-recovery/agents/openai.yaml",
+      "source_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
+      "output_sha256": "67e2229d391ff263d9f21e7631829f04fb63f9f2f08251aa1133fa91f2c685ab",
+      "bytes": 241,
+      "change": "Canonical source retained or revised for portable distribution; see private baseline disposition receipt.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_notice": "See exact per-file scope in LICENSE-SCOPE.json and retained upstream/prior notices."
+    }
+  ]
 }

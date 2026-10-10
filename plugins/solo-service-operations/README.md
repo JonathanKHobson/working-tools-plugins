@@ -1,6 +1,6 @@
 # Solo Service Operations Studio
 
-Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Prepare evidence-backed invoices, reconcile payments, plan cash flow, coordinate paid services and review authorized Gmail sending. Eight complete methods use recipient-owned records and providers.
 
@@ -56,7 +56,7 @@ Original code is AGPL-3.0-only; original documentation and methods are CC BY-SA 
 
 ## Paid-service communication and Gmail review
 
-Version 0.3.0 adds complete original [paid-event coordination](skills/paid-gm-event-coordination/SKILL.md), [venue outreach](skills/pro-gm-venue-outreach/SKILL.md), [RPG community coordination](skills/rpg-community-coordination/SKILL.md) and [Gmail send review](skills/gmail-send-review/SKILL.md). These bring the package to eight skills. Private case histories, actual negotiation terms, sender/venue records and recordings are excluded; labelled synthetic examples retain the procedural distinctions. Use the recipient's existing workspace, sender, materials, voice and authorized providers.
+This package includes complete original [paid-event coordination](skills/paid-gm-event-coordination/SKILL.md), [venue outreach](skills/pro-gm-venue-outreach/SKILL.md), [RPG community coordination](skills/rpg-community-coordination/SKILL.md) and [Gmail send review](skills/gmail-send-review/SKILL.md). These bring the package to eight skills. Private case histories, actual negotiation terms, sender/venue records and recordings are excluded; labelled synthetic examples retain the procedural distinctions. Use the recipient's existing workspace, sender, materials, voice and authorized providers.
 
 The Gmail helper is complete and offline, with its full original behavioral suite. It registers no hook, sends no email and stores no email text. Optional enforcement needs explicit host setup; browser actions require manual review. Python 3.9+ on POSIX is required for the helper's file locking. Run `python3 -B -m unittest discover -s skills/gmail-send-review/tests -v`.
 

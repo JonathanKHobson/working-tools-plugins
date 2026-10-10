@@ -1,16 +1,25 @@
 {
   "package": "instructional-design-studio",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "source_owner": "instructional-design-studio",
   "source_revision": "Canonical input has no enclosing Git checkout; reviewed SHA256 identifies exact source.",
   "source_tree_sha256": "65d373fda8fa2537ca153e677ac8c36520d6bd5128ba51ab2a271c651b7039a7",
   "original_source_files": 74,
-  "operative_heads": 11,
+  "operative_heads": 12,
   "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "71512bc651f3471570d6d84522dba0a8675cc068a51023403a3c30be02154d09",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
     {
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "37070d554ee39b29a914ad50b22623574530c07fad8164dc66350a0fed27f706",
-      "output_sha256": "ffe2f47bfa0906d095c337cf153d03f66fc1e2fdb30c0fc6a6435fe4136eb2ef",
+      "output_sha256": "f453380082685d66489a296a0218a67919d35aef0482d197a55dcbdae688953f",
       "transformed": true,
       "transformation": "Declare complete method-only public edition, explicit code/document license scopes, no Atlas/private service binding.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
@@ -18,14 +27,93 @@
       "license_scope_category": "first-party-code"
     },
     {
+      "path": "CHANGELOG.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "c880e52dafc46d6436bf9ee2a3b2c2e7bf4c3a5af1b175954cc8f18f8839d99a",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "LICENSE",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "LICENSE-CODE-MIT",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "LICENSE-SCOPE.json",
+      "output_sha256": "53c222eff21910f91f7e2710c15abfee694a48ff20071aa2f802ffdc5431fa65",
+      "bytes": 36784,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change."
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "bytes": 1904,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
       "source_relative": "README.md",
       "source_sha256": "cdfec104994217369e870efe696cd5b16e441169df8c32cd2f82faeb03ab98be",
-      "output_sha256": "0ea7cee99f2ca107a85d5dbf90e684f7642bc4b76be30b4b49fd8474c2d6e41f",
+      "output_sha256": "749eef634a33ec9dfe209fd243b1ae6b9251dac196509a2caa7fefd9c67430e2",
       "transformed": true,
       "transformation": "Preserve complete skill catalog and first-use behavior; remove stale private-service claim and add portable prerequisites, missing-provider behavior and license scope. Normalize historical private-edition/launcher statements for the current public export.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "69db482526d3b9e8fae797fb0bce1fa79ca138cdac80a94910de735e72370eb4",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "13df84332861335d5a3b40df2536d4f52b2864f0ebc80268e1226bb278e3c71f",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
     },
     {
       "source_relative": "docs/assessment-security-review.md",
@@ -48,12 +136,32 @@
       "license_scope_category": "first-party-code"
     },
     {
+      "path": "docs/learning-experience-designer-source.json",
+      "source_relative": "docs/learning-experience-designer-source.json",
+      "source_sha256": "86f58d4a6fed38ff7c590ded199162753b903c5eff44a9d11ddf63386b07b238",
+      "output_sha256": "86f58d4a6fed38ff7c590ded199162753b903c5eff44a9d11ddf63386b07b238",
+      "bytes": 1288,
+      "disposition": "source-first portable addition",
+      "rights": "Original author-owned source; prior grants retained, recipient runtime/data separate",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
       "source_relative": "docs/project-map.md",
       "source_sha256": "c19c0b839c98aa31b0c57dad423f2975fe5fdd9ed78da06bace22e36c12dc7a8",
-      "output_sha256": "846b82079a2f5abd4e7a4995596a95f9c55d13a57a78433548be1d8d4a25abd8",
+      "output_sha256": "2daaa0988e3cac4aff89928ca2b2099f426d10914e18bca51c18a36c0153a0f2",
       "transformed": true,
       "transformation": "Identify portable source owner and exact method/runtime/private-data boundary. Normalize historical private-edition/launcher statements for the current public export.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "docs/release-validation.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "232637d32ebc55fb3ceab223c069739ff1af5f1d1202af277b78365b347650e4",
+      "change": "Package-local recipient setup/scope metadata",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -68,9 +176,117 @@
       "license_scope_category": "first-party-noncode"
     },
     {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "bytes": 1112,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "bytes": 1106,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "bytes": 151,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE",
+      "output_sha256": "2d3b22facbc9c80fcf5fbfa9050691c56a2d18fef427a95829c9fb5caf1dcc7a",
+      "bytes": 459,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE-CODE-MIT",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "bytes": 1077,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE-DOCS-CC-BY-SA-4.0.md.txt",
+      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
+      "bytes": 1345,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/SOURCE-ATTRIBUTIONS.md.txt",
+      "output_sha256": "5cae9a45c6ab57b27f11251ba27bd8cf1a09ef88f68b9e6d992c1695a437b118",
+      "bytes": 2250,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/THIRD_PARTY_NOTICES.md.txt",
+      "output_sha256": "d7a5cbef050618bcd96d96685f358acc1bcddcd101c249d1b5b03e5ae1d96174",
+      "bytes": 1426,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/release-license-record.json",
+      "output_sha256": "b157d339211c2e93512c51bfbb9bd9f9bae7cee16cc19f30b91005e23af40efe",
+      "bytes": 1372,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "plugin.json",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "c9b275bc3a827a390a250bc3b8d47e4a05d89eec25d5875e22c1a15922545a9b",
+      "change": "Package-local recipient setup/scope metadata",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
       "source_relative": "references/atlas-library.md",
       "source_sha256": "adfb1e4c8922663a4f46cbebeea67315c99b2154d09254fc5ed46da55129171f",
-      "output_sha256": "0d88647fcb7fa06e9022dda7b4a105ef7bb68a3b94a1ed621c486ae5a5fdaebe",
+      "output_sha256": "3f6fbcc8b170563209e9bbd883abb61f9cfd632752a5ad378f64a5d81082eeb2",
       "transformed": true,
       "transformation": "Preserve complete optional source-selection rules; remove private launcher claim and config dependency.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
@@ -118,6 +334,17 @@
       "license_scope_category": "retained-or-mixed-upstream"
     },
     {
+      "path": "scripts/atlas_library_mcp.py",
+      "source_relative": "scripts/atlas_library_mcp.py",
+      "source_sha256": "2de7d68bdc9ae43cac37f1466efbb36f752bc443a48c9a9aa14dc258ac35f437",
+      "output_sha256": "9eb40dd8461a3ab37d131bd8d3aeab070bd9b62fe7ded340fe2d1d62aca90dfe",
+      "bytes": 1471,
+      "disposition": "source-first portable addition",
+      "rights": "Original author-owned source; prior grants retained, recipient runtime/data separate",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
       "source_relative": "skills/accessible-learning-design/SKILL.md",
       "source_sha256": "69b5d0bb743ea266e2172fe95c7e96e9acdf0cb07943545c1c0e917f3b011865",
       "output_sha256": "69b5d0bb743ea266e2172fe95c7e96e9acdf0cb07943545c1c0e917f3b011865",
@@ -134,7 +361,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -164,7 +391,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -194,7 +421,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -314,7 +541,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -364,7 +591,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -414,7 +641,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -434,7 +661,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -534,7 +761,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -594,7 +821,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -604,6 +831,26 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "source_relative": "standalone/learning-experience-designer/SKILL.md",
+      "source_owner": "standalone:learning-experience-designer",
+      "source_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+      "path": "skills/learning-experience-designer/SKILL.md",
+      "output_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+      "change": "Byte-exact standalone original source retained",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
+    },
+    {
+      "source_relative": "standalone/learning-experience-designer/references/adoption-map.md",
+      "source_owner": "standalone:learning-experience-designer",
+      "source_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+      "path": "skills/learning-experience-designer/references/adoption-map.md",
+      "output_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+      "change": "Byte-exact standalone original source retained",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -624,7 +871,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -654,7 +901,7 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -670,7 +917,7 @@
     {
       "source_relative": "skills/lesson-experience-design/references/activity-library.md",
       "source_sha256": "f088e6c35fafed267c1902b4aaf91b43bd38598105a842535da729167c943094",
-      "output_sha256": "00239dadd82ba9e75c9ee4cc3a45fc47120e9de50b2a8c31f69c26e8e0c9c353",
+      "output_sha256": "244b766f2ad089370861a757bebe553adbf89c676484ea9cfe824ebb4ffd6d04",
       "transformed": true,
       "transformation": "Retain full activity design/retrieval method and 31 adaptations; accurately document public projection and external source rights boundary.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
@@ -700,7 +947,7 @@
     {
       "source_relative": "skills/lesson-experience-design/scripts/search_activities.py",
       "source_sha256": "30ca570077c85b71ddc13e1f20af34c8a61ea6ce06d7aa32170e63c9e97358b3",
-      "output_sha256": "1a7af1cceeccfef1019abf81683206e675e3e77bbce4dbeca231197a48befbbe",
+      "output_sha256": "67264bfe7e3fdd821b78b78faa674f676757852a935a21ff952df5dde0271804",
       "transformed": true,
       "transformation": "Keep complete filtering/ranking/read behavior; validate opaque source reference rather than private path and search only original adaptation text, not excluded source summary.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
@@ -726,242 +973,12 @@
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
-    },
-    {
-      "source_relative": "standalone/learning-experience-designer/SKILL.md",
-      "source_owner": "standalone:learning-experience-designer",
-      "source_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
-      "path": "skills/learning-experience-designer/SKILL.md",
-      "output_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
-      "change": "Byte-exact standalone original source retained",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "source_relative": "standalone/learning-experience-designer/references/adoption-map.md",
-      "source_owner": "standalone:learning-experience-designer",
-      "source_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
-      "path": "skills/learning-experience-designer/references/adoption-map.md",
-      "output_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
-      "change": "Byte-exact standalone original source retained",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": ".claude-plugin/plugin.json",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "92b72e546b47bcbca2dad413e764dfee14704adc33fcebba1303cb887bf585ff",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "409223abc10ca548bf3800249d65d62ba61e16132756a73f80e05607d87c192f",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "LICENSE",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "LICENSE-CODE-MIT",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "LICENSE-DOCS-CC-BY-SA-4.0.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "SOURCE-ATTRIBUTIONS.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "69db482526d3b9e8fae797fb0bce1fa79ca138cdac80a94910de735e72370eb4",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "13df84332861335d5a3b40df2536d4f52b2864f0ebc80268e1226bb278e3c71f",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "docs/release-validation.md",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "232637d32ebc55fb3ceab223c069739ff1af5f1d1202af277b78365b347650e4",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "plugin.json",
-      "source_relative": null,
-      "source_sha256": null,
-      "output_sha256": "9c70777bea9f354566ca9b66721273bc7b4a5ef13bb1aa86073e4faf5bf4efb4",
-      "change": "Package-local recipient setup/scope metadata",
-      "edition_license_scope": "AGPL-3.0-only",
-      "license_scope_category": "first-party-code"
-    },
-    {
-      "path": "LICENSE-SCOPE.json",
-      "output_sha256": "29c2e0504dfc85af269388ece944c376ea7f44de29bcc797e58330b2bf710c15",
-      "bytes": 36027,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change."
-    },
-    {
-      "path": "LICENSING.md",
-      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
-      "bytes": 1904,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/BRAND-AND-ATTRIBUTION.md",
-      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
-      "bytes": 1112,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "bytes": 34523,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
-      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
-      "bytes": 1106,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/THIRD_PARTY_NOTICES.md",
-      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
-      "bytes": 151,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE",
-      "output_sha256": "2d3b22facbc9c80fcf5fbfa9050691c56a2d18fef427a95829c9fb5caf1dcc7a",
-      "bytes": 459,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE-CODE-MIT",
-      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
-      "bytes": 1077,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE-DOCS-CC-BY-SA-4.0.md.txt",
-      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
-      "bytes": 1345,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/SOURCE-ATTRIBUTIONS.md.txt",
-      "output_sha256": "5cae9a45c6ab57b27f11251ba27bd8cf1a09ef88f68b9e6d992c1695a437b118",
-      "bytes": 2250,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/THIRD_PARTY_NOTICES.md.txt",
-      "output_sha256": "d7a5cbef050618bcd96d96685f358acc1bcddcd101c249d1b5b03e5ae1d96174",
-      "bytes": 1426,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/release-license-record.json",
-      "output_sha256": "b157d339211c2e93512c51bfbb9bd9f9bae7cee16cc19f30b91005e23af40efe",
-      "bytes": 1372,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
     }
   ],
   "excluded_files": [
     {
       "path": ".mcp.json",
       "sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
-      "reason": "Empty private MCP declaration or private compatibility launcher; optional external retrieval remains documented."
-    },
-    {
-      "path": "scripts/atlas_library_mcp.py",
-      "sha256": "2de7d68bdc9ae43cac37f1466efbb36f752bc443a48c9a9aa14dc258ac35f437",
       "reason": "Empty private MCP declaration or private compatibility launcher; optional external retrieval remains documented."
     }
   ],
@@ -1014,8 +1031,15 @@
     "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
     "prior_version": "0.2.0",
     "prior_grants_preserved": true,
-    "operative_bodies_unchanged": true,
+    "operative_bodies_unchanged": false,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "prepared_reconciliation": {
+    "canonical_pre_parity_archive_sha256": "2f383aca4d7b8224431b728c74cea1053e8c3777bd7fada078b1d911a7e25058",
+    "public_distributable_files_before_self_inventories": 99,
+    "source_first": true,
+    "method_equivalence_claim": "Complete eligible procedures and support retained; live runtime/provider acceptance separately required.",
+    "runtime_change": "Original fixed-domain Atlas compatibility launcher included; optional recipient-owned binding, no automatic service registration."
   }
 }

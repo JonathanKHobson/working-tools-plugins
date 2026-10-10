@@ -19,14 +19,14 @@ Hi [events team or verified name],
 
 I can bring [verified game/materials offer]. [Optional concise proof or authorized compensation framing.] Would a paid guest-GM session fit your programming, and are you the right person to discuss it with?
 
-[My GM resume is attached , only after attachment verification.] The portfolio includes [relevant actual materials]: [verified portfolio URL].
+[My GM resume is attached, only after attachment verification.] The portfolio includes [relevant actual materials]: [verified portfolio URL].
 
 Thanks,
 [Your name]
 
 ## Warm introduction
 
-Subject: [Verified introducer]'s introduction , [shared topic]
+Subject: [Verified introducer]'s introduction: [shared topic]
 
 Hi [name],
 

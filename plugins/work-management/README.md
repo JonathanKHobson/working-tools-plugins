@@ -1,6 +1,6 @@
 # Work Management Studio
 
-Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff.
 
@@ -42,11 +42,11 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 
 ## Tools, setup and access
 
-`atlas-work-management` retrieves scoped planning and collaboration methods from the private Atlas. Read [Atlas guidance](references/atlas-library.md) only when a reference lookup helps; search a few candidates, then read selected IDs. Open the human browser only when the user is choosing or inspecting options. Hooks and evidence helpers are described below; they are separate from this retrieval MCP.
+When a recipient separately configures and registers the optional `atlas-work-management` launcher, it can retrieve scoped planning and collaboration methods from that recipient’s Atlas backend. Read [Atlas guidance](references/atlas-library.md) only when a reference lookup helps; after confirming the tool is available, search a few candidates and read selected IDs. Open the human browser only when the user is choosing or inspecting options. Without Atlas access, use the complete methods in this package and the user’s supplied sources. Hooks and evidence helpers are separate from this retrieval MCP.
 
 The plugin supplies methods, selected local helpers and bounded hooks. Native host tools own goals/chats/automations; a request to plan or draft does not authorize sending or publishing.
 
-Installation makes a package available; it does not establish a working server or permission for every action. Public edition installs no automatic provider registration. For optional Atlas access, explicitly choose the receiving-host binding and inspect its runtime/data files. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
+Installation makes a package available; it does not establish a working server or permission for every action. The distributable package installs no automatic provider registration. The author's separate private checkout retains host-bound hook configuration, which is not a recipient default. For optional Atlas access, explicitly choose the receiving-host binding and inspect its runtime/data files. Verify tool discovery and one harmless scoped read/overview. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions. Preserve the original task through setup; verify uncertain writes before retrying. Any historical verification notes are dated evidence, not current readiness.
 
 ## Reading routes for the assistant
 
@@ -57,9 +57,9 @@ Installation makes a package available; it does not establish a working server o
 
 ## Maintainer and existing integration notes
 
-Maintained private source: `~/plugins/work-management`. Installed through `personal`. Entry points live in `skills/`; detailed resources are conditional. Edit this source, validate, apply the system plugin-creator cachebuster, then reinstall `work-management@personal`. Never edit the generated cache. Start a new Codex task after an update.
+Maintain the recipient’s own source checkout or chosen install source for `work-management`. Entry points live in `skills/`; detailed resources are conditional. Edit the maintained source, validate it, then update through the native plugin manager using the recipient’s selected marketplace or source, such as `work-management@working-tools` when installed from Working Tools. Never edit a generated cache. Start a fresh Codex task after an update when discovery does not refresh in the current task.
 
-Historical standalone entrypoints are disabled compatibility redirects. Their old reference paths may remain for existing project instructions. The shared ownership/routing map is in `~/plugins/work-management/docs/skill-plugin-map.md`.
+Historical standalone entrypoints are disabled compatibility redirects. Their old reference paths may remain for existing project instructions. The shared ownership/routing map is in [docs/skill-plugin-map.md](docs/skill-plugin-map.md).
 
 The complete original UserPromptSubmit, SessionStart and Stop declarations are preserved as nonautoloaded templates in `optional-hooks/hooks.json`; the Claude template is `optional-hooks/claude-hooks.json`. No hook is installed by this package. If the recipient explicitly adopts a hook, select the actual stable package root/interpreter under current host support, preserve active sessions through an update and verify supported lifecycle events. The reminder also needs explicit WORK_MANAGEMENT_CONTEXT_OPT_IN=1 and actual recipient preferences. The Stop guard is quiet when there is no own active claim or `stop_hook_active` is true; it never blocks a turn on malformed input.
 
@@ -71,9 +71,9 @@ Manual project evidence review is available through `skills/evidence-review/`. T
 [Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
 <!-- END PROFESSIONAL-AGENTS -->
 
-## Public edition prerequisites and missing-provider behavior
+## Prerequisites and missing-provider behavior
 
-All ten skill heads and complete operative method/helper closures remain. The original private profile/health/relationship facts, goal entries and session record are excluded; same-path blank recipient templates preserve the selected continuity procedure. No automatic hook or MCP registration is installed. Full optional hook declarations are in `optional-hooks/`; adopt only under current recipient authorization after reviewing host support and tools. `scripts/codex_work_start.py` emits no context unless `WORK_MANAGEMENT_CONTEXT_OPT_IN=1` is explicitly selected; verify actual user preferences rather than treating this package as standing permission.
+All fourteen skill heads and complete operative method/helper closures remain. The original private profile/health/relationship facts, goal entries and session record are excluded; same-path blank recipient templates preserve the selected continuity procedure. No hook or MCP registration is bundled in the public payload; private author-host bindings are separately preserved. Full optional hook declarations are in `optional-hooks/`; adopt only under current recipient authorization after reviewing host support and tools. `scripts/codex_work_start.py` emits no context unless `WORK_MANAGEMENT_CONTEXT_OPT_IN=1` is explicitly selected; verify actual user preferences rather than treating this package as standing permission.
 
 Core methods work from supplied task/project evidence without an Atlas service. Optional Atlas helper requires Python3 and an explicitly chosen `--binding` JSON with reviewed interpreter, server and database. Other providers and native goals/chats/automations remain host capabilities. Dependencies are separately installed; exact callable tools and permission scope must be checked. All source examples using `PROJECT_VOLUME`, `RUNTIME_VOLUME`, `SYSTEM_DATA_ROOT` or `PLUGIN_ROOT` must be rebound to verified recipient-owned paths before execution. Historical inventories are provenance, not a deployment recipe or live availability claim.
 
@@ -81,7 +81,7 @@ For “delegate two tasks” when no authorized worker tool is available, report
 
 The source's closeout-hook regression suite targets an optional separately maintained host diagnostic, not a package implementation. Its entire test body remains, but runs only when `WORK_MANAGEMENT_CLOSEOUT_HELPER` explicitly selects a reviewed recipient helper; otherwise it reports a skipped external integration. The package's own coordinator, evidence-review, reminder, decision hint, role installation, scaffold and change-packet helpers are tested independently. Use Python3.11 or newer (`tomllib` is required for the role installer).
 
-## Standalone method additions in 0.3.0
+## Complete standalone methods
 
 14 complete skill heads are retained. The added methods are `cross-codex-workflow-exchange`, `github-conventions`, `skill-authoring`, `obsidian-vault-router`. Complete references and operative helpers are included; only originating private binding/input records are projected to recipient templates. No automatic installation of providers, hooks or global configuration occurs.
 

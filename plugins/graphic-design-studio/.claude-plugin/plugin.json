@@ -1,12 +1,22 @@
 {
   "name": "graphic-design-studio",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Design, compose, adapt, and verify static graphics and visual direction for motion pieces.",
   "author": {
     "name": "Jonathan Kyle Hobson"
   },
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": {
+    "image-workflows": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/image_workflows_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  },
   "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
   "homepage": "https://working-tools.jkylehobson.chatgpt.site/"

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "reasoning-studio",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "reviewed_date": "2026-10-10",
   "source_tree_sha256": "3f82e8560dd1b808c47d1f2d9b641a45dd538245f4c073ce9bd3b760840cd381",
   "retained_skill_count": 4,
@@ -9,20 +9,40 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "d77953d61643ae201cdba3aa4e82b16fdf01e183cd11ea00b8ee4d7e43615033",
-      "bytes": 601,
+      "output_sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589",
+      "bytes": 1064,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "c4dde27f45c86dd18549f3813ff76f94c6f308031e6fc3706311a6f718c8e431",
-      "output_sha256": "4b13434e1019b41540aed94a41334e34e29cdeff21cfe89e414a7747810130c4",
+      "output_sha256": "b879d6ac61bf87273d962071f66a974f051a7e5e3753469354f8dc4b3c6a5490",
       "disposition": "transformed",
       "change": "Public identity, complete head count, exact omitted source categories and no automatic provider registration.",
-      "bytes": 1255,
+      "bytes": 1286,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
+    },
+    {
+      "path": ".mcp.json",
+      "source_relative": ".mcp.json",
+      "source_sha256": "8691b4357be7858c205d56f5dc06ed0ff11734ce095b2323fbdc1146ee56a5a3",
+      "output_sha256": "7ad56b37808f2efb957f727a0c956ce75a5826ed2b973c61d0b3d51ac16a5697",
+      "bytes": 458,
+      "disposition": "source-first portable addition",
+      "rights": "Original author-owned source; prior grants retained, recipient runtime/data separate",
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "output_sha256": "b0711c06b8b936bf47870096ff36828b8c7ac1bc0c8a7e6b4b943bab7a6d705f",
+      "bytes": 451,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "license_scope_category": "first-party-noncode"
     },
     {
       "path": "LICENSE",
@@ -46,6 +66,32 @@
       "license_scope_category": "first-party-noncode"
     },
     {
+      "path": "LICENSE-SCOPE.json",
+      "output_sha256": "af68b6441c2c8dd48b0ca8bffb6ce7fc146fd64f00a318c97fba340b87e17cd2",
+      "bytes": 21738,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
+      "bytes": 1904,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
       "path": "PROVENANCE.md",
       "source_sha256": "7fe6501a431ed8ee1cbd212b3a7e12aaa4c836b3da7c8c042c4bd11eddf4ee7b",
       "output_sha256": "3e2dc2012c67dfb8fd72d7eb836115189c42f7f2699ebd418bb6fee6221851ed",
@@ -58,10 +104,10 @@
     {
       "path": "README.md",
       "source_sha256": "d60b2a4b21dc3159825fb852e44232ef2318822d33a0b727796316625d4e7ca7",
-      "output_sha256": "3ce5f82f99ad7b44f34cb297920dafd996151a6cb07f3dddb1a966c062f947b5",
+      "output_sha256": "dbf204d3f7606a3226761211025dceda1506ebad574f6e4dcb66adc8d6d08998",
       "disposition": "transformed",
       "change": "Retain complete human capability catalog; add actual prerequisites, precise omission/license scope and truthful absent-provider scenario.",
-      "bytes": 8919,
+      "bytes": 9868,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -82,10 +128,10 @@
     {
       "path": "docs/critical-compass-integration.md",
       "source_sha256": "ef08d3b5c6917f4c5cbc00b5142bb812796959abe71cb3d2695552ec0d6963b5",
-      "output_sha256": "51468b3b4e940382d5abc00075d1ce0a2430009172e96f0c9dc1edf484d882ac",
+      "output_sha256": "435b407e1861fbab3b561b88c77ca1a2f13f6031b4d418ac783bdc780561853b",
       "disposition": "transformed",
       "change": " Preserve full original procedure and historical source record; normalize receiving-host setup and unavailable inactive predecessor routes.",
-      "bytes": 4969,
+      "bytes": 5415,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -93,10 +139,10 @@
     {
       "path": "docs/project-map.md",
       "source_sha256": "7beb932f668a469e37226d9e9597b403584aa6c4f6947c43cbfdc3d7856b1f48",
-      "output_sha256": "d28ee849202ce97e84874dfdaf2a8e13fc9e35393c03a341e324ad3f2bbc5f0b",
+      "output_sha256": "60f77cad67ef7d7163fb9377fdc42c906a405f585ed999f3b32c312265e68316",
       "disposition": "transformed",
       "change": "Actual three-head complete method scope, four omitted nonoperative files, portable helper setup and external backend ownership.",
-      "bytes": 1401,
+      "bytes": 1877,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -112,8 +158,107 @@
       "license_scope_category": "first-party-noncode"
     },
     {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
+      "bytes": 1112,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "bytes": 1106,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/NOTICE.md",
+      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
+      "bytes": 789,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.md",
+      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
+      "bytes": 151,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See document",
+      "license_scope_category": "license-and-notice"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE",
+      "output_sha256": "4f304c3600477e6e4ae73fbbb5986d53635f946cdcf95f94fc93f34c6198f874",
+      "bytes": 665,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE-CODE-MIT",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "bytes": 1077,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/LICENSE-DOCS-CC-BY-SA-4.0.md.txt",
+      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
+      "bytes": 1345,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/SOURCE-ATTRIBUTIONS.md.txt",
+      "output_sha256": "ccfb6c4f08c729c75c38f13ba155a4f5355a91bf74290cef01b238bbf63ab229",
+      "bytes": 1256,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/THIRD_PARTY_NOTICES.md.txt",
+      "output_sha256": "79dfc6672b37294fa38738a5b45053c752c2f7ed4a63b1ca26889269cb5f0c79",
+      "bytes": 948,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
+      "path": "legal/prior-grants/0.2.0/release-license-record.json",
+      "output_sha256": "187e625a4ec1758a7dcdf2cd95f5e5de3520eaaa3ec8997699fb77597654812f",
+      "bytes": 1361,
+      "source_sha256": null,
+      "change": "New licensing metadata; no method/runtime body change.",
+      "edition_license_scope": "See retained grant text",
+      "license_scope_category": "prior-or-upstream-grant"
+    },
+    {
       "path": "plugin.json",
-      "output_sha256": "148a59fc7ef648ddf98026a34273360acb5d7dda4a4701dce698d9a9637bf568",
+      "output_sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d",
       "bytes": 1867,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
@@ -125,6 +270,17 @@
       "disposition": "transformed",
       "change": "Retain exact source hashes/migration identities without personal paths; explicitly mark omitted automatic registration.",
       "bytes": 2024,
+      "edition_license_scope": "AGPL-3.0-only",
+      "license_scope_category": "first-party-code"
+    },
+    {
+      "path": "provenance/pattern-picker-addition.json",
+      "source_relative": "provenance/pattern-picker-addition.json",
+      "source_sha256": "acee0a37f8db760cd7d093a047c2216f5b00fa5e31c97b413c49a24816ed6abd",
+      "output_sha256": "acee0a37f8db760cd7d093a047c2216f5b00fa5e31c97b413c49a24816ed6abd",
+      "bytes": 2233,
+      "disposition": "source-first portable addition",
+      "rights": "Original author-owned source; prior grants retained, recipient runtime/data separate",
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
@@ -291,40 +447,40 @@
     {
       "path": "scripts/atlas_library_mcp.py",
       "source_sha256": "0031304822e8e3ed8483f88113028aa7c084b9a70c25160b79df1134c4ea730c",
-      "output_sha256": "4a37fe50a5ef5872fbe5dff6e7c19d7667ec2a4432706c7f419930da1327d387",
+      "output_sha256": "5616576243160fbbc97526a890a7d74a9aa17f8508961465a09e01eaf9d8cf83",
       "disposition": "transformed",
       "change": "Preserve complete interpreter/env/argv/fixed-domain behavior; require explicit operator-selected binding instead of personal profile defaults; --help and missing config do not launch a service.",
-      "bytes": 1374,
+      "bytes": 1474,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
     {
       "path": "scripts/compass_mcp.py",
       "source_sha256": "d5861e41b49697918b3e719d4a0f26d5b08bfebb56f7291f4a7a91028a9bac78",
-      "output_sha256": "89f889febd41a30b10e6e17f04fb5fe832d2f62b298e24562a47fae45a670f2b",
+      "output_sha256": "fdb74e0f2bd0300df4f2fc810b6ab39d287a96de02e6c5daa4a4ee3979a397bf",
       "disposition": "transformed",
       "change": "Preserve complete interpreter/env/argv/fixed-domain behavior; require explicit operator-selected binding instead of personal profile defaults; --help and missing config do not launch a service.",
-      "bytes": 1988,
+      "bytes": 2082,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
     {
       "path": "scripts/critical_full_client.py",
       "source_sha256": "a9b1fcedb7b49057888ddaf13c205ed0083270e919465f7087b8f7ba2a82a6ae",
-      "output_sha256": "37c791f6795dba687df405d7b33d8c088d3dec69077299b1a48fa42c040866f1",
+      "output_sha256": "44131948a1bd86fb51c2ac7f0f0f88ab056a046758c9e3593e17cd4643a152fe",
       "disposition": "transformed",
       "change": "Retain full discover/schema/call/state/profile/output/hash/pause receipt behavior and venv re-exec; require explicit binding and defer SDK/runtime access until actual action so --help is passive.",
-      "bytes": 6533,
+      "bytes": 6606,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
     {
       "path": "scripts/critical_review_mcp.py",
       "source_sha256": "1ce808f2fb76652030602c48fe2c958358d737428848876bd5eafcab9fec2287",
-      "output_sha256": "f1872701a14bdfaa8890516442f2f19c6089779bfbad76218380b64ab17aba81",
+      "output_sha256": "ec7c29f50c5eeab02e59fa8d17639236ed35c7c676e4a7ec07c4ef9e41fb3869",
       "disposition": "transformed",
       "change": "Preserve complete interpreter/env/argv/fixed-domain behavior; require explicit operator-selected binding instead of personal profile defaults; --help and missing config do not launch a service.",
-      "bytes": 1294,
+      "bytes": 1396,
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code"
     },
@@ -391,7 +547,7 @@
       "rights": "CC-BY-SA-4.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md",
       "status": "modified",
-      "edition_license_scope": "AGPL-3.0-only",
+      "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-code"
     },
     {
@@ -429,140 +585,6 @@
       "bytes": 2231,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "output_sha256": "f8f7b999d7e7a3d5286e6c5ccd826f0659e6c3ae2e0e81743ae66c799b5a0ea5",
-      "bytes": 293,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "CC-BY-SA-4.0",
-      "license_scope_category": "first-party-noncode"
-    },
-    {
-      "path": "LICENSE-SCOPE.json",
-      "output_sha256": "bb835b1ba54decdf12d72f4436f85b22d3bf66e7b45d229fc68330885e771b0d",
-      "bytes": 21006,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
-    },
-    {
-      "path": "LICENSING.md",
-      "output_sha256": "2731fd0795aceed2ba7d42cf431f268766c095cc5bde3fdb986fe71aa2cec0a5",
-      "bytes": 1904,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/BRAND-AND-ATTRIBUTION.md",
-      "output_sha256": "8439eda2067128831c12f66af779507c382c60c06a81b0cc89da30bda39b4e7a",
-      "bytes": 1112,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
-      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "bytes": 34523,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
-      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
-      "bytes": 1106,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/NOTICE.md",
-      "output_sha256": "b6fc460a6f3efa4f32fff5d9bc6fa87c1dcf117682a4d6f564e7813c2de75d86",
-      "bytes": 789,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/THIRD_PARTY_NOTICES.md",
-      "output_sha256": "f16f45dc3ce5729d37d419b62807c223a1f6f78293da34e0ea0de80273cfc710",
-      "bytes": 151,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See document",
-      "license_scope_category": "license-and-notice"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE",
-      "output_sha256": "4f304c3600477e6e4ae73fbbb5986d53635f946cdcf95f94fc93f34c6198f874",
-      "bytes": 665,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE-CODE-MIT",
-      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
-      "bytes": 1077,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/LICENSE-DOCS-CC-BY-SA-4.0.md.txt",
-      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
-      "bytes": 1345,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/SOURCE-ATTRIBUTIONS.md.txt",
-      "output_sha256": "ccfb6c4f08c729c75c38f13ba155a4f5355a91bf74290cef01b238bbf63ab229",
-      "bytes": 1256,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/THIRD_PARTY_NOTICES.md.txt",
-      "output_sha256": "79dfc6672b37294fa38738a5b45053c752c2f7ed4a63b1ca26889269cb5f0c79",
-      "bytes": 948,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
-    },
-    {
-      "path": "legal/prior-grants/0.2.0/release-license-record.json",
-      "output_sha256": "187e625a4ec1758a7dcdf2cd95f5e5de3520eaaa3ec8997699fb77597654812f",
-      "bytes": 1361,
-      "source_sha256": null,
-      "change": "New licensing metadata; no method/runtime body change.",
-      "edition_license_scope": "See retained grant text",
-      "license_scope_category": "prior-or-upstream-grant"
     }
   ],
   "excluded_source_files": [
@@ -577,11 +599,6 @@
       "reason": "Nonoperative historical artwork; exact asset authorship/source grant not recorded."
     },
     {
-      "path": ".mcp.json",
-      "source_sha256": "8691b4357be7858c205d56f5dc06ed0ff11734ce095b2323fbdc1146ee56a5a3",
-      "reason": "Personal automatic provider registration; receiving host config remains a separate explicit action."
-    },
-    {
       "path": "provenance/research-origin/.mcp.json",
       "source_sha256": "e77f5139fe4cc830fee1c10636a97b25be664ae7b53b0c39d8218ebf67ebfa35",
       "reason": "Inactive historical personal provider registration; hash retained without launch config."
@@ -590,7 +607,7 @@
   "added_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "d77953d61643ae201cdba3aa4e82b16fdf01e183cd11ea00b8ee4d7e43615033"
+      "output_sha256": "f82c7799846a1f78a61367582adcf8c1f56aae02de6e09bb1d5ee595e06ad589"
     },
     {
       "path": "LICENSE",
@@ -614,10 +631,10 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "148a59fc7ef648ddf98026a34273360acb5d7dda4a4701dce698d9a9637bf568"
+      "output_sha256": "5fcabc0c891617983cc4e74779c75be0e17328b7a17e5e63beac18e9fc50be5d"
     }
   ],
-  "rights_decision": "Authorized original contribution grant; exact nonoperative/private registration or unidentified source-input unit omitted. Full operative method/helper scope retained.",
+  "rights_decision": "Authorized original contribution grant; two nonoperative historical icons and one inactive private research-origin registration omitted. Portable active two-server registration and all four operative methods included.",
   "acceptance_boundary": "Source/helper/synthetic checks only; native installation, real provider/import, respondent fielding and rendered acceptance unverified.",
   "standalone_scope": {
     "source_inventory": "Current standalone skill owner reconciliation",
@@ -628,8 +645,15 @@
     "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
     "prior_version": "0.2.0",
     "prior_grants_preserved": true,
-    "operative_bodies_unchanged": true,
+    "operative_bodies_unchanged": false,
     "scope_inventory": "LICENSE-SCOPE.json",
     "source_baseline_commit": "ccfc84e7affdc6a0e9990f88e92e34829403d2ff"
+  },
+  "prepared_reconciliation": {
+    "canonical_pre_parity_archive_sha256": "49393160669af06081b99844661c9615f562933926c71afc6f61beabebae1712",
+    "public_distributable_files_before_self_inventories": 60,
+    "source_first": true,
+    "method_equivalence_claim": "Complete eligible procedures and support retained; live runtime/provider acceptance separately required.",
+    "runtime_change": "Portable two-server Codex and Claude registration; recipient-owned existing studio-tools bindings remain external."
   }
 }

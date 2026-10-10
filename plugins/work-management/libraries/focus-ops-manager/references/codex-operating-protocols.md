@@ -17,7 +17,7 @@ Use when the work is vague, scattered, overwhelming, or just beginning.
 
 ## System Pressure Guard
 
-Use when Kyle reports freezing, Finder/Chrome/Codex slowness, hard resets,
+Use when the user reports freezing, Finder/Chrome/Codex slowness, hard resets,
 power failure recovery, missing Codex project folders, memory pressure, or when
 starting a broad/resource-heavy lane.
 
@@ -36,7 +36,7 @@ starting a broad/resource-heavy lane.
 5. Keep `$PROJECT_VOLUME`, `$RUNTIME_VOLUME`, and
    `$PROJECT_VOLUME III` guarded with `.metadata_never_index` and
    `mdutil -i off`.
-6. Keep Codex on the automation-safe MCP baseline unless Kyle explicitly asks
+6. Keep Codex on the automation-safe MCP baseline unless the user explicitly asks
    to keep a temporary MCP enabled.
 7. Do not disable Malwarebytes, GhostPepper, KSB, or Claude-owned KSB
    processes from generic cleanup.
@@ -99,7 +99,7 @@ MCPs.
 1. Default harvest is inspect-only. Do not install, run scripts, enable MCPs,
    wire configs, or copy executable code during the first pattern pass.
    Downloading/extracting source archives into a workspace cache for read-only
-   review is allowed when Kyle explicitly asks for a thorough pass; executing
+   review is allowed when the user explicitly asks for a thorough pass; executing
    anything from those archives is not.
 2. Inventory the local target first: existing skill, MCP, protocol, or backlog
    file. Prefer improving an existing surface over creating a new one.
@@ -155,7 +155,7 @@ Use when enabling or relying on a Codex MCP for a task.
 2. Enable only the MCPs required for the current work.
 3. Use the narrowest tool that answers the question.
 4. Keep MCP output tied to the deliverable, not exploratory sprawl.
-5. Before signoff, disable MCPs enabled for the task unless Kyle explicitly asks
+5. Before signoff, disable MCPs enabled for the task unless the user explicitly asks
    to leave them on. Never disable the automation-safe baseline as routine
    cleanup.
 6. Report what was enabled, what evidence it provided, and whether it was

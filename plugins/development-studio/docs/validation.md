@@ -13,6 +13,6 @@ Prepared and verified 2026-10-08. This receipt covers the source package, not na
 The release file list hashes every source member except itself after these receipts were written. Parent installation must compare both directions and verify fresh skill discovery. Live MCP/provider behavior and optional helper execution are not claimed.
 
 
-## Public0.2.0 source integration
+## Historical 0.2.0 standalone source integration
 
-The added complete standalone methods are source/synthetic verified:21-head route validator,252 imported file hashes,181 local links,42 provider references; nine behavioral/integrity tests passed. All current discovery heads pass Skill Creator validation in the external verification environment. Synthetic Go retrieval/no-write and actual Apps SDK scaffold generation/refusal passed. Native discovery, runtime providers, compiled projects and publication remain separate lead-owned checks. Earlier11-head native/source results remain historical receipts.
+The added complete standalone methods are source/synthetic verified: 21-head route validator, 252 imported file hashes, 181 local links, 42 provider references; nine behavioral/integrity tests passed. All current discovery heads pass Skill Creator validation in the external verification environment. Synthetic Go retrieval/no-write and actual Apps SDK scaffold generation/refusal passed. Native discovery, runtime providers, compiled projects and publication remain separate lead-owned checks. Earlier 11-head native/source results remain historical receipts.

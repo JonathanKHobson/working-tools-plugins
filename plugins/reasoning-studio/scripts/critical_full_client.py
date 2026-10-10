@@ -109,7 +109,7 @@ async def run(options: argparse.Namespace) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--binding", type=Path, required=True, help="Operator-selected Compass JSON binding; no personal default")
+    parser.add_argument("--binding", type=Path, default=Path.home() / ".config/studio-tools/compass.json", help="Operator-selected Compass JSON binding; defaults to the current user's studio-tools file")
     parser.add_argument("action", choices=("discover", "schema", "call"))
     parser.add_argument("output", type=Path, help="File for complete JSON response")
     parser.add_argument("--tool", help="Exact tool name for schema")

@@ -1,6 +1,6 @@
 # Game Creation Studio
 
-Current edition **0.3.1** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Design a playable game or prepare and facilitate a tabletop session. Turn a game idea into a playable, testable slice. Start with the player's repeated choice, decide what must exist for one complete run, build that slice in the game's owning project, and test it with players. The package also preserves the full third-party Game Development Studio 1.0.2 methods for assets, package vendoring, render diagnosis, and performance work.
 

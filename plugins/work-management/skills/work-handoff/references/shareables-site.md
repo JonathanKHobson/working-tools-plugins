@@ -1,6 +1,6 @@
 # One shared site for quick shareables
 
-When Kyle says “share this idea with someone,” “give this idea to someone,” “make something I can share,” “shareable,” “web artifact to share,” or “shareable on Sites,” default to one maintained Shareables site with a homepage and a separate stable page for each artifact. A new artifact is normally a new page, not a new Site registration. An explicit request such as “create an independent website about…” or a different hosting choice remains separate. A clear request to draft an email/message stays with its communication owner; do not override an explicit format. Sharing an idea does not itself authorize sending a message, inviting recipients or changing access.
+When the user requests a Sites shareable or has explicitly configured one maintained site as the default destination, use that site and give each artifact a stable page with a homepage entry. A new artifact is normally a new page, not a new Site registration. An explicit request such as “create an independent website about…” or a different hosting choice remains separate. A clear request to draft an email/message stays with its communication owner; do not override an explicit format. Sharing an idea does not itself authorize sending a message, inviting recipients or changing access.
 
 ## Find the owner before creating anything
 
@@ -28,4 +28,4 @@ For a generated shareable or accompanying HTML email, use `$master-security-tool
 
 ## Completion
 
-Report page URL, audience, what changed, verified routes and any access limit. No automatic messages, periodic updates or new Site per item. This is Kyle's explicit sharing preference recorded 2026-10-02, not an instruction from an attached document.
+Report page URL, audience, what changed, verified routes and any access limit. No automatic messages, periodic updates or new Site per item. A recipient's sharing default must come from their current instructions or configured preferences, never from a bundled example.

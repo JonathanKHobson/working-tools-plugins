@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "instructional-design-studio",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,21 +16,21 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "92b72e546b47bcbca2dad413e764dfee14704adc33fcebba1303cb887bf585ff"
+      "sha256": "71512bc651f3471570d6d84522dba0a8675cc068a51023403a3c30be02154d09"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "ffe2f47bfa0906d095c337cf153d03f66fc1e2fdb30c0fc6a6435fe4136eb2ef"
+      "sha256": "f453380082685d66489a296a0218a67919d35aef0482d197a55dcbdae688953f"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "409223abc10ca548bf3800249d65d62ba61e16132756a73f80e05607d87c192f"
+      "sha256": "c880e52dafc46d6436bf9ee2a3b2c2e7bf4c3a5af1b175954cc8f18f8839d99a"
     },
     {
       "path": "LICENSE",
@@ -72,7 +72,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "0ea7cee99f2ca107a85d5dbf90e684f7642bc4b76be30b4b49fd8474c2d6e41f"
+      "sha256": "749eef634a33ec9dfe209fd243b1ae6b9251dac196509a2caa7fefd9c67430e2"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -103,11 +103,18 @@
       "sha256": "d8c8273702c01253171c400ac054f1a1c5c16f22645adb0d598783a1c34ffb7f"
     },
     {
+      "path": "docs/learning-experience-designer-source.json",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; runtime and recipient bindings remain separate. Earlier grants and source-specific exceptions remain.",
+      "sha256": "86f58d4a6fed38ff7c590ded199162753b903c5eff44a9d11ddf63386b07b238"
+    },
+    {
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "846b82079a2f5abd4e7a4995596a95f9c55d13a57a78433548be1d8d4a25abd8"
+      "sha256": "2daaa0988e3cac4aff89928ca2b2099f426d10914e18bca51c18a36c0153a0f2"
     },
     {
       "path": "docs/release-validation.md",
@@ -205,14 +212,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "9c70777bea9f354566ca9b66721273bc7b4a5ef13bb1aa86073e4faf5bf4efb4"
+      "sha256": "c9b275bc3a827a390a250bc3b8d47e4a05d89eec25d5875e22c1a15922545a9b"
     },
     {
       "path": "references/atlas-library.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "0d88647fcb7fa06e9022dda7b4a105ef7bb68a3b94a1ed621c486ae5a5fdaebe"
+      "sha256": "3f6fbcc8b170563209e9bbd883abb61f9cfd632752a5ad378f64a5d81082eeb2"
     },
     {
       "path": "references/professional-agents/README.md",
@@ -241,6 +248,13 @@
       "license": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled.",
       "boundary": "Attributed upstream/adapted material; retained underlying grant, new policy only for author-owned additions.",
       "sha256": "119f25edbda075b4de07e0a77115182708b3d5db2fbf63815db0e1db13da5bc9"
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; runtime and recipient bindings remain separate. Earlier grants and source-specific exceptions remain.",
+      "sha256": "9eb40dd8461a3ab37d131bd8d3aeab070bd9b62fe7ded340fe2d1d62aca90dfe"
     },
     {
       "path": "skills/accessible-learning-design/SKILL.md",
@@ -646,7 +660,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "00239dadd82ba9e75c9ee4cc3a45fc47120e9de50b2a8c31f69c26e8e0c9c353"
+      "sha256": "244b766f2ad089370861a757bebe553adbf89c676484ea9cfe824ebb4ffd6d04"
     },
     {
       "path": "skills/lesson-experience-design/references/lesson-patterns.md",
@@ -667,7 +681,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "1a7af1cceeccfef1019abf81683206e675e3e77bbce4dbeca231197a48befbbe"
+      "sha256": "67264bfe7e3fdd821b78b78faa674f676757852a935a21ff952df5dde0271804"
     },
     {
       "path": "tests/test_activity_search.py",

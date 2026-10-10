@@ -4,9 +4,9 @@ from PIL import Image
 from video_workflow.visualize import make_contact_sheet, make_timeline_view, make_waveform
 
 
-def test_visual_evidence_generation(tmp_path: Path) -> None:
+def test_visual_evidence_generation(tmp_path: Path, sample_video) -> None:
     root = Path(__file__).resolve().parents[1]
-    video = root / "examples/music-slideshow/output/preview.mp4"
+    video = sample_video()
     audio = root / "examples/music-slideshow/assets/music.wav"
     contact = make_contact_sheet(video, tmp_path / "contact.png", count=6, frame_width=240)
     waveform = make_waveform(audio, tmp_path / "wave.png", width=800, height=180)

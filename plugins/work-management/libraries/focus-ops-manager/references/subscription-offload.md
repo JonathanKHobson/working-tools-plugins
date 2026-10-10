@@ -1,7 +1,6 @@
 # Subscription tools as bounded workers
 
-Kyle authorizes proactive suitable delegation to existing paid/available
-services. Use it for substantial independent research, drafting, critique, or
+Use proactive delegation to available models only under the receiving user's current authorization for those services. Use it for substantial independent research, drafting, critique, or
 design that saves lead effort or adds a useful perspective while the lead
 continues work. Keep simple work local. No new framework,
 mandatory multi-model vote, or time-estimate ledger is needed. The Codex lead
@@ -23,8 +22,7 @@ These are preferences, not benchmarks. Standard ChatGPT Web Pro and the special
 Deep Research feature are different controls. Deeper research uses standard Pro
 conversation by default; do not activate ChatGPT or Gemini Deep Research unless
 the user explicitly requests that feature. Check the visible account,
-model/mode and limits before dispatch. Kyle reports ample ChatGPT/Gemini access,
-but allowances and tools are dynamic. Never switch to a paid API, enable extra
+model/mode and limits before dispatch. Do not infer ChatGPT or Gemini access from this source; verify current availability because allowances and tools change. Never switch to a paid API, enable extra
 billing, or grant broad connector access as an automatic fallback. Documentation
 proves a capability exists; the live account proves availability here.
 

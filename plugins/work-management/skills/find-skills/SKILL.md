@@ -8,7 +8,7 @@ description: Find and fill demonstrated ecosystem gaps using repositories, skill
 When orientation helps, briefly name this skill’s outcome, needed input and expected result, then proceed. Broader help uses the [plugin introduction](../../README.md); skip maintainer notes unless needed.
 
 
-Improve Kyle's ability to ship paid work, career and teaching outcomes, credible portfolio evidence and public work. Prefer a useful addition to an existing owner over another plugin. This is a personalized adaptation of Vercel's find-skills; source and license are in [provenance](references/provenance.md).
+Improve the receiving user's ability to ship the outcome they actually requested, using their stated priorities and current evidence. Prefer a useful addition to an existing owner over another plugin. This is a personalized adaptation of Vercel's find-skills; source and license are in [provenance](references/provenance.md).
 
 ## Reusable gap-filling workflow
 
@@ -17,7 +17,7 @@ For supplied repositories, plugins, research packets, project techniques or an e
 ## Establish the gap before searching
 
 1. Name the concrete outcome and what the current ecosystem cannot do. Read the owning project map and smallest relevant skill. A failed tool connection, stale discovery catalog, missing credential, uninstalled native provider or unfamiliar skill name is not automatically a missing method.
-2. Check the [current ownership map](../../docs/skill-plugin-map.md), the actual canonical skill and relevant supporting files, the installed version and callable tools. On Kyle's Mac, maintained source is under `~/plugins`; installed caches are generated outputs. Also check relevant standalone skills and platform providers. Do not infer absence from titles or catalog counts alone.
+2. Check the [current ownership map](../../docs/skill-plugin-map.md), the actual canonical skill and relevant supporting files, the installed version and callable tools. Locate the current host's maintained source; installed caches are generated outputs. Also check relevant standalone skills and platform providers. Do not infer absence from titles or catalog counts alone.
 3. For an audit or history-informed request, use narrowly relevant conversation memory and Computer History only under their current access rules. Check timestamps and current project/plugin evidence: an old unfinished workflow may already be implemented. Keep private history local; send only generic capability terms to public search. Do not collect history for every ordinary task.
 4. If current coverage is sufficient, use it and stop discovery. If routing is broken, repair the authorized routing. Otherwise record the observed gap, existing coverage, desired output, likely owner, current authorization scope (discovery or implementation) and a concrete acceptance check. Prefer evidence of recurring friction or a near-term deliverable over hypothetical utility.
 
@@ -56,7 +56,7 @@ Report the gap, selected owner, exact source, security outcome and limits, integ
 
 ## Ongoing behavior
 
-Apply this workflow whenever an authorized task exposes a real recurring gap or Kyle requests discovery/audit. Return to the task after one bounded search/admission pass. Do not keep searching to fill a quota. This skill adds no background watcher, scheduled scan, automatic installer or recurring message. If Kyle explicitly asks for a schedule, use the native automation owner with a defined scope and meaningful-change notification policy.
+Apply this workflow whenever an authorized task exposes a real recurring gap or the user requests discovery/audit. Return to the task after one bounded search/admission pass. Do not keep searching to fill a quota. This skill adds no background watcher, scheduled scan, automatic installer or recurring message. If the user explicitly asks for a schedule, use the native automation owner with a defined scope and meaningful-change notification policy.
 
 Examples: a missing LMS export check belongs first in Instructional Design; an invoice reconciliation workflow needs a real ownership comparison before proposing a business-operations plugin; a request to edit a cover letter uses Career's existing workflow without external discovery.
 

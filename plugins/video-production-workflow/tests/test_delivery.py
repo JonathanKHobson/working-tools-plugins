@@ -200,10 +200,10 @@ def test_unbound_transcript_is_not_ready(delivery):
     assert "transcript-render-mismatch" in codes(check())
 
 
-def test_cli_probes_real_media_without_writing(tmp_path, capsys):
+def test_cli_probes_real_media_without_writing(tmp_path, capsys, sample_video):
     from video_workflow.cli import main
     from video_workflow.probe import probe_media
-    render = Path(__file__).resolve().parents[1] / "examples/multi-aspect-variants/output/vertical/preview.mp4"
+    render = sample_video(width=360, height=640)
     probe = probe_media(render)
     spec = {"schemaVersion": 1, "items": [{"id": "real-probe", "format": "portrait", "files": {
         "render": {"path": str(render), "sha256": digest(render),
@@ -216,4 +216,4 @@ def test_cli_probes_real_media_without_writing(tmp_path, capsys):
     result = json.loads(capsys.readouterr().out)
     assert result["items"][0]["files"]["render"]["height"] == 640
     assert digest(render) == before
-    assert list(tmp_path.iterdir()) == [manifest]
+    assert set(tmp_path.iterdir()) == {manifest, render}
