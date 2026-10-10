@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${PLUGIN_ROOT}/scripts/design_runtime.py\" hook post --project .",
+            "command": "python3 \"${PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/scripts/design_runtime.py\" hook post --project .",
             "timeout": 5,
             "statusMessage": "UX Design Studio: review opted-in frontend changes"
           }
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${PLUGIN_ROOT}/scripts/design_runtime.py\" hook stop --project .",
+            "command": "python3 \"${PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/scripts/design_runtime.py\" hook stop --project .",
             "timeout": 30,
             "statusMessage": "UX Design Studio: complete opted-in review"
           }
