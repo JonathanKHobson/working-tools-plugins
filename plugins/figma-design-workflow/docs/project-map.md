@@ -20,3 +20,7 @@ Start at the relevant skill; load only the supporting guide needed for that step
 The operator is adapted from the user's supplied Figma UI Operator ZIP. Dated user-authorized task/history evidence informed import and recovery guidance; private source content is excluded. The focused QA guide adapts local design-taste-gate and UX heuristic principles without depending on their full tool stacks. Built-in imagegen remains a separate installed skill/runtime, not copied into this plugin.
 
 Edit the owning skill or shared reference, validate every skill plus the plugin, check internal links, then publish a separately versioned export and verify its installed copy. Source and installed package are distinct states. Keep unrelated project work and raw design exports outside this plugin.
+
+## Standalone integration 0.2.0
+
+`docs/standalone-imports.json` owns exact newly retained full method/support hashes and portability decisions. Discovery exposes 6 heads; platform providers/configuration remain external. Root PROVENANCE and PUBLIC_FILE_MANIFEST bind the final public closure.

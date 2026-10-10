@@ -8,13 +8,13 @@ Builder Tools 0.1.0 and MCP Workbench 0.1.0 were observed disabled in host confi
 | prd-strategist, plain-to-dev | Work Management product-definition and full original libraries; keep that owner |
 | vibe-check | UX Design Studio preserves MIT source and active design route; do not duplicate |
 | systematic-debugging | Full Superpowers method and support now routed here; local distilled source remains retained for any additional unproven coverage |
-| code-intelligence | New code-navigation decision reference here, with source idea attribution; original text not imported because complete rights notice was absent |
-| native-macos-app-builder | Official Build macOS Apps supplies current platform workflows; historical local additions have not been proved equivalent, keep source |
+| code-intelligence | New code-navigation decision reference here, with source idea attribution; complete standalone adaptation and pinned Apache method/reference/license closure now included; historical rights hold superseded |
+| native-macos-app-builder | Official Build macOS Apps supplies current platform workflows; complete local six-file method now included alongside official execution providers; preserve historical source |
 | openai-docs | Current official skill remains owner |
 | cloudflare-deploy, gh-address-comments, gh-fix-ci | Sources include Apache-2.0 notices; no full maintained successor established in this task. Retain source and existing provider tooling |
 | playwright, playwright-interactive | Apache-2.0 and Microsoft icon notices observed; current browser tooling is the execution owner. Legacy skill support remains retained because replacement coverage was not proved |
-| golang-effective | 817-file reference set, SKILL attributes MIT qtnx source but no local license file found. Retain source, rights and Go coverage pending |
-| github-conventions, local-app-pipeline | Personal host/project conventions; retain privately. Do not export host paths or treat them as universal methods |
+| golang-effective | complete MIT method/query engine/notices included;810third-party chunks and populated index remain external and uncleared |
+| github-conventions, local-app-pipeline | github-conventions stays private; full local-app-pipeline methods/template/scripts now included with recipient bindings and no private runtime state |
 | pattern-picker | Other studios still reference the name; no full replacement proved here, retain source |
 | local-data-mcp-builder, local-mcp-debugging | Integrated as portable full local MCP methods/support through local-mcp-systems, with exact adaptations and remaining helper runtime gates documented |
 | chatgpt-apps | MCP app coverage is active here, but full 11-file Apps SDK predecessor parity has not been proved. Keep source and official OpenAI developer tooling |

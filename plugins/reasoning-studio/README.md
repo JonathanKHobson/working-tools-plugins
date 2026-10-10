@@ -29,6 +29,7 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 | --- | --- |
 | [alternative-perspectives](skills/alternative-perspectives/SKILL.md) | Compare credible explanations or viewpoints for a claim or decision and preserve consequential disagreement without false balance or simulated evidence. |
 | [critical-reasoning](skills/critical-reasoning/SKILL.md) | Stress-test a claim, argument, plan or method in any domain; use Critical Compass for bounded content and paper audits and scoped Atlas reasoning lenses. |
+| [pattern-picker](skills/pattern-picker/SKILL.md) | Select and compare three frameworks from authorized source entries before applying the chosen approach. |
 | [socratic-questioning](skills/socratic-questioning/SKILL.md) | Help a user examine an assumption or clarify a decision through focused Socratic dialogue, one consequential question at a time. |
 
 ## Tools, setup and access
@@ -50,7 +51,7 @@ For requested visual reasoning, [the shared drawing route](references/draw-think
 
 ## Maintainer and existing integration notes
 
-Pressure-test claims, examine assumptions in dialogue and compare credible alternatives. Three focused skills reuse the existing Critical Compass runtime and scoped Knowledge Atlas, preserving consent, evidence provenance and dissent. See [project map](docs/project-map.md).
+Pressure-test claims, examine assumptions in dialogue and compare credible alternatives. The original three focused methods reuse the existing Critical Compass runtime and scoped Knowledge Atlas, preserving consent, evidence provenance and dissent. The fourth method, Pattern Picker, selects a framework from recipient-authorized sources. See [project map](docs/project-map.md).
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional agents
@@ -60,8 +61,14 @@ Pressure-test claims, examine assumptions in dialogue and compare credible alter
 
 ## Public edition and prerequisites
 
-Version 0.1.3 retains all 3 top-level method heads. Four nonoperative icon/automatic-registration files excluded; no operative methods omitted. See [source attributions](SOURCE-ATTRIBUTIONS.md), [license](LICENSE), [notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.json). No account, provider, data corpus or live connection is installed by this package.
+Version 0.2.0 retains the original three methods and adds the complete standalone Pattern Picker procedure, for four skills. Four nonoperative icon/automatic-registration files excluded; no operative methods omitted. See [source attributions](SOURCE-ATTRIBUTIONS.md), [license](LICENSE), [notices](THIRD_PARTY_NOTICES.md) and [provenance](PROVENANCE.json). No account, provider, data corpus or live connection is installed by this package.
 
 Methods work from a supplied claim/evidence and the current user's actual answers. Formal tools require separately available Critical Compass; lenses require an authorized Atlas source; drawing/review require their separate providers. Optional helper actions need Python 3.10+, the MCP SDK for the full client, a reviewed existing provider environment, and an explicit `--binding` JSON. Binding shapes are `{"critical-compass":{"interpreter":"/path/to/python","server":"/path/to/server.py","args":[],"env":{}}}` for Compass, `{"interpreter":"/path/to/python","server":"/path/to/server.py","database":"/path/to/database"}` for fixed reasoning Atlas, and `{"interpreter":"/path/to/python","server":"/path/to/server.py","data_dir":"/path/to/data"}` for Critical Review. Real binding files remain recipient-controlled outside this package; credentials use provider setup.
 
 Example: “Stress-test the claim that shorter onboarding will improve retention.” If Compass is absent, inspect the supplied evidence and perform a labeled internal reasoning check, identify alternative explanations and the discriminating next observation. Report the absent Compass audit; do not invent scores, human answers or independent reviewers. For an advanced audit, preserve its actual approval/pause/report gates. This is an authored expected behavior scenario, not a recorded live provider run.
+
+## Framework selection
+
+[Pattern Picker](skills/pattern-picker/SKILL.md) retains the original intake, two-pass retrieval, exactly-three comparison, winner rationale and tailored-prompt procedure. The original 389/353-record corpora remain excluded for unverified redistribution rights. Supply an authorized fast index and matching rich-entry file for real work; eight clearly labelled original synthetic entries support an offline sample. The procedure does not infer that a framework is empirically validated.
+
+Safe sample: use the bundled synthetic entries to compare approaches to a fictional two-option scheduling decision, with a one-page comparison as the desired output and no external action. Confirm the intake, narrow 5–8 candidates, retrieve only the final three detailed entries and explain the winner without claiming an independent study or full historical library search.

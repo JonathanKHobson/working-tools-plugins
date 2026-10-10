@@ -13,14 +13,14 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Create or inspect a Figma design | [Figma Design Workflow](plugins/figma-design-workflow/) | Figma access and a supported host tool |
 | Design a lesson or assessment | [Instructional Design Studio](plugins/instructional-design-studio/) | Learner context and objectives |
 | Plan an accessible workshop | [Workshop Facilitator](plugins/workshop-facilitator/) | Purpose, participants and constraints |
-| Scope and playtest a game | [Game Creation Studio](plugins/game-creation-studio/) | A game idea and your chosen engine |
-| Prepare invoices or reconcile payments | [Solo Service Operations](plugins/solo-service-operations/) | Your own records; Python for the helper |
+| Design a game or run a tabletop session | [Game Creation Studio](plugins/game-creation-studio/) | A game idea and your chosen engine |
+| Manage paid services, invoices and email review | [Solo Service Operations](plugins/solo-service-operations/) | Your own records; Python for the helper |
 | Build an MCP app or local integration | [Build MCP Apps](plugins/build-mcp-apps/), [Development Studio](plugins/development-studio/) | Coding tools and the selected runtime |
 | Choose video references and plan a storyboard | [Video Templates](plugins/video-templates/) | Python and an MCP Apps host for the widget |
 | Explore data and explain a chart | [Data Visualization Toolkit](plugins/data-visualization-toolkit/) | Your dataset; Python for Data Explorer |
 | Choose an activity from your own collection | [Activities Templates](plugins/activities-templates/) | Python and an authorized activity catalog |
 | Find and hand off a verified design source | [Design Templates](plugins/design-templates/) | Python and your authorized template collection |
-| Test an argument or consequential assumption | [Reasoning Studio](plugins/reasoning-studio/) | A claim and its evidence |
+| Test an argument or choose a reasoning framework | [Reasoning Studio](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |
 | Diagnose Mac apps or verify a file move | [Mac Operations Toolkit](plugins/mac-ops-toolkit/) | macOS, exact target and receiving-host storage configuration |

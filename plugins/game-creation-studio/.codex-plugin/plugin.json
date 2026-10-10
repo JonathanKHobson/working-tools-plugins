@@ -1,12 +1,12 @@
 {
   "name": "game-creation-studio",
-  "version": "0.2.0",
-  "description": "Design, prototype, test, and prepare games with source-grounded asset and diagnostic workflows.",
+  "version": "0.3.0",
+  "description": "Design, prototype and test games; prepare and facilitate tabletop play with full board-game, GM and source-aware workflows.",
   "skills": "./skills/",
   "interface": {
     "displayName": "Game Creation Studio",
     "shortDescription": "Shape and ship playable games.",
-    "longDescription": "Focused game design and production methods, with preserved Game Development Studio asset, vendoring, visual diagnosis, and performance methods. Browser implementation routes to the separately installed OpenAI Game Studio. Optional game-dev CLI execution is a separate dependency and is not installed by this package.",
+    "longDescription": "Twenty-five full workflows cover game systems, board/card rules, production diagnostics and live tabletop preparation, facilitation, roleplay, safety and debriefs. Includes a read-only live-card checker. External game engines, services, rulebooks and recipient table data remain separate.",
     "category": "Developer Tools",
     "capabilities": [
       "Game design",
@@ -19,9 +19,9 @@
       "Performance analysis"
     ],
     "defaultPrompt": [
-      "Design a small playable core loop from this game idea.",
-      "Turn this concept into a one-week prototype and playtest.",
-      "Diagnose this game capture and telemetry."
+      "Design a small playable game and its next test.",
+      "Prepare a system-neutral one-shot run sheet from my supplied sources.",
+      "Give me one compact live GM intervention without inventing player motives."
     ]
   },
   "keywords": [

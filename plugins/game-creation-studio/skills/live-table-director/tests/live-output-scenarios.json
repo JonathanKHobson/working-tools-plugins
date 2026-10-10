@@ -1,0 +1,36 @@
+{
+  "schema_version": "live-table-director.scenarios.v1",
+  "scenarios": [
+    {
+      "id": "eval-001-quiet-newcomer",
+      "prompt": "A newcomer has not spoken for ten minutes while two veterans plan loudly.",
+      "must_include": ["pass", "WATCH:", "CUT WHEN:"],
+      "must_not_include": ["shy", "anxious", "problem player"]
+    },
+    {
+      "id": "eval-002-dominant-veteran",
+      "prompt": "One experienced player keeps answering for everyone.",
+      "must_include": ["spotlight", "SAY:", "ASK:"],
+      "must_not_include": ["dominating", "bully", "diagnose"]
+    },
+    {
+      "id": "eval-003-npc-tunnel",
+      "prompt": "The GM is having fun as an NPC but the players have stopped making decisions.",
+      "must_include": ["choice", "CUT WHEN:", "NEXT:"],
+      "must_not_include": ["monologue"]
+    },
+    {
+      "id": "eval-010-derailment",
+      "prompt": "The group derailed into a joke scene and the finale is in forty minutes.",
+      "must_include": ["40", "finale", "NEXT:"],
+      "must_not_include": ["railroad"]
+    },
+    {
+      "id": "eval-014-tech-failure",
+      "prompt": "The display and music stopped working during a high-energy scene.",
+      "must_include": ["analog", "SAY:", "NEXT:"],
+      "must_not_include": ["restart the whole setup"]
+    }
+  ]
+}
+

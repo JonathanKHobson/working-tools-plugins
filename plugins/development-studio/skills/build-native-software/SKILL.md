@@ -5,6 +5,8 @@ description: "Build or debug iOS/macOS software, or reproduce and profile Androi
 
 # Build native software
 
+For native macOS architecture and implementation, read the full [Native macOS App Builder](../native-macos-app-builder/SKILL.md) and the relevant included architecture, UI, packaging or troubleshooting reference. Official providers remain necessary for actual execution.
+
 Use [platform providers](../../references/platform-providers.md) to select and read the complete matching official method. This package does not supply Xcode, signing identities, Android SDKs, simulators or XcodeBuildMCP.
 
 1. Resolve the repository, target OS/version, build system, scheme/variant, device and current failure or desired behavior. Inspect the existing architecture before adding a new app shell.

@@ -1,6 +1,6 @@
 # Game Creation Studio
 
-Turn a game idea into a playable, testable slice. Start with the player's repeated choice, decide what must exist for one complete run, build that slice in the game's owning project, and test it with players. The package also preserves the full third-party Game Development Studio 1.0.2 methods for assets, package vendoring, render diagnosis, and performance work.
+Design a playable game or prepare and facilitate a tabletop session. Turn a game idea into a playable, testable slice. Start with the player's repeated choice, decide what must exist for one complete run, build that slice in the game's owning project, and test it with players. The package also preserves the full third-party Game Development Studio 1.0.2 methods for assets, package vendoring, render diagnosis, and performance work.
 
 Try: "Find the core loop in this game idea," "Scope this to a weekend prototype," or "Use this capture to diagnose the renderer." Useful input is a concept or project, target platform, audience, current build, and one decision to make. The result is a game-specific design, implementation handoff, or evidence-backed diagnosis, according to the request.
 
@@ -19,6 +19,9 @@ Try: "Find the core loop in this game idea," "Scope this to a weekend prototype,
 | Capture and locate render defects | [game-visual-debugging](skills/game-visual-debugging/SKILL.md) |
 | Compare runs and optimize one metric | [game-performance-optimization](skills/game-performance-optimization/SKILL.md) |
 
+
+For board/card games, use [Board Game Design](skills/board-game-design/SKILL.md); for cross-domain diagnosis, use [Game Designer](skills/game-designer/SKILL.md) and its full references. For campaigns and GM work, start with [TTRPG Router](skills/ttrpg-router/SKILL.md) or [GM Roleplay Router](skills/gm-roleplay-router/SKILL.md), then select the smallest included live, pacing, NPC, player, rules, safety, public-table, roleplay or debrief method. All fifteen added workflows and their complete support files are listed in [recipient bindings and routes](docs/standalone-workflow-bindings.md). The optional style layer is removable; actual rulebooks, campaign canon and table preferences remain recipient inputs.
+
 For browser implementation, route to the **separately installed OpenAI Game Studio** skill named in [the routing table](docs/routes.json). This package does not copy or replace its code, scripts, assets, or starter projects. Engine-specific game work may need the owning engine's own tools.
 
 ## Setup and capability boundary
@@ -35,4 +38,6 @@ Native installation and discovery are separate host checks. Static checks do not
 
 ## Run a bounded check
 
-Read [installation](docs/installation.md), then run `python3 -B tests/validate.py` from this root. The check validates 10 skill routes, source hashes, four exact technical-method copies and active relative link closure. It does not execute `game-dev`, install OpenAI Game Studio or prove model routing/player experience. [Lantern Courier](examples/lantern-courier.md) is a fictional design/playtest example, not a playable shipped game.
+Read [installation](docs/installation.md), then run `python3 -B tests/validate.py` from this root. The check validates 25 skill routes, source hashes, four exact technical-method copies and active relative link closure. It does not execute `game-dev`, install OpenAI Game Studio or prove model routing/player experience. [Lantern Courier](examples/lantern-courier.md) is a fictional design/playtest example, not a playable shipped game.
+
+Run `python3 -B -m unittest discover -s tests -p 'test_*.py'` for executable live-card checks, or `python3 -B examples/check_live_card.py` for the synthetic sample. The helper needs only Python standard library, checks text mechanically and changes no files. It does not run a session, measure player experience, retrieve a rulebook or call a VTT.

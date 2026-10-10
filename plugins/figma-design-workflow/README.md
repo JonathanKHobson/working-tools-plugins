@@ -12,6 +12,8 @@ For a capabilities/getting-started question or broad Figma operation, start with
 
 | Task | Skill |
 | --- | --- |
+| Consult available Mac design partners | [Mac Design Partners](skills/kyle-mac-design-partners/SKILL.md) |
+| Prepare source-faithful Figma-to-Stitch iterations | [Figma-to-Stitch](skills/figma-to-stitch-design-iteration/SKILL.md) |
 | Edit in Figma or build an editable FigJam board | [Figma Operator](skills/figma-ui-operator/SKILL.md) |
 | Move selected Stitch screens into editable Figma layers | [Stitch to Figma](skills/stitch-figma-handoff/SKILL.md) |
 | Prepare one visual north star | [Design Reference Prep](skills/design-reference-prep/SKILL.md) |
@@ -42,3 +44,7 @@ If a provider or control route is missing, record the unmet prerequisite and pre
 Original workflow text, fixtures, role contract and helper are released under the [MIT license](LICENSE). [Source attributions](SOURCE-ATTRIBUTIONS.md) retain the original primary-source register, user-supplied ZIP lineage and adaptation boundaries. No Figma, Google Stitch, Claude or OpenAI provider code, tutorial transcript, vendor screenshot or font is bundled. Names identify interoperability and do not imply endorsement.
 
 Run `python3 skills/figma-ui-operator/scripts/validate_skill.py --json` from the package root. See [current export validation](docs/release-validation.md) for exact checks and limits; [historical validation](docs/validation.md) remains explicitly dated. A static package pass does not prove receiving-host installation or live Figma, FigJam, Stitch, Claude, imagegen, multiplayer, accessibility or participant outcomes.
+
+## Version 0.2.0 complete design-partner methods
+
+Two complete four-file original workflows are added. Private author-host observations and client-specific iteration evidence are replaced only in their exact support units by explicit receiving-host/synthetic examples. All selection, brief, account/usage verification, scratch-workspace, export, attachment reconciliation, authority, Change/Keep/Defer and visual-check procedures remain. The skill names retain source identities; they assert no account access or historical user authorization for a recipient. A synthetic draft/source audit does not prove provider generation, rendered output or editable Figma import.

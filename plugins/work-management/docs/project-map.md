@@ -34,3 +34,5 @@ Maintain source in `~/plugins/work-management`. The matching cache is generated 
 - Visual artifact/template foundations: Project Structure and `references/plugin-maintenance.md` require linked DESIGN.md with source-backed support and verified bundle closure; UX owns the format, Graphic owns print application, Writing Templates owns STYLE.md.
 
 - `skills/work-handoff/references/reusable-package-handoff.md`: conditional cross-studio source bindings and type-specific recipient-task checks in the existing handoff; no new manifest, registry or release authorization.
+
+Standalone method owners in 0.3.0: `skills/cross-codex-workflow-exchange/`, `skills/github-conventions/`, `skills/skill-authoring/`, `skills/obsidian-vault-router/`. Preserve full original procedures and their exact source/recipient-output hashes in PROVENANCE.json. Populated recipient inputs belong outside installation state.

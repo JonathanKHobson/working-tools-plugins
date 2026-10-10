@@ -1,0 +1,38 @@
+{
+  "schema": "game-creation-studio.recipient-bindings.v1",
+  "executable": false,
+  "adapter_roles": {
+    "framework-retrieval": {
+      "provider": null,
+      "read_tool": null,
+      "write_tool": null,
+      "scope": "recipient-approved sources; writes require scoped authorization"
+    },
+    "memory-recall": {
+      "provider": null,
+      "read_tool": null,
+      "write_tool": null,
+      "scope": "recipient-approved sources; writes require scoped authorization"
+    },
+    "campaign-canon": {
+      "provider": null,
+      "read_tool": null,
+      "write_tool": null,
+      "scope": "recipient-approved sources; writes require scoped authorization"
+    },
+    "live-vtt": {
+      "provider": null,
+      "read_tool": null,
+      "write_tool": null,
+      "scope": "recipient-approved sources; writes require scoped authorization"
+    }
+  },
+  "rule_sources": [],
+  "canon_sources": [],
+  "privacy_classes": [
+    "player-facing",
+    "GM-only",
+    "sensitive"
+  ],
+  "note": "Supply authorized sources and actual discovered tool schemas. No endpoints, credentials, private campaign data or host paths are bundled."
+}

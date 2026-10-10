@@ -49,3 +49,5 @@ Safe checks from this root: `python3 -m unittest discover -s tests -v`; `python3
 ## Public edition
 
 All operative skill heads and their complete generic supporting procedures are preserved. Empty private MCP declarations and the machine compatibility launcher are excluded; optional Atlas/source retrieval uses the current host's separately configured capability. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.
+
+Standalone method owners in 0.2.0: `skills/learning-experience-designer/`. Preserve full original procedures and their exact source/recipient-output hashes in PROVENANCE.json. Populated recipient inputs belong outside installation state.

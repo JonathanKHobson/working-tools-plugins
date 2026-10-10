@@ -52,7 +52,7 @@ def check(root):
         text = path.read_text()
         if not text.startswith("---\n") or not re.search(r"(?m)^description: .+", text):
             errors.append("missing skill frontmatter: " + entry["skill"])
-        if not re.search(r"(?m)^name: " + re.escape(entry["skill"]) + r"$", text):
+        if not re.search(r"(?m)^name: [\"\']?" + re.escape(entry["skill"]) + r"[\"\']?$", text):
             errors.append("skill name differs from directory: " + entry["skill"])
         checked["skills"] += 1
         for method in entry["full_methods"]:
@@ -66,7 +66,9 @@ def check(root):
 
     inventory = read_json("docs/imports.json")
     local_mcp = read_json("docs/local-mcp-provenance.json")
-    imported_files = inventory.get("files", []) + local_mcp.get("files", [])
+    standalone = read_json("docs/standalone-imports.json")
+    standalone_files = [{"target": row["path"], "target_sha256": row["output_sha256"], "source_sha256": row["source_sha256"], "disposition": "byte-identical" if row["source_sha256"] == row["output_sha256"] else "transformed"} for row in standalone.get("files", [])]
+    imported_files = inventory.get("files", []) + local_mcp.get("files", []) + standalone_files
     for item in imported_files:
         if "target" not in item:
             if not item.get("reason"):
@@ -79,7 +81,7 @@ def check(root):
             errors.append("false byte-identity claim: " + item["target"])
         checked["import_hashes"] += 1
     for prefix in ("libraries/superpowers-6.4.2/", "libraries/alpic-1.0.1/",
-                   "libraries/local-mcp-methods/"):
+                   "libraries/local-mcp-methods/", "libraries/code-intelligence-ebb3257/", "libraries/local-app-pipeline/"):
         declared = {x["target"] for x in imported_files if x.get("target", "").startswith(prefix)}
         present = {str(x.relative_to(root)) for x in inside(prefix).rglob("*") if x.is_file()}
         if declared != present:

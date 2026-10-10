@@ -72,3 +72,9 @@ Bring the audience/group, intended observable result, time and approved source m
 Example when a provider is missing: "I can prepare the complete lesson/workshop plan from the supplied material. This host currently has no authorized board/LMS editing route, so publishing, participant-role tests and rendered interaction remain unverified. I will provide the run sheet, materials and acceptance checks for the receiving environment." This is an authored expected boundary, not a recorded live execution.
 
 Original scripts are MIT. Prose, roles and original teaching/adaptation material are CC BY-SA 4.0 with retained source attribution. Read LICENSE and SOURCE-ATTRIBUTIONS.md. Historical package checks and source observations do not prove learning, a live workshop, public LMS launch, native installation or provider availability. Current static/helper checks are summarized in docs/release-validation.md.
+
+## Standalone method additions in 0.2.0
+
+12 complete skill heads are retained. The added methods are `learning-experience-designer`. Complete references and operative helpers are included; only originating private binding/input records are projected to recipient templates. No automatic installation of providers, hooks or global configuration occurs.
+
+For a first task, supply a fictional learner, one observable outcome and a short source passage. Learning Experience Designer should return a complete practice/feedback/rubric/asset map. Referenced unlicensed notebook, uploader and proxy implementations remain fenced external sources; they are not bundled.

@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
   "package": "mac-ops-toolkit",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "canonical_source": "mac-ops-toolkit",
   "source_tree_sha256": "b1d18c233a113008346692d16eb7ddbce3716d0e74192a7b5802e0c311f013e1",
-  "retained_skill_heads": 8,
+  "retained_skill_heads": 10,
   "omissions": {},
   "source_files": [
     {
       "source": ".codex-plugin/plugin.json",
       "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
       "output": ".codex-plugin/plugin.json",
-      "output_sha256": "0ca6eec31375c994aa91d5ace58030130659e022edda1223d3fe9d65a8dc343b",
+      "output_sha256": "bcc2d74834a8d175481ce2386c35f1f457f268e675639ff34f742bc54c42063b",
       "change": "Public adapter and explicit original MIT grant; all operative methods discovered, no automatic backend startup."
     },
     {
       "source": "README.md",
       "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
       "output": "README.md",
-      "output_sha256": "aa8dc741cb7f29b0270c0060e1ed56955a4367f995c51e347071a3fc650fd2d0",
+      "output_sha256": "27a18e1b93eea83cd83d5302e5165a89cb915ee9fbad9042d7e8e6c47ea1ffc7",
       "change": "Retain complete source onboarding plus exact public scope, prerequisites and missing-provider behavior."
     },
     {
       "source": "docs/project-map.md",
       "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
       "output": "docs/project-map.md",
-      "output_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
-      "change": "Byte-exact retained source"
+      "output_sha256": "fb3ac792a77710f798ba3e95ea47b1ac2b4386d1bc8fe7b96a4ec8da8a8afa15",
+      "change": "Complete original content retained with public recipient/metadata transformations"
     },
     {
       "source": "docs/source-to-target.md",
@@ -110,7 +110,7 @@
       "source_sha256": "2cbd5c8b439a89c4681dff12152449f97fca6467d0d30f6f8d899a9b9fb5d470",
       "output": "references/recovery/storage-cleanup-and-migration.md",
       "output_sha256": "02a243e1cda6b1e88a583c034e25361de094da4553d8caa811e3d59c2923abe6",
-      "change": "Byte-exact retained source"
+      "change": "Complete original content retained with public recipient/metadata transformations"
     },
     {
       "source": "references/recovery/storage-notes.md",
@@ -173,7 +173,7 @@
       "source_sha256": "929a22a9b8603c50ec7bdbdeff8d558d27bc2fadc85f6cb3ec0f609d2f8f2f5c",
       "output": "skills/mac-environment-conventions/references/codex-storage-and-updates.md",
       "output_sha256": "76b3e9de20bcd4377dc24f65486df9b73edbc0259a8e72ec4fcb6c1cd5155880",
-      "change": "Byte-exact retained source"
+      "change": "Complete original content retained with public recipient/metadata transformations"
     },
     {
       "source": "skills/mac-environment-conventions/references/install-targets.md",
@@ -306,11 +306,11 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+      "sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967"
     },
     {
       "path": "plugin.json",
-      "sha256": "89c06d996d87b86a7b1ccef6718835aa11933087a107cb59a2fc77426f265dcd"
+      "sha256": "778b59e93052dfe7a6502ac016d4b5331fabce10983e1cf8ae7742ea22f68ceb"
     },
     {
       "path": "docs/first-party-lineage.json",
@@ -318,24 +318,24 @@
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "ca42e98f70e14ef3361a08012a1127d3951e0e54c052040ab8b4e5c278c18c1c"
+      "sha256": "fd7f93feb8dfca14bd1a9ed1ca23a7afed5454a249b994b7e53c79cabe20c5f0"
     }
   ],
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
       "source_sha256": "810f87dc237c78cab9856e3285add0370032aa1d84ac4f8227a6ee8270f354f2",
-      "output_sha256": "0ca6eec31375c994aa91d5ace58030130659e022edda1223d3fe9d65a8dc343b"
+      "output_sha256": "bcc2d74834a8d175481ce2386c35f1f457f268e675639ff34f742bc54c42063b"
     },
     {
       "path": "README.md",
       "source_sha256": "bf6eaee9262fbf7eb745fffa406aecb77129aafb45e6db7552f4dd67a15ec9bb",
-      "output_sha256": "aa8dc741cb7f29b0270c0060e1ed56955a4367f995c51e347071a3fc650fd2d0"
+      "output_sha256": "27a18e1b93eea83cd83d5302e5165a89cb915ee9fbad9042d7e8e6c47ea1ffc7"
     },
     {
       "path": "docs/project-map.md",
       "source_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516",
-      "output_sha256": "2d658cad26be7fffae58d79956cba0aa14c47e60df6e9817f66e50e99bf58516"
+      "output_sha256": "fb3ac792a77710f798ba3e95ea47b1ac2b4386d1bc8fe7b96a4ec8da8a8afa15"
     },
     {
       "path": "docs/source-to-target.md",
@@ -529,27 +529,163 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef",
+      "output_sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
     },
     {
       "path": "LICENSE",
-      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "7a40d13eaf2e2a16655cea52b6823c7b86353b2d8382704812f3a53b033298ef"
+      "sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967",
+      "output_sha256": "8fad042c258f78b63a1251a69f54d52562fc95e1cb9843a16792bcb60d553967"
     },
     {
       "path": "plugin.json",
-      "sha256": "89c06d996d87b86a7b1ccef6718835aa11933087a107cb59a2fc77426f265dcd"
+      "sha256": "778b59e93052dfe7a6502ac016d4b5331fabce10983e1cf8ae7742ea22f68ceb",
+      "output_sha256": "778b59e93052dfe7a6502ac016d4b5331fabce10983e1cf8ae7742ea22f68ceb"
     },
     {
       "path": "docs/first-party-lineage.json",
-      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393"
+      "sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393",
+      "output_sha256": "42f66bc3470c39f658a5b3f3b1dd91dd48d1d928decb83a9aa5a124212e03393"
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "ca42e98f70e14ef3361a08012a1127d3951e0e54c052040ab8b4e5c278c18c1c"
+      "sha256": "fd7f93feb8dfca14bd1a9ed1ca23a7afed5454a249b994b7e53c79cabe20c5f0",
+      "output_sha256": "fd7f93feb8dfca14bd1a9ed1ca23a7afed5454a249b994b7e53c79cabe20c5f0"
+    },
+    {
+      "source_relative": "standalone/local-storage-mcp/SKILL.md",
+      "source_owner": "standalone:local-storage-mcp",
+      "source_sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9",
+      "path": "skills/local-storage-mcp/SKILL.md",
+      "output_sha256": "e73110b4db6f00aef7f95a7d5db79b0daa095a268cf65276257d10298b651b8c",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/local-storage-mcp/agents/openai.yaml",
+      "source_owner": "standalone:local-storage-mcp",
+      "source_sha256": "95e3626000361e5531ea05114a657f587c8435f99aa629061f4c803984535593",
+      "path": "skills/local-storage-mcp/agents/openai.yaml",
+      "output_sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/storage-memory-manager/SKILL.md",
+      "source_owner": "standalone:storage-memory-manager",
+      "source_sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9",
+      "path": "skills/storage-memory-manager/SKILL.md",
+      "output_sha256": "415996e399e2147b01327555437d36573081f23d46b880db2efea19dbb7cb94d",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/storage-memory-manager/references/cleanup-playbook.md",
+      "source_owner": "standalone:storage-memory-manager",
+      "source_sha256": "34e5e1ea0709988d07da92cbc1cb0dc794200d2022c1605320e30dcd26b70085",
+      "path": "skills/storage-memory-manager/references/cleanup-playbook.md",
+      "output_sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/storage-memory-manager/agents/openai.yaml",
+      "source_owner": "standalone:storage-memory-manager",
+      "source_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+      "path": "skills/storage-memory-manager/agents/openai.yaml",
+      "output_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "source_relative": "standalone/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+      "source_owner": "standalone:storage-memory-manager",
+      "source_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+      "path": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+      "output_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "source_relative": "standalone/storage-memory-manager/scripts/storage_hotspots.sh",
+      "source_owner": "standalone:storage-memory-manager",
+      "source_sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4",
+      "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
+      "output_sha256": "781664976fbdebf648e1cf0a0a172fc43e07514975daf83a25baba95ed6c6164",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "7b9c47c4f3b138b80ad5a41a766633b108441016fd1b0785e37aaaf858cfa3c3",
+      "change": "Package-local recipient setup/scope metadata"
     }
-  ]
+  ],
+  "public_package_skill_count": 10,
+  "standalone_additions": {
+    "heads": [
+      "local-storage-mcp",
+      "storage-memory-manager"
+    ],
+    "source_owner": "Explicit standalone sources, not provider cache copies",
+    "full_original_closures": [
+      {
+        "source_relative": "standalone/local-storage-mcp/SKILL.md",
+        "source_owner": "standalone:local-storage-mcp",
+        "source_sha256": "c1fc751d44cca204557402f47d04c9620584a05f7113adec741395ccc61b3bb9",
+        "path": "skills/local-storage-mcp/SKILL.md",
+        "output_sha256": "e73110b4db6f00aef7f95a7d5db79b0daa095a268cf65276257d10298b651b8c",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/local-storage-mcp/agents/openai.yaml",
+        "source_owner": "standalone:local-storage-mcp",
+        "source_sha256": "95e3626000361e5531ea05114a657f587c8435f99aa629061f4c803984535593",
+        "path": "skills/local-storage-mcp/agents/openai.yaml",
+        "output_sha256": "855666f4c4dbef5f1fdca60646bf5b9be62857492f38e42e9c68c9f9c9d7a121",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/storage-memory-manager/SKILL.md",
+        "source_owner": "standalone:storage-memory-manager",
+        "source_sha256": "5fc1ec196a0d1116fe82000a8dde19a3850d04cc00347dfa58cca6c7cb3bd8a9",
+        "path": "skills/storage-memory-manager/SKILL.md",
+        "output_sha256": "415996e399e2147b01327555437d36573081f23d46b880db2efea19dbb7cb94d",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/storage-memory-manager/references/cleanup-playbook.md",
+        "source_owner": "standalone:storage-memory-manager",
+        "source_sha256": "34e5e1ea0709988d07da92cbc1cb0dc794200d2022c1605320e30dcd26b70085",
+        "path": "skills/storage-memory-manager/references/cleanup-playbook.md",
+        "output_sha256": "cf497231d5d70cdc92f33322bfddcefa6145c89d496f85ae180d15b2b78095ea",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/storage-memory-manager/agents/openai.yaml",
+        "source_owner": "standalone:storage-memory-manager",
+        "source_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+        "path": "skills/storage-memory-manager/agents/openai.yaml",
+        "output_sha256": "a3fe0a3e6c69d85ccaacb7c89229323f216b7c5109fbe7359d056564101e9fe4",
+        "change": "Byte-exact standalone original source retained"
+      },
+      {
+        "source_relative": "standalone/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+        "source_owner": "standalone:storage-memory-manager",
+        "source_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+        "path": "skills/storage-memory-manager/scripts/memory_pressure_snapshot.sh",
+        "output_sha256": "5bb5f6c6045707d4ffca4ec80b9c41e1f4e93c0802a7d47ea7d8089dd7893bc5",
+        "change": "Byte-exact standalone original source retained"
+      },
+      {
+        "source_relative": "standalone/storage-memory-manager/scripts/storage_hotspots.sh",
+        "source_owner": "standalone:storage-memory-manager",
+        "source_sha256": "2815c5169552886f82912c04955120445d16736577326b0d70440e5a5ce2deb4",
+        "path": "skills/storage-memory-manager/scripts/storage_hotspots.sh",
+        "output_sha256": "781664976fbdebf648e1cf0a0a172fc43e07514975daf83a25baba95ed6c6164",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      }
+    ],
+    "privacy_projection": "Populated originating host/account/vault maps replaced with explicit recipient templates; full procedures/helpers retained. No automatic provider or hook registration."
+  }
 }

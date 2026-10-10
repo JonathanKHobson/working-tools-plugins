@@ -1,12 +1,14 @@
 # Solo Service Operations Studio project map
 
-Purpose: source-backed solo-service invoice administration, payment matching and cash visibility. This distinct financial-record lane follows Marketing's agreed offer and Work Management's delivery scope; it does not duplicate either owner.
+Purpose: source-backed solo-service administration, paid-service communication, reviewed Gmail sending, payment matching and cash visibility. This distinct financial-record lane follows Marketing's agreed offer and Work Management's delivery scope; it does not duplicate either owner.
 
-- `.codex-plugin/plugin.json`: native identity; four focused skill entrypoints.
+- `.codex-plugin/plugin.json`: native identity; eight focused skill entrypoints.
 - `skills/invoice-preparation/`: agreed terms, work evidence, recipient-owned client routing and verified document creation.
 - `skills/invoice-follow-up/`: current receivables and draft/sent boundaries.
 - `skills/payment-reconciliation/`: invoice allocations and explained differences.
 - `skills/cash-flow-planning/`: dated cash model, source coverage and scenarios.
+- `skills/paid-gm-event-coordination/`, `skills/pro-gm-venue-outreach/`, `skills/rpg-community-coordination/`: complete paid-service procedures and clearly synthetic cases.
+- `skills/gmail-send-review/`: complete review method and opt-in offline receipt gate with 32 behavioral tests.
 - `references/`: shared source/data boundaries, agreed terms, work evidence, existing client workflow routing and explicit allocation input.
 - `scripts/reconcile.py`: local JSON-in/stdout-out exact-decimal checker; no network, persistence or transactions.
 - `tests/test_reconcile.py`: synthetic allocation/error behavior checks.

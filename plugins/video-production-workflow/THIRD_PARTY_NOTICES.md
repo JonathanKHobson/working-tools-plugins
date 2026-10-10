@@ -32,3 +32,5 @@ and adoption limits: [review](research/AI_VIDEO_EDITING_PACK_REVIEW.md).
 First-party portability modifications are described in `PUBLIC_DISTRIBUTION.md`; retained third-party source code and license/notice bytes are unchanged. License grants for repository source do not authorize distribution of independently obtained reference pixels or outside assets.
 
 Professional role-contract lineage preserves MIT notices from AgentLand Contributors (agency-agents `5baafd5f`), VoltAgent (voltagent-subagents `721e9734`) and Seth Hobson (wshobson-agents `46891e7e`) under `references/professional-agents/source-notices/`. Local responsibility and method routing are original adaptations; original vendor copyright is retained.
+
+Loom Review Packet and Loom Walkthrough Scripting, their full references, agent metadata and original Python helper are first-party procedures by Jonathan Kyle Hobson, included under the root MIT grant. No Loom provider code, private recording or actual client/session evidence is copied. The private recorded-workflow case is replaced by a complete explicitly fictional worked scenario, with source/output hashes and transformation scope retained.

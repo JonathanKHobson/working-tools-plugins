@@ -21,13 +21,13 @@ def main() -> None:
     cases = load("tests/route-cases.json")
     coverage = load("provenance/coverage.json")
     assert manifest["name"] == "game-creation-studio"
-    assert manifest["version"].split("+", 1)[0] == "0.2.0"
+    assert manifest["version"].split("+", 1)[0] == "0.3.0"
     assert manifest["skills"] == "./skills/"
     assert not any(manifest.get(key) for key in ("mcpServers", "hooks", "apps"))
     assert not (ROOT / ".mcp.json").exists()
     local = routes["localSkills"]
     official = routes["officialBrowserGameProvider"]["skills"]
-    assert len(local) == 10 and len({item["id"] for item in local}) == 10
+    assert len(local) == 25 and len({item["id"] for item in local}) == 25
     assert len(official) == 9 and len({item["id"] for item in official}) == 9
     local_ids = {item["id"] for item in local}
     assert local_ids == {path.parent.name for path in ROOT.glob("skills/*/SKILL.md")}
@@ -69,7 +69,7 @@ def main() -> None:
             text = path.read_text(encoding="utf-8")
             pattern = "/" + r"(?:Users|home)/[A-Za-z][A-Za-z0-9_.-]*/|" + "/" + "Volumes/" + r"[A-Za-z][^\n`\"']+"
             assert not re.search(pattern, text), ("concrete host path", path)
-    print(f"PASS: 10 local skills, 9 official routes, {len(cases['cases'])} route cases, 38 upstream files, links and hashes")
+    print(f"PASS: 25 local skills, 9 official routes, {len(cases['cases'])} route cases, 38 upstream files, links and hashes")
 
 
 if __name__ == "__main__":

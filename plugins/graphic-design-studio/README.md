@@ -51,4 +51,8 @@ The library uses public Design Templates’ maintained chooser. Install that pac
 <!-- END PROFESSIONAL-AGENTS -->
 
 
-Public edition 0.2.0 includes all nine workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
+Public edition 0.3.0 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
+
+## Presentations, local review and pet atlases
+
+Version 0.3.0 adds three full standalone workflows, bringing the package to twelve skills. Use [HTML Presentation Builder](skills/html-presentation-builder/SKILL.md) for browser decks and viewport-fit review; [Lavish AXI](skills/lavish-axi/SKILL.md) for a source-grounded optional local annotation/poll review loop; and [Hatch Pet](skills/hatch-pet/SKILL.md) for the complete Apache-licensed pet preparation/assembly/inspection pipeline. See [requirements and host boundaries](docs/standalone-visual-workflows.md). Provider generation, native custom-pet support and Lavish runtime availability are separate checks. No private client assets or paid-provider execution is implied.

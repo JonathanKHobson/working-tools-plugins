@@ -59,6 +59,11 @@ class PackageIntegrityTests(unittest.TestCase):
         file.write_text(json.dumps(routes))
         self.assertTrue(any("uninventoried provider" in x for x in validator.check(self.root)["errors"]))
 
+    def test_standalone_query_engine_tampering_fails(self):
+        file = self.root / "skills/golang-effective/scripts/query_chunk_index.py"
+        file.write_text(file.read_text() + "\nUnreviewed adaptation.\n")
+        self.assertTrue(any("import hash mismatch" in x for x in validator.check(self.root)["errors"]))
+
     def test_reference_escape_fails(self):
         file = self.root / "README.md"
         file.write_text(file.read_text() + "\n[private host configuration](../outside.json)\n")

@@ -59,3 +59,5 @@ Procedural-video art direction stays in `skills/motion-design/`; the Video Produ
 The conditional image-set production method lives in graphic-design references; its B12 source/adaptation notice is `docs/b12-method-provenance.md`. Official host imagegen executes generation and edits.
 
 - `skills/motion-design/references/lottie-authoring.md`: conditional brief-to-Lottie authoring, safe scene targeting, frame/loop and editable-value checks; existing vector interop owns format fidelity and UX owns live playback.
+
+Public 0.3.0 adds `skills/html-presentation-builder/` (full presentation procedure/pattern map), `skills/lavish-axi/` (full optional local review wrapper/pilot) and `skills/hatch-pet/` (full fourteen-file Apache deterministic atlas workflow). `docs/standalone-visual-workflows.md` owns receiving-host/provider/Pillow and asset boundaries; `provenance/standalone-source.json` tracks exact source hashes and transformations. Existing image workflow MCP app behavior remains unchanged.

@@ -16,6 +16,17 @@ Read [method adaptation](../../references/method-adaptation.md) before a preserv
 3. For meaningful design choices, apply the complete [brainstorming method](../../libraries/superpowers-6.4.2/skills/brainstorming/SKILL.md), including its behavioral questions and tradeoffs. Scale documentation to the decision. Record decisions in the owning project, not plugin-global state.
 4. Turn the accepted behavior into an executable implementation through [implement software](../implement-software/SKILL.md). For failures use [debug software](../debug-software/SKILL.md). A plan-only request stops with a reviewable plan.
 
+## Added complete standalone methods
+
+- Native macOS architecture, menus, windows, files and packaging: [Native macOS App Builder](../native-macos-app-builder/SKILL.md).
+- Exact/semantic navigation and rename boundaries: [Code Intelligence](../code-intelligence/SKILL.md).
+- ChatGPT Apps SDK: [ChatGPT Apps](../chatgpt-apps/SKILL.md).
+- Small web-game implementation/test loop: [Develop Web Game](../develop-web-game/SKILL.md); broader game design/production stays with Game Creation Studio.
+- GitHub review comments or CI: [Address Comments](../gh-address-comments/SKILL.md), [Fix CI](../gh-fix-ci/SKILL.md).
+- Full local diagnosis and installation review: [Systematic Debugging](../systematic-debugging/SKILL.md), [Safe Install Review](../safe-install-review/SKILL.md).
+- Go method and authorized corpus retrieval: [Golang Effective](../golang-effective/SKILL.md).
+- Docker/PocketBase/local preview/Quick Tunnel: [Local App Pipeline](../local-app-pipeline/SKILL.md).
+
 ## Select by outcome
 
 - Web UI, data or payment feature: [build web software](../build-web-software/SKILL.md).

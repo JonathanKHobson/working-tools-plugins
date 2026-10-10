@@ -27,6 +27,7 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 
 | Skill | Use it for |
 | --- | --- |
+| [discord-bot-mcp-setup](skills/discord-bot-mcp-setup/SKILL.md) | Complete Developer Portal, invite/intents, token, MCP merge and troubleshooting workflow. |
 | [discord](skills/discord/SKILL.md) | Use a Discord bot MCP for guild channels, threads, search, exports, and bot-identity messages. |
 | [discord-computer-use](skills/discord-computer-use/SKILL.md) | Use observed Discord UI state as a narrow fallback for the user's personal DMs or an explicit UI request when suitable authorized API access is unavailable. |
 
@@ -63,7 +64,7 @@ Each value can instead be overridden with `DISCORD_CONNECTOR_PYTHON`, `DISCORD_C
 
 Install from the desired local marketplace, then verify the MCP's tool listing and a focused read. If a global `discord_digest` MCP is enabled, an explicitly configured launcher may create a second provider; migrate to one provider only after validating the explicitly configured optional MCP. Plugin discovery and `@Discord` availability depend on the product surface and must be checked there. The intended installed skill route in Codex is `$discord:discord` or explicit plugin selection when available.
 
-Verify locally with `python3 -m unittest discover -s tests` and the Codex skill validator for both skill folders. Installation and host configuration are handled separately.
+Verify locally with `python3 -m unittest discover -s tests` and the Codex skill validator for all three skill folders. Installation and host configuration are handled separately.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional agents
@@ -73,6 +74,10 @@ Verify locally with `python3 -m unittest discover -s tests` and the Codex skill 
 
 ## Public edition prerequisites and missing-provider example
 
-Two complete skills retain bot identity, indexed/live evidence, draft/send authorization and the focused personal-account UI fallback. One automatic `.mcp.json` registration is omitted. The complete original `scripts/launch.py` and all launcher tests remain. Python 3 is needed for that optional helper; a separately installed Discord Digest implementation, its reviewed interpreter and an authorized local database are needed only for the bot route. Configure its existing JSON settings or documented environment variables explicitly. No token or database is supplied. Computer Use requires an available signed-in Discord UI and current host capability.
+Three complete skills retain bot identity, indexed/live evidence, draft/send authorization and the focused personal-account UI fallback. One automatic `.mcp.json` registration is omitted. The complete original `scripts/launch.py` and all launcher tests remain. Python 3 is needed for that optional helper; a separately installed Discord Digest implementation, its reviewed interpreter and an authorized local database are needed only for the bot route. Configure its existing JSON settings or documented environment variables explicitly. No token or database is supplied. Computer Use requires an available signed-in Discord UI and current host capability.
 
 For “summarize recent decisions in channel 123” with no provider or UI access, report “Discord access is not configured for this channel; bring the channel/thread content or configure an authorized provider,” then preserve the requested scope. Do not invent a live read, convert an empty index into absence of messages, start a selfbot or send a reply. Synthetic launcher tests establish settings/argv and missing-settings behavior, not Discord access or a sent-message receipt.
+
+## Version 0.2.0 bot setup integration
+
+The complete original four-file Bot MCP Setup method is included, with receiving-host interpreter/storage examples. It preserves minimal intents/permissions, safe local token handling, unrelated MCP settings, actual tools/sync/export/readback verification and focused troubleshooting. No bot account, token, database, Discord runtime or automatic MCP registration is supplied. Setup/source review is distinct from an invited bot, live channel read or sent message.

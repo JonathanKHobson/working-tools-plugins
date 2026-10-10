@@ -1,0 +1,16 @@
+services:
+  pocketbase:
+    image: ghcr.io/muchobien/pocketbase:latest
+    restart: unless-stopped
+    command:
+      - serve
+      - --http=0.0.0.0:${POCKETBASE_PORT:-8090}
+      - --dir=/pb_data
+    ports:
+      - "127.0.0.1:${POCKETBASE_PORT:-8090}:${POCKETBASE_PORT:-8090}"
+    volumes:
+      - pocketbase_data:/pb_data
+
+volumes:
+  pocketbase_data:
+    name: ${COMPOSE_PROJECT_NAME:-codex-local-app}_pocketbase_data

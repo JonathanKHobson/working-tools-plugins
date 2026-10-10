@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "package": "work-management",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "canonical_source": "work-management",
   "source_tree_sha256": "e14d8866e002cba4f17cc55e8f42704ce1c210ad29f5529b6c6e500090606d59",
-  "retained_skill_heads": 10,
+  "retained_skill_heads": 14,
   "excluded_source_files": {
     ".mcp.json": "Empty automatic MCP registration omitted; full explicit Atlas launcher remains."
   },
@@ -20,8 +20,8 @@
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "fb7822691353398fcce103c22bd808f96de52fbb2fbd37e56a41baafcc2046b9",
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "242347c86687b10d83d975f9300235d62c274525b0167064cb5dffa0413ec0fe",
-      "change": "Public complete ten-head adapter and precise private-input/registration scope."
+      "output_sha256": "8acd8b3d9ecd3a469c9062656f64cf5a8b4a3715c4d0e88ddea9fa2a9396b618",
+      "change": "Public complete fourteen-head adapter, including four full standalone additions; precise private-input/registration scope."
     },
     {
       "source_relative": ".mcp.json",
@@ -34,7 +34,7 @@
       "source_relative": "README.md",
       "source_sha256": "eecd380194144645f7b039fab0618362ac85ce57206e2f3dd4d275bf3b23d9a0",
       "path": "README.md",
-      "output_sha256": "22111764df1706a4a3d312eda30a55754467ac3f896ae1a7f91efaf92dc38526",
+      "output_sha256": "917dfc3ff95a7ac20bb916ea9c7d117f43efd37308b50dd09dc96d7a34b15498",
       "change": "Full original onboarding plus exact public scope, opt-in semantics and prerequisite/failure examples."
     },
     {
@@ -55,8 +55,8 @@
       "source_relative": "docs/project-map.md",
       "source_sha256": "873bfe309f71c410a0c9cf53f3167599241d58d25aa6baee4da02e4f2fa83be8",
       "path": "docs/project-map.md",
-      "output_sha256": "873bfe309f71c410a0c9cf53f3167599241d58d25aa6baee4da02e4f2fa83be8",
-      "change": "Byte-exact retained source"
+      "output_sha256": "3973d6e0c200d18eb70f89402bcd845290bff4581d52a4180b29e1d817165887",
+      "change": "Complete original content retained with public recipient/metadata transformations"
     },
     {
       "source_relative": "docs/skill-plugin-map.md",
@@ -1565,27 +1565,357 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
+      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b",
+      "output_sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
     },
     {
       "path": "LICENSE",
-      "sha256": "a03644b1ce8f864d724ce55fb73761fa436ff5ad27ba21ac34ad875e9613f6d9"
+      "sha256": "a03644b1ce8f864d724ce55fb73761fa436ff5ad27ba21ac34ad875e9613f6d9",
+      "output_sha256": "a03644b1ce8f864d724ce55fb73761fa436ff5ad27ba21ac34ad875e9613f6d9"
     },
     {
       "path": "LICENSE-ORIGINAL-MIT",
-      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "1757e82dec2bc214e029b0ed5c99099d914824f85806d6a8eb23eb105313d93b"
+      "sha256": "fd55c2cdeb0def16a9adeda386a8f2746e2587f304e51f290d3ea20f2e6d62fb",
+      "output_sha256": "fd55c2cdeb0def16a9adeda386a8f2746e2587f304e51f290d3ea20f2e6d62fb"
     },
     {
       "path": "plugin.json",
-      "sha256": "d5bfe613d79ce48cdb80b38848d4387583e6d7095ce8c639f475c36c9412159d"
+      "sha256": "749808fb03556398bc78ca5cf8e4b7b38d44ace2eaf2f3301c0f6b86cc226029",
+      "output_sha256": "749808fb03556398bc78ca5cf8e4b7b38d44ace2eaf2f3301c0f6b86cc226029"
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "29753a4eaeaba8859c242750931cfde2712567b67034e6e27fe2ec62a29c7402"
+      "sha256": "2d25ad6288c819e2d0b06ef2dfde6cf625f24deb6f524979d608d9c94e5cca59",
+      "output_sha256": "2d25ad6288c819e2d0b06ef2dfde6cf625f24deb6f524979d608d9c94e5cca59"
+    },
+    {
+      "source_relative": "standalone/cross-codex-workflow-exchange/SKILL.md",
+      "source_owner": "standalone:cross-codex-workflow-exchange",
+      "source_sha256": "90f1bafe7f4516c9a470d5dcc12055050a074d1c76130c0c65add12919941bd0",
+      "path": "skills/cross-codex-workflow-exchange/SKILL.md",
+      "output_sha256": "8678c1ec02b89b3cde822e45641a417479071e91d09a68d3f7f21c11fbd5df88",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+      "source_owner": "standalone:cross-codex-workflow-exchange",
+      "source_sha256": "731ce3e43e0900464e758559bfe4fc0f78c82dcadff8970918aa21d6ab37d8a8",
+      "path": "skills/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+      "output_sha256": "b470fa2cdee30c324f3eb0237480e4f74d268c8f820d004b64019021b094fe76",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/cross-codex-workflow-exchange/references/host-map.md",
+      "source_owner": "standalone:cross-codex-workflow-exchange",
+      "source_sha256": "596354764243eb0f1a418b2c35eb9644c0b26981c5210c62414057afe2e4e170",
+      "path": "skills/cross-codex-workflow-exchange/references/host-map.md",
+      "output_sha256": "2f724b7aa7fa20c17ebb5f6432924630b204be55e57b23df44963a652d386d86",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/github-conventions/SKILL.md",
+      "source_owner": "standalone:github-conventions",
+      "source_sha256": "5604f66514b9da49b0fac367be759258c84968fbfe5d942ade60ab36536ceb4b",
+      "path": "skills/github-conventions/SKILL.md",
+      "output_sha256": "899fe928c30dc6c67e64995c433e5a353fbf3e914f7da34db49423f2177bc558",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/github-conventions/references/repository-navigation.md",
+      "source_owner": "standalone:github-conventions",
+      "source_sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4",
+      "path": "skills/github-conventions/references/repository-navigation.md",
+      "output_sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "source_relative": "standalone/github-conventions/references/account-map.md",
+      "source_owner": "standalone:github-conventions",
+      "source_sha256": "39f4ff1efbc980800c2ea93154af32b37c17d716af0b53b45d11a6c2081cca28",
+      "path": "skills/github-conventions/references/account-map.md",
+      "output_sha256": "ce39275a8b71461ef51c2e38f0f0bc89020cc7a0daf08e427b677d99c07974ee",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/github-conventions/agents/openai.yaml",
+      "source_owner": "standalone:github-conventions",
+      "source_sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807",
+      "path": "skills/github-conventions/agents/openai.yaml",
+      "output_sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "source_relative": "standalone/github-conventions/scripts/refresh_account_map.py",
+      "source_owner": "standalone:github-conventions",
+      "source_sha256": "8eb2fc2e696760ff77deedd361089c7f733b10bfa658eb740987a6854cc90bbd",
+      "path": "skills/github-conventions/scripts/refresh_account_map.py",
+      "output_sha256": "90b74e65d6ea285be99c9852866ffb2060f538cd20a4513a3beab38b1344e481",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/skill-authoring/SKILL.md",
+      "source_owner": "standalone:skill-authoring",
+      "source_sha256": "f938f9836704ec94e376ae5f72d96a00671000a16c551b20f11b2bd460ab258d",
+      "path": "skills/skill-authoring/SKILL.md",
+      "output_sha256": "977cd870411b020ffff32b4752ca7833ca78781f341dbbe79acefd42abe18956",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/SKILL.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "9430595feb6b430656d5bc29cf8f991b9f7f8eea6ff48cb9724833c776268cb8",
+      "path": "skills/obsidian-vault-router/SKILL.md",
+      "output_sha256": "c17affdb2bd0e6692aba7ebeeda27834395b21d4be67be8a742ac4b75368801b",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/tool-selection-and-safety.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "02ededce71838cfcc5feafb44dca26128ee731264aa1c9f426e44241a647e8d1",
+      "path": "skills/obsidian-vault-router/references/tool-selection-and-safety.md",
+      "output_sha256": "04f86839313b7117c2e71139d26543559fb3202a5fb85a0b18ab4e749b1a20e6",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "67b0d317a9de7480c32f8be5840dd013a28f20d12708d221fe1b59ac1f831dd4",
+      "path": "skills/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+      "output_sha256": "b953987c385c840b686de4e986662b6a5ca9b7f296c8c8e0e226485f5636c924",
+      "change": "Complete original content retained with public recipient/metadata transformations"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/kyle-second-brain.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "31a327382648be807e6e2bc453b7cf0b1dee78c71d4d0b58dd9ed236ad5a30d3",
+      "path": "skills/obsidian-vault-router/references/kyle-second-brain.md",
+      "output_sha256": "59a37e99b50f2662bf3cdc30f2bae8c5af08c0d1061a8e96dce085b33c3e9695",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/vault-routing.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "5d91b79e8123507db0c70d5f7b2ac4181d0833a03e34782ec85795254c09a0a7",
+      "path": "skills/obsidian-vault-router/references/vault-routing.md",
+      "output_sha256": "d89bc7cc45aa6072d6e6b9c25ae4654e18da31bd7fdc06be31d051c770570051",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/kyle-storage-hub.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "d8a1607165021e4e8f645be1a86838702bfe84366e354c2f2772a7c3f3632e88",
+      "path": "skills/obsidian-vault-router/references/kyle-storage-hub.md",
+      "output_sha256": "c0c7a65cc3c7b9407ae7dcb8bf5d1a90f5ffc3929d4b77e5198cf5251f4b2ee6",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/obsidian-core-practices.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "8d26c8f3311f28bd1eceaaad7f1b60d1c8256f744e21d80439086122867f8a88",
+      "path": "skills/obsidian-vault-router/references/obsidian-core-practices.md",
+      "output_sha256": "f4ec1ae4a5a080d03b75a241fd1c54e50f05f03252be972dfa0a1556b82a0c0c",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/kyle-shareables.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "26751a899ac672b3d8458d4846fcef0f65f7571d40358325b3a96587c83740d6",
+      "path": "skills/obsidian-vault-router/references/kyle-shareables.md",
+      "output_sha256": "a95d23da24c07cbff4940f7091dc03081cf9d666d4106b84b3a54d37ec36b9c8",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/references/knowledge-atlas.md",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "11f3140da6629c3db7d49fd3a4272fc9e0b937a0bea751d0b66948e8118cb5fa",
+      "path": "skills/obsidian-vault-router/references/knowledge-atlas.md",
+      "output_sha256": "66502910e04f197ec0ea71938d0473ea6f66f68149ece4213d93ecbd7d621783",
+      "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+    },
+    {
+      "source_relative": "standalone/obsidian-vault-router/agents/openai.yaml",
+      "source_owner": "standalone:obsidian-vault-router",
+      "source_sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187",
+      "path": "skills/obsidian-vault-router/agents/openai.yaml",
+      "output_sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "7b9c47c4f3b138b80ad5a41a766633b108441016fd1b0785e37aaaf858cfa3c3",
+      "change": "Package-local recipient setup/scope metadata"
     }
-  ]
+  ],
+  "public_package_skill_count": 14,
+  "standalone_additions": {
+    "heads": [
+      "cross-codex-workflow-exchange",
+      "github-conventions",
+      "skill-authoring",
+      "obsidian-vault-router"
+    ],
+    "source_owner": "Explicit standalone sources, not provider cache copies",
+    "full_original_closures": [
+      {
+        "source_relative": "standalone/cross-codex-workflow-exchange/SKILL.md",
+        "source_owner": "standalone:cross-codex-workflow-exchange",
+        "source_sha256": "90f1bafe7f4516c9a470d5dcc12055050a074d1c76130c0c65add12919941bd0",
+        "path": "skills/cross-codex-workflow-exchange/SKILL.md",
+        "output_sha256": "8678c1ec02b89b3cde822e45641a417479071e91d09a68d3f7f21c11fbd5df88",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+        "source_owner": "standalone:cross-codex-workflow-exchange",
+        "source_sha256": "731ce3e43e0900464e758559bfe4fc0f78c82dcadff8970918aa21d6ab37d8a8",
+        "path": "skills/cross-codex-workflow-exchange/references/shared-working-preferences.md",
+        "output_sha256": "b470fa2cdee30c324f3eb0237480e4f74d268c8f820d004b64019021b094fe76",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/cross-codex-workflow-exchange/references/host-map.md",
+        "source_owner": "standalone:cross-codex-workflow-exchange",
+        "source_sha256": "596354764243eb0f1a418b2c35eb9644c0b26981c5210c62414057afe2e4e170",
+        "path": "skills/cross-codex-workflow-exchange/references/host-map.md",
+        "output_sha256": "2f724b7aa7fa20c17ebb5f6432924630b204be55e57b23df44963a652d386d86",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/github-conventions/SKILL.md",
+        "source_owner": "standalone:github-conventions",
+        "source_sha256": "5604f66514b9da49b0fac367be759258c84968fbfe5d942ade60ab36536ceb4b",
+        "path": "skills/github-conventions/SKILL.md",
+        "output_sha256": "899fe928c30dc6c67e64995c433e5a353fbf3e914f7da34db49423f2177bc558",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/github-conventions/references/repository-navigation.md",
+        "source_owner": "standalone:github-conventions",
+        "source_sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4",
+        "path": "skills/github-conventions/references/repository-navigation.md",
+        "output_sha256": "76cfe9ebc6bee3e82b4a9f7b917dcca1513acffed1817ee35ee6d170967970e4",
+        "change": "Byte-exact standalone original source retained"
+      },
+      {
+        "source_relative": "standalone/github-conventions/references/account-map.md",
+        "source_owner": "standalone:github-conventions",
+        "source_sha256": "39f4ff1efbc980800c2ea93154af32b37c17d716af0b53b45d11a6c2081cca28",
+        "path": "skills/github-conventions/references/account-map.md",
+        "output_sha256": "ce39275a8b71461ef51c2e38f0f0bc89020cc7a0daf08e427b677d99c07974ee",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/github-conventions/agents/openai.yaml",
+        "source_owner": "standalone:github-conventions",
+        "source_sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807",
+        "path": "skills/github-conventions/agents/openai.yaml",
+        "output_sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807",
+        "change": "Byte-exact standalone original source retained"
+      },
+      {
+        "source_relative": "standalone/github-conventions/scripts/refresh_account_map.py",
+        "source_owner": "standalone:github-conventions",
+        "source_sha256": "8eb2fc2e696760ff77deedd361089c7f733b10bfa658eb740987a6854cc90bbd",
+        "path": "skills/github-conventions/scripts/refresh_account_map.py",
+        "output_sha256": "90b74e65d6ea285be99c9852866ffb2060f538cd20a4513a3beab38b1344e481",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/skill-authoring/SKILL.md",
+        "source_owner": "standalone:skill-authoring",
+        "source_sha256": "f938f9836704ec94e376ae5f72d96a00671000a16c551b20f11b2bd460ab258d",
+        "path": "skills/skill-authoring/SKILL.md",
+        "output_sha256": "977cd870411b020ffff32b4752ca7833ca78781f341dbbe79acefd42abe18956",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/SKILL.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "9430595feb6b430656d5bc29cf8f991b9f7f8eea6ff48cb9724833c776268cb8",
+        "path": "skills/obsidian-vault-router/SKILL.md",
+        "output_sha256": "c17affdb2bd0e6692aba7ebeeda27834395b21d4be67be8a742ac4b75368801b",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/tool-selection-and-safety.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "02ededce71838cfcc5feafb44dca26128ee731264aa1c9f426e44241a647e8d1",
+        "path": "skills/obsidian-vault-router/references/tool-selection-and-safety.md",
+        "output_sha256": "04f86839313b7117c2e71139d26543559fb3202a5fb85a0b18ab4e749b1a20e6",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "67b0d317a9de7480c32f8be5840dd013a28f20d12708d221fe1b59ac1f831dd4",
+        "path": "skills/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
+        "output_sha256": "b953987c385c840b686de4e986662b6a5ca9b7f296c8c8e0e226485f5636c924",
+        "change": "Complete original content retained with public recipient/metadata transformations"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/kyle-second-brain.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "31a327382648be807e6e2bc453b7cf0b1dee78c71d4d0b58dd9ed236ad5a30d3",
+        "path": "skills/obsidian-vault-router/references/kyle-second-brain.md",
+        "output_sha256": "59a37e99b50f2662bf3cdc30f2bae8c5af08c0d1061a8e96dce085b33c3e9695",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/vault-routing.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "5d91b79e8123507db0c70d5f7b2ac4181d0833a03e34782ec85795254c09a0a7",
+        "path": "skills/obsidian-vault-router/references/vault-routing.md",
+        "output_sha256": "d89bc7cc45aa6072d6e6b9c25ae4654e18da31bd7fdc06be31d051c770570051",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/kyle-storage-hub.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "d8a1607165021e4e8f645be1a86838702bfe84366e354c2f2772a7c3f3632e88",
+        "path": "skills/obsidian-vault-router/references/kyle-storage-hub.md",
+        "output_sha256": "c0c7a65cc3c7b9407ae7dcb8bf5d1a90f5ffc3929d4b77e5198cf5251f4b2ee6",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/obsidian-core-practices.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "8d26c8f3311f28bd1eceaaad7f1b60d1c8256f744e21d80439086122867f8a88",
+        "path": "skills/obsidian-vault-router/references/obsidian-core-practices.md",
+        "output_sha256": "f4ec1ae4a5a080d03b75a241fd1c54e50f05f03252be972dfa0a1556b82a0c0c",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/kyle-shareables.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "26751a899ac672b3d8458d4846fcef0f65f7571d40358325b3a96587c83740d6",
+        "path": "skills/obsidian-vault-router/references/kyle-shareables.md",
+        "output_sha256": "a95d23da24c07cbff4940f7091dc03081cf9d666d4106b84b3a54d37ec36b9c8",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/references/knowledge-atlas.md",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "11f3140da6629c3db7d49fd3a4272fc9e0b937a0bea751d0b66948e8118cb5fa",
+        "path": "skills/obsidian-vault-router/references/knowledge-atlas.md",
+        "output_sha256": "66502910e04f197ec0ea71938d0473ea6f66f68149ece4213d93ecbd7d621783",
+        "change": "Complete standalone source retained; recipient bindings/current owner routes projected"
+      },
+      {
+        "source_relative": "standalone/obsidian-vault-router/agents/openai.yaml",
+        "source_owner": "standalone:obsidian-vault-router",
+        "source_sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187",
+        "path": "skills/obsidian-vault-router/agents/openai.yaml",
+        "output_sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187",
+        "change": "Byte-exact standalone original source retained"
+      }
+    ],
+    "privacy_projection": "Populated originating host/account/vault maps replaced with explicit recipient templates; full procedures/helpers retained. No automatic provider or hook registration."
+  }
 }

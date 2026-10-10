@@ -10,8 +10,8 @@ Tests distinguish installation, execution and provider access. Versioned release
 | Video runtime | Fresh noneditable Python install; 190 tests; three aspect-ratio renders; installed sample probe, full decode and frame QA passed | Same Mac; FFmpeg and fonts supplied by receiving environment; no native editor import or listening review |
 | ArtCraft gateway | Real stdio transport plus synthetic integration; installed PdfCraft opened a synthetic PDF and rendered a checked page | PdfCraft was already installed separately; the other six provider apps were not exercised |
 | Learning methods | 13 helper tests, real alignment/search samples and a dangling-outcome rejection passed | No learner outcomes or workshop delivery claimed |
-| Solo Service helper | 12 behavioral tests and fictional payment allocation passed with unchanged input | No bank/account connector or financial action |
-| Game methods | Full procedure/reference closure and vendor byte parity verified | Engine execution and real playtesting remain user tasks |
+| Solo Service helpers | 12 reconciliation tests, 32 Gmail receipt-gate tests and fictional allocation passed; no message body or address stored by the gate | No bank/account connector, sent email or automatic hook registration |
+| Game methods | Full procedure/reference closure and vendor byte parity; five live-table helper tests and synthetic word-budget/safety-card cases passed | Engine execution, actual table facilitation and real playtesting remain user tasks |
 | Stitch, Figma and Resolve | Native package installation; a fresh agent read installed procedures and completed three synthetic brief tasks | No app edit, exported screen or timeline is claimed by this package test |
 | MCP development methods | Synthetic SQLite FTS starter, retrieval checks and import-boundary positive/negative tests passed | Does not establish a deployed app or access to any external provider |
 | Video Templates | Eleven tools and two resources exercised through real stdio; gallery, method and storyboard rendered with a synthetic host fixture | Creative reference bodies and media are excluded; native host widget acceptance is not claimed |
@@ -29,3 +29,9 @@ Tests distinguish installation, execution and provider access. Versioned release
 The fresh-environment checks use empty extraction folders, a new Python environment and separately named marketplace caches. They are not a second computer. macOS is the verified local platform. The repository CI checks portable package integrity on Linux; it does not establish every provider integration. No package is claimed published in the official OpenAI Plugin Directory.
 
 See each package README for its exact prerequisites, sample and optional tools. Native host MCP app acceptance is distinct from a direct stdio/resource-render test.
+
+## Standalone method integration
+
+The expanded editions retain 45 additional complete procedures in 11 existing packages, including their eligible scripts, tests and references. Personal cases and machine bindings become explicitly labelled synthetic examples or recipient inputs. Upstream Apache and MIT sources retain their exact notices. The Go retrieval engine requires a recipient-authorized index; Pattern Picker includes eight original synthetic examples and requires authorized framework sources for real use. Neither package silently republishes its old source corpus.
+
+The Apps SDK helper generated its complete four-file synthetic starter and rejected a nonempty target. Go retrieval returned the synthetic indexed result and rejected a missing index without creating a file. GitHub tree/branch helpers handled supplied Unicode metadata; missing required arguments were rejected before network access. Storage diagnosis used explicit synthetic roots and mocked system commands. These are bounded source/helper checks, not real provider, account, container, cloud tunnel, disk-cleanup or application-deployment claims.

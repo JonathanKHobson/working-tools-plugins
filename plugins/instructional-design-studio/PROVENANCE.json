@@ -1,6 +1,6 @@
 {
   "package": "instructional-design-studio",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "source_owner": "instructional-design-studio",
   "source_revision": "Canonical input has no enclosing Git checkout; reviewed SHA256 identifies exact source.",
   "source_tree_sha256": "65d373fda8fa2537ca153e677ac8c36520d6bd5128ba51ab2a271c651b7039a7",
@@ -10,7 +10,7 @@
     {
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "37070d554ee39b29a914ad50b22623574530c07fad8164dc66350a0fed27f706",
-      "output_sha256": "2e4da32e6d46a1a957e766bd8da9d50353c95bf246fcb36109bd5db17cd199cd",
+      "output_sha256": "4ccba38daf56a73a192403545909520f3921364e5ad86ce0f5b140656813eaf9",
       "transformed": true,
       "transformation": "Declare complete method-only public edition, explicit code/document license scopes, no Atlas/private service binding.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
@@ -18,7 +18,7 @@
     {
       "source_relative": "README.md",
       "source_sha256": "cdfec104994217369e870efe696cd5b16e441169df8c32cd2f82faeb03ab98be",
-      "output_sha256": "74c31bb79fe7dc79280301769e26f469999ef930efb42c9cdfb3020f8e41274c",
+      "output_sha256": "fdb4fe551cb534614f4ec69acd40329267259d75c186d6d2dbdb3b090307c037",
       "transformed": true,
       "transformation": "Preserve complete skill catalog and first-use behavior; remove stale private-service claim and add portable prerequisites, missing-provider behavior and license scope. Normalize historical private-edition/launcher statements for the current public export.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
@@ -42,7 +42,7 @@
     {
       "source_relative": "docs/project-map.md",
       "source_sha256": "c19c0b839c98aa31b0c57dad423f2975fe5fdd9ed78da06bace22e36c12dc7a8",
-      "output_sha256": "f7eb33ba208fe12755c224533dfecd0f907f9b4e4b2239b53d510a72a1c04713",
+      "output_sha256": "846b82079a2f5abd4e7a4995596a95f9c55d13a57a78433548be1d8d4a25abd8",
       "transformed": true,
       "transformation": "Identify portable source owner and exact method/runtime/private-data boundary. Normalize historical private-edition/launcher statements for the current public export.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
@@ -52,7 +52,7 @@
       "source_sha256": "5e4df6c87a970e32546d31dae14ef12383252e18218095d59a09bb196eb902de",
       "output_sha256": "8b0c87d0d09f21c2e87d5010cbe2ae4b78b0be3f2de7cbdfb3cb5d644931d4ff",
       "transformed": true,
-      "transformation": "Byte-identical original source retained Normalize historical private-edition/launcher statements for the current public export.",
+      "transformation": "Complete original content retained with public recipient/metadata transformations Normalize historical private-edition/launcher statements for the current public export.",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
     },
     {
@@ -582,6 +582,85 @@
       "transformed": false,
       "transformation": "Byte-identical original source retained",
       "rights": "Original contribution; code MIT, prose/educational material CC-BY-SA 4.0. Referenced external sources are not bundled."
+    },
+    {
+      "source_relative": "standalone/learning-experience-designer/SKILL.md",
+      "source_owner": "standalone:learning-experience-designer",
+      "source_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+      "path": "skills/learning-experience-designer/SKILL.md",
+      "output_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "source_relative": "standalone/learning-experience-designer/references/adoption-map.md",
+      "source_owner": "standalone:learning-experience-designer",
+      "source_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+      "path": "skills/learning-experience-designer/references/adoption-map.md",
+      "output_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+      "change": "Byte-exact standalone original source retained"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "4addba796998495d5c1966738b50300be4bcdba15d28ae7d175ca19d80931f46",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "03a02cad5bc3fb3b52b8b5bffd8c1f5de12b999308af3771e877f7cdbcecb0b4",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "LICENSE",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "2d3b22facbc9c80fcf5fbfa9050691c56a2d18fef427a95829c9fb5caf1dcc7a",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "LICENSE-CODE-MIT",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "f147caf09975a47203dd075e673825dc1259b9aba3132c99deb996b03ae77c7a",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "5cae9a45c6ab57b27f11251ba27bd8cf1a09ef88f68b9e6d992c1695a437b118",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "d7a5cbef050618bcd96d96685f358acc1bcddcd101c249d1b5b03e5ae1d96174",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "docs/release-validation.md",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "232637d32ebc55fb3ceab223c069739ff1af5f1d1202af277b78365b347650e4",
+      "change": "Package-local recipient setup/scope metadata"
+    },
+    {
+      "path": "plugin.json",
+      "source_relative": null,
+      "source_sha256": null,
+      "output_sha256": "73dae0f74bd06226d2d3de274c969d23f2adf85b90dab9d4648db3a42a19fe21",
+      "change": "Package-local recipient setup/scope metadata"
     }
   ],
   "excluded_files": [
@@ -603,7 +682,7 @@
     "code": "MIT",
     "prose_and_original_educational_material": "CC-BY-SA-4.0"
   },
-  "public_package_skill_count": 11,
+  "public_package_skill_count": 12,
   "licensing_primary_source_checks": {
     "checked_at": "2026-10-10",
     "license_page": "https://www.liberatingstructures.com/cc-license",
@@ -614,5 +693,31 @@
       "https://www.liberatingstructures.com/troika-consulting/",
       "https://www.liberatingstructures.com/what-so-what-now-what/"
     ]
+  },
+  "retained_skill_heads": 12,
+  "standalone_additions": {
+    "heads": [
+      "learning-experience-designer"
+    ],
+    "source_owner": "Explicit standalone sources, not provider cache copies",
+    "full_original_closures": [
+      {
+        "source_relative": "standalone/learning-experience-designer/SKILL.md",
+        "source_owner": "standalone:learning-experience-designer",
+        "source_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+        "path": "skills/learning-experience-designer/SKILL.md",
+        "output_sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65",
+        "change": "Byte-exact standalone original source retained"
+      },
+      {
+        "source_relative": "standalone/learning-experience-designer/references/adoption-map.md",
+        "source_owner": "standalone:learning-experience-designer",
+        "source_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+        "path": "skills/learning-experience-designer/references/adoption-map.md",
+        "output_sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8",
+        "change": "Byte-exact standalone original source retained"
+      }
+    ],
+    "privacy_projection": "Populated originating host/account/vault maps replaced with explicit recipient templates; full procedures/helpers retained. No automatic provider or hook registration."
   }
 }

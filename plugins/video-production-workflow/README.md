@@ -1,6 +1,6 @@
 # Video Production Workflow
 
-An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.3.0 is the portable public release of the maintained workflow: 17 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
+An executable video production system by Jonathan Kyle Hobson (Kyle Hobson). Version 0.4.0 is the portable public release of the maintained workflow: 19 skills, production/review agents, a Python CLI, FFmpeg rendering, measured media QA, caption and timeline operations, synthetic examples, and separately licensed motion method libraries.
 
 ## Quick start
 
@@ -31,3 +31,11 @@ Start with `plan-video-production`, then select the smallest owner for ingest, a
 Original code, methods and synthetic core fixtures are MIT licensed, copyright Jonathan Kyle Hobson. Separately licensed retained method libraries keep their own MIT or Apache-2.0 licenses, copyright notices and provenance. See [third-party notices](THIRD_PARTY_NOTICES.md) and [distribution provenance](PUBLIC_DISTRIBUTION.md). Upstream library procedures are conditional source material; their optional tools/providers are not installed or automatically invoked.
 
 Specialized renderer adapters and external studio integrations retain explicit setup requirements. The core FFmpeg workflow works independently. Review [optional integrations](docs/OPTIONAL_INTEGRATIONS.md) before choosing a provider, font, model, browser renderer or native editing tool. There is no upload/publishing adapter.
+
+## Review packets and walkthrough scripts
+
+Two full first-party standalone methods are now included: [Loom Review Packet](skills/loom-review-packet/SKILL.md) and [Loom Walkthrough Scripting](skills/loom-walkthrough-scripting/SKILL.md).
+
+The packet helper extracts transcript timestamps, sorts a recipient cue CSV, copies supplied screenshots or captures video frames with separately installed FFmpeg, preserves raw input and writes an explicit complete/partial manifest plus linked feedback. It never downloads a Loom or sends feedback. Walkthrough scripting retains the full spoken-route, evidence-state and recording-readiness procedures, with a full fictional replacement for its private client case. Actual recordings, Figma access, stakeholder notes and authenticated browsers remain recipient inputs.
+
+Run `python examples/loom-review-synthetic.py --output /your/new/sample-folder` for a real synthetic packet. Add `--capture` to exercise local FFmpeg frame capture. The helper refuses an existing packet output, and tests cover invalid timestamps, missing frames, explicit partial staging, input preservation and complete packet hashes. Fictional fixtures are not real UX observation or delivered stakeholder feedback.

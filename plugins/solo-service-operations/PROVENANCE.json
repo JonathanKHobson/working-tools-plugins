@@ -1,25 +1,25 @@
 {
   "package": "solo-service-operations",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "first_party_author": "Jonathan Kyle Hobson",
   "scope": "All public files except this self-describing provenance file. Public release archive supplies complete external hash receipt. Canonical source paths and task receipts remain outside public package.",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "bytes": 310,
+      "bytes": 314,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "df9cbd85817e0c03806a657d2d832d3d8ca54b279a90ed38a8548ba75dab04a1",
+      "output_sha256": "0b04ee38fdf725aed3bd1568c426383f7673df0b7e1f86807d01c989af23f8a9",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "original-public-addition"
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "bytes": 1027,
+      "bytes": 972,
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "34cba540c0f348b44675603e1466c52d06e0b07021065f801cd9c6cb3804b232",
-      "output_sha256": "ed125508128710d2fcd4ca7c7a8455327019a907b9941ef0d2fb7c18ff886836",
+      "output_sha256": "11a63dbceac0499b472c6d626504b7db5a28df610357c85aa6c39eb60ea087e2",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "modified"
@@ -66,20 +66,20 @@
     },
     {
       "path": "README.md",
-      "bytes": 4116,
+      "bytes": 6042,
       "source_relative": "README.md",
       "source_sha256": "d86b2613dff6936fd35594f4da6e1f7f63b7498ea3887a6c3e3da4f865a927e4",
-      "output_sha256": "0fd855909a1da7eda7a5b9474fa08f824489bef08dab41c1f30dc3581f9523e4",
+      "output_sha256": "c498b3cc348083ddbd5e285775d6b00f987fecd03af54949abb28ac85d23089b",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "modified"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 958,
+      "bytes": 1426,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "7b12d7e379ffaaa20f9b062241d0c52eef012b1d85be51b7add15bbb608c38f9",
+      "output_sha256": "44d2d73c2b72bfeca6e2a0ae3f6dc981611b2ea6f4df3427ec36f07ce7b99851",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "original-public-addition"
@@ -96,10 +96,10 @@
     },
     {
       "path": "docs/project-map.md",
-      "bytes": 1632,
+      "bytes": 1962,
       "source_relative": "docs/project-map.md",
       "source_sha256": "a0a12f0a79ac829e75fd4ebfa08c6f50d23fa5544a19498f0c85ce78c113729c",
-      "output_sha256": "b83a61016508ddb01c43943801997c710517563e7ae5c22b50b1bd43b3b978b6",
+      "output_sha256": "87c29720ae8ba6850d4340b4163c8903bec0f79b7c631128c6b6ef55d4f1d9a5",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "modified"
@@ -346,10 +346,10 @@
     },
     {
       "path": "plugin.json",
-      "bytes": 501,
+      "bytes": 505,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "665ab4b740e43270e4294d2848933883af913255728a1ab58fdcdb95619fb7e4",
+      "output_sha256": "bfe2a6dc3ecf8c208179fca02070ef86a0f9e91d52e705247d682b1b710a4ca3",
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "original-public-addition",
@@ -486,6 +486,61 @@
       "status": "unchanged"
     },
     {
+      "path": "skills/gmail-send-review/SKILL.md",
+      "output_sha256": "3303f5c932e6d152ab0bcbcf0b59bf803d443259e63b5b83a56590926a92009a",
+      "bytes": 9788,
+      "source_relative": "standalone/gmail-send-review/SKILL.md",
+      "source_sha256": "7bfeaef1f64d0131d56cab5e1ed336e5c9a495fcc4cc703b7d4f7b105ca19014",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/gmail-send-review/docs/project-map.md",
+      "output_sha256": "706ab00522e43f44dd09b2df1f022444e293aa682ebd7ba34ec0161a055a9f23",
+      "bytes": 1422,
+      "source_relative": "standalone/gmail-send-review/docs/project-map.md",
+      "source_sha256": "68ec0ba49722bb279eff8d8b73ca7180a8746f86193cef2a90da42d167673a68",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/gmail-send-review/references/scheduling-and-batches.md",
+      "output_sha256": "887928b9066b2c6fd7a2969d1d1987953d4a3c0f408531e83e7346d3bf014b38",
+      "bytes": 3855,
+      "source_relative": "standalone/gmail-send-review/references/scheduling-and-batches.md",
+      "source_sha256": "887928b9066b2c6fd7a2969d1d1987953d4a3c0f408531e83e7346d3bf014b38",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "unchanged",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/gmail-send-review/scripts/gate.py",
+      "output_sha256": "59ed8304b6f8c9ed7b4686ab72d2cd575cb884b8cc03564f0151b9bd4d602f13",
+      "bytes": 14592,
+      "source_relative": "standalone/gmail-send-review/scripts/gate.py",
+      "source_sha256": "19689f49ac6125ab287a53e01ee3ea347061e72cdc11380608991b4f0461edc6",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/gmail-send-review/tests/test_gate.py",
+      "output_sha256": "22b679f954adc213586be054c44fefde8978a1a11d51996b497de967e62c8a39",
+      "bytes": 16054,
+      "source_relative": "standalone/gmail-send-review/tests/test_gate.py",
+      "source_sha256": "22b679f954adc213586be054c44fefde8978a1a11d51996b497de967e62c8a39",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "unchanged",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
       "path": "skills/invoice-follow-up/SKILL.md",
       "bytes": 5660,
       "source_relative": "skills/invoice-follow-up/SKILL.md",
@@ -506,6 +561,38 @@
       "status": "modified"
     },
     {
+      "path": "skills/paid-gm-event-coordination/SKILL.md",
+      "output_sha256": "ad27b6a1b98e0b88332fd3fa99db356c714bf24cd2c449ef90d7447681141542",
+      "bytes": 7434,
+      "source_relative": "standalone/paid-gm-event-coordination/SKILL.md",
+      "source_sha256": "13cf31a02e371ef5bac212c1e5a2105ca69a09ce522266086afec267c92da251",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/paid-gm-event-coordination/agents/openai.yaml",
+      "source_relative": "standalone/paid-gm-event-coordination/agents/openai.yaml",
+      "source_sha256": "7310131efa5556e35afbf5f4a2e3475effb8593c776137b5782f179021bc2510",
+      "output_sha256": "7310131efa5556e35afbf5f4a2e3475effb8593c776137b5782f179021bc2510",
+      "bytes": 265,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/paid-gm-event-coordination/references/synthetic-example.md",
+      "output_sha256": "f882494c5d9b90e230165a22894796502cba1438fbf8bdb680636a892eccb19e",
+      "bytes": 914,
+      "source_relative": null,
+      "source_sha256": null,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Original public synthetic example or recipient setup guidance",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
       "path": "skills/payment-reconciliation/SKILL.md",
       "bytes": 6791,
       "source_relative": "skills/payment-reconciliation/SKILL.md",
@@ -514,6 +601,81 @@
       "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and NOTICE",
       "status": "unchanged"
+    },
+    {
+      "path": "skills/pro-gm-venue-outreach/SKILL.md",
+      "output_sha256": "09eb0d16e885838180b285a440063dd40b9463ecc75a63f37daa4752cf9f2c37",
+      "bytes": 10131,
+      "source_relative": "standalone/pro-gm-venue-outreach/SKILL.md",
+      "source_sha256": "0fdeecd410b05500c0a2cefe35fea7f3fc5f25eaa2af47aef5c796aa01e2e203",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/pro-gm-venue-outreach/agents/openai.yaml",
+      "source_relative": "standalone/pro-gm-venue-outreach/agents/openai.yaml",
+      "source_sha256": "a3def92c33605a194f4059c33173be3b4b45242319fd0d578470f989d4760823",
+      "output_sha256": "a3def92c33605a194f4059c33173be3b4b45242319fd0d578470f989d4760823",
+      "bytes": 275,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/pro-gm-venue-outreach/references/message-and-log.md",
+      "output_sha256": "60b70e2790259778e09552876ed0b44ec28451460aa0912d60f302766e8bc927",
+      "bytes": 4508,
+      "source_relative": "standalone/pro-gm-venue-outreach/references/message-and-log.md",
+      "source_sha256": "0559dacbbfa0d171fb4f3c8e0f17b11e3732e400d9557c43a196fcfef5264f24",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/pro-gm-venue-outreach/references/synthetic-example.md",
+      "output_sha256": "61af64eed0d3601b8787606d4768b1d0ff0dadfa2ccd0e29ed77825c9b12ee57",
+      "bytes": 869,
+      "source_relative": null,
+      "source_sha256": null,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Original public synthetic example or recipient setup guidance",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/rpg-community-coordination/SKILL.md",
+      "output_sha256": "aa0a565e2433a038a1a838d80c974f93958ea2e6d336176ccbeeae6415b1a47c",
+      "bytes": 8274,
+      "source_relative": "standalone/rpg-community-coordination/SKILL.md",
+      "source_sha256": "c48801eaefebdc9b67f083547b1db643bb15637f7cac87537a34d6c19b363abc",
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Complete original procedure with recipient bindings and explicit synthetic examples; private case records excluded",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/rpg-community-coordination/agents/openai.yaml",
+      "source_relative": "standalone/rpg-community-coordination/agents/openai.yaml",
+      "source_sha256": "9f0604718e170e40f18f9891de6579445d84d3ba0510890c4f627556a3652c43",
+      "output_sha256": "9f0604718e170e40f18f9891de6579445d84d3ba0510890c4f627556a3652c43",
+      "bytes": 255,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md",
+      "status": "unchanged"
+    },
+    {
+      "path": "skills/rpg-community-coordination/references/synthetic-example.md",
+      "output_sha256": "7e234c8626e365300660cb3eb218b0c0acdba6b80e3fa21afb25b9845d1c9d2b",
+      "bytes": 742,
+      "source_relative": null,
+      "source_sha256": null,
+      "rights": "Apache-2.0: Jonathan Kyle Hobson original contribution/adaptation",
+      "change": "Original public synthetic example or recipient setup guidance",
+      "status": "modified",
+      "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md"
     },
     {
       "path": "tests/test_reconcile.py",
@@ -525,5 +687,11 @@
       "license_notice": "LICENSE and NOTICE",
       "status": "unchanged"
     }
-  ]
+  ],
+  "retained_skill_count": 8,
+  "standalone_scope": {
+    "source_inventory": "Current standalone skill owner reconciliation",
+    "private_case_records": "Excluded, replaced by labelled original synthetic examples where needed",
+    "external_corpora": "Recipient-authorized sources required; omitted source records are not relabelled as public"
+  }
 }

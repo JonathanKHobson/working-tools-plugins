@@ -1,0 +1,45 @@
+{
+  "schema_version": "gm-roleplay-router.scenarios.v1",
+  "source": "Original first-party fictional route scenarios; source hash in provenance/standalone-source.json",
+  "scenarios": [
+    {
+      "id": "route-live-quiet-player",
+      "prompt": "One player has barely spoken and the scene is moving fast. What do I do right now?",
+      "expected_primary_skill": "live-table-director",
+      "requirements": [
+        "live card only",
+        "observable signal",
+        "pass option"
+      ]
+    },
+    {
+      "id": "route-story-atlas",
+      "prompt": "Compile this prep into Story Atlas files and separate player-safe notes from GM-only secrets.",
+      "expected_primary_skill": "creative-project-context",
+      "requirements": [
+        "canon labels",
+        "player-safe separation",
+        "no MCP write without approval"
+      ]
+    },
+    {
+      "id": "route-daggerheart-teach",
+      "prompt": "Teach this Daggerheart rule at the table without stopping the session.",
+      "expected_primary_skill": "ttrpg-router",
+      "requirements": [
+        "official/table-ruling/verify-after-play label",
+        "current official source status"
+      ]
+    },
+    {
+      "id": "route-public-gm",
+      "prompt": "Make a public event page and player handout for a paid one-shot.",
+      "expected_primary_skill": "publishing-router",
+      "requirements": [
+        "public artifact routing",
+        "accessibility",
+        "rights review"
+      ]
+    }
+  ]
+}

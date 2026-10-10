@@ -1,13 +1,13 @@
 {
   "name": "video-production-workflow",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "source_owner": "Jonathan Kyle Hobson canonical Video Production Workflow",
   "file_inventory_scope": "Every public file except this self-describing manifest; package checksum is an external receipt. Generated renders/work/caches excluded.",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
       "bytes": 251,
-      "sha256": "9b136f998cb93916a60103fa26e86e635a016ff037b4b25edee989250d5deb4b",
+      "sha256": "95656501326c99a98e44278b24576d3e5d2e0e577cde30ff45213e1d7f797211",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": ".claude-plugin/plugin.json",
@@ -17,7 +17,7 @@
     {
       "path": ".codex-plugin/plugin.json",
       "bytes": 1272,
-      "sha256": "2c090530208b0d0e678fc84967b6b7ef05382bbb76b061afc739df7aed0c8f93",
+      "sha256": "76008ed6fc02e01c154e85c05311b30b465bbe5df1de6f53a20bf8bd7ed217a0",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": ".codex-plugin/plugin.json",
@@ -55,6 +55,16 @@
       "status": "unchanged"
     },
     {
+      "path": "CHANGELOG.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": null,
+      "source_sha256": null,
+      "status": "original-public-addition",
+      "bytes": 332,
+      "sha256": "78c442723607b8de00e068339da6afffa8cd776176f0363a0d549137e0b4fda8"
+    },
+    {
       "path": "CONTRIBUTING.md",
       "bytes": 522,
       "sha256": "3879ea0ae937b7c73a3fe77e0ad9e951fb7be7c869c21d0826e97b30e51ff3e8",
@@ -87,7 +97,7 @@
     {
       "path": "PUBLIC_DISTRIBUTION.md",
       "bytes": 4152,
-      "sha256": "0a865b987f2f3d97f08b1069fc61d8073d382ad13694044802792f52b87fadb4",
+      "sha256": "0b1486fbbaec188f9a6d00abf807010d63b63d666f0fe6ccaf3776559478eb2b",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": null,
@@ -96,8 +106,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3147,
-      "sha256": "a1e66e4a1b2d0afbb98dcbeecf7e4ce1079ba83ab2957ede3aa1feead8b4c43f",
+      "bytes": 4374,
+      "sha256": "122527e3f9398afc9f05d605db90c69f04ab30050b155f97c0a3869257f4112d",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": "README.md",
@@ -116,8 +126,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 4287,
-      "sha256": "ead66c7a67958716c98db52215051546d362a3f065f6a75a0a0103a6bfba5e4d",
+      "bytes": 4737,
+      "sha256": "8ab840ce68f99b2bfe605b7bf5d2cfcbdb55313b9aca137fc8df56397351b85a",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": "THIRD_PARTY_NOTICES.md",
@@ -326,8 +336,8 @@
     },
     {
       "path": "docs/project-map.md",
-      "bytes": 1515,
-      "sha256": "0e3c04ed87d26df65d3c31b2e40c303479798117cd7597cb2da1d65914afc5fe",
+      "bytes": 1937,
+      "sha256": "1fcce947df74773c895c916932f62dacc31f4a221f0dee49cbd9f6d1acadc118",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": "docs/project-map.md",
@@ -473,6 +483,16 @@
       "source_path": "examples/dialogue-edit-fixture/transcript.json",
       "source_sha256": "5b9fe082961470fd01178abaf82a3cf66bd4c255d25a38936dfcf61cfeaafda4",
       "status": "unchanged"
+    },
+    {
+      "path": "examples/loom-review-synthetic.py",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": null,
+      "source_sha256": null,
+      "status": "original-public-addition",
+      "bytes": 3547,
+      "sha256": "d1ea7588f1e20f07dcbc6adad20568442f548d03be1c0be17e3a18b4970fc944"
     },
     {
       "path": "examples/multi-aspect-variants/README.md",
@@ -1015,6 +1035,26 @@
       "status": "unchanged"
     },
     {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
+      "bytes": 75,
+      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77",
+      "rights": "MIT: cth9191 pinned repository source/method previews",
+      "license_notice": "libraries/animate-methods/LICENSE",
+      "source_path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
+      "source_sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
+      "bytes": 564,
+      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7",
+      "rights": "MIT: cth9191 pinned repository source/method previews",
+      "license_notice": "libraries/animate-methods/LICENSE",
+      "source_path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
+      "source_sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7",
+      "status": "unchanged"
+    },
+    {
       "path": "libraries/animate-methods/styles/isometric/demo/piece.json",
       "bytes": 323,
       "sha256": "32af19a37f7a93902f8cfbbdcb789f3158f1a274e8e2641784f3b9f741f272af",
@@ -1062,26 +1102,6 @@
       "license_notice": "libraries/animate-methods/LICENSE",
       "source_path": "libraries/animate-methods/styles/isometric/demo/src/score.js",
       "source_sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4",
-      "status": "unchanged"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
-      "bytes": 75,
-      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77",
-      "rights": "MIT: cth9191 pinned repository source/method previews",
-      "license_notice": "libraries/animate-methods/LICENSE",
-      "source_path": "libraries/animate-methods/styles/isometric/demo-dark/dark.js",
-      "source_sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77",
-      "status": "unchanged"
-    },
-    {
-      "path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
-      "bytes": 564,
-      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7",
-      "rights": "MIT: cth9191 pinned repository source/method previews",
-      "license_notice": "libraries/animate-methods/LICENSE",
-      "source_path": "libraries/animate-methods/styles/isometric/demo-dark/piece.json",
-      "source_sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7",
       "status": "unchanged"
     },
     {
@@ -2105,6 +2125,16 @@
       "status": "unchanged"
     },
     {
+      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
+      "bytes": 26512,
+      "sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e",
+      "rights": "Apache-2.0: heygen-com pinned source",
+      "license_notice": "libraries/hyperframes-methods/source/LICENSE",
+      "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
+      "source_sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e",
+      "status": "unchanged"
+    },
+    {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints/agent-progress-theater.md",
       "bytes": 16091,
       "sha256": "1939690276ebf41123126e40915c283b69d3b2fd7d563f774c96e6ff6a076d4b",
@@ -2325,16 +2355,6 @@
       "status": "unchanged"
     },
     {
-      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
-      "bytes": 26512,
-      "sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e",
-      "rights": "Apache-2.0: heygen-com pinned source",
-      "license_notice": "libraries/hyperframes-methods/source/LICENSE",
-      "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/blueprints-index.md",
-      "source_sha256": "601228ddcfda89ed6add52bd08becf53296764e155126fb5e7100eb29caaa46e",
-      "status": "unchanged"
-    },
-    {
       "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html",
       "bytes": 12285,
       "sha256": "6ef0274922bf33c9362c638476d97c475931941263f03934ce06f677c8301e5f",
@@ -2472,6 +2492,16 @@
       "license_notice": "libraries/hyperframes-methods/source/LICENSE",
       "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/references/motion-blur.md",
       "source_sha256": "66c5a15a3515063c1103633877494430bdf33b783544f0fb98e433dbd65a6777",
+      "status": "unchanged"
+    },
+    {
+      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
+      "bytes": 21484,
+      "sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca",
+      "rights": "Apache-2.0: heygen-com pinned source",
+      "license_notice": "libraries/hyperframes-methods/source/LICENSE",
+      "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
+      "source_sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca",
       "status": "unchanged"
     },
     {
@@ -2952,16 +2982,6 @@
       "license_notice": "libraries/hyperframes-methods/source/LICENSE",
       "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules/waterfall-entry.md",
       "source_sha256": "d9b8a3df6c59e0af6eef1f3f3d7ffb8058c8983976e4ce150566215770ff7c50",
-      "status": "unchanged"
-    },
-    {
-      "path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
-      "bytes": 21484,
-      "sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca",
-      "rights": "Apache-2.0: heygen-com pinned source",
-      "license_notice": "libraries/hyperframes-methods/source/LICENSE",
-      "source_path": "libraries/hyperframes-methods/source/skills/hyperframes-animation/rules-index.md",
-      "source_sha256": "e6142e35d7090934fc139ec490df97fd3c7d4995d35745417afc52476aecd7ca",
       "status": "unchanged"
     },
     {
@@ -3947,7 +3967,7 @@
     {
       "path": "plugin.json",
       "bytes": 373,
-      "sha256": "3b03463a1e7264cb532d9b8d909d610db606dce4f76cec10ff567d439d436b77",
+      "sha256": "0d7074a7bf9ce9c983947b4b7853d4eb6bd67348a31cac460ed1542edc0e000e",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": null,
@@ -3958,7 +3978,7 @@
     {
       "path": "pyproject.toml",
       "bytes": 928,
-      "sha256": "efd101a41691e91bbc50aa983a6966ec124b6ca77b4455f79b8d067ba432ef48",
+      "sha256": "6fff24ba24e2a706ec2a2250d54e30b608c3bef7b1a2169274912518d099a454",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": "pyproject.toml",
@@ -7166,6 +7186,109 @@
       "status": "unchanged"
     },
     {
+      "path": "skills/loom-review-packet/SKILL.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-review-packet/SKILL.md",
+      "source_sha256": "a0cb92aad7b91fc934b96b5a00f2ce586a34c1ce0ee6bb8ae67a543d1df5e2ce",
+      "status": "synthetic-public-adaptation",
+      "bytes": 4287,
+      "sha256": "b519e8eb304305e7524095b7e47b11fa0585077688b69db131ef024a4f9cdf6a",
+      "transformations": [
+        "Private client example and identifying history replaced by full fictional worked scenario; operative source workflow preserved"
+      ]
+    },
+    {
+      "path": "skills/loom-review-packet/agents/openai.yaml",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-review-packet/agents/openai.yaml",
+      "source_sha256": "06e9c37c3d4960358ffd56b48a80e3207d8bdbc6d154614377bfeeff3e6f995a",
+      "status": "unchanged-first-party-source",
+      "bytes": 220,
+      "sha256": "06e9c37c3d4960358ffd56b48a80e3207d8bdbc6d154614377bfeeff3e6f995a",
+      "transformations": []
+    },
+    {
+      "path": "skills/loom-review-packet/references/packet-format.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-review-packet/references/packet-format.md",
+      "source_sha256": "62450bbb5d14acc3fd1d282b70f5afcda5440ae3e9e4ff97ce84f84f744da16e",
+      "status": "unchanged-first-party-source",
+      "bytes": 2411,
+      "sha256": "62450bbb5d14acc3fd1d282b70f5afcda5440ae3e9e4ff97ce84f84f744da16e",
+      "transformations": []
+    },
+    {
+      "path": "skills/loom-review-packet/references/sources/source-index.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": null,
+      "source_sha256": null,
+      "status": "original-public-addition",
+      "bytes": 623,
+      "sha256": "ecb46933ae32022967858b33278ad3a797451f125c15062e8af62d19093f31e4"
+    },
+    {
+      "path": "skills/loom-review-packet/scripts/loom_review_packet.py",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-review-packet/scripts/loom_review_packet.py",
+      "source_sha256": "618fe1a1cceddedb3a6d5913d3a93edcf038057d37f53a51531bcb154ebd6916",
+      "status": "unchanged-first-party-source",
+      "bytes": 13188,
+      "sha256": "618fe1a1cceddedb3a6d5913d3a93edcf038057d37f53a51531bcb154ebd6916",
+      "transformations": []
+    },
+    {
+      "path": "skills/loom-walkthrough-scripting/SKILL.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-walkthrough-scripting/SKILL.md",
+      "source_sha256": "5447351f7cddb793ee83fa8ef5d5e1ca41fbfbc9e8c9fca20247649b9d2afe00",
+      "status": "synthetic-public-adaptation",
+      "bytes": 6763,
+      "sha256": "8431b09f0206a796b0a0932a0e9ed9362fac3095a1ec0a0077174f0546389610",
+      "transformations": [
+        "Private client example and identifying history replaced by full fictional worked scenario; operative source workflow preserved"
+      ]
+    },
+    {
+      "path": "skills/loom-walkthrough-scripting/agents/openai.yaml",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-walkthrough-scripting/agents/openai.yaml",
+      "source_sha256": "c7f4dc3008648f2d74c7555365801deda6dbb109aabc0844caae5ac8c20a0312",
+      "status": "unchanged-first-party-source",
+      "bytes": 284,
+      "sha256": "c7f4dc3008648f2d74c7555365801deda6dbb109aabc0844caae5ac8c20a0312",
+      "transformations": []
+    },
+    {
+      "path": "skills/loom-walkthrough-scripting/references/recorded-workflow.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": "standalone-skills/loom-walkthrough-scripting/references/recorded-workflow.md",
+      "source_sha256": "aa213aab9f301f917644ad45ab50da63f77a99d23eef6b1f83f1f0cdcfe25390",
+      "status": "synthetic-public-adaptation",
+      "bytes": 2911,
+      "sha256": "3264030a666d7873df034ef206d4be686fbb8a0e98d87ccf797f81bb41a83f35",
+      "transformations": [
+        "Private client example and identifying history replaced by full fictional worked scenario; operative source workflow preserved"
+      ]
+    },
+    {
+      "path": "skills/loom-walkthrough-scripting/references/sources/source-index.md",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": null,
+      "source_sha256": null,
+      "status": "original-public-addition",
+      "bytes": 623,
+      "sha256": "ecb46933ae32022967858b33278ad3a797451f125c15062e8af62d19093f31e4"
+    },
+    {
       "path": "skills/mix-video-audio/SKILL.md",
       "bytes": 5438,
       "sha256": "cb8a902e6fa270746fbf36a63bc7a85cc5a671351e5309de08f73413a7199256",
@@ -8126,6 +8249,16 @@
       "status": "unchanged"
     },
     {
+      "path": "tests/test_loom_review_packet.py",
+      "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
+      "license_notice": "LICENSE",
+      "source_path": null,
+      "source_sha256": null,
+      "status": "original-public-addition",
+      "bytes": 3759,
+      "sha256": "97715d90d7fc5e59538a70877b3a0d746912a8e6acbd93b7d6e8572013a2b43c"
+    },
+    {
       "path": "tests/test_manifest.py",
       "bytes": 882,
       "sha256": "7721bc856b7f4ec6177beffb6ee66e30bc3415ad4dfcb59f80d15eaa8812e5d2",
@@ -8318,7 +8451,7 @@
     {
       "path": "video_workflow/__init__.py",
       "bytes": 93,
-      "sha256": "bc9af647bbb26700f25522b69264450a46c8f555dbdb61205e8cc73018d74149",
+      "sha256": "3a4c3b566918d34ab283017e454d7797b081b27026f8182cd9a955e17232425b",
       "rights": "MIT: Jonathan Kyle Hobson original implementation/adaptation",
       "license_notice": "LICENSE",
       "source_path": "video_workflow/__init__.py",

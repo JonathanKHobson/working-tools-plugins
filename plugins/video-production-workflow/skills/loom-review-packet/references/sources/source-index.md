@@ -1,0 +1,3 @@
+# Source index
+
+This is a complete original workflow by Jonathan Kyle Hobson under the [root MIT grant](../../../../LICENSE). The public edition retains the full operative head, references and agent metadata; Loom Review additionally includes its complete original Python helper. Source hashes and transformations are in [the public file inventory](../../../../PUBLIC_FILE_MANIFEST.json). Private client history in Walkthrough Scripting became a full explicitly fictional worked scenario. Actual recordings, transcript/screenshots, current design approval and provider access remain recipient inputs, not bundled evidence.

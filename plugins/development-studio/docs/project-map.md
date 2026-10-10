@@ -14,3 +14,7 @@ Purpose: a maintained personal software delivery method package with complete au
 Flow: request -> focused skill -> full chosen method and needed support -> actual existing provider/runtime -> implementation -> evidence -> requested handoff state. Useful next edits belong in the relevant skill/reference; upstream refreshes replace reviewed snapshots with a new per-file inventory. Installation/retirement is serialized by the parent ecosystem owner.
 
 Run from this root: `python3 scripts/validate_package.py`. For native skill validation, resolve the host’s skill-creator quick_validate helper. Source/prepared, installed, fresh-discovered and live-verified are distinct.
+
+## Standalone integration 0.2.0
+
+`docs/standalone-imports.json` owns exact newly retained full method/support hashes and portability decisions. Discovery exposes 21 heads; platform providers/configuration remain external. Root PROVENANCE and PUBLIC_FILE_MANIFEST bind the final public closure.

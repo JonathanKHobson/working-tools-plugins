@@ -1,36 +1,184 @@
 {
-  "schema": "game-creation-studio.routes.v1",
+  "schema": "game-creation-studio.routes.v2",
   "entrypoint": "game-creation-studio",
   "localSkills": [
-    {"id": "game-creation-studio", "useWhen": "cross-discipline game request or package help", "skill": "skills/game-creation-studio/SKILL.md"},
-    {"id": "game-core-loop", "useWhen": "fantasy, verbs, choice, feedback, loop", "skill": "skills/game-core-loop/SKILL.md"},
-    {"id": "game-prototype-scope", "useWhen": "playable slice, cut list, milestone", "skill": "skills/game-prototype-scope/SKILL.md"},
-    {"id": "gameplay-systems", "useWhen": "rules, progression, balance, state, saves", "skill": "skills/gameplay-systems/SKILL.md"},
-    {"id": "game-ui-accessibility", "useWhen": "HUD, menus, controls, onboarding, accessibility", "skill": "skills/game-ui-accessibility/SKILL.md"},
-    {"id": "game-playtest-release", "useWhen": "player observation, issue triage, release checks", "skill": "skills/game-playtest-release/SKILL.md"},
-    {"id": "game-asset-production", "useWhen": "produce and validate canonical game asset", "skill": "skills/game-asset-production/SKILL.md", "requiresForCommands": "game-dev CLI"},
-    {"id": "game-asset-vendoring", "useWhen": "verify, license-check, and admit package", "skill": "skills/game-asset-vendoring/SKILL.md", "requiresForCommands": "game-dev CLI"},
-    {"id": "game-visual-debugging", "useWhen": "adapter capture, telemetry, semantic render diff", "skill": "skills/game-visual-debugging/SKILL.md", "requiresForCommands": "game-dev CLI"},
-    {"id": "game-performance-optimization", "useWhen": "sealed metrics and bounded optimization", "skill": "skills/game-performance-optimization/SKILL.md", "requiresForCommands": "game-dev CLI"}
+    {
+      "id": "game-creation-studio",
+      "useWhen": "cross-discipline game request or package help",
+      "skill": "skills/game-creation-studio/SKILL.md"
+    },
+    {
+      "id": "game-core-loop",
+      "useWhen": "fantasy, verbs, choice, feedback, loop",
+      "skill": "skills/game-core-loop/SKILL.md"
+    },
+    {
+      "id": "game-prototype-scope",
+      "useWhen": "playable slice, cut list, milestone",
+      "skill": "skills/game-prototype-scope/SKILL.md"
+    },
+    {
+      "id": "gameplay-systems",
+      "useWhen": "rules, progression, balance, state, saves",
+      "skill": "skills/gameplay-systems/SKILL.md"
+    },
+    {
+      "id": "game-ui-accessibility",
+      "useWhen": "HUD, menus, controls, onboarding, accessibility",
+      "skill": "skills/game-ui-accessibility/SKILL.md"
+    },
+    {
+      "id": "game-playtest-release",
+      "useWhen": "player observation, issue triage, release checks",
+      "skill": "skills/game-playtest-release/SKILL.md"
+    },
+    {
+      "id": "game-asset-production",
+      "useWhen": "produce and validate canonical game asset",
+      "skill": "skills/game-asset-production/SKILL.md",
+      "requiresForCommands": "game-dev CLI"
+    },
+    {
+      "id": "game-asset-vendoring",
+      "useWhen": "verify, license-check, and admit package",
+      "skill": "skills/game-asset-vendoring/SKILL.md",
+      "requiresForCommands": "game-dev CLI"
+    },
+    {
+      "id": "game-visual-debugging",
+      "useWhen": "adapter capture, telemetry, semantic render diff",
+      "skill": "skills/game-visual-debugging/SKILL.md",
+      "requiresForCommands": "game-dev CLI"
+    },
+    {
+      "id": "game-performance-optimization",
+      "useWhen": "sealed metrics and bounded optimization",
+      "skill": "skills/game-performance-optimization/SKILL.md",
+      "requiresForCommands": "game-dev CLI"
+    },
+    {
+      "id": "board-game-design",
+      "useWhen": "playable board/card rules, components, probability and evidence",
+      "skill": "skills/board-game-design/SKILL.md"
+    },
+    {
+      "id": "game-designer",
+      "useWhen": "cross-domain design lenses, systems and concrete design artifacts",
+      "skill": "skills/game-designer/SKILL.md"
+    },
+    {
+      "id": "debrief-canon-maintainer",
+      "useWhen": "source-linked actual-play recap, proposed canon patches and next-session hypotheses",
+      "skill": "skills/debrief-canon-maintainer/SKILL.md"
+    },
+    {
+      "id": "improv-roleplay-coach",
+      "useWhen": "bounded rehearsal and low-pressure roleplay practice",
+      "skill": "skills/improv-roleplay-coach/SKILL.md"
+    },
+    {
+      "id": "live-table-director",
+      "useWhen": "immediate compact live GM card with exact words, signals and stop condition",
+      "skill": "skills/live-table-director/SKILL.md"
+    },
+    {
+      "id": "npc-performance-director",
+      "useWhen": "playable NPC goals, performance handles, information tiers and exit conditions",
+      "skill": "skills/npc-performance-director/SKILL.md"
+    },
+    {
+      "id": "pacing-scene-director",
+      "useWhen": "scene pressure, clocks, clue movement and finale protection",
+      "skill": "skills/pacing-scene-director/SKILL.md"
+    },
+    {
+      "id": "player-facilitator",
+      "useWhen": "observable participation, spotlight, conduct and multiple response modes",
+      "skill": "skills/player-facilitator/SKILL.md"
+    },
+    {
+      "id": "professional-public-gm",
+      "useWhen": "paid/public table preflight, welcome, time discipline and service recovery",
+      "skill": "skills/professional-public-gm/SKILL.md"
+    },
+    {
+      "id": "rules-teaching-coach",
+      "useWhen": "concise fiction-first rules teaching with source/ruling labels",
+      "skill": "skills/rules-teaching-coach/SKILL.md"
+    },
+    {
+      "id": "safety-accessibility-facilitator",
+      "useWhen": "consent, access, live content edits and private follow-up boundaries",
+      "skill": "skills/safety-accessibility-facilitator/SKILL.md"
+    },
+    {
+      "id": "personal-gm-style-adapter",
+      "useWhen": "optional removable style layer after source, agency and safety constraints",
+      "skill": "skills/personal-gm-style-adapter/SKILL.md"
+    },
+    {
+      "id": "ttrpg-router",
+      "useWhen": "campaign/adventure prep, privacy, rules citation and table-ready artifacts",
+      "skill": "skills/ttrpg-router/SKILL.md"
+    },
+    {
+      "id": "gm-roleplay-router",
+      "useWhen": "smallest specialist selection across live, prep, teach, coach and debrief",
+      "skill": "skills/gm-roleplay-router/SKILL.md"
+    },
+    {
+      "id": "daggerheart-adapter",
+      "useWhen": "original Daggerheart adjudication guidance with current official source checks",
+      "skill": "skills/daggerheart-adapter/SKILL.md"
+    }
   ],
   "officialBrowserGameProvider": {
     "package": "OpenAI Game Studio",
     "pluginId": "game-studio",
     "relationship": "external installed provider, not bundled or modified",
     "skills": [
-      {"id": "game-studio", "useWhen": "browser game stack selection and cross-domain routing"},
-      {"id": "web-game-foundations", "useWhen": "browser architecture, shared gameplay foundation and engine choice"},
-      {"id": "phaser-2d-game", "useWhen": "2D Phaser implementation"},
-      {"id": "three-webgl-game", "useWhen": "plain Three.js implementation"},
-      {"id": "react-three-fiber-game", "useWhen": "React-hosted 3D implementation"},
-      {"id": "sprite-pipeline", "useWhen": "2D sprite generation and normalization"},
-      {"id": "web-3d-asset-pipeline", "useWhen": "shipping GLB, glTF, texture and runtime asset optimization"},
-      {"id": "game-ui-frontend", "useWhen": "browser HUD, menus, frontend implementation"},
-      {"id": "game-playtest", "useWhen": "browser playtest and visual QA"}
+      {
+        "id": "game-studio",
+        "useWhen": "browser game stack selection and cross-domain routing"
+      },
+      {
+        "id": "web-game-foundations",
+        "useWhen": "browser architecture, shared gameplay foundation and engine choice"
+      },
+      {
+        "id": "phaser-2d-game",
+        "useWhen": "2D Phaser implementation"
+      },
+      {
+        "id": "three-webgl-game",
+        "useWhen": "plain Three.js implementation"
+      },
+      {
+        "id": "react-three-fiber-game",
+        "useWhen": "React-hosted 3D implementation"
+      },
+      {
+        "id": "sprite-pipeline",
+        "useWhen": "2D sprite generation and normalization"
+      },
+      {
+        "id": "web-3d-asset-pipeline",
+        "useWhen": "shipping GLB, glTF, texture and runtime asset optimization"
+      },
+      {
+        "id": "game-ui-frontend",
+        "useWhen": "browser HUD, menus, frontend implementation"
+      },
+      {
+        "id": "game-playtest",
+        "useWhen": "browser playtest and visual QA"
+      }
     ]
   },
   "dependencies": {
     "gameDevCli": "separately installed; check presence and capabilities when a third-party technical command is needed",
-    "browserProvider": "separately installed OpenAI Game Studio; confirm available before claiming an execution route"
+    "browserProvider": "separately installed OpenAI Game Studio; confirm available before claiming an execution route",
+    "standaloneMethods": "Fifteen complete first-party game/GM methods and support closure bundled; recipient rulebooks, canon, table data and optional companion tools are external",
+    "recipientAdapters": "Optional framework-retrieval, memory-recall, campaign/VTT/StoryAtlas roles use recipient-approved discovered tools; no configured provider or endpoint is bundled"
   }
 }
