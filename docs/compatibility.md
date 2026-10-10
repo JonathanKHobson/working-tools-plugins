@@ -81,6 +81,14 @@ A temporary synthetic Compass binding verified recipient interpreter, arguments 
 
 All six published GitHub assets were downloaded and matched their recorded checksums. The downloaded 547-file source ZIP then installed through native Codex and Claude managers using a separately named review marketplace; every installed file matched the release manifest. This final installation check used a separate recipient workspace without overriding HOME or CODEX_HOME. Review installations, marketplaces, caches and temporary workspaces were removed after verification. A disposable HTML live-server check also restored the exact original source and removed its loopback token on stop; browser overlay behavior and automatic host hooks remain unverified.
 
+## UX Design Studio 0.3.9 native discovery and hooks
+
+[Version 0.3.9](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/ux-design-toolkit/v0.3.9) adds portable MCP discovery and resolves the Claude launcher from its installed plugin. Fresh Codex and Claude sessions each called the synthetic Compass probe successfully. The Codex check used a unique test server name and explicit synthetic recipient binding after native cache parity was verified. This establishes discovery, launcher binding and invocation, not access to a real Compass provider.
+
+The shared hook now resolves either native host's plugin path. A fresh Claude Stop event ran it once without a hook error; the installed Codex hook command passed with its host path, and a fresh Codex session completed without a hook error. Full automatic opt-in review behavior, browser overlays, connected design apps and recipient account integrations remain outside this bounded check.
+
+All six public release assets were downloaded and verified. The downloaded source ZIP matched the 548-file manifest, then installed through separate Codex and Claude review marketplaces with exact file parity. The maintained personal Codex installation also matched all 591 canonical files at version 0.3.9. Temporary review installations, marketplaces, caches, workspaces and task processes were removed. Runtime assets are unchanged from the separately tested 0.3.8 release.
+
 ## Three successor method corrections
 
 Social Content Studio 0.2.3 clarifies evidence checks for every factual clause. Creative Toolkit 0.3.3 routes scene requests through the complete craft method and requires an actual word-count check. Master Security Toolkit 0.2.2 routes both general and lower-trust document reviews through the same application-side authorization guidance. The same changes are present in canonical source and installed personal packages.
