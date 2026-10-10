@@ -8,6 +8,17 @@
   "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
   "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": {
+    "ux-heuristic-compass": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/compass_mcp.py",
+        "ux-heuristic-compass"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  },
   "hooks": "./hooks/claude-hooks.json"
 }

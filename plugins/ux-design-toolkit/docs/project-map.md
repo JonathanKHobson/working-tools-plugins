@@ -11,7 +11,7 @@
 - `skills/motion-and-performance/references/motion-prompts-and-sites.md`: original motion prompt patterns, public-source limits and provider-owned Sites handoff, reached from Design Studio and Motion and Performance.
 
 - `.codex-plugin/plugin.json`: package identity and native discovery.
-- `mcp.json`: portable discovery for the existing UX Heuristic Compass stdio bridge; `.mcp.json` remains the Codex/Claude compatibility declaration. Both require a recipient-owned private backend binding.
+- `mcp.json`: portable discovery for the existing UX Heuristic Compass stdio bridge; `.mcp.json` remains the Codex compatibility declaration. The public Claude manifest uses the same server with a plugin-root script path. Both require a recipient-owned private backend binding.
 - `skills/design-studio/`: shared design workflow and conditional references.
 - `skills/motion-and-performance/`: UI motion design and measured performance; `skills/design-studio/references/motion-performance.md` bridges shared visual principles while retaining state, focus, interruption and reduced-motion ownership.
 - `skills/design-studio/references/collaborative-boards.md`: conditional whiteboard hierarchy, evidence access, simultaneous comparison, and laptop-scale review; Figma retains editor execution and Workshop Facilitation retains session process.
