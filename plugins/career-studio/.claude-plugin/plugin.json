@@ -1,0 +1,29 @@
+{
+  "name": "career-studio",
+  "version": "0.2.0",
+  "description": "Evidence-backed career proof, applications, interviews and outreach with nine complete first-party workflows and optional installed-provider depth.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "keywords": [
+    "job-applications",
+    "resume",
+    "cover-letter",
+    "portfolio",
+    "career"
+  ],
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "mcpServers": {
+    "atlas-career": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas_library_mcp.py"
+      ],
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

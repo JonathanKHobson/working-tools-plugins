@@ -1,0 +1,1881 @@
+{
+  "schema_version": 1,
+  "package": "career-studio",
+  "version": "0.2.0",
+  "source_owner": "career-studio",
+  "source_revision": "Canonical source has no enclosing Git checkout; private baseline archive and per-file SHA256 identify original source.",
+  "source_tree_sha256": "a4e54d4c25ef119fdbafaca1e99bb379e7271caaebcd692b3255d732f22c4a2e",
+  "original_source_files": 207,
+  "current_files_excluding_inventories": 180,
+  "operative_heads": 9,
+  "excluded_external_source": [
+    {
+      "source_relative": "library/source-procedures/marketplace/aihumanizer/personal-statement/SKILL.md",
+      "source_sha256": "ae1b58446b4c8e64978aa6c970753616643d35c849da93518e3da2b7a3a08433",
+      "replacement": "Receiver installs aihumanizer@openai-curated-remote and invokes aihumanizer:personal-statement; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/aihumanizer/resume-cover-letter/SKILL.md",
+      "source_sha256": "232f1c11641270123892398b3b354edcdd775538c1b7a0bc465c820d25d3f40c",
+      "replacement": "Receiver installs aihumanizer@openai-curated-remote and invokes aihumanizer:resume-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/README.md",
+      "source_sha256": "703a3fe68413cc13ba48a35bce8ebaaca23abc0572250f93677144d428da65ef",
+      "replacement": "Provider-owned README; receiver installs coverletterwriter@openai-curated-remote.",
+      "operative_method": false
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/academic-cover-letter/SKILL.md",
+      "source_sha256": "78092197907c65f1cea3f332b3d1889cd10b022cad6f109e61354f7c8afb7ea6",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:academic-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/ats-keyword-check/SKILL.md",
+      "source_sha256": "8e0384b2a78bf71aec870f58fac2c4f09b8f52571e82884c71b1ec0cbb36c9d0",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:ats-keyword-check; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/body-paragraphs/SKILL.md",
+      "source_sha256": "e22e9a1b339beba51c7373f415d685abd32e209a5036b46b2301ab2fb6338a2d",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:body-paragraphs; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/career-change-cover-letter/SKILL.md",
+      "source_sha256": "cb058648c482a67c839d3f607936fc2d91b085e81f8c77147c322a3dd73ed26b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:career-change-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-export/SKILL.md",
+      "source_sha256": "72796b3accbfdd6815b8e74a45897baa734b47d11b046e89864232ba3695ac57",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-export; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-formats/SKILL.md",
+      "source_sha256": "ae25be1bcae88d6f61715bd764972c9534c9c78e83e87da7a8023fb34153196c",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-formats; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-help/SKILL.md",
+      "source_sha256": "3b723647806751a5f76813e6f3295cba4eb1b614d869eb4f36f343bc395d392d",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-help; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-intake/SKILL.md",
+      "source_sha256": "4f238c82da7c5f8761c4dd2bf689ec91864707a8b982efd1c803221009a22b8b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-intake; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-review/SKILL.md",
+      "source_sha256": "c6466fcf97f36874529022f706709dd477ec603acb2101961a779747142392e5",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-review; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-rewrite/SKILL.md",
+      "source_sha256": "7bcd0388ef86a93e0d0fac5d87128c8ee8472411adaa0dde1e343aec434c2128",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-rewrite; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-translation/SKILL.md",
+      "source_sha256": "3e990e0e013329227f79d5fd9ecceea1ed9ff9df9ad06d6667c64fe39c66c68b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-translation; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/cover-letter-writer/SKILL.md",
+      "source_sha256": "9e727d31eff00d7b131b722b947be37bcb10af6c5a5f68a0c867467359e90cc0",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:cover-letter-writer; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/employment-gap-cover-letter/SKILL.md",
+      "source_sha256": "6330c3830d361325480e6594b63cdbb290158b34723fa5ef070200730636cd33",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:employment-gap-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/entry-level-cover-letter/SKILL.md",
+      "source_sha256": "a6e51b8792eabd1b1d65d424b5e56db59dfa15936d4381461e204366bbf7727c",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:entry-level-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/executive-cover-letter/SKILL.md",
+      "source_sha256": "53227cb9fc7aed9e1ed5ed223b86fa40a3183da434c6e5cb607fac9b314e5351",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:executive-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/follow-up-and-thank-you/SKILL.md",
+      "source_sha256": "936c510333aa887db36a0a8457eb5305520c43a35f5653f84634568f94fe0fcf",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:follow-up-and-thank-you; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/freelance-proposal/SKILL.md",
+      "source_sha256": "3e7464bc58aec2a95f0d4d07891e5019959d88aa63fd3affa3c8dc4d9650d9e8",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:freelance-proposal; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/industry-cover-letters/SKILL.md",
+      "source_sha256": "6b24fe9e4088fef7ef72d62959dccf2e95ea1ef2fb20ed1c14ca872838b5de49",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:industry-cover-letters; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/internal-promotion-letter/SKILL.md",
+      "source_sha256": "a4c820e50ca57b255f89fcb9271bc56507c074bdf37168cada5cdfbb801bd1bc",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:internal-promotion-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/international-cover-letter/SKILL.md",
+      "source_sha256": "bbb16c6bcd1298080b33a9b8dd9c5820e815283cc116c3df4ca754ab663c1bb4",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:international-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/job-description-analysis/SKILL.md",
+      "source_sha256": "a9eeee9154589fd18f331776db8eb422522f6e1d614b07eac4951643f7ec70c3",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:job-description-analysis; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/motivation-letter/SKILL.md",
+      "source_sha256": "ad81fca80822eedf43ed3967118186ae86feb1c37c53a6bf411d385d66982fda",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:motivation-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/multi-job-letters/SKILL.md",
+      "source_sha256": "da50dc13117113ec2ab001b8aab6bf9a7ae68f06fbab3e1faf9ff7fc71ca4b14",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:multi-job-letters; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/opening-and-closing/SKILL.md",
+      "source_sha256": "46db4ad612a21f7e86fa73438eb066132c3338b943efd934e8f06324e708797f",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:opening-and-closing; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/rankresume-guide/SKILL.md",
+      "source_sha256": "a5c1778fc11c338978092db0cc2f4716be3c96c8967d56cdce9b64a85ca91a8b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:rankresume-guide; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/recommended-tools/SKILL.md",
+      "source_sha256": "1c3740194f69b849f3f127ec3977d19c7c5c0fe2c28af0bac4678d34252de3bf",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:recommended-tools; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/referral-and-interest-letters/SKILL.md",
+      "source_sha256": "807e78dfb8f620240abea270a74f3c13c5a9c96e5371bee3cc1ca03238cfc9b5",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:referral-and-interest-letters; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/relocation-salary-availability/SKILL.md",
+      "source_sha256": "e916362ab03ca4d47af7fb4fe79c8205abb1f60be57d5c58fffcb599e35e0b8b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:relocation-salary-availability; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/short-and-email-cover-letter/SKILL.md",
+      "source_sha256": "1b0959a8fb4463abdf386cc7151573f32e36a3410c693458448b17c38f5d5646",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:short-and-email-cover-letter; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/tailor-to-job/SKILL.md",
+      "source_sha256": "febcf73e51e978d3d20067d1a6ae9df54e974671c9f7743a7e315c99036a213b",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:tailor-to-job; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/templates-and-examples/SKILL.md",
+      "source_sha256": "e0adc90edc0ad1c4ce78b62acf577c8c9efcc7923735438e8612c57776b56c22",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:templates-and-examples; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/coverletterwriter/tone-and-voice/SKILL.md",
+      "source_sha256": "e99fec7143d90f9acf27f7340cb1ddeed990e9f3b76b4b9f0636f541ec0cf780",
+      "replacement": "Receiver installs coverletterwriter@openai-curated-remote and invokes coverletterwriter:tone-and-voice; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/uiuxdesigner/README.md",
+      "source_sha256": "f8cc72ff5789d7a91365d3fe5b2fa57983120d3786ec2e64663187c9f4204516",
+      "replacement": "Provider-owned README; receiver installs uiuxdesigner@openai-curated-remote.",
+      "operative_method": false
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/uiuxdesigner/ux-career-interview/SKILL.md",
+      "source_sha256": "948d8a981b12582292417eb76947c2693af7ceea6f048362d57830e6530f1f21",
+      "replacement": "Receiver installs uiuxdesigner@openai-curated-remote and invokes uiuxdesigner:ux-career-interview; copied provider body not redistributed.",
+      "operative_method": true
+    },
+    {
+      "source_relative": "library/source-procedures/marketplace/uiuxdesigner/ux-portfolio-case-study/SKILL.md",
+      "source_sha256": "bb9f26231f24642234ea1ed428d52183a36d32fb5c9b041968695383808a0b83",
+      "replacement": "Receiver installs uiuxdesigner@openai-curated-remote and invokes uiuxdesigner:ux-portfolio-case-study; copied provider body not redistributed.",
+      "operative_method": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "output_sha256": "374aac685e90fd5f2dee9398f003700189171dc3e48d22c942534b7ebcd5efc3",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "output_sha256": "8b11b1cdb1cb288c98ae38c9cfff0fb3e3f5508be319bcd61546ceeef709636f",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "source_relative": ".codex-plugin/plugin.json",
+      "source_sha256": "abf9dfb399456abbb221f9b814c4eb2604926c8ba60166cbf1720f9d76121173",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": ".mcp.json",
+      "output_sha256": "187c92cdd994ae1e4c4f35215664f5845be89237a100cbcf59731cad82429dc5",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "AGPL-3.0-only",
+      "source_relative": ".mcp.json",
+      "source_sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "LICENSE",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "origin": "retained_standard_license_from_author_sibling",
+      "transformed": false,
+      "rights": "See document",
+      "source_package": "creative-writing-studio",
+      "source_relative": "LICENSE",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "LICENSING.md",
+      "output_sha256": "685a8499e31947be4ff76371055796a2712550be5e17d5c616d8290b4a506b41",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "NOTICE.md",
+      "output_sha256": "522cdf4967791ef857486cbe636a28474dd6908d78160b284b2840e5e1d67c04",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "README.md",
+      "output_sha256": "c9155d525125cd5de9848d354e48983a256c9fc53f2486af9616a986845c9884",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "README.md",
+      "source_sha256": "79acab4d3b9419a22becce9d300e973c86bef93917cc6b954579b0ae4a5464aa",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "SOURCE-ATTRIBUTIONS.md",
+      "output_sha256": "d24aa6216647ef6e14e269fb1eab96f907086a9ba18c2381f00f4fe940dada79",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "output_sha256": "f4004953379815da8de4b2d1f76be391450a32d36a035ec09b43221cf17e4914",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "See document"
+    },
+    {
+      "path": "docs/job-compass-integration.md",
+      "output_sha256": "2badac3eba4610c8b2eb1d10f437c37a6c5cabf5bbd687fe53cf95f05937a950",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/job-compass-integration.md",
+      "source_sha256": "2badac3eba4610c8b2eb1d10f437c37a6c5cabf5bbd687fe53cf95f05937a950"
+    },
+    {
+      "path": "docs/project-map.md",
+      "output_sha256": "2dcac164b084d0a40290eb81bf5c3768e7d0b0ddb956c1dc80f478c74bfa5f76",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/project-map.md",
+      "source_sha256": "6a58478482f6a4a6ac568b24ccef46575eff716106f099d5b003a5f49f8a8bb3",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "docs/use-case-map.md",
+      "output_sha256": "106a99ae93b87d0be9c9c2d0d66694df783eb669e3f87313a86353ad5b5d4c6e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "docs/use-case-map.md",
+      "source_sha256": "106a99ae93b87d0be9c9c2d0d66694df783eb669e3f87313a86353ad5b5d4c6e"
+    },
+    {
+      "path": "examples/runtime-bindings/atlas-library.json",
+      "output_sha256": "de28c92b347da54f87bdc7d910cb1f023f4c17ab87862fc23dc37b75119d749d",
+      "origin": "author_owned_sibling_example",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_package": "creative-writing-studio",
+      "source_relative": "examples/runtime-bindings/atlas-library.json",
+      "source_sha256": "de28c92b347da54f87bdc7d910cb1f023f4c17ab87862fc23dc37b75119d749d"
+    },
+    {
+      "path": "legal/BRAND-AND-ATTRIBUTION.md",
+      "output_sha256": "d7cf54e2fe070a226727d7d1c9ee43908542cf6e4b240a92a5bbffb67be20d59",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "output_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "origin": "retained_standard_license_from_author_sibling",
+      "transformed": false,
+      "rights": "See document",
+      "source_package": "creative-writing-studio",
+      "source_relative": "legal/LICENSE-CODE-AGPL-3.0.txt",
+      "source_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "output_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+      "origin": "retained_standard_license_from_author_sibling",
+      "transformed": false,
+      "rights": "See document",
+      "source_package": "creative-writing-studio",
+      "source_relative": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+      "source_sha256": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243"
+    },
+    {
+      "path": "libraries/ai-job-search/LICENSE",
+      "output_sha256": "accbf0accb87b7b905dd7ee0c7013075f0453637acf354ddae6fc0e4d8282e8e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/LICENSE",
+      "source_sha256": "accbf0accb87b7b905dd7ee0c7013075f0453637acf354ddae6fc0e4d8282e8e"
+    },
+    {
+      "path": "libraries/ai-job-search/PROVENANCE.md",
+      "output_sha256": "50a4f98adfe184a2a6fb946237d674da4b5a7dda22bc07296a3bd9ef8ef46e82",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/PROVENANCE.md",
+      "source_sha256": "18319bd0732dfd8ad732e986eaf87114568b62ac477f415c8c2dddb7b698bd7d",
+      "transformation": "Clarifies that three nonfunctional URL placeholders were normalized in retained MIT original examples and exact pre-transition bytes remain in private archive."
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/01-candidate-profile.md",
+      "output_sha256": "a948b9361f00aafb12cb76c8b519808576ea6cc3e6e72ebd8026a81745f924f0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/01-candidate-profile.md",
+      "source_sha256": "a948b9361f00aafb12cb76c8b519808576ea6cc3e6e72ebd8026a81745f924f0"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/02-behavioral-profile.md",
+      "output_sha256": "e7731231d76ae2ce18740422744fe78821df34ef1dc2e1bcdb90dcb567070a97",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/02-behavioral-profile.md",
+      "source_sha256": "e7731231d76ae2ce18740422744fe78821df34ef1dc2e1bcdb90dcb567070a97"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/03-writing-style.md",
+      "output_sha256": "d76148b7bc803ff2954a0bcd839c0fca2999af1349ece3f020e70d2048a30f9f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/03-writing-style.md",
+      "source_sha256": "d76148b7bc803ff2954a0bcd839c0fca2999af1349ece3f020e70d2048a30f9f"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/04-job-evaluation.md",
+      "output_sha256": "0c48d15890c9c24d7cdfcad048f4c35a75efe42f23b42a9a44128e5d672c0b9f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/04-job-evaluation.md",
+      "source_sha256": "0c48d15890c9c24d7cdfcad048f4c35a75efe42f23b42a9a44128e5d672c0b9f"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/05-cv-templates.md",
+      "output_sha256": "672d9e5a0869307395f4f827c9627cd9cefabe4d9465f728a13332f3a0327419",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/05-cv-templates.md",
+      "source_sha256": "672d9e5a0869307395f4f827c9627cd9cefabe4d9465f728a13332f3a0327419"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/06-cover-letter-templates.md",
+      "output_sha256": "48500354d76490ea9cd48a0fd5be54d02496d8df297a2e4086c6e4e6bcacda78",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/06-cover-letter-templates.md",
+      "source_sha256": "48500354d76490ea9cd48a0fd5be54d02496d8df297a2e4086c6e4e6bcacda78"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/07-interview-prep.md",
+      "output_sha256": "6d371db47d52c4c2521a931c9b19c9b7944a2053108dc266aa12bb9c6713741d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/07-interview-prep.md",
+      "source_sha256": "6d371db47d52c4c2521a931c9b19c9b7944a2053108dc266aa12bb9c6713741d"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/08-application-forms.md",
+      "output_sha256": "cbf4b833b6d4e9357b0128237d72c601414e375b55d17531f3fa3313a0ae81df",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/08-application-forms.md",
+      "source_sha256": "cbf4b833b6d4e9357b0128237d72c601414e375b55d17531f3fa3313a0ae81df"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/09-web-research.md",
+      "output_sha256": "1cb3bfd980dffe3db2fb30e396fbd3d223fef7d55bfb8a66e3710790f9e1f497",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/09-web-research.md",
+      "source_sha256": "1cb3bfd980dffe3db2fb30e396fbd3d223fef7d55bfb8a66e3710790f9e1f497"
+    },
+    {
+      "path": "libraries/ai-job-search/job-application-assistant/SKILL.original.md",
+      "output_sha256": "c8b624e90a77850c73cedd529c70997af7fdf3b1e49046d01581231b17db3a42",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-application-assistant/SKILL.original.md",
+      "source_sha256": "c8b624e90a77850c73cedd529c70997af7fdf3b1e49046d01581231b17db3a42"
+    },
+    {
+      "path": "libraries/ai-job-search/job-scraper/SKILL.original.md",
+      "output_sha256": "1f1ca66bb55e0bd45158a24c1a2b2bc4b9d4dcaac8f14f3b9db2f0d4fea797a0",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/job-scraper/SKILL.original.md",
+      "source_sha256": "b4cdb905ad4fdd495d4931237b40dd943162f4b4337bb342929efa8739705530",
+      "transformation": "Nonfunctional placeholder Markdown link normalized to plain URL placeholder so package reference validation does not mistake it for a real local file; operative method retained."
+    },
+    {
+      "path": "libraries/ai-job-search/upskill/SKILL.original.md",
+      "output_sha256": "7155c43745c9d1b89424028b94ba5d0b5b2271fee0417f7e0067c41fc344064b",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "MIT",
+      "source_relative": "libraries/ai-job-search/upskill/SKILL.original.md",
+      "source_sha256": "62e07abe6a7de056a4c8c30f742cebf41884da196fd1885d58cf39c625111e6c",
+      "transformation": "Nonfunctional placeholder Markdown link normalized to plain URL placeholder so package reference validation does not mistake it for a real local file; operative method retained."
+    },
+    {
+      "path": "libraries/linkedin-agent/LICENSE",
+      "output_sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/LICENSE",
+      "source_sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c"
+    },
+    {
+      "path": "libraries/linkedin-agent/PROVENANCE.md",
+      "output_sha256": "565492fc63ac906aa01c26768201ca2d37bfa90ff14bb8dd5e16e4dbb2d16829",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/PROVENANCE.md",
+      "source_sha256": "565492fc63ac906aa01c26768201ca2d37bfa90ff14bb8dd5e16e4dbb2d16829"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-dm/SKILL.original.md",
+      "output_sha256": "14b0ee4cffedc2d3eb1d9f8dd6d6cce7bc04c95e221ea1e68809fb5aad525747",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/originals/li-dm/SKILL.original.md",
+      "source_sha256": "14b0ee4cffedc2d3eb1d9f8dd6d6cce7bc04c95e221ea1e68809fb5aad525747"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-inbox/SKILL.original.md",
+      "output_sha256": "816c1088fdac6a58295b9868267031b210eb57fd325bf837226fb764bce94c77",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/originals/li-inbox/SKILL.original.md",
+      "source_sha256": "816c1088fdac6a58295b9868267031b210eb57fd325bf837226fb764bce94c77"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-profile/SKILL.original.md",
+      "output_sha256": "4f0ebdcf8a3ef035d70aae89838ff916fc8a33a4a12b333e58bb2bc41727d11e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/originals/li-profile/SKILL.original.md",
+      "source_sha256": "4f0ebdcf8a3ef035d70aae89838ff916fc8a33a4a12b333e58bb2bc41727d11e"
+    },
+    {
+      "path": "libraries/linkedin-agent/originals/li-profile/rubric.json",
+      "output_sha256": "d1add490dad3cc32aab4826c3d5a40bd1552d26a92424deaad9ee2e3c7c05d14",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "MIT",
+      "source_relative": "libraries/linkedin-agent/originals/li-profile/rubric.json",
+      "source_sha256": "d1add490dad3cc32aab4826c3d5a40bd1552d26a92424deaad9ee2e3c7c05d14"
+    },
+    {
+      "path": "library/source-procedures/INDEX.md",
+      "output_sha256": "a90105b08252c76a87a00dddc3e699ccded34cffb5fd2eadcbe06a3b55357e64",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "library/source-procedures/INDEX.md",
+      "source_sha256": "4e6d375e0b619982aff3328e42d420a6087dbe768e189d48bf076b37e5b1f3c6",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "plugin.json",
+      "output_sha256": "0985bae4de2f2b6833aac66cea6dded007d474d42f226d704eb38b2ef981e062",
+      "origin": "new_author_owned",
+      "transformed": false,
+      "rights": "AGPL-3.0-only"
+    },
+    {
+      "path": "references/atlas-library.md",
+      "output_sha256": "e3e54bde31d055148b225644bf70e62bd46196c629a23f2034253c8f2a1b61bf",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/atlas-library.md",
+      "source_sha256": "34016a619dc844cf10c83397034e2ee5cc511015564541685ed7afe9035698be",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/compensation-and-offers.md",
+      "output_sha256": "cc7588eb8890a01143589ca50ee844f7086137245624f598adbdc5ac25e74abc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/compensation-and-offers.md",
+      "source_sha256": "cc7588eb8890a01143589ca50ee844f7086137245624f598adbdc5ac25e74abc"
+    },
+    {
+      "path": "references/compensation-provenance.md",
+      "output_sha256": "2ef10ed2bae0648e85463dc0a14daf39f2944bf58adc03d85cd64d50e00871f3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/compensation-provenance.md",
+      "source_sha256": "2ef10ed2bae0648e85463dc0a14daf39f2944bf58adc03d85cd64d50e00871f3"
+    },
+    {
+      "path": "references/compensation-worksheet.md",
+      "output_sha256": "067adcc8f06d70e7cc26202fa7ad02237fcc7cfd3693f2ce3348df324324222a",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/compensation-worksheet.md",
+      "source_sha256": "3ff97cf1fba8aa530d9c2d13b1990a81fc37797c836ddf5223e110c0d0951e08",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/evidence-story-bank.md",
+      "output_sha256": "14b27238f5d728bd6d1a122d1943a0b31806fa3cc8fb6d8cb6930fd699b270d8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/evidence-story-bank.md",
+      "source_sha256": "14b27238f5d728bd6d1a122d1943a0b31806fa3cc8fb6d8cb6930fd699b270d8"
+    },
+    {
+      "path": "references/lenny-MIT-LICENSE.txt",
+      "output_sha256": "e282fa0e40644e932d13e2d77e8c91e9599c516deea52f22563e3a9e8389a416",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "See document",
+      "source_relative": "references/lenny-MIT-LICENSE.txt",
+      "source_sha256": "e282fa0e40644e932d13e2d77e8c91e9599c516deea52f22563e3a9e8389a416"
+    },
+    {
+      "path": "references/private-workspace.md",
+      "output_sha256": "8ad22944c2379a6892f0733229d251e97a8a50be224d2434e77d2426197d058e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/private-workspace.md",
+      "source_sha256": "8ad22944c2379a6892f0733229d251e97a8a50be224d2434e77d2426197d058e"
+    },
+    {
+      "path": "references/professional-agents/README.md",
+      "output_sha256": "5101891a8c6b87b27c289594251198e1b16bb3729f339d220d87c56f4c17d462",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/README.md",
+      "source_sha256": "7a044b2c31268322a1b043578e43407d895b6957402d29a0136a31d4a267aca4",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/professional-agents/career-coach.md",
+      "output_sha256": "9cce2b040acd52d88bf010504163be087ef836557c876a60200d18dc4c63aa89",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/career-coach.md",
+      "source_sha256": "def19961496e7f9e0aa135b9396ce7db9c9203ab350e8569d84881e6f512eb35",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/professional-agents/career-strategist.md",
+      "output_sha256": "7cfb82e59aea98b6b8ecd622b260ff2aec3cb17f3f3bb9ec36450a927d561a8a",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/career-strategist.md",
+      "source_sha256": "95daf13e345425fd852a45f7cfdac4b0377a4357763433c27365324c11e98633",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/professional-agents/job-search-specialist.md",
+      "output_sha256": "c68e70591fb73c022bafc61513eeaadc888d53a057d87d9218398982d8f1ffb5",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/professional-agents/job-search-specialist.md",
+      "source_sha256": "631e3495e0706d838558f7737287f642a9813d96b35c23e98dd145d737e7955b",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "references/providers.md",
+      "output_sha256": "dac8dc051ef191c4bd4284b3823ca28cc1d69ec567a04a2b92908b3eba94ba2b",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "references/providers.md",
+      "source_sha256": "42f93a9017f60826fd28a0c65cf0c66aa2d729c62c9129ff8e0a999b9517dc7e",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "scripts/atlas_library_mcp.py",
+      "output_sha256": "350b90c5b783cad8f7eaec73d40a0c68071253b144fdffe10482e6224ecc9165",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "scripts/atlas_library_mcp.py",
+      "source_sha256": "350b90c5b783cad8f7eaec73d40a0c68071253b144fdffe10482e6224ecc9165"
+    },
+    {
+      "path": "scripts/check_share_safety.py",
+      "output_sha256": "b64e83af68260f63c57c3ee725a36ad07ff5c524f2d4ca03a8cc4b8b255cc889",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "AGPL-3.0-only",
+      "source_relative": "scripts/check_share_safety.py",
+      "source_sha256": "b64e83af68260f63c57c3ee725a36ad07ff5c524f2d4ca03a8cc4b8b255cc889"
+    },
+    {
+      "path": "skills/application-statements/SKILL.md",
+      "output_sha256": "03e293f9455715fe1099bbb0f441206adc1f546d4bb87bbdc3f83e537252a0fc",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/application-statements/SKILL.md",
+      "source_sha256": "4f6ffc5f1a740c84f39a1f3ecff50f18223ceb547bd3714a3c8709240fa3ead9",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "skills/application-statements/agents/openai.yaml",
+      "output_sha256": "97bee5c09efad3ebd775377fc973fc4971b1f89c7478b02f91bae60a98b7e420",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/application-statements/agents/openai.yaml",
+      "source_sha256": "97bee5c09efad3ebd775377fc973fc4971b1f89c7478b02f91bae60a98b7e420"
+    },
+    {
+      "path": "skills/application-statements/references/portal-field-methods.md",
+      "output_sha256": "e622d3a1e33e6f948ce74ae194b1e688c0e60e15cc89968f341849ec80e27a7b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/application-statements/references/portal-field-methods.md",
+      "source_sha256": "e622d3a1e33e6f948ce74ae194b1e688c0e60e15cc89968f341849ec80e27a7b"
+    },
+    {
+      "path": "skills/application-statements/references/statement-shapes.md",
+      "output_sha256": "c60b32bb738e7db666f06aad66ee0f13dd1aa0e8df59ddc9bde20ccf33809a71",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/application-statements/references/statement-shapes.md",
+      "source_sha256": "c60b32bb738e7db666f06aad66ee0f13dd1aa0e8df59ddc9bde20ccf33809a71"
+    },
+    {
+      "path": "skills/campaign/SKILL.md",
+      "output_sha256": "88f73bddfb04b1a41a28f26dd3665bb628a22e15dd8e667eeea4e83b331c911d",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/SKILL.md",
+      "source_sha256": "72b8cd1975b8100b9fbb4ed89132fc0dd46f2696ce7304b772f0a157fd4bbe5d",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/campaign/agents/openai.yaml",
+      "output_sha256": "728867c978c740a227f8f8a92dea7a8096f14efd53707ff4bddc10d993f1a068",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/agents/openai.yaml",
+      "source_sha256": "728867c978c740a227f8f8a92dea7a8096f14efd53707ff4bddc10d993f1a068"
+    },
+    {
+      "path": "skills/campaign/references/campaign-records.md",
+      "output_sha256": "bb8e65c09f9245258fea62c1e717d226f9e3c8581d672529346525db411e9523",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/campaign-records.md",
+      "source_sha256": "bb8e65c09f9245258fea62c1e717d226f9e3c8581d672529346525db411e9523"
+    },
+    {
+      "path": "skills/campaign/references/candidate-evidence-brief.md",
+      "output_sha256": "592bad34cb5883666b97b75935ac73c1f68cefc84fcde7bd3133dc5e83d747de",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/candidate-evidence-brief.md",
+      "source_sha256": "c07c54c6ff675b10e9c0440a9ac44ca9876072a0b2d93c07ec33e185f26681f8",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "skills/campaign/references/evidence-based-skill-gaps.md",
+      "output_sha256": "291336e4fe16dd1df76e454383510e9aa07e9c53a9f4ae717a98ab0d9142209a",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/evidence-based-skill-gaps.md",
+      "source_sha256": "0bf277e43c03c9117465b4d746d6be21bfadb72fd4e7cba6bc1110d5bebfab15",
+      "transformation": "Nonfunctional placeholder Markdown link normalized to plain URL placeholder so package reference validation does not mistake it for a real local file; operative method retained."
+    },
+    {
+      "path": "skills/campaign/references/job-discovery-and-dedup.md",
+      "output_sha256": "dfac17bd2e862494a4bbeb42858f0dbffe1faddb4504e8bfb623caf1e14b1825",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/job-discovery-and-dedup.md",
+      "source_sha256": "dfac17bd2e862494a4bbeb42858f0dbffe1faddb4504e8bfb623caf1e14b1825"
+    },
+    {
+      "path": "skills/campaign/references/job-search-execution.md",
+      "output_sha256": "18cc998214841d0fbe7265ddf88cf0421f60fe626e9013308af6c33de1f675c2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/job-search-execution.md",
+      "source_sha256": "18cc998214841d0fbe7265ddf88cf0421f60fe626e9013308af6c33de1f675c2"
+    },
+    {
+      "path": "skills/campaign/references/posting-and-company-research.md",
+      "output_sha256": "10ba4c706e0ce0475d9ab952b229a8651d4a5f4a3363bf1d859e4330c842abd5",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/posting-and-company-research.md",
+      "source_sha256": "10ba4c706e0ce0475d9ab952b229a8651d4a5f4a3363bf1d859e4330c842abd5"
+    },
+    {
+      "path": "skills/campaign/references/recorded-workflow.md",
+      "output_sha256": "b4876af2cd583c7ff1b73d2f39735d308e9c0fec62210b1964d7a5ea85b68ad1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/recorded-workflow.md",
+      "source_sha256": "b4876af2cd583c7ff1b73d2f39735d308e9c0fec62210b1964d7a5ea85b68ad1"
+    },
+    {
+      "path": "skills/campaign/references/role-fit-evaluation.md",
+      "output_sha256": "ac697b54b0392d7762e46b37e69cf578ce4c6348585136d4d153279bd3449c8d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/campaign/references/role-fit-evaluation.md",
+      "source_sha256": "ac697b54b0392d7762e46b37e69cf578ce4c6348585136d4d153279bd3449c8d"
+    },
+    {
+      "path": "skills/career-interviews/SKILL.md",
+      "output_sha256": "865d153627d74d9c557a0f1db06488a967a0cf35155de0728342031da7d45f0e",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-interviews/SKILL.md",
+      "source_sha256": "6227d8f78166dd7209ae8d75632989d08345c844afa9e4983763b3b18e9ea3bc",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "skills/career-interviews/agents/openai.yaml",
+      "output_sha256": "9d129d76e6e1b43253f0a526a6478bc8adeba40cf5953499b0617de8f674b54b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-interviews/agents/openai.yaml",
+      "source_sha256": "9d129d76e6e1b43253f0a526a6478bc8adeba40cf5953499b0617de8f674b54b"
+    },
+    {
+      "path": "skills/career-interviews/references/role-specific-practice.md",
+      "output_sha256": "969d3c8992a51f373ead24949a86b7f2239393b3cfb5e3fad1f926800723f20d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-interviews/references/role-specific-practice.md",
+      "source_sha256": "969d3c8992a51f373ead24949a86b7f2239393b3cfb5e3fad1f926800723f20d"
+    },
+    {
+      "path": "skills/career-outreach/SKILL.md",
+      "output_sha256": "18e6d635066f20379ad258354405c20ac2bf2d5f5ceb97208828f7376bf16988",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-outreach/SKILL.md",
+      "source_sha256": "18e6d635066f20379ad258354405c20ac2bf2d5f5ceb97208828f7376bf16988"
+    },
+    {
+      "path": "skills/career-outreach/agents/openai.yaml",
+      "output_sha256": "ce2f05672a5764f889a78f40cd84c104d4fbf7c2c4b208326703efdd5a22a288",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-outreach/agents/openai.yaml",
+      "source_sha256": "ce2f05672a5764f889a78f40cd84c104d4fbf7c2c4b208326703efdd5a22a288"
+    },
+    {
+      "path": "skills/career-outreach/references/linkedin-conversations.md",
+      "output_sha256": "4552a651567034604fa7e269de4e4eac88e2b63e087d87cbf6d5ca7072e010d4",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-outreach/references/linkedin-conversations.md",
+      "source_sha256": "4552a651567034604fa7e269de4e4eac88e2b63e087d87cbf6d5ca7072e010d4"
+    },
+    {
+      "path": "skills/career-outreach/references/outreach-methods.md",
+      "output_sha256": "3f5badda40f1e4598a430e247405870817d01a041e9e06bf1503e44e1a968946",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/career-outreach/references/outreach-methods.md",
+      "source_sha256": "b008cd2cd75f7231226e7e04c3c92feaefd578a80529d5547d9d6ace64e8d1bf",
+      "transformation": "Portable source, conditional provider route, recipient-first wording, package identity, licensing or runtime onboarding; first-party operative method retained."
+    },
+    {
+      "path": "skills/cover-letter/SKILL.md",
+      "output_sha256": "b6d7a9d7cfd5100309b235e8f0a6099e043a53b77c61396e9ac010baa5d49095",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/SKILL.md",
+      "source_sha256": "367b7f12ede0e61e243b13d32181b4f3487dd6ce97eb090c5fadedb7b42eeba3",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/cover-letter/agents/agent.md",
+      "output_sha256": "b1ea5bb7f67b9988755526dcf3ef741fa852c66c8a329ccb01205d02531582e5",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/agent.md",
+      "source_sha256": "b1ea5bb7f67b9988755526dcf3ef741fa852c66c8a329ccb01205d02531582e5"
+    },
+    {
+      "path": "skills/cover-letter/agents/company-fit-auditor.md",
+      "output_sha256": "0c2b6cd8cc1ed994ee23c6a77475d479b21a61e20ab56b28e51c27735deff116",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/company-fit-auditor.md",
+      "source_sha256": "0c2b6cd8cc1ed994ee23c6a77475d479b21a61e20ab56b28e51c27735deff116"
+    },
+    {
+      "path": "skills/cover-letter/agents/cover-letter-strategist.md",
+      "output_sha256": "e4e68d38a80c7638ab1c5479560a629d9970453db44f63ce3c39506b8e40cf3b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/cover-letter-strategist.md",
+      "source_sha256": "e4e68d38a80c7638ab1c5479560a629d9970453db44f63ce3c39506b8e40cf3b"
+    },
+    {
+      "path": "skills/cover-letter/agents/evidence-integrity-reviewer.md",
+      "output_sha256": "a0abb6c12faab4346c15b24e2944ae9d2204a7faf137f685257ced2dbd019207",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/evidence-integrity-reviewer.md",
+      "source_sha256": "a0abb6c12faab4346c15b24e2944ae9d2204a7faf137f685257ced2dbd019207"
+    },
+    {
+      "path": "skills/cover-letter/agents/hook-writer.md",
+      "output_sha256": "e1a5b8f22e0213aa52212c37810b81663f907cbf2d02c2e1bb52c4316ab65e95",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/hook-writer.md",
+      "source_sha256": "e1a5b8f22e0213aa52212c37810b81663f907cbf2d02c2e1bb52c4316ab65e95"
+    },
+    {
+      "path": "skills/cover-letter/agents/openai.yaml",
+      "output_sha256": "1b84fd1fcf3d0b1c1fbea18ae782e53bb6926a5cde86859d13fa53627edb297b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/openai.yaml",
+      "source_sha256": "1b84fd1fcf3d0b1c1fbea18ae782e53bb6926a5cde86859d13fa53627edb297b"
+    },
+    {
+      "path": "skills/cover-letter/agents/proof-editor.md",
+      "output_sha256": "285554b2664165ccd46f42e2f668ed83cf8905bf65da7635ffb4c5b8e4d01daf",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/agents/proof-editor.md",
+      "source_sha256": "285554b2664165ccd46f42e2f668ed83cf8905bf65da7635ffb4c5b8e4d01daf"
+    },
+    {
+      "path": "skills/cover-letter/references/academic-letters.md",
+      "output_sha256": "271b0474136243d2ec7b6891acfb8c1e680329e2d936ec3be6c05dc9d3fcfa29",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/academic-letters.md",
+      "source_sha256": "271b0474136243d2ec7b6891acfb8c1e680329e2d936ec3be6c05dc9d3fcfa29"
+    },
+    {
+      "path": "skills/cover-letter/references/career-outreach.md",
+      "output_sha256": "cd484e985bd4d679496703e70e9aa9d343ce0c7400ed899a3b2978f81cb71cb6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/career-outreach.md",
+      "source_sha256": "cd484e985bd4d679496703e70e9aa9d343ce0c7400ed899a3b2978f81cb71cb6"
+    },
+    {
+      "path": "skills/cover-letter/references/career-situations.md",
+      "output_sha256": "284b74b2abcf187cd89026a2ebf3f4578dfb5b9751b9ee3c32b02772339330e8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/career-situations.md",
+      "source_sha256": "284b74b2abcf187cd89026a2ebf3f4578dfb5b9751b9ee3c32b02772339330e8"
+    },
+    {
+      "path": "skills/cover-letter/references/company-fit-and-research.md",
+      "output_sha256": "c6577faed97193f116259d1a9cdd70ad76829235f0e3f805ce8f4c16dc59d6fe",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/company-fit-and-research.md",
+      "source_sha256": "c6577faed97193f116259d1a9cdd70ad76829235f0e3f805ce8f4c16dc59d6fe"
+    },
+    {
+      "path": "skills/cover-letter/references/company-fit-and-research.original.md",
+      "output_sha256": "fde5890154ee0842873dc1d3646b44450fe0e50e9a7d6af781cc9bc0dac612c3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/company-fit-and-research.original.md",
+      "source_sha256": "fde5890154ee0842873dc1d3646b44450fe0e50e9a7d6af781cc9bc0dac612c3"
+    },
+    {
+      "path": "skills/cover-letter/references/cover-letter-quality-rubric.md",
+      "output_sha256": "a3cc4d355724dad3952f2e81c263718e67adeacf96db83656e87bacd392a7da9",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/cover-letter-quality-rubric.md",
+      "source_sha256": "a3cc4d355724dad3952f2e81c263718e67adeacf96db83656e87bacd392a7da9"
+    },
+    {
+      "path": "skills/cover-letter/references/evidence-based-application-writing.md",
+      "output_sha256": "db8163aa1563ce9f2a6309032ab7843d1b30b0a1748852e36dee18c1ae1fd6f2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/evidence-based-application-writing.md",
+      "source_sha256": "db8163aa1563ce9f2a6309032ab7843d1b30b0a1748852e36dee18c1ae1fd6f2"
+    },
+    {
+      "path": "skills/cover-letter/references/export-preflight.md",
+      "output_sha256": "3bf3e904286ef0da907529fc2368c085c9285a4a2319019faea29202123a7bcd",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/export-preflight.md",
+      "source_sha256": "3bf3e904286ef0da907529fc2368c085c9285a4a2319019faea29202123a7bcd"
+    },
+    {
+      "path": "skills/cover-letter/references/formats-and-localization.md",
+      "output_sha256": "66b2ef6b314caba35097901d49db88591c7f3e5750d3550d86719b23914e06d9",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/formats-and-localization.md",
+      "source_sha256": "66b2ef6b314caba35097901d49db88591c7f3e5750d3550d86719b23914e06d9"
+    },
+    {
+      "path": "skills/cover-letter/references/generic-phrase-guardrails.md",
+      "output_sha256": "2a8dbb1aef017ef0852e6408e53a53db9b56c6123c32a86b4aaa518882ffe079",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/generic-phrase-guardrails.md",
+      "source_sha256": "2a8dbb1aef017ef0852e6408e53a53db9b56c6123c32a86b4aaa518882ffe079"
+    },
+    {
+      "path": "skills/cover-letter/references/hooks-and-openings.md",
+      "output_sha256": "e4eadb11b99c91ee9c7bc4b4f93cd84141036c5b0d16ed9f84b9582243262b85",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/hooks-and-openings.md",
+      "source_sha256": "e4eadb11b99c91ee9c7bc4b4f93cd84141036c5b0d16ed9f84b9582243262b85"
+    },
+    {
+      "path": "skills/cover-letter/references/letter-tailoring-checks.md",
+      "output_sha256": "b377a79dbee13d090f4a16d84babb5ebd560b4798d5fd7d6bda6ff7354f7a71a",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/letter-tailoring-checks.md",
+      "source_sha256": "b377a79dbee13d090f4a16d84babb5ebd560b4798d5fd7d6bda6ff7354f7a71a"
+    },
+    {
+      "path": "skills/cover-letter/references/local-method.original.md",
+      "output_sha256": "0c18aeaf75847971350bbb4a2d719ca29095b613defed53627509a9622988fc7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/local-method.original.md",
+      "source_sha256": "0c18aeaf75847971350bbb4a2d719ca29095b613defed53627509a9622988fc7"
+    },
+    {
+      "path": "skills/cover-letter/references/metrics-and-truth.md",
+      "output_sha256": "b98cb9644edcdc0492f8dde10262b6b2ce3a6d11d5fb3f2be4af75d61d83f026",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/metrics-and-truth.md",
+      "source_sha256": "b98cb9644edcdc0492f8dde10262b6b2ce3a6d11d5fb3f2be4af75d61d83f026"
+    },
+    {
+      "path": "skills/cover-letter/references/patterns.md",
+      "output_sha256": "d8e2ac030f47883e3d4fae9aefb0abbf13aed14d56ba3e1f35856445b4d29166",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/patterns.md",
+      "source_sha256": "d8e2ac030f47883e3d4fae9aefb0abbf13aed14d56ba3e1f35856445b4d29166"
+    },
+    {
+      "path": "skills/cover-letter/references/proof-paragraphs.md",
+      "output_sha256": "a90f9ba6c1d5af105468d695a9cf18ddf1841921c3f39b360e8604e7f9b9aef4",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/proof-paragraphs.md",
+      "source_sha256": "a90f9ba6c1d5af105468d695a9cf18ddf1841921c3f39b360e8604e7f9b9aef4"
+    },
+    {
+      "path": "skills/cover-letter/references/voice-and-tone.md",
+      "output_sha256": "37d155891ecd5f74479cf41925c6a2096ee9e654a21c89098e9e21ff1f249ac9",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/references/voice-and-tone.md",
+      "source_sha256": "37d155891ecd5f74479cf41925c6a2096ee9e654a21c89098e9e21ff1f249ac9"
+    },
+    {
+      "path": "skills/cover-letter/templates/ai-workflow.md",
+      "output_sha256": "9426edb0aeecb5c72a830e6044e1dce6a81c1934c4b8e7878da91459fa4e33d1",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/ai-workflow.md",
+      "source_sha256": "9426edb0aeecb5c72a830e6044e1dce6a81c1934c4b8e7878da91459fa4e33d1"
+    },
+    {
+      "path": "skills/cover-letter/templates/cold-application.md",
+      "output_sha256": "bf7797892a75d9ee785ffc03bfe2aeaf6c73e0700e70eab38d2184faeaa5356e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/cold-application.md",
+      "source_sha256": "bf7797892a75d9ee785ffc03bfe2aeaf6c73e0700e70eab38d2184faeaa5356e"
+    },
+    {
+      "path": "skills/cover-letter/templates/mission-fit.md",
+      "output_sha256": "3360d745fbaa58fd29be6719f14ecbb49db8ad35eaf66f6e733996d73bdc9637",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/mission-fit.md",
+      "source_sha256": "3360d745fbaa58fd29be6719f14ecbb49db8ad35eaf66f6e733996d73bdc9637"
+    },
+    {
+      "path": "skills/cover-letter/templates/product-ux.md",
+      "output_sha256": "c47c3ab79471babb9e86b4116cef3d498ec6821f5324c4a4d1b56506697c2354",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/product-ux.md",
+      "source_sha256": "c47c3ab79471babb9e86b4116cef3d498ec6821f5324c4a4d1b56506697c2354"
+    },
+    {
+      "path": "skills/cover-letter/templates/referral.md",
+      "output_sha256": "e179fb35abe13cf4127d35e891059ffb1bac4887ecbf50fe3ce6684af0f10a35",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/referral.md",
+      "source_sha256": "e179fb35abe13cf4127d35e891059ffb1bac4887ecbf50fe3ce6684af0f10a35"
+    },
+    {
+      "path": "skills/cover-letter/templates/teaching-learning.md",
+      "output_sha256": "cd158412dc7609fbce8a5a1d53bb6a4c95b818b64d18bc785fd84fc8196ab807",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/teaching-learning.md",
+      "source_sha256": "cd158412dc7609fbce8a5a1d53bb6a4c95b818b64d18bc785fd84fc8196ab807"
+    },
+    {
+      "path": "skills/cover-letter/templates/template-index.md",
+      "output_sha256": "609733ae65a460dca002dcaf0b695d28d0fe2c860267163b8be35ffbaea75141",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/cover-letter/templates/template-index.md",
+      "source_sha256": "609733ae65a460dca002dcaf0b695d28d0fe2c860267163b8be35ffbaea75141"
+    },
+    {
+      "path": "skills/portfolio/SKILL.md",
+      "output_sha256": "febccfa25b05c40dc1778c92c18a5a0b62b1b73170ce89adb420a30669eae202",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/SKILL.md",
+      "source_sha256": "354585079ac6f5ef50a4eaa6e759f3616e590e6df0220f8172f52613ec77a190",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/portfolio/agents/agent.md",
+      "output_sha256": "0307fce28b042ca213f7f51ca6a9e3d6c050af1337a7454394aa565b55cc46db",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/agent.md",
+      "source_sha256": "0307fce28b042ca213f7f51ca6a9e3d6c050af1337a7454394aa565b55cc46db"
+    },
+    {
+      "path": "skills/portfolio/agents/agents.md",
+      "output_sha256": "5e8e9abf904aa9f27eaa6bed2b796b23246040c57a75fc3fa8963b75d7ac43d8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/agents.md",
+      "source_sha256": "5e8e9abf904aa9f27eaa6bed2b796b23246040c57a75fc3fa8963b75d7ac43d8"
+    },
+    {
+      "path": "skills/portfolio/agents/artifact-caption-editor.md",
+      "output_sha256": "706b1204dc89f395612eea1fc02c916781fee17229cbae97b16c9980d1f2058b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/artifact-caption-editor.md",
+      "source_sha256": "706b1204dc89f395612eea1fc02c916781fee17229cbae97b16c9980d1f2058b"
+    },
+    {
+      "path": "skills/portfolio/agents/buyer-proof-strategist.md",
+      "output_sha256": "b4d473dc58c1b3a3059d78bd7056adb1937d75d775258176ad4f1c9eed75c461",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/buyer-proof-strategist.md",
+      "source_sha256": "b4d473dc58c1b3a3059d78bd7056adb1937d75d775258176ad4f1c9eed75c461"
+    },
+    {
+      "path": "skills/portfolio/agents/case-study-writer.md",
+      "output_sha256": "6e7ea7c71de8445c921077fc1522721b8edcac6a79487434aa34e88cccc7ac63",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/case-study-writer.md",
+      "source_sha256": "6e7ea7c71de8445c921077fc1522721b8edcac6a79487434aa34e88cccc7ac63"
+    },
+    {
+      "path": "skills/portfolio/agents/confidentiality-auditor.md",
+      "output_sha256": "26bc1ca0209472a15ddf983eaf7653cee7241772a0a0d0c638b7aa69ca27216d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/confidentiality-auditor.md",
+      "source_sha256": "26bc1ca0209472a15ddf983eaf7653cee7241772a0a0d0c638b7aa69ca27216d"
+    },
+    {
+      "path": "skills/portfolio/agents/evidence-integrity-reviewer.md",
+      "output_sha256": "9f9c9ba33a95859428a26df0298cd83c0ee2bc5abc5dbb9626caf159deaa82c2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/evidence-integrity-reviewer.md",
+      "source_sha256": "9f9c9ba33a95859428a26df0298cd83c0ee2bc5abc5dbb9626caf159deaa82c2"
+    },
+    {
+      "path": "skills/portfolio/agents/openai.yaml",
+      "output_sha256": "d93ad46318ecdf9a455bed380fad594f5ca9813a5a6a58fe298954e410b28aeb",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/openai.yaml",
+      "source_sha256": "d93ad46318ecdf9a455bed380fad594f5ca9813a5a6a58fe298954e410b28aeb"
+    },
+    {
+      "path": "skills/portfolio/agents/portfolio-assessment-coach.md",
+      "output_sha256": "ce376dbf174a19c7992bbfa8e334cdcc1593bbdea9f9e35028457ddd9294305d",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/portfolio-assessment-coach.md",
+      "source_sha256": "ce376dbf174a19c7992bbfa8e334cdcc1593bbdea9f9e35028457ddd9294305d"
+    },
+    {
+      "path": "skills/portfolio/agents/portfolio-site-planner.md",
+      "output_sha256": "4b8c8d3c282772b851c795ad33fe577462c2a49b6ac10cd491f6981f1183a838",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/portfolio-site-planner.md",
+      "source_sha256": "4b8c8d3c282772b851c795ad33fe577462c2a49b6ac10cd491f6981f1183a838"
+    },
+    {
+      "path": "skills/portfolio/agents/portfolio-strategist.md",
+      "output_sha256": "f9b950924b950b1102c4a345f1c28892c5494a1e79eaa37df57a02349fec2eca",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/portfolio-strategist.md",
+      "source_sha256": "f9b950924b950b1102c4a345f1c28892c5494a1e79eaa37df57a02349fec2eca"
+    },
+    {
+      "path": "skills/portfolio/agents/portfolio-transfer-strategist.md",
+      "output_sha256": "9acef085488eee7d3013351d5683d0171c768d9d6c061ce61c07ef63d3743be2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/portfolio-transfer-strategist.md",
+      "source_sha256": "9acef085488eee7d3013351d5683d0171c768d9d6c061ce61c07ef63d3743be2"
+    },
+    {
+      "path": "skills/portfolio/agents/service-offer-case-advisor.md",
+      "output_sha256": "5f68c14eb0ea0ea26da4b82e8e7db76a4644b8dccb76c6b8def33480d59f566c",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/agents/service-offer-case-advisor.md",
+      "source_sha256": "5f68c14eb0ea0ea26da4b82e8e7db76a4644b8dccb76c6b8def33480d59f566c"
+    },
+    {
+      "path": "skills/portfolio/references/artifact-captions.md",
+      "output_sha256": "29a8a9eb0714ae7530d65ac0c254e687c797c70f32b9d7572fe742431acff6a9",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/artifact-captions.md",
+      "source_sha256": "29a8a9eb0714ae7530d65ac0c254e687c797c70f32b9d7572fe742431acff6a9"
+    },
+    {
+      "path": "skills/portfolio/references/case-study-structure.md",
+      "output_sha256": "a346ffd63b479a148251639b90faf98e292fbd0d13ae26117a5a407b583f47ff",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/case-study-structure.md",
+      "source_sha256": "a346ffd63b479a148251639b90faf98e292fbd0d13ae26117a5a407b583f47ff"
+    },
+    {
+      "path": "skills/portfolio/references/confidentiality-and-redaction.md",
+      "output_sha256": "23af8f33f32596e19e2fcf559e8fb8a9024031bb0a2f67a7570bef30dc39cf96",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/confidentiality-and-redaction.md",
+      "source_sha256": "23af8f33f32596e19e2fcf559e8fb8a9024031bb0a2f67a7570bef30dc39cf96"
+    },
+    {
+      "path": "skills/portfolio/references/contractor-portfolio-strategy.md",
+      "output_sha256": "2e84642654aa6f058b9400fccb9dcad7a8a869ca85db0026cac209b3230336c8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/contractor-portfolio-strategy.md",
+      "source_sha256": "2e84642654aa6f058b9400fccb9dcad7a8a869ca85db0026cac209b3230336c8"
+    },
+    {
+      "path": "skills/portfolio/references/evidence-to-case.md",
+      "output_sha256": "160f7fb4824259c3010f1bbf7c60e18898354316268bb4e962439575e30c3172",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/evidence-to-case.md",
+      "source_sha256": "160f7fb4824259c3010f1bbf7c60e18898354316268bb4e962439575e30c3172"
+    },
+    {
+      "path": "skills/portfolio/references/game-design-portfolio-transfer.md",
+      "output_sha256": "8ced1cf4dd8b67d445239f002bda9df68d933234799742d1f400bceb7ba7b521",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/game-design-portfolio-transfer.md",
+      "source_sha256": "8ced1cf4dd8b67d445239f002bda9df68d933234799742d1f400bceb7ba7b521"
+    },
+    {
+      "path": "skills/portfolio/references/generic-phrase-guardrails.md",
+      "output_sha256": "3813cb1301e17a96a721c7eda11fff92f2b589cdedba9110a8b2e8106a787851",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/generic-phrase-guardrails.md",
+      "source_sha256": "3813cb1301e17a96a721c7eda11fff92f2b589cdedba9110a8b2e8106a787851"
+    },
+    {
+      "path": "skills/portfolio/references/instructional-design-portfolio.md",
+      "output_sha256": "be6d8c8f2abb7370f92533560f9aed0d2da0e922b2c254448ca329327e014863",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/instructional-design-portfolio.md",
+      "source_sha256": "be6d8c8f2abb7370f92533560f9aed0d2da0e922b2c254448ca329327e014863"
+    },
+    {
+      "path": "skills/portfolio/references/knowledge-atlas-portfolio-activities.md",
+      "output_sha256": "706e6c2ac168155a6fda2a930418564653d25a454f379911405fb7dd18d38ee3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/knowledge-atlas-portfolio-activities.md",
+      "source_sha256": "706e6c2ac168155a6fda2a930418564653d25a454f379911405fb7dd18d38ee3"
+    },
+    {
+      "path": "skills/portfolio/references/local-method.original.md",
+      "output_sha256": "42972a2ef9163c28e0949ab04641e074e3faf52367c3dd247a896ca27dde31e4",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/local-method.original.md",
+      "source_sha256": "42972a2ef9163c28e0949ab04641e074e3faf52367c3dd247a896ca27dde31e4"
+    },
+    {
+      "path": "skills/portfolio/references/metrics-and-truth.md",
+      "output_sha256": "e4c8d4bedbf230fd45341b1b095f20c333dd28de0468e3c5f2a0469f5820c7c0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/metrics-and-truth.md",
+      "source_sha256": "e4c8d4bedbf230fd45341b1b095f20c333dd28de0468e3c5f2a0469f5820c7c0"
+    },
+    {
+      "path": "skills/portfolio/references/patterns.md",
+      "output_sha256": "045f3cbe6a586fb38c4d69b75458dd853510cbf03a4be338be56dbaf79bbd008",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/patterns.md",
+      "source_sha256": "045f3cbe6a586fb38c4d69b75458dd853510cbf03a4be338be56dbaf79bbd008"
+    },
+    {
+      "path": "skills/portfolio/references/portfolio-quality-rubric.md",
+      "output_sha256": "2e3071e7fd01130539d69d7b0311770a6276bb3e6d87f906bceff0ce05350d2e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/portfolio-quality-rubric.md",
+      "source_sha256": "2e3071e7fd01130539d69d7b0311770a6276bb3e6d87f906bceff0ce05350d2e"
+    },
+    {
+      "path": "skills/portfolio/references/service-proof-and-case-studies.md",
+      "output_sha256": "08d796f6fededf11d07d8d9271e7a33983de0d6d5c80d3072244e30ca8b532e8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/references/service-proof-and-case-studies.md",
+      "source_sha256": "08d796f6fededf11d07d8d9271e7a33983de0d6d5c80d3072244e30ca8b532e8"
+    },
+    {
+      "path": "skills/portfolio/templates/ai-workflow-case.md",
+      "output_sha256": "f7fc3c4d453b67f80a871348f35aa485a6470137cd5cc54ce0866d87c6649e46",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/ai-workflow-case.md",
+      "source_sha256": "f7fc3c4d453b67f80a871348f35aa485a6470137cd5cc54ce0866d87c6649e46"
+    },
+    {
+      "path": "skills/portfolio/templates/artifact-caption-set.md",
+      "output_sha256": "dd66e3fe57ba157d9c2625522e41634b6e9ba4c8620555d71b121eb0d50e2d7f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/artifact-caption-set.md",
+      "source_sha256": "dd66e3fe57ba157d9c2625522e41634b6e9ba4c8620555d71b121eb0d50e2d7f"
+    },
+    {
+      "path": "skills/portfolio/templates/buyer-reader-path.md",
+      "output_sha256": "cb259c04fee36dd20fdb44693041ae27cc802dd20c796530808f466dcf144091",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/buyer-reader-path.md",
+      "source_sha256": "cb259c04fee36dd20fdb44693041ae27cc802dd20c796530808f466dcf144091"
+    },
+    {
+      "path": "skills/portfolio/templates/case-card.md",
+      "output_sha256": "33c4a01463aa2a3c1acec80deee86b6368e7f5cbf52ce7452e861e4ef651da25",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/case-card.md",
+      "source_sha256": "33c4a01463aa2a3c1acec80deee86b6368e7f5cbf52ce7452e861e4ef651da25"
+    },
+    {
+      "path": "skills/portfolio/templates/case-study.md",
+      "output_sha256": "43b18db1ea472f45c4510967567ffce767a4d886959094e719c2d63705542031",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/case-study.md",
+      "source_sha256": "43b18db1ea472f45c4510967567ffce767a4d886959094e719c2d63705542031"
+    },
+    {
+      "path": "skills/portfolio/templates/competency-evidence-map.md",
+      "output_sha256": "3df5bbffb3ab7c4962be0c15cbe2c91cbd377a2cd17a777cab3eba7b256cc2c7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/competency-evidence-map.md",
+      "source_sha256": "3df5bbffb3ab7c4962be0c15cbe2c91cbd377a2cd17a777cab3eba7b256cc2c7"
+    },
+    {
+      "path": "skills/portfolio/templates/contractor-case-card.md",
+      "output_sha256": "493eda5d442557be2e2fd54059ebac40bd363c2bf242391ef8d1c2fdd0a33f89",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/contractor-case-card.md",
+      "source_sha256": "493eda5d442557be2e2fd54059ebac40bd363c2bf242391ef8d1c2fdd0a33f89"
+    },
+    {
+      "path": "skills/portfolio/templates/contractor-website-proof-plan.md",
+      "output_sha256": "182950066c84b5ffcc71ca64e76333737dffc9843f68bd528d1f4b583e5592bd",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/contractor-website-proof-plan.md",
+      "source_sha256": "182950066c84b5ffcc71ca64e76333737dffc9843f68bd528d1f4b583e5592bd"
+    },
+    {
+      "path": "skills/portfolio/templates/interview-deck-outline.md",
+      "output_sha256": "e19406ecf473f0d61900478dde8db54e7d9a627ed77896bf9fbf9593e9661178",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/interview-deck-outline.md",
+      "source_sha256": "e19406ecf473f0d61900478dde8db54e7d9a627ed77896bf9fbf9593e9661178"
+    },
+    {
+      "path": "skills/portfolio/templates/leave-behind.md",
+      "output_sha256": "1dcad5001a21912d996f6716c323c86a96218d83f0fe1972b626c2fc7746fdfc",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/leave-behind.md",
+      "source_sha256": "1dcad5001a21912d996f6716c323c86a96218d83f0fe1972b626c2fc7746fdfc"
+    },
+    {
+      "path": "skills/portfolio/templates/portfolio-faded-scaffold.md",
+      "output_sha256": "444bedc8d7f69deb6348bda1c079c424ffaa4d24c508f35a258893eb17527be6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/portfolio-faded-scaffold.md",
+      "source_sha256": "444bedc8d7f69deb6348bda1c079c424ffaa4d24c508f35a258893eb17527be6"
+    },
+    {
+      "path": "skills/portfolio/templates/portfolio-playtest-protocol.md",
+      "output_sha256": "2059a8da32ffe832122273b2dfc31ef235d5e79a3d68ae9a8a0730ed2b86a015",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/portfolio-playtest-protocol.md",
+      "source_sha256": "2059a8da32ffe832122273b2dfc31ef235d5e79a3d68ae9a8a0730ed2b86a015"
+    },
+    {
+      "path": "skills/portfolio/templates/reviewer-simulation.md",
+      "output_sha256": "2eb88d250b53a1d3816ada69b1237dcfb46f3e595e6c0379016d42cc003a47ce",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/reviewer-simulation.md",
+      "source_sha256": "2eb88d250b53a1d3816ada69b1237dcfb46f3e595e6c0379016d42cc003a47ce"
+    },
+    {
+      "path": "skills/portfolio/templates/service-proof-inventory.md",
+      "output_sha256": "ee574a78f4678f89dfceb656c504592849d646475e5d863016617d1992ea2429",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/service-proof-inventory.md",
+      "source_sha256": "ee574a78f4678f89dfceb656c504592849d646475e5d863016617d1992ea2429"
+    },
+    {
+      "path": "skills/portfolio/templates/template-index.md",
+      "output_sha256": "3ff5e0c09a2a5f46f67f7a1278420e1a425702d37ccb34511b42b4144b67e3d8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/template-index.md",
+      "source_sha256": "3ff5e0c09a2a5f46f67f7a1278420e1a425702d37ccb34511b42b4144b67e3d8"
+    },
+    {
+      "path": "skills/portfolio/templates/ux-research-case.md",
+      "output_sha256": "21ff611d94be9273fbd416eb8315faf9b2738838ac458b56995fe68820f0ccb2",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/ux-research-case.md",
+      "source_sha256": "21ff611d94be9273fbd416eb8315faf9b2738838ac458b56995fe68820f0ccb2"
+    },
+    {
+      "path": "skills/portfolio/templates/visitor-core-loop-audit.md",
+      "output_sha256": "3464e6448fa2ca6a6c84f0697709b9f1d4ac207f35d589d2bafed16ef322c8a9",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio/templates/visitor-core-loop-audit.md",
+      "source_sha256": "3464e6448fa2ca6a6c84f0697709b9f1d4ac207f35d589d2bafed16ef322c8a9"
+    },
+    {
+      "path": "skills/portfolio-package/SKILL.md",
+      "output_sha256": "f1a0a331e52271d9d6139c2422e0fd4cfb6a7e35d0b2f8bac42f4b1369052616",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/SKILL.md",
+      "source_sha256": "94237787531327bd81a459178d57d485f28768230c6c117f793ef9590e7bca86",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/portfolio-package/agents/openai.yaml",
+      "output_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/agents/openai.yaml",
+      "source_sha256": "20715006918bee20811b2fb0f36e7293b984246ebcaabd7001463b6e4cd94052"
+    },
+    {
+      "path": "skills/portfolio-package/references/evidence-led-delivery.md",
+      "output_sha256": "a860985f3a4bc449cc7bd1f2f407003cfd8a26e9239c9db98fd93a7a3e8144a5",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/references/evidence-led-delivery.md",
+      "source_sha256": "fc9d95ff004eb8d0e57a381ea57c91cbb67bc0ee06a6da2143a8dc3fd4654a0a",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/portfolio-package/references/recorded-workflow.md",
+      "output_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/portfolio-package/references/recorded-workflow.md",
+      "source_sha256": "ab50c8782e567e0f88f6a9af6a83d3f7b88cd6aca85c534297bfa48e453c13f3"
+    },
+    {
+      "path": "skills/resume/SKILL.md",
+      "output_sha256": "ff4b79e0629f211633cabd053340d17595f98e95cecaeb3b7447cf1718e740af",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/SKILL.md",
+      "source_sha256": "2cf5c3b4c3cc0a1b6c9e7fe87e2c98ba6cb3ac66401e96571ff5154dd0ef00b1",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/resume/agents/agent.md",
+      "output_sha256": "2517b04fc027706b1b7b538a9e49fec1c830314da361998aaa24bc4f707c1895",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/agent.md",
+      "source_sha256": "2517b04fc027706b1b7b538a9e49fec1c830314da361998aaa24bc4f707c1895"
+    },
+    {
+      "path": "skills/resume/agents/ats-auditor.md",
+      "output_sha256": "a70fd6b3d92fbc18d2e56065481e21ef53142018f532eb0d6147af235767fe5b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/ats-auditor.md",
+      "source_sha256": "a70fd6b3d92fbc18d2e56065481e21ef53142018f532eb0d6147af235767fe5b"
+    },
+    {
+      "path": "skills/resume/agents/bullet-editor.md",
+      "output_sha256": "79c99c3c46c3a45fb3e440ce11c8c87b199f56e2f1f03a291e052cd18a4d3aa7",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/bullet-editor.md",
+      "source_sha256": "79c99c3c46c3a45fb3e440ce11c8c87b199f56e2f1f03a291e052cd18a4d3aa7"
+    },
+    {
+      "path": "skills/resume/agents/evidence-integrity-reviewer.md",
+      "output_sha256": "f4a21b2b049953be4301d2b7181b62d7f0c3af5651ad3cbfa6fa64701619075e",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/evidence-integrity-reviewer.md",
+      "source_sha256": "f4a21b2b049953be4301d2b7181b62d7f0c3af5651ad3cbfa6fa64701619075e"
+    },
+    {
+      "path": "skills/resume/agents/openai.yaml",
+      "output_sha256": "3805395a0a1e8ae46ae3068347e8a7e413da95a2cadd5cb3a36b9e68adfe55aa",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/openai.yaml",
+      "source_sha256": "3805395a0a1e8ae46ae3068347e8a7e413da95a2cadd5cb3a36b9e68adfe55aa"
+    },
+    {
+      "path": "skills/resume/agents/resume-design-advisor.md",
+      "output_sha256": "d1dfbdd1df74b2464ee3f256c02f614e8bfba0d129c3fbf595e5a09ee971e1e6",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/resume-design-advisor.md",
+      "source_sha256": "d1dfbdd1df74b2464ee3f256c02f614e8bfba0d129c3fbf595e5a09ee971e1e6"
+    },
+    {
+      "path": "skills/resume/agents/resume-strategist.md",
+      "output_sha256": "242959c4069741adddd507f5acdd7968eef29da5b0e97216152099a29e2fc044",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/agents/resume-strategist.md",
+      "source_sha256": "242959c4069741adddd507f5acdd7968eef29da5b0e97216152099a29e2fc044"
+    },
+    {
+      "path": "skills/resume/design/ats-simple.md",
+      "output_sha256": "fa341a7191a677d66b408ceaf7d2f4aeb3289eaa6d7f4916e8de04951fecc578",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/design/ats-simple.md",
+      "source_sha256": "fa341a7191a677d66b408ceaf7d2f4aeb3289eaa6d7f4916e8de04951fecc578"
+    },
+    {
+      "path": "skills/resume/design/design.md",
+      "output_sha256": "d702a0f6586567ea4d10477287ad87b41a3afb9eb87fbdd1c7448b3f8b9e3ede",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/design/design.md",
+      "source_sha256": "d702a0f6586567ea4d10477287ad87b41a3afb9eb87fbdd1c7448b3f8b9e3ede"
+    },
+    {
+      "path": "skills/resume/design/hybrid-recruiter.md",
+      "output_sha256": "8cefac7178b354ae8eb7250097af2da97992efd0b86f2d839a80c304612d3663",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/design/hybrid-recruiter.md",
+      "source_sha256": "8cefac7178b354ae8eb7250097af2da97992efd0b86f2d839a80c304612d3663"
+    },
+    {
+      "path": "skills/resume/design/portfolio-leaning.md",
+      "output_sha256": "0967a33b6105f3f19815b4fa32c0fd17b80e246fd2148d4b5ff45def65acba1f",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/design/portfolio-leaning.md",
+      "source_sha256": "0967a33b6105f3f19815b4fa32c0fd17b80e246fd2148d4b5ff45def65acba1f"
+    },
+    {
+      "path": "skills/resume/references/ats-and-formatting.md",
+      "output_sha256": "f362fdfb5c8a2a4ed6a982f1e0c5bd63253bd14f4b273ea02ed6287277ea8bb8",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/ats-and-formatting.md",
+      "source_sha256": "f362fdfb5c8a2a4ed6a982f1e0c5bd63253bd14f4b273ea02ed6287277ea8bb8"
+    },
+    {
+      "path": "skills/resume/references/bullet-rewriting.md",
+      "output_sha256": "06e62402cdd49078c95c241ba218996dea901fa3853d901a1611bc9c75a9ac78",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/bullet-rewriting.md",
+      "source_sha256": "06e62402cdd49078c95c241ba218996dea901fa3853d901a1611bc9c75a9ac78"
+    },
+    {
+      "path": "skills/resume/references/generic-phrase-guardrails.md",
+      "output_sha256": "3375f4307ee3bf72721ecf59b723da82be55c33e1a7534d5d758eaa3c573cd27",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/generic-phrase-guardrails.md",
+      "source_sha256": "3375f4307ee3bf72721ecf59b723da82be55c33e1a7534d5d758eaa3c573cd27"
+    },
+    {
+      "path": "skills/resume/references/linkedin-profile.md",
+      "output_sha256": "98e0be147598aeae4c07ac24faf36aba8e5160857720e4c315291095b115bcff",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/linkedin-profile.md",
+      "source_sha256": "98e0be147598aeae4c07ac24faf36aba8e5160857720e4c315291095b115bcff"
+    },
+    {
+      "path": "skills/resume/references/local-method.original.md",
+      "output_sha256": "ccd774f2c5a2f433277ce53baf933548fe4b5c1d5d792e13a4907e57b123bcae",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/local-method.original.md",
+      "source_sha256": "ccd774f2c5a2f433277ce53baf933548fe4b5c1d5d792e13a4907e57b123bcae"
+    },
+    {
+      "path": "skills/resume/references/metrics-and-truth.md",
+      "output_sha256": "7c38228841ad78d87cc77ac70ec7a0d298c24d0b34ce3bdf117a606d3e3fe3fa",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/metrics-and-truth.md",
+      "source_sha256": "7c38228841ad78d87cc77ac70ec7a0d298c24d0b34ce3bdf117a606d3e3fe3fa"
+    },
+    {
+      "path": "skills/resume/references/patterns.md",
+      "output_sha256": "7f3567b5353c4ed02b722787320f1998299a5d2bec9e6a03a6446fc536b1d7d0",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/patterns.md",
+      "source_sha256": "7f3567b5353c4ed02b722787320f1998299a5d2bec9e6a03a6446fc536b1d7d0"
+    },
+    {
+      "path": "skills/resume/references/resume-quality-rubric.md",
+      "output_sha256": "4c370c6330db2420f7824dca26d67f6ed3851353419e6e88a98c2bba64672910",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/resume-quality-rubric.md",
+      "source_sha256": "4c370c6330db2420f7824dca26d67f6ed3851353419e6e88a98c2bba64672910"
+    },
+    {
+      "path": "skills/resume/references/role-positioning.md",
+      "output_sha256": "ec94528bed7fe5b6f8f5da7431fba9e59179b28302d9a15808b0fb08360a36c4",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/role-positioning.md",
+      "source_sha256": "ec94528bed7fe5b6f8f5da7431fba9e59179b28302d9a15808b0fb08360a36c4"
+    },
+    {
+      "path": "skills/resume/references/role-tailoring-and-readback.md",
+      "output_sha256": "0c2e85d5391526387de10e8808c0d2c1837a3c30c822212eb9facf56b8575356",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/role-tailoring-and-readback.md",
+      "source_sha256": "0c2e85d5391526387de10e8808c0d2c1837a3c30c822212eb9facf56b8575356"
+    },
+    {
+      "path": "skills/resume/references/rubric.json",
+      "output_sha256": "54e962e61a9cc171e253b882851af8b6c41e35ed9539aa8b527ca7f2635fab57",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/resume/references/rubric.json",
+      "source_sha256": "54e962e61a9cc171e253b882851af8b6c41e35ed9539aa8b527ca7f2635fab57"
+    },
+    {
+      "path": "skills/submissions/SKILL.md",
+      "output_sha256": "08156c9c36cf378670fe792575674c3c6969d1dfae8077f643835cb60778cfbd",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/submissions/SKILL.md",
+      "source_sha256": "aacaa3ac5ddf1cdb6e0256ac75aeea8fe6de6d7d3e899a33b4158cdcd6642deb",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    },
+    {
+      "path": "skills/submissions/agents/openai.yaml",
+      "output_sha256": "9322b65a18e617a99018734f5efa5c9a8d0bec2181a42872350777398ce9cb3b",
+      "origin": "canonical_baseline",
+      "transformed": false,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/submissions/agents/openai.yaml",
+      "source_sha256": "9322b65a18e617a99018734f5efa5c9a8d0bec2181a42872350777398ce9cb3b"
+    },
+    {
+      "path": "skills/submissions/references/compass-workflow.md",
+      "output_sha256": "8998ba5e5b936eecf9496b5513039fb3d682cef055d3c5f8d7733a56d24af78e",
+      "origin": "canonical_baseline",
+      "transformed": true,
+      "rights": "CC-BY-SA-4.0",
+      "source_relative": "skills/submissions/references/compass-workflow.md",
+      "source_sha256": "4c5a930691ebed49dff7a0b4f97a1fb497a693723dca14feb3f150ac2c2f83d9",
+      "transformation": "Portable source, conditional runtime/provider route, recipient-first wording, source-evidenced receipt and host support; first-party operative method retained."
+    }
+  ]
+}

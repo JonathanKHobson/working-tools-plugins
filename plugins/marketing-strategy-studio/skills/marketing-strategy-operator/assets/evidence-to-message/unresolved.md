@@ -1,0 +1,9 @@
+# Unresolved facts and boundaries
+
+1. **Real offer state:** Open Practice Lab is a fictional shared benchmark. No organizer, live registration page, actual signup status, channel list or public campaign authorization was supplied. The CTA is a placeholder.
+2. **Availability versus capacity:** the brief gives capacity of 24 participants total and no current availability. A live count needs a trusted source, timestamp and owner; the total cannot be used as seats remaining.
+3. **Accessibility and recording:** captions are planned but not confirmed; recording is pending. Neither is a promised feature. A real invitation should resolve these or disclose the uncertainty prominently enough for a reader deciding whether to attend.
+4. **Audience and effectiveness:** no participant or audience evidence, language research, market comparison, actual objections, outcome evaluation, conversion baseline or channel performance is supplied. Routes A–C and their selection assumptions are untested.
+5. **Coursework provenance:** U03's transfer of rhetoric into UX/AI metrics is Kyle's reflection, not validated measurement. U04's Neoterica/Orbit/Dr. Seranova scenario is coursework, not current client proof. U05's CDC and Purdue campaign/medical interpretations and quoted citations were not independently verified, so no campaign claims were carried into these messages.
+6. **Repository evidence:** R01's percentage forecasts lacked inspected primary support. R02's claim-linked infrastructure was inspected as a reference only; its tests were not executed and its effects on marketing outcomes are unknown. Neither repo supplies proof for this fictional offer.
+7. **Research firewall:** a real survey needs a research question, sampling, consent, retention, accessibility and analysis plan from its owner. The prototype in `examples/neutrality-firewall.md` is not ready to field.

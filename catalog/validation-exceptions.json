@@ -93,7 +93,7 @@
         "matched_lines": [
           {
             "line": 178,
-            "text": "**Feedback is submitted to a public channel \u2014 anonymize before sending.** Redact absolute paths (which leak user home directory + machine identity), any user or project names embedded in paths, secrets, and credentials. Path arguments in the command should stay relative to the project directory (`./renders/out.mp4`, not `/Users/<user>/Documents/\u2026/out.mp4`; `.hf-tmp/`, not `/home/<user>/projects/<real-name>/.hf-tmp/`). Similarly strip absolute paths from `EXACT ERROR:` stack traces and log excerpts \u2014 keep the file basename and line number, drop the leading directory. Preserve flags and relevant `HF_*` / `PRODUCER_*` variables verbatim. If the failure no longer reproduces, include the last failing command and log excerpt (redacted the same way). Share a project link only when one is already available and safe to share."
+            "text": "**Feedback is submitted to a public channel — anonymize before sending.** Redact absolute paths (which leak user home directory + machine identity), any user or project names embedded in paths, secrets, and credentials. Path arguments in the command should stay relative to the project directory (`./renders/out.mp4`, not `/Users/<user>/Documents/…/out.mp4`; `.hf-tmp/`, not `/home/<user>/projects/<real-name>/.hf-tmp/`). Similarly strip absolute paths from `EXACT ERROR:` stack traces and log excerpts — keep the file basename and line number, drop the leading directory. Preserve flags and relevant `HF_*` / `PRODUCER_*` variables verbatim. If the failure no longer reproduces, include the last failing command and log excerpt (redacted the same way). Share a project link only when one is already available and safe to share."
           }
         ],
         "reason": "generic redaction examples or regex assertions; no actual user path/binding"
@@ -272,6 +272,81 @@
         "sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
         "target": "checklist.md",
         "reason": "Illustrative link in retained Apache-2.0 upstream method source; absent in canonical snapshot. Not a dependency used by package helpers."
+      }
+    ]
+  },
+  "marketing-strategy-studio": {
+    "privacy_exceptions": [
+      {
+        "path": "libraries/digital-marketing-pro/CHANGELOG.md",
+        "sha256": "077ebb69794cf0e3df26a5e693b11e6ff7226a1676087636f6ca4a583340ca07",
+        "reason": "Retained upstream documentation: public changelog history or explicit placeholder path, not a private binding or credential. Exact text reviewed."
+      },
+      {
+        "path": "libraries/digital-marketing-pro/docs/integrations-guide.md",
+        "sha256": "9c571eab2f84e845838cb5a87a736caa2ef1e4a99fb42d6fdd21681db45c3c52",
+        "reason": "Retained upstream documentation: public changelog history or explicit placeholder path, not a private binding or credential. Exact text reviewed."
+      },
+      {
+        "path": "libraries/marketingskills/skills/marketing-plan/references/methodology.md",
+        "sha256": "59fd621b7fb694b9bbceaeb69f3711e4621d1a594598942e636058e2aa4afcc1",
+        "reason": "Retained upstream documentation: public changelog history or explicit placeholder path, not a private binding or credential. Exact text reviewed."
+      }
+    ],
+    "reference_exceptions": [
+      {
+        "path": "libraries/digital-marketing-pro/docs/architecture.md",
+        "target": "../context-engine/<name>.md",
+        "sha256": "736c27578c7e2a2a7dc3a90269787974e24925f9a4c45c4fb0ecea5923c3726e",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      },
+      {
+        "path": "libraries/marketingskills/CONTRIBUTING.md",
+        "target": "?template=new-skill.md",
+        "sha256": "fd951c93b4aa43133ea858369a998a7f14513063e4ff58802bd93aad5fd56c83",
+        "reason": "Upstream contribution issue-template query example; not a required method support file."
+      },
+      {
+        "path": "libraries/marketingskills/CONTRIBUTING.md",
+        "target": "?template=skill-update.md",
+        "sha256": "fd951c93b4aa43133ea858369a998a7f14513063e4ff58802bd93aad5fd56c83",
+        "reason": "Upstream contribution issue-template query example; not a required method support file."
+      },
+      {
+        "path": "libraries/marketingskills/CONTRIBUTING.md",
+        "target": "?template=documentation.md",
+        "sha256": "fd951c93b4aa43133ea858369a998a7f14513063e4ff58802bd93aad5fd56c83",
+        "reason": "Upstream contribution issue-template query example; not a required method support file."
+      },
+      {
+        "path": "libraries/marketingskills/skills/competitors/references/content-architecture.md",
+        "target": "/alternatives/notion",
+        "sha256": "9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      },
+      {
+        "path": "libraries/marketingskills/skills/competitors/references/content-architecture.md",
+        "target": "/alternatives/airtable",
+        "sha256": "9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      },
+      {
+        "path": "libraries/marketingskills/skills/competitors/references/content-architecture.md",
+        "target": "/alternatives/monday",
+        "sha256": "9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      },
+      {
+        "path": "libraries/marketingskills/skills/site-architecture/SKILL.md",
+        "target": "/features/analytics",
+        "sha256": "a47f693c6a4f45db89276d8c341b3aa3054090cc8002dd4a2635448d7d152492",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
+      },
+      {
+        "path": "libraries/marketingskills/skills/sms/references/compliance.md",
+        "target": "link",
+        "sha256": "bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149",
+        "reason": "Illustrative link syntax or sample website route in retained source method; no bundled destination or runtime claim."
       }
     ]
   }

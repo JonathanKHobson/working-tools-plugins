@@ -1,0 +1,11 @@
+# Reuse evidence stories across career and social work
+
+Use when gathering professional stories for profiles, interview answers, posts or applications. Extend the existing private evidence register; do not create a second biography, mandatory onboarding file or shared plugin store. The method is an original local adaptation of the source's evidence-first intake, not a copied fork interview skill.
+
+Start with available work artifacts and authentic user accounts. Ask only missing questions: what was happening, what constraint mattered, what did you personally decide/do, what did others do, what changed or failed, how do we know, and what can be public? Separate literal quotations, remembered paraphrases and editorial reconstruction. Never add dialogue, feelings, tension, causal links or numbers for narrative effect.
+
+For each selected story capture: existing evidence ID, date, context/problem, audience, user contribution, collaborators, decision/tradeoff, artifact or source span, outcome and denominator/timeframe if measured, uncertainty/contrary evidence, state (proposed/prototype/shipped/measured), confidentiality, public-safe wording, approved metrics, and last review. Keep a claim's exact allowed wording when an evidence card supplies it. Historical work is usable when dated honestly; current job/status and availability require fresh checks.
+
+Choose a frame by need: problem/action/result for diagnosis, result/action/problem when the result is strong and supported, STAR for interviews, or a decision/constraint/learning narrative when there is no measured result. Missing outcomes do not invalidate demonstrated work. For example, a supported statement that an author documented three onboarding decisions permits that contribution; it does not establish faster onboarding or satisfied users.
+
+Produce the requested answer/post from one story and retain a compact source map outside the public copy. Route profile claims to resume, public variants to Social Content, and voice matching to Writing Quality. Verify each derivative separately for public permission and accurate scope; prior application use is not permission to publish a client's details. Add proposed story candidates as unverified leads rather than silently promoting them into approved evidence. No fresh research study, participant count or result may be invented.

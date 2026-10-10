@@ -26,6 +26,8 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 | Develop stories and prepare playable GM material | [Creative Toolkit](plugins/creative-writing-studio/) | A draft, canon notes or game brief; optional runtime dependencies are documented |
 | Write, refine and test prompts | [Prompt Playbook Studio](plugins/prompt-playbook-studio/) | Task facts, a draft or test cases; optional tooling has separate setup |
 | Review software, agent artifacts and instruction boundaries | [Master Security Toolkit](plugins/master-security-toolkit/) | An authorized target or supplied artifact; Python for local scanners |
+| Tailor career materials and verify application outcomes | [Career Studio](plugins/career-studio/) | Real work evidence, a target role or prompt, and authorization for external actions |
+| Develop positioning, campaigns and measurement | [Marketing Strategy Studio](plugins/marketing-strategy-studio/) | Your offer, audience evidence and current constraints |
 | Test an argument or choose a reasoning framework | [Reasoning Toolkit](plugins/reasoning-studio/) | A claim and its evidence |
 | Design and validate a survey | [Survey Studio](plugins/survey-studio/) | Research question, audience and delivery constraints |
 | Read a Discord discussion or draft a reply | [Discord](plugins/discord/) | Authorized provider or browser access |

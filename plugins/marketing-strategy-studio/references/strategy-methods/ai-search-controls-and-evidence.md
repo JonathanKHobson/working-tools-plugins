@@ -1,0 +1,29 @@
+# AI-search controls and evidence
+
+Use for a requested AI-answer visibility assessment, generative Search Console interpretation, or search/training crawler decision. This maintained reference corrects known conflicts in retained AI SEO and GEO monitor methods. Read the selected source procedure for useful detail, but apply this reference where it conflicts. Ordinary page editing or a single social post does not require this audit.
+
+## Diagnose the actual stage
+
+Record the audience question, page or entity, target surface and observed state before recommending a tactic. Distinguish public access, crawler permission, indexing, retrieval, citation or mention, representation accuracy, referral, and qualified human action. An accessible page is not necessarily indexed; a citation is not a visit or a sale. Label source, date and scope for each observation. A failed test, inaccessible report or absent account permission is unknown, not zero.
+
+## Keep provider controls separate
+
+- [OpenAI documents](https://developers.openai.com/api/docs/bots) `OAI-SearchBot` for ChatGPT search, `GPTBot` for potential foundation-model training, and `ChatGPT-User` for certain user-initiated requests. Search and training preferences are independent. `ChatGPT-User` does not determine Search inclusion, and robots rules may not apply to those user actions. Blocking one bot does not prove that all mentions or navigational links disappear.
+- [Google's crawler list](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) says `Google-Extended` is a robots product token for specified Gemini training and grounding uses, with no separate HTTP user agent and no effect on Google Search inclusion or ranking. Googlebot and Search eligibility are separate. [Search Console's generative AI control](https://support.google.com/webmasters/answer/16908024) is a property setting for covered Search AI features; inspect the real property and inherited setting before reporting its state. It does not establish the site's model-training choice.
+- Anthropic distinguishes training, search and user-fetch agents. Perplexity documents search and user-fetch agents, which it says are not for foundation-model training. Check their [current crawler policy](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) and [crawler documentation](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) for the exact product and behavior. Do not reuse a bot rule across providers by name alone.
+
+For an authorized configuration change, capture the existing `robots.txt`, origin, named groups, page directives, authentication and CDN/WAF state. Decide search, training, user-fetch and previews separately. Test effective rules for the chosen user agent and paths, preserve rollback, then read back the actual edge response. A user-agent string alone can be spoofed; use the provider's current verification method when logs or firewall rules matter. A robots file is not access control. No source packet grants deployment permission.
+
+## Correct measurement and tactic claims
+
+[Google's generative AI performance report](https://support.google.com/webmasters/answer/16984139) now covers impressions for AI Overviews and AI Mode. It can be absent when a property lacks sufficient impressions; its Web report data overlap and chart/table aggregation limits matter. Exports turn unavailable `~` or `-` values into zeros, so preserve the displayed state before interpreting a downloaded zero. The retained `marketingskills/skills/ai-seo/SKILL.md` statements at lines 81 and 415–417 that no AI-specific report exists are outdated.
+
+Record AI-answer observations by surface, date, location/account conditions, prompt or question class, repeats, exact link/mention text, and failed attempts. Keep citation, mention, unattributed similarity, absence and factual error as separate fields. Branded and discovery questions serve different decisions. A small convenience panel is not a representative visibility score; do not report the inherited `digital-marketing-pro/skills/geo-monitor/SKILL.md` 0–100 grade or estimated uplift as measured performance. Compare material factual claims with authoritative source facts; a different opinion or omitted marketing phrase is not automatically a misrepresentation.
+
+[Google's AI Search guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) does not require `llms.txt`, AI-only markup, fixed answer lengths or chunking for Search. It says `llms.txt` is ignored by Google Search and neither helps nor harms its visibility. Use truthful page structure, source links, schema only where content and current feature support fit, and a useful user path. Retained fixed 40–60-word blocks, universal FAQ markup, citation-percentage lifts and mandatory machine-readable bundles are hypotheses or context-specific editorial choices, not general ranking rules. Do not forecast visits, leads or revenue from them.
+
+## Handoff
+
+Return the smallest requested deliverable: current observed stage, exact evidence and date, recommended next correction, account/implementation owner, acceptance check and what remains unknown. Keep planned, deployed, indexed, cited and measured states distinct. A research report does not create a crawler rule or a recurring monitoring job.
+
+Source basis: the user-supplied `SEO-AEO-GEO-Research-Pack-2026-10-09` and `SEO-AEO-GEO-Universal-Handoff-2026-10-09`, especially `guide/platform-controls.md`, `guide/source-corrections.md` and `audit/GAP-AUDIT.md`. The operating claims above were checked against the linked primary provider documentation on October 9, 2026. This is original synthesis; no archived script, template, brand identity or source skill was copied or executed. Recheck provider behavior at use time.

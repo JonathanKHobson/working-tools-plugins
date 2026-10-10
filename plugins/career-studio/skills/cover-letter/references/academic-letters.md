@@ -1,0 +1,7 @@
+# Faculty and research letters
+
+Load for a faculty, lecturer, postdoctoral, or research appointment. Start from the advertisement and institution's requested length and document set; an academic letter may legitimately be longer than a business cover letter. Keep the research statement, teaching statement, diversity statement, and CV separate when the posting requests separate documents.
+
+Open with the exact position, department, appointment level, and a defensible research or teaching focus. Choose sections in the posting's priority order: current research and contribution; selected publications or works with exact status (published, accepted, submitted, in preparation); future agenda; teaching courses and evidence; funding with precise applicant/recipient role; service and collaboration; fit to verified department programs, faculty, facilities, or learners. A lecturer role may put teaching first; a research post may put agenda and methods first.
+
+Show the link between the candidate's agenda and the department through verified sources, not generic prestige praise. Do not invent publications, grants, course evaluations, degrees, lab relationships, or funding prospects. Label proposed research as proposed. For each paragraph, ask what evidence a committee member could verify in the CV or accompanying statement. Before export, compare titles, dates, publication status, and research claims across the full packet.

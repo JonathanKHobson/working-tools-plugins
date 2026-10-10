@@ -1,0 +1,18 @@
+# Adopted marketing decision method
+
+Integrated 2026-09-30. Read this complete card only for its actual trigger. Historical coverage describes the pre-integration audit; evidence IDs resolve in the accompanying source ledger. Example dates, capacity and activity describe the fictional Open Practice Lab, not a current offer. These are conditional methods and test proposals, not established conversion effects or a requirement to run every card.
+
+## M02 — Exact claim, evidence, implication and qualification
+
+- **Trigger and task:** any material promise, proof cue, count, outcome, access claim, comparison or testimonial before it appears in a message. The task is to give a reader a fair basis to decide.
+- **Current coverage/owner:** L02 says proof belongs near claims; L07/L09 reject fabricated statistics and fake scarcity. The operator owns strategy and claim status; channel writers use approved claims. [FTC substantiation policy](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation) X01 addresses express *and implied* objective claims before dissemination; X03 covers endorsements. R02 provides an inspectable claim-to-message model, not a validated improvement study.
+- **Mechanism:** a literal sentence can imply more than its source supports. The ledger records both literal text and likely reader inference, then either narrows it, qualifies it or removes it.
+- **Decision:** for each claim, fill `wording → type (fact/illustration/aspiration/hypothesis/testimonial) → exact source → supported scope → likely implication → needed qualification → status (ready/verify/remove) → channels`. A CTA cannot upgrade a `verify` fact into `ready`. If the qualification reverses the headline's apparent meaning, rewrite the headline rather than hide a disclaimer.
+- **Example:** “24 participants total” is a brief fact. “Only three places left” is removed because current availability is unknown. “Practice decisions with your own dashboard or a supplied fictional dataset” is a bounded description of the planned offer, not a claim of improved skill.
+- **Counterexample:** “Participants leave as confident dashboard decision makers” converts an aspiration into an outcome without participant evidence.
+- **Conditions/tradeoffs:** a synthetic example can illustrate a task if labeled fictional; it cannot act as proof. A source can be accurate yet stale, so check status when publishing. Claims about health, safety, money or legal compliance need specialist review beyond this strategy packet.
+- **Effort and test:** small per claim. Proposed test: have a skeptical reviewer infer the claims from the whole artifact, including imagery and CTA, then match every inference to ledger evidence. Failure: any material implication lacks a supporting source.
+
+## Complete worked support
+
+[Claim ledger](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/claim-ledger.md), [three full message architectures](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/three-message-architectures.md), [neutrality examples](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/neutrality-firewall.md), [source/access ledger](../../../skills/marketing-strategy-operator/assets/evidence-to-message/sources.json), [evaluation tasks](../../../skills/marketing-strategy-operator/assets/evidence-to-message/evaluation.md). Fictional examples are not audience evidence. The deliberately double-barrelled question in the neutrality example is a documented repair case, not a ready-to-field item.

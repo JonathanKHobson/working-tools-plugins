@@ -1,0 +1,7 @@
+# Letter format and locale
+
+Choose the employer's requested channel and length first. A normal letter uses hook, proof, role bridge, and close. A short form field or email needs the same proof arc in less space, with exact character limits and no extra variant unless useful. An email requires the specified subject, recipient, body, and attachment rules; the sending skill verifies delivery separately. A letter of interest may address a target team without claiming an open role. Achievement bullets or a T-format can help a human reader compare requirements, but use them only when the employer accepts them; tables can fail parser-sensitive forms.
+
+For localization, confirm target country/region, language, register, spelling, greeting and signoff convention, date format, page size, contact/privacy expectations, and requested file type from current employer instructions or reliable local guidance. Do not assume one region's common convention is a rule everywhere. In translation, preserve names, titles, credentials, dates, numbers, and uncertainty exactly. Adapt idiom and formality for the intended reader, then compare back to the source for omissions and changed claims. If language quality cannot be verified at the required level, label that limit and seek qualified review before a high-stakes send.
+
+Use fictional examples only when clearly labeled as examples. Bracketed labels in templates are writing aids, never candidate facts. Remove them from share-ready files.

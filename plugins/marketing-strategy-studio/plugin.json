@@ -1,0 +1,45 @@
+{
+  "name": "marketing-strategy-studio",
+  "version": "0.3.0",
+  "description": "Ten complete marketing strategy workflows and retained licensed method packs, with conditional official publisher handoffs and optional local Atlas.",
+  "author": {
+    "name": "Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0 AND MIT",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "keywords": [
+    "marketing",
+    "strategy",
+    "seo",
+    "campaign",
+    "brand",
+    "identity",
+    "personal-brand",
+    "design"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Marketing Strategy Studio",
+        "shortDescription": "Brand discovery, design and grounded marketing",
+        "longDescription": "Discover personal or organizational brand meaning, develop recognizable identity systems, scoped brand profiles and reusable guides/kits, then plan positioning, offers, campaigns, SEO and measurement from supported facts. Graphic, Writing, UX and Video studios retain production; Social retains publishing.",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Help me discover what my brand should express across different roles.",
+          "Develop a recognizable identity system from this brand direction.",
+          "Turn this offer into a grounded campaign brief.",
+          "Review this page for search intent and useful copy.",
+          "Diagnose this campaign using the data I have."
+        ],
+        "brandColor": "#315A75"
+      }
+    }
+  }
+}

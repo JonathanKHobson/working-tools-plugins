@@ -1,0 +1,259 @@
+{
+  "packet": "05-marketing",
+  "accessed_date": "2026-09-29",
+  "provenance_note": "Codex fallback research after Claude quota. Search snippets and repository README claims are recorded as such; no external code was installed or run. Source claims are paraphrased; official guidance is not a legal compliance opinion.",
+  "external_sources": [
+    {
+      "id": "X01",
+      "title": "FTC Policy Statement Regarding Advertising Substantiation",
+      "creator": "Federal Trade Commission",
+      "date": "1984-11-23",
+      "class": "official_policy_statement",
+      "url": "https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation",
+      "inspected": "official web page, reasonable basis and prior substantiation sections",
+      "supports": "Objective express and implied advertising claims need a reasonable evidentiary basis before dissemination; the level depends on the claim and its communicated support.",
+      "limits": "US policy context; not a legal review of a real campaign. Does not prove any marketing tactic works.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X02",
+      "title": "Bringing Dark Patterns to Light",
+      "creator": "FTC staff",
+      "date": "2022-09",
+      "class": "official_staff_report",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P214800%20Dark%20Patterns%20Report%209.14.2022%20-%20FINAL.pdf",
+      "inspected": "official 48-page PDF text, pages 3 and 20-22 on false scarcity, baseless countdowns and hidden information; remainder not read",
+      "supports": "False countdowns, buried material terms and disguised advertising are among the patterns FTC staff flags as impairing choice.",
+      "limits": "Report is a policy and enforcement synthesis; packet does not certify a specific interface as unlawful.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X03",
+      "title": "FTC's Endorsement Guides: What People Are Asking",
+      "creator": "FTC staff",
+      "date": "2023-06 as page states",
+      "class": "official_staff_guidance",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+      "inspected": "official page sections on honesty, material connections and results",
+      "supports": "Endorsements should be honest and not misleading; relevant material connections should be disclosed; a testimonial cannot replace evidence for objective outcomes.",
+      "limits": "Staff guidance is context-sensitive and not a safe harbor. The fictional offer has no testimonial.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X04",
+      "title": "Advertising FAQ's: A Guide for Small Business",
+      "creator": "Federal Trade Commission",
+      "date": "publication date not verified",
+      "class": "official_business_guidance",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "inspected": "official page claim-support and guarantee Q&A",
+      "supports": "Material product claims need evidence before running; testimonials or guarantees do not substitute for substantiation.",
+      "limits": "US general business guidance; claim-specific evidence requirements vary.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X05",
+      "title": "Dark commercial patterns",
+      "creator": "OECD",
+      "date": "2022-10-26",
+      "class": "official_policy_review",
+      "url": "https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html",
+      "doi": "10.1787/44f5e846-en",
+      "inspected": "official abstract and bibliographic details; full 96-page report not read",
+      "supports": "OECD frames dark commercial patterns as interface practices that steer, deceive, coerce or manipulate consumer choices against their interests.",
+      "limits": "Abstract-level use only; no effect size or specific marketing-architecture conclusion taken from report.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X06",
+      "title": "Best Practices for Survey Research",
+      "creator": "American Association for Public Opinion Research",
+      "date": "page date not verified",
+      "class": "professional_method_guidance",
+      "url": "https://aapor.org/standards-and-ethics/best-practices/",
+      "inspected": "official page questionnaire-design and respondent-burden sections",
+      "supports": "Ask specific single-concept questions, avoid wording that pushes answers, consider response-option completeness and respondent burden.",
+      "limits": "Guidance does not validate this packet’s untested instrument or its sample.",
+      "reuse": "paraphrase_and_link"
+    },
+    {
+      "id": "X07",
+      "title": "Learning about users and their needs",
+      "creator": "GOV.UK Service Manual user research community",
+      "date": "2016-04-04; updated 2017-03-23",
+      "class": "official_practitioner_method",
+      "url": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "inspected": "official page research methods, assumptions and validation sections",
+      "supports": "Use evidence and actual/likely user research to learn needs; internal opinions should be treated as assumptions for testing.",
+      "limits": "Government-service context; transfer to marketing audience research is a methodological analogy.",
+      "reuse": "paraphrase_and_link"
+    }
+  ],
+  "local_files_inspected": [
+    {
+      "id": "L01",
+      "path": "skills/marketing-strategy-operator/SKILL.md",
+      "extent": "full",
+      "finding": "Routes audience, offer, proof, constraints, lane choice and reviewable brief."
+    },
+    {
+      "id": "L02",
+      "path": "references/strategy-methods/planning-workflow.md",
+      "extent": "full",
+      "finding": "Smallest viable lane, proof near claims, measurement with source and denominator."
+    },
+    {
+      "id": "L03",
+      "path": "references/strategy-methods/first-move.md",
+      "extent": "full",
+      "finding": "Intake includes buyer uncertainty, source evidence and approval boundary."
+    },
+    {
+      "id": "L04",
+      "path": "references/strategy-methods/output-contracts.md",
+      "extent": "full",
+      "finding": "Strategy and campaign templates include evidence and missing proof."
+    },
+    {
+      "id": "L05",
+      "path": "skills/marketing-measurement/SKILL.md",
+      "extent": "full entrypoint",
+      "finding": "Routes analytics and experiments to full methods; differentiates prepared and measured."
+    },
+    {
+      "id": "L06",
+      "path": "skills/campaign-and-launch/SKILL.md",
+      "extent": "full entrypoint",
+      "finding": "Owns cross-channel plan, not send/publish."
+    },
+    {
+      "id": "L07",
+      "path": "libraries/marketingskills/skills/offers/SKILL.md",
+      "extent": "full",
+      "finding": "Offer anatomy and false-scarcity guard, but uncited 10-40 percent and 2-3x conversion forecasts and categorical missing-component assertion."
+    },
+    {
+      "id": "L08",
+      "path": "libraries/marketingskills/skills/offers/references/scarcity-urgency.md",
+      "extent": "full",
+      "finding": "Distinguishes real capacity/deadline from fabricated scarcity; says some offers need none; contains unsupported quantitative comparisons."
+    },
+    {
+      "id": "L09",
+      "path": "libraries/marketingskills/skills/copywriting/SKILL.md",
+      "extent": "full",
+      "finding": "Audience, traffic, benefit, objection and CTA procedure; common social-proof and guarantee section templates."
+    },
+    {
+      "id": "L10",
+      "path": "libraries/marketingskills/skills/copywriting/references/copy-frameworks.md",
+      "extent": "full",
+      "finding": "Multiple headline and page templates, many with proof/testimonial assumptions."
+    },
+    {
+      "id": "L11",
+      "path": "libraries/marketingskills/skills/cro/SKILL.md",
+      "extent": "full",
+      "finding": "Value proposition, trust, objections and experiment ideas; conversion-focused default."
+    },
+    {
+      "id": "L12",
+      "path": "skills/conversion-and-offers/SKILL.md",
+      "extent": "full entrypoint",
+      "finding": "Routes to offers and CRO, preserves source methods."
+    },
+    {
+      "id": "L13",
+      "path": "skills/lifecycle-and-outreach/SKILL.md",
+      "extent": "full entrypoint",
+      "finding": "Email/outreach routes and sending boundary."
+    },
+    {
+      "id": "L14",
+      "path": "skills/marketing-creative-production/SKILL.md",
+      "extent": "full entrypoint",
+      "finding": "Copy/design and provider handoff."
+    },
+    {
+      "id": "L15",
+      "path": "references/strategy-methods/channel-rules.md",
+      "extent": "full",
+      "finding": "Channel-specific loads and analytics denominator."
+    },
+    {
+      "id": "L16",
+      "path": "skills/marketing-strategy-operator/references/channel-playbooks.md",
+      "extent": "selected read",
+      "finding": "Existing channel structure; packet adds claim consistency rather than a replacement playbook."
+    },
+    {
+      "id": "L17",
+      "path": "libraries/marketingskills/README.md",
+      "extent": "selected read",
+      "finding": "Vendored upstream repository identity and broad skill catalog."
+    },
+    {
+      "id": "L18",
+      "path": "libraries/marketingskills/LICENSE",
+      "extent": "license header",
+      "finding": "MIT license."
+    }
+  ],
+  "user_sources": [
+    {
+      "id": "U03",
+      "path": "shared/inventory/extracts/Memorandum_FinalReflections_Memo5TWC504Asignment_Hobson(1).docx.txt",
+      "extent": "full",
+      "use": "Kyle reflective synthesis on ethos/pathos/logos, framing, kairos, canons and fallacies; not validated UX metrics."
+    },
+    {
+      "id": "U04",
+      "path": "shared/inventory/extracts/Memorandum_RhetoricsofDisplay_CityoftheFutureAnalysis_Memo3TWC504Asignment_Hobson(1).docx.txt",
+      "extent": "full",
+      "use": "Coursework signage scenario, not a current client proof."
+    },
+    {
+      "id": "U05",
+      "path": "shared/inventory/extracts/Memorandum_TheArtofPersuasion_OpiodeAdAnalysis_Memo1TWC504Asignment_Hobson(1).docx.txt",
+      "extent": "full",
+      "use": "Comparative appeal analysis; campaign and medical claims unverified and not reused."
+    },
+    {
+      "id": "U06-U07/U12-U13/U15",
+      "path": "shared/inventory/user-source-notes.md",
+      "extent": "selected passages and source cautions",
+      "use": "Context, empathy, survey neutrality and attributed PCEA leads, not current audience evidence."
+    }
+  ],
+  "repositories": [
+    {
+      "id": "R01",
+      "name": "coreyhaines31/marketingskills, locally vendored in Marketing Strategy Studio",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "inspected": "local README, MIT LICENSE, full offers/cro/copywriting SKILL.md, scarcity and copy-framework references; test and dependency configuration not comprehensively inspected",
+      "unique_contribution": "Already installed broad offer, conversion and copy procedures; no new repository integration needed.",
+      "limits": "Procedural claims such as 10-40 percent lift were not supported by cited study. Source code not run; remote revision not pinned in this pass.",
+      "disposition": "preserve_local_methods_with_narrow_override"
+    },
+    {
+      "id": "R02",
+      "name": "mcp-tool-shop/mcpt-marketing",
+      "url": "https://github.com/mcp-tool-shop/mcpt-marketing",
+      "inspected": "README, package.json, LICENSE listing, marketing.schema.json and test/validate.test.mjs GitHub pages; files not executed",
+      "license": "MIT per repository file/navigation",
+      "dependencies": "Node >=20; devDependencies ajv, ajv-formats, prettier in package.json",
+      "maintenance": "README shows versioned schema, changelog/releasing docs and Node test suite; tests not run",
+      "unique_contribution": "Explicit claim statuses, evidence references, anti-claims and message-to-claim traceability.",
+      "limits": "Repository-specific infrastructure for many tools; no evidence of conversion or comprehension effects; this packet borrows only the prose principle.",
+      "disposition": "reference_only_no_code_import"
+    }
+  ],
+  "community_lead": {
+    "id": "C01",
+    "source": "bounded Reddit search on false scarcity and research/marketing overlap",
+    "url": "https://www.reddit.com/r/PPC/comments/ddt7vm",
+    "inspected": "search result excerpt only; also r/UXResearch lead",
+    "use": "Failure-mode lead: capacity and deadline can be rhetorically inflated; not evidence of prevalence or effectiveness.",
+    "disposition": "not_evidence"
+  }
+}

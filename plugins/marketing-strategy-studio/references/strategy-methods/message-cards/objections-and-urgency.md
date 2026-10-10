@@ -1,0 +1,18 @@
+# Adopted marketing decision method
+
+Integrated 2026-09-30. Read this complete card only for its actual trigger. Historical coverage describes the pre-integration audit; evidence IDs resolve in the accompanying source ledger. Example dates, capacity and activity describe the fictional Open Practice Lab, not a current offer. These are conditional methods and test proposals, not established conversion effects or a requirement to run every card.
+
+## M04 — Objection, risk and truthful urgency
+
+- **Trigger and task:** the reader may ask “Is this for me?”, “What do I need?”, “What if I cannot attend?” or “Is there room?”. The marketer must answer known concerns without exploiting uncertainty.
+- **Current coverage/owner:** L07/L08 already reject fake scarcity, and L09 handles FAQs. This card corrects L07's compulsory offer anatomy and unsupported lift forecast. [FTC dark-patterns report](https://www.ftc.gov/reports/bringing-dark-patterns-light) X02 describes misleading scarcity and obscured terms; [OECD report](https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html) X05 frames manipulation as subverting choice.
+- **Mechanism:** answer the strongest actual question with a relevant fact, then expose material unknowns. A real deadline can guide planning; it is not permission to pressure. Total capacity is not available inventory.
+- **Decision:** make an objection map with `reader question → known answer → unresolved answer → place in message → owner to verify`. Use the offer’s verified deadline as plain scheduling information (17 October only in the fictional worked example). Do not add a countdown, claim remaining seats, promise captions or recording, imply exclusivity, or project conversion lift. The CTA tells readers what action would follow once a real registration page exists; an easy decline is acceptable.
+- **Example:** “No prior experience is required. Bring one dashboard or use the supplied fictional dataset. Registration deadline: 17 October 2027. Capacity is 24 total; current availability must be checked on the registration page.” The final availability sentence is a publication requirement, not a claim that a page exists now.
+- **Counterexample:** “Only 24 spots—secure yours before they're gone!” It turns total capacity into current scarcity.
+- **Conditions/tradeoffs:** if a verified live count later exists, it can be used with timestamp and update owner. If the deadline changes, every channel must change. Pending accessibility/recording facts may require direct contact information before a live campaign can fairly invite people who need them.
+- **Effort and test:** small. Proposed pre-publication audit compares every urgency word and FAQ answer to the current ledger; a reader comprehension check asks what is known about availability, captions and recording. Failure: the reader believes those are confirmed when they are not.
+
+## Complete worked support
+
+[Claim ledger](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/claim-ledger.md), [three full message architectures](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/three-message-architectures.md), [neutrality examples](../../../skills/marketing-strategy-operator/assets/evidence-to-message/examples/neutrality-firewall.md), [source/access ledger](../../../skills/marketing-strategy-operator/assets/evidence-to-message/sources.json), [evaluation tasks](../../../skills/marketing-strategy-operator/assets/evidence-to-message/evaluation.md). Fictional examples are not audience evidence. The deliberately double-barrelled question in the neutrality example is a documented repair case, not a ready-to-field item.
