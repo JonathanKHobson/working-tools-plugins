@@ -85,6 +85,32 @@ class LocalSyncContractTests(unittest.TestCase):
             self.assertEqual(len(conflicts), 1)
             self.assertIn('divergent', conflicts[0])
 
+    def test_product_root_link_requires_exact_reviewed_target_and_blocks_nested_links(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)/'public'; canonical = Path(directory)/'canonical'
+            physical = Path(directory)/'physical'/'x'
+            physical.mkdir(parents=True); canonical.mkdir()
+            (canonical/'x').symlink_to(physical, target_is_directory=True)
+            (physical/'README.md').write_bytes(b'baseline')
+            public = root/'plugins/x/README.md'
+            public.parent.mkdir(parents=True); public.write_bytes(b'baseline')
+            inventory = root/'catalog/source-inventory.json'
+            inventory.parent.mkdir(parents=True)
+            inventory.write_text(json.dumps({'packages': [{'id': 'x',
+                'canonical_source': {'id': 'x'},
+                'files': {'README.md': hashlib.sha256(b'baseline').hexdigest()}}]}))
+            with self.assertRaisesRegex(ValueError, 'Unapproved canonical product root symlink'):
+                local_sync.plan(root, canonical)
+            other = Path(directory)/'other'; other.mkdir()
+            with self.assertRaisesRegex(ValueError, 'target differs'):
+                local_sync.plan(root, canonical, {'x': str(other.resolve())})
+            self.assertEqual(local_sync.plan(root, canonical, {'x': str(physical.resolve())}), ({}, []))
+            (physical/'README.md').unlink()
+            (physical/'README.md').symlink_to(public)
+            changes, conflicts = local_sync.plan(root, canonical, {'x': str(physical.resolve())})
+            self.assertFalse(changes)
+            self.assertIn('unsafe source path', conflicts[0])
+
 
 class CompletionContractTests(unittest.TestCase):
     def fixture(self, root, names=('x',)):
@@ -161,6 +187,25 @@ class CompletionContractTests(unittest.TestCase):
                 self.assertEqual((root/'plugins'/ident/'references/shared.md').read_bytes(), source.read_bytes())
                 self.assertEqual((canonical/ident/'references/shared.md').read_bytes(), source.read_bytes())
             self.assertIn('shared/template.md', complete_update.scoped_paths(entries))
+
+    def test_prepare_accepts_only_pinned_product_root_link_for_shared_bytes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical = self.fixture(root)
+            physical = root/'physical/x'
+            physical.parent.mkdir()
+            (canonical/'x').rename(physical)
+            (canonical/'x').symlink_to(physical, target_is_directory=True)
+            source = root/'shared/template.md'
+            source.parent.mkdir(); source.write_text('corrected shared instruction\n')
+            config = {'canonical_root': str(canonical), 'canonical_sources': {'x': str(physical.resolve())},
+                'shared_shipped_paths': {'shared/template.md': ['plugins/x/references/shared.md']}}
+            with (patch.object(complete_update, 'ROOT', root),
+                  patch.object(complete_update, 'command')):
+                entries = complete_update.prepare(config)
+            self.assertEqual(entries[0]['changed_files'], ['references/shared.md'])
+            self.assertEqual((physical/'references/shared.md').read_bytes(), source.read_bytes())
+            self.assertEqual((root/'plugins/x/references/shared.md').read_bytes(), source.read_bytes())
 
     def test_scoped_paths_exclude_unrelated_infrastructure(self):
         paths = complete_update.scoped_paths([{'id': 'x', 'version': '1.0.1',

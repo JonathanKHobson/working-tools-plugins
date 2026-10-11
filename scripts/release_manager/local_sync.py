@@ -25,13 +25,46 @@ def safe_file(base, relative):
     return path
 
 
-def plan(root, canonical):
+def approved_product_roots(root, canonical, canonical_sources=None):
+    """Resolve only reviewed product-root links pinned by private configuration.
+
+    A product-root redirect is deliberate; symlinks below that root remain unsafe.
+    Rechecking this for each phase also catches a redirect changed during completion.
+    """
+    root=Path(root);canonical=Path(canonical)
+    mapping={} if canonical_sources is None else canonical_sources
+    if not isinstance(mapping,dict) or any(not isinstance(k,str) or not isinstance(v,str) for k,v in mapping.items()):
+        raise ValueError('canonical_sources must map product IDs to absolute resolved directories')
+    inventory=read(root/'catalog/source-inventory.json')
+    rows={row['id']:row for row in inventory['packages']}
+    if unknown:=set(mapping)-set(rows):
+        raise ValueError('Unknown canonical_sources product: '+', '.join(sorted(unknown)))
+    result={}
+    for ident,row in rows.items():
+        source=canonical/row['canonical_source']['id']
+        if not source.is_dir():
+            raise ValueError('Missing canonical product root: '+ident)
+        physical=source.resolve(strict=True)
+        if source.is_symlink() and ident not in mapping:
+            raise ValueError('Unapproved canonical product root symlink: '+ident)
+        if ident in mapping:
+            expected=Path(mapping[ident])
+            if not expected.is_absolute() or not expected.is_dir() or expected.resolve(strict=True)!=expected:
+                raise ValueError('canonical_sources target must be an absolute resolved directory: '+ident)
+            if physical!=expected:
+                raise ValueError('Canonical product root target differs from approved mapping: '+ident)
+        result[ident]=physical
+    return result
+
+
+def plan(root, canonical, canonical_sources=None):
     """Only already-reviewed paths transfer. New/removals demand explicit review."""
     root=Path(root);canonical=Path(canonical)
     changes={};conflicts=[]
     inventory=read(root/'catalog/source-inventory.json')
+    roots=approved_product_roots(root,canonical,canonical_sources)
     for row in inventory['packages']:
-        changed={}; public=root/'plugins'/row['id']; source=canonical/row['canonical_source']['id']
+        changed={}; public=root/'plugins'/row['id']; source=roots[row['id']]
         for rel,base in row['files'].items():
             try:local=safe_file(source,rel);target=safe_file(public,rel)
             except ValueError:
@@ -47,12 +80,12 @@ def plan(root, canonical):
     return changes,conflicts
 
 
-def apply_content(root, canonical, changes):
+def apply_content(root, canonical, changes, canonical_sources=None):
     root=Path(root);canonical=Path(canonical)
-    owners={r['id']:r['canonical_source']['id'] for r in read(root/'catalog/source-inventory.json')['packages']}
+    roots=approved_product_roots(root,canonical,canonical_sources)
     for ident,paths in changes.items():
         for rel,change in paths.items():
-            local=safe_file(canonical/owners[ident],rel);public=safe_file(root/'plugins'/ident,rel)
+            local=safe_file(roots[ident],rel);public=safe_file(root/'plugins'/ident,rel)
             src=local if change['source']=='canonical' else public
             dst=public if change['source']=='canonical' else local
             data=src.read_bytes()
@@ -62,11 +95,11 @@ def apply_content(root, canonical, changes):
             dst.write_bytes(data)
 
 
-def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additions=()):
+def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additions=(), canonical_sources=None):
     """Refresh named reviewed paths after reconciled edits, preserving audit holds."""
     root=Path(root);canonical=Path(canonical)
     inventory=read(root/'catalog/source-inventory.json'); row=next(r for r in inventory['packages'] if r['id']==ident)
-    public=root/'plugins'/ident;source=canonical/row['canonical_source']['id']
+    public=root/'plugins'/ident;source=approved_product_roots(root,canonical,canonical_sources)[ident]
     registry=read(root/'catalog/packages.json');record=next(r for r in registry['packages'] if r['id']==ident)
     record['version']=version;record['distribution']='released'
     allowed=set(row['files'])

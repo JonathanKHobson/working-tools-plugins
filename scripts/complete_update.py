@@ -132,6 +132,7 @@ def validate_committed(config, entries):
     if not entries:
         return
     canonical=Path(config['canonical_root'])
+    local_sync.approved_product_roots(ROOT,canonical,config.get('canonical_sources'))
     command(sys.executable,'-B','scripts/packages.py','validate')
     command(sys.executable,'-B','scripts/source_inventory.py','--canonical-root',str(canonical))
     command(sys.executable,'-B','-m','unittest','discover','-s','tests','-v')
@@ -155,6 +156,7 @@ def _reviewed_shared_changes(config, changes):
         raise ValueError('shared_shipped_paths must map source paths to package destinations')
     inventory=load(ROOT/'catalog/source-inventory.json')
     rows={row['id']:row for row in inventory['packages']}
+    roots=local_sync.approved_product_roots(ROOT,config['canonical_root'],config.get('canonical_sources'))
     updates={}; sources={}
     for source_name,destinations in mapping.items():
         if not isinstance(source_name,str) or not source_name or not isinstance(destinations,list) or not destinations:
@@ -181,12 +183,12 @@ def _reviewed_shared_changes(config, changes):
             baseline=row['files'][relative]
             if actual==baseline:
                 continue
-            public=ROOT/destination
-            canonical=Path(config['canonical_root'])/row['canonical_source']['id']/relative
-            if (public.is_symlink() or canonical.is_symlink()
-                    or any(parent.is_symlink() for parent in public.parents if parent!=ROOT and ROOT in parent.parents)
-                    or any(parent.is_symlink() for parent in canonical.parents if parent!=Path(config['canonical_root']) and Path(config['canonical_root']) in parent.parents)
-                    or not public.is_file() or not canonical.is_file()):
+            try:
+                public=local_sync.safe_file(ROOT/'plugins'/ident,relative)
+                canonical=local_sync.safe_file(roots[ident],relative)
+            except ValueError as exc:
+                raise ValueError('Unsafe or missing shared destination: '+destination) from exc
+            if not public.is_file() or not canonical.is_file():
                 raise ValueError('Unsafe or missing shared destination: '+destination)
             observed={hashlib.sha256(public.read_bytes()).hexdigest(),hashlib.sha256(canonical.read_bytes()).hexdigest()}
             if not observed <= {baseline,actual}:
@@ -202,7 +204,8 @@ def _reviewed_shared_changes(config, changes):
 
 def prepare(config):
     canonical=Path(config['canonical_root'])
-    changes,conflicts=local_sync.plan(ROOT,canonical)
+    canonical_sources=config.get('canonical_sources')
+    changes,conflicts=local_sync.plan(ROOT,canonical,canonical_sources)
     if conflicts:raise ValueError('\n'.join(conflicts))
     shared_updates,shared_sources=_reviewed_shared_changes(config,changes)
     registry=load(ROOT/'catalog/packages.json');by_id={r['id']:r for r in registry['packages']}
@@ -220,15 +223,15 @@ def prepare(config):
         entries.append((ident,version,note,paths,shared_sources.get(ident,[])))
     ordinary={ident:{rel:row for rel,row in paths.items() if row['source']!='shared'}
               for ident,paths in changes.items()}
-    local_sync.apply_content(ROOT,canonical,ordinary)
+    local_sync.apply_content(ROOT,canonical,ordinary,canonical_sources)
     for (ident,relative),(source,data,digest) in shared_updates.items():
         if hashlib.sha256(source.read_bytes()).hexdigest()!=digest:
             raise ValueError('Shared source changed during completion: '+str(source))
-        (ROOT/'plugins'/ident/relative).write_bytes(data)
+        local_sync.safe_file(ROOT/'plugins'/ident,relative).write_bytes(data)
     for ident,version,note,paths,shared in entries:
         notes=f"{note['summary']}\n\n{note['why']}\n\n{note['notes']}\n\nCompatibility: {note['compatibility']}\n\nUpgrade: {note['upgrade_guidance']}\n\nValidation: {note['validation']}"
         previous=by_id[ident]['version']
-        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes)
+        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes,canonical_sources=canonical_sources)
         save(ROOT/'catalog/releases'/ident/(version+'.json'),{
             'product_id':ident,'version':version,'previous_version':previous,
             'git_tag':ident+'/v'+version,'notes':notes,'summary':note['summary'],
@@ -237,6 +240,7 @@ def prepare(config):
         (notes_root/(ident+'.json')).unlink()
     command(sys.executable,'-B','scripts/packages.py','catalog')
     command(sys.executable,'-B','scripts/packages.py','validate')
+    local_sync.approved_product_roots(ROOT,canonical,canonical_sources)
     command(sys.executable,'-B','scripts/source_inventory.py','--canonical-root',str(canonical))
     return [{'id':i,'version':v,'changed_files':sorted(p),'shared_sources':s} for i,v,n,p,s in entries]
 
