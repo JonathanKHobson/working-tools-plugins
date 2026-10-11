@@ -12,7 +12,7 @@ codex plugin list
 codex plugin add stitch-design-studio@working-tools
 ```
 
-Replace `stitch-design-studio` with the package you chose. Open a fresh chat after installation and ask what that package does. In the desktop app, choose the Working Tools marketplace in Plugins; a restart can be needed after registering a marketplace. The desktop shares the supported local plugin format with Codex CLI, but see the compatibility record for exactly which surface was tested.
+Replace `stitch-design-studio` with the package you chose. If the full checkout is slow, use the [selected-package checkout](#slow-marketplace-refreshes) below. Open a fresh chat after installation and ask what that package does. In the desktop app, choose the Working Tools marketplace in Plugins; a restart can be needed after registering a marketplace. The desktop shares the supported local plugin format with Codex CLI, but see the compatibility record for exactly which surface was tested.
 
 The separate `working-tools` marketplace does not update an existing `personal` installation. If you maintain your own edition, choose the intended source and avoid invoking duplicate skill names without a namespace.
 
@@ -25,7 +25,7 @@ claude plugin marketplace add https://github.com/JonathanKHobson/working-tools-p
 claude plugin install stitch-design-studio@working-tools
 ```
 
-The explicit HTTPS URL avoids relying on GitHub SSH-key access. If an earlier shorthand add failed with `Permission denied (publickey)`, retry with this URL and inspect `claude plugin marketplace list` before installing. No global Git URL rewrite is required.
+The explicit HTTPS URL avoids relying on GitHub SSH-key access. If an earlier shorthand add failed with `Permission denied (publickey)`, retry with this URL and inspect `claude plugin marketplace list` before installing. No global Git URL rewrite is required. A [selected-package checkout](#slow-marketplace-refreshes) can avoid downloading unrelated source packs.
 
 Restart the session after installation. These packages use Claude's plugin/skill format; browser, Figma and local app tools must be supplied by the host. A Claude Code install is not an upload into Claude's web interface.
 
@@ -51,26 +51,25 @@ For Claude, use `claude plugin update PACKAGE@working-tools`, `claude plugin dis
 
 ## Slow marketplace refreshes
 
-The repository includes complete methods and source packs, so its Git checkout can take several minutes. A timed-out refresh is not an installed update; inspect the installed version before retrying.
+The repository includes complete methods and source packs, so its full Git checkout can take several minutes. Full refreshes have timed out on the maintainer Mac. A timeout is not an installed update; inspect the installed version before retrying.
 
-On the maintainer Mac, Codex's marketplace upgrade hit a 30-second clone limit. Re-registering this public marketplace at `main` succeeded through the native manager. First record the existing marketplace ref and selected package versions. For this public source only, the recovery was:
-
-```sh
-codex plugin marketplace remove working-tools
-codex plugin marketplace add JonathanKHobson/working-tools-plugins --ref main
-codex plugin add PACKAGE@working-tools
-```
-
-Use your recorded ref instead of `main` if you intentionally pin releases. This is a recovery for the Working Tools marketplace registration, not a reason to remove another source or your project files.
-
-Claude's default refresh also timed out on the maintainer Mac. Its documented timeout override succeeded:
+For a new marketplace registration, fetch the marketplace manifest and only the package you want. These commands acquired Research Toolkit through both native managers with all 103 package files intact:
 
 ```sh
-CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000 claude plugin marketplace update working-tools
-claude plugin update PACKAGE@working-tools
+codex plugin marketplace add JonathanKHobson/working-tools-plugins --ref main --sparse .agents/plugins/marketplace.json --sparse plugins/research-methodology-local
+codex plugin add research-methodology-local@working-tools
 ```
 
-Use the same installation scope as the original install. Restart the session and check the installed manifest before claiming the update worked. A versioned ZIP remains available when marketplace acquisition is unavailable.
+```sh
+claude plugin marketplace add https://github.com/JonathanKHobson/working-tools-plugins.git --sparse .claude-plugin plugins/research-methodology-local
+claude plugin install research-methodology-local@working-tools
+```
+
+Replace `research-methodology-local` in both the path and install command to choose another package. Add each additional package path with another `--sparse` in Codex, or after the existing `--sparse` in Claude. The checkout contains only those named paths; listing a package in the marketplace does not prove its source was fetched. Use an intended release ref instead of `main` for a pinned Codex snapshot.
+
+An existing marketplace may reject registration with different sparse paths. Record its source, ref, paths, installed versions and scopes before changing it. Re-register only the `working-tools` marketplace when those settings can be preserved; do not remove another source or project files. Check the installed manifest and open a fresh session afterward.
+
+Claude also supports a longer fetch timeout with `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000 claude plugin marketplace update working-tools`. It has succeeded on earlier snapshots, but a longer timeout does not guarantee a full checkout will finish. Keep the original scope when updating an installed package. A versioned ZIP remains available when native acquisition is unavailable.
 
 ## Troubleshooting
 
