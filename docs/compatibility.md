@@ -156,3 +156,13 @@ The package checker, six compiler tests and shared package validator passed. A f
 All four package [release assets](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/research-methodology-local/v1.1.1%2Becosystem.20261010) were downloaded without authentication. The source ZIP's 103 members and the per-package source record match the strict canonical release manifest. The same release also hosts the separately verified collection-wide manifest linked from the [architecture guide](architecture.md#release-coverage-gate).
 
 Native Codex and isolated local-scope Claude installations from the public GitHub marketplace each matched all 103 package files. These checks used a sparse checkout of the selected package after broad marketplace refreshes timed out. Test installations were removed; the maintained personal installation and private Research Compass binding were preserved. This verifies native acquisition and installed bytes, not a live Research Compass call or a Claude model task.
+
+## Writing Quality Studio 0.3.6
+
+Human Writing is included within Writing Quality Studio as the author's confirmed original method. Its original MIT text is unchanged; two new first-party support guides repair the missing prose and narrative references and are identified as new in the package provenance. Both local and public methods use the same route.
+
+The maintained personal Codex installation matches all 345 canonical files. Its 280 public files match the GitHub ZIP and fresh isolated Codex and Claude marketplace installations; 65 separately held local files remain private. A fresh read-only Codex task loaded Natural Prose Editor, Human Writing and both new guides, then completed fictional prose and narrative revisions without changing the supplied facts or events. The 28 package behavioral tests, smoke tests and all 75 repository tests passed.
+
+The public release assets and current source manifest were downloaded without authentication and checked by hash. All other 30 packages retain their previously verified archive and member hashes. Temporary native review installations and workspaces were removed. This is package, acquisition and bounded first-use evidence, not a guarantee about every generated response or optional publisher method.
+
+Mental Health Navigation remains a private local plugin at the owner's explicit direction. It has not been added to this public collection.
