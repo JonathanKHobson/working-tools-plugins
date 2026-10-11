@@ -1,0 +1,2130 @@
+{
+  "schema_version": "working-tools.external-products.v1",
+  "policy": {
+    "channel": "legacy",
+    "auto_promote_to_current": false,
+    "scope": "Existing independently downloadable external products and one explicit page-only guide. Package plugin releases remain in catalog/packages.json.",
+    "source_lineage": "GitHub tags or public mirror commits; private authoring paths are never part of this public catalog."
+  },
+  "sources": {
+    "critical-compass": {
+      "repository": "https://github.com/JonathanKHobson/critical-compass",
+      "commit": "6e1a5f09a9a149751f8d1314a8f1df71d7d6ffef",
+      "role": "tagged public release source"
+    },
+    "prompt-compass": {
+      "repository": "https://github.com/JonathanKHobson/prompt-compass",
+      "commit": "29bbd15649eb7fbe783c8b76b05f5af172aa67ae",
+      "role": "tagged public release source; binary assets absent from tagged tree"
+    },
+    "ux-heuristic-compass": {
+      "repository": "https://github.com/JonathanKHobson/ux-heuristic-compass",
+      "commit": "d5979298f160407624e85b6f2bbde8fa6b93b075",
+      "role": "tagged public release source"
+    },
+    "job-application-compass": {
+      "repository": "https://github.com/JonathanKHobson/job-application-compass",
+      "commit": "3f014b054f6c706417e36645855345908ad3c25a",
+      "role": "tagged public skills-only release"
+    },
+    "shareables": {
+      "repository": "https://github.com/JonathanKHobson/shareables",
+      "commit": "7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09",
+      "role": "public Pages mirror; private authoring source outside this catalog"
+    },
+    "what-is-an-mcp": {
+      "repository": "https://github.com/JonathanKHobson/what-is-an-mcp",
+      "commit": "61aeab7e7071857f92685777188b7a00b8e79361",
+      "role": "public guide source"
+    }
+  },
+  "products": [
+    {
+      "id": "critical-compass-plugin",
+      "name": "Critical Compass Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.11"
+      },
+      "source": {
+        "id": "critical-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/critical-compass-plugin.zip",
+          "downloads/critical-compass-source.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "critical-compass-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.11/critical-compass-plugin.zip",
+          "sha256": "451bc450b61df8088a60d71ec0cb822eefb7523961a765a362e744d343e1ec3c",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "critical-compass-source.zip",
+          "role": "source-zip",
+          "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.11/critical-compass-source.zip",
+          "sha256": "effd8bf6edc4aabe5e2737ce0cbd3a4b99a1db3ae0ad7e2927919dbd86aa5bdd",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/critical-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.10",
+          "version": "0.1.0-beta.10",
+          "version_scheme": "semver",
+          "source_commit": "351696d02971d3a71f6e45bd6c546d584227254c",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-plugin.zip",
+            "downloads/critical-compass-source.zip"
+          ],
+          "published_at": "2026-04-30T18:42:34Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.10",
+          "notes_sha256": "1bca8e7adaf153da4387a1bff7fff679ecb90c25c2211560fd3e252dac98a271",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.10/critical-compass-plugin.zip",
+              "sha256": "6d1cd4f76c5e085645d571ea535b91d63268f43d48b6143b908a84bc10607471",
+              "size": 6437888,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.10/critical-compass-source.zip",
+              "sha256": "b45135ae01f42d6482bfaaa0e9fbd00dd13d8b5a1a8394ff412fec1e74a09c6d",
+              "size": 12744544,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.9",
+          "version": "0.1.0-beta.9",
+          "version_scheme": "semver",
+          "source_commit": "04874a257c344e24de572afbc7bc251cd9c2fe4b",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-plugin.zip",
+            "downloads/critical-compass-source.zip"
+          ],
+          "published_at": "2026-04-29T00:00:03Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.9",
+          "notes_sha256": "0095b89b036aae676683c249c52ab99120e62dfae30b02219482f007ff55bd32",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.9/critical-compass-plugin.zip",
+              "sha256": "f1fc68157ced124735adb9aa2439a599d29790e633dcdd812c1fdab7030c8e5f",
+              "size": 6394293,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.9/critical-compass-source.zip",
+              "sha256": "f1fc0f652747efd9c9ad4ecdd92ec552f2b774e89c30dce287d68d3314916b72",
+              "size": 8382049,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.7",
+          "version": "0.1.0-beta.7",
+          "version_scheme": "semver",
+          "source_commit": "31ac08ed9b146ceee4c73eca038ba85fc0a307f3",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-plugin.zip",
+            "downloads/critical-compass-source.zip"
+          ],
+          "published_at": "2026-04-27T07:12:18Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.7",
+          "notes_sha256": "f47e7adbcc131169ea43f97d022207e24419854b2c687f257362591a55546154",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.7/critical-compass-plugin.zip",
+              "sha256": "02fafce6394d370b8149a66f3a5ebf4662039def3220e1632d0e75831dd761b4",
+              "size": 6359135,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.7/critical-compass-source.zip",
+              "sha256": "5360ae144ee6dff14e1b1e073fc7fd646053a554f7661ddecf4643f182220341",
+              "size": 8043235,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.6",
+          "version": "0.1.0-beta.6",
+          "version_scheme": "semver",
+          "source_commit": "08626336d63db6ed9934322e4c980d82543645e2",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T20:47:35Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.6",
+          "notes_sha256": "a87f39a66973cca59a3685a93e9e815076e54b2428ddce660b1a10c803ebc569",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.6/critical-compass-plugin.zip",
+              "sha256": "2a23c6763666b86e33a24a5600cef07d4d7fcc18698e3910276acc5bd0b1838b",
+              "size": 6358784,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.6/critical-compass-source.zip",
+              "sha256": "ed3e05b898f5c8362f1d027c1489950f3a84d9398ff31879ca161aa29fde5b01",
+              "size": 7674586,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.5",
+          "version": "0.1.0-beta.5",
+          "version_scheme": "semver",
+          "source_commit": "977f896b19b43c1618de9ff7f66b9f0c87824ef5",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-19T20:24:32Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.5",
+          "notes_sha256": "397b2054be247948bd881732b7344dc4f0e17fad4055f5cad386a33758580c44",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.5/critical-compass-plugin.zip",
+              "sha256": "2935e6b125ed0d7f41f6f043236cf1f6b418facbfe7de8537a4f974cc49b360c",
+              "size": 6351934,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.5/critical-compass-source.zip",
+              "sha256": "d56ae21fe34028fd172a5f877483008ba67766bfd0cf0baff3d155e39647920e",
+              "size": 7661892,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.4",
+          "version": "0.1.0-beta.4",
+          "version_scheme": "semver",
+          "source_commit": "09cd7b5766a2118ee2019274b2f8644eb7158eef",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-17T19:03:47Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.4",
+          "notes_sha256": "28150e59554a92613dd72fbc8886e659a4af35be49143e1210ab720e5f88fa70",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.4/critical-compass-plugin.zip",
+              "sha256": "55a3034ad3edc62c195a71a97746ee4954e9b4dd79aa649fe13abd5f09030f12",
+              "size": 6349740,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "critical-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.4/critical-compass-source.zip",
+              "sha256": "a33765a1e3b9ee1a8fec1958c60232377e1cc505338f7b22a88c3a4ebbd39841",
+              "size": 6709498,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.3",
+          "version": "0.1.0-beta.3",
+          "version_scheme": "semver",
+          "source_commit": "ee382e1eaf132d4beb37b0d646b9dcbadd3dfa40",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-16T23:22:49Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.3",
+          "notes_sha256": "6a235fa99076fefcdb4fccfd0a1a39053865e1b1483fbd0092ee743c15b8c451",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.3/critical-compass-plugin.zip",
+              "sha256": "be329caa7c4f0a583251f5165e6a2d8a7ac415bc21157b37105f706ade7183db",
+              "size": 6345593,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "critical-compass-desktop-extension",
+      "name": "Critical Compass Desktop Extension",
+      "kind": "desktop-extension",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.11"
+      },
+      "source": {
+        "id": "critical-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/critical-compass-0.1.0.mcpb"
+        ]
+      },
+      "assets": [
+        {
+          "name": "critical-compass-0.1.0.mcpb",
+          "role": "mcpb",
+          "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.11/critical-compass-0.1.0.mcpb",
+          "sha256": "a9a22efd47b9b10d7b7ff603dcb763b1ac57bdd88781279602e2df49f16cc77c",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/critical-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.10",
+          "version": "0.1.0-beta.10",
+          "version_scheme": "semver",
+          "source_commit": "351696d02971d3a71f6e45bd6c546d584227254c",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-0.1.0.mcpb"
+          ],
+          "published_at": "2026-04-30T18:42:34Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.10",
+          "notes_sha256": "1bca8e7adaf153da4387a1bff7fff679ecb90c25c2211560fd3e252dac98a271",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.10/critical-compass-0.1.0.mcpb",
+              "sha256": "49736f5277454c16e796be25f3460a7a774397a00e0a01597a7e2f65919af219",
+              "size": 6524600,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.9",
+          "version": "0.1.0-beta.9",
+          "version_scheme": "semver",
+          "source_commit": "04874a257c344e24de572afbc7bc251cd9c2fe4b",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-0.1.0.mcpb"
+          ],
+          "published_at": "2026-04-29T00:00:03Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.9",
+          "notes_sha256": "0095b89b036aae676683c249c52ab99120e62dfae30b02219482f007ff55bd32",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.9/critical-compass-0.1.0.mcpb",
+              "sha256": "b5f9ddc2574196c984bd6318e9c5a6018f1935e3f568209ee8248ee6a713df52",
+              "size": 6521811,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.7",
+          "version": "0.1.0-beta.7",
+          "version_scheme": "semver",
+          "source_commit": "31ac08ed9b146ceee4c73eca038ba85fc0a307f3",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass-0.1.0.mcpb"
+          ],
+          "published_at": "2026-04-27T07:12:18Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.7",
+          "notes_sha256": "f47e7adbcc131169ea43f97d022207e24419854b2c687f257362591a55546154",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.7/critical-compass-0.1.0.mcpb",
+              "sha256": "997af6690e44e5d2519c73937116b8eaeed74683d218743c6a40c90493bab781",
+              "size": 6490158,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.6",
+          "version": "0.1.0-beta.6",
+          "version_scheme": "semver",
+          "source_commit": "08626336d63db6ed9934322e4c980d82543645e2",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T20:47:35Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.6",
+          "notes_sha256": "a87f39a66973cca59a3685a93e9e815076e54b2428ddce660b1a10c803ebc569",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.6/critical-compass-0.1.0.mcpb",
+              "sha256": "020022167fe3095239f6be70dbccf246e720c9e37d01abf1ef1d9cce7a5cc2e2",
+              "size": 6500761,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.5",
+          "version": "0.1.0-beta.5",
+          "version_scheme": "semver",
+          "source_commit": "977f896b19b43c1618de9ff7f66b9f0c87824ef5",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-19T20:24:32Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.5",
+          "notes_sha256": "397b2054be247948bd881732b7344dc4f0e17fad4055f5cad386a33758580c44",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.5/critical-compass-0.1.0.mcpb",
+              "sha256": "8323364e3ff5635498df1e9210407f8d29847d01395970324422119f93f3628d",
+              "size": 6493923,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.4",
+          "version": "0.1.0-beta.4",
+          "version_scheme": "semver",
+          "source_commit": "09cd7b5766a2118ee2019274b2f8644eb7158eef",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-17T19:03:47Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.4",
+          "notes_sha256": "28150e59554a92613dd72fbc8886e659a4af35be49143e1210ab720e5f88fa70",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.4/critical-compass-0.1.0.mcpb",
+              "sha256": "79e3791536e2974b9fe08a9ccc59bdfaf416e08667c99f7b9bdc6bf13fedfda5",
+              "size": 6491674,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.3",
+          "version": "0.1.0-beta.3",
+          "version_scheme": "semver",
+          "source_commit": "ee382e1eaf132d4beb37b0d646b9dcbadd3dfa40",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-16T23:22:49Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.3",
+          "notes_sha256": "6a235fa99076fefcdb4fccfd0a1a39053865e1b1483fbd0092ee743c15b8c451",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.3/critical-compass-0.1.0.mcpb",
+              "sha256": "b4cee828dee2b068d89bfe5940810b3d6d5275663f372fc75ad2b09bf059d786",
+              "size": 6487437,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "critical-compass-skill",
+      "name": "Critical Compass Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.11"
+      },
+      "source": {
+        "id": "critical-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/critical-compass.skill",
+          "downloads/skill.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "critical-compass.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.11/critical-compass.skill",
+          "sha256": "ba1ee07256c209e2f1a406fe4926665692c088fa896ac466c2ad68df8b842533",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "skill.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.11/skill.zip",
+          "sha256": "fe5df54382bbd097cbda82e898812f09384d986955de620b22f0e98d5c5f63c4",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/critical-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.10",
+          "version": "0.1.0-beta.10",
+          "version_scheme": "semver",
+          "source_commit": "351696d02971d3a71f6e45bd6c546d584227254c",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass.skill",
+            "downloads/skill.zip"
+          ],
+          "published_at": "2026-04-30T18:42:34Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.10",
+          "notes_sha256": "1bca8e7adaf153da4387a1bff7fff679ecb90c25c2211560fd3e252dac98a271",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.10/critical-compass.skill",
+              "sha256": "5cf6e6328f1d10c88113f2367b8d34ab03405a694757e2041e54ae33cfea1d02",
+              "size": 56266,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.10/skill.zip",
+              "sha256": "382720760597c1e606a653a18d0fe75e73235ca8023cde43e3e3db10a0ac2e5a",
+              "size": 55510,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.9",
+          "version": "0.1.0-beta.9",
+          "version_scheme": "semver",
+          "source_commit": "04874a257c344e24de572afbc7bc251cd9c2fe4b",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass.skill",
+            "downloads/skill.zip"
+          ],
+          "published_at": "2026-04-29T00:00:03Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.9",
+          "notes_sha256": "0095b89b036aae676683c249c52ab99120e62dfae30b02219482f007ff55bd32",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.9/critical-compass.skill",
+              "sha256": "a7099edfc418754f5be046c3e3d3a89dc72219b2ac608627ea0a048f25af4f22",
+              "size": 40421,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.9/skill.zip",
+              "sha256": "efa064bc1becc8c1794d837f33a60a3aa5efd11a797587a431271ecbe23476cf",
+              "size": 39869,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.7",
+          "version": "0.1.0-beta.7",
+          "version_scheme": "semver",
+          "source_commit": "31ac08ed9b146ceee4c73eca038ba85fc0a307f3",
+          "source_files": [
+            "downloads/checksums.txt",
+            "downloads/critical-compass.skill",
+            "downloads/skill.zip"
+          ],
+          "published_at": "2026-04-27T07:12:18Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.7",
+          "notes_sha256": "f47e7adbcc131169ea43f97d022207e24419854b2c687f257362591a55546154",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.7/critical-compass.skill",
+              "sha256": "783ae4a35da6037b502f1879a626ce9cc1423285650ffb6705b8a483e1b69544",
+              "size": 35512,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.7/skill.zip",
+              "sha256": "cd4b865780772a9bcad575a426779be78c8de45561a3896ed3e3c36e853f0705",
+              "size": 35236,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.6",
+          "version": "0.1.0-beta.6",
+          "version_scheme": "semver",
+          "source_commit": "08626336d63db6ed9934322e4c980d82543645e2",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T20:47:35Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.6",
+          "notes_sha256": "a87f39a66973cca59a3685a93e9e815076e54b2428ddce660b1a10c803ebc569",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.6/critical-compass.skill",
+              "sha256": "4bdcb83b25367a18cd321a81bf63c99c2b6e00f989f9921187632cf07a95f9cf",
+              "size": 26138,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.6/skill.zip",
+              "sha256": "afcb323c8c1f015b6821411abf0ce966f3e06c1737ec748e8b1204073988f085",
+              "size": 26710,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.5",
+          "version": "0.1.0-beta.5",
+          "version_scheme": "semver",
+          "source_commit": "977f896b19b43c1618de9ff7f66b9f0c87824ef5",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-19T20:24:32Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.5",
+          "notes_sha256": "397b2054be247948bd881732b7344dc4f0e17fad4055f5cad386a33758580c44",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.5/critical-compass.skill",
+              "sha256": "4bdcb83b25367a18cd321a81bf63c99c2b6e00f989f9921187632cf07a95f9cf",
+              "size": 26138,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.5/skill.zip",
+              "sha256": "afcb323c8c1f015b6821411abf0ce966f3e06c1737ec748e8b1204073988f085",
+              "size": 26710,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.4",
+          "version": "0.1.0-beta.4",
+          "version_scheme": "semver",
+          "source_commit": "09cd7b5766a2118ee2019274b2f8644eb7158eef",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-17T19:03:47Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.4",
+          "notes_sha256": "28150e59554a92613dd72fbc8886e659a4af35be49143e1210ab720e5f88fa70",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.4/critical-compass.skill",
+              "sha256": "4bdcb83b25367a18cd321a81bf63c99c2b6e00f989f9921187632cf07a95f9cf",
+              "size": 26138,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.4/skill.zip",
+              "sha256": "afcb323c8c1f015b6821411abf0ce966f3e06c1737ec748e8b1204073988f085",
+              "size": 26710,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.3",
+          "version": "0.1.0-beta.3",
+          "version_scheme": "semver",
+          "source_commit": "ee382e1eaf132d4beb37b0d646b9dcbadd3dfa40",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-16T23:22:49Z",
+          "release_url": "https://github.com/JonathanKHobson/critical-compass/releases/tag/v0.1.0-beta.3",
+          "notes_sha256": "6a235fa99076fefcdb4fccfd0a1a39053865e1b1483fbd0092ee743c15b8c451",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "critical-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.3/critical-compass.skill",
+              "sha256": "4bdcb83b25367a18cd321a81bf63c99c2b6e00f989f9921187632cf07a95f9cf",
+              "size": 26138,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/critical-compass/releases/download/v0.1.0-beta.3/skill.zip",
+              "sha256": "afcb323c8c1f015b6821411abf0ce966f3e06c1737ec748e8b1204073988f085",
+              "size": 26710,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "prompt-compass-plugin",
+      "name": "Prompt Compass Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.3"
+      },
+      "source": {
+        "id": "prompt-compass",
+        "files": [
+          "downloads/checksums.txt"
+        ]
+      },
+      "assets": [
+        {
+          "name": "prompt-compass-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.3/prompt-compass-plugin.zip",
+          "sha256": "7522ba7ff823a7788f19914b6e2b74da92b45b9ae2ae430d5e17be008a75fd31",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "prompt-compass-source.zip",
+          "role": "source-zip",
+          "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.3/prompt-compass-source.zip",
+          "sha256": "2145f40877a3770d325273e6a3905f9afe869049f0141626a311ef25d2a03d92",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Tagged tree contains checksums but omits package archives; the GitHub release assets and verified download SHA256 are the byte authority."
+      ],
+      "page_url": "https://jonathankhobson.github.io/prompt-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.2",
+          "version": "0.1.0-beta.2",
+          "version_scheme": "semver",
+          "source_commit": "6e43b9b79822cbd330c01f572af4b4fc5210a440",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T23:52:58Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.2",
+          "notes_sha256": "ce6c676be0cbf4657a440c91cfb81417f9e71ba47545f327c48fded52d7ae387",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.2/prompt-compass-plugin.zip",
+              "sha256": "e19edc02a112acec9ba4edd4498069f4d75b345609929771f551c4936b7403b2",
+              "size": 542983,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "prompt-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.2/prompt-compass-source.zip",
+              "sha256": "97691064ccb444d796da390478bd0532c2e991c72f33320336779ad662c2cab8",
+              "size": 3775880,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "addfbca6744f2ce2704214ac121e699bf3165e47",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T18:18:29Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "0c01bae36404594948ad15d80c3ea5977ebf98ba6b7cef0f4f26b9f23fccb37c",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.1/prompt-compass-plugin.zip",
+              "sha256": "e6a926b78c21afd81ed0a70045ba3303e0aca80ca64547c9614d51d839428fda",
+              "size": 531813,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "prompt-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.1/prompt-compass-source.zip",
+              "sha256": "9afb45b97fb2f563168a3c040a171d86bf5bd987d6d7b095391a98d5d2a5b6d5",
+              "size": 1221725,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "prompt-compass-desktop-extension",
+      "name": "Prompt Compass Desktop Extension",
+      "kind": "desktop-extension",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.3"
+      },
+      "source": {
+        "id": "prompt-compass",
+        "files": [
+          "downloads/checksums.txt"
+        ]
+      },
+      "assets": [
+        {
+          "name": "prompt-compass-0.1.0.mcpb",
+          "role": "mcpb",
+          "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.3/prompt-compass-0.1.0.mcpb",
+          "sha256": "10098681c386fbc8ed4865660ee4b3919ec55553aacffb142d1a68195d9cd057",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Tagged tree contains checksums but omits package archives; the GitHub release assets and verified download SHA256 are the byte authority."
+      ],
+      "page_url": "https://jonathankhobson.github.io/prompt-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.2",
+          "version": "0.1.0-beta.2",
+          "version_scheme": "semver",
+          "source_commit": "6e43b9b79822cbd330c01f572af4b4fc5210a440",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T23:52:58Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.2",
+          "notes_sha256": "ce6c676be0cbf4657a440c91cfb81417f9e71ba47545f327c48fded52d7ae387",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.2/prompt-compass-0.1.0.mcpb",
+              "sha256": "ec1e348f8776a18510a221eb93b2ab8db39c998f04b1b16e60740b93f594464c",
+              "size": 536951,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "addfbca6744f2ce2704214ac121e699bf3165e47",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T18:18:29Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "0c01bae36404594948ad15d80c3ea5977ebf98ba6b7cef0f4f26b9f23fccb37c",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.1/prompt-compass-0.1.0.mcpb",
+              "sha256": "20aaee7e6a4c6e4372dada6af4af3988632be30ddda09c519b96856be9830ff4",
+              "size": 525467,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "prompt-compass-skill",
+      "name": "Prompt Compass Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.3"
+      },
+      "source": {
+        "id": "prompt-compass",
+        "files": [
+          "downloads/checksums.txt"
+        ]
+      },
+      "assets": [
+        {
+          "name": "prompt-compass.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.3/prompt-compass.skill",
+          "sha256": "8e03e23b46ccf6606b6032470a989adf95cfbde22a37b4515bad6f9beb5780ef",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "skill.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.3/skill.zip",
+          "sha256": "213fe8fd0abc7bc72654ef8d001281725e121826d5953b4552a12bb395ad6b19",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Tagged tree contains checksums but omits package archives; the GitHub release assets and verified download SHA256 are the byte authority."
+      ],
+      "page_url": "https://jonathankhobson.github.io/prompt-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.2",
+          "version": "0.1.0-beta.2",
+          "version_scheme": "semver",
+          "source_commit": "6e43b9b79822cbd330c01f572af4b4fc5210a440",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T23:52:58Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.2",
+          "notes_sha256": "ce6c676be0cbf4657a440c91cfb81417f9e71ba47545f327c48fded52d7ae387",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.2/prompt-compass.skill",
+              "sha256": "77911d338373cc0d3637a3ff07b5fbb72ae81e12449a4b69c76d1c543ce30608",
+              "size": 7766,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.2/skill.zip",
+              "sha256": "460ef16327ede26813416b3ac412cf316584807731705401b047c80b44344645",
+              "size": 7646,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        },
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "addfbca6744f2ce2704214ac121e699bf3165e47",
+          "source_files": [
+            "downloads/checksums.txt"
+          ],
+          "published_at": "2026-04-24T18:18:29Z",
+          "release_url": "https://github.com/JonathanKHobson/prompt-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "0c01bae36404594948ad15d80c3ea5977ebf98ba6b7cef0f4f26b9f23fccb37c",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "prompt-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.1/prompt-compass.skill",
+              "sha256": "77911d338373cc0d3637a3ff07b5fbb72ae81e12449a4b69c76d1c543ce30608",
+              "size": 7766,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/prompt-compass/releases/download/v0.1.0-beta.1/skill.zip",
+              "sha256": "460ef16327ede26813416b3ac412cf316584807731705401b047c80b44344645",
+              "size": 7646,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "ux-heuristics-compass-plugin",
+      "name": "UX Heuristics Compass Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.10"
+      },
+      "source": {
+        "id": "ux-heuristic-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/ux-heuristic-compass-plugin.zip",
+          "downloads/ux-heuristic-compass-source.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "ux-heuristic-compass-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.10/ux-heuristic-compass-plugin.zip",
+          "sha256": "927649bd3e152b7551e3dff935cc4a62d8a54d5ff28c7946a025324490ab3567",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "ux-heuristic-compass-source.zip",
+          "role": "source-zip",
+          "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.10/ux-heuristic-compass-source.zip",
+          "sha256": "33a97cb4d74a19287f04eb321bf37e49a21ee68407c927589021e5dc8d1c183a",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/ux-heuristic-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "7a9a98d4f84a39fcf27bb59614ca530ebdfbd508",
+          "source_files": [],
+          "published_at": "2026-05-02T22:31:47Z",
+          "release_url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "f9018ba9df2eb176dd98311769ab6eac34e945148832ba43398fa77b1199c7a9",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "ux-heuristic-compass-plugin.zip",
+              "role": "plugin-zip",
+              "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.1/ux-heuristic-compass-plugin.zip",
+              "sha256": "f54afb8be72d067c2b315dfff444300b5c27fe30b4447334cb9829fea33ea397",
+              "size": 166983,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "ux-heuristic-compass-source.zip",
+              "role": "source-zip",
+              "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.1/ux-heuristic-compass-source.zip",
+              "sha256": "f55a9795f21e540e94eb002cf85ec40614303e49b45ab2ab27abd2c02e94efaa",
+              "size": 224248,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "ux-heuristics-compass-desktop-extension",
+      "name": "UX Heuristics Compass Desktop Extension",
+      "kind": "desktop-extension",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.10"
+      },
+      "source": {
+        "id": "ux-heuristic-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/ux-heuristic-compass-0.1.0.mcpb"
+        ]
+      },
+      "assets": [
+        {
+          "name": "ux-heuristic-compass-0.1.0.mcpb",
+          "role": "mcpb",
+          "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.10/ux-heuristic-compass-0.1.0.mcpb",
+          "sha256": "6892f583afaeb5e39a2c7640327264eeca9b908f89fd17155cef1b574119b04d",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/ux-heuristic-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "7a9a98d4f84a39fcf27bb59614ca530ebdfbd508",
+          "source_files": [],
+          "published_at": "2026-05-02T22:31:47Z",
+          "release_url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "f9018ba9df2eb176dd98311769ab6eac34e945148832ba43398fa77b1199c7a9",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "ux-heuristic-compass-0.1.0.mcpb",
+              "role": "mcpb",
+              "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.1/ux-heuristic-compass-0.1.0.mcpb",
+              "sha256": "06fa89dcab73aea50297510c7568ee5b5ef205daf25e69b3815bf4f776f1b9a4",
+              "size": 118214,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "ux-heuristics-compass-skill",
+      "name": "UX Heuristics Compass Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "semver",
+        "value": "0.1.0-beta.10"
+      },
+      "source": {
+        "id": "ux-heuristic-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/skill.zip",
+          "downloads/ux-heuristic-compass.skill"
+        ]
+      },
+      "assets": [
+        {
+          "name": "ux-heuristic-compass.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.10/ux-heuristic-compass.skill",
+          "sha256": "18507c693379eefb37ac0fdb89224d11c93bd4a70573e39026076137466872d6",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "skill.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.10/skill.zip",
+          "sha256": "83a885597a48ee44665bb726648720c856cc49f1adb831d234a785a3ef7bcf93",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/ux-heuristic-compass/",
+      "historical_releases": [
+        {
+          "tag": "v0.1.0-beta.1",
+          "version": "0.1.0-beta.1",
+          "version_scheme": "semver",
+          "source_commit": "7a9a98d4f84a39fcf27bb59614ca530ebdfbd508",
+          "source_files": [],
+          "published_at": "2026-05-02T22:31:47Z",
+          "release_url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/tag/v0.1.0-beta.1",
+          "notes_sha256": "f9018ba9df2eb176dd98311769ab6eac34e945148832ba43398fa77b1199c7a9",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "ux-heuristic-compass.skill",
+              "role": "skill-file",
+              "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.1/ux-heuristic-compass.skill",
+              "sha256": "2ce183910446ac132e3a60f94bb7fa722d0719990dc2594e19b988775e2fa450",
+              "size": 40579,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            },
+            {
+              "name": "skill.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/ux-heuristic-compass/releases/download/v0.1.0-beta.1/skill.zip",
+              "sha256": "13ab2212ef345df6bfb4d4c21ed080e75175ccd8b73d12c83f38197f735f03e4",
+              "size": 39613,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "job-application-resume-crafter",
+      "name": "Resume Crafter Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "tag",
+        "value": "v0.1.0-skills.1"
+      },
+      "source": {
+        "id": "job-application-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/resume-crafter.skill",
+          "downloads/resume-crafter.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "resume-crafter.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/resume-crafter.skill",
+          "sha256": "a386f2f9a81431d2d35acf6949485ad7daeb76ca03052d028e73c04ccc67e1c1",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "resume-crafter.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/resume-crafter.zip",
+          "sha256": "471c922b0e2f61229578e01a8c08773cf6e4ba1d45d279663a5c7ae254c8c6b4",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/job-application-compass/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "job-application-cover-letter-crafter",
+      "name": "Cover Letter Crafter Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "tag",
+        "value": "v0.1.0-skills.1"
+      },
+      "source": {
+        "id": "job-application-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/cover-letter-crafter.skill",
+          "downloads/cover-letter-crafter.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "cover-letter-crafter.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/cover-letter-crafter.skill",
+          "sha256": "26febb42483c435267715d20c6712014b60f443635b90cdc43774e98c0da3cbd",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "cover-letter-crafter.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/cover-letter-crafter.zip",
+          "sha256": "7b7cb2c9cd8829d61d139656a63b67b1c4b2291edd8c03f07de299e645ce53fc",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/job-application-compass/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "job-application-portfolio-crafter",
+      "name": "Portfolio Crafter Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "tag",
+        "value": "v0.1.0-skills.1"
+      },
+      "source": {
+        "id": "job-application-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/portfolio-crafter.skill",
+          "downloads/portfolio-crafter.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "portfolio-crafter.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/portfolio-crafter.skill",
+          "sha256": "c9c34f727a0e2e4827588601642de06f6b6fad61cdbd4db2c38ee593af955f1a",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "portfolio-crafter.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/portfolio-crafter.zip",
+          "sha256": "11a3af8c25630d8530a099d4d9e70cb54d50da8f7eda4ab8bccf379360d30bec",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/job-application-compass/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "job-application-communication-story-crafter",
+      "name": "Communication Story Crafter Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "tag",
+        "value": "v0.1.0-skills.1"
+      },
+      "source": {
+        "id": "job-application-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/communication-story-crafter.skill",
+          "downloads/communication-story-crafter.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "communication-story-crafter.skill",
+          "role": "skill-file",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/communication-story-crafter.skill",
+          "sha256": "bedeb1b8a0fce00ac624211a28ffb4176e90d3ae3787c3a8cbf35c69d344132a",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        },
+        {
+          "name": "communication-story-crafter.zip",
+          "role": "skill-zip",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/communication-story-crafter.zip",
+          "sha256": "2dd9810078722a43b1ca10d71d532f7973bd131ba8cf6381b914d9577c3697fc",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/job-application-compass/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "job-application-skills-bundle",
+      "name": "Job Application Compass Skills Plugin",
+      "kind": "bundle",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "tag",
+        "value": "v0.1.0-skills.1"
+      },
+      "source": {
+        "id": "job-application-compass",
+        "files": [
+          "downloads/checksums.txt",
+          "downloads/job-application-compass-skills-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "job-application-compass-skills-plugin.zip",
+          "role": "skills-plugin",
+          "url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/job-application-compass-skills-plugin.zip",
+          "sha256": "6faa1fe8a9fa66bfed89054dbf5e0d3b22eb37e45bc7ef59d810145610d29ed7",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z"
+        }
+      ],
+      "members": [
+        "job-application-resume-crafter",
+        "job-application-cover-letter-crafter",
+        "job-application-portfolio-crafter",
+        "job-application-communication-story-crafter"
+      ],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/job-application-compass/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "participatory-defense-assistant",
+      "name": "Participatory Defense Assistant",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/participatory-defense-field-guide/participatory-defense-assistant.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "participatory-defense-assistant.zip",
+          "role": "skill-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/participatory-defense-field-guide/participatory-defense-assistant.zip",
+          "sha256": "8495438a6438d190b255ddb6ae81dbc372c3e47d17c98e98c1d47bfed02be88b",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/participatory-defense-field-guide/participatory-defense-assistant.zip",
+          "size": 9688
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/participatory-defense-field-guide/",
+      "historical_releases": [
+        {
+          "tag": "participatory-defense-site-v1-20261010",
+          "version": "participatory-defense-site-v1-20261010",
+          "version_scheme": "tag",
+          "source_commit": "7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09",
+          "source_files": [
+            "s/participatory-defense-field-guide/participatory-defense-assistant.zip"
+          ],
+          "published_at": "2026-10-10T09:06:57Z",
+          "release_url": "https://github.com/JonathanKHobson/shareables/releases/tag/participatory-defense-site-v1-20261010",
+          "notes_sha256": "106e1c6c039de428d51a75da8d3e6f6cb10f9c4cfd92884cb109b66e8685158d",
+          "notes_provenance": "GitHub release body",
+          "assets": [
+            {
+              "name": "participatory-defense-assistant.zip",
+              "role": "skill-zip",
+              "url": "https://github.com/JonathanKHobson/shareables/releases/download/participatory-defense-site-v1-20261010/participatory-defense-assistant.zip",
+              "sha256": "fd4cc51045ce9428d215e066e2c565e429fb207b58ec0f384ca8814bc2f890cf",
+              "size": 10210,
+              "verification": "public-download-bytes",
+              "verified_at": "2026-10-11T07:23:18Z"
+            }
+          ],
+          "verification": {
+            "download_verified": true,
+            "provenance": "GitHub release asset digest and public download SHA256 matched"
+          }
+        }
+      ],
+      "lifecycle": "active-guide-download",
+      "completion_route": "shareables-authoring"
+    },
+    {
+      "id": "grounded-legal-research",
+      "name": "Grounded Legal Research",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/participatory-defense-field-guide/grounded-legal-research.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "grounded-legal-research.zip",
+          "role": "skill-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/participatory-defense-field-guide/grounded-legal-research.zip",
+          "sha256": "48b257f85e26d09b4dce86357bbd3da5177af7e9f494669780baa71891bda7c3",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/participatory-defense-field-guide/grounded-legal-research.zip",
+          "size": 1784
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/participatory-defense-field-guide/",
+      "historical_releases": [],
+      "lifecycle": "active-guide-download",
+      "completion_route": "shareables-authoring"
+    },
+    {
+      "id": "safe-install-review",
+      "name": "Safe Install Review",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "what-is-an-mcp",
+        "files": [
+          "downloads/safe-install-review.skill",
+          "downloads/safe-install-review.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "safe-install-review.skill",
+          "role": "skill-file",
+          "url": "https://jonathankhobson.github.io/what-is-an-mcp/downloads/safe-install-review.skill",
+          "sha256": "83d6b578ac06e02bd93fcd635820c93ab04ebd2644f0ec0d305b7623d88d8bf8",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/what-is-an-mcp/61aeab7e7071857f92685777188b7a00b8e79361/downloads/safe-install-review.skill",
+          "size": 13817
+        },
+        {
+          "name": "safe-install-review.zip",
+          "role": "skill-zip",
+          "url": "https://jonathankhobson.github.io/what-is-an-mcp/downloads/safe-install-review.zip",
+          "sha256": "83d6b578ac06e02bd93fcd635820c93ab04ebd2644f0ec0d305b7623d88d8bf8",
+          "verification": "public-download-bytes",
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/what-is-an-mcp/61aeab7e7071857f92685777188b7a00b8e79361/downloads/safe-install-review.zip",
+          "size": 13817
+        }
+      ],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/what-is-an-mcp/",
+      "historical_releases": [],
+      "lifecycle": "active-guide-download",
+      "completion_route": "what-is-an-mcp-source"
+    },
+    {
+      "id": "understanding-ai-2026",
+      "name": "Understanding AI in 2026",
+      "kind": "guide",
+      "channel": "legacy",
+      "disposition": "page-only",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/understanding-ai-2026/index.html"
+        ]
+      },
+      "assets": [],
+      "members": [],
+      "gaps": [],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/understanding-ai-2026/",
+      "historical_releases": [],
+      "lifecycle": "active-guide-page",
+      "completion_route": "shareables-authoring"
+    },
+    {
+      "id": "humanizer-legacy-builder-tools-vibe-check",
+      "name": "Builder Tools Vibe Check Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/builder-tools-vibe-check-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "builder-tools-vibe-check-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/builder-tools-vibe-check-claude-plugin.zip",
+          "sha256": "88039196c1043d0b30583e4610fc6448b2e2f0d0062f5dc647b5716d19ca611f",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "d5271303ebe39a6f44487ceda907994e948c4c0e",
+          "size": 54721463,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/builder-tools-vibe-check-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-career-grants-studio",
+      "name": "Career Grants Studio Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/career-grants-studio-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "career-grants-studio-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/career-grants-studio-claude-plugin.zip",
+          "sha256": "4abe8601c15af789d86436490380eda19b1f190eee8cbb18595e2e4d62c7aa71",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "00a2d279b86ab7be608fe1e2a621ef3f96d9c226",
+          "size": 120171,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/career-grants-studio-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-creative-writing-studio",
+      "name": "Creative Writing Studio Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/creative-writing-studio-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "creative-writing-studio-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/creative-writing-studio-claude-plugin.zip",
+          "sha256": "ba1649723c0d3c43bcb506b645f051b3594ded85dd8dd5663640f85b16557427",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "1166c906a95c0d434fd081a652d7cb5aafd9dc9b",
+          "size": 45852331,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/creative-writing-studio-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-marketing-social-studio",
+      "name": "Marketing Social Studio Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/marketing-social-studio-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "marketing-social-studio-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/marketing-social-studio-claude-plugin.zip",
+          "sha256": "222366f792b11e1b7e5008103dd2f1451dd6da5c32f8a374ade675f252a3b8a2",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "575d94e137c360af941e8100a6ae6ff39a26b4ae",
+          "size": 45834543,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/marketing-social-studio-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-ttrpg-gm-director",
+      "name": "Ttrpg Gm Director Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/ttrpg-gm-director-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "ttrpg-gm-director-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/ttrpg-gm-director-claude-plugin.zip",
+          "sha256": "952b3c08077be557bed9ccf4914fcf07d2564eb0f1650c85c8f1a80f6aba3771",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "98f1e23e73ba381661a1e0bcd3279b843f18abae",
+          "size": 118815,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/ttrpg-gm-director-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-ux-design-toolkit",
+      "name": "Ux Design Toolkit Claude Plugin",
+      "kind": "plugin",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/ux-design-toolkit-claude-plugin.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "ux-design-toolkit-claude-plugin.zip",
+          "role": "plugin-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/ux-design-toolkit-claude-plugin.zip",
+          "sha256": "33161def9f3731fb09fd0adfa1699369398aa0f5c9fa8485459b0820973e891a",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "2830c5bb8d7b95b0d0d789a9e7d33f00dee764b3",
+          "size": 46066954,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/ux-design-toolkit-claude-plugin.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "humanizer-legacy-skill",
+      "name": "Humanizer Skill",
+      "kind": "skill",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/humanizer-claude-skill.zip",
+          "s/humanizer-writing-enhancement/downloads/humanizer-codex-skill.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "humanizer-claude-skill.zip",
+          "role": "claude-skill-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/humanizer-claude-skill.zip",
+          "sha256": "b16414dca45fd3bb9361308af864f6597e194f4ee49dc449eeab460e0716a0bb",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "e81b11326deaf98a04a2b36ce7f6b91c2f320699",
+          "size": 45737191,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/humanizer-claude-skill.zip"
+        },
+        {
+          "name": "humanizer-codex-skill.zip",
+          "role": "codex-skill-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/humanizer-codex-skill.zip",
+          "sha256": "ae1dc2dcd536c7147990c0bb29c3575990ff4da00e1dd1941fe313a73735d249",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "dddb4dd9081907860a454b7c5b9988f6df997ef3",
+          "size": 45737448,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/humanizer-codex-skill.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Public mirror blobs and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    },
+    {
+      "id": "writing-enhancement-codex-collection",
+      "name": "Writing and Design Enhancement Collection",
+      "kind": "bundle",
+      "channel": "legacy",
+      "disposition": "download",
+      "version": {
+        "scheme": "revision",
+        "value": null
+      },
+      "source": {
+        "id": "shareables",
+        "files": [
+          "s/humanizer-writing-enhancement/downloads/writing-enhancement-codex-collection.zip"
+        ]
+      },
+      "assets": [
+        {
+          "name": "writing-enhancement-codex-collection.zip",
+          "role": "codex-collection-zip",
+          "url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/writing-enhancement-codex-collection.zip",
+          "sha256": "f72a1d285eb5d9dd2c36b60d0a07bea8e07e8cb2c1e789816cf6c4c846d7c2a5",
+          "verification": "public-download-bytes",
+          "git_blob_sha1": "3b9e58c6a9cb33ebbee9ee7c2a77919d94af6e74",
+          "size": 46662092,
+          "verified_at": "2026-10-11T07:19:35Z",
+          "fixed_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/writing-enhancement-codex-collection.zip"
+        }
+      ],
+      "members": [],
+      "gaps": [
+        "Page names categories but exact archive membership has not been checked; no component IDs inferred.",
+        "Public mirror blob and public download SHA256 match; original authoring-source lineage is unverified."
+      ],
+      "page_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/",
+      "historical_releases": [],
+      "lifecycle": "frozen-legacy",
+      "completion_route": "frozen-history"
+    }
+  ]
+}

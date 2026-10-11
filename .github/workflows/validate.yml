@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m pip install -r requirements-release.txt
       - run: python scripts/packages.py validate
       - run: python -m unittest discover -s tests -v
       - name: Test optional Codex host hooks in isolated state

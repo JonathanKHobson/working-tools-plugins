@@ -19,3 +19,5 @@ Flow: reviewed source and registry -> validation -> deterministic archives -> na
 Start a package change in its folder, then update its version and registry together. Run `python3 scripts/packages.py catalog`, `python3 scripts/packages.py validate`, the package tests, and `python3 scripts/packages.py build`. A package's upstream source need not be a Git checkout; never invent a source commit in place of its recorded hashes.
 
 Publication uses `python3 scripts/packages.py release`; ordinary `build` output is a development artifact. See [the release coverage gate](architecture.md#release-coverage-gate) for local source checks and current unresolved inventory boundaries.
+
+Release completion is implemented by `scripts/complete_update.py` and `scripts/release_manager/`. `catalog/releases/` owns specific version entries; `catalog/release-history.json` is the verified GitHub projection; `catalog/external-products.json` maps independently hosted and legacy downloads. `scripts/release_site_bridge.py` invokes the authenticated native Sites adapter after publication. See [release management](release-management.md) for the completion event and recovery command.

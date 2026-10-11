@@ -1,0 +1,15 @@
+{
+  "product_id": "work-management",
+  "version": "0.4.0",
+  "previous_version": "0.3.2",
+  "git_tag": "work-management/v0.4.0",
+  "notes": "Finish authorized public updates with versioned publication and catalog deployment.\n\nA local edit or Git push could previously finish without producing a versioned download or updating the public catalog. Plugin maintenance now routes completed public updates through the owning repository's executable release workflow.\n\n- Adds the completed-update event and the catalog-only recovery command to the maintained plugin maintenance route.\n- Requires instruction, reference and shared-template changes to participate in release detection.\n- Preserves reviewed private exclusions, historical package bytes and independent product versions.\n- Distinguishes prepared packages, GitHub publication and verified Site deployment so a partial failure can resume without another version.\n\nCompatibility: Compatible optional completion workflow. Existing plugin and skill IDs, invocation names, installation layout and provider requirements remain unchanged. Publication still requires existing user authorization and repository access.\n\nUpgrade: Install this version through the existing Codex or Claude marketplace route, or replace the prior plugin directory with this exact-version ZIP. Maintainers configure the release repository's private host adapter; end users need no publication setup.\n\nValidation: Release completion helpers are covered by repository fixtures. The exact package inventory and supported manifest versions are checked before publication. This release does not assert that every plugin workflow or external provider was executed.",
+  "summary": "Finish authorized public updates with versioned publication and catalog deployment.",
+  "compatibility": "Compatible optional completion workflow. Existing plugin and skill IDs, invocation names, installation layout and provider requirements remain unchanged. Publication still requires existing user authorization and repository access.",
+  "upgrade_guidance": "Install this version through the existing Codex or Claude marketplace route, or replace the prior plugin directory with this exact-version ZIP. Maintainers configure the release repository's private host adapter; end users need no publication setup.",
+  "changed_files": [
+    "references/plugin-release-surface.md",
+    "skills/plugin-maintenance/SKILL.md"
+  ],
+  "validation": "Release completion helpers are covered by repository fixtures. The exact package inventory and supported manifest versions are checked before publication. This release does not assert that every plugin workflow or external provider was executed."
+}

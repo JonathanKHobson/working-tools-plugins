@@ -1,0 +1,75 @@
+{
+  "schema_version": "working-tools.integrations.v1",
+  "products": [
+    {
+      "id": "codex-host-hooks",
+      "name": "Optional Codex host hooks",
+      "kind": "integration",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "source_root": "integrations/codex-host-hooks",
+      "version": "0.1.0",
+      "source_commit": "27e1d491d44b134f30fe68cda55029c9f2fab9cb",
+      "source_files": {
+        "integrations/codex-host-hooks/LICENSE-CODE-AGPL-3.0.txt": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "integrations/codex-host-hooks/LICENSE-DOCS-CC-BY-SA-4.0.md": "b90d0124e5eba73da5da87a4bbb640b21c3d378fe5480a9b44b06140fe33fa74",
+        "integrations/codex-host-hooks/README.md": "a196aca55a16b5c872800fd7c99d939087c4042bca937e7b3bc0db941086c626",
+        "integrations/codex-host-hooks/codex_host_hooks.py": "809bf7cf90312ce3c5fde64e413882a5c6d206d0ae674710e7ea67d0ed730def",
+        "integrations/codex-host-hooks/hooks.example.json": "ff070cec4a55d47c09c12e4b1c4fde584eafabaf42e099c87441f8d6a136da00",
+        "integrations/codex-host-hooks/provenance.json": "2781ece9252cde38240c725e23efe26401b232026a12745d19ebc5739b77aa3f",
+        "integrations/codex-host-hooks/quality_rules.py": "7284de13485e086ca26e83bfb8aa8d18ae1cb16b7a0f30ba9aa3c15aa41637bb",
+        "integrations/codex-host-hooks/scope_state.py": "923e9a0a1e0bba91d1e6a4869b678d78ed1d82dcd03c7af343d68103aae2051a",
+        "integrations/codex-host-hooks/tests/test_hooks.py": "0b8757dcd1bfbddff9ac35ba1887cbba26b8216c3c9a767e35806583f52fdb96"
+      },
+      "compatibility": "Python 3.9+ on macOS or Linux with POSIX state filesystem; manual Codex hook trust required.",
+      "upgrade_guidance": "Review the exact new source and merge hook definitions manually; repeat native trust review when definitions change.",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "git_tag": "codex-host-hooks/v0.1.0",
+          "source_commit": "27e1d491d44b134f30fe68cda55029c9f2fab9cb",
+          "published_at": "2026-10-11T07:24:05Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/codex-host-hooks/v0.1.0",
+          "summary": "Optional Codex host hooks 0.1.0",
+          "notes": "This optional host integration shares the two previously host-local lifecycle behaviors: artifact-review tracking on UserPromptSubmit and a scoped review/closeout response on Stop. It is separate from the 31-plugin catalog and does not activate or trust itself.\n\nDownload the ZIP and checksum file, inspect the source, run the isolated tests, and follow the included manual merge, trust and rollback guide. Python 3.9+ on macOS or Linux is required.\n\nThe runtime stores scoped obligation status only. Private instructions, memories, conversations, account configuration and global diagnostics are excluded. Completion marks are caller attestations, not independent verification. Native registration and execution require the recipient's own host setup.\n\nValidation: 20 isolated hook tests, 75 repository tests, package validation and the reviewed-public-source release gate passed. Existing plugin package versions are unchanged.\n\n[Behind the tools guide](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/system-context.md) · [Hook coverage](https://github.com/JonathanKHobson/working-tools-plugins/blob/main/docs/hook-coverage.md)\n",
+          "notes_provenance": "GitHub release body",
+          "compatibility": "Python 3.9+ on macOS or Linux with POSIX state filesystem; manual Codex hook trust required.",
+          "upgrade_guidance": "Review the exact new source and merge hook definitions manually; repeat native trust review when definitions change.",
+          "assets": [
+            {
+              "name": "codex-host-hooks-0.1.0.zip",
+              "role": "installation",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/codex-host-hooks/v0.1.0/codex-host-hooks-0.1.0.zip",
+              "size": 29587,
+              "sha256": "f2465b32c6ec069b36353c1f43daa26adcd325a58c967c80383af18425188e36"
+            },
+            {
+              "name": "SHA256SUMS.txt",
+              "role": "checksum",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/codex-host-hooks/v0.1.0/SHA256SUMS.txt",
+              "size": 188,
+              "sha256": "2d5d1a42637d5bf02c06acf501b93724f4a839ced45329d892fb618e6eacb956"
+            },
+            {
+              "name": "source-release-manifest.json",
+              "role": "file-manifest",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/codex-host-hooks/v0.1.0/source-release-manifest.json",
+              "size": 1625,
+              "sha256": "06f67abfae9c1c312de75d06c8fdf097745f7fd8b87488b7e03ddcec4a15178c"
+            }
+          ],
+          "source_files": {
+            "integrations/codex-host-hooks/LICENSE-CODE-AGPL-3.0.txt": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+            "integrations/codex-host-hooks/LICENSE-DOCS-CC-BY-SA-4.0.md": "b90d0124e5eba73da5da87a4bbb640b21c3d378fe5480a9b44b06140fe33fa74",
+            "integrations/codex-host-hooks/README.md": "a196aca55a16b5c872800fd7c99d939087c4042bca937e7b3bc0db941086c626",
+            "integrations/codex-host-hooks/codex_host_hooks.py": "809bf7cf90312ce3c5fde64e413882a5c6d206d0ae674710e7ea67d0ed730def",
+            "integrations/codex-host-hooks/hooks.example.json": "ff070cec4a55d47c09c12e4b1c4fde584eafabaf42e099c87441f8d6a136da00",
+            "integrations/codex-host-hooks/provenance.json": "2781ece9252cde38240c725e23efe26401b232026a12745d19ebc5739b77aa3f",
+            "integrations/codex-host-hooks/quality_rules.py": "7284de13485e086ca26e83bfb8aa8d18ae1cb16b7a0f30ba9aa3c15aa41637bb",
+            "integrations/codex-host-hooks/scope_state.py": "923e9a0a1e0bba91d1e6a4869b678d78ed1d82dcd03c7af343d68103aae2051a",
+            "integrations/codex-host-hooks/tests/test_hooks.py": "0b8757dcd1bfbddff9ac35ba1887cbba26b8216c3c9a767e35806583f52fdb96"
+          }
+        }
+      ]
+    }
+  ]
+}

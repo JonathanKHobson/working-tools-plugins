@@ -1,0 +1,378 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JonathanKHobson/working-tools-plugins/blob/main/schemas/release-catalog.schema.json",
+  "title": "Working Tools durable release catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "products"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "working-tools.releases.v1"
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/product"
+          },
+          {
+            "$ref": "#/$defs/externalProduct"
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$"
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "name",
+        "url",
+        "size",
+        "sha256"
+      ],
+      "properties": {
+        "role": {
+          "enum": [
+            "installation",
+            "checksum",
+            "file-manifest",
+            "source-manifest",
+            "companion"
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/text"
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "release": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "release_key",
+        "product_id",
+        "version",
+        "git_tag",
+        "source_commit",
+        "published_at",
+        "release_url",
+        "channel",
+        "distribution_status",
+        "summary",
+        "notes",
+        "notes_provenance",
+        "assets",
+        "compatibility",
+        "upgrade_guidance",
+        "verification"
+      ],
+      "properties": {
+        "release_key": {
+          "$ref": "#/$defs/text"
+        },
+        "product_id": {
+          "$ref": "#/$defs/text"
+        },
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "git_tag": {
+          "$ref": "#/$defs/text"
+        },
+        "source_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "published_at": {
+          "$ref": "#/$defs/text"
+        },
+        "release_url": {
+          "$ref": "#/$defs/text"
+        },
+        "channel": {
+          "enum": [
+            "stable",
+            "prerelease",
+            "draft"
+          ]
+        },
+        "distribution_status": {
+          "enum": [
+            "available",
+            "prepared",
+            "draft",
+            "withdrawn",
+            "unavailable"
+          ]
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "notes": {
+          "$ref": "#/$defs/text"
+        },
+        "notes_provenance": {
+          "$ref": "#/$defs/text"
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        },
+        "compatibility": {
+          "$ref": "#/$defs/text"
+        },
+        "upgrade_guidance": {
+          "$ref": "#/$defs/text"
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "archive_verified",
+            "layout_verified"
+          ],
+          "properties": {
+            "archive_verified": {
+              "type": "boolean"
+            },
+            "layout_verified": {
+              "type": "boolean"
+            },
+            "reason": {
+              "type": "string"
+            }
+          }
+        },
+        "bundle_members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        },
+        "source_files": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    },
+    "product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "repository",
+        "compatibility",
+        "upgrade_guidance",
+        "current_release_key",
+        "releases"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/text"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "kind": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/text"
+            },
+            {
+              "not": {
+                "const": "external"
+              }
+            }
+          ]
+        },
+        "repository": {
+          "$ref": "#/$defs/text"
+        },
+        "compatibility": {
+          "$ref": "#/$defs/text"
+        },
+        "upgrade_guidance": {
+          "$ref": "#/$defs/text"
+        },
+        "current_release_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "releases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/release"
+          }
+        }
+      }
+    },
+    "externalProduct": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "channel",
+        "releases"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/text"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "kind": {
+          "const": "external"
+        },
+        "channel": {
+          "const": "legacy"
+        },
+        "current_release_key": {
+          "type": "null"
+        },
+        "releases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/externalRelease"
+          }
+        }
+      }
+    },
+    "externalRelease": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "release_key",
+        "version",
+        "version_scheme",
+        "source_commit",
+        "distribution_status",
+        "verification",
+        "assets"
+      ],
+      "properties": {
+        "release_key": {
+          "$ref": "#/$defs/text"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "version_scheme": {
+          "enum": [
+            "semver",
+            "revision",
+            "tag",
+            "unversioned"
+          ]
+        },
+        "source_commit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "distribution_status": {
+          "enum": [
+            "available",
+            "page-only",
+            "unavailable",
+            "withdrawn"
+          ]
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "download_verified",
+            "provenance"
+          ],
+          "properties": {
+            "download_verified": {
+              "type": "boolean"
+            },
+            "provenance": {
+              "$ref": "#/$defs/text"
+            }
+          }
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+              "name",
+              "role",
+              "url",
+              "sha256"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/text"
+              },
+              "role": {
+                "$ref": "#/$defs/text"
+              },
+              "url": {
+                "$ref": "#/$defs/text"
+              },
+              "sha256": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/sha256"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

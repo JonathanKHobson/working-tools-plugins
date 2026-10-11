@@ -42,6 +42,8 @@ Aim for 8–10 diverse workflows in a substantial maintained Studio/Toolkit, mor
 
 For reusable document, spreadsheet or presentation templates moving between local, web or shared plugin surfaces, apply the conditional [template portability procedure](../../references/plugin-maintenance.md#reusable-artifact-templates-across-hosts); personal template creation remains owned by the native Template Creator.
 
+For an authorized update to public distribution content, finish the executable release workflow in [release completion](../../references/plugin-release-surface.md#complete-an-authorized-public-update). A local edit, Git push or package build is not publication. Reuse the configured publisher and existing approval; finish GitHub publication and the catalog deployment, or report the exact dependent step still pending.
+
 For packaging, generated distributions or installer-mode changes, apply [release-surface consistency](../../references/plugin-release-surface.md) before claiming source-to-installed parity. Separate exact byte identity, normalized-text equivalence and reviewed semantic adaptation; keep code admission with Master Security Toolkit.
 
 For plugin or skill onboarding changes, apply [human and agent onboarding](../../references/plugin-maintenance.md#human-and-agent-onboarding): human outcomes and setup, metadata discovery, conditional support routes and truthful runtime claims.

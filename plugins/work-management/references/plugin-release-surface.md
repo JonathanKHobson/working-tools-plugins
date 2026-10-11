@@ -18,3 +18,16 @@ Acceptance scenarios:
 - A script loses its executable bit or a settings-only branch unpacks runtime archives: verify/fix that declared surface; do not claim the mode passed from a clean scan or copied source alone.
 
 Method provenance: original local release-check refinement prompted by Bloom Studio's source/dist and installer-mode discrepancies, reviewed 2026-10-02. No upstream implementation imported; existing owner and admission procedures remain authoritative.
+
+
+## Complete an authorized public update
+
+Use the owning public distribution repository and its executable completion command after the requested update and focused checks are finished. Individual saves and work-in-progress commits do not start publication. Public release authorization remains distinct from local-only maintenance; a request to publish or a standing public-update instruction supplies it. Never widen reviewed export boundaries to make a release pass.
+
+For Working Tools, `catalog/packages.json` owns each plugin version; `catalog/source-inventory.json` owns reviewed shipped paths and exclusions. `.venv/bin/python scripts/complete_update.py --config <maintainer-config>` is the completion event. It reconciles reviewed paths, detects changed distributions, synchronizes host manifests, records evidence-based notes, validates exact-commit packages, resumes GitHub drafts and rebuilds the catalog. Its configured Site adapter finishes the same existing Site through the host's supported save/deploy tools. Do not claim completion from its prepared-site receipt; require verified deployment.
+
+Changes made outside Codex reach the same event by running that command once the update is complete. Use `--reconcile-only` with the same config to retry publication/catalog synchronization after a partial failure without another version. No schedule, per-save watcher or repository-wide Latest pointer chooses product versions.
+
+The authoring agent supplies a change record when a semantic explanation or compatibility classification is needed; derive it from the actual diff and checks, without asking the user to write release notes. Existing recorded notes feed the package changelog, GitHub release and catalog. Include changed instructions, references and templates; website-only and unchanged inputs do not bump unrelated products. Shared shipped resources must map to every affected distribution.
+
+When a newly included file, removed invocation, contributor conflict, private scope or redistribution requirement needs review, resolve that specific evidence before its dependent release. Preserve independent completed releases and prior working deployments. Keep older tags/assets fixed, use draft then complete assets then publish, and verify asset bytes and exact version links. Do not recreate a package version after publication merely to retry the Site.
