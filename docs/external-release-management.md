@@ -4,6 +4,8 @@
 
 The active source owner completes the authored change in its own repository first. Shareables is a public Pages mirror of a separate private authoring source, so the update note must state the reviewed authoring provenance. The public checkout must contain the final, committed download or page bytes at the exact registered paths. New paths require a separate source and rights review before they enter the ledger.
 
+Routine local maintenance records pending changes with `scripts/complete_update.py`; its default is offline queue refresh. The commands below are explicit publication actions for a completed batch, not steps for every local edit.
+
 For a changed product, the authoring agent writes `catalog/external-changes/<product-id>.json` with `product_id`, the full public `source_commit`, sorted exact `changed_files`, and specific `summary`, `why`, `compatibility`, `upgrade_guidance`, `validation`, `release_notes`, and `authoring_provenance` strings. No note is needed for an unchanged product. The agent then runs:
 
 ```sh
