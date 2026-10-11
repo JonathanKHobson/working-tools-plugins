@@ -5,9 +5,9 @@ description: Write or review technical documentation, procedures, manuals and sa
 
 # Technical Instructions
 
-Identify the requested mode, then **use the complete packaged or separately installed provider procedure selected below before drafting or reviewing**. Preserve its concrete sequence, examples, templates, exceptions and verification. The named provider methods are separately installed dependencies; packaged files are operative methods; this entrypoint only separates the trigger from other writing work. Follow each selected body's required supporting files.
+Identify the requested mode and read the matching bundled procedure below. Use its full sequence and relevant support, preserving the source facts, deliberate voice and requested scope. These Studio methods operate directly from supplied evidence; no separate writing-method plugin is needed.
 
-- For a procedure, manual or developer document, read [Technical writing](../../library/source-procedures/provider-methods.md#aihumanizer-technical-writing) for complete task steps, terminology and verification.
+- For a procedure, manual or developer document, read [technical clarity](../natural-prose-editor/references/technical-clarity.md) for exact literals, actors, prerequisites, action order, observable outcomes and troubleshooting.
 - Only when the brief requires controlled Simplified Technical English, read [Controlled simple English](../../library/source-procedures/marketplace/plain-english/simple-english/SKILL.md) for its constrained vocabulary and syntax.
 - When accurate technical text needs a more natural reader-facing cadence, read [Natural technical prose](../../library/source-procedures/marketplace/natural-writing/natural-writing/SKILL.md) without relaxing safety or precision.
 

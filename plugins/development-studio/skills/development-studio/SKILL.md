@@ -16,6 +16,8 @@ Read [method adaptation](../../references/method-adaptation.md) before a preserv
 3. For meaningful design choices, apply the complete [brainstorming method](../../libraries/superpowers-6.4.2/skills/brainstorming/SKILL.md), including its behavioral questions and tradeoffs. Scale documentation to the decision. Record decisions in the owning project, not plugin-global state.
 4. Turn the accepted behavior into an executable implementation through [implement software](../implement-software/SKILL.md). For failures use [debug software](../debug-software/SKILL.md). A plan-only request stops with a reviewable plan.
 
+For a requested interface design or architecture improvement with concrete maintenance friction, read [module design review](../../references/module-design-review.md). Ordinary fixes keep their existing direct route.
+
 ## Added complete standalone methods
 
 - Native macOS architecture, menus, windows, files and packaging: [Native macOS App Builder](../native-macos-app-builder/SKILL.md).

@@ -44,7 +44,7 @@ Good: retain an unsent form after a retryable failure. Bad: show success before 
 
 Use the owned native adapter in the runtime guide for detector/live/hook commands; do not execute an upstream downloader or silently register a second hook. The brief and verified incumbent design govern style. For edits, load the complete craft-floor playbook. Preserve function/content and perform bounded rendered checks of changed anchors.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/interaction-resilience.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/interaction-resilience.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For an exploration sequence with committed filters, pins or scenarios, read the full [exploration recovery method](../design-studio/references/exploration-recovery.md). Include the actual task’s resumption and recovery requirements; a single reversible toggle does not require a history system.
 

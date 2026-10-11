@@ -1,6 +1,6 @@
 # Prompt source coverage — 2026-09-29
 
-The exact marketplace source snapshot is preserved in the private pre-change archive. Current full Prompt Engineer methods are loaded through the separately installed official `prompt-engineer@openai-curated-remote` plugin; see [provider handoff](../references/provider-prompt-engineer.md). Other distributable source and runtime material remains in this package.
+The exact marketplace source snapshot remains in the private pre-change archive with historical hashes. Current [native procedures](full-procedures.md) are independently maintained Studio methods and retained eligible sources; they do not load or claim execution of the excluded publisher procedure. Other distributable runtime/source material remains in this package.
 
 | Source | Adopted capability | Owner |
 | --- | --- | --- |

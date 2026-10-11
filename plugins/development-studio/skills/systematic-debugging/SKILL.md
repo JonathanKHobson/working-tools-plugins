@@ -39,6 +39,8 @@ Create the tightest feedback loop available.
 - If the failure is remote CI, fetch logs first and reduce to the failing command locally when possible.
 - If the issue is intermittent, run the reproduction enough times to learn the shape.
 
+For intermittent failures, performance problems or uncertainty that the reproduction catches the actual symptom, read [reproduction quality](../../references/reproduction-quality.md).
+
 ### 2. Localize
 
 Find the boundary where the value or state first becomes wrong.

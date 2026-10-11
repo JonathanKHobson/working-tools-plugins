@@ -20,7 +20,7 @@ Upstream public metadata and source inspection cannot establish that a future re
 
 ## Source coverage
 
-The four Injection Checker depth methods are supplied by the official receiver-installed `injection-checker@openai-curated-remote` plugin (v0.1.0 verified on the maintainer host), not copied into this package. `instruction-security-review`, `indirect-injection-review` and `security-regression-tests` retain their complete first-party review contracts and route to the exact installed namespaces. Missing provider discovery is reported as a capability-access gap.
+Instruction, indirect-content and regression entrypoints use the bundled `injection-review-patterns.md` and `tool-authority-and-calibration.md` support. `docs/full-procedures.md` maps the complete native review methods; no external injection-method dependency remains in ordinary routes. Historical copied publisher bodies remain excluded with their provenance intact.
 
 The complete original Personal Security Check, pinned MIT SkillGuard source and wrapper, Apache-2.0 Strix adaptations, and MIT Cloudflare coverage audit remain in their existing library locations. See `docs/full-procedures.md` for conditional method selection.
 

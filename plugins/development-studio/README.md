@@ -1,6 +1,6 @@
 # Development Studio
 
-Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+This edition uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Development Studio turns a software request into a scoped, implemented and verified change. It includes complete development methods and MCP app procedures, and selects the official platform provider when specialist tools are needed. Game design and production belong to the separate Game Creation Studio.
 

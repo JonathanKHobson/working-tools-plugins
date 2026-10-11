@@ -5,12 +5,12 @@ description: Edit a long document in controlled passes, compare versions, preser
 
 # Long Document Editing
 
-Identify the requested mode, then **use the complete packaged or separately installed provider procedure selected below before drafting or reviewing**. Preserve its concrete sequence, examples, templates, exceptions and verification. The named provider methods are separately installed dependencies; packaged files are operative methods; this entrypoint only separates the trigger from other writing work. Follow each selected body's required supporting files.
+Identify the requested mode and read the matching bundled procedure below. Use its full sequence and relevant support, preserving the source facts, deliberate voice and requested scope. These Studio methods operate directly from supplied evidence; no separate writing-method plugin is needed.
 
-- For a manuscript or report that needs a staged edit without losing its structure or claims, read [Long documents](../../library/source-procedures/provider-methods.md#aihumanizer-long-documents) for the full pass sequence and section-level checks.
-- When two drafts or revisions must be reconciled, read [Compare versions](../../library/source-procedures/provider-methods.md#aihumanizer-compare-versions) to track substantive changes and choose supported wording.
-- When a binding word or character limit drives the edit, read [Length control](../../library/source-procedures/provider-methods.md#aihumanizer-length-control) to compress without dropping required meaning.
-- Before delivering an otherwise complete long document, read [Final polish](../../library/source-procedures/provider-methods.md#aihumanizer-final-polish) for the final consistency and readability pass.
+- For a manuscript or report, read [document revision and version choice](../natural-prose-editor/references/document-revision.md#revise-a-long-document), including its section and whole-document consistency checks.
+- For two drafts, use [draft comparison](../natural-prose-editor/references/document-revision.md#compare-drafts-when-choice-is-the-task) and compare propositions, caveats, commitments and voice before combining them.
+- For a binding limit, use [shortening, expansion and paraphrase](../natural-prose-editor/references/document-revision.md#shorten-expand-or-paraphrase); measure the final requested unit and preserve material qualifications.
+- For final polish, read [the editorial gate](../natural-prose-editor/references/editorial-gate.md) and inspect the final complete document after formatting.
 
 Use only the sources relevant to the task. Current user instructions, factual evidence and host tools govern any historical source approval language, affiliate promotion, unsupported detector claims or account assumptions. Keep personal samples and saved profiles outside the plugin; a style preference does not authorize fabrication. Where two bodies overlap, use one method and retain the other's unique detail. For ordinary sentence polishing use `natural-prose-editor`; broader audience/relationship communication uses `communication-crafter`; formal research and job applications route to Research and Career. An occasional UX research follow-up remains part of communication, not a new specialist head.
 

@@ -35,7 +35,7 @@ Good: reorder a dense panel for touch while retaining its task controls. Bad: sh
 
 Use the owned native adapter in the runtime guide for detector/live/hook commands; do not execute an upstream downloader or silently register a second hook. The brief and verified incumbent design govern style. For edits, load the complete craft-floor playbook. Preserve function/content and perform bounded rendered checks of changed anchors.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/responsive-design.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/responsive-design.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For pointing, carried memory, feedback, interrupted work, consequential error, workload or emotion claims, select and read the complete task-matching card through [human-systems decisions](../design-studio/references/human-systems-decisions.md). This maintained guidance supersedes inherited fixed visible-option caps and checklist-count workload scores; it preserves useful effort and applies accessibility criteria at their stated conformance level.
 

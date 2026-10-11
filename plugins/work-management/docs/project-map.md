@@ -39,3 +39,7 @@ Maintain the canonical owner and mirror distributable files byte-for-byte to the
 ## Reconciled standalone methods
 
 - `skills/cross-codex-workflow-exchange/`, `skills/github-conventions/`, `skills/obsidian-vault-router/`, and `skills/skill-authoring/`: complete source-first coordination, account-map, vault-routing and skill-maintenance methods with recipient bindings. Private original host/account maps remain in the author archive. File-level disposition is in `docs/standalone-additions-provenance.json`.
+
+- `references/domain-language.md` and `references/dependency-aware-slicing.md`: conditional domain clarification, dependency-aware plans and wide migrations through product-definition; adapted MIT methods with notice and pinned source links. No new skill, tracker or scheduler.
+
+Additional conditional methods: `references/decision-mapping.md` supports unresolved dependent choices in product-definition; `skills/github-conventions/references/issue-triage.md` supports evidence-based tracker intake; `skills/work-handoff/references/human-only-setup.md` prepares genuinely human-only steps. Source details and MIT grant are retained in each reference and references/matt-pocock-LICENSE.txt. These methods add no skill heads, runtime or automatic tracker actions.

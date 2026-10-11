@@ -11,7 +11,7 @@ Prepare evidence-backed interview answers, portfolio walkthroughs, design-challe
 
 Read the task-matching files below in full before applying that procedure. Load only the relevant variant and its required support. These contain the operative methods, examples and templates; this entrypoint does not replace them. A plugin is a package, not a requirement to read every skill.
 
-- For UX role or interview depth, read the complete installed `uiuxdesigner:ux-career-interview` skill only if discovered. Otherwise use this first-party workflow and [role-specific practice](references/role-specific-practice.md), and report that provider depth was unavailable. In Codex, the official dependency is `uiuxdesigner@openai-curated-remote`; Claude discovery has not been verified.
+- For UX roles, portfolio walkthroughs or design challenges, read [UX interview practice](references/ux-interview-practice.md). For general role-specific STAR answers and roleplay, read [role-specific practice](references/role-specific-practice.md). Both are complete bundled procedures.
 - For salary expectations, an offer or compensation decision, read the complete [compensation and offer method](../../references/compensation-and-offers.md), including its worksheet and provenance. Ordinary interview practice does not load this module.
 - [External candidate evidence](../../references/private-workspace.md) — read when locating the applicant’s private experience and receipt records.
 - [Truth and metrics rules](../resume/references/metrics-and-truth.md) — read when checking claims, dates, metrics or ownership in an answer.
@@ -19,7 +19,7 @@ Read the task-matching files below in full before applying that procedure. Load 
 ## Workflow
 
 1. Identify the role, interview stage and likely evaluation criteria using supplied evidence; locate the candidate’s external facts and authentic work.
-2. For compensation or offer work, apply the linked compensation method and deliver its comparison/decision record. Otherwise apply the first-party interview method and, when discovered, the complete installed UX provider method. Ground STAR or walkthrough answers in verified contributions. Practice clarify, users, flows, sketch, decide and explain for a design challenge.
+2. For compensation or offer work, apply the linked compensation method and deliver its decision record. Otherwise apply the bundled general or UX interview procedure. Ground answers in verified contributions and distinguish a hypothetical challenge approach from past experience.
 3. For interview practice, produce speakable answers, thoughtful questions and a bounded exercise. For compensation work, produce the requested expectations answer, normalized comparison or negotiation preparation. Distinguish verified experience and terms from hypothetical approaches/scenarios.
 
 ## Deliver and verify

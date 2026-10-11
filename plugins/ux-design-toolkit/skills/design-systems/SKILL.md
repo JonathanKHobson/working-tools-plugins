@@ -44,7 +44,7 @@ Good: extract repeated spacing into an existing token family with consumer check
 
 Use the owned native adapter in the runtime guide for detector/live/hook commands; do not execute an upstream downloader or silently register a second hook. The brief and verified incumbent design govern style. For edits, load the complete craft-floor playbook. Preserve function/content and perform bounded rendered checks of changed anchors.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/design-systems.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/design-systems.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For Shareables-informed contrast, spacing and visual-quality gates, read the complete [quality gates](../../libraries/shareables-design/design-system/style-sources/quality-gates.md) and [feedback-to-system method](../../libraries/shareables-design/design-system/research/shareables-design-system-contrast-spacing-feedback.md). Historical project feedback is source context, not current proof or a new approval requirement.
 

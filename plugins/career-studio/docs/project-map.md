@@ -15,7 +15,7 @@ Repeat the skill command for each changed entrypoint and check relative links. C
 
 `references/private-workspace.md` defines the external personal-data boundary. Candidate records, answers, receipts, case provenance and dashboards never belong in this package. `scripts/check_share_safety.py` checks package content before export; a clean scan is not a substitute for reviewing the actual archive.
 
-The conditional [provider procedure map](../library/source-procedures/INDEX.md) identifies complete official installed skill routes. Affected first-party entrypoints load a matching provider only when discovered and retain their own workflow when it is absent.
+The [native procedure map](../library/source-procedures/INDEX.md) selects full task owners and support. `skills/career-interviews/references/ux-interview-practice.md` owns the independent UX walkthrough/challenge procedure. Ordinary task routes do not install or invoke redundant marketplace method plugins.
 
 `references/compensation-and-offers.md` owns the conditional salary-expectation, offer-comparison and negotiation method shared by Interviews and Outreach. Its worksheet, worked example and provenance stay beside it; personal offers and decision records stay in the private career workspace. This adds no discovery head or tool.
 
@@ -27,4 +27,4 @@ LinkedIn profile depth lives in resume/references/linkedin-profile.md and rubric
 
 The original full local resume/letter/portfolio build and audit methods are conditional `references/local-method.original.md` support in their current skills; existing reference/template/agent trees remain their support owners.
 
-The [provider procedure map](../library/source-procedures/INDEX.md) routes complete externally maintained depth skills when actually discovered. The copied 38-file provider corpus is preserved only in the private baseline archive; public provenance records exact exclusions and hashes. The [example Atlas binding](../examples/runtime-bindings/atlas-library.json) has placeholders only. Codex uses plugin-relative `cwd`; Claude uses `${CLAUDE_PLUGIN_ROOT}` for the same launcher.
+The [native procedure map](../library/source-procedures/INDEX.md) is the method route. Historical copied bodies and their exact hashes remain in private recovery/provenance records and are not runtime dependencies. The [example Atlas binding](../examples/runtime-bindings/atlas-library.json) has placeholders only. Codex uses plugin-relative `cwd`; Claude uses `${CLAUDE_PLUGIN_ROOT}` for the same launcher.

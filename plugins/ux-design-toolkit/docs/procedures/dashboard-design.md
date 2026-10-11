@@ -1,7 +1,7 @@
 # Full design methods for dashboard-design
 
-Read [the host adapter](../full-design-host-adapter.md), then the complete procedure matching this task, including its required support. The source bodies retain all unique constraints and examples.
+Read [the host adapter](../full-design-host-adapter.md), then the complete procedure matching this task, including its required support. Internal methods contain the complete procedure and acceptance tasks; retained licensed libraries keep their original notices.
 
-| Complete procedure | Source package |
+| Complete procedure | Maintained owner |
 | --- | --- |
-| [dashboard-saas-ui](../../libraries/uiuxdesigner/PROVIDER.md#dashboard-saas-ui) | uiuxdesigner |
+| [dashboard-saas-ui](../../skills/dashboard-design/SKILL.md) | UX Design Studio |

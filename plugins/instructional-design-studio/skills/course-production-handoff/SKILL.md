@@ -11,6 +11,8 @@ For scripts, exported lesson clips, transcripts, learner downloads, and lesson-p
 
 For an LMS package or delivery request, use [target LMS adapter and learner test](references/target-lms-adapter.md) with the existing production register. The worksheet is unconfigured until a real target and current specification are supplied; authoring it alone does not establish live compatibility.
 
+For course exercise files needing problem, solution and explainer variants, read [exercise packaging](references/exercise-packaging.md). Reuse current IDs, directories and tools, then verify the actual learner package.
+
 ## Prepare the package
 Confirm the destination, source version, learner environment, and deliverables. Build a compact asset register linking each objective to scripts, recordings, slides, practice files, answer keys, transcripts, captions, and assessments. Record owner/reviewer, rights/access, version, and current status.
 

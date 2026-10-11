@@ -1,10 +1,10 @@
-# Source procedure handoffs
+# Included procedure map
 
-The copied marketplace bodies previously indexed here are preserved in the private pre-change archive and excluded from the distributable package. Select and read the publisher-installed full method only after current host discovery. [Provider handoffs](../../docs/provider-handoffs.md) name the four skill IDs, installation path, complete first-party/MIT alternatives, and missing-provider behavior. This index does not itself activate the providers.
+The following tasks use complete included procedures. [Methods and execution tools](../../docs/provider-handoffs.md) explains copy, search and commerce review and the actual external-tool boundary.
 
-| Original source | Owner | Installed Codex skill | Local full method when absent |
+| Task | Owner | Included route | Complete procedure |
 | --- | --- | --- | --- |
-| AIHumanizer marketing copy | marketing-strategy-operator | `aihumanizer:marketing-copy` | [copywriting](../../libraries/marketingskills/skills/copywriting/SKILL.md), [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) |
-| AIHumanizer SEO content | search-and-discovery | `aihumanizer:seo-content` | [search-and-discovery](../../skills/search-and-discovery/SKILL.md), [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) |
-| UIUXDesigner conversion optimization | conversion-and-offers | `uiuxdesigner:conversion-optimization` | [CRO](../../libraries/marketingskills/skills/cro/SKILL.md) |
-| UIUXDesigner ecommerce UX | conversion-and-offers | `uiuxdesigner:ecommerce-ux` | [product marketing](../../libraries/marketingskills/skills/product-marketing/SKILL.md) |
+| Marketing copy revision | marketing-strategy-operator | Included copy workflow | [copywriting](../../libraries/marketingskills/skills/copywriting/SKILL.md), [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) |
+| Search content revision | search-and-discovery | Included search workflow | [search-and-discovery](../../skills/search-and-discovery/SKILL.md), [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) |
+| Conversion optimization | conversion-and-offers | Included conversion workflow | [CRO](../../libraries/marketingskills/skills/cro/SKILL.md) |
+| Ecommerce UX | conversion-and-offers | Included commerce workflow | [product marketing](../../libraries/marketingskills/skills/product-marketing/SKILL.md) |

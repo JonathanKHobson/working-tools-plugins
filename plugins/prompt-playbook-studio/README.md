@@ -40,7 +40,7 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 
 ## Recipient setup
 
-Install this package in a supported host and select one of its eight skills. Supply your own task facts, prompt drafts, test cases and private profile in your project. The complete Prompt Engineer design, refinement, routing, evaluation and safety methods are a separate dependency: in Codex, enable the official `prompt-engineer@openai-curated-remote` plugin and use the [installed-provider handoff](references/provider-prompt-engineer.md) after verifying live discovery. That provider route is not verified in Claude. If it is absent, use the complete first-party Playbook, original patterns, evaluator and MIT compiler; identify the missing optional provider pass accurately. No provider method body or personal data is bundled.
+Install this package in a supported host and select one of its eight skills. Supply your actual task facts, prompt drafts, test cases and any authorized private profile in the owning project. The [native procedure map](docs/full-procedures.md) selects complete design, refinement, routing, evaluation and safety methods. Original patterns, templates, evaluator and MIT compiler are included; no separate prompt-method plugin is needed. Actual model execution, Atlas retrieval or connected tools still require their own capability verification. No publisher method body or personal data is bundled.
 
 ## Tools, setup and access
 

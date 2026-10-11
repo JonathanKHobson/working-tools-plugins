@@ -1,6 +1,6 @@
 # Creative Toolkit
 
-Version **0.3.4** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+Portable MCP discovery is supported through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
 
 Turn an idea or existing draft into a finished story scene, a coherent story plan, or playable GM material while keeping canon and source boundaries visible. Bring the current draft or notes, the intended audience, and the output you want; the Studio selects the relevant craft route and produces that artifact.
 
@@ -8,9 +8,8 @@ Try “Revise this reveal for dread while preserving these canon facts,” “Ma
 
 ## Optional dependencies
 
-The core writing, game preparation, rights and publication methods work from material you provide. Optional integrations require a recipient-installed runtime or provider skill:
+The core writing, game preparation, rights and publication methods work from material you provide. Optional integrations require a recipient-installed runtime or external service:
 
-- Creative-prose humanization: install the official `aihumanizer@openai-curated-remote` plugin through the native plugin manager; invoke `aihumanizer:creative-writing` when it appears in a refreshed task. Its independently maintained method is not bundled here. If unavailable, use this Studio's own story and prose methods without claiming the provider pass.
 - [Creative Atlas](references/atlas-library.md): use the Activities Templates Atlas runtime and a recipient-owned approved catalog. `scripts/atlas_library_mcp.py` remains a fixed creative-domain compatibility launcher.
 - [TTRPG Compass](references/ttrpg-compass.md): install its separately maintained backend and approved public data when a supported source/release is available. `scripts/ttrpg_compass_mcp.py` launches it; private campaigns are opt-in only.
 - [Draw and Think](references/draw-think.md): install the separately maintained board backend when available; `scripts/draw_think_mcp.py` launches it with a recipient-owned data directory.
@@ -25,7 +24,6 @@ TTRPG Compass and Draw and Think backend acquisition is currently a separate rel
 | Capability | Codex | Claude Code |
 | --- | --- | --- |
 | First-party skills and packaged methods | Native installation and synthetic first-use verified | Native installation and file parity verified; first-use behavior still needs a host test |
-| AIHumanizer provider method | Separately install `aihumanizer@openai-curated-remote`; matching skill verified | That Codex marketplace identity is not a Claude installation route. Use the packaged first-party methods unless an authorized equivalent provider route is verified |
 | Still-image generation | Use the host’s available `imagegen` capability and verify its output | Use a separately available, authorized image provider; the Codex `imagegen` route is not supplied by this package |
 | Optional MCP launchers | Portable `mcp.json` uses `${PLUGIN_ROOT}` paths and working directory | The Claude manifest uses `${CLAUDE_PLUGIN_ROOT}` paths; backend execution remains a separate acceptance check |
 

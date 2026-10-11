@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "instructional-design-studio",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,21 +16,21 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "71512bc651f3471570d6d84522dba0a8675cc068a51023403a3c30be02154d09"
+      "sha256": "91fe2edc4f43f03c00aeadedf792ebdae9a5bb6cbee871b1d606745935fadbcc"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "f453380082685d66489a296a0218a67919d35aef0482d197a55dcbdae688953f"
+      "sha256": "f5336f71f0891e4ca5cc289915f50162d7529f7ab4dce2052eb9df6b966a44b8"
     },
     {
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "c880e52dafc46d6436bf9ee2a3b2c2e7bf4c3a5af1b175954cc8f18f8839d99a"
+      "sha256": "93f2bb5272c7127f8cf0a328e89ca507a6cfda3635eea5edbb9c94e3f1061ede"
     },
     {
       "path": "LICENSE",
@@ -72,7 +72,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "749eef634a33ec9dfe209fd243b1ae6b9251dac196509a2caa7fefd9c67430e2"
+      "sha256": "260d8f66bf86c92ee77a3d4486624e3b36c26b52580294f767aeb84367e7628b"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -86,7 +86,7 @@
       "category": "license-and-notice",
       "license": "See document",
       "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
-      "sha256": "13df84332861335d5a3b40df2536d4f52b2864f0ebc80268e1226bb278e3c71f"
+      "sha256": "8ae90a2cbd085723d7da2d41390d99963c9f9f04d1a1feb336a119e3c791ea81"
     },
     {
       "path": "docs/assessment-security-review.md",
@@ -114,7 +114,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "2daaa0988e3cac4aff89928ca2b2099f426d10914e18bca51c18a36c0153a0f2"
+      "sha256": "24efd00b4da3b40a47a4b175bc1904a42045cb1b346f2094b8ea41a76e8f1f2d"
     },
     {
       "path": "docs/release-validation.md",
@@ -212,7 +212,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "c9b275bc3a827a390a250bc3b8d47e4a05d89eec25d5875e22c1a15922545a9b"
+      "sha256": "8a549b75f7f7a7d945a6d234d237bb8910ed643396315ea34723630f1960a46a"
     },
     {
       "path": "references/atlas-library.md",
@@ -387,7 +387,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "bf5e0638a8c6646d5efdec507b955426257bfcc6c5d42c8eeaaffa0cff1ab510"
+      "sha256": "85bb0e9690294367c8456b5dca4f4bbe5f05032372d4b539e79fe0c3be63ef74"
     },
     {
       "path": "skills/course-production-handoff/agents/openai.yaml",
@@ -696,6 +696,20 @@
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "c89c791b0033c5a341682ebb3efad7f50cc89817ff08e58e5ad207349e37ef5e"
+    },
+    {
+      "path": "skills/course-production-handoff/references/exercise-packaging.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at skills/course-production-handoff/references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "c7d009f5d22ba30f2667461ac89fd24ed9c25c3e3f56cd8e536e66787083a709"
+    },
+    {
+      "path": "skills/course-production-handoff/references/matt-pocock-LICENSE.txt",
+      "category": "retained-upstream-license",
+      "license": "MIT",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at skills/course-production-handoff/references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
     }
   ]
 }

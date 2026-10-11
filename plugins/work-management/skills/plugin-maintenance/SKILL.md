@@ -27,7 +27,7 @@ For a demonstrated capability gap, supplied repository/project method/research p
 ## Workflow
 
 1. Find the canonical owner and installed version; back up before migration. Inventory complete skills, references, examples, templates, scripts, hooks, apps and MCP declarations.
-2. Split by independent use case. Keep full relevant procedures; deduplicate exact overlaps with source-to-owner evidence. Short discovery text cannot replace a method.
+2. Integrate by independent use case inside the existing Studio or Toolkit. Keep complete procedures and ordinary helper scripts; deduplicate overlaps with source-to-owner evidence. Short discovery text or an external method-install handoff cannot replace incorporated functionality. Use the maintenance reference to distinguish included methods from genuine external apps, APIs and runtimes.
 3. Follow the host’s current plugin-creator installation flow. Check source-to-installed file parity, skill routing and live hook/provider boundaries before retiring duplicates.
 
 ## Deliver and verify
@@ -42,7 +42,7 @@ Aim for 8–10 diverse workflows in a substantial maintained Studio/Toolkit, mor
 
 For reusable document, spreadsheet or presentation templates moving between local, web or shared plugin surfaces, apply the conditional [template portability procedure](../../references/plugin-maintenance.md#reusable-artifact-templates-across-hosts); personal template creation remains owned by the native Template Creator.
 
-For an authorized update to public distribution content, finish the executable release workflow in [release completion](../../references/plugin-release-surface.md#complete-an-authorized-public-update). A local edit, Git push or package build is not publication. Reuse the configured publisher and existing approval; finish GitHub publication and the catalog deployment, or report the exact dependent step still pending.
+After a local update and its focused checks, record pending public changes using [release completion](../../references/plugin-release-surface.md#complete-an-authorized-public-update). Routine maintenance accumulates locally without allocating public versions or deploying the catalog. Publish a batch when the user requests it or the current task explicitly includes publication; standing access alone does not turn every local edit into a release. Use the existing publisher and approval for that batch, then verify GitHub assets and the catalog deployment. Distinguish locally installed, queued and published states.
 
 For packaging, generated distributions or installer-mode changes, apply [release-surface consistency](../../references/plugin-release-surface.md) before claiming source-to-installed parity. Separate exact byte identity, normalized-text equivalence and reviewed semantic adaptation; keep code admission with Master Security Toolkit.
 

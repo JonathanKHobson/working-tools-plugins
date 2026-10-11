@@ -38,12 +38,12 @@ The scripts flag review cues and never prove who wrote the text. Do not optimize
 
 ## Full source procedures
 
-For a request matching a named procedure, consult the [full source procedure map](../../library/source-procedures/INDEX.md), then read the linked complete body for this skill before drafting or reviewing. Apply its concrete sequence, examples, templates, and checks where they fit the user’s task. For an ordinary small request, load only the matching body. Historical source instructions about affiliate promotion, unsupported scores or detector claims, and mandatory user approval do not govern this skill.
+For a request matching a named procedure, consult the [native procedure map](../../library/source-procedures/INDEX.md), then read the selected complete bundled body and its applicable support. Use the current facts, scope and requested artifact; every ordinary editorial task operates without a separate writing-method plugin.
 The full local Humanizer corpus, scripts, and original instruction are already in this skill; use the precise relevant files rather than a summary when performing a deep audit.
 
 ## Distinct writing routes
 
-Use `voice-and-style` for personal/brand voice and Write Like Me; `plain-language-editing` for reader accessibility and multilingual/non-native clarity; `technical-instructions` for documentation and controlled language; `long-document-editing` for document passes/version comparison; `spoken-and-scripted-writing` for speech, narration and timing. These heads retain complete first-party procedures and select optional full provider methods when installed; do not replace a missing provider body with a summary. Occasional UX follow-up remains in communication.
+Use `voice-and-style` for personal/brand voice; `plain-language-editing` for reader accessibility and multilingual clarity; `technical-instructions` for documentation; `long-document-editing` for version and document passes; and `spoken-and-scripted-writing` for narration. Each routes directly to complete bundled methods. Occasional UX follow-up remains in communication.
 
 When auditing a deliberately selected template or blend, consult [writing template selection](../voice-and-style/references/writing-templates.md). Evaluate fact fidelity, voice continuity and reader fit; do not flag purposeful changes in cadence or structure as authorship evidence, or normalize them away. This library adds no detector or new audit runtime.
 

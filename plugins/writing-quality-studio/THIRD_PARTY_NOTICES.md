@@ -11,4 +11,8 @@
 
 Human Writing is Jonathan Kyle Hobson’s author-confirmed retained MIT method, with current first-party support guides under CC BY-SA 4.0; see its [provenance](library/source-procedures/marketplace/human-writing/human-writing/PROVENANCE.md). Its original Basis links remain preserved.
 
-The official AIHumanizer and OpenAI Write Like Me method bodies are excluded; no license over them is asserted. Research papers and system cards are linked, not copied. See [provider routes](library/source-procedures/provider-methods.md) and [source limits](docs/source-coverage-limitations.md).
+The historical AIHumanizer and OpenAI Write Like Me method bodies remain excluded; no license over them is asserted. Ordinary editorial methods use the [native map](library/source-procedures/INDEX.md). Explicit OpenAI Write Like Me selection retains its supported separate route. Research papers and system cards are linked, not copied; [source limits](docs/source-coverage-limitations.md) remain documented.
+
+## Selected Matt Pocock method adaptations
+
+Conditional references adapt selected methods from [mattpocock/skills at 49dd158](https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336), copyright 2026 Matt Pocock. The [complete MIT notice](skills/communication-crafter/references/matt-pocock-LICENSE.txt) is preserved. Each reference lists its source paths. Upstream runtimes, installers, hooks, dependencies and automatic actions are excluded. Existing package licenses govern original contributions without replacing upstream grants.

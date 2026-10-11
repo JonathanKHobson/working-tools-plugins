@@ -29,7 +29,7 @@ Use the [full task-to-skill map](docs/use-case-map.md). A single post uses socia
 
 ## Recipient setup
 
-Install this package into your Codex or Claude plugin host, then choose the matching skill from the task map. Supply your own source facts, voice samples, audience, platform account and authorization in your project. No personal account, sample, credential or posting policy is bundled. For the complete optional AIHumanizer social prose method, install and enable the official `aihumanizer@openai-curated-remote` plugin and load `aihumanizer:social-media` through the [provider handoff](references/social-methods/provider-social-prose.md). If it is unavailable, the first-party drafting and review methods still work and the response should identify that missing dependency. Other named Studios are optional specialist dependencies for their respective routes.
+Install this package into your Codex or Claude plugin host, then choose the matching skill from the task map. Supply your own source facts, voice samples, audience, platform account and authorization in your project. No personal account, sample, credential or posting policy is bundled. The complete [social prose revision method](references/social-methods/provider-social-prose.md) is included. Other Studios can provide specialist collaboration, but ordinary drafting and revision require no additional method plugin.
 
 
 ## Host compatibility
@@ -37,7 +37,6 @@ Install this package into your Codex or Claude plugin host, then choose the matc
 | Capability | Codex | Claude Code |
 | --- | --- | --- |
 | First-party skills and packaged methods | Native installation and synthetic first-use verified | Native installation and file parity verified; first-use behavior still needs a host test |
-| AIHumanizer provider method | Separately install `aihumanizer@openai-curated-remote`; matching skill verified | That Codex marketplace identity is not a Claude installation route. Use the packaged first-party methods unless an authorized equivalent provider route is verified |
 | Social Post Previewer | Requires the declared OpenAI app and an available connection; live rendering untested | The OpenAI app declaration does not supply a Claude app. Use an available preview tool only after checking the host, or deliver clearly labeled copy without claiming a rendered preview |
 
 ## Availability and recovery

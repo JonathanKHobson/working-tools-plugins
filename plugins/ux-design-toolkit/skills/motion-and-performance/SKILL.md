@@ -45,7 +45,7 @@ Good: preserve focus and reduced motion during a panel transition. Bad: add heav
 
 Use the owned native adapter in the runtime guide for detector/live/hook commands; do not execute an upstream downloader or silently register a second hook. The brief and verified incumbent design govern style. For edits, load the complete craft-floor playbook. Preserve function/content and perform bounded rendered checks of changed anchors.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/motion-and-performance.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/motion-and-performance.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For a bounded component/detail polish request involving nested corners, optical alignment, icon weight/render size, image edges, text wrapping or transition timing, read the [interface craft adapter](../design-studio/references/interface-craft.md) and its complete task-matching source method. It preserves the existing system and treats upstream values as testable examples, with no automatic runtime or global aesthetic mandate.
 

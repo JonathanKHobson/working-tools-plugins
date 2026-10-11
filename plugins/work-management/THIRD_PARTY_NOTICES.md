@@ -1,6 +1,6 @@
 # Current license scope
 
-First-party code in 0.3.1 is AGPL-3.0-only; first-party methods, documentation and eligible creative templates are CC BY-SA 4.0. See [licensing](LICENSING.md) and [file scope](LICENSE-SCOPE.json). Underlying upstream grants below are unchanged. First-party MIT/Apache statements in the retained record below describe the prior edition 0.3.0 and its still-valid grants, rather than the new edition default.
+First-party code is AGPL-3.0-only; first-party methods, documentation and eligible creative templates are CC BY-SA 4.0. See [licensing](LICENSING.md) and [file scope](LICENSE-SCOPE.json). Underlying upstream grants below are unchanged. First-party MIT/Apache statements in the retained record below describe the prior edition 0.3.0 and its still-valid grants, rather than the new edition default.
 
 ## Retained source notices and prior grant record
 
@@ -15,3 +15,7 @@ Original personal profile, relationship/health facts, goal entries and dated ses
 ### Standalone method additions 0.3.0
 
 Original standalone synthesis and helpers by Jonathan Kyle Hobson are licensed within this package’s existing original-contribution scope. All operative bodies are retained; host/account/vault observations are receiver templates. Learning Experience Designer retains its adoption-map source attribution and excludes the cited unlicensed notebook/proxy runtime and credentialed Vimeo uploader. Referenced providers and copyrighted external content keep their own terms and are not bundled or relicensed.
+
+## Selected Matt Pocock method adaptations
+
+Conditional methods adapted from [mattpocock/skills at 49dd158](https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336), copyright 2026 Matt Pocock, retain the [complete MIT notice](references/matt-pocock-LICENSE.txt). Each adopted reference names its exact source files and adaptation boundary. No upstream installation script, hook, scheduler, package dependency or tracker automation is included. These are selected adaptations; no full-bundle coverage is claimed.

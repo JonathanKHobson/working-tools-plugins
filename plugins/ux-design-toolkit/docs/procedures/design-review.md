@@ -1,11 +1,11 @@
 # Full design methods for design-review
 
-Read [the host adapter](../full-design-host-adapter.md), then the complete procedure matching this task, including its required support. The source bodies retain all unique constraints and examples.
+Read [the host adapter](../full-design-host-adapter.md), then the complete procedure matching this task, including its required support. Internal methods contain the complete procedure and acceptance tasks; retained licensed libraries keep their original notices.
 
-| Complete procedure | Source package |
+| Complete procedure | Maintained owner |
 | --- | --- |
-| [audit](../../libraries/product-design/PROVIDER.md#audit) | product-design |
-| [design-qa](../../libraries/product-design/PROVIDER.md#design-qa) | product-design |
+| [audit](../../skills/design-review/SKILL.md) | UX Design Studio |
+| [design-qa](../../skills/design-studio/references/verification.md) | UX Design Studio |
 | [entry-ux-critique](../../libraries/engineering-suite-ux-critique/skills/entry-ux-critique/SKILL.md) | engineering-suite-ux-critique |
-| [accessibility-audit](../../libraries/uiuxdesigner/PROVIDER.md#accessibility-audit) | uiuxdesigner |
-| [ux-audit-critique](../../libraries/uiuxdesigner/PROVIDER.md#ux-audit-critique) | uiuxdesigner |
+| [accessibility-audit](../../skills/design-review/references/accessibility-evidence.md) | UX Design Studio |
+| [ux-audit-critique](../../skills/ux-heuristic-compass/SKILL.md) | UX Design Studio |

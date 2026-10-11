@@ -18,6 +18,8 @@ Account default:
 - Preferred CLI: `gh`
 - Preferred git transport after login: `https`
 
+For issue/PR intake, backlog triage or an agent-ready issue brief, read [issue triage](references/issue-triage.md). This follows the existing tracker conventions; code review remains with Development Studio.
+
 ## Workflow
 
 1. Confirm auth when account access or a write requires it.

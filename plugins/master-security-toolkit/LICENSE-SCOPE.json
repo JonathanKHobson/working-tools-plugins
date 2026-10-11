@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "master-security-toolkit",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0; retained upstream grants unchanged",
   "inventory_excludes": [
     "LICENSE-SCOPE.json",
@@ -13,13 +13,13 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "7a6a1302c5366e7c2287437e0dd8e583fcd1d34839d6778f152151c347886121"
+      "sha256": "65dcb29eff9cbab761f64b106e0aa5c42b3ff6f07d719c7649a9014b19780ea0"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "ef11856aef9564053a985e8c435a5cad7dac70fa9ae05edb05a326791e220261"
+      "sha256": "1cfff2a2eb6d23b3786364cd128bc9b78e4102e8ad8da9a2b4ee7e6f1bcde07b"
     },
     {
       "path": ".mcp.json",
@@ -37,7 +37,7 @@
       "path": "LICENSING.md",
       "category": "license-and-notice",
       "license": "See document",
-      "sha256": "5a310c356a3c45ed45c3a1a0684dc5dc608a581935929126ee0ca9a4b347358e"
+      "sha256": "892bde2efd0f1aef9a99d713e627da6f2cfd08aae3dc0cd46ea2ed2a405f2c97"
     },
     {
       "path": "NOTICE.md",
@@ -49,25 +49,25 @@
       "path": "README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "75e38b96bd4cec37fdb1b466414ee708647f5074c4fa9f575a9846a5147f135b"
+      "sha256": "229ec271b4082aa279df5d00fad3d8802bd5e4c72bed5a6db5b162df59420c7c"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "60d6f6aa53f3167d02dffbeaadcd10b8a74119dc0bea5e0c7c991aa8d39f2c14"
+      "sha256": "e5d764972dd47c57fc37a2dda39982cfc4b14fb74dc0d3724f30e2092248e788"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "category": "license-and-notice",
       "license": "See document",
-      "sha256": "2a15ea6ca79fdb9784d31c528030d20034ad7b308e46e7b184a2a1d8bd96b280"
+      "sha256": "d34e47297ccc8026bd85e28ced672faa63061fe0b62be35c97a6e1913ff0da91"
     },
     {
       "path": "docs/full-procedures.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "99d20c9794dd805544f449874078e981d0eff475aa16952270e152e515bcbcc5"
+      "sha256": "2c1e9465624b106f5fb6c9245b0c53917998587ba3bcd218c8568d7866a3f676"
     },
     {
       "path": "docs/previous-entrypoints/instruction-security-review/SKILL.original.md",
@@ -85,7 +85,7 @@
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "6e0e7e6f4cd24570b23d5b2d11e3f63075197a591c4c0a4d639d8ca6c902a362"
+      "sha256": "b1d1ec43f3af528ce5b976fd35ab3258bdee24cbddbd489fc00c42b334ee9d4d"
     },
     {
       "path": "docs/use-case-map.md",
@@ -505,7 +505,7 @@
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "ab258a0ff3e859ac38fe29a4bf3acc98fb64512559f4e0e30b52aeebd90df9a2"
+      "sha256": "c0328a2223b57723addab59a34af69be6c62f6690f0bc35f98a5a4f879911d18"
     },
     {
       "path": "references/application-security-testing.md",
@@ -673,7 +673,7 @@
       "path": "skills/indirect-injection-review/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "e830f153eefbd155da669f805311fd03a472c58787181ca530055e5ff60ca7c0"
+      "sha256": "31590ec1f61220224106cf94f0d8bb3f4dffc74b6cdc52e768c58f4ba72d3e57"
     },
     {
       "path": "skills/indirect-injection-review/agents/openai.yaml",
@@ -685,7 +685,7 @@
       "path": "skills/instruction-security-review/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "ae34f4f2239891dfffbdfe198d2317a46576e1dcad95a8edd77f38d8952a93be"
+      "sha256": "e7b1d773ba74fe4d777aeed07571de02ccb72099d41c4b619383847d95ff231d"
     },
     {
       "path": "skills/instruction-security-review/agents/openai.yaml",
@@ -727,7 +727,7 @@
       "path": "skills/security-regression-tests/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "c4ba7b35127e86e7d59fe14592e03d8891fbb78c7885f0d182396da75068a167"
+      "sha256": "576efcd8c7c107230d65c4bb0b5a56d34b745913bfb4062118d4ac7619164741"
     },
     {
       "path": "skills/security-regression-tests/agents/openai.yaml",
@@ -890,6 +890,19 @@
       "category": "retained-upstream-MIT",
       "license": "MIT for original Agent SkillGuard source; third-party identity marks remain reserved",
       "sha256": "f6dcfa04bc757386805d71211ad87fd49b31df67da186103e5a372063b0d8a3e"
+    },
+    {
+      "path": "skills/instruction-security-review/references/tool-authority-and-calibration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b38e4ff8f126a83726f650fd3fd3f4d5ee276c7dfabf2ea0b4dae7a900f21885",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "44333b05f48f0ac6af76dec07779120eaf4299e083ba5d92273fe58258733f85"
     }
   ]
 }

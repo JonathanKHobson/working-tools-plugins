@@ -1,124 +1,118 @@
-# Separate publisher methods
+# Writing method compatibility links
 
-Writing Quality Studio ships full original and licensed methods in its own package. The public projection does not copy the OpenAI Write Like Me or marketplace AIHumanizer bodies. The canonical private source retains historical copies outside the active route. Public availability does not establish redistribution permission. Each optional method below must be loaded from the publisher's own installed plugin. The current user task, facts, and host instructions govern all methods.
+The native [procedure map](INDEX.md) selects bundled Studio methods. The historical fragment names below remain for existing links; they select the maintained internal owner, not a provider lookup, score or branded service. Historical source exclusions and hashes remain in the licensing and provenance records.
 
-## AIHumanizer
+## AIHumanizer ai-pattern-scan
 
-On Codex, install or enable the official `aihumanizer@openai-curated-remote` plugin using native Plugin Management. Check `codex plugin list --json` for `installed: true` and `enabled: true`, then select the exact `aihumanizer:<skill>` named by the task map. The verified source host had version 1.0.0 and all listed skill directories. The recipient must verify its own availability. This is optional provider depth, not bundled equivalent prose. If unavailable, apply the complete packaged first-party method in the owning skill, preserve the requested facts and constraints, and identify the unavailable provider method when it materially affects the result. Do not claim its source checks or output formats were performed.
+Use the complete [humanizer-deep-audit method](../../skills/humanizer-deep-audit/SKILL.md) and its task-matching support.
 
-### AIHumanizer skill names
+## AIHumanizer blog-humanizer
 
-#### AIHumanizer ai-pattern-scan
+Use the complete [communication-crafter method](../../skills/communication-crafter/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:ai-pattern-scan` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer brand-voice
 
-#### AIHumanizer blog-humanizer
+Use the complete [voice-and-style method](../../skills/voice-and-style/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:blog-humanizer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer business-writing
 
-#### AIHumanizer brand-voice
+Use the complete [communication-crafter method](../../skills/communication-crafter/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:brand-voice` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer compare-versions
 
-#### AIHumanizer business-writing
+Use the complete [long-document-editing method](../../skills/long-document-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:business-writing` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer detector-insights
 
-#### AIHumanizer compare-versions
+Use the complete [humanizer-deep-audit method](../../skills/humanizer-deep-audit/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:compare-versions` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer email-humanizer
 
-#### AIHumanizer detector-insights
+Use the complete [communication-crafter method](../../skills/communication-crafter/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:detector-insights` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer everyday-messages
 
-#### AIHumanizer email-humanizer
+Use the complete [communication-crafter method](../../skills/communication-crafter/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:email-humanizer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer final-polish
 
-#### AIHumanizer everyday-messages
+Use the complete [long-document-editing method](../../skills/long-document-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:everyday-messages` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer human-writer
 
-#### AIHumanizer final-polish
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:final-polish` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer humanizer-help
 
-#### AIHumanizer human-writer
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:human-writer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer humanizer
 
-#### AIHumanizer humanizer-help
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:humanizer-help` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer humanness-score
 
-#### AIHumanizer humanizer
+Use the complete [humanizer-deep-audit method](../../skills/humanizer-deep-audit/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:humanizer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer length-control
 
-#### AIHumanizer humanness-score
+Use the complete [long-document-editing method](../../skills/long-document-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:humanness-score` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer long-documents
 
-#### AIHumanizer length-control
+Use the complete [long-document-editing method](../../skills/long-document-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:length-control` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer multilingual-humanizer
 
-#### AIHumanizer long-documents
+Use the complete [plain-language-editing method](../../skills/plain-language-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:long-documents` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer non-native-english
 
-#### AIHumanizer multilingual-humanizer
+Use the complete [plain-language-editing method](../../skills/plain-language-editing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:multilingual-humanizer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer paraphraser
 
-#### AIHumanizer non-native-english
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:non-native-english` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer prompt-coach
 
-#### AIHumanizer paraphraser
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:paraphraser` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer recommended-tools
 
-#### AIHumanizer prompt-coach
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:prompt-coach` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer scripts-speeches
 
-#### AIHumanizer recommended-tools
+Use the complete [spoken-and-scripted-writing method](../../skills/spoken-and-scripted-writing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:recommended-tools` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer sentence-rhythm
 
-#### AIHumanizer scripts-speeches
+Use the complete [spoken-and-scripted-writing method](../../skills/spoken-and-scripted-writing/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:scripts-speeches` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer support-replies
 
-#### AIHumanizer sentence-rhythm
+Use the complete [communication-crafter method](../../skills/communication-crafter/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:sentence-rhythm` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer technical-writing
 
-#### AIHumanizer support-replies
+Use the complete [technical-instructions method](../../skills/technical-instructions/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:support-replies` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer tone-changer
 
-#### AIHumanizer technical-writing
+Use the complete [voice-and-style method](../../skills/voice-and-style/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:technical-writing` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer voice-matcher
 
-#### AIHumanizer tone-changer
+Use the complete [voice-and-style method](../../skills/voice-and-style/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:tone-changer` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer word-choice
 
-#### AIHumanizer voice-matcher
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
-Load the complete separately installed `aihumanizer:voice-matcher` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+## AIHumanizer writehuman-guide
 
-#### AIHumanizer word-choice
-
-Load the complete separately installed `aihumanizer:word-choice` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
-
-#### AIHumanizer writehuman-guide
-
-Load the complete separately installed `aihumanizer:writehuman-guide` skill for this optional method. If absent, follow the owning Writing Quality skill and identify the unavailable provider depth.
+Use the complete [natural-prose-editor method](../../skills/natural-prose-editor/SKILL.md) and its task-matching support.
 
 ## Write Like Me
 
@@ -128,6 +122,7 @@ For explicit style matching, first read [professional voice handoff](../../skill
 
 [Human Writing](marketplace/human-writing/human-writing/SKILL.md) is included as Jonathan Kyle Hobson’s author-confirmed MIT method. It is selected through Natural Prose Editor and needs no separate provider installation. Its unchanged original procedure links to newly authored first-party prose and narrative support guides. [Provenance](marketplace/human-writing/human-writing/PROVENANCE.md) distinguishes that current repair from the unrecovered historical support files. Earlier standalone installer observations remain historical evidence and do not describe the current in-plugin route.
 
+
 ## Other hosts
 
-The Codex marketplace identities above are not Claude installation commands. Use packaged first-party and licensed procedures on another host unless its actual publisher installation and skill loading are independently verified.
+The bundled Studio methods use the same source on supported hosts. A connected tool or separately selected OpenAI method still needs its own actual host access.

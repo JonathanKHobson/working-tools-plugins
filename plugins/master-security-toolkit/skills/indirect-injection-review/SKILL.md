@@ -10,9 +10,9 @@ When orientation helps, briefly name this skill’s outcome, needed input and ex
 
 Focused review of untrusted-content sources as possible indirect prompt-injection vectors.
 
-## Optional provider depth
+## Complete native support
 
-If `injection-checker:indirect-injection-review` is actually discovered on this host, read its full installed skill before starting and apply it alongside the first-party workflow below. The complete provider method comes from the official `injection-checker@openai-curated-remote` plugin. In Codex, install it through the native plugin manager and start a fresh task to discover the namespaced skill. Claude provider discovery has not yet been verified. If the skill is unavailable, complete the first-party workflow below, report that the external depth procedure could not be loaded, and do not claim provider review. Do not copy its body from another cache or replace it with a topical synopsis.
+Use this full procedure with the task-matching [injection patterns](../instruction-security-review/references/injection-review-patterns.md) and [tool authority/finding calibration](../instruction-security-review/references/tool-authority-and-calibration.md). No separate injection-review plugin is needed. Report unavailable runtime evidence or an unexercised test precisely; source inspection is not proof of control enforcement.
 
 ## Workflow
 

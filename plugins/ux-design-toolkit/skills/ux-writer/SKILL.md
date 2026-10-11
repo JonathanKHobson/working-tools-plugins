@@ -17,7 +17,7 @@ Errors explain what happened and how to recover; add consequences and an escape 
 
 Read [copy patterns](references/copy-patterns.md), [plain-language examples](references/plain-language-transforms.md) or [voice and tone](references/voice-tone-templates.md) only for those needs. For structural or visual problems use `design-studio`; for a formal evidence/severity report use `ux-heuristic-compass`. Neither is required for a label rewrite.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/ux-writer.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/ux-writer.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For a deliberately selected generic writing voice, read [writing voices in product copy](references/writing-voice-library.md). Keep action/state correctness with UX Writer and retrieve full voice guidance from its writing owner.
 

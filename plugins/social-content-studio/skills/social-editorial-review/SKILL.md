@@ -14,7 +14,7 @@ Read the task-matching files below in full before applying that procedure. Load 
 - [Scoring And Linting](../../references/social-methods/scoring-and-linting.md) — read for an editorial or readiness audit with its stated limits.
 - [Post Draft Gate](../../references/social-methods/post-draft-gate.md) — read when checking factual support, privacy and readiness of post copy.
 - [Output Contract](../../references/social-methods/output-contract.md) — read when reporting a reviewed draft and publication status.
-- [Provider social prose handoff](../../references/social-methods/provider-social-prose.md) — use the installed full AIHumanizer social-media skill when a matching writing pattern or edge case needs detail.
+- [Social prose revision](../../references/social-methods/provider-social-prose.md): apply the complete included method for voice, structure, format adaptation and claim-preserving revision.
 
 ## Workflow
 

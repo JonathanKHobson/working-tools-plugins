@@ -1,6 +1,6 @@
 # Career outreach methods
 
-Use the one first-party section that matches the request. These methods retain the substantive sequence and output requirements adapted from the Cover Letter Writer procedures. Optional complete provider depth is available through the [installed-skill map](../../../library/source-procedures/INDEX.md) when its exact namespace is discovered. The original copied provider files are identified by path and hash in `PROVENANCE.json` and are not distributed. Affiliate footer and promotion directives do not apply to output.
+Use the first-party section matching the actual request and the [native task map](../../../library/source-procedures/INDEX.md). Historical source adaptation and exclusions remain recorded in provenance; the operative procedures below need no separately installed letter-writing plugin. The live task, verified facts and current delivery authorization govern output.
 
 ## Follow-ups and thank-you notes
 

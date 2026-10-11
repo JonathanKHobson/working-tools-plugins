@@ -23,7 +23,7 @@ Use Writing Quality Studio for a broader voice or ordinary prose pass, `career-s
 
 ## Full source procedures
 
-For manuscript or essay work, use the complete bundled [manuscript craft](references/manuscript-craft.md) and [evidence and tools](references/evidence-and-tools.md) procedures as applicable. For additional provider-specific operations, use the [provider capability map](../../library/source-procedures/INDEX.md). The provider skills are optional dependencies obtained from their publishers; this package does not contain their instruction bodies. If a provider is absent, complete the bundled procedure and name the unavailable provider-specific check rather than implying it ran.
+For manuscript or essay work, use the complete bundled [manuscript craft](references/manuscript-craft.md) and [evidence and tools](references/evidence-and-tools.md) procedures as applicable. The [native method map](../../library/source-procedures/INDEX.md) selects academic, scientific-argument and study/artifact routes. Journal-specific claims require current official instructions; no separate scientific-writing or prose-method plugin is needed.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

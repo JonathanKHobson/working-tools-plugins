@@ -16,7 +16,7 @@ The Substack publishing reference also owns optional source-grounded visual/vide
 
 Validate changed skill folders with system skill-creator's quick_validate.py and the
 existing skill-validation Python; check referenced files and actual native UI separately.
-Install through the host plugin manager, then verify skill discovery and package hashes. The optional `aihumanizer:social-media` full method is separately provider-installed; see `references/social-methods/provider-social-prose.md`.
+Install through the host plugin manager, then verify skill discovery and package hashes. The included social prose revision method is at `references/social-methods/provider-social-prose.md`; its historical filename is a local compatibility anchor, not an installation requirement.
 
 Recipient projects provide source facts, voice samples and platform authorization; the package creates no account or user-specific config. Writing-template mechanics are shared through `writing-quality-studio:voice-and-style`; this Studio retains its domain decisions. Entry points link the shared catalog by skill identity rather than copying it or hardcoding another plugin’s cache path.
 

@@ -10,14 +10,9 @@ When orientation helps, briefly name this skill’s outcome, needed input and ex
 
 Orchestrated prompt-injection risk review across prompts, retrieval, tools, and memory.
 
-## Optional provider depth and sibling methods
+## Complete native review procedures
 
-If `injection-checker:injection-checker` is actually discovered on this host, read its full installed skill (workflow, finding contract, calibration/boundaries) before starting. Route to sibling skills as needed:
-- [SKILL](../indirect-injection-review/SKILL.md) for untrusted document/retrieval/multimodal content
-- `injection-checker:agent-tool-boundaries` for tool/action authority review only when that provider skill is discovered; otherwise use [MCP Security Review](../mcp-security-review/SKILL.md) and [Permission and Data Review](../permission-and-data-review/SKILL.md) for the first-party tool and data boundaries
-- [SKILL](../security-regression-tests/SKILL.md) for turning findings into fixes and tests
-
-The complete provider methods come from the official `injection-checker@openai-curated-remote` plugin. In Codex, install it through the native plugin manager and start a fresh task to discover the namespaced skills. Claude provider discovery has not yet been verified. If a provider skill is unavailable, complete the first-party workflow below and the relevant linked sibling methods, report that the external depth procedure could not be loaded, and do not claim provider review. Do not copy its body from another cache or replace it with a topical synopsis.
+Read the task-matching [injection paths and regression patterns](references/injection-review-patterns.md). For agent actions, also read [tool authority and finding calibration](references/tool-authority-and-calibration.md). Use [indirect review](../indirect-injection-review/SKILL.md) for retrieved/untrusted content and [regression tests](../security-regression-tests/SKILL.md) for exercised controls. MCP configuration and sensitive-data permissions retain their [MCP](../mcp-security-review/SKILL.md) and [permission](../permission-and-data-review/SKILL.md) owners. These bundled methods operate without a separate injection-review plugin.
 
 ## Workflow
 

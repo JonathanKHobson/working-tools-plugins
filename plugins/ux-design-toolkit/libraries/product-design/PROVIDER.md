@@ -1,57 +1,43 @@
-# Product Design provider methods
+# Internal method compatibility routes
 
-Product Design is a separately installed provider by OpenAI, optional depth alongside this Studio's complete bundled first-party and licensed methods. Its full methods and supporting resources remain in that provider. They are not redistributed or relicensed by UX Design Studio.
-
-## Supported route and setup
-
-On a receiving Codex host, discover `product-design@openai-curated-remote` with the native plugin manager, then install it through that manager if the selected workflow needs it. Run `codex plugin list --json` and check installed/enabled state. The publisher's availability, account access and host support can change; a recorded local version is not proof of a recipient's access. The observed local version on 2026-10-10 was `0.1.56`.
-
-When a route below matches the task, locate the provider through the current host's skill discovery. Read its complete `SKILL.md` plus the required supporting files from the same installed package before executing it. Never copy an old private snapshot into the public plugin to bypass a missing provider, or treat this route table as the procedure itself. Current host tools and user authorization govern actions. Optional account integrations need their own verification.
-
-These marketplace identifiers are verified for Codex only. Do not promise that Claude Code can install an OpenAI marketplace plugin. On another host, use the publisher's supported distribution only after verifying its exact skills and support files. When unavailable, report the specific missing method. Continue an explicitly identified bundled UX workflow when that independently satisfies the task; do not label it a pass of this provider's method. If the task specifically requires this method, keep that branch pending rather than inventing an equivalent result.
-
-## Complete method routes
+This historical filename preserves old `product-design` links. Normal workflows now read complete maintained UX methods directly; no external method package is needed. The publisher source bodies/assets were not copied or relicensed. These independent procedures satisfy the listed tasks without claiming exact vendor/runtime equivalence. See [migration and coverage](../../docs/owned-methods-migration.md).
 
 ### audit
 
-Read `product-design:audit` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-review/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### design-qa
 
-Read `product-design:design-qa` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/verification.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### get-context
 
-Read `product-design:get-context` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-task-context.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ideate
 
-Read `product-design:ideate` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/decision-alternatives.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### image-to-code
 
-Read `product-design:image-to-code` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-prototyping.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### index
 
-Read `product-design:index` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../README.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### research
 
-Read `product-design:research` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/research-inputs.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### share
 
-Read `product-design:share` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-prototyping.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### url-to-code
 
-Read `product-design:url-to-code` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-prototyping.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### user-context
 
-Read `product-design:user-context` from the verified installed provider, including its required references, templates, examples and assets.
-
-## Source disposition
-
-The previously retained local provider copy is preserved in the maintainer's private migration backup. No publisher redistribution grant was established for that copy. This dependency route preserves access to the publisher's complete maintained procedure without distributing its bodies, brand assets or internal provider configuration.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-task-context.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.

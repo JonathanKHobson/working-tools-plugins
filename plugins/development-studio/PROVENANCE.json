@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "development-studio",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "reviewed_date": "2026-10-10",
   "source": "Maintained canonical development-studio source; no Git checkout",
   "source_tree_sha256": "e72cc134d64e2177e69923f79c4253405dd0922e69c70160c10f6b1eb73c2a88",
@@ -13,7 +13,7 @@
       "path": ".claude-plugin/plugin.json",
       "source": "Maintained development-studio public edition/.claude-plugin/plugin.json",
       "source_sha256": null,
-      "output_sha256": "846ccbfe82a856e8d2d6a94c19d8efdb2757a699525a0ab6bca501d601bb5375",
+      "output_sha256": "61581fb67a1b96768f03ee3bd38281808e6dcf2efc2fcb8324affe86817c4d45",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "AGPL-3.0-only",
@@ -25,7 +25,7 @@
       "path": ".codex-plugin/plugin.json",
       "source": "Maintained development-studio public edition/.codex-plugin/plugin.json",
       "source_sha256": "98d34c2384a52ba9747590854937a3351a7ede74549f80f9b82b7cf82d02b975",
-      "output_sha256": "e0ccd3760521abc9369668f3d66c3608fe8e976769f15533411e22220d81a0cc",
+      "output_sha256": "e35624a6eeff19f1e35cd6ac65b11969cab55603886e20a585e0c9e4a15b45f0",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "AGPL-3.0-only",
@@ -35,8 +35,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "78f8d4beac60e213398135f7cfd84ecba11b8f73432cfd2d388e5c884b4112b4",
-      "bytes": 614,
+      "output_sha256": "2c4a5d9c096f4836eb069401284f16f8924ec078861db7be0f158e329dcd1d39",
+      "bytes": 2587,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -76,8 +76,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "010f4e063f13520a1ae58312f8af2e8fc2fd5c7edb3c9cc909c44e121d5425a5",
-      "bytes": 131025,
+      "output_sha256": "8777879e24768563861f7f328ebf9fce01a3e1c4f09ade9e202b05d9cfcf87b7",
+      "bytes": 132456,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "disposition": "transformed",
@@ -117,7 +117,7 @@
       "path": "README.md",
       "source": "Maintained development-studio public edition/README.md",
       "source_sha256": "660f4f757a9c34c51f543b0540305aee43b7aab91830fd54225c0419cc5d2eff",
-      "output_sha256": "5b7958f6c47bc44149196ed7885c208a1923b0414c536466618068031afa820e",
+      "output_sha256": "c436275890ec951b6d9d812c98e2d90852e9f8336b7c88b0e1b0cad31ca5a8dd",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -141,7 +141,7 @@
       "path": "THIRD_PARTY_NOTICES.md",
       "source": "Maintained development-studio public edition/THIRD_PARTY_NOTICES.md",
       "source_sha256": null,
-      "output_sha256": "fffebc7ecbf54f38929b251a5d4e6b7e5e912497eb03a52d92023516f4c6838d",
+      "output_sha256": "172ddd780d782ba95c6b53fe45222fbdfaab58d46ad281fff4cc52454ba7ee99",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "See document",
@@ -244,7 +244,7 @@
       "path": "docs/project-map.md",
       "source": "Maintained development-studio public edition/docs/project-map.md",
       "source_sha256": "2cb9c2ad0e8f0c3c53508771eeb1ff5e09c8385123623838de1e72c6d1047ace",
-      "output_sha256": "e26206060dce3178ce55ddc87ee56ab255830b28fbfc2731eb92773e5bdfad07",
+      "output_sha256": "079f1027c87a874da168bfc50706ef875b8542b624ece08d3a973d5eb113c891",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -314,7 +314,7 @@
       "path": "docs/standalone-imports.json",
       "source": "Maintained development-studio public edition/docs/standalone-imports.json",
       "source_sha256": null,
-      "output_sha256": "26306045af2c0b010ded414f1e4d34867c155f2ab1150fb55c4aa843483e782d",
+      "output_sha256": "42ccebea2e30022f40d974859d6844f9616600d36bebc83c42b3d51d7af67fd5",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "AGPL-3.0-only",
@@ -2314,7 +2314,7 @@
       "path": "plugin.json",
       "source": "Maintained development-studio public edition/plugin.json",
       "source_sha256": null,
-      "output_sha256": "e5b01c7fb05fa95f27fb62ff13a382e924661c938a9b95091f07f3af80e1457d",
+      "output_sha256": "230e596cf03d9f9ea475d1a670fdb79e5a7f86c4447dba601d38509b68c185eb",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "AGPL-3.0-only",
@@ -2558,7 +2558,7 @@
       "path": "skills/debug-software/SKILL.md",
       "source": "Maintained development-studio public edition/skills/debug-software/SKILL.md",
       "source_sha256": "45f1e36ec8ed913439d93b066cfc920681c58997e480cdd78d01f90a34f16769",
-      "output_sha256": "45f1e36ec8ed913439d93b066cfc920681c58997e480cdd78d01f90a34f16769",
+      "output_sha256": "1dca46486b3bc46c1a4745605f97550f5e0c218258eb474052b94266284ea179",
       "transformed": false,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -2638,7 +2638,7 @@
       "path": "skills/development-studio/SKILL.md",
       "source": "Maintained development-studio public edition/skills/development-studio/SKILL.md",
       "source_sha256": "ac1d58ac41ede773edc3d2796c9bc29c1997801f1cffdd747074a614a2207329",
-      "output_sha256": "84f6b7d7e43a917553543abbd9386824c3b5a35ffd67103787e3541b22f46dd3",
+      "output_sha256": "3f0680f4a82471536ad369795bbe51ff7e4662d2bafddde954f27c79fdcd8238",
       "transformed": true,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -2838,7 +2838,7 @@
       "path": "skills/implement-software/SKILL.md",
       "source": "Maintained development-studio public edition/skills/implement-software/SKILL.md",
       "source_sha256": "1ac8b1ceea41fbde6e90c6278ccc11099d94de6e51c99c09318634fa2eb781a1",
-      "output_sha256": "1ac8b1ceea41fbde6e90c6278ccc11099d94de6e51c99c09318634fa2eb781a1",
+      "output_sha256": "59b6f7c235d3f76fa39a568f25a606fc999405d92ce53c52c326e78d4e2670e3",
       "transformed": false,
       "rights": "Retained original public-edition source/license scope, or authored integration metadata; upstream notices remain",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -3038,7 +3038,7 @@
       "path": "skills/systematic-debugging/SKILL.md",
       "source": "standalone/systematic-debugging/SKILL.md",
       "source_sha256": "7265da8d685838c38833b5653dcd6c81459b1b00e10afe533ade50e09b4b3832",
-      "output_sha256": "5abefe3d1f56a6387cd7dabccf5c90d42a271087139f34be7f8a10999b68cb42",
+      "output_sha256": "c0df26437c56af17a3680f52089fee60397cc09b70c95b53dcb4c64a2af89862",
       "transformed": true,
       "rights": "MIT-derived local adaptation; exact source repository notices retained",
       "edition_license_scope": "MIT-derived local adaptation; exact source repository notices retained",
@@ -3130,12 +3130,78 @@
       "output_sha256": "91b11d42f9924aee54ad0372a661f39e32d1e1e812c9c92cf8b999c6cd92bab0",
       "disposition": "authored-public-maintenance",
       "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "references/matt-pocock-LICENSE.txt",
+      "source_relative": "references/matt-pocock-LICENSE.txt",
+      "source_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "output_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "bytes": 1068,
+      "change": "Exact retained upstream MIT notice",
+      "license_scope_category": "retained-upstream-license",
+      "edition_license_scope": "MIT",
+      "upstream": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "LICENSE"
+        ],
+        "license": "MIT",
+        "copyright": "2026 Matt Pocock",
+        "notice": "references/matt-pocock-LICENSE.txt"
+      },
+      "license_notice": "Upstream grant remains MIT; author-owned additions follow LICENSING.md."
+    },
+    {
+      "path": "references/module-design-review.md",
+      "source_relative": "references/module-design-review.md",
+      "source_sha256": "8b83eece46c8ee92e79576dd22d345651f0347b42898fbc08f8b638f24e4942c",
+      "output_sha256": "8b83eece46c8ee92e79576dd22d345651f0347b42898fbc08f8b638f24e4942c",
+      "bytes": 3941,
+      "change": "Reviewed selective procedural adaptation; exact upstream source paths and current host boundaries retained in the document.",
+      "license_scope_category": "upstream-derived-method",
+      "edition_license_scope": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "upstream": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/codebase-design/SKILL.md",
+          "skills/engineering/codebase-design/DEEPENING.md",
+          "skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+          "skills/engineering/improve-codebase-architecture/SKILL.md"
+        ],
+        "license": "MIT",
+        "copyright": "2026 Matt Pocock",
+        "notice": "references/matt-pocock-LICENSE.txt"
+      },
+      "license_notice": "Upstream grant remains MIT; author-owned additions follow LICENSING.md."
+    },
+    {
+      "path": "references/reproduction-quality.md",
+      "source_relative": "references/reproduction-quality.md",
+      "source_sha256": "faaead79df69445d25ef5e0f5ffcf4f2ef1a42e1c3be33054cb32b8373118278",
+      "output_sha256": "faaead79df69445d25ef5e0f5ffcf4f2ef1a42e1c3be33054cb32b8373118278",
+      "bytes": 3142,
+      "change": "Reviewed selective procedural adaptation; exact upstream source paths and current host boundaries retained in the document.",
+      "license_scope_category": "upstream-derived-method",
+      "edition_license_scope": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "upstream": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/diagnosing-bugs/SKILL.md"
+        ],
+        "license": "MIT",
+        "copyright": "2026 Matt Pocock",
+        "notice": "references/matt-pocock-LICENSE.txt"
+      },
+      "license_notice": "Upstream grant remains MIT; author-owned additions follow LICENSING.md."
     }
   ],
   "added_files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "846ccbfe82a856e8d2d6a94c19d8efdb2757a699525a0ab6bca501d601bb5375"
+      "output_sha256": "61581fb67a1b96768f03ee3bd38281808e6dcf2efc2fcb8324affe86817c4d45"
     },
     {
       "path": "LICENSE",
@@ -3155,7 +3221,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "fffebc7ecbf54f38929b251a5d4e6b7e5e912497eb03a52d92023516f4c6838d"
+      "output_sha256": "172ddd780d782ba95c6b53fe45222fbdfaab58d46ad281fff4cc52454ba7ee99"
     },
     {
       "path": "docs/first-party-lineage.json",
@@ -3163,7 +3229,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "e5b01c7fb05fa95f27fb62ff13a382e924661c938a9b95091f07f3af80e1457d"
+      "output_sha256": "230e596cf03d9f9ea475d1a670fdb79e5a7f86c4447dba601d38509b68c185eb"
     }
   ],
   "acceptance_boundary": "Exact source/output and static/helper/synthetic tests only. No native installation, live MCP/App/provider, deployment, learner or rendered proof.",
@@ -3491,7 +3557,7 @@
       "source": "standalone/systematic-debugging/SKILL.md",
       "path": "skills/systematic-debugging/SKILL.md",
       "source_sha256": "7265da8d685838c38833b5653dcd6c81459b1b00e10afe533ade50e09b4b3832",
-      "output_sha256": "5abefe3d1f56a6387cd7dabccf5c90d42a271087139f34be7f8a10999b68cb42",
+      "output_sha256": "c0df26437c56af17a3680f52089fee60397cc09b70c95b53dcb4c64a2af89862",
       "rights": "MIT-derived local adaptation; exact source repository notices retained"
     },
     {

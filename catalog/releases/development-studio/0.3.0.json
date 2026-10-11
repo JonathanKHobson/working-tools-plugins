@@ -1,0 +1,28 @@
+{
+  "product_id": "development-studio",
+  "version": "0.3.0",
+  "previous_version": "0.2.3",
+  "git_tag": "development-studio/v0.3.0",
+  "notes": "Strengthen module-design comparison and difficult-bug reproduction within existing development methods.\n\nThe current development and debugging routes gain concrete checks for caller contracts, module boundaries, intermittent failures and comparable performance evidence.\n\n- Adds module-design review covering caller contracts, alternatives, dependency boundaries and coverage-preserving refactors.\n- Adds symptom-specific reproduction, bounded intermittent evidence and comparable performance baselines.\n- Routes these checks conditionally through development-studio, debug-software and systematic-debugging while keeping one primary debugging method.\n- Connects implementation slicing to Work Management when available, with a local fallback when it is absent.\n- Corrects an adaptation description and refreshes attribution and generated package metadata.\n\nSelected procedural adaptations from mattpocock/skills at commit 49dd158d1076134a641b33efb035946536778336 retain exact source paths and complete MIT notices. No upstream installer, runtime, hook, dependency or timed schedule is included.\n\nCompatibility: Compatible optional method additions to 0.2.3. Existing skills and provider boundaries remain unchanged. Work Management is optional for the planning handoff, with an explicit fallback.\n\nUpgrade: Update the existing plugin to 0.3.0. Use the same development, implementation and debugging entrypoints; no project dependency migration is required.\n\nValidation: The cumulative source handoff verified all 33 changed canonical/installed file hashes and checked changed skill routing and relative links. Independent review covered the nine new method references and their license closure. Fictional scenario reviews provide static behavioral evidence only; they do not establish executed workflow performance or learner outcomes. Public projection corrections and generated metadata are checked separately by the release inventory and package validation.",
+  "summary": "Strengthen module-design comparison and difficult-bug reproduction within existing development methods.",
+  "compatibility": "Compatible optional method additions to 0.2.3. Existing skills and provider boundaries remain unchanged. Work Management is optional for the planning handoff, with an explicit fallback.",
+  "upgrade_guidance": "Update the existing plugin to 0.3.0. Use the same development, implementation and debugging entrypoints; no project dependency migration is required.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/project-map.md",
+    "docs/standalone-imports.json",
+    "references/matt-pocock-LICENSE.txt",
+    "references/module-design-review.md",
+    "references/reproduction-quality.md",
+    "skills/debug-software/SKILL.md",
+    "skills/development-studio/SKILL.md",
+    "skills/implement-software/SKILL.md",
+    "skills/systematic-debugging/SKILL.md"
+  ],
+  "shared_sources": [],
+  "validation": "The cumulative source handoff verified all 33 changed canonical/installed file hashes and checked changed skill routing and relative links. Independent review covered the nine new method references and their license closure. Fictional scenario reviews provide static behavioral evidence only; they do not establish executed workflow performance or learner outcomes. Public projection corrections and generated metadata are checked separately by the release inventory and package validation."
+}

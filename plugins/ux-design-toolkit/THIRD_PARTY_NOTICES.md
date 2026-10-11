@@ -1,6 +1,6 @@
 # Third-party notices and source boundaries
 
-The original UX Design Studio methods use the first-party grants in [LICENSING.md](LICENSING.md). Imported work below retains its own license and notices. The [file inventory](LICENSE-SCOPE.json) records each public file's scope. Provider routes do not import the provider method bodies.
+The original UX Design Studio methods use the first-party grants in [LICENSING.md](LICENSING.md). Imported work below retains its own license and notices. The [file inventory](LICENSE-SCOPE.json) records each public file's scope. Historical compatibility routes do not import publisher method bodies.
 
 | Retained source | Grant and local notice |
 | --- | --- |
@@ -14,4 +14,4 @@ The original UX Design Studio methods use the first-party grants in [LICENSING.m
 | Motion and vector source adaptations | Source-specific license copies under [docs/source-licenses](docs/source-licenses/) and the [motion notice](docs/motion-svg-source-notices.md). |
 | Frontend slides reference | Retained [license](skills/design-studio/references/frontend-slides-LICENSE.txt). |
 
-The Product Design, UIUXDesigner and Spreadsheet Human UX routes identify publishers, package versions and supported use-time loading. Their source bodies and assets are omitted pending exact redistribution grants. Codex Material Themes is also a dependency route; its upstream distribution grant was not established, so no theme catalog or builder is copied. Recipient-installed providers and dependencies retain their own terms.
+Product Design, UIUXDesigner and Spreadsheet Human UX source bodies and assets remain omitted pending exact redistribution grants. Historical filenames now redirect to independently authored internal UX methods; routine task routes do not require those packs. See [migration](docs/owned-methods-migration.md). Codex Material Themes is third-party catalog/builder content, not an OpenAI runtime; its distribution grant was not established, so none of its catalog, builder or previews is copied. Its historical route records that omission and selects the original internal appearance method. Actual app/runtime dependencies retain their own terms.

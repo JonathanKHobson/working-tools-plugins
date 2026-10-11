@@ -7,7 +7,11 @@ description: "Reproduce and diagnose a software failure using evidence, a falsif
 
 Read [method adaptation](../../references/method-adaptation.md) before a preserved Superpowers method. Read each selected method completely and its required support. The snapshot provides the actual procedure; the route below selects it. Current host tools and user authorization govern execution.
 
+Use one primary debugging procedure: this route selects the preserved method below; if the existing `systematic-debugging` skill is already active, continue there and use the same conditional reproduction reference without starting a second diagnosis.
+
 Apply the complete [systematic debugging method](../../libraries/superpowers-6.4.2/skills/systematic-debugging/SKILL.md) before changing code. Its root-cause tracing, defense-in-depth and condition-based waiting references remain available beside the source method.
+
+For intermittent failures, performance problems or a reproduction that may miss the reported symptom, read [reproduction quality](../../references/reproduction-quality.md).
 
 1. Capture the actual failure, expected result, environment, inputs and last known good state. Separate the observation from proposed causes.
 2. Trace the failing data or state across boundaries. Use [code navigation](../../references/code-navigation.md) for definitions, call sites and exact configuration references. Find a working comparison and form one falsifiable hypothesis.

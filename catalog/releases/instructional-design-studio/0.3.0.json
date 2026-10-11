@@ -1,0 +1,23 @@
+{
+  "product_id": "instructional-design-studio",
+  "version": "0.3.0",
+  "previous_version": "0.2.2",
+  "git_tag": "instructional-design-studio/v0.3.0",
+  "notes": "Add exercise packaging with stable lesson IDs, separated answers and learner-path checks.\n\nCourse-production handoff can prepare consistent problem, solution and explainer variants while preserving references and making incomplete delivery checks visible.\n\n- Adds one conditional exercise-packaging reference under course-production-handoff.\n- Preserves stable lesson and exercise identities across problem, solution and explainer variants.\n- Separates learner prompts from answers, and checks sequence, prerequisites and supporting files.\n- Identifies external migration dependencies and records what has or has not been tried with learners.\n- Updates the existing skill route, project map, MIT attribution and generated package metadata.\n\nSelected procedural adaptations from mattpocock/skills at commit 49dd158d1076134a641b33efb035946536778336 retain exact source paths and complete MIT notices. No upstream installer, runtime, hook, dependency or timed schedule is included.\n\nCompatibility: Compatible optional method addition to 0.2.2. Existing course-production-handoff invocation and installation layout remain supported; no new platform or LMS dependency is installed.\n\nUpgrade: Update the existing plugin to 0.3.0. Use course-production-handoff for an approved course or exercise pack; retain established IDs and verify the destination workflow separately.\n\nValidation: The cumulative source handoff verified all 33 changed canonical/installed file hashes and checked changed skill routing and relative links. Independent review covered the nine new method references and their license closure. Fictional scenario reviews provide static behavioral evidence only; they do not establish executed workflow performance or learner outcomes. Public projection corrections and generated metadata are checked separately by the release inventory and package validation.",
+  "summary": "Add exercise packaging with stable lesson IDs, separated answers and learner-path checks.",
+  "compatibility": "Compatible optional method addition to 0.2.2. Existing course-production-handoff invocation and installation layout remain supported; no new platform or LMS dependency is installed.",
+  "upgrade_guidance": "Update the existing plugin to 0.3.0. Use course-production-handoff for an approved course or exercise pack; retain established IDs and verify the destination workflow separately.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/project-map.md",
+    "skills/course-production-handoff/SKILL.md",
+    "skills/course-production-handoff/references/exercise-packaging.md",
+    "skills/course-production-handoff/references/matt-pocock-LICENSE.txt"
+  ],
+  "shared_sources": [],
+  "validation": "The cumulative source handoff verified all 33 changed canonical/installed file hashes and checked changed skill routing and relative links. Independent review covered the nine new method references and their license closure. Fictional scenario reviews provide static behavioral evidence only; they do not establish executed workflow performance or learner outcomes. Public projection corrections and generated metadata are checked separately by the release inventory and package validation."
+}

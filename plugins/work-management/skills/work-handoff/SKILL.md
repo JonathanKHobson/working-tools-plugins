@@ -38,6 +38,8 @@ Good: â€œSource fixed, tests passed; hosted page unverified; verify this route.â
 
 For a source-supported portfolio/content or authorized friend/collaborator handoff, read [corpus and publication handoff](../evidence-review/references/corpus-and-publication-handoff.md) for relevant evidence, digest versus hosted artifact selection and recipient-access/delivery proof. For a selected reusable browser/app interaction correction, read [interface learning](references/interface-learning.md); current controls and state must be rechecked before reuse.
 
+For setup or a cutover waiting on a genuinely human-only action, read [human-only setup](references/human-only-setup.md) to prepare the next action and its verification while continuing independent work.
+
 ## Shareable web artifacts
 
 When the user requests a shareable or Sites artifact, read [the shared-site procedure](references/shareables-site.md). If they selected or explicitly configured an existing maintained site, add a page there and update its homepage; otherwise establish the intended destination from the current task. Do not register a separate site without that scope.

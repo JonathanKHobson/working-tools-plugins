@@ -14,18 +14,20 @@ Design or review the human interaction layer of a workbook, tracker, model or sp
 
 Select by the triggers below. Read the complete chosen procedure and its required support; skip unrelated variants. These links preserve the full methods.
 
-- [Complete spreadsheet usability method](../../libraries/spreadsheet-human-ux/PROVIDER.md#spreadsheet-human-ux) — For workbook interaction design/review; inputs, navigation and decision safety.
+- [Complete spreadsheet usability method](../design-studio/references/spreadsheet-usability.md) — For workbook interaction design/review; inputs, navigation and decision safety.
 - [Host/provider adaptation](../../docs/full-design-host-adapter.md) — Before acting through a selected design/artifact provider; current host boundaries.
 
 ## Workflow
 
 1. Inspect the actual workbook and intended decision, audience, inputs and risks; keep formulas and data authority with the spreadsheet provider.
-2. Read the complete Spreadsheet Human UX method and required templates. Apply its navigation, input safety, resumability, hierarchy and trust checks.
+2. Read and apply the complete internal workbook method: task/decision contract, architecture, input/error safety, readable results, recovery/resume, accessibility and source traceability. Use its worked fixture and acceptance tasks proportionately.
 3. Exercise changed user paths and inspect the actual rendered workbook; separate formula correctness, visual review and interaction evidence.
 
 ## Deliver and verify
 
 Deliver usable workbook changes or evidence-backed review, including untested behaviors. Use Data Visualization for chart semantics and the actual Spreadsheets provider for file mechanics.
+
+The complete method is bundled here and works without a separate spreadsheet-method plugin. Native workbook operations still require a callable spreadsheet runtime; report that execution limit and provide the actionable review/specification when file access is unavailable.
 
 ## Example boundary
 

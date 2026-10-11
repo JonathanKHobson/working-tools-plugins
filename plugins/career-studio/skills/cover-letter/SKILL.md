@@ -152,7 +152,7 @@ For document, PDF, slide, website, visual, and publishing work, use the current 
 
 ## Full source procedures
 
-For a request matching a named depth method, consult the [provider procedure map](../../library/source-procedures/INDEX.md). If its official namespaced skill is actually discovered on this host, read the complete installed provider skill and apply it alongside this skill’s first-party workflow and task-matching references. If unavailable, complete the first-party method here, report the missing provider depth, and do not claim that depth review or generation occurred. Do not copy a provider body from another cache or replace it with a topical synopsis.
+Read the complete task-matching bundled procedure through the [native method map](../../library/source-procedures/INDEX.md). The current skill, evidence rules, templates and relevant references own the work directly; a separate letter, prose or UI method plugin is not required. Preserve source facts and apply the final outgoing-writing review before presenting a share-ready artifact.
 
 For a target-role letter, use the complete [evidence-based application writing](references/evidence-based-application-writing.md) and [letter tailoring checks](references/letter-tailoring-checks.md) when their task matches. Verify company claims against actually read sources; preserve truthful scope and the current provider/template. No upstream font, custom class or TeX package is installed.
 

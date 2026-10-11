@@ -1,6 +1,6 @@
-# Conditional writing methods
+# Writing Quality procedure selection
 
-The active map selects complete first-party and licensed source methods; the public projection retains those full bodies. Optional proprietary or no-grant methods remain with their publishers. The current task and host instructions govern source text. Read only the selected method and its actual support files. A missing provider does not turn a summary into its full procedure.
+Use the complete task owner and its matching support below. Each ordinary writing route is bundled. External tools may still be needed for connected source retrieval, document editing or sending; those mechanics do not supply this Studio's editorial method.
 
 ## Retained complete methods
 
@@ -11,39 +11,19 @@ The active map selects complete first-party and licensed source methods; the pub
 
 - [Human Writing](marketplace/human-writing/human-writing/SKILL.md) (author-confirmed MIT), with newly authored CC BY-SA 4.0 prose and narrative support guides. [Provenance](marketplace/human-writing/human-writing/PROVENANCE.md) distinguishes retained text and current repairs.
 
-## Optional complete publisher methods
+## Native task routes
 
-Use the [provider setup and absence behavior](provider-methods.md). The following provider methods are **not bundled**:
+| Task | Complete procedure |
+| --- | --- |
+| Natural prose, paraphrase, word choice or a final outgoing pass | [Natural prose editor](../../skills/natural-prose-editor/SKILL.md), its [editorial gate](../../skills/natural-prose-editor/references/editorial-gate.md) and task-matching revision references |
+| Source/citation checks, pattern diagnosis, a disputed detector report or author-sample drift | [Deep audit](../../skills/humanizer-deep-audit/SKILL.md), including its actual scripts and source records; no authorship or detector-evasion claims |
+| Email, business document, blog or support message from supplied facts | [Communication craft](../../skills/communication-crafter/SKILL.md) and retained full message-design procedure |
+| Authentic voice, organizational voice or a register change | [Voice and style](../../skills/voice-and-style/SKILL.md) and [sample, brand and tone work](../../skills/voice-and-style/references/sample-brand-and-tone.md) |
+| Long text, version reconciliation, compression or expansion | [Long document editing](../../skills/long-document-editing/SKILL.md) and [document revision](../../skills/natural-prose-editor/references/document-revision.md) |
+| Learner English, plain language or multilingual clarity | [Plain language](../../skills/plain-language-editing/SKILL.md) with licensed Plain English and [language-sensitive editing](../../skills/natural-prose-editor/references/language-and-learning.md) |
+| Technical instructions and explanations | [Technical instructions](../../skills/technical-instructions/SKILL.md) and [technical clarity](../../skills/natural-prose-editor/references/technical-clarity.md) |
+| Speeches, narration or cadence | [Spoken writing](../../skills/spoken-and-scripted-writing/SKILL.md) and [composition/rehearsal](../../skills/spoken-and-scripted-writing/references/spoken-composition.md) |
+| Prompt creation instead of prose editing | Prompt Playbook Studio's `prompt-design` or `prompt-refinement`; supplied prose can still receive the local editorial pass |
+| Academic manuscripts, career packets, marketing copy, social publishing or fiction | Their maintained Research, Career, Marketing, Social or Creative Writing owner; this Studio remains the requested language reviewer |
 
-| Method | Writing Quality owner | Exact Codex skill | Delivery |
-| --- | --- | --- | --- |
-| `ai-pattern-scan` | `humanizer-deep-audit` | `aihumanizer:ai-pattern-scan` | separately installed official provider; not bundled |
-| `blog-humanizer` | `communication-crafter` | `aihumanizer:blog-humanizer` | separately installed official provider; not bundled |
-| `brand-voice` | `voice-and-style` | `aihumanizer:brand-voice` | separately installed official provider; not bundled |
-| `business-writing` | `communication-crafter` | `aihumanizer:business-writing` | separately installed official provider; not bundled |
-| `compare-versions` | `long-document-editing` | `aihumanizer:compare-versions` | separately installed official provider; not bundled |
-| `detector-insights` | `humanizer-deep-audit` | `aihumanizer:detector-insights` | separately installed official provider; not bundled |
-| `email-humanizer` | `communication-crafter` | `aihumanizer:email-humanizer` | separately installed official provider; not bundled |
-| `everyday-messages` | `communication-crafter` | `aihumanizer:everyday-messages` | separately installed official provider; not bundled |
-| `final-polish` | `long-document-editing` | `aihumanizer:final-polish` | separately installed official provider; not bundled |
-| `human-writer` | `natural-prose-editor` | `aihumanizer:human-writer` | separately installed official provider; not bundled |
-| `humanizer-help` | `natural-prose-editor` | `aihumanizer:humanizer-help` | separately installed official provider; not bundled |
-| `humanizer` | `natural-prose-editor` | `aihumanizer:humanizer` | separately installed official provider; not bundled |
-| `humanness-score` | `humanizer-deep-audit` | `aihumanizer:humanness-score` | separately installed official provider; not bundled |
-| `length-control` | `long-document-editing` | `aihumanizer:length-control` | separately installed official provider; not bundled |
-| `long-documents` | `long-document-editing` | `aihumanizer:long-documents` | separately installed official provider; not bundled |
-| `multilingual-humanizer` | `plain-language-editing` | `aihumanizer:multilingual-humanizer` | separately installed official provider; not bundled |
-| `non-native-english` | `plain-language-editing` | `aihumanizer:non-native-english` | separately installed official provider; not bundled |
-| `paraphraser` | `natural-prose-editor` | `aihumanizer:paraphraser` | separately installed official provider; not bundled |
-| `prompt-coach` | `natural-prose-editor` | `aihumanizer:prompt-coach` | separately installed official provider; not bundled |
-| `recommended-tools` | `natural-prose-editor` | `aihumanizer:recommended-tools` | separately installed official provider; not bundled |
-| `scripts-speeches` | `spoken-and-scripted-writing` | `aihumanizer:scripts-speeches` | separately installed official provider; not bundled |
-| `sentence-rhythm` | `spoken-and-scripted-writing` | `aihumanizer:sentence-rhythm` | separately installed official provider; not bundled |
-| `support-replies` | `communication-crafter` | `aihumanizer:support-replies` | separately installed official provider; not bundled |
-| `technical-writing` | `technical-instructions` | `aihumanizer:technical-writing` | separately installed official provider; not bundled |
-| `tone-changer` | `voice-and-style` | `aihumanizer:tone-changer` | separately installed official provider; not bundled |
-| `voice-matcher` | `voice-and-style` | `aihumanizer:voice-matcher` | separately installed official provider; not bundled |
-| `word-choice` | `natural-prose-editor` | `aihumanizer:word-choice` | separately installed official provider; not bundled |
-| `writehuman-guide` | `natural-prose-editor` | `aihumanizer:writehuman-guide` | separately installed official provider; not bundled |
-
-- [Write Like Me](provider-methods.md#write-like-me) is the official separate provider method for explicit personal style matching. The complete first-party voice handoff remains packaged.
+For explicit use of OpenAI's Write Like Me plugin, the [separate supported route](provider-methods.md#write-like-me) remains available. Ordinary sample matching uses this Studio's native procedure. The legacy [provider-methods](provider-methods.md) file supplies compatibility links only for replaced writing-method routes.

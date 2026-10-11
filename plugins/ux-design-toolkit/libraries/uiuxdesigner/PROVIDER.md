@@ -1,153 +1,139 @@
-# UI UX Designer provider methods
+# Internal method compatibility routes
 
-UI UX Designer is a separately installed provider by Fasih, optional depth alongside this Studio's complete bundled first-party and licensed methods. Its full methods and supporting resources remain in that provider. They are not redistributed or relicensed by UX Design Studio.
-
-## Supported route and setup
-
-On a receiving Codex host, discover `uiuxdesigner@openai-curated-remote` with the native plugin manager, then install it through that manager if the selected workflow needs it. Run `codex plugin list --json` and check installed/enabled state. The publisher's availability, account access and host support can change; a recorded local version is not proof of a recipient's access. The observed local version on 2026-10-10 was `1.1.0`.
-
-When a route below matches the task, locate the provider through the current host's skill discovery. Read its complete `SKILL.md` plus the required supporting files from the same installed package before executing it. Never copy an old private snapshot into the public plugin to bypass a missing provider, or treat this route table as the procedure itself. Current host tools and user authorization govern actions. Optional account integrations need their own verification.
-
-These marketplace identifiers are verified for Codex only. Do not promise that Claude Code can install an OpenAI marketplace plugin. On another host, use the publisher's supported distribution only after verifying its exact skills and support files. When unavailable, report the specific missing method. Continue an explicitly identified bundled UX workflow when that independently satisfies the task; do not label it a pass of this provider's method. If the task specifically requires this method, keep that branch pending rather than inventing an equivalent result.
-
-## Complete method routes
+This historical filename preserves old `uiuxdesigner` links. Normal workflows now read complete maintained UX methods directly; no external method package is needed. The publisher source bodies/assets were not copied or relicensed. These independent procedures satisfy the listed tasks without claiming exact vendor/runtime equivalence. See [migration and coverage](../../docs/owned-methods-migration.md).
 
 ### accessibility-audit
 
-Read `uiuxdesigner:accessibility-audit` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-review/references/accessibility-evidence.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### aidesigner-guide
 
-Read `uiuxdesigner:aidesigner-guide` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-task-context.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### color-typography-theming
 
-Read `uiuxdesigner:color-typography-theming` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-foundations.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### component-design
 
-Read `uiuxdesigner:component-design` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-components.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### conversion-optimization
 
-Read `uiuxdesigner:conversion-optimization` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#conversion-and-ecommerce) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### dashboard-saas-ui
 
-Read `uiuxdesigner:dashboard-saas-ui` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/dashboard-design/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### design-handoff
 
-Read `uiuxdesigner:design-handoff` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#design-to-code-and-handoff) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### design-inspiration-trends
 
-Read `uiuxdesigner:design-inspiration-trends` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-reference-lookup/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### design-system-builder
 
-Read `uiuxdesigner:design-system-builder` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-method.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### design-to-code
 
-Read `uiuxdesigner:design-to-code` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-prototyping.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ecommerce-ux
 
-Read `uiuxdesigner:ecommerce-ux` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#conversion-and-ecommerce) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### figma-workflow
 
-Read `uiuxdesigner:figma-workflow` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/figma-stitch.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### forms-onboarding-ux
 
-Read `uiuxdesigner:forms-onboarding-ux` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/interaction-resilience/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### high-fidelity-mockups
 
-Read `uiuxdesigner:high-fidelity-mockups` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#wireframes-and-high-fidelity-mockups) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### information-architecture
 
-Read `uiuxdesigner:information-architecture` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#information-architecture) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### landing-page-design
 
-Read `uiuxdesigner:landing-page-design` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#website-and-landing-page-composition) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### layout-grid-hierarchy
 
-Read `uiuxdesigner:layout-grid-hierarchy` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-web-identity.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### microinteractions-motion
 
-Read `uiuxdesigner:microinteractions-motion` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/motion-and-performance/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### mobile-app-ui
 
-Read `uiuxdesigner:mobile-app-ui` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/responsive-design/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### personas-journey-maps
 
-Read `uiuxdesigner:personas-journey-maps` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#evidence-grounded-personas-journeys-and-research-plans) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### prototyping
 
-Read `uiuxdesigner:prototyping` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-prototyping.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### recommended-tools
 
-Read `uiuxdesigner:recommended-tools` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#tool-selection-and-capability-help) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### redesign-makeover
 
-Read `uiuxdesigner:redesign-makeover` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-review/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ui-ux-designer
 
-Read `uiuxdesigner:ui-ux-designer` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ui-ux-help
 
-Read `uiuxdesigner:ui-ux-help` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../README.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### usability-testing
 
-Read `uiuxdesigner:usability-testing` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/usability-testing.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### user-flows
 
-Read `uiuxdesigner:user-flows` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#user-flows-and-state-contracts) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ux-audit-critique
 
-Read `uiuxdesigner:ux-audit-critique` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/ux-heuristic-compass/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ux-career-interview
 
-Read `uiuxdesigner:ux-career-interview` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#tool-selection-and-capability-help) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ux-portfolio-case-study
 
-Read `uiuxdesigner:ux-portfolio-case-study` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#tool-selection-and-capability-help) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ux-research-plan
 
-Read `uiuxdesigner:ux-research-plan` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#evidence-grounded-personas-journeys-and-research-plans) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### ux-writing-microcopy
 
-Read `uiuxdesigner:ux-writing-microcopy` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/ux-writer/SKILL.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### website-ui-design
 
-Read `uiuxdesigner:website-ui-design` from the verified installed provider, including its required references, templates, examples and assets.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#website-and-landing-page-composition) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### wireframes
 
-Read `uiuxdesigner:wireframes` from the verified installed provider, including its required references, templates, examples and assets.
-
-## Source disposition
-
-The previously retained local provider copy is preserved in the maintainer's private migration backup. No publisher redistribution grant was established for that copy. This dependency route preserves access to the publisher's complete maintained procedure without distributing its bodies, brand assets or internal provider configuration.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-experience-methods.md#wireframes-and-high-fidelity-mockups) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.

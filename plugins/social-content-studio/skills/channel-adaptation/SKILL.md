@@ -18,7 +18,7 @@ Read the task-matching files below in full before applying that procedure. Load 
 - [Channel Adaptation Rules](../../references/social-methods/channel-adaptation-rules.md) — read when changing a source into platform-specific wording or format.
 - [Post Draft Gate](../../references/social-methods/post-draft-gate.md) — read when checking factual support, privacy and readiness of post copy.
 - [Voice Files](../../references/social-methods/voice-files.md) — read when matching the supplied voice or channel cadence.
-- [Provider social prose handoff](../../references/social-methods/provider-social-prose.md) — use the installed full AIHumanizer social-media skill when a matching writing pattern or edge case needs detail.
+- [Social prose revision](../../references/social-methods/provider-social-prose.md): apply the complete included method for voice, structure, format adaptation and claim-preserving revision.
 
 ## Workflow
 

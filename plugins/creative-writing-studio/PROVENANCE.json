@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "creative-writing-studio",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "source_owner": "creative-writing-studio",
   "source_revision": "Canonical source has no enclosing Git checkout; baseline archive and per-file SHA256 identify original source.",
   "source_tree_sha256": "595be9b64e427467f8906955b5deb0152f85190686caf46c41ec52a7a0dba144",
@@ -18,7 +18,7 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "bcc3b1d2b3643c11c1aa78e7ff15262601c6fc425b27087fb88290d7b63bbe52",
+      "output_sha256": "f4db62e0ec5989e5ccae0e599c2e0ee0ae63c3171de19a40328b437f260c4379",
       "origin": "new_author_owned",
       "transformed": true,
       "rights": "AGPL-3.0-only",
@@ -26,7 +26,7 @@
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "6e62569b5bf62315b2bc691ab46dac6173f5e9ab94b78c08e9605e21597527ab",
+      "output_sha256": "5e7088bf5af64f6380c6e920373ee3138fc8df30d178decf15ddbf773ee62a0e",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "AGPL-3.0-only",
@@ -67,7 +67,7 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "884039be44ba814232c49b160ad155ab086cfb6de06a12864c69ba42ec0ab543",
+      "output_sha256": "6dfe34dfdf5c1e6c43e4bc5ddf16780fd8f9f6ac413733cccfe61cdb3217f963",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
@@ -77,14 +77,14 @@
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
-      "output_sha256": "6ccf8276ba1dfd9f0bce7f0e19ce6a258b7a1f8364970df0978e46b5248824be",
+      "output_sha256": "e53f258508f0038bb38bb1744cd1c44f6f24273c4453297d3fbf43ad182db774",
       "origin": "new_author_owned",
       "transformed": false,
       "rights": "CC-BY-SA-4.0"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "6d03cb108a71dd9a8a31b299eebd5a905e78d769269728a08a4732c33f33bda8",
+      "output_sha256": "9ce397fe21873b78e21447a623233599c9c6b6c8b5a81289d6ace670d1fa63e3",
       "origin": "new_author_owned",
       "transformed": false,
       "rights": "See document"
@@ -101,7 +101,7 @@
     },
     {
       "path": "docs/source-to-target.md",
-      "output_sha256": "30aa9abdf72edfdca21d6b5c40c44430fcb0c662e104113da0faef382fd2728e",
+      "output_sha256": "2d3bcff0fd0e3ac912a307d67f0e68ae4c4cba0794437c5e01a1f075cf5796d1",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
@@ -848,7 +848,7 @@
     },
     {
       "path": "library/source-procedures/INDEX.md",
-      "output_sha256": "ca65b4da019871bcceaab1a4e79322b7ce1c3a1810436a40c5a761af49ddbeb8",
+      "output_sha256": "0adcafcd43a4328938ae1ba0c367c65ccb3401ec43c7933b408d7793f48fd128",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
@@ -986,7 +986,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "673bb870ddbcab98844d8f78f1c373d1d788483365a19aa8b54932d5efc03aff",
+      "output_sha256": "f688cc2416bee2c794bad16c0fa08a1bdbb739ea531284956e668506779d88b8",
       "origin": "new_author_owned",
       "transformed": true,
       "rights": "AGPL-3.0-only",
@@ -1455,7 +1455,7 @@
     },
     {
       "path": "skills/story-architecture/SKILL.md",
-      "output_sha256": "53ec1b53c36b31312c38a1de68fd6600fb1801194073f480d60379eadbaf9e8c",
+      "output_sha256": "cfdadc5f738d8fc718f05220d45618512971267ad813f82edbbf3cead32bd20c",
       "origin": "canonical_baseline",
       "transformed": true,
       "rights": "CC-BY-SA-4.0",
@@ -1508,6 +1508,16 @@
       "rights": "AGPL-3.0-only",
       "source_relative": "tests/test_ttrpg_compass_mcp.py",
       "source_sha256": "a938206135d8d1e9abb77ecf0a88be7a3b4258f708cafbe0715e8df6dd023971"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": "CHANGELOG.md",
+      "source_sha256": "c0c113ca222eb7fd40c478387ab2de684aa5ae6ff20610186dd1843652f072f0",
+      "output_sha256": "32d77ba30d11ec5fb79baf2fabb4775bef5f30ec4458767db64e22161ecf6ede",
+      "origin": "verified-public-release-records",
+      "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
     }
   ],
   "quality_patch": {
@@ -1519,5 +1529,19 @@
     "prior_version": "0.3.3",
     "prechange_archive_sha256": "7320e28fe9644c2134babf3ae4040233917f0659ab0efb08d3ec89fb69c1c2b1",
     "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
+  },
+  "method_ownership_repair": {
+    "date": "2026-10-11",
+    "status": "included-studio-procedures",
+    "changed_paths": [
+      "README.md",
+      "SOURCE-ATTRIBUTIONS.md",
+      "THIRD_PARTY_NOTICES.md",
+      "docs/source-to-target.md",
+      "library/source-procedures/INDEX.md",
+      "skills/story-architecture/SKILL.md"
+    ],
+    "new_authored_paths": [],
+    "boundary": "Historical source hashes, exclusions and retained license grants are unchanged. Current task routes use complete included methods. External apps, APIs, runtimes and official OpenAI tools keep actual execution boundaries."
   }
 }

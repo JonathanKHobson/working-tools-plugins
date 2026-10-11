@@ -14,14 +14,17 @@ Repair an existing prompt using observed failure, preserving its intent, example
 
 Select by the triggers below. Read the complete chosen procedure and its required support; skip unrelated variants. These links preserve the full methods.
 
-- [Official prompt-refinement handoff](../../references/provider-prompt-engineer.md) — On a verified Codex host with the provider discovered, load its full `prompt-engineer:prompt-refinement` skill.
-- [First-party refinement fallback](../../libraries/prompt-playbook-original/SKILL.md) — When the provider is absent, read the original selection workflow, [Prompt Refinement First pattern](../../libraries/prompt-playbook-original/references/patterns.md), [full refinement template](../../libraries/prompt-playbook-original/references/templates.md), and the current [refine and constraint-preservation checks](../prompt-playbook/references/patterns-and-templates.md). Preserve the exact existing draft and observed failure.
+- [Bundled refinement method](../../libraries/prompt-playbook-original/SKILL.md) — Read the original selection workflow, [Prompt Refinement First pattern](../../libraries/prompt-playbook-original/references/patterns.md), [full refinement template](../../libraries/prompt-playbook-original/references/templates.md), and the current [refine and constraint-preservation checks](../prompt-playbook/references/patterns-and-templates.md). Preserve the exact existing draft and observed failure.
 
 ## Workflow
 
-1. Read the exact existing prompt and any failed output. Identify the failure separately from a speculative improvement.
-2. Apply the complete refinement procedure, changing the smallest set of instructions that addresses the failure.
-3. Compare original and revised requirements. Keep constraints and examples that were already working; route repeatable tests to prompt-evaluation.
+1. Read the exact prompt, intended result and supplied failed output. Record the observed failure separately from a predicted improvement. If no run exists, label the work a static refinement.
+2. List working requirements, protected voice/examples, input assumptions and the changed behavior sought. Keep the original available for comparison. A polished rewrite that loses a second deliverable is a regression.
+3. Diagnose the smallest plausible source of failure: ambiguous instruction, missing input, conflicting priority, unclear output contract, unsuitable example or absent tool/application behavior. Do not try to repair a missing database or authorization check with stronger prompt language.
+4. Revise only the necessary instruction or example first. Preserve useful constraints and deliberate voice, make uncertainty/missing-input behavior explicit and resolve a consequential contradiction visibly.
+5. Compare original and revision requirement by requirement. Check negation, conditions, source expectations, output fields and action authority. Explain any intentional tradeoff rather than claiming every change improves all outcomes.
+6. When a behavioral claim matters, use [prompt evaluation](../prompt-evaluation/SKILL.md) with the original failed case, representative legitimate cases and relevant boundary cases. Retain observed outputs and model/configuration. A mental walkthrough is not a passing regression.
+7. Deliver the revised prompt, the material change and remaining limit. Do not execute the embedded task or claim a measured improvement without run evidence.
 
 ## Deliver and verify
 

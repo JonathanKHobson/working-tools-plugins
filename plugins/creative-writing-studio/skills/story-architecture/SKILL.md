@@ -94,7 +94,24 @@ Do not "fix" ambiguity that is deliberately marked. Ask for author choice when a
 
 ## Full source procedures
 
-For a request matching a named procedure, consult the [source procedure map](../../library/source-procedures/INDEX.md). Read the matching complete first-party body before drafting or reviewing. For creative-prose humanization specifically, use the separately installed `aihumanizer:creative-writing` skill when the host exposes it. If unavailable, give the receiver the official `aihumanizer@openai-curated-remote` installation route and work only from this Studio’s available original methods. Do not claim provider execution without the installed skill. Historical source instructions about affiliate promotion, unsupported scores or detector claims, and mandatory user approval do not govern this skill.
+For a request matching a named procedure, consult the [included procedure map](../../library/source-procedures/INDEX.md). Read the selected complete method and its relevant support. Ordinary story and prose revision is fully included.
+
+## Creative prose revision
+
+Use this included method for a requested naturalness, voice or line-level revision. It requires the draft and the author's constraints, not another writing plugin.
+
+1. Establish the scene's point of view, tense, emotional movement, canon facts and desired revision depth. Preserve distinctive language the author wants to keep. If a missing fact would change the story, leave it open rather than manufacture canon.
+2. Read the whole passage before editing sentences. Identify what changes in the scene and where the reader needs information, uncertainty or surprise. Repair confusing causality before polishing adjectives.
+3. Review each paragraph for its job: action, perception, thought, speech, orientation or transition. Retain deliberate repetition, fragments and exposition where they serve the scene. Avoid an automatic rule that every statement must become sensory detail.
+4. Anchor perception in what this viewpoint character could notice. Choose details for dramatic relevance; do not add decorative smells, gestures or metaphors that change the setting or character without permission.
+5. Distinguish characters by intent, diction, restraint and what they leave unsaid. Check pronouns, speaker attribution and physical continuity. Read dialogue in context, preserving dialect and cultural register without caricature.
+6. Shape sentence rhythm around pace and attention. Remove redundant explanations and empty intensifiers; keep purposeful pauses and the author's expressive range. Do not optimize for detector scores or simulated human errors.
+7. Compare old and new text for changes to events, agency, relationships, promises and tone. Restore unintended changes. If the request is diagnostic, return a few specific observations and illustrative revisions rather than rewriting the entire work.
+8. Deliver the requested revision, then identify substantial craft choices and unresolved story questions separately. A revision is not a claim of originality clearance or publication.
+
+Check with three cases: a quiet scene must not gain an invented conflict; an unreliable narrator must keep intentional ambiguity; an exposition-heavy passage may keep concise explanation when dramatizing it would derail the scene. Use [show-vs-tell craft](../show-vs-tell-craft/SKILL.md) when that balance is the central problem.
+
+
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

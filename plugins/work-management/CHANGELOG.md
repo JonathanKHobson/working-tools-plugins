@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.5.0
+
+Preserve complete Studio-owned methods through maintenance and publication.
+
+The maintained Studio should include complete reusable methods. Earlier public packaging incorrectly routed ordinary work to separate method installations.
+
+Maintenance now distinguishes included skills/helper scripts from external APIs, applications and runtimes. Method incorporation cannot be replaced by a separate-install handoff during packaging. Release acceptance checks local source, installed copies, package contents and website requirements together.
+
+Also included in this accumulated batch:
+- Adds conditional domain-language and dependency-aware slicing references under product-definition.
+- Adds decision mapping for connected choices across sessions, using existing project records.
+- Adds evidence-based issue/PR triage under github-conventions and genuinely human-only setup preparation under work-handoff.
+- Preserves existing authorization and scope boundaries, with no automatic tracker publication or recurring work.
+- Clarifies historical versus cumulative adoption counts, removes private audit locators from the shared backlog and refreshes package metadata.
+
+Selected procedural adaptations from mattpocock/skills at commit 49dd158d1076134a641b33efb035946536778336 retain exact source paths and complete MIT notices. No upstream installer, runtime, hook, dependency or timed schedule is included. Routine local maintenance now records pending changes; publishing the accumulated public batch requires the explicit --publish command. Local installation and public publication are reported separately. Website-only edits do not version unrelated packages, and no schedule or background AI job is introduced.
+
+Compatibility: Compatible included-method expansion. Existing plugin and skill identifiers remain. Historical local method anchors resolve internally. Actual application, service and runtime requirements are preserved.
+
+Upgrade: Update the existing Studio or Toolkit package. Use its normal skill entrypoints; no additional writing, UX or prompt method pack is needed.
+
+Validation: Changed skill frontmatter and local reference closure checked. Bounded source-grounded procedure cases run without the redundant method packs; UX instruction-coverage checks are separate from real workbook/browser interaction or participant tests. Exact release archive, installation parity and catalog checks are recorded by the release workflow.
+
 ## 0.4.0
 
 Finish authorized public updates with versioned publication and catalog deployment.

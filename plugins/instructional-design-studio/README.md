@@ -1,6 +1,6 @@
 # Instructional Design Studio
 
-Current edition **0.2.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+This edition uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Design a lesson, assessment or course path that connects an observable learner task with practice, feedback and evidence of learning. Specialist skills also cover access, AI literacy, production and evaluation.
 

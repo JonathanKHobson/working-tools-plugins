@@ -1,66 +1,12 @@
 {
   "package": "prompt-playbook-studio",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "source_owner": "prompt-playbook-studio",
   "source_revision": "Canonical input has no enclosing Git checkout; exact pre-change tree is preserved privately by archive SHA-256.",
   "prechange_archive_sha256": "cbe26b820c3ec2a8c257b00f6f093f89f794c00d76ceb3c1b2bf6f5b5fe35c9d",
   "prechange_archive_name": "prompt-successor-prechange-canonical-20261010.tar.gz",
   "original_source_files": 131,
   "operative_heads": 8,
-  "provider_dependency": {
-    "plugin": "prompt-engineer@openai-curated-remote",
-    "host_scope": "Codex verified; Claude route unverified",
-    "skills": [
-      "prompt-design",
-      "prompt-refinement",
-      "prompt-router",
-      "prompt-evaluation",
-      "prompt-safety"
-    ],
-    "full_body": "installed from official provider; not distributed here",
-    "preserved_private_source_files": [
-      {
-        "source_relative": "libraries/prompt-engineer/.codex-plugin/assets/composer-icon.png",
-        "source_sha256": "0f92b3c6861fa699b6c9efd950739023457b57fb7e51a1999f484f697d20cd5d"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/.codex-plugin/assets/logo.png",
-        "source_sha256": "a04173b8e9afa3b834f5ca03f6640fcf6ef5d8868e536345bc114cd629527304"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/.codex-plugin/plugin.json",
-        "source_sha256": "577c8742dda0841a65fc06ac552812d302a01aacde99128455bd9544786a5778"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/assets/prompt-engineer-composer.png",
-        "source_sha256": "0f92b3c6861fa699b6c9efd950739023457b57fb7e51a1999f484f697d20cd5d"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/assets/prompt-engineer-logo.png",
-        "source_sha256": "a04173b8e9afa3b834f5ca03f6640fcf6ef5d8868e536345bc114cd629527304"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/skills/prompt-design/SKILL.md",
-        "source_sha256": "28348c0fb09dd7cc8b33d652569fc2076486fe6303ff0843cfbb7475094bdf60"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/skills/prompt-evaluation/SKILL.md",
-        "source_sha256": "83d4ced157effeb511326c76203b661ec8f34659afd188777a751586a85afd59"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/skills/prompt-refinement/SKILL.md",
-        "source_sha256": "3c04f1da18a38126755c6267191108cbdb93413f54eba02498c4fcf67aa9bf4a"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/skills/prompt-router/SKILL.md",
-        "source_sha256": "76c197b3002f460752a96732096a78675b92ead372ed48cc0574f279524bb2d2"
-      },
-      {
-        "source_relative": "libraries/prompt-engineer/skills/prompt-safety/SKILL.md",
-        "source_sha256": "89cd127b32355c8d02708694c17cd647c947c98a5bf980cbbc1a75c9b0a20161"
-      }
-    ]
-  },
   "inventory_exclusions": [
     "PROVENANCE.json and LICENSE-SCOPE.json are self-referential inventory files; each is compared by distribution parity, not by an embedded self hash."
   ],
@@ -275,7 +221,7 @@
       "path": ".claude-plugin/plugin.json",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "1e564f544a8ba99e2274c9f215bde540291383ba0031131e8b0881186cab969c",
+      "output_sha256": "44f8d790edf32796de12b20fa107bd8e2cfa389f3ca183afd7b04ad9decbc8dc",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
       "category": "first-party-code",
@@ -285,7 +231,7 @@
       "path": ".codex-plugin/plugin.json",
       "source_relative": ".codex-plugin/plugin.json",
       "source_sha256": "d03bf5a3c126de380f642a97db6ffe02c40c4a64dc42025941d936d10e6ec793",
-      "output_sha256": "31c699dc829638d5d06b3be941ccbbf3209ca46f4251b009fb4edd704da434d6",
+      "output_sha256": "0e30fd37a4ca5de3b2fe77597c0468df7b0d7bb7a0e09911d8816dbb612ec67c",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
       "category": "first-party-code",
@@ -313,7 +259,7 @@
       "path": "LICENSING.md",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "04b80028d91e9eac454948e148538de3b47ae510a626c051a0f9a1ebd546b3fd",
+      "output_sha256": "d67f39055b779266de0885503dc527e40a19210f74b2341d7b601cf74c6eedef",
       "disposition": "new-first-party",
       "rights": "See document",
       "category": "license-and-notice"
@@ -331,7 +277,7 @@
       "path": "README.md",
       "source_relative": "README.md",
       "source_sha256": "3df49b845e8ba9afaaff448bb4a65079cb52e412766b91617f816f6a9375986a",
-      "output_sha256": "4da72729fed0cdeaa704106fb5e2dea2b1192686d66d7b38a15ea6b6a1a4664a",
+      "output_sha256": "df9534cdda42da41f778e7f1186c83bfed63fd84194d438348d9cd36ba58caf4",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode",
@@ -341,7 +287,7 @@
       "path": "THIRD_PARTY_NOTICES.md",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "9c4ba312a58a9804c221f35997a2ccbedf4ac0fe22c18f7bfeb30307e6530d97",
+      "output_sha256": "7ae88cef90483092d836f21aad757528a19c4e5103ea6de61c87efa1ec796129",
       "disposition": "new-first-party",
       "rights": "See document",
       "category": "license-and-notice"
@@ -368,7 +314,7 @@
       "path": "docs/full-procedures.md",
       "source_relative": "docs/full-procedures.md",
       "source_sha256": "a68e59c4d0bcf1995e3b20ee3ed40b324ea7470f4566077e1f09a1ecb770ca17",
-      "output_sha256": "8e6d71f3702a6014f45303a85e9cb49c86b8699e5cd8817f8aee902a46fec7c4",
+      "output_sha256": "cd25bfd8ce4ebdc4a29148f2b80b53835add40b143c23d2d28098e80bd517108",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -377,7 +323,7 @@
       "path": "docs/project-map.md",
       "source_relative": "docs/project-map.md",
       "source_sha256": "9c562b402bdd769335a9cbe80586c087c90580fee9b0217a8440923fac9988a2",
-      "output_sha256": "e902c9b94f9ed0fed8a49d616e086b24f3a598fd7e1e7c6b54a0f6c4ab15a65f",
+      "output_sha256": "59eb3f6a3958a99aad4c9a544cc502d1488afb71fdee6c64e4f10aceab8297f2",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -404,7 +350,7 @@
       "path": "docs/source-coverage.md",
       "source_relative": "docs/source-coverage.md",
       "source_sha256": "dc30e7b8de963934d29158177d824a4bf7f0f230b079f21aacda0d6dcc322bba",
-      "output_sha256": "17362787884aa1d0de29b2920e5116dd505201f59f8d24c4fc44aa12fc6f9306",
+      "output_sha256": "f4f5b9018a5c026e653bd007ccc60cf948fea17236b31aa34142724a2a42a69b",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -729,7 +675,7 @@
       "path": "plugin.json",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "f943ce853811613b2e0d270eccf8df2083c31a200ef325eeb5ef99be7b0cfb8c",
+      "output_sha256": "8ccb5388d7a4bfc2de3e3e9974b6fdf92f7585a94a25edec308c514de80fe576",
       "disposition": "adapted-in-place",
       "rights": "AGPL-3.0-only",
       "category": "first-party-code",
@@ -784,7 +730,7 @@
       "path": "references/provider-prompt-engineer.md",
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "0d65b924b5152f212b903312062e9b67a0427ba1bd39013b878ec29230a3fe27",
+      "output_sha256": "bcb9d78ef8df65406ffd8e1dec992bec593effeef30f5593f6119f13d772e61f",
       "disposition": "new-first-party",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -1072,7 +1018,7 @@
       "path": "skills/prompt-design/SKILL.md",
       "source_relative": "skills/prompt-design/SKILL.md",
       "source_sha256": "e8d76135c01b47926be89f55375a6851e38110587af2c8c91447c885aace3b12",
-      "output_sha256": "0f4278fc221a086a4c1ada37485bb0bbd485249338eb7c04d14b9c8e1882769b",
+      "output_sha256": "b7b1fcab31a5d9f1ab5c2c0ecb6b4f8fb020562116074cd63cd633b24a556e2e",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -1090,7 +1036,7 @@
       "path": "skills/prompt-evaluation/SKILL.md",
       "source_relative": "skills/prompt-evaluation/SKILL.md",
       "source_sha256": "ebb791c837bfa888372f235813147b07b652d20372d7b708aec234d01fc7f09a",
-      "output_sha256": "5948eb500bf7700334ec65928e9126c407790b10da19f95de575dcdf946a2b71",
+      "output_sha256": "f8e61a558b303dfc72af8b3ee18b2b44eedec7b98ac8dba3205e64cb7ac811c1",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -1180,7 +1126,7 @@
       "path": "skills/prompt-refinement/SKILL.md",
       "source_relative": "skills/prompt-refinement/SKILL.md",
       "source_sha256": "44e2fb1572a87b691ba371d88233eecf119914aae8aa3974d2b4773cd5f487c3",
-      "output_sha256": "a343edeffe429571ae5be07866b5af71530174c3f377f02a0141d19fff43db02",
+      "output_sha256": "31e230728aeb314667ecd1ec8646b68bcc14345325aaf48d07b274ea0dfb425f",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -1198,7 +1144,7 @@
       "path": "skills/prompt-safety/SKILL.md",
       "source_relative": "skills/prompt-safety/SKILL.md",
       "source_sha256": "02fb83b9c99328d6748c512582a85003fe660efb61a981bc2b5c7386a579624d",
-      "output_sha256": "177cce426aff2f728c7d1264684a9c0f18ac090044e50290efd6bd3630e9451a",
+      "output_sha256": "b17f3859bc9e9b0bedfc634adf257b335091fa5395d7e6910f70c88246f22149",
       "disposition": "adapted-in-place",
       "rights": "CC-BY-SA-4.0",
       "category": "first-party-noncode"
@@ -1211,11 +1157,94 @@
       "disposition": "retained-byte-identical",
       "rights": "AGPL-3.0-only",
       "category": "first-party-code"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": "CHANGELOG.md",
+      "source_sha256": "24e6bf4aa74488b87c352aede24db257614a75122c516bc2a544d541b9abd8fb",
+      "output_sha256": "585209c6f3731e4526c490d47850647dfe52b4e1eaf3cb3ec48eea4654d8849c",
+      "origin": "verified-public-release-records",
+      "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
     }
   ],
   "portable_mcp_patch": {
     "prior_version": "0.2.1",
     "prechange_archive_sha256": "103cdd4c16aa560c8d957344f33d52ceadc8b01d17b0e81afeff7fe998552fae",
     "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
+  },
+  "historical_provider_dependency": {
+    "plugin": "prompt-engineer@openai-curated-remote",
+    "host_scope": "Codex verified; Claude route unverified",
+    "skills": [
+      "prompt-design",
+      "prompt-refinement",
+      "prompt-router",
+      "prompt-evaluation",
+      "prompt-safety"
+    ],
+    "full_body": "installed from official provider; not distributed here",
+    "preserved_private_source_files": [
+      {
+        "source_relative": "libraries/prompt-engineer/.codex-plugin/assets/composer-icon.png",
+        "source_sha256": "0f92b3c6861fa699b6c9efd950739023457b57fb7e51a1999f484f697d20cd5d"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/.codex-plugin/assets/logo.png",
+        "source_sha256": "a04173b8e9afa3b834f5ca03f6640fcf6ef5d8868e536345bc114cd629527304"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/.codex-plugin/plugin.json",
+        "source_sha256": "577c8742dda0841a65fc06ac552812d302a01aacde99128455bd9544786a5778"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/assets/prompt-engineer-composer.png",
+        "source_sha256": "0f92b3c6861fa699b6c9efd950739023457b57fb7e51a1999f484f697d20cd5d"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/assets/prompt-engineer-logo.png",
+        "source_sha256": "a04173b8e9afa3b834f5ca03f6640fcf6ef5d8868e536345bc114cd629527304"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/skills/prompt-design/SKILL.md",
+        "source_sha256": "28348c0fb09dd7cc8b33d652569fc2076486fe6303ff0843cfbb7475094bdf60"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/skills/prompt-evaluation/SKILL.md",
+        "source_sha256": "83d4ced157effeb511326c76203b661ec8f34659afd188777a751586a85afd59"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/skills/prompt-refinement/SKILL.md",
+        "source_sha256": "3c04f1da18a38126755c6267191108cbdb93413f54eba02498c4fcf67aa9bf4a"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/skills/prompt-router/SKILL.md",
+        "source_sha256": "76c197b3002f460752a96732096a78675b92ead372ed48cc0574f279524bb2d2"
+      },
+      {
+        "source_relative": "libraries/prompt-engineer/skills/prompt-safety/SKILL.md",
+        "source_sha256": "89cd127b32355c8d02708694c17cd647c947c98a5bf980cbbc1a75c9b0a20161"
+      }
+    ]
+  },
+  "method_ownership_repair": {
+    "date": "2026-10-11",
+    "status": "included-studio-procedures",
+    "changed_paths": [
+      "LICENSING.md",
+      "README.md",
+      "THIRD_PARTY_NOTICES.md",
+      "docs/full-procedures.md",
+      "docs/project-map.md",
+      "docs/source-coverage.md",
+      "references/provider-prompt-engineer.md",
+      "skills/prompt-design/SKILL.md",
+      "skills/prompt-evaluation/SKILL.md",
+      "skills/prompt-refinement/SKILL.md",
+      "skills/prompt-safety/SKILL.md"
+    ],
+    "new_authored_paths": [],
+    "boundary": "Historical source hashes, exclusions and retained license grants are unchanged. Current task routes use complete included methods. External apps, APIs, runtimes and official OpenAI tools keep actual execution boundaries."
   }
 }

@@ -45,7 +45,7 @@ Correctness, accessibility and unexpected network access are separate gates; att
 
 Maintainer source/adoption decisions: [research and security record](references/research-and-security.md). Read this only when extending the method or considering third-party downloads.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/dashboard-design.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/dashboard-design.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For a multi-step dashboard or a request for distinct alternatives, read the complete [experience architecture selection method](references/experience-architecture-selection.md) after task framing and before chart choice. Preserve a requested format. For coordinated filters/comparison/scenarios, hand the task contract to Data Visualization `live-dashboards` and its complete exploration methods; do not apply them to a simple static chart.
 

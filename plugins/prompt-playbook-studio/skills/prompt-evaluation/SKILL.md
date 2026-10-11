@@ -20,7 +20,7 @@ For a security-focused injection or tool-boundary evaluation, use `master-securi
 
 ## Full procedure requirement
 
-Before performing the matching prompt task, read [the procedure map](../../docs/full-procedures.md), then open and apply the complete selected original procedure and its required examples/templates. For evaluation, always read its full evaluation source. For personal pattern reuse, read the full original pattern/template files. The short entrypoint guidance above is routing and current host adaptation, not a substitute for those source procedures.
+Read this complete evaluation method before testing. Select a relevant original pattern/template through the [native procedure map](../../docs/full-procedures.md) only when it informs the current fixture or expected output; no separate evaluation-method plugin is required. Perform and retain actual runs before reporting a behavioral result.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

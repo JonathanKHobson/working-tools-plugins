@@ -597,9 +597,9 @@ framing, stakeholder trust, or public-facing proof affects the artifact.
 ## Round 9 Implemented Improvement
 
 Created a reproducible harvest package under
-`~/Documents/Codex/2026-06-18/can-we-use-these-skills-on/work/skill-harvest`
+`private maintainer audit record`
 and a user-facing map under
-`~/Documents/Codex/2026-06-18/can-we-use-these-skills-on/outputs/skill-harvest`.
+`private maintainer audit record`.
 The pass inspected 478 local/plugin skill files and 188 external skill items
 across 12 public repos using local reads plus GitHub API/raw reads only.
 
@@ -662,7 +662,7 @@ prioritization, and verification before adding scripts or eval JSON.
 - Adopted: existing prompt hook skips pressure subprocess for simple questions; explicit symptoms and broad work still checked. Twelve self-test cases pass.
 - Reuse without install: existing Figma native tools, PyMuPDF rendering/preflight and Playwright screenshots/traces. Sources: https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/, https://github.com/pymupdf/PyMuPDF, https://playwright.dev/docs/test-snapshots. No executable upstream code copied.
 - Deferred: uv install, creative/TTRPG package ownership migration, large vibe-check split, and external filesystem cleanup. Prefer one proven workflow improvement before another runtime or catalog. Current packaging examples: https://github.com/openai/plugins.
-- Report: ~/Documents/Codex/2026-09-10/so-based-on-my-codex-usage/outputs/codex-efficiency-report.md. Private before-state and measurements are retained in that task; never copy credential-bearing config backups into public packages.
+- Report: private maintainer audit record. Private before-state and measurements are retained in that task; never copy credential-bearing config backups into public packages.
 - Final owner check found two old packaged policy entrypoints still enabled; selectively excluded those installed paths with `skills.config`, retaining their bundles' unique tools. Refresh these version-specific exclusions after package updates.
 
 
@@ -673,7 +673,7 @@ Implemented original, instruction-only support in UX Design Toolkit (`dashboard-
 
 ## Writing patterns without duplicate plugins — 2026-09-28
 
-Adopted original, conditional guidance in Writing Quality Studio (technical clarity and evidence-bounded academic review), Creative Writing Studio (preserve intentional ambiguity; prose-first rewrites), and cover-letter-crafter (requirement-to-proof tailoring). Academic Writing Toolkit retains its five existing tools. Sources: marketplace entrypoints for Plain English, Natural Writing, Human Writing, AI Humanizer, Cover Letter Writer and Research Writing Guardrails, inspected through the native plugin reader. Rejected promotional footers, detector/ATS scores, blanket wording quotas and unverified journal house rules. Deferred all six installations: no distinct runtime or skill gap justified them. Detailed sources, decisions and tool-probe limits: `~/Documents/Codex/2026-09-27/ak/outputs/writing-pattern-harvest.md`.
+Adopted original, conditional guidance in Writing Quality Studio (technical clarity and evidence-bounded academic review), Creative Writing Studio (preserve intentional ambiguity; prose-first rewrites), and cover-letter-crafter (requirement-to-proof tailoring). Academic Writing Toolkit retains its five existing tools. Sources: marketplace entrypoints for Plain English, Natural Writing, Human Writing, AI Humanizer, Cover Letter Writer and Research Writing Guardrails, inspected through the native plugin reader. Rejected promotional footers, detector/ATS scores, blanket wording quotas and unverified journal house rules. Deferred all six installations: no distinct runtime or skill gap justified them. Detailed sources, decisions and tool-probe limits: `private maintainer audit record`.
 
 
 
@@ -691,4 +691,12 @@ Adopt: Vercel find-skills at commit `3694740352eeef5cdd689af694c485f1ff62eec3`, 
 
 ## 2026-10-06 — Widget research integrated
 
-Adopted source-linked generic embedded-widget UX in UX Design Studio, MCP technical boundaries/test plan in maintained personal Build MCP Apps, and analytical-state guidance in Data Visualization Toolkit. Complete Alpic 1.0.1 methods/license preserved; remote duplicate retired after native local install and byte parity. Deferred framework/runtime imports lacking a concrete product need and exact dependency/license review. Research, archive/security scan, eight scenario reasoning review, no-blocking routing audit and installation evidence: `~/Documents/ChatGPT/Managing My Computer/work/library-widgets-2026-10-06/research/integration-review.md`. No actual-host compatibility or user-study claim; no runtime changes in this pass.
+Adopted source-linked generic embedded-widget UX in UX Design Studio, MCP technical boundaries/test plan in maintained personal Build MCP Apps, and analytical-state guidance in Data Visualization Toolkit. Complete Alpic 1.0.1 methods/license preserved; remote duplicate retired after native local install and byte parity. Deferred framework/runtime imports lacking a concrete product need and exact dependency/license review. Research, archive/security scan, eight scenario reasoning review, no-blocking routing audit and installation evidence: `private maintainer audit record`. No actual-host compatibility or user-study claim; no runtime changes in this pass.
+
+## Selected Matt Pocock engineering methods: original batch
+
+Adopt: selected domain-language and dependency-slicing procedures in Work Management product-definition; module-interface comparison and difficult-reproduction checks in Development Studio. Source: mattpocock/skills, commit 49dd158d1076134a641b33efb035946536778336, MIT; each active reference carries its source paths and notice. Five upstream candidates contribute four conditional references. Existing coverage handles twenty candidates; twelve specialized or experimental candidates remain deferred; chief-of-staff is rejected for scope expansion and recurring-schedule defaults. No new discovery head, runtime or schedule.
+
+Review: pinned source and staged-adaptation scans, exact false-positive adjudication, Claude Opus 5.5 comparison and eight fictional forward-test cases, focused package/skill/link checks and native source/cache parity. These are method and installation checks, not downstream product-effectiveness measurements or public-release evidence.
+
+Cumulative follow-up: twelve upstream candidates now inform nine conditional references across Work Management, Development, Writing Quality and Instructional Design. The current disposition is 38 reviewed, 20 covered, 12 adapted, 5 deferred and 1 rejected. The original batch counts above are historical. No runtime, hook, installer or timed schedule was adopted.

@@ -15,6 +15,8 @@ Choose the smallest useful shape: answer-first update, problem–evidence–acti
 
 For business documents, an article/newsletter passage or a reusable team/brand voice guide, read [format and shared voice choices](references/format-and-voice.md). For a speech, spoken script, customer-support reply, apology or condolence, read [spoken and care-sensitive messages](references/spoken-and-care-messages.md). Use only the relevant mode; ordinary messages do not need either reference.
 
+For a requested fragment-gathering session, shaping raw notes or optional beat-by-beat drafting, read [collaborative writing](references/collaborative-writing.md). Preserve the raw source and keep participatory choices optional; ordinary drafting continues directly.
+
 Preserve the user's actual role, dates, sources, outcomes, and uncertainty. Do not invent metrics, testimonials, consensus, scarcity, commitments, or team approval. Reduce heat in conflict while keeping the user's substantive point. Match the channel and the user's requested number of variants. Deliver the artifact first; explain choices only when they help review or teach.
 
 For scanning or replying to existing Google document comment threads, use [google-comment-responder](../google-comment-responder/SKILL.md); it owns thread eligibility, posting and writeback verification.

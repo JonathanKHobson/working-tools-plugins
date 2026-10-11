@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "marketing-strategy-studio",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "source_owner": "marketing-strategy-studio",
   "prechange_archive_name": "marketing-successor-prechange-canonical-20261010.tar.gz",
   "prechange_archive_sha256": "415c6d26b817e4d537c6809c4332c9306662e7db287b3a1f624992f2f98fa7e5",
@@ -30,48 +30,6 @@
       "version": "1.0.0",
       "zip_sha256": "9a30695b1210ba791c143232049f62282c0aaa6f052d2405af6d6352560b2b6a",
       "grant": "publisher page labels MIT-0; downloaded package.json and skill-card.md say MIT; conservative packaged-file scope is MIT"
-    }
-  ],
-  "provider_dependencies": [
-    {
-      "plugin": "aihumanizer@openai-curated-remote",
-      "version_verified": "1.0.0",
-      "skills": [
-        "marketing-copy",
-        "seo-content"
-      ],
-      "host": "Codex installed skill handoff; Claude unverified",
-      "copied_body_distributed": false
-    },
-    {
-      "plugin": "uiuxdesigner@openai-curated-remote",
-      "version_verified": "1.1.0",
-      "skills": [
-        "conversion-optimization",
-        "ecommerce-ux"
-      ],
-      "host": "Codex installed skill handoff; Claude unverified",
-      "copied_body_distributed": false
-    },
-    {
-      "plugin": "creative-production@openai-curated-remote",
-      "version_verified": "0.1.25",
-      "skills": [
-        "intake",
-        "produce"
-      ],
-      "host": "Codex installed skill handoff; Claude unverified",
-      "copied_body_distributed": false
-    },
-    {
-      "method": "@abe238/youtube-summarizer",
-      "version_retained": "1.0.0",
-      "full_method_distributed": true,
-      "external_dependencies": [
-        "recipient-owned YouTube transcript server",
-        "recipient-owned messaging integration when authorized"
-      ],
-      "host": "source contains OpenClaw-specific paths; no native Codex/Claude transcript or Telegram runtime verified"
     }
   ],
   "inventory_exclusions": [
@@ -784,14 +742,14 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "output_sha256": "4c672015f25a7de1d509e304f48d8e2fe2a55afd282eff61ed5a15a5b3de604b",
+      "output_sha256": "51a6387cc183bd423252ecfc0c57c7888ab86f89265890106574c448082174b2",
       "origin": "first-party",
       "disposition": "adapted-in-place",
       "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "output_sha256": "24e7c04a640063bfd11f0ab0edcc286b41a3eafddb545e4aa8358bbbbe777b5f",
+      "output_sha256": "d798cb30e0fc487773f75241307fc06fbc1ca4f64c06655c785ff5aabe7ef3f7",
       "origin": "first-party",
       "disposition": "adapted-in-place",
       "source_relative": ".codex-plugin/plugin.json",
@@ -814,7 +772,7 @@
     },
     {
       "path": "LICENSING.md",
-      "output_sha256": "44baf557a14c058a216e632078e29d2ffd462b4d593694df8bcbb3e393d891d1",
+      "output_sha256": "ba78915757b5a99b581573ec448a549e2b2bbb30b7fd3c3811250f6febfd04f4",
       "origin": "first-party",
       "disposition": "new-first-party"
     },
@@ -826,7 +784,7 @@
     },
     {
       "path": "README.md",
-      "output_sha256": "f33330f15c635865b3c3554fa88b3699c264dcfabb5903d50e020f4c3945753d",
+      "output_sha256": "39d45effe55d6b69dd8e63dd7af1e66accc1e75ede29e18df8c7220b5eabcf16",
       "origin": "first-party",
       "disposition": "adapted-in-place",
       "source_relative": "README.md",
@@ -835,7 +793,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "output_sha256": "b50c337403e78bf1b74bf66dc56c5c43abaaf829d11760e392e82eac54600150",
+      "output_sha256": "70317311ca3678a6f8f473b5b166a411d6132e1cae2c257fcb97fb7499a205e4",
       "origin": "first-party",
       "disposition": "new-first-party"
     },
@@ -921,7 +879,7 @@
     },
     {
       "path": "docs/project-map.md",
-      "output_sha256": "90c46ce36181eec5844b19f3df4dcdc26a5c3d80341ca4d4f08a8fc129cb1154",
+      "output_sha256": "5acbb8b4142b796e10eb0afa344c0c0a3b325e4fe63d727c9f85901729c8d672",
       "origin": "first-party",
       "disposition": "adapted-first-party",
       "source_relative": "docs/project-map.md",
@@ -929,7 +887,7 @@
     },
     {
       "path": "docs/provider-handoffs.md",
-      "output_sha256": "169dcb670eb7c631f4ec923eea2eec3def5b8bc5f85bf7dfb0c912e074e9f7ab",
+      "output_sha256": "2a3e6b2db58fa90277d1d92d1d07d1e3b679aea67be356d81e64e592e590ae80",
       "origin": "first-party",
       "disposition": "new-first-party"
     },
@@ -9261,7 +9219,7 @@
     },
     {
       "path": "library/source-procedures/INDEX.md",
-      "output_sha256": "aff4ee7da4367842e0f716199b6acb49d4440b306e59e2ae435a25399c52f09f",
+      "output_sha256": "9f8dd803f8dfe656a016741bf900e85903fa2bf2771d9aa0f7f17160938fa5aa",
       "origin": "first-party",
       "disposition": "adapted-first-party",
       "source_relative": "library/source-procedures/INDEX.md",
@@ -9311,7 +9269,7 @@
     },
     {
       "path": "plugin.json",
-      "output_sha256": "3416c035604d8e3194ec02c1ab882b598bbd909f2c2b7d5cd7c4287f12ffee90",
+      "output_sha256": "1123bfbbdd0b4dc515c4da60358f431cc1d9e15da4962cd5db0cb5fe3411ae0c",
       "origin": "first-party",
       "disposition": "adapted-in-place",
       "transformation": " Portable MCP discovery patch metadata; original methods and compatibility components retained."
@@ -9710,7 +9668,7 @@
     },
     {
       "path": "skills/conversion-and-offers/SKILL.md",
-      "output_sha256": "0e1af993b3dd2ae0d45880c2c53f89a56ea2c154f6c8066ff92be30747defa79",
+      "output_sha256": "48e0bdbed8793c0ed121c776bbf65dddafc47774d49160b94cb684dc56d61989",
       "origin": "first-party",
       "disposition": "adapted-first-party",
       "source_relative": "skills/conversion-and-offers/SKILL.md",
@@ -9875,11 +9833,78 @@
       "disposition": "retained-verbatim",
       "source_relative": "skills/search-and-discovery/SKILL.md",
       "source_sha256": "3c294fd23bc1afc49c932b8aed5f82b6beca067a309497d87b6c9608a2f294a5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": "CHANGELOG.md",
+      "source_sha256": "cfe453e6a06e823ab1e511b3c2f671c83b7baf096ad41f978f3013fb389245a6",
+      "output_sha256": "c7b902408f046b8969764447a9d05598f09ec34f1e5199ff83032042a9a89681",
+      "origin": "verified-public-release-records",
+      "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
     }
   ],
   "portable_mcp_patch": {
     "prior_version": "0.3.0",
     "prechange_archive_sha256": "814fa98f060688ebcc99b0b6fbf73d1edcbaff8defb0f3779b58a0254e9be156",
     "scope": "Root portable mcp.json declares existing intended optional servers. No backend, binding or global registration change."
+  },
+  "historical_provider_dependencies": [
+    {
+      "plugin": "aihumanizer@openai-curated-remote",
+      "version_verified": "1.0.0",
+      "skills": [
+        "marketing-copy",
+        "seo-content"
+      ],
+      "host": "Codex installed skill handoff; Claude unverified",
+      "copied_body_distributed": false
+    },
+    {
+      "plugin": "uiuxdesigner@openai-curated-remote",
+      "version_verified": "1.1.0",
+      "skills": [
+        "conversion-optimization",
+        "ecommerce-ux"
+      ],
+      "host": "Codex installed skill handoff; Claude unverified",
+      "copied_body_distributed": false
+    },
+    {
+      "plugin": "creative-production@openai-curated-remote",
+      "version_verified": "0.1.25",
+      "skills": [
+        "intake",
+        "produce"
+      ],
+      "host": "Codex installed skill handoff; Claude unverified",
+      "copied_body_distributed": false
+    },
+    {
+      "method": "@abe238/youtube-summarizer",
+      "version_retained": "1.0.0",
+      "full_method_distributed": true,
+      "external_dependencies": [
+        "recipient-owned YouTube transcript server",
+        "recipient-owned messaging integration when authorized"
+      ],
+      "host": "source contains OpenClaw-specific paths; no native Codex/Claude transcript or Telegram runtime verified"
+    }
+  ],
+  "method_ownership_repair": {
+    "date": "2026-10-11",
+    "status": "included-studio-procedures",
+    "changed_paths": [
+      "LICENSING.md",
+      "README.md",
+      "THIRD_PARTY_NOTICES.md",
+      "docs/project-map.md",
+      "docs/provider-handoffs.md",
+      "library/source-procedures/INDEX.md",
+      "skills/conversion-and-offers/SKILL.md"
+    ],
+    "new_authored_paths": [],
+    "boundary": "Historical source hashes, exclusions and retained license grants are unchanged. Current task routes use complete included methods. External apps, APIs, runtimes and official OpenAI tools keep actual execution boundaries."
   }
 }

@@ -51,3 +51,5 @@ Safe checks from this root: `python3 -m unittest discover -s tests -v`; `python3
 All operative skill heads and their complete generic supporting procedures are preserved. Empty private MCP declarations are excluded; the portable fixed-domain compatibility launcher is included; optional Atlas/source retrieval uses the current host's separately configured capability. PROVENANCE.json records all input/output hashes and exclusions. Private history locators and unknown-rights archive/source summaries are excluded. See SOURCE-ATTRIBUTIONS.md and docs/release-validation.md.
 
 Standalone method owners in 0.2.0: `skills/learning-experience-designer/`. Preserve full original procedures and their exact source/recipient-output hashes in PROVENANCE.json. Populated recipient inputs belong outside installation state.
+
+`skills/course-production-handoff/references/exercise-packaging.md` supports problem/solution/explainer packaging using the existing project layout, stable IDs and learner checks. Its same-folder Matt Pocock MIT license covers the selected upstream method adaptation; no upstream CLI or scaffold is imported.

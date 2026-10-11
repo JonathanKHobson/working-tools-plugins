@@ -277,7 +277,7 @@ A portfolio case is ready for the next human review when:
 
 For document, PDF, slide, website, visual, and publishing work, use the current [provider boundary](../../references/providers.md) only when that output is requested.
 
-For a UX portfolio case study, use this complete first-party portfolio workflow and its task-matching references. If `uiuxdesigner:ux-portfolio-case-study` is actually discovered, read the full installed provider skill for additional depth. In Codex, install the official `uiuxdesigner@openai-curated-remote` plugin through the native manager and start a fresh task; Claude discovery has not been verified. If absent, report the unavailable provider depth without claiming it was applied. Do not copy its method body or substitute a topical summary. Current user instructions and factual evidence govern all action and claim boundaries.
+For a UX portfolio case study, use this complete first-party workflow, the evidence map, case narrative, confidentiality checks and reader-task review in its matching references. Show the actual problem, contribution, decisions, artifacts, supported outcome and limits. UX Design Studio owns a requested interaction/design review, and current output providers own rendering; no separate portfolio-method plugin is required.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

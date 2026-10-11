@@ -3,7 +3,7 @@
 The author maintains the canonical package source and mirrors its distributable files to the public checkout; historical source hashes are in `PROVENANCE.json`. This package preserves the stable package ID and Research Toolkit display name. Its first-party research, study planning, qualitative analysis, academic writing, source discovery, evidence review, current social research and handoff methods live under `skills/`. Supporting references, synthetic examples, scripts and source notices stay adjacent.
 
 - `skills/research-methodology/`: pyramid investigation and full focused study/qualitative/task-evaluation branches. The pyramid and type files remain intact under the [author-confirmed CC BY-SA 4.0 grant](../SOURCE-RIGHTS.md).
-- `skills/academic-writing/`: complete manuscript craft and argument review; optional publisher skills are selected through [provider capability map](../library/source-procedures/INDEX.md), with no copied marketplace bodies.
+- `skills/academic-writing/`: complete native manuscript craft and scientific argument review; the [method map](../library/source-procedures/INDEX.md) selects bundled procedures without copied marketplace bodies.
 - `skills/research-handoff/`: research-to-decision and document-to-method conversion with local compiler and schema.
 - `skills/current-social-research/`, `source-discovery/`, `evidence-review/`: dated source work, source quality, claim audits.
 - `skills/critical-reasoning/`: compatibility handoff to Reasoning Toolkit, which owns Critical Compass. `karpathy-guidelines/` is bundled working guidance with author-confirmed licensing for the supplied extensions.

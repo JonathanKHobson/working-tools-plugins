@@ -52,7 +52,7 @@ the [contract review cases](../design-systems/references/template-design-contrac
 
 Return prioritized evidence, correction and verification state. Use UX Heuristics Compass for its formal score/report contract.
 
-For an in-chat MCP app widget, apply [compact widget acceptance](../design-studio/references/mcp-app-widgets.md#proportionate-acceptance-check): inspect the actual inline footprint, arrow navigation, progressive disclosure, keyboard/touch access and details, and distinguish backend-only retrieval from a deliberately opened human-facing app. Do not apply this layout wholesale to ordinary websites or full editors.
+For an in-chat MCP app widget, apply [compact widget acceptance](../design-studio/references/mcp-app-widgets.md#review): inspect the actual inline footprint, arrow navigation, progressive disclosure, keyboard/touch access and details, and distinguish backend-only retrieval from a deliberately opened human-facing app. Do not apply this layout wholesale to ordinary websites or full editors.
 
 For charts, scales or trait scores, run the [reader-comprehension acceptance cases](../dashboard-design/references/delivery-and-qa.md#reader-comprehension-acceptance) on the actual rendered default and details views. Lay readers should understand the question, scale ends and middle, values/ranges and span meaning at a glance. Flag jargon, duplicate dimensions, high-is-good assumptions, blanket accordions, ordinary web reading text below 16px and targets mislabeled as observations. Preserve numerical and epistemic honesty; reviewer/model consensus is not empirical validity evidence.
 
@@ -62,7 +62,7 @@ Good: show the clipped error label and its viewport. Bad: declare the interface 
 
 Use the owned native adapter in the runtime guide for detector/live/hook commands; do not execute an upstream downloader or silently register a second hook. The brief and verified incumbent design govern style. For edits, load the complete craft-floor playbook. Preserve function/content and perform bounded rendered checks of changed anchors.
 
-For methods inherited from Product Design, Frontend Design Premium, Design Partner, UXCritique or UI UX Designer, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/design-review.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
+For deeper internal workflows and retained licensed methods, select and **read the complete matching procedure** from [this workflow’s source map](../../docs/procedures/design-review.md), applying its [host adapter](../../docs/full-design-host-adapter.md). Load only the relevant method and required support.
 
 For pointing, carried memory, feedback, interrupted work, consequential error, workload or emotion claims, select and read the complete task-matching card through [human-systems decisions](../design-studio/references/human-systems-decisions.md). This maintained guidance supersedes inherited fixed visible-option caps and checklist-count workload scores; it preserves useful effort and applies accessibility criteria at their stated conformance level.
 

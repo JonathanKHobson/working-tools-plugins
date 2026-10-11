@@ -55,9 +55,11 @@ Figma, Stitch, Sites and other authoring providers retain their own tool/access 
 
 Installation makes a package available; it does not establish a working server or permission for every action. Portable hosts discover the Compass bridge through root `mcp.json`; compatibility hosts retain `.mcp.json`. Configure the backend through a recipient-owned binding and verify tool discovery plus one harmless scoped read. Design Templates and Activities Templates have their own setup and source access. The pinned Impeccable assets and adapter are included; macOS arm64 recipients acquire the exact executable through the [separate runtime release asset](docs/design-runtime.md#recipient-runtime-acquisition), then run `verify`. Keep credentials in the provider’s supported setup, never in a chat or this README. Report missing configuration, unreachable service, insufficient permission and an empty search as different conditions.
 
-## Optional method providers
+## Complete owned methods
 
-The Studio includes its complete first-party workflows and licensed design methods. Three branches use separately installed publishers: [Product Design](libraries/product-design/PROVIDER.md), [UI UX Designer](libraries/uiuxdesigner/PROVIDER.md), and [Spreadsheet Human UX](libraries/spreadsheet-human-ux/PROVIDER.md). Spreadsheet Human UX is required for the full spreadsheet-usability method. Each route identifies the exact skill, setup, host boundary and behavior when unavailable. The provider's full instructions and resources are read at use time; this package does not distribute or relicense them.
+The Studio bundles complete first-party workflows and preserves licensed design methods with their notices. Workbook task/decision/input/recovery/accessibility checks are in [Spreadsheet Usability](skills/spreadsheet-usability/SKILL.md). Product task context, reference-driven prototypes, IA/flows, commerce, mockups and usability studies are maintained [inside Design Studio](docs/procedures/design-studio.md). Normal UX work needs no separate Product Design, UI UX Designer or Spreadsheet Human UX method pack. Historical links remain internal compatibility routes; [migration and coverage](docs/owned-methods-migration.md) distinguishes original methods from omitted publisher source.
+
+Authoring applications, actual runtimes and connectors retain their own setup and access requirements. This package does not claim to bundle Figma, Sites, a browser engine or native workbook runtime.
 
 ## Reading routes for the assistant
 
