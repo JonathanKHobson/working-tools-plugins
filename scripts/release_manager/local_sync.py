@@ -114,7 +114,9 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
     if not changelog.is_file():raise ValueError('Package needs reviewed changelog path')
     old=changelog.read_text()
     heading=f'## {version}\n'
-    if heading not in old:changelog.write_text('# Changelog\n\n'+heading+'\n'+notes+'\n\n'+old.removeprefix('# Changelog').lstrip())
+    existing=rf'(?m)^##[ \t]+{re.escape(version)}(?:[ \t]+·[ \t]+\d{{4}}-\d{{2}}-\d{{2}})?[ \t]*\r?$'
+    if not re.search(existing,old):
+        changelog.write_text('# Changelog\n\n'+heading+'\n'+notes+'\n\n'+old.removeprefix('# Changelog').lstrip())
     provenance=read(public/'PROVENANCE.json');provenance['version']=version
     for entry in provenance.get('files',[]):
         rel=entry.get('path',entry.get('source_relative'))

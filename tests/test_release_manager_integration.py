@@ -167,6 +167,31 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'command')):
                 self.assertEqual(complete_update.prepare({'canonical_root': str(canonical)}), [])
 
+    def test_refresh_retains_existing_exact_version_heading_bytes(self):
+        headings = (
+            b'# Changelog\n\n## 0.3.0\n\nAuthored notes.\n',
+            '# Changelog\r\n\r\n## 0.3.0 · 2026-10-11\r\n\r\nAuthored notes.\r\n'.encode(),
+        )
+        for original in headings:
+            with self.subTest(original=original), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory); canonical = self.fixture(root)
+                public_changelog = root/'plugins/x/CHANGELOG.md'
+                public_changelog.write_bytes(original)
+                local_sync.refresh_reviewed(root, canonical, 'x', '0.3.0', 'Generated notes')
+                self.assertEqual(public_changelog.read_bytes(), original)
+                self.assertEqual((canonical/'x/CHANGELOG.md').read_bytes(), original)
+
+    def test_refresh_inserts_missing_version_despite_prefix_collision(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); canonical = self.fixture(root)
+            changelog = root/'plugins/x/CHANGELOG.md'
+            changelog.write_text('# Changelog\n\n## 0.3.00 · 2026-10-11\n\nPrior entry.\n')
+            local_sync.refresh_reviewed(root, canonical, 'x', '0.3.0', 'New reviewed notes')
+            content = changelog.read_text()
+            self.assertIn('## 0.3.0\n\nNew reviewed notes', content)
+            self.assertIn('## 0.3.00 · 2026-10-11\n\nPrior entry.', content)
+            self.assertEqual(content.count('## 0.3.0\n'), 1)
+
     def test_shared_source_change_releases_every_reviewed_destination(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
