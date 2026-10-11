@@ -151,6 +151,171 @@ class CompletionContractTests(unittest.TestCase):
         (root/'catalog/packages.json').write_text(json.dumps({'packages': packages}))
         return canonical
 
+    def add_reviewed_support(self, root, canonical, *, variant='output_sha256'):
+        public=root/'plugins/x';private=canonical/'x'
+        relative='references/new-method.md'
+        for base in (public,private):(base/relative).write_text('Reviewed original method.\n')
+        inventory=json.loads((root/'catalog/source-inventory.json').read_text())
+        files=inventory['packages'][0]['files']
+        files[relative]=local_sync.digest((public/relative).read_bytes())
+        rows=[]
+        for rel,value in files.items():
+            if rel=='PROVENANCE.json':continue
+            rows.append({'source_relative' if variant=='source_relative' else 'path':rel,
+                         'source_sha256':'a'*64,
+                         'canonical_snapshot_sha256':'b'*64,
+                         'output_sha256' if variant=='source_relative' else variant:value})
+        provenance={'version':'1.0.0','source_tree_sha256':'c'*64,'files':rows,
+                    'added_files':[{'path':'plugin.json','output_sha256':files['plugin.json']}],
+                    'standalone_additions':{'full_original_closures':[{'path':'README.md',
+                        'source_sha256':'f'*64,'output_sha256':files['README.md']}]}}
+        license_rows=[{'path':rel,'sha256':value,'license':'MIT','boundary':'Retained original grant.'}
+                      for rel,value in files.items() if rel!='PROVENANCE.json']
+        license_scope={'version':'0.9.0','inventory_excludes':[
+            'LICENSE-SCOPE.json','PROVENANCE.json','PUBLIC_FILE_MANIFEST.json'],'files':license_rows}
+        # This schema includes the refreshed license scope in provenance and both in the public manifest.
+        provenance['files'].append({'path':'LICENSE-SCOPE.json','source_sha256':'d'*64,'output_sha256':'e'*64})
+        manifest={'version':'0.9.0','self_excluded':'PUBLIC_FILE_MANIFEST.json',
+                  'files':[{'path':rel,'sha256':value,'bytes':0} for rel,value in files.items()] +
+                          [{'path':'LICENSE-SCOPE.json','sha256':'e'*64,'bytes':0}]}
+        for name,document in [('PROVENANCE.json',provenance),('LICENSE-SCOPE.json',license_scope),('PUBLIC_FILE_MANIFEST.json',manifest)]:
+            for base in (public,private):local_sync.write(base/name,document)
+            files[name]=local_sync.digest((public/name).read_bytes())
+        local_sync.write(root/'catalog/source-inventory.json',inventory)
+        note=json.loads((root/'catalog/changes/x.json').read_text())
+        note['reviewed_additions']=[relative]
+        local_sync.write(root/'catalog/changes/x.json',note)
+        return relative
+
+    def test_reviewed_new_file_alone_triggers_release_with_fresh_metadata_and_scoped_commit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);canonical=self.fixture(root)
+            relative=self.add_reviewed_support(root,canonical)
+            self.assertEqual(local_sync.plan(root,canonical),({},[]))
+            with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'):
+                entries=complete_update.prepare({'canonical_root':str(canonical)})
+                paths=complete_update.scoped_paths(entries)
+            self.assertEqual(entries[0]['version'],'1.0.1')
+            self.assertEqual(entries[0]['changed_files'],['LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json',relative])
+            durable=local_sync.read(root/'catalog/releases/x/1.0.1.json')
+            self.assertEqual(durable['changed_files'],entries[0]['changed_files'])
+            for name in ('PROVENANCE.json','LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json'):
+                self.assertIn('plugins/x/'+name,paths)
+                document=local_sync.read(root/'plugins/x'/name)
+                self.assertEqual(document['version'],'1.0.1')
+                self.assertEqual((root/'plugins/x'/name).read_bytes(),(canonical/'x'/name).read_bytes())
+                for row in document['files']:
+                    rel=local_sync.entry_path(row)
+                    for key in local_sync.current_hash_fields(row):
+                        self.assertEqual(row[key],local_sync.digest((root/'plugins/x'/rel).read_bytes()))
+                    if 'source_sha256' in row:self.assertIn(row['source_sha256'],{'a'*64,'d'*64})
+                    if 'canonical_snapshot_sha256' in row:self.assertEqual(row['canonical_snapshot_sha256'],'b'*64)
+                    if 'license' in row:self.assertEqual(row['license'],'MIT')
+            provenance=local_sync.read(root/'plugins/x/PROVENANCE.json')
+            self.assertEqual(provenance['source_tree_sha256'],'c'*64)
+            nested=provenance['standalone_additions']['full_original_closures'][0]
+            self.assertEqual(nested['source_sha256'],'f'*64)
+            self.assertEqual(nested['output_sha256'],local_sync.digest((root/'plugins/x/README.md').read_bytes()))
+            self.assertEqual(provenance['added_files'][0]['output_sha256'],local_sync.digest((root/'plugins/x/plugin.json').read_bytes()))
+            with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'):
+                self.assertEqual(complete_update.prepare({'canonical_root':str(canonical)}),[])
+
+    def test_reviewed_addition_rejects_missing_review_or_changed_bytes_before_versioning(self):
+        for failure in ('inventory','provenance','license','bytes'):
+            with self.subTest(failure=failure),tempfile.TemporaryDirectory() as directory:
+                root=Path(directory);canonical=self.fixture(root)
+                relative=self.add_reviewed_support(root,canonical)
+                if failure=='inventory':
+                    document=local_sync.read(root/'catalog/source-inventory.json')
+                    document['packages'][0]['files'].pop(relative)
+                    local_sync.write(root/'catalog/source-inventory.json',document)
+                elif failure in ('provenance','license'):
+                    name='PROVENANCE.json' if failure=='provenance' else 'LICENSE-SCOPE.json'
+                    document=local_sync.read(root/'plugins/x'/name)
+                    document['files']=[row for row in document['files'] if local_sync.entry_path(row)!=relative]
+                    for base in (root/'plugins/x',canonical/'x'):local_sync.write(base/name,document)
+                else:(canonical/'x'/relative).write_text('Unreviewed new bytes.\n')
+                with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'):
+                    with self.assertRaises(ValueError):complete_update.prepare({'canonical_root':str(canonical)})
+                self.assertEqual(local_sync.read(root/'catalog/packages.json')['packages'][0]['version'],'1.0.0')
+                self.assertFalse((root/'catalog/releases').exists())
+
+    def test_refresh_preserves_provenance_variants_and_historical_inputs(self):
+        for variant in ('sha256','public_sha256','source_relative'):
+            with self.subTest(variant=variant),tempfile.TemporaryDirectory() as directory:
+                root=Path(directory);canonical=self.fixture(root)
+                self.add_reviewed_support(root,canonical,variant=variant)
+                (root/'plugins/x/README.md').write_text('Updated method description.\n')
+                local_sync.refresh_reviewed(root,canonical,'x','1.0.1','Reviewed notes.')
+                document=local_sync.read(root/'plugins/x/PROVENANCE.json')
+                row=next(row for row in document['files'] if local_sync.entry_path(row)=='README.md')
+                self.assertEqual(row['source_sha256'],'a'*64)
+                self.assertEqual(row['canonical_snapshot_sha256'],'b'*64)
+                self.assertEqual(set(local_sync.current_hash_fields(row)),{'output_sha256' if variant=='source_relative' else variant})
+                self.assertEqual(row[next(iter(local_sync.current_hash_fields(row)))],local_sync.digest((root/'plugins/x/README.md').read_bytes()))
+
+    def test_metadata_exclusions_prevent_self_hash_cycles_and_actual_cycle_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);canonical=self.fixture(root)
+            self.add_reviewed_support(root,canonical)
+            public=root/'plugins/x'
+            license_scope=local_sync.read(public/'LICENSE-SCOPE.json')
+            license_scope['files'].append({'path':'PROVENANCE.json','sha256':'e'*64,'license':'MIT'})
+            local_sync.write(public/'LICENSE-SCOPE.json',license_scope)
+            allowed=set(local_sync.read(root/'catalog/source-inventory.json')['packages'][0]['files'])
+            local_sync.refresh_metadata(public,allowed,'1.0.1')
+            # Explicit exclusion is authoritative even if an old row remains.
+            self.assertEqual(local_sync.read(public/'LICENSE-SCOPE.json')['files'][-1]['sha256'],'e'*64)
+            license_scope=local_sync.read(public/'LICENSE-SCOPE.json')
+            license_scope['inventory_excludes']=['LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json']
+            local_sync.write(public/'LICENSE-SCOPE.json',license_scope)
+            with self.assertRaisesRegex(ValueError,'Cyclic metadata hashes'):
+                local_sync.refresh_metadata(public,allowed,'1.0.2')
+
+    def test_selected_package_does_not_reconcile_unselected_private_changes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);canonical=self.fixture(root,('x','y'))
+            (root/'plugins/x/README.md').write_text('Selected correction.\n')
+            (canonical/'y/README.md').write_text('Unrelated private work.\n')
+            (root/'catalog/changes/y.json').unlink()
+            with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'):
+                entries=complete_update.prepare({'canonical_root':str(canonical),'_packages':['x']})
+            self.assertEqual([row['id'] for row in entries],['x'])
+            self.assertEqual((root/'plugins/y/README.md').read_text(),'original readme\n')
+            self.assertEqual((canonical/'y/README.md').read_text(),'Unrelated private work.\n')
+            self.assertEqual(local_sync.read(root/'catalog/packages.json')['packages'][1]['version'],'1.0.0')
+
+    def test_selected_scope_skips_external_and_integration_release_owners(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);self.fixture(root)
+            config=root/'config.json';local_sync.write(config,{})
+            with (patch.object(complete_update,'ROOT',root),
+                  patch.object(complete_update,'pending_entries',return_value=[]) as pending,
+                  patch.object(complete_update,'unfinished_committed_entries',return_value=[]) as unfinished,
+                  patch.object(complete_update,'prepare',return_value=[]) as prepare,
+                  patch.object(complete_update,'external_plan') as external,
+                  patch.object(complete_update,'publish_integrations') as integrations,
+                  patch.object(complete_update,'sync_site') as site,
+                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--package','x'])):
+                complete_update.main()
+            external.assert_not_called();integrations.assert_not_called();site.assert_called_once()
+            pending.assert_called_once_with(['x']);unfinished.assert_called_once_with(['x'])
+            self.assertEqual(prepare.call_args.args[0]['_packages'],['x'])
+            self.assertEqual(local_sync.read(root/'dist/release-manager/receipt.json')['selected_packages'],['x'])
+
+    def test_selected_scope_refuses_incompatible_in_progress_receipt(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);self.fixture(root)
+            config=root/'config.json';local_sync.write(config,{})
+            receipt=root/'dist/release-manager/receipt.json';receipt.parent.mkdir(parents=True)
+            local_sync.write(receipt,{'status':'preparing','changed':[],'published':[]})
+            original=receipt.read_bytes()
+            with (patch.object(complete_update,'ROOT',root),
+                  patch.object(complete_update,'external_plan') as external,
+                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--package','x'])):
+                with self.assertRaisesRegex(ValueError,'incompatible package scope'):complete_update.main()
+            external.assert_not_called();self.assertEqual(receipt.read_bytes(),original)
+
     def test_committed_public_instruction_is_detected_by_actual_prepare(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

@@ -25,10 +25,11 @@ def load(path):return json.loads(Path(path).read_text())
 def save(path,data):Path(path).parent.mkdir(parents=True,exist_ok=True);Path(path).write_text(json.dumps(data,indent=2)+'\n')
 
 
-def pending_entries():
+def pending_entries(product_ids=None):
     """Find prepared release records without repeating their version bump."""
     found=[]
     for path in sorted((ROOT/'catalog/releases').glob('*/*.json')):
+        if product_ids is not None and path.parent.name not in product_ids:continue
         relative=path.relative_to(ROOT).as_posix()
         state=run('git','status','--porcelain','--untracked-files=all','--',relative,cwd=ROOT)
         if state:
@@ -41,7 +42,7 @@ def pending_entries():
     return found
 
 
-def unfinished_committed_entries():
+def unfinished_committed_entries(product_ids=None):
     """Recover current durable release records with absent or draft GitHub tags.
 
     Historical published versions are never rebuilt merely because they have
@@ -50,6 +51,7 @@ def unfinished_committed_entries():
     registry=load(ROOT/'catalog/packages.json')['packages']
     candidates=[]
     for record in registry:
+        if product_ids is not None and record['id'] not in product_ids:continue
         path=ROOT/'catalog/releases'/record['id']/(record['version']+'.json')
         if not path.is_file():
             continue
@@ -103,6 +105,9 @@ def scoped_paths(entries):
             if path.is_absolute() or '..' in path.parts or not source:
                 raise ValueError('Unsafe shared source path: '+source)
             paths.add(path.as_posix())
+        inventory=load(ROOT/'catalog/source-inventory.json') if (ROOT/'catalog/source-inventory.json').is_file() else {'packages':[]}
+        reviewed=next((row['files'] for row in inventory['packages'] if row['id']==ident),{})
+        paths.update(base+name for name in ('LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json') if name in reviewed)
         paths.update({base+'plugin.json',base+'.codex-plugin/plugin.json',
                       base+'.claude-plugin/plugin.json',base+'CHANGELOG.md',
                       base+'PROVENANCE.json',f'catalog/releases/{ident}/{version}.json'})
@@ -132,7 +137,7 @@ def validate_source_inventory(config, product_ids):
     args=[sys.executable,'-B','scripts/source_inventory.py']
     if product_ids:
         canonical=Path(config['canonical_root'])
-        local_sync.approved_product_roots(ROOT,canonical,config.get('canonical_sources'))
+        local_sync.approved_product_roots(ROOT,canonical,config.get('canonical_sources'),product_ids=product_ids)
         args.extend(('--canonical-root',str(canonical)))
         for ident in sorted(product_ids):
             args.extend(('--canonical-package',ident))
@@ -166,11 +171,15 @@ def _reviewed_shared_changes(config, changes):
         raise ValueError('shared_shipped_paths must map source paths to package destinations')
     inventory=load(ROOT/'catalog/source-inventory.json')
     rows={row['id']:row for row in inventory['packages']}
-    roots=local_sync.approved_product_roots(ROOT,config['canonical_root'],config.get('canonical_sources'))
+    selected=config.get('_packages')
+    roots=local_sync.approved_product_roots(ROOT,config['canonical_root'],config.get('canonical_sources'),product_ids=selected)
     updates={}; sources={}
     for source_name,destinations in mapping.items():
         if not isinstance(source_name,str) or not source_name or not isinstance(destinations,list) or not destinations:
             raise ValueError('Invalid shared shipped path mapping')
+        if selected is not None:
+            destinations=[d for d in destinations if isinstance(d,str) and len(Path(d).parts)>=3 and Path(d).parts[1] in selected]
+            if not destinations:continue
         source_rel=Path(source_name)
         if source_rel.is_absolute() or '..' in source_rel.parts or source_rel.as_posix()!=source_name:
             raise ValueError('Unsafe shared source path: '+source_name)
@@ -215,12 +224,24 @@ def _reviewed_shared_changes(config, changes):
 def prepare(config):
     canonical=Path(config['canonical_root'])
     canonical_sources=config.get('canonical_sources')
-    changes,conflicts=local_sync.plan(ROOT,canonical,canonical_sources)
+    selected=config.get('_packages')
+    changes,conflicts=local_sync.plan(ROOT,canonical,canonical_sources,product_ids=selected)
     if conflicts:raise ValueError('\n'.join(conflicts))
     shared_updates,shared_sources=_reviewed_shared_changes(config,changes)
     registry=load(ROOT/'catalog/packages.json');by_id={r['id']:r for r in registry['packages']}
     notes_root=ROOT/'catalog/changes'
     entries=[]
+    for note_file in sorted(notes_root.glob('*.json')):
+        ident=note_file.stem
+        if selected is not None and ident not in selected:continue
+        note=load(note_file)
+        additions=note.get('reviewed_additions',[])
+        if 'reviewed_additions' in note and (not isinstance(additions,list) or any(not isinstance(p,str) for p in additions)):
+            raise ValueError(ident+': reviewed_additions must be a list of relative paths')
+        if additions:
+            if ident not in by_id:raise ValueError('Unknown reviewed addition product: '+ident)
+            admitted=local_sync.reviewed_additions(ROOT,canonical,ident,additions,canonical_sources)
+            changes.setdefault(ident,{}).update(admitted)
     # Check every semantic change record before modifying a source.
     for ident,paths in changes.items():
         note_file=notes_root/(ident+'.json')
@@ -228,7 +249,7 @@ def prepare(config):
         note=load(note_file)
         for field in ('summary','why','compatibility','upgrade_guidance','validation','notes'):
             if not isinstance(note.get(field),str) or not note[field].strip():raise ValueError(f'{ident}: missing evidence-based {field}')
-        actual=[{'status':'modified','path':f'plugins/{ident}/{p}'} for p in paths]
+        actual=[{'status':change.get('status','modified'),'path':f'plugins/{ident}/{p}'} for p,change in paths.items()]
         version=propose_version(by_id[ident]['version'],actual,change_level=note.get('level'))
         entries.append((ident,version,note,paths,shared_sources.get(ident,[])))
     ordinary={ident:{rel:row for rel,row in paths.items() if row['source']!='shared'}
@@ -241,7 +262,11 @@ def prepare(config):
     for ident,version,note,paths,shared in entries:
         notes=f"{note['summary']}\n\n{note['why']}\n\n{note['notes']}\n\nCompatibility: {note['compatibility']}\n\nUpgrade: {note['upgrade_guidance']}\n\nValidation: {note['validation']}"
         previous=by_id[ident]['version']
-        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes,canonical_sources=canonical_sources)
+        generated=('LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json')
+        before={name:(ROOT/'plugins'/ident/name).read_bytes() for name in generated if (ROOT/'plugins'/ident/name).is_file()}
+        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes,approved_additions=note.get('reviewed_additions',[]),canonical_sources=canonical_sources)
+        for name,data in before.items():
+            if (ROOT/'plugins'/ident/name).read_bytes()!=data:paths.setdefault(name,{})
         save(ROOT/'catalog/releases'/ident/(version+'.json'),{
             'product_id':ident,'version':version,'previous_version':previous,
             'git_tag':ident+'/v'+version,'notes':notes,'summary':note['summary'],
@@ -464,26 +489,41 @@ def main():
     p.add_argument('--config',type=Path,default=Path.home()/'.config/working-tools-release/config.json')
     p.add_argument('--reconcile-only',action='store_true')
     p.add_argument('--prepare-only',action='store_true')
+    p.add_argument('--package',action='append',dest='packages',help='Release only this registered plugin; repeat for multiple plugins')
     a=p.parse_args();config=load(a.config);config['_config_path']=str(a.config.resolve())
+    selected=sorted(set(a.packages)) if a.packages else None
+    if selected is not None:
+        registered={row['id'] for row in load(ROOT/'catalog/packages.json')['packages']}
+        if unknown:=set(selected)-registered:raise ValueError('Unknown selected package: '+', '.join(sorted(unknown)))
+        config['_packages']=selected
     state=ROOT/'dist/release-manager';state.mkdir(parents=True,exist_ok=True)
     with (state/'completion.lock').open('w') as lock:
         try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:raise SystemExit('Another completion run owns publication; retry after its receipt settles.')
         receipt_path=state/'receipt.json'
         prior=load(receipt_path) if receipt_path.is_file() else None
-        if prior and not a.prepare_only:
+        if prior and prior.get('status')=='complete' and prior.get('selected_packages')!=selected:
+            prior=None  # Completed evidence remains on disk until a new receipt is saved.
+        if prior and prior.get('status')!='complete':
+            previous_scope=prior.get('selected_packages')
+            if previous_scope!=selected or (selected is not None and (
+                    any(row['id'] not in selected for row in prior.get('changed',[]))
+                    or prior.get('external_in_progress') or prior.get('external_pending_ledger')
+                    or prior.get('integration_in_progress'))):
+                raise ValueError('In-progress completion receipt has incompatible package scope; resume its original scope first')
+        if prior and not a.prepare_only and selected is None:
             recover_external_ledger(prior)
         resume_external=bool(prior and (prior.get('external_in_progress') or prior.get('external_pending_ledger')))
-        external,external_checkouts=(external_plan(config) if not a.reconcile_only or resume_external
+        external,external_checkouts=(external_plan(config) if selected is None and (not a.reconcile_only or resume_external)
                                     else (None,None))
-        prepared=pending_entries()
+        prepared=pending_entries(selected) if selected is not None else pending_entries()
         if prepared:
             receipt=prior if prior and prior.get('changed')==prepared else {'status':'preparing','changed':prepared,'published':[]}
         elif prior and prior.get('status') in {'preparing','releases_published','catalog_pending',
                                                'external_publishing'}:
             receipt=prior
         else:
-            unfinished=unfinished_committed_entries()
+            unfinished=unfinished_committed_entries(selected) if selected is not None else unfinished_committed_entries()
             if unfinished:
                 receipt={'status':'preparing','changed':unfinished,'published':[]}
             elif a.reconcile_only:
@@ -491,12 +531,13 @@ def main():
             else:
                 changes=prepare(config)
                 if changes:
-                    prepared=pending_entries()
+                    prepared=pending_entries(selected) if selected is not None else pending_entries()
                     if sorted(prepared,key=lambda row:row['id'])!=sorted(changes,key=lambda row:row['id']):
                         raise ValueError('Freshly prepared release records differ from the reviewed change plan')
                 receipt=({'status':'preparing','changed':changes,'published':[]}
                          if changes else prior if prior and prior.get('status')=='complete'
                          else {'status':'catalog_pending','changed':[],'published':[]})
+        receipt['selected_packages']=selected
         if a.prepare_only:save(state/'receipt.json',receipt);print(json.dumps(receipt));return
         if prepared:
             receipt['source_commit']=commit_prepared(prepared)
@@ -512,7 +553,7 @@ def main():
             receipt['published']=publish_pending(config,receipt)
         if external is not None:
             publish_external(config,receipt,external,external_checkouts)
-        if not a.reconcile_only or receipt.get('integration_in_progress'):
+        if selected is None and (not a.reconcile_only or receipt.get('integration_in_progress')):
             publish_integrations(receipt)
         sync_site(config,receipt)
         save(state/'receipt.json',receipt);print(json.dumps(receipt,indent=2))
