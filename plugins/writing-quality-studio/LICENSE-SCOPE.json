@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "writing-quality-studio",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0, with retained upstream grants",
   "precedence": "Retained upstream grants and earlier permissions remain; new defaults apply only to author-owned contributions.",
   "manifest_self_exclusion": [
@@ -14,13 +14,13 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "dcd332ea987db4270d5821b5a2de4973ec9d5634ed9ff3a4ee943e19ef3b7443"
+      "sha256": "adbd5fe3da90ac1183cb0e6d20b5b0d7185e4ee9955d0e7b3b98868d803faadc"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "dbb8cb7dcd92fa95c611a43ffb15287f70aefe461e80a1578cc496d9cc4dfe68"
+      "sha256": "6fd5a55b915b48ec6b34e1597db63616b0407a07763dc76ad7468bc899d5f469"
     },
     {
       "path": "LICENSE",
@@ -32,25 +32,25 @@
       "path": "LICENSING.md",
       "category": "license-and-notice",
       "license": "See document",
-      "sha256": "27ed7db3dae6af4d810cf5303a978ae9424eb334fe529532ca7eef149e517b86"
+      "sha256": "517f96de5c90e376899842ffc4cfe3d6f333156f76c006f0137198944cd897eb"
     },
     {
       "path": "NOTICE.md",
       "category": "license-and-notice",
       "license": "See document",
-      "sha256": "661c0950c421598d114afd7d4e4db1e117942eff3e63f9b8af07691da19a1167"
+      "sha256": "f89d7816b80b819e01f476e7e31cde3179e194383a17fed178a1933c98dea7cb"
     },
     {
       "path": "README.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "5b274f2de7915cc2c16bfae0abc5e5595b274e0c76cf80410361e1372f077c85"
+      "sha256": "38c8565434f01c87837c96136e4296d9584500d003b101138d1e06d14c86063e"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "category": "license-and-notice",
       "license": "See document",
-      "sha256": "376517a3f9dc915ba91ad378bb721627f87581c7dbc7a3f9902b63b6d6e43fa6"
+      "sha256": "72daeba946260bb0088d78a4e17069b12ac1669b43b3b9fe7bbefd1154c60c39"
     },
     {
       "path": "docs/grant-migration.md",
@@ -62,13 +62,13 @@
       "path": "docs/project-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "d23a9d390d670f7500ef7308bb01ccc51520b22d40e2eb60f3b92a3c87725d44"
+      "sha256": "1507f8bb334149688c9843d8a0b49d0273d3afeb1c7fff99100909fd32a850af"
     },
     {
       "path": "docs/source-coverage-limitations.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "f5ef5b345f2e1365a1d2ce0fa919db6414cbb78bdad730b5875c0477fdfce5e9"
+      "sha256": "946d838c95d95282f0230f0b49a923c7bc89fb9210f682f2c97bbcd6b691ffc5"
     },
     {
       "path": "docs/source-to-target-plan.md",
@@ -278,7 +278,7 @@
       "path": "library/source-procedures/INDEX.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "3bebada81f4c79b5d3e474635f66bb224d71bbf0a57943ccaf0d5dee93f9494a"
+      "sha256": "fa4a3237f50f100d9b99fa9711070ab6403e66c3f1a2aef280065acccaefad03"
     },
     {
       "path": "library/source-procedures/local/communication-story-crafter/LEGACY-SKILL.md",
@@ -569,6 +569,36 @@
       "sha256": "199e46c63d801f521545bd05dbae0059878c43958b41b7d215abf6225ccc3fa5"
     },
     {
+      "path": "library/source-procedures/marketplace/human-writing/human-writing/LICENSE",
+      "category": "retained-author-MIT",
+      "license": "MIT",
+      "sha256": "0c597dc7da7b35b9bb674c20ad776f7210bfa8371648c88dbdefd7f7d388d9ed"
+    },
+    {
+      "path": "library/source-procedures/marketplace/human-writing/human-writing/PROVENANCE.md",
+      "category": "first-party-documentation",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6d2ef0a2cd4455090cfa16b28316ea3f8ce8624263f33c4a5bf52d073f87a6fc"
+    },
+    {
+      "path": "library/source-procedures/marketplace/human-writing/human-writing/SKILL.md",
+      "category": "retained-author-MIT",
+      "license": "MIT",
+      "sha256": "c82193e9a4512014ec503b4e2930e843f23bf483cf805dc2d0b36044944428f1"
+    },
+    {
+      "path": "library/source-procedures/marketplace/human-writing/human-writing/references/narrative-choices.md",
+      "category": "first-party-documentation",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "29ee9bef301b2dd559a15cca32274728dab2e63eb24ca0c4b9e89992680a83d0"
+    },
+    {
+      "path": "library/source-procedures/marketplace/human-writing/human-writing/references/prose-patterns.md",
+      "category": "first-party-documentation",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "71a48c6d91d817fc5bddab51494f59bd39c8e38c69e6086064b08b0e45eca1cb"
+    },
+    {
       "path": "library/source-procedures/marketplace/natural-writing/CONTRIBUTING.md",
       "category": "retained-upstream-CC-BY-4.0",
       "license": "CC-BY-4.0",
@@ -686,13 +716,13 @@
       "path": "library/source-procedures/provider-methods.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "03ae78b32bea61ffb712d9c3695e3f085a678c956fcd104cb534c7c642a472bc"
+      "sha256": "87793d009a3ca7a8f5f30433ceaba230ddda21f9ed28cc491c090906c790f0c8"
     },
     {
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "9851c8d136262f1ae5f13af5eef23345105c0861b57c695091bf05fc2b0f0a29"
+      "sha256": "347d7edfeacfa65677d7022dd64fed152227e15b652f9c1f354e25f137ecfa21"
     },
     {
       "path": "references/atlas-library.md",
@@ -1424,7 +1454,7 @@
       "path": "skills/natural-prose-editor/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "358e366c19deffa93513fdbc19d432e09886c37c598f1dbe0b49a6b17a712bb0"
+      "sha256": "36f652209653919003d1dd01482cb450d362c13e4534641e1deae5fe6916b698"
     },
     {
       "path": "skills/natural-prose-editor/references/controlled-contrast-revision.md",

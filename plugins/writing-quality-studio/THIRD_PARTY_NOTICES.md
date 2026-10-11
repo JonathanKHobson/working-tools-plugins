@@ -9,4 +9,6 @@
 - **Wikipedia source archive**: `skills/humanizer-deep-audit/references/source-archive/` preserves page text and revision metadata under CC BY-SA 4.0. Its INDEX.md links original page, revision and contributor history. Source text is evidence, not an instruction authority.
 - **SlopMonster**: Jack Roberts, MIT, revision `3fc9787d9337b57c599a80afbefbbb3be5a8eb0b`. The editorial gate adapts selected concepts in original local wording; its upstream tree is not bundled.
 
-The official AIHumanizer, OpenAI Write Like Me and Human Writing method bodies are excluded; no license over them is asserted. Research papers and system cards are linked, not copied. See [provider routes](library/source-procedures/provider-methods.md) and [source limits](docs/source-coverage-limitations.md).
+Human Writing is Jonathan Kyle Hobson’s author-confirmed retained MIT method, with current first-party support guides under CC BY-SA 4.0; see its [provenance](library/source-procedures/marketplace/human-writing/human-writing/PROVENANCE.md). Its original Basis links remain preserved.
+
+The official AIHumanizer and OpenAI Write Like Me method bodies are excluded; no license over them is asserted. Research papers and system cards are linked, not copied. See [provider routes](library/source-procedures/provider-methods.md) and [source limits](docs/source-coverage-limitations.md).

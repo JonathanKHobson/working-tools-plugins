@@ -9,6 +9,8 @@ The active map selects complete first-party and licensed source methods; the pub
 - [No AI Slop](../../libraries/no-ai-slop/skills/no-ai-slop/SKILL.md), [Blader Humanizer](../../libraries/blader-humanizer/SKILL.original.txt), [Voiceprint](../../libraries/voiceprint/PROVENANCE.md), and [LinkedIn Human](../../libraries/linkedin-agent/PROVENANCE.md) are retained under their original MIT notices and the active first-party adaptations.
 - [Humanizer Deep Audit](../../skills/humanizer-deep-audit/SKILL.md) retains its full first-party audit methods, scripts, synthetic cases, and CC BY-SA 4.0 Wikipedia source archive. Research papers are source links, not bundled PDFs.
 
+- [Human Writing](marketplace/human-writing/human-writing/SKILL.md) (author-confirmed MIT), with newly authored CC BY-SA 4.0 prose and narrative support guides. [Provenance](marketplace/human-writing/human-writing/PROVENANCE.md) distinguishes retained text and current repairs.
+
 ## Optional complete publisher methods
 
 Use the [provider setup and absence behavior](provider-methods.md). The following provider methods are **not bundled**:
@@ -45,4 +47,3 @@ Use the [provider setup and absence behavior](provider-methods.md). The followin
 | `writehuman-guide` | `natural-prose-editor` | `aihumanizer:writehuman-guide` | separately installed official provider; not bundled |
 
 - [Write Like Me](provider-methods.md#write-like-me) is the official separate provider method for explicit personal style matching. The complete first-party voice handoff remains packaged.
-- [Human Writing](provider-methods.md#human-writing) is currently unavailable through a verified Codex install route and its two support references were never recovered. It is not required for Natural Prose Editor.

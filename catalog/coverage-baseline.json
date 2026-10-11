@@ -3058,11 +3058,12 @@
     {
       "id": "standalone-head:navigating-mental-health-evidence",
       "canonical_owner": "external-owner-015f5ac867f43a61",
-      "disposition": "blocked",
-      "capability_effect": "Local scaffold is separate from the 33 packages. Public release remains held for clinical/source/privacy review; external quotes and private personalization stay excluded.",
+      "disposition": "private",
+      "capability_effect": "Local Mental Health Navigation plugin is private and excluded from publication by explicit owner direction. Original audit ID retained; public release is not a requirement of this replacement.",
       "expected_components": [],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-author-confirmation:sha256:1f8fa6cdee5fb2aa0ef52b0d05fb2d7f1cd7a736bcfb987d0296bf7d2b03aeb0"
       ],
       "audit_source_sha256": "3277921b490f8e20707ff227837134c90ee15b8ec83c4c188e0adc1ab390e084"
     },
@@ -14700,11 +14701,14 @@
     {
       "id": "canonical-method:writing-quality-studio:library/source-procedures/marketplace/human-writing/human-writing/SKILL.md",
       "canonical_owner": "writing-quality-studio",
-      "disposition": "blocked",
-      "capability_effect": "Distinct Human Writing depth method has no verified install route; two support references were unavailable. Natural Prose Editor first-party pass remains, but claiming full Human Writing method is blocked.",
-      "expected_components": [],
+      "disposition": "included",
+      "capability_effect": "Author-confirmed Human Writing method is included unchanged with two explicitly newly authored support repairs, shared by local and public packages.",
+      "expected_components": [
+        "writing-quality-studio:library/source-procedures/marketplace/human-writing/human-writing/SKILL.md"
+      ],
       "evidence": [
-        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4"
+        "maintainer-audit:sha256:ec1b4322fec2a85446ecc614b4afdd6994911d1b1018e1860085d2ef7023e3e4",
+        "maintainer-author-confirmation:sha256:1f8fa6cdee5fb2aa0ef52b0d05fb2d7f1cd7a736bcfb987d0296bf7d2b03aeb0"
       ],
       "audit_source_sha256": "c82193e9a4512014ec503b4e2930e843f23bf483cf805dc2d0b36044944428f1"
     },

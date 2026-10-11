@@ -1,6 +1,6 @@
 # Separate publisher methods
 
-Writing Quality Studio ships full original and licensed methods in its own package. The public projection does not copy the OpenAI Write Like Me or marketplace AIHumanizer/Human Writing bodies. The canonical private source retains historical copies outside the active route. Public availability does not establish redistribution permission. Each optional method below must be loaded from the publisher's own installed plugin. The current user task, facts, and host instructions govern all methods.
+Writing Quality Studio ships full original and licensed methods in its own package. The public projection does not copy the OpenAI Write Like Me or marketplace AIHumanizer bodies. The canonical private source retains historical copies outside the active route. Public availability does not establish redistribution permission. Each optional method below must be loaded from the publisher's own installed plugin. The current user task, facts, and host instructions govern all methods.
 
 ## AIHumanizer
 
@@ -126,7 +126,7 @@ For explicit style matching, first read [professional voice handoff](../../skill
 
 ## Human Writing
 
-The current native Codex installed inventory did not contain `human-writing` or `humanwriting`. The earlier marketplace installer rejected a manifest-name mismatch, and two original references were unavailable. There is no verified recipient installation route. Natural Prose Editor's full first-party final pass remains available; do not claim to run the distinct Human Writing method. Recheck the publisher's current native listing before offering it as a separately installed option.
+[Human Writing](marketplace/human-writing/human-writing/SKILL.md) is included as Jonathan Kyle Hobson’s author-confirmed MIT method. It is selected through Natural Prose Editor and needs no separate provider installation. Its unchanged original procedure links to newly authored first-party prose and narrative support guides. [Provenance](marketplace/human-writing/human-writing/PROVENANCE.md) distinguishes that current repair from the unrecovered historical support files. Earlier standalone installer observations remain historical evidence and do not describe the current in-plugin route.
 
 ## Other hosts
 
