@@ -63,7 +63,7 @@ class HooksPackTest(unittest.TestCase):
             tmp = Path(tmp)
             source, remote = tmp / 'source', tmp / 'remote.git'
             subprocess.check_call(['git', 'clone', '--quiet', '--shared', str(ROOT), str(source)])
-            subprocess.check_call(['git', 'checkout', '-qb', 'main', BASE], cwd=source)
+            subprocess.check_call(['git', 'checkout', '-qB', 'main', BASE], cwd=source)
             subprocess.check_call(['git', 'config', 'user.name', 'Fixture'], cwd=source)
             subprocess.check_call(['git', 'config', 'user.email', 'fixture@example.test'], cwd=source)
             subprocess.check_call(['git', 'init', '--bare', '--quiet', str(remote)])
