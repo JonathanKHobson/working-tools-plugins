@@ -1,0 +1,3721 @@
+{
+  "schema_version": 1,
+  "basis": "Exact public download bytes pinned by the existing external product ledger; archives inspected as ZIP data only, without execution or installation.",
+  "products": [
+    {
+      "product_id": "writing-enhancement-codex-collection",
+      "classification": "frozen Codex skill collection pack",
+      "is_whole_working_tools_ecosystem_bundle": false,
+      "archive": {
+        "name": "writing-enhancement-codex-collection.zip",
+        "public_download_url": "https://jonathankhobson.github.io/shareables/s/humanizer-writing-enhancement/downloads/writing-enhancement-codex-collection.zip",
+        "pinned_public_url": "https://raw.githubusercontent.com/JonathanKHobson/shareables/7ce0ff31ed6d5abc8dc55c1ed767684af53a9e09/s/humanizer-writing-enhancement/downloads/writing-enhancement-codex-collection.zip",
+        "size_bytes": 46662092,
+        "sha256": "f72a1d285eb5d9dd2c36b60d0a07bea8e07e8cb2c1e789816cf6c4c846d7c2a5",
+        "root": "codex-writing-enhancement-collection",
+        "file_count": 490,
+        "uncompressed_bytes": 55110080,
+        "zip_crc_valid": true,
+        "no_unsafe_paths_or_symlinks": true
+      },
+      "declared_package_version": null,
+      "package_manifest": null,
+      "dependency_declarations": {
+        "skill_frontmatter_dependency_fields_present": 0,
+        "dependency_manifest_files": [],
+        "note": "No machine-readable dependency declarations found; prose in individual skills may describe tools or usage constraints."
+      },
+      "member_count": 46,
+      "members": [
+        {
+          "directory_id": "board-game-design",
+          "declared_name": "board-game-design",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/board-game-design/SKILL.md",
+              "size_bytes": 3038,
+              "sha256": "77cf6e944f54847d9656f3abc027a9e7ecd75bd303087cf375e06656cb777550"
+            }
+          ]
+        },
+        {
+          "directory_id": "communication-story-crafter",
+          "declared_name": "communication-story-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 47,
+          "files": [
+            {
+              "path": "skills/communication-story-crafter/SKILL.md",
+              "size_bytes": 17081,
+              "sha256": "6fb29f9a36d09df650a6bb92577686e2febed40f799f8b9f322c15b9122c2845"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/agent.md",
+              "size_bytes": 3003,
+              "sha256": "eb926a900e82682a909946ab95c9302a02bdae660879ce78362a6d015fa71e4e"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/agents.md",
+              "size_bytes": 587,
+              "sha256": "2535d7dbee7081dfd9f02125d78d6c8ec833f24e5dda1da8b1b99f48521be1eb"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/audience-adaptation-advisor.md",
+              "size_bytes": 862,
+              "sha256": "8ffaa2dd63e0bebe9d739ddbdf6354820e688327f45fe797af1b96c03a10628b"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/career-story-liaison.md",
+              "size_bytes": 836,
+              "sha256": "68b4ccc8ff02fa5aa95ea8f0195e64b7af1fd400f25924ae08b50ab7efec2311"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/client-pipeline-copywriter.md",
+              "size_bytes": 1040,
+              "sha256": "8f613ffbbbc58edba91261ef9a2ede840938f189f6bb0e72ea60a6b7e23ca70d"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/communication-learning-coach.md",
+              "size_bytes": 1090,
+              "sha256": "195ecb32b91152d87d68b991f067f6701fde4d4f2e5bd51d0eb7a23329693168"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/communication-strategist.md",
+              "size_bytes": 750,
+              "sha256": "404b57a81c8cbfec909c194793969e9984ec02398e0c7e74a9bf9081c612a75a"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/conflict-repair-coach.md",
+              "size_bytes": 901,
+              "sha256": "cc76f31c5c53dbd364992e7eef8bde3001b946722add9f6e291071a397dae999"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/contractor-brand-messaging-advisor.md",
+              "size_bytes": 1172,
+              "sha256": "6539cb10bf0d8b6304fa494f93e5643a463dcb320b5ee1dac35415934cd35c02"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 814,
+              "sha256": "b34c73189a8b691daefaee63f1dfc87d83e483f1102e9a56a76c2ebfbaec5e5d"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/hook-story-architect.md",
+              "size_bytes": 760,
+              "sha256": "9c56b766da55364c0f11a05fa0f184261ebafeb7fba025455d0d17701d7f736a"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/openai.yaml",
+              "size_bytes": 1291,
+              "sha256": "260d6f0030ddf85e8750a4411e931c5281b1598d119e23a97f13cd76f17d0629"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/rhetorical-appeals-editor.md",
+              "size_bytes": 712,
+              "sha256": "fff16c71295f77d7a261e11b3f33b1f62fbae88ff733c0de4f4b7effef5c10ef"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/stakeholder-coach.md",
+              "size_bytes": 800,
+              "sha256": "d10d548e54ee0c23b7016d6fd51b24131dcdafbec926cf75158215756e4c9d26"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/voice-tone-editor.md",
+              "size_bytes": 783,
+              "sha256": "1583eee1a42731ea14bff1f36dbb41cab9d9ba3df8b5ec4e5a30ca6b475736e3"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/audience-style-adaptation.md",
+              "size_bytes": 2336,
+              "sha256": "b4eeeae96a79e2601f963237322464d48a4a0fc931a26ec976eb4515263828a0"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/clarity-accessibility.md",
+              "size_bytes": 2047,
+              "sha256": "d199108f046f9203c655442824033709f089a4f047dce823b2b689a6a2316b3f"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/client-outreach-and-proposals.md",
+              "size_bytes": 2140,
+              "sha256": "47fa07449cbde28264adcc0a94805e635ed2737a0ba751743c05b9ebab819ece"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/communication-stack.md",
+              "size_bytes": 1905,
+              "sha256": "46cc52ec6e694f994a2933c6be3e2fc3a6a0ef9cac873c013f3b64cdaf318cdd"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/contractor-brand-messaging.md",
+              "size_bytes": 3065,
+              "sha256": "15206a865f560e2e21d73f8bfdc160da527ad4cfc0646c776d8b50238546ade8"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/ethical-persuasion.md",
+              "size_bytes": 1529,
+              "sha256": "e1834346aefceac875890cceb9fc4c24561caab28d033ef866746b549e1fd4db"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/game-design-transfer.md",
+              "size_bytes": 2784,
+              "sha256": "46c1f1176b1a215ed5b7d5726f4ef5b85b2fed8149dbfe02ffd68a54623b03e4"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/instructional-design-for-communication.md",
+              "size_bytes": 2633,
+              "sha256": "d6f9f6d651a2034ff272a77e737ada93692a990e1c284d054ffb037982fb1995"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/job-search-communication.md",
+              "size_bytes": 1662,
+              "sha256": "234b76bf09b0c5dd0d666ffa44f0da832030ad3000d1c23908533f7a57dac231"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/knowledge-atlas-frameworks.md",
+              "size_bytes": 2553,
+              "sha256": "e17a4256dfc0b3961840d8ce703c6823980f5cab84e83dda87701799acda1470"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/message-rubrics.md",
+              "size_bytes": 1323,
+              "sha256": "03eb86ac2cc51b5bfae8600c1b3db8eab3051c4df3dc4f4c7692b0b5e20e89ba"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/narrative-story-spine.md",
+              "size_bytes": 1730,
+              "sha256": "2205ab9d2774afb3507179e8cd8d7f9633e26388361dcff7fc77b1a6ecf13776"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/public-content-hooks.md",
+              "size_bytes": 2360,
+              "sha256": "4014cec34d3443efee7b789fb30e61c24bb193f4175bf5982dde372dc5ed7de4"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/rhetorical-appeals.md",
+              "size_bytes": 2017,
+              "sha256": "1e76461929700a661c34adac748b5f888ec746ba309403b28a534589eb8c00e0"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/source-anchors.md",
+              "size_bytes": 1653,
+              "sha256": "478ffb86ae7500c2ec1bca5af0d801e5e566e3f3ac1981f241814a6255f3b600"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/stakeholder-communication.md",
+              "size_bytes": 2408,
+              "sha256": "2601e251e3a8f390f7e57e96b044f2d6ed7e683ac0be04ba7e660fdd8dc38589"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/voice-ai-sludge-checks.md",
+              "size_bytes": 1625,
+              "sha256": "aa10b71adfdf9de30855c46cf3da697414a1e91d1def303a807746abdb54aae2"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/client-outreach-message.md",
+              "size_bytes": 515,
+              "sha256": "7732e19408a535b97f62a2990f72c9957c511bdef797026957e679cdbda1eccc"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/communication-audit.md",
+              "size_bytes": 316,
+              "sha256": "84152b1fcc89b40d553e27b09819ed5912f84d21c2ebabd4bfa0cd5115bad7ec"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/communication-practice-loop.md",
+              "size_bytes": 593,
+              "sha256": "95be42e8c73400629b0f3b79e982dbf722e7a6f3de6a2ca55c44ce4bb2d5dfea"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/contractor-homepage-message.md",
+              "size_bytes": 633,
+              "sha256": "b21c60da811d731409a03a6a3f74cabd3ea1289b08a65b9ede5438fdc4b8fd6f"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/hook-set.md",
+              "size_bytes": 244,
+              "sha256": "dd5b4efa101533c7ea937146b22c9656b5135f1d6ffa22f3560b9d012a82a66d"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/job-search-message.md",
+              "size_bytes": 292,
+              "sha256": "deb3d3dd85d9284a9a728cec061ac8721cd27acb3aac24131a14d5f80027845d"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/proposal-message.md",
+              "size_bytes": 380,
+              "sha256": "b6d58d1eacef65542e733556e3d52ac8fe88d5e68c70a31b76c0bb1f697feb22"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/reader-experience-loop-audit.md",
+              "size_bytes": 612,
+              "sha256": "b55ebb08c4eb652b7a94b90f97f78477469041867dff38ebf73694fb6994552d"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/rhetorical-situation-analysis.md",
+              "size_bytes": 711,
+              "sha256": "4f8b9e6c5e7831528af1be91d0f9b72fda0e0d5a9511c711bac8f8f5bfc313e1"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/sensitive-message.md",
+              "size_bytes": 213,
+              "sha256": "c9053cd62e55104f43b495208ce2197cdab5331f34a76faecdb37e100da9cc09"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/service-offer-message.md",
+              "size_bytes": 544,
+              "sha256": "580439ad74617b59900adf2420ca9e88b5c00dd8b92b15cd23d96af14cf7b4d5"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/stakeholder-readout.md",
+              "size_bytes": 225,
+              "sha256": "aeaf5d5a242a67de6083f47255af51857d5d6e756a3bd6871b20f79be6e20393"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/story-pitch.md",
+              "size_bytes": 351,
+              "sha256": "0ab0a089c25749dc43dcaf89249c49207628cae53cb2fedaf1a1368e2ec5bdcc"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/template-index.md",
+              "size_bytes": 1045,
+              "sha256": "199e46c63d801f521545bd05dbae0059878c43958b41b7d215abf6225ccc3fa5"
+            }
+          ]
+        },
+        {
+          "directory_id": "cover-letter-crafter",
+          "declared_name": "cover-letter-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 22,
+          "files": [
+            {
+              "path": "skills/cover-letter-crafter/SKILL.md",
+              "size_bytes": 5704,
+              "sha256": "0136fa16f18702ee105023d26410e66dca0ff6750f983d314311b2cc3a581490"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/agent.md",
+              "size_bytes": 1385,
+              "sha256": "b1ea5bb7f67b9988755526dcf3ef741fa852c66c8a329ccb01205d02531582e5"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/company-fit-auditor.md",
+              "size_bytes": 1061,
+              "sha256": "0c2b6cd8cc1ed994ee23c6a77475d479b21a61e20ab56b28e51c27735deff116"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/cover-letter-strategist.md",
+              "size_bytes": 1100,
+              "sha256": "e4e68d38a80c7638ab1c5479560a629d9970453db44f63ce3c39506b8e40cf3b"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 1246,
+              "sha256": "a0abb6c12faab4346c15b24e2944ae9d2204a7faf137f685257ced2dbd019207"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/hook-writer.md",
+              "size_bytes": 986,
+              "sha256": "e1a5b8f22e0213aa52212c37810b81663f907cbf2d02c2e1bb52c4316ab65e95"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/proof-editor.md",
+              "size_bytes": 937,
+              "sha256": "285554b2664165ccd46f42e2f668ed83cf8905bf65da7635ffb4c5b8e4d01daf"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/company-fit-and-research.md",
+              "size_bytes": 1502,
+              "sha256": "fde5890154ee0842873dc1d3646b44450fe0e50e9a7d6af781cc9bc0dac612c3"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/cover-letter-quality-rubric.md",
+              "size_bytes": 2082,
+              "sha256": "a3cc4d355724dad3952f2e81c263718e67adeacf96db83656e87bacd392a7da9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1073,
+              "sha256": "2a8dbb1aef017ef0852e6408e53a53db9b56c6123c32a86b4aaa518882ffe079"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/hooks-and-openings.md",
+              "size_bytes": 2077,
+              "sha256": "e4eadb11b99c91ee9c7bc4b4f93cd84141036c5b0d16ed9f84b9582243262b85"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/metrics-and-truth.md",
+              "size_bytes": 1521,
+              "sha256": "2ee2227793d0987b70e9c4b94997ca273d039bd5801cd7b4bdc89f71f94ce5ac"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/patterns.md",
+              "size_bytes": 2089,
+              "sha256": "a1e9b32573e823e2e28817c8456b4a0e757312651d1fea7c43ded66778b5ddf7"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/proof-paragraphs.md",
+              "size_bytes": 1956,
+              "sha256": "1e39c96331868a59d8fa7eb06ed2c761ca8f6a6057b2605599a8601980c42977"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/voice-and-tone.md",
+              "size_bytes": 1437,
+              "sha256": "37d155891ecd5f74479cf41925c6a2096ee9e654a21c89098e9e21ff1f249ac9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/ai-workflow.md",
+              "size_bytes": 832,
+              "sha256": "9426edb0aeecb5c72a830e6044e1dce6a81c1934c4b8e7878da91459fa4e33d1"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/cold-application.md",
+              "size_bytes": 861,
+              "sha256": "e10ac33a2eb72f75bbe65c8190328bef329f5f262ab4de402e3033647fa9f1e9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/mission-fit.md",
+              "size_bytes": 834,
+              "sha256": "deb752d6a858c2d9c616c5d9d42703234860ea59eb79054ea9497fd305375cc5"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/product-ux.md",
+              "size_bytes": 861,
+              "sha256": "c47c3ab79471babb9e86b4116cef3d498ec6821f5324c4a4d1b56506697c2354"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/referral.md",
+              "size_bytes": 802,
+              "sha256": "e179fb35abe13cf4127d35e891059ffb1bac4887ecbf50fe3ce6684af0f10a35"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/teaching-learning.md",
+              "size_bytes": 846,
+              "sha256": "cd158412dc7609fbce8a5a1d53bb6a4c95b818b64d18bc785fd84fc8196ab807"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/template-index.md",
+              "size_bytes": 780,
+              "sha256": "609733ae65a460dca002dcaf0b695d28d0fe2c860267163b8be35ffbaea75141"
+            }
+          ]
+        },
+        {
+          "directory_id": "creative-project-context",
+          "declared_name": "creative-project-context",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 4,
+          "files": [
+            {
+              "path": "skills/creative-project-context/SKILL.md",
+              "size_bytes": 4203,
+              "sha256": "056bddb1c62bff1a4ce32dc9560a6d0c5edef8a95a7239692b2424a27ddcf36c"
+            },
+            {
+              "path": "skills/creative-project-context/scripts/check_creative_project.py",
+              "size_bytes": 2447,
+              "sha256": "8ffa227e3dee02c7bba3f82dc8da3f4da26add7b859a7c66ca570c7d777480d0"
+            },
+            {
+              "path": "skills/creative-project-context/scripts/create_creative_project.py",
+              "size_bytes": 4113,
+              "sha256": "d67b76a1b28e4ef4d292bbd29ee3b3760afd63f80d3605fc461d12df612c7d56"
+            },
+            {
+              "path": "skills/creative-project-context/templates/creative-project.yaml",
+              "size_bytes": 778,
+              "sha256": "e9cfe34d29ce03bc21f88867bb46f389aadc7166b0052b0bda842c5c9adfe961"
+            }
+          ]
+        },
+        {
+          "directory_id": "creative-project-router",
+          "declared_name": "creative-project-router",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/creative-project-router/SKILL.md",
+              "size_bytes": 5490,
+              "sha256": "42d46d104cec178d326860199f344f6cdd00f3a832f9583c7a7ccda446c5e5d9"
+            }
+          ]
+        },
+        {
+          "directory_id": "critical-compass",
+          "declared_name": "critical-compass",
+          "declared_version": null,
+          "declared_compatibility": "Standalone markdown skill. Critical Compass MCP is optional and never required at runtime.",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 13,
+          "files": [
+            {
+              "path": "skills/critical-compass/SKILL.md",
+              "size_bytes": 17853,
+              "sha256": "efb403be54e787dd7e6c67049f44043bcc61671445a0c0d0c1d2e1e24793a206"
+            },
+            {
+              "path": "skills/critical-compass/references/activity-layer.md",
+              "size_bytes": 3885,
+              "sha256": "92f0ac9db34a2bf1dd589fa975e257b26e5299f8e963010bd9b9c9f957346467"
+            },
+            {
+              "path": "skills/critical-compass/references/bias-library.md",
+              "size_bytes": 28512,
+              "sha256": "96f3adb282e5ab9fc33d86f0855fa7fb01510c2f72ccb1e9018ecac43336e2d2"
+            },
+            {
+              "path": "skills/critical-compass/references/critical-integrity-snapshot.md",
+              "size_bytes": 4119,
+              "sha256": "f47040cb3844c22e068b2be65757ac221a151a9f18fc6d664f1a02a7490a2d0d"
+            },
+            {
+              "path": "skills/critical-compass/references/decision-layer.md",
+              "size_bytes": 5321,
+              "sha256": "8ed7c46236ee2a8eb5d83b985621bca0e47e5a730771cb63b37d542ef32a53b5"
+            },
+            {
+              "path": "skills/critical-compass/references/disambiguation-rules.md",
+              "size_bytes": 2290,
+              "sha256": "afbceed71299a716223d9579333a685ce8eaad7bc23101830d6b05a687e653a5"
+            },
+            {
+              "path": "skills/critical-compass/references/examples.md",
+              "size_bytes": 7256,
+              "sha256": "66d1df6385a556e883b4ceb1ca9744d43d8533142adc0d9714f84ed023894910"
+            },
+            {
+              "path": "skills/critical-compass/references/fallacy-library.md",
+              "size_bytes": 8849,
+              "sha256": "c850e8343f5a9f32a320ef80547b5d80c32b941cf21863b1a7fcd835bdeafc47"
+            },
+            {
+              "path": "skills/critical-compass/references/mcp-bridge.md",
+              "size_bytes": 3446,
+              "sha256": "eaabdbbd02b983396fdfbcc852593c927dd9d2b2ef17c4d28d222e2ebf643dde"
+            },
+            {
+              "path": "skills/critical-compass/references/methodology-checks.md",
+              "size_bytes": 4211,
+              "sha256": "df5f94bfabdb941423ad28ac33bb919a831c1ae7581ae1f820ded6acf628858b"
+            },
+            {
+              "path": "skills/critical-compass/references/output-templates.md",
+              "size_bytes": 7069,
+              "sha256": "99b30c9e7f59ea3458a27619a3612d28782212db34cde5e6dcb7a8aea8e77a25"
+            },
+            {
+              "path": "skills/critical-compass/references/quorum-mode.md",
+              "size_bytes": 2374,
+              "sha256": "bbf20a806b57d4af8b435f0b74d184a068bd456cc26c25f39f5b1183c239333e"
+            },
+            {
+              "path": "skills/critical-compass/references/thinking-lenses.md",
+              "size_bytes": 18649,
+              "sha256": "e09557b71ba99a9887f6cba98b778b350e17cbb3653d8cc0e25fb2878f636c32"
+            }
+          ]
+        },
+        {
+          "directory_id": "current-social-research",
+          "declared_name": "current-social-research",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 3,
+          "files": [
+            {
+              "path": "skills/current-social-research/SKILL.md",
+              "size_bytes": 9673,
+              "sha256": "ec56f03c6425153e90197cc3bdaea53c1ec8a2ea44ab5cdb864e54a812c0692c"
+            },
+            {
+              "path": "skills/current-social-research/references/last30days-adoption.md",
+              "size_bytes": 2743,
+              "sha256": "3ecf7c794b982fd149cb98d4d537b3089f00cbd9606509f1aeb64ef5212ff081"
+            },
+            {
+              "path": "skills/current-social-research/scripts/current_social_plan.py",
+              "size_bytes": 9766,
+              "sha256": "51e1ad818374c6a295241565bc686644aca9a9edf65570df362d62044d818c05"
+            }
+          ]
+        },
+        {
+          "directory_id": "daggerheart-adapter",
+          "declared_name": "daggerheart-adapter",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/daggerheart-adapter/SKILL.md",
+              "size_bytes": 1350,
+              "sha256": "dc48678b2ae325cc24be630e93303916b3b7ae6a6321c742cea4bdb3168c433d"
+            }
+          ]
+        },
+        {
+          "directory_id": "debrief-canon-maintainer",
+          "declared_name": "debrief-canon-maintainer",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/debrief-canon-maintainer/SKILL.md",
+              "size_bytes": 1201,
+              "sha256": "1f6544d936fd851182edebf7caa393a5d0c18a2bd45c15728fe2b51b58d66d0e"
+            }
+          ]
+        },
+        {
+          "directory_id": "design-taste-gate",
+          "declared_name": "design-taste-gate",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "aliases",
+            "description",
+            "name"
+          ],
+          "file_count": 5,
+          "files": [
+            {
+              "path": "skills/design-taste-gate/SKILL.md",
+              "size_bytes": 10091,
+              "sha256": "a7c8d11d2e8d273b5ddd58da89bfa2f482f3361b75f32afcb7d85dd5c2ee0518"
+            },
+            {
+              "path": "skills/design-taste-gate/agents/openai.yaml",
+              "size_bytes": 279,
+              "sha256": "02219fadeaf07986893aa7887d36e24f18285c79c729bc3be40315831f5bbb74"
+            },
+            {
+              "path": "skills/design-taste-gate/evals/evals.json",
+              "size_bytes": 3376,
+              "sha256": "03a1f79d6684d9d459f1069e28f8963628f971ee4b47596f1b322d44310243d1"
+            },
+            {
+              "path": "skills/design-taste-gate/references/.review-lenses.md.piSSHaDtFk",
+              "size_bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "skills/design-taste-gate/references/review-lenses.md",
+              "size_bytes": 9172,
+              "sha256": "e83acfe2a69098644df86eb428a51eab4bf2360f950756c589315a9c85625cb1"
+            }
+          ]
+        },
+        {
+          "directory_id": "develop-web-game",
+          "declared_name": "develop-web-game",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 7,
+          "files": [
+            {
+              "path": "skills/develop-web-game/LICENSE.txt",
+              "size_bytes": 10776,
+              "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+            },
+            {
+              "path": "skills/develop-web-game/SKILL.md",
+              "size_bytes": 12446,
+              "sha256": "5488764a624355d060df038ec85debe91091a92a5d47b2c580d61abda67965f2"
+            },
+            {
+              "path": "skills/develop-web-game/agents/openai.yaml",
+              "size_bytes": 299,
+              "sha256": "0962a160095830d7c6d7c6983ed023ebce93855f51c3e9a58cbba0c3d9ce07dd"
+            },
+            {
+              "path": "skills/develop-web-game/assets/game-small.svg",
+              "size_bytes": 2706,
+              "sha256": "c384984085a0d12baadc39ee05c4b3ecf22c8f04fe0a5d8227b00675742c249e"
+            },
+            {
+              "path": "skills/develop-web-game/assets/game.png",
+              "size_bytes": 2234,
+              "sha256": "08382df5010120e47f06e6c32e7e990bb8f3bc473c07f7191b7c11484272635d"
+            },
+            {
+              "path": "skills/develop-web-game/references/action_payloads.json",
+              "size_bytes": 141,
+              "sha256": "7c6915472781be9cc704bb12952577bd66ae4c073d294459d564a8d45f98671c"
+            },
+            {
+              "path": "skills/develop-web-game/scripts/web_game_playwright_client.js",
+              "size_bytes": 9963,
+              "sha256": "e95c3bcbdc0d15eb08fd3a6021283ec32f715b51f1e5847d3db20df526be5996"
+            }
+          ]
+        },
+        {
+          "directory_id": "edu-role-play",
+          "declared_name": "edu-role-play",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 2,
+          "files": [
+            {
+              "path": "skills/edu-role-play/SKILL.md",
+              "size_bytes": 7002,
+              "sha256": "812ccaf10c2301875cd054151b6abacfce4376f39ad249f97855e47ba8e49448"
+            },
+            {
+              "path": "skills/edu-role-play/references/provenance.md",
+              "size_bytes": 1399,
+              "sha256": "73ef8a5dc7e74e1325604d096f315cab69f6d9bb847842f841e42b5abd7598c9"
+            }
+          ]
+        },
+        {
+          "directory_id": "figma",
+          "declared_name": "figma",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 8,
+          "files": [
+            {
+              "path": "skills/figma/LICENSE.txt",
+              "size_bytes": 11358,
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+            },
+            {
+              "path": "skills/figma/SKILL.md",
+              "size_bytes": 3170,
+              "sha256": "5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5"
+            },
+            {
+              "path": "skills/figma/agents/openai.yaml",
+              "size_bytes": 460,
+              "sha256": "4b732040f73a28c7ab36c1e3417f09fb6cc7558b6d258222c62e90d882104b0e"
+            },
+            {
+              "path": "skills/figma/assets/figma-small.svg",
+              "size_bytes": 810,
+              "sha256": "c933768c03dff033b55d8e3cdabd0ba63efa9d68bd0db346a454b4b7286a2564"
+            },
+            {
+              "path": "skills/figma/assets/figma.png",
+              "size_bytes": 1612,
+              "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada"
+            },
+            {
+              "path": "skills/figma/assets/icon.svg",
+              "size_bytes": 964,
+              "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7"
+            },
+            {
+              "path": "skills/figma/references/figma-mcp-config.md",
+              "size_bytes": 2471,
+              "sha256": "3b8bbd016e7cecfe01d096791582da8c9669c18675ec3f201d0d4088051711a9"
+            },
+            {
+              "path": "skills/figma/references/figma-tools-and-prompts.md",
+              "size_bytes": 2796,
+              "sha256": "428add063f235ffe27fb4b8d092558794f25f7ad69893d5a88621d8174e9c8d6"
+            }
+          ]
+        },
+        {
+          "directory_id": "figma-implement-design",
+          "declared_name": "figma-implement-design",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 6,
+          "files": [
+            {
+              "path": "skills/figma-implement-design/LICENSE.txt",
+              "size_bytes": 11358,
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+            },
+            {
+              "path": "skills/figma-implement-design/SKILL.md",
+              "size_bytes": 12107,
+              "sha256": "a7a8d17b480dee954773e2ac035e3aeb2e490e6b8f33c656085042889c9aa7bb"
+            },
+            {
+              "path": "skills/figma-implement-design/agents/openai.yaml",
+              "size_bytes": 488,
+              "sha256": "85458037bb2fa5fe85375ceb9535c8eefe14591c4ca2994501e0d89690292c03"
+            },
+            {
+              "path": "skills/figma-implement-design/assets/figma-small.svg",
+              "size_bytes": 818,
+              "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9"
+            },
+            {
+              "path": "skills/figma-implement-design/assets/figma.png",
+              "size_bytes": 1612,
+              "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada"
+            },
+            {
+              "path": "skills/figma-implement-design/assets/icon.svg",
+              "size_bytes": 964,
+              "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7"
+            }
+          ]
+        },
+        {
+          "directory_id": "frontend-ux",
+          "declared_name": "frontend-ux",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 6,
+          "files": [
+            {
+              "path": "skills/frontend-ux/SKILL.md",
+              "size_bytes": 15458,
+              "sha256": "8eec2a72877e8e4f742691ed5af2411b6d608166f231a3886f8c02b9671e5028"
+            },
+            {
+              "path": "skills/frontend-ux/agents/openai.yaml",
+              "size_bytes": 220,
+              "sha256": "c2ba70ec3366af472f944fc64a8762f923d1abba532d79a70342342b2cb142c1"
+            },
+            {
+              "path": "skills/frontend-ux/references/accessibility.md",
+              "size_bytes": 3580,
+              "sha256": "94aa8ba24e883389ce7c31d3c26623c78ebb2adfda2e2a2e6d653a0f4ced6008"
+            },
+            {
+              "path": "skills/frontend-ux/references/codex-design-harness.md",
+              "size_bytes": 8015,
+              "sha256": "01506fe186c31b2eba3cede13d51d2edcc9fa30a83a287c4a1a6a061338cb11a"
+            },
+            {
+              "path": "skills/frontend-ux/references/tech-stack.md",
+              "size_bytes": 4120,
+              "sha256": "3ad3a1de6c62ab0f49e16693f2c8df70fec852f08199b1c5af6abe31fdd94361"
+            },
+            {
+              "path": "skills/frontend-ux/references/ux-writing.md",
+              "size_bytes": 2775,
+              "sha256": "58d790d57925696eaa299f53b88c8d9065c18894aa23800271f884751d63573c"
+            }
+          ]
+        },
+        {
+          "directory_id": "game-designer",
+          "declared_name": "game-designer",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 5,
+          "files": [
+            {
+              "path": "skills/game-designer/SKILL.md",
+              "size_bytes": 9094,
+              "sha256": "e75d80407eb1f7996b6f2247c1d4ceaf7c769b0491f11c20463ac1524009ce63"
+            },
+            {
+              "path": "skills/game-designer/agents/openai.yaml",
+              "size_bytes": 196,
+              "sha256": "03b1cc2051e3101347b6a82ffd704b39f7659b702cf5093e36e8e2b96ec7c396"
+            },
+            {
+              "path": "skills/game-designer/references/artifact-templates.md",
+              "size_bytes": 3530,
+              "sha256": "c0e41200ce519dad2feae46db8b27c9e33b6e97bdcfd4201951cbca012ff9fbd"
+            },
+            {
+              "path": "skills/game-designer/references/diagnostics.md",
+              "size_bytes": 5991,
+              "sha256": "3ce4e31da83a153d63b85b933fafdc6f125fa1c47959ec53f92c952802e3f196"
+            },
+            {
+              "path": "skills/game-designer/references/frameworks.md",
+              "size_bytes": 3716,
+              "sha256": "5d6a3431145ba4349b213e676c6222feba8f6c1274fbc06f81203011e8cb468c"
+            }
+          ]
+        },
+        {
+          "directory_id": "gm-roleplay-router",
+          "declared_name": "gm-roleplay-router",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 3,
+          "files": [
+            {
+              "path": "skills/gm-roleplay-router/SKILL.md",
+              "size_bytes": 4947,
+              "sha256": "451860bca1742aec32ecd805b88fac590f4c985391206be83c275df571110c90"
+            },
+            {
+              "path": "skills/gm-roleplay-router/references/router-map.md",
+              "size_bytes": 1434,
+              "sha256": "5c42095ae263298ffe5f9bfc42b11a0d42664510561f637f97aecd4ee8b7a365"
+            },
+            {
+              "path": "skills/gm-roleplay-router/tests/route-scenarios.json",
+              "size_bytes": 1339,
+              "sha256": "aa239eea8f7eb7c47cea717301d335493ca233de1e1e50614ee7a6afc130e299"
+            }
+          ]
+        },
+        {
+          "directory_id": "grant-process-crafter",
+          "declared_name": "grant-process-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 38,
+          "files": [
+            {
+              "path": "skills/grant-process-crafter/SKILL.md",
+              "size_bytes": 10220,
+              "sha256": "0f6a4e4dcc49ebfd836c774e523459faddeedf867f81c6beb366bd79714688f5"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/agent.md",
+              "size_bytes": 2461,
+              "sha256": "384620626596a16d909cde55d194bf4b56c1d0568d2e82fd3425428f71046ae9"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/agents.md",
+              "size_bytes": 611,
+              "sha256": "9a6e17ea00184c1b8ed168c57ba15faed86f0af3ad42d8495267fe5e75d68936"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/budget-narrative-reviewer.md",
+              "size_bytes": 939,
+              "sha256": "0dc45c225bb2229b903735213324f9eb9a1b45f76268bcbd23065b03dba88cbb"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/eligibility-fit-gatekeeper.md",
+              "size_bytes": 836,
+              "sha256": "cbcb0d6f30ff768c8eb6b845873950d048ae0aaac71a6e258f09d3403e579b83"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 789,
+              "sha256": "e2c72eed8ac0f0f64b442cd97653b48844e2f587fb2c2e7e0403d49f734e2915"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/grant-strategist.md",
+              "size_bytes": 940,
+              "sha256": "cc28b65b52a29e134b9f24628b1a23df1c7131d7a3648dc42acdd184183f30b1"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/nofo-compliance-analyst.md",
+              "size_bytes": 920,
+              "sha256": "0093896d1c9909ca9118f84d5756b5fca98fd608551e14a4727da6b828d0d7f6"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/openai.yaml",
+              "size_bytes": 906,
+              "sha256": "c5d08fcbcb45c1734d610889488b783f7eb20a57cfa77849747c242f071f6360"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/opportunity-scout.md",
+              "size_bytes": 957,
+              "sha256": "e4145e70cc1aa5575e904b143c4eae7de95e1c906ed5d55e5a59148cb70948cc"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/post-award-planner.md",
+              "size_bytes": 908,
+              "sha256": "498fb5daffbe00a65fbf6018c2a97c83901f0f6f4b41fcae9d690b8a2785941b"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/project-design-coach.md",
+              "size_bytes": 867,
+              "sha256": "be430fb539cf3c7bc140030852eaffbed1e4941aad1f05dfdaeb9cfe31919706"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/proposal-section-editor.md",
+              "size_bytes": 745,
+              "sha256": "45c16ad559dbff375fd3c19bffe45d46383d732630dc98fc124de8a833355eb6"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/reviewer-simulator.md",
+              "size_bytes": 805,
+              "sha256": "0b0d0d16858233e1783636284d95a757e5dda2cebedbd6c4d5eb0f273509c64d"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/submission-readiness-coordinator.md",
+              "size_bytes": 879,
+              "sha256": "b7deef5796fcab310666d3ba05c47cadabb4f0de47b60a4a5974fc92321be643"
+            },
+            {
+              "path": "skills/grant-process-crafter/agents/team-collaboration-facilitator.md",
+              "size_bytes": 948,
+              "sha256": "fd98ee8105c763506714d32d4fb0da21828a54a9104aafb93aa6773393bf0e15"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/ai-mcp-grant-safety.md",
+              "size_bytes": 1669,
+              "sha256": "e521a599ef7869dcbf28a2b52b7a6da4b1518ed22f1bcef7db3cee6be8c3736b"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/budget-narrative-and-finance-handoff.md",
+              "size_bytes": 1477,
+              "sha256": "1b0579a525320033bff4d117c3f2e4ba30c348ea160665e83b35bcfd7568fb87"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/file-o-fun-grant-activities.md",
+              "size_bytes": 2068,
+              "sha256": "12b5b4110753d1fad4d3992ba2fa87f2d0c4f091ff17f3e6d4419ed83dd29a3b"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/grant-lifecycle-workflow.md",
+              "size_bytes": 2846,
+              "sha256": "d80f7a7df71507ae9331790f6c262758e57b0618e80d7b9ae27978f22d848c06"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/large-team-grant-facilitation.md",
+              "size_bytes": 1549,
+              "sha256": "92e99e17af3df61c99c0a3b037511a0ab17c7b1b6ba84b05c46f713408415b66"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/nofo-compliance-and-timelines.md",
+              "size_bytes": 2204,
+              "sha256": "98db313bc789974b87e344b2d17bb226905da5b3abfaca111c85f3c540030f36"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/opportunity-fit-and-go-no-go.md",
+              "size_bytes": 2328,
+              "sha256": "d860dee7b90fe428c966b70d1316a27e53fe6d3beeb3a977b2d126155966ada8"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/post-award-and-resubmission.md",
+              "size_bytes": 1356,
+              "sha256": "7cf53d20328bc140e688d2c0b0d258463b2a17f9e0d8c97320e1fe883e85526f"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/project-design-and-evaluation.md",
+              "size_bytes": 2016,
+              "sha256": "a70491036994b4e63dc8bd8850c62406ac214acaa4ee3fbc4b8b3e7cfe78fe61"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/proposal-writing-and-review.md",
+              "size_bytes": 1998,
+              "sha256": "62da725efd2191fe0a2d9a803e89fa527c99e23fa9d23dc16473be907a342d43"
+            },
+            {
+              "path": "skills/grant-process-crafter/references/source-anchors.md",
+              "size_bytes": 2106,
+              "sha256": "418ed5d3c15d4cb304b1cb24345096ab99547ec6446dd68051933ca77dd1f652"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/funder-fit-scorecard.md",
+              "size_bytes": 604,
+              "sha256": "db440926922f5840a62e100ebdbdf980818bce4547c5679aeb269e8a9235e1fd"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/go-no-go-memo.md",
+              "size_bytes": 460,
+              "sha256": "d619cb97a1ca322177ba8149598465ef1d880d985e551afee9126e0e947f2e8f"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/large-team-integration-map.md",
+              "size_bytes": 597,
+              "sha256": "968ddd1b806853d1cf71bae739571ad86a09186b863bee31b77fa5a09a60c45c"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/nofo-compliance-matrix.md",
+              "size_bytes": 598,
+              "sha256": "05ad5b1ebe32ff67bad5b91dc4aa50fd3191248a17dec09c7c3800fbe5b26159"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/opportunity-intake.md",
+              "size_bytes": 520,
+              "sha256": "c7776f798a24a26453cc1d180e28242e6efd14d9cb5a721c6180f5ac8d6ad4c2"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/post-award-plan.md",
+              "size_bytes": 484,
+              "sha256": "98d5560685451a044c868978fcaa9f78c96e955e3a0186100cd67ea5b2661d08"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/project-design-canvas.md",
+              "size_bytes": 761,
+              "sha256": "f79b4a7a7c79ab3cd50de1bcaa92ba661e8036818af342b2d0ef032c45c2603e"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/proposal-section-plan.md",
+              "size_bytes": 354,
+              "sha256": "8aa6bd6468276212f891d0c16446c3b0b66968cd79459e8f2cf014e00306551a"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/review-simulator-rubric.md",
+              "size_bytes": 570,
+              "sha256": "4f16476654fbfbfe3d8bfdc6224e529b8a8817c54f4cb1796a95d28909d824d4"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/submission-readiness-checklist.md",
+              "size_bytes": 773,
+              "sha256": "8ba7be6a8ac8173abbe6ef01186722e6ddce093576d4180b5631719aa7e27f88"
+            },
+            {
+              "path": "skills/grant-process-crafter/templates/template-index.md",
+              "size_bytes": 746,
+              "sha256": "8a5a031266fdd9a02ef952895889e28644212555c34984b57a18ac5e217316d8"
+            }
+          ]
+        },
+        {
+          "directory_id": "humanizer",
+          "declared_name": "humanizer",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 74,
+          "files": [
+            {
+              "path": "skills/humanizer/SKILL.md",
+              "size_bytes": 7303,
+              "sha256": "3ec9dc4b05a0ef3110ff64767cba5af53e62a6e6fedbe5cb14835fca9dbc63be"
+            },
+            {
+              "path": "skills/humanizer/agents/citation-verifier.md",
+              "size_bytes": 1126,
+              "sha256": "1143ac584da51a776ccd39853dad4b21233238bdc51e5cecfd8977a1f5b94fba"
+            },
+            {
+              "path": "skills/humanizer/agents/evidence-editor.md",
+              "size_bytes": 1377,
+              "sha256": "1ebcbd2fc4fc8b9522fa0555ab279cc5cc798a5c8bd40846c6ebd8292d64191f"
+            },
+            {
+              "path": "skills/humanizer/agents/format-editor.md",
+              "size_bytes": 983,
+              "sha256": "c754b74f3fdc3ea1112afe55db66450982f0de1dfd379f2ab5ccba5958864107"
+            },
+            {
+              "path": "skills/humanizer/agents/genre-editor.md",
+              "size_bytes": 1268,
+              "sha256": "a3e54a7aa99fe22d55452962aa35debe8b26689c980ca07f1b2499e7e4ea8f64"
+            },
+            {
+              "path": "skills/humanizer/agents/line-editor.md",
+              "size_bytes": 1193,
+              "sha256": "1a45d436f3d4d2cbcef320ef1074381ee273afa7c7744c263c18a2efdf8ea91e"
+            },
+            {
+              "path": "skills/humanizer/agents/openai.yaml",
+              "size_bytes": 205,
+              "sha256": "20a591c9d98fa7f986edba4b610cac4b7f11a9ab5dc7874cc4c121e514e6e61e"
+            },
+            {
+              "path": "skills/humanizer/agents/scene-and-dialogue-editor.md",
+              "size_bytes": 1586,
+              "sha256": "16b7f6d5f34ab06e522a59fffd0e9caf9841495368f6d569cf6fcda02e873db2"
+            },
+            {
+              "path": "skills/humanizer/agents/structure-editor.md",
+              "size_bytes": 1307,
+              "sha256": "40d193c34315f980a6ac866756752a33c9e4f97fb03527913198569fad8e2863"
+            },
+            {
+              "path": "skills/humanizer/agents/voice-editor.md",
+              "size_bytes": 1452,
+              "sha256": "a52b6ededa0093f3c395be4aea04ba8bbf524551b6116159e86ae657da547cf6"
+            },
+            {
+              "path": "skills/humanizer/references/citation-integrity.md",
+              "size_bytes": 7459,
+              "sha256": "34fac68233ba31fba8dbf9abf62f3bf2f912c4edb75972cfffd393e8a0461560"
+            },
+            {
+              "path": "skills/humanizer/references/communication-and-markup-patterns.md",
+              "size_bytes": 9423,
+              "sha256": "3c79bfddae1d4a7f80fb9ea828f7bde6fd67fe994e8a91596f1cdfe2c35a0d40"
+            },
+            {
+              "path": "skills/humanizer/references/content-patterns.md",
+              "size_bytes": 11102,
+              "sha256": "9b301387c20bb7ce47980e754667634ad17d82c59f7c31aebf674bcbf002b15a"
+            },
+            {
+              "path": "skills/humanizer/references/human-signals-and-false-positives.md",
+              "size_bytes": 6642,
+              "sha256": "fc7f3a0a2502d909d4aaaf149fe7c22ca3e1e69655ca2fb90dc802f27f1b31fe"
+            },
+            {
+              "path": "skills/humanizer/references/language-patterns.md",
+              "size_bytes": 8426,
+              "sha256": "3ac9c09fe0f14b6bd47649d16f6194ae0e58c3f9160d9bd69f777e46feb9aefd"
+            },
+            {
+              "path": "skills/humanizer/references/quality-scope-and-ethics.md",
+              "size_bytes": 633,
+              "sha256": "7820140ed295099df53722d510ec7eb38843d227d562ccf03e8066705baa3ec5"
+            },
+            {
+              "path": "skills/humanizer/references/research-evidence.md",
+              "size_bytes": 10041,
+              "sha256": "991a20ff6db0aa7f2c07a3052391f24d9573a818eadcda26bdcb3358f396c859"
+            },
+            {
+              "path": "skills/humanizer/references/revision-example-bank.md",
+              "size_bytes": 16163,
+              "sha256": "e9abe6d85dfc673249cbbedbe4fc45a2fd4bc8086a9b805d8fcd24c4cda75cc8"
+            },
+            {
+              "path": "skills/humanizer/references/revisions-by-genre.md",
+              "size_bytes": 1402,
+              "sha256": "511e1649a33b762b465cd53518588604d036b3816fe27a8eda77c6ac749fdb27"
+            },
+            {
+              "path": "skills/humanizer/references/signals-and-revision.md",
+              "size_bytes": 2421,
+              "sha256": "fe9c95fcde7a869d458d0bb03cd894f75bd701f0bbd4b908edc25705e0e691de"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/INDEX.md",
+              "size_bytes": 1517,
+              "sha256": "55fb7f795b9d107d70ffe7b4c2e4862506065273563e3cc6006fc9abd83a8222"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/INDEX.md",
+              "size_bytes": 2952,
+              "sha256": "1cf544e8098878eab36306752a8330e7951eeb5f9630c66c04b37ae341be232f"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/accessibility.wikitext",
+              "size_bytes": 67519,
+              "sha256": "f785b8b4ba65e7dfe18910c97b8f9f5912bd53c219edf6d6bdc08b05dc2dfa24"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/ai-cleanup-guide.wikitext",
+              "size_bytes": 9405,
+              "sha256": "f75215ff9b540c80f0508a9346eacc36e2b0346a056717e8fc9a47ec9bc25625"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/artificial-intelligence-resources.wikitext",
+              "size_bytes": 23903,
+              "sha256": "8903a94ece8f01b08f2662dd7cbd59d9a11baaae56bcd87a0fadd5262225c5b6"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/capital-letters.wikitext",
+              "size_bytes": 65071,
+              "sha256": "e2fb9a222dd151701ecd7cf826ade6ec5d466bbb16390183408d398a9d9b1729"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/edit-summary-legend.wikitext",
+              "size_bytes": 27593,
+              "sha256": "46b0589552922febdb672a8948f4d164f43b634832c28011b2d8bcd1170eddfe"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/elegant-variation.wikitext",
+              "size_bytes": 15410,
+              "sha256": "498045c7547b56ef8c1245282ac11e67b486912ab20519ea9b642f155ea7eda5"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/fictitious-references.wikitext",
+              "size_bytes": 9519,
+              "sha256": "a2a8889004860ff6fce193e235306b05f18148c641d04473c6e89c8ca3fb3a8e"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/identifying-llm-unblock-requests.wikitext",
+              "size_bytes": 12691,
+              "sha256": "1816513db44b3fc02283bd1a65d674afef65c7658a560a001eabb355a6841414"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/lead-section.wikitext",
+              "size_bytes": 62223,
+              "sha256": "fb3c61d473bacc103e3150aa5ce9bb7623a4b7081743a0149840e50730f3d943"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/lists.wikitext",
+              "size_bytes": 54223,
+              "sha256": "9fa084d793655e90b57dba2e399d6334d3dfd8b9ab22d1d5ab50493a17fbff8f"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/llm-written-ani-report.wikitext",
+              "size_bytes": 4972,
+              "sha256": "c7f99373f102a54cc59be7394f800ad39fa7fa9dd92332f4d0c36a995fb41fed"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/manual-of-style.wikitext",
+              "size_bytes": 236515,
+              "sha256": "e2d0541fe7b8dbc7e5991833c0e31bc9d1f81b52571ab1cea45b538e20739703"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/marketing-buzzspeak.wikitext",
+              "size_bytes": 4305,
+              "sha256": "40df3f86a6e24e8ac5d027aaeb7e92d747c094e759da4eec642665468b57df89"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/negative-parallelism.wikitext",
+              "size_bytes": 3033,
+              "sha256": "e871ac09e2fad18286cacfc57dc275885fd3f5fe434024eb3fb9594235dfb4f9"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/revisions.json",
+              "size_bytes": 2847,
+              "sha256": "04eab5086d3a7f66362d82bd25feb7a69640660fd993ac396337a01824c89354"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/signs-of-ai-generated-comments.wikitext",
+              "size_bytes": 93472,
+              "sha256": "da5eb14196011cb90feec4a387e180b34a14df3d4ef234cc290cd02de322afd2"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/text-formatting.wikitext",
+              "size_bytes": 52900,
+              "sha256": "ee436c1d3ba29fbe01bf9a046a884a2ae018bcf29d0a3ebeb8c4111747cb28dc"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/connected-wikipedia/words-to-watch.wikitext",
+              "size_bytes": 36593,
+              "sha256": "2097b5b3eab0e30173353be476d90dcde7c83f1f1e2d0f87704d822024971c7b"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21-revision.json",
+              "size_bytes": 314,
+              "sha256": "fb21d5f113648aad72ecb6fbac65ae5d54fddf7e4ecc6bd86a52ceb35ea5edac"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21.wikitext",
+              "size_bytes": 202405,
+              "sha256": "b8eec1d0316c4a88873749c89e5d88c2f42bb04ea20913993c941a40aa0ad788"
+            },
+            {
+              "path": "skills/humanizer/references/source-archive/wikipedia-signs-of-ai-writing-supplied-2026-07-21.txt",
+              "size_bytes": 160561,
+              "sha256": "467d51d41499d04fff333876c7bbc920c3d0c904c32370770aa0daeddb8c5e32"
+            },
+            {
+              "path": "skills/humanizer/references/source-bibliography.md",
+              "size_bytes": 8415,
+              "sha256": "5851a29cfac97f559832311f08230e52ae179d6cd65e7d8739bb84d78a47b2a5"
+            },
+            {
+              "path": "skills/humanizer/references/source-coverage-map.md",
+              "size_bytes": 10206,
+              "sha256": "bd7047814d665f698d57685cf4de01e7ed3ea7f66203776e7371b4b53757ffa3"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/INDEX.md",
+              "size_bytes": 3080,
+              "sha256": "534930142e169b424a8eadf2a12575e27cba9c5278605bb11260e6a4934a451d"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/SHA256SUMS",
+              "size_bytes": 1915,
+              "sha256": "d87b158e95a98351adaf7f13163d8be4de7595438be0c0b4be59f395d7abd796"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/dik-2025-gptzero-accuracy.pdf",
+              "size_bytes": 514548,
+              "sha256": "4c5dacf577a28005a6b2acd9b429c855c8d6b8110d85131fa28bbbba49c36e5a"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/dugan-2024-raid.pdf",
+              "size_bytes": 787086,
+              "sha256": "830c6b045d5c66f0c82f51f758274d38d00757382942da60c315689b97424189"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/galpin-2025-ai-language-change.pdf",
+              "size_bytes": 628601,
+              "sha256": "b34759bf9d8c59f0171ac4802b125a8835a387873ef2e5a60623c68bf6d5a02e"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/geng-2024-transforming-academic-style.pdf",
+              "size_bytes": 5328199,
+              "sha256": "cb4d566904e84edd80f864a6a985d0551d0fd0c78e81e7104b482ac7710c19d5"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/geng-2025-human-llm-coevolution.pdf",
+              "size_bytes": 6350031,
+              "sha256": "3050cd0278bcbde239bca780fad71db8afdcc4eac623d985d53889c24e4d4893"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/geng-2025-writing-to-speaking.pdf",
+              "size_bytes": 5452477,
+              "sha256": "f74e872a865399b5b71191292532ec7709f30aace71da55aa9b22773ad6d4d28"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/ju-2025-domain-regeneration.pdf",
+              "size_bytes": 2920259,
+              "sha256": "78038e7333789fe833d80d94080871b4dea4a54d044c56c6e52bc54e04e7bcba"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/juzek-2025-lexical-overrepresentation.pdf",
+              "size_bytes": 2476748,
+              "sha256": "8ac94feadb43077cc294abb0f208d2bece1c16652bcafbfbd47a1720e2da86ed"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/juzek-2025-word-overuse-alignment.pdf",
+              "size_bytes": 1604001,
+              "sha256": "262a579f73540250013cac8fb737d4c772392329c45c1c87f3a82300ca62d47c"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/kobak-2025-excess-vocabulary.xml",
+              "size_bytes": 97369,
+              "sha256": "d1c2023b468e063037dad9080b4ca49af0ca74b4dc2f5a1acff63495f6028b47"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/kousha-2025-academic-language-change.pdf",
+              "size_bytes": 1604912,
+              "sha256": "a3a498a143da65c3ec04a74aaaf26861047e0ba359e0cdf3dded1d594d51f81b"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/openai-2023-gpt4-system-card.pdf",
+              "size_bytes": 1014552,
+              "sha256": "ca3677e1b83e255aa1296d432d374378154f230f3c296b32ee67540d571b7004"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/reinhart-2025-llm-style-variation.xml",
+              "size_bytes": 70116,
+              "sha256": "7093e8ea8132d0139726a263633ef78272c39382f2f92d013f63450ac005e6b2"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/russell-2025-human-detectors.pdf",
+              "size_bytes": 5339787,
+              "sha256": "6262854fb228d711b711d4b4544e51484b86432db28303a68e56592cb3b0bc32"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/spero-2024-pangram-report.pdf",
+              "size_bytes": 545994,
+              "sha256": "9d03c1d53c621fff5ce82789373141ab6ceeb2b3a5b640cee646829cfdf272dd"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/sun-2025-model-idiosyncrasies.pdf",
+              "size_bytes": 2122462,
+              "sha256": "bfcb52e0516aa503532667e29b8dbbdd39954c15785198eaaf44c0a3b0eb7eed"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/sussman-2025-language-sentiment.pdf",
+              "size_bytes": 373463,
+              "sha256": "893ee1a413f1f8f3ccc844c89433b4ee3188bf3a82122c2eeb7096b0a80a112b"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/yakura-2024-spoken-language-influence.pdf",
+              "size_bytes": 14012355,
+              "sha256": "6c9ce7e76b0a3c7193ee6ea3d47217ce39f4419c5da441754607f8916c136799"
+            },
+            {
+              "path": "skills/humanizer/references/source-library/zhou-2025-llms-in-wikipedia.pdf",
+              "size_bytes": 584390,
+              "sha256": "ceab9a00f3eb70815f40e0ab859e0a812374e58e8505092a0110755faaabb99b"
+            },
+            {
+              "path": "skills/humanizer/references/source-notes.md",
+              "size_bytes": 999,
+              "sha256": "de7123501b661175c84e66ea95fac7d4ad740868f5b931ab27fa6693b6268ae7"
+            },
+            {
+              "path": "skills/humanizer/references/structure-and-formatting-patterns.md",
+              "size_bytes": 6644,
+              "sha256": "a14c436307378ce54f41215e13b15297862b7dfb54d1bd7abfa73ac0f464bbef"
+            },
+            {
+              "path": "skills/humanizer/references/voice-preservation.md",
+              "size_bytes": 1242,
+              "sha256": "676411f4ebf45da5672032971abbece21609c109c4e639ef007db95d40b221a8"
+            },
+            {
+              "path": "skills/humanizer/scripts/citation_audit.py",
+              "size_bytes": 6187,
+              "sha256": "51dbeda2ce1d1c1977aee4fd0866f7930dac2b24ac046928802cc1b90a93a2a0"
+            },
+            {
+              "path": "skills/humanizer/scripts/humanizer_lint.py",
+              "size_bytes": 15169,
+              "sha256": "0b42c402af3bde8c8bbe5ebae455eb56089e41b85b6e64150dae7d0c07efe90d"
+            },
+            {
+              "path": "skills/humanizer/scripts/run_smoke_tests.py",
+              "size_bytes": 2900,
+              "sha256": "4830f4eedcaef6a3af45ca4ac8dfb2f690deda35cd995f7cec35c5a4a21fabfe"
+            },
+            {
+              "path": "skills/humanizer/scripts/style_baseline.py",
+              "size_bytes": 3121,
+              "sha256": "33820f9b218c8d92635479a117e7e8ad3296b8cee82f0f2d1a59e819c6a34ac5"
+            },
+            {
+              "path": "skills/humanizer/scripts/style_drift.py",
+              "size_bytes": 5360,
+              "sha256": "036267d65aa821ea2f687d0e0152ad16a729562ad9289c073b5cf56e81a5ecac"
+            }
+          ]
+        },
+        {
+          "directory_id": "improv-roleplay-coach",
+          "declared_name": "improv-roleplay-coach",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/improv-roleplay-coach/SKILL.md",
+              "size_bytes": 1254,
+              "sha256": "b486f011047b86f71f7cb4ca9917c39799e0ad39db5087213230138d9078f41b"
+            }
+          ]
+        },
+        {
+          "directory_id": "lavish-axi",
+          "declared_name": "lavish-axi",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 2,
+          "files": [
+            {
+              "path": "skills/lavish-axi/SKILL.md",
+              "size_bytes": 4834,
+              "sha256": "bc49a8edac75af5e2221b745bb498e7f2730b0fd9c16e5de9dd7a37f4e8d9ef0"
+            },
+            {
+              "path": "skills/lavish-axi/references/pilot-and-shareables.md",
+              "size_bytes": 3286,
+              "sha256": "d8be7acb94971f06687c0ef000837c9d86a9dbbb8ed5eb0ce287fe431fd2675a"
+            }
+          ]
+        },
+        {
+          "directory_id": "learning-experience-designer",
+          "declared_name": "learning-experience-designer",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 2,
+          "files": [
+            {
+              "path": "skills/learning-experience-designer/SKILL.md",
+              "size_bytes": 5387,
+              "sha256": "75807212920efdcccb94425dff30c757d32653746cc4e1ce0c3042093829db65"
+            },
+            {
+              "path": "skills/learning-experience-designer/references/adoption-map.md",
+              "size_bytes": 1166,
+              "sha256": "75c4bbfbf1d5a3198fb3a80cba58216d83e1f88866acb47ff820039f6309bcc8"
+            }
+          ]
+        },
+        {
+          "directory_id": "live-table-director",
+          "declared_name": "live-table-director",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 5,
+          "files": [
+            {
+              "path": "skills/live-table-director/SKILL.md",
+              "size_bytes": 2061,
+              "sha256": "43822cda36fca12e84c486f979f9863dd78f4e1f560ad4a39bb6a5a704256724"
+            },
+            {
+              "path": "skills/live-table-director/references/live-output-contract.md",
+              "size_bytes": 937,
+              "sha256": "ae46e6d274b781ad5318c10ab05d78a15881b52a5e61b9197803a7ce97917962"
+            },
+            {
+              "path": "skills/live-table-director/references/observable-table-signals.md",
+              "size_bytes": 967,
+              "sha256": "550cef5958f237f0a1db55dc077a8523fd4cc6098143cf5be3924cd70ab8efd7"
+            },
+            {
+              "path": "skills/live-table-director/scripts/check_live_output.py",
+              "size_bytes": 1083,
+              "sha256": "c6c8caa65ae0f45c44c4297e2875a92dc02259e4a162031ff7c1745212daa72b"
+            },
+            {
+              "path": "skills/live-table-director/tests/live-output-scenarios.json",
+              "size_bytes": 1292,
+              "sha256": "a58b9bd78f49bfa4958b57ff70e25d36dca6242d53fd52ca8819da85ff8d96e7"
+            }
+          ]
+        },
+        {
+          "directory_id": "marketing-strategy-operator",
+          "declared_name": "marketing-strategy-operator",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 5,
+          "files": [
+            {
+              "path": "skills/marketing-strategy-operator/SKILL.md",
+              "size_bytes": 10111,
+              "sha256": "b66a96fe24bbac5040575704d575b22e115759f749303456d3fd7e70687f6022"
+            },
+            {
+              "path": "skills/marketing-strategy-operator/references/adoption-map.md",
+              "size_bytes": 3262,
+              "sha256": "288df49f88075a78964b4eb32b069f5ea4eb460fc745328b87aea1a81d986c8f"
+            },
+            {
+              "path": "skills/marketing-strategy-operator/references/channel-playbooks.md",
+              "size_bytes": 2851,
+              "sha256": "4c374c3f391cdedcc95e79f8117a64b6e45b9431dc7e50143c89906cd169e28a"
+            },
+            {
+              "path": "skills/marketing-strategy-operator/references/evaluation-prompts.md",
+              "size_bytes": 1624,
+              "sha256": "4d7825e18db255360b57c834379cea5210d883c265e9a6ffd1241a6afe0962e0"
+            },
+            {
+              "path": "skills/marketing-strategy-operator/scripts/marketing_strategy_scaffold.py",
+              "size_bytes": 3185,
+              "sha256": "4dd2baf87cec6711a1b79139c40df71855427f5ec182c955ddd32b81891fd46a"
+            }
+          ]
+        },
+        {
+          "directory_id": "npc-performance-director",
+          "declared_name": "npc-performance-director",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/npc-performance-director/SKILL.md",
+              "size_bytes": 1432,
+              "sha256": "a1dd0ddcbeea4606bd85b0df4b1f6e0f57d7fe402e330e0460da364c10a6ff69"
+            }
+          ]
+        },
+        {
+          "directory_id": "originality-rights-and-provenance",
+          "declared_name": "originality-rights-and-provenance",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/originality-rights-and-provenance/SKILL.md",
+              "size_bytes": 3453,
+              "sha256": "c415237a3b28f11efaad2c484457ec34d125a48448855566d1b286adf0162a36"
+            }
+          ]
+        },
+        {
+          "directory_id": "pacing-scene-director",
+          "declared_name": "pacing-scene-director",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/pacing-scene-director/SKILL.md",
+              "size_bytes": 1173,
+              "sha256": "3bb16d940d99f83e8447d99379a7cd95a01305fff9fb1167e9e1cd602f882a10"
+            }
+          ]
+        },
+        {
+          "directory_id": "personal-gm-style-adapter",
+          "declared_name": "personal-gm-style-adapter",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/personal-gm-style-adapter/SKILL.md",
+              "size_bytes": 1493,
+              "sha256": "e02315d09162340b9c46cd0295ecfecdedcde1d08670d0eb53b924e220225f83"
+            }
+          ]
+        },
+        {
+          "directory_id": "portfolio-crafter",
+          "declared_name": "portfolio-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 44,
+          "files": [
+            {
+              "path": "skills/portfolio-crafter/SKILL.md",
+              "size_bytes": 16015,
+              "sha256": "8eeb249774836e05f14704c45b9af5dc712b1ee9be8d2b6fd40885edf425c4a0"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/agent.md",
+              "size_bytes": 2624,
+              "sha256": "0307fce28b042ca213f7f51ca6a9e3d6c050af1337a7454394aa565b55cc46db"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/agents.md",
+              "size_bytes": 561,
+              "sha256": "5e8e9abf904aa9f27eaa6bed2b796b23246040c57a75fc3fa8963b75d7ac43d8"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/artifact-caption-editor.md",
+              "size_bytes": 998,
+              "sha256": "706b1204dc89f395612eea1fc02c916781fee17229cbae97b16c9980d1f2058b"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/buyer-proof-strategist.md",
+              "size_bytes": 967,
+              "sha256": "b4d473dc58c1b3a3059d78bd7056adb1937d75d775258176ad4f1c9eed75c461"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/case-study-writer.md",
+              "size_bytes": 1135,
+              "sha256": "6e7ea7c71de8445c921077fc1522721b8edcac6a79487434aa34e88cccc7ac63"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/confidentiality-auditor.md",
+              "size_bytes": 1065,
+              "sha256": "26bc1ca0209472a15ddf983eaf7653cee7241772a0a0d0c638b7aa69ca27216d"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 1057,
+              "sha256": "9f9c9ba33a95859428a26df0298cd83c0ee2bc5abc5dbb9626caf159deaa82c2"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/openai.yaml",
+              "size_bytes": 1314,
+              "sha256": "8be18024077ab65c3f3049cfc59c5db82a86574bd5fabd8e9fefc3bc7344613f"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/portfolio-assessment-coach.md",
+              "size_bytes": 1152,
+              "sha256": "ce376dbf174a19c7992bbfa8e334cdcc1593bbdea9f9e35028457ddd9294305d"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/portfolio-site-planner.md",
+              "size_bytes": 1085,
+              "sha256": "4b8c8d3c282772b851c795ad33fe577462c2a49b6ac10cd491f6981f1183a838"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/portfolio-strategist.md",
+              "size_bytes": 1104,
+              "sha256": "f9b950924b950b1102c4a345f1c28892c5494a1e79eaa37df57a02349fec2eca"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/portfolio-transfer-strategist.md",
+              "size_bytes": 1334,
+              "sha256": "9acef085488eee7d3013351d5683d0171c768d9d6c061ce61c07ef63d3743be2"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/service-offer-case-advisor.md",
+              "size_bytes": 920,
+              "sha256": "5f68c14eb0ea0ea26da4b82e8e7db76a4644b8dccb76c6b8def33480d59f566c"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/artifact-captions.md",
+              "size_bytes": 1923,
+              "sha256": "9ab184137889aff68760646b1dcdb4192d2f84b7cc177aa5069375eb1d0e0e74"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/case-study-structure.md",
+              "size_bytes": 2168,
+              "sha256": "a346ffd63b479a148251639b90faf98e292fbd0d13ae26117a5a407b583f47ff"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/confidentiality-and-redaction.md",
+              "size_bytes": 2034,
+              "sha256": "23af8f33f32596e19e2fcf559e8fb8a9024031bb0a2f67a7570bef30dc39cf96"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/contractor-portfolio-strategy.md",
+              "size_bytes": 1915,
+              "sha256": "2e84642654aa6f058b9400fccb9dcad7a8a869ca85db0026cac209b3230336c8"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/evidence-to-case.md",
+              "size_bytes": 2105,
+              "sha256": "d2de0b899474f2f9f3bd470cbad9077403c95ef03f1c71221716b2032f3d5c26"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/game-design-portfolio-transfer.md",
+              "size_bytes": 2899,
+              "sha256": "8ced1cf4dd8b67d445239f002bda9df68d933234799742d1f400bceb7ba7b521"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1612,
+              "sha256": "3813cb1301e17a96a721c7eda11fff92f2b589cdedba9110a8b2e8106a787851"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/instructional-design-portfolio.md",
+              "size_bytes": 2643,
+              "sha256": "be6d8c8f2abb7370f92533560f9aed0d2da0e922b2c254448ca329327e014863"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/knowledge-atlas-portfolio-activities.md",
+              "size_bytes": 1724,
+              "sha256": "706e6c2ac168155a6fda2a930418564653d25a454f379911405fb7dd18d38ee3"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/metrics-and-truth.md",
+              "size_bytes": 1819,
+              "sha256": "9a8b2a1a649be0bf82a0a0148938552582e611015d447176ae42a8b505c8e80a"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/patterns.md",
+              "size_bytes": 2703,
+              "sha256": "045f3cbe6a586fb38c4d69b75458dd853510cbf03a4be338be56dbaf79bbd008"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/portfolio-quality-rubric.md",
+              "size_bytes": 1990,
+              "sha256": "2e3071e7fd01130539d69d7b0311770a6276bb3e6d87f906bceff0ce05350d2e"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/service-proof-and-case-studies.md",
+              "size_bytes": 2257,
+              "sha256": "08d796f6fededf11d07d8d9271e7a33983de0d6d5c80d3072244e30ca8b532e8"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/ai-workflow-case.md",
+              "size_bytes": 1496,
+              "sha256": "f7fc3c4d453b67f80a871348f35aa485a6470137cd5cc54ce0866d87c6649e46"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/artifact-caption-set.md",
+              "size_bytes": 738,
+              "sha256": "dd66e3fe57ba157d9c2625522e41634b6e9ba4c8620555d71b121eb0d50e2d7f"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/buyer-reader-path.md",
+              "size_bytes": 478,
+              "sha256": "cb259c04fee36dd20fdb44693041ae27cc802dd20c796530808f466dcf144091"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/case-card.md",
+              "size_bytes": 595,
+              "sha256": "33c4a01463aa2a3c1acec80deee86b6368e7f5cbf52ce7452e861e4ef651da25"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/case-study.md",
+              "size_bytes": 994,
+              "sha256": "43b18db1ea472f45c4510967567ffce767a4d886959094e719c2d63705542031"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/competency-evidence-map.md",
+              "size_bytes": 562,
+              "sha256": "3df5bbffb3ab7c4962be0c15cbe2c91cbd377a2cd17a777cab3eba7b256cc2c7"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/contractor-case-card.md",
+              "size_bytes": 657,
+              "sha256": "493eda5d442557be2e2fd54059ebac40bd363c2bf242391ef8d1c2fdd0a33f89"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/contractor-website-proof-plan.md",
+              "size_bytes": 668,
+              "sha256": "182950066c84b5ffcc71ca64e76333737dffc9843f68bd528d1f4b583e5592bd"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/interview-deck-outline.md",
+              "size_bytes": 887,
+              "sha256": "e19406ecf473f0d61900478dde8db54e7d9a627ed77896bf9fbf9593e9661178"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/leave-behind.md",
+              "size_bytes": 617,
+              "sha256": "1dcad5001a21912d996f6716c323c86a96218d83f0fe1972b626c2fc7746fdfc"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/portfolio-faded-scaffold.md",
+              "size_bytes": 795,
+              "sha256": "444bedc8d7f69deb6348bda1c079c424ffaa4d24c508f35a258893eb17527be6"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/portfolio-playtest-protocol.md",
+              "size_bytes": 968,
+              "sha256": "2059a8da32ffe832122273b2dfc31ef235d5e79a3d68ae9a8a0730ed2b86a015"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/reviewer-simulation.md",
+              "size_bytes": 615,
+              "sha256": "2eb88d250b53a1d3816ada69b1237dcfb46f3e595e6c0379016d42cc003a47ce"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/service-proof-inventory.md",
+              "size_bytes": 571,
+              "sha256": "ee574a78f4678f89dfceb656c504592849d646475e5d863016617d1992ea2429"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/template-index.md",
+              "size_bytes": 1354,
+              "sha256": "3ff5e0c09a2a5f46f67f7a1278420e1a425702d37ccb34511b42b4144b67e3d8"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/ux-research-case.md",
+              "size_bytes": 1064,
+              "sha256": "21ff611d94be9273fbd416eb8315faf9b2738838ac458b56995fe68820f0ccb2"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/visitor-core-loop-audit.md",
+              "size_bytes": 711,
+              "sha256": "3464e6448fa2ca6a6c84f0697709b9f1d4ac207f35d589d2bafed16ef322c8a9"
+            }
+          ]
+        },
+        {
+          "directory_id": "professional-public-gm",
+          "declared_name": "professional-public-gm",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/professional-public-gm/SKILL.md",
+              "size_bytes": 1189,
+              "sha256": "af1b1502aa4977786c396e3a8a61d76e12e6d206813dde474ead59381773c12b"
+            }
+          ]
+        },
+        {
+          "directory_id": "project-structure-architect",
+          "declared_name": "project-structure-architect",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 31,
+          "files": [
+            {
+              "path": "skills/project-structure-architect/SKILL.md",
+              "size_bytes": 12737,
+              "sha256": "d5181fa4e784fabb0e740173bed7da7ce4f154e7f21825283489e9696898a936"
+            },
+            {
+              "path": "skills/project-structure-architect/agents/database-steward.agent.md",
+              "size_bytes": 474,
+              "sha256": "4805c030970d470a6b1c9a518db59562151f4a8961dee53781218dd73fdb7306"
+            },
+            {
+              "path": "skills/project-structure-architect/agents/openai.yaml",
+              "size_bytes": 293,
+              "sha256": "85d2557933ca69eddacd16a7c534517232229287bc598fd05b5bfcc5d6824970"
+            },
+            {
+              "path": "skills/project-structure-architect/agents/project-structure-architect.agent.md",
+              "size_bytes": 793,
+              "sha256": "86ff052120a77717a820bd440abeef6da1fabd0b821ebffb0b5f14255f54732f"
+            },
+            {
+              "path": "skills/project-structure-architect/agents/refactor-planner.agent.md",
+              "size_bytes": 513,
+              "sha256": "1d210fd17d997f0a529ecabc6f623319409164e9da6d6a8eaec4323a273120d4"
+            },
+            {
+              "path": "skills/project-structure-architect/agents/repo-curator.agent.md",
+              "size_bytes": 457,
+              "sha256": "69071198bdf84fd9cbe3946f2a36162c40d98089905926474ea7821c16c3ac7f"
+            },
+            {
+              "path": "skills/project-structure-architect/examples/single-file-vs-expandable-web.md",
+              "size_bytes": 699,
+              "sha256": "a6cb6ff0a0a1adc20bd31d3a984be29a39131979249f79676e304de5c88e13c8"
+            },
+            {
+              "path": "skills/project-structure-architect/examples/threejs-before-after.md",
+              "size_bytes": 871,
+              "sha256": "b62a2f066b7d856da460dc779e81aa784e6b6fba7f1f456780131ff1aba806dc"
+            },
+            {
+              "path": "skills/project-structure-architect/references/00-research-brief.md",
+              "size_bytes": 5231,
+              "sha256": "4866145f3b9bfa9ea04f38cb6ad7b713286e0f81c08040e974d5f72c001b9532"
+            },
+            {
+              "path": "skills/project-structure-architect/references/01-core-principles.md",
+              "size_bytes": 3824,
+              "sha256": "5bc1163fe974ddc7f4c0d58234615815a4d7a1f4ef3dcb8ac43e74274f5a1de6"
+            },
+            {
+              "path": "skills/project-structure-architect/references/02-decision-rules.md",
+              "size_bytes": 3811,
+              "sha256": "194d60b3ea30859dda5a1188a8d3bcd2e016e04fa79e5ab95ede08374395b3c6"
+            },
+            {
+              "path": "skills/project-structure-architect/references/03-web-and-app-structures.md",
+              "size_bytes": 3995,
+              "sha256": "9ffc5e97329e9169acce6ab2a00a5d77fbbc7e91ca09b933d83133f3a6736934"
+            },
+            {
+              "path": "skills/project-structure-architect/references/04-game-project-structures.md",
+              "size_bytes": 4915,
+              "sha256": "04a02fedff8d4a4717916c6ffa71d346f8733b175ed54c615ecc1d95bc0181c7"
+            },
+            {
+              "path": "skills/project-structure-architect/references/05-repository-and-version-control.md",
+              "size_bytes": 3549,
+              "sha256": "f4cf1838180e580d98cc469ae9cca1e0c6fe021b712ae2693d81c5712f73e99b"
+            },
+            {
+              "path": "skills/project-structure-architect/references/06-database-and-data-organization.md",
+              "size_bytes": 3264,
+              "sha256": "70a898aafbd95c1bde778dd6902311154b4adf07c370996677517b6d323a1594"
+            },
+            {
+              "path": "skills/project-structure-architect/references/07-docs-ux-information-architecture.md",
+              "size_bytes": 3915,
+              "sha256": "0eca750565b0ed138522b281d422283d503dd63d38604256fa22678e2bd79e98"
+            },
+            {
+              "path": "skills/project-structure-architect/references/08-skill-integration-guide.md",
+              "size_bytes": 4067,
+              "sha256": "a329b604fb7bab07bc91baa794aaaa1c69e83a554b5f099554fbd9ae0cc0b45d"
+            },
+            {
+              "path": "skills/project-structure-architect/references/09-checklists.md",
+              "size_bytes": 2697,
+              "sha256": "725706716f3e20c0d6ac2a0ed5a5c167b25664c6710c1007078bc328c1543529"
+            },
+            {
+              "path": "skills/project-structure-architect/references/source-index.md",
+              "size_bytes": 10867,
+              "sha256": "5b38e49dba99166f248e8e656890e39d0c1e6b5d58cb5f4283a0cdecc8c84764"
+            },
+            {
+              "path": "skills/project-structure-architect/scripts/README.md",
+              "size_bytes": 402,
+              "sha256": "7f18450b51aab54784f66b21b1c74952c119dec5b0425e4fca42b7c759e7ac2c"
+            },
+            {
+              "path": "skills/project-structure-architect/scripts/audit_monoliths.py",
+              "size_bytes": 1787,
+              "sha256": "7c3489e8ef5898db2a6123bf52969ae32be696d3ef94de4137146a6ceab28392"
+            },
+            {
+              "path": "skills/project-structure-architect/scripts/scaffold_project.py",
+              "size_bytes": 5486,
+              "sha256": "3c7d1a1811436830f12829e5f4f147a721396942fcf14579879c496eadf8df9b"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/adr.template.md",
+              "size_bytes": 456,
+              "sha256": "0eb802a2a29022588a1a06d6d7f80d2b46fa5fb62d87d72e071e52063f1f747f"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/agnostic-scaffold.template.md",
+              "size_bytes": 637,
+              "sha256": "f714c70a1f07257bb4bde621d5929ceb4dc8b2e93bbe13bb7d3bdd8c0574662d"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/database-scaffold.template.md",
+              "size_bytes": 454,
+              "sha256": "e3011a353812f0840d5831ef2741591e0d23fd62e6eabb386f04793c7f64698f"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/existing-skill-patch-snippet.md",
+              "size_bytes": 1893,
+              "sha256": "e0d83b368224ba1f54b9966b854ea7e472e370d174b6fcd845230d5212bf8cdb"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/folder-structure-proposal.template.md",
+              "size_bytes": 888,
+              "sha256": "6148ae6aea1bc44bee62ca0ed7d0aaf226c2e1323836eb08fa41804db4b3ba9d"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/project-map.template.md",
+              "size_bytes": 1003,
+              "sha256": "798004b16b295470e0c279a14e7299879421ad1fe4c3267b94441913c3ebaf40"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/refactor-plan.template.md",
+              "size_bytes": 1000,
+              "sha256": "1442c204d1cd3531922d10861579a1c8b0a3105ed8d6c834966ca0c33443bf56"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/web-app-scaffold.template.md",
+              "size_bytes": 545,
+              "sha256": "c1c4ad486ca1eb84ab3ae2f24d910b16bb36cd3a103fc6a9cb8115ddcbce6e9b"
+            },
+            {
+              "path": "skills/project-structure-architect/templates/web-scaffold-threejs.template.md",
+              "size_bytes": 744,
+              "sha256": "2b2cc7da18f995630a89524c0c0d114e5ce710c4931307e8fab13650be822b64"
+            }
+          ]
+        },
+        {
+          "directory_id": "publishing-router",
+          "declared_name": "publishing-router",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/publishing-router/SKILL.md",
+              "size_bytes": 2778,
+              "sha256": "df7611f1e88a527fa69993208307e8f1c2f421c4638189358d681aa33c205926"
+            }
+          ]
+        },
+        {
+          "directory_id": "resume-crafter",
+          "declared_name": "resume-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 18,
+          "files": [
+            {
+              "path": "skills/resume-crafter/SKILL.md",
+              "size_bytes": 7085,
+              "sha256": "b1de10a57a03928e0948514cb0393e7c9ba58d23b4a944c6c1e3278b8ecfc915"
+            },
+            {
+              "path": "skills/resume-crafter/agents/agent.md",
+              "size_bytes": 1706,
+              "sha256": "2517b04fc027706b1b7b538a9e49fec1c830314da361998aaa24bc4f707c1895"
+            },
+            {
+              "path": "skills/resume-crafter/agents/ats-auditor.md",
+              "size_bytes": 921,
+              "sha256": "a70fd6b3d92fbc18d2e56065481e21ef53142018f532eb0d6147af235767fe5b"
+            },
+            {
+              "path": "skills/resume-crafter/agents/bullet-editor.md",
+              "size_bytes": 1011,
+              "sha256": "79c99c3c46c3a45fb3e440ce11c8c87b199f56e2f1f03a291e052cd18a4d3aa7"
+            },
+            {
+              "path": "skills/resume-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 2625,
+              "sha256": "f4a21b2b049953be4301d2b7181b62d7f0c3af5651ad3cbfa6fa64701619075e"
+            },
+            {
+              "path": "skills/resume-crafter/agents/resume-design-advisor.md",
+              "size_bytes": 987,
+              "sha256": "d1dfbdd1df74b2464ee3f256c02f614e8bfba0d129c3fbf595e5a09ee971e1e6"
+            },
+            {
+              "path": "skills/resume-crafter/agents/resume-strategist.md",
+              "size_bytes": 1150,
+              "sha256": "242959c4069741adddd507f5acdd7968eef29da5b0e97216152099a29e2fc044"
+            },
+            {
+              "path": "skills/resume-crafter/design/ats-simple.md",
+              "size_bytes": 662,
+              "sha256": "fa341a7191a677d66b408ceaf7d2f4aeb3289eaa6d7f4916e8de04951fecc578"
+            },
+            {
+              "path": "skills/resume-crafter/design/design.md",
+              "size_bytes": 1347,
+              "sha256": "d702a0f6586567ea4d10477287ad87b41a3afb9eb87fbdd1c7448b3f8b9e3ede"
+            },
+            {
+              "path": "skills/resume-crafter/design/hybrid-recruiter.md",
+              "size_bytes": 745,
+              "sha256": "8cefac7178b354ae8eb7250097af2da97992efd0b86f2d839a80c304612d3663"
+            },
+            {
+              "path": "skills/resume-crafter/design/portfolio-leaning.md",
+              "size_bytes": 739,
+              "sha256": "0967a33b6105f3f19815b4fa32c0fd17b80e246fd2148d4b5ff45def65acba1f"
+            },
+            {
+              "path": "skills/resume-crafter/references/ats-and-formatting.md",
+              "size_bytes": 2082,
+              "sha256": "f362fdfb5c8a2a4ed6a982f1e0c5bd63253bd14f4b273ea02ed6287277ea8bb8"
+            },
+            {
+              "path": "skills/resume-crafter/references/bullet-rewriting.md",
+              "size_bytes": 2611,
+              "sha256": "8b94ccf71597bb929e39d9511840d84df0510007fc9db8133a156d8096078d53"
+            },
+            {
+              "path": "skills/resume-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1136,
+              "sha256": "3375f4307ee3bf72721ecf59b723da82be55c33e1a7534d5d758eaa3c573cd27"
+            },
+            {
+              "path": "skills/resume-crafter/references/metrics-and-truth.md",
+              "size_bytes": 3825,
+              "sha256": "1d03713246a86eb91e1f361d0790593b0b09af1e688c169ff7c4cc1ae7aa66dc"
+            },
+            {
+              "path": "skills/resume-crafter/references/patterns.md",
+              "size_bytes": 2663,
+              "sha256": "7f3567b5353c4ed02b722787320f1998299a5d2bec9e6a03a6446fc536b1d7d0"
+            },
+            {
+              "path": "skills/resume-crafter/references/resume-quality-rubric.md",
+              "size_bytes": 2872,
+              "sha256": "4c370c6330db2420f7824dca26d67f6ed3851353419e6e88a98c2bba64672910"
+            },
+            {
+              "path": "skills/resume-crafter/references/role-positioning.md",
+              "size_bytes": 3375,
+              "sha256": "ec94528bed7fe5b6f8f5da7431fba9e59179b28302d9a15808b0fb08360a36c4"
+            }
+          ]
+        },
+        {
+          "directory_id": "rules-teaching-coach",
+          "declared_name": "rules-teaching-coach",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/rules-teaching-coach/SKILL.md",
+              "size_bytes": 1212,
+              "sha256": "45b02042564d0b4344409b8292f2585d67a37c04efe90aa60ce653ab14da6252"
+            }
+          ]
+        },
+        {
+          "directory_id": "safety-accessibility-facilitator",
+          "declared_name": "safety-accessibility-facilitator",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/safety-accessibility-facilitator/SKILL.md",
+              "size_bytes": 1216,
+              "sha256": "ca318f0f3f12836ec26e6b4891d9639c7ad90dd1a7dbbf15c3f27331137163e2"
+            }
+          ]
+        },
+        {
+          "directory_id": "show-vs-tell-craft",
+          "declared_name": "show-vs-tell-craft",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 11,
+          "files": [
+            {
+              "path": "skills/show-vs-tell-craft/SKILL.md",
+              "size_bytes": 4206,
+              "sha256": "45a4a340b023707774702f82af06d3f7af67648a1d669da6744c36c2d87c23d1"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/README.md",
+              "size_bytes": 1219,
+              "sha256": "9f1208b154abffcb6e4b2f3fa6b6d3c96aa74623023b9ebf5ce15e5a203babc1"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/decision-table.md",
+              "size_bytes": 1229,
+              "sha256": "968851b324cd016f609fa157272db5b5c084868f10018d863319837d2c834e3a"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/evaluation-cases.md",
+              "size_bytes": 1136,
+              "sha256": "7a74c23fed7f12768e5ae234bca959b5c06eaf0561d20f0fcef707acced572c5"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/examples.md",
+              "size_bytes": 1688,
+              "sha256": "5db355447cc812f2b7c40a32c72fa982a17c7d1b9eb46a38231a94b93d33ce63"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/lint-flags.md",
+              "size_bytes": 1516,
+              "sha256": "b02e3345ce49990c6b4d39028bc8a79be281580effa87541b1df4e2b368f841e"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/story-atlas-patterns.md",
+              "size_bytes": 893,
+              "sha256": "80e3615c30fb624bd96655e3f6b466529c3a6e68d60a776ac6b4886763f1624c"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/docs/show-vs-tell/ttrpg-application.md",
+              "size_bytes": 1244,
+              "sha256": "318671f7d52a03926ddd55efce6bf2b1563c5f4c60cd041daac284ea2605d280"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/scripts/show_tell_revision_pass.py",
+              "size_bytes": 6244,
+              "sha256": "5152b7fbe65e8f9a1e0b10903a0df93822e2e5352b163976d98da246186780dc"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/templates/show-vs-tell-templates.md",
+              "size_bytes": 1471,
+              "sha256": "4c0c1229d7dcb601389f3b87d082c66393325f655a0f29aeb41187f904da1b05"
+            },
+            {
+              "path": "skills/show-vs-tell-craft/tests/show_tell_evals.json",
+              "size_bytes": 1284,
+              "sha256": "42a0c8e53b9624728e5918b7233ff9bc96aaa5ca6a94dd6385399b2021823e2f"
+            }
+          ]
+        },
+        {
+          "directory_id": "social-content-studio",
+          "declared_name": "social-content-studio",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 2,
+          "files": [
+            {
+              "path": "skills/social-content-studio/SKILL.md",
+              "size_bytes": 8259,
+              "sha256": "526d11dbe7ac849c3e6d2797733411a7b313b098a914a14835c8a428111b468e"
+            },
+            {
+              "path": "skills/social-content-studio/references/adoption-map.md",
+              "size_bytes": 2070,
+              "sha256": "7c8f46901cef74c913cb65f08d80b90eef91fccb320f47354bd36053b2c04016"
+            }
+          ]
+        },
+        {
+          "directory_id": "story-architecture",
+          "declared_name": "story-architecture",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/story-architecture/SKILL.md",
+              "size_bytes": 2762,
+              "sha256": "a95a47d9fb7610c8da8c5661e11bc516f94ac58955e911e1192be9ad6e4dff2e"
+            }
+          ]
+        },
+        {
+          "directory_id": "story-book-router",
+          "declared_name": "story-book-router",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/story-book-router/SKILL.md",
+              "size_bytes": 3728,
+              "sha256": "fa3b691d678ce2551eb6b75a40ba376572cce9e3fc7ed0881cb94d0e42c91cd7"
+            }
+          ]
+        },
+        {
+          "directory_id": "ttrpg-router",
+          "declared_name": "ttrpg-router",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 1,
+          "files": [
+            {
+              "path": "skills/ttrpg-router/SKILL.md",
+              "size_bytes": 4566,
+              "sha256": "c855ae38ef57226ea778371dbd528dfba8b25182aa7af7bc90c9edfe6821146d"
+            }
+          ]
+        },
+        {
+          "directory_id": "ui-ux-pro-max",
+          "declared_name": "ui-ux-pro-max",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 28,
+          "files": [
+            {
+              "path": "skills/ui-ux-pro-max/SKILL.md",
+              "size_bytes": 12316,
+              "sha256": "f04fa5e59067ea8ce3021076f379347165546a7cb7ac34ca62175a1a6956cc40"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/charts.csv",
+              "size_bytes": 7654,
+              "sha256": "b754c0efffcf54cb889114a9314be1d5af6ceebe65c4c436d713b52018e752c9"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/colors.csv",
+              "size_bytes": 9713,
+              "sha256": "4cc0df2785f340b8bd0ace50bd4068dc13a7c4c6fa4d9d2723271244ce904614"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/icons.csv",
+              "size_bytes": 13384,
+              "sha256": "351fe61ba45b8146c66de6ea7d67297654639d79a94f537b4d0bad570058c28f"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/landing.csv",
+              "size_bytes": 14390,
+              "sha256": "010e1e46db271b94e0af6f18973bea86ddba62feeccd62aeeaa6ed40e2ae2db1"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/products.csv",
+              "size_bytes": 29790,
+              "sha256": "5359e3037dcb84e99c792ea13dd44f5b78ab6a53557afb309cf19140512aaf5b"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/react-performance.csv",
+              "size_bytes": 14822,
+              "sha256": "904c8afcda229629545912dde0e8ac37503757131f0169f80b016f1f58c4fd3f"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/astro.csv",
+              "size_bytes": 11868,
+              "sha256": "ad18dae3ab6d148d37d144592df80dc1825b6c9e86d9d2d68fdda77434206a37"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/flutter.csv",
+              "size_bytes": 10469,
+              "sha256": "e470e6bc2bcd8562667cc764d1e1afb0be0a30ca4dc9ec12fa18b19d46f156bd"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+              "size_bytes": 11361,
+              "sha256": "1f004891dd189f6bc2a7717401e3100244326e7e2f3963a79bf7b2349d85e091"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+              "size_bytes": 8195,
+              "sha256": "6c8fd4b0391c342c12b0af15610cd5becbeccaef0bbe8dcfc01d928c3195d93e"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+              "size_bytes": 12546,
+              "sha256": "06a8e8c13bd44696c6ebb4cb6c4d8dea440e3de8cce77616512529ed29258f0c"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+              "size_bytes": 14010,
+              "sha256": "05d6e74501b2b6a636faed32450622759f49a5bcafad971f5f4e7eba0eb7be71"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+              "size_bytes": 16539,
+              "sha256": "f7a3f2d9542856d00199f85c6c023b7c284cc698e2e6e12d61afce2edacb24d6"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/react-native.csv",
+              "size_bytes": 10035,
+              "sha256": "a08ca77fcf6b6d9531982dce465366296013bfcf12d2938ac72ad57cf0c4f085"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/react.csv",
+              "size_bytes": 13016,
+              "sha256": "b6e3eb0e4c9c01bd00ffb951d5ca224a19d488b4544c75436f48cf92ff12bf45"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+              "size_bytes": 15921,
+              "sha256": "395c2e415ef6f48a474acccdc8eb2c7258a6ed751a5037ba171a2d8823e02ded"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/svelte.csv",
+              "size_bytes": 11063,
+              "sha256": "bc8d158994a8bdf412830a9dd5e5a5534edd2f367a6e50e0ebd4d76f592dfa3f"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+              "size_bytes": 10872,
+              "sha256": "e87cb9eee208bb753bdab96d4a261c7f830c4317ee90ec098316b248fc32be85"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/stacks/vue.csv",
+              "size_bytes": 11056,
+              "sha256": "9b793c3f4eec85f77a758c09322f2b62f3b3ca549bb713ccf0849ef885934395"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/styles.csv",
+              "size_bytes": 96553,
+              "sha256": "ad3c3236134d833bda01a2faf31ddeaaa1dbd5005fa430dec571fa91b26e5fea"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/typography.csv",
+              "size_bytes": 31877,
+              "sha256": "64695e05ac335ba534aff396c4ba9241c642f80ea53b424251d2669b71c4772b"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/ui-reasoning.csv",
+              "size_bytes": 31071,
+              "sha256": "58fc52fff69f62709f8c7dd460de6f6693699ea820f24287f3301a427c2b554e"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/ux-guidelines.csv",
+              "size_bytes": 18766,
+              "sha256": "1870ee048f2a2bdd60709f8f7adf7f3b6dcad560bc005c8b2915a8ac8639820d"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/data/web-interface.csv",
+              "size_bytes": 7472,
+              "sha256": "10bfc24e09a6a15db8309e6ef9b6881e1d4af97dffb7c99418aefb8e30df7d54"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/scripts/core.py",
+              "size_bytes": 10227,
+              "sha256": "5459d1f04eea03dfb913742d0c03edc5065ac67f6227e4807fa87699662588cb"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/scripts/design_system.py",
+              "size_bytes": 43614,
+              "sha256": "4da1d341f3c7749df51b51db4a543a48a427c3c746eb0e9882a1ab86acf3bb54"
+            },
+            {
+              "path": "skills/ui-ux-pro-max/scripts/search.py",
+              "size_bytes": 5478,
+              "sha256": "a449e57060ef5134e98e62fd11f6e240153afd68c27dab89cbb72a3ce55f1498"
+            }
+          ]
+        },
+        {
+          "directory_id": "ux-heuristic-compass",
+          "declared_name": "ux-heuristic-compass",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills or local MCP tools",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 23,
+          "files": [
+            {
+              "path": "skills/ux-heuristic-compass/SKILL.md",
+              "size_bytes": 11607,
+              "sha256": "a82384eab0fcab3ed5d2e7fd914ed5a2740838daf8e564a5a3ec4ddb520a8d2a"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/agents/report-content-editor.md",
+              "size_bytes": 540,
+              "sha256": "52b40a0c90a0fb1978261be99f5016f81039df5eccccd40849591f8b60f6455b"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/agents/report-layout-reviewer.md",
+              "size_bytes": 531,
+              "sha256": "3b8317ba474b2abf1c756987fbfda4c6957697c2514139a55c71ec8729029299"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/agents/report-qa-reviewer.md",
+              "size_bytes": 451,
+              "sha256": "0b250dc19fb882df05bcc4263f04eb0564048d4ef0553247ec33533faf2391b6"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/agents/researcher-panel.md",
+              "size_bytes": 8931,
+              "sha256": "3c4b7f0b98d793e08417d2f56d0799eca053244c5d9249651409696272c72a5d"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/examples/report-examples/report-variants.md",
+              "size_bytes": 878,
+              "sha256": "b1ef5f40c2ccf20d6fc2cdf6fb6537401054b58f276de301c201565ca8d37917"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/examples/sample-audit-output.md",
+              "size_bytes": 6849,
+              "sha256": "13bb8a2752b573c3c69375d715cf2161db89a7666f7699f60a4f210b1a496f5b"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/evaluator-bias-guard.md",
+              "size_bytes": 3281,
+              "sha256": "ce67744fc11d615393a4ed14d345bd2fa09c84629d3974f07bb81eafcbc41b0a"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/evidence-collection-guide.md",
+              "size_bytes": 5354,
+              "sha256": "5bb73759100b03e2fd0cc16fcecc2e1b55045f947253e54451a8949487c38640"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/heuristics-checklist.md",
+              "size_bytes": 6851,
+              "sha256": "c0b69f82c349ac06a9020ec47c708439faabc48939401d47f83959b1d409e4fe"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/mcp-bridge.md",
+              "size_bytes": 12210,
+              "sha256": "f8a16c5c34c6c151accb860b7c1cdbe696f09f3f6fcb898e17af3683eb28795e"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/colors.md",
+              "size_bytes": 625,
+              "sha256": "242459439246156fb368fa58a4442b413a06e5c6f417528e717c9837b44e085e"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/components.md",
+              "size_bytes": 923,
+              "sha256": "bf4206bdf68c5dd799c6245c6eb63d66b08530b0c8bf5c6818a28438fda52bc3"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/content-contract.md",
+              "size_bytes": 1217,
+              "sha256": "13c6fcbf1f5d15a168c0d3d6b03c693e3036786d6d6f5c2c22965752b999f6c1"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/design.md",
+              "size_bytes": 1571,
+              "sha256": "7e7e8f3f7ffb2b885c2209dae69a96b6e9311e37391adf1462cfb65d3b3d8677"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/layout.md",
+              "size_bytes": 469,
+              "sha256": "f8ad89976109027d76024ad4c1738435d3312c95ffd0201839f0a3cf3022ec7c"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/spacing.md",
+              "size_bytes": 516,
+              "sha256": "7622bb49f66929c55a2d1a4944ce5e174911bec8d35d59594a62a8780439c4a2"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/tokens.md",
+              "size_bytes": 856,
+              "sha256": "9f6e83c4a7c3e0e9eda076ef81cf65f261b15ff98aad8e2564af085202cf6d57"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/typography.md",
+              "size_bytes": 447,
+              "sha256": "f80d41d255a6cede09c9e32ff0da901a1ba8ce07dcd03c44bdaee46c460d0a69"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-design-system/validation.md",
+              "size_bytes": 746,
+              "sha256": "a3fb44c4538f0bcc4644bb0463a4700a9d36749461863c4a5e7aeeda011428c1"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/report-payload-field-guide.md",
+              "size_bytes": 6418,
+              "sha256": "04cfc2e6154eec8636b4cce21cbedd4ecbcde01ce76e255171b59ca52e1387a0"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/severity-calibration-guide.md",
+              "size_bytes": 5825,
+              "sha256": "b7f2377203264a340f49ec1b884058c338184295e2278da04f29cef5b6f537d4"
+            },
+            {
+              "path": "skills/ux-heuristic-compass/references/workflows-and-prompts.md",
+              "size_bytes": 8104,
+              "sha256": "be5fcfcc78d51fca6d6b04709348816c582a6448ae49854bdf5bc8879458f591"
+            }
+          ]
+        },
+        {
+          "directory_id": "ux-oracle",
+          "declared_name": "ux-oracle",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 6,
+          "files": [
+            {
+              "path": "skills/ux-oracle/SKILL.md",
+              "size_bytes": 9713,
+              "sha256": "cb0cf33597596be8d1be9f9f0b3fc219347fb4f73ef9404326a4fd7889978386"
+            },
+            {
+              "path": "skills/ux-oracle/agents/openai.yaml",
+              "size_bytes": 230,
+              "sha256": "bbbd96502d87e0ea684c35d6c2293f7cf7bb6c3e73f6f85b52f5d9b26b7b0e11"
+            },
+            {
+              "path": "skills/ux-oracle/references/glossary.md",
+              "size_bytes": 4316,
+              "sha256": "19b4e4e7cf8217aa0e1ad6b11eeb82b483e44417100ea02bb3962678cf99b669"
+            },
+            {
+              "path": "skills/ux-oracle/references/heuristics-detail.md",
+              "size_bytes": 5405,
+              "sha256": "9b39537dc66ed78bcbfd7508a81173c2309800b058c2d1da1aa077167ff08ad9"
+            },
+            {
+              "path": "skills/ux-oracle/references/methods-deep.md",
+              "size_bytes": 6969,
+              "sha256": "b276381c242122dc55911d3983fe566fddd9a05c3d6f03754afcd25dcb91c94d"
+            },
+            {
+              "path": "skills/ux-oracle/references/templates.md",
+              "size_bytes": 3694,
+              "sha256": "eca0b05f59a642f524ccbb65d700f38bf518eef634cca403927a2de3d1af8562"
+            }
+          ]
+        },
+        {
+          "directory_id": "ux-writer",
+          "declared_name": "ux-writer",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 5,
+          "files": [
+            {
+              "path": "skills/ux-writer/SKILL.md",
+              "size_bytes": 12214,
+              "sha256": "3467e08cf02aece0e7d746a0894ae3c6ad8bd5f991f8e8d46661e884650e2e99"
+            },
+            {
+              "path": "skills/ux-writer/agents/openai.yaml",
+              "size_bytes": 317,
+              "sha256": "9131db66e1925095f2f4179b07ab157b377568b231c097b52bf9a68454ec8302"
+            },
+            {
+              "path": "skills/ux-writer/references/copy-patterns.md",
+              "size_bytes": 9318,
+              "sha256": "190b60f28a752fd3ac334257392527349da9caf439f54622c2ea5f5010ae422e"
+            },
+            {
+              "path": "skills/ux-writer/references/plain-language-transforms.md",
+              "size_bytes": 11251,
+              "sha256": "7addf5ae0a482ec2378648de9943f2771b6224c3de67b8005fbf5e988b48399f"
+            },
+            {
+              "path": "skills/ux-writer/references/voice-tone-templates.md",
+              "size_bytes": 6012,
+              "sha256": "b6582b98b0f2a2f68696d833ed8daf0e2ddfacc7c54a5bf3b849cae4bcdafa7d"
+            }
+          ]
+        },
+        {
+          "directory_id": "vibe-check",
+          "declared_name": "vibe-check",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 39,
+          "files": [
+            {
+              "path": "skills/vibe-check/.nojekyll",
+              "size_bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "skills/vibe-check/CHANGELOG.md",
+              "size_bytes": 11938,
+              "sha256": "b12cf8fa0eb0d65484e1e8a863e792be0ada59f1b4871c99fe1d8d2f0f474b86"
+            },
+            {
+              "path": "skills/vibe-check/LICENSE",
+              "size_bytes": 1066,
+              "sha256": "e7a72ded38e57e2b0f2f804ab8d5f40908113cd3ca54847bbc8dfe0627c2ae00"
+            },
+            {
+              "path": "skills/vibe-check/README.md",
+              "size_bytes": 9453,
+              "sha256": "e911aa5cf2409b9ff232db75cc96b903cecba39756e42e5aafb27da1250afa2a"
+            },
+            {
+              "path": "skills/vibe-check/RELEASING.md",
+              "size_bytes": 1819,
+              "sha256": "662b04f7bd655976394b4272277eca579c990ee439e63dcad77988263cca2d20"
+            },
+            {
+              "path": "skills/vibe-check/SKILL.md",
+              "size_bytes": 83746,
+              "sha256": "894be472ea58e8c566d269c97b102e1f886ccde31f03c4d3f209f687d09096fc"
+            },
+            {
+              "path": "skills/vibe-check/VERSION",
+              "size_bytes": 6,
+              "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/blueprint.html",
+              "size_bytes": 12095,
+              "sha256": "c5b3f4038beca7b680337940af21917d4d42163d17009e65d9bad0ab3da42ca7"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/crazy8-combine.html",
+              "size_bytes": 8135,
+              "sha256": "507a64ae293479ef48629d535876d03cdb89dff176b1f784a4e950e9f71b5f90"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/crazy8-web.html",
+              "size_bytes": 9069,
+              "sha256": "10493c999fcc6453cc0ce4cfb61c7a34470bd87619202b64c5b54a04565e89ef"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/crazy8.html",
+              "size_bytes": 8982,
+              "sha256": "ad131dc427f60517694da30f135c9266220e57496648a4bbe4d3b058b2783ff4"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-clearlist.json",
+              "size_bytes": 3657,
+              "sha256": "060e365fe0c2ba5305960c0dd691da7bcd6ee0225d9cd3339ac645fdca1ed8d2"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-matrix-example.json",
+              "size_bytes": 1747,
+              "sha256": "dc53da335334199ec7d32f49818144a5239653712acac1882c77a5059879e627"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-opportunity-example.json",
+              "size_bytes": 2540,
+              "sha256": "11c1ff77fe8388a2fa7cd88c37d6a3e3a95441f296911be9bd000a122a8938f0"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-skillconcierge.json",
+              "size_bytes": 3319,
+              "sha256": "9f215020d2fd3ddad1227aff74e3c0ece8070c5aea470f0c59793144b4dfb511"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-storymap-example.json",
+              "size_bytes": 4907,
+              "sha256": "66a6a186e689fbb08d550dfbe82270b94b00d297098188ee01772955cbee0dcb"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/data-vinti.json",
+              "size_bytes": 2746,
+              "sha256": "4a5d57a82e9bf60a42dd513eaab0113af120b241245be49c67cfadca163fb1c8"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/engine.css",
+              "size_bytes": 6048,
+              "sha256": "61bb71255d58f5a743a00eba719b80c127786b92cd5f86417309d91bdea14b7f"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/matrix.html",
+              "size_bytes": 6162,
+              "sha256": "edd90c3e26ed0ee4877c123ecb25f880bdbaa138eda15da71f13b9aa86c96278"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/opportunity.html",
+              "size_bytes": 11326,
+              "sha256": "9417b192842629ec9f76d821288814e958ef4478b8ccec2f605c916a6890e2b4"
+            },
+            {
+              "path": "skills/vibe-check/assets/diagrams/storymap.html",
+              "size_bytes": 5892,
+              "sha256": "e35c8d922becec43fed070c2e16976af4db478317aed29c74110c3d721c27867"
+            },
+            {
+              "path": "skills/vibe-check/bump.sh",
+              "size_bytes": 6137,
+              "sha256": "991856cbcc172742b163756ed2258447e2374387898d7281dae06143bb683d4b"
+            },
+            {
+              "path": "skills/vibe-check/examples/README.md",
+              "size_bytes": 2151,
+              "sha256": "1ef747be55134a729b11057dd0be31e8d3a8007163996dbd48cd68cd3e261738"
+            },
+            {
+              "path": "skills/vibe-check/examples/clearlist-blueprint.html",
+              "size_bytes": 35451,
+              "sha256": "a58957c3b21a9220c02444cb26dcccf9d397303615b6b2badb5d115e9be802c6"
+            },
+            {
+              "path": "skills/vibe-check/examples/clearlist-session.md",
+              "size_bytes": 62277,
+              "sha256": "5a5e44ab6e8ca08af4b4ff0f37e1bcbb9ec939cac0d2980e8e60d8d68c5d2cca"
+            },
+            {
+              "path": "skills/vibe-check/examples/plant-blueprint.html",
+              "size_bytes": 28718,
+              "sha256": "998743f79e1d7bb66d659bf30d9bd3b587a53a34ed1cbad802723de132d71058"
+            },
+            {
+              "path": "skills/vibe-check/examples/plant-watering.md",
+              "size_bytes": 41515,
+              "sha256": "078a730269f47d07250ed2e8083bc3d7539ea8e8c1cb4492657478a2088a9b7d"
+            },
+            {
+              "path": "skills/vibe-check/references/CODE-CHECKUP.md",
+              "size_bytes": 8827,
+              "sha256": "c10e8f4be3cb40923292b10cd4bc02776d0383e956ceee1bb7376774046ae631"
+            },
+            {
+              "path": "skills/vibe-check/references/COLD-START.md",
+              "size_bytes": 5378,
+              "sha256": "aef5a6dda4f63fafeadd5df1ba74ba639d029455b08475743ecccc123b0d8b95"
+            },
+            {
+              "path": "skills/vibe-check/references/DIAGRAM-SYSTEM.md",
+              "size_bytes": 19264,
+              "sha256": "99ad6e4bfac16774d830042911e3e64d0702c2a27f5031643cc91b4a158bcecd"
+            },
+            {
+              "path": "skills/vibe-check/references/DISCOVERY-DEEP-DIVE.md",
+              "size_bytes": 12877,
+              "sha256": "ea0dfdda586c76aa4de9b5c60840959dc6cfb8f245fad0322eb403e223746063"
+            },
+            {
+              "path": "skills/vibe-check/references/EXPERIENCE-BLUEPRINT.md",
+              "size_bytes": 8890,
+              "sha256": "a5e345918dacfd41bfda6472da2fe4c271dd9916bfac9f4c200a4f00a444480e"
+            },
+            {
+              "path": "skills/vibe-check/references/GITHUB-AND-DEPLOYMENT.md",
+              "size_bytes": 13190,
+              "sha256": "90176426094c89d7a3e43527cfe95bc3cb345a84fdf7c14bd2bf88c8f2b3cb7e"
+            },
+            {
+              "path": "skills/vibe-check/references/GROWTH-LOOPS.md",
+              "size_bytes": 9177,
+              "sha256": "373719e7de49598f6eeb3a760a12a9fcfa70008de058e4f4eab2a79c4577b7e6"
+            },
+            {
+              "path": "skills/vibe-check/references/HTML-BLUEPRINT.md",
+              "size_bytes": 13345,
+              "sha256": "8ff9c5ba86f3eae8211220c0ee002ebfec03d08b3512149357a46c2fe342f6a7"
+            },
+            {
+              "path": "skills/vibe-check/references/KEEPING-CODE-NAVIGABLE.md",
+              "size_bytes": 9504,
+              "sha256": "88df35c655963fbc949da8513a931c02fceab051dbfdc2b57fa705a64c4c58f0"
+            },
+            {
+              "path": "skills/vibe-check/references/MANAGING-YOUR-AI.md",
+              "size_bytes": 15408,
+              "sha256": "02d7d1e153ad455cb77f8bb62a2d27c453ae5a41593796d38b936097c229937c"
+            },
+            {
+              "path": "skills/vibe-check/references/MULTI-SIDED.md",
+              "size_bytes": 4996,
+              "sha256": "e4ebc57fe761949a9977a8b278d1e7e77c9283215d95682ea3f752599bd409a7"
+            },
+            {
+              "path": "skills/vibe-check/references/WHAT-A-SKILL-ACTUALLY-IS.md",
+              "size_bytes": 3351,
+              "sha256": "2c323a9554b1d457903625a16e38ab6090fcb9589feb0555889abb2957ad064b"
+            }
+          ]
+        },
+        {
+          "directory_id": "visual-asset-integration",
+          "declared_name": "visual-asset-integration",
+          "declared_version": null,
+          "declared_compatibility": null,
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "description",
+            "name"
+          ],
+          "file_count": 9,
+          "files": [
+            {
+              "path": "skills/visual-asset-integration/SKILL.md",
+              "size_bytes": 10900,
+              "sha256": "52a67d022b15dde7e84dfcd8b058abab364a03a68ffffab3559c285f90a21653"
+            },
+            {
+              "path": "skills/visual-asset-integration/agents/openai.yaml",
+              "size_bytes": 253,
+              "sha256": "f9701bd04db8194917909b428eb8efa332a5c35eb1480ea7dca9dd016ec252ac"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/asset-purpose-model.md",
+              "size_bytes": 1844,
+              "sha256": "b468e53bee7efcab3cee9a58153e24988ea6d42870b9d8f6537f070dd50056f8"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/cross-surface-patterns.md",
+              "size_bytes": 1590,
+              "sha256": "ce22987bec083d5f009c4f677333bcc823486898186631248322a4a752f6d42d"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/evidence-and-source-status.md",
+              "size_bytes": 1333,
+              "sha256": "0ded5ef3a40bf3ac60591d8e1d7f7b5520593de675d485ba0cbffa22eb3e3835"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/generated-asset-workflow.md",
+              "size_bytes": 3139,
+              "sha256": "d8552da7582a90a83babc469a8b47a61b97ec832302e8a63e3e86d9376a7d8b1"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/placement-patterns.md",
+              "size_bytes": 2346,
+              "sha256": "72f75dbb95babfe23f04f75a23db0ffd12904994862feba290f6a1c8b95dcc74"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/responsive-image-qa.md",
+              "size_bytes": 1593,
+              "sha256": "df4af03982354eaf7f6903cc8ea09145bb37e88c5c4039c0e6d12b1e63c915bd"
+            },
+            {
+              "path": "skills/visual-asset-integration/references/visual-anchor-map.md",
+              "size_bytes": 1455,
+              "sha256": "eb225d944d9efde9dfa4ab7916af9f885f987d8addb117d5fd4eef1f63ae6b3c"
+            }
+          ]
+        }
+      ],
+      "root_files": [
+        {
+          "path": "README.md",
+          "size_bytes": 659,
+          "sha256": "8ff23cb9f24ac34fe66d8ddc736cdac1cac1889f0c75d362d5f549d32b5abdc4"
+        }
+      ]
+    },
+    {
+      "product_id": "job-application-skills-bundle",
+      "classification": "frozen skills-only plugin bundle",
+      "is_whole_working_tools_ecosystem_bundle": false,
+      "archive": {
+        "name": "job-application-compass-skills-plugin.zip",
+        "public_download_url": "https://github.com/JonathanKHobson/job-application-compass/releases/download/v0.1.0-skills.1/job-application-compass-skills-plugin.zip",
+        "pinned_public_url": null,
+        "size_bytes": 100409,
+        "sha256": "6faa1fe8a9fa66bfed89054dbf5e0d3b22eb37e45bc7ef59d810145610d29ed7",
+        "root": "job-application-compass-skills-plugin",
+        "file_count": 97,
+        "uncompressed_bytes": 141959,
+        "zip_crc_valid": true,
+        "no_unsafe_paths_or_symlinks": true
+      },
+      "declared_package_version": "0.1.0-skills.1",
+      "package_manifest": {
+        "name": "job-application-compass-skills",
+        "version": "0.1.0-skills.1",
+        "description": "Skills-only Job Application Compass bundle for resume, cover letter, portfolio, and communication story craft.",
+        "skills": [
+          "resume-crafter",
+          "cover-letter-crafter",
+          "portfolio-crafter",
+          "communication-story-crafter"
+        ]
+      },
+      "dependency_declarations": {
+        "skill_frontmatter_dependency_fields_present": 0,
+        "dependency_manifest_files": [],
+        "note": "No machine-readable dependency declarations found; prose in individual skills may describe tools or usage constraints."
+      },
+      "member_count": 4,
+      "members": [
+        {
+          "directory_id": "communication-story-crafter",
+          "declared_name": "communication-story-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 32,
+          "files": [
+            {
+              "path": "skills/communication-story-crafter/SKILL.md",
+              "size_bytes": 7488,
+              "sha256": "5416bcfef49217a3d94f603d99c033ddc0d1c65830d628de695a14be71f42bda"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/agent.md",
+              "size_bytes": 1894,
+              "sha256": "af05d5efc4ba6b851921bb7c7d1175ecaedc631360074654055d1928e3698404"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/agents.md",
+              "size_bytes": 490,
+              "sha256": "7b66756a8b5e5fb4b3d96325da7900ef4d3e3fb32b36dae66dd53cc1f334e8a8"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/audience-adaptation-advisor.md",
+              "size_bytes": 862,
+              "sha256": "8ffaa2dd63e0bebe9d739ddbdf6354820e688327f45fe797af1b96c03a10628b"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/career-story-liaison.md",
+              "size_bytes": 836,
+              "sha256": "68b4ccc8ff02fa5aa95ea8f0195e64b7af1fd400f25924ae08b50ab7efec2311"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/communication-strategist.md",
+              "size_bytes": 750,
+              "sha256": "404b57a81c8cbfec909c194793969e9984ec02398e0c7e74a9bf9081c612a75a"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/conflict-repair-coach.md",
+              "size_bytes": 901,
+              "sha256": "cc76f31c5c53dbd364992e7eef8bde3001b946722add9f6e291071a397dae999"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 814,
+              "sha256": "b34c73189a8b691daefaee63f1dfc87d83e483f1102e9a56a76c2ebfbaec5e5d"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/hook-story-architect.md",
+              "size_bytes": 760,
+              "sha256": "9c56b766da55364c0f11a05fa0f184261ebafeb7fba025455d0d17701d7f736a"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/openai.yaml",
+              "size_bytes": 643,
+              "sha256": "5387a93a6630030f93d49eb6eb4a63c2d96d561122c5527b9841081ff05c4d15"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/rhetorical-appeals-editor.md",
+              "size_bytes": 712,
+              "sha256": "fff16c71295f77d7a261e11b3f33b1f62fbae88ff733c0de4f4b7effef5c10ef"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/stakeholder-coach.md",
+              "size_bytes": 800,
+              "sha256": "d10d548e54ee0c23b7016d6fd51b24131dcdafbec926cf75158215756e4c9d26"
+            },
+            {
+              "path": "skills/communication-story-crafter/agents/voice-tone-editor.md",
+              "size_bytes": 783,
+              "sha256": "1583eee1a42731ea14bff1f36dbb41cab9d9ba3df8b5ec4e5a30ca6b475736e3"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/audience-style-adaptation.md",
+              "size_bytes": 2336,
+              "sha256": "b4eeeae96a79e2601f963237322464d48a4a0fc931a26ec976eb4515263828a0"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/clarity-accessibility.md",
+              "size_bytes": 2047,
+              "sha256": "d199108f046f9203c655442824033709f089a4f047dce823b2b689a6a2316b3f"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/communication-stack.md",
+              "size_bytes": 1905,
+              "sha256": "46cc52ec6e694f994a2933c6be3e2fc3a6a0ef9cac873c013f3b64cdaf318cdd"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/ethical-persuasion.md",
+              "size_bytes": 1529,
+              "sha256": "e1834346aefceac875890cceb9fc4c24561caab28d033ef866746b549e1fd4db"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/job-search-communication.md",
+              "size_bytes": 1662,
+              "sha256": "234b76bf09b0c5dd0d666ffa44f0da832030ad3000d1c23908533f7a57dac231"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/message-rubrics.md",
+              "size_bytes": 1323,
+              "sha256": "03eb86ac2cc51b5bfae8600c1b3db8eab3051c4df3dc4f4c7692b0b5e20e89ba"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/narrative-story-spine.md",
+              "size_bytes": 1730,
+              "sha256": "2205ab9d2774afb3507179e8cd8d7f9633e26388361dcff7fc77b1a6ecf13776"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/public-content-hooks.md",
+              "size_bytes": 2360,
+              "sha256": "4014cec34d3443efee7b789fb30e61c24bb193f4175bf5982dde372dc5ed7de4"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/rhetorical-appeals.md",
+              "size_bytes": 2017,
+              "sha256": "1e76461929700a661c34adac748b5f888ec746ba309403b28a534589eb8c00e0"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/source-anchors.md",
+              "size_bytes": 1264,
+              "sha256": "2c2fe2e8fea7eab09d99c702883753eff9211418bb967c5da0469bfc07dc7ea5"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/stakeholder-communication.md",
+              "size_bytes": 2408,
+              "sha256": "2601e251e3a8f390f7e57e96b044f2d6ed7e683ac0be04ba7e660fdd8dc38589"
+            },
+            {
+              "path": "skills/communication-story-crafter/references/voice-ai-sludge-checks.md",
+              "size_bytes": 1625,
+              "sha256": "aa10b71adfdf9de30855c46cf3da697414a1e91d1def303a807746abdb54aae2"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/communication-audit.md",
+              "size_bytes": 316,
+              "sha256": "84152b1fcc89b40d553e27b09819ed5912f84d21c2ebabd4bfa0cd5115bad7ec"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/hook-set.md",
+              "size_bytes": 244,
+              "sha256": "dd5b4efa101533c7ea937146b22c9656b5135f1d6ffa22f3560b9d012a82a66d"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/job-search-message.md",
+              "size_bytes": 292,
+              "sha256": "deb3d3dd85d9284a9a728cec061ac8721cd27acb3aac24131a14d5f80027845d"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/sensitive-message.md",
+              "size_bytes": 213,
+              "sha256": "c9053cd62e55104f43b495208ce2197cdab5331f34a76faecdb37e100da9cc09"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/stakeholder-readout.md",
+              "size_bytes": 225,
+              "sha256": "aeaf5d5a242a67de6083f47255af51857d5d6e756a3bd6871b20f79be6e20393"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/story-pitch.md",
+              "size_bytes": 351,
+              "sha256": "0ab0a089c25749dc43dcaf89249c49207628cae53cb2fedaf1a1368e2ec5bdcc"
+            },
+            {
+              "path": "skills/communication-story-crafter/templates/template-index.md",
+              "size_bytes": 461,
+              "sha256": "8511934cdcd698fdaf6414d1a6e042c5a01225f536fbdbebe2751a9d17f74056"
+            }
+          ]
+        },
+        {
+          "directory_id": "cover-letter-crafter",
+          "declared_name": "cover-letter-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 22,
+          "files": [
+            {
+              "path": "skills/cover-letter-crafter/SKILL.md",
+              "size_bytes": 5704,
+              "sha256": "0136fa16f18702ee105023d26410e66dca0ff6750f983d314311b2cc3a581490"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/agent.md",
+              "size_bytes": 1385,
+              "sha256": "b1ea5bb7f67b9988755526dcf3ef741fa852c66c8a329ccb01205d02531582e5"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/company-fit-auditor.md",
+              "size_bytes": 1061,
+              "sha256": "0c2b6cd8cc1ed994ee23c6a77475d479b21a61e20ab56b28e51c27735deff116"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/cover-letter-strategist.md",
+              "size_bytes": 1100,
+              "sha256": "e4e68d38a80c7638ab1c5479560a629d9970453db44f63ce3c39506b8e40cf3b"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 1246,
+              "sha256": "a0abb6c12faab4346c15b24e2944ae9d2204a7faf137f685257ced2dbd019207"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/hook-writer.md",
+              "size_bytes": 986,
+              "sha256": "e1a5b8f22e0213aa52212c37810b81663f907cbf2d02c2e1bb52c4316ab65e95"
+            },
+            {
+              "path": "skills/cover-letter-crafter/agents/proof-editor.md",
+              "size_bytes": 937,
+              "sha256": "285554b2664165ccd46f42e2f668ed83cf8905bf65da7635ffb4c5b8e4d01daf"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/company-fit-and-research.md",
+              "size_bytes": 1502,
+              "sha256": "fde5890154ee0842873dc1d3646b44450fe0e50e9a7d6af781cc9bc0dac612c3"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/cover-letter-quality-rubric.md",
+              "size_bytes": 2082,
+              "sha256": "a3cc4d355724dad3952f2e81c263718e67adeacf96db83656e87bacd392a7da9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1073,
+              "sha256": "2a8dbb1aef017ef0852e6408e53a53db9b56c6123c32a86b4aaa518882ffe079"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/hooks-and-openings.md",
+              "size_bytes": 2077,
+              "sha256": "e4eadb11b99c91ee9c7bc4b4f93cd84141036c5b0d16ed9f84b9582243262b85"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/metrics-and-truth.md",
+              "size_bytes": 1521,
+              "sha256": "2ee2227793d0987b70e9c4b94997ca273d039bd5801cd7b4bdc89f71f94ce5ac"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/patterns.md",
+              "size_bytes": 2089,
+              "sha256": "a1e9b32573e823e2e28817c8456b4a0e757312651d1fea7c43ded66778b5ddf7"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/proof-paragraphs.md",
+              "size_bytes": 1956,
+              "sha256": "1e39c96331868a59d8fa7eb06ed2c761ca8f6a6057b2605599a8601980c42977"
+            },
+            {
+              "path": "skills/cover-letter-crafter/references/voice-and-tone.md",
+              "size_bytes": 1437,
+              "sha256": "37d155891ecd5f74479cf41925c6a2096ee9e654a21c89098e9e21ff1f249ac9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/ai-workflow.md",
+              "size_bytes": 832,
+              "sha256": "9426edb0aeecb5c72a830e6044e1dce6a81c1934c4b8e7878da91459fa4e33d1"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/cold-application.md",
+              "size_bytes": 861,
+              "sha256": "e10ac33a2eb72f75bbe65c8190328bef329f5f262ab4de402e3033647fa9f1e9"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/mission-fit.md",
+              "size_bytes": 834,
+              "sha256": "deb752d6a858c2d9c616c5d9d42703234860ea59eb79054ea9497fd305375cc5"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/product-ux.md",
+              "size_bytes": 861,
+              "sha256": "c47c3ab79471babb9e86b4116cef3d498ec6821f5324c4a4d1b56506697c2354"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/referral.md",
+              "size_bytes": 802,
+              "sha256": "e179fb35abe13cf4127d35e891059ffb1bac4887ecbf50fe3ce6684af0f10a35"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/teaching-learning.md",
+              "size_bytes": 846,
+              "sha256": "cd158412dc7609fbce8a5a1d53bb6a4c95b818b64d18bc785fd84fc8196ab807"
+            },
+            {
+              "path": "skills/cover-letter-crafter/templates/template-index.md",
+              "size_bytes": 780,
+              "sha256": "609733ae65a460dca002dcaf0b695d28d0fe2c860267163b8be35ffbaea75141"
+            }
+          ]
+        },
+        {
+          "directory_id": "portfolio-crafter",
+          "declared_name": "portfolio-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 23,
+          "files": [
+            {
+              "path": "skills/portfolio-crafter/SKILL.md",
+              "size_bytes": 6648,
+              "sha256": "2f7488a9d94812de9aa33e332e9cf97ffa22721ecdfe8d934161bcfc52a59641"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/agent.md",
+              "size_bytes": 670,
+              "sha256": "bfa23e9527064ff39fddde9ce355166694a9c8e4c320ce968ae41f86c00434c8"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/artifact-caption-editor.md",
+              "size_bytes": 998,
+              "sha256": "706b1204dc89f395612eea1fc02c916781fee17229cbae97b16c9980d1f2058b"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/case-study-writer.md",
+              "size_bytes": 1135,
+              "sha256": "6e7ea7c71de8445c921077fc1522721b8edcac6a79487434aa34e88cccc7ac63"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/confidentiality-auditor.md",
+              "size_bytes": 1065,
+              "sha256": "26bc1ca0209472a15ddf983eaf7653cee7241772a0a0d0c638b7aa69ca27216d"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 1057,
+              "sha256": "9f9c9ba33a95859428a26df0298cd83c0ee2bc5abc5dbb9626caf159deaa82c2"
+            },
+            {
+              "path": "skills/portfolio-crafter/agents/portfolio-strategist.md",
+              "size_bytes": 1104,
+              "sha256": "f9b950924b950b1102c4a345f1c28892c5494a1e79eaa37df57a02349fec2eca"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/artifact-captions.md",
+              "size_bytes": 1923,
+              "sha256": "9ab184137889aff68760646b1dcdb4192d2f84b7cc177aa5069375eb1d0e0e74"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/case-study-structure.md",
+              "size_bytes": 2168,
+              "sha256": "a346ffd63b479a148251639b90faf98e292fbd0d13ae26117a5a407b583f47ff"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/confidentiality-and-redaction.md",
+              "size_bytes": 2034,
+              "sha256": "23af8f33f32596e19e2fcf559e8fb8a9024031bb0a2f67a7570bef30dc39cf96"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/evidence-to-case.md",
+              "size_bytes": 2105,
+              "sha256": "d2de0b899474f2f9f3bd470cbad9077403c95ef03f1c71221716b2032f3d5c26"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1612,
+              "sha256": "3813cb1301e17a96a721c7eda11fff92f2b589cdedba9110a8b2e8106a787851"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/metrics-and-truth.md",
+              "size_bytes": 1819,
+              "sha256": "9a8b2a1a649be0bf82a0a0148938552582e611015d447176ae42a8b505c8e80a"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/patterns.md",
+              "size_bytes": 2462,
+              "sha256": "0d2b118e2acf13b132906aa3a0b01d3071497dd417650681c015662936f5c335"
+            },
+            {
+              "path": "skills/portfolio-crafter/references/portfolio-quality-rubric.md",
+              "size_bytes": 1990,
+              "sha256": "2e3071e7fd01130539d69d7b0311770a6276bb3e6d87f906bceff0ce05350d2e"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/ai-workflow-case.md",
+              "size_bytes": 1094,
+              "sha256": "9adf0608e92dd6efce81390304f88ad635e3e8f4252355f88fc964b8a346d2cb"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/artifact-caption-set.md",
+              "size_bytes": 738,
+              "sha256": "dd66e3fe57ba157d9c2625522e41634b6e9ba4c8620555d71b121eb0d50e2d7f"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/case-card.md",
+              "size_bytes": 595,
+              "sha256": "33c4a01463aa2a3c1acec80deee86b6368e7f5cbf52ce7452e861e4ef651da25"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/case-study.md",
+              "size_bytes": 994,
+              "sha256": "43b18db1ea472f45c4510967567ffce767a4d886959094e719c2d63705542031"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/interview-deck-outline.md",
+              "size_bytes": 887,
+              "sha256": "e19406ecf473f0d61900478dde8db54e7d9a627ed77896bf9fbf9593e9661178"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/leave-behind.md",
+              "size_bytes": 617,
+              "sha256": "1dcad5001a21912d996f6716c323c86a96218d83f0fe1972b626c2fc7746fdfc"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/template-index.md",
+              "size_bytes": 682,
+              "sha256": "0c6e6345fcf23b831b0df2e23ef026df9a14682af6c0d3d41f9edcc57e978886"
+            },
+            {
+              "path": "skills/portfolio-crafter/templates/ux-research-case.md",
+              "size_bytes": 1064,
+              "sha256": "21ff611d94be9273fbd416eb8315faf9b2738838ac458b56995fe68820f0ccb2"
+            }
+          ]
+        },
+        {
+          "directory_id": "resume-crafter",
+          "declared_name": "resume-crafter",
+          "declared_version": null,
+          "declared_compatibility": "Claude Desktop, Claude Code, Codex, ChatGPT, and other hosts that can use Markdown skills",
+          "declared_dependency_fields": {},
+          "frontmatter_keys": [
+            "compatibility",
+            "description",
+            "name"
+          ],
+          "file_count": 18,
+          "files": [
+            {
+              "path": "skills/resume-crafter/SKILL.md",
+              "size_bytes": 5076,
+              "sha256": "c2b5f49d2c33319d5a1d1dfff284a2f4c3c918e72e7287a8199bb8dacc695a9f"
+            },
+            {
+              "path": "skills/resume-crafter/agents/agent.md",
+              "size_bytes": 1374,
+              "sha256": "ce29eaa07e1cd84dfd71dbc9fb8eb566f003d8607eb3621806db59978b94ed73"
+            },
+            {
+              "path": "skills/resume-crafter/agents/ats-auditor.md",
+              "size_bytes": 921,
+              "sha256": "a70fd6b3d92fbc18d2e56065481e21ef53142018f532eb0d6147af235767fe5b"
+            },
+            {
+              "path": "skills/resume-crafter/agents/bullet-editor.md",
+              "size_bytes": 1011,
+              "sha256": "79c99c3c46c3a45fb3e440ce11c8c87b199f56e2f1f03a291e052cd18a4d3aa7"
+            },
+            {
+              "path": "skills/resume-crafter/agents/evidence-integrity-reviewer.md",
+              "size_bytes": 1148,
+              "sha256": "b8b0285a7a1af20ad45f3aba2b98027273d31d153e66b4f6a9176db7bf6b1b33"
+            },
+            {
+              "path": "skills/resume-crafter/agents/resume-design-advisor.md",
+              "size_bytes": 987,
+              "sha256": "d1dfbdd1df74b2464ee3f256c02f614e8bfba0d129c3fbf595e5a09ee971e1e6"
+            },
+            {
+              "path": "skills/resume-crafter/agents/resume-strategist.md",
+              "size_bytes": 1150,
+              "sha256": "242959c4069741adddd507f5acdd7968eef29da5b0e97216152099a29e2fc044"
+            },
+            {
+              "path": "skills/resume-crafter/design/ats-simple.md",
+              "size_bytes": 662,
+              "sha256": "fa341a7191a677d66b408ceaf7d2f4aeb3289eaa6d7f4916e8de04951fecc578"
+            },
+            {
+              "path": "skills/resume-crafter/design/design.md",
+              "size_bytes": 1347,
+              "sha256": "d702a0f6586567ea4d10477287ad87b41a3afb9eb87fbdd1c7448b3f8b9e3ede"
+            },
+            {
+              "path": "skills/resume-crafter/design/hybrid-recruiter.md",
+              "size_bytes": 745,
+              "sha256": "8cefac7178b354ae8eb7250097af2da97992efd0b86f2d839a80c304612d3663"
+            },
+            {
+              "path": "skills/resume-crafter/design/portfolio-leaning.md",
+              "size_bytes": 739,
+              "sha256": "0967a33b6105f3f19815b4fa32c0fd17b80e246fd2148d4b5ff45def65acba1f"
+            },
+            {
+              "path": "skills/resume-crafter/references/ats-and-formatting.md",
+              "size_bytes": 2082,
+              "sha256": "f362fdfb5c8a2a4ed6a982f1e0c5bd63253bd14f4b273ea02ed6287277ea8bb8"
+            },
+            {
+              "path": "skills/resume-crafter/references/bullet-rewriting.md",
+              "size_bytes": 2423,
+              "sha256": "a2aca2b6985a5b059fc3355c05e43e2a53a0bd99941e6c968861f55b7a330dc9"
+            },
+            {
+              "path": "skills/resume-crafter/references/generic-phrase-guardrails.md",
+              "size_bytes": 1136,
+              "sha256": "3375f4307ee3bf72721ecf59b723da82be55c33e1a7534d5d758eaa3c573cd27"
+            },
+            {
+              "path": "skills/resume-crafter/references/metrics-and-truth.md",
+              "size_bytes": 2385,
+              "sha256": "0b6443f828d65e580bf148c5a2c0da2be7e87a242fab5d2aea0049dc1fd05532"
+            },
+            {
+              "path": "skills/resume-crafter/references/patterns.md",
+              "size_bytes": 2663,
+              "sha256": "7f3567b5353c4ed02b722787320f1998299a5d2bec9e6a03a6446fc536b1d7d0"
+            },
+            {
+              "path": "skills/resume-crafter/references/resume-quality-rubric.md",
+              "size_bytes": 2525,
+              "sha256": "3f5b7607825d816f074245248a1b894752a4d8369d9cdbbc7e13705081ea215d"
+            },
+            {
+              "path": "skills/resume-crafter/references/role-positioning.md",
+              "size_bytes": 3375,
+              "sha256": "ec94528bed7fe5b6f8f5da7431fba9e59179b28302d9a15808b0fb08360a36c4"
+            }
+          ]
+        }
+      ],
+      "root_files": [
+        {
+          "path": ".claude-plugin/plugin.json",
+          "size_bytes": 337,
+          "sha256": "c715c843aa367ec2ff4c0383a84027e60ab1a61b9cfb71ac8c9a07e5d2e64756"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 399,
+          "sha256": "9376cd502ceb2aba60138e5f5ad21e98e85544aa651e7c3f1d2de22ec26306c0"
+        }
+      ]
+    }
+  ]
+}
