@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -21,6 +22,8 @@ from release_manager.publisher import list_releases, resolved_tag
 
 ROOT=Path(__file__).resolve().parents[1]
 REPOSITORY='JonathanKHobson/working-tools-plugins'
+_SHA=re.compile(r'^[0-9a-f]{40}$')
+_PUBLIC_HEADERS={'User-Agent': 'WorkingTools-ReleaseVerifier/1.0', 'Accept': 'application/json'}
 
 
 def verify_promotion(expected, pages=None, tag_resolver=None):
@@ -50,9 +53,38 @@ def verify_promotion(expected, pages=None, tag_resolver=None):
 
 def live_digest(url):
     request = urllib.request.Request(url.rstrip('/')+'/data/release-history.json',
-        headers={'User-Agent': 'WorkingTools-ReleaseVerifier/1.0', 'Accept': 'application/json'})
+        headers=_PUBLIC_HEADERS)
     with urllib.request.urlopen(request,timeout=60) as response:
         return hashlib.sha256(response.read()).hexdigest()
+
+
+def live_source_revision(url):
+    """Read the root source revision actually rendered by the public Site."""
+    request=urllib.request.Request(url.rstrip('/')+'/build-manifest.json',headers=_PUBLIC_HEADERS)
+    with urllib.request.urlopen(request,timeout=60) as response:
+        manifest=json.load(response)
+    revisions=manifest.get('source_revisions') if isinstance(manifest,dict) else None
+    revision=revisions.get('compass-suite') if isinstance(revisions,dict) else None
+    if not isinstance(revision,str) or not _SHA.fullmatch(revision):
+        raise ValueError('Live build manifest lacks an exact compass-suite source revision')
+    return revision
+
+
+def site_source_matches(site,proof):
+    """Only reuse or accept a deployment bound to this clean maintained tree."""
+    expected=proof.get('maintained_source_commit')
+    url=proof.get('live_url')
+    if not isinstance(expected,str) or not _SHA.fullmatch(expected) or not isinstance(url,str) or not url:
+        return False
+    head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=site,text=True).strip()
+    remote_output=subprocess.check_output(['git','ls-remote','origin','refs/heads/main'],cwd=site,text=True).split()
+    if len(remote_output)!=2 or remote_output[1]!='refs/heads/main':
+        raise ValueError('Cannot resolve maintained Site origin/main')
+    remote=remote_output[0]
+    dirty=subprocess.check_output(['git','status','--porcelain','--untracked-files=all'],cwd=site)
+    if head!=expected or remote!=expected or dirty:
+        return False
+    return live_source_revision(url)==expected
 
 
 def main():
@@ -80,20 +112,17 @@ def main():
     if not executable:raise SystemExit('Codex CLI unavailable: finish this exact site-request.json through the current Codex Sites connector, then retry.')
     prompt=f'''Complete ONLY the authorized Working Tools release catalog deployment described in {request}. The user has authorized publication of these exact public updates. Read the request, site AGENTS.md, docs/project-map.md and .openai/hosting.json. Do not start a new goal, delegate, schedule work, edit unrelated source or change site audience. Do not publish packages again.
 Copy the supplied schema-validated release catalog to site data/release-history.json, run scripts/sync_plugin_registry.py against the public_source current commit, render static release pages, and run site validators. Preserve all existing components, useful URLs and historical downloads. Commit only these generated release/catalog changes (if any), fetch origin and ensure a fast-forward update without overwriting concurrent work. Push the verified maintained site source. Build using scripts/build_working_tools_site.py with an exact root revision and existing companion pins, using request.sources_dir for the companion checkouts when provided, or cloning the public repositories as needed. Keep generated Sites source separate.
-Use the existing Sites connector: get_site, create_source_repository_write_credential, push exact prepared Sites source with credential kept private, save_site_version with a local tar archive, deploy_site_version, and get_deployment_status until succeeded. No unsupported HTTP endpoint or guessed credentials. Run the exact promotion_check argv from the request immediately before deploy_site_version to recheck canonical GitHub release state; if it has advanced beyond expected_file, stop with catalog_pending instead of rolling it back. Reconcile an already completed identical deployment before creating another version.
-Verify the live /data/release-history.json SHA256 equals catalog_sha256 and all expected product/version/hash selections match it. Use User-Agent WorkingTools-ReleaseVerifier/1.0 and Accept application/json for public readback; the host rejects Python's default user agent. Write receipt_file JSON with status='deployed', deployment_id, source_commit (exact pushed Sites source), maintained_source_commit, catalog_sha256, published_set copied only after live match, live_url and saved version_id. If any capability/access is unavailable, write status='catalog_pending' with the precise dependency and do not claim success. Never log tokens. Return concise actual results.'''
+Use the existing Sites connector: get_site, create_source_repository_write_credential, push exact prepared Sites source with credential kept private, save_site_version with a local tar archive, deploy_site_version, and get_deployment_status until succeeded. No unsupported HTTP endpoint or guessed credentials. Run the exact promotion_check argv from the request immediately before deploy_site_version to recheck canonical GitHub release state; if it has advanced beyond expected_file, stop with catalog_pending instead of rolling it back. Reconcile an already completed identical deployment only when both the catalog and maintained source commit match; a newer UI source needs a new deployment even with the same catalog.
+Verify the live /data/release-history.json SHA256 equals catalog_sha256, all expected product/version/hash selections match it, and live /build-manifest.json source_revisions['compass-suite'] equals the exact clean maintained Site commit pushed to origin/main. Use User-Agent WorkingTools-ReleaseVerifier/1.0 and Accept application/json for public readback; the host rejects Python's default user agent. Write receipt_file JSON with status='deployed', deployment_id, source_commit (exact pushed Sites source), maintained_source_commit, catalog_sha256, published_set copied only after live matches, live_url and saved version_id. If any capability/access is unavailable, write status='catalog_pending' with the precise dependency and do not claim success. Never log tokens. Return concise actual results.'''
     with (config_path.parent/'site-promotion.lock').open('w') as lock:
         try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:raise SystemExit('Another Site promotion is active; retry synchronization after it settles.')
         verify_promotion(expected)
         if receipt.is_file():
             previous=json.loads(receipt.read_text())
-            head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=site,text=True).strip()
-            remote=subprocess.check_output(['git','ls-remote','origin','refs/heads/main'],cwd=site,text=True).split()[0]
             if (previous.get('status')=='deployed' and previous.get('catalog_sha256')==history_digest
                     and previous.get('published_set')==expected
-                    and previous.get('maintained_source_commit')==head==remote
-                    and not subprocess.check_output(['git','status','--porcelain','--untracked-files=all'],cwd=site)
+                    and site_source_matches(site,previous)
                     and live_digest(previous['live_url'])==history_digest):
                 print(json.dumps({'status':'deployed','no_op':True,'deployment_id':previous['deployment_id']}));return
         result=subprocess.run([executable,'exec','--ephemeral','-m','gpt-6.1-sol','-c','model_reasoning_effort="high"','-s','danger-full-access','-c','approval_policy="never"','--color','never','-C',str(site),'-'],input=prompt,text=True)
@@ -102,5 +131,6 @@ Verify the live /data/release-history.json SHA256 equals catalog_sha256 and all 
         if proof.get('status')!='deployed' or proof.get('catalog_sha256')!=history_digest or proof.get('published_set')!=expected:
             raise SystemExit('Sites publication remains pending or its receipt mismatches intended catalog')
         if live_digest(proof['live_url'])!=history_digest:raise SystemExit('Live catalog differs from prepared input; retain partial completion')
+        if not site_source_matches(site,proof):raise SystemExit('Live Site build or maintained source differs from deployed receipt; retain partial completion')
         print(json.dumps({'status':'deployed','deployment_id':proof['deployment_id'],'catalog_sha256':history_digest}))
 if __name__=='__main__':main()
