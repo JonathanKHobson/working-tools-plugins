@@ -1,6 +1,6 @@
 # Project map
 
-Purpose: one discoverable skill and one on-demand MCP gateway for the seven ArtCraft apps, with no always-on native servers or bundled upstream executables.
+Purpose: one discoverable skill and one on-demand MCP gateway for the ten ArtCraft apps, with no always-on native servers or bundled upstream executables.
 
 - `plugin.json`, `.codex-plugin/plugin.json` and `.claude-plugin/plugin.json`: portable and host compatibility discovery.
 - `mcp.json` and `.mcp.json`: portable and Codex compatibility registrations of the same on-demand gateway with plugin-relative paths.

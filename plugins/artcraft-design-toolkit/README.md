@@ -1,6 +1,6 @@
 # ArtCraft Design Toolkit
 
-Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.0** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Use one on-demand MCP gateway to operate the ArtCraft app that fits an editing task. It exposes installed_status, cli_run, open_session, native_tools, native_call and close_session. The complete first-party gateway, skill, app interface reference and protocol tests are included. ArtCraft applications and CLI binaries are installed separately under their own terms.
 
@@ -14,6 +14,6 @@ The portable root manifest and Codex/Claude compatibility manifests launch the s
 
 ## Validation
 
-Run `python3 -m unittest discover -s tests -v`. The synthetic fixture tests JSON-RPC framing, native image pass-through and child cleanup; it does not prove all seven provider apps work. The repository compatibility record distinguishes synthetic tests from real installed-provider execution.
+Run `python3 -m unittest discover -s tests -v`. The synthetic fixture tests JSON-RPC framing, native image pass-through and child cleanup; it does not prove all ten provider apps work. The repository compatibility record distinguishes synthetic tests from real installed-provider execution.
 
 [The skill](skills/artcraft-apps/SKILL.md) explains the workflow and links to app-specific documentation. LICENSE covers this original gateway and guidance only. PROVENANCE.json records the exact input and exported file hashes.

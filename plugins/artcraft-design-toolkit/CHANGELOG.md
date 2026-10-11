@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 · 2026-10-11
+
+Add SoundCraft, CADCraft and WordCraft to the existing on-demand gateway, CLI allowlists and app guidance. Preserve one active native session and the current portable/Codex/Claude registration formats. Document early-release limitations and keep provider binaries and host-specific installation receipts outside the plugin.
+
 ## 0.2.3 · 2026-10-10
 
 Align the maintained local source and portable package, preserving complete operative methods and original source history. Refresh recipient setup, registration metadata and file-level provenance.

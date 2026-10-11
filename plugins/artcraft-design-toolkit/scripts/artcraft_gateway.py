@@ -15,7 +15,8 @@ import threading
 import tempfile
 from typing import Any
 
-APPS = ("photocraft", "vectorcraft", "filmcraft", "lightcraft", "pdfcraft", "effectcraft", "designcraft")
+APPS = ("photocraft", "vectorcraft", "filmcraft", "lightcraft", "pdfcraft", "effectcraft", "designcraft",
+        "wordcraft", "soundcraft", "cadcraft")
 CLI_COMMANDS = {
     "photocraft": {"convert", "info", "run", "batch", "droplet", "commands"},
     "vectorcraft": {"commands", "run", "convert", "info"},
@@ -24,6 +25,9 @@ CLI_COMMANDS = {
     "pdfcraft": {"info", "render", "text", "edit", "combine", "extract", "split", "check", "tools", "run", "ui", "help"},
     "effectcraft": {"info", "commands", "exec", "props", "set", "get", "run", "render-frame", "script"},
     "designcraft": {"commands", "describe", "script", "run", "app"},
+    "wordcraft": {"convert", "info", "text", "inspect", "render", "run", "commands", "parity"},
+    "soundcraft": {"info", "convert", "run", "script", "commands", "describe", "app", "parity", "plugins"},
+    "cadcraft": {"info", "convert", "run", "commands", "sample"},
 }
 MAX_LINE = 8 * 1024 * 1024
 MAX_CLI_OUTPUT = 2 * 1024 * 1024
@@ -72,7 +76,9 @@ def native_args(app: str, mode: str, root: Path, options: dict[str, Any]) -> lis
     if mode == "live":
         if app == "pdfcraft":
             raise ValueError("PdfCraft has no documented live MCP mode; use its CLI ui command")
-        port = options.get("port", {"photocraft": 7878, "vectorcraft": 7979, "filmcraft": 9876, "lightcraft": 7980, "effectcraft": 9877, "designcraft": 7979}[app])
+        port = options.get("port", {"photocraft": 7878, "vectorcraft": 7979, "filmcraft": 9876,
+                                    "lightcraft": 7980, "effectcraft": 9877, "designcraft": 7979,
+                                    "wordcraft": 7981, "soundcraft": 7801, "cadcraft": 7979}[app])
         if type(port) is not int or not 1024 <= port <= 65535:
             raise ValueError("port must be an integer from 1024 to 65535")
         if app == "photocraft":
@@ -82,8 +88,10 @@ def native_args(app: str, mode: str, root: Path, options: dict[str, Any]) -> lis
             args += ["--bridge", f"127.0.0.1:{port}", "--control-token-file", token]
         elif app == "designcraft":
             args += ["--connect", str(port)]
-        elif app in ("vectorcraft", "lightcraft"):
+        elif app in ("vectorcraft", "lightcraft", "wordcraft", "cadcraft"):
             args += ["--connect", f"127.0.0.1:{port}"]
+        elif app == "soundcraft":
+            args += ["--connect", str(port)]
         else:
             args += ["--bridge", f"127.0.0.1:{port}" if app == "filmcraft" else str(port)]
         return args
@@ -108,6 +116,13 @@ def native_args(app: str, mode: str, root: Path, options: dict[str, Any]) -> lis
         args += ["--root", str(root), "--compact"]
     elif app == "effectcraft" and options.get("autosave", True):
         args += ["--autosave"]
+    elif app == "soundcraft" and options.get("demo", False):
+        args += ["--demo"]
+    elif app == "wordcraft" and "author" in options:
+        author = options["author"]
+        if not isinstance(author, str) or not author.strip():
+            raise ValueError("WordCraft author must be a nonempty string")
+        args += ["--author", author]
     return args
 
 
@@ -123,6 +138,10 @@ class NativeSession:
             config = root / ".artcraft-config" / "effectcraft"
             config.mkdir(parents=True, exist_ok=True)
             env["EFFECTCRAFT_CONFIG_DIR"] = str(config)
+        if app == "cadcraft":
+            config = root / ".artcraft-config" / "cadcraft"
+            config.mkdir(parents=True, exist_ok=True)
+            env["CADCRAFT_CONFIG_DIR"] = str(config)
         self.proc = subprocess.Popen([str(cli_path(app)), *self.args], cwd=root, env=env,
                                      stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                      bufsize=0, start_new_session=True)
@@ -135,7 +154,7 @@ class NativeSession:
         threading.Thread(target=self._read_stderr, daemon=True).start()
         try:
             result = self.request("initialize", {"protocolVersion": "2024-11-05", "capabilities": {},
-                                                  "clientInfo": {"name": "artcraft-toolkit", "version": "0.2.3"}}, 20)
+                                                  "clientInfo": {"name": "artcraft-toolkit", "version": "0.3.0"}}, 20)
             if "result" not in result:
                 raise RuntimeError(f"Native initialize failed: {result.get('error', result)}")
             self.notify("notifications/initialized")
@@ -325,6 +344,10 @@ class Gateway:
                     config = root / ".artcraft-config" / "effectcraft"
                     config.mkdir(parents=True, exist_ok=True)
                     env["EFFECTCRAFT_CONFIG_DIR"] = str(config)
+                if app == "cadcraft":
+                    config = root / ".artcraft-config" / "cadcraft"
+                    config.mkdir(parents=True, exist_ok=True)
+                    env["CADCRAFT_CONFIG_DIR"] = str(config)
                 with tempfile.TemporaryFile(dir=tmp) as stdout_file, tempfile.TemporaryFile(dir=tmp) as stderr_file:
                     try:
                         proc = subprocess.Popen([str(cli_path(app)), *argv], cwd=root, env=env,
@@ -362,7 +385,7 @@ class Gateway:
                 if version not in ("2024-11-05", "2025-03-26", "2025-06-18"):
                     version = "2025-06-18"
                 result = {"protocolVersion": version, "capabilities": {"tools": {"listChanged": False}},
-                          "serverInfo": {"name": "artcraft-toolkit", "version": "0.2.3"}}
+                          "serverInfo": {"name": "artcraft-toolkit", "version": "0.3.0"}}
             elif method == "ping":
                 result = {}
             elif method == "tools/list":
