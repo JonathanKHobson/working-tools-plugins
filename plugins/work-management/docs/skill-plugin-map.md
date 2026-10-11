@@ -1,42 +1,54 @@
 # Skills and plugins: current owners
 
-Choose the smallest skill that owns the immediate output. Each substantial maintained package below exposes distinct use cases and conditionally loads the full relevant procedure. Short discovery text is not a substitute for full methods. Do not read a whole plugin for one specific job.
+Choose the smallest skill that owns the immediate output. The primary table accounts for the current 31 public product owners; recipient-specific/private neighbors are separate below. Counts are discovered skill heads, not unique capabilities, bundled template resources or authenticated tools. Load the selected complete procedure and applicable support, not a whole plugin for one job. The published catalog and current installed discovery remain authoritative when versions change.
 
 | Maintained owner | Skills | Purpose and first-use guide |
 | --- | ---: | --- |
 | Activities Templates (optional installed `activities-templates` route: `README.md`; verify receiving-host availability) | 1 | Scoped activity catalogs and their twelve domain pickers; private source corpora and host bindings stay external. |
 | Brand Templates (optional installed `brand-templates` route: `README.md`; verify receiving-host availability) | 1 | 104 complete brand kits, source rules and a verified-selection MCP picker. |
 | Design Templates (optional installed `design-templates` route: `README.md`; verify receiving-host availability) | 1 | 106 editable custom templates, the Site template MCP picker and shared chooser presentation. |
-| Development Studio (optional installed `development-studio` route: `README.md`; verify receiving-host availability) | 11 | Application development, debugging, testing and MCP methods; official platform providers remain separate. |
-| Game Creation Studio (optional installed `game-creation-studio` route: `README.md`; verify receiving-host availability) | 10 | Game design, prototyping and technical production methods; engine and game-dev execution remain external. |
+| Development Studio (optional installed `development-studio` route: `README.md`; verify receiving-host availability) | 21 | Application development, debugging, testing and MCP methods; official platform providers remain separate. |
+| Game Creation Studio (optional installed `game-creation-studio` route: `README.md`; verify receiving-host availability) | 25 | Game design, prototyping and technical production methods; engine and game-dev execution remain external. |
 | Video Templates (optional installed `video-templates` route: `README.md`; verify receiving-host availability) | 1 | Video families, exact examples, pinned styles and the revisioned storyboard library runtime. |
 | Career Studio (optional installed `career-studio` route: `README.md`; verify receiving-host availability) | 9 | Evidence-backed career proof, applications and interviews, with LinkedIn profile audits, professional inbox triage and individualized outreach. |
 | Creative Toolkit (optional installed `creative-writing-studio` route: `README.md`; verify receiving-host availability) | 9 | Creative project routing for stories, games, GM prep, craft, provenance, and publishing. |
 | Data Visualization Toolkit (optional installed `data-visualization-toolkit` route: `README.md`; verify receiving-host availability) | 13 | Choose, build, critique, and verify truthful data visualizations with complete web visualization methods across charts, maps, diagrams, dashboards, stories, and exports. |
-| Discord (optional installed `discord` route: `README.md`; verify receiving-host availability) | 2 | Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity. |
-| Figma Design Toolkit (optional installed `figma-design-workflow` route: `README.md`; verify receiving-host availability) | 4 | Figma and FigJam editor workflows, editable Stitch imports, visual references, and evidence-based visual QA. |
-| Graphic Design Studio (optional installed `graphic-design-studio` route: `README.md`; verify receiving-host availability) | 9 | Design, compose, adapt, and verify static graphics and visual direction for motion pieces. |
-| Instructional Design Studio (optional installed `instructional-design-studio` route: `README.md`; verify receiving-host availability) | 11 | Design evidence-backed lessons, assessments and courses with observable learner practice and feedback. |
-| Mac Operations Toolkit (optional installed `mac-ops-toolkit` route: `README.md`; verify receiving-host availability) | 8 | Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state. |
+| Figma Design Toolkit (optional installed `figma-design-workflow` route: `README.md`; verify receiving-host availability) | 6 | Figma and FigJam editor workflows, editable Stitch imports, visual references, and evidence-based visual QA. |
+| Graphic Design Studio (optional installed `graphic-design-studio` route: `README.md`; verify receiving-host availability) | 12 | Design, compose, adapt, and verify static graphics and visual direction for motion pieces. |
+| Instructional Design Studio (optional installed `instructional-design-studio` route: `README.md`; verify receiving-host availability) | 12 | Design evidence-backed lessons, assessments and courses with observable learner practice and feedback. |
+| Mac Operations Toolkit (optional installed `mac-ops-toolkit` route: `README.md`; verify receiving-host availability) | 10 | Diagnose Mac app and storage problems, recover usable windows, and make verified installations or file moves while preserving user state. |
 | Marketing Strategy Studio (optional installed `marketing-strategy-studio` route: `README.md`; verify receiving-host availability) | 10 | Marketing strategy, search-facing language, SEO, campaign planning, and measurement grounded in evidence. |
 | Master Security Toolkit (optional installed `master-security-toolkit` route: `README.md`; verify receiving-host availability) | 9 | Inspect software, plugins, permissions and AI instruction boundaries, then explain evidence-backed risks and verify targeted fixes. |
-| Oppia Research Corpus (optional installed `oppia-research-compass` route: `README.md`; verify receiving-host availability) | 10 | Find and reuse historical Oppia UX evidence, assess its limits, and design focused follow-up research for an authorized Oppia team decision. |
 | Prompt Playbook Studio (optional installed `prompt-playbook-studio` route: `README.md`; verify receiving-host availability) | 8 | Write, repair and test prompts that preserve the intended task, using focused methods, optional Prompt Compass workflows and selected pattern references. |
-| Reasoning Toolkit (optional installed `reasoning-studio` route: `README.md`; verify receiving-host availability) | 3 | Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning. |
+| Reasoning Toolkit (optional installed `reasoning-studio` route: `README.md`; verify receiving-host availability) | 4 | Pressure-test a claim, clarify an assumption in dialogue, or compare credible explanations so the next decision rests on stronger reasoning. |
 | Research Toolkit (optional installed `research-methodology-local` route: `README.md`; verify receiving-host availability) | 8 | Evidence-led research, academic manuscript writing and review, and implementation handoffs. |
 | Social Content Studio (optional installed `social-content-studio` route: `README.md`; verify receiving-host availability) | 8 | Grounded social content, LinkedIn hooks and conversations, verified trends, platform-specific reuse and measured learning, with authorized publishing readback. |
-| Solo Service Operations Studio (optional installed `solo-service-operations` route: `README.md`; verify receiving-host availability) | 4 | Evidence-backed invoice preparation, personal client workflows, agreed terms, payment reconciliation and cash-flow planning. |
+| Solo Service Operations Studio (optional installed `solo-service-operations` route: `README.md`; verify receiving-host availability) | 8 | Evidence-backed invoice preparation, personal client workflows, agreed terms, payment reconciliation and cash-flow planning. |
 | Survey Toolkit (optional installed `survey-studio` route: `README.md`; verify receiving-host availability) | 8 | Focused survey strategy, question design, sampling, logic, accessibility/privacy, pilot QA, exports and analysis/codebooks. |
 | UX Design Studio (optional installed `ux-design-toolkit` route: `README.md`; verify receiving-host availability) | 12 | Design, review and improve product interfaces, from usable wording and responsive layouts to interaction states, design systems and evidence-backed audits. |
-| Video Production Studio (optional installed `video-production-workflow` route: `README.md`; verify receiving-host availability) | 16 | Plan, design motion, edit, mix, render and validate video, including code-authored animated stories and authentic narration-led explainers. |
-| [Work Management Studio](../README.md) | 10 | Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. |
+| Video Production Studio (optional installed `video-production-workflow` route: `README.md`; verify receiving-host availability) | 19 | Plan, design motion, edit, mix, render and validate video, including code-authored animated stories and authentic narration-led explainers. |
+| [Work Management Studio](../README.md) | 14 | Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. |
 | Workshop Facilitation Toolkit (optional installed `workshop-facilitator` route: `README.md`; verify receiving-host availability) | 8 | Design workshop agendas, guide live group process, synthesize evidence and close with a reviewable decision or next action. |
 | Writing Quality Studio (optional installed `writing-quality-studio` route: `README.md`; verify receiving-host availability) | 11 | Focused workflows for natural prose, voice, plain language, technical instructions, long documents, spoken writing, communication and source audits, plus the full grant lifecycle from eligibility and project design through reporting and closeout. |
 | Writing Templates (optional installed `writing-templates` route: `README.md`; verify receiving-host availability) | 1 | Generic Writing Library templates, examples, measured sample features, offline draft QA, and a read-only MCP picker with verified handoffs. |
+| ArtCraft Design Toolkit (optional installed `artcraft-design-toolkit` route: `README.md`; verify receiving-host availability) | 1 | One task-triggered gateway for actual ArtCraft apps; selected external CLI/app execution and session cleanup, without always-on native servers. |
+| Build MCP Apps (optional installed `build-mcp-apps` route: `README.md`; verify receiving-host availability) | 2 | Existing standalone MCP app/server and Alpic methods. Ordinary maintained implementation routing selects Development Studio; this public distribution remains accounted for while its duplicate-head compatibility disposition is reviewed. Actual Alpic CLI/cloud access stays external. |
+| DaVinci Resolve Toolkit (optional installed `davinci-resolve-toolkit` route: `README.md`; verify receiving-host availability) | 1 | Verified Resolve app/scripting/interchange operations. Video Production retains editorial planning, media QA and delivery; this toolkit owns the selected app-control route. |
+| Stitch Design Toolkit (optional installed `stitch-design-studio` route: `README.md`; verify receiving-host availability) | 8 | Existing complete manual Stitch exploration, system, component, prototype, export and recovery procedures. UX owns cross-interface judgment; native Stitch access and observed editor behavior remain actual execution boundaries. |
 
 These are canonical source heads, not a count of authenticated tools or unique capabilities. Check live source and installed discovery when using the map; nested preserved methods and standalone compatibility entries are not additional active plugin heads.
 
 The links above open maintained source on this private host; installed package caches are versioned and are not sibling plugin paths.
+
+## Recipient-specific neighbors
+
+These packages are not members of the public 31-product catalog. They remain relevant on a recipient host only when installed, authorized and actually available. Preserve their private source/access boundaries; this map does not export their contents.
+
+| Neighbor | Skills | Scope |
+| --- | ---: | --- |
+| Discord (optional installed `discord` route: `README.md`; verify receiving-host availability) | 2 | Find and summarize Discord channel conversations, prepare replies, and send authorized messages with the correct identity. |
+| Oppia Research Corpus (optional installed `oppia-research-compass` route: `README.md`; verify receiving-host availability) | 10 | Find and reuse historical Oppia UX evidence, assess its limits, and design focused follow-up research for an authorized Oppia team decision. |
+
 
 ## Cross-plugin boundaries
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Launch one registered fixed Atlas view from this package and external data."""
+"""Launch a fixed Atlas view through its automatically shared domain backend."""
 import os
 import json
 from pathlib import Path
@@ -19,7 +19,14 @@ def main():
     env['PYTHONDONTWRITEBYTECODE'] = '1'
     env['ACTIVITIES_SEARCH_MISSES_DB'] = str(binding['search_misses_database'])
     interpreter = str(binding['interpreter'])
-    os.execve(interpreter, [interpreter, str(binding['server']), '--db', str(binding['database']), '--domain', sys.argv[1]], env)
+    if os.name != 'posix' or os.environ.get('ACTIVITIES_TRANSPORT') == 'direct':
+        # Compatibility/rollback path. Normal use needs no operator switching.
+        command = [interpreter, str(binding['server']), '--db', str(binding['database']), '--domain', sys.argv[1]]
+    else:
+        command = [interpreter, '-B', str(RUNTIME / 'stdio_proxy.py'),
+                   '--db', str(binding['database']), '--domain', sys.argv[1],
+                   '--misses', str(binding['search_misses_database']), '--interpreter', interpreter]
+    os.execve(interpreter, command, env)
 
 
 if __name__ == '__main__':

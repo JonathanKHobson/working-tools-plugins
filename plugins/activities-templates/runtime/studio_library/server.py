@@ -36,7 +36,7 @@ def render_html(catalog):
     return text
 
 
-def create_server(catalog, domain):
+def create_server(catalog, domain, server_class=None):
     try:
         from mcp.server.fastmcp import FastMCP
         from mcp.types import CallToolResult, TextContent, ToolAnnotations
@@ -45,7 +45,7 @@ def create_server(catalog, domain):
         raise SystemExit(1)
     name = domain.replace('-', '_')
     uri = f'ui://atlas-{domain}/library-prompt-v2.html'
-    server = FastMCP(f'Atlas {domain} Library')
+    server = (server_class or FastMCP)(f'Atlas {domain} Library')
     from search_misses import register_tools
     register_tools(server, 'activity-atlas', 'Domain scope is recorded in the supplied route and safe filters.')
     readonly = ToolAnnotations(readOnlyHint=True, destructiveHint=False, idempotentHint=True, openWorldHint=False)

@@ -16,6 +16,8 @@ Validation: Changed skill frontmatter and local reference closure checked. Bound
 
 Additional integration checks: Adds complete evidence-grounded task profiles, empathy maps and journey slices inside Research, including sparse sources, countercases and a worked example. Mechanism review identifies the changed system element and separates joint changes from causal evidence.
 
+Cross-Studio review: Corrects the worked research example to distinguish observed user uncertainty from an uninspected interface cause.
+
 Historical entries below are imported from the verified release catalog. Earlier package bytes and tags are unchanged.
 
 ## 1.1.1+ecosystem.20261010

@@ -51,6 +51,36 @@ behavior. An SVG containing a bitmap is not an editable vector logo. Generated
 concept art can inform a production mark; it is not evidence of vector paths,
 font identity, exclusivity or trademark clearance.
 
+For a responsive logo family, distinguish a change in arrangement (such as
+removing a descriptor) from an optical drawing made for small display. Preserve
+the approved source master and derive exports from the appropriate master;
+repeatedly shrinking a raster preview cannot restore closed counters or lost
+strokes. Judge shared family features and each variant's intended meaning
+separately from whether viewers can distinguish variants in their real context.
+When the distinguishing cue disappears, revise its shape or pair the mark with
+an explicit label. Do not infer recognition or audience response from a polished
+mockup or the designer's explanation alone.
+
+Simplification can also increase resemblance to an existing mark: compare the
+monochrome silhouette and actual small-size render with relevant marks from
+their primary sources, recording the search scope and observed shared geometry.
+Keep visual similarity observations distinct from legal confusion or clearance;
+an empty bounded search does not establish uniqueness.
+
+Specify a usable asset by its intended placement, version, approval status,
+background treatment, crop and visible mark size. Source coordinates, CSS
+display size, raster pixel dimensions and device pixel ratio answer different
+questions; generous transparent padding can make a large file display a tiny
+mark. Compare variants at the same apparent size, then inspect actual renders
+at the smallest and normal intended placements, including relevant light,
+dark, one-color and crop conditions. Check transparency against both light and
+dark grounds for pale edge halos or fringing. Record a minimum usable size only
+after a named variant passes at that size, with its failure below and the tested
+surface or production method; proposed proof sizes are not universal limits.
+Consumers should select the approved asset for the placement instead of
+redrawing the identity from a verbal description. Keep exploratory assets and
+untested placements visibly separate from released ones.
+
 Bundle only assets whose redistribution is supported. Record the original font,
 bundled font or dependency, license/notice, and tested fallback separately;
 embedding permission is not necessarily permission to distribute a raw font.

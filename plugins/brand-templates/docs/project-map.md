@@ -1,6 +1,6 @@
 # brand-templates project map
 
-- `runtime/brand-library/`: complete original MCP catalog, source verification, handoff and chooser runtime. UI chrome stays package-owned.
+- `runtime/brand-library/`: complete original MCP catalog, source verification, handoff and chooser runtime. UI chrome stays package-owned. `ui/logo-gallery.js/.css` owns optional inline logo browsing in a selected brand detail; the Brand Library website uses the same component. Artwork comes from the selected external collection, with labels and fixed-field limits.
 - `scripts/`: portable stdlib launch and explicit external synthetic-fixture creation.
 - `skills/brand-templates/SKILL.md`: one discovery head for the complete external-collection workflow.
 - `tests/`: real stdio, integrity and relocation checks; all data stays external.

@@ -24,6 +24,8 @@ Validation: Changed skill frontmatter and local reference closure checked. Bound
 
 Additional integration checks: Adds an explicit, evidence-linked editorial rubric for requested ratings and draft comparisons. Native voice adaptations are operative routes; detector and authorship claims remain excluded.
 
+Cross-Studio review: Aligns selected writing-template handoffs with the actual verified collection contract, replacing stale resource counts and unsupported fallback claims while preserving native drafting.
+
 Historical entries below are imported from the verified release catalog. Earlier package bytes and tags are unchanged.
 
 ## 0.3.6

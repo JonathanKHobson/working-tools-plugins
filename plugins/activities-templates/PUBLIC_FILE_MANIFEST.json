@@ -4,12 +4,12 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "203a82fc5792e892088ad1962f0362de71c19e649e222fc8c18f06e02039f02a",
+      "sha256": "ee38eb4deed68fa2042b545b4d29737d09551796dc71bd03dc40cf6571404ffe",
       "bytes": 472
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "1bebdbe2314e65cad0b2ff829094ff86bb7b46cc3676439c6c4a1c2f377777ee",
+      "sha256": "8efdbdc540a5e4b9eda70a5c37b5fdbf358d5833f5d3046c9fae54def812b809",
       "bytes": 1366
     },
     {
@@ -19,8 +19,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2175b2c0f409747451a17203074922ef62fa9eaf6105bd3ee3da4c93d3a33d0f",
-      "bytes": 515
+      "sha256": "88201b8f2a41ab2732e45b4e72fdc5adebd60be83c8a5e44256ad2d2526c52ef",
+      "bytes": 1887
     },
     {
       "path": "LICENSE",
@@ -29,8 +29,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "sha256": "538212764c739423ba7818cb81b64972b508dc0b8074fff1eaacc2183b687138",
-      "bytes": 15353
+      "sha256": "c7ae200061cf1727298f5e427ca083405105b7cdcc19c9e14b9aa27b048442cc",
+      "bytes": 16227
     },
     {
       "path": "LICENSING.md",
@@ -44,13 +44,13 @@
     },
     {
       "path": "PROVENANCE.json",
-      "sha256": "d14675481cdbc4876f170f7b193fe752584dbb118d4821356fc4d3b00fce1a82",
-      "bytes": 22185
+      "sha256": "6902ca7587b610898e172fbedb71254ff2e15b3ceecbb25aae67d12ba8ed8535",
+      "bytes": 24402
     },
     {
       "path": "README.md",
-      "sha256": "2914815d4ed65c879a01de57adb5b128f7a09b09fc5b27ac60ca27bc7b09399f",
-      "bytes": 3786
+      "sha256": "b5639025822f2891952396d6e18fe0bf258c3d6e16c1e54ebb369f94b5836f9b",
+      "bytes": 5482
     },
     {
       "path": "SOURCE-NOTES.md",
@@ -64,8 +64,8 @@
     },
     {
       "path": "docs/project-map.md",
-      "sha256": "f9cf3c6660e188e922077a241e8197248f4db3e33f4fb10016336ea4f01b16d4",
-      "bytes": 1695
+      "sha256": "a19dc134549f0baa7b59a52fc458f09ff589ad099d84d63196aa07be16a2ab44",
+      "bytes": 2158
     },
     {
       "path": "legal/BRAND-AND-ATTRIBUTION.md",
@@ -124,7 +124,7 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "4e822b4e6e90cc429852710103070672f59c0c53747d89c9b2439fed5468826f",
+      "sha256": "ed71878a8d410fa1e633841184c22952b3167357963ea065f0c019ae0816cea5",
       "bytes": 1493
     },
     {
@@ -174,8 +174,8 @@
     },
     {
       "path": "runtime/studio_library/server.py",
-      "sha256": "1e485b39f5043a50c6b21d09293d89b3bb503d94f6a46060d76263deadbf53c8",
-      "bytes": 7815
+      "sha256": "b1824f95f09f55b8971cd0e11e01eb8627cb47081f51dbd99eea1f934b84561d",
+      "bytes": 7852
     },
     {
       "path": "runtime/studio_library/ui/adapter.js",
@@ -204,8 +204,8 @@
     },
     {
       "path": "scripts/atlas_library_mcp.py",
-      "sha256": "dc1b37809bc89da0ca6a0c2cf3aecf504ef631ac5ba6d745d257715eda06f4d9",
-      "bytes": 1261
+      "sha256": "50ba33641ef068531cd45eeed58129df8fb8df7de2ed8eff83dec8733f6a08c2",
+      "bytes": 1706
     },
     {
       "path": "scripts/create_sample_catalog.py",
@@ -231,7 +231,27 @@
       "path": "tests/test_runtime.py",
       "sha256": "a7a8d7df7cabb41c97a7d21e4e01cbdd9927906434de01d97c8a1c7b36319eac",
       "bytes": 8105
+    },
+    {
+      "path": "runtime/studio_library/shared_backend.py",
+      "sha256": "3cb0c1ed1205ef2e49bd69738d77d45d816b63bc3141f8675f59768b89ac2818",
+      "bytes": 9638
+    },
+    {
+      "path": "runtime/studio_library/stdio_proxy.py",
+      "sha256": "c2a3f4d3fa16447937f7987ef88c06771485b7cfb6c6bc3c02ec794394bc8494",
+      "bytes": 10715
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "67ca6bde6b873c5afa092f7c2b34ae9269151b2b02418fd810866965a8a1bb60",
+      "bytes": 15123
+    },
+    {
+      "path": "tests/test_transport_parity.py",
+      "sha256": "8c58eb6d03749adbdffc63cf5407ff9a51dd7bdd33889b47b7da44449bf4d6c5",
+      "bytes": 5534
     }
   ],
-  "version": "0.1.3"
+  "version": "0.1.4"
 }

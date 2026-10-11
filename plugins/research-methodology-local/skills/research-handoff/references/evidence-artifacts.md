@@ -53,7 +53,7 @@ When evidence is too thin for the requested generalization, still produce the bo
 
 Synthetic source E1: participant P1, observed return after one week, opened the model tab and searched for the active scenario. Synthetic source E2: P1 said, “I cannot tell which scenario I last used.” No emotion or timing measurement was recorded.
 
-Profile: returning scenario-model user, based on one case; goal is to recover the prior scenario. Approach/constraint: searched model details because current scenario was not identified in the supplied view [E1]. Stated uncertainty: could not identify the last-used scenario [E2]. Emotional state: unknown. Generalization to all users: untested.
+Profile: returning scenario-model user, based on one case; goal is to recover the prior scenario. Approach/constraint: searched model details [E1]. Whether the supplied view identified the current scenario is unknown; the search and stated uncertainty do not establish a visual defect. Stated uncertainty: could not identify the last-used scenario [E2]. Emotional state: unknown. Generalization to all users: untested.
 
 Journey stage: return to model. Trigger: resume prior work [E1]. Action: search model tab [E1]. Thought/report: uncertainty about last scenario [E2]. Backstage cause: unknown. Proposed opportunity: test a visible scenario/history cue. Next check: compare an actual return task with/without the cue, preserving formula correctness; fewer searches or accurate scenario identification must be observed before reporting improvement.
 

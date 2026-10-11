@@ -25,6 +25,8 @@ Validation: Changed skill frontmatter and local reference closure checked. Bound
 
 Additional integration checks: Adds an explicit preservation rule: useful content is removed only on user request or demonstrated equivalent replacement. Full procedural coverage, output evidence and host parity are required; ordinary helpers and methods remain incorporated.
 
+Cross-Studio review: Refreshes the cross-Studio owner map against all 31 public owners and corrects skill counts so task routing includes existing specialist toolkits.
+
 ## 0.4.0
 
 Finish authorized public updates with versioned publication and catalog deployment.

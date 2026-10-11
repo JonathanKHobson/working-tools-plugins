@@ -3,6 +3,8 @@ from pathlib import Path
 import argparse
 import base64
 import json
+import mimetypes
+import copy
 from catalog import ROOT, catalog, search, handoff
 
 RESOURCE_URI = 'ui://brand-library/gallery-prompt-v2.html'
@@ -18,14 +20,26 @@ def render_html():
         preview=ROOT/'library'/item['previews'][0]['src']
         if preview.is_symlink() or not preview.resolve().is_relative_to((ROOT/'library').resolve()):
             raise ValueError('Unsafe preview')
-        items.append({**item,'preview':'data:image/webp;base64,'+base64.b64encode(preview.read_bytes()).decode()})
+        projected=copy.deepcopy(item)
+        if projected.get('logoGallery'):
+            for entry in projected['logoGallery']['entries']:
+                for image in [entry, *entry.get('sizes', [])]:
+                    if image['image'].startswith(('data:image/png;base64,','data:image/webp;base64,','data:image/jpeg;base64,')):
+                        continue
+                    path=ROOT/'library'/image['image']
+                    if path.is_symlink() or not path.resolve().is_relative_to((ROOT/'library').resolve()):
+                        raise ValueError('Unsafe logo preview')
+                    mime=mimetypes.guess_type(path.name)[0]
+                    if mime not in ('image/png','image/webp','image/jpeg'):raise ValueError('Unsupported logo preview')
+                    image['image']='data:'+mime+';base64,'+base64.b64encode(path.read_bytes()).decode()
+        items.append({**projected,'preview':'data:image/webp;base64,'+base64.b64encode(preview.read_bytes()).decode()})
     ui=Path(__file__).parent/'ui'
     body=(ui/'index.html').read_text()
     for token,value in {
         '__LIBRARY_DATA__':script_json({'items':items}),
-        '__LIBRARY_CSS__':(ui/'styles.css').read_text(),
+        '__LIBRARY_CSS__':(ui/'styles.css').read_text()+'\n'+(ui/'logo-gallery.css').read_text(),
         '__LIBRARY_BRIDGE__':(ui/'bridge.js').read_text(),
-        '__LIBRARY_JS__':(ui/'adapter.js').read_text()+'\n'+(ui/'app.js').read_text(),
+        '__LIBRARY_JS__':(ui/'logo-gallery.js').read_text()+'\n'+(ui/'adapter.js').read_text()+'\n'+(ui/'app.js').read_text(),
     }.items():
         if body.count(token)!=1:raise ValueError('Invalid UI marker')
         body=body.replace(token,value,1)

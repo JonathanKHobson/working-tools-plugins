@@ -13,6 +13,7 @@
     searchText: item => [item.id,item.name,item.summary,item.category,...item.tags,...item.sourceTemplateIds].join(' '),
     matches: (item,selected) => !selected || !selected.category || selected.category==='all' || selected.category===item.category,
     preview: item => ({image:item.preview,text:item.summary}),
+    afterDetail: (item,host) => { if(item.logoGallery) { const gallery=window.BrandLogoGallery.mount(item); if(gallery)host.prepend(gallery); } },
     details: item => [
       {label:'Brand guide',image:item.preview},
       {label:'Purpose',text:item.summary},
