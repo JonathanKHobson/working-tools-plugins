@@ -205,19 +205,27 @@ def refresh_metadata(public, allowed, version):
             pending.remove(name)
 
 
-def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additions=(), canonical_sources=None):
+def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additions=(), canonical_sources=None, expected_source_hashes=None):
     """Refresh named reviewed paths after reconciled edits, preserving audit holds."""
     root=Path(root);canonical=Path(canonical)
     inventory=read(root/'catalog/source-inventory.json'); row=next(r for r in inventory['packages'] if r['id']==ident)
     public=root/'plugins'/ident;source=approved_product_roots(root,canonical,canonical_sources,product_ids=[ident])[ident]
     registry=read(root/'catalog/packages.json');record=next(r for r in registry['packages'] if r['id']==ident)
-    record['version']=version;record['distribution']='released'
+    record['version']=version;record['distribution']='prepared'
     allowed=set(row['files'])
     if approved_additions:
         reviewed_additions(root,canonical,ident,list(approved_additions),canonical_sources)
     for rel in allowed:
         if not safe_file(public,rel).is_file() or not safe_file(source,rel).is_file():
             raise ValueError('Missing reviewed file: '+rel)
+    expected_source_hashes=(dict(expected_source_hashes) if expected_source_hashes is not None else
+                            {rel:digest(safe_file(source,rel).read_bytes()) for rel in allowed})
+    def unchanged_source(rel):
+        path=safe_file(source,rel)
+        if not path.is_file() or digest(path.read_bytes())!=expected_source_hashes.get(rel):
+            raise ValueError('Canonical source changed during metadata refresh: '+ident+'/'+rel)
+        return path
+    for rel in allowed:unchanged_source(rel)
     for rel in MANIFESTS:
         data=read(public/rel);data['version']=version;write(public/rel,data)
     changelog=public/'CHANGELOG.md'
@@ -231,7 +239,7 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
     for rel in allowed:
         p=public/rel
         if p.is_symlink() or not p.is_file():raise ValueError('Missing/unsafe reviewed file: '+rel)
-        dst=safe_file(source,rel);dst.write_bytes(safe_file(public,rel).read_bytes())
+        dst=unchanged_source(rel);dst.write_bytes(safe_file(public,rel).read_bytes())
     row['version']=version;row['files']={p:digest((public/p).read_bytes()) for p in sorted(allowed)}
     row['canonical_source']['revision']['sha256']=tree(row['files'])
     write(root/'catalog/packages.json',registry);write(root/'catalog/source-inventory.json',inventory)

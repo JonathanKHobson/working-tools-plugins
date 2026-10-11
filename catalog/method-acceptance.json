@@ -1,0 +1,1060 @@
+{
+  "schema_version": 1,
+  "policy": "Reviewed incorporated procedure/support contracts plus real output trials. Full source review and functional evidence are distinct; no keyword or link success proves execution.",
+  "cases": "tests/fixtures/method_acceptance/cases.json",
+  "criteria": "tests/fixtures/method_acceptance/criteria.json",
+  "required_hosts": [
+    "codex"
+  ],
+  "capabilities": [
+    {
+      "id": "ux",
+      "incorporated_packs": [
+        "uiuxdesigner",
+        "codex-material-themes"
+      ],
+      "products": [
+        "ux-design-toolkit"
+      ],
+      "cases": [
+        "UX-01"
+      ],
+      "sources": [
+        "plugins/ux-design-toolkit/skills/design-studio/SKILL.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/verification.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md",
+        "plugins/ux-design-toolkit/skills/design-review/references/accessibility-evidence.md"
+      ],
+      "procedure_sources": [
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md"
+      ],
+      "watched_dirs": [
+        "plugins/ux-design-toolkit/skills/design-review/references",
+        "plugins/ux-design-toolkit/skills/design-studio",
+        "plugins/ux-design-toolkit/skills/design-studio/references"
+      ],
+      "reviewed_layout": [
+        "plugins/ux-design-toolkit/skills/design-review/references/accessibility-evidence.md",
+        "plugins/ux-design-toolkit/skills/design-review/references/intentional-design.md",
+        "plugins/ux-design-toolkit/skills/design-review/references/intentional-design/patterns.md",
+        "plugins/ux-design-toolkit/skills/design-review/references/intentional-design/sources.md",
+        "plugins/ux-design-toolkit/skills/design-studio/SKILL.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/dashboard-handoff-proposal.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/evaluation.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/examples/case-1-dashboard-comparison.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/examples/case-2-interrupted-work-recovery.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/examples/case-3-neutral-survey-vs-persuasion.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/examples/pcea-task-worksheet.md",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/sources.json",
+        "plugins/ux-design-toolkit/skills/design-studio/assets/human-systems/unresolved.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/beginner-app-planning.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/collaborative-boards.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/context-adaptation.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/conversational-widgets.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/data-visualization.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/decision-alternatives.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-comparison-qa.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-sources.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-system-evolution.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/device-routing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/exploration-recovery.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/figma-stitch.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/frontend-slides-LICENSE.txt",
+        "plugins/ux-design-toolkit/skills/design-studio/references/graphic-design.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/html-presentations.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems-decisions.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/action-feedback.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/carried-memory.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/consequential-error.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/emotion-evidence.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/optional-heuristic-observations.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/target-acquisition.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/task-resumption.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/workload-tradeoffs.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/interface-craft.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/mcp-app-widgets.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/mobile-prototype-runtime.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/motion-performance.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/native-design-runtime.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-pain-research.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-prototyping.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-task-context.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-web.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/providers.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/reference-site-analysis.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/research-inputs.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/review.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/structured-design-profile.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/system-craft.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/typography-brand.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/usability-testing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/ux-writing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/verification.md"
+      ],
+      "reviewed_requirements": {
+        "ux-design-toolkit": [
+          "Agent host with file and browser tools",
+          "Python 3.10+ for optional local adapters",
+          "macOS arm64 for the pinned native runtime; acquire its separate release asset",
+          "Recipient-owned Compass, Design Templates or Activities Templates configuration for those integrations"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/ux-design-toolkit/skills/design-studio/SKILL.md": [
+          "plugins/ux-design-toolkit/README.md",
+          "plugins/ux-design-toolkit/docs/full-design-host-adapter.md",
+          "plugins/ux-design-toolkit/docs/procedures/design-studio.md",
+          "plugins/ux-design-toolkit/libraries/design-taste-gate/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/frontend-ux/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/ux-oracle/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/visual-asset-integration/SKILL.md",
+          "plugins/ux-design-toolkit/references/atlas-library.md",
+          "plugins/ux-design-toolkit/references/professional-agents/README.md",
+          "plugins/ux-design-toolkit/skills/dashboard-design/SKILL.md",
+          "plugins/ux-design-toolkit/skills/dashboard-design/references/delivery-and-qa.md",
+          "plugins/ux-design-toolkit/skills/design-reference-lookup/references/public-design-resources.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/beginner-app-planning.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/collaborative-boards.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/context-adaptation.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/conversational-widgets.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/data-visualization.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/decision-alternatives.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/design-comparison-qa.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/design-system-evolution.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/device-routing.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/figma-stitch.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/graphic-design.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/html-presentations.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/human-systems-decisions.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/interface-craft.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/mcp-app-widgets.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/mobile-prototype-runtime.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/motion-performance.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/native-design-runtime.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-pain-research.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-prototyping.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-task-context.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-web.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/providers.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/reference-site-analysis.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/research-inputs.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/review.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/typography-brand.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/usability-testing.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/ux-writing.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/verification.md",
+          "plugins/ux-design-toolkit/skills/design-systems/references/template-design-contract.md",
+          "plugins/ux-design-toolkit/skills/motion-and-performance/references/motion-prompts-and-sites.md",
+          "plugins/ux-design-toolkit/skills/stitch-design/SKILL.md"
+        ],
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md": [
+          "plugins/ux-design-toolkit/libraries/frontend-design-premium/skills/frontend-design-premium/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/frontend-ux/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/ux-oracle/SKILL.md",
+          "plugins/ux-design-toolkit/libraries/ux-oracle/references/methods-deep.md",
+          "plugins/ux-design-toolkit/libraries/ux-oracle/references/templates.md",
+          "plugins/ux-design-toolkit/skills/design-reference-lookup/SKILL.md",
+          "plugins/ux-design-toolkit/skills/design-review/SKILL.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/interface-craft.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-prototyping.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/research-inputs.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/usability-testing.md",
+          "plugins/ux-design-toolkit/skills/design-systems/SKILL.md",
+          "plugins/ux-design-toolkit/skills/interaction-resilience/SKILL.md",
+          "plugins/ux-design-toolkit/skills/motion-and-performance/SKILL.md",
+          "plugins/ux-design-toolkit/skills/responsive-design/SKILL.md",
+          "plugins/ux-design-toolkit/skills/ux-heuristic-compass/SKILL.md"
+        ],
+        "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md": [
+          "plugins/ux-design-toolkit/libraries/frontend-design-premium/skills/frontend-design-premium/references/decision-matrix.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/design-sources.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/exploration-recovery.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/task-resumption.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/product-web.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/ux-writing.md"
+        ],
+        "plugins/ux-design-toolkit/skills/design-studio/references/verification.md": [
+          "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md"
+        ],
+        "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md": [
+          "plugins/ux-design-toolkit/libraries/codex-material-themes/PROVIDER.md",
+          "plugins/ux-design-toolkit/scripts/application_appearance.py"
+        ],
+        "plugins/ux-design-toolkit/skills/design-review/references/accessibility-evidence.md": [
+          "plugins/ux-design-toolkit/docs/full-design-host-adapter.md",
+          "plugins/ux-design-toolkit/docs/procedures/design-review.md",
+          "plugins/ux-design-toolkit/libraries/frontend-ux/references/accessibility.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/verification.md"
+        ]
+      }
+    },
+    {
+      "id": "spreadsheet",
+      "incorporated_packs": [
+        "spreadsheet-human-ux"
+      ],
+      "products": [
+        "ux-design-toolkit"
+      ],
+      "cases": [
+        "SHEET-01"
+      ],
+      "sources": [
+        "plugins/ux-design-toolkit/skills/spreadsheet-usability/SKILL.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md"
+      ],
+      "procedure_sources": [
+        "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md"
+      ],
+      "watched_dirs": [
+        "plugins/ux-design-toolkit/skills/design-studio/references",
+        "plugins/ux-design-toolkit/skills/spreadsheet-usability"
+      ],
+      "reviewed_layout": [
+        "plugins/ux-design-toolkit/skills/design-studio/references/application-appearance.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/beginner-app-planning.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/collaborative-boards.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/context-adaptation.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/conversational-widgets.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/data-visualization.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/decision-alternatives.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-comparison-qa.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-sources.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/design-system-evolution.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/device-routing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/exploration-recovery.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/figma-stitch.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/frontend-slides-LICENSE.txt",
+        "plugins/ux-design-toolkit/skills/design-studio/references/graphic-design.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/html-presentations.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems-decisions.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/action-feedback.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/carried-memory.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/consequential-error.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/emotion-evidence.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/optional-heuristic-observations.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/target-acquisition.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/task-resumption.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/human-systems/workload-tradeoffs.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/interaction-resilience.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/interface-craft.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/mcp-app-widgets.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/mobile-prototype-runtime.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/motion-performance.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/native-design-runtime.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-experience-methods.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-pain-research.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-prototyping.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-task-context.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/product-web.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/providers.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/reference-site-analysis.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/research-inputs.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/review.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/structured-design-profile.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/system-craft.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/typography-brand.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/usability-testing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/ux-writing.md",
+        "plugins/ux-design-toolkit/skills/design-studio/references/verification.md",
+        "plugins/ux-design-toolkit/skills/spreadsheet-usability/SKILL.md",
+        "plugins/ux-design-toolkit/skills/spreadsheet-usability/agents/openai.yaml"
+      ],
+      "reviewed_requirements": {
+        "ux-design-toolkit": [
+          "Agent host with file and browser tools",
+          "Python 3.10+ for optional local adapters",
+          "macOS arm64 for the pinned native runtime; acquire its separate release asset",
+          "Recipient-owned Compass, Design Templates or Activities Templates configuration for those integrations"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/ux-design-toolkit/skills/spreadsheet-usability/SKILL.md": [
+          "plugins/ux-design-toolkit/README.md",
+          "plugins/ux-design-toolkit/docs/full-design-host-adapter.md",
+          "plugins/ux-design-toolkit/references/professional-agents/README.md",
+          "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md"
+        ],
+        "plugins/ux-design-toolkit/skills/design-studio/references/spreadsheet-usability.md": [
+          "plugins/ux-design-toolkit/skills/dashboard-design/SKILL.md"
+        ]
+      }
+    },
+    {
+      "id": "writing",
+      "incorporated_packs": [
+        "aihumanizer"
+      ],
+      "products": [
+        "writing-quality-studio"
+      ],
+      "cases": [
+        "WRITE-01"
+      ],
+      "sources": [
+        "plugins/writing-quality-studio/skills/natural-prose-editor/SKILL.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/editorial-gate.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/document-revision.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/language-and-learning.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/sample-brand-and-tone.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/quality-scope-and-ethics.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/language-patterns.md"
+      ],
+      "procedure_sources": [
+        "plugins/writing-quality-studio/skills/natural-prose-editor/SKILL.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/quality-scope-and-ethics.md"
+      ],
+      "watched_dirs": [
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references",
+        "plugins/writing-quality-studio/skills/natural-prose-editor",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references",
+        "plugins/writing-quality-studio/skills/voice-and-style/references"
+      ],
+      "reviewed_layout": [
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/academic-review.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/citation-integrity.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/communication-and-markup-patterns.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/content-patterns.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/detector-dispute.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/human-signals-and-false-positives.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/language-patterns.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/migration-originals/SKILL.original.txt",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/migration-originals/openai.yaml",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/quality-scope-and-ethics.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/research-evidence.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/revision-example-bank.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/revisions-by-genre.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/signals-and-revision.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/INDEX.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/INDEX.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/accessibility.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/ai-cleanup-guide.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/artificial-intelligence-resources.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/capital-letters.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/edit-summary-legend.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/elegant-variation.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/fictitious-references.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/identifying-llm-unblock-requests.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/lead-section.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/lists.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/llm-written-ani-report.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/manual-of-style.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/marketing-buzzspeak.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/negative-parallelism.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/revisions.json",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/signs-of-ai-generated-comments.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/text-formatting.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/connected-wikipedia/words-to-watch.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21-revision.json",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-live-2026-07-21.wikitext",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-archive/wikipedia-signs-of-ai-writing-supplied-2026-07-21.txt",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-bibliography.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-coverage-map.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-library/INDEX.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/source-notes.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/structure-and-formatting-patterns.md",
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/voice-preservation.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/SKILL.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/controlled-contrast-revision.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/document-revision.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/editorial-gate.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/language-and-learning.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/local-text-hygiene.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/research-pattern-review.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/spoken-lesson-scripts.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/survey-wording-handoff.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/technical-clarity.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/writing-style.md",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/scripts/linkedin_text/detect.py",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/scripts/linkedin_text/humanize.py",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/scripts/linkedin_text/stock_terms.json",
+        "plugins/writing-quality-studio/skills/natural-prose-editor/scripts/linkedin_text/text_review.py",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/extractive-transcript-writing.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/professional-voice-handoff.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/rhetorical-architecture.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/same-fact-voice-selection.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/sample-brand-and-tone.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/voice-continuity.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/writing-research.md",
+        "plugins/writing-quality-studio/skills/voice-and-style/references/writing-templates.md"
+      ],
+      "reviewed_requirements": {
+        "writing-quality-studio": [
+          "Agent host with file-reading tools",
+          "Python 3.10+ for optional local text helpers",
+          "Actual connected-document access only when reading or editing a connected document"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/writing-quality-studio/skills/natural-prose-editor/SKILL.md": [
+          "plugins/writing-quality-studio/libraries/no-ai-slop/skills/no-ai-slop/SKILL.md",
+          "plugins/writing-quality-studio/library/source-procedures/INDEX.md",
+          "plugins/writing-quality-studio/library/source-procedures/marketplace/human-writing/human-writing/PROVENANCE.md",
+          "plugins/writing-quality-studio/library/source-procedures/marketplace/human-writing/human-writing/SKILL.md",
+          "plugins/writing-quality-studio/library/source-procedures/provider-methods.md",
+          "plugins/writing-quality-studio/references/professional-agents/README.md",
+          "plugins/writing-quality-studio/skills/grant-process-crafter/SKILL.md",
+          "plugins/writing-quality-studio/skills/humanizer-deep-audit/SKILL.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/controlled-contrast-revision.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/document-revision.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/editorial-gate.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/language-and-learning.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/local-text-hygiene.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/research-pattern-review.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/spoken-lesson-scripts.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/survey-wording-handoff.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/technical-clarity.md",
+          "plugins/writing-quality-studio/skills/voice-and-style/SKILL.md",
+          "plugins/writing-quality-studio/skills/voice-and-style/references/writing-templates.md"
+        ],
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/editorial-gate.md": [
+          "plugins/writing-quality-studio/docs/source-to-target-plan.md",
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/writing-style.md"
+        ],
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/document-revision.md": [],
+        "plugins/writing-quality-studio/skills/natural-prose-editor/references/language-and-learning.md": [
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/technical-clarity.md",
+          "plugins/writing-quality-studio/skills/plain-language-editing/references/contextual-plain-language.md"
+        ],
+        "plugins/writing-quality-studio/skills/voice-and-style/references/sample-brand-and-tone.md": [
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/editorial-gate.md",
+          "plugins/writing-quality-studio/skills/voice-and-style/references/professional-voice-handoff.md",
+          "plugins/writing-quality-studio/skills/voice-and-style/references/same-fact-voice-selection.md",
+          "plugins/writing-quality-studio/skills/voice-and-style/references/voice-continuity.md"
+        ],
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/quality-scope-and-ethics.md": [],
+        "plugins/writing-quality-studio/skills/humanizer-deep-audit/references/language-patterns.md": [
+          "plugins/writing-quality-studio/skills/natural-prose-editor/references/research-pattern-review.md"
+        ]
+      }
+    },
+    {
+      "id": "career",
+      "incorporated_packs": [
+        "coverletterwriter",
+        "aihumanizer"
+      ],
+      "products": [
+        "career-studio"
+      ],
+      "cases": [
+        "CAREER-01"
+      ],
+      "sources": [
+        "plugins/career-studio/skills/cover-letter/SKILL.md",
+        "plugins/career-studio/skills/cover-letter/references/company-fit-and-research.md",
+        "plugins/career-studio/skills/cover-letter/references/cover-letter-quality-rubric.md",
+        "plugins/career-studio/skills/cover-letter/references/hooks-and-openings.md",
+        "plugins/career-studio/skills/cover-letter/references/proof-paragraphs.md",
+        "plugins/career-studio/skills/cover-letter/references/career-situations.md",
+        "plugins/career-studio/skills/cover-letter/references/formats-and-localization.md"
+      ],
+      "procedure_sources": [
+        "plugins/career-studio/skills/cover-letter/SKILL.md",
+        "plugins/career-studio/skills/cover-letter/references/cover-letter-quality-rubric.md"
+      ],
+      "watched_dirs": [
+        "plugins/career-studio/skills/cover-letter",
+        "plugins/career-studio/skills/cover-letter/references"
+      ],
+      "reviewed_layout": [
+        "plugins/career-studio/skills/cover-letter/SKILL.md",
+        "plugins/career-studio/skills/cover-letter/agents/agent.md",
+        "plugins/career-studio/skills/cover-letter/agents/company-fit-auditor.md",
+        "plugins/career-studio/skills/cover-letter/agents/cover-letter-strategist.md",
+        "plugins/career-studio/skills/cover-letter/agents/evidence-integrity-reviewer.md",
+        "plugins/career-studio/skills/cover-letter/agents/hook-writer.md",
+        "plugins/career-studio/skills/cover-letter/agents/openai.yaml",
+        "plugins/career-studio/skills/cover-letter/agents/proof-editor.md",
+        "plugins/career-studio/skills/cover-letter/references/academic-letters.md",
+        "plugins/career-studio/skills/cover-letter/references/career-outreach.md",
+        "plugins/career-studio/skills/cover-letter/references/career-situations.md",
+        "plugins/career-studio/skills/cover-letter/references/company-fit-and-research.md",
+        "plugins/career-studio/skills/cover-letter/references/company-fit-and-research.original.md",
+        "plugins/career-studio/skills/cover-letter/references/cover-letter-quality-rubric.md",
+        "plugins/career-studio/skills/cover-letter/references/evidence-based-application-writing.md",
+        "plugins/career-studio/skills/cover-letter/references/export-preflight.md",
+        "plugins/career-studio/skills/cover-letter/references/formats-and-localization.md",
+        "plugins/career-studio/skills/cover-letter/references/generic-phrase-guardrails.md",
+        "plugins/career-studio/skills/cover-letter/references/hooks-and-openings.md",
+        "plugins/career-studio/skills/cover-letter/references/letter-tailoring-checks.md",
+        "plugins/career-studio/skills/cover-letter/references/local-method.original.md",
+        "plugins/career-studio/skills/cover-letter/references/metrics-and-truth.md",
+        "plugins/career-studio/skills/cover-letter/references/patterns.md",
+        "plugins/career-studio/skills/cover-letter/references/proof-paragraphs.md",
+        "plugins/career-studio/skills/cover-letter/references/voice-and-tone.md",
+        "plugins/career-studio/skills/cover-letter/templates/ai-workflow.md",
+        "plugins/career-studio/skills/cover-letter/templates/cold-application.md",
+        "plugins/career-studio/skills/cover-letter/templates/mission-fit.md",
+        "plugins/career-studio/skills/cover-letter/templates/product-ux.md",
+        "plugins/career-studio/skills/cover-letter/templates/referral.md",
+        "plugins/career-studio/skills/cover-letter/templates/teaching-learning.md",
+        "plugins/career-studio/skills/cover-letter/templates/template-index.md"
+      ],
+      "reviewed_requirements": {
+        "career-studio": [
+          "Your real work evidence, target role or exact application prompt, and action-specific authorization",
+          "Python 3 on PATH for the optional Career Atlas launcher",
+          "Optional Career Atlas: separately installed Activities Templates runtime and recipient-owned approved catalog",
+          "Optional Job Application Compass: separately maintained operator-owned private runtime; no public backend bundled"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/career-studio/skills/cover-letter/SKILL.md": [
+          "plugins/career-studio/library/source-procedures/INDEX.md",
+          "plugins/career-studio/references/professional-agents/README.md",
+          "plugins/career-studio/references/providers.md",
+          "plugins/career-studio/skills/cover-letter/references/company-fit-and-research.original.md",
+          "plugins/career-studio/skills/cover-letter/references/evidence-based-application-writing.md",
+          "plugins/career-studio/skills/cover-letter/references/letter-tailoring-checks.md",
+          "plugins/career-studio/skills/cover-letter/references/local-method.original.md"
+        ],
+        "plugins/career-studio/skills/cover-letter/references/company-fit-and-research.md": [],
+        "plugins/career-studio/skills/cover-letter/references/cover-letter-quality-rubric.md": [],
+        "plugins/career-studio/skills/cover-letter/references/hooks-and-openings.md": [],
+        "plugins/career-studio/skills/cover-letter/references/proof-paragraphs.md": [],
+        "plugins/career-studio/skills/cover-letter/references/career-situations.md": [],
+        "plugins/career-studio/skills/cover-letter/references/formats-and-localization.md": []
+      }
+    },
+    {
+      "id": "research",
+      "incorporated_packs": [
+        "research-writing-guardrails",
+        "aihumanizer",
+        "uiuxdesigner"
+      ],
+      "products": [
+        "research-methodology-local"
+      ],
+      "cases": [
+        "RESEARCH-01"
+      ],
+      "sources": [
+        "plugins/research-methodology-local/skills/academic-writing/SKILL.md",
+        "plugins/research-methodology-local/skills/academic-writing/references/manuscript-craft.md",
+        "plugins/research-methodology-local/skills/academic-writing/references/evidence-and-tools.md",
+        "plugins/research-methodology-local/skills/research-handoff/SKILL.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/evidence-artifacts.md"
+      ],
+      "procedure_sources": [
+        "plugins/research-methodology-local/skills/academic-writing/references/evidence-and-tools.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/evidence-artifacts.md"
+      ],
+      "watched_dirs": [
+        "plugins/research-methodology-local/skills/academic-writing",
+        "plugins/research-methodology-local/skills/academic-writing/references",
+        "plugins/research-methodology-local/skills/research-handoff",
+        "plugins/research-methodology-local/skills/research-handoff/references"
+      ],
+      "reviewed_layout": [
+        "plugins/research-methodology-local/skills/academic-writing/SKILL.md",
+        "plugins/research-methodology-local/skills/academic-writing/references/evidence-and-tools.md",
+        "plugins/research-methodology-local/skills/academic-writing/references/manuscript-craft.md",
+        "plugins/research-methodology-local/skills/research-handoff/SKILL.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/document-method-compiler-example.json",
+        "plugins/research-methodology-local/skills/research-handoff/references/document-method-compiler-schema.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/document-to-method.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/evidence-artifacts.md",
+        "plugins/research-methodology-local/skills/research-handoff/references/structured-document-handoff.md"
+      ],
+      "reviewed_requirements": {
+        "research-methodology-local": [
+          "Your research question and authorized source material",
+          "Optional Python 3 for bundled compiler and Research Compass launcher",
+          "Optional Research Compass backend with recipient-owned private binding",
+          "Reasoning Toolkit for Critical Compass audits"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/research-methodology-local/skills/academic-writing/SKILL.md": [
+          "plugins/research-methodology-local/library/source-procedures/INDEX.md",
+          "plugins/research-methodology-local/references/professional-agents/README.md",
+          "plugins/research-methodology-local/skills/academic-writing/references/evidence-and-tools.md",
+          "plugins/research-methodology-local/skills/academic-writing/references/manuscript-craft.md",
+          "plugins/research-methodology-local/skills/evidence-review/SKILL.md"
+        ],
+        "plugins/research-methodology-local/skills/academic-writing/references/manuscript-craft.md": [],
+        "plugins/research-methodology-local/skills/academic-writing/references/evidence-and-tools.md": [
+          "plugins/research-methodology-local/docs/critical-compass-integration.md"
+        ],
+        "plugins/research-methodology-local/skills/research-handoff/SKILL.md": [
+          "plugins/research-methodology-local/references/professional-agents/README.md",
+          "plugins/research-methodology-local/skills/karpathy-guidelines/SKILL.md",
+          "plugins/research-methodology-local/skills/research-handoff/references/document-method-compiler-schema.md",
+          "plugins/research-methodology-local/skills/research-handoff/references/document-to-method.md",
+          "plugins/research-methodology-local/skills/research-handoff/references/evidence-artifacts.md",
+          "plugins/research-methodology-local/skills/research-handoff/references/structured-document-handoff.md",
+          "plugins/research-methodology-local/skills/research-methodology/SKILL.md",
+          "plugins/research-methodology-local/skills/research-methodology/references/survey-handoff.md"
+        ],
+        "plugins/research-methodology-local/skills/research-handoff/references/evidence-artifacts.md": []
+      }
+    },
+    {
+      "id": "prompt",
+      "incorporated_packs": [
+        "prompt-engineer"
+      ],
+      "products": [
+        "prompt-playbook-studio"
+      ],
+      "cases": [
+        "PROMPT-01"
+      ],
+      "sources": [
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-design/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-refinement/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-safety/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/SKILL.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/patterns.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/templates.md"
+      ],
+      "procedure_sources": [
+        "plugins/prompt-playbook-studio/skills/prompt-refinement/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md"
+      ],
+      "watched_dirs": [
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references",
+        "plugins/prompt-playbook-studio/skills/prompt-design",
+        "plugins/prompt-playbook-studio/skills/prompt-evaluation",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references",
+        "plugins/prompt-playbook-studio/skills/prompt-refinement",
+        "plugins/prompt-playbook-studio/skills/prompt-safety"
+      ],
+      "reviewed_layout": [
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/SKILL.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/agents/openai.yaml",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/patterns.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/profile.md",
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/templates.md",
+        "plugins/prompt-playbook-studio/skills/prompt-design/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-design/agents/openai.yaml",
+        "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/compass-handoff.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/library-retrieval.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md",
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/private-profile.md",
+        "plugins/prompt-playbook-studio/skills/prompt-refinement/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-refinement/agents/openai.yaml",
+        "plugins/prompt-playbook-studio/skills/prompt-safety/SKILL.md",
+        "plugins/prompt-playbook-studio/skills/prompt-safety/agents/openai.yaml"
+      ],
+      "reviewed_requirements": {
+        "prompt-playbook-studio": [
+          "Your task facts, draft prompts or test cases",
+          "Optional recipient-owned Prompt Compass and Atlas bindings; Framework Builder requires Python >=3.10 and MCP dependencies",
+          "Optional Promptbanken app and separate Work Management or Master Security Toolkit"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/SKILL.md": [
+          "plugins/prompt-playbook-studio/README.md",
+          "plugins/prompt-playbook-studio/docs/full-procedures.md",
+          "plugins/prompt-playbook-studio/docs/prompt-compiler.md",
+          "plugins/prompt-playbook-studio/references/atlas-library.md",
+          "plugins/prompt-playbook-studio/references/professional-agents/README.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/compass-handoff.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/library-retrieval.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/private-profile.md"
+        ],
+        "plugins/prompt-playbook-studio/skills/prompt-design/SKILL.md": [
+          "plugins/prompt-playbook-studio/README.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/SKILL.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/patterns.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/templates.md",
+          "plugins/prompt-playbook-studio/references/professional-agents/README.md",
+          "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md"
+        ],
+        "plugins/prompt-playbook-studio/skills/prompt-refinement/SKILL.md": [
+          "plugins/prompt-playbook-studio/README.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/SKILL.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/patterns.md",
+          "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/templates.md",
+          "plugins/prompt-playbook-studio/references/professional-agents/README.md",
+          "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md"
+        ],
+        "plugins/prompt-playbook-studio/skills/prompt-safety/SKILL.md": [
+          "plugins/prompt-playbook-studio/README.md",
+          "plugins/prompt-playbook-studio/references/professional-agents/README.md",
+          "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/SKILL.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md",
+          "plugins/prompt-playbook-studio/skills/prompt-playbook/references/private-profile.md"
+        ],
+        "plugins/prompt-playbook-studio/skills/prompt-evaluation/SKILL.md": [
+          "plugins/prompt-playbook-studio/README.md",
+          "plugins/prompt-playbook-studio/docs/full-procedures.md",
+          "plugins/prompt-playbook-studio/references/professional-agents/README.md"
+        ],
+        "plugins/prompt-playbook-studio/skills/prompt-playbook/references/patterns-and-templates.md": [],
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/SKILL.md": [],
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/patterns.md": [],
+        "plugins/prompt-playbook-studio/libraries/prompt-playbook-original/references/templates.md": []
+      }
+    },
+    {
+      "id": "security",
+      "incorporated_packs": [
+        "injection-checker"
+      ],
+      "products": [
+        "master-security-toolkit"
+      ],
+      "cases": [
+        "SECURITY-01"
+      ],
+      "sources": [
+        "plugins/master-security-toolkit/skills/instruction-security-review/SKILL.md",
+        "plugins/master-security-toolkit/skills/indirect-injection-review/SKILL.md",
+        "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md",
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md",
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md"
+      ],
+      "procedure_sources": [
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md",
+        "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md"
+      ],
+      "watched_dirs": [
+        "plugins/master-security-toolkit/skills/indirect-injection-review",
+        "plugins/master-security-toolkit/skills/instruction-security-review",
+        "plugins/master-security-toolkit/skills/instruction-security-review/references",
+        "plugins/master-security-toolkit/skills/security-regression-tests"
+      ],
+      "reviewed_layout": [
+        "plugins/master-security-toolkit/skills/indirect-injection-review/SKILL.md",
+        "plugins/master-security-toolkit/skills/indirect-injection-review/agents/openai.yaml",
+        "plugins/master-security-toolkit/skills/instruction-security-review/SKILL.md",
+        "plugins/master-security-toolkit/skills/instruction-security-review/agents/openai.yaml",
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md",
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md",
+        "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md",
+        "plugins/master-security-toolkit/skills/security-regression-tests/agents/openai.yaml"
+      ],
+      "reviewed_requirements": {
+        "master-security-toolkit": [
+          "Python 3 on PATH for local scanner and optional Atlas launcher",
+          "Python 3.10+ for publication preflight",
+          "Optional security Atlas: Activities Templates runtime and recipient-owned approved catalog",
+          "Node.js only for Cloudflare coverage-audit JSON validator workflows"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/master-security-toolkit/skills/instruction-security-review/SKILL.md": [
+          "plugins/master-security-toolkit/README.md",
+          "plugins/master-security-toolkit/references/atlas-library.md",
+          "plugins/master-security-toolkit/references/professional-agents/README.md",
+          "plugins/master-security-toolkit/skills/indirect-injection-review/SKILL.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md",
+          "plugins/master-security-toolkit/skills/mcp-security-review/SKILL.md",
+          "plugins/master-security-toolkit/skills/permission-and-data-review/SKILL.md",
+          "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md"
+        ],
+        "plugins/master-security-toolkit/skills/indirect-injection-review/SKILL.md": [
+          "plugins/master-security-toolkit/README.md",
+          "plugins/master-security-toolkit/references/professional-agents/README.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md",
+          "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md"
+        ],
+        "plugins/master-security-toolkit/skills/security-regression-tests/SKILL.md": [
+          "plugins/master-security-toolkit/README.md",
+          "plugins/master-security-toolkit/references/professional-agents/README.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md",
+          "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md"
+        ],
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/injection-review-patterns.md": [],
+        "plugins/master-security-toolkit/skills/instruction-security-review/references/tool-authority-and-calibration.md": []
+      }
+    },
+    {
+      "id": "cross-studio",
+      "incorporated_packs": [
+        "aihumanizer",
+        "uiuxdesigner"
+      ],
+      "products": [
+        "creative-writing-studio",
+        "instructional-design-studio",
+        "marketing-strategy-studio",
+        "social-content-studio",
+        "work-management"
+      ],
+      "cases": [
+        "CROSS-01"
+      ],
+      "sources": [
+        "plugins/social-content-studio/skills/social-content/SKILL.md",
+        "plugins/social-content-studio/references/social-methods/provider-social-prose.md",
+        "plugins/instructional-design-studio/skills/instructional-design/SKILL.md",
+        "plugins/creative-writing-studio/skills/story-architecture/SKILL.md",
+        "plugins/creative-writing-studio/skills/story-architecture/references/narrative-revision.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/SKILL.md",
+        "plugins/marketing-strategy-studio/docs/provider-handoffs.md",
+        "plugins/work-management/skills/plugin-maintenance/SKILL.md",
+        "plugins/work-management/references/plugin-maintenance.md"
+      ],
+      "procedure_sources": [
+        "plugins/social-content-studio/references/social-methods/provider-social-prose.md",
+        "plugins/creative-writing-studio/skills/story-architecture/references/narrative-revision.md"
+      ],
+      "watched_dirs": [
+        "plugins/creative-writing-studio/skills/story-architecture",
+        "plugins/creative-writing-studio/skills/story-architecture/references",
+        "plugins/instructional-design-studio/skills/instructional-design",
+        "plugins/marketing-strategy-studio/docs",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator",
+        "plugins/social-content-studio/references/social-methods",
+        "plugins/social-content-studio/skills/social-content",
+        "plugins/work-management/references",
+        "plugins/work-management/skills/plugin-maintenance"
+      ],
+      "reviewed_layout": [
+        "plugins/creative-writing-studio/skills/story-architecture/SKILL.md",
+        "plugins/creative-writing-studio/skills/story-architecture/references/narrative-revision.md",
+        "plugins/instructional-design-studio/skills/instructional-design/SKILL.md",
+        "plugins/instructional-design-studio/skills/instructional-design/agents/openai.yaml",
+        "plugins/instructional-design-studio/skills/instructional-design/references/addie-decisions.md",
+        "plugins/instructional-design-studio/skills/instructional-design/references/ai-workshop-studio-v3-planning.md",
+        "plugins/instructional-design-studio/skills/instructional-design/references/ai-workshop-studio-v3-template.json",
+        "plugins/instructional-design-studio/skills/instructional-design/references/ai-workshop-studio-v3-template.provenance.json",
+        "plugins/instructional-design-studio/skills/instructional-design/references/learning-science.md",
+        "plugins/instructional-design-studio/skills/instructional-design/references/personal-grounding.md",
+        "plugins/instructional-design-studio/skills/instructional-design/references/research-intake-2026-09.md",
+        "plugins/instructional-design-studio/skills/instructional-design/scripts/check_studio_v3_outline.py",
+        "plugins/marketing-strategy-studio/docs/full-source-routing.json",
+        "plugins/marketing-strategy-studio/docs/previous-entrypoints/marketing-strategy-operator/SKILL.original.md",
+        "plugins/marketing-strategy-studio/docs/procedures/campaign-and-launch.md",
+        "plugins/marketing-strategy-studio/docs/procedures/conversion-and-offers.md",
+        "plugins/marketing-strategy-studio/docs/procedures/lifecycle-and-outreach.md",
+        "plugins/marketing-strategy-studio/docs/procedures/marketing-creative-production.md",
+        "plugins/marketing-strategy-studio/docs/procedures/marketing-measurement.md",
+        "plugins/marketing-strategy-studio/docs/procedures/marketing-strategy-operator.md",
+        "plugins/marketing-strategy-studio/docs/procedures/paid-campaigns.md",
+        "plugins/marketing-strategy-studio/docs/procedures/search-and-discovery.md",
+        "plugins/marketing-strategy-studio/docs/project-map.md",
+        "plugins/marketing-strategy-studio/docs/provider-handoffs.md",
+        "plugins/marketing-strategy-studio/docs/source-host-adapter.md",
+        "plugins/marketing-strategy-studio/docs/use-case-map.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/SKILL.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/agents/openai.yaml",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/customer-fit-brief.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/evaluation.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/examples/claim-ledger.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/examples/neutrality-firewall.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/examples/three-message-architectures.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/sources.json",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/evidence-to-message/unresolved.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/references/adoption-map.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/references/channel-playbooks.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/references/evaluation-prompts.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/references/search-language-and-seo.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/references/visual-creative-production.md",
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/scripts/marketing_strategy_scaffold.py",
+        "plugins/social-content-studio/references/social-methods/account-learning.md",
+        "plugins/social-content-studio/references/social-methods/channel-adaptation-rules.md",
+        "plugins/social-content-studio/references/social-methods/clip-batch-review.md",
+        "plugins/social-content-studio/references/social-methods/content-matrix.md",
+        "plugins/social-content-studio/references/social-methods/hook-formulas.json",
+        "plugins/social-content-studio/references/social-methods/linkedin-documents-and-reuse.md",
+        "plugins/social-content-studio/references/social-methods/linkedin-engagement.md",
+        "plugins/social-content-studio/references/social-methods/linkedin-performance.md",
+        "plugins/social-content-studio/references/social-methods/linkedin-planning.md",
+        "plugins/social-content-studio/references/social-methods/linkedin-trend-research.md",
+        "plugins/social-content-studio/references/social-methods/linkedin-writing.md",
+        "plugins/social-content-studio/references/social-methods/operating-boundaries.md",
+        "plugins/social-content-studio/references/social-methods/output-contract.md",
+        "plugins/social-content-studio/references/social-methods/platform-content-cycles.md",
+        "plugins/social-content-studio/references/social-methods/platform-coverage.md",
+        "plugins/social-content-studio/references/social-methods/post-draft-gate.md",
+        "plugins/social-content-studio/references/social-methods/provider-social-prose.md",
+        "plugins/social-content-studio/references/social-methods/public-proof-campaign.md",
+        "plugins/social-content-studio/references/social-methods/publishing-ecosystem.md",
+        "plugins/social-content-studio/references/social-methods/runtime-gates.md",
+        "plugins/social-content-studio/references/social-methods/scoring-and-linting.md",
+        "plugins/social-content-studio/references/social-methods/source-to-derivative.md",
+        "plugins/social-content-studio/references/social-methods/use-this-skill-when.md",
+        "plugins/social-content-studio/references/social-methods/voice-files.md",
+        "plugins/social-content-studio/references/social-methods/workflow-router.md",
+        "plugins/social-content-studio/skills/social-content/SKILL.md",
+        "plugins/social-content-studio/skills/social-content/references/adoption-map.md",
+        "plugins/social-content-studio/skills/social-content/references/social-post-preview.md",
+        "plugins/work-management/references/atlas-library.md",
+        "plugins/work-management/references/beginner-discovery.md",
+        "plugins/work-management/references/decision-mapping.md",
+        "plugins/work-management/references/dependency-aware-slicing.md",
+        "plugins/work-management/references/domain-language.md",
+        "plugins/work-management/references/focus-methods.md",
+        "plugins/work-management/references/matt-pocock-LICENSE.txt",
+        "plugins/work-management/references/operations-map.md",
+        "plugins/work-management/references/operations/browser-handoff.md",
+        "plugins/work-management/references/operations/browser-workflow-reliability.md",
+        "plugins/work-management/references/operations/codex-desktop-launch-and-window-recovery.md",
+        "plugins/work-management/references/operations/codex-mcp-exposure-check.md",
+        "plugins/work-management/references/operations/daily-cleanup-ksb-guard.md",
+        "plugins/work-management/references/operations/download-hosting.md",
+        "plugins/work-management/references/operations/external-pattern-harvest.md",
+        "plugins/work-management/references/operations/focus-start.md",
+        "plugins/work-management/references/operations/mcp-use-check.md",
+        "plugins/work-management/references/operations/moli-browser.md",
+        "plugins/work-management/references/operations/phase-handoff.md",
+        "plugins/work-management/references/operations/ship-log.md",
+        "plugins/work-management/references/operations/system-pressure-guard.md",
+        "plugins/work-management/references/operations/webcmd-LICENSE",
+        "plugins/work-management/references/operations/webcmd-NOTICE",
+        "plugins/work-management/references/plugin-maintenance.md",
+        "plugins/work-management/references/plugin-release-surface.md",
+        "plugins/work-management/references/professional-agents/README.md",
+        "plugins/work-management/references/professional-agents/SOURCES.md",
+        "plugins/work-management/references/professional-agents/agent-systems-maintainer.md",
+        "plugins/work-management/references/professional-agents/catalog.json",
+        "plugins/work-management/references/professional-agents/council-moderator.md",
+        "plugins/work-management/references/professional-agents/evidence-curator.md",
+        "plugins/work-management/references/professional-agents/focus-and-continuity-partner.md",
+        "plugins/work-management/references/professional-agents/mental-health-navigator.md",
+        "plugins/work-management/references/professional-agents/plugin-role-map.json",
+        "plugins/work-management/references/professional-agents/product-manager.md",
+        "plugins/work-management/references/professional-agents/program-manager.md",
+        "plugins/work-management/references/professional-agents/project-manager.md",
+        "plugins/work-management/references/professional-agents/providers.json",
+        "plugins/work-management/references/professional-agents/qa-engineer.md",
+        "plugins/work-management/references/professional-agents/skill-role-map.json",
+        "plugins/work-management/references/professional-agents/software-engineer.md",
+        "plugins/work-management/references/professional-agents/solutions-architect.md",
+        "plugins/work-management/references/professional-agents/source-notices/agency-agents@5baafd5f/LICENSE",
+        "plugins/work-management/references/professional-agents/source-notices/voltagent-subagents@721e9734/LICENSE",
+        "plugins/work-management/references/professional-agents/source-notices/wshobson-agents@46891e7e/LICENSE",
+        "plugins/work-management/references/professional-agents/supportive-skills-coach.md",
+        "plugins/work-management/references/reasoning-check.md",
+        "plugins/work-management/references/spec-shapes.md",
+        "plugins/work-management/references/structure-decisions.md",
+        "plugins/work-management/skills/plugin-maintenance/SKILL.md",
+        "plugins/work-management/skills/plugin-maintenance/agents/openai.yaml"
+      ],
+      "reviewed_requirements": {
+        "social-content-studio": [
+          "Your source facts, voice samples and platform authorization",
+          "Social Post Previewer app for rendered previews"
+        ],
+        "instructional-design-studio": [
+          "Host file and reasoning tools"
+        ],
+        "creative-writing-studio": [
+          "Your draft, canon notes or game material",
+          "Python >=3.10 and recipient-configured backends for optional Atlas, TTRPG and Draw Think integrations"
+        ],
+        "marketing-strategy-studio": [
+          "Your offer, audience evidence, brand scope and current task constraints",
+          "Optional official OpenAI Creative Production tools for asset production",
+          "Optional recipient-owned YouTube transcript server and messaging integration for retained publisher method; no automatic install or send",
+          "Optional recipient-owned Atlas Marketing local binding; separate Writing Quality, Research, Social, Graphic/Video, Work Management when installed"
+        ],
+        "work-management": [
+          "Host file and coding tools",
+          "Explicit receiving-host bindings for optional helpers"
+        ]
+      },
+      "reviewed_references": {
+        "plugins/social-content-studio/skills/social-content/SKILL.md": [
+          "plugins/social-content-studio/README.md",
+          "plugins/social-content-studio/docs/use-case-map.md",
+          "plugins/social-content-studio/library/source-procedures/INDEX.md",
+          "plugins/social-content-studio/library/source-procedures/local/social-content-studio/SKILL.original.md",
+          "plugins/social-content-studio/references/professional-agents/README.md",
+          "plugins/social-content-studio/references/social-methods/linkedin-engagement.md",
+          "plugins/social-content-studio/references/social-methods/linkedin-trend-research.md",
+          "plugins/social-content-studio/references/social-methods/linkedin-writing.md",
+          "plugins/social-content-studio/references/social-methods/post-draft-gate.md",
+          "plugins/social-content-studio/references/social-methods/provider-social-prose.md",
+          "plugins/social-content-studio/references/social-methods/publishing-ecosystem.md",
+          "plugins/social-content-studio/references/social-methods/voice-files.md"
+        ],
+        "plugins/social-content-studio/references/social-methods/provider-social-prose.md": [
+          "plugins/social-content-studio/references/social-methods/post-draft-gate.md",
+          "plugins/social-content-studio/references/social-methods/voice-files.md"
+        ],
+        "plugins/instructional-design-studio/skills/instructional-design/SKILL.md": [
+          "plugins/instructional-design-studio/README.md",
+          "plugins/instructional-design-studio/references/atlas-library.md",
+          "plugins/instructional-design-studio/references/professional-agents/README.md",
+          "plugins/instructional-design-studio/skills/instructional-design/references/addie-decisions.md",
+          "plugins/instructional-design-studio/skills/instructional-design/references/ai-workshop-studio-v3-planning.md",
+          "plugins/instructional-design-studio/skills/instructional-design/references/learning-science.md",
+          "plugins/instructional-design-studio/skills/instructional-design/references/personal-grounding.md"
+        ],
+        "plugins/creative-writing-studio/skills/story-architecture/SKILL.md": [
+          "plugins/creative-writing-studio/library/source-procedures/INDEX.md",
+          "plugins/creative-writing-studio/references/professional-agents/README.md",
+          "plugins/creative-writing-studio/skills/show-vs-tell-craft/SKILL.md",
+          "plugins/creative-writing-studio/skills/story-architecture/references/narrative-revision.md"
+        ],
+        "plugins/creative-writing-studio/skills/story-architecture/references/narrative-revision.md": [],
+        "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/SKILL.md": [
+          "plugins/marketing-strategy-studio/README.md",
+          "plugins/marketing-strategy-studio/docs/procedures/marketing-strategy-operator.md",
+          "plugins/marketing-strategy-studio/docs/source-host-adapter.md",
+          "plugins/marketing-strategy-studio/docs/use-case-map.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/copy-editing/SKILL.md",
+          "plugins/marketing-strategy-studio/library/source-procedures/local/marketing-strategy-operator/METHOD.adapted.md",
+          "plugins/marketing-strategy-studio/references/atlas-library.md",
+          "plugins/marketing-strategy-studio/references/brand-methods/profile.md",
+          "plugins/marketing-strategy-studio/references/professional-agents/README.md",
+          "plugins/marketing-strategy-studio/references/strategy-methods/customer-fit.md",
+          "plugins/marketing-strategy-studio/references/strategy-methods/evidence-to-message.md",
+          "plugins/marketing-strategy-studio/references/strategy-methods/first-move.md",
+          "plugins/marketing-strategy-studio/references/strategy-methods/output-contracts.md",
+          "plugins/marketing-strategy-studio/references/strategy-methods/planning-workflow.md",
+          "plugins/marketing-strategy-studio/skills/brand-design/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/brand-discovery/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/marketing-strategy-operator/assets/customer-fit-brief.md"
+        ],
+        "plugins/marketing-strategy-studio/docs/provider-handoffs.md": [
+          "plugins/marketing-strategy-studio/libraries/ai-marketing-claude-code-skills/youtube-summarizer/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/copy-editing/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/copywriting/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/cro/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/image/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/offers/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/product-marketing/SKILL.md",
+          "plugins/marketing-strategy-studio/libraries/marketingskills/skills/video/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/brand-design/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/conversion-and-offers/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/marketing-creative-production/SKILL.md",
+          "plugins/marketing-strategy-studio/skills/search-and-discovery/SKILL.md"
+        ],
+        "plugins/work-management/skills/plugin-maintenance/SKILL.md": [
+          "plugins/work-management/README.md",
+          "plugins/work-management/libraries/focus-ops-manager/references/skill-provenance-catalog.md",
+          "plugins/work-management/libraries/focus-ops-manager/references/skill-review-mini-rubric.md",
+          "plugins/work-management/references/plugin-maintenance.md",
+          "plugins/work-management/references/plugin-release-surface.md",
+          "plugins/work-management/references/professional-agents/README.md",
+          "plugins/work-management/skills/find-skills/SKILL.md"
+        ],
+        "plugins/work-management/references/plugin-maintenance.md": []
+      }
+    }
+  ]
+}

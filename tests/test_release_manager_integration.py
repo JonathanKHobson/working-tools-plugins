@@ -114,6 +114,10 @@ class LocalSyncContractTests(unittest.TestCase):
 
 class CompletionContractTests(unittest.TestCase):
     def setUp(self):
+        config_review=patch.object(complete_update,'validate_site_config')
+        self.addCleanup(config_review.stop);config_review.start()
+        main_push=patch.object(complete_update,'push_main',side_effect=lambda: complete_update.command('git','push','origin','HEAD:main'))
+        self.addCleanup(main_push.stop);main_push.start()
         queue=patch.object(complete_update.pending,'refresh')
         self.addCleanup(queue.stop);self.queue_refresh=queue.start()
 
@@ -434,7 +438,8 @@ class CompletionContractTests(unittest.TestCase):
 
     def test_scoped_commit_stages_only_reviewed_paths(self):
         entry = {'id': 'x', 'version': '1.0.1', 'changed_files': ['README.md']}
-        outputs = [b'', b'catalog/releases/x/1.0.1.json\0', b'a'*40]
+        outputs = [b'', b'plugins/x/README.md\0catalog/releases/x/1.0.1.json\0',
+                   b'catalog/releases/x/1.0.1.json\0', b'a'*40]
         with (patch.object(complete_update, 'run', side_effect=outputs),
               patch.object(complete_update, 'command') as command):
             self.assertEqual(complete_update.commit_prepared([entry]), 'a'*40)

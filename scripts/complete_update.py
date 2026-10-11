@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
-from release_manager import local_sync, pending
+from release_manager import local_sync, pending, method_acceptance
 from release_manager.changes import propose_version
 from release_manager.publisher import exact_commit_build, list_releases, publish, run
 
@@ -19,6 +19,27 @@ REPOSITORY='JonathanKHobson/working-tools-plugins'
 
 def command(*args,cwd=ROOT):
     subprocess.run(list(args),cwd=cwd,check=True)
+
+
+def push_main():
+    try:
+        branch=run('git','symbolic-ref','--short','HEAD',cwd=ROOT).decode().strip()
+    except subprocess.CalledProcessError as exc:
+        raise ValueError('Publication requires the main branch, not detached HEAD') from exc
+    if branch!='main':raise ValueError('Publication requires the main branch')
+    command('git','fetch','origin','main')
+    try:run('git','merge-base','--is-ancestor','origin/main','HEAD',cwd=ROOT)
+    except subprocess.CalledProcessError as exc:
+        raise ValueError('Publication HEAD must contain current origin/main; integrate remote changes first') from exc
+    command('git','push','origin','HEAD:main')
+
+
+def validate_site_config(config):
+    adapter=config.get('site_adapter')
+    if not isinstance(adapter,list) or not adapter or not all(isinstance(x,str) and x for x in adapter):
+        raise ValueError('Publication requires site_adapter as a nonempty argv array')
+    if not isinstance(config.get('site_receipt'),str) or not config['site_receipt'].strip():
+        raise ValueError('Publication requires a configured site_receipt path')
 
 
 def load(path):return json.loads(Path(path).read_text())
@@ -114,12 +135,17 @@ def scoped_paths(entries):
     return sorted(paths)
 
 
+def stageable_paths(paths):
+    tracked={p.decode() for p in run('git','ls-files','-z',cwd=ROOT).split(b'\0') if p}
+    return [path for path in paths if (ROOT/path).exists() or path in tracked]
+
+
 def commit_prepared(entries):
     if not entries:
         return None
     if run('git','diff','--cached','--name-only','-z',cwd=ROOT):
         raise ValueError('Unrelated staged changes exist; release completion will not include them')
-    paths=scoped_paths(entries)
+    paths=stageable_paths(scoped_paths(entries))
     command('git','add','-A','--',*paths)
     staged={p.decode() for p in run('git','diff','--cached','--name-only','-z',cwd=ROOT).split(b'\0') if p}
     if not staged:
@@ -150,6 +176,7 @@ def validate_committed(config, entries):
         return
     command(sys.executable,'-B','scripts/packages.py','validate')
     validate_source_inventory(config,[entry['id'] for entry in entries])
+    method_acceptance.validate_release(ROOT,config,entries)
     command(sys.executable,'-B','-m','unittest','discover','-s','tests','-v')
     manifests={}
     for entry in entries:
@@ -246,7 +273,10 @@ def prepare(config):
     inventory=load(ROOT/'catalog/source-inventory.json')
     reviewed={row['id']:row for row in inventory['packages']}
     roots=local_sync.approved_product_roots(ROOT,canonical,canonical_sources,product_ids=changes)
+    source_hashes={}
     for ident in changes:
+        source_hashes[ident]={rel:local_sync.digest(local_sync.safe_file(roots[ident],rel).read_bytes())
+                              for rel in reviewed[ident]['files']}
         if 'CHANGELOG.md' not in reviewed[ident]['files']:
             raise ValueError(ident+': CHANGELOG.md must be admitted to the reviewed source inventory before preparation')
         for base in (ROOT/'plugins'/ident,roots[ident]):
@@ -265,6 +295,8 @@ def prepare(config):
     ordinary={ident:{rel:row for rel,row in paths.items() if row['source']!='shared'}
               for ident,paths in changes.items()}
     local_sync.apply_content(ROOT,canonical,ordinary,canonical_sources)
+    for ident,paths in ordinary.items():
+        for rel,change in paths.items():source_hashes[ident][rel]=change['sha256']
     for (ident,relative),(source,data,digest) in shared_updates.items():
         if hashlib.sha256(source.read_bytes()).hexdigest()!=digest:
             raise ValueError('Shared source changed during completion: '+str(source))
@@ -274,7 +306,8 @@ def prepare(config):
         previous=by_id[ident]['version']
         generated=('LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json')
         before={name:(ROOT/'plugins'/ident/name).read_bytes() for name in generated if (ROOT/'plugins'/ident/name).is_file()}
-        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes,approved_additions=note.get('reviewed_additions',[]),canonical_sources=canonical_sources)
+        local_sync.refresh_reviewed(ROOT,canonical,ident,version,notes,approved_additions=note.get('reviewed_additions',[]),canonical_sources=canonical_sources,
+                                    expected_source_hashes=source_hashes[ident])
         for name,data in before.items():
             if (ROOT/'plugins'/ident/name).read_bytes()!=data:paths.setdefault(name,{})
         save(ROOT/'catalog/releases'/ident/(version+'.json'),{
@@ -308,7 +341,8 @@ def publish_pending(config,receipt):
         if source not in manifests:
             manifests[source]=exact_commit_build(ROOT,source,out)
         manifest=manifests[source]
-        built=next(x for x in manifest['packages'] if x['id']==record['id'])
+        built=next((x for x in manifest['packages'] if x['id']==record['id']),None)
+        if built is None:raise ValueError('Selected source build lacks package: '+record['id'])
         if built['version']!=record['version']:raise ValueError('Release entry version not in selected source')
         archive=out/built['file'];files=out/(archive.stem+'.files.json')
         checksum=out/(archive.name+'.sha256');checksum.write_text(built['sha256']+'  '+archive.name+'\n')
@@ -353,7 +387,7 @@ def commit_external_ledger(receipt):
     if staged:
         command('git','commit','-m','Record verified external guide release')
     # A previous run may have committed and failed before its push.
-    command('git','push','origin','HEAD:main')
+    push_main()
     receipt['external_pending_ledger']=False
     receipt['external_in_progress']=None
     receipt['status']='catalog_pending'
@@ -460,6 +494,7 @@ def sync_site(config,receipt):
     if (ROOT/'catalog/integrations.json').is_file() and run(
             'git','status','--porcelain','--','catalog/integrations.json',cwd=ROOT):
         raise ValueError('Integration release ledger must be committed before Site projection')
+    validate_site_config(config)
     command(sys.executable,'-B','scripts/sync_release_catalog.py')
     catalog_path=ROOT/'catalog/release-history.json'
     if not catalog_path.is_file():
@@ -472,7 +507,7 @@ def sync_site(config,receipt):
         raise ValueError('Catalog staging escaped its one-file scope')
     if staged:
         command('git','commit','-m','Refresh Working Tools release catalog')
-        command('git','push','origin','HEAD:main')
+        push_main()
     expected=current_published_set(load(catalog_path))
     expectation=ROOT/'dist/release-manager/site-expected.json'
     save(expectation,expected)
@@ -509,7 +544,10 @@ def main():
     p.add_argument('--package',action='append',dest='packages',help='Release only this registered plugin; repeat for multiple plugins')
     a=p.parse_args()
     if a.reconcile_only and not a.publish:p.error('--reconcile-only requires explicit --publish')
-    config=load(a.config);config['_config_path']=str(a.config.resolve())
+    config=load(a.config)
+    if not isinstance(config,dict):raise ValueError('Release configuration must be a JSON object')
+    if a.publish:validate_site_config(config)
+    config['_config_path']=str(a.config.resolve())
     selected=sorted(set(a.packages)) if a.packages else None
     if selected is not None:
         registered={row['id'] for row in load(ROOT/'catalog/packages.json')['packages']}
@@ -574,7 +612,7 @@ def main():
         if active_release:
             if receipt.get('status')=='preparing':
                 validate_committed(config,receipt['changed'])
-            command('git','push','origin','HEAD:main')
+            push_main()
             receipt['published']=publish_pending(config,receipt)
         if external is not None:
             publish_external(config,receipt,external,external_checkouts)

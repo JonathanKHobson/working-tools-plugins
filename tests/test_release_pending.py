@@ -20,7 +20,8 @@ class PendingTests(unittest.TestCase):
     def fixture(self,root,names=('x',)):
         self.fixtures=fixtures_module.CompletionContractTests()
         canonical=self.fixtures.fixture(root,names)
-        return {'canonical_root':str(canonical)},canonical
+        return {'canonical_root':str(canonical),'site_adapter':['fake-adapter'],
+                'site_receipt':str(root/'site-receipt.json')},canonical
 
     def test_default_command_is_local_only_and_keeps_source_notes_versions_and_receipt(self):
         with tempfile.TemporaryDirectory() as directory:
