@@ -6,16 +6,19 @@ Use the complete task owner and its matching support below. Each ordinary writin
 
 - [Communication Story Crafter](local/communication-story-crafter/LEGACY-SKILL.md), including its references and templates, for substantial message design.
 - [Natural Writing](marketplace/natural-writing/natural-writing/SKILL.md) (CC BY 4.0), [Plain English](marketplace/plain-english/plain-english/SKILL.md) and [Simple English](marketplace/plain-english/simple-english/SKILL.md) (MIT), with their shipped support files.
-- [No AI Slop](../../libraries/no-ai-slop/skills/no-ai-slop/SKILL.md), [Blader Humanizer](../../libraries/blader-humanizer/SKILL.original.txt), [Voiceprint](../../libraries/voiceprint/PROVENANCE.md), and [LinkedIn Human](../../libraries/linkedin-agent/PROVENANCE.md) are retained under their original MIT notices and the active first-party adaptations.
+- [No AI Slop](../../libraries/no-ai-slop/skills/no-ai-slop/SKILL.md) and [Blader Humanizer](../../libraries/blader-humanizer/SKILL.original.txt) retain complete MIT source procedures. The active [extractive transcript method](../../skills/voice-and-style/references/extractive-transcript-writing.md) owns Voiceprint work, and [local text hygiene](../../skills/natural-prose-editor/references/local-text-hygiene.md) owns the LinkedIn Human adaptation. Their full methods link relevant support and retained notices; provenance remains separate lineage evidence.
 - [Humanizer Deep Audit](../../skills/humanizer-deep-audit/SKILL.md) retains its full first-party audit methods, scripts, synthetic cases, and CC BY-SA 4.0 Wikipedia source archive. Research papers are source links, not bundled PDFs.
 
 - [Human Writing](marketplace/human-writing/human-writing/SKILL.md) (author-confirmed MIT), with newly authored CC BY-SA 4.0 prose and narrative support guides. [Provenance](marketplace/human-writing/human-writing/PROVENANCE.md) distinguishes retained text and current repairs.
+
+Authorship evidence for the separately selectable Write Like Me route is its installed publisher manifest: `author.name` is `OpenAI`, with the repository under OpenAI's maintained `plugins/write-like-me` source. This is publisher-metadata evidence, not an inference from marketplace hosting. Human Writing's retained `SKILL.md` and `LICENSE` remain MIT; its new prose/narrative references and provenance remain CC BY-SA 4.0 as separate files in `LICENSE-SCOPE.json`.
 
 ## Native task routes
 
 | Task | Complete procedure |
 | --- | --- |
 | Natural prose, paraphrase, word choice or a final outgoing pass | [Natural prose editor](../../skills/natural-prose-editor/SKILL.md), its [editorial gate](../../skills/natural-prose-editor/references/editorial-gate.md) and task-matching revision references |
+| Requested quality rating or scored draft comparison | [Complete local quality review](../../skills/humanizer-deep-audit/references/quality-scope-and-ethics.md), declared criteria/scale, evidence locators, missing coverage and actionable repairs; no authorship or detector measure |
 | Source/citation checks, pattern diagnosis, a disputed detector report or author-sample drift | [Deep audit](../../skills/humanizer-deep-audit/SKILL.md), including its actual scripts and source records; no authorship or detector-evasion claims |
 | Email, business document, blog or support message from supplied facts | [Communication craft](../../skills/communication-crafter/SKILL.md) and retained full message-design procedure |
 | Authentic voice, organizational voice or a register change | [Voice and style](../../skills/voice-and-style/SKILL.md) and [sample, brand and tone work](../../skills/voice-and-style/references/sample-brand-and-tone.md) |

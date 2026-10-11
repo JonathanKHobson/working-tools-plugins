@@ -6,13 +6,15 @@ Keep academic writing and study methods inside Research Toolkit.
 
 The maintained Studio should include complete reusable methods. Earlier public packaging incorrectly routed ordinary work to separate method installations.
 
-Academic evidence, claim, style and study workflows use included methods. Persona and journey artifact work hands its evidence to UX Design Studio instead of requiring a separate marketplace method pack.
+Academic evidence, claim, style and study workflows use included methods. Persona and journey methods produce complete evidence-grounded textual artifacts within Research; UX remains an optional visual production partner.
 
 Compatibility: Compatible included-method expansion. Existing plugin and skill identifiers remain. Historical local method anchors resolve internally. Actual application, service and runtime requirements are preserved.
 
 Upgrade: Update the existing Studio or Toolkit package. Use its normal skill entrypoints; no additional writing, UX or prompt method pack is needed.
 
 Validation: Changed skill frontmatter and local reference closure checked. Bounded source-grounded procedure cases run without the redundant method packs; UX instruction-coverage checks are separate from real workbook/browser interaction or participant tests. Exact release archive, installation parity and catalog checks are recorded by the release workflow.
+
+Additional integration checks: Adds complete evidence-grounded task profiles, empathy maps and journey slices inside Research, including sparse sources, countercases and a worked example. Mechanism review identifies the changed system element and separates joint changes from causal evidence.
 
 Historical entries below are imported from the verified release catalog. Earlier package bytes and tags are unchanged.
 

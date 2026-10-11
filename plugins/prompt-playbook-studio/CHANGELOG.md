@@ -14,6 +14,8 @@ Upgrade: Update the existing Studio or Toolkit package. Use its normal skill ent
 
 Validation: Changed skill frontmatter and local reference closure checked. Bounded source-grounded procedure cases run without the redundant method packs; UX instruction-coverage checks are separate from real workbook/browser interaction or participant tests. Exact release archive, installation parity and catalog checks are recorded by the release workflow.
 
+Additional integration checks: Direct design and refinement paths now verify platform-specific capabilities against current primary documentation and retain usable portable output when documentation is unavailable.
+
 Historical entries below are imported from the verified release catalog. Earlier package bytes and tags are unchanged.
 
 ## 0.2.2

@@ -42,6 +42,14 @@ Use this check:
 - Rewrite:
 ```
 
+## Requested keyword coverage diagnostic
+
+Use this only when a user asks for a numerical keyword/requirement check. It is a local comparison of supplied text, not access to an employer's ATS. First list the actual posting terms, distinguish requirements from preferences, and group repeated spelling/wording variants of the same requirement so repetition cannot inflate the denominator. Keep tools, credentials and responsibilities separate when they represent distinct criteria.
+
+For each criterion record the posting span, candidate evidence, letter/resume span and status: represented accurately, supported but absent from this artifact, adjacent/partial, unsupported or unknown. An exact word without experience does not count as an accurate match. Suggest an addition only when the candidate's evidence supports it; identify a gap instead of stuffing keywords.
+
+If a percentage is requested, state the counting rule before computing it. A simple default reports represented criteria over assessable criteria separately for required and preferred sets. Keep partial and unknown entries visible instead of silently awarding full credit; disclose excluded unknowns and the resulting coverage. Use user-supplied weights only when their meaning is clear, and disclose the weighted numerator/denominator. Do not use an arbitrary weighted figure as a hiring probability, proprietary parser result or validated fit score. Return the evidence table and most useful truthful additions alongside any local estimate.
+
 ## Safe Substitute Pattern
 
 When company research is absent:

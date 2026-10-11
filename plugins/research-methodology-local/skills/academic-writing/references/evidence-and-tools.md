@@ -24,6 +24,18 @@ Check source existence, identity, claimed location and support for the exact sta
 
 If the user requests a methodological critique of supplied manuscript content and Critical Compass is available, use its guided `audit_text` or `claim_stress_test` as a diagnostic aid. Follow [its integration boundary](../../../docs/critical-compass-integration.md) for consent and provenance. It does not replace source verification or Academic Writing Toolkit's drafting and citation tools.
 
+## Diagnose the technical problem and mechanism
+
+Before accepting a claimed solution, state a behavior that can be observed under a defined condition, along with the current or prior design's limitation. A paper saying it needs another module or greater robustness has described a proposed design or aspiration; ask what actually goes wrong, for whom or in which operating regime. Use the supplied measurements, requirements or documented failure trace. Do not invent the missing baseline.
+
+Locate the intervention in the actual model, algorithm or system description. Identify the changed element by its source identifier when available: a quantity or parameter, a relationship between quantities, a permitted set of decisions, an update/scheduling rule, a computation interval, or the movement of information between components. Explain its before/after behavior and the intermediate consequence that should follow under the stated assumptions. If the manuscript does not specify that change, flag the missing mechanism instead of substituting a broad benefit.
+
+Check whether the evidence measures the intermediate behavior, the final task outcome, or both. A diagnostic showing a changed internal quantity can support the mechanism explanation without proving task-level superiority. Conversely, a higher final score after several simultaneous changes does not isolate the proposed mechanism. Require an appropriate control, a direct diagnostic or narrower wording for that attribution. Preserve parallel explanations where more than one cause remains plausible.
+
+For a consequential claim, a useful record is: observed problem and setting; limitation of prior design; identified intervention; expected intermediate effect; actual evidence/assumptions; supported conclusion and remaining test. Equations, implementation passages, figures and experiments each need a role in that record. Missing links remain unresolved or the claim is narrowed.
+
+For example, a manuscript replaces a fixed retry delay with an adaptive rule. Identify the delay variable and update rule from the supplied method, what input governs it, and which workload was tested. A lower average completion time for a version that also changes concurrency cannot establish the adaptive-delay effect by itself. A proposed isolated comparison is a next test, not a completed result.
+
 ## Use only the relevant existing tool
 
 When Academic Writing Toolkit is available and the task calls for it:

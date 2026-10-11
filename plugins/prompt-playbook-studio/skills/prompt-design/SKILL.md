@@ -26,6 +26,8 @@ Select by the triggers below. Read the complete chosen procedure and its require
 6. Inspect the prompt against one realistic input and one missing or conflicting case. This is a design review, not evidence of model behavior. Use [prompt evaluation](../prompt-evaluation/SKILL.md) for an actual comparison when reliability or a regression must be measured.
 7. Return the usable prompt plus only material assumptions, required tools and unresolved decisions. Confirm each requested outcome remains represented; keep the prompt's embedded work unexecuted unless the live user authorized it.
 
+Before supplying platform-specific syntax or claiming model/tool compatibility, apply the full [platform and model contract](../prompt-playbook/references/patterns-and-templates.md#platform-and-model-contract). This applies to direct use of this skill as well as router-selected work.
+
 ## Deliver and verify
 
 Return the usable prompt and only material assumptions. Verify every requested outcome remains represented.

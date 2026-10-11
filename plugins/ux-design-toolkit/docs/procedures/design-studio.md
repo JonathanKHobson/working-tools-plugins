@@ -8,7 +8,7 @@ Read [the host adapter](../full-design-host-adapter.md), then the complete proce
 | [ideate](../../skills/design-studio/references/decision-alternatives.md) | UX Design Studio |
 | [image-to-code](../../skills/design-studio/references/product-prototyping.md) | UX Design Studio |
 | [index](../../README.md) | UX Design Studio |
-| [research](../../skills/design-studio/references/research-inputs.md) | UX Design Studio |
+| [research](../../skills/design-studio/references/product-pain-research.md) | UX Design Studio |
 | [share](../../skills/design-studio/references/product-prototyping.md) | UX Design Studio |
 | [url-to-code](../../skills/design-studio/references/product-prototyping.md) | UX Design Studio |
 | [user-context](../../skills/design-studio/references/product-task-context.md) | UX Design Studio |

@@ -68,7 +68,7 @@ Read the [complete maintained procedure](../../skills/design-studio/references/p
 
 ### layout-grid-hierarchy
 
-Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-web-identity.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
+Read the [complete maintained procedure](../../skills/design-systems/references/ui-kit-foundations.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### microinteractions-motion
 

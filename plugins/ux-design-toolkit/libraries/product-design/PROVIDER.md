@@ -8,7 +8,7 @@ Read the [complete maintained procedure](../../skills/design-review/SKILL.md) an
 
 ### design-qa
 
-Read the [complete maintained procedure](../../skills/design-studio/references/verification.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
+Read the [complete maintained procedure](../../skills/design-studio/references/design-comparison-qa.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### get-context
 
@@ -28,7 +28,7 @@ Read the [complete maintained procedure](../../README.md) and its applicable sup
 
 ### research
 
-Read the [complete maintained procedure](../../skills/design-studio/references/research-inputs.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
+Read the [complete maintained procedure](../../skills/design-studio/references/product-pain-research.md) and its applicable support. Current tool access governs authoring and verification; method access is bundled here.
 
 ### share
 

@@ -5,7 +5,7 @@ Read [the host adapter](../full-design-host-adapter.md), then the complete proce
 | Complete procedure | Maintained owner |
 | --- | --- |
 | [audit](../../skills/design-review/SKILL.md) | UX Design Studio |
-| [design-qa](../../skills/design-studio/references/verification.md) | UX Design Studio |
+| [design-qa](../../skills/design-studio/references/design-comparison-qa.md) | UX Design Studio |
 | [entry-ux-critique](../../libraries/engineering-suite-ux-critique/skills/entry-ux-critique/SKILL.md) | engineering-suite-ux-critique |
 | [accessibility-audit](../../skills/design-review/references/accessibility-evidence.md) | UX Design Studio |
 | [ux-audit-critique](../../skills/ux-heuristic-compass/SKILL.md) | UX Design Studio |

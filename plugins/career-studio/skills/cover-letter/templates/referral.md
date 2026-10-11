@@ -4,6 +4,7 @@
 
 - The user has a real referral, contact, or routing path.
 - The relationship and ask can be stated truthfully.
+- Permission to name the person in this application is confirmed from the supplied context; merely knowing them is insufficient. Reuse the same confirmed permission rather than asking again.
 
 ## Structure
 
@@ -17,6 +18,7 @@
 - Implied obligation.
 - Exaggerated closeness.
 - Unverified relationship details.
+- A person's name or implied endorsement without permission for this use.
 - Pressure or guilt.
 - Auto-send assumptions.
 

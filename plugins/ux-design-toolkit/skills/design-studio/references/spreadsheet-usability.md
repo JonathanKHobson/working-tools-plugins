@@ -66,3 +66,17 @@ Changed input cells are labeled Editable; the remaining formula is labeled Calcu
 | Export, if requested | Rendered output preserves legible labels, page breaks and interpretation | Clipped result or missing repeated header |
 
 Deliver the changed workbook or bounded review, entry sheet/ranges, input rules, source/assumption notes and checks with `pass`, `fail`, `not tested` or `unsupported` plus evidence. Separate formula correctness, rendered appearance and interaction checks. Do not infer a live native validation pass from inspecting XML or rendering an image. Report unresolved application limits and the smallest remaining action.
+
+## Exploratory freedom and decision-model profile
+
+Preserve useful spreadsheet agency. People should be able to inspect relevant assumptions and calculations, adjust a scenario safely and understand the consequences; a polished input surface must not silently remove legitimate exploration or conceal how it works. Add validation/protection in proportion to actual risk. Hidden detail is disclosed and recoverable, and a frozen header region must not consume most of a narrow view. In a quick first-view check, a reader should recognize purpose, active case, principal result, current warning and next action without searching technical tabs.
+
+For budgeting, financing or other consequential decision models, make the following explicit in the user-facing specification. This is UX presentation, not a financial/legal methodology:
+
+- Show estimated ranges, sensitivity or the threshold that reverses a conclusion. Identify which values are sourced, assumed or unresolved and their dates. Do not let a favorable central estimate hide an important unresolved variable.
+- Distinguish total resource requirement from timing and available buffer. A positive projected return can coexist with a shortfall during implementation; show available liquidity/contingency and downside near the result.
+- Keep alternatives with different upfront and recurring resource profiles separate. Preparation/equipment, operating reserve and working capital may need different timing and sources; a single undifferentiated total can conceal the binding constraint.
+- If a domain-verified legal/tax/organization regime changes the analysis materially, show it as a visible scenario rather than a hidden formula choice. Route correctness to actual domain evidence; the UX method cannot select the lawful regime.
+- Use a status such as viable/review/decline only when the analytical owner supplies its criterion and supports the classification. Put the unresolved assumption and next verification beside that status.
+
+Illustrative fixture: Option A requires 8,000 units upfront, Option B 4,000 upfront plus 6,000 during delivery, and the available buffer is 7,000. Showing only projected benefit would miss A's immediate shortfall and B's later funding requirement. Keep both timing profiles and remaining buffer visible; no investment recommendation follows from this fictional arithmetic. Acceptance follows each displayed figure to its inputs/source, changes the binding assumption and confirms that scenario/status/period remain recognizable after reopening.

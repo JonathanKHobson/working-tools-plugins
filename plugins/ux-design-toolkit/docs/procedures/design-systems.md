@@ -7,4 +7,4 @@ Read [the host adapter](../full-design-host-adapter.md), then the complete proce
 | [color-typography-theming](../../skills/design-systems/references/ui-kit-foundations.md) | UX Design Studio |
 | [component-design](../../skills/design-systems/references/ui-kit-components.md) | UX Design Studio |
 | [design-system-builder](../../skills/design-systems/references/ui-kit-method.md) | UX Design Studio |
-| [layout-grid-hierarchy](../../skills/design-systems/references/ui-kit-web-identity.md) | UX Design Studio |
+| [layout-grid-hierarchy](../../skills/design-systems/references/ui-kit-foundations.md) | UX Design Studio |

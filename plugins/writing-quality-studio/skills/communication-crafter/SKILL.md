@@ -40,7 +40,7 @@ For substantial rhetoric, outreach, client, stakeholder, or sensitive-message wo
 
 ## Distinct writing routes
 
-Use `voice-and-style` for personal/brand voice and Write Like Me; `plain-language-editing` for reader accessibility and multilingual/non-native clarity; `technical-instructions` for documentation and controlled language; `long-document-editing` for document passes/version comparison; `spoken-and-scripted-writing` for speech, narration and timing. These heads retain complete first-party procedures and select optional full provider methods when installed; do not replace a missing provider body with a summary. Occasional UX follow-up remains in communication.
+Use `voice-and-style` for personal/brand voice, `plain-language-editing` for multilingual or accessible wording, `technical-instructions` for documentation, `long-document-editing` for version/document passes, and `spoken-and-scripted-writing` for narration. Each reads complete native support. Occasional UX follow-up remains in communication.
 
 For a consequential recommendation, material uncertainty or substantive objection, use [claim, warrant and reader agency](references/claim-warrant-and-reader-agency.md) and its complete cards. For multiple rhetorical routes on one fact set, use [architecture selection](../voice-and-style/references/rhetorical-architecture.md). Routine messages remain direct drafting; neutral research instruments go to Survey Studio.
 

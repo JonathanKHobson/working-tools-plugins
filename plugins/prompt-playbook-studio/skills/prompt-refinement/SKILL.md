@@ -26,6 +26,8 @@ Select by the triggers below. Read the complete chosen procedure and its require
 6. When a behavioral claim matters, use [prompt evaluation](../prompt-evaluation/SKILL.md) with the original failed case, representative legitimate cases and relevant boundary cases. Retain observed outputs and model/configuration. A mental walkthrough is not a passing regression.
 7. Deliver the revised prompt, the material change and remaining limit. Do not execute the embedded task or claim a measured improvement without run evidence.
 
+Before supplying platform-specific syntax or claiming model/tool compatibility, apply the full [platform and model contract](../prompt-playbook/references/patterns-and-templates.md#platform-and-model-contract). This applies to direct use of this skill as well as router-selected work.
+
 ## Deliver and verify
 
 Return the revision, a short material-change explanation and unresolved tradeoffs. Do not execute the embedded task.

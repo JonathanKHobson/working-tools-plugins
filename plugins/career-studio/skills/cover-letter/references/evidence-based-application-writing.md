@@ -36,7 +36,7 @@ Employers scan applications quickly. Structure for easy reading:
 - Use descriptive subheadings that reflect content (not just "Introduction" / "Body")
 - Include industry-specific keywords in headings where natural
 - Write concisely - eliminate filler language
-- One page maximum (hard rule)
+- Follow the employer's requested length and the artifact's purpose. An ordinary business letter usually fits one readable page; academic letters use the complete academic-letter method and may require more. Preserve substantive evidence rather than shrinking type to enforce a universal page count.
 
 ## Forward-Looking Framing (Best Practice)
 

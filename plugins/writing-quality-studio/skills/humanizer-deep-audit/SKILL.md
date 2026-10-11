@@ -18,6 +18,8 @@ Use this specialist when the task calls for evidence beyond a close editorial re
 
 The optional [editor lenses](agents/) can divide a large review by evidence, structure, line, voice, formatting, citation, genre, or scene. They are reference prompts, not automatic subagent instructions. Load only the lens the task requires.
 
+For a requested writing-quality rating or scored version comparison, read and apply the full [quality review method](references/quality-scope-and-ethics.md). Use declared criteria, exact evidence, a transparent optional scale and unassessed fields; do not infer authorship or equate a pleasant style with factual reliability.
+
 ## Sequence and evidence
 
 1. Identify the reader, purpose, genre, source set, and requested audit scope. Keep the author's strongest specific detail and intentional voice in view.

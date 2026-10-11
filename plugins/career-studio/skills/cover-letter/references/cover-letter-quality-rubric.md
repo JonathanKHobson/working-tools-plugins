@@ -67,6 +67,14 @@ Check:
 - No unsupported credentials, metrics, tools, clients, or relationships.
 - Missing information remains visible.
 
+## Review the actual artifact
+
+Read the full available letter and target posting before assigning a rating. If only an excerpt or screenshot is available, name the inspected scope and keep unseen content unassessed. Check the employer, title/requisition, recipient, candidate identity, dates and any leftover wording from another application. Verify the destination's requested format and length; the academic-letter procedure governs academic scope. Check grammar, name spelling, repeated openings, resume duplication and whether the close gives the reader a realistic next step.
+
+For each material finding, provide its exact location, the source or reader consequence, and a concrete correction. A short before/after passage helps explain an actual wording repair; do not rewrite already-effective content to populate a quota. Separate unsupported facts requiring evidence from phrases that can be revised immediately. If the user requested a rewrite, supply the corrected complete letter and the consequential change/gap note. Otherwise give the review first without implying changes were made.
+
+Use the five criteria below as a local editorial rating, not an ATS result or a hiring prediction. Cite evidence for each score, and use unassessed for a criterion whose required input is absent. Finish with the highest-impact repairs and a check that the candidate can defend every retained claim. Apply the ordinary final prose review and export preflight when those artifacts are requested; a text review cannot verify an unseen file's rendering.
+
 ## Audit Output
 
 Use this compact format:

@@ -5,6 +5,7 @@ The nine skill owners and their complete support are bundled. Use the one task-m
 | Task | Full native method and support |
 | --- | --- |
 | Role-specific letter, tailoring or rewrite | [Cover Letter Crafter](../../skills/cover-letter/SKILL.md), [patterns](../../skills/cover-letter/references/patterns.md), [company-fit checks](../../skills/cover-letter/references/company-fit-and-research.md), [proof paragraphs](../../skills/cover-letter/references/proof-paragraphs.md) and [quality rubric](../../skills/cover-letter/references/cover-letter-quality-rubric.md) |
+| Review or feedback on an existing letter | [Cover Letter Crafter](../../skills/cover-letter/SKILL.md) and the complete [quality review](../../skills/cover-letter/references/cover-letter-quality-rubric.md): inspect the actual text, source/target identity, evidence, structure, tone, length and concrete repairs; rewrite when requested |
 | Hooks, closes, voice or example/template selection | Cover Letter Crafter's [openings](../../skills/cover-letter/references/hooks-and-openings.md), [voice](../../skills/cover-letter/references/voice-and-tone.md), [patterns](../../skills/cover-letter/references/patterns.md) and [template index](../../skills/cover-letter/templates/template-index.md) |
 | Transition, gap, first role, senior role, internal move, relocation or availability | [Career situations](../../skills/cover-letter/references/career-situations.md); personal disclosures and commitments stay applicant-controlled |
 | Faculty/research letter | [Academic letters](../../skills/cover-letter/references/academic-letters.md), preserving teaching/research evidence and the actual position instructions |
@@ -16,6 +17,7 @@ The nine skill owners and their complete support are bundled. Use the one task-m
 | Referral, recruiter, interest, follow-up, thank-you or freelance message | [Career outreach](../../skills/career-outreach/SKILL.md), [outreach methods](../../skills/career-outreach/references/outreach-methods.md) and current sending authority |
 | General or UX interview practice | [Career interviews](../../skills/career-interviews/SKILL.md), [general practice](../../skills/career-interviews/references/role-specific-practice.md) and [UX practice](../../skills/career-interviews/references/ux-interview-practice.md) |
 | UX case narrative or portfolio proof | [Portfolio](../../skills/portfolio/SKILL.md), actual artifacts, contribution, supported outcomes, reader-task review and confidentiality checks |
+| Coordinated website, resume and deck packet | [Portfolio package](../../skills/portfolio-package/SKILL.md), shared evidence, consistent role variants, actual format/render checks and publication state |
 | Authorized employer form | [Submissions](../../skills/submissions/SKILL.md), with upload/readback and employer confirmation evidence |
 
 The map is navigation, not a shortened replacement for its sources. Historical copied publisher bodies remain excluded and recoverable through the maintainer's private source records; no current method claims to execute a branded publisher procedure.

@@ -24,6 +24,14 @@ Use the smallest scaffold that makes the request actionable. Fields are conditio
 
 For structured output, specify field names, types, allowed values and missing-value behavior only when a consumer needs them. Example values must be clearly synthetic. Distinguish invalid input from an empty result. Validate syntax mechanically where possible; semantic correctness still needs evidence.
 
+## Platform and model contract
+
+For a platform-specific prompt, identify the actual platform/model/version or API surface only when it changes syntax, accepted inputs, structured output, tools or memory behavior. Read current primary documentation for a claimed field, delimiter, schema, tool mechanism, limit or supported capability. Retain the source/date beside any material compatibility assumption in the private task record. A familiar brand name is not evidence that a feature is available on this host.
+
+Separate documented interface behavior from an observed model result. Documentation can establish an accepted output-schema contract; it does not prove that a prompt will reason correctly or complete every semantic constraint. Use the evaluation method for those claims. Do not copy unsupported syntax or guarantees from a retrieved template.
+
+When documentation or version identity is unavailable, provide a portable plain-language prompt, identify the unsupported platform adaptation and keep it out of a claim of verified compatibility. Ask for the platform only when its answer changes the prompt; ordinary text drafting should proceed. Return optional variables, required host capabilities and recovery behavior when they matter to actual use.
+
 ## Constraint preservation
 
 Check each consequential source requirement against the revised text: scope, evidence, deliverable, audience, deadline, exclusions, permissions, success test and output shape. Preserve exact wording when precision matters; otherwise preserve meaning. Flag contradictory requirements instead of silently choosing one. A suggested next step is not evidence that the user approved it. For an auditable handoff with exact source fingerprints and constraint mappings, use the optional compiler documentation.

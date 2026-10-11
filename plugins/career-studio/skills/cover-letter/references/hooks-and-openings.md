@@ -30,7 +30,7 @@ Use only when the user supplies a verified company signal.
 
 ### Referral Hook
 
-Use when there is a real relationship.
+Use when there is a real relationship and the candidate has permission to name the referrer in this application. A real contact is not evidence of endorsement. Use only the referral actually offered; if naming consent is absent, use a supported role or candidate hook rather than implying a referral. Reuse consent already given for the same named use.
 
 ```text
 [Contact name] suggested I look at the [role] opening because it connects with my work in [supported evidence].

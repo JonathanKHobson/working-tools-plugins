@@ -23,6 +23,8 @@ Upgrade: Update the existing Studio or Toolkit package. Use its normal skill ent
 
 Validation: Changed skill frontmatter and local reference closure checked. Bounded source-grounded procedure cases run without the redundant method packs; UX instruction-coverage checks are separate from real workbook/browser interaction or participant tests. Exact release archive, installation parity and catalog checks are recorded by the release workflow.
 
+Additional integration checks: Adds an explicit preservation rule: useful content is removed only on user request or demonstrated equivalent replacement. Full procedural coverage, output evidence and host parity are required; ordinary helpers and methods remain incorporated.
+
 ## 0.4.0
 
 Finish authorized public updates with versioned publication and catalog deployment.

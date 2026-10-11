@@ -14,6 +14,8 @@ Upgrade: Update the existing Studio or Toolkit package. Use its normal skill ent
 
 Validation: Changed skill frontmatter and local reference closure checked. Bounded source-grounded procedure cases run without the redundant method packs; UX instruction-coverage checks are separate from real workbook/browser interaction or participant tests. Exact release archive, installation parity and catalog checks are recorded by the release workflow.
 
+Additional integration checks: Adds a persistent saved-source helper with safe replacement and recovery, product pain research, matched-density visual comparison, complete mobile-runtime handoff, stable image-concept identities and richer workbook decision states. Corrects the layout-foundations route. Adds an original palette validator, deterministic export and interactive local preview; native application import is unverified because the host does not expose an allowed settings-control route.
+
 Historical entries below are imported from the verified release catalog. Earlier package bytes and tags are unchanged.
 
 ## 0.3.9

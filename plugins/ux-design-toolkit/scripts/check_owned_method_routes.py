@@ -7,7 +7,7 @@ args=parser.parse_args();R=args.root.resolve()
 paths=[R/'README.md',R/'docs/full-design-host-adapter.md',R/'docs/owned-methods-migration.md',R/'LICENSING.md',R/'THIRD_PARTY_NOTICES.md']
 paths+=list((R/'docs/procedures').glob('*.md'))
 paths+=list((R/'skills').glob('*/SKILL.md'))
-paths+=[R/'skills/design-studio/references'/name for name in ('spreadsheet-usability.md','product-task-context.md','product-prototyping.md','product-experience-methods.md','usability-testing.md','application-appearance.md')]
+paths+=[R/'skills/design-studio/references'/name for name in ('spreadsheet-usability.md','product-task-context.md','product-prototyping.md','product-experience-methods.md','usability-testing.md','application-appearance.md','design-comparison-qa.md','mobile-prototype-runtime.md','product-pain-research.md')]
 paths+=[R/'libraries'/name/'PROVIDER.md' for name in ('product-design','uiuxdesigner','spreadsheet-human-ux','codex-material-themes')]
 failures=[];checked_links=0
 
@@ -47,7 +47,7 @@ fixture_requirements={
 'booking-prototype':('product-prototyping.md',['Map 3–8 anchors','fictional slot data','duplicate','forced failure','pending','supported browser','authoritative','native build']),
 'commerce':('product-experience-methods.md',['denominator','instrumentation errors','payment authorization','hidden subscriptions','stopping rule','sold-out','confirmed order']),
 'participant-study':('usability-testing.md',['neutral','consent','pseudonym','denominators','counterexamples','expert task walkthrough','participant testing']),
-'appearance-no-codec':('application-appearance.md',['Robin Li','supported settings','contrast','rollback','Do not reverse-engineer','prepared'])}
+'appearance-export-no-native-claim':('application-appearance.md',['Robin Li','supported settings','contrast','rollback','Do not reverse-engineer','prepared'])}
 fixtures=[]
 for name,(filename,terms) in fixture_requirements.items():
  text=(R/'skills/design-studio/references'/filename).read_text()

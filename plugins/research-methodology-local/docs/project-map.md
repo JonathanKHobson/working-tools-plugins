@@ -4,7 +4,7 @@ The author maintains the canonical package source and mirrors its distributable 
 
 - `skills/research-methodology/`: pyramid investigation and full focused study/qualitative/task-evaluation branches. The pyramid and type files remain intact under the [author-confirmed CC BY-SA 4.0 grant](../SOURCE-RIGHTS.md).
 - `skills/academic-writing/`: complete native manuscript craft and scientific argument review; the [method map](../library/source-procedures/INDEX.md) selects bundled procedures without copied marketplace bodies.
-- `skills/research-handoff/`: research-to-decision and document-to-method conversion with local compiler and schema.
+- `skills/research-handoff/`: research-to-decision, full evidence-grounded profile/empathy/journey artifact construction (`references/evidence-artifacts.md`), and document-to-method conversion with local compiler/schema.
 - `skills/current-social-research/`, `source-discovery/`, `evidence-review/`: dated source work, source quality, claim audits.
 - `skills/critical-reasoning/`: compatibility handoff to Reasoning Toolkit, which owns Critical Compass. `karpathy-guidelines/` is bundled working guidance with author-confirmed licensing for the supplied extensions.
 - `mcp.json`, compatibility `.mcp.json`, `scripts/research_compass_mcp.py`, `integrations/research-compass-binding.example.json`: optional recipient-owned Research Compass binding; backend and corpus are external.

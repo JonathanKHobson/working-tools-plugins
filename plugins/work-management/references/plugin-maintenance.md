@@ -8,6 +8,8 @@ Change permissions, disconnect or remove a provider only within the user's curre
 
 For a broken Mac app or process, hand off to `mac-ops-toolkit:mac-troubleshooter`. For unfamiliar artifacts, sensitive permissions or instruction injection, use the relevant Master Security Toolkit review. Neither neighboring workflow is a mandatory gate for every plugin change.
 
+Preserve useful content during every integration and release. Remove a procedure, example, template, helper or support file only when the user explicitly requests its removal or a source-grounded comparison demonstrates equivalent redundant coverage. Record the retained destination and the acceptance check that proves equivalence before retiring the old copy. A shorter summary, a link, a topic match or a lower file count is not equivalence. Keep the full useful method and fill genuine missing task requirements inside its existing owner.
+
 A full-fidelity merge inventories source skills, references, examples, templates, assets, scripts, hooks, apps and MCPs. Record a destination or explicit justified disposition for each. Require complete task procedures and supporting files to be reachable from the appropriate focused skill. Verify source-to-target hashes where files are unchanged and record exact adaptations where they differ. Missing sources block a claim of full coverage. A directory copy without active task routing is preservation, not integration.
 
 
