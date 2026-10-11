@@ -481,6 +481,10 @@ def main():
                 receipt=prior if prior else {'status':'catalog_pending','changed':[],'published':[]}
             else:
                 changes=prepare(config)
+                if changes:
+                    prepared=pending_entries()
+                    if sorted(prepared,key=lambda row:row['id'])!=sorted(changes,key=lambda row:row['id']):
+                        raise ValueError('Freshly prepared release records differ from the reviewed change plan')
                 receipt=({'status':'preparing','changed':changes,'published':[]}
                          if changes else prior if prior and prior.get('status')=='complete'
                          else {'status':'catalog_pending','changed':[],'published':[]})

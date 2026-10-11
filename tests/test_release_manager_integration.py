@@ -476,6 +476,66 @@ class CompletionContractTests(unittest.TestCase):
             sync.assert_called_once()
             self.assertEqual(json.loads((root/'dist/release-manager/receipt.json').read_text())['status'], 'catalog_pending')
 
+    def test_first_normal_run_commits_fresh_preparation_before_validation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root/'config.json'; config.write_text('{}')
+            entry = {'id': 'x', 'version': '1.0.1', 'changed_files': ['README.md'], 'shared_sources': []}
+            observed = []
+            snapshots = iter(([], [entry]))
+            def pending():
+                observed.append('pending'); return next(snapshots)
+            def prepare(_):
+                observed.append('prepare'); return [entry]
+            def commit(entries):
+                self.assertEqual(entries, [entry]); observed.append('commit'); return 'a'*40
+            def validate(_, entries):
+                self.assertEqual(entries, [entry]); observed.append('validate')
+            def command(*args, **kwargs):
+                self.assertEqual(args[:3], ('git', 'push', 'origin')); observed.append('push')
+            def publish(_, receipt):
+                self.assertEqual(receipt['source_commit'], 'a'*40)
+                observed.append('publish'); return [{'id': 'x', 'version': '1.0.1'}]
+            with (patch.object(complete_update, 'ROOT', root),
+                  patch.object(complete_update, 'pending_entries', side_effect=pending),
+                  patch.object(complete_update, 'external_plan', return_value=({'ready': []}, {})),
+                  patch.object(complete_update, 'unfinished_committed_entries', return_value=[]),
+                  patch.object(complete_update, 'prepare', side_effect=prepare),
+                  patch.object(complete_update, 'commit_prepared', side_effect=commit),
+                  patch.object(complete_update, 'validate_committed', side_effect=validate),
+                  patch.object(complete_update, 'command', side_effect=command),
+                  patch.object(complete_update, 'publish_pending', side_effect=publish),
+                  patch.object(complete_update, 'publish_integrations'),
+                  patch.object(complete_update, 'sync_site') as sync,
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config)])):
+                complete_update.main()
+            self.assertEqual(observed, ['pending', 'prepare', 'pending', 'commit',
+                                        'validate', 'push', 'publish'])
+            sync.assert_called_once()
+            self.assertEqual(json.loads((root/'dist/release-manager/receipt.json').read_text())['source_commit'], 'a'*40)
+
+    def test_prepare_only_keeps_fresh_entries_uncommitted(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root/'config.json'; config.write_text('{}')
+            entry = {'id': 'x', 'version': '1.0.1', 'changed_files': ['README.md'], 'shared_sources': []}
+            with (patch.object(complete_update, 'ROOT', root),
+                  patch.object(complete_update, 'pending_entries', side_effect=[[], [entry]]),
+                  patch.object(complete_update, 'external_plan', return_value=({'ready': []}, {})),
+                  patch.object(complete_update, 'unfinished_committed_entries', return_value=[]),
+                  patch.object(complete_update, 'prepare', return_value=[entry]),
+                  patch.object(complete_update, 'commit_prepared') as commit,
+                  patch.object(complete_update, 'validate_committed') as validate,
+                  patch.object(complete_update, 'publish_pending') as publish,
+                  patch.object(complete_update, 'sync_site') as sync,
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--prepare-only'])):
+                complete_update.main()
+            commit.assert_not_called(); validate.assert_not_called()
+            publish.assert_not_called(); sync.assert_not_called()
+            receipt = json.loads((root/'dist/release-manager/receipt.json').read_text())
+            self.assertEqual(receipt['changed'], [entry])
+            self.assertEqual(receipt['status'], 'preparing')
+
     def test_site_receipt_must_match_full_expected_set(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
