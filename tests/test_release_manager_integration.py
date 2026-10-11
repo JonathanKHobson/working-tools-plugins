@@ -157,15 +157,35 @@ class CompletionContractTests(unittest.TestCase):
             canonical = self.fixture(root)
             (root/'plugins/x/README.md').write_text('corrected readme\n')
             with (patch.object(complete_update, 'ROOT', root),
-                  patch.object(complete_update, 'command')):
+                  patch.object(complete_update, 'command') as command):
                 entries = complete_update.prepare({'canonical_root': str(canonical)})
             self.assertEqual(entries[0]['version'], '1.0.1')
             self.assertEqual(entries[0]['changed_files'], ['README.md'])
             self.assertEqual((canonical/'x/README.md').read_text(), 'corrected readme\n')
             self.assertFalse((root/'catalog/changes/x.json').exists())
+            inventory_calls = [call.args for call in command.call_args_list if 'scripts/source_inventory.py' in call.args]
+            self.assertEqual(inventory_calls, [(sys.executable, '-B', 'scripts/source_inventory.py',
+                '--canonical-root', str(canonical), '--canonical-package', 'x')])
             with (patch.object(complete_update, 'ROOT', root),
-                  patch.object(complete_update, 'command')):
+                  patch.object(complete_update, 'command') as command):
                 self.assertEqual(complete_update.prepare({'canonical_root': str(canonical)}), [])
+            inventory_calls = [call.args for call in command.call_args_list if 'scripts/source_inventory.py' in call.args]
+            self.assertEqual(inventory_calls, [(sys.executable, '-B', 'scripts/source_inventory.py')])
+
+    def test_committed_validation_checks_only_releasing_canonical_product(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical = self.fixture(root)
+            entry = {'id': 'x', 'version': '1.0.1', 'changed_files': ['README.md']}
+            with (patch.object(complete_update, 'ROOT', root),
+                  patch.object(complete_update, 'command') as command,
+                  patch.object(complete_update, 'run', return_value=b'a'*40),
+                  patch.object(complete_update, 'exact_commit_build', return_value={
+                      'packages': [{'id': 'x', 'version': '1.0.1'}]})):
+                complete_update.validate_committed({'canonical_root': str(canonical)}, [entry])
+            inventory_calls = [call.args for call in command.call_args_list if 'scripts/source_inventory.py' in call.args]
+            self.assertEqual(inventory_calls, [(sys.executable, '-B', 'scripts/source_inventory.py',
+                '--canonical-root', str(canonical), '--canonical-package', 'x')])
 
     def test_refresh_retains_existing_exact_version_heading_bytes(self):
         headings = (

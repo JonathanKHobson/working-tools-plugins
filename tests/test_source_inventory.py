@@ -156,6 +156,52 @@ class InventoryTests(unittest.TestCase):
                 self.assertFalse(any('another-private-name' in error or str(self.canonical) in error for error in errors))
                 self.assertTrue(any('reviewed scopes: held' in error for error in errors))
 
+    def test_selected_release_checks_target_source_and_every_public_package(self):
+        second = copy.deepcopy(self.entry)
+        second['id'] = 'other'
+        second['canonical_source']['id'] = 'other'
+        for component in second['components']:
+            component['id'] = component['id'].replace('fixture:', 'other:', 1)
+        self.snapshot['packages'].append(second)
+        self.catalog.append({'id': 'other', 'version': '1.0.0'})
+        baseline = copy.deepcopy(self.baseline_entry)
+        baseline['id'] = 'reviewed-other'
+        baseline['canonical_owner'] = 'other'
+        baseline['expected_components'] = [row['id'] for row in second['components']]
+        self.baseline['entries'].append(baseline)
+        shutil.copytree(self.package, self.root/'plugins/other')
+        shutil.copytree(self.canonical/'fixture', self.canonical/'other')
+        self.write(self.canonical/'other/held/profiles.json', b'Unrelated private work in progress\n')
+        self.save()
+
+        selected = inventory.validate_inventory(self.root, self.catalog, self.canonical, ['fixture'])
+        self.assertEqual(selected, [])
+        full = inventory.validate_inventory(self.root, self.catalog, self.canonical)
+        self.assertTrue(any('canonical other: unreviewed excluded source' in error for error in full), full)
+
+        target = self.canonical/'fixture/references/full-method.md'
+        target.write_text('Changed selected source')
+        selected = inventory.validate_inventory(self.root, self.catalog, self.canonical, ['fixture'])
+        self.assertTrue(any('canonical fixture: changed file references/full-method.md' in error for error in selected), selected)
+        target.write_bytes(b'The full supported procedure.\n')
+        self.write(self.root/'plugins/other/references/full-method.md', b'Changed unrelated public package')
+        selected = inventory.validate_inventory(self.root, self.catalog, self.canonical, ['fixture'])
+        self.assertTrue(any('public other: changed file references/full-method.md' in error for error in selected), selected)
+
+    def test_canonical_selection_rejects_empty_unknown_and_unbound_ids(self):
+        self.save()
+        for chosen in ([], ['unknown'], ['fixture', 'fixture'], ['']):
+            with self.subTest(chosen=chosen):
+                errors = inventory.validate_inventory(self.root, self.catalog, self.canonical, chosen)
+                self.assertTrue(any('canonical selection:' in error for error in errors), errors)
+        errors = inventory.validate_inventory(self.root, self.catalog, None, ['fixture'])
+        self.assertTrue(any('canonical selection:' in error for error in errors), errors)
+        cli = subprocess.run([sys.executable, str(MODULE), '--root', str(self.root),
+            '--canonical-root', str(self.canonical), '--canonical-package', 'unknown'],
+            text=True, capture_output=True)
+        self.assertNotEqual(cli.returncode, 0)
+        self.assertTrue(any('unknown package ID' in error for error in json.loads(cli.stdout)['errors']))
+
     def test_public_mode_does_not_claim_live_source_verification(self):
         shutil.rmtree(self.canonical)
         self.assertEqual(self.check(), [])

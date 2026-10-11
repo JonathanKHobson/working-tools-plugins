@@ -127,14 +127,24 @@ def commit_prepared(entries):
     return run('git','rev-parse','HEAD',cwd=ROOT).decode().strip()
 
 
+def validate_source_inventory(config, product_ids):
+    """Always check the public snapshot; scope live source checks to releases."""
+    args=[sys.executable,'-B','scripts/source_inventory.py']
+    if product_ids:
+        canonical=Path(config['canonical_root'])
+        local_sync.approved_product_roots(ROOT,canonical,config.get('canonical_sources'))
+        args.extend(('--canonical-root',str(canonical)))
+        for ident in sorted(product_ids):
+            args.extend(('--canonical-package',ident))
+    command(*args)
+
+
 def validate_committed(config, entries):
     """Finish local gates before any remote push."""
     if not entries:
         return
-    canonical=Path(config['canonical_root'])
-    local_sync.approved_product_roots(ROOT,canonical,config.get('canonical_sources'))
     command(sys.executable,'-B','scripts/packages.py','validate')
-    command(sys.executable,'-B','scripts/source_inventory.py','--canonical-root',str(canonical))
+    validate_source_inventory(config,[entry['id'] for entry in entries])
     command(sys.executable,'-B','-m','unittest','discover','-s','tests','-v')
     manifests={}
     for entry in entries:
@@ -240,8 +250,7 @@ def prepare(config):
         (notes_root/(ident+'.json')).unlink()
     command(sys.executable,'-B','scripts/packages.py','catalog')
     command(sys.executable,'-B','scripts/packages.py','validate')
-    local_sync.approved_product_roots(ROOT,canonical,canonical_sources)
-    command(sys.executable,'-B','scripts/source_inventory.py','--canonical-root',str(canonical))
+    validate_source_inventory(config,[ident for ident,_,_,_,_ in entries])
     return [{'id':i,'version':v,'changed_files':sorted(p),'shared_sources':s} for i,v,n,p,s in entries]
 
 

@@ -1,7 +1,9 @@
 """Validate reviewed source coverage; optionally compare the live canonical source.
 
 Public CI checks package bytes against a locked, reviewed source snapshot. Only
---canonical-root enables live local-source verification. This module never
+--canonical-root enables live local-source verification. --canonical-package
+limits that live comparison to named packages while retaining the full public
+inventory and baseline checks. This module never
 refreshes either inventory or coverage baseline from the current filesystem.
 """
 from __future__ import annotations
@@ -222,7 +224,8 @@ def _verified_alias_paths(root: Path, aliases: dict[str, str], label: str, error
     return verified
 
 
-def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Path | None = None) -> list[str]:
+def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Path | None = None,
+                       canonical_packages: Iterable[str] | None = None) -> list[str]:
     """Return all named coverage/hash errors; records are catalog package rows.
 
     Source and baseline documents come from repo_root/catalog. canonical_root
@@ -235,6 +238,8 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
     rejected except exact excluded_source.aliases declarations with matching raw
     readlink target hashes, which are skipped without traversing destinations.
     These aliases cannot hide included files and are not regular excluded files.
+    With canonical_packages, only those named products receive live source checks;
+    the standalone default also audits the complete canonical namespace.
     """
     root = Path(repo_root)
     errors: list[str] = []
@@ -248,6 +253,23 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
     registry = _index(records, 'catalog', errors)
     inventory = _index(inventory_rows, 'source-inventory', errors)
     baseline = _index(baseline_rows, 'coverage-baseline', errors, package_ids=False)
+    selected = None
+    if canonical_packages is not None:
+        try:
+            requested = list(canonical_packages) if not isinstance(canonical_packages, (str, bytes)) else []
+        except TypeError:
+            requested = []
+        if canonical_root is None or not requested or any(not isinstance(ident, str) or
+                not PACKAGE_ID.fullmatch(ident) for ident in requested):
+            errors.append('canonical selection: requires a canonical root and nonempty valid package IDs')
+        elif len(requested) != len(set(requested)):
+            errors.append('canonical selection: duplicate package ID')
+        else:
+            unknown = set(requested) - (registry.keys() & inventory.keys())
+            if unknown:
+                errors.append('canonical selection: unknown package ID '+', '.join(sorted(unknown)))
+            else:
+                selected = set(requested)
     if canonical_root is not None:
         canonical = Path(canonical_root)
         baseline_owners = {row.get('canonical_owner') for row in baseline.values()
@@ -255,12 +277,13 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
         try:
             if canonical.is_symlink() or not canonical.is_dir():
                 raise ValueError('canonical root must be a real directory')
-            for child in sorted(canonical.iterdir()):
-                if child.is_dir() and any((child/manifest).is_file() for manifest in
-                                         ('plugin.json', '.codex-plugin/plugin.json', '.claude-plugin/plugin.json')):
-                    if child.name not in baseline_owners:
-                        safe_id = child.name if PACKAGE_ID.fullmatch(child.name) else '[unreviewed package ID]'
-                        errors.append(f'canonical namespace: package ID without baseline owner: {safe_id}')
+            if selected is None:
+                for child in sorted(canonical.iterdir()):
+                    if child.is_dir() and any((child/manifest).is_file() for manifest in
+                                             ('plugin.json', '.codex-plugin/plugin.json', '.claude-plugin/plugin.json')):
+                        if child.name not in baseline_owners:
+                            safe_id = child.name if PACKAGE_ID.fullmatch(child.name) else '[unreviewed package ID]'
+                            errors.append(f'canonical namespace: package ID without baseline owner: {safe_id}')
         except (OSError, ValueError):
             errors.append('canonical namespace: unsafe or unreadable canonical root')
     for ident in sorted(registry.keys() - inventory.keys()):
@@ -360,7 +383,7 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
                     document = _load(plugins/ident/manifest, errors)
                     if isinstance(document, dict) and document.get('version') != version:
                         errors.append(f'public {ident}: wrong version in {manifest}')
-        if canonical_root is not None and owner:
+        if canonical_root is not None and owner and (selected is None or ident in selected):
             try:
                 source_root = (Path(canonical_root)/owner).resolve(strict=True)
             except (OSError, RuntimeError):
@@ -413,6 +436,8 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=DEFAULT_ROOT)
     parser.add_argument('--canonical-root', type=Path)
+    parser.add_argument('--canonical-package', action='append', dest='canonical_packages',
+                        help='Check live canonical bytes only for this reviewed product ID; repeat for multiple products')
     args = parser.parse_args(argv)
     errors: list[str] = []
     catalog = _load(args.root/'catalog/packages.json', errors)
@@ -420,14 +445,19 @@ def main(argv: list[str] | None = None) -> int:
     if not isinstance(records, list):
         errors.append('packages.json: packages must be a list')
         records = []
-    errors.extend(validate_inventory(args.root, records, args.canonical_root))
+    errors.extend(validate_inventory(args.root, records, args.canonical_root, args.canonical_packages))
     coverage_errors: list[str] = []
     coverage = _load(args.root/'catalog/coverage-baseline.json', coverage_errors)
     entries = coverage.get('entries', []) if isinstance(coverage, dict) else []
     counts = {disposition: sum(isinstance(row, dict) and row.get('disposition') == disposition for row in entries)
               for disposition in sorted(DISPOSITIONS)} if isinstance(entries, list) else {}
+    verification = ('reviewed public snapshot only; live canonical source not checked'
+                    if args.canonical_root is None else
+                    'live canonical source for selected packages and reviewed public snapshot; other canonical sources and namespace not checked'
+                    if args.canonical_packages is not None else
+                    'live canonical source and reviewed public snapshot')
     print(json.dumps({'status': 'failed' if errors else 'passed', 'packages': len(records),
-                      'verification': 'live canonical source and reviewed public snapshot' if args.canonical_root is not None else 'reviewed public snapshot only; live canonical source not checked',
+                      'verification': verification,
                       'coverage_dispositions': counts,
                       'coverage_note': 'Validation success checks the inventory; blocked capabilities remain unresolved.',
                       'errors': errors}, indent=2))
