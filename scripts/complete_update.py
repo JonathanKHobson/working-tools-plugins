@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Finish one authorized public update; recovery never invents another version."""
+"""Record local pending changes; publish only through an explicit release operation."""
 from __future__ import annotations
 import argparse
 import fcntl
@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
-from release_manager import local_sync
+from release_manager import local_sync, pending
 from release_manager.changes import propose_version
 from release_manager.publisher import exact_commit_build, list_releases, publish, run
 
@@ -487,10 +487,16 @@ def sync_site(config,receipt):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--config',type=Path,default=Path.home()/'.config/working-tools-release/config.json')
-    p.add_argument('--reconcile-only',action='store_true')
-    p.add_argument('--prepare-only',action='store_true')
+    mode=p.add_mutually_exclusive_group()
+    mode.add_argument('--publish',action='store_true',help='Explicitly run release, publication and Site deployment')
+    p.add_argument('--reconcile-only',action='store_true',help='Resume publication recovery; requires --publish')
+    mode.add_argument('--prepare-only',action='store_true')
+    mode.add_argument('--status',action='store_true',help='Refresh and display the local pending queue')
+    p.add_argument('--json',action='store_true',help='Print the local pending journal as JSON')
     p.add_argument('--package',action='append',dest='packages',help='Release only this registered plugin; repeat for multiple plugins')
-    a=p.parse_args();config=load(a.config);config['_config_path']=str(a.config.resolve())
+    a=p.parse_args()
+    if a.reconcile_only and not a.publish:p.error('--reconcile-only requires explicit --publish')
+    config=load(a.config);config['_config_path']=str(a.config.resolve())
     selected=sorted(set(a.packages)) if a.packages else None
     if selected is not None:
         registered={row['id'] for row in load(ROOT/'catalog/packages.json')['packages']}
@@ -500,6 +506,12 @@ def main():
     with (state/'completion.lock').open('w') as lock:
         try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:raise SystemExit('Another completion run owns publication; retry after its receipt settles.')
+        if not (a.publish or a.prepare_only or a.reconcile_only):
+            journal=pending.refresh(ROOT,config,selected)
+            print(json.dumps(journal,indent=2) if a.json else pending.summary(journal))
+            return
+        if a.publish or a.reconcile_only:
+            pending.read_previous(state/'pending.json')  # Corrupt local evidence must survive a failed release.
         receipt_path=state/'receipt.json'
         prior=load(receipt_path) if receipt_path.is_file() else None
         if prior and prior.get('status')=='complete' and prior.get('selected_packages')!=selected:
@@ -556,7 +568,9 @@ def main():
         if selected is None and (not a.reconcile_only or receipt.get('integration_in_progress')):
             publish_integrations(receipt)
         sync_site(config,receipt)
-        save(state/'receipt.json',receipt);print(json.dumps(receipt,indent=2))
+        save(state/'receipt.json',receipt)
+        if receipt.get('status')=='complete':pending.refresh(ROOT,config,selected)
+        print(json.dumps(receipt,indent=2))
 
 if __name__=='__main__':
     try:main()

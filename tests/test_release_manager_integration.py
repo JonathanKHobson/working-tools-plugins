@@ -113,6 +113,10 @@ class LocalSyncContractTests(unittest.TestCase):
 
 
 class CompletionContractTests(unittest.TestCase):
+    def setUp(self):
+        queue=patch.object(complete_update.pending,'refresh')
+        self.addCleanup(queue.stop);self.queue_refresh=queue.start()
+
     def fixture(self, root, names=('x',)):
         canonical = root/'canonical'
         rows = []
@@ -296,7 +300,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update,'external_plan') as external,
                   patch.object(complete_update,'publish_integrations') as integrations,
                   patch.object(complete_update,'sync_site') as site,
-                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--package','x'])):
+                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--publish','--package','x'])):
                 complete_update.main()
             external.assert_not_called();integrations.assert_not_called();site.assert_called_once()
             pending.assert_called_once_with(['x']);unfinished.assert_called_once_with(['x'])
@@ -312,7 +316,7 @@ class CompletionContractTests(unittest.TestCase):
             original=receipt.read_bytes()
             with (patch.object(complete_update,'ROOT',root),
                   patch.object(complete_update,'external_plan') as external,
-                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--package','x'])):
+                  patch.object(sys,'argv',['complete_update.py','--config',str(config),'--publish','--package','x'])):
                 with self.assertRaisesRegex(ValueError,'incompatible package scope'):complete_update.main()
             external.assert_not_called();self.assertEqual(receipt.read_bytes(),original)
 
@@ -482,7 +486,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'command') as command,
                   patch.object(complete_update, 'publish_pending', return_value=prior['published']) as publish,
                   patch.object(complete_update, 'sync_site') as sync,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--reconcile-only'])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish', '--reconcile-only'])):
                 complete_update.main()
             prepare.assert_not_called()
             publish.assert_not_called()
@@ -506,7 +510,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'publish_pending') as publish,
                   patch.object(complete_update, 'sync_site') as sync,
                   patch.object(complete_update, 'command') as command,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config)])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish'])):
                 complete_update.main()
             prepare.assert_called_once()
             sync.assert_called_once()
@@ -528,7 +532,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'publish_pending') as publish,
                   patch.object(complete_update, 'sync_site') as sync,
                   patch.object(complete_update, 'command') as command,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--reconcile-only'])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish', '--reconcile-only'])):
                 complete_update.main()
             prepare.assert_not_called()
             publish.assert_not_called()
@@ -555,7 +559,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'prepare') as prepare,
                   patch.object(complete_update, 'publish_pending') as publish,
                   patch.object(complete_update, 'sync_site') as sync,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--reconcile-only'])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish', '--reconcile-only'])):
                 complete_update.main()
             commit.assert_called_once()
             plan.assert_not_called()
@@ -640,7 +644,7 @@ class CompletionContractTests(unittest.TestCase):
             with (state/'completion.lock').open('w') as lock:
                 fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
                 with (patch.object(complete_update, 'ROOT', root),
-                      patch.object(sys, 'argv', ['complete_update.py', '--config', str(config)])):
+                      patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish'])):
                     with self.assertRaisesRegex(SystemExit, 'Another completion run'):
                         complete_update.main()
 
@@ -655,7 +659,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'prepare', return_value=[]),
                   patch.object(complete_update, 'command') as command,
                   patch.object(complete_update, 'sync_site') as sync,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config)])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish'])):
                 complete_update.main()
             command.assert_not_called()
             sync.assert_called_once()
@@ -692,7 +696,7 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'publish_pending', side_effect=publish),
                   patch.object(complete_update, 'publish_integrations'),
                   patch.object(complete_update, 'sync_site') as sync,
-                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config)])):
+                  patch.object(sys, 'argv', ['complete_update.py', '--config', str(config), '--publish'])):
                 complete_update.main()
             self.assertEqual(observed, ['pending', 'prepare', 'pending', 'commit',
                                         'validate', 'push', 'publish'])
