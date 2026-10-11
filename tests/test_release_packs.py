@@ -2,11 +2,11 @@
 
 import json
 import hashlib
-import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
+import urllib.request
 from pathlib import Path
 from unittest.mock import patch
 
@@ -22,12 +22,20 @@ class HooksPackTest(unittest.TestCase):
     def test_published_baseline_archive_matches_tag_tree(self):
         files = packs._files(ROOT, BASE)
         self.assertEqual(len(files), 9)
+        _, product = packs._load(ROOT)
+        release = next(row for row in product['releases'] if row['version'] == '0.1.0')
+        asset = next(row for row in release['assets'] if row['role'] == 'installation')
+        request = urllib.request.Request(asset['url'], headers={
+            'User-Agent': 'working-tools-release-validation/1.0'})
+        with urllib.request.urlopen(request, timeout=30) as response:
+            archive_bytes = response.read()
+        self.assertEqual(len(archive_bytes), asset['size'])
+        self.assertEqual(hashlib.sha256(archive_bytes).hexdigest(), asset['sha256'])
         self.assertTrue(packs._archive_matches(
-            (ROOT / 'dist/release-manager/hooks-baseline.zip').read_bytes(), '0.1.0', files))
-        document, product = packs._load(ROOT)
-        self.assertEqual(product['version'], '0.1.0')
-        self.assertEqual(product['source_commit'], BASE)
-        self.assertEqual(product['source_files'], files)
+            archive_bytes, '0.1.0', files))
+        self.assertEqual(release['git_tag'], 'codex-host-hooks/v0.1.0')
+        self.assertEqual(release['source_commit'], BASE)
+        self.assertEqual(release['source_files'], files)
 
     def test_complete_history_projection_uses_tagged_archive_bytes(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -60,7 +68,19 @@ class HooksPackTest(unittest.TestCase):
             subprocess.check_call(['git', 'config', 'user.email', 'fixture@example.test'], cwd=source)
             subprocess.check_call(['git', 'init', '--bare', '--quiet', str(remote)])
             subprocess.check_call(['git', 'remote', 'set-url', 'origin', str(remote)], cwd=source)
-            shutil.copyfile(ROOT / packs.CATALOG, source / packs.CATALOG)
+            document, _ = packs._load(ROOT)
+            product = document['products'][0]
+            baseline = next(row for row in product['releases'] if row['version'] == '0.1.0')
+            self.assertEqual(baseline['source_commit'], BASE)
+            self.assertEqual(baseline['source_files'], packs._files(ROOT, BASE))
+            product['version'] = baseline['version']
+            product['source_commit'] = BASE
+            product['source_files'] = baseline['source_files']
+            product['compatibility'] = baseline['compatibility']
+            product['upgrade_guidance'] = baseline['upgrade_guidance']
+            product['releases'] = [baseline]
+            document.pop('completion_receipt', None)
+            (source / packs.CATALOG).write_text(json.dumps(document, indent=2) + '\n')
             subprocess.check_call(['git', 'add', packs.CATALOG], cwd=source)
             subprocess.check_call(['git', 'commit', '-qm', 'Seed integration catalog'], cwd=source)
             subprocess.check_call(['git', 'push', '-q', '-u', 'origin', 'main'], cwd=source)
