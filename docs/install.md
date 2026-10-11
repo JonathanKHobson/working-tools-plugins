@@ -56,12 +56,17 @@ The repository includes complete methods and source packs, so its full Git check
 For a new marketplace registration, fetch the marketplace manifest and only the package you want. These commands acquired Research Toolkit through both native managers with all 103 package files intact:
 
 ```sh
-codex plugin marketplace add JonathanKHobson/working-tools-plugins --ref main --sparse .agents/plugins/marketplace.json --sparse plugins/research-methodology-local
+codex plugin marketplace add JonathanKHobson/working-tools-plugins \
+  --ref main \
+  --sparse .agents/plugins/marketplace.json \
+  --sparse plugins/research-methodology-local
 codex plugin add research-methodology-local@working-tools
 ```
 
 ```sh
-claude plugin marketplace add https://github.com/JonathanKHobson/working-tools-plugins.git --sparse .claude-plugin plugins/research-methodology-local
+claude plugin marketplace add \
+  https://github.com/JonathanKHobson/working-tools-plugins.git \
+  --sparse .claude-plugin plugins/research-methodology-local
 claude plugin install research-methodology-local@working-tools
 ```
 
