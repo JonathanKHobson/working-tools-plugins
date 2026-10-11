@@ -12,6 +12,8 @@ jobs:
           python-version: '3.12'
       - run: python scripts/packages.py validate
       - run: python -m unittest discover -s tests -v
+      - name: Test optional Codex host hooks in isolated state
+        run: python -B -m unittest discover -s integrations/codex-host-hooks/tests -v
       - run: python -m unittest discover -s plugins/artcraft-design-toolkit/tests -v
       - name: Enforce reviewed source coverage and verify release archives
         run: python scripts/packages.py release

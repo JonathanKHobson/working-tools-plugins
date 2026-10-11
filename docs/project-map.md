@@ -8,7 +8,9 @@ Working Tools is a public collection of separately installable AI workflows and 
 - `scripts/packages.py`: reference/privacy validation, marketplace generation, development builds and the strict release command.
 - `scripts/source_inventory.py` and `scripts/release_archive.py`: source completeness and archive-byte verification.
 - `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json`: generated host catalogs.
-- `docs/`: installation, compatibility, architecture and recovery guidance.
+- `docs/`: installation, compatibility, architecture, system-context transparency and recovery guidance.
+- `examples/AGENTS.starter.md`: illustrative public instructions; not automatically active.
+- `integrations/codex-host-hooks/`: optional portable lifecycle hooks, explicit setup and isolated tests. This is a host integration, outside the plugin registry.
 - `.github/`: validation and contributor entry paths.
 - `dist/`: ignored generated packages; release downloads live in GitHub Releases.
 

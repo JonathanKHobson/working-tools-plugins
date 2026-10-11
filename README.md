@@ -41,6 +41,10 @@ Practical AI workflows and local tools by Kyle Hobson. Choose an individual pack
 
 Check [tested compatibility](docs/compatibility.md) before choosing a host. A workflow can help an agent use an app; it does not supply that app, a paid account or a remotely hosted service. The [release registry](catalog/packages.json) owns versions and availability. Provider-owned tools and restricted local Studios are not silently bundled.
 
+## Understand the setup
+
+[Behind the tools](docs/system-context.md) explains how instructions, hooks, memory, conversation context and agent coordination can affect a workflow. It includes a public instruction starter and a hook coverage record without exposing private host data.
+
 ## Find the next step
 
 - First-time users: [install and run a small task](docs/install.md).

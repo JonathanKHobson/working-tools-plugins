@@ -84,3 +84,7 @@ Claude also supports a longer fetch timeout with `CLAUDE_CODE_PLUGIN_GIT_TIMEOUT
 - Local MCP cannot start: check Python on PATH and the installed plugin root; run the gateway's documented direct stdio command.
 - A package update changes behavior: pin a prior namespaced tag and reinstall; retain your projects separately from the install cache.
 - Never paste credentials, personal documents or full machine configuration into an issue. Use a synthetic reproduction and [support guidance](../SUPPORT.md).
+
+## Understand the host context
+
+Installing a package does not import the maintainer's private instructions, memories or conversations. Read [Behind the tools](system-context.md) for context boundaries, optional hooks and a reproducible first-task check.

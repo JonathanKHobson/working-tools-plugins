@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "license": "CC-BY-SA-4.0",
+  "author": "Jonathan Kyle Hobson",
+  "edition": "portable adaptation of registered lifecycle behaviors",
+  "sources": [
+    {
+      "source_name": "codex_artifact_prompt_hook.py",
+      "sha256": "1bd76a48e1b557e8bca179d9001e1b9befb0f1c6c12774fdc6f2efbf2c86cd52"
+    },
+    {
+      "source_name": "codex_artifact_quality_gate.py",
+      "sha256": "7b8e59b7120377cafe1dcb18a7efd2b9f851d2403b7294a5f29694672a9d0790"
+    },
+    {
+      "source_name": "codex_stop_closeout_check.py",
+      "sha256": "05d7ebcc3699dd1a66c33ebe33941574d0181330746bd060ef56de6fedf3d715"
+    }
+  ],
+  "source_binding": "Maintainer-held local source snapshot. Basenames and hashes only; no private absolute paths distributed.",
+  "retained": [
+    "UserPromptSubmit prompt extraction and operative artifact obligation classifier",
+    "Original review obligation ordering, labels and routing hints",
+    "Stop pending scoped obligation continuation and stop_hook_active guard",
+    "Task-owned resource closeout reminder with preservation and verification guidance"
+  ],
+  "replaced": [
+    "Private combined state file with bounded per-scope private records and opaque keys",
+    "Prompt previews, raw identifiers and workspace fields with obligation status only",
+    "Manual completion metadata with explicit attestation and reason-presence flags",
+    "Environment or workspace scope fallback with explicit payload session or turn IDs; no unscoped state access"
+  ],
+  "excluded": [
+    "Author-host paths, private configuration, personal instructions and memories",
+    "Global process, Git, MCP and active-config diagnostic scanning",
+    "KSB and memory logging",
+    "Optional pressure helper and diagnostic CLI modes"
+  ],
+  "limitations": [
+    "Heuristic obligations can be wrong; marking is not independent verification",
+    "Newest valid prompt replaces earlier checks within the session scope",
+    "Fail-open hook behavior; manual configuration and native exact-definition trust required",
+    "Live native registration and execution not established by isolated tests"
+  ]
+}
