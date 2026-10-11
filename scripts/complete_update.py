@@ -242,6 +242,16 @@ def prepare(config):
             if ident not in by_id:raise ValueError('Unknown reviewed addition product: '+ident)
             admitted=local_sync.reviewed_additions(ROOT,canonical,ident,additions,canonical_sources)
             changes.setdefault(ident,{}).update(admitted)
+    # Preflight the whole affected batch before content or version writes.
+    inventory=load(ROOT/'catalog/source-inventory.json')
+    reviewed={row['id']:row for row in inventory['packages']}
+    roots=local_sync.approved_product_roots(ROOT,canonical,canonical_sources,product_ids=changes)
+    for ident in changes:
+        if 'CHANGELOG.md' not in reviewed[ident]['files']:
+            raise ValueError(ident+': CHANGELOG.md must be admitted to the reviewed source inventory before preparation')
+        for base in (ROOT/'plugins'/ident,roots[ident]):
+            if not local_sync.safe_file(base,'CHANGELOG.md').is_file():
+                raise ValueError(ident+': reviewed CHANGELOG.md must exist in both public and canonical source before preparation')
     # Check every semantic change record before modifying a source.
     for ident,paths in changes.items():
         note_file=notes_root/(ident+'.json')
@@ -283,6 +293,7 @@ def publish_pending(config,receipt):
     registry=load(ROOT/'catalog/packages.json')['packages']
     by_id={row['id']:row for row in registry}
     published={(row['id'],row['version']):row for row in receipt.get('published',[])}
+    manifests={}  # Invocation-local reuse; every product still passes its own release checks.
     for planned in receipt.get('changed',[]):
         record=by_id.get(planned['id'])
         if record is None or record['version']!=planned['version']:
@@ -294,7 +305,9 @@ def publish_pending(config,receipt):
         source=run('git','log','-1','--format=%H','--',str(entry_path.relative_to(ROOT)),cwd=ROOT).decode().strip()
         if len(source)!=40:raise ValueError('Release record must be committed before publishing')
         out=ROOT/'dist/release-manager'/source
-        manifest=exact_commit_build(ROOT,source,out)
+        if source not in manifests:
+            manifests[source]=exact_commit_build(ROOT,source,out)
+        manifest=manifests[source]
         built=next(x for x in manifest['packages'] if x['id']==record['id'])
         if built['version']!=record['version']:raise ValueError('Release entry version not in selected source')
         archive=out/built['file'];files=out/(archive.stem+'.files.json')

@@ -23,8 +23,24 @@ def files(root):
   if p.is_symlink():raise ValueError(f'Symlink is not distributable: {p.relative_to(ROOT)}')
   if p.is_file() and not any(x in p.parts for x in ['__pycache__','.pytest_cache','.git','.venv']) and p.name!='.DS_Store' and not p.name.endswith(('.pyc','.pyo')):yield p
 
+# These retired instruction-only packs are incorporated methods, not execution
+# dependencies. Official host providers and real apps/APIs/runtimes remain valid.
+INCORPORATED_METHOD_PACKS = (
+ 'aihumanizer', 'uiuxdesigner', 'coverletterwriter', 'injectionchecker',
+ 'promptengineer', 'spreadsheethumanux', 'researchwritingguardrails',
+ 'codexmaterialthemes',
+)
+
+def method_requirement_errors(record):
+ errors=[]
+ for requirement in record.get('requirements',[]):
+  normalized=re.sub(r'[^a-z0-9]','',requirement.lower())
+  if any(name in normalized for name in INCORPORATED_METHOD_PACKS):
+   errors.append(f"{record['id']}: incorporated method pack cannot be an installation requirement: {requirement}")
+ return errors
+
 def validate_package(record):
- root=ROOT/'plugins'/record['id'];errors=[]
+ root=ROOT/'plugins'/record['id'];errors=method_requirement_errors(record)
  exceptions_path=ROOT/'catalog/validation-exceptions.json'
  exceptions=read_json(exceptions_path).get(record['id'],{}) if exceptions_path.exists() else {}
  def exempt(kind,p,target=None):

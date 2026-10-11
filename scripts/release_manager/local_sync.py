@@ -154,7 +154,15 @@ def reviewed_additions(root, canonical, ident, additions, canonical_sources=None
 
 
 def metadata_entries(document, name):
-    entries=list(document.get('files',[]))
+    files=document.get('files',[])
+    if isinstance(files,dict):
+        if any(not isinstance(path,str) or not isinstance(value,str) for path,value in files.items()):
+            raise ValueError('Invalid path-to-hash metadata: '+name)
+        entries=[{'path':path,'sha256':value} for path,value in files.items()]
+    elif isinstance(files,list) and all(isinstance(entry,dict) for entry in files):
+        entries=list(files)
+    else:
+        raise ValueError('Invalid metadata files shape: '+name)
     if name=='PROVENANCE.json':
         # These are public projection inventories, rather than archived input receipts.
         entries.extend(document.get('added_files',[]))
@@ -190,6 +198,8 @@ def refresh_metadata(public, allowed, version):
                 if not fields:fields=['output_sha256']
                 value=digest(path.read_bytes())
                 for field in fields:entry[field]=value
+                if isinstance(document.get('files'),dict) and rel in document['files']:
+                    document['files'][rel]=value
                 if 'bytes' in entry:entry['bytes']=path.stat().st_size
             write(public/name,document)
             pending.remove(name)
