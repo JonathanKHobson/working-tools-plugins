@@ -49,7 +49,9 @@ def verify_promotion(expected, pages=None, tag_resolver=None):
 
 
 def live_digest(url):
-    with urllib.request.urlopen(url.rstrip('/')+'/data/release-history.json',timeout=60) as response:
+    request = urllib.request.Request(url.rstrip('/')+'/data/release-history.json',
+        headers={'User-Agent': 'WorkingTools-ReleaseVerifier/1.0', 'Accept': 'application/json'})
+    with urllib.request.urlopen(request,timeout=60) as response:
         return hashlib.sha256(response.read()).hexdigest()
 
 
@@ -79,7 +81,7 @@ def main():
     prompt=f'''Complete ONLY the authorized Working Tools release catalog deployment described in {request}. The user has authorized publication of these exact public updates. Read the request, site AGENTS.md, docs/project-map.md and .openai/hosting.json. Do not start a new goal, delegate, schedule work, edit unrelated source or change site audience. Do not publish packages again.
 Copy the supplied schema-validated release catalog to site data/release-history.json, run scripts/sync_plugin_registry.py against the public_source current commit, render static release pages, and run site validators. Preserve all existing components, useful URLs and historical downloads. Commit only these generated release/catalog changes (if any), fetch origin and ensure a fast-forward update without overwriting concurrent work. Push the verified maintained site source. Build using scripts/build_working_tools_site.py with an exact root revision and existing companion pins, using request.sources_dir for the companion checkouts when provided, or cloning the public repositories as needed. Keep generated Sites source separate.
 Use the existing Sites connector: get_site, create_source_repository_write_credential, push exact prepared Sites source with credential kept private, save_site_version with a local tar archive, deploy_site_version, and get_deployment_status until succeeded. No unsupported HTTP endpoint or guessed credentials. Run the exact promotion_check argv from the request immediately before deploy_site_version to recheck canonical GitHub release state; if it has advanced beyond expected_file, stop with catalog_pending instead of rolling it back. Reconcile an already completed identical deployment before creating another version.
-Verify the live /data/release-history.json SHA256 equals catalog_sha256 and all expected product/version/hash selections match it. Write receipt_file JSON with status='deployed', deployment_id, source_commit (exact pushed Sites source), maintained_source_commit, catalog_sha256, published_set copied only after live match, live_url and saved version_id. If any capability/access is unavailable, write status='catalog_pending' with the precise dependency and do not claim success. Never log tokens. Return concise actual results.'''
+Verify the live /data/release-history.json SHA256 equals catalog_sha256 and all expected product/version/hash selections match it. Use User-Agent WorkingTools-ReleaseVerifier/1.0 and Accept application/json for public readback; the host rejects Python's default user agent. Write receipt_file JSON with status='deployed', deployment_id, source_commit (exact pushed Sites source), maintained_source_commit, catalog_sha256, published_set copied only after live match, live_url and saved version_id. If any capability/access is unavailable, write status='catalog_pending' with the precise dependency and do not claim success. Never log tokens. Return concise actual results.'''
     with (config_path.parent/'site-promotion.lock').open('w') as lock:
         try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:raise SystemExit('Another Site promotion is active; retry synchronization after it settles.')

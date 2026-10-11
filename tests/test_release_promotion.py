@@ -8,6 +8,17 @@ spec=importlib.util.spec_from_file_location('release_site_bridge',ROOT/'scripts/
 bridge=importlib.util.module_from_spec(spec);spec.loader.exec_module(bridge)
 
 class PromotionTests(unittest.TestCase):
+    def test_public_readback_identifies_verifier_and_hashes_exact_bytes(self):
+        import hashlib
+        import io
+        from unittest.mock import patch
+        body = b'{"schema_version": 1, "products": []}\n'
+        with patch.object(bridge.urllib.request, 'urlopen', return_value=io.BytesIO(body)) as read:
+            self.assertEqual(bridge.live_digest('https://example.test/'), hashlib.sha256(body).hexdigest())
+        request = read.call_args.args[0]
+        self.assertEqual(request.full_url, 'https://example.test/data/release-history.json')
+        self.assertEqual(request.get_header('User-agent'), 'WorkingTools-ReleaseVerifier/1.0')
+        self.assertEqual(request.get_header('Accept'), 'application/json')
     def expected(self):return [{'product_id':'a','version':'1.2.0','sha256':'b'*64,'source_commit':'a'*40}]
     def release(self,version='1.2.0',**kw):return dict(tag_name='a/v'+version,draft=False,prerelease=False,assets=[dict(name='a-'+version+'.zip',state='uploaded',digest='sha256:'+'b'*64)],**kw)
     def test_current_and_backport(self):
