@@ -484,6 +484,18 @@ def current_published_set(catalog):
     return sorted(expected,key=lambda row:row['product_id'])
 
 
+def promote_verified_registry(catalog):
+    """Mark prepared versions released only when verified history selects them."""
+    verified={row['product_id']:row for row in current_published_set(catalog)}
+    path=ROOT/'catalog/packages.json';registry=load(path);changed=False
+    for row in registry['packages']:
+        published=verified.get(row['id'])
+        if row['distribution']=='prepared' and published and published['version']==row['version']:
+            row['distribution']='released';changed=True
+    if changed:save(path,registry)
+    return changed
+
+
 def sync_site(config,receipt):
     # A host adapter is an explicit argv array, never shell interpolation.
     adapter=config.get('site_adapter')
@@ -501,9 +513,10 @@ def sync_site(config,receipt):
         raise ValueError('Release history sync returned no durable catalog')
     if run('git','diff','--cached','--name-only','-z',cwd=ROOT):
         raise ValueError('Unrelated staged changes exist before catalog commit')
-    command('git','add','--','catalog/release-history.json')
+    promote_verified_registry(load(catalog_path))
+    command('git','add','--','catalog/release-history.json','catalog/packages.json')
     staged={p.decode() for p in run('git','diff','--cached','--name-only','-z',cwd=ROOT).split(b'\0') if p}
-    if staged not in (set(),{'catalog/release-history.json'}):
+    if not staged <= {'catalog/release-history.json','catalog/packages.json'}:
         raise ValueError('Catalog staging escaped its one-file scope')
     if staged:
         command('git','commit','-m','Refresh Working Tools release catalog')

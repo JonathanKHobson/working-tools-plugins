@@ -87,7 +87,8 @@ def _manifest_from_remote_tree(archive, tree):
 
 
 def _supported_layout(archive, expected, product_id, version):
-    required = ('plugin.json', '.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'README.md')
+    root_manifest = 'plugin.json' if 'plugin.json' in expected else 'plugin.portable.json'
+    required = (root_manifest, '.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'README.md')
     if not all(path in expected for path in required):
         return False
     try:

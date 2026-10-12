@@ -757,7 +757,7 @@ class CompletionContractTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             catalog_path = root/'catalog/release-history.json'; catalog_path.parent.mkdir(parents=True)
-            (root/'catalog/packages.json').write_text(json.dumps({'packages': [{'id': 'x'}]}))
+            (root/'catalog/packages.json').write_text(json.dumps({'packages': [{'id': 'x','version':'1.0.0','distribution':'released'}]}))
             catalog_path.write_text(json.dumps({'products': [{'id': 'x', 'kind': 'plugin',
                 'current_release_key': 'x/v1.0.0', 'releases': [{'release_key': 'x/v1.0.0',
                 'version': '1.0.0', 'source_commit': 'a'*40,
