@@ -9,7 +9,7 @@ Reviewed October 11, 2026. This record distinguishes source availability, option
 | Gmail review gate | `PreToolUse` for supported send and forward tools | [Solo Service Operations: Gmail send review](../plugins/solo-service-operations/skills/gmail-send-review/) | Already published; recipient setup is optional and must match the receiving tool names. It is not a universal interceptor for browser or other-provider sends |
 | Prompt-crafting advice | `UserPromptSubmit` | [Prompt Playbook hooks](../plugins/prompt-playbook-studio/hooks/) | Already published with its owner; distinct from artifact-review state tracking |
 | Interface craft review | `PostToolUse`, `Stop` | [UX Design hooks](../plugins/ux-design-toolkit/hooks/) | Already published with its owner; receiving runtime and trust must be checked |
-| Work setup, continuity and review reminders | `UserPromptSubmit`, `SessionStart`, `Stop` | [Work Management optional hooks](../plugins/work-management/optional-hooks/) | Already published as optional templates and helpers. The author's local automatic registration is not installed by the public package |
+| Work setup, continuity and review reminders | `UserPromptSubmit`, `SessionStart`, `Stop` | [Work Management optional hooks](../plugins/work-management/optional-hooks/) | Already published and registered in the package manifests; the recipient's native enable/trust/settings step still governs activation |
 
 ## What the inventory established
 

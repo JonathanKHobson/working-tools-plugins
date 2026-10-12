@@ -207,11 +207,15 @@ class CompletionContractTests(unittest.TestCase):
             self.assertEqual(entries[0]['changed_files'],['LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json',relative])
             durable=local_sync.read(root/'catalog/releases/x/1.0.1.json')
             self.assertEqual(durable['changed_files'],entries[0]['changed_files'])
+            canonical_seed_version={'PROVENANCE.json':'1.0.0','LICENSE-SCOPE.json':'0.9.0',
+                                     'PUBLIC_FILE_MANIFEST.json':'0.9.0'}
             for name in ('PROVENANCE.json','LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json'):
                 self.assertIn('plugins/x/'+name,paths)
                 document=local_sync.read(root/'plugins/x'/name)
                 self.assertEqual(document['version'],'1.0.1')
-                self.assertEqual((root/'plugins/x'/name).read_bytes(),(canonical/'x'/name).read_bytes())
+                # Publication never writes canonical, so canonical keeps its
+                # pre-release version rather than mirroring the public bump.
+                self.assertEqual(local_sync.read(canonical/'x'/name)['version'],canonical_seed_version[name])
                 for row in document['files']:
                     rel=local_sync.entry_path(row)
                     for key in local_sync.current_hash_fields(row):
@@ -283,7 +287,7 @@ class CompletionContractTests(unittest.TestCase):
     def test_selected_package_does_not_reconcile_unselected_private_changes(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);canonical=self.fixture(root,('x','y'))
-            (root/'plugins/x/README.md').write_text('Selected correction.\n')
+            (canonical/'x/README.md').write_text('Selected correction.\n')
             (canonical/'y/README.md').write_text('Unrelated private work.\n')
             (root/'catalog/changes/y.json').unlink()
             with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'):
@@ -324,17 +328,17 @@ class CompletionContractTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'incompatible package scope'):complete_update.main()
             external.assert_not_called();self.assertEqual(receipt.read_bytes(),original)
 
-    def test_committed_public_instruction_is_detected_by_actual_prepare(self):
+    def test_committed_canonical_instruction_is_detected_by_actual_prepare(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             canonical = self.fixture(root)
-            (root/'plugins/x/README.md').write_text('corrected readme\n')
+            (canonical/'x/README.md').write_text('corrected readme\n')
             with (patch.object(complete_update, 'ROOT', root),
                   patch.object(complete_update, 'command') as command):
                 entries = complete_update.prepare({'canonical_root': str(canonical)})
             self.assertEqual(entries[0]['version'], '1.0.1')
             self.assertEqual(entries[0]['changed_files'], ['README.md'])
-            self.assertEqual((canonical/'x/README.md').read_text(), 'corrected readme\n')
+            self.assertEqual((root/'plugins/x/README.md').read_text(), 'corrected readme\n')
             self.assertFalse((root/'catalog/changes/x.json').exists())
             inventory_calls = [call.args for call in command.call_args_list if 'scripts/source_inventory.py' in call.args]
             self.assertEqual(inventory_calls, [(sys.executable, '-B', 'scripts/source_inventory.py',
@@ -344,6 +348,20 @@ class CompletionContractTests(unittest.TestCase):
                 self.assertEqual(complete_update.prepare({'canonical_root': str(canonical)}), [])
             inventory_calls = [call.args for call in command.call_args_list if 'scripts/source_inventory.py' in call.args]
             self.assertEqual(inventory_calls, [(sys.executable, '-B', 'scripts/source_inventory.py')])
+
+    def test_public_only_instruction_is_a_reviewed_projection_and_never_republished(self):
+        """A public-only edit with no canonical counterpart is left exactly as
+        made; publication neither reverts it nor writes it back into canonical."""
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            canonical = self.fixture(root)
+            (root/'plugins/x/README.md').write_text('public-only correction\n')
+            canonical_before = (canonical/'x/README.md').read_bytes()
+            with (patch.object(complete_update, 'ROOT', root),
+                  patch.object(complete_update, 'command')):
+                self.assertEqual(complete_update.prepare({'canonical_root': str(canonical)}), [])
+            self.assertEqual((root/'plugins/x/README.md').read_text(), 'public-only correction\n')
+            self.assertEqual((canonical/'x/README.md').read_bytes(), canonical_before)
 
     def test_committed_validation_checks_only_releasing_canonical_product(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -368,11 +386,13 @@ class CompletionContractTests(unittest.TestCase):
         for original in headings:
             with self.subTest(original=original), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory); canonical = self.fixture(root)
+                canonical_changelog_before = (canonical/'x/CHANGELOG.md').read_bytes()
                 public_changelog = root/'plugins/x/CHANGELOG.md'
                 public_changelog.write_bytes(original)
                 local_sync.refresh_reviewed(root, canonical, 'x', '0.3.0', 'Generated notes')
                 self.assertEqual(public_changelog.read_bytes(), original)
-                self.assertEqual((canonical/'x/CHANGELOG.md').read_bytes(), original)
+                # Publication never writes canonical, so it stays exactly as it was.
+                self.assertEqual((canonical/'x/CHANGELOG.md').read_bytes(), canonical_changelog_before)
 
     def test_refresh_inserts_missing_version_despite_prefix_collision(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -403,7 +423,9 @@ class CompletionContractTests(unittest.TestCase):
             self.assertTrue(all(row['shared_sources'] == ['shared/template.md'] for row in entries))
             for ident in ('x', 'y'):
                 self.assertEqual((root/'plugins'/ident/'references/shared.md').read_bytes(), source.read_bytes())
-                self.assertEqual((canonical/ident/'references/shared.md').read_bytes(), source.read_bytes())
+                # Publication never writes canonical; the shared-repo-root source
+                # bytes are not fed back into each package's canonical tree.
+                self.assertEqual((canonical/ident/'references/shared.md').read_bytes(), b'original instruction\n')
             self.assertIn('shared/template.md', complete_update.scoped_paths(entries))
 
     def test_prepare_accepts_only_pinned_product_root_link_for_shared_bytes(self):
@@ -422,7 +444,8 @@ class CompletionContractTests(unittest.TestCase):
                   patch.object(complete_update, 'command')):
                 entries = complete_update.prepare(config)
             self.assertEqual(entries[0]['changed_files'], ['references/shared.md'])
-            self.assertEqual((physical/'references/shared.md').read_bytes(), source.read_bytes())
+            # Publication never writes canonical, even through a pinned product-root link.
+            self.assertEqual((physical/'references/shared.md').read_bytes(), b'original instruction\n')
             self.assertEqual((root/'plugins/x/references/shared.md').read_bytes(), source.read_bytes())
 
     def test_scoped_paths_exclude_unrelated_infrastructure(self):

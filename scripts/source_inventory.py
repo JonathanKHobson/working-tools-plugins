@@ -318,6 +318,25 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
                 errors.append(f'{label}: invalid sha256 for {path}')
             else:
                 valid_files[path] = digest
+        # canonical_files is optional: it records the last-known canonical byte
+        # hashes separately from the shipped public hashes (valid_files), since
+        # publication only ever copies canonical -> public and never writes
+        # canonical, so the two can legitimately diverge (e.g. a version bump).
+        # Absent entirely, canonical is assumed to still mirror the public tree.
+        canonical_locked = row.get('canonical_files')
+        valid_canonical_files = valid_files
+        if canonical_locked is not None:
+            if not isinstance(canonical_locked, dict):
+                errors.append(f'{label}: canonical_files must be a path-to-sha256 object')
+            else:
+                valid_canonical_files = {}
+                for path, digest in canonical_locked.items():
+                    if path not in valid_files:
+                        errors.append(f'{label}: canonical_files path not in files: {path}')
+                    elif not _digest(digest):
+                        errors.append(f'{label}: invalid canonical sha256 for {path}')
+                    else:
+                        valid_canonical_files[path] = digest
         source = row.get('canonical_source')
         source = source if isinstance(source, dict) else {}
         owner = source.get('id')
@@ -392,9 +411,9 @@ def validate_inventory(repo_root: Path, records: list[dict], canonical_root: Pat
             alias_paths = _verified_alias_paths(source_root, aliases, 'canonical '+owner, errors) if source_root is not None else set()
             actual_source = _physical(source_root, 'canonical '+owner, errors, excluded_aliases=alias_paths) if source_root is not None else None
             if actual_source is not None:
-                included_source = {path: digest for path, digest in actual_source.items() if path in valid_files}
-                _compare(valid_files, included_source, 'canonical '+owner, errors)
-                extras = {path: digest for path, digest in actual_source.items() if path not in valid_files}
+                included_source = {path: digest for path, digest in actual_source.items() if path in valid_canonical_files}
+                _compare(valid_canonical_files, included_source, 'canonical '+owner, errors)
+                extras = {path: digest for path, digest in actual_source.items() if path not in valid_canonical_files}
                 scopes = sorted({row['scope'] for row in dispositions
                                  if isinstance(row, dict) and _scope(row.get('scope'))})
                 if any(not any(_covered_by_scope(path, scope) for scope in scopes) for path in extras):

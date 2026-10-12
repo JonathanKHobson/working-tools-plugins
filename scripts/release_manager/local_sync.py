@@ -7,6 +7,48 @@ import re
 
 MANIFESTS=('plugin.json','.codex-plugin/plugin.json','.claude-plugin/plugin.json')
 
+# Only these host-native compatibility manifests are actually dispatched for
+# hooks/MCP servers at runtime (Codex reads .codex-plugin, Claude reads
+# .claude-plugin). The portable root manifest (plugin.json, or
+# plugin.portable.json for packages where a root Agent Plugins manifest would
+# otherwise make the installed Codex CLI skip native hook discovery) is
+# metadata only, so it is intentionally excluded from registration parity.
+REGISTRATION_MANIFESTS=('.codex-plugin/plugin.json','.claude-plugin/plugin.json')
+
+def root_manifest_name(base):
+    return next((n for n in ('plugin.json','plugin.portable.json') if (Path(base)/n).is_file()),None)
+
+def version_manifest_names(base):
+    root=root_manifest_name(base)
+    return list(REGISTRATION_MANIFESTS)+([root] if root else [])
+
+def registrations(document, prefix=''):
+    """Keep host registrations, including portable extensions, out of metadata sync."""
+    result={}
+    if isinstance(document,dict):
+        for key,value in document.items():
+            path=prefix+'/'+key if prefix else key
+            if key in {'hooks','mcpServers'}:result[path]=value
+            else:result.update(registrations(value,path))
+    return result
+
+def require_matching_registrations(ident, rel, source, public):
+    if rel not in REGISTRATION_MANIFESTS:return
+    local=registrations(read(source));remote=registrations(read(public))
+    # Exact, previously reviewed projections may use different portable paths.
+    # The pins must match both current manifests; edits invalidate the exception.
+    package=Path(public)
+    for _ in Path(rel).parts:package=package.parent
+    inventory=package.parent.parent/'catalog/source-inventory.json'
+    if inventory.is_file():
+        row=next((r for r in read(inventory).get('packages',[]) if r.get('id')==ident),{})
+        if (row.get('canonical_files',{}).get(rel)==digest(Path(source).read_bytes())
+                and row.get('files',{}).get(rel)==digest(Path(public).read_bytes())):
+            return
+    for field in sorted(set(local)|set(remote)):
+        if field not in local or field not in remote or local[field]!=remote[field]:
+            raise ValueError('Registration mismatch requires explicit reconciliation: '+ident+'/'+rel+' -> '+field)
+
 def digest(data):return hashlib.sha256(data).hexdigest()
 def read(path):return json.loads(Path(path).read_text())
 def write(path,data):Path(path).write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
@@ -61,7 +103,14 @@ def approved_product_roots(root, canonical, canonical_sources=None, *, product_i
 
 
 def plan(root, canonical, canonical_sources=None, *, product_ids=None):
-    """Only already-reviewed paths transfer. New/removals demand explicit review."""
+    """Only already-reviewed paths transfer, and only canonical -> public.
+
+    Canonical is never written by publication. A path's public bytes may
+    legitimately diverge from canonical (e.g. after a version bump, or a
+    deliberately reviewed public-only projection) without that being a
+    conflict; only a genuine disagreement between a fresh canonical edit and
+    an already-diverged public edit needs explicit reconciliation.
+    """
     root=Path(root);canonical=Path(canonical)
     changes={};conflicts=[]
     inventory=read(root/'catalog/source-inventory.json')
@@ -69,34 +118,45 @@ def plan(root, canonical, canonical_sources=None, *, product_ids=None):
     for row in inventory['packages']:
         if row['id'] not in roots:continue
         changed={}; public=root/'plugins'/row['id']; source=roots[row['id']]
-        for rel,base in row['files'].items():
+        canonical_base=row.get('canonical_files') or row['files']
+        for rel,public_base in row['files'].items():
+            source_base=canonical_base.get(rel,public_base)
             try:local=safe_file(source,rel);target=safe_file(public,rel)
             except ValueError:
                 conflicts.append(f"{row['id']}: unsafe source path {rel}");continue
             if not local.is_file() or not target.is_file():
                 conflicts.append(f"{row['id']}: review removal of {rel}");continue
             a=digest(local.read_bytes());b=digest(target.read_bytes())
-            if a!=base and b!=base and a!=b:
+            if a==source_base:continue  # Canonical unchanged: nothing to publish for this path.
+            if b!=public_base and b!=a:
                 conflicts.append(f"{row['id']}: divergent public and canonical edits: {rel}")
-            elif a!=base or b!=base:
-                changed[rel]={'source':'canonical' if a!=base else 'public','base':base,'sha256':a if a!=base else b}
+            else:
+                changed[rel]={'source':'canonical','base':source_base,'sha256':a,'public_sha256':b}
         if changed:changes[row['id']]=changed
     return changes,conflicts
 
 
 def apply_content(root, canonical, changes, canonical_sources=None):
+    """Copy canonical bytes into public only; canonical is never written."""
     root=Path(root);canonical=Path(canonical)
     roots=approved_product_roots(root,canonical,canonical_sources,product_ids=changes)
     for ident,paths in changes.items():
         for rel,change in paths.items():
+            if change.get('source')!='canonical':
+                raise ValueError('Publication may only copy canonical -> public: '+ident+'/'+rel)
+    # Preflight the entire batch before copying any files.
+    for ident,paths in changes.items():
+        for rel in paths:
+            require_matching_registrations(ident,rel,safe_file(roots[ident],rel),safe_file(root/'plugins'/ident,rel))
+    for ident,paths in changes.items():
+        for rel,change in paths.items():
             local=safe_file(roots[ident],rel);public=safe_file(root/'plugins'/ident,rel)
-            src=local if change['source']=='canonical' else public
-            dst=public if change['source']=='canonical' else local
-            data=src.read_bytes()
-            if digest(data)!=change['sha256']:raise ValueError('Source changed during completion: '+ident+'/'+rel)
-            if not dst.is_file() or digest(dst.read_bytes()) not in {change['base'],change['sha256']}:
+            data=local.read_bytes()
+            if digest(data)!=change['sha256']:raise ValueError('Canonical source changed during completion: '+ident+'/'+rel)
+            expected_public=change.get('public_sha256',change['base'])
+            if not public.is_file() or digest(public.read_bytes())!=expected_public:
                 raise ValueError('Destination changed during completion: '+ident+'/'+rel)
-            dst.write_bytes(data)
+            public.write_bytes(data)
 
 
 def entry_path(entry):
@@ -226,7 +286,9 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
             raise ValueError('Canonical source changed during metadata refresh: '+ident+'/'+rel)
         return path
     for rel in allowed:unchanged_source(rel)
-    for rel in MANIFESTS:
+    for rel in REGISTRATION_MANIFESTS:
+        require_matching_registrations(ident,rel,safe_file(source,rel),safe_file(public,rel))
+    for rel in version_manifest_names(public):
         data=read(public/rel);data['version']=version;write(public/rel,data)
     changelog=public/'CHANGELOG.md'
     if not changelog.is_file():raise ValueError('Package needs reviewed changelog path')
@@ -236,11 +298,15 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
     if not re.search(existing,old):
         changelog.write_text('# Changelog\n\n'+heading+'\n'+notes+'\n\n'+old.removeprefix('# Changelog').lstrip())
     refresh_metadata(public,allowed,version)
+    # Publication only ever reads canonical; it is never written here. The
+    # public tree is free to move ahead of canonical (e.g. this version bump),
+    # so the public and canonical hashes are tracked separately below.
     for rel in allowed:
         p=public/rel
         if p.is_symlink() or not p.is_file():raise ValueError('Missing/unsafe reviewed file: '+rel)
-        dst=unchanged_source(rel);dst.write_bytes(safe_file(public,rel).read_bytes())
+        unchanged_source(rel)
     row['version']=version;row['files']={p:digest((public/p).read_bytes()) for p in sorted(allowed)}
+    row['canonical_files']={p:expected_source_hashes[p] for p in sorted(allowed)}
     row['canonical_source']['revision']['sha256']=tree(row['files'])
     write(root/'catalog/packages.json',registry);write(root/'catalog/source-inventory.json',inventory)
     # Excluded scopes and coverage baseline intentionally remain untouched.

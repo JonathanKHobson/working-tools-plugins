@@ -39,15 +39,71 @@ def method_requirement_errors(record):
    errors.append(f"{record['id']}: incorporated method pack cannot be an installation requirement: {requirement}")
  return errors
 
+def hook_registration_errors(root, ident):
+ """Validate shipped operative hooks without activating archived library copies."""
+ errors=[]
+ def problem(message):errors.append(f'{ident}: {message}')
+ def hook_map(value, source, seen=None):
+  seen=set() if seen is None else seen
+  if isinstance(value,str):
+   relative=value.replace('${CLAUDE_PLUGIN_ROOT}/','').replace('${PLUGIN_ROOT}/','')
+   path=(root/relative).resolve()
+   if not path.is_relative_to(root.resolve()) or not path.is_file() or path.is_symlink():
+    problem(f'hook declaration path missing or escaping package: {source} -> {value}');return None
+   if path in seen:problem(f'cyclic hook declaration: {source}');return None
+   return hook_map(read_json(path),source,seen|{path})
+  if isinstance(value,dict):
+   result=value.get('hooks',value)
+   if isinstance(result,dict):return result
+  problem(f'missing or invalid hook registration: {source}');return None
+ # Only the host-native compatibility manifests (.codex-plugin for Codex,
+ # .claude-plugin for Claude) are actually dispatched for hooks at runtime.
+ # The portable root manifest (plugin.json/plugin.portable.json) uses the
+ # Agent Plugins "extensions.com.openai" format, which the installed Codex
+ # CLI's loader explicitly skips for hook discovery (core-plugins loader.rs),
+ # so it must never be treated as authoritative or required to match here.
+ for directory in ('hooks','optional-hooks'):
+  for name,manifest in (('hooks.json','.codex-plugin/plugin.json'),('claude-hooks.json','.claude-plugin/plugin.json')):
+   definition=root/directory/name
+   if not definition.is_file():continue
+   expected=hook_map(read_json(definition),f'{directory}/{name}')
+   if not expected:continue
+   if name=='hooks.json' and (root/'plugin.json').is_file():
+    problem('root plugin.json suppresses Codex hook discovery on the supported runtime; retain portable metadata as plugin.portable.json')
+   seen_handlers=set()
+   for event,groups in expected.items():
+    for group in groups:
+     for handler in group.get('hooks',[]):
+      command=handler.get('command','')
+      key=(event,group.get('matcher',''),command)
+      if key in seen_handlers:problem(f'duplicate or conflicting hook handler in {directory}/{name}: {event}')
+      seen_handlers.add(key)
+      for script in re.findall(r'(?:scripts|hooks)/[^\s"\x27}]+\.(?:py|js|mjs|sh)\b',command):
+       target=(root/script).resolve()
+       if not target.is_relative_to(root.resolve()) or not target.is_file():
+        problem(f'missing hook handler script: {script}')
+   declaration=root/manifest
+   if not declaration.is_file():
+    problem(f'missing or invalid hook registration: {manifest}');continue
+   actual=hook_map(read_json(declaration).get('hooks'),manifest)
+   if actual is not None and actual!=expected:
+    problem(f'{manifest} hook registration differs from shipped {directory}/{name}')
+ return errors
+
 def validate_package(record):
  root=ROOT/'plugins'/record['id'];errors=method_requirement_errors(record)
+ errors.extend(hook_registration_errors(root,record['id']))
  exceptions_path=ROOT/'catalog/validation-exceptions.json'
  exceptions=read_json(exceptions_path).get(record['id'],{}) if exceptions_path.exists() else {}
  def exempt(kind,p,target=None):
   digest=hashlib.sha256(p.read_bytes()).hexdigest();rel=p.relative_to(root).as_posix()
   return any(x['path']==rel and x.get('sha256',x.get('source_sha256'))==digest and (target is None or x.get('target')==target) for x in exceptions.get(kind,[]))
  def problem(s):errors.append(f"{record['id']}: {s}")
- for rel in ['plugin.json','.codex-plugin/plugin.json','.claude-plugin/plugin.json','README.md','LICENSE','THIRD_PARTY_NOTICES.md']:
+ # plugin.portable.json is the renamed portable root manifest for packages whose
+ # native .codex-plugin hooks would otherwise be skipped if a root plugin.json
+ # (Agent Plugins schema) were present; either name satisfies the portable manifest.
+ portable_rel=next((n for n in ('plugin.json','plugin.portable.json') if (root/n).is_file()),'plugin.json')
+ for rel in [portable_rel,'.codex-plugin/plugin.json','.claude-plugin/plugin.json','README.md','LICENSE','THIRD_PARTY_NOTICES.md']:
   if not (root/rel).is_file():problem(f'missing {rel}')
  provenance=root/record.get('provenance','PROVENANCE.json')
  if not provenance.is_file():problem('missing provenance inventory')
@@ -58,12 +114,12 @@ def validate_package(record):
    output=(root/rel).resolve()
    if not output.is_relative_to(root.resolve()) or not output.is_file():problem(f'provenance path missing or escaping package: {rel}')
    elif hashlib.sha256(output.read_bytes()).hexdigest()!=digest:problem(f'provenance output hash mismatch: {rel}')
- for rel in ['plugin.json','.codex-plugin/plugin.json','.claude-plugin/plugin.json']:
+ for rel in [portable_rel,'.codex-plugin/plugin.json','.claude-plugin/plugin.json']:
   if not (root/rel).exists():continue
   manifest=read_json(root/rel)
   if manifest.get('name')!=record['id'] or manifest.get('version')!=record['version']:problem(f'{rel} identity/version mismatch')
-  if rel=='plugin.json' and manifest.get('$schema')!='https://agent-plugins.org/schemas/1.0.0/plugin.schema.json':problem('missing portable schema')
-  if rel=='plugin.json':
+  if rel==portable_rel and manifest.get('$schema')!='https://agent-plugins.org/schemas/1.0.0/plugin.schema.json':problem('missing portable schema')
+  if rel==portable_rel:
    unknown=set(manifest)-PORTABLE_FIELDS
    if unknown:problem(f'unsupported portable manifest fields: {", ".join(sorted(unknown))}')
  # A portable root manifest takes precedence over compatibility declarations.

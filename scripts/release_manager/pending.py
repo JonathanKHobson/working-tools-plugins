@@ -107,7 +107,8 @@ def plugin_observation(root,config,row,version):
     observed=[]
     for rel,baseline in sorted(files.items()):
         a=file_hash(source,rel);b=file_hash(public,rel)
-        if a!=baseline or b!=baseline:
+        source_baseline=row.get('canonical_files',{}).get(rel,baseline)
+        if a!=source_baseline or b!=baseline:
             observed.append({'path':rel,'baseline_sha256':baseline,'canonical_sha256':a,
                              'public_sha256':b,'source':changes.get(ident,{}).get(rel,{}).get('source','conflict')})
     for source_name,destinations in config.get('shared_shipped_paths',{}).items():
