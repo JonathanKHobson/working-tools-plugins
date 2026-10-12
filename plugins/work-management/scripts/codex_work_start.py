@@ -68,7 +68,9 @@ CONTEXT = (
 
 
 def main() -> None:
-    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") != "1":
+    # Registration itself is the recipient's opt-in (native enable/trust/settings);
+    # this stays only an explicit escape hatch, not the default gate.
+    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") == "0":
         return
     try:
         raw = sys.stdin.buffer.read(MAX_INPUT_BYTES + 1)

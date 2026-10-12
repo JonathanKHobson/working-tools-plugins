@@ -1,6 +1,6 @@
 {
   "name": "work-management",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Fourteen complete focus, planning, handoff, host exchange, GitHub and vault workflows with original helpers. Originating profile, host/account maps and private history are replaced by recipient templates; hooks remain opt-in.",
   "author": {
     "name": "Jonathan Kyle Hobson"
@@ -11,10 +11,11 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "extensions": {
     "com.openai": {
+      "hooks": "./optional-hooks/hooks.json",
       "interface": {
         "displayName": "Work Management Studio",
         "shortDescription": "Focus, requirements, structure and parallel work",
-        "longDescription": "Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. Choose the next useful outcome and keep scope from expanding. Define a feature, locate its owning project, or delegate a bounded piece of work. Review selected evidence, maintain plugins, or hand over work with its actual completion state. Start with a concrete task or ask what this plugin can do. The plugin supplies methods, selected local helpers and bounded hooks. Native host tools own goals/chats/automations; a request to plan or draft does not authorize sending or publishing. Public edition retains full optional hook code and opt-in templates; installation adds no automatic hook/provider.",
+        "longDescription": "Turn a competing set of ideas or a complex assignment into a concrete deliverable, choose the right tools, and carry work through verified handoff. Choose the next useful outcome and keep scope from expanding. Define a feature, locate its owning project, or delegate a bounded piece of work. Review selected evidence, maintain plugins, or hand over work with its actual completion state. Start with a concrete task or ask what this plugin can do. The plugin supplies methods, selected local helpers and bounded hooks. Native host tools own goals/chats/automations; a request to plan or draft does not authorize sending or publishing. Public edition registers full optional hook code; the host's native enable/trust/settings step still governs activation.",
         "developerName": "Jonathan Kyle Hobson",
         "category": "Productivity",
         "capabilities": [],

@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.1
+
+Restore the design review lifecycle hooks in the installable package.
+
+The previous public package layout prevented the supported Codex runtime from discovering the bundled hooks. Hook functionality must remain part of the installed Studio.
+
+Restores Codex and Claude registrations for the existing PostToolUse and Stop design-runtime hooks. Preserves the project opt-in, scoped advisory behavior and existing handlers. Uses the working host-native manifest layout while retaining portable metadata.
+
+Compatibility: Existing product and skill identifiers are unchanged. Requires a supported host and Python 3. Native hook trust is controlled by the receiving user.
+
+Upgrade: Install this patch of the existing Studio. In Codex, review and trust its listed hooks and refresh the plugin discovery state. Keep project-specific design runtime settings where applicable.
+
+Validation: Manifest layout checked against the installed Codex runtime. Package registration and archive-content checks preserve the bundled definitions and handlers. The repaired local Codex installation reports the seven affected plugin hooks enabled and trusted; this does not claim every end-to-end agent workflow was retested.
+
 ## 0.4.0
 
 Include complete workbook, prototyping and product-experience methods inside UX Design Studio.

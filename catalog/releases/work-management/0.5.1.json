@@ -1,0 +1,26 @@
+{
+  "product_id": "work-management",
+  "version": "0.5.1",
+  "previous_version": "0.5.0",
+  "git_tag": "work-management/v0.5.1",
+  "notes": "Restore the installed lifecycle hooks for work setup and coordination.\n\nThe previous public package layout prevented the supported Codex runtime from discovering the bundled hooks. Hook functionality must remain part of the installed Studio.\n\nRestores four Codex hook registrations and the supported Claude advisory registration. Uses the working host-native manifest layout while retaining portable metadata; fixes the public work-start hook so it can supply the configured goal and conversation-title guidance. Updates installation guidance for native hook trust.\n\nCompatibility: Existing product and skill identifiers are unchanged. Requires a supported host and Python 3. Native hook trust is controlled by the receiving user.\n\nUpgrade: Install this patch of the existing Studio. In Codex, review and trust its listed hooks and refresh the plugin discovery state. Keep project-specific design runtime settings where applicable.\n\nValidation: Manifest layout checked against the installed Codex runtime. Package registration and archive-content checks preserve the bundled definitions and handlers. The repaired local Codex installation reports the seven affected plugin hooks enabled and trusted; this does not claim every end-to-end agent workflow was retested.",
+  "summary": "Restore the installed lifecycle hooks for work setup and coordination.",
+  "compatibility": "Existing product and skill identifiers are unchanged. Requires a supported host and Python 3. Native hook trust is controlled by the receiving user.",
+  "upgrade_guidance": "Install this patch of the existing Studio. In Codex, review and trust its listed hooks and refresh the plugin discovery state. Keep project-specific design runtime settings where applicable.",
+  "changed_files": [
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    "CHANGELOG.md",
+    "LICENSE-SCOPE.json",
+    "PROVENANCE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "README.md",
+    "docs/project-map.md",
+    "plugin.json",
+    "plugin.portable.json",
+    "scripts/codex_work_start.py",
+    "tests/test_work_start.py"
+  ],
+  "shared_sources": [],
+  "validation": "Manifest layout checked against the installed Codex runtime. Package registration and archive-content checks preserve the bundled definitions and handlers. The repaired local Codex installation reports the seven affected plugin hooks enabled and trusted; this does not claim every end-to-end agent workflow was retested."
+}
