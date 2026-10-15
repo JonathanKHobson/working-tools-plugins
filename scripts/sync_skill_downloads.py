@@ -6,6 +6,8 @@ is for the initial backfill/recovery, never a separate per-skill authoring step.
 """
 import argparse
 import json
+import subprocess
+import sys
 from pathlib import Path
 from release_manager.skill_downloads import current_plugins, synchronize
 
@@ -16,7 +18,12 @@ if __name__ == '__main__':
     args=parser.parse_args()
     history=json.loads((ROOT/'catalog/release-history.json').read_text())
     if args.publish:
-        result=synchronize(ROOT,history)
+        try:
+            result=synchronize(ROOT,history)
+        except subprocess.CalledProcessError as exc:
+            if exc.stderr:
+                print(exc.stderr.decode(errors="replace")[:2000],file=sys.stderr)
+            raise
         print(json.dumps({'plugins':len(result['products']), 'skills':sum(len(p['skills']) for p in result['products'])}))
     else:
         print(json.dumps({'mode':'read-only','current_plugins':[{'id':i,'version':r['version']} for i,r,_ in current_plugins(history)]}))

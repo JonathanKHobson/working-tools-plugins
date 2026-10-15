@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import hashlib
 import subprocess
+import tempfile
+from pathlib import Path
 
 
 def _git(repo, args, runner=None) -> bytes:
@@ -49,8 +51,16 @@ def expected_package_files(repo, revision: str, product_id: str, *, runner=None)
             files[relative] = hashlib.sha256(_git(repo, ['cat-file', 'blob', oid], runner)).hexdigest()
     elif entries:
         # One Git process for the complete tree, including binary contents.
-        raw = subprocess.check_output(['git', 'cat-file', '--batch'], cwd=repo,
-                                      input=''.join(oid+'\n' for _,oid in entries).encode())
+        # On macOS/Python 3.9, simultaneous buffered pipe writes can deadlock
+        # when Git fills stdout before consuming all input. A seekable input
+        # file retains the single-process batch without two competing pipes.
+        scratch = Path(repo) / 'dist'
+        scratch.mkdir(exist_ok=True)
+        with tempfile.TemporaryFile(dir=scratch) as request:
+            request.write(''.join(oid+'\n' for _,oid in entries).encode())
+            request.seek(0)
+            raw = subprocess.check_output(['git', 'cat-file', '--batch'], cwd=repo,
+                                          stdin=request, timeout=120)
         offset=0
         for relative, oid in entries:
             end=raw.index(b'\n',offset)

@@ -546,6 +546,9 @@ def sync_site(config,receipt):
         raise ValueError('Site adapter receipt does not match the full current release set')
     if proof.get('catalog_sha256')!=catalog_digest:
         raise ValueError('Site adapter receipt does not match the prepared catalog bytes')
+    skill_digest=hashlib.sha256((ROOT/'catalog/skill-downloads.json').read_bytes()).hexdigest()
+    if proof.get('skill_catalog_sha256')!=skill_digest:
+        raise ValueError('Site adapter receipt does not match the prepared skill download catalog')
     receipt['catalog']=proof;receipt['status']='complete'
     return True
 
