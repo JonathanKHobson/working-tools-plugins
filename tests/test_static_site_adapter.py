@@ -141,12 +141,32 @@ class StaticSiteTests(unittest.TestCase):
         context=bridge.static_site_context({'site_workspace':str(self.workspace)},self.site)
         self.assertEqual(context['project_id'],'site-current')
         self.assertIn(str(self.workspace/'tools/build_tool_introductions.py'),context['guide_build'])
+        self.assertEqual(context['guide_build_policy'],'only-explicitly-reconciled-editorial; routine-download-updates-skip')
         prompt=bridge.static_site_prompt(Path('/request.json'))
         self.assertIn('Do not build from a legacy source repository',prompt)
         self.assertIn('skill_links_helper',prompt);self.assertIn('catalog_pending',prompt)
         self.assertIn('sites_version_source_commit',prompt)
         with self.assertRaisesRegex(ValueError,'does not own'):
             bridge.static_site_context({'site_workspace':str(self.workspace)},self.workspace/'legacy')
+
+    def test_latest_download_metadata_does_not_require_relabeling_reviewed_guide(self):
+        page=self.site/'dist/tools/a/skills/example/index.html';page.parent.mkdir(parents=True)
+        original=('<!-- fc-family:start -->accepted header<!-- fc-family:end -->'
+                  '<!-- fc-icons:start -->accepted icons<!-- fc-icons:end -->'
+                  '<main><p>Guide reviewed for v1.0.0 at original source.</p></main>')
+        page.write_text(original);self.git('add','.')
+        request={'site_contract':bridge.STATIC_CONTRACT,'site_source':str(self.site),'site_guard':bridge.site_guard(self.site)}
+        index=self.site/'dist/data/skill-downloads.json'
+        index.write_text(json.dumps({'products':[{'id':'a','version':'1.0.1','skills':[{'id':'example'}]}]}))
+        page.write_text(original.replace('</main>','<aside>Latest verified skill bundle v1.0.1</aside></main>'))
+        bridge.verify_site_guard(self.site,request)
+        projection=bridge.stamp_static_site(self.site,request)
+        self.assertEqual(projection['skill_catalog_sha256'],bridge.file_digest(index))
+        self.assertIn('Guide reviewed for v1.0.0 at original source.',page.read_text())
+        prompt=bridge.static_site_prompt(Path('/request.json'))
+        self.assertIn('Routine download updates MUST SKIP guide_build.',prompt)
+        self.assertIn('A package/guide version difference alone is not catalog_pending',prompt)
+        self.assertIn('New or removed skills, missing routes, or incompatible skill identities',prompt)
 
     def test_static_receipt_still_requires_native_verification_and_both_catalogs(self):
         (self.workspace/'docs').mkdir();(self.workspace/'docs/project-map.md').write_text('current owner')
