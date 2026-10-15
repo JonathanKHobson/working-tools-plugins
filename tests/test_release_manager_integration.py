@@ -772,7 +772,8 @@ class CompletionContractTests(unittest.TestCase):
             with (patch.object(complete_update, 'ROOT', root),
                   patch.object(complete_update, 'command'),
                   patch.object(complete_update, 'run', return_value=b''),
-                  patch.object(complete_update.subprocess, 'run') as adapter):
+                  patch.object(complete_update.subprocess, 'run') as adapter,
+                  patch('release_manager.skill_downloads.synchronize')):
                 with self.assertRaisesRegex(ValueError, 'full current release set'):
                     complete_update.sync_site(config, receipt)
             self.assertEqual(adapter.call_args.kwargs['env']['WORKING_TOOLS_RELEASE_CONFIG'], config['_config_path'])

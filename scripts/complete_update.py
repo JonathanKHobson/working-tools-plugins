@@ -513,10 +513,15 @@ def sync_site(config,receipt):
         raise ValueError('Release history sync returned no durable catalog')
     if run('git','diff','--cached','--name-only','-z',cwd=ROOT):
         raise ValueError('Unrelated staged changes exist before catalog commit')
+    # Skill downloads are generated from current verified releases, never from
+    # local authoring edits. A failure prevents catalog promotion and is resumed
+    # by the same normal publish/reconcile command without another version bump.
+    from release_manager.skill_downloads import synchronize
+    synchronize(ROOT, load(catalog_path))
     promote_verified_registry(load(catalog_path))
-    command('git','add','--','catalog/release-history.json','catalog/packages.json')
+    command('git','add','--','catalog/release-history.json','catalog/packages.json','catalog/skill-downloads.json')
     staged={p.decode() for p in run('git','diff','--cached','--name-only','-z',cwd=ROOT).split(b'\0') if p}
-    if not staged <= {'catalog/release-history.json','catalog/packages.json'}:
+    if not staged <= {'catalog/release-history.json','catalog/packages.json','catalog/skill-downloads.json'}:
         raise ValueError('Catalog staging escaped its one-file scope')
     if staged:
         command('git','commit','-m','Refresh Working Tools release catalog')
