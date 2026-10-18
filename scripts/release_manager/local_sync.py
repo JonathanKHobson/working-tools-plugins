@@ -120,6 +120,7 @@ def plan(root, canonical, canonical_sources=None, *, product_ids=None):
         changed={}; public=root/'plugins'/row['id']; source=roots[row['id']]
         canonical_base=row.get('canonical_files') or row['files']
         public_only=set(row.get('public_only_files',[])) | set(row.get('public_projection_overrides',[]))
+        if 'canonical_files' in row:public_only.update(set(row['files'])-set(row['canonical_files']))
         for rel,public_base in row['files'].items():
             # Public projections such as portable manifests and audit inventories
             # are reviewed in the public checkout. Some are absent canonically;

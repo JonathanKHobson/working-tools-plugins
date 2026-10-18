@@ -100,6 +100,10 @@ class LocalSyncContractTests(unittest.TestCase):
                 'public_only_files':['plugin.json']}]}))
             changes, conflicts=local_sync.plan(root,canonical)
             self.assertEqual((changes,conflicts),({},[]))
+            document=json.loads(inventory.read_text())
+            document['packages'][0].pop('public_only_files')
+            inventory.write_text(json.dumps(document))
+            self.assertEqual(local_sync.plan(root,canonical),({},[]))
             (root/'plugins/x/plugin.json').write_bytes(b'changed projection')
             errors=[]; source_inventory._compare(
                 {'plugin.json':local_sync.digest(public_only)},
