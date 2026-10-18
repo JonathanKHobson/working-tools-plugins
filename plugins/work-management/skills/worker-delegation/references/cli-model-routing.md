@@ -21,6 +21,8 @@ Supply outcome, selected evidence, permitted tools/side effects, file ownership 
 
 Retain the active job rather than re-dispatching it. Record requested model/effort separately from returned metadata; self-reported identity is not verification. Check successful nonempty output, scope, source accuracy and relevant code/artifact tests. Use another model only for a distinct contribution or a diagnosed failure, not a mandatory second vote. Treat tool denials and partial output as incomplete even if a process exits zero.
 
+For suitable short supplied-context extraction, classification, synthesis, drafting or small code review, proactively use the host’s verified default local route when its checks and current resource limits fit. Resolve its exact model and command from the host capability record; do not ask the user to choose again or rebenchmark unchanged capabilities. Keep trivial work direct and escalate failed acceptance checks without silently substituting another model. A default is a starting choice, not a guarantee or a reason to offload tool-dependent research.
+
 For local benchmarking, use the local-model toolkit and the host’s measured capability record. Exact model, quantization, context, runtime and current memory matter. One local inference at a time; preserve other tasks’ jobs and unload only owned instances. The installed small model is a baseline, not a quality ceiling.
 
 The existing context hook reminds the lead to consider these tools. It must not automatically launch models, download weights or consume quota on every user prompt. Keep available-versus-verified distinctions in the owning host record and refresh on actual capability changes or failure.

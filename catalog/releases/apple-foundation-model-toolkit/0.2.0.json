@@ -1,0 +1,17 @@
+{
+  "product_id": "apple-foundation-model-toolkit",
+  "version": "0.2.0",
+  "previous_version": "0.1.0",
+  "git_tag": "apple-foundation-model-toolkit/v0.2.0",
+  "notes": "Add Apple Foundation Model Toolkit as a standalone provider toolkit.\n\nExpose provider-specific setup, CLI operation and task-fit guidance while keeping account data, credentials, machine paths and runtime state recipient-owned.\n\nInitial public edition of Apple Foundation Model Toolkit. The package is CLI-first where a supported provider CLI exists, records readiness separately from successful inference, and includes recipient onboarding. Private account identifiers, host paths, model receipts and local state are excluded.\n\nCompatibility: New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.\n\nUpgrade: Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.\n\nValidation: Canonical source copied into the reviewed public checkout; portable and compatibility manifests checked; complete public file inventory generated; account, credential and machine-path scan returned no matches. Publication remains queued for the existing release workflow.",
+  "summary": "Add Apple Foundation Model Toolkit as a standalone provider toolkit.",
+  "compatibility": "New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.",
+  "upgrade_guidance": "Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "skills/apple-model-operations/SKILL.md"
+  ],
+  "shared_sources": [],
+  "validation": "Canonical source copied into the reviewed public checkout; portable and compatibility manifests checked; complete public file inventory generated; account, credential and machine-path scan returned no matches. Publication remains queued for the existing release workflow."
+}

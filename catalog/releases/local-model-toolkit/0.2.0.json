@@ -1,0 +1,17 @@
+{
+  "product_id": "local-model-toolkit",
+  "version": "0.2.0",
+  "previous_version": "0.1.0",
+  "git_tag": "local-model-toolkit/v0.2.0",
+  "notes": "Add recipient-agnostic local model operations and benchmark guidance.\n\nRecipients need a bounded CLI-first method to measure local model usefulness without bundling weights or machine-specific setup.\n\nModel weights, credentials, private receipts and host paths remain external.\n\nCompatibility: Adds a new toolkit; existing packages are unaffected.\n\nUpgrade: Install the toolkit and configure a supported local runner with recipient-selected models.\n\nValidation: Catalog, source inventory, package build, privacy audit and full release tests.",
+  "summary": "Add recipient-agnostic local model operations and benchmark guidance.",
+  "compatibility": "Adds a new toolkit; existing packages are unaffected.",
+  "upgrade_guidance": "Install the toolkit and configure a supported local runner with recipient-selected models.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "skills/local-operation/SKILL.md"
+  ],
+  "shared_sources": [],
+  "validation": "Catalog, source inventory, package build, privacy audit and full release tests."
+}

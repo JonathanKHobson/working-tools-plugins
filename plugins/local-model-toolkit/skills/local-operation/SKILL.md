@@ -9,6 +9,8 @@ Use a local model when the task benefits from local data handling, low marginal 
 
 Read [CLI operation](references/cli-operation.md) for loading and unloading rules. Read [task fit](references/task-fit.md) when selecting a model or assigning work. Read [benchmarking](references/benchmarking.md) when producing comparative evidence. Read [computer use](references/computer-use.md) only when a CLI path is unavailable or the user specifically requests UI operation.
 
+When the host has a user-selected, tested default, use that verified route proactively for a suitable bounded task. Resolve its command and current limits from the host capability record. Verify the selected model and output; a default does not override the task’s acceptance checks or justify automatic inference on every prompt. Keep host identifiers, paths and test receipts outside this portable toolkit.
+
 ## Route deliberately
 
 - Use a small local model for reversible extraction, classification or formatting only after a representative test passes.

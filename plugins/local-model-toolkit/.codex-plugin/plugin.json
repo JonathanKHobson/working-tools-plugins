@@ -1,8 +1,10 @@
 {
   "name": "local-model-toolkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Local model operation guidance, bounded LM Studio CLI use, task-fit evaluation, and reproducible benchmark methods.",
-  "author": { "name": "Jonathan Kyle Hobson" },
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
   "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
   "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
@@ -13,7 +15,10 @@
     "longDescription": "CLI-first local model operation through a recipient-configured LM Studio installation, with bounded loading, single-model isolation, task-fit routing, benchmark receipts, and conditional UI guidance. Hardware compatibility is a starting signal; measured usefulness, latency, memory and failure modes decide routing.",
     "developerName": "Kyle Hobson",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "defaultPrompt": [
       "Run a bounded local-model task and preserve a verifiable receipt.",
       "Compare local models against representative work tasks.",

@@ -1,23 +1,31 @@
 {
   "name": "gemini-toolkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI-first Gemini and Antigravity operating guidance, bounded UI routes, and task-fit evaluation.",
-  "author": {"name": "Jonathan Kyle Hobson"},
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
   "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
   "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "extensions": {"com.openai": {"interface": {
-    "displayName": "Gemini Toolkit",
-    "shortDescription": "Use Gemini through verified Antigravity CLI and bounded UI routes.",
-    "longDescription": "CLI-first Gemini and Antigravity operation with explicit model and effort selection, permission-aware headless execution, task-fit checks, and conditional browser/computer-use guidance.",
-    "developerName": "Kyle Hobson",
-    "category": "Productivity",
-    "capabilities": ["Read"],
-    "defaultPrompt": [
-      "Delegate this bounded task to Gemini through Antigravity CLI.",
-      "Choose a Gemini model and effort, then verify the headless receipt.",
-      "Evaluate Gemini's fit for this task against Claude or a local model."
-    ]
-  }}}
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Gemini Toolkit",
+        "shortDescription": "Use Gemini through verified Antigravity CLI and bounded UI routes.",
+        "longDescription": "CLI-first Gemini and Antigravity operation with explicit model and effort selection, permission-aware headless execution, task-fit checks, and conditional browser/computer-use guidance.",
+        "developerName": "Kyle Hobson",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "Delegate this bounded task to Gemini through Antigravity CLI.",
+          "Choose a Gemini model and effort, then verify the headless receipt.",
+          "Evaluate Gemini's fit for this task against Claude or a local model."
+        ]
+      }
+    }
+  }
 }

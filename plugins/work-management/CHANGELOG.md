@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.6.0
+
+Add provider toolkit coordination and preserve accumulated local workflow improvements.
+
+Track ongoing plugin work without repeated public releases while keeping private publication bindings separate from portable methods.
+
+2026-10-15 hook ownership and naming: Reduce ambiguous hook navigation and repeated removal of personal setup from public release inputs without duplicating engines or state.
+
+Adds portable guidance for an optional private global release skill. Preserves complete capability coverage, canonical source protection, and independent host hook interfaces. Defines local collection, accumulated notes, and fresh read-only status without version preparation or scheduled publishing. Adds an opt-in deterministic file-change recorder with an atomic private history, stat/hash no-op detection, unavailable-source preservation and scoped pending-queue refresh. Host completion hooks and the existing Obsidian listener can share its observations without schedules, model calls or publication.
+
+2026-10-15 hook ownership and naming: Clarify every hook responsibility; keep generic file observation, recipient handoff and release methods while allowing a separately maintained private companion to own personal binding and host-only closeout behavior. Parameterize artifact state with CODEX_HOME and preserve the old closeout entrypoint through an optional external-helper adapter.
+
+2026-10-17 reciprocal REA routing: Work Management selects Development Studio for authorized artifact/source gaps without requiring the REA name; source-only work stays with ordinary code navigation. Development returns evidence and coordination needs to the existing project owner without a new intake loop. Routing does not grant capture, installation or target access.
+
+2026-10-17 provider coordination: Route Claude, Gemini/Antigravity, Apple Foundation Models and local models through their maintained toolkit owners. Prefer the receiving host tested local default for suitable short extraction, formatting and classification tasks, verify output and keep provider evidence and model bindings private. Preserve the Claude compatibility route.
+
+Compatibility: Compatible optional helper and guidance. Existing skill identifiers, hooks and release commands remain; automatic recording requires private host configuration.
+
+2026-10-15 hook ownership and naming: Existing event matchers and timeouts retained. Personal helper bindings stay outside shared packages; generic tools work without a private companion.
+
+Upgrade: Existing workflows continue unchanged. Maintainers who want automatic local tracking configure the recorder and a host completion hook using the included reference; no machine paths are required in public methods.
+
+Validation: Generic guidance source/cache parity verified after native installation. Private user-global skill validated and discovered from an unrelated working directory; ten routing scenarios independently simulated. This guidance is local pending work, not included in the completed hook patch. Recorder fixtures cover byte edits, additions, deletions, reverted edits, concurrent locks and quiet hook behavior. Obsidian fixtures verify cached refresh, linked history and preservation of annotations and graph configuration. Native Codex readback confirms the configured recorder hook is enabled and trusted. Publication remains explicitly requested.
+
+2026-10-15 hook ownership and naming: Local generic recorder (9), workflow activity (6), configured closeout (4) and Gmail (32) regression tests passed; artifact/closeout self-tests and native unique named hook discovery passed. No public release performed.
+
+REA routing follow-up: 8 supplied-context cases evaluated by Claude Sonnet 5; two ambiguous authorization/provider cases clarified and retested. Changed skill heads validate, Development structural checks pass, and both installed packages match canonical bytes. Existing owned app build analyzed through installed REA MCP with retained/exported/imported Evidence, then verified in the native browser. App behavior passes selected controls; label tracing remains partial and an existing playback accessible-name defect was recorded. No application or website publication.
+
+Provider routing: 6 canonical work-start tests passed; public package validation passes35packages/266skills. Release preparation regression exercises reviewed public-only manifests without creating canonical files.
+
 ## 0.5.1
 
 Restore the installed lifecycle hooks for work setup and coordination.
