@@ -95,6 +95,20 @@ class PendingTests(unittest.TestCase):
             self.assertTrue((root/'catalog/changes/x.json').exists())
             self.assertNotIn('Secret contents',json.dumps(journal))
 
+    def test_reviewed_public_projections_do_not_requeue_completed_release_but_public_drift_is_detected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);config,canonical=self.fixture(root)
+            document=local_sync.read(root/'catalog/source-inventory.json');row=document['packages'][0]
+            row['canonical_files']={p:h for p,h in row['files'].items() if p!='plugin.json'}
+            (canonical/'x/plugin.json').unlink()
+            row['public_projection_overrides']=['PROVENANCE.json']
+            (canonical/'x/PROVENANCE.json').write_text('{"private":"canonical audit"}')
+            local_sync.write(root/'catalog/source-inventory.json',document)
+            self.assertIsNone(pending.plugin_observation(root,config,row,'1.0.0'))
+            (root/'plugins/x/plugin.json').write_text('{"version":"unreviewed"}')
+            observed=pending.plugin_observation(root,config,row,'1.0.0')
+            self.assertEqual([r['path'] for r in observed['changes']],['plugin.json'])
+
     def test_divergent_changes_are_pending_conflicts_not_queue_errors(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);config,canonical=self.fixture(root)

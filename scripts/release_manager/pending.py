@@ -105,10 +105,12 @@ def plugin_observation(root,config,row,version):
                 'changes':[],'conflicts':['canonical source unavailable or unsafe'],
                 'review_signals':signals,'notes_ready':ready,'reviewed_additions':[]}
     observed=[]
+    public_only=set(row.get('public_only_files',[])) | set(row.get('public_projection_overrides',[]))
+    if 'canonical_files' in row:public_only.update(set(files)-set(row['canonical_files']))
     for rel,baseline in sorted(files.items()):
         a=file_hash(source,rel);b=file_hash(public,rel)
         source_baseline=row.get('canonical_files',{}).get(rel,baseline)
-        if a!=source_baseline or b!=baseline:
+        if (rel not in public_only and a!=source_baseline) or b!=baseline:
             observed.append({'path':rel,'baseline_sha256':baseline,'canonical_sha256':a,
                              'public_sha256':b,'source':changes.get(ident,{}).get(rel,{}).get('source','conflict')})
     for source_name,destinations in config.get('shared_shipped_paths',{}).items():
