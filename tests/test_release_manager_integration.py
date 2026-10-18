@@ -505,6 +505,14 @@ class CompletionContractTests(unittest.TestCase):
             complete_update.scoped_paths([{'id': 'x', 'version': '1.0.1',
                 'changed_files': ['../private.txt']}])
 
+    def test_scoped_paths_include_portable_root_manifest(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);public=root/'plugins/x';public.mkdir(parents=True)
+            (public/'plugin.portable.json').write_text('{"version":"1.0.1"}')
+            with patch.object(complete_update,'ROOT',root):
+                paths=complete_update.scoped_paths([{'id':'x','version':'1.0.1','changed_files':['README.md']}])
+            self.assertIn('plugins/x/plugin.portable.json',paths)
+
     def test_scoped_commit_stages_only_reviewed_paths(self):
         entry = {'id': 'x', 'version': '1.0.1', 'changed_files': ['README.md']}
         outputs = [b'', b'plugins/x/README.md\0catalog/releases/x/1.0.1.json\0',

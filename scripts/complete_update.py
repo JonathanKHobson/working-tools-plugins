@@ -129,6 +129,8 @@ def scoped_paths(entries):
         inventory=load(ROOT/'catalog/source-inventory.json') if (ROOT/'catalog/source-inventory.json').is_file() else {'packages':[]}
         reviewed=next((row['files'] for row in inventory['packages'] if row['id']==ident),{})
         paths.update(base+name for name in ('LICENSE-SCOPE.json','PUBLIC_FILE_MANIFEST.json') if name in reviewed)
+        root_manifest=local_sync.root_manifest_name(ROOT/'plugins'/ident)
+        if root_manifest:paths.add(base+root_manifest)
         paths.update({base+'plugin.json',base+'.codex-plugin/plugin.json',
                       base+'.claude-plugin/plugin.json',base+'CHANGELOG.md',
                       base+'PROVENANCE.json',f'catalog/releases/{ident}/{version}.json'})
