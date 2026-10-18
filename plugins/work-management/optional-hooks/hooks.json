@@ -8,7 +8,7 @@
             "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
             "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
             "timeout": 3,
-            "statusMessage": "Applying proactive work and native goal preferences"
+            "statusMessage": "Apply work preferences"
           }
         ]
       },
@@ -19,7 +19,7 @@
             "command": "python3 -I \"${PLUGIN_ROOT}/scripts/decision_review_hint.py\"",
             "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/decision_review_hint.py\"",
             "timeout": 3,
-            "statusMessage": "Checking whether a lightweight decision review is relevant"
+            "statusMessage": "Prompt an idea review"
           }
         ]
       }
@@ -33,7 +33,7 @@
             "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_session_start.py\"",
             "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_session_start.py\"",
             "timeout": 5,
-            "statusMessage": "Checking the Codex task-boundary board"
+            "statusMessage": "Load shared-work assignments"
           }
         ]
       }
@@ -45,7 +45,8 @@
             "type": "command",
             "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_stop_guard.py\"",
             "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_coordinator_stop_guard.py\"",
-            "timeout": 5
+            "timeout": 5,
+            "statusMessage": "Check shared-work handoff"
           }
         ]
       }

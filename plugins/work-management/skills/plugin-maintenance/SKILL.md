@@ -53,3 +53,8 @@ For plugin or skill onboarding changes, apply [human and agent onboarding](../..
 
 For an assignment needing a named owner, consult [this studio’s role contracts](../../references/professional-agents/README.md); this method supports Agent Systems Maintainer. Load only the selected contract. Work Management owns cross-studio routing. Role selection does not require delegation or expand authorization.
 <!-- END PROFESSIONAL-AGENTS -->
+
+For automatic local file-change recording without publication, use the configured
+[change tracking helper](../../references/plugin-change-tracking.md). Its journal
+records observed paths and hashes; merge meaningful reasons and validation into
+the existing release notes during the normal edit, without an additional model call.

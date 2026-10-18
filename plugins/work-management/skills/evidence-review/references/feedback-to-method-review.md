@@ -55,6 +55,19 @@ When the selected exchange concerns an AI-assisted UI correction, preserve the s
 
 For example, an assistant may mistake an intentional transient overlap for redundant UI and hide it. Preserve the user's explanation that timing differs from a persistent field error, restore the intended overlap, and document any separately authorized styling refinement. Do not generalize the one case into a blanket UI rule.
 
+## Repair contract review
+
+Use this check when a correction, workaround or fallback changed the user's required result, an established pattern or an external contract. The transferable failure is **substituting an easier success condition**: implementation friction narrowed the goal, then the substitute was checked as though it were the requested outcome. Establish that sequence from the request, actual changes and acceptance checks; do not infer hidden motives, model faults or recurrence from one incident.
+
+- Recover the original completion condition and the invariants that matter to this task. Separate the defect from the surrounding behavior that already works. Compare a working peer or accepted baseline when one exists.
+- Trace the missing prerequisite and the workaround. Ask whether the workaround actually meets the original condition, or merely makes an intermediate result available. Preserve truthful missingness; invented data is another contract failure.
+- Check for circular validation: did tests or review criteria change because the implementation changed, without an authorized requirement change? Restore criteria derived from the request and baseline. Include a meaningful regression case for the rejected substitution when useful.
+- Transfer the decision check to the existing execution owner. Record the incident and proof in its project, and keep the generic instruction free of project names, specific components and assumed root causes. Reuse adequate guidance; add a concrete comparison or acceptance step where execution missed it.
+
+For example, supplying missing measurements should complete the requested visualization; repairing an export should retain its required format and usable contents; resolving an unavailable service should preserve the promised workflow and interface. Merely displaying the values, producing a different file or offering a different flow does not establish equivalence. A supplemental accessible alternative may coexist with a required view. An explicitly requested redesign, changed contract or previously authorized equivalent fallback is a legitimate change: evaluate it against the current requirement rather than freezing the old design forever.
+
+Acceptance: the repaired result meets the original or explicitly revised completion condition, preserves the relevant invariants, and passes the affected failure case. If it cannot, record the exact blocker and next decision instead of marking the substitute complete. A guidance update improves the check; it does not guarantee future compliance.
+
 ## Source and boundaries
 
 This method adapts the signal, generalisability, deduplication and existing-owner review concepts from Eoghan Henn's **Task Observer / One Skill to Rule Them All**, [repository](https://github.com/rebelytics/one-skill-to-rule-them-all) at commit `c479475c551ad84d3bfa572245d053ef3ec6e112`, `SKILL.md` and `references/signals.md`, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: manual selected checkpoint; no continuous observation, session-start hook, cross-session log, scheduled sweep, automatic skill edit, external feedback report or blanket activation. This attribution covers the adapted method, not project-specific facts or a runtime integration.

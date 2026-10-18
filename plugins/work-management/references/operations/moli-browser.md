@@ -4,7 +4,7 @@ Use installed Moli proactively for public-page reading, Markdown extraction and 
 
 ## Current host and commands
 
-On Kyle's Mac, `~/.local/bin/moli` links to `$PROJECT_VOLUME/Tools/moli/moli`. This launcher resolves `current/moli`, directs TMPDIR and the default HTTP cache to KyleSSD, and fails if the drive is unavailable. It does not import cookies, start a daemon or change the default browser. An explicit profile/cache argument overrides the default, so keep that path on the intended project drive. Check `moli --version` and `moli fetch --help` before relying on flags after updates. On another host, discover an installed binary; do not assume these paths exist.
+On a configured host, discover the installed `moli` binary and its project-owned cache location rather than assuming a path. The launcher should fail clearly when its configured storage is unavailable, avoid importing cookies, avoid starting a daemon and avoid changing the default browser. An explicit profile/cache argument overrides the configured default. Check `moli --version` and `moli fetch --help` before relying on flags after updates.
 
 ```sh
 moli fetch --dump markdown --wait done --timeout 25000 'https://example.com'

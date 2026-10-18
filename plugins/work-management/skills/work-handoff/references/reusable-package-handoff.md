@@ -35,6 +35,7 @@ Perform one meaningful recipient task, then save and reopen when the claim depen
 | Document/presentation | Create a page/slide, replace a long heading and image, reapply the declared style/layout | Native structure and editability in the target app, reading order, rendered export |
 | Spreadsheet/data report | Replace representative input and check formulas, units, missing values and chart/caption relationships | Preserved calculation and meaning, with readable actual output |
 | UI kit/site | Adopt in an isolated consumer and exercise a consequential state | Real imports/assets, behavior, accessibility and rendered viewport |
+| Catalog/directory | Follow each in-scope source ID through the actual grouping/filter states to its visible entry and destination | Per-ID rendered discovery and destination evidence, with intentional exclusions explicit; inventory or match counts alone do not prove visibility |
 | Writing/content kit | Adapt to a new audience and format while preserving verified facts | Explicit voice/format choices, source claims, meaningful variation and writing review |
 | Video/interactive media | Reopen source and change a consequential timed/interactive element | Relinked media/fonts, editable source, playback and exported result |
 | Learning/facilitation kit | Follow one participant task using the delivered materials | Understandable instructions, accessible participation and observable success criteria |

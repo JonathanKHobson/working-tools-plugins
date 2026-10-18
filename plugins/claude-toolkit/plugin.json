@@ -1,0 +1,23 @@
+{
+  "name": "claude-toolkit",
+  "version": "0.1.0",
+  "description": "CLI-first Claude operating guidance, bounded delegation, and task-fit evaluation.",
+  "author": {"name": "Jonathan Kyle Hobson"},
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Claude Toolkit",
+    "shortDescription": "Use Claude through verified CLI and bounded UI routes.",
+    "longDescription": "CLI-first subscription delegation with explicit model and effort selection, isolated text-worker operation, task-fit checks, and conditional computer-use guidance.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Delegate this bounded review to Claude through the subscription CLI.",
+      "Choose the right Claude route and verify the returned model.",
+      "Evaluate Claude's fit for this task against another available worker."
+    ]
+  }}}
+}

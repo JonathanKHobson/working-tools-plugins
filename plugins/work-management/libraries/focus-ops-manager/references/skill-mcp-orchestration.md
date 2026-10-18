@@ -34,8 +34,14 @@ agent runtime.
 
 Proactively delegate substantial work through a suitable verified worker when
 a bounded outcome can progress independently while the lead does useful work.
-Consider existing Claude and other suitable subscription workers as well as
-Codex subagents; use the task fit and available capability to choose the route.
+For authorized Claude access and a useful independent lane, actively dispatch through
+`claude-toolkit:claude-operation`, rather than waiting for a per-task request.
+That skill owns Sonnet/Opus selection and CLI-first execution. Use another verified
+worker when it fits better; keep trivial or inseparable work local.
+For Gemini/Antigravity CLI and comparative task fit, use
+[CLI model routing](../../../skills/worker-delegation/references/cli-model-routing.md).
+The host capability record owns dated availability and tested commands; do not
+confuse an installed model or provider claim with a demonstrated best choice.
 Use a subagent for a step or subtask within the current goal. Start with 1–2
 workers, or 3 for three clear independent lanes when capacity permits. The current host has four total concurrent agent
 slots including the lead. Stay within the live limit and check pressure once

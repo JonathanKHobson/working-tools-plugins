@@ -1,6 +1,6 @@
 {
   "schema_version": "codex.skill-routing-index.v1",
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-17",
   "primary_root": "~/.codex/skills",
   "macbook_root": "<verified-volume>",
   "principles": [
@@ -387,7 +387,8 @@
         "work-management:worker-delegation",
         "reasoning-studio:critical-reasoning",
         "work-management:find-skills"
-      ]
+      ],
+      "selection": "Work Management selects and coordinates useful bounded model offloads. Claude, Gemini, Apple Foundation Model and Local Model Toolkits own provider execution; resolve their installed skills and actual readiness before dispatch."
     },
     {
       "id": "writing-quality",

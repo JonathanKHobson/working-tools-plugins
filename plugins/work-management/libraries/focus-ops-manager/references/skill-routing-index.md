@@ -126,6 +126,9 @@ Check host coverage per method. The October 1 local audit verified enabled Claud
 
 ## Focus, Requirements and Structure
 
+For a useful independent model task, use `worker-delegation` and its model-selection reference. The installed Claude, Gemini, Apple Foundation Model and Local Model Toolkits own provider operations; Work Management coordinates scope and acceptance. Verify readiness and use task evidence rather than model-name stereotypes.
+
+
 Entry: `work-management:focus-work`, `work-management:product-definition`, `work-management:project-structure`, `work-management:parallel-work`.
 
 Conditional neighbors: `reasoning-studio:critical-reasoning`, `work-management:find-skills` (demonstrated ecosystem gaps, supplied repositories/project methods/research, or requested discovery; integrate existing owners first).

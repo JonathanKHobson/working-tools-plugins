@@ -18,7 +18,8 @@ Select by the triggers below. Read the complete chosen procedure and its require
 
 - [Task/model orchestration](../../libraries/focus-ops-manager/references/skill-mcp-orchestration.md) — before substantial delegation; select a bounded lane, model and evidence contract.
 - [Subscription offload](../../libraries/focus-ops-manager/references/subscription-offload.md) — when using an external subscription worker; dispatch, retain the job, and verify its return.
-- [Claude route](../../libraries/focus-ops-manager/references/claude-usage.md) — when Claude is the selected worker; start with the official subscription CLI, verify account/model, and use its bounded login recovery before considering Desktop or Web.
+- `claude-toolkit:claude-operation` — when Claude is the selected worker; start with the official subscription CLI, verify account/model, and use its bounded login recovery before considering Desktop or Web.
+- [Provider toolkits and model fit](references/cli-model-routing.md) — when selecting Gemini/Antigravity, comparing CLI workers, or deciding whether a local model is useful; verify the host capability record and retain model/output receipts.
 - [Bounded worker supervision](../../libraries/focus-ops-manager/references/worker-supervision.md) when an active worker drifts, repeats a failure or returns uncertain completion evidence.
 - [Reversible evidence packing](references/reversible-evidence-packing.md) only when a large local tool result or log must be shortened for a worker handoff.
 
@@ -36,7 +37,7 @@ Deliver the integrated result and meaningful verification. A dispatched or strea
 
 Good: Claude reviews supplied security methods while the lead edits disjoint routing files. Bad: two workers rewrite the same file without ownership.
 
-For substantial content, design review, writing, coding or artifact work, proactively consider the existing Claude subscription route while the lead progresses on disjoint work. For Claude, prefer Opus 5.5 after checking live availability; use the supported CLI alias and record the returned actual model. Do not assume a model name or alias is supported. Desktop or Web requires an explicit user request, a required interface-only feature, or an unresolved CLI failure after bounded diagnosis and official login recovery; missing authentication alone does not justify switching surfaces. Use a verified lighter/local worker for mechanical work when useful, supply a disjoint compact brief, and independently check consequential outputs. Reuse active jobs rather than duplicating them; keep trivial steps local. These are worker choices, not new runtimes, automatic billing fallbacks or delegated authority to accept claims/publish.
+For substantial work with a useful independent lane and authorized Claude access, use `claude-toolkit:claude-operation` to dispatch that lane proactively while the lead progresses. It owns Sonnet/Opus selection, CLI-first execution, bounded recovery and checked return. Keep trivial or tightly coupled work local; do not require a per-task Claude request when standing authorization applies.
 
 For a new initiative or expanded scope spanning independent durable outcomes, read [initiative coordination](references/initiative-coordination.md). Choose one human-facing lead by outcome, owner and context boundaries; use compact authorized handoffs and retain subagents/local work for shared-context steps.
 

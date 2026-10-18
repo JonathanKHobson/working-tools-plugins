@@ -49,3 +49,5 @@ When the user requests a shareable or Sites artifact, read [the shared-site proc
 
 For an assignment needing a named owner, consult [this studio’s role contracts](../../references/professional-agents/README.md); this method supports Project Manager. Load only the selected contract. Work Management owns cross-studio routing. Role selection does not require delegation or expand authorization.
 <!-- END PROFESSIONAL-AGENTS -->
+
+For recipient/contact-list maintenance or a recipient-specific publication handoff, read [contact handoff](../../references/operations/contact-handoff.md). A private companion can bind this generic method to an existing contact store; do not duplicate that store.

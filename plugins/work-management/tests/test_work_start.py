@@ -22,13 +22,8 @@ class WorkStartTests(unittest.TestCase):
         self.assertEqual(result.stderr, b"")
         return result.stdout
 
-    def test_registration_alone_emits_context_by_default(self):
+    def test_no_recipient_opt_in_emits_no_context(self):
         env=dict(os.environ);env.pop('WORK_MANAGEMENT_CONTEXT_OPT_IN',None)
-        result=subprocess.run([sys.executable,'-I',str(SCRIPT)],input=b'{"hook_event_name":"UserPromptSubmit","prompt":"Do work"}',capture_output=True,env=env,check=True)
-        self.assertNotEqual(result.stdout,b'')
-
-    def test_explicit_recipient_opt_out_emits_no_context(self):
-        env=dict(os.environ,WORK_MANAGEMENT_CONTEXT_OPT_IN='0')
         result=subprocess.run([sys.executable,'-I',str(SCRIPT)],input=b'{"hook_event_name":"UserPromptSubmit","prompt":"Do work"}',capture_output=True,env=env,check=True)
         self.assertEqual(result.stdout,b'')
 

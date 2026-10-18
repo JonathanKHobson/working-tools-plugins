@@ -27,23 +27,24 @@ CONTEXT = (
     "outcome is achieved and verified. If native goal tools are unavailable, "
     "continue the requested work and briefly disclose that limitation. This "
     "reminder creates no goal itself and grants no new action permissions.\n\n"
-    "Work Management: for new or continued project work, consult "
-    "work-management:project-structure (the former Project Architect) before "
-    "creating or reorganizing files, and revisit when scope changes. Reuse "
-    "guidance already in context. Select the smallest relevant plugin/skill "
-    "proactively; use tool-workflow-routing only when ownership is unclear. "
-    "For substantial tasks, use worker-delegation to assign useful independent "
-    "work to Claude or another verified suitable worker while the lead "
-    "progresses. For deeper research, prefer standard ChatGPT Web with Pro "
-    "visibly selected, using the existing subscription-offload procedure; "
-    "the dedicated Deep Research feature requires a specific user request. "
-    "Check returned sources and integrate the result. If the receiving user explicitly requests "
-    "separate Codex chats for multiple independent durable goals; use subagents "
-    "for steps/subtasks within one goal, preserve one goal per chat, and honor "
-    "the current native creation/messaging rules. Keep trivial work local. "
-    "No new skills, catalogs, folders, external jobs or chats merely to satisfy "
-    "this reminder. These are conditional work defaults, not a mandatory "
-    "orchestration ceremony.\n\n"
+    "Work Management: consult work-management:project-structure before creating or reorganizing "
+    "files in new or continued projects and when scope changes; reuse guidance already read. "
+    "Choose the smallest relevant skill and call its useful tools. Proactively use existing "
+    "charts, dashboards or MCP widgets when they improve understanding, comparison, exploration, "
+    "editing or verification. Preserve explicit formats and keep simple answers direct. "
+    "Use tool-workflow-routing for selection; verify output and relevant interaction. "
+    "This grants no new access, installation, publication or recurring-monitoring authority. "
+    "For substantial independent work, use worker-delegation while the lead progresses. "
+    "Use worker-delegation to offload useful independent work through claude-toolkit, "
+    "gemini-toolkit, apple-foundation-model-toolkit or local-model-toolkit. Prefer verified "
+    "CLI routes; check task fit, allowance, actual model and output. Count handoff/repair "
+    "overhead; do not claim unmeasured token savings. Keep trivial or "
+    "inseparable work local. Deeper research prefers standard ChatGPT Web with Pro visibly "
+    "selected through subscription offload; dedicated Deep Research requires a specific "
+    "request. Check sources and integrate results. Use subagents for steps within one goal; "
+    "separate chats for independent durable goals only under explicit user authorization "
+    "and native creation/messaging rules. Do not create skills, catalogs, folders, jobs or "
+    "chats merely to satisfy this reminder.\n\n"
     "Chat naming: at the first substantive work turn and when scope changes, "
     "check this chat's native title. Preserve an explicitly user-chosen title. "
     "Otherwise replace an automatic sentence, vague label or obsolete title "
@@ -56,7 +57,8 @@ CONTEXT = (
     "already in context. Link source, owner, task fix, transfer decision and "
     "validation/rollback in the project record. Reuse existing methods; apply "
     "only authorized owner changes. Skip trivial/no-signal turns. No history "
-    "crawl, automatic skill/memory writes or implied human claim acceptance.\n\n"
+    "crawl, automatic skill/memory writes or implied human claim acceptance. "
+    "Opted-in activity capture follows ship-log.\n\n"
     "Before final closeout, review resources this chat actually started: "
     "scripts, dev servers, browser sessions and temporary tool helpers. Close "
     "finished task-owned resources and verify exits; retain explicitly ongoing "
@@ -68,9 +70,7 @@ CONTEXT = (
 
 
 def main() -> None:
-    # Registration itself is the recipient's opt-in (native enable/trust/settings);
-    # this stays only an explicit escape hatch, not the default gate.
-    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") == "0":
+    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") != "1":
         return
     try:
         raw = sys.stdin.buffer.read(MAX_INPUT_BYTES + 1)

@@ -33,3 +33,32 @@ The authoring agent accumulates diff-grounded change notes in the existing `cata
 Prefer a useful public milestone over a raw file count or version-number threshold: a coherent capability, a correction users need, or a set of small improvements worth announcing. A weekly or fortnightly review can be a manual habit if requested; it is not a scheduled job or an automatic publishing threshold. Keep GitHub packages and the public catalog together by default so current downloads remain consistent. Reuse unchanged verification receipts where the implementation proves the same bytes and source identity.
 
 Use `--publish --reconcile-only` with the original package scope to recover an already started publication without another version. Retain the published package and prior working Site if deployment fails; report the pending catalog step accurately. Never widen private export boundaries, rewrite historical assets or remove upstream notices to make a batch pass. New files, removals, conflicting contributions and redistribution changes require their specific review before release. A queued update is a completed local update, not a completed public release.
+
+
+## Keep reusable release methods separate from private setup
+
+Work Management owns this portable release method. A maintainer may add a
+private companion plugin or user-global release skill for their configuration
+and publication tools. Public users do not need that private setup. Keep it
+outside public packages, export allowlists and distribution cleanup inputs;
+private native installation caches are permitted.
+
+Treat local maintained plugins as canonical. Publication only reads them and
+builds a portable projection. Adapt machine-specific paths through relative
+paths, environment variables or documented setup while retaining full approved
+functionality. Generated manifests never overwrite canonical manifests.
+Preserve skills, scripts, hooks and their host registrations, agents, MCP
+configuration, references and assets. Missing capabilities block the affected
+release; portability alone does not authorize removing them. Independently
+verify the hook interface supported by each host, and detect missing or duplicate
+handlers. Keep any separately authorized source reconciliation outside the
+publisher.
+
+Offer collection as a flow within release management, not another plugin or
+skill. Track in-progress and completed edits with their reason, affected owner,
+compatibility and actual checks. Merge earlier pending notes rather than
+replacing them with the last edit. Collection updates only the existing local
+notes and queue; it does not allocate versions or prepare release records.
+A read-only status request computes fresh observations without writing the
+queue. Explicit publication batches the accumulated net changes and deploys the
+catalog once. Never start publication from a timer or a raw change-count threshold.
