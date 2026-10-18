@@ -3520,6 +3520,49 @@
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
         {
+          "release_key": "work-management/v0.6.0",
+          "product_id": "work-management",
+          "version": "0.6.0",
+          "git_tag": "work-management/v0.6.0",
+          "source_commit": "27d5b5315442590a8e35f17bad08018e0e57ca05",
+          "published_at": "2026-10-18T06:58:07Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/work-management/v0.6.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add provider toolkit coordination and preserve accumulated local workflow improvements.",
+          "notes": "Add provider toolkit coordination and preserve accumulated local workflow improvements.\n\nTrack ongoing plugin work without repeated public releases while keeping private publication bindings separate from portable methods.\n\n2026-10-15 hook ownership and naming: Reduce ambiguous hook navigation and repeated removal of personal setup from public release inputs without duplicating engines or state.\n\nAdds portable guidance for an optional private global release skill. Preserves complete capability coverage, canonical source protection, and independent host hook interfaces. Defines local collection, accumulated notes, and fresh read-only status without version preparation or scheduled publishing. Adds an opt-in deterministic file-change recorder with an atomic private history, stat/hash no-op detection, unavailable-source preservation and scoped pending-queue refresh. Host completion hooks and the existing Obsidian listener can share its observations without schedules, model calls or publication.\n\n2026-10-15 hook ownership and naming: Clarify every hook responsibility; keep generic file observation, recipient handoff and release methods while allowing a separately maintained private companion to own personal binding and host-only closeout behavior. Parameterize artifact state with CODEX_HOME and preserve the old closeout entrypoint through an optional external-helper adapter.\n\n2026-10-17 reciprocal REA routing: Work Management selects Development Studio for authorized artifact/source gaps without requiring the REA name; source-only work stays with ordinary code navigation. Development returns evidence and coordination needs to the existing project owner without a new intake loop. Routing does not grant capture, installation or target access.\n\n2026-10-17 provider coordination: Route Claude, Gemini/Antigravity, Apple Foundation Models and local models through their maintained toolkit owners. Prefer the receiving host tested local default for suitable short extraction, formatting and classification tasks, verify output and keep provider evidence and model bindings private. Preserve the Claude compatibility route.\n\nCompatibility: Compatible optional helper and guidance. Existing skill identifiers, hooks and release commands remain; automatic recording requires private host configuration.\n\n2026-10-15 hook ownership and naming: Existing event matchers and timeouts retained. Personal helper bindings stay outside shared packages; generic tools work without a private companion.\n\nUpgrade: Existing workflows continue unchanged. Maintainers who want automatic local tracking configure the recorder and a host completion hook using the included reference; no machine paths are required in public methods.\n\nValidation: Generic guidance source/cache parity verified after native installation. Private user-global skill validated and discovered from an unrelated working directory; ten routing scenarios independently simulated. This guidance is local pending work, not included in the completed hook patch. Recorder fixtures cover byte edits, additions, deletions, reverted edits, concurrent locks and quiet hook behavior. Obsidian fixtures verify cached refresh, linked history and preservation of annotations and graph configuration. Native Codex readback confirms the configured recorder hook is enabled and trusted. Publication remains explicitly requested.\n\n2026-10-15 hook ownership and naming: Local generic recorder (9), workflow activity (6), configured closeout (4) and Gmail (32) regression tests passed; artifact/closeout self-tests and native unique named hook discovery passed. No public release performed.\n\nREA routing follow-up: 8 supplied-context cases evaluated by Claude Sonnet 5; two ambiguous authorization/provider cases clarified and retested. Changed skill heads validate, Development structural checks pass, and both installed packages match canonical bytes. Existing owned app build analyzed through installed REA MCP with retained/exported/imported Evidence, then verified in the native browser. App behavior passes selected controls; label tracing remains partial and an existing playback accessible-name defect was recorded. No application or website publication.\n\nProvider routing: 6 canonical work-start tests passed; public package validation passes35packages/266skills. Release preparation regression exercises reviewed public-only manifests without creating canonical files.",
+          "notes_provenance": "github-release:416289614",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "work-management-0.6.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.6.0/work-management-0.6.0.files.json",
+              "size": 34709,
+              "sha256": "c1e1106239fd5a48bb6543e884114326fd7567d3e9b35e78253c8eb6f190cad1"
+            },
+            {
+              "role": "installation",
+              "name": "work-management-0.6.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.6.0/work-management-0.6.0.zip",
+              "size": 3632863,
+              "sha256": "c22a633f571a3fb5699cb5ea89bc0665f3ae69ee15604d9b9a45d9d0be0b8af1"
+            },
+            {
+              "role": "checksum",
+              "name": "work-management-0.6.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.6.0/work-management-0.6.0.zip.sha256",
+              "size": 92,
+              "sha256": "3a8d7075344d4841cb6c594a58e62c737ccc2f00897236fb88b13e661073e952"
+            }
+          ],
+          "compatibility": "Compatible optional helper and guidance. Existing skill identifiers, hooks and release commands remain; automatic recording requires private host configuration.\n\n2026-10-15 hook ownership and naming: Existing event matchers and timeouts retained. Personal helper bindings stay outside shared packages; generic tools work without a private companion.",
+          "upgrade_guidance": "Existing workflows continue unchanged. Maintainers who want automatic local tracking configure the recorder and a host completion hook using the included reference; no machine paths are required in public methods.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
+        {
           "release_key": "work-management/v0.5.1",
           "product_id": "work-management",
           "version": "0.5.1",
@@ -3821,7 +3864,7 @@
           }
         }
       ],
-      "current_release_key": "work-management/v0.5.1"
+      "current_release_key": "work-management/v0.6.0"
     },
     {
       "id": "graphic-design-studio",
@@ -6088,6 +6131,222 @@
         }
       ],
       "current_release_key": "research-methodology-local/v1.2.0"
+    },
+    {
+      "id": "claude-toolkit",
+      "name": "Claude Toolkit",
+      "kind": "plugin",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "compatibility": "Claude Code CLI; Python 3 for the optional text worker; A recipient-owned Claude account and subscription",
+      "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
+      "releases": [
+        {
+          "release_key": "claude-toolkit/v0.2.0",
+          "product_id": "claude-toolkit",
+          "version": "0.2.0",
+          "git_tag": "claude-toolkit/v0.2.0",
+          "source_commit": "27d5b5315442590a8e35f17bad08018e0e57ca05",
+          "published_at": "2026-10-18T06:57:12Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/claude-toolkit/v0.2.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add Claude Toolkit as a standalone provider toolkit.",
+          "notes": "Add Claude Toolkit as a standalone provider toolkit.\n\nExpose provider-specific setup, CLI operation and task-fit guidance while keeping account data, credentials, machine paths and runtime state recipient-owned.\n\nInitial public edition of Claude Toolkit. The package is CLI-first where a supported provider CLI exists, records readiness separately from successful inference, and includes recipient onboarding. Private account identifiers, host paths, model receipts and local state are excluded.\n\nCompatibility: New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.\n\nUpgrade: Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.\n\nValidation: Canonical source copied into the reviewed public checkout; portable and compatibility manifests checked; complete public file inventory generated; account, credential and machine-path scan returned no matches. Publication remains queued for the existing release workflow.",
+          "notes_provenance": "github-release:416289105",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "claude-toolkit-0.2.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.2.0/claude-toolkit-0.2.0.files.json",
+              "size": 2188,
+              "sha256": "f89f3e30cde8868d86c6f503b4fbd4c4b7028daad233e96462d4680b16bf30c0"
+            },
+            {
+              "role": "installation",
+              "name": "claude-toolkit-0.2.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.2.0/claude-toolkit-0.2.0.zip",
+              "size": 35197,
+              "sha256": "64b99daa1b0e1d66b406858489dbc36574c083cefac6a3fd3ab6b34dfb20fa50"
+            },
+            {
+              "role": "checksum",
+              "name": "claude-toolkit-0.2.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.2.0/claude-toolkit-0.2.0.zip.sha256",
+              "size": 91,
+              "sha256": "61d4758e7c485eee044ca24d720c7d0b9cf5c4f18f17a60366ff761de9bb0253"
+            }
+          ],
+          "compatibility": "New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.",
+          "upgrade_guidance": "Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        }
+      ],
+      "current_release_key": "claude-toolkit/v0.2.0"
+    },
+    {
+      "id": "gemini-toolkit",
+      "name": "Gemini Toolkit",
+      "kind": "plugin",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "compatibility": "Antigravity CLI; A recipient-owned eligible Google account",
+      "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
+      "releases": [
+        {
+          "release_key": "gemini-toolkit/v0.2.0",
+          "product_id": "gemini-toolkit",
+          "version": "0.2.0",
+          "git_tag": "gemini-toolkit/v0.2.0",
+          "source_commit": "27d5b5315442590a8e35f17bad08018e0e57ca05",
+          "published_at": "2026-10-18T06:57:30Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/gemini-toolkit/v0.2.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add Gemini Toolkit as a standalone provider toolkit.",
+          "notes": "Add Gemini Toolkit as a standalone provider toolkit.\n\nExpose provider-specific setup, CLI operation and task-fit guidance while keeping account data, credentials, machine paths and runtime state recipient-owned.\n\nInitial public edition of Gemini Toolkit. The package is CLI-first where a supported provider CLI exists, records readiness separately from successful inference, and includes recipient onboarding. Private account identifiers, host paths, model receipts and local state are excluded.\n\nCompatibility: New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.\n\nUpgrade: Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.\n\nValidation: Canonical source copied into the reviewed public checkout; portable and compatibility manifests checked; complete public file inventory generated; account, credential and machine-path scan returned no matches. Publication remains queued for the existing release workflow.",
+          "notes_provenance": "github-release:416289263",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "gemini-toolkit-0.2.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.2.0/gemini-toolkit-0.2.0.files.json",
+              "size": 1989,
+              "sha256": "ab231f173f6a9e70edf467212ecce565a29eed05f4f8d1d99b5e0039730756a9"
+            },
+            {
+              "role": "installation",
+              "name": "gemini-toolkit-0.2.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.2.0/gemini-toolkit-0.2.0.zip",
+              "size": 27364,
+              "sha256": "b221a6a0b0b0fb5d0c79cdc7c4dcb864187bcbb8d413e9b8122f2aa784c3c4d5"
+            },
+            {
+              "role": "checksum",
+              "name": "gemini-toolkit-0.2.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.2.0/gemini-toolkit-0.2.0.zip.sha256",
+              "size": 91,
+              "sha256": "70dc372d89410330c6050f094be901ffe9c1ee719ca53fb4b6455350d60974d9"
+            }
+          ],
+          "compatibility": "New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.",
+          "upgrade_guidance": "Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        }
+      ],
+      "current_release_key": "gemini-toolkit/v0.2.0"
+    },
+    {
+      "id": "apple-foundation-model-toolkit",
+      "name": "Apple Foundation Model Toolkit",
+      "kind": "plugin",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "compatibility": "macOS 27 with Apple Foundation Models readiness; Administrator authentication may be required for machine-wide terms",
+      "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
+      "releases": [
+        {
+          "release_key": "apple-foundation-model-toolkit/v0.2.0",
+          "product_id": "apple-foundation-model-toolkit",
+          "version": "0.2.0",
+          "git_tag": "apple-foundation-model-toolkit/v0.2.0",
+          "source_commit": "27d5b5315442590a8e35f17bad08018e0e57ca05",
+          "published_at": "2026-10-18T06:56:54Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/apple-foundation-model-toolkit/v0.2.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add Apple Foundation Model Toolkit as a standalone provider toolkit.",
+          "notes": "Add Apple Foundation Model Toolkit as a standalone provider toolkit.\n\nExpose provider-specific setup, CLI operation and task-fit guidance while keeping account data, credentials, machine paths and runtime state recipient-owned.\n\nInitial public edition of Apple Foundation Model Toolkit. The package is CLI-first where a supported provider CLI exists, records readiness separately from successful inference, and includes recipient onboarding. Private account identifiers, host paths, model receipts and local state are excluded.\n\nCompatibility: New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.\n\nUpgrade: Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.\n\nValidation: Canonical source copied into the reviewed public checkout; portable and compatibility manifests checked; complete public file inventory generated; account, credential and machine-path scan returned no matches. Publication remains queued for the existing release workflow.",
+          "notes_provenance": "github-release:416288903",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "apple-foundation-model-toolkit-0.2.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/apple-foundation-model-toolkit/v0.2.0/apple-foundation-model-toolkit-0.2.0.files.json",
+              "size": 1761,
+              "sha256": "79fdf623d9a0266aa69e8de029cf7815ded94788dfba5d5322dd30cce4c3b573"
+            },
+            {
+              "role": "installation",
+              "name": "apple-foundation-model-toolkit-0.2.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/apple-foundation-model-toolkit/v0.2.0/apple-foundation-model-toolkit-0.2.0.zip",
+              "size": 26660,
+              "sha256": "9361182dc68a081f35ae5d4148a26e21e8a1d4e8f6b2a5dc50cafcce77866405"
+            },
+            {
+              "role": "checksum",
+              "name": "apple-foundation-model-toolkit-0.2.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/apple-foundation-model-toolkit/v0.2.0/apple-foundation-model-toolkit-0.2.0.zip.sha256",
+              "size": 107,
+              "sha256": "ad5ccd3389dd465158c95b79800e9d9bd97814e0fad308250c309603b461dbd9"
+            }
+          ],
+          "compatibility": "New standalone package; no existing package identifiers, hooks or runtime contracts are removed. Provider services and local operating-system capabilities remain external prerequisites.",
+          "upgrade_guidance": "Install this package, follow its recipient onboarding, configure the provider or host runtime yourself, then run its bounded readiness and task-fit checks before delegation.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        }
+      ],
+      "current_release_key": "apple-foundation-model-toolkit/v0.2.0"
+    },
+    {
+      "id": "local-model-toolkit",
+      "name": "Local Model Toolkit",
+      "kind": "plugin",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "compatibility": "A supported local runner such as LM Studio; Recipient-selected model weights and storage; Python 3 for optional benchmark helpers",
+      "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
+      "releases": [
+        {
+          "release_key": "local-model-toolkit/v0.2.0",
+          "product_id": "local-model-toolkit",
+          "version": "0.2.0",
+          "git_tag": "local-model-toolkit/v0.2.0",
+          "source_commit": "27d5b5315442590a8e35f17bad08018e0e57ca05",
+          "published_at": "2026-10-18T06:57:48Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/local-model-toolkit/v0.2.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add recipient-agnostic local model operations and benchmark guidance.",
+          "notes": "Add recipient-agnostic local model operations and benchmark guidance.\n\nRecipients need a bounded CLI-first method to measure local model usefulness without bundling weights or machine-specific setup.\n\nModel weights, credentials, private receipts and host paths remain external.\n\nCompatibility: Adds a new toolkit; existing packages are unaffected.\n\nUpgrade: Install the toolkit and configure a supported local runner with recipient-selected models.\n\nValidation: Catalog, source inventory, package build, privacy audit and full release tests.",
+          "notes_provenance": "github-release:416289432",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "local-model-toolkit-0.2.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.0/local-model-toolkit-0.2.0.files.json",
+              "size": 1982,
+              "sha256": "a5dec84a627a33b8164ffc80daac8368e1c71c4c9579ad4438c48ffe177e5069"
+            },
+            {
+              "role": "installation",
+              "name": "local-model-toolkit-0.2.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.0/local-model-toolkit-0.2.0.zip",
+              "size": 26270,
+              "sha256": "6d57f85151ef2a45c30af4eb6c5d13f81a5edcf09ee4a34fc33afb8a484b83d6"
+            },
+            {
+              "role": "checksum",
+              "name": "local-model-toolkit-0.2.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.0/local-model-toolkit-0.2.0.zip.sha256",
+              "size": 96,
+              "sha256": "b02d3695d989ef6fa0bc5388bf4db80e6512d9fad57f93e2a2c52fea0a3825bd"
+            }
+          ],
+          "compatibility": "Adds a new toolkit; existing packages are unaffected.",
+          "upgrade_guidance": "Install the toolkit and configure a supported local runner with recipient-selected models.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        }
+      ],
+      "current_release_key": "local-model-toolkit/v0.2.0"
     },
     {
       "id": "critical-compass-plugin",
