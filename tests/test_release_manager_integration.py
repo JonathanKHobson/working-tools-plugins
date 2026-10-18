@@ -13,6 +13,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from scripts.release_manager import publisher, local_sync
+import source_inventory
 import complete_update
 
 
@@ -84,6 +85,27 @@ class LocalSyncContractTests(unittest.TestCase):
             self.assertFalse(changes)
             self.assertEqual(len(conflicts), 1)
             self.assertIn('divergent', conflicts[0])
+
+    def test_public_only_projection_can_be_absent_canonically_but_drift_is_hash_audited(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)/'public'; canonical=Path(directory)/'canonical'
+            baseline=b'canonical baseline'; public_only=b'public projection'
+            (canonical/'x').mkdir(parents=True); (canonical/'x/README.md').write_bytes(baseline)
+            (root/'plugins/x').mkdir(parents=True); (root/'plugins/x/README.md').write_bytes(baseline)
+            (root/'plugins/x/plugin.json').write_bytes(public_only)
+            inventory=root/'catalog/source-inventory.json'; inventory.parent.mkdir(parents=True)
+            inventory.write_text(json.dumps({'packages':[{'id':'x','canonical_source':{'id':'x'},
+                'files':{'README.md':local_sync.digest(baseline),'plugin.json':local_sync.digest(public_only)},
+                'canonical_files':{'README.md':local_sync.digest(baseline)},
+                'public_only_files':['plugin.json']}]}))
+            changes, conflicts=local_sync.plan(root,canonical)
+            self.assertEqual((changes,conflicts),({},[]))
+            (root/'plugins/x/plugin.json').write_bytes(b'changed projection')
+            errors=[]; source_inventory._compare(
+                {'plugin.json':local_sync.digest(public_only)},
+                {'plugin.json':local_sync.digest(b'changed projection')},
+                'public x', errors)
+            self.assertEqual(errors,['public x: changed file plugin.json'])
 
     def test_product_root_link_requires_exact_reviewed_target_and_blocks_nested_links(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -251,6 +273,26 @@ class CompletionContractTests(unittest.TestCase):
                     with self.assertRaises(ValueError):complete_update.prepare({'canonical_root':str(canonical)})
                 self.assertEqual(local_sync.read(root/'catalog/packages.json')['packages'][0]['version'],'1.0.0')
                 self.assertFalse((root/'catalog/releases').exists())
+
+    def test_prepare_and_refresh_preserve_reviewed_public_only_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);canonical=self.fixture(root)
+            document=local_sync.read(root/'catalog/source-inventory.json')
+            row=document['packages'][0]
+            omitted=['plugin.json','.claude-plugin/plugin.json','PROVENANCE.json']
+            row['public_only_files']=omitted
+            row['canonical_files']={p:h for p,h in row['files'].items() if p not in omitted}
+            for relative in omitted:(canonical/'x'/relative).unlink()
+            local_sync.write(root/'catalog/source-inventory.json',document)
+            (canonical/'x/README.md').write_text('Updated canonical method.\n')
+            with patch.object(complete_update,'ROOT',root),patch.object(complete_update,'command'),patch.object(complete_update,'validate_source_inventory'):
+                entries=complete_update.prepare({'canonical_root':str(canonical)})
+            self.assertEqual(entries[0]['version'],'1.0.1')
+            refreshed=local_sync.read(root/'catalog/source-inventory.json')['packages'][0]
+            self.assertFalse(set(omitted)&set(refreshed['canonical_files']))
+            self.assertTrue(set(omitted)<=set(refreshed['files']))
+            self.assertEqual(local_sync.read(root/'plugins/x/plugin.json')['version'],'1.0.1')
+            self.assertFalse((canonical/'x/plugin.json').exists())
 
     def test_refresh_preserves_provenance_variants_and_historical_inputs(self):
         for variant in ('sha256','public_sha256','source_relative'):

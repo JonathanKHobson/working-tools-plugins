@@ -276,7 +276,7 @@ def prepare(config):
     source_hashes={}
     for ident in changes:
         source_hashes[ident]={rel:local_sync.digest(local_sync.safe_file(roots[ident],rel).read_bytes())
-                              for rel in reviewed[ident]['files']}
+                              for rel in reviewed[ident].get('canonical_files',reviewed[ident]['files'])}
         if 'CHANGELOG.md' not in reviewed[ident]['files']:
             raise ValueError(ident+': CHANGELOG.md must be admitted to the reviewed source inventory before preparation')
         for base in (ROOT/'plugins'/ident,roots[ident]):

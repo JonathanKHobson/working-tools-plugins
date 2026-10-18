@@ -119,7 +119,14 @@ def plan(root, canonical, canonical_sources=None, *, product_ids=None):
         if row['id'] not in roots:continue
         changed={}; public=root/'plugins'/row['id']; source=roots[row['id']]
         canonical_base=row.get('canonical_files') or row['files']
+        public_only=set(row.get('public_only_files',[])) | set(row.get('public_projection_overrides',[]))
         for rel,public_base in row['files'].items():
+            # Public projections such as portable manifests and audit inventories
+            # are reviewed in the public checkout. Some are absent canonically;
+            # LICENSE-SCOPE is present canonically but intentionally regenerated
+            # for the public file set. All remain inventory- and metadata-locked.
+            if rel in public_only:
+                continue
             source_base=canonical_base.get(rel,public_base)
             try:local=safe_file(source,rel);target=safe_file(public,rel)
             except ValueError:
@@ -275,18 +282,20 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
     allowed=set(row['files'])
     if approved_additions:
         reviewed_additions(root,canonical,ident,list(approved_additions),canonical_sources)
+    canonical_allowed=set(row.get('canonical_files', row['files']))
     for rel in allowed:
-        if not safe_file(public,rel).is_file() or not safe_file(source,rel).is_file():
+        if not safe_file(public,rel).is_file() or (rel in canonical_allowed and not safe_file(source,rel).is_file()):
             raise ValueError('Missing reviewed file: '+rel)
     expected_source_hashes=(dict(expected_source_hashes) if expected_source_hashes is not None else
-                            {rel:digest(safe_file(source,rel).read_bytes()) for rel in allowed})
+                            {rel:digest(safe_file(source,rel).read_bytes()) for rel in canonical_allowed})
     def unchanged_source(rel):
         path=safe_file(source,rel)
         if not path.is_file() or digest(path.read_bytes())!=expected_source_hashes.get(rel):
             raise ValueError('Canonical source changed during metadata refresh: '+ident+'/'+rel)
         return path
-    for rel in allowed:unchanged_source(rel)
+    for rel in canonical_allowed:unchanged_source(rel)
     for rel in REGISTRATION_MANIFESTS:
+        if rel not in canonical_allowed:continue
         require_matching_registrations(ident,rel,safe_file(source,rel),safe_file(public,rel))
     for rel in version_manifest_names(public):
         data=read(public/rel);data['version']=version;write(public/rel,data)
@@ -304,9 +313,9 @@ def refresh_reviewed(root, canonical, ident, version, notes, *, approved_additio
     for rel in allowed:
         p=public/rel
         if p.is_symlink() or not p.is_file():raise ValueError('Missing/unsafe reviewed file: '+rel)
-        unchanged_source(rel)
+        if rel in canonical_allowed:unchanged_source(rel)
     row['version']=version;row['files']={p:digest((public/p).read_bytes()) for p in sorted(allowed)}
-    row['canonical_files']={p:expected_source_hashes[p] for p in sorted(allowed)}
+    row['canonical_files']={p:expected_source_hashes[p] for p in sorted(canonical_allowed)}
     row['canonical_source']['revision']['sha256']=tree(row['files'])
     write(root/'catalog/packages.json',registry);write(root/'catalog/source-inventory.json',inventory)
     # Excluded scopes and coverage baseline intentionally remain untouched.

@@ -157,7 +157,22 @@ def validate_package(record):
   if p.stat().st_size>10*1024*1024:problem(f'oversized source file {p.relative_to(root)}')
   try:text=p.read_text()
   except UnicodeDecodeError:continue
-  if re.search(r'/(?:Users|Volumes)/[^\s\"\']+|plugin_asdk_app_[a-z0-9]+|(?<![A-Za-z0-9_-])sk-(?:proj-)?[a-zA-Z0-9_-]{25,}',text) and not exempt('privacy_exceptions',p):problem(f'private binding/credential candidate in {p.relative_to(root)}')
+  private_patterns=[
+   r'/(?:Users|Volumes)/[^\s\"\']+',
+   r'plugin_asdk_app_[a-z0-9]+',
+   r'(?<![A-Za-z0-9_-])sk-(?:proj-)?[a-zA-Z0-9_-]{25,}',
+  ]
+  # New public toolkits use a stricter recipient audit. Existing packages may
+  # contain retained third-party examples, so their historical scan remains
+  # limited to the established binding and token patterns.
+  if record.get('id') in {'claude-toolkit','gemini-toolkit','apple-foundation-model-toolkit','local-model-toolkit','work-management'}:
+   private_patterns.extend([
+    r'(?<![A-Za-z0-9_-])/(?:home|root)/(?!(?:user|username|recipient|example)(?:[/\\]|$))[A-Za-z][A-Za-z0-9._-]{2,}(?:[/\\]|$)',
+    r'(?<![A-Za-z0-9_-])[A-Za-z]:\\Users\\(?!(?:user|username|recipient|example)(?:\\|$))[A-Za-z][A-Za-z0-9._-]{2,}(?:\\|$)',
+    r'(?<![A-Za-z0-9._%+-])[A-Za-z0-9._%+-]+@(?!example\.)(?:gmail|icloud|outlook|hotmail|yahoo|proton)\.(?:com|me)(?![A-Za-z0-9.-])',
+    r'(?<![A-Za-z0-9_-])AIza[0-9A-Za-z_-]{20,}',
+   ])
+  if any(re.search(pattern,text) for pattern in private_patterns) and not exempt('privacy_exceptions',p):problem(f'private binding/credential candidate in {p.relative_to(root)}')
   if p.name=='SKILL.md':
    front=re.match(r'^---\n(.*?)\n---',text,re.S)
    if not front or not all(re.search(r'(?m)^'+key+r':\s*\S+',front[1]) for key in ['name','description']):problem(f'invalid frontmatter {p.relative_to(root)}')

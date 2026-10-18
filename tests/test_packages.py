@@ -26,6 +26,15 @@ class DistributionTest(unittest.TestCase):
  def test_escape_and_private_binding_are_rejected(self):
   (self.package/'README.md').write_text('[escape](../../../../outside)\nPrivate binding: /Users/fixture/private.json\n')
   errors=p.validate_package(self.record);self.assertTrue(any('broken reference' in e for e in errors));self.assertTrue(any('private binding' in e for e in errors))
+ def test_private_account_and_host_patterns_are_rejected_but_placeholders_are_allowed(self):
+  target=self.root/'plugins/local-model-toolkit'; self.package.rename(target); self.package=target; self.record['id']='local-model-toolkit'
+  cases=['Contact: realperson@gmail.com','/home/jonathan/private.json',r'C:\Users\Jonathan\secret.json','AIzaSyAbcdefghijklmnopqrstuvwxyz123']
+  for value in cases:
+   (self.package/'README.md').write_text(value)
+   self.assertTrue(any('private binding' in e for e in p.validate_package(self.record)), value)
+  (self.package/'README.md').write_text('Use name@example.com, /home/<user>/project, and C:\\Users\\<user>\\project.')
+  self.assertFalse(any('private binding' in e for e in p.validate_package(self.record)))
+
  def test_symlink_is_rejected(self):
   (self.package/'bad').symlink_to('/etc/hosts')
   with self.assertRaisesRegex(ValueError,'Symlink'):p.validate_package(self.record)
