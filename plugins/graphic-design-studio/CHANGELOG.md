@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Add source-aware still-image reconstruction with complete conditional visual grammar, art-direction/revision, hierarchy and quality references. Expand Image Stickers and Meme Layouts for built-in opaque-photo isolation, Clean Cutout/Emoji/Label/Die-cut sticker interpretation, exact-copy meme layouts and a bounded Pillow CLI. The helper's true cutout still requires real alpha or an explicit mask; captions preserve explicit line breaks and fail rather than clip. Add a still-image motion method with native-video execution only when available and an honest brief fallback. No separate image/video API, app or renderer is required by these routes.
+
 ## 0.4.0
 
 Strengthen responsive logo-family and production-asset verification.

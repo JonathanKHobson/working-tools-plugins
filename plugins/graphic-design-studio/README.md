@@ -7,7 +7,7 @@ tags: [graphic-design, flyers, posters, advertising]
 
 # Graphic Design Studio
 
-Current edition **0.3.2** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.4.0** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Make posters, flyers, advertisements, and promotional graphics whose composition, typography, imagery, and message work together. Use motion design here for visual direction across time: styleframes, kinetic type, and continuity review. Video Production owns scenes, rendering, audio and narration.
 
@@ -29,6 +29,8 @@ Start with **$graphic-design**. It selects only the specialist guidance the task
 | promotional-design-copy | Shape the offer, hook, information hierarchy, and call to action |
 | composition-and-typography | Resolve placement, balance, visual movement, type, and color |
 | graphic-asset-compositing | Integrate images, cutouts, effects, masks, and text fields |
+| [source-image-reconstruction](skills/source-image-reconstruction/SKILL.md) | Rebuild a supplied still using source-aware editorial, graphic or collage direction when selected |
+| [image-stickers-and-memes](skills/image-stickers-and-memes/SKILL.md) | Make source-aware stickers and exact-caption memes with built-in image editing or bounded local composition |
 | campaign-format-adaptation | Recompose a design for print, feeds, stories, and ad placements |
 | motion-design | Direct styleframes, kinetic type, and visual continuity across beats |
 | graphic-design-review | Review the rendered work with specific visual anchors and a taste pass |
@@ -40,6 +42,10 @@ Start with **$graphic-design**. It selects only the specialist guidance the task
 For the full task list and direct links, see the [use-case map](docs/use-case-map.md).
 
 The plugin contains original synthesis of existing local marketing, communication, design, and visual-integration skills plus [graphic-design research](skills/graphic-design/references/research.md). It does not require those source plugins, a particular design application. Creation and export do not imply publication, sending, ad spending, or printing.
+
+For a supplied image, choose [source-image reconstruction](skills/source-image-reconstruction/SKILL.md) when a selected editorial, flat graphic or collage treatment should change the composition. The detailed visual grammar, art-direction, hierarchy and quality references apply only to that selected direction; the user's brief and project identity remain primary. Built-in ChatGPT image editing executes the source-aware edit when available.
+
+For a sticker or meme, [image-stickers-and-memes](skills/image-stickers-and-memes/SKILL.md) can use built-in ChatGPT image editing for opaque-photo isolation or an expressive poster layout. Its separate Pillow command handles deterministic transparent or masked stickers and native-size top/bottom captions. That helper requires an existing Python 3.9+ runtime with Pillow 10.1+; no setup or install runs. It writes only to the selected output path, with a same-directory temporary file during explicit overwrite. A subject cutout through the helper requires real alpha or a supplied mask; a mask is a stencil and still needs edge and identity review. The built-in tool can change source details, so inspect its actual output before acceptance. A supplied still can also take the [still-image motion](skills/motion-design/references/still-image-motion.md) route when a short animation is requested; if no native video tool is available, the result is an unrendered shot brief.
 
 See [project map](docs/project-map.md), [integration decisions](docs/integration-map.md), and [distribution checks](docs/distribution.md). Current platform and printer specifications must be checked for the actual job.
 
@@ -56,7 +62,7 @@ The library uses Design Templates’ maintained chooser. Install that package an
 <!-- END PROFESSIONAL-AGENTS -->
 
 
-Public edition 0.3.2 includes all twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the actual four-tool MCP app, standard-library Iconify helper and PDF preflight. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
+The earlier public 0.3.2 edition included twelve workflows, complete eligible methods, 16 original image recipes, synthetic previews, the four-tool MCP app, standard-library Iconify helper and PDF preflight. This edition adds the source-image reconstruction and sticker/meme routes above. See [distribution scope](docs/distribution.md) and [license attribution](THIRD_PARTY_NOTICES.md). Generation uses a supported host imagegen capability; selecting or preparing a prompt does not generate an image.
 
 ## Presentations, local review and pet atlases
 

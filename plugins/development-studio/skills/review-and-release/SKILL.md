@@ -1,9 +1,11 @@
 ---
 name: review-and-release
-description: "Review code, handle review feedback and finish a software branch or release with evidence and an explicit delivery state."
+description: "Review a diff or whole codebase, audit shortcut debt, handle feedback and finish a software branch or release with evidence."
 ---
 
 # Review and release
+
+For a diff review or whole-repository audit, read and apply the complete [quality review method](../../references/quality-review.md). It checks connected code, correctness, security, expected load, meaningful tests, speed and unnecessary complexity. For a requested shortcut/deferred-work ledger, use the read-only debt procedure in [runtime operations](../../references/efficient-operations.md). These are one-shot reports and do not switch implementation mode or authorize fixes.
 
 Read [method adaptation](../../references/method-adaptation.md) before a preserved Superpowers method. Read each selected method completely and its required support. The snapshot provides the actual procedure; the route below selects it. Current host tools and user authorization govern execution.
 

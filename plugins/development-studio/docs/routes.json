@@ -7,6 +7,9 @@
       "full_methods": [
         "libraries/superpowers-6.4.2/skills/brainstorming/SKILL.md",
         "libraries/superpowers-6.4.2/skills/using-superpowers/SKILL.md"
+      ],
+      "conditional_methods": [
+        "references/efficient-implementation.md"
       ]
     },
     {
@@ -17,6 +20,10 @@
         "libraries/superpowers-6.4.2/skills/subagent-driven-development/SKILL.md",
         "libraries/superpowers-6.4.2/skills/dispatching-parallel-agents/SKILL.md",
         "libraries/superpowers-6.4.2/skills/using-git-worktrees/SKILL.md"
+      ],
+      "conditional_methods": [
+        "references/efficient-implementation.md",
+        "references/efficient-operations.md"
       ]
     },
     {
@@ -39,6 +46,10 @@
         "libraries/superpowers-6.4.2/skills/receiving-code-review/SKILL.md",
         "libraries/superpowers-6.4.2/skills/finishing-a-development-branch/SKILL.md",
         "libraries/superpowers-6.4.2/skills/verification-before-completion/SKILL.md"
+      ],
+      "conditional_methods": [
+        "references/quality-review.md",
+        "references/efficient-operations.md"
       ]
     },
     {
@@ -46,6 +57,9 @@
       "full_methods": [
         "libraries/superpowers-6.4.2/skills/diagnosing-superpowers/SKILL.md",
         "libraries/superpowers-6.4.2/skills/writing-skills/SKILL.md"
+      ],
+      "conditional_methods": [
+        "references/implementation-evaluation.md"
       ]
     },
     {
@@ -117,6 +131,11 @@
       "skill": "systematic-debugging",
       "full_methods": [],
       "source_closure": "docs/standalone-imports.json"
+    },
+    {
+      "skill": "reverse-engineer-software",
+      "full_methods": [],
+      "source_closure": "docs/rea-imports.json"
     }
   ],
   "provider_routes": {

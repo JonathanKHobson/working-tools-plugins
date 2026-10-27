@@ -18,6 +18,8 @@ For conflicting domain terms or relationships that change requirements, read [do
 
 For unresolved, dependent decisions across sessions, use [decision mapping](../../references/decision-mapping.md) before slicing implementation. Reuse the existing project record; a clear small feature bypasses this method.
 
+When a software request needs to move from vague intent to a complete efficient implementation, use [implementation readiness](../../references/implementation-readiness.md). Work Management owns outcome/scope, UX owns the applicable human expectations, and Development Studio `implement-software` owns the smallest complete implementation. Prompt Playbook refines instructions when useful. These are conditional responsibilities, not mandatory sequential gates.
+
 Make the next build or validation step concrete. Do not silently implement, publish, message stakeholders, or create project scaffolding just because a plan recommends it. If implementation was explicitly requested in an owning project, continue through the authorized build and verification rather than stopping at the brief.
 
 For this workflow's full original method, **read and apply [prd-strategist](../../libraries/prd-strategist/SKILL.original.md)** when its trigger matches; follow its relevant support references. Preserve all applicable original steps and templates. Current user/host authorization and tool availability govern historical instructions, and existing narrowed routing remains the owner. Do not replace the loaded procedure with a synopsis.

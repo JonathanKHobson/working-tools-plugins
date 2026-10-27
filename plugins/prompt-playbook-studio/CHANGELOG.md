@@ -1,18 +1,8 @@
 # Changelog
 
-## 0.3.1
+## Unreleased
 
-Restore the prompt advisory hook and its installed script path.
-
-The previous public package layout prevented the supported Codex runtime from discovering the bundled hooks. Hook functionality must remain part of the installed Studio.
-
-Restores the Codex UserPromptSubmit registration and fixes the command to resolve its script from the installed plugin root. Preserves the Claude registration and quiet behavior for unrelated prompts. Uses the working host-native manifest layout while retaining portable metadata.
-
-Compatibility: Existing product and skill identifiers are unchanged. Requires a supported host and Python 3. Native hook trust is controlled by the receiving user.
-
-Upgrade: Install this patch of the existing Studio. In Codex, review and trust its listed hooks and refresh the plugin discovery state. Keep project-specific design runtime settings where applicable.
-
-Validation: Manifest layout checked against the installed Codex runtime. Package registration and archive-content checks preserve the bundled definitions and handlers. The repaired local Codex installation reports the seven affected plugin hooks enabled and trusted; this does not claim every end-to-end agent workflow was retested.
+Connect the existing approach advisory and refinement/ambition routes to conditional problem framing, evidence diversity and actual method/tool selection. Preserve direct execution, supported conventional answers, user scope and source limits. No additional hook, automatic model call or persistent state. Local checks and supplied-text trials do not establish universal behavior improvement.
 
 ## 0.3.0
 

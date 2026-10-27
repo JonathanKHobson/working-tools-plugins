@@ -1,0 +1,5 @@
+# Admit a web component or motion recipe
+
+Use only when an implementation has a specific unmet UI or motion requirement and the existing project stack cannot already satisfy it. Resolve the installed `work-management` root through skill discovery, then inspect `references/operations/resource-directory.json` for candidate resources and `resource-access.md` for the supported access route. Do not infer an API Anything recipe from a bookmark.
+
+For a selected snippet or package, inspect the exact version, license and attribution, dependency tree, remote scripts/assets, update and support status, and whether its framework and styling model fit the project. Verify keyboard and focus behavior, accessible names, state semantics, reduced motion and responsive layout. Measure bundle/runtime cost when material; a design lint pass is not a performance test. Prefer a small adaptation into the existing component system over installing a whole showcase library. Retain source/version and the adaptation decision in the project's normal dependency record. Test the interaction and inspect the rendered result.

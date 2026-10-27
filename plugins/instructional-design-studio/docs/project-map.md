@@ -34,6 +34,8 @@ The AI Workshop Studio v3 planning path is a bounded extension of `skills/instru
 
 `course-production-handoff/references/course-media-integration.md` owns script/resource reconciliation, clip-to-lesson mapping, and learner revision checks. Video Production Workflow owns the recorded media; Writing Quality Studio owns an optional spoken-voice pass.
 
+For educational animation, `course-production-handoff/SKILL.md` can hand off a learner objective, visible learner action and success check to Video Production Workflow's conditional educational-motion route. The handoff does not turn motion polish into learning evidence, and it does not copy private brand assets into the instructional package.
+
 ## Assessment and activity extension
 
 `assessment-rubric-design` owns blueprint/item/assignment/scoring guidance, source review, a fictional JSON authoring example and `scripts/check_assessment.py`. It does not own delivery platforms or Survey Studio's instrument engine. `lesson-experience-design` owns `assets/activity-library.json` and `scripts/search_activities.py`: 31 complete original adaptations with source identities. The helper selects an explicit `--library`, then an optional recipient-owned studio-tools binding, then the bundled adaptations. A broken binding fails visibly. Search a few matches, then author concrete materials. Neither helper fetches source URLs or writes to the vault. `learning-evaluation` owns score interpretation and pilot/transfer decisions.
@@ -53,3 +55,7 @@ All operative skill heads and their complete generic supporting procedures are p
 Standalone method owners in 0.2.0: `skills/learning-experience-designer/`. Preserve full original procedures and their exact source/recipient-output hashes in PROVENANCE.json. Populated recipient inputs belong outside installation state.
 
 `skills/course-production-handoff/references/exercise-packaging.md` supports problem/solution/explainer packaging using the existing project layout, stable IDs and learner checks. Its same-folder Matt Pocock MIT license covers the selected upstream method adaptation; no upstream CLI or scaffold is imported.
+
+`course-production-handoff/references/transcript-evidence-workflow.md` owns corpus accounting, claim/source dispositions, numbered references, video glossary scope and transcript export verification. Case evidence remains in the originating course project.
+
+- Audio courses: `course-production-handoff/references/audio-lesson-production.md` routes the complete MIT audio-course method, retained source/support and guarded local helpers. `docs/audio-course-source.json` records file hashes. No source hook is registered.

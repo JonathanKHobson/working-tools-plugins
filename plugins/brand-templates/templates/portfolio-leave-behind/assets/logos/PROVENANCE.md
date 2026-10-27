@@ -12,9 +12,9 @@ Authored logo direction: Use WORK TO KEEP in Baskerville with a small Helvetica 
 
 The wordmark is outlined from licensed type and the supporting geometry is drawn as native SVG paths according to this identity’s source direction. No image generation was used for this typographic or geometric construction.
 
-Type decision: Baskerville → Libre Baskerville. Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.
+Type decision: Baskerville → Atlas Book Serif. Portable variant selected. Baskerville is a separately licensed/system font; not bundled. Open Baskerville-inspired portable serif for proprietary Baskerville source dependencies; source family remains explicitly recorded.
 
-- libre-baskerville, Bold: LibreBaskerville-Bold.ttf; license OFL.txt.
+- libre-baskerville, Bold: AtlasBookSerif-Bold.ttf; license OFL.txt.
 
 The SVG masters are self-contained outlined paths. Text remains scalable artwork rather than live editable text. PNG files are transparent 2× exports of the corresponding SVG, rendered with MuPDF.
 

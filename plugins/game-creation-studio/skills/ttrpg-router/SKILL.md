@@ -1,6 +1,6 @@
 ---
 name: ttrpg-router
-description: Design and maintain system-neutral tabletop RPG campaigns, adventures, GM prep, session facilitation, safety tools, recap, canon updates, rules citation, encounter flow, clue redundancy, player-facing handouts, and GM-only material without mutating live VTTs by default.
+description: "Design system-neutral tabletop RPG campaigns and table-ready material, including safety, rules and canon; separate player and GM content, with live VTT edits separately authorized."
 ---
 
 # TTRPG Router

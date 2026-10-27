@@ -2,3 +2,6 @@ interface:
   display_name: "Local Storage MCP"
   short_description: "Query storage catalogs before scanning raw drives"
   default_prompt: "Use the local-storage MCP to find files, inspect storage reports, and make evidence-backed placement decisions across ${ARCHIVE_VOLUME}, ${RUNTIME_VOLUME}, and the internal disk."
+
+policy:
+  allow_implicit_invocation: false

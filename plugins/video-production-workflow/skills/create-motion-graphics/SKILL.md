@@ -17,6 +17,8 @@ For a standalone motion-designed film, channel introduction, continuous visual s
 
 For explanatory graphs, process maps or sequence diagrams, apply [animated-diagram production](references/animated-diagram-production.md) for semantic fidelity, layout ownership, edge timing, camera framing and diagram-specific QA.
 
+For educational explainers or animated worked examples, apply [educational animation](references/educational-animation.md). For authored drawing styles, drawing timelapses, stable character modules or drawing lessons, read [code-drawn production](references/anidoodle-production.md), which routes the complete retained methods and their execution boundaries. For a nine-state indeterminate orb in an illustration or exported slot, use the [reviewed Canvas runtime](../../runtime/thinking-orbs/README.md); actual product status and lifecycle remain with UX.
+
 For procedural JavaScript films, an Animate drawing style, a Charlie motion brief or a chosen HyperFrames project, read [procedural video methods](references/procedural-video-methods.md). This routes full pinned source methods, local execution boundaries and the tested deterministic canvas example.
 
 When an approved project selects Remotion for 2D composition, read [Remotion implementation and review](references/remotion-implementation-and-review.md). It translates the storyboard and event map into frame-driven React scenes, local rendering and exact-output review; it is not a reason to select Remotion by default.
@@ -91,6 +93,8 @@ For a short portfolio, product or social showcase made from owned images/video, 
 
 Static graphics belong to `graphic-design-studio:graphic-design`; approved-file scheduling belongs to `social-content-studio:social-publishing`. Neither request requires generating motion.
 
+For product launch films with editable composition variables, scene labels, cue-based sound or precise frame comments, read [product film production](references/product-film-production.md). For motion recipes, HTML/canvas production and freezable timelines, read [motion recipe production](references/motion-recipe-production.md). Both retain full selected methods and support while holding unsafe source servers, automatic memory, agent permissions and unreviewed exports.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 
@@ -98,3 +102,5 @@ For an assignment needing a named owner, consult [this studio’s role contracts
 <!-- END PROFESSIONAL-AGENTS -->
 
 For image-generated artwork animated in code, apply [generated assets for motion](references/generated-assets-for-motion.md): measured bounds and registration, moving joints, saved artwork and controlled comparisons. For a reusable film, capture its [executable template](../evolve-video-workflow/references/production-learning-transfer.md#capture-the-executable-template) alongside production.
+
+For generated character acting, use [coherent sprite animation](references/generated-sprite-animation.md): director/asset-maker handoff, canonical-reference action strips, complete pose timing, shared registration and semantic motion review.

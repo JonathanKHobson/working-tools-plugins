@@ -19,6 +19,11 @@ SPEC.loader.exec_module(claude_worker)
 
 
 class ClaudeWorkerTests(unittest.TestCase):
+    def setUp(self):
+        recorder = mock.patch.object(claude_worker, "record_usage")
+        recorder.start()
+        self.addCleanup(recorder.stop)
+
     def invoke(self, response, cli_args):
         calls = []
         auth = {
@@ -30,6 +35,8 @@ class ClaudeWorkerTests(unittest.TestCase):
 
         def fake_run_json(cli, command, env, cwd, timeout, prompt=None):
             calls.append((cli, command, env, cwd, timeout, prompt))
+            if command != ["auth", "status"] and isinstance(response, Exception):
+                raise response
             return auth if command == ["auth", "status"] else response
 
         stdout = io.StringIO()
@@ -76,6 +83,41 @@ class ClaudeWorkerTests(unittest.TestCase):
         calls, _ = self.invoke({"subtype": "success", "result": "Done"}, [])
         command = calls[1][1]
         self.assertEqual(command[command.index("--effort") + 1], "low")
+
+    def test_records_one_event_for_inference(self):
+        with mock.patch.object(claude_worker, "record_usage") as record:
+            self.invoke({"subtype": "success", "result": "Done",
+                         "modelUsage": {"actual": {"inputTokens": 3, "outputTokens": 2}}}, [])
+        event = record.call_args.args[0]
+        self.assertEqual((event["provider"], event["operation"], event["actual_model"]),
+                         ("claude", "claude-worker", "actual"))
+        self.assertEqual((event["input_tokens"], event["output_tokens"]), (3, 2))
+
+    def test_failure_and_timeout_record_once_without_masking_original_error(self):
+        for failure, status in [(RuntimeError("original failure"), "failure"),
+                                (subprocess.TimeoutExpired("fake", 1), "timeout")]:
+            with self.subTest(status=status), mock.patch.object(claude_worker, "record_usage") as record:
+                with self.assertRaises(type(failure)) as raised:
+                    self.invoke(failure, [])
+                self.assertIs(raised.exception, failure)
+                record.assert_called_once()
+                event = record.call_args.args[0]
+                self.assertEqual(event["status"], status)
+                self.assertIsNone(event["actual_model"])
+                self.assertGreaterEqual(event["duration_ms"], 0)
+
+    def test_auth_nonzero_explicit_status_and_unknown_failure_are_distinct(self):
+        process = mock.Mock(returncode=1)
+        with mock.patch.object(claude_worker.subprocess, "Popen", return_value=process):
+            process.communicate.return_value = ('{"loggedIn":false}', '')
+            self.assertFalse(claude_worker.run_json(Path("fake"), ["auth", "status"], {}, ".", 1)["loggedIn"])
+            process.communicate.return_value = ('{}', 'Permission denied private-secret')
+            with self.assertRaisesRegex(RuntimeError, "execution permission failure") as raised:
+                claude_worker.run_json(Path("fake"), ["auth", "status"], {}, ".", 1)
+            self.assertNotIn("private-secret", str(raised.exception))
+            process.communicate.return_value = ('[]', '')
+            with self.assertRaisesRegex(RuntimeError, "unexpected JSON shape"):
+                claude_worker.run_json(Path("fake"), ["auth", "status"], {}, ".", 1)
 
     def test_empty_success_response_is_rejected(self):
         with self.assertRaisesRegex(RuntimeError, "successful text result"):

@@ -1,0 +1,13 @@
+# Published motion source and held runtime boundaries
+
+This public edition includes complete original method documents from Huashu Motion and Motion Anything with their MIT and Apache-2.0 grants, original notices and pinned source hashes. It includes Anidoodle conditional source under Apache-2.0, Earshot source under MIT and the generic educational Canvas example under its file-scoped first-party grants. Source retention does not authorize installing dependencies, importing arbitrary project modules, starting servers, fetching models or running upstream tools.
+
+Huashu Motion is pinned to `5f2608c2e12abcf518f74dde86093b19f7f88603`; Motion Anything is pinned to `b016900d9ee92fc2d3e4dc520359cc8999d2ed4e`. The two file inventories retain original source hashes and URLs while marking actual public availability. The catalog preserves discovery metadata without claiming every template or recipe is bundled.
+
+`scripts/motion_sources.py` supports catalog discovery and integrity-checked reads of the published original method documents. Public `plan` and `bundle` fail with a specific held-runtime explanation. They do not retrieve missing source or write an incomplete project. No renderer is supplied by those two source subsets. Production can use an already reviewed recipient renderer under the existing Video owner.
+
+The Huashu author likeness, containing storytime/demo material, fonts, GSAP copies and nonselected runtime/templates remain outside this public edition. Motion Anything imported/React Bits-derived implementations, opaque models, Lottie/AnimXYZ runtimes, brand packs, agent icons and nonselected assets/runtime remain held. Root source grants do not clear these components. A recipient needs a separate selected-file rights and runtime review before acquiring or executing them.
+
+Anidoodle retains its LICENSE and NOTICE, including the separate public-domain Almond Blossom record. Its optional sound pack is absent. Earshot includes no model weights or reference recordings; its source media illustration files remain external. Model, recording and output rights remain separate. Nested source skills and hooks are historical material and are not registered. The generic educational example contains placeholder assets and deliberately invalid zero hashes requiring the recipient's own permitted files.
+
+Public metadata records the exact source selection and any owner adaptation. Catalog/read success establishes source availability only. Actual production still requires dependency checks, source rights, rendered or listened QA, accessible playback and verification of the requested saved output.

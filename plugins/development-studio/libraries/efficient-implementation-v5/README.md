@@ -1,0 +1,3 @@
+# Efficient implementation v5 source support
+
+MIT source: Dietrich Gebert, Ponytail v5.0.0, commit `b088b2df6e08d4306c6a3c3d575fe38c2d2d2989`. See the retained [license](LICENSE) and [historical examples](examples/README.md). Complete active methods live in [efficient implementation](../../references/efficient-implementation.md), [review/audit](../../references/quality-review.md), [operations/debt](../../references/efficient-operations.md) and [evaluation](../../references/implementation-evaluation.md). Source asset disposition is recorded in [the inventory](../../docs/efficient-source-inventory.json). No upstream installer or benchmark script executes from this library.

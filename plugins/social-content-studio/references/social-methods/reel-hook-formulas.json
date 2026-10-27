@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "note": "26 optional editorial forms adapted from Instagram Agent. No rankings, validated performance claims, mandatory numbers or prediction scores. Examples are illustrative only. Prefer plain alternatives whenever a template would exaggerate evidence.",
+  "rules": [
+    "Write the spoken line and the on-screen line separately. On screen is the shorter, blunter one, six words or fewer, no punctuation it does not need.",
+    "No setup. The video starts at the sentence you would normally reach at second six.",
+    "Say the number. 'A lot' is not a number and neither is 'so much time'.",
+    "The first frame is a hook too. A static talking head at 0:00 with no motion and no text is three hooks wasted.",
+    "If the hook would work for anyone else in your niche, it is not your hook. Put the thing only you can say in it.",
+    "A hook promises something. Deliver it before the halfway mark or the retention you bought gets handed back."
+  ],
+  "hooks": [
+    {
+      "id": 1,
+      "name": "Cost Confession",
+      "template": "{Specific amount} is what {one mistake} cost me.",
+      "example": "$18,000 is what one missing clause cost me.",
+      "on_screen": "$18,000 MISTAKE",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use only a documented cost and distinguish estimates from measured losses.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 2,
+      "name": "Negative Command",
+      "template": "Stop {common action}. Do {alternative} instead.",
+      "example": "Stop posting three times a day. Post twice and reply to every comment for an hour.",
+      "on_screen": "STOP POSTING DAILY",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Describe the actual habit and a justified alternative; avoid a universal command.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "stop"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nobody Tells You",
+      "template": "Nobody tells you that {uncomfortable truth about the thing they want}.",
+      "example": "Nobody tells you that your first 30 reels are supposed to flop.",
+      "on_screen": "YOUR FIRST 30 WILL FLOP",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Do not claim nobody discusses it. Use an overlooked detail supported by evidence.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "nobody tells you"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Replacement",
+      "template": "{This thing} replaced {expensive thing} for {price}.",
+      "example": "This $12 tool replaced the editor I was paying $2,000 a month.",
+      "on_screen": "$2,000 -> $12",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "State the replaced portion, conditions, costs and remaining work.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "replaced"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Time Collapse",
+      "template": "This used to take me {long time}. It now takes {short time}.",
+      "example": "Proposals used to take me five hours. They take twenty minutes now.",
+      "on_screen": "5 HOURS -> 20 MIN",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Give the same task scope, measurement basis and limits for both timings.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "used to"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Receipt",
+      "template": "I {did thing} for {N days}. Here are the actual numbers.",
+      "example": "I posted one reel a day for 60 days. Here is what it did to my DMs.",
+      "on_screen": "60 DAYS. REAL NUMBERS.",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Show inspectable evidence and the observation window; protect private data.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 7,
+      "name": "Wrong Way, Right Way",
+      "template": "You are doing {thing} wrong, and it is not your fault. {The fix}.",
+      "example": "You are writing captions wrong, and it is not your fault. Instagram hides everything after line one.",
+      "on_screen": "YOUR CAPTIONS ARE CUT",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Demonstrate the error and repair without shaming or claiming a single correct method.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 8,
+      "name": "Insider Leak",
+      "template": "I spent {N years} {inside the thing}. Here is what we never said out loud.",
+      "example": "I spent six years selling agency retainers. Here is what we never put in the proposal.",
+      "on_screen": "6 YEARS INSIDE",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Disclose only authorized experience; never manufacture insider knowledge or breach confidentiality.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 9,
+      "name": "The Steal",
+      "template": "Steal this {artifact}. It took me {time} to get right.",
+      "example": "Steal this four-line follow-up. It took me two years and a lot of dead leads.",
+      "on_screen": "STEAL THIS",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Offer a rights-cleared useful artifact; no forced comment or DM gate.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "steal this"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "If This, Then Watch",
+      "template": "If you {specific situation}, this {short time} fixes it.",
+      "example": "If your reels get views and no followers, the next 40 seconds fix it.",
+      "on_screen": "VIEWS BUT NO FOLLOWERS?",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Name the actual situation; do not promise a guaranteed fix or unmeasured duration.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 11,
+      "name": "Numbered With A Favourite",
+      "template": "{N} {things} that {outcome}. Number {k} is the one nobody uses.",
+      "example": "Five caption edits that double saves. Number four is the one nobody does.",
+      "on_screen": "5 EDITS. #4 IS THE ONE.",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use a justified list length; do not claim nobody uses the favorite item.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "number three",
+        "number four"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Objection",
+      "template": "\"{Objection they actually say}.\" Fine. Here is the version that works anyway.",
+      "example": "\"I don't want to be on camera.\" Fine. Here is the faceless version that still sells.",
+      "on_screen": "\"I HATE BEING ON CAMERA\"",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use a real, consent-safe objection or clearly label an illustrative paraphrase.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 13,
+      "name": "Before And After, On Screen",
+      "template": "{Show the old thing}. {Show the new thing}. {One sentence on the lever}.",
+      "example": "This was my profile in March. This is it now. I changed the name field, nothing else.",
+      "on_screen": "MARCH  /  NOW",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use comparable before/after evidence and distinguish correlation from cause.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 14,
+      "name": "The Callout",
+      "template": "{Specific group}, this is the one you have been ignoring.",
+      "example": "Photographers charging under $2,000: this is the pricing page you have been avoiding.",
+      "on_screen": "PHOTOGRAPHERS UNDER $2K",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Name a relevant audience without invented collective behavior.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 15,
+      "name": "The Flop Record",
+      "template": "My first {N} {attempts} did nothing. Here is what changed on {N+1}.",
+      "example": "My first 47 reels averaged 300 views. Number 48 did 400,000. One thing was different.",
+      "on_screen": "47 FLOPS, THEN THIS",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Report the actual sequence and acknowledge luck, uncertainty and other changes.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 16,
+      "name": "The Verbatim Question",
+      "template": "\"{Question exactly as it was asked}\" - I get this every week.",
+      "example": "\"How do I post consistently without hating it?\" I get this one every week.",
+      "on_screen": "ASKED EVERY WEEK",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Quote accurately with privacy protection; omit frequency claims unless documented.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 17,
+      "name": "Head To Head",
+      "template": "{A} versus {B}. I ran both for {time} and one of them was not close.",
+      "example": "Carousels versus reels. I ran both for 90 days and it was not close.",
+      "on_screen": "CAROUSELS vs REELS",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use fair conditions and allow a tie, mixed result or insufficient evidence.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "versus"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Cold Open Demo",
+      "template": "{Start mid-action, already doing the thing.} Watch what this does.",
+      "example": "Watch what happens when I paste a competitor's caption into this.",
+      "on_screen": "WATCH THIS",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Show the real task and payoff; disclose cuts or time compression.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "watch what this does"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Deadline",
+      "template": "{Thing} changes on {date}. Do {action} before then.",
+      "example": "Your top nine grid crops change the second you post a reel. Fix the covers first.",
+      "on_screen": "BEFORE YOU POST AGAIN",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use a verified date and consequence; never invent scarcity or urgency.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "before then"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Permission",
+      "template": "You do not need {the thing everyone says you need}.",
+      "example": "You do not need a niche. You need one person you can name.",
+      "on_screen": "YOU DON'T NEED A NICHE",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Explain conditions, alternatives and exceptions rather than remove needed safeguards.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "you do not need"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Mid-Sentence Start",
+      "template": "{...and that is when {the turn}.}",
+      "example": "...and that is when the client asked for the money back. Three days after approving it.",
+      "on_screen": "HE ASKED FOR A REFUND",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Restore enough context for comprehension; do not hide a limitation to create suspense.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 22,
+      "name": "Contrarian Flip",
+      "template": "{Well-known saying, inverted.}",
+      "example": "Nice guys finish first.",
+      "on_screen": "NICE GUYS FINISH FIRST",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Explain the reversal with evidence rather than contrarian framing alone.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 23,
+      "name": "The Statistic",
+      "template": "{N}% of {group} {surprising fact}.",
+      "example": "33% of high school graduates never read another book.",
+      "on_screen": "33% NEVER READ AGAIN",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Provide original source, population, date, denominator and limits.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 24,
+      "name": "The Reveal",
+      "template": "This is the new {thing}.",
+      "example": "This is the new Sony point and shoot, and it fixes the one thing I hated.",
+      "on_screen": "THE NEW ONE",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Identify what is actually new and demonstrate its relevant change.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence.",
+      "literal_matches": [
+        "this is the new"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Someone Else's Result",
+      "template": "There was one {person} who {outcome} in {time}.",
+      "example": "There was one creator who grew a million subscribers in a single month.",
+      "on_screen": "1M SUBS IN ONE MONTH",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Use attributable authorized public evidence; never imply endorsement or steal a story.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    },
+    {
+      "id": 26,
+      "name": "The Superlative",
+      "template": "The {fastest / biggest / only} {thing} is {the answer}.",
+      "example": "The fastest way to get confident is to build evidence you cannot argue with.",
+      "on_screen": "THE FASTEST WAY",
+      "best_for": "Consider only when this structure fits the audience, source evidence and payoff.",
+      "trap": "Define and support the comparison set; replace unsupported superlatives with a scoped claim.",
+      "example_status": "Illustrative upstream craft example, not an observed result or user claim. Rewrite from supplied evidence."
+    }
+  ],
+  "diagnostic_note": "Literal cues prompt manual reading only; they neither classify a whole hook nor validate a claim. Multiple/no matches are normal. No weight or score is assigned."
+}

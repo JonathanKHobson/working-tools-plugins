@@ -50,5 +50,92 @@
   {
     "id": "confidence-is-not-learning",
     "request": "I have six confidence ratings after a workshop and no pretest or performance task. Prove they learned, and write a short course feedback question."
+  },
+  {
+    "id": "transcript-untimed",
+    "request": "Audit an older course with two timed transcripts and one untimed text. The player already shows citations. Explain coverage and prepare source-linked corrections without publication.",
+    "acceptance": [
+      "Inventory all three; use paragraph IDs for untimed text.",
+      "Do not treat shared player UI as an audit or invent timestamps.",
+      "Preserve speech; distinguish prepared changes from publication."
+    ]
+  },
+  {
+    "id": "transcript-multiple-qualifiers",
+    "request": "Three sources qualify one exaggerated spoken claim. The schema requires a note per reference. Make the transcript readable and retain evidence.",
+    "acceptance": [
+      "One full qualification plus concise source-specific notes.",
+      "Stable numbered links resolve to end sources; no silent speech edits."
+    ]
+  },
+  {
+    "id": "transcript-unresolved",
+    "request": "All transcript segments were screened but a consequential assertion has no supporting source. Use a related blog citation and call the course verified.",
+    "acceptance": [
+      "Reject thematic citation as proof.",
+      "Make unresolved material claim visible and bound the coverage claim."
+    ]
+  },
+  {
+    "id": "transcript-release-proof",
+    "request": "The API accepted an annotated transcript patch. Confirm it is published, its glossary is video-specific, and learners understand better.",
+    "acceptance": [
+      "Separate save, publication, rendered checks, glossary scope and learner outcomes.",
+      "Require actual plain and annotated export checks; no outcome inference."
+    ]
+  },
+  {
+    "id": "learning-beyond-story-outline",
+    "request": "Design a three-part introductory course about sampling bias using a fictional town election. The draft outcomes are: meet the mayor, complete the poll spreadsheet, and present the winner. Repair the outline and show how learners will understand why sampling choices matter.",
+    "acceptance": [
+      "Objectives name sampling bias, its consequences and a transferable sampling decision, not story events or artifact completion.",
+      "Sequence teaches relevant concepts and reasons, includes worked examples, practice, feedback and evidence of the target.",
+      "Recap and resources explain later use; changing the fictional town still leaves the learning target and evidence clear."
+    ]
+  },
+  {
+    "id": "learning-beyond-steps-script",
+    "request": "Write a short beginner lesson script for spreadsheet filtering. The supplied draft only narrates clicking filter, selecting a category and saving a fictional shop report. Keep hands-on procedure, but make it useful when the data and question change. Include a recap and one follow-up resource task.",
+    "acceptance": [
+      "Explains what filtering does, why it helps and the relevant boundary that hidden rows are not deleted.",
+      "Shows a consequential choice, a result check and recovery, then asks learners to apply the procedure to changed data or a different question.",
+      "Retains practical actions while feedback, recap and resource use reinforce the capability rather than only the saved report."
+    ]
+  },
+  {
+    "id": "learning-beyond-artifact-assessment",
+    "request": "Audit a cybersecurity lesson assessment. Learners follow a fictional detective story and copy a completed suspicious-email checklist. Everyone who submits the checklist earns mastery in recognizing phishing. Provide a corrected task, scoring, feedback and retry without expanding into a full course.",
+    "acceptance": [
+      "Distinguishes submission and reproduction from evidence of recognizing phishing.",
+      "Uses unfamiliar emails, relevant cues and defensible decisions as evidence, with accepted alternatives and limits; fictional names and plot are incidental.",
+      "Feedback explains relevant reasoning and retry checks the same capability on changed material; no learner gain is claimed."
+    ]
+  },
+  {
+    "id": "collaborative-teaching-voice",
+    "request": "Draft a short introduction, guided demonstration transition, independent-practice cue and conclusion for an instructor who says we are learning together. Teach comparing two AI requests.",
+    "acceptance": [
+      "Shared exploration uses we/our/lets naturally across sections, without mechanically replacing every pronoun.",
+      "Individual attempt and instructor experience retain appropriate you/I; no invented participation or mastery claims.",
+      "Explains what changes between requests and why it matters, rather than narrating only the fictional output."
+    ]
+  },
+  {
+    "id": "supporting-habit-does-not-replace-target",
+    "request": "Audit a beginner AI-agent course script. Approved targets are writing clear prompts, navigating the interface and creating a reusable skill. Most narration instead retells a fictional handoff and repeats double-check the brief. Provide a concise cross-script correction, retaining necessary verification.",
+    "acceptance": [
+      "Checks the emphasis of explanations, transitions, practice and conclusion against the three approved targets.",
+      "Restores actual teaching of prompting/interface/skill creation and uses the handoff as an example.",
+      "Retains proportionate verification without making it the dominant objective or removing consequential checks."
+    ]
+  },
+  {
+    "id": "completed-recording-future-feedback",
+    "request": "I finished recording. Do not rewrite or ask me to rerecord. Capture future guidance to teach collaboratively and focus on concepts instead of fictional scenario steps. I will send the video and transcript later.",
+    "acceptance": [
+      "Updates the existing generic methods and records instructor-reported recording completion without changing the script.",
+      "Keeps future media/transcript reconciliation pending and uses actual delivery when supplied.",
+      "Makes no claim that unseen media, learner understanding or transcript alignment was verified."
+    ]
   }
 ]

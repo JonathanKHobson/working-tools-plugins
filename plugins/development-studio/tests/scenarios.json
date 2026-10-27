@@ -107,5 +107,75 @@
     "must_not": [
       "load the software studio"
     ]
+  },
+  {
+    "prompt": "Inspect my named native app binary to explain its export format; I have no source.",
+    "route": "reverse-engineer-software",
+    "must_not": [
+      "require the user to name REA",
+      "claim decompiled output is original source"
+    ]
+  },
+  {
+    "prompt": "Trace this feature in my supplied Electron ASAR; the repository is unavailable.",
+    "route": "reverse-engineer-software",
+    "must_not": [
+      "search unrelated apps",
+      "install another REA plugin"
+    ]
+  },
+  {
+    "prompt": "The shipped bundle behaves differently from this repository; identify the discrepancy.",
+    "route": "reverse-engineer-software",
+    "return_to": "debug-software",
+    "must_not": [
+      "start a second diagnosis",
+      "assume source proves shipped execution"
+    ]
+  },
+  {
+    "prompt": "Compare these two authorized release packages and report changed behavior evidence.",
+    "route": "reverse-engineer-software",
+    "must_not": [
+      "claim static differences prove runtime behavior",
+      "require the user to name REA"
+    ]
+  },
+  {
+    "prompt": "Use my authorized app artifact to prepare requirements for a rebuild; coordinate its scope with my existing project plan.",
+    "route": "reverse-engineer-software",
+    "return_to": "external:work-management:product-definition",
+    "must_not": [
+      "automatically start implementation",
+      "create a new tracker",
+      "loop between routers"
+    ]
+  },
+  {
+    "prompt": "Find references to this function and safely rename it in the available repository.",
+    "route": "code-intelligence",
+    "must_not": [
+      "start artifact analysis when source answers the question",
+      "load all REA tools"
+    ]
+  },
+  {
+    "prompt": "Explain this screenshot of an app; there is no authorization for live process or network capture.",
+    "route": "external:ux-design-toolkit",
+    "must_not": [
+      "capture a process or network traffic",
+      "infer hidden implementation from appearance",
+      "treat routing as permission"
+    ]
+  },
+  {
+    "prompt": "Analyze this permitted app artifact, but the expected REA provider is not callable on this host.",
+    "route": "reverse-engineer-software",
+    "must_not": [
+      "claim analysis succeeded",
+      "silently install a runtime",
+      "bypass native approval"
+    ],
+    "expected_limit": "Report the missing dependency; use an already reviewed available evidence provider only within current scope."
   }
 ]

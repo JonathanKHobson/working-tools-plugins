@@ -95,3 +95,5 @@ For an assignment needing a named owner, consult [this studio’s role contracts
 For candidate-style review, check that [comparison conditions](../create-motion-graphics/references/art-directed-motion.md#compare-alternatives-fairly-when-selection-is-the-task) remain comparable. Diagnose type/composition/movement separately from content changes; save actual accepted/rejected evidence in the existing project style record, not an invented preference score.
 
 For reusable films or production discoveries, apply [production learning transfer](../evolve-video-workflow/references/production-learning-transfer.md) to separate source, pose and encoded cadence; source reproduction, adaptation and listening; and review-sheet readability. Freeze final media before evidence readers and invalidate affected evidence after any output mutation.
+
+For generated sprite acting, apply the [sprite motion review](../create-motion-graphics/references/generated-sprite-animation.md#preview-and-verify) to exact registered poses and encoded transitions. Verify meaning, identity, body proportions, contact and pose cadence separately from encoded frame rate.

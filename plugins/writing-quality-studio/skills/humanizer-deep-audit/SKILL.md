@@ -5,7 +5,7 @@ description: Audit substantial prose against a source corpus, citation record, o
 
 # Humanizer deep audit
 
-Use this specialist when the task calls for evidence beyond a close editorial read: checking identifiers and claims against sources, comparing a draft with genuine writing by the same author, or tracing a style diagnosis through the archived taxonomy and research. Ordinary prose editing belongs to `natural-prose-editor`. The source corpus is optional and should stay unloaded until the audit actually needs it.
+Use this specialist when the task calls for evidence beyond a close editorial read: checking identifiers and claims against sources, comparing a draft with genuine writing by the same author, or tracing a style diagnosis through the archived taxonomy and research. The everyday Humanizer for all reader-facing media belongs to `natural-prose-editor`; using it does not require this deep audit. The source corpus is optional and should stay unloaded until the audit actually needs it.
 
 ## Choose the audit
 

@@ -13,6 +13,8 @@ Apply the complete [systematic debugging method](../../libraries/superpowers-6.4
 
 For intermittent failures, performance problems or a reproduction that may miss the reported symptom, read [reproduction quality](../../references/reproduction-quality.md).
 
+When the failure concerns a shipped app/native binary/bundle, source is unavailable, or shipped behavior conflicts with the repository, proactively use [Reverse engineer software](../reverse-engineer-software/SKILL.md) for the missing artifact evidence. The user need not name REA. Return findings to this diagnosis; do not start a second debugging loop or replace ordinary source navigation when it answers the question.
+
 1. Capture the actual failure, expected result, environment, inputs and last known good state. Separate the observation from proposed causes.
 2. Trace the failing data or state across boundaries. Use [code navigation](../../references/code-navigation.md) for definitions, call sites and exact configuration references. Find a working comparison and form one falsifiable hypothesis.
 3. Run the smallest discriminating check. Change one causal factor; retain evidence when a hypothesis fails. After repeated failed fixes reassess the model of the fault rather than layering workarounds.

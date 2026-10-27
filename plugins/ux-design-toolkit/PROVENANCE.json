@@ -15,7 +15,7 @@
       "source_owner": "public edition 0.3.9",
       "source_relative": null,
       "source_sha256": "c67390d7817978d7a578f7f351b81585af6523bc7a871740d7d6f26eb148af75",
-      "output_sha256": "b73329ec504bd396d58aeba7aa79ab690385dbf5ebb3bdd8f29702f838f6be9b",
+      "output_sha256": "6456dd5a1ccd04c7a13133ec76b6e16594edb752f63e38fccd91b4b7cad613a1",
       "transformed": true,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -39,6 +39,16 @@
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_relative": "CHANGELOG.md",
+      "source_sha256": "0c4a424203c6bf84aaa42045ec0c8556f54630b32e90cb03cd3c89dc80cabc17",
+      "output_sha256": "dd6274932ed40871953ee4d901f91e6232977f55930a1703835c0f592566cdb3",
+      "origin": "verified-public-release-records",
+      "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
     },
     {
       "path": "LICENSE",
@@ -85,7 +95,7 @@
       "source_owner": "public edition 0.3.8",
       "source_relative": null,
       "source_sha256": "dc11b27bcb17a5f35f406d0bbeeb92227dcf28f08e24a1ec28a9930695b14b71",
-      "output_sha256": "c8e780509937b927ae13abc213e9c114fc6950eac6040713129f433c72ded555",
+      "output_sha256": "8bffca3285e9d013c433758c926e1854b0b2037f9237d98063c048bac2541784",
       "transformed": true,
       "license_scope_category": "license-and-notice",
       "edition_license_scope": "See retained document"
@@ -105,7 +115,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "docs/design-runtime.md",
       "source_sha256": "8aeb0c012767f4159718a3f483dff3b522c1ee536e968cc674a5a35df49dba18",
-      "output_sha256": "c210c622fb30019ac30c4ffa2c0597fe1379792cfa7fa5682b7adff3c70144be",
+      "output_sha256": "b90c586c9d4f9604e56c6368c08e4d1dcc226a83c1363d7279a4f24cea20c059",
       "transformed": true,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -137,6 +147,16 @@
       "source_sha256": "ca514878f9b01338f3cb809c1056d584e17fd164e392266e8398ffa57e9e517c",
       "output_sha256": "ca514878f9b01338f3cb809c1056d584e17fd164e392266e8398ffa57e9e517c",
       "transformed": false,
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "docs/owned-methods-migration.md",
+      "source_relative": "docs/owned-methods-migration.md",
+      "source_sha256": "7b0f3649cd2fca77e7fd245ec50e4a3107fb71c6d4d60b430086b9841db802e6",
+      "output_sha256": "4b705995d71c1f7decda946ed9240120a247c090b4a93d793f9894dee0d50571",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
     },
@@ -235,7 +255,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "docs/project-map.md",
       "source_sha256": "944e6844f82db80f832bc2cf0a51eeaa5a6f8ea2d693f1d9c1cd5b85a262b701",
-      "output_sha256": "615d4df0d9f00e914b4055568c8ddae456661542156219a5a77b62bebdbe0a3c",
+      "output_sha256": "f0058a4dff82861afe7a2bcc7a268aeae6a1de9d9a4f9ffe56bd85166ebeebda",
       "transformed": true,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -305,7 +325,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "hooks/hooks.json",
       "source_sha256": "69a22121e913c9a539f6195dc64fff949b1a044fc7c08c2f6338d913b61a8759",
-      "output_sha256": "69a22121e913c9a539f6195dc64fff949b1a044fc7c08c2f6338d913b61a8759",
+      "output_sha256": "0797cd396f2a7dfeafcd9d16e230f1347d6f59106bc6fdbf5c562f1ff582b3bf",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -3621,6 +3641,26 @@
       "edition_license_scope": "AGPL-3.0-only"
     },
     {
+      "path": "scripts/application_appearance.py",
+      "source_relative": "scripts/application_appearance.py",
+      "source_sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6",
+      "output_sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6",
+      "origin": "authored-within-maintained-studio",
+      "change": "Full incorporated method or original helper added following functional coverage comparison.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "scripts/check_owned_method_routes.py",
+      "source_relative": "scripts/check_owned_method_routes.py",
+      "source_sha256": "4614b6ca46d046b36f9d1307b579738b37c60b16709a41ab8ad2a37c18c2cba1",
+      "output_sha256": "03b09e73c4c2d3a2edc63c69875e76c0a5b5f05cde2a6f63e1e99c680ad49733",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
       "path": "scripts/compass_mcp.py",
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "scripts/compass_mcp.py",
@@ -3685,7 +3725,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "scripts/design_runtime/engine.py",
       "source_sha256": "293e3502c4480437651e6acc8e211c38e02c97d55363de6e989f750376783bb2",
-      "output_sha256": "293e3502c4480437651e6acc8e211c38e02c97d55363de6e989f750376783bb2",
+      "output_sha256": "bebbabac76f7e0efc2b9cd14c3eef7e3c3c91d2ef008767970125bd60b6198fd",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -3711,11 +3751,21 @@
       "edition_license_scope": "AGPL-3.0-only"
     },
     {
+      "path": "scripts/design_source_context.py",
+      "source_relative": "scripts/design_source_context.py",
+      "source_sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d",
+      "output_sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d",
+      "origin": "authored-within-maintained-studio",
+      "change": "Full incorporated method or original helper added following functional coverage comparison.",
+      "license_scope_category": "first-party-code",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
       "path": "skills/dashboard-design/SKILL.md",
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/dashboard-design/SKILL.md",
       "source_sha256": "f2ca6af3c5892fd09ce8269bdaade71cac76c97b1b06fb4f4ceb690f70df4ee9",
-      "output_sha256": "e2005d09e061af233ca350fa49bc2e41289620ee16c5d7e93ed5cee63e419ce9",
+      "output_sha256": "c9991d3d14b6e0328b9720dbad60fb02aa8a01c2c2c7ccf13de25462c284b718",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -3725,7 +3775,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/dashboard-design/agents/openai.yaml",
       "source_sha256": "00cb1320e021dbf0dda1015f9eb44dcc1b9d083494a67e325feb0ca76f46671e",
-      "output_sha256": "00cb1320e021dbf0dda1015f9eb44dcc1b9d083494a67e325feb0ca76f46671e",
+      "output_sha256": "ee3df26f1d7f34ac80af4e5aa00d95705b0467b3289edc1bd017027a41613e52",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4075,7 +4125,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-reference-lookup/references/public-design-resources.md",
       "source_sha256": "40e510a0d6e104a92fed4f2d91ed6f57626821e9f964ae72e396c945010d0833",
-      "output_sha256": "40e510a0d6e104a92fed4f2d91ed6f57626821e9f964ae72e396c945010d0833",
+      "output_sha256": "3a637f865d0f835170d6ab536a73f3e0181b60a181d1bea1a86f5d1df2299b8b",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -4115,7 +4165,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-review/SKILL.md",
       "source_sha256": "b357fd4a41094f8ae8ad34ba39ba1b95ff3858d4e90bfd08a53eab70ee65dd31",
-      "output_sha256": "87d458cb133d9d38b3288209ba9ccddb0fea176cf4fae53cb6ee4c8c9bc303b9",
+      "output_sha256": "158f1375f6e648b323608ecbb771b99d0b0df69e197ebb2ba5e2922a132a67b1",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -4125,7 +4175,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-review/agents/openai.yaml",
       "source_sha256": "f56fffd98cef2f8c9f15fe7173da4920288574c838676139e017890963a0cd5e",
-      "output_sha256": "f56fffd98cef2f8c9f15fe7173da4920288574c838676139e017890963a0cd5e",
+      "output_sha256": "24880ca66524c8137d0b6466c996d9905f6b7c52c6f5cf8980ecf9b66e278103",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4175,7 +4225,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-studio/SKILL.md",
       "source_sha256": "a8eb97df189e7a75b806503ff30c9fbb426e0901bf3b52a215636cec324de58f",
-      "output_sha256": "c44e61f85e27205a4b77986fe2a5bd92e4988ddfac4e2253bb5053c5e17ad3ee",
+      "output_sha256": "ee69b226958e2dcf1c2ff8fd7d9101414b7a136d4a98035daa171ea310e96164",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -4261,6 +4311,16 @@
       "edition_license_scope": "CC-BY-SA-4.0"
     },
     {
+      "path": "skills/design-studio/references/application-appearance.md",
+      "source_relative": "skills/design-studio/references/application-appearance.md",
+      "source_sha256": "fa50a70323eda3c76f27e4e739ef1f6765aec35bfccb3587b018ca411a04a6a9",
+      "output_sha256": "251cf8044aa7a421ca877b4efd00aa6bdb77f66c3a77a654e65d28b77f684cb6",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
       "path": "skills/design-studio/references/beginner-app-planning.md",
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-studio/references/beginner-app-planning.md",
@@ -4317,6 +4377,16 @@
       "source_sha256": "023db349c98a6517ac829e145eeaa8089934bb2bb4bd51e2ddee00b7729f4965",
       "output_sha256": "023db349c98a6517ac829e145eeaa8089934bb2bb4bd51e2ddee00b7729f4965",
       "transformed": false,
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "skills/design-studio/references/design-comparison-qa.md",
+      "source_relative": "skills/design-studio/references/design-comparison-qa.md",
+      "source_sha256": "f0ee158a4dc97894cdce34cfca12c7adfd2f3ac870088ccaa41fd105f7762cc3",
+      "output_sha256": "ca2442ef1b9760c704c602e90a1997f18ebce9451c8666483c28b1a26197ab24",
+      "origin": "authored-within-maintained-studio",
+      "change": "Full incorporated method or original helper added following functional coverage comparison.",
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
     },
@@ -4521,6 +4591,16 @@
       "edition_license_scope": "CC-BY-SA-4.0"
     },
     {
+      "path": "skills/design-studio/references/mobile-prototype-runtime.md",
+      "source_relative": "skills/design-studio/references/mobile-prototype-runtime.md",
+      "source_sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091",
+      "output_sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091",
+      "origin": "authored-within-maintained-studio",
+      "change": "Full incorporated method or original helper added following functional coverage comparison.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
       "path": "skills/design-studio/references/motion-performance.md",
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-studio/references/motion-performance.md",
@@ -4537,6 +4617,46 @@
       "source_sha256": "af0101c91820f0338a3fcabb4e2314184ee89f029e27d20c4e6c517c6fd10b53",
       "output_sha256": "c6d9fc729a55be308ce988205a20b54df7a84e7c1b8987d4b7c433b77b2f8eee",
       "transformed": true,
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "skills/design-studio/references/product-experience-methods.md",
+      "source_relative": "skills/design-studio/references/product-experience-methods.md",
+      "source_sha256": "880d1fd79ecff69b0056cb0248bb286c0b5135ef0694d2fbf9dd302e9bbe6856",
+      "output_sha256": "a61ae5562b6ac2c51a1f9f3674930c490da6b04f32fdc16579970dbd64b9c282",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "skills/design-studio/references/product-pain-research.md",
+      "source_relative": "skills/design-studio/references/product-pain-research.md",
+      "source_sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa",
+      "output_sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa",
+      "origin": "authored-within-maintained-studio",
+      "change": "Full incorporated method or original helper added following functional coverage comparison.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "skills/design-studio/references/product-prototyping.md",
+      "source_relative": "skills/design-studio/references/product-prototyping.md",
+      "source_sha256": "8de29c83eb62c9be7a061a8e3414b5577fa221dbcc3deb3410bf09557b0352d9",
+      "output_sha256": "c0769ba0364b00582f1a345751ec18d9e20bf0532a4577e5af36a7f985d69dc9",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "skills/design-studio/references/product-task-context.md",
+      "source_relative": "skills/design-studio/references/product-task-context.md",
+      "source_sha256": "ca4b239c7113469152fee85920e6ce330cc742b6c7c9e02f78eda0c38afcb492",
+      "output_sha256": "a437f2892f6bfed6be4b57e20e2820ac60144407c4a441493bd7ff1f7d591dce",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
     },
@@ -4585,7 +4705,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-studio/references/review.md",
       "source_sha256": "b91281747aa931b253d4beb2e7837a75a4b61b5002bad90cc60a170862460d13",
-      "output_sha256": "b91281747aa931b253d4beb2e7837a75a4b61b5002bad90cc60a170862460d13",
+      "output_sha256": "b400d078c554515489d54640ce60c3a504c643f1686515027d33c7e08625c049",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -4631,11 +4751,21 @@
       "edition_license_scope": "CC-BY-SA-4.0"
     },
     {
+      "path": "skills/design-studio/references/usability-testing.md",
+      "source_relative": "skills/design-studio/references/usability-testing.md",
+      "source_sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
+      "output_sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
+      "origin": "authored-within-maintained-studio",
+      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "license_scope_category": "first-party-noncode",
+      "edition_license_scope": "CC-BY-SA-4.0"
+    },
+    {
       "path": "skills/design-studio/references/ux-writing.md",
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-studio/references/ux-writing.md",
       "source_sha256": "47e50d207a4ec9a23b303a91738a5af4129bfedfd27dff8540fef38c9f38822d",
-      "output_sha256": "47e50d207a4ec9a23b303a91738a5af4129bfedfd27dff8540fef38c9f38822d",
+      "output_sha256": "a0d3b46dc42cd3b60de3640c2ff26d5c9386f10c31b0f1ad6628c65b734dbc52",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -4665,7 +4795,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/design-systems/agents/openai.yaml",
       "source_sha256": "ca33d93adec5301d9f6962bb276b246f47b15a99f5b385a33ffc0ee493103a0b",
-      "output_sha256": "ca33d93adec5301d9f6962bb276b246f47b15a99f5b385a33ffc0ee493103a0b",
+      "output_sha256": "d62cc7dea6847cc29fd7916760e73c45d8c4cbf3654a627ed9c0162f4cc59d48",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4825,7 +4955,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/interaction-resilience/agents/openai.yaml",
       "source_sha256": "c8292a0e9588555015884c06c768c307e8585b75967a2ebb78969d18db7a19ef",
-      "output_sha256": "c8292a0e9588555015884c06c768c307e8585b75967a2ebb78969d18db7a19ef",
+      "output_sha256": "f7328ca3b1f5240fddc581346ec61b3db3027df37c90522037cea6bfdf02e5d6",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4845,7 +4975,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/motion-and-performance/agents/openai.yaml",
       "source_sha256": "dcb8e92b1fce24c072ef37130badf1dd86ba6cf0ae591a3af8fbb1b2c9688e32",
-      "output_sha256": "dcb8e92b1fce24c072ef37130badf1dd86ba6cf0ae591a3af8fbb1b2c9688e32",
+      "output_sha256": "306e70c02cd29b78d59555b266b7ad3196f302f0e02583538ec4c6a9f2959fce",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4945,7 +5075,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/responsive-design/agents/openai.yaml",
       "source_sha256": "1c1a4941def59238d802162451316ba2bf5c8eb88f44819c1f81567d458002d1",
-      "output_sha256": "1c1a4941def59238d802162451316ba2bf5c8eb88f44819c1f81567d458002d1",
+      "output_sha256": "6eab09d77b1eea1ada35c089030302e1becec763957d76c5866e96ac49abca61",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -4965,7 +5095,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/spreadsheet-usability/agents/openai.yaml",
       "source_sha256": "abc7157cd4969f3316491a7d8f7944e489a3d1577a0609d4a18b5c939aa8e4ce",
-      "output_sha256": "abc7157cd4969f3316491a7d8f7944e489a3d1577a0609d4a18b5c939aa8e4ce",
+      "output_sha256": "6988b2ad751c7d2cfc1878d7a6b7e2177a00cd4c674935fa6e2db6a65ab11563",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -5005,7 +5135,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/stitch-design/agents/openai.yaml",
       "source_sha256": "ae4d1dfa96b9fc0083c52234cd8b8667d410511d3426206e1dda0e5aaa2e85b3",
-      "output_sha256": "ae4d1dfa96b9fc0083c52234cd8b8667d410511d3426206e1dda0e5aaa2e85b3",
+      "output_sha256": "a2d2343f87ff26dcc7672aa3d84fd89b0471e5378e8d26cb534fce2a3744c0e1",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -5135,7 +5265,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/ux-heuristic-compass/SKILL.md",
       "source_sha256": "c25eb3e59ffca70d6a269d0842d41fc3a2227f96aa72fc1bf3afa33324b80202",
-      "output_sha256": "c25eb3e59ffca70d6a269d0842d41fc3a2227f96aa72fc1bf3afa33324b80202",
+      "output_sha256": "b10946ac1fbbb7ba6bb5bd1bcecd3beb84dadb937f2dda4cec44b8f4b6054dd9",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -5235,7 +5365,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/ux-heuristic-compass/references/mcp-bridge.md",
       "source_sha256": "cf8a57c3581a293ad54ac0e84ad5b2be1081cb7a3ed3e72ab5ba371d55117d9f",
-      "output_sha256": "cf8a57c3581a293ad54ac0e84ad5b2be1081cb7a3ed3e72ab5ba371d55117d9f",
+      "output_sha256": "19b905a21ec5e5708ceed0f721fb1e072384636232032c68b80b2b2b6c45c5c9",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -5375,7 +5505,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "skills/ux-writer/SKILL.md",
       "source_sha256": "371d89d76c081af17b0d5c4e5b773d552093399d4714ac3b5fdbefd119ad5587",
-      "output_sha256": "b9d73ff308d96fb4f53c68d206f49c6a23fc096fd7476fd025d4ffb3d4512f2b",
+      "output_sha256": "29db604c3c66c7e2aa0cff5a8d7739333fc7945d78853da15b05994d9f0518b9",
       "transformed": false,
       "license_scope_category": "first-party-noncode",
       "edition_license_scope": "CC-BY-SA-4.0"
@@ -5425,7 +5555,7 @@
       "source_owner": "ux-design-toolkit canonical",
       "source_relative": "tests/design_runtime/test_adapter.py",
       "source_sha256": "a394d127488f747dde659181cc7e753d3dbc3e7cddca61b93453711f366ac655",
-      "output_sha256": "a394d127488f747dde659181cc7e753d3dbc3e7cddca61b93453711f366ac655",
+      "output_sha256": "97a0db3f20904879964f520691c5f9fec5427d30efd711e6d605aec52b804bef",
       "transformed": false,
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
@@ -5471,134 +5601,62 @@
       "edition_license_scope": "CC-BY-SA-4.0"
     },
     {
-      "path": "docs/owned-methods-migration.md",
-      "source_relative": "docs/owned-methods-migration.md",
-      "source_sha256": "7b0f3649cd2fca77e7fd245ec50e4a3107fb71c6d4d60b430086b9841db802e6",
-      "output_sha256": "4b705995d71c1f7decda946ed9240120a247c090b4a93d793f9894dee0d50571",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
+      "path": "docs/distinctive-direction-validation.md",
+      "source_relative": "docs/distinctive-direction-validation.md",
+      "source_sha256": "a12a4f4734210824f5c21ddd65b9265c3373b58714dc474aa101fceca5f65e6f",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "a12a4f4734210824f5c21ddd65b9265c3373b58714dc474aa101fceca5f65e6f"
+    },
+    {
+      "path": "skills/design-reference-lookup/agents/openai.yaml",
+      "source_relative": "skills/design-reference-lookup/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "path": "skills/design-studio/references/distinctive-direction.md",
+      "source_relative": "skills/design-studio/references/distinctive-direction.md",
+      "source_sha256": "55ce5a003a277f68e52c0ff2478fe987c5fc484172016aad128e83651d6c57f7",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "55ce5a003a277f68e52c0ff2478fe987c5fc484172016aad128e83651d6c57f7"
+    },
+    {
+      "path": "skills/design-studio/references/implementation-expectations.md",
+      "source_relative": "skills/design-studio/references/implementation-expectations.md",
+      "source_sha256": null,
+      "output_sha256": "8293b0f1caaa36f4de78a5ec76672f9327c1f5f86ae432e1f2aa3684e5f18c76",
+      "bytes": 3373,
+      "change": "Efficient implementation integration with product/UX readiness and reviewed scoped utility support.",
       "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
+      "edition_license_scope": "CC-BY-SA-4.0",
+      "sha256": "8293b0f1caaa36f4de78a5ec76672f9327c1f5f86ae432e1f2aa3684e5f18c76"
     },
     {
-      "path": "scripts/check_owned_method_routes.py",
-      "source_relative": "scripts/check_owned_method_routes.py",
-      "source_sha256": "4614b6ca46d046b36f9d1307b579738b37c60b16709a41ab8ad2a37c18c2cba1",
-      "output_sha256": "03b09e73c4c2d3a2edc63c69875e76c0a5b5f05cde2a6f63e1e99c680ad49733",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-code",
-      "edition_license_scope": "AGPL-3.0-only"
+      "path": "skills/design-studio/references/task-routing.md",
+      "source_relative": "skills/design-studio/references/task-routing.md",
+      "source_sha256": "edb412565d97769f2d040ab6df2baf3d4da3a78bf820296514e97b0500051752",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "edb412565d97769f2d040ab6df2baf3d4da3a78bf820296514e97b0500051752"
     },
     {
-      "path": "skills/design-studio/references/application-appearance.md",
-      "source_relative": "skills/design-studio/references/application-appearance.md",
-      "source_sha256": "fa50a70323eda3c76f27e4e739ef1f6765aec35bfccb3587b018ca411a04a6a9",
-      "output_sha256": "251cf8044aa7a421ca877b4efd00aa6bdb77f66c3a77a654e65d28b77f684cb6",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
+      "path": "skills/motion-and-performance/references/thinking-orbs.md",
+      "source_relative": "skills/motion-and-performance/references/thinking-orbs.md",
+      "source_sha256": "93fd567b13d54296ee459c438b89655ad6fa31960a7cd56689fc0a557d0f1c47",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "93fd567b13d54296ee459c438b89655ad6fa31960a7cd56689fc0a557d0f1c47"
     },
     {
-      "path": "skills/design-studio/references/product-experience-methods.md",
-      "source_relative": "skills/design-studio/references/product-experience-methods.md",
-      "source_sha256": "880d1fd79ecff69b0056cb0248bb286c0b5135ef0694d2fbf9dd302e9bbe6856",
-      "output_sha256": "880d1fd79ecff69b0056cb0248bb286c0b5135ef0694d2fbf9dd302e9bbe6856",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
+      "path": "skills/ux-heuristic-compass/agents/openai.yaml",
+      "source_relative": "skills/ux-heuristic-compass/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
-      "path": "skills/design-studio/references/product-prototyping.md",
-      "source_relative": "skills/design-studio/references/product-prototyping.md",
-      "source_sha256": "8de29c83eb62c9be7a061a8e3414b5577fa221dbcc3deb3410bf09557b0352d9",
-      "output_sha256": "c0769ba0364b00582f1a345751ec18d9e20bf0532a4577e5af36a7f985d69dc9",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "skills/design-studio/references/product-task-context.md",
-      "source_relative": "skills/design-studio/references/product-task-context.md",
-      "source_sha256": "ca4b239c7113469152fee85920e6ce330cc742b6c7c9e02f78eda0c38afcb492",
-      "output_sha256": "a437f2892f6bfed6be4b57e20e2820ac60144407c4a441493bd7ff1f7d591dce",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "skills/design-studio/references/usability-testing.md",
-      "source_relative": "skills/design-studio/references/usability-testing.md",
-      "source_sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
-      "output_sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
-      "origin": "authored-within-maintained-studio",
-      "change": "New complete included workflow or verification helper; no excluded publisher body copied.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "source_relative": "CHANGELOG.md",
-      "source_sha256": "0c4a424203c6bf84aaa42045ec0c8556f54630b32e90cb03cd3c89dc80cabc17",
-      "output_sha256": "8cca2602292dad5eeb5cf2bf1f4e8d1cb16c3c14817e2fc8b7493eb0c31df3e1",
-      "origin": "verified-public-release-records",
-      "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "scripts/application_appearance.py",
-      "source_relative": "scripts/application_appearance.py",
-      "source_sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6",
-      "output_sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6",
-      "origin": "authored-within-maintained-studio",
-      "change": "Full incorporated method or original helper added following functional coverage comparison.",
-      "license_scope_category": "first-party-code",
-      "edition_license_scope": "AGPL-3.0-only"
-    },
-    {
-      "path": "scripts/design_source_context.py",
-      "source_relative": "scripts/design_source_context.py",
-      "source_sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d",
-      "output_sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d",
-      "origin": "authored-within-maintained-studio",
-      "change": "Full incorporated method or original helper added following functional coverage comparison.",
-      "license_scope_category": "first-party-code",
-      "edition_license_scope": "AGPL-3.0-only"
-    },
-    {
-      "path": "skills/design-studio/references/design-comparison-qa.md",
-      "source_relative": "skills/design-studio/references/design-comparison-qa.md",
-      "source_sha256": "f0ee158a4dc97894cdce34cfca12c7adfd2f3ac870088ccaa41fd105f7762cc3",
-      "output_sha256": "f0ee158a4dc97894cdce34cfca12c7adfd2f3ac870088ccaa41fd105f7762cc3",
-      "origin": "authored-within-maintained-studio",
-      "change": "Full incorporated method or original helper added following functional coverage comparison.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "skills/design-studio/references/mobile-prototype-runtime.md",
-      "source_relative": "skills/design-studio/references/mobile-prototype-runtime.md",
-      "source_sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091",
-      "output_sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091",
-      "origin": "authored-within-maintained-studio",
-      "change": "Full incorporated method or original helper added following functional coverage comparison.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
-    },
-    {
-      "path": "skills/design-studio/references/product-pain-research.md",
-      "source_relative": "skills/design-studio/references/product-pain-research.md",
-      "source_sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa",
-      "output_sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa",
-      "origin": "authored-within-maintained-studio",
-      "change": "Full incorporated method or original helper added following functional coverage comparison.",
-      "license_scope_category": "first-party-noncode",
-      "edition_license_scope": "CC-BY-SA-4.0"
+      "path": "PUBLIC_PROJECTION_NOTES.md",
+      "source": "Authored public hook compatibility projection",
+      "output_sha256": "66dbf283993d92b000c63fc5a66cd8f4816ee025e9c2f5a16b4f3b3d2f3e0818"
     }
   ],
   "method_ownership_repair": {

@@ -8,6 +8,22 @@ Compare the supplied draft with a small, relevant sample of the instructor's ear
 
 Preserve useful cadence, first-person explanation, direct invitations to check, and deliberate repetition. Remove tangents or duplicated setup when they delay the learner's first meaningful action. Do not force every instructor into a polished presenter voice or assume pauses/fillers are always defects.
 
+## Match voice without reproducing recording friction
+
+For a script-to-delivery comparison, establish whether the source is the matched recording script, an earlier draft or an unmatched sample. Label close wording, paraphrase, added explanation, reordered material and omissions separately. “Added relative to this draft” does not establish improvisation; an instructor's confirmation or production evidence can support that attribution. Preserve locators and distinguish observed text, instructor self-report and editorial inference. Caption gaps alone do not measure silence or explain a pause.
+
+Retain useful reasoning, questions, examples and intentional repetition while repairing continuity. An aside can have a brief entry reason, a bounded idea/example and an explicit spoken bridge back to the learner's task. Prepare the evidence and destination even when the speaker chooses their own wording. Do not turn every lesson into the same rhetorical sequence or remove a useful divergence merely because it was absent from the draft.
+
+Choose delivery support by passage: exact wording for consequential claims, qualifications, essential instructions and return bridges; fuller conversational narration where the speaker otherwise has to invent connective content; cue notes where the instructor prefers and can reliably explain from them. Do not prescribe bullet-only scripts as an automatic cure for reading stiffness. Keep literal copyable prompts separate from the spoken reason for using them.
+
+When a pause or restart is reported or observed, locate it and consider missing content, an overlong or unclear sentence, an uncertain transition, deliberate reflection/emphasis, screen/tool waiting, or an unknown cause. Use audio/video and the instructor's account when available. Do not infer cognitive state or diagnose pauses from punctuation. Route missing facts/examples/steps back to learning design; rephrase a sentence that is hard to say; add a transition when the next idea is unclear; keep purposeful pauses; mark waits as production cues. More prose is not always the fix.
+
+Rehearse a representative difficult passage and its surrounding transition, including an aside and an evidence check when relevant. Record what the speaker changes, where they must invent missing content and whether the return to the task works. Repair the cause and retry the changed passage; do not repeatedly reread a deficient draft. Without a real read, label the result a text-only candidate. Rehearsal friction and script mismatch are production evidence, not permanent voice traits or a measured teaching-outcome improvement.
+
+**Synthetic example, not an observed performance:** a draft says “Check that the summary looks right.” For fictional meeting notes explicitly showing a March launch, a candidate line is: “Let's check the date first. The notes say March. Does the summary agree? If it gives another month, we'll correct that before saving.” A useful optional aside might explain why an accessible file is not proof of reading it, then return with “Back to this date: let's compare it with the notes.” The actual verdict must follow the demonstrated result; do not script a successful outcome without evidence.
+
+Personal excerpts, preferences, feedback and recording locators belong in the recipient's authorized private profile or project record. Generic methods may describe the decision process but must not embed that person's samples, biography, paths or default voice. Keep uncertain assisted samples labeled and separate from authentic voice calibration. Ordinary script use does not authorize retrieving or updating a personal corpus.
+
 ## Make the revision recordable
 
 1. Prioritize source accuracy and the learner decision, then sequence, then sentence rhythm. Give the highest-impact changes with exact draft locators, reason, and replacement wording when the user asks for recommendations; provide a revised script only when requested or within scope.

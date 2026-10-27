@@ -31,6 +31,10 @@ supplies the evidence and validates the result. It stops on failure or timeout
 without retry, stores no session, and does not start a daemon. Do not mistake
 authentication-only `--check` for an inference test. The helper is bundled; the recipient’s Claude executable, login and task records remain external. Installing method files does not authenticate the backend.
 
+Use the bundled `scripts/claude_worker.py` for tracked bounded work. It records one
+fail-open usage event around each real inference attempt. Direct `claude` calls and
+authentication checks are intentionally outside that tracker.
+
 The helper strips inherited API/provider overrides, ignores custom settings,
 checks first-party subscription auth, and uses `--safe-mode --restricted`, an
 empty tool set and strict empty MCP config. **Do not use `--bare` for this
@@ -54,6 +58,8 @@ personal confirmation, a new password, or terms acceptance. State the specific
 requirement and preserve the pending flow where
 possible. Do not assume every sign-in requires the user, and do not promise that
 future logins will always be unattended.
+
+A failed authentication command is not proof of a signed-out account. Distinguish explicit `loggedIn: false` from command, sandbox, keychain, network or malformed-output failures. Diagnose in the same execution environment and use its authorized access mechanism; do not bypass its restrictions or describe a native fallback as proof Claude is unavailable.
 
 For other CLI failures, inspect the concrete error, installed CLI/help,
 auth/provider state and helper/runtime availability. Apply one justified fix

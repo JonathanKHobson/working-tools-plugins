@@ -1,5 +1,7 @@
 # Reasoning Toolkit public source map
 
+- `skills/critical-reasoning/references/positive-decisions.md`: conditional check for unresolved choices hidden by defaults or prohibitions; preserves conventional solutions and distinguishes checker compliance from outcome evidence. Covers source/worker diversity and hypothesis limits; reaches Prompt Playbook's conditional problem-framing method for an unclear problem. Reached through Critical Reasoning, with no new tool or standing audit.
+
 Four complete methods cover critical reasoning, Socratic dialogue, credible alternatives and Pattern Picker framework selection. Full source evaluation and advanced human-loop/panel/report contracts remain, with original role responsibilities and conditional Atlas/drawing/review routes.
 
 - `skills/` and `references/`: complete original procedures including Pattern Picker. Its original 389/353-record libraries are not redistributed; authorized recipient fast/rich bindings support real use and bundled synthetic records support a safe sample. Named lenses/providers are optional separately available capabilities.

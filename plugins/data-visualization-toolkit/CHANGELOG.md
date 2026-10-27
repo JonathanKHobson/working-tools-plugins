@@ -1,5 +1,9 @@
 # Changelog
 
+## Local additions pending release
+
+Expand Interactive Depth Cards after reviewing the staged 1.0.1 source package: add independent art-plane displacement, foil/glare, holographic/gold/silver finishes, depth 0–100 control, optional front/back flip and exploded view, a project-local React/CSS/hook route, and local art-preparation guidance. The existing standalone brief remains accepted. The added runtime uses no separate API, connected app or network dependency. The original source and file-by-file comparison remain in the inactive external review snapshot.
+
 ## 0.2.5
 
 Align the canonical source and public package, including the Data Explorer runtime and all 13 discovery heads. Preserve existing interpreter and saved-data bindings while launching the bundled server. Restore complete configured Visualize and Scientific Visuals procedure routes through a read-only source resolver; keep their separately held source and private data outside distribution. Add launcher and resolver checks, correct the source verifier's version handling, and retain upstream grants and prior release permissions.

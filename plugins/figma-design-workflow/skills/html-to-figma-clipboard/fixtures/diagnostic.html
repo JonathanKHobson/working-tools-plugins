@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>HTML to Figma diagnostic</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef1f4;font-family:Arial,sans-serif;color:#17232d}
+#diagnostic{width:900px;margin:32px;padding:32px;background:#fff;border:2px solid #aebbc5;border-radius:16px;box-shadow:0 12px 28px #21324226;display:flex;flex-direction:column;gap:24px}
+header,.row{display:flex;align-items:center;gap:20px}header{justify-content:space-between}h1{font-size:30px;line-height:36px;margin:0}h2{font-size:20px;margin:0 0 10px}p{font-size:16px;line-height:24px;margin:0}.badge{padding:8px 12px;background:#d7eee8;border-radius:20px;font-size:14px}.panel{flex:1;padding:20px;border:1px solid #c3cdd5;border-radius:10px;background:#f5f8fa;display:flex;flex-direction:column;gap:16px}.art{width:180px;height:116px;overflow:hidden;border-radius:12px;border:3px solid #536b7d}.art img{width:230px;height:140px;object-fit:cover}label{font-size:14px}input,button{font:16px Arial,sans-serif;border-radius:8px;padding:12px;border:1px solid #9aaebb}button{background:#233f54;color:white}svg{width:72px;height:72px;flex:none}footer{border-top:1px solid #ccd6de;padding-top:16px;font-size:14px}
+</style></head><body>
+<main id="diagnostic">
+<header><h1>Editable clipboard test</h1><span class="badge">Local fixture</span></header>
+<div class="row"><section class="panel"><h2>Nested flex layout</h2><p id="editable-text">Select this sentence in Figma and edit one word.</p><div class="row"><div class="art"><img src="pattern.svg" alt="Diagnostic pattern"></div><svg viewBox="0 0 72 72" aria-label="Inline vector"><circle cx="36" cy="36" r="32" fill="#d7eee8" stroke="#254e4a" stroke-width="2"/><path d="M19 37l11 11 24-26" fill="none" stroke="#254e4a" stroke-width="6" stroke-linecap="round"/></svg></div></section>
+<section class="panel"><h2>Form and borders</h2><label for="name">Name</label><input id="name" placeholder="Editable placeholder" value="Local example"><button>Review capture</button><p>Text, image, SVG, shadow and clipped content should remain distinct layers.</p></section></div>
+<footer>Technical diagnostic fixture. Check fonts, clipping, spacing and editable layers after paste.</footer>
+</main></body></html>

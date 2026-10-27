@@ -46,10 +46,10 @@ def render_html():
     return body
 
 
-def create_server():
+def create_server(server_class=None):
     from mcp.server.fastmcp import FastMCP
     from mcp.types import CallToolResult, TextContent, ToolAnnotations
-    mcp=FastMCP('Brand Library')
+    mcp=(server_class or FastMCP)('Brand Library')
     readonly=ToolAnnotations(readOnlyHint=True,destructiveHint=False,idempotentHint=True,openWorldHint=False)
     def result(data):
         return CallToolResult(content=[TextContent(type='text',text=data.get('handoffText') or json.dumps(data,ensure_ascii=False))],structuredContent=data)

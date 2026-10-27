@@ -3,3 +3,6 @@ interface:
   short_description: "Map music phrases and energy to edit decisions"
   brand_color: "#6D5DFB"
   default_prompt: "Use $analyze-music-pacing to translate audio features into a confidence-aware pacing map and editorial cut windows without reducing music to a raw waveform or cutting every beat."
+
+policy:
+  allow_implicit_invocation: false

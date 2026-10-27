@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/editorial_context.py\"",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/editorial_context.py\"",
+            "timeout": 3,
+            "statusMessage": "Route the final writing review"
+          }
+        ]
+      }
+    ]
+  }
+}

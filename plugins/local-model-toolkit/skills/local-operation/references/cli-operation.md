@@ -2,7 +2,9 @@
 
 LM Studio’s `lms` CLI is the preferred route when it is installed and connected to its local service. Resolve the executable from the recipient’s environment; do not hard-code a path in public instructions.
 
-Use this lifecycle:
+When the host provides a tested default adapter, use it automatically for suitable bounded tasks instead of reconstructing this lifecycle with raw commands. An opted-in metadata tracker is used through that adapter; no separate model call or polling is needed for tracking. Resolve the private command from the host capability record.
+
+For a host without that adapter, use this lifecycle:
 
 1. `lms ls` to record the exact installed model key and variant.
 2. `lms ps --json` before loading. Stop if an unrelated model is loaded or a prior job is active.

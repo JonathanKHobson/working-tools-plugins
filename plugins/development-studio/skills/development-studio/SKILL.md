@@ -1,6 +1,6 @@
 ---
 name: development-studio
-description: "Explain Development Studio or scope a software change before implementation. Use for software delivery and architecture; games belong to Game Creation Studio."
+description: "Explain Development Studio or scope a software change before implementation. Use for software delivery, architecture and shipped app/artifact questions; games belong to Game Creation Studio."
 ---
 
 # Development Studio
@@ -16,11 +16,14 @@ Read [method adaptation](../../references/method-adaptation.md) before a preserv
 3. For meaningful design choices, apply the complete [brainstorming method](../../libraries/superpowers-6.4.2/skills/brainstorming/SKILL.md), including its behavioral questions and tradeoffs. Scale documentation to the decision. Record decisions in the owning project, not plugin-global state.
 4. Turn the accepted behavior into an executable implementation through [implement software](../implement-software/SKILL.md). For failures use [debug software](../debug-software/SKILL.md). A plan-only request stops with a reviewable plan.
 
+Implementation uses the [efficient implementation method](../../references/efficient-implementation.md) after the intended behavior is clear. For human-facing work, UX Design defines the interaction expectations before code is minimized. Preserve requested behavior, accessibility and meaningful states. A new goal or contradictory source evidence reopens the affected contract. Clear repairs bypass extra planning. Help and session controls are in [runtime operations](../../references/efficient-operations.md); whole-repository review and shortcut ledgers belong to Review and Release, and measured comparisons belong to Evaluate Development Workflows.
+
 For a requested interface design or architecture improvement with concrete maintenance friction, read [module design review](../../references/module-design-review.md). Ordinary fixes keep their existing direct route.
 
 ## Added complete standalone methods
 
 - Native macOS architecture, menus, windows, files and packaging: [Native macOS App Builder](../native-macos-app-builder/SKILL.md).
+- Shipped app, native binary, bundle or version inspection, source-versus-behavior discrepancies, or reconstruction evidence when source is absent/insufficient: proactively use [Reverse engineer software](../reverse-engineer-software/SKILL.md), without requiring the user to name REA. When source answers the question, use Code Intelligence instead.
 - Exact/semantic navigation and rename boundaries: [Code Intelligence](../code-intelligence/SKILL.md).
 - ChatGPT Apps SDK: [ChatGPT Apps](../chatgpt-apps/SKILL.md).
 - Small web-game implementation/test loop: [Develop Web Game](../develop-web-game/SKILL.md); broader game design/production stays with Game Creation Studio.
@@ -38,6 +41,6 @@ For a requested interface design or architecture improvement with concrete maint
 - Review feedback or release readiness: [review and release](../review-and-release/SKILL.md).
 - Method evaluation or session diagnosis: [evaluate development workflows](../evaluate-dev-workflows/SKILL.md).
 
-For game mechanics, asset production or a playable game, use the separate Game Creation Studio or official Game Studio. Security findings go to the installed security owner. Product strategy outside implementation belongs to Work Management product-definition.
+For game mechanics, asset production or a playable game, use the separate Game Creation Studio or official Game Studio. Security findings go to the installed security owner. Product strategy outside implementation belongs to Work Management product-definition. If artifact findings need cross-project scope or coordination, return their evidence and open questions to the existing Work Management planning/handoff owner as described by Reverse Engineer Software; do not restart intake or automatically launch a build.
 
 The original [using-superpowers method](../../libraries/superpowers-6.4.2/skills/using-superpowers/SKILL.md) is preserved for provenance and framework migration questions. It is not a universal conversation hook. Discovery in this package uses the focused routes above.

@@ -2,3 +2,6 @@ interface:
   display_name: "Edit DaVinci Resolve"
   short_description: "Finish and verify editable Resolve timelines"
   default_prompt: "Use $edit-davinci-resolve to finish my reviewed edit in Resolve and return the saved editable project with a verified render."
+
+policy:
+  allow_implicit_invocation: false

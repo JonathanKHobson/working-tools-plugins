@@ -1,6 +1,6 @@
 ---
 name: figma-ui-operator
-description: Use when you need to create or edit Figma Design and editable FigJam artifacts from current editor evidence, then verify the result. Use for direct editor work, focus recovery or Stitch-to-Figma imports; design-to-code APIs retain their contracts. Also use for figma design workflow capabilities or getting-started questions.
+description: "Create or edit Figma Design or editable FigJam from current editor evidence and verify the result; use for direct editor work, imports or first-use help."
 ---
 
 # Figma Operator

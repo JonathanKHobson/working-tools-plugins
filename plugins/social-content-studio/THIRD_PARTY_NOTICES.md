@@ -5,3 +5,5 @@
 - Historical AIHumanizer social-media text remains excluded, not redistributed. The current [social prose revision](references/social-methods/provider-social-prose.md) is authored within the Studio and needs no separate method installation.
 
 The Social Post Previewer app declared in `.app.json` is an external host app. This package neither bundles the app nor grants rights over its service. Other named Studios are separate optional dependencies.
+
+- Instagram Agent Skill, Jake Schincariol, pinned revision `d03c56bb598be770c60b201f94237e5d1a4268a6`, MIT. [Notice, complete source disposition and reviewed adaptations](libraries/instagram-agent/PROVENANCE.md). Original files are inert evidence; retained/adapted upstream portions keep MIT.

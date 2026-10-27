@@ -19,3 +19,7 @@ Original standalone synthesis and helpers by Jonathan Kyle Hobson are licensed w
 ## Selected Matt Pocock method adaptations
 
 Conditional methods adapted from [mattpocock/skills at 49dd158](https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336), copyright 2026 Matt Pocock, retain the [complete MIT notice](references/matt-pocock-LICENSE.txt). Each adopted reference names its exact source files and adaptation boundary. No upstream installation script, hook, scheduler, package dependency or tracker automation is included. These are selected adaptations; no full-bundle coverage is claimed.
+
+## API Anything
+
+The complete source snapshot in `libraries/api-anything/` is copyright 2026 Tianjun Zheng and retains its [MIT license](libraries/api-anything/LICENSE), including all upstream files. Commit and per-file hashes are in [the source manifest](docs/api-anything-source.json); integration boundaries are in [the integration record](docs/api-anything-integration.md).

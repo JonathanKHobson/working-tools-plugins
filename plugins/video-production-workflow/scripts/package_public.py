@@ -29,7 +29,7 @@ def main() -> int:
         seen.add(rel.as_posix());path=ROOT/rel
         if path.is_symlink() or any(parent.is_symlink() for parent in path.parents if parent!=ROOT.parent):
             parser.error(f'Symlink is forbidden: {rel}')
-        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=record['sha256']:
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=record.get('sha256', record.get('output_sha256')):
             parser.error(f'Reviewed file missing or changed: {rel}')
         files.append((rel,path))
     files.append((Path('PUBLIC_FILE_MANIFEST.json'),manifest_path))

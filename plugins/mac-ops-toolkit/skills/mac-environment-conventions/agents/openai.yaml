@@ -2,3 +2,6 @@ interface:
   display_name: "Mac Environment Conventions"
   short_description: "Place apps, libraries, and assets on the right drive"
   default_prompt: "Use $mac-environment-conventions to decide where files, apps, Application Support data, caches, backups, and symlink targets should live across the internal disk, $RUNTIME_VOLUME, and $ARCHIVE_VOLUME."
+
+policy:
+  allow_implicit_invocation: false

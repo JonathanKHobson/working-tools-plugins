@@ -2,3 +2,6 @@ interface:
   display_name: "Pattern Picker"
   short_description: "Select the right thinking framework from authorized sources"
   default_prompt: "Use $pattern-picker to help me choose the best framework for this problem from an authorized framework library before we try to solve it."
+
+policy:
+  allow_implicit_invocation: false

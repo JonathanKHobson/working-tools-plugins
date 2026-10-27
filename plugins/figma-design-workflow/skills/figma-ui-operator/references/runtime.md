@@ -25,7 +25,7 @@ Identify OS, keyboard layout, browser versus desktop, application bounds, UI sca
 - UI requested but only connector/API tools available: report the missing visual/input capability. Do not silently substitute plugin code.
 - Already authorized mixed UI/API work: respect any preference to limit API calls. Reuse scoped node inventories and avoid repeated broad scans. A quota failure is a reason to inspect the exact error and use an already authorized UI route, not loop the API or switch accounts. Follow tool-required account diagnostics when applicable.
 
-For Stitch transfer, the intended route crosses from the source browser to the destination Figma app; this is part of the transfer, not an incidental surface switch. Keep the destination file/page grounded.
+For Stitch or HTML clipboard transfer, the destination is the user's authorized Figma editor, which may be an existing browser tab or the desktop app. A clipboard workflow does not require switching to the native app. Resolve model and surface preferences before input, verify that the selected operator can actually access that surface, and keep the destination file/page grounded. A delegated worker's model name does not prove access to the main chat's visible browser tab. If the requested route is unavailable, report the capability gap instead of silently changing model or surface.
 
 ## Evidence and access
 

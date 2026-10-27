@@ -8,7 +8,33 @@ Identify the current approved lesson source and version before using a historica
 
 Preserve continuity with prior tasks. Confirm the starting workspace and files, then provide a short recovery cue if they are missing. Keep a one-time attachment or a later-task resource at its intended point in the sequence; do not introduce a second scaffold or supply withheld data just because it is mentioned in the scenario.
 
-Use `learning-content-storyboarding` for revisions: align each spoken explanation with a visible action, a source to check, and a recognizable result. Keep narration separate from screen actions, exact prompts, optional branches, and production/editor notes. Before saying a file is available, verify the learner download and actual filename. Keep full copyable prompts in the guide so narration can explain their purpose without reading every item aloud. Use Writing Quality Studio's `natural-prose-editor` for a pass against authentic prior delivery when requested.
+Use `learning-content-storyboarding` for revisions: align each spoken explanation with its learning target. Demonstration passages need relevant visible actions and recognizable results; conceptual passages need explanation and appropriate examples. Keep source checks where accuracy or consequential risk requires them, without turning every passage into a verification procedure. Keep narration separate from screen actions, exact prompts, optional branches, and production/editor notes. Before saying a file is available, verify the learner download and actual filename. Keep full copyable prompts in the guide so narration can explain their purpose without reading every item aloud. Use Writing Quality Studio's `natural-prose-editor` for a pass against authentic prior delivery when requested.
+
+## Instructor input and recording-ready content
+
+Use for a substantial recorded explanation, missing-content feedback, or revision against actual delivery. An earlier draft is comparison evidence, not proof of the script used during recording. Keep this work in the existing script and production notes; no extra intake form or approval gate is needed.
+
+Before polishing narration, recover the instructor's intended reasoning from supplied notes, an explanation or a rough rehearsal: what should the learner understand or do, why these choices, which concrete example matters, what is commonly misunderstood, and what would make the result acceptable? Ask only for consequential gaps the available evidence cannot answer. The instructor may respond in rough speech or bullets; translate that into a revised sequence rather than requiring them to write the script. Distinguish instructor experience/opinion, independently supported claims and unresolved questions.
+
+Check essential demonstration beats for usable detail: starting materials/state; action and exact prompt or guide pointer; expected observable result; a relevant source or other acceptance criterion; and likely recovery when needed. Conceptual passages instead need a supported explanation or clearly labeled illustration, a meaningful connection and an appropriate understanding check. Do not attach a click sequence to every idea. Instructor input identifies what to teach but does not itself validate a product claim or research result. Resolve claims through the relevant source owner.
+
+Mark missing facts, steps or demonstrations in author notes with the needed input or verification. Do not replace them with fluent generalities such as “check the result.” An unresolved essential gap is not recording-ready. A safe conditional branch can cover a genuinely variable result, but cannot substitute for a missing source or an untested demonstration presented as real.
+
+Sequence the lesson around decisions the learner can follow. Supply prerequisites before use, explain why a material choice matters, and connect the result to the next action. Give useful asides a learner purpose and return point; move unrelated ideas to an optional segment or omit them. Avoid front-loading every definition when the task can introduce it naturally. Preserve material evidence checks when condensing, and check that their frequency does not displace the intended learning targets.
+
+Use purposeful iterations only where they change readiness:
+
+- **Content pass:** offer the working outline or rough script for the instructor's missing examples, perspective and detail. When supplied, integrate their feedback into the whole explanation, including transitions and source checks, instead of appending disconnected paragraphs. If input is still needed, complete independent work and identify the exact remaining gap.
+- **Learner walkthrough:** verify a novice can begin, follow the relevant steps, recognize success and recover. Use the actual materials and interface when available; record untested portions honestly.
+- **Spoken rehearsal:** apply the writing owner's spoken-lesson procedure to changed transitions, dense explanations, asides and verification beats. Rehearse with screen actions where relevant. A text-only pass can prepare a candidate, not certify delivery readiness.
+
+Reuse completed passes. Stop revising when the agreed task is coherent, essential evidence/details are resolved and affected checks pass; do not add draft rounds for polish alone. New facts or changed scope reopen only affected passages. If recording reveals a new explanation, preserve its value, check any added claims and incorporate it into the next script rather than treating every divergence as a standing preference.
+
+## Reconcile a completed recording
+
+When the instructor says a recording is complete and requests future-method learning only, preserve the finished script and recording. Capture the transferable feedback in the existing method and the project-specific delivery status in its production record. Do not turn retrospective coaching into an unsolicited rewrite or rerecording requirement.
+
+When media and its transcript arrive, use the actual delivery as the source for clip boundaries, captions, spoken examples and lesson alignment. Compare with the script to resolve differences, not to force the recording back into an earlier draft. Preserve useful improvised teaching, distinguish transcription errors from spoken claims, and route material claim corrections through the evidence workflow. Until the media arrives, record the instructor-reported recording state and pending reconciliation without claiming inspection.
 
 ## Map exported clips to the lesson
 
@@ -32,12 +58,8 @@ For rendered review, map 3–8 anchors with ID, page/viewport, approximate regio
 
 Return the exact asset/course revision, what was exercised, observed results, and remaining gaps. Keep separate evidence for local media QA, draft attachment/save, learner playback, and public release. Follow existing user authorization for publication; this checklist does not create a new approval gate or grant publication permission.
 
-## Dated source observations
+## Method provenance
 
-Computer History was reviewed on 2026-09-27. Event locators are under `~/Library/Group Containers/2DC432GLL2.com.openai.sky.CUAService/Library/Caches/ComputerUse/Skysight/segments/<segment>/events.jsonl`, with one-based lines and UTC times.
+These safeguards were refined through a course-production review. Case-specific recordings, personal feedback, private history locators and verification receipts are retained by the originating project outside the distributable plugin. Use the current task’s authorized evidence; historical observations do not authorize retrieval or establish current delivery state.
 
-- `2026-09-27T02-50-00Z`: line 14 shows the grouped clips and separate tip export. `2026-09-27T03-00-00Z`: lines 5 and 21 contain assistant reports of five consecutive clips, a standalone tip, timed captions, prepared lesson pages, and masking work. Do not treat those reports as independently verified completion.
-- `2026-09-27T03-10-00Z`: line 5 shows the canonical guide copy operation; lines 8, 17, and 21 show a saved revision, private course preview, Transcript, and Lesson Guide navigation. This supports the review pattern, not a completed Task 2 learner playback/publication claim.
-- `2026-09-27T08-40-00Z`: lines 9–12 show the user's request to preserve voice and the script recommendation artifact. `2026-09-27T09-40-00Z`: lines 2, 66, 87–88 show production notes, later-task data boundaries, and a revised DOCX resource. Earlier Markdown/folder recommendations must be reconciled with this later material rather than frozen into a universal workflow.
-
-The supplied 00:00 and 06:00 six-hour summaries were used to locate these segments. The 06:00 summary reports a reviewed handout and a Drive-saved recording, with export/publication unverified. The acceptance checks above are reusable safeguards, not retrospective claims of passed learner tests.
+For claim-level source review, learner-visible qualifications and numbered transcript references, use [transcript evidence workflow](transcript-evidence-workflow.md).

@@ -8,6 +8,8 @@ description: Design a teachable lesson, microlearning unit, playful learning act
 Build the requested lesson, not merely an outline. Infer a reasonable audience and duration when missing and state assumptions briefly. If a lesson is synchronous, include facilitator language and timing; if asynchronous, include navigation, checks, and recovery instructions.
 
 ## Sequence by learner need
+
+Apply [learning beyond the activity](../instructional-design/references/addie-decisions.md#preserve-learning-beyond-the-activity) to explanations, examples, practice, feedback and the recap; make the idea and its later use explicit inside the activity.
 Begin with relevance and a small diagnostic task. Teach just enough for the next meaningful action. Show a worked example with concise visible rationale, offer a supported attempt, then reduce support for an independent attempt. Do not demand productive struggle before a novice has enough knowledge to attempt the task.
 
 Choose one likely misconception and design an example/non-example comparison that exposes it. Prompt learners to explain a decision, predict an outcome, or retrieve a key idea before checking a model answer. Feedback should name the observable discrepancy and support another attempt.

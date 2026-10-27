@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import shutil
+import tempfile
 import unittest
 
 
@@ -66,6 +68,45 @@ class WorkStartTests(unittest.TestCase):
         for raw in (b"", b"{", b"[]", b"null", b"\xff", b"x" * 1_048_577):
             with self.subTest(size=len(raw)):
                 self.assertEqual(self.run_hook(raw), b"")
+
+
+class PortableWorkStartTests(unittest.TestCase):
+    def run_portable(self, script, payload):
+        env = dict(os.environ)
+        env.pop("WORK_MANAGEMENT_CONTEXT_OPT_IN", None)
+        raw = payload if isinstance(payload, bytes) else json.dumps(payload).encode()
+        result = subprocess.run([sys.executable, "-I", str(script), "--portable"],
+                                input=raw, capture_output=True, timeout=3, check=True, env=env)
+        self.assertEqual(result.stderr, b"")
+        return result.stdout
+
+    def test_portable_route_relocates_without_private_context(self):
+        with tempfile.TemporaryDirectory(prefix="portable-hook-") as folder:
+            root = Path(folder) / "relocated package"
+            script = root / "scripts" / SCRIPT.name
+            script.parent.mkdir(parents=True)
+            shutil.copyfile(SCRIPT, script)
+            output = json.loads(self.run_portable(script, {
+                "hook_event_name": "UserPromptSubmit", "prompt": "Do work",
+            }))
+            context = output["hookSpecificOutput"]["additionalContext"]
+            self.assertIn(str(root / "skills/tool-workflow-routing/SKILL.md"), context)
+            self.assertLess(len(context), 500)
+            for private in ("get_goal", "Delegation checkpoint", "Chat naming", "usage", "Kyle"):
+                self.assertNotIn(private, context)
+
+    def test_portable_invalid_input_is_quiet(self):
+        for payload in (b"", b"{", b"[]", b"\xff", {"hook_event_name": "Stop", "prompt": "Do work"}):
+            with self.subTest(payload=str(payload)[:20]):
+                self.assertEqual(self.run_portable(SCRIPT, payload), b"")
+
+    def test_templates_use_portable_mode(self):
+        root = SCRIPT.parent.parent
+        for filename in ("hooks.json", "claude-hooks.json"):
+            config = json.loads((root / "optional-hooks" / filename).read_text())
+            hooks = [hook for group in config["hooks"]["UserPromptSubmit"] for hook in group["hooks"]]
+            route = next(hook for hook in hooks if "codex_work_start.py" in hook["command"])
+            self.assertTrue(route["command"].endswith(" --portable"))
 
 
 if __name__ == "__main__":

@@ -65,7 +65,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "3fcbc756ecb0c789e4c6e2a2045a4598c2dbebef524abef6068f835e5f9f9cd0"
+      "sha256": "e11a690c1de6bf28f2810fc7dcf2a0a0df0f899143600957e5f500ad90f31cc5"
     },
     {
       "path": "SOURCE-ATTRIBUTIONS.md",
@@ -86,7 +86,21 @@
       "category": "license-and-notice",
       "license": "See document",
       "boundary": "Author licensing policy, exact GNU text and retained notices; does not relicense underlying documents.",
-      "sha256": "e28cffd9f9f54d6595c0b999e4096aad27f1794bc167601cbcbb5615568cb242"
+      "sha256": "d45ee0ec040ac9373124c51e171dd7de3d705eaf52525b22b31ebcb0b6caf2b2"
+    },
+    {
+      "path": "docs/api-anything-integration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Work Management integration addition.",
+      "sha256": "0de89da5663eb6cf3ce00e6dff4c1f3b25bd890924e598c2de5e90f2b0fc57a6"
+    },
+    {
+      "path": "docs/api-anything-source.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Work Management integration addition.",
+      "sha256": "a5df95293d4876ba5f0af63dae858ec0e801b755e4e8e568c7c8034b85383305"
     },
     {
       "path": "docs/parallel-work-provenance.md",
@@ -100,14 +114,14 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "519f031c2c0a897ffc438eab3ffa9e81c96d82d89333701ad73093b4712ca60e"
+      "sha256": "de8b010e638dea579ef63cc76a5e868cdab0ace2e88de652383ea38a78f0edc0"
     },
     {
       "path": "docs/skill-plugin-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "e84fcde8998f8f2d2edf928bc3182a21cef2a6d9e40cc33e33d0303bac8965bd"
+      "sha256": "666c4f8dddb63f3b59dd659ba182af39c390e1b782909e20d727849d8076a90f"
     },
     {
       "path": "docs/standalone-additions-provenance.json",
@@ -192,6 +206,1189 @@
       "license": "See retained grant text",
       "boundary": "Exact prior grant or original upstream license; not the new first-party default.",
       "sha256": "3b9cf5325de2b587cc9af8bd5d8165cfa1dfcdf8e629c93b207afabc529dde72"
+    },
+    {
+      "path": "libraries/api-anything/.claude-plugin/marketplace.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "09404b163103d875229c3db2295a536912bc7f9d4c97f5cd81a8532aeded2ab6"
+    },
+    {
+      "path": "libraries/api-anything/.claude-plugin/plugin.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "10758c5ddb987afc0b865bd1c42b7d6499bc159354e86ca46e65d7355c3471ad"
+    },
+    {
+      "path": "libraries/api-anything/.git-blame-ignore-revs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f03ccdb3fce12d992a0514f060c474dbb03a4f32677393f61726e60c92db223f"
+    },
+    {
+      "path": "libraries/api-anything/.github/workflows/ci.yml",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "19f416b4050360c0b9440451a81d2439827f03643bddab3a539290e654dabd38"
+    },
+    {
+      "path": "libraries/api-anything/.gitignore",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9313f93869df22bd396efe163854345d7aac5dd602b4438075ec69f9cc3cafba"
+    },
+    {
+      "path": "libraries/api-anything/AGENTS.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "00f7ace3583a4735960f0b36704e3e5792ed8c593ab2c9bfd59cba29544c4cb1"
+    },
+    {
+      "path": "libraries/api-anything/CONTRIBUTING.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9d8f88ea9d73b03a36a07d25d3da9ace3ca021d6ff3134afd2c990eeafdea738"
+    },
+    {
+      "path": "libraries/api-anything/INSTALL.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d706aac1cff8124c43822828eca903bbe5449a0b29b1631b58c444f48c2cc971"
+    },
+    {
+      "path": "libraries/api-anything/LICENSE",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9c57c501762e9acf850474f081cdd44914f8820f0ca0099d54f8754109a47999"
+    },
+    {
+      "path": "libraries/api-anything/README.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "0ea9a687673ed5b4f61fb5f2b2bb3e9ac3b2d7c2b6e14479f2ee0fa5ae6a75ba"
+    },
+    {
+      "path": "libraries/api-anything/bench/README.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a134ec2afdc08b3a6c1069511bfa17e0e5b25bd57ee3efc0f1c98e583f11532f"
+    },
+    {
+      "path": "libraries/api-anything/bench/charts.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "aa8c16d5a5437946abb357d8730b96cf5228ae0c97eb11d0867a5fa50f548f14"
+    },
+    {
+      "path": "libraries/api-anything/bench/engine.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "046f84488f56ccff2a8d0629f4895855768732d8fb24ad8ee0849f6c19ddea27"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/README.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b5050e550451fb429d0157d80a53c7574c700a9d6534b3c1ca4acfcc6035d6dd"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/goodreads-intent.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "574391571031268d1862d1e9a7726227307c718f6e1bfa245208e6ce59889122"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/reliability.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "ff78f1427822d4f890052a9a69531f640cb7124a1921df780e3ef111c7d83581"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads-run1/goodreads.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "3bc7db74ceab3e823b6858ae04eb8a9db720abc1b02db9ab30b0aa2d4f4c7b48"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads-run1/report.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "cee27b08222df7fa8b63f7d40be3d26430b42fe384f30edcafd4cebd9aa59991"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads-run1/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "927d80ba878babe133dd3b5e1da81f577414642784ae16e2b9f8ba51478558fb"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/goodreads.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "41a1c4155fc02b9f32ee668fba3ee636766d8e16d31676498b9740da7875353e"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/ops-map.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a887036d74a1fbe54c4117e9ab736a2260c01309061c578420e029dd834051fa"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/reliability-title-author.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9f375e2377bee0d876d0a7904549a7b1c36004013e8c4f9c82db32b6645a607a"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/reliability-title.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "856366d4a1dcdaac31ba422878df03c4e0d67ad261245dfb3c772405b8b8cee3"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/report.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "81c63259f8dfd56e8584adbc018091f7fb369601be65ef7d05e7e3c355ebb4cd"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/goodreads/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2650ead884a1284559950186f1e95689ed72a5f0d4f2c4c6f1cfdd81fb9f551a"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/vague/report.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "edad7fb7efcb1be5e4778fe846ba07187078c53d3257b600eb864d73e7321b28"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/results/vague/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a3ccea5b9431e58b7305d65b3a552316054afa87a19edf8b93addc2bdbd75e16"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/run-explore.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "62e49bd76781fd9879b6db2a50d16e73450a98a3dc379df33d9bddd627570462"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/truth.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f0b3b98c333b9a83f25d264ec29f0b0e61b237f74d6c479a3cea69c7967b0a77"
+    },
+    {
+      "path": "libraries/api-anything/bench/explore/vague-intent.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b4b0a48ad99111407ec4a1cfbba5581599b507d4ed4fa7bea45ed570d4c863a1"
+    },
+    {
+      "path": "libraries/api-anything/bench/ground-truth.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c69164a5e26f4ec1345575d384fd7c0fa4540fc03af081eb7e590d4ca39ba644"
+    },
+    {
+      "path": "libraries/api-anything/bench/import.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "ddda1f78ca7c937d0d88680d0aa26cc0a2089498715236d45d30730c0edf1948"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/goodreads/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "af09e5d0ca1dadf795a5304dcc5b63e0470fbbb58c3660c0954b10846a579a90"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/goodreads/trials.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2cf3db5d569752f9ef1373782abd4260bb978b70abfb3b491a062b218dca0013"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2cac233cf1590d045054133f35bbca14ab9d0a03061365230fcfed3021727a66"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/transport.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "463e05a5eec627b68128590bba6168d1e952e32a1a0a1d3235a5cfeab0e5364c"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/trials.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "23bb248ac5b34d3fd1fd32a335cefff9ee34a3d174b6c489e3a9648ca14bd48a"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/v0.1.0/ground-truth.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "193feed8674d46e75ef7dab5b699d78010af0972f5f70edbb36e31f98a3f1658"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/v0.1.0/summary.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "82a016ed7772d886375b2dcc70ea0ce1ab89474450e5f53c40e8c72e4c9ba9b0"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/v0.1.0/transport.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "e0ff83942c09e0a4e188712231f3f997b5bf8ba7aa3c552831f57000a8a6398a"
+    },
+    {
+      "path": "libraries/api-anything/bench/results/v0.1.0/trials.jsonl",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "bc8a92fa55ac0dee74f67e6e26e58cf9d2749bdc844de4035cc37c2607f8a097"
+    },
+    {
+      "path": "libraries/api-anything/bench/run-agents.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "97a29283051705cf8fda3925097b13ad59bb8ad30bef011894fc95e02e312646"
+    },
+    {
+      "path": "libraries/api-anything/bench/transport.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "4ad945ce3e272c0739c50055456dd735e55d64d4294e060164f74e14c6fcc7b9"
+    },
+    {
+      "path": "libraries/api-anything/bench/video/race.html",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9a2dfe167bc69020e20c404c451d6018aaa6e88418844888b107dce3d832e6af"
+    },
+    {
+      "path": "libraries/api-anything/bench/video/record-race.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "ceddafef9022e214f6a39432fb7c7226400dc185aa68cfa4dbb6480bad30dcc4"
+    },
+    {
+      "path": "libraries/api-anything/bench/video/render.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "291a51ba582429296eacad1c7a9f90932c505cd4ea934a20af952928c20089b8"
+    },
+    {
+      "path": "libraries/api-anything/bench/video/timeline.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "972d6bb8b14a4d906b7f8a1141abeaa0b3746a73cb1da73f7b01b9a4a8d63d1e"
+    },
+    {
+      "path": "libraries/api-anything/biome.jsonc",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "47640cfbaaffb2e549faf7843a8291f7bd4381aa53f4a472634e6ac2cdffc154"
+    },
+    {
+      "path": "libraries/api-anything/docs/DESIGN.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "792949af6d201a56b12409fbc3f9b792f79a33eaa16ef293b4dffabbe054194b"
+    },
+    {
+      "path": "libraries/api-anything/docs/PERFORMANCE-AUDIT.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "3822f303c90b6fdee00ced59fdf415f793f40ab179f508332b28e77c9fd8952b"
+    },
+    {
+      "path": "libraries/api-anything/docs/QUICKSTART.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c87a0096395942f9781f8b469bd1e5c8f8d6500582c74d2320d493614cb7bc9b"
+    },
+    {
+      "path": "libraries/api-anything/docs/REFERENCE.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "71056494dcdc210e7dc1e40b242a41f09218f4fbb859dc501203317ccb412941"
+    },
+    {
+      "path": "libraries/api-anything/docs/RELEASE-READINESS.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "e67b15cdf63a71c0c936df89a25fe645b3825f4649093610b256272c5aab6216"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/README.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2dd382a412832a1ecadf90011554f4eb562a622e8c07a73230f46ed62d022ba4"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/first-call.gif",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "affc25b779169ad8af9dc918234eb522ece9bb6f9991baacdbc4e3f0e12e19b7"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/first-call.png",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "46dcf14829dbc8a11949e0fa1c543b95d39839deb5edb468ac771fc07dfb8494"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/first-call.tape",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "efaf6d044e96b45d287a5e4cf2ff30dffd6747a6aab8591ac16c2ad4bfde7be8"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/first-call.txt",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "fd44bf6b3ccd66f71b366807e549b46d41d15d84f3ac11e1f484705460d13f33"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/record.sh",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f86e85d83cd2269fab542e7c197f7180b20cdc2b60ae4e216a8e99202b6e99be"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/research-brief.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "de5f82cd22f4b102c73188a8193f4bdece600439e30e496f1fe61127d5bf6972"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/research.gif",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "70ef30d9f36b93d91cafee87be949d02146ab38ed9a149c7106d2126fab3efb1"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/research.png",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "0243b85b139d6eab805421f67e77101ea9c72e7655d798a02f30c72199ae0c7a"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/research.tape",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "4663b84b12bb3753ee39c4d57f3e99cb07d574a469ac1480e52dad093ac233d1"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/research.txt",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "27936991e652f7589c8937a7e1573eb7a37c9d277779c5622c60eda3b3d645fd"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/teach-once.gif",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "3741a5390939ab1ac501fc8f59e2ce19747b71a7e42a1b433b17ccdc436e6f99"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/teach-once.png",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "934eba247af38600dcbf25d976822b7ee3a1646b332451087512c8ae384903ed"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/teach-once.tape",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "05541d297081daea558d3bc52922747c1e22bf85e20cbc2f6aa6b53d8a72a360"
+    },
+    {
+      "path": "libraries/api-anything/docs/demos/teach-once.txt",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "27ae58263e9073e3fea9a2ede9f5ad338a36cceeb81ee999dbcfea06b0f4e699"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/agent-benchmark-dark.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "dcfbb35117972a16399554ebbe5d5ea1237851d6a5ca44745059e8a747b249a2"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/agent-benchmark-light.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "736994699097d9d9316e5af6be7ae49064767c6ea78ef9e68f11dfc855d6d69c"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/agent-race.gif",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a9fdff38f87de01d753a36fc01e84605a18bc6d04edcb76a8db0049894998e5a"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/agent-race.mp4",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "6a5f393c6d98fa7d59b212a2dafd63dd6f30276b4f678994f6473b8ff50d4c4a"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/goodreads-benchmark-dark.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "4b99d551586a5cac73517489f7029ab401c47ff06d3c692a9d8c5682091f34f1"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/goodreads-benchmark-light.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "71b8d73b3a33ca506c6f794e3cffe5008f92ac24041105ebb680a993a98b613a"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/transport-dark.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b4db8fad74b842ca5c6ef97a37df3f0595d00272470137b1009d5dc8ed3c0c0c"
+    },
+    {
+      "path": "libraries/api-anything/docs/media/transport-light.svg",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "016ae4c16a4a9c4c95818466fc448d3eccfe1e59eb16f7675e66b4c61eb86c20"
+    },
+    {
+      "path": "libraries/api-anything/docs/research/live-probes.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a30bd633e889c4dbad780c07c10c36535433731e28645e3c90c5471bc383eea5"
+    },
+    {
+      "path": "libraries/api-anything/docs/research/prior-art.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d248dbd59c9d33d85efc45e545f4300e2ebbe4f431ea45c2da3a9dcddb7ee403"
+    },
+    {
+      "path": "libraries/api-anything/docs/research/prototype-reuse.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "96078ac48ddb1a84f39226ee1e875f1eb0aaca7f61f114f952e18e266b87435b"
+    },
+    {
+      "path": "libraries/api-anything/examples/mcp-call.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "be786262863f21b427830e1ce0a8e32bd2648d37fcf96401fb6a3417f0005aa2"
+    },
+    {
+      "path": "libraries/api-anything/examples/reading-list.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "86b742e822cd3456afb146b02bd21e4c50a436343e1de40d97e5fc5270c63223"
+    },
+    {
+      "path": "libraries/api-anything/examples/research.mjs",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "eb962d5dc5c82244a0eff83273bd54fbba4fc991f5301ec9f716bf88189fc0df"
+    },
+    {
+      "path": "libraries/api-anything/examples/teach-once.sh",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d3963cfc02d84ce0ffd7ac678a63e4cfdc442b1ffcf6d1a5e73dda859780cf7a"
+    },
+    {
+      "path": "libraries/api-anything/package-lock.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "6395f2d3a52ec0b7d0cfebcdee73795a0812d47775651a5d8c9872c8a9d0ac2e"
+    },
+    {
+      "path": "libraries/api-anything/package.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b9de71b8f56aa0ee9547e088e9f86934fe18ac379d1d0c9994784ab70a91ff54"
+    },
+    {
+      "path": "libraries/api-anything/sites/airbnb.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "e9d68f13050f07e4f55809fd243116e448d7f367e01ae391518e56c6b13bbdb2"
+    },
+    {
+      "path": "libraries/api-anything/sites/airbnb.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "34e18178f006357f429ba9f2d1703418e3d44ae7c5d9cf975b375f50f103197f"
+    },
+    {
+      "path": "libraries/api-anything/sites/amazon.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "10b94693e6ed4cbc068a1834b4d290cf1a377af6a2ee6ca8e94ac0efcb9f0fbe"
+    },
+    {
+      "path": "libraries/api-anything/sites/amazon.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "34951b479b9e0799ec453bcb130280bbf24ae756bfc93edfd4c779eb44b69117"
+    },
+    {
+      "path": "libraries/api-anything/sites/goodreads.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "16c52c1d65696ad086a9f313e9a940c6d701fa29bef03508853add7608c51012"
+    },
+    {
+      "path": "libraries/api-anything/sites/goodreads.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "eeb94dfd7066700384b8714520533d9d4846377721ce7152e0819bb453a53cea"
+    },
+    {
+      "path": "libraries/api-anything/sites/google-flights.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "fac0bb79a6f0232e03091499ef6e58d39a199ba2189e273bff0f297a89d8e3fe"
+    },
+    {
+      "path": "libraries/api-anything/sites/google-flights.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "ae7ae562a119efde4d6840047894959271c4977b656d553308f3937c45705c1a"
+    },
+    {
+      "path": "libraries/api-anything/sites/hacker-news.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "25d9cbd29478c62eba962002befbd55cad58236c6271faa67881e352bdca430c"
+    },
+    {
+      "path": "libraries/api-anything/sites/hacker-news.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2edb01187bfa3d1a3037129036188b6b74702fa46a6b47b543285282da32f02d"
+    },
+    {
+      "path": "libraries/api-anything/sites/instagram.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "28b6e140fc034790ca575a5740885a2b2efe78bb3c113b18c047d087f21b9510"
+    },
+    {
+      "path": "libraries/api-anything/sites/instagram.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "baa968d69d061bc9e60fd7e6e5ee88a9ebac1cf01798a2609ac09071ff5a8b8e"
+    },
+    {
+      "path": "libraries/api-anything/sites/linkedin.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "93f7a7dadf3f6a6a28dca135e1e25b74ce4e4e50d2b48843e3ede6469909aa62"
+    },
+    {
+      "path": "libraries/api-anything/sites/linkedin.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "43abd2a945f63a6cd6a680565bcabc6f359596bdd13d958799f3e3d51040e418"
+    },
+    {
+      "path": "libraries/api-anything/sites/x.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "0c348c308f17e96bc6c94c024cf7c7185bb1e111adb5b9a9647a572713487e1b"
+    },
+    {
+      "path": "libraries/api-anything/sites/x.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a79d97625646cafcd4e25d75eb4d41558cf680f794e17cdd285b371769889261"
+    },
+    {
+      "path": "libraries/api-anything/sites/youtube.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "580fbceca77a4c87e24dce08b24af2028f06e451cda1d82b8ee1dbd3c4c909a8"
+    },
+    {
+      "path": "libraries/api-anything/sites/youtube.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b51324d2e9f22e6689dcc4a6d160792054b6b279211af11ba2427813f2a6376e"
+    },
+    {
+      "path": "libraries/api-anything/skills/api-anything/SKILL.md",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c32ff1d430898f96ce0182d15e6c58a3dbaf9b1ce6c3c6611ccd4607426d04c5"
+    },
+    {
+      "path": "libraries/api-anything/src/browser.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "312712397f6063af2b75026bdd623f45a73f338862d9d61e9ed278cde9ab56d5"
+    },
+    {
+      "path": "libraries/api-anything/src/classify.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "cc8ab284e86a5f05a58fa1410e2ef4f53c3435ad5744d2e95184d164ce51ccf1"
+    },
+    {
+      "path": "libraries/api-anything/src/cli.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9b84200f4d7bb3e1dfca38ba8a0e0653bb774c2065667697d037518d9b5c68ff"
+    },
+    {
+      "path": "libraries/api-anything/src/codec.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "26db378efe3a439f0b5e6cbbdc9d1112d7d867499ed7fb1e335e9f14bed10f77"
+    },
+    {
+      "path": "libraries/api-anything/src/execute.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "0b141aae0214dc3261cf8b545b5b18c9ff3c50e81f973238fed6e7819d29380b"
+    },
+    {
+      "path": "libraries/api-anything/src/extract.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c60c43974e270dfe76a30b0add1a19b12eed181b051b70ca1fa642785df711f8"
+    },
+    {
+      "path": "libraries/api-anything/src/heal.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "78c32f2d28655975cbbd9bb6ed30f1f07a37bccbdb6fdf3f148fed5bf1d002a8"
+    },
+    {
+      "path": "libraries/api-anything/src/http.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "531102a844cfe86cbe4a2848efdf53b7233f8e06eae835b22a7a249d0f04061e"
+    },
+    {
+      "path": "libraries/api-anything/src/import.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "8d20dcd0d8ad049158b34849fcee30d507bb90e3f207bd17fb5f8ee7c12793e5"
+    },
+    {
+      "path": "libraries/api-anything/src/index.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "9839445aeab7fb993bd33e6303566a62a8f26e62efd83041ad3390792ce65b0f"
+    },
+    {
+      "path": "libraries/api-anything/src/learn.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "5b6dc69ac07d3b0a6a8b964115f6c88840c2b8714478051d3ceb4c05082d0273"
+    },
+    {
+      "path": "libraries/api-anything/src/login.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "e8337b61e3bfdddd527b6b65cbcedf4a00f9f0fd41dea7081c0d930867e400ac"
+    },
+    {
+      "path": "libraries/api-anything/src/mcp.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "bd8798862069aeaf3422a12f65dd794a059f1c24a2eac03c97a6a2eafd8bb251"
+    },
+    {
+      "path": "libraries/api-anything/src/outline.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f7d0a8a9204b9610ece791f9a803b612096bbf23d8e95ba2d43702d0b53bc46c"
+    },
+    {
+      "path": "libraries/api-anything/src/publish.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "550305bcd8c507cacdfb1935cf12391cf68db8e7f876497c0702ebb72a447600"
+    },
+    {
+      "path": "libraries/api-anything/src/registry.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "837774af174e28e0bb95a007eda6076f66ae95d6d0587bc661e2d55a0525d4a4"
+    },
+    {
+      "path": "libraries/api-anything/src/secrets.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "66e9aadcf8baa5a23026073cc8ed571a6c1c05722b050cde6b7e7066ce06e51a"
+    },
+    {
+      "path": "libraries/api-anything/src/session.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "aa7651f38024b579427d64d0a46171cb72e89ef3fc55f75c69714332b8b482d1"
+    },
+    {
+      "path": "libraries/api-anything/src/spec.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "145ea0141907f306c74595b6b3c5ffa16d449b174a644447de60882b9c37f54b"
+    },
+    {
+      "path": "libraries/api-anything/src/store.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d207d352cdc411007f6b412363e5eac62c635a265b8c368ebc74cf0ec43f8fff"
+    },
+    {
+      "path": "libraries/api-anything/src/types.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "a4d74bd761a8edb8b07e1f0ca57f9b97b6ceb66693e7d4ece914dfdc26d78d01"
+    },
+    {
+      "path": "libraries/api-anything/src/vet.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "7d79eaf22d3acfde5ed7096f6d3ef2042b6181dd00e91e9b864b8abf21b84f43"
+    },
+    {
+      "path": "libraries/api-anything/test/benchmark-charts.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f63685a790dab3461538f50c880237023236f8d45b1627ab2be100bfd511b1c0"
+    },
+    {
+      "path": "libraries/api-anything/test/benchmark-safety.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b79c789e43729df894201d995dc2bff6eb04f871d8d3c35cac84905bb29fbb49"
+    },
+    {
+      "path": "libraries/api-anything/test/browser-choice.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b50ccf290c3c69620701394a4f0c52f6b8d41184d1399d08d04b64775f13a6a7"
+    },
+    {
+      "path": "libraries/api-anything/test/browser.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "355b09aefa260b4a52824a9c31fc5076d51f9e448a7100bf7dd1aa1898e97877"
+    },
+    {
+      "path": "libraries/api-anything/test/classify.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "3d5f8e133cc620ad2f231cbea82bdd0c8dcfd4c3fcad08e010aa0efa02f2b293"
+    },
+    {
+      "path": "libraries/api-anything/test/cli.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "4b4474d9fba1e74450459d5a92633adc6df8760fb357ead9804324d3e6c572c3"
+    },
+    {
+      "path": "libraries/api-anything/test/codec.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "62bb67223bc0bb32b4112cdbdb4cc17c2480330f4ef4cb654cf9ef92d5b875a4"
+    },
+    {
+      "path": "libraries/api-anything/test/e2e.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "591aebf21a904ed9db3ef1674a732c1c400e62dda1fe98da15057a1d9e880e04"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/browser-surface.fixture.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c12461be125d9ebfeed8c1f32a7bdd549354e77072e295b68fef5ab4db17549b"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/browser-surface.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "5e82ad7f6ada134161a294406e1a1d9a424af20f00079c0fc2a023e5d6453797"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/execute-classify.fixture.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "eb36dca467def8308d2ca492e78bc0d91d53d6d82402cafde7d47eaed629817e"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/execute-classify.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "c5a85fac0e22f8bcc5e4e7394ace61bc334f1f369f4f5a242cc60554fffbada9"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/heal.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "905cbb461a35329fd383ef50faf189280bb13b8ba8360114ed762124015361b4"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/learn-codec.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "f741a0c386eea5243cbd5e57974a642078a563f2997e198d3afb4cc5b4cbc85c"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/learn-slots.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d8f9063675caaed81ea45780222d524e52e914c73d1daf9490ab8ef7ab8672c5"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/learner-r2.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "6b61e0ee5cd8ef71f0864ff790996adb354eed4e240a6b033b304ebfb602aad0"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/live-a.fixture.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "50b9d2492d2e759d966b97cdeff622a52280bc896ac0bd41867569ada482dbe8"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/live-a.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "1b15c526e9534714e4e9ee1788b2187f9d9b389554147ec6aead221054176e99"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/live-b.fixture.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "70fac111ba8f14136d5be144ea1a432bc0b6109e8628520277581a4d048648a7"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/live-b.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "038e7004ff4a3ca7937458a1035bbeefa571c94fe5e0ea615d083a45639bd5b6"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/performance-browser.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "437513047f7e3f9694276c675f4ea803e25aed568f7a47c657c395881fc2e32b"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/round2-browser.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "d96193c89c1e632e9f8895b1aa0ffb0bd95eb54cff1a3591ed23bdc3f80c464f"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/round2-classify.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "92c5314049a891b18d0609f6db06ff27a0c6b1917cfe517f080a6ce2ce4c6ca5"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/round2-login.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "7f10d4282abdbd4db169d9818173f1eae275eeafb012bc22bae34b8259e1f8e2"
+    },
+    {
+      "path": "libraries/api-anything/test/edge/round3.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "1e8acfaa30808fad34870862a11a7f20decbd11ac6d4ba7520eace1f3706a0f9"
+    },
+    {
+      "path": "libraries/api-anything/test/execute.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "90a91ab5c0e67e9aef3d1b21711cdcfda56c0629c64776a8aab727bcf3a26636"
+    },
+    {
+      "path": "libraries/api-anything/test/extract.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "682f81ecee6f3438295f520c870beec0081c354e8cd8785cffcdbeec10cf966e"
+    },
+    {
+      "path": "libraries/api-anything/test/fixture/cookie-db.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "adab1f2e788d4561d8a783e47dd760861e9412e03739c7d387ed220445d68613"
+    },
+    {
+      "path": "libraries/api-anything/test/fixture/server.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "8462f5eca1e260b6d1f0f7159d90ccebd37b846b2298079108f1b85f60f4e310"
+    },
+    {
+      "path": "libraries/api-anything/test/heal.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "5bd96223e3ce10b566dc27a9704c860e79420df8553828f059e14b193455eebe"
+    },
+    {
+      "path": "libraries/api-anything/test/http.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "e6d97f4524fa429a0076947b4b63bd308696240db353b01e0f09e51288a28aad"
+    },
+    {
+      "path": "libraries/api-anything/test/import.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "59868b657c2bba923eff6c62cabb3b59f445a050bfeb10e1afc372f4951320d1"
+    },
+    {
+      "path": "libraries/api-anything/test/learn.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "33b9d17d6aadd47b61dae6c6962e30b79f3bf4bd90628631cfddfa98b1fb24f0"
+    },
+    {
+      "path": "libraries/api-anything/test/logout.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "b79d8917cc9a5f3ed2391a604550dd7f16488acb058a61faa3f7b1e3c8afe895"
+    },
+    {
+      "path": "libraries/api-anything/test/mcp.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "265c7c8ccfc09660a98df8cf4e97faad34a77973d23769cf7d26555426a7b760"
+    },
+    {
+      "path": "libraries/api-anything/test/outline.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "92d704c7756827fb55e5518f1be234318c30a1026cd4f27bdccade97e4679b8d"
+    },
+    {
+      "path": "libraries/api-anything/test/registry.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "78b32b7b740e4c9149fc380b1b0faa6d90788a8c607b33641f5b3d2ae964f2cc"
+    },
+    {
+      "path": "libraries/api-anything/test/release.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2beb43f439e20e32467e6689015b59fd85661f126180472646a0c36cf654f4aa"
+    },
+    {
+      "path": "libraries/api-anything/test/session.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "bcbfc94e8410ef70b6e93557c55614b6ee110af80f7eb71401af15f6ee56e266"
+    },
+    {
+      "path": "libraries/api-anything/test/sites.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "86b9334296fe9fa468357c6b8a06a4469dcddb7a8a272d7eb0a4bef61bd0d17e"
+    },
+    {
+      "path": "libraries/api-anything/test/store.test.ts",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "2072784b3386362761316620e1c4fdc140cc05df7d865e1ca294a5472f871262"
+    },
+    {
+      "path": "libraries/api-anything/tsconfig.build.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "1ec4aabfa7a219091e9cc6b306cf45baa3be71d87f9cdf79ac9f399e583ee18d"
+    },
+    {
+      "path": "libraries/api-anything/tsconfig.json",
+      "category": "third-party-upstream",
+      "license": "MIT",
+      "boundary": "Pinned API Anything upstream; original MIT grant retained.",
+      "sha256": "0be758017270e12e56d2a29324c1d6ebd3390f182b8b81407414877c51519498"
     },
     {
       "path": "libraries/claude-code-setup-original/LICENSE",
@@ -520,7 +1717,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "188dded62fe624cbcc4b6bd803a7b1fa261541f6313884488d3a51cc357726c6"
+      "sha256": "d654c47b0d514365777f0e4c3b0b4f471a1ac396c51b59694ed3570b1afc78ab"
     },
     {
       "path": "libraries/focus-ops-manager/references/skill-provenance-catalog.md",
@@ -541,21 +1738,21 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "36ef79f14ce8b407284b9a992a273a2a817cb5f5532be62d9d1e4ec7433b13ca"
+      "sha256": "1b098bf8844b4a8058a32e0fb41025bc6ba314ca11b5797b04f6d784ddf8825c"
     },
     {
       "path": "libraries/focus-ops-manager/references/skill-routing-index.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "935a5df4f965656f7849e53af018ccf094bc5d79b894b6b1fc684919d1128758"
+      "sha256": "89a761a68cb9f77a66c7f357ef593c7009b4d2cc6406b8a5a3fac6199530bd79"
     },
     {
       "path": "libraries/focus-ops-manager/references/subscription-offload.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "7836735303542601c78ec7676775fced9dc3d6692f0280a249a8c7bd8bbb1f8f"
+      "sha256": "66546eedd3d8c33f7ec7903e7504335de425ea1bdef41a1c6c03be44e3a05db5"
     },
     {
       "path": "libraries/focus-ops-manager/references/weekly-log.md",
@@ -912,14 +2109,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "22b1dc055473c3e2711756fce06fe04d4cad645ef2c5b4cf2d4c2be618a6ad99"
+      "sha256": "49d2370302600e0ae13bdb686797c7c9dad50c05bf1015f1b56c1822b1738931"
     },
     {
       "path": "optional-hooks/hooks.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "cb4487997cb8a71175a266995bebabcc9560314607be3e84673aaa2d6fdbb0d2"
+      "sha256": "9340eb4e892578bc50e68095760ea28a59ee8e1c35b670760a9a326e51630a7e"
     },
     {
       "path": "plugin.portable.json",
@@ -943,6 +2140,27 @@
       "sha256": "a9d452a7ebfb183f2309023ae67f0947a4a1e232c5c68a5742201a262ea252cd"
     },
     {
+      "path": "references/decision-mapping.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "23e5a705d766d3c632b9a713faee35f147d29285b7970ba0ee3f5c495f4637a7"
+    },
+    {
+      "path": "references/dependency-aware-slicing.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "51c77cc10a814ad537914e0b80613614c1b095223283458315867dfeb3838005"
+    },
+    {
+      "path": "references/domain-language.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "0ee65f6b24fffefcc1bd906293c2f9a0b87d0e27a7178f4d526ba8576093c175"
+    },
+    {
       "path": "references/focus-methods.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -950,11 +2168,88 @@
       "sha256": "88ea508bbe6efffdf3c670d5e8ebf5ea512c558ab09acab56ef08897d5d6ad62"
     },
     {
+      "path": "references/implementation-readiness.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "9e71da7f8ac8f9b3dc4360fdf1d47fd364ba676643c1c5ee67b34209aeb7c811"
+    },
+    {
+      "path": "references/matt-pocock-LICENSE.txt",
+      "category": "retained-upstream-license",
+      "license": "MIT",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
       "path": "references/operations-map.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "1d712df107d74b55d69c99facf76bf213f77fc913aa6c27e5b8b9ca324e18645"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/designmd-app.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "0d23d14b021e21c3dba3060785d05bb70b1ef1b6309e42d2dec62f8369f21a98"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/designmd-app.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "8f4433b8a8243cd7a7c31dff0f9c2c521926ecd7c834da2ac8e5a2693399cc1d"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/frontier.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "3a8c66ec8d4e0df9d17feb03cdb23f6ddf6061d3a3fbed0a5742961378e9e732"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/frontier.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "d3596ddae4450b9065d7576c3f95a8dbce7d44f2c6c3b6facc1d3ceb067532a4"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/manifest.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "82d044ecc2af7db688eebe64a8844a5edae6d963994e1723de86124d26853021"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/shadcn-ui.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "0f44075a110d334dfcdff8d163d19def3f43315a7c47bb49376fbdc14deecd30"
+    },
+    {
+      "path": "references/operations/api-anything-recipes/shadcn-ui.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "46bf929781ef1a7e4e61a4e5f87686885b4d3020cd66ec177e7309bed05a671c"
+    },
+    {
+      "path": "references/operations/api-anything.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Work Management integration addition.",
+      "sha256": "728b6dc1ede1ffb25c78a0556f0fcb91b9d77943692fcb14269ed6664d3716a7"
+    },
+    {
+      "path": "references/operations/artifact-quality-evidence.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "dd0c0f4e18fa3c9cbd0c03bac56208631f6b6c05a4b6e0c514ddf9d194baeb63"
     },
     {
       "path": "references/operations/browser-handoff.md",
@@ -983,6 +2278,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "6c0dcd5f82dd74587c9f8d2f49a34844e6499e95dbbb41919db5e5043421dff0"
+    },
+    {
+      "path": "references/operations/contact-handoff.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "608dded6bfde74a6d6598f0c1b1d907c19b72ee4f251f1937d74bec23bc277f6"
     },
     {
       "path": "references/operations/daily-cleanup-ksb-guard.md",
@@ -1034,6 +2336,20 @@
       "sha256": "805fc022ed274429749eed6a10bd6b03cec20b7f456909ccc2d1b8a2e4ffdad3"
     },
     {
+      "path": "references/operations/resource-access.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "b6e5014d755ddc511ccb287c35fd39ebaa82a167df7910c927173b510039c304"
+    },
+    {
+      "path": "references/operations/resource-directory.json",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "436fd02f0958cbadeb57fd21fc2cf04c3454d9db4525b8fab9068692ca3aa32d"
+    },
+    {
       "path": "references/operations/ship-log.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -1062,11 +2378,18 @@
       "sha256": "702fae593bd553b573526adaff6afb74dd182b958e631c57f2c1357847d0f5af"
     },
     {
+      "path": "references/plugin-change-tracking.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "adb93e84f159e6a62f9285e0ae3788ea76acad167310836a5b2ad46254df18df"
+    },
+    {
       "path": "references/plugin-maintenance.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "23baa05a96a923cc415d486d19e26f4855eb78ef4c630562e2f385d6eda75a44"
+      "sha256": "968166b304d52cecd6b4e2eb14a5cd8b4e11deddfcd16fe3eb052cef1727ab2f"
     },
     {
       "path": "references/plugin-release-surface.md",
@@ -1244,6 +2567,13 @@
       "sha256": "acf5163420deb843b3eb66eb54cbec4a0313397dc24c648dedbcb5d40eb70a86"
     },
     {
+      "path": "references/workflow-routing-detail.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "6d68b9d482591875486443ff3a253a1f5f0e8ed3aa8ab720aeba035af70989c3"
+    },
+    {
       "path": "scripts/CODEX-COORDINATOR-LICENSE",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -1251,11 +2581,32 @@
       "sha256": "4f1de84822d4984fb98347ee48c393378359f80feaa7b4cafc747a9113a57a07"
     },
     {
+      "path": "scripts/api_anything.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Work Management integration addition.",
+      "sha256": "3bb1cd3058795a7a6e1419ffe0c1967670008125e8b881e5786e3fa592fd8456"
+    },
+    {
       "path": "scripts/atlas_library_mcp.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
       "sha256": "e155a38119d8f6e355164e23ad2f9c892a733086db6af09291cf0dea9921912e"
+    },
+    {
+      "path": "scripts/codex_artifact_prompt_hook.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "1bd76a48e1b557e8bca179d9001e1b9befb0f1c6c12774fdc6f2efbf2c86cd52"
+    },
+    {
+      "path": "scripts/codex_artifact_quality_gate.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "d9be9946e950c297df1c30d4ced9a727f006da6167fd3795541fb5684f33dda4"
     },
     {
       "path": "scripts/codex_coordinator_doctor.py",
@@ -1286,11 +2637,18 @@
       "sha256": "d4ea75f4924a554c07b85aab5962ae37075f3c94fed4b8d842ebcffbf3e2e1cc"
     },
     {
+      "path": "scripts/codex_stop_closeout_check.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "2c1f3a1280307e04101e7f91e7ce43e85590d1152e20b2f3a68753170ad2bce1"
+    },
+    {
       "path": "scripts/codex_work_start.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "8997d82d0c35bd798b93f2d1f8de8d33ff6a16e96c8f2664f80062d45d3aa59e"
+      "sha256": "85275a4de726aff11e6f353b4df679020bad681c040b340d51e4ca4de0ae8c7f"
     },
     {
       "path": "scripts/decision_review_hint.py",
@@ -1307,11 +2665,81 @@
       "sha256": "6bd26556a735e7434ea281e721d5e642e331d8277bf1f5cc93f732b059ccbf84"
     },
     {
+      "path": "scripts/plugin_change_record.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "9c54c2797d63339a1ba2d28a5a5811b50ba25105b06b74fa1a8f36a5a35e790a"
+    },
+    {
+      "path": "scripts/provider_sync.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "d2db270e5f6a6ade4651ee89c8c6f83943c14cbb40aaf36f88e01b27104916ff"
+    },
+    {
+      "path": "scripts/resource_access.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "0bd9276245f8444da8181bc80274634240ca7c1ee0f49b011df100499732d9bd"
+    },
+    {
+      "path": "scripts/skill_discovery.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "4f97a8f5419845942ed01b967e2b3ed19389ecbfb8a640531249deaf93daa6d4"
+    },
+    {
+      "path": "scripts/sync_codex_plugins.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "418b4f54c00994b982c2499566058c6213be03ea2e3250b9a02b1602a23cd45b"
+    },
+    {
+      "path": "scripts/work_activity_record.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "6d0815b4522c4eb89971ca438222c3e633e923af7275e1c61f69cfc664e67845"
+    },
+    {
+      "path": "skills/claude-delegation/SKILL.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "fb36bf055cf59bacc2f0107c3b18e5bc4a12f027cd582a2d78c87c557c538612"
+    },
+    {
+      "path": "skills/claude-delegation/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "path": "skills/claude-delegation/references/cli-operation.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "bb4e08995056fa25772ccf825fe3286d4818e8899af8ea4cbf41e616688a402e"
+    },
+    {
       "path": "skills/cross-codex-workflow-exchange/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "8678c1ec02b89b3cde822e45641a417479071e91d09a68d3f7f21c11fbd5df88"
+    },
+    {
+      "path": "skills/cross-codex-workflow-exchange/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
       "path": "skills/cross-codex-workflow-exchange/references/host-map.md",
@@ -1339,7 +2767,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "bee4d1ffb98e5f00fdaff85b222b5861b507c8daedb4593bdfdcdc5d8021162a"
+      "sha256": "5250f1fd7c2db66d250b4f4324fb25ef88dad6fc6c04f09b4f60dbc78d97bd1a"
     },
     {
       "path": "skills/evidence-review/references/corpus-and-publication-handoff.md",
@@ -1398,6 +2826,13 @@
       "sha256": "24ad0c957d3b5bfba24d776afb2c724c4f31454fd54e29a17c4b20c906a8da92"
     },
     {
+      "path": "skills/find-skills/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
       "path": "skills/find-skills/references/LICENSE",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -1447,6 +2882,13 @@
       "sha256": "dea745280fb5ad25cb69816c8f1d05dd7125d3efa484ae94e6c1041a71dee082"
     },
     {
+      "path": "skills/focus-work/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
       "path": "skills/focus-work/references/action-first-output.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
@@ -1465,7 +2907,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "84a0c8c9686dc25d0cc0ad217482298e9fe20463c23a549f939f209e23142807"
+      "sha256": "09a123e37e396fa3ffc978556b8cc85d6dc7bde45f5b6dbca5f58b4efb2c3862"
     },
     {
       "path": "skills/github-conventions/references/account-map.md",
@@ -1473,6 +2915,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "ce39275a8b71461ef51c2e38f0f0bc89020cc7a0daf08e427b677d99c07974ee"
+    },
+    {
+      "path": "skills/github-conventions/references/issue-triage.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "30a51e0f211f66e34d132d210be2290c170d9d4e92481405a46e4a574e1e9b7c"
     },
     {
       "path": "skills/github-conventions/references/repository-navigation.md",
@@ -1500,7 +2949,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "5c56b0669be5e619629069115324939b5f1162243aa82a851b7d5187793c0187"
+      "sha256": "2166ca4fc49a154c020b89d2702680cef0c84dfca1b7227a79949a3a283b919e"
     },
     {
       "path": "skills/obsidian-vault-router/references/browse-density-and-frontmatter-hygiene.md",
@@ -1564,6 +3013,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "21395422665ff36252f4a9c21b5b2b968637d41ed09ab3b83cf58476935ad0d9"
+    },
+    {
+      "path": "skills/parallel-work/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
       "path": "skills/parallel-work/capabilities.json",
@@ -1647,21 +3103,28 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "f12d594bfbac8edc6cddaa49c6d2c52dc0256d13358630daea21b8ae82e6b314"
+      "sha256": "e4b64649ac4764b14eb11f952c34e9727bc5c2628e135fab3a558671f9a79df3"
     },
     {
       "path": "skills/product-definition/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "1bb82bd162dba667edc5dc92c72b75c98bc9767df41e4c65a2634fd7e8cd4118"
+      "sha256": "975ef15685b0ec88f264eaa350e230c2a143aae405ece161da76413ca014a0b9"
+    },
+    {
+      "path": "skills/product-definition/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
       "path": "skills/project-structure/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "af7e1c951b41a4f0d1e92c0e76d91ed3b5ed8756fcd5b78eee157d3d984250ba"
+      "sha256": "ccc71e2645413df6a669405cc2ffa1810f4825458eae156717b0b2dc9f7b9fc2"
     },
     {
       "path": "skills/project-structure/references/graph-grounded-explanation.md",
@@ -1689,21 +3152,28 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "977cd870411b020ffff32b4752ca7833ca78781f341dbbe79acefd42abe18956"
+      "sha256": "895849f9d1560050e21cb409ec378952916f51d6780f54c0ad2da122423a0ceb"
+    },
+    {
+      "path": "skills/skill-authoring/agents/openai.yaml",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
       "path": "skills/tool-workflow-routing/SKILL.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "94399492daf8a3180b52e0c45621710cbf8eaa2149709e1918d4c73bd8d34e35"
+      "sha256": "3024f6981e259625e70ef98a6c414ad65e997829f8274e96e6b1f5a10a55a4e0"
     },
     {
       "path": "skills/tool-workflow-routing/agents/openai.yaml",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "c2648f64680b87faa79ad4fbe1284777db376edce80ce26fe8aad6ad24c2f03c"
+      "sha256": "88dc1a496cb12c9aa811edec9ea66e101a5fec4b1f8845bcb9f619a59016f306"
     },
     {
       "path": "skills/work-handoff/SKILL.md",
@@ -1717,7 +3187,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
-      "sha256": "2c072cfcaab4567870e72120c1528f6e2d04fafd029f450fe0440bdd0c8e3169"
+      "sha256": "aebaff4f53c90b361a75d1dac124458f9f55d789198b68c96130c6674c6fb167"
     },
     {
       "path": "skills/work-handoff/references/editability-handoff.md",
@@ -1725,6 +3195,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
       "sha256": "e6578c8db8fb8eacaa6b6af7a8462de808edd7bda30894e46fe659937d29b497"
+    },
+    {
+      "path": "skills/work-handoff/references/human-only-setup.md",
+      "category": "upstream-derived-method",
+      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
+      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
+      "sha256": "0a2739281e9de8a4eca4dce7b200ac3399189e1ed096509de9fb5de581e76f1a"
     },
     {
       "path": "skills/work-handoff/references/interface-learning.md",
@@ -1752,7 +3229,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "7b71c5c65cd4735922b045ed09b679dc0839a877135db68004598d1b469c9f12"
+      "sha256": "c9f344449377ac4b2bc017c8babbea305bc198268aacaf57d8a65352ba337ac9"
     },
     {
       "path": "skills/worker-delegation/agents/openai.yaml",
@@ -1760,6 +3237,13 @@
       "license": "CC-BY-SA-4.0",
       "boundary": "First-party agent instructions, prompts and descriptive metadata; upstream exceptions retained.",
       "sha256": "dea159080afe6725b273c48e47e8ac37dca63c8e61abbbe757017efcf8600ca5"
+    },
+    {
+      "path": "skills/worker-delegation/references/cli-model-routing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "2d6d634be9751cc122af984ba76bae7edd5402d97b4841a3220e39e9dca3a97d"
     },
     {
       "path": "skills/worker-delegation/references/decision-council.md",
@@ -1790,11 +3274,25 @@
       "sha256": "8912d66b65a6516560df8d778d55db1d6fcf4bc9ecff035e591b09f35cafcafd"
     },
     {
+      "path": "tests/test_api_anything.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Work Management integration addition.",
+      "sha256": "29634d24630b48d655af896d50297f37fa4750e2c93882938d40571bee23bc39"
+    },
+    {
+      "path": "tests/test_artifact_quality_gate.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "898b84da0f752c498c90eb9e05d4c8936cc2014a23fa967ea0b0c9a4ff2f2136"
+    },
+    {
       "path": "tests/test_closeout_hooks.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "e3418e4c647fb8f68d36ef0aeb4dfc9cd1869088671dc55df5f0c5127e305ce6"
+      "sha256": "53c646ca4135a4a46e9106d4a5165bb88b797408724dbb2a3e2aa285bfc0deba"
     },
     {
       "path": "tests/test_decision_review_hint.py",
@@ -1811,6 +3309,13 @@
       "sha256": "76e1c87ce698cdd1c0652db57b1ecaf4210b32e59eedb444ffaf54c88f2fe6e5"
     },
     {
+      "path": "tests/test_plugin_change_record.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "3839ad4c4ed4e5e53f45d37d3cc3163d73a42b97facba2d39fd53b20ef3239f1"
+    },
+    {
       "path": "tests/test_professional_agents.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
@@ -1818,53 +3323,46 @@
       "sha256": "7c2fa79507886e9c6e438fe17a712ad55730757c234a46097e801f6643673cbc"
     },
     {
+      "path": "tests/test_provider_sync.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "6ba67ae30c9c440a330d769d0bfba231b25c8777ca7dcd200f3a2ddfa2b2b40e"
+    },
+    {
+      "path": "tests/test_resource_access.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned resource access integration; external resources remain third-party references.",
+      "sha256": "3194deeb410ec4461dbea4cbf1c5a08dd216ec1e63132a64caad18566bba5319"
+    },
+    {
+      "path": "tests/test_skill_discovery.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "9d59f1161c34e3605c4380a5c42e749c4ae7e2a14edaf53a7358a53b76e0685b"
+    },
+    {
+      "path": "tests/test_sync_codex_plugins.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned portable method or verification addition.",
+      "sha256": "4dc7d10484b26393c590812938e5c8d9b57a8c7f384718292ebba034b158b17a"
+    },
+    {
+      "path": "tests/test_work_activity_record.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Maintained first-party source under the existing package policy; metadata coverage correction only. Earlier release grants remain valid.",
+      "sha256": "67578a484e9e6d080b3a2287a85ccdf887b2e91d02c9b3e0aaae86df8c7726e9"
+    },
+    {
       "path": "tests/test_work_start.py",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "106a8b020b35dfa0b2bc06cce338cd28113a4b6bcfbb30100aaa5c7d7883f075"
-    },
-    {
-      "path": "references/decision-mapping.md",
-      "category": "upstream-derived-method",
-      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "23e5a705d766d3c632b9a713faee35f147d29285b7970ba0ee3f5c495f4637a7"
-    },
-    {
-      "path": "references/dependency-aware-slicing.md",
-      "category": "upstream-derived-method",
-      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "51c77cc10a814ad537914e0b80613614c1b095223283458315867dfeb3838005"
-    },
-    {
-      "path": "references/domain-language.md",
-      "category": "upstream-derived-method",
-      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "0ee65f6b24fffefcc1bd906293c2f9a0b87d0e27a7178f4d526ba8576093c175"
-    },
-    {
-      "path": "references/matt-pocock-LICENSE.txt",
-      "category": "retained-upstream-license",
-      "license": "MIT",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
-    },
-    {
-      "path": "skills/github-conventions/references/issue-triage.md",
-      "category": "upstream-derived-method",
-      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "30a51e0f211f66e34d132d210be2290c170d9d4e92481405a46e4a574e1e9b7c"
-    },
-    {
-      "path": "skills/work-handoff/references/human-only-setup.md",
-      "category": "upstream-derived-method",
-      "license": "MIT (upstream portions); CC-BY-SA-4.0 (authored adaptation)",
-      "boundary": "Copyright 2026 Matt Pocock. Complete MIT notice retained at references/matt-pocock-LICENSE.txt. No upstream grant is replaced; authored adaptations follow the package first-party documentation policy.",
-      "sha256": "0a2739281e9de8a4eca4dce7b200ac3399189e1ed096509de9fb5de581e76f1a"
+      "sha256": "30f3766534c12b6ce305a9ef742aa339cfbcefaf2ec0c677d325e7c09072eebd"
     }
   ]
 }

@@ -50,6 +50,8 @@ the [contract review cases](../design-systems/references/template-design-contrac
 
 ## Deliver and verify
 
+For an efficiency-focused implementation, compare the rendered result to the [human-expectations contract](../design-studio/references/implementation-expectations.md). Check that reduced code or UI complexity did not remove required information, actions, states, accessibility or recovery. Optional features remain optional; passing source tests alone does not verify the experience.
+
 Return prioritized evidence, correction and verification state. Use UX Heuristics Compass for its formal score/report contract.
 
 For an in-chat MCP app widget, apply [compact widget acceptance](../design-studio/references/mcp-app-widgets.md#review): inspect the actual inline footprint, arrow navigation, progressive disclosure, keyboard/touch access and details, and distinguish backend-only retrieval from a deliberately opened human-facing app. Do not apply this layout wholesale to ordinary websites or full editors.
@@ -69,6 +71,8 @@ For pointing, carried memory, feedback, interrupted work, consequential error, w
 For a bounded component/detail polish request involving nested corners, optical alignment, icon weight/render size, image edges, text wrapping or transition timing, read the [interface craft adapter](../design-studio/references/interface-craft.md) and its complete task-matching source method. It preserves the existing system and treats upstream values as testable examples, with no automatic runtime or global aesthetic mandate.
 
 For generic-output, anti-slop, unsupported product imagery or content-to-layout concerns, read [context-sensitive design review](references/intentional-design.md) before applying inherited aesthetic flags. It requires a concrete consequence, protects legitimate conventions and allows retain/investigate outcomes; detector matches never establish authorship. Load matching patterns only. Narrow fixes remain narrow.
+
+When reviewing a newly chosen direction or a generic-output complaint, also use [product-grounded direction checks](../design-studio/references/distinctive-direction.md): inspect the first view's answer and action, domain substance, supported copy and relevant data/state invariants. A recolor, interchangeable headline or clean detector report alone cannot establish success. Retain useful conventions and report unrendered or unexercised criteria as unverified.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

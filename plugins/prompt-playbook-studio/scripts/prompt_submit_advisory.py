@@ -1,17 +1,31 @@
 #!/usr/bin/env python3
-"""Quiet, read-only prompt-crafting hint for Codex/Claude UserPromptSubmit."""
+"""Bounded, read-only ambition and prompt-crafting hints for Codex/Claude."""
 
 from __future__ import annotations
 
 import json
 import re
 import sys
+from pathlib import Path
 from typing import Any
+
+SKILL_PATH = Path(__file__).resolve().parents[1] / "skills/prompt-refinement/SKILL.md"
+APPROACH_CONTEXT = (
+    "Interpret intent in context; execute clear routine requests directly. For substantial work, "
+    f"use Prompt Playbook's prompt-refinement at {SKILL_PATH} when not already loaded. "
+    "When the problem, cause or method is unclear, use its problem-framing and method-selection "
+    "reference: distinguish observations from hypotheses, use relevant existing skills, tools, "
+    "Atlas methods or primary evidence, and compare meaningful alternatives where useful. "
+    "Keep a conventional or first answer when supported; model agreement is not evidence. "
+    "Preserve the requested deliverable and authority; continue authorized execution. Set and "
+    "check observable acceptance. Keep deliberation internal; show a rewritten prompt only "
+    "when requested. No compulsory research, council or extra planning ritual."
+)
 
 MAX_INPUT = 64_000
 MAX_PROMPT = 8_000
 CRAFT = re.compile(
-    r"\b(?:rewrite|refine|improve|craft|create|build|draft|design|evaluate|debug|"
+    r"\b(?:write|fix|rewrite|refine|improve|craft|create|build|draft|design|evaluate|debug|"
     r"optimi[sz]e|review|test|compare|template|playbook)\b", re.I
 )
 PROMPT = re.compile(
@@ -23,8 +37,8 @@ IMPLEMENTATION = re.compile(
     r"implement|code|repo(?:sitory)?|unit tests?)\b", re.I
 )
 SUCCESS = re.compile(
-    r"\b(?:success|done when|pass(?:es)?|verify|test|evaluate|compare|"
-    r"measure|criteria|check)\b", re.I
+    r"\b(?:success|done when|pass(?:es)? if|verify that|tested by|"
+    r"metric|criteria|measure(?:d)? by|check that)\b", re.I
 )
 MISSING_TARGET = re.compile(
     r"^(?:improve|rewrite|refine|fix)\s+(?:this|my|the)\s+prompt[.!?\s]*$", re.I
@@ -85,15 +99,30 @@ def main() -> int:
         if not raw or len(raw) > MAX_INPUT:
             return 0
         payload = json.loads(raw)
-        message = advisory(prompt_from_payload(payload))
-        if message:
-            print(json.dumps({"hookSpecificOutput": {
-                "hookEventName": "UserPromptSubmit", "additionalContext": message
-            }}, separators=(",", ":")))
+        if not isinstance(payload, dict):
+            return 0
+        sentinel = object()
+        event = payload.get("hook_event_name", sentinel)
+        if event is sentinel:
+            # Legacy compatibility: only emit when a real prompt is present.
+            prompt = prompt_from_payload(payload)
+            if not prompt.strip():
+                return 0
+            event = "UserPromptSubmit"
+        if event == "SessionStart":
+            return 0
+        if event != "UserPromptSubmit":
+            return 0
+        message = APPROACH_CONTEXT
+        hint = advisory(prompt_from_payload(payload))
+        if hint:
+            message = f"{APPROACH_CONTEXT}\n{hint}"
+        print(json.dumps({"hookSpecificOutput": {
+            "hookEventName": "UserPromptSubmit", "additionalContext": message
+        }}, separators=(",", ":")))
     except (OSError, ValueError, TypeError, RecursionError):
         pass
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

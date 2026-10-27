@@ -2,3 +2,6 @@ interface:
   display_name: "Loom Review Packet"
   short_description: "Build timestamped Loom UX review packets"
   default_prompt: "Use $loom-review-packet to turn this Loom review into a timestamped UX feedback packet."
+
+policy:
+  allow_implicit_invocation: false

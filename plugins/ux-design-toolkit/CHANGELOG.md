@@ -1,18 +1,13 @@
 # Changelog
 
-## 0.4.1
+## Local integration review, 2026-10-25
 
-Restore the design review lifecycle hooks in the installable package.
+- Documented the optional Thinking Orbs motion route as a UX state and accessibility review concern. Video Production Workflow owns the local adapter; this package adds no runtime, provider or installer.
+- Reduced-motion, interruption, teardown and status semantics remain required UX checks. The visual effect is not learning evidence.
 
-The previous public package layout prevented the supported Codex runtime from discovering the bundled hooks. Hook functionality must remain part of the installed Studio.
+## Unreleased
 
-Restores Codex and Claude registrations for the existing PostToolUse and Stop design-runtime hooks. Preserves the project opt-in, scoped advisory behavior and existing handlers. Uses the working host-native manifest layout while retaining portable metadata.
-
-Compatibility: Existing product and skill identifiers are unchanged. Requires a supported host and Python 3. Native hook trust is controlled by the receiving user.
-
-Upgrade: Install this patch of the existing Studio. In Codex, review and trust its listed hooks and refresh the plugin discovery state. Keep project-specific design runtime settings where applicable.
-
-Validation: Manifest layout checked against the installed Codex runtime. Package registration and archive-content checks preserve the bundled definitions and handlers. The repaired local Codex installation reports the seven affected plugin hooks enabled and trusted; this does not claim every end-to-end agent workflow was retested.
+Add product-grounded design direction for unresolved new surfaces and authorized redesigns. Resolve hierarchy, domain material, expression and copy before building, then check actual behavior and rendered anchors. Preserve established identities, useful conventions and narrow-fix scope. Design Review and Dashboard Design share the method. This guidance update does not establish measured design improvement or guarantee originality.
 
 ## 0.4.0
 
@@ -59,4 +54,9 @@ Download the plugin ZIP plus the runtime ZIP only if you need native macOS arm64
 
 
 [Original release](https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/ux-design-toolkit/v0.3.8)
+
+# Local integration review, 2026-10-25
+
+- Documented the optional Thinking Orbs motion route as a UX state and accessibility review concern. Video Production Workflow owns the local adapter; this package adds no runtime, provider or installer.
+- Reduced-motion, interruption, teardown and status semantics remain required UX checks. The visual effect is not learning evidence.
 

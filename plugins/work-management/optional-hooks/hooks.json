@@ -5,10 +5,10 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
-            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\"",
+            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\" --portable",
+            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/codex_work_start.py\" --portable",
             "timeout": 3,
-            "statusMessage": "Apply work preferences"
+            "statusMessage": "Route skills and tools"
           }
         ]
       },

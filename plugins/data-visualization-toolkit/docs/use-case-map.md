@@ -4,6 +4,7 @@ Select the smallest task owner and read its complete required procedures, exampl
 
 | Skill | Trigger |
 | --- | --- |
+| [interactive-depth-cards](../skills/interactive-depth-cards/SKILL.md) | Create a standalone HTML or project-local React card with separate art-plane motion, foil, finishes, optional flip and layer views, and accessible static/reduced-motion behavior. No separate provider, API or connected app is needed. |
 | [data-visualization](../skills/data-visualization/SKILL.md) | Route data visualization work by analytical question, data shape, delivery surface, and verification need. Use for chart choice, visual critique, or when multiple visualization specialties intersect. This is the discoverable router to the complete Build Web Data Visualization method library. |
 | [dense-and-gpu-rendering](../skills/dense-and-gpu-rendering/SKILL.md) | Design and verify dense Canvas2D, WebGL or intrinsic 3D visualizations. Use when mark density, immediate redraw, picking, particles, shaders or scene depth drives the renderer choice. |
 | [gantt-and-schedules](../skills/gantt-and-schedules/SKILL.md) | Design, implement or critique Gantt and schedule views involving task spans, dependencies, calendars, baselines, resources, critical path, or project-management imports. |

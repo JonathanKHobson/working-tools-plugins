@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Added an original product-image ad method: inspect one or more images, develop three scored test hypotheses, and render three 3:4 concepts with built-in image generation when requested. The optional local helper validates 1–8 raster references and authored hypotheses, supports an insights-only path, and makes 3:4 SVG audit drafts without external calls or ad account actions.
+
 ## 0.4.0
 
 Keep copy, search and commerce review inside Marketing Strategy Studio.

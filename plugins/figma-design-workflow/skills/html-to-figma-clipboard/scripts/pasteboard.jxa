@@ -1,0 +1,65 @@
+ObjC.import('AppKit');
+ObjC.import('Foundation');
+
+function fail(message) {
+  throw new Error(message);
+}
+
+function readUtf8File(path) {
+  const data = $.NSData.dataWithContentsOfFile(path);
+  if (!data) fail('Cannot read clipboard payload file');
+  const value = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+  if (!value) fail('Clipboard payload is not UTF-8');
+  return { data: data, value: value };
+}
+
+function describePasteboard(pasteboard) {
+  const types = ObjC.deepUnwrap(pasteboard.types || $.NSArray.array);
+  let html = pasteboard.stringForType('public.html');
+  if (!html || String(html) === '[id nil]') {
+    const data = pasteboard.dataForType('public.html');
+    if (data && String(data) !== '[id nil]') {
+      html = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+    }
+  }
+  return {
+    types: Array.isArray(types) ? types : [],
+    html: html && String(html) !== '[id nil]' ? ObjC.unwrap(html) : null,
+  };
+}
+
+function run(argv) {
+  const action = argv[0];
+  const pasteboard = $.NSPasteboard.generalPasteboard;
+  if (action === 'inspect') {
+    const state = describePasteboard(pasteboard);
+    return JSON.stringify({ types: state.types, html: state.html });
+  }
+  if (action !== 'write' || argv.length !== 2) fail('Usage: pasteboard.jxa write payload-file');
+
+  const payload = readUtf8File(argv[1]);
+  const html = ObjC.unwrap(payload.value);
+  if (!html) fail('Clipboard payload is empty');
+
+  pasteboard.clearContents;
+  if (!pasteboard.setStringForType(payload.value, 'public.html')) {
+    fail('NSPasteboard rejected public.html');
+  }
+  // Some paste targets inspect plain text alongside HTML. Keep it innocuous.
+  const plain = 'Figma design clipboard content';
+  if (!pasteboard.setStringForType(plain, 'public.utf8-plain-text')) {
+    fail('NSPasteboard rejected plain-text companion');
+  }
+
+  const state = describePasteboard(pasteboard);
+  if (!state.types.includes('public.html') || state.html !== html) {
+    fail('NSPasteboard HTML readback did not match the payload');
+  }
+  return JSON.stringify({
+    written: true,
+    method: 'NSPasteboard/JXA',
+    types: state.types,
+    htmlBytes: Number(payload.data.length),
+    verified: true,
+  });
+}

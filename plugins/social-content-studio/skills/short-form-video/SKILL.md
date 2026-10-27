@@ -1,6 +1,6 @@
 ---
 name: short-form-video
-description: "Write social reels and short-video scripts, or route animated and narration-led short-form stories into media production with captions and accessible handoff."
+description: "Write Reels and short-video scripts with editorial hook forms and timing estimates; research observed niche Reel patterns and adapt them into original scripts. Route media production with captions and accessible handoff."
 ---
 
 # Short form video
@@ -44,6 +44,11 @@ Whenever a Short is made, assess a TikTok candidate in the existing handoff: sel
 For an animated intro, motion-designed explainer or an occasional animation-led post, route production to `video-production-workflow:create-motion-graphics` and its **code-authored motion storytelling** workflow. `graphic-design-studio:motion-design` owns composition, kinetic type and visual continuity. The short may be silent, sound-led or built under authentic recorded narration; never imply that a narration mix has passed because a silent example was approved. Social retains source-faithful hooks/post copy, cover-versus-caption distinctions and accessible handoff.
 
 An original platform-only video can have its own authorized release basis; do not invent a YouTube dependency for a standalone work. For shared-source derivatives, retain the existing source-publication dependency. Record the variant/output hash, approval, actual audio/caption QA and intended channel in the owning project. Occasional motion posts use that project's existing cadence and queue policy; the method does not add posts, move scheduled work or authorize uploading. Scheduling and publication remain with `social-publishing` and separate native receipts.
+
+
+## Reels, hooks and niche research
+
+For Instagram Reels or general short-video scripts and opening alternatives, read [Reels and short-video scripts](../../references/social-methods/instagram-reels.md) and its [26 editorial hook forms](../../references/social-methods/reel-hook-formulas.json). For “find viral Reels,” “what works in my niche,” or an attributed reference collection, read [Reel pattern research](../../references/social-methods/instagram-research.md). Find accessible evidence through authorized research tools, then adapt mechanisms into original scripts; do not substitute unsupported advice for requested research. Local timing, caption and comparison helpers are read-only diagnostics, never performance predictors.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

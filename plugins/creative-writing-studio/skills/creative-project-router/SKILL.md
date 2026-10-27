@@ -1,6 +1,6 @@
 ---
 name: creative-project-router
-description: Route books, stories, manuscripts, story worlds, TTRPG campaigns, board/card games, game concepts, publishing, excerpts, serialization, provenance, rights, and creative project maintenance to the smallest safe local Creative Toolkit skill. Use when the user asks broadly to develop, organize, revise, publish, share, or maintain a creative project. Also use for creative writing studio capabilities or getting-started questions.
+description: "Route broad creative writing, TTRPG, game and publishing requests to the right project skill; use for development, revision, release planning or first-use help."
 ---
 
 # Creative Project Router

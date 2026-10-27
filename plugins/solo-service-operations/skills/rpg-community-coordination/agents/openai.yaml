@@ -2,3 +2,6 @@ interface:
   display_name: "RPG community coordination"
   short_description: "Check RPG channels and draft clear Discord replies"
   default_prompt: "Use $rpg-community-coordination to check the relevant RPG conversations and draft the next useful reply."
+
+policy:
+  allow_implicit_invocation: false

@@ -19,9 +19,12 @@ This plugin contains focused design skills and the read-only Image Gen Templates
 - `skills/promotional-design-copy/`: message and claim decisions.
 - `skills/composition-and-typography/`: layout, type, and color; deeper decision guide under `references/`.
 - `skills/graphic-asset-compositing/`: image integration; spatial-contact guide under `references/`.
+- `skills/source-image-reconstruction/`: conditional still-image reconstruction owner with four full references: visual grammar, art direction and revision, hierarchy stabilization, and quality review. Built-in imagegen executes selected edits; project brand and user direction retain priority.
+- `skills/image-stickers-and-memes/`: sticker and meme route with built-in imagegen for opaque-photo isolation or expressive layouts, and deterministic local `scripts/compose.py` for alpha/mask stickers and top/bottom captions. Its `tests/` verify output and rejection behavior.
 - `skills/campaign-format-adaptation/`: composition across channels and dimensions. Its `references/medium-content-plan.md` applies the UX-owned content contract with original filled print/feed/story/web/slide examples and paired review cases; Graphic Design owns recomposition, not a parallel schema or web provider.
 - `skills/motion-design/`: visual direction, styleframes, kinetic type and review across time; Video Production owns timed scenes, rendering, audio and narration.
 - `skills/motion-design/references/illustrated-vector-sequences.md`: conditional source-to-pose, paint-order and playback review for illustrated SVG sequences.
+- `skills/motion-design/references/still-image-motion.md`: short motion from a supplied still; native video execution only when available, otherwise an explicit unrendered shot brief/storyboard.
 - `skills/graphic-asset-compositing/references/animated-vector-interop.md`: conditional animated SVG/Lottie fidelity and player feature matrix; `docs/motion-svg-source-notices.md` records source and licenses.
 - `skills/graphic-design-review/`: rendered review and teachable critique.
 - `skills/print-and-export-preflight/`: output checks; optional read-only PDF inspection script under `scripts/`.

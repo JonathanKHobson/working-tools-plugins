@@ -3,3 +3,6 @@ interface:
   short_description: "Find useful moments in footage and finished video"
   brand_color: "#6D5DFB"
   default_prompt: "Use $analyze-video-content to create compact, queryable evidence that lets an agent reason about what is said and shown without exhaustively loading every frame."
+
+policy:
+  allow_implicit_invocation: false

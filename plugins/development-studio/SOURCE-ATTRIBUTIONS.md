@@ -18,3 +18,7 @@ Official OpenAI provider inventories are pointer-only external observations. Cod
 
 
 Version0.2.0 imports all complete eligible standalone units listed in `docs/standalone-imports.json`. Official Apache skill licenses/assets, Code Intelligence source notices and four attributed MIT Systematic Debugging grants are retained. First-party native-macOS, safe-install, local-pipeline and Figma/Discord integrations use current author authorization; no provider/runtime/account or third-party corpus grant is implied.
+
+## REA method integration
+
+REA 6.5.0, [morluto/rea](https://github.com/morluto/rea/tree/3b79af28e80785afce9f5998d8f03289402a1847), copyright 2026 morluto, retains the [MIT license](libraries/rea-6.5.0/LICENSE). The complete shipped method and six guides plus root technical guides are incorporated with recorded link/acquisition adaptations in [the import inventory](docs/rea-imports.json). First-party integration retains the package's existing license scope. The executable REA runtime and optional engines are external dependencies, not redistributed by this package.

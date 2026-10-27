@@ -2,3 +2,6 @@ interface:
   display_name: "Survey Export"
   short_description: "Convert a canonical survey into requested documents or platform "
   default_prompt: "Use $survey-export for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

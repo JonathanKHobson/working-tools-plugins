@@ -19,6 +19,8 @@ Route visual execution to `graphic-design-studio:graphic-design`, typography/lay
 
 Finish the requested scope: a direction brief with demonstrable rules and examples, or rendered assets with specialist QA and checked exports. Record changed visual anchors, inspect target-size applications and distinguish technical checks from human acceptance. A prompt is not an image; a mockup is not a deployed brand. Never infer publication, account changes or spending from identity approval.
 
+For a requested early-business identity/touchpoint brief, use the brand variant in the [Founder business methods route](../../references/strategy-methods/founder-business-methods.md) under the approved identity and this design process. Retain its naming checks, voice examples and five-touchpoint brief without treating public searches as legal clearance or generated concepts as finished assets.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

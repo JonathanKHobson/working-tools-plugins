@@ -36,6 +36,11 @@ For a template-based draft, apply `writing-quality-studio:voice-and-style` only 
 
 For published-post results rather than draft quality, use content-calendar's complete [performance method](../../references/social-methods/linkedin-performance.md). For local text/Unicode checks, use Writing Quality natural-prose-editor's local-text-hygiene method. No editorial score proves human authorship or predicts reach.
 
+
+## Instagram review and safe text diagnostics
+
+For Instagram copy, load the matching [caption](../../references/social-methods/instagram-writing.md), [conversation](../../references/social-methods/instagram-engagement.md), [format](../../references/social-methods/instagram-formats.md) or [Reel](../../references/social-methods/instagram-reels.md) procedure. Distinguish an inspectable claim from a number inserted to sound specific. Preserve legitimate script joiners, emoji sequences, bidirectional marks, quotations and chosen typography; diagnose suspected text issues without blanket replacement. Writing Quality remains the single prose/hygiene owner. Never run archived humanizers/detectors or present a “human score.”
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

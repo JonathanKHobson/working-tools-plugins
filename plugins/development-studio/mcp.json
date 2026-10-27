@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/rea_runtime.py",
+        "--mcp"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "type": "stdio"
+    }
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json"
+}

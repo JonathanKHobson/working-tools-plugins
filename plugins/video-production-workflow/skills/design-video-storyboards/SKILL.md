@@ -87,3 +87,5 @@ For an assignment needing a named owner, consult [this studio’s role contracts
 When the task is choosing among visual directions, use the [controlled comparison](../create-motion-graphics/references/art-directed-motion.md#compare-alternatives-fairly-when-selection-is-the-task): hold content, narration, factual assets and format steady, then compare styleframes and playable passages. The selected project record carries the grammar into later subjects.
 
 For reusable templates or making-of evidence, use [production learning transfer](../evolve-video-workflow/references/production-learning-transfer.md): distinguish advance storyboard intent from encoded contact sheets and retain stage, source hash and capture role.
+
+For image-generated character acting, carry the [sprite action ledger](../create-motion-graphics/references/generated-sprite-animation.md) from storyboard to asset requests: explicit anticipation, limb/expression changes, pick-up/hold/release, follow-through and entry/exit transitions with every output frame accounted for.

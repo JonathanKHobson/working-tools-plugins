@@ -23,3 +23,5 @@ Keep a baseline and change one meaningful production factor. Compare matched sho
 Every accepted asset must have a stable project path, role, dimensions, SHA-256, exact prompt, input reference and actual model/tool provenance available to the agent. Record candidate/accepted-persisted/rejected-disposable status. Retain code for masks, cropping and registration alongside the images. Save selected images out of the conversation transport cache. Follow the user's session image/storage limits and clean only task-owned disposable intermediates after the lane closes.
 
 A deliverable includes full encoded film, source, image assets, animation/registration map, font identity, audio source, prompts, contact sheet, making-of images, corrections and known limitations. Promote cross-style discoveries through evolve-video-workflow; keep visual identity in the selected template.
+
+For character acting from generated pose strips, use [coherent sprite animation](generated-sprite-animation.md). It adds the timed director/asset-maker contract, connected-pose extraction, shared scale, prop contact, transitions and semantic motion acceptance.

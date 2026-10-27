@@ -1,6 +1,6 @@
 ---
 name: professional-social-proof
-description: "Package verified work into social proof campaigns and public derivatives with assets, links and follow-up tracking; Career owns LinkedIn profile positioning and section audits."
+description: "Package verified work into social proof campaigns and audit or rewrite Instagram profiles, bios, links and pinned content. Career owns LinkedIn profile positioning."
 ---
 
 # Professional social proof
@@ -32,6 +32,11 @@ Good: link the delivered artifact and explain the supported contribution. Bad: i
 Private voice samples, accounts, calendars and analytics belong in the user’s project. Current authorization governs external actions; a request to draft does not authorize posting. Use Research Studio for live social evidence and Marketing for strategy/SEO. Do not claim engagement outcomes without measured data.
 
 Career Studio's resume skill owns complete LinkedIn profile scoring, professional positioning and section rewrites. Use its current profile method when those are the requested outcome, then return here for proof campaigns and public derivatives. Reuse the private career evidence/story record rather than constructing another biography.
+
+
+## Instagram profile and proof surface
+
+For an Instagram profile, name field, bio, links, highlights, pinned content or grid audit, read [Instagram profile](../../references/social-methods/instagram-profile.md). It supplies observed findings and field rewrites without a purported conversion score. Career retains LinkedIn/career positioning; Social Publishing handles a separately authorized live profile change with readback.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

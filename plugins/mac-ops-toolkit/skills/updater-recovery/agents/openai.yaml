@@ -2,3 +2,6 @@ interface:
   display_name: "Updater Recovery"
   short_description: "Diagnose Codex desktop update or disk-capacity failures and veri"
   default_prompt: "Use $updater-recovery for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

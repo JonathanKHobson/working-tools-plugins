@@ -69,3 +69,7 @@ runtime and confirms:
 - whether watchlists or outbound webhooks are allowed
 
 Without that approval, use the local planner plus live public browsing.
+
+## Complete-method extension
+
+The original note above records the narrower adoption at its original source pin. For the complete v3.28.1 source and all selected research methods, use [complete recent research](complete-recent-research.md). Its current Studio adapter retains the runtime/access holds and governs new work.

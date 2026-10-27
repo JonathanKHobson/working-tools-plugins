@@ -1,0 +1,29 @@
+{
+  "name": "development-studio",
+  "version": "0.3.0",
+  "description": "Complete software delivery, native macOS, Go, GitHub and MCP workflows, with the full reviewed REA analysis runtime through a private host binding. 22 focused skill heads.",
+  "author": {
+    "name": "Jonathan Kyle Hobson"
+  },
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json",
+      "interface": {
+        "displayName": "Development Studio",
+        "shortDescription": "Software delivery methods, MCP apps and platform workflows",
+        "longDescription": "Turn software questions into verified changes with focused design, implementation, debugging, testing, review and reverse-engineering workflows. Includes complete attributed methods and a pinned external REA MCP launcher. Analysis engines and private host setup remain explicit dependencies.",
+        "developerName": "Jonathan Kyle Hobson",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Help me implement and verify a feature in this project.",
+          "Build or repair an MCP app."
+        ]
+      }
+    }
+  }
+}

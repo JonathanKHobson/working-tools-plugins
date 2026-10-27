@@ -19,6 +19,9 @@ owns scope, integration, and final evidence.
 | Prototypes, decks, visual drafts | Claude CLI first when it supports the requested output; Claude Design when explicitly requested or a required interface-only feature | Verified available ZIP, HTML, PDF, PPTX, or design handoff |
 | Low-urgency image concepts | User-requested Gemini/ChatGPT Web image surface when available | Selected downloaded concept and prompt; use native image generation when task/tool rules require it |
 
+Other authorized hosted providers, including DeepSeek through NVIDIA, use [CLI model routing](../../../skills/worker-delegation/references/cli-model-routing.md) and their provider toolkit. They are separate from subscription offload; verify the host's current access, terms and allowance before dispatch.
+
+
 These are preferences, not benchmarks. Standard ChatGPT Web Pro and the special
 Deep Research feature are different controls. Deeper research uses standard Pro
 conversation by default; do not activate ChatGPT or Gemini Deep Research unless

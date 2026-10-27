@@ -6,6 +6,8 @@ Make data understandable and truthful for a specific reader and decision. Start 
 
 Try a first request:
 
+- “Use these local background and foreground images to build an interactive depth card.” Result: a self-contained HTML file with independent art-plane parallax, reactive foil, three finishes, optional flip and exploded views, keyboard controls and reduced-motion/static fallback. [Interactive Depth Cards](skills/interactive-depth-cards/SKILL.md) also has a project-local React route. The standalone builder uses Python and Pillow without a connected app or network service.
+
 - “Here is a CSV and the question our team needs to answer. Choose and build the clearest chart for a one-page report.” Result: a chart with readable labels, source-aware caveats, and checked export.
 - “Review this dashboard screenshot and its source data for misleading scales and missed uncertainty.” Result: prioritized findings and concrete repairs.
 - “Explain these project dependencies as a diagram that a new teammate can navigate.” Result: a structurally faithful diagram and an appropriate source/export format.
@@ -24,7 +26,7 @@ Maintain the active discovery heads in `skills/` and keep the full Build Web Dat
 [Studio roles and assignments](references/professional-agents/README.md) connect these skills to named jobs. Work Management maintains cross-studio coverage and handoffs; native registrations are installed separately for each host.
 <!-- END PROFESSIONAL-AGENTS -->
 
-Version 0.2.5 has 13 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific and interactive work can load complete, separately held provider procedures through [private source bindings](references/provider-methods.md). The public package includes the same entrypoints, complete MIT web/statistical/export methods, original procedures and the bundled MCP App. It does not include the optional providers' source bodies or rendering capabilities.
+Version 0.2.5 has 14 discovery skills. [Distribution scope](PUBLIC_DISTRIBUTION.md) identifies excluded proprietary/unlicensed libraries and [third-party notices](THIRD_PARTY_NOTICES.md) retain eligible source terms. Scientific and interactive work can load complete, separately held provider procedures through [private source bindings](references/provider-methods.md). The public package includes the same entrypoints, complete MIT web/statistical/export methods, original procedures and the bundled MCP App. It does not include the optional providers' source bodies or rendering capabilities.
 
 ## Run the first sample
 

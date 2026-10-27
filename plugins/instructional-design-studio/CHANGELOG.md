@@ -1,5 +1,10 @@
 # Changelog
 
+## Local integration review, 2026-10-25
+
+- Documented the educational-animation handoff fields: learner objective, visible learner action and success check.
+- Kept animation polish separate from learning evidence and kept private brand assets outside the generic instructional package.
+
 ## 0.3.0
 
 Add exercise packaging with stable lesson IDs, separated answers and learner-path checks.
@@ -31,4 +36,9 @@ Apply the Compass license model to this new edition of first-party contributions
 ## 0.2.0
 
 Retain complete standalone methods, references and helpers under their existing owner; replace originating private bindings with explicit recipient configuration. Existing procedures and versions remain independently recorded.
+
+# Local integration review, 2026-10-25
+
+- Documented the educational-animation handoff fields: learner objective, visible learner action and success check.
+- Kept animation polish separate from learning evidence and kept private brand assets outside the generic instructional package.
 

@@ -1,5 +1,9 @@
 # Project map
 
+- `skills/design-studio/references/distinctive-direction.md`: conditional positive design decisions before new builds; shared by Design Studio, Dashboard Design and Design Review. `docs/distinctive-direction-validation.md` records provenance, boundary cases, checks and rollback. No new skill, aesthetic blacklist or runtime.
+
+- `skills/design-studio/references/implementation-expectations.md`: human task, comprehension, interaction states, accessibility and recovery in a complete implementation contract. Product scope stays with Work Management; Development builds the agreed behavior efficiently and Design Review checks the rendered result.
+
 - `skills/design-studio/references/conversational-widgets.md`: generic task, state, disclosure, continuity, access and evaluation guidance for chat widgets, reached from Design Studio. `mcp-app-widgets.md` remains the compatible compact **library chooser** pattern for Design Review and provider callers. Backend retrieval stays separate from human-facing presentation; the MCP app provider owns host mechanics. No new discovery skill or runtime.
 
 - `skills/design-studio/references/providers.md`: Sites web delivery keeps its UI and render assets with the Site; new or updated substantial downloads follow Work Management's `references/operations/download-hosting.md`. Existing download libraries remain untouched unless migration is explicitly requested.
@@ -56,6 +60,8 @@ MCP chooser routing: `search_*_library` returns structured results for independe
 
 Conditional UI motion methods: `skills/motion-and-performance/references/emil-motion-methods.md` routes four full pinned MIT methods/support in `libraries/emil-motion-methods/`; existing performance/accessibility guidance governs their heuristic defaults. Video’s style chooser reuses `runtime/library-chooser/` without copying its bridge.
 
+The optional `skills/motion-and-performance/references/thinking-orbs.md` reference documents the Video Production Studio's local Thinking Orbs adapter for loading or thinking states. UX owns state, accessibility, interruption and reduced-motion review; the visual effect is optional, inert until explicitly mounted, and is not evidence of comprehension or learning.
+
 Image workflows: `libraries/visual-asset-integration/SKILL.md` links to Graphic Design’s single Image Workflow Library; its generated-asset reference follows official imagegen persistence/transparency. UX retains responsive placement and code rebuilds.
 
 - `skills/design-systems/references/template-design-contract.md`: source-grounded DESIGN.md for design artifacts/templates, conditional support, source authority and verified bundle closure; reached from Design Studio and Design Systems.
@@ -74,3 +80,5 @@ Owned methods: `skills/design-studio/references/{product-task-context,product-pr
 - `skills/design-studio/references/{design-comparison-qa,mobile-prototype-runtime,product-pain-research}.md`: source/render normalization and finding closure; selected legitimate mobile simulator contracts; evidence-grounded public/internal UX pain scans. Existing runtimes/providers remain execution owners.
 
 - `scripts/application_appearance.py`: independent custom palette validator, documented observed dark JSON export and original self-contained HTML role preview. No vendor catalog/builder or native apply automation; receiving-app import verification remains separate.
+
+- `motion-and-performance/references/motion-recipes.md` adds the complete motion standard and source-aware recipe selection. The local standard/notice subset works without a companion; complete implementation closure is conditionally obtained from the selected Video source adapter. No motion server, dependency installer or agent bridge is registered.

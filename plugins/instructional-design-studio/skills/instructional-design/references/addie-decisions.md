@@ -16,6 +16,24 @@ ADDIE names Analyze, Design, Develop, Implement, and Evaluate. It supports feedb
 
 Move between these decisions as evidence warrants. A one-page change may resolve the need; an authorized complete course still requires completing its full agreed scope.
 
+## Preserve learning beyond the activity
+
+Use this check when creating or revising objectives, outlines, explanations, lesson scripts, practice, assessments, recaps, or assigned resources. A fictional situation, completed artifact, production checklist, or sequence of clicks can carry the lesson; completing it does not by itself establish the intended understanding or transferable capability.
+
+For each important learning target, make the following connections clear in the existing artifact, without adding a separate planning document:
+
+- **Target and value:** Name what the learner should understand, distinguish, decide, or do, and why that matters in a real use context. Preserve conceptual goals rather than translating everything into artifact production.
+- **Explanation:** Teach the idea, relationship, reasoning or decision rule needed for the target. Explain why a step works and when it is useful; a narrated action list or fictional plot is not that explanation. Keep depth appropriate to the learner and objective.
+- **Example and practice:** Make the target visible in a worked example, including consequential choices and checks. Give the learner an aligned attempt and a changed-context application; vary surface details enough to reveal whether the underlying idea transfers. Narrative and examples remain useful vehicles.
+- **Feedback and assessment:** Observe the claimed understanding or capability through an appropriate explanation, prediction, comparison, decision, revision or performance. Give feedback on the relevant reasoning or result and a retry route. Do not award mastery solely for following the story, reproducing an example, finishing an artifact or executing prescribed steps.
+- **Recap and resources:** Restate what was learned, why it is useful and how to recognize a later occasion to use it. Resources should support the same concept or capability with an explicit later-use task or check; a file list or story chronology alone is not a learning recap or application support.
+
+**Balance the emphasis:** Check the whole outline or script against the actual learning targets, including how much explanation, practice and recap attention each receives. A scenario-specific deliverable or a familiar supporting habit must not become the dominant lesson merely because it is easy to narrate. Verification, safety, organization and other supporting practices should receive attention proportionate to the stated objectives and consequential risks; do not let repeated “check your work” instructions crowd out teaching the intended concepts, interface fluency, reasoning or tool use. Conversely, retain necessary checks where the target or risk requires them. At each major passage, identify the target being taught and the explanation or decision learners gain beyond completing the scenario. Repair drift across transitions, examples, practice and conclusion, not just the recap. This is a judgment against the agreed objectives, not an equal-time quota.
+
+Procedural learning is legitimate: a procedure can itself be the target. Teach the rationale and consequential choices at the level the task requires, how to check and recover, and how to apply it with changed inputs or conditions. Do not replace needed hands-on practice with abstract explanations or require an essay for every motor or software skill.
+
+**Review test:** Temporarily remove fictional names, story events and production instructions. Can a reviewer still say what learners understand or can do, why it is useful, and what response would demonstrate it? If not, repair the relevant target, explanation, practice, feedback, assessment or support before polishing the vehicle. Compare the result against every important stated objective and its takeaway: where is it explained, practiced, observed and supported for later use? Repair any uncovered objective or narrow the claim; do not count a field label or task-completion cue as coverage. Use the test across the whole learning sequence, not only the final recap. A passing author review is a design check, not evidence of learning gains.
+
 ## Keep consequential decisions traceable
 
 Use existing course notes or alignment rows. Add only the missing fields; these are not three mandatory new documents.

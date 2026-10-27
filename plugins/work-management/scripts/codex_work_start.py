@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remind Codex of Kyle's requested proactive work defaults.
+"""Supply an explicit portable workflow route or opted-in recipient context.
 
 This hook supplies context only. The agent uses the native goal tools; the
 hook never edits goal storage, reads transcripts, or starts another process.
@@ -10,8 +10,15 @@ from __future__ import annotations
 import os
 import json
 import sys
+from pathlib import Path
 
 MAX_INPUT_BYTES = 1_048_576
+SKILL_PATH = Path(__file__).resolve().parents[1] / "skills/tool-workflow-routing/SKILL.md"
+PORTABLE_CONTEXT = (
+    f"For work, select the production owner and needed reviewers through {SKILL_PATH}; reuse routing already read. "
+    "Follow its production handoff and load the selected skills before applying them. "
+    "This reminder grants no access and does not prove execution."
+)
 CONTEXT = (
     "Native goal reminder: Apply automatic native goals only if the receiving user explicitly requested them "
     "for work requests; verify their current explicit preference and host instructions. "
@@ -69,8 +76,12 @@ CONTEXT = (
 )
 
 
-def main() -> None:
-    if os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") != "1":
+def main(argv: list[str] | None = None) -> None:
+    arguments = sys.argv[1:] if argv is None else argv
+    if arguments not in ([], ["--portable"]):
+        return
+    portable = arguments == ["--portable"]
+    if not portable and os.environ.get("WORK_MANAGEMENT_CONTEXT_OPT_IN") != "1":
         return
     try:
         raw = sys.stdin.buffer.read(MAX_INPUT_BYTES + 1)
@@ -92,7 +103,7 @@ def main() -> None:
             "continue": True,
             "hookSpecificOutput": {
                 "hookEventName": "UserPromptSubmit",
-                "additionalContext": CONTEXT,
+                "additionalContext": PORTABLE_CONTEXT if portable else CONTEXT,
             },
         },
         sys.stdout,

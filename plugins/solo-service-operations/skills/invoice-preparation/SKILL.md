@@ -1,6 +1,6 @@
 ---
 name: invoice-preparation
-description: Prepare or update evidence-backed solo-service invoices, using agreed terms, active-human-work evidence and a supplied document template. Use for compiling billable work or creating invoice review copies; keeps estimates, approval, sending and payment distinct. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Prepare evidence-backed solo-service invoices from agreed terms and work records; use for billable-work summaries, review copies or first-use help, with sending and payment separate."
 ---
 
 # Invoice Preparation

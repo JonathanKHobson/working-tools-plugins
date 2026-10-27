@@ -1,6 +1,6 @@
 # Marketing Strategy Studio
 
-Version **0.3.1** adds portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
+Version **0.4.0** retains portable MCP discovery through root [`mcp.json`](mcp.json) for the existing optional launchers. Their server identities, runtime bindings and compatibility declarations are preserved; backend availability remains a separate check.
 
 Discover what a personal or organizational brand should express, develop a recognizable identity system, and turn supported audience/offer decisions into marketing work that can be acted on and checked.
 
@@ -30,6 +30,7 @@ Use the [full task-to-skill map](docs/use-case-map.md). A settled channel or del
 | [conversion-and-offers](skills/conversion-and-offers/SKILL.md) | Landing-page conversion, funnel diagnosis, pricing, offers, objections, onboarding, signup and retention experiments. |
 | [lifecycle-and-outreach](skills/lifecycle-and-outreach/SKILL.md) | Lifecycle messages, service-sales proposals, qualified follow-up and marketing-to-delivery handoffs using existing sales/RevOps methods; sending remains a separate authorized action. |
 | [marketing-creative-production](skills/marketing-creative-production/SKILL.md) | Campaign visuals, product-image concepts, ad copy and creative production briefs with official provider workflows when installed and exposed, and complete local methods and design handoffs. |
+| [product-photo-ad-hypotheses](skills/product-photo-ad-hypotheses/SKILL.md) | Inspect one or more product images, develop three scored visual hypotheses, and create 3:4 portrait concepts with built-in image generation; optional local SVG drafts and analysis-only mode. |
 | [marketing-measurement](skills/marketing-measurement/SKILL.md) | Marketing analytics, attribution, experiment design, cohort analysis, ROI, performance diagnosis and evidence-backed reports. |
 | [marketing-strategy-operator](skills/marketing-strategy-operator/SKILL.md) | Choose marketing positioning, audience, offer, goals and channel priorities, or coordinate a strategy spanning several marketing workflows. |
 | [paid-campaigns](skills/paid-campaigns/SKILL.md) | Evaluate advertising readiness, ad credits and grants under cash-budget constraints; plan Google/YouTube, Meta Facebook/Instagram and Reddit campaigns, creative tests and measurement using actual available providers. |

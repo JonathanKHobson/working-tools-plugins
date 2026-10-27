@@ -1,6 +1,6 @@
 ---
 name: prompt-refinement
-description: "Repair an existing prompt using observed failure, preserving its intent, examples, constraints and useful voice."
+description: "Translate a vague vision or quality reference into domain methods and observable acceptance, or repair an existing prompt from an observed failure, preserving intent, examples, constraints and voice."
 ---
 
 # Prompt refinement
@@ -8,7 +8,15 @@ description: "Repair an existing prompt using observed failure, preserving its i
 When orientation helps, briefly name this skill’s outcome, needed input and expected result, then proceed. Broader help uses the [plugin introduction](../../README.md); skip maintainer notes unless needed.
 
 
-Repair an existing prompt using observed failure, preserving its intent, examples, constraints and useful voice.
+Refine an existing prompt from an observed failure or a requested higher quality bar, preserving intent, examples, constraints and useful voice.
+
+For intent translation during authorized production, use [ambition within scope](references/ambition-within-scope.md) and return the working contract to the production owner. Keep it internal unless a consequential interpretation needs the user's choice. The rewrite-only boundaries below apply when the user requested a prompt as the deliverable.
+
+When the problem, cause or method is unclear, or a consequential answer keeps defaulting to a familiar template, use [problem framing and method selection](references/problem-framing-and-method-selection.md). Distinguish symptoms from hypotheses, retrieve useful existing methods and evidence, compare meaningful alternatives, then continue the requested proposal or authorized execution. Routine and settled tasks bypass this depth.
+
+For a request to deepen a task, raise its ambition or strengthen professional methods, read [ambition within scope](references/ambition-within-scope.md). It owns the four-axis method and reusable Codex prompt. Use it at project planning or material scope changes when it affects execution; routine work needs no visible checklist. With no observed failure or comparison run, label the result a static adaptation.
+
+For a software prompt that needs a buildable specification or loses expected usability, read [implementation handoff](references/implementation-handoff.md). Work Management owns outcome/scope, UX owns applicable human expectations, and Development Studio implements the complete contract efficiently. Keep prompt-only tasks separate from authorized execution; do not add a prompt-refinement step to a settled tiny edit.
 
 ## Complete procedures to load
 

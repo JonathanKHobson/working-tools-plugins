@@ -19,6 +19,8 @@ Own the cross-channel launch plan and coordination. Carry approved claim IDs, qu
 
 When the deliverable includes copy or a writing brief, use `writing-quality-studio:voice-and-style` if installed and exposed; otherwise use the complete local [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) method and current user voice preferences. If available, use it for selectable Writing Voice Lab templates and contextual blends. Honor named choices; otherwise vary suitable structure/openings by audience, awareness, platform, proof and purpose. V01 Decision first, V05 Skeptical investigator, V09 Plain-language service, V15 Spoken invitation, V22 Reflective critic and V23 Conversational micro-essay offer different mechanisms. Use ethical relevance, honest curiosity and supported proof; no invented scarcity, urgency, consensus, guarantees or promised conversion lift. Keep the current user’s approved brand identity and voice preferences stable across outreach and articles; do not assume a named person’s tone for a new recipient. Template choice does not authorize sending or publishing.
 
+For a founder launch with a real demand test, a dated countdown, critical path, run sheet and first-month review, use the [Founder business methods route](../../references/strategy-methods/founder-business-methods.md), selecting launch and marketing as needed. Synthetic panel rates do not predict launch results.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

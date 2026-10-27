@@ -46,6 +46,8 @@ def create_server(catalog, domain, server_class=None):
     name = domain.replace('-', '_')
     uri = f'ui://atlas-{domain}/library-prompt-v2.html'
     server = (server_class or FastMCP)(f'Atlas {domain} Library')
+    from usage_events import install as install_usage
+    install_usage(server)
     from search_misses import register_tools
     register_tools(server, 'activity-atlas', 'Domain scope is recorded in the supplied route and safe filters.')
     readonly = ToolAnnotations(readOnlyHint=True, destructiveHint=False, idempotentHint=True, openWorldHint=False)

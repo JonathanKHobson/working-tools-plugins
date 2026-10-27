@@ -1,11 +1,13 @@
 ---
 name: data-visualization
-description: Route data visualization work by analytical question, data shape, delivery surface, and verification need. Use for chart choice, visual critique, or when multiple visualization specialties intersect. This is the discoverable router to the complete Build Web Data Visualization method library. Also use for data visualization toolkit capabilities or getting-started questions.
+description: "Choose a truthful visual form and specialist for a data question, chart critique or cross-format visualization; also handle toolkit first-use help."
 ---
 
 # Data Visualization Toolkit
 
 For a capabilities or getting-started question, consult the [human guide](../../README.md), name the relevant reader question, source data, and expected visual result, then use the route below. For a defined chart or review, proceed directly without a repeated tour or any claimed persistent onboarding state.
+
+Select this owner proactively when a task involves meaningful comparisons, trends, distributions, uncertainty, dependencies or repeated metric decisions, even if the user did not say chart or dashboard. Use the smallest truthful visual that improves understanding; a small table or direct answer can suffice. Prefer an existing relevant data view before authoring a new dashboard. For repeated filtering or exact-row discussion, use [Interactive explanations](../interactive-explanations/SKILL.md) and its Data Explorer route when the data fits. Preserve an explicitly requested format, and do not invent source data, refresh capability or monitoring authority to fill a visual.
 
 Start with the viewer's question, the decision or claim, source/grain, and target surface. Choose the smallest truthful form and honor a requested format unless it distorts the evidence. For substantive web visualization work, **read the complete relevant source procedure in the preserved library before working**; the dispatch heads below are navigation, not substitutes for those procedures.
 
@@ -17,6 +19,7 @@ The preserved [Build Web Data Visualization 0.1.21 router](../../libraries/build
 
 | Current need | Discoverable full-procedure route |
 | --- | --- |
+| Local layered image card with optional pointer/keyboard depth | [Interactive depth cards](../interactive-depth-cards/SKILL.md) |
 | Chart choice, editorial composition, critique | [This router and full strategy procedure](../../libraries/build-web-data-visualization/skills/visualization-strategy-and-critique/SKILL.md) |
 | Distributions, intervals, estimates, missingness | [Statistical evidence](../statistical-evidence/SKILL.md) |
 | Declarative, D3/SVG, TypeScript, React/Next.js charts | [Web chart engineering](../web-chart-engineering/SKILL.md) |

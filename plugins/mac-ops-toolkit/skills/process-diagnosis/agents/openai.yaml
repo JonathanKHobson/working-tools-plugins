@@ -2,3 +2,6 @@ interface:
   display_name: "Process Diagnosis"
   short_description: "Diagnose a blocked quit, stale helper or resource-pressure sympt"
   default_prompt: "Use $process-diagnosis for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

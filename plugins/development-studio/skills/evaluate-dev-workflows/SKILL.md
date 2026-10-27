@@ -5,6 +5,8 @@ description: "Evaluate a development skill/plugin or diagnose a scoped agent ses
 
 # Evaluate development workflows
 
+For efficiency claims, an impact scoreboard or a comparison of ordinary versus specification-led implementation, read [implementation evaluation](../../references/implementation-evaluation.md). It retains the upstream v5 reported results with their limits and supplies a quality-first comparison procedure. Do not report upstream numbers as measured savings for this studio or execute untrusted benchmark outputs in the host process.
+
 Read [method adaptation](../../references/method-adaptation.md) before a preserved Superpowers method. Read each selected method completely and its required support. The snapshot provides the actual procedure; the route below selects it. Current host tools and user authorization govern execution.
 
 For plugin/skill evaluation, resolve the target and requested question, then load official Plugin Eval through [provider setup](../../references/platform-providers.md). Use its full plugin-eval/evaluate-skill/evaluate-plugin procedure, improve-skill for an evidence-backed rewrite, and metric-pack-designer for a requested custom rubric. Static scores and token estimates are not measured task performance.

@@ -12,7 +12,7 @@ def main():
     version=provenance["version"]
     for rel in ["plugin.json",".codex-plugin/plugin.json",".claude-plugin/plugin.json"]:
         manifest=json.loads((ROOT/rel).read_text());assert manifest["name"]=="data-visualization-toolkit" and manifest["version"]==version,rel
-    heads=list((ROOT/"skills").glob("*/SKILL.md"));assert len(heads)==13
+    heads=list((ROOT/"skills").glob("*/SKILL.md"));assert len(heads)==14
     original=ROOT/"libraries/build-web-data-visualization"
     records=(ROOT/"docs/source-manifest.sha256").read_text().splitlines();assert len(records)==164
     for line in records:
@@ -31,5 +31,5 @@ def main():
             target=target.strip().strip("<>").split(' "')[0].split("#")[0]
             if not target or re.match(r"[a-z][a-z0-9+.-]*:",target):continue
             q=(p.parent/urllib.parse.unquote(target)).resolve();assert q.is_relative_to(ROOT) and q.exists(),(p,target)
-    print(json.dumps({"version":version,"skills":13,"original_files":164,"distributable_files":len(paths)+1,"relative_references":"closed","symlinks":0,"status":"passed","scope":"declared distribution; optional private provider sources excluded"}))
+    print(json.dumps({"version":version,"skills":14,"original_files":164,"distributable_files":len(paths)+1,"relative_references":"closed","symlinks":0,"status":"passed","scope":"declared distribution; optional private provider sources excluded"}))
 if __name__=="__main__":main()

@@ -25,3 +25,7 @@ Limit suggested starter prompts to three so Codex retains the prompt menu. All f
 ## 0.1.1
 
 First complete public edition.
+
+## 0.3.0 - 2026-10-19
+
+Added HTML to Figma Clipboard with pinned local conversion, offline resource blocking, local fonts/images, Auto Layout/absolute modes, rich macOS clipboard readback, fallback copy page, bounded cache, diagnostic fixture and executable verification. Hosted divRIOTS conversion is a separate explicit opt-in helper. No .fig export is claimed.

@@ -12,9 +12,15 @@ Map 3–8 anchors before visual claims:
 
 Use the anchors to assess first-read hierarchy, content order, task affordances, spatial grouping, typography, contrast, density, responsive structure, trust signals, and source fidelity. Identify the user impact of each issue. Separate a broken task path, an access barrier, an inconsistent pattern, and a taste preference. Group repeated symptoms when one shared component or token causes them.
 
+For a new branded page, include anchors for first-viewport purpose, the main action compared with its approved component, and any dominant illustration. Ask what each element does and whether its actual shape supports that role. Inspect contact, origin, overlap and reading space. Asset presence, intact silhouettes, contrast and viewport fit can all pass while the composition fails. Read the offer without scrolling; a short poetic headline alone does not establish clarity.
+
+If an earlier version worked well, name its strongest relevant regions as Keep anchors before changing them. Compare the finished version with those anchors as well as the brand source. Recheck affected regions after final copy, control or scene changes.
+
 For a concise audit, report strengths worth preserving, prioritized findings with anchor IDs and evidence, a proposed correction for each finding, and verification gaps. Use severity for impact, not visual drama. An attractive screen can still have a high-severity access barrier; a preferred style is not a blocker. The recommendation should say which part of the artifact changes and what remains intact.
 
 When source and implementation differ, compare like with like: same route, content, state, theme, viewport, and image density when possible. Normalize browser chrome and device framing before calling a mismatch. Compare the overall composition and a few focused regions that affect meaning. Recheck changed anchors after a fix. Stop once material differences in the requested scope are resolved.
+
+Close each finding with evidence for that finding. A Humanizer receipt establishes a wording review; a functional or contrast check establishes that measured behavior. An aesthetics pass also needs an observed source-to-render comparison and a reason the composition works. A high aggregate score cannot close a visible local defect.
 
 For system-level defects or a detailed web polish pass, apply the relevant [system craft checks](system-craft.md), including native browser states. Automated aesthetic flags are prompts to inspect, not proof of a defect; approved brand choices and the reader's task govern the correction.
 

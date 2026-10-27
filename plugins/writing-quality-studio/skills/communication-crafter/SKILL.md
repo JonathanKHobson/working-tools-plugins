@@ -1,6 +1,6 @@
 ---
 name: communication-crafter
-description: Shape supplied facts into audience-aware messages, business writing, shared voice guides, spoken scripts or evidence-based follow-ups with a clear point, proof and next action. Use when communication strategy or source/status distinctions matter; routine messages with a clear ask can be drafted directly and receive the final natural-prose-editor pass. For line editing use natural-prose-editor. Also use for writing quality studio capabilities or getting-started questions.
+description: "Shape supplied facts into audience-aware messages, business writing or voice guides with point, proof and next action; use when strategy or status needs judgment, or for first-use help."
 ---
 
 # Communication crafter

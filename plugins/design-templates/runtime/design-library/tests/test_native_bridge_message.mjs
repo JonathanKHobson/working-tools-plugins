@@ -57,7 +57,7 @@ test('a host rejection cannot be reported as sent', async () => {
 
 test('related Video Library link asks the native host to open the verified route', async () => {
   const { bridge, sent } = connectedBridge();
-  const url = 'https://activity-atlas.jkylehobson.chatgpt.site/video-library/';
+  const url = 'https://library.jkylehobson.chatgpt.site/video-library/';
   await bridge.openLink(url);
   const request = sent.find(item => item.method === 'ui/open-link');
   assert.deepEqual(JSON.parse(JSON.stringify(request.params)), { url });

@@ -1,6 +1,6 @@
 ---
 name: software-security-review
-description: "Explain Master Security Toolkit capabilities and getting started, or use before installing, running, downloading, or wiring any external app, package, script, installer, or repo. Trigger on 'is this safe to install', 'security check this download', 'audit this package/repo'."
+description: "Review external apps, packages, scripts and repos for security before downloading, installing, running or connecting them; report risks or explain toolkit first use."
 ---
 
 # Software Security Review

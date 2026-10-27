@@ -77,8 +77,20 @@ def verified_engine(root: Path | None = None) -> tuple[Path, Path]:
     assets = (runtime / asset_relative).resolve()
     if not binary.is_relative_to(runtime.resolve()) or not assets.is_relative_to(runtime.resolve()):
         raise RuntimeErrorWithMessage("Pinned runtime package contains an escaping path")
-    if not binary.is_file() or not os.access(binary, os.X_OK):
-        raise RuntimeErrorWithMessage(f"Pinned runtime executable is missing or not executable: {binary}")
+    setup = root / "docs" / "design-runtime.md"
+    if not binary.is_file():
+        raise RuntimeErrorWithMessage(
+            f"Pinned runtime executable is missing: {binary}. "
+            "Source-only packages omit the optional native engine; obtain the matching "
+            f"reviewed runtime overlay described in {setup}#recipient-runtime-acquisition. "
+            "Design methods remain available without native execution; no download was attempted."
+        )
+    if not os.access(binary, os.X_OK):
+        raise RuntimeErrorWithMessage(
+            f"Pinned runtime executable is not executable: {binary}. "
+            "Verify the matching runtime archive and restore its executable mode as described "
+            f"in {setup}#recipient-runtime-acquisition; refusing to execute."
+        )
     if not assets.is_dir():
         raise RuntimeErrorWithMessage(f"Pinned runtime assets are missing: {assets}")
     asset_hash = manifest.get("skillAssetsSha256")

@@ -13,3 +13,9 @@ Bundled fonts retain their exact SIL Open Font License notices under each kit's 
 The independently added Fresh Curiosity A2 kit is not included: its character/raster asset provenance is outside the104-fictional-kit evidence and needs separate release review. No provider reference bundles, personal corpus, private host configuration or credentials are bundled. Optional external collections require their own rights.
 
 The first-party UI chrome is projected from Kyle Hobson's maintained Design Templates chooser and licensed MIT under the same author authorization. The MCP dependency and optional Pillow/ReportLab rendering dependencies retain their own licenses. See requirements.txt and requirements-render.txt.
+
+## Static font derivative names, 24 October 2026
+
+Atlas Reading Serif is the static derivative of Lora; Atlas Book Serif is the static derivative of Libre Baskerville. Their primary family, full, PostScript, unique and variation-prefix names use the distinct Atlas names. The original font authors, copyright, trademarks, source URLs, reserved-name statements and full SIL Open Font License 1.1 notices are retained in the font metadata and each kit's font directory. Both derivatives remain entirely under that OFL. No new restriction or endorsement is claimed.
+
+The naming repair changes no glyph, metric or shaping table. Original native-template type specifications and font subsets embedded in existing guides are retained as source evidence and document uses. The current loose fonts, typography instructions and rebuild inputs use the Atlas derivative names.

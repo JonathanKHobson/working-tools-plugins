@@ -5,10 +5,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 -I \"${PLUGIN_ROOT}/scripts/prompt_submit_advisory.py\"",
-            "commandWindows": "python -I \"${PLUGIN_ROOT}/scripts/prompt_submit_advisory.py\"",
+            "command": "python3 -I \"${PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/scripts/prompt_submit_advisory.py\"",
             "timeout": 3,
-            "statusMessage": "Prompt Playbook Studio: check prompt readiness"
+            "statusMessage": "Improve the task approach"
           }
         ]
       }

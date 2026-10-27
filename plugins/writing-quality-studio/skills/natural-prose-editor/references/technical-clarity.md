@@ -11,6 +11,38 @@ Use for instructions or technical explanations where wording affects what the re
 
 ## Choose the reader's path
 
+For skill, plugin and agent instructions, edit for economical action. Prefer
+short, complete sentences, concrete verbs and one clear job per paragraph.
+Remove repeated explanations, inflated role claims and context the intended
+reader can reliably infer. Preserve facts and instructions needed to act.
+
+Reveal detail as the reader commits to a task:
+
+1. **Startup description:** state the intended job and when to choose it.
+2. **Orientation:** explain the purpose, useful input, expected result and
+   the next relevant reading route.
+3. **Procedure:** give the actions and checks needed for this task.
+4. **Conditional depth:** link examples, variants, tools and exceptions with
+   a clear reason to open each reference.
+
+Each layer should add information. Cut paraphrases of the previous layer,
+duplicate global guidance and unrelated historical decisions. Keep one
+authoritative rule and link to it from other owners. Combine tiny references
+when they answer the same decision; split a long procedure when its branches
+serve distinct tasks. File count alone is not a quality measure.
+
+Review negative instructions individually. Keep one when it prevents a
+plausible wrong action, preserves authorization or a factual distinction, or
+corrects an observed recurring failure. Otherwise state the desired action
+directly or remove the line. Avoid explaining rejected alternatives to a fresh
+reader who has no reason to consider them.
+
+After shortening, compare the jobs, triggers, conditions, action order, source
+claims and acceptance checks with the original. Test a realistic request and
+a nearby request that belongs elsewhere. The shorter version must still lead
+to the right method and complete result. Moving words into a reference reduces
+initial reading only if its route is clear and the agent loads it when needed.
+
 For a how-to, state the goal and prerequisites, then actions in use order, an observable result and only the troubleshooting that helps this task. Keep explanatory notes outside the action line. A note explains a reason or consequence; it does not hide a required command. For a concept explanation, name the concept, its behavior and one accurate example before discussing exceptions. For release notes, say what changed, who is affected and whether the reader must act; put a breaking change before optional improvements.
 
 Put a warning before the action that creates the risk. Name the actual consequence and scope, especially for destructive flags, irreversible migrations, credential exposure or production settings. Do not upgrade a possible risk into a certain result. Example: “Before you run `--force` against production, confirm the target. The flag may delete rows that do not match the source.” The literal flag and uncertainty remain intact; the sentence does not claim deletion was observed.

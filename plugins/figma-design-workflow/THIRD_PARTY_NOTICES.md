@@ -13,3 +13,7 @@ Retain the file-specific source registers and their attribution/change records w
 ## Standalone imports 0.2.0
 
 Exact per-file source/output identities and scope are in `docs/standalone-imports.json`. Full first-party procedures are MIT under current author authorization; no third-party runtime, account, private corpus or client evidence is relicensed.
+
+## HTML to Figma Clipboard
+
+The optional installed runtime uses Figit dom-to-figma 0.2.4 and fig-kiwi 0.2.0 under MIT. The converter and extension were inspected at pinned commits; see [upstream record](skills/html-to-figma-clipboard/references/upstream.md) for exact lineage, integrity and license text. Runtime dependencies are separately installed, not vendored in this package.

@@ -27,6 +27,14 @@ Turn a competing set of ideas or a complex assignment into a concrete deliverabl
 
 The table is a selection guide. Once a task matches, read that complete skill; follow only its applicable support-file routes.
 
+You can describe the result in your own words. The assistant should choose the
+relevant domain and load the specialist instructions as needed. In Codex, a
+compact startup list can coexist with the full native skill picker: specialist
+descriptions, explicit selections and supporting files remain available.
+The [workflow router](skills/tool-workflow-routing/SKILL.md) uses a read-only
+lookup when the needed skill is outside that startup list. Codex can query its
+native registry; other hosts can inspect explicitly selected package roots.
+
 | Skill | Use it for |
 | --- | --- |
 | [evidence-review](skills/evidence-review/SKILL.md) | Review a deliberately selected project checkpoint for portfolio evidence, feedback and decisions; create scoped claim cards with human review before saving private evidence. |
@@ -40,6 +48,10 @@ The table is a selection guide. Once a task matches, read that complete skill; f
 | [work-handoff](skills/work-handoff/SKILL.md) | Package an idea or finished work as a shared-site page or a handoff with current state, next action and verification evidence. |
 | [claude-delegation](skills/claude-delegation/SKILL.md) | Compatibility pointer to `claude-toolkit:claude-operation`; provider execution moved to that toolkit. |
 | [worker-delegation](skills/worker-delegation/SKILL.md) | Proactively delegate substantial independent work to Codex agents, Claude or another verified worker; use subagents for steps and separate chats for independent durable goals under current tool authorization. |
+| [cross-codex-workflow-exchange](skills/cross-codex-workflow-exchange/SKILL.md) | Transfer an authorized workflow between named accounts or computers using verified host bindings. |
+| [github-conventions](skills/github-conventions/SKILL.md) | Follow the repository's issue, branch, commit and pull-request conventions. |
+| [skill-authoring](skills/skill-authoring/SKILL.md) | Create or revise a useful skill in its existing owner, with clear descriptions and complete procedures. |
+| [obsidian-vault-router](skills/obsidian-vault-router/SKILL.md) | Choose the correct vault and note workflow before an authorized Obsidian task. |
 
 ## Tools, setup and access
 
@@ -54,7 +66,79 @@ Installation makes a package available; it does not establish a working server o
 - For a concrete task, go directly to the selected `SKILL.md`; this README is not required reading for every run.
 - For a capability/help question, use the introduction, first-task examples, skill table and relevant setup section, then recommend one first request. Skip maintainer notes unless the question concerns an update. On first relevant use, give a brief task-specific orientation; do not replay a tour on every invocation or claim the user has been permanently onboarded.
 - Load the full selected procedure and its required support. References explain methods; scripts execute only the authorized operation; templates/assets are output material. Preserved libraries are conditional depth, not a bulk context load.
+- In Codex, use `scripts/skill_discovery.py --json search "task terms"` for a bounded live lookup, then read the returned entrypoint. Use `show "plugin:skill"` for an exact name and `owners` for the domain list. Other hosts can use explicit package roots as described below. This helper does not start a model or background service.
 - Check actual callable tools and action/resource scope before promising access or completion.
+
+## Discover skills on another host
+
+A human can start with: “Use Work Management to find the right specialist for
+this task, then read that skill.” Make this package available to the assistant
+through the host's supported skill setup or supply its selected local root.
+Installation alone does not make a host invoke the router or apply the Humanizer.
+No private instructions or hook is required for the lookup below.
+
+An assistant with local Python access can run the bundled helper against one or
+more recipient-selected packages. Replace the example paths with the receiving
+host's actual package roots. Keep paths with spaces quoted.
+
+```sh
+python3 /chosen/work-management/scripts/skill_discovery.py \
+  --plugin-root /chosen/work-management \
+  --plugin-root "/chosen/Writing Quality Studio" --json search "natural prose"
+python3 /chosen/work-management/scripts/skill_discovery.py \
+  --plugin-root "/chosen/Writing Quality Studio" --json show "writing-quality-studio:natural-prose-editor"
+```
+
+Read the returned `entrypoint` before using the method. For authored reader-facing
+writing, select `natural-prose-editor` for the final wording pass, apply it to the
+final text and record the required evidence. Lookup or a skill read alone does
+not establish that a review happened. The same `owners`, lexical `search` and
+exact `show` commands work in native and portable modes. `show` accepts
+`plugin:skill`, the returned `qualifiedName`, or the exact printed ID. When an
+alias matches more than one package or registry, use its exact ID. Try a few domain terms
+rather than a long prompt; no result means no metadata match in the selected
+sources.
+
+`--plugin-root` selects portable mode. It reads the package's
+`.codex-plugin/plugin.json` (or root `plugin.json`), its declared relative `skills`
+directory and bounded `SKILL.md` frontmatter. It preserves names, descriptions
+and optional short descriptions. `--portable owners` with no roots returns an
+empty selection. There is no home-directory scan, generated catalog, model call,
+network request, installation or host-registry modification.
+
+For a host that already supplies roots and explicit policy, `--manifest
+/chosen/selection.json` accepts a small per-run input with this shape. It is an
+optional resolution input, not another capability catalog. Roots resolve
+relative to that file; skill keys are package-relative entrypoint paths.
+
+```json
+{"plugins": [{"root": "Writing Quality Studio", "enabled": true,
+              "skills": {"skills/example/SKILL.md": false}}]}
+```
+
+Use an actual skill path in place of `example`; unknown paths fail visibly.
+Package, skill-frontmatter or supplied manifest `enabled: false` excludes a skill
+from search, while `show` still reports it as disabled. An omitted state permits
+metadata lookup only. Portable results label installation and host activation as
+unverified; directory presence proves neither. Native registry state remains the
+authority when available. Supplied package roots and manifest paths may be
+absolute or recipient-relative. Internal traversal, escaping symlinks, oversized
+metadata and malformed required fields fail visibly. The portable parser accepts
+plain or quoted text, folded/literal descriptions and optional short descriptions;
+it does not evaluate YAML tags or skill bodies. If the host cannot run this
+helper, use its native discovery or the maintained family map, then read the exact
+entrypoint. Hook adoption and provider access remain separate host choices.
+
+For custom file/function tool adapters, reuse this helper's structured metadata
+instead of searching concatenated catalog text. Preserve exact IDs, full
+descriptions, paths and disabled state. Make truncated results explicit and
+provide a way to reach the remaining matches. Paged file reads should return
+the next offset so the assistant can finish the instructions without guessing.
+Verify a selected skill's bytes reach the next model input. Report which public
+plugin hooks the adapter actually delivers; a supplied directory alone does not
+run them. Keep skill reads, completed wording reviews and exact-file receipts
+as separate evidence. Check this contract before attributing an adapter failure
+to the model or plugin method.
 
 ## Maintainer and existing integration notes
 
@@ -62,7 +146,7 @@ Maintain the recipient’s own source checkout or chosen install source for `wor
 
 Historical standalone entrypoints are disabled compatibility redirects. Their old reference paths may remain for existing project instructions. The shared ownership/routing map is in [docs/skill-plugin-map.md](docs/skill-plugin-map.md).
 
-The complete original UserPromptSubmit, SessionStart and Stop declarations are preserved as nonautoloaded templates in `optional-hooks/hooks.json`; the Claude template is `optional-hooks/claude-hooks.json`. No hook is installed by this package. If the recipient explicitly adopts a hook, select the actual stable package root/interpreter under current host support, preserve active sessions through an update and verify supported lifecycle events. The reminder also needs explicit WORK_MANAGEMENT_CONTEXT_OPT_IN=1 and actual recipient preferences. The Stop guard is quiet when there is no own active claim or `stop_hook_active` is true; it never blocks a turn on malformed input.
+Optional UserPromptSubmit, SessionStart and Stop declarations remain nonautoloaded templates in `optional-hooks/hooks.json`; the Claude template is `optional-hooks/claude-hooks.json`. Both prompt templates call `scripts/codex_work_start.py --portable`, which supplies only the computed workflow-routing skill path and a reminder to read the selected method. Portable mode needs no private opt-in or settings and does not load usage counters or host work defaults. The no-flag script retains its separate `WORK_MANAGEMENT_CONTEXT_OPT_IN=1` behavior for explicitly adopted recipient preferences. If adopting a template, select the actual stable package root/interpreter under current host support, preserve active sessions through updates and verify the hook's context in that host. This package does not register these optional hooks. The Stop guard is quiet when there is no own active claim or `stop_hook_active` is true; it never blocks a turn on malformed input.
 
 Manual project evidence review is available through `skills/evidence-review/`. The local Python helper nominates grouped claim cards from selected excerpts, validates provenance and human decisions, and saves confirmed private revisions inside the selected project. It adds no hook, service or MCP and does not bundle project evidence.
 
@@ -74,7 +158,7 @@ Manual project evidence review is available through `skills/evidence-review/`. T
 
 ## Prerequisites and missing-provider behavior
 
-All fourteen skill heads and complete operative method/helper closures remain. The original private profile/health/relationship facts, goal entries and session record are excluded; same-path blank recipient templates preserve the selected continuity procedure. No hook or MCP registration is bundled in the public payload; private author-host bindings are separately preserved. Full optional hook declarations are in `optional-hooks/`; adopt only under current recipient authorization after reviewing host support and tools. `scripts/codex_work_start.py` emits no context unless `WORK_MANAGEMENT_CONTEXT_OPT_IN=1` is explicitly selected; verify actual user preferences rather than treating this package as standing permission.
+All fifteen skill heads and complete operative method/helper closures remain. The original private profile/health/relationship facts, goal entries and session record are excluded; same-path blank recipient templates preserve the selected continuity procedure. No hook or MCP registration is bundled in the public payload; private author-host bindings are separately preserved. Full optional hook declarations are in `optional-hooks/`; adopt only under current recipient authorization after reviewing host support and tools. Without flags, `scripts/codex_work_start.py` emits no context unless `WORK_MANAGEMENT_CONTEXT_OPT_IN=1` is explicitly selected. The explicit `--portable` mode supplies only the routing pointer; neither mode grants permission for the selected task or proves that a skill was applied.
 
 Core methods work from supplied task/project evidence without an Atlas service. Optional Atlas helper requires Python3 and an explicitly chosen `--binding` JSON with reviewed interpreter, server and database. Other providers and native goals/chats/automations remain host capabilities. Dependencies are separately installed; exact callable tools and permission scope must be checked. All source examples using `PROJECT_VOLUME`, `RUNTIME_VOLUME`, `SYSTEM_DATA_ROOT` or `PLUGIN_ROOT` must be rebound to verified recipient-owned paths before execution. Historical inventories are provenance, not a deployment recipe or live availability claim.
 
@@ -87,3 +171,7 @@ The source's closeout-hook regression suite targets an optional separately maint
 15 complete skill heads are retained. The added methods are `cross-codex-workflow-exchange`, `github-conventions`, `skill-authoring`, `obsidian-vault-router`. Complete references and operative helpers are included; only originating private binding/input records are projected to recipient templates. No automatic installation of providers, hooks or global configuration occurs.
 
 For a first task, supply two fictional vault roots or a synthetic GitHub response and ask for the authorized next action. Cross-host access and vault providers must be verified separately. The GitHub refresh helper requires explicit `--owner` and `--output`, keeps the full original branch/tree metadata behavior and writes only to the selected recipient output. An unconfigured host map must yield a missing-binding explanation, not a fabricated successful synchronization.
+
+## Website operations
+
+Work Management includes [API Anything](references/operations/api-anything.md) for learning and calling selected website operations when a suitable connected API is unavailable. The pinned MIT source and full teaching workflow ship with the plugin. Set up its local Node runtime once, then use the same runner from Codex, Claude or Gemini. Calls try HTTP and may fall back to a browser. Installation does not connect accounts, enable writes or publish learned specs.

@@ -1,6 +1,6 @@
 ---
 name: channel-adaptation
-description: "Repurpose a grounded source into platform-fit posts, threads, newsletters or carousel copy without changing its claim."
+description: "Repurpose grounded sources into platform-fit posts, Instagram carousels and Stories, threads or newsletters without changing their claims."
 ---
 
 # Channel adaptation
@@ -49,6 +49,11 @@ Before substantial channel drafting/adaptation, use `writing-quality-studio:voic
 For LinkedIn document/carousel posts or a week from one source (li-carousel/li-repurpose intent), read the complete [documents and reuse method](../../references/social-methods/linkedin-documents-and-reuse.md). Finish requested assets/drafts without an artificial approval loop; preserve requested draft-only holds and use actual rendered QA for a PDF.
 
 For YouTube/Substack derivatives or future TikTok preparation, load only the relevant section of [platform-native cycles](../../references/social-methods/platform-content-cycles.md). Retain existing source lineage, media production and native publishing owners.
+
+
+## Instagram formats
+
+For Instagram carousels, Story sequences or source-to-Reel/carousel/Story repurposing, read [Instagram formats](../../references/social-methods/instagram-formats.md) with the existing source-to-derivative method. Preserve complete usable derivatives, provenance and asset ownership.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

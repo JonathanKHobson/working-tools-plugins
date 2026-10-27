@@ -15,3 +15,6 @@ The original UX Design Studio methods use the first-party grants in [LICENSING.m
 | Frontend slides reference | Retained [license](skills/design-studio/references/frontend-slides-LICENSE.txt). |
 
 Product Design, UIUXDesigner and Spreadsheet Human UX source bodies and assets remain omitted pending exact redistribution grants. Historical filenames now redirect to independently authored internal UX methods; routine task routes do not require those packs. See [migration](docs/owned-methods-migration.md). Codex Material Themes is third-party catalog/builder content, not an OpenAI runtime; its distribution grant was not established, so none of its catalog, builder or previews is copied. Its historical route records that omission and selects the original internal appearance method. Actual app/runtime dependencies retain their own terms.
+
+
+The newer local Motion Anything catalog and its dependent motion-recipe route remain outside this public edition pending exact redistribution clearance. The public motion owner retains its last published complete method; it does not supply that local catalog.

@@ -1,7 +1,7 @@
 {
   "name": "writing-quality-studio",
-  "version": "0.4.0",
-  "description": "Full first-party writing and editorial methods, licensed retained methods, and exact optional provider routes for proprietary writing procedures.",
+  "version": "0.4.1",
+  "description": "Edit writing for clear meaning, natural voice and the reader’s task; preserve facts and required details across messages, documents, scripts and interface copy.",
   "author": {
     "name": "Kyle Hobson"
   },
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Writing Quality Studio",
     "shortDescription": "Your writing style, clear prose and grounded communication",
-    "longDescription": "Eleven writing workflows with complete packaged first-party procedures and licensed supporting methods. Optional AIHumanizer and Write Like Me source methods require separately installed official plugins; Human Writing is the author-confirmed retained MIT method with complete current first-party support guides; optional provider availability is recipient supplied. Voice samples, Google access and private writing Atlas are recipient supplied. Substantive argument review routes to Reasoning Toolkit (reasoning-studio), owner of Critical Compass.",
+    "longDescription": "Polish a draft, shape a clear message, match a supplied voice, simplify technical instructions or revise a long document. Bring text or verified facts, the reader and the result you need. The everyday Humanizer reviews final wording; specialist methods handle sources, scripts, grants and document comments. Complete methods are included. Connected source retrieval, Google writeback and optional external providers need their own setup and authorization. Ask what this Studio can do for a short introduction.",
     "developerName": "Kyle Hobson",
     "category": "Productivity",
     "capabilities": [
@@ -28,12 +28,11 @@
     "defaultPrompt": [
       "Edit this draft in my voice without changing its claims.",
       "Turn these project notes into a clear stakeholder message.",
-      "Rewrite these instructions in plain language while preserving every required step.",
-      "Draft replies to unresolved AGENT: comments in this Google Doc without posting.",
-      "Draft a team update in my writing style using relevant examples from my connected apps."
+      "Rewrite these instructions in plain language while preserving every required step."
     ]
   },
   "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
-  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "hooks": "./hooks/hooks.json"
 }

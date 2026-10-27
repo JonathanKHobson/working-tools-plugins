@@ -19,7 +19,12 @@ def main():
         for key, variable in [('catalog', 'BRAND_TEMPLATES_CATALOG'), ('source_manifest', 'BRAND_TEMPLATES_SOURCE_MANIFEST'), ('data_root', 'BRAND_TEMPLATES_DATA_ROOT')]:
             if key in collection:
                 env.setdefault(variable, str(Path(collection[key]).expanduser().absolute()))
-    os.execve(str(python), [str(python), str(server), *sys.argv[1:]], env)
+    # Preserve direct CLI/export behavior and an explicit rollback path.
+    if os.name != 'posix' or sys.argv[1:] or os.environ.get('BRAND_TEMPLATES_TRANSPORT') == 'direct':
+        command = [str(python), str(server), *sys.argv[1:]]
+    else:
+        command = [str(python), '-B', str(server.with_name('stdio_proxy.py')), '--interpreter', str(python)]
+    os.execve(str(python), command, env)
 
 if __name__ == '__main__':
     try: main()

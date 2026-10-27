@@ -1,6 +1,6 @@
 ---
 name: mac-troubleshooter
-description: "Explain Mac Operations Toolkit capabilities and getting started, or triage an unexplained Mac application failure and select the smallest recovery workflow. Known window, process, storage, symlink, installation and update problems have focused skills."
+description: "Diagnose Mac app launch, window and process failures, then apply the smallest reversible fix; use for unexplained failures or toolkit first-use help."
 ---
 
 # Mac Troubleshooter

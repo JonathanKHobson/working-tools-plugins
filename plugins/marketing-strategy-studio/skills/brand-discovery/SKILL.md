@@ -19,6 +19,8 @@ Finish with supported themes and tensions, the selected or provisional profile, 
 
 For later personal-brand discovery outputs, retain the [core profile](assets/brand-profile-template.md) and link only useful audience or offer-specific records through [customer fit](../../references/strategy-methods/customer-fit.md). ICP is optional and commercial; it cannot replace self-discovery, creative intent or noncommercial relationships.
 
+For a requested early-business name, voice or promise exercise, use the brand variant in the [Founder business methods route](../../references/strategy-methods/founder-business-methods.md) under this discovery method and the existing profile scope/status contract. A synthetic response is a hypothesis, not audience evidence or an identity decision.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "python3",
+      "args": [
+        "scripts/rea_runtime.py",
+        "--mcp"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

@@ -27,6 +27,12 @@ Use the [full task-to-skill map](docs/use-case-map.md). A single post uses socia
 | [social-preview](skills/social-preview/SKILL.md) | Render or review a social post mockup through the Studio’s Social Post Previewer app, using supplied assets or requested generated imagery. |
 | [social-publishing](skills/social-publishing/SKILL.md) | Carry authorized social publishing or an established course/video/article handoff through account checks, native scheduling and verified readback. Distinguish drafts, reservations, schedules and publication; follow narrower user instructions first. |
 
+## Instagram work, integrated
+
+Ask for a Reel with spoken lines and on-screen beats, research on observed niche patterns, a caption, carousel or Story sequence, a profile audit, a week plan, or replies to supplied comments. The same eight task owners handle these workflows. For example: “Find accessible examples in my niche, explain the patterns and write three original scripts from my evidence.” If a post or metric is inaccessible, the research records that gap.
+
+The [Instagram coverage map](docs/use-case-map.md#instagram-coverage-within-the-existing-owners) shows every source use case. Included local helpers check timing estimates, descriptive baseline comparisons and configurable caption constraints. The 26 hook forms are editorial options, not virality predictions. Writing review uses the existing prose owner and preserves meaningful Unicode. Instagram publishing still requires an actual available provider and specific action authorization; installation alone connects no account.
+
 ## Recipient setup
 
 Install this package into your Codex or Claude plugin host, then choose the matching skill from the task map. Supply your own source facts, voice samples, audience, platform account and authorization in your project. No personal account, sample, credential or posting policy is bundled. The complete [social prose revision method](references/social-methods/provider-social-prose.md) is included. Other Studios can provide specialist collaboration, but ordinary drafting and revision require no additional method plugin.

@@ -16,3 +16,5 @@ Select the smallest task owner and read its complete required procedures, exampl
 | [marketing-strategy-operator](../skills/marketing-strategy-operator/SKILL.md) | Choose marketing positioning, audience, offer, goals and channel priorities, or coordinate a strategy spanning several marketing workflows. |
 | [paid-campaigns](../skills/paid-campaigns/SKILL.md) | Evaluate advertising readiness, ad credits and grants under cash-budget constraints; plan Google/YouTube, Meta Facebook/Instagram and Reddit campaigns, creative tests and measurement using actual available providers. |
 | [search-and-discovery](../skills/search-and-discovery/SKILL.md) | SEO, AEO, GEO, search architecture, keyword research, technical search audits and content refresh. |
+
+Startup pressure tests, competitor mapping, synthetic objection hypotheses, pricing/offer economics, day-one planning and compiled business plans use the [Founder business methods route](../references/strategy-methods/founder-business-methods.md) through the existing strategy/campaign/conversion/brand heads. It preserves all eleven procedures and four helpers, with explicit evidence and host limits.

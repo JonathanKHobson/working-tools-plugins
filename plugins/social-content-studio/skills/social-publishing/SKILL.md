@@ -43,6 +43,11 @@ For an edit or removal, verify the changed or absent live record. If the action 
 
 For platform-specific conversation or inbox work, read the selected section of [platform-native cycles](../../references/social-methods/platform-content-cycles.md). Existing current authorization, attended-action boundaries and exact native receipt procedures govern; a new method or source trigger grants no extra action authority.
 
+
+## Instagram actions
+
+For an explicitly authorized Instagram post, schedule, profile edit, comment, reply or one-person DM, read [Instagram action/readback](references/instagram-publishing.md). It preserves the same account, authority and receipt checks; this package adds no authenticated Instagram connector or automated engagement runtime.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

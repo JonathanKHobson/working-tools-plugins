@@ -5,6 +5,10 @@ description: Build an interactive explanation, chart, calendar, map, diagram, si
 
 # Interactive Explanations
 
+For a local layered image card with pointer/keyboard tilt, use [Interactive Depth Cards](../interactive-depth-cards/SKILL.md). Its complete local helper embeds supplied images and has no provider or network dependency. Use this route directly for that task; the optional renderer procedures below are for other visual forms.
+
+Use an existing interactive surface proactively when the task benefits from filtering, comparing alternatives, changing assumptions or keeping a view across turns. The user need not name the app. Prefer a direct answer or static visual when the interaction adds no value, honor explicit output constraints, and check actual callable limits before selecting a provider. Opening a panel should advance the requested task; it is not a separate tour of installed capabilities.
+
 For a saved, jointly discussed view of a small supplied table, use [Data Explorer](../../references/data-explorer.md). This bundled MCP runtime preserves dataset/view revisions and explicit conversation handoff; it does not replace the native Visualize renderer or its standalone export route.
 
 For interactive controls that affect later conversational reasoning, read [visualization widgets in conversations](references/conversational-widgets.md). It covers analytical state, model-context handoff, stable selections and whole-task checks without changing the provider contract.

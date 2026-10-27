@@ -1,6 +1,6 @@
 ---
 name: survey-strategist
-description: Use when framing a survey decision, choose the research method and coordinate an end-to-end instrument through the appropriate survey specialists. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Frame a survey decision and coordinate a complete instrument through focused specialists; use for method choice, end-to-end design or first-use help."
 ---
 
 # Survey strategist

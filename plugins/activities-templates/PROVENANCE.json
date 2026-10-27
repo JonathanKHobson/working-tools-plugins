@@ -26,7 +26,7 @@
     {
       "source_relative": "README.md",
       "source_sha256": "f0aabedf36e0eb3901948e2519c27a256b0425607fa6e3e1e74bb4e0bfd0a897",
-      "output_sha256": "b5639025822f2891952396d6e18fe0bf258c3d6e16c1e54ebb369f94b5836f9b",
+      "output_sha256": "f50bb8cb58000ee290e8cdaf58171e8dbdf99b4f05eb1b57ba0a6cf56b8a48fd",
       "transformed": true,
       "rights": "Authorized first-party MIT public edition; external collection rights excluded",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -143,7 +143,7 @@
     {
       "source_relative": "runtime/studio_library/server.py",
       "source_sha256": "1e485b39f5043a50c6b21d09293d89b3bb503d94f6a46060d76263deadbf53c8",
-      "output_sha256": "b1824f95f09f55b8971cd0e11e01eb8627cb47081f51dbd99eea1f934b84561d",
+      "output_sha256": "d9df5af860fde5c2aa46d8344837e8fa8d61b6f82b8f67552fd7d49c6846b085",
       "transformed": false,
       "rights": "Authorized first-party MIT public edition; external collection rights excluded",
       "edition_license_scope": "AGPL-3.0-only",
@@ -269,8 +269,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "c7ae200061cf1727298f5e427ca083405105b7cdcc19c9e14b9aa27b048442cc",
-      "bytes": 16227,
+      "output_sha256": "73755c5f5a634af7896166ec2b576015c63bfb23ef5f7f2464fbc9274d0f2365",
+      "bytes": 16911,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change."
     },
@@ -448,6 +448,20 @@
       "change": "Reviewed accumulated authored runtime upgrade; private data stays excluded.",
       "license_scope_category": "first-party-code",
       "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "runtime/studio_library/usage_events.py",
+      "source_relative": "runtime/studio_library/usage_events.py",
+      "source_sha256": "4942c0d76496dbc1e13b0385844ad95f1d9f073ed78715fc564b6e2727904d90",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "4942c0d76496dbc1e13b0385844ad95f1d9f073ed78715fc564b6e2727904d90"
+    },
+    {
+      "path": "tests/test_usage_events.py",
+      "source_relative": "tests/test_usage_events.py",
+      "source_sha256": "e0d0c9070920baaa22eb52855a9ac7cc0e88d272c15a590d8d8ef03105fc6e4c",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "e0d0c9070920baaa22eb52855a9ac7cc0e88d272c15a590d8d8ef03105fc6e4c"
     }
   ],
   "new_export_files": [

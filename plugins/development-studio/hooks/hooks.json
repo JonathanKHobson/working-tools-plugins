@@ -1,0 +1,40 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/runtime/efficient-implementation/cli.py\" hook SessionStart",
+            "timeout": 2,
+            "statusMessage": "Read scoped implementation preference"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/runtime/efficient-implementation/cli.py\" hook UserPromptSubmit",
+            "timeout": 2,
+            "statusMessage": "Read scoped implementation preference"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -n \"${CLAUDE_PLUGIN_ROOT:-}\" ]; then python3 -B \"${CLAUDE_PLUGIN_ROOT}/runtime/efficient-implementation/cli.py\" hook SubagentStart; else python3 -B \"${PLUGIN_ROOT}/runtime/efficient-implementation/cli.py\" hook SubagentStart --host codex; fi",
+            "timeout": 2,
+            "statusMessage": "Read scoped implementation preference"
+          }
+        ]
+      }
+    ]
+  }
+}

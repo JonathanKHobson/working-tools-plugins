@@ -14,6 +14,8 @@ Default to lay readers unless a scientific or academic audience is explicitly se
 
 ## Resolve the decision before the layout
 
+For a new dashboard or authorized redesign with open composition choices, apply [product-grounded design direction](../design-studio/references/distinctive-direction.md). Let the main question and supported current answer determine the first view; choose useful domain structure before generic KPI cards. Preserve approved systems and conventional tables where they serve the task. Keep zero, missing and failure states distinct and verify dependent totals after a representative action.
+
 Identify the reader, question, decision, data scope and delivery mode. For ongoing monitoring, explain status and exceptions; for exploration, preserve context while users compare; for a one-time explanation, a short sequence of charts may serve better than a dashboard. Honor an explicitly chosen format. Do not invent a finding to fill a hero panel.
 
 For substantial work, capture the [visualization contract](references/visualization-contract.md) in the existing project brief/spec. For a small change, record only affected fields. Reuse the application's schema, metric transforms, registry and renderer. This contract is a checklist to map onto them, not a replacement schema or mandatory file.

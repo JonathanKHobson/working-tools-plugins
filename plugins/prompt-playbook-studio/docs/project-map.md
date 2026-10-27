@@ -1,12 +1,16 @@
 # Prompt Playbook Studio
 
+- `skills/prompt-refinement/references/problem-framing-and-method-selection.md`: conditional diagnosis, evidence diversity and actual method/tool selection before unresolved substantial work; reached by the existing advisory and refinement/ambition routes. `docs/problem-framing-validation.md` records checks and limits. No additional hook, global checklist or research daemon.
+
+- `skills/prompt-refinement/references/implementation-handoff.md`: conditional translation from software intent to a complete buildable instruction, preserving Work Management scope, UX expectations and Development implementation ownership. Prompt-only tasks remain prompt-only.
+
 - `skills/prompt-playbook/`: create/refine/debug, conditional templates, private style, library retrieval and Compass handoff.
 - `skills/prompt-evaluation/`: observable tests and comparisons.
 - `scripts/`, `libraries/` and `runtime/`: reviewed first-party methods, retained MIT compiler and optional local tooling, described by their owning integration documents.
-- `scripts/prompt_submit_advisory.py`: read-only, bounded UserPromptSubmit hint for explicit prompt-crafting requests; no backend calls or prompt storage.
-- `hooks/hooks.json`: Codex plugin-owned prompt advisory.
-- `hooks/claude-hooks.json`: Claude plugin hook declaration for the same advisory; declared by the Claude plugin manifest; native activation still requires verification.
-- `.mcp.json`: Codex launcher declarations. `.claude-plugin/plugin.json`: Claude absolute plugin-root launcher arguments and advisory hook. Bindings, databases, overlays and saved prompts remain external.
+- `scripts/prompt_submit_advisory.py`: read-only, bounded UserPromptSubmit approach reminder for every request, plus the existing supplemental hint for explicit prompt-crafting requests. No SessionStart registration, backend calls, file reads or prompt storage. The agent interprets context; this helper does not classify project scope.
+- `hooks/hooks.json`: one default-discovered advisory declaration shared by Codex and Claude; the command resolves either host's plugin-root variable. Codex points here explicitly; Claude loads the default path once.
+- `hooks/claude-hooks.json`: retained compatibility declaration for hosts that require an explicit hook file. Do not register it alongside Claude's automatically discovered `hooks/hooks.json`; that would run the advisory twice.
+- `.mcp.json`: Codex launcher declarations. `.claude-plugin/plugin.json`: Claude absolute plugin-root launcher arguments; its advisory uses default hook discovery. Bindings, databases, overlays and saved prompts remain external.
 - `.app.json`: optional registered Promptbanken provider for compatible Codex hosts; Claude does not inherit that connector.
 - `docs/source-coverage.md`: source capabilities, owners and deliberate exclusions.
 
@@ -19,3 +23,5 @@ Validate the plugin and each skill with the system plugin/skill validators. Runt
 - `runtime/framework-builder/preferences.py` owns private local defaults; `prefill.py` validates assistant-prepared fields. `ui/additions.js` owns optional lenses/default controls; `ui/editor.js` owns live drafts and refinement handoff.
 
 The canonical source and public package are maintained implementation copies. `docs/full-procedures.md` selects complete native methods. `references/provider-prompt-engineer.md` is an internal compatibility pointer; copied no-grant bodies and branding stay excluded. Recipient-owned bindings remain external. Historical evidence stays recoverable in the private archive; active runtime, assembly and tests remain here.
+
+- `skills/prompt-refinement/references/ambition-within-scope.md`: canonical four-axis method and reusable Codex prompt, selected by refinement or project planning. `tests/test_prompt_advisory.py` checks event handling, bounded output and existing prompt-advisory compatibility.

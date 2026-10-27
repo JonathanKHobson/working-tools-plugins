@@ -24,11 +24,11 @@ Frame-height changes can move bottom-constrained controls, not merely trim blank
 
 ## Field-entry transaction
 
-1. Identify the target object, property label, existing value, and any variable/style binding.
-2. Focus the field. Confirm a caret, highlighted field contents, or the runtime’s equivalent semantic focus evidence.
-3. Only now select that field’s contents and type the replacement. Match the tool’s text-entry contract; typing and paste are not universally interchangeable.
-4. Commit using the visible control or appropriate field action. Check the committed value after focus leaves the field.
-5. Check sibling properties and the canvas for side effects. Stop if a binding disappeared or sizing behavior changed unexpectedly.
+1. Identify the selected object by name/hierarchy or node ID, selection count, property label, current value, and any variable/style binding. For paste-only work, the mutation target is the newly imported root; existing artwork is outside scope.
+2. Prefer the browser runtime's exact, currently observed semantic field locator and `fill(value)` followed by that field's commit action. This replaces only the field value and avoids a canvas-wide Select All. Do not invent a locator or use page evaluation to mutate Figma internals.
+3. When semantic replacement is unavailable, split the fallback into distinct observe/act calls: focus the field and read back actual field focus or highlighted contents; only then replace its contents and commit; finally observe the committed result after focus leaves. Do not batch initial focus, Select All, digits, another field, Escape and rename before the first focus check. A click returning successfully is not focus proof. A delayed or unchanged observation is unresolved, not permission to continue typing.
+4. Check the exact committed value, target identity and selection count, sibling dimensions/appearance, and nearby existing artwork before the next mutation. Concatenated coordinates, unexpected selection, a changed opacity, or disappearing artwork are stop conditions for all further numeric input. Do not continue arranging or mark QA complete while that side effect is unresolved.
+5. Recover only a known recent mutation of yours, with its affected scope verified. After human intervention, do not assume the latest Undo entry is still yours. For mixed opacity, never set every layer to 100% as a repair: use the known accidental operation's undo or compare original values in a prior version and make only verified corrections. Preserve intentional transparency and the user's completed repair.
 
 Select All is prohibited when focus is uncertain. Never issue it on a canvas as a convenient way to find a field. A failed shortcut could have focused the browser address bar or Actions search; inspect before typing again.
 

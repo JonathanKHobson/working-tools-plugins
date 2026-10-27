@@ -1,0 +1,36 @@
+# Make the product decide the design
+
+Use before a new interface, landing page or authorized redesign when important composition or expression choices are still open, especially outside an established identity or after a generic-output complaint. An explicit user direction comes first, followed by the existing organization/product identity and its applicable rules. A missing brand document does not erase the shipped design system. A reference screenshot informs a choice; it does not replace those authorities. Preserve an approved template or narrow repair. This method adds no branding, research, installation or publishing authority.
+
+## Resolve the open choices
+
+1. **Start with the job.** For a work screen, name the main question, the supported current answer or its missing-data state, and the next useful action. Give that relationship the strongest relevant emphasis. For a landing page, name the audience's decision, the supported offer, the available proof and the real next step. Greeting panels, weather and KPI cards earn space through that job. Do not invent an incident or a finding to make a screen dramatic.
+2. **Use domain material.** Inspect available workflow artifacts, entities, language, source assets and real content. Choose a representation that exposes the important relationship: a queue for priority, a schedule for coverage, a comparison for tradeoffs, or another justified form. A conventional table may be the best answer. A distinctive element should reveal task information, express an authorized identity or help explain the offer; a themed ornament alone cannot substitute for product substance.
+3. **Compare only consequential alternatives.** When a material choice remains unresolved, sketch two brief directions in the existing task record or preview. Change information structure or the way the offer is demonstrated, not just colors, fonts or names. Use the existing decision-alternatives method when deeper comparison helps. If the evidence, approved direction or task already settles the answer, use one direction and proceed. Do not add a gallery, choice gate or concept quota.
+4. **Commit before building.** Record a few load-bearing choices in the existing brief or DESIGN.md: structure, type/density, image or material treatment, and copy emphasis as applicable. Connect each to a concrete source or constraint and name the relevant check. Mark unsupported expression choices as design hypotheses. A short reason for the selected approach over the nearest viable alternative is enough; do not rationalize every pixel afterward. Use coherent type, assets and composition rather than a random style draw or a palette swap.
+
+## Check substance as well as appearance
+
+Read the main sections and copy with the product name removed. If another unrelated product could use the same claims and order unchanged, inspect whether important domain information or proof is missing. This is a diagnostic, not an automatic rejection. Familiar navigation, forms, shared components and useful patterns can remain. A new color scheme or ornamental motif does not resolve interchangeable content. Write from supported actions, constraints and benefits; no invented features, metrics, testimonials, urgency or personal stories. Button wording must match the actual resulting state.
+
+Deliver the requested copy itself, rather than instructions to write it later. With sparse facts, use a precise, modest statement of the supported purpose. Distinguish a concept's intended behavior from a working capability; labels such as “built for” can imply a product exists. Do not invent an audience's current circumstances to make the message more specific. Confirmed working capabilities may be stated directly.
+
+Before handing off copy, check each material assertion against the supplied facts or source: capability, intended purpose, product status, audience circumstances and comparative promise. Remove an assertion without support or clearly frame an intended behavior as a proposal. “Concept” does not establish that development is underway, and “simpler” needs a stated comparison. Inspect the actual headline, support text and action, not just the accompanying explanation that claims they are factual.
+
+Use authorized real content where available. When a prototype calls for fictional data, label it in the artifact and keep it coherent; a label in chat alone is insufficient. Do not fill missing evidence with realistic-looking claims. Derive edge cases from the data model and interaction contract, label synthetic fixtures, and keep them separate from observed incidents.
+
+For operational screens, verify affected counts, amounts, assignments and state transitions from a shared source. Exercise a representative change and check every dependent view or total. Distinguish zero, empty, unknown, stale, loading, partial failure and error where applicable. A missing response cannot become a reassuring zero. Existing data and implementation owners retain formulas, persistence and recovery contracts.
+
+## Review the actual result and stop
+
+Set a few observable acceptance criteria before implementation: can the first view answer the main question, can the main action complete, are claims supported, and do relevant values and states reconcile? Include the actual surface's accessibility, responsive and content requirements. Preserve the intended viewing sizes and applicable input modes.
+
+Use the existing 3–8 rendered anchors and design-review method. Inspect the implemented hierarchy, copy, distinctive material and meaningful states at the promised sizes. Exercise behavior separately; a screenshot cannot prove keyboard use or persistence. Fix the most consequential observed defects, then recheck changed anchors and paths. Stop when the scoped criteria pass; if a criterion remains blocked, report it without cycling through unrelated aesthetic variants. Keep subjective design judgment and user acceptance separate from measured checks.
+
+A detector can flag a property; it cannot certify originality, useful hierarchy or taste. A banned-pattern count of zero is not a success metric. Preserve legitimate conventions and coherent identities. Do not ban a palette, centered hero, card or greeting solely because it is fashionable, or claim a design is globally original without relevant evidence. Distinctiveness serves the task and expression; it does not outrank correctness, access or comprehension.
+
+## Source and maintenance boundary
+
+Prompted by a user-supplied video transcript on repeated AI layouts, supplied October 21, 2026. Its reported six-build comparison, tool results and benchmark scores were not independently verified. This is an original, bounded adaptation of the described decision-first approach, combined with this owner's existing context-sensitive review, decision alternatives and rendered checks. No upstream Taste or Anthropic skill files, assets, scripts or measured claims are imported. The supplied video motivates a testable hypothesis, not a proven improvement.
+
+Maintenance cases and current validation scope: [decision-method validation](../../../docs/distinctive-direction-validation.md). Keep generator inputs separate from reviewer expectations; static checks and supplied-text responses do not establish rendered quality or real-user performance.

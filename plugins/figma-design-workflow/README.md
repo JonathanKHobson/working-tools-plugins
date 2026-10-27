@@ -1,6 +1,6 @@
 # Figma Design Toolkit
 
-Current edition **0.2.3** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
+Current edition **0.3.0** uses the [Compass licensing model](LICENSING.md): first-party code AGPL-3.0-only; first-party docs, prompts, skills, methods and eligible creative templates CC BY-SA 4.0. Upstream grants and prior release permissions remain valid. Author: Jonathan Kyle Hobson.
 
 Turn a design reference or existing screen into an editable Figma artifact, then verify its visible result and structure. Bring the Figma file or target frame, the change you want, approved visual references, and any must-keep content. The workflow can also prepare a reference, transfer selected Stitch screens, or build a FigJam workshop board.
 
@@ -14,6 +14,7 @@ For a capabilities/getting-started question or broad Figma operation, start with
 
 | Task | Skill |
 | --- | --- |
+| Convert local HTML or localhost to Figma clipboard | [HTML to Figma Clipboard](skills/html-to-figma-clipboard/SKILL.md) |
 | Consult available Mac design partners | [Mac Design Partners](skills/kyle-mac-design-partners/SKILL.md) |
 | Prepare source-faithful Figma-to-Stitch iterations | [Figma-to-Stitch](skills/figma-to-stitch-design-iteration/SKILL.md) |
 | Edit in Figma or build an editable FigJam board | [Figma Operator](skills/figma-ui-operator/SKILL.md) |
@@ -23,7 +24,7 @@ For a capabilities/getting-started question or broad Figma operation, start with
 
 Use the step that serves the current deliverable. Claude/imagegen → Stitch → Figma is available when visual exploration helps; routine edits can go straight to Figma.
 
-The plugin teaches workflows. Computer Use, built-in imagegen, Figma tools, and signed-in Claude/Stitch apps remain external runtime capabilities. Installing this bundle does not enable OS permissions, buy credits, or publish designs.
+The plugin includes an executable local HTML capture helper and teaches editor workflows. Computer Use, built-in imagegen, Figma tools, and signed-in Claude/Stitch apps remain external runtime capabilities. Installing this bundle does not enable OS permissions, buy credits, or publish designs.
 
 For automatic discovery, start a new Codex task after installation. Existing tasks can read the exact skill path immediately. See docs/project-map.md and docs/validation.md for structure and tested scope.
 
@@ -35,7 +36,7 @@ For automatic discovery, start a new Codex task after installation. Existing tas
 
 ## Installation and prerequisites
 
-Install the separately versioned `figma-design-workflow` package from the [Working Tools plugin repository](https://github.com/JonathanKHobson/working-tools-plugins). The portable root manifest and Codex/Claude compatibility manifests expose the same six method heads. The canonical owner and public package maintain the same distributable implementation; recipient inputs and private evidence stay outside those files. In Codex, after the `working-tools` marketplace is configured, use `codex plugin add figma-design-workflow@working-tools`, then start a fresh task to check discovery. Use the host's supported plugin removal command to uninstall; removal does not delete your Figma documents.
+Install the separately versioned `figma-design-workflow` package from the [Working Tools plugin repository](https://github.com/JonathanKHobson/working-tools-plugins). The portable root manifest and Codex/Claude compatibility manifests expose the same seven method heads. The canonical owner and public package maintain the same distributable implementation; recipient inputs and private evidence stay outside those files. In Codex, after the `working-tools` marketplace is configured, use `codex plugin add figma-design-workflow@working-tools`, then start a fresh task to check discovery. Use the host's supported plugin removal command to uninstall; removal does not delete your Figma documents.
 
 For editor work you need your own Figma account, permission to the intended file, and an available authorized Figma connector or Computer Use route. Computer Use needs the host's browser/app permissions. Optional Stitch transfer requires your own accessible Stitch session and a demonstrated editable export/import route. Reference generation requires a separately available imagegen or Claude capability. Accounts, API keys, provider apps, paid credits, native role registration, MCP servers and OS permission grants are not included. The packaged structural checker uses Python 3 and the standard library; Python is not needed merely to read these methods.
 
@@ -50,3 +51,7 @@ Run `python3 skills/figma-ui-operator/scripts/validate_skill.py --json` from the
 ## Complete design-partner methods
 
 Two complete four-file original workflows are added. Private author-host observations and client-specific iteration evidence are replaced only in their exact support units by explicit receiving-host/synthetic examples. All selection, brief, account/usage verification, scratch-workspace, export, attachment reconciliation, authority, Change/Keep/Defer and visual-check procedures remain. The skill names retain source identities; they assert no account access or historical user authorization for a recipient. A synthetic draft/source audit does not prove provider generation, rendered output or editable Figma import.
+
+## Local HTML capture
+
+Use [HTML to Figma Clipboard](skills/html-to-figma-clipboard/SKILL.md) for file/localhost capture, local asset loaders, offline request blocking, rich macOS clipboard writing and a local Copy for Figma fallback. Conversion needs Node 22+ and one-time locked runtime/browser setup; it needs no Figma account connection, key, plugin or destination file. `node skills/html-to-figma-clipboard/scripts/capture.mjs --help` lists commands. See [current validation](docs/html-to-figma-validation.md) for tested behavior and actual Figma paste limits.

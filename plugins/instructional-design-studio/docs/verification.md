@@ -148,3 +148,22 @@ Updated lesson-experience-design and accessible-learning-design plus their exist
 Both changed entrypoints passed the worker's skill-creator validation; the integration pass also validated all 11 entrypoints. Changed local links resolved. The existing manifest parsed with its skill/MCP paths resolving. The older system plugin-creator validator was unavailable, so no new result from it is claimed. No helper code, learner data, or runtime changed.
 
 The supplied FigJam handoff is research/design guidance. No board, reveal control, lock state, multiplayer flow, keyboard/screen-reader path, learner pilot, or learning outcome was tested in this plugin update. Rehearsal/access findings remain separate from evidence of learning effectiveness.
+
+## Transcript evidence method, October 15, 2026
+
+Added a conditional reference under Course Production & Handoff, linked from its entrypoint, media integration and project map. Four challenge cases cover untimed transcripts, multiple qualifying sources, unresolved claims and save-versus-publication proof. Independent agent review exercised all four and found no material omission; integrated its context-only source and blocked-access clarifications. This is simulated instruction review, not a learner trial.
+
+The changed skill frontmatter passed validation and all 13 existing helper regression tests passed. Relative links in changed Markdown resolved. No helper, course runtime, source corpus or top-level skill was added. Native installation and byte parity are recorded in the private originating-project receipt. No learning gain, universal source accessibility or new public release is claimed.
+
+## Learning beyond activity completion, October 15, 2026
+
+A severe recurring failure was reported in course-authoring use: fictional scenarios, production steps or completed artifacts displaced explicit teaching of understanding, practical value and transferable capability. This is a user-reported maintenance signal, not a measured prevalence estimate or independent learner-outcome finding. Existing outcome/alignment guidance did not prevent the reported substitution; the correction makes its operational review and direct-entry routing explicit rather than introducing a new instructional framework. The shared ADDIE decision reference now owns a compact review across objectives, explanations, examples/practice, feedback/assessment, recap and resources; the router and five direct-entry specialists link to it. Genuine procedural learning remains supported through task-appropriate rationale, choices, checks, recovery and changed-context use.
+
+Three maintained challenge cases cover an outline, a software lesson script with legitimate procedural learning, and an assessment revision. Their acceptance criteria define intended behavior; adding cases is not evidence that model responses passed them. Structural validation and any actual behavioral runs must be reported separately. No learner trial, improvement estimate or effectiveness claim follows from this instruction update.
+
+All six changed skill heads passed Skill Creator quick validation. The behavior-case JSON parses with 20 unique IDs; relative file links in the eight changed Markdown files resolve, and the shared section anchor exists. No generated response trial was run for the three new cases in this source-edit pass.
+
+
+## Collaborative voice and proportional emphasis, October 15, 2026
+
+Instructor feedback after a completed recording identified a command-heavy second-person voice and continued scenario/verification emphasis despite the earlier learning-target correction. The supplied feedback is authoring evidence, not an independent media review or learner study. The existing writing-voices reference now supports collaborative narration across a whole script with truthful I/we/you boundaries. The shared learning-design check now reviews proportional emphasis across all sections, retaining necessary checks while preventing supporting habits from replacing the agreed targets. Media integration preserves a completed recording under a future-method-only request and reconciles incoming transcripts against actual delivery. Three challenge cases define the acceptance conditions; adding cases alone does not prove model compliance or learning gains.

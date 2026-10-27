@@ -1,0 +1,17 @@
+# Asset-to-offer production
+
+Use when the user asks to turn a specific owned asset into a product, service or booking opportunity. This is a small handoff method. [Customer fit](customer-fit.md) owns buyer and evidence judgments; the complete [offers](../../libraries/marketingskills/skills/offers/SKILL.md) method owns offer design. Use the current teaching, tabletop, UX or other domain owner to make and check the sample. Apply the governing brand and writing methods for the actual audience. An existing marketing or research method can supply a buyer hypothesis; no separate discovery adapter is required.
+
+## Make one useful candidate
+
+Resolve the asset's canonical ID, version, source location, rights and permitted use. Read the relevant source, then match its reusable part to a buyer's specific situation and an adequate delivery format. When the buyer is unspecified, state one plausible first-use hypothesis and its strongest alternative. Briefly compare a few distinct matches and choose the smallest one worth producing now. Separate asset readiness from buyer evidence. A plausible idea can earn a bounded sample while demand remains unverified.
+
+Use the relevant specialist to create an **inspectable, usable sample**, then write complete buyer-facing offer or listing copy: who it helps, the situation and result, exactly what is delivered, scope and limits, proposed price or price question, and a concrete next step. Name an existing first buyer route or a specific test route. Do not equate a proposed price, interest signal or competitor listing with receipts. Check the sample's substance and rendered form when visual, source fidelity, claims, rights and the buyer's likely task. An outline, empty template or offer idea alone is unfinished.
+
+Save a small opportunity record beside the owning domain project's existing work log, linking the source, sample, offer and production recipe. Reuse an existing record shape; do not create a parallel CRM. The record needs the asset ID and version; buyer use case and format; source and claim provenance with limits and permissions; artifact paths; offer and buyer route; estimated effort or new cash cost if material; observed outcomes separate from proposals; actual state; one next action; and concise steps for reproducing the sample with a new eligible input. Keep private source material in its owner workspace, not in this plugin.
+
+## Repeat and recover
+
+Use the stable combination **source asset ID + source version + buyer use case + format** as the duplicate key. A title or run date does not create a new opportunity. On an unchanged rerun, read and reuse the existing sample and record, finish only missing stages, and avoid another task or alert. A meaningful source-version change updates the affected artifact and record traceably; preserve the prior version link and what changed. If an external write's outcome is unknown, reconcile its native state before retrying.
+
+If source access or rights are missing, mark that lane unresolved and continue independent work. An original synthetic sample may demonstrate the method only when explicitly labeled; it does not prove access to the missing asset or demand. Respect pause or stop state. Manual invocation is sufficient; this method does not activate a schedule, connector, send, listing or payment action. Carry existing authorization through to the exact covered action, and keep any uncovered external step as a concrete prepared action with its destination and cost.

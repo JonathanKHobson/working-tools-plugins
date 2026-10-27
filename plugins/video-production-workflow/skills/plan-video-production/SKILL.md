@@ -1,6 +1,6 @@
 ---
 name: plan-video-production
-description: Turn a new or substantially revised video request into a usable brief, beat sheet and project manifest. Use when audience, story, assets, style, rights, accessibility or delivery are unresolved, including supplied Google Slides recording or generated-footage planning. Also use for video production workflow capabilities or getting-started questions.
+description: "Turn a new or substantially revised video request into a production brief, beat sheet and project manifest; use when story, assets or delivery need decisions, or for first-use help."
 ---
 
 # Plan Video Production

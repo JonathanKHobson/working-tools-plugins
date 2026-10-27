@@ -1,0 +1,102 @@
+{
+  "product_name": "Sample item",
+  "audience": "People considering a personalized gift",
+  "destination_label": "Explore options",
+  "photos": [
+    {
+      "path": "replace-with-local-product-photo.jpg",
+      "role": "product",
+      "observations": [
+        "The supplied photo shows a front-facing object against a plain background."
+      ]
+    },
+    {
+      "path": "replace-with-local-preview.png",
+      "role": "personalization_preview",
+      "observations": [
+        "The supplied preview shows a name placed on the object."
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "angle": "Front view recognition",
+      "premise": "For gift shoppers, the front view may help them recognize the item's shape quickly.",
+      "competing_explanation": "The plain background, rather than the item view, may account for any attention difference.",
+      "observation_refs": [
+        "P1-O1"
+      ],
+      "falsifier": "Qualified detail visits do not exceed the current control under comparable delivery.",
+      "metric": "Qualified detail-visit rate",
+      "headline": "See the item from the front",
+      "caption": "The supplied photo shows a front-facing item against a plain background.",
+      "tension_or_desire": "A shopper wants to understand the item before considering a gift.",
+      "interpretation": "The unobstructed front view could reduce uncertainty about appearance.",
+      "confidence": 60,
+      "confidence_rationale": "The front view is visible, but shopper motivation is not observed.",
+      "opening": "Begin with the front view in generous negative space.",
+      "reveal": "Keep the item large enough to see its outline.",
+      "hook": "See the shape first",
+      "proposed_extension": "A close-up view of the item in an offer page.",
+      "extension_status": "proposed",
+      "small_test": "Compare qualified detail visits from the front-view creative with a current control.",
+      "fact_refs": []
+    },
+    {
+      "angle": "Name placement relevance",
+      "premise": "For gift shoppers considering personalization, showing the name placement may encourage preview exploration.",
+      "competing_explanation": "The preview's different background may attract attention regardless of personalization.",
+      "observation_refs": [
+        "P2-O1"
+      ],
+      "falsifier": "Preview starts do not exceed the current control under comparable delivery.",
+      "metric": "Preview-start rate",
+      "headline": "Picture a name on it",
+      "caption": "The supplied preview shows a name placed on the item.",
+      "tension_or_desire": "A shopper wants to picture a personally meaningful name on the item.",
+      "interpretation": "The visible name placement may make personalization easier to imagine.",
+      "confidence": 55,
+      "confidence_rationale": "Name placement is visible; desire to personalize is unverified.",
+      "opening": "Start with the item and a readable name area.",
+      "reveal": "Show the supplied placement without changing the lettering.",
+      "hook": "Picture the name",
+      "proposed_extension": "An interactive name preview on the offer page.",
+      "extension_status": "proposed",
+      "small_test": "Compare preview starts from the name-placement creative with a current control.",
+      "fact_refs": []
+    },
+    {
+      "angle": "Product to preview clarity",
+      "premise": "Seeing the photo and preview together may help shoppers distinguish the item from the personalization mockup.",
+      "competing_explanation": "A side-by-side layout may increase clicks simply because it shows more imagery.",
+      "observation_refs": [
+        "P1-O1",
+        "P2-O1"
+      ],
+      "falsifier": "Qualified destination visits do not exceed the current control under comparable delivery.",
+      "metric": "Qualified destination-visit rate",
+      "headline": "From item to name preview",
+      "caption": "Compare the front-facing item photo with the name placement preview.",
+      "tension_or_desire": "A shopper wants clarity about the item versus the proposed personalized version.",
+      "interpretation": "Showing both views together may reduce ambiguity about what is pictured.",
+      "confidence": 50,
+      "confidence_rationale": "The two views are available, but clarity benefit is a testable guess.",
+      "opening": "Introduce the product photo.",
+      "reveal": "Place the personalization preview beside it as a separate view.",
+      "hook": "From item to preview",
+      "proposed_extension": "A before-and-preview comparison in the product gallery.",
+      "extension_status": "proposed",
+      "small_test": "Compare qualified destination visits from the paired-view creative with a current control.",
+      "fact_refs": []
+    }
+  ],
+  "claims": [
+    {
+      "text": "A sample nonvisual product claim, excluded from creatives",
+      "source": "Replace with an actual product record",
+      "status": "unverified"
+    }
+  ],
+  "best_first_hypothesis": 2,
+  "first_test_assumption": "A readable personalization preview motivates exploration more than the product photo alone."
+}

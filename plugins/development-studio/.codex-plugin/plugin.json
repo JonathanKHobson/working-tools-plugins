@@ -1,7 +1,7 @@
 {
   "name": "development-studio",
   "version": "0.3.0",
-  "description": "Complete software delivery, native macOS, Go, GitHub, local pipeline and MCP methods. 21 focused heads; execution providers remain external.",
+  "description": "Complete software delivery, native macOS, Go, GitHub and MCP workflows, with the full reviewed REA analysis runtime through a private host binding. 22 focused skill heads.",
   "author": {
     "name": "Jonathan Kyle Hobson"
   },
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Development Studio",
     "shortDescription": "Software delivery methods, MCP apps and platform workflows",
-    "longDescription": "Turn a concrete software task into a verified change with focused design, implementation, debugging, testing, review and MCP workflows. Preserves licensed Superpowers and Alpic methods and routes native platform work to official providers. No server, account, credential, SDK or deployment is installed by this method package.",
+    "longDescription": "Turn software questions into verified changes with focused design, implementation, debugging, testing, review and reverse-engineering workflows. Includes complete attributed methods and a pinned external REA MCP launcher. Analysis engines and private host setup remain explicit dependencies.",
     "developerName": "Jonathan Kyle Hobson",
     "category": "Developer Tools",
     "capabilities": [],
@@ -20,5 +20,7 @@
     ]
   },
   "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
-  "homepage": "https://working-tools.jkylehobson.chatgpt.site/"
+  "homepage": "https://working-tools.jkylehobson.chatgpt.site/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
 }

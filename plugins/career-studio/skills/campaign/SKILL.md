@@ -1,6 +1,6 @@
 ---
 name: campaign
-description: Run or resume a tailored job-application campaign, tracking roles, evidence-backed materials, blockers, submission attempts, and employer receipts. Use for campaign preparation, application execution, or status reconciliation across roles; a standalone resume rewrite does not require this campaign workflow. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Run a role-specific job application campaign from evidence-backed materials through authorized submission and receipt checks; use for planning, execution, status or first-use help."
 ---
 
 # Job application campaign

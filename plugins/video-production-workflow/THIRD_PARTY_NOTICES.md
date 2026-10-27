@@ -21,6 +21,10 @@ Optional tools retain their own licenses. In particular, Remotion uses a custom 
 
 Additional optional external tools reviewed for production use include MediaInfo (BSD-2-Clause), ExifTool (Perl Artistic/GPL choice), Netflix VMAF (BSD-2-Clause-Patent), Shaka Packager (BSD-3-Clause), MediaConch (verify current component licensing), and QCTools (GPL application with BSD-licensed BAVC code). They are not vendored.
 
+**Anidoodle** (alexgreensh, pinned revision `f746cbd8a7032463bd0bc88ee8ff852599193b8c`, Apache-2.0): the reviewed source and repository notice are retained under `libraries/anidoodle/source/` for conditional, local reference. The source is not an execution dependency or automatic installer. Its upstream license remains attached to the retained files; the first-party production route is an adaptation and does not grant rights to third-party assets or generated output.
+
+**Thinking Orbs** (JakubAntalik, pinned revision `de85557ca220332586d070d8788c0e1d6e877a0d`, MIT): the original geometry source is retained under `runtime/thinking-orbs/vendor-src/` with its MIT notice. The shipped adapter is first-party code and keeps the upstream source boundary. It is an optional visual status component, without network access, analytics, external loading or claims about user learning.
+
 **Payton Bilodeau's AI Video Editing Pack** (custom Free Use Terms): reviewed for
 editor setup reuse, edition-aware control and editable project delivery. New
 Resolve guidance is independently authored; no upstream templates, scripts,
@@ -40,3 +44,5 @@ First-party portability modifications are described in `PUBLIC_DISTRIBUTION.md`;
 Professional role-contract lineage preserves MIT notices from AgentLand Contributors (agency-agents `5baafd5f`), VoltAgent (voltagent-subagents `721e9734`) and Seth Hobson (wshobson-agents `46891e7e`) under `references/professional-agents/source-notices/`. Local responsibility and method routing are original adaptations; original vendor copyright is retained.
 
 Loom Review Packet and Loom Walkthrough Scripting, their full references, agent metadata and original Python helper are first-party procedures by Jonathan Kyle Hobson, included under the root MIT grant. No Loom provider code, private recording or actual client/session evidence is copied. The private recorded-workflow case is replaced by a complete explicitly fictional worked scenario, with source/output hashes and transformation scope retained.
+
+Earshot source retains Leon Lin’s MIT grant at libraries/earshot/LICENSE. Product-film source retains Huashu’s MIT grant and asset exclusions at libraries/huashu-motion/LICENSE and THIRD_PARTY.md. Motion recipe source retains the Apache-2.0 grant and attribution records at libraries/motion-anything/LICENSE and its notices. These grants do not clear all derivative assets, author likeness, React Bits, Lottie or AnimXYZ runtime rights. Local source retention and pending public redistribution are distinct; see docs/motion-source-admission/.

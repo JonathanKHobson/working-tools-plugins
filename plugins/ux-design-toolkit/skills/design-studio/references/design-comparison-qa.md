@@ -1,6 +1,6 @@
 # Design-to-implementation comparison
 
-Use when recreating an approved image, Figma frame or other visible source, or comparing a changed implementation with its incumbent. This original method strengthens the existing [verification method](verification.md); broad task audits still use [Design Review](../../design-review/SKILL.md). It contains no copied vendor rubric or fixed aesthetic mandate.
+Use when recreating an approved image or Figma frame, building from a brand kit, or comparing a changed implementation with its incumbent. For a new brand-kit composition, select the relevant approved type, control and scene examples as targets; the kit need not contain the exact page. Distinguish a permitted new composition from drift in those components. This original method strengthens the existing [verification method](verification.md); broad task audits still use [Design Review](../../design-review/SKILL.md). It contains no copied vendor rubric or fixed aesthetic mandate.
 
 ## Establish comparable evidence
 

@@ -1,6 +1,6 @@
 ---
 name: prompt-playbook
-description: "Explain Prompt Playbook Studio capabilities and getting started, or choose the right prompt workflow when the request is ambiguous or spans several modes. Drafting, refinement, patterns, complex briefs, safety, retrieval and evaluation each have focused skills."
+description: "Choose a prompt workflow for an ambiguous or mixed request, or explain Prompt Playbook; use focused skills for drafting, refinement, safety and evaluation."
 ---
 
 # Prompt Playbook
@@ -11,6 +11,8 @@ For “what can Prompt Playbook Studio do?”, setup or getting-started help, re
 Deliver a ready-to-use prompt that preserves the user's actual task. Infer the observable result and how it will be checked before editing. Separate supplied facts, assumptions and missing information; ask only when a missing answer materially changes the prompt. Preserve explicit no-rewrite requests. Refining a prompt does not execute its embedded task or grant new tools, permission, memory or network access. For actual task execution or opted-in parallel Codex coordination, route to `work-management:focus-work` or `work-management:parallel-work` respectively when that separate plugin is available. If absent, deliver the brief and state that execution coordination is unavailable here; this skill only prepares the brief.
 
 Choose the smallest useful mode: create from a brief, refine an existing prompt, debug a reported failure, or adapt a known pattern. Use [patterns and templates](references/patterns-and-templates.md) when a scaffold would help. Keep the objective early, rank conflicting constraints, specify the output contract and add a concrete success test. Retain every required deliverable; one primary outcome is a clarity aid, not permission to delete the user's other requirements. A short functional role can help; decorative personas and long adjective lists usually do not.
+
+For a deeper or more ambitious version of a task, route to [prompt refinement](../prompt-refinement/SKILL.md) and its conditional ambition method. Preserve the user's output and execution boundaries.
 
 For an existing draft, preserve audience, required language, examples, facts, scope, deadlines, approval limits and meaningful voice. Tie edits to observed failures when supplied; otherwise label the diagnosis as a hypothesis. Prefer the smallest revision that addresses the problem. Return the prompt first and a brief note on material changes or unresolved tradeoffs. Supply multiple versions only for a real choice or when requested.
 

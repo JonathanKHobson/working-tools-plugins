@@ -30,6 +30,8 @@ Conditional neighbors: `html-presentation-builder`, `ux-design-toolkit:design-st
 
 ## Marketing Strategy Studio
 
+For local product photos and personalization previews, select `marketing-strategy-studio:product-photo-ad-hypotheses`: three image-grounded hypotheses and portrait creatives without connected services.
+
 Entry: `marketing-strategy-studio:marketing-strategy-operator`. Brand discovery and profile work use `marketing-strategy-studio:brand-discovery`; identity systems and creative territories use `marketing-strategy-studio:brand-design`. Brand discovery and profile work use `marketing-strategy-studio:brand-discovery`; identity systems and creative territories use `marketing-strategy-studio:brand-design`.
 
 Conditional neighbors: `research-methodology-local:research-methodology`, `research-methodology-local:current-social-research`, `social-content-studio:social-content`, `writing-quality-studio:communication-crafter`, `graphic-design-studio:graphic-design`.
@@ -54,9 +56,15 @@ Conditional neighbors: `ux-design-toolkit:ux-writer`, `ux-design-toolkit:ux-heur
 
 ## Data Visualization Toolkit
 
+For standalone layered image cards, select `data-visualization-toolkit:interactive-depth-cards`; it embeds local assets and supports accessible pointer/keyboard motion without providers.
+
 Entry: `data-visualization-toolkit:data-visualization`.
 
 Conditional neighbors: `graphic-design-studio:infographic-design`, `ux-design-toolkit:dashboard-design`.
+
+## Graphic Design
+
+For supplied images becoming stickers or exact-copy memes and posters, use `graphic-design-studio:image-stickers-and-memes`. Built-in image editing supports opaque-photo isolation; the local Pillow helper accepts existing alpha or an explicit mask for precise cutouts. For source-aware editorial, flat graphic, collage or typographic reconstruction, use `graphic-design-studio:source-image-reconstruction`. For still-image motion, the existing `graphic-design-studio:motion-design` owns native video when available, or an explicitly unrendered brief when unavailable. No separate API or external app is required by these integrated methods.
 
 ## Video Production Studio
 

@@ -5,6 +5,8 @@ description: "Design and review the visual language of short motion pieces: styl
 
 # Motion design
 
+For a short animation or loop made from one supplied still, use [still-image motion](references/still-image-motion.md). It protects subject regions and selects parallax, push in, light flow or source-consistent subject motion. A built-in video tool may execute when actually available; otherwise return an honest storyboard or shot brief. No separate app is required by that route.
+
 For a selected card stack, dock, kinetic type, image reveal, layered diagram, focus band, flow pulse or particle mark, use the [original motion pattern recipes](references/motion-pattern-recipes.md). Sixteen screenshot-informed briefs include purpose, sequence, adaptable prompt, fallback and acceptance checks; still-image evidence is distinct from playback.
 
 For a supplied motion reference or reusable prompt for a website/brand sequence, read [reference-to-motion prompting](references/reference-to-motion-prompt.md). It adds bounded original prompt patterns, source-access limits and a Sites/UX handoff without changing rendering ownership.
@@ -19,7 +21,7 @@ For a sequence built from illustrated SVG parts, use [illustrated vector sequenc
 
 For kinetic type, decide which words carry the meaning and give them enough screen time to be read at the actual display size. Review composition in motion: entrances, overlaps, visual continuity, and the moments just before and after each transition. Where one visual object persists through the piece, make its changed role legible rather than relying on movement alone. Sound cues may reinforce a visual beat, but Video Production owns audio and narration decisions.
 
-Hand off a bounded visual brief: frame sequence, approved assets and tokens, exact text, size/crop constraints, intended holds, and unresolved design choices. If the requested deliverable is a rendered or code-authored motion piece, work with `video-production-workflow:create-motion-graphics` as the production owner. Its scene implementation, timing contract, render, audio integration and technical QA remain there. For UI state transitions, focus, interruption and `prefers-reduced-motion`, use `ux-design-toolkit:motion-and-performance`; this skill can supply only visual direction for a shared asset or brand moment.
+Hand off a bounded visual brief: frame sequence, approved assets and tokens, exact text, size/crop constraints, intended holds, and unresolved design choices. For a rendered or code-authored motion piece beyond the bounded native still-image route, `video-production-workflow:create-motion-graphics` can be the production owner when allowed by the user's tool constraints. Its scene implementation, timing contract, render, audio integration and technical QA remain there. For UI state transitions, focus, interruption and `prefers-reduced-motion`, use `ux-design-toolkit:motion-and-performance`; this skill can supply only visual direction for a shared asset or brand moment.
 
 Review the actual sequence at playback speed and at key frames in its delivery size. Check reading order, continuity, transitions, crop and contrast across time; record what was observed and what remains a proposed direction. A still board, source file or contact sheet alone does not verify the final motion.
 

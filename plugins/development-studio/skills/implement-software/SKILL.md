@@ -17,3 +17,5 @@ For a broad migration that cannot land as independent behavior slices, use Work 
 6. Review the final diff and report changed behavior, actual check outputs and unresolved gates. Use [review and release](../review-and-release/SKILL.md) for a requested PR/release. A local change does not imply deployment.
 
 The preserved plan/SDD helper scripts are source assets. Read their complete call path and the admission notes before execution; no helper starts automatically on skill load. Native host task tools take precedence over historical config edits.
+
+For a specific external UI component, icon system or motion recipe, read [resource component admission](references/resource-component-admission.md) before adding code or a dependency.

@@ -66,4 +66,11 @@ Do not add a second catalog or a recurring maintenance job without need.
 
 For a plugin or skill introduction, discovery description, first-use flow, support-file route or MCP help change, apply the maintained Work Management [human and agent onboarding standard](../../references/plugin-maintenance.md#human-and-agent-onboarding). Keep purpose and selection metadata brief, explain when each support file is needed, and verify human guidance separately from installed/runtime capability.
 
+Apply `writing-quality-studio:natural-prose-editor` and its technical-clarity
+reference to authored instructions. That method owns economical wording and
+the progression from startup description through orientation and procedure to
+conditional depth. Review repetition and negative instructions while preserving
+the conditions and checks needed for the task. Verify selection and execution
+after shortening.
+
 The receiving host must supply `RECIPIENT_ROUTING_AUDIT` and `SKILL_VALIDATION_PYTHON` before the illustrated host-specific validators can run. A missing validator is reported as unverified. No validator, global hook or recurring job is installed by this method.

@@ -63,4 +63,29 @@ Use this branch when creating or changing plugin/skill discovery, first use, sup
 - **MCPs:** name each server’s job, when to call it, read/browse/write distinctions, private setup owner and a harmless verification step. Installation, tool discovery, authentication, action/resource authorization and a successful operation are separate. Unknown is a valid state. Preserve the original task through setup and reconcile uncertain mutations before retrying.
 - **Verification:** check frontmatter, all changed links, skill-table coverage, manifest/tool accuracy, and installed parity. Exercise direct/indirect help, a concrete task, a near miss, missing provider and return-user cases. Static routing review, model trials, real-host execution and human comprehension tests are distinct evidence. Claim token/cost savings only if measured; instruction size alone is a proxy.
 
+For an authorized catalog-saturation repair, separate startup metadata from
+loaded procedure size. Shortening a skill body cannot fix a catalog that contains
+too many names and descriptions. Preserve discriminating descriptions, native
+selection and complete methods. Use existing domain entrypoints, then retrieve
+specialists from the live native inventory through `scripts/skill_discovery.py`
+and read their exact entrypoints. Its lexical search needs a short task query
+chosen by the agent; it is not semantic search or proof of a completed workflow.
+
+Codex's `agents/openai.yaml` can stage a specialist with
+`policy.allow_implicit_invocation: false`: the native picker and explicit
+invocation remain, while its startup entry is omitted. Adopt this only as part
+of an authorized discovery change with an active proactive route, not as a
+substitute for discovery. Preserve existing interface fields and enabled state;
+keep domain entrypoints and routinely required quality safeguards visible.
+Other hosts need their own verified discovery behavior. Keep one source of
+truth in the existing skill metadata rather than another hand-maintained index.
+
+Before and after a staged change, compare every registered identity,
+description, enabled state and asset/preview path. Exercise fresh native turns
+that find and read specialists, including ordinary wording, explicit selection,
+help-only and a missing provider. Check startup omission warnings and available
+description text. Keep rollback records outside the shared package. New or
+updated skills should use this same domain-first organization; do not change
+policy on vendor-managed packages without their supported host flow.
+
 Native artifact-template packages, vendor snapshots and retired compatibility redirects keep their own authoring/install contracts. Improve the maintained entrypoint or owning template provider instead of creating a competing copy.

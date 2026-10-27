@@ -35,3 +35,7 @@ is verified separately. No posting API, external scheduler service, bot or unatt
 UI loop is installed.
 
 Motion-designed originals route from `short-form-video` to Video’s `create-motion-graphics` / code-authored motion storytelling method and Graphic’s `motion-design`. Original platform-only work retains an explicit authorized release basis; cadence, queue and actual publication stay in the project and Social Publishing. The motion method adds no schedule or platform mutation.
+
+Instagram methods live in `references/social-methods/instagram-*.md` under the same eight heads. `reel-hook-formulas.json` holds 26 editorial forms; `short-form-video/scripts/reel_tools.py` and `reel_research.py` own local timing/observation checks, while `social-content/scripts/caption_check.py` owns configurable caption diagnostics. All three read local input and emit JSON without file writes or network access. `tests/test_instagram_helpers.py` covers correctness boundaries. `libraries/instagram-agent/` contains MIT notices and inert source evidence; its `.py.txt` files are not runtime helpers. Never run archived tools.
+
+Instagram action/readback uses `skills/social-publishing/references/instagram-publishing.md`; no provider is bundled. Generalizable techniques are explicit source/voice checks, visual-versus-spoken promises, comparative baselines, complete conversation triage and useful source derivatives. Platform limits and account context stay dated and task-local.

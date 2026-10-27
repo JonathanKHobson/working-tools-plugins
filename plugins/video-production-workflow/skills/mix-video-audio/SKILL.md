@@ -1,6 +1,6 @@
 ---
 name: mix-video-audio
-description: Edit and verify a balanced video soundtrack from dialogue, voiceover, music, room tone and effects. Use for sync, ducking, fades, loudness or delivery mix problems.
+description: Inspect and compare audio, create procedural effects, or edit and verify a balanced soundtrack from dialogue, voiceover, music and ambience. Use for sound selection, timing, sync, ducking, loudness or mix problems.
 ---
 
 # Mix Video Audio
@@ -80,6 +80,8 @@ Report artifacts, assumptions and confidence, exact validation, unresolved risks
 ## Limits of automated audio checks
 
 For noise-floor, gating, silence, omitted-filler or splice-click findings, apply [audio measurement limits](references/audio-measurement-limits.md) before choosing repairs. Preserve unavailable measurements and listening limits rather than converting uncertain flags into a pass or automatic edit.
+
+For audio perception, semantic matching, reference comparison, event timing, procedural effects or real-sound production, read [audio perception and synthesis](references/audio-perception-and-synthesis.md). It contains the complete source-method routes and the offline adapter boundary. For an audio-only lesson, Instructional Design owns the learning sequence; use its audio-lesson-production reference, verify the sound and transcript, and report audio-only delivery without requiring a picture render.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

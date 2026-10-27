@@ -4,11 +4,13 @@ Authenticate once through the official interactive Antigravity flow, then use
 the cached account for bounded headless runs. Confirm the current account and
 model list before relying on a dated capability record.
 
+For bounded supplied-text tasks, resolve the bundled helper from the installed toolkit and use it by default, including its optional host-configured usage recording:
+
 ```sh
-agy models
-agy -p "<bounded task>" --model gemini-3.8-flash-medium --effort medium \
-  --output-format json --print-timeout 5m --sandbox
+python3 "$GEMINI_WORKER_HELPER" --model gemini-3.8-flash-medium < "$TASK_FILE"
 ```
+
+Model availability diagnostics use `agy models`. Direct CLI commands are appropriate only for diagnostics or capabilities the wrapper lacks and remain outside wrapper tracking. The helper keeps sensitive task text off command arguments and accepts it on stdin.
 
 `--output-format json` returns a completion object; `stream-json` is useful for
 monitoring tool events and token usage. Pinning an unknown model must fail
@@ -38,3 +40,10 @@ Official references:
 For supplied text requiring a no-tools guarantee, choose a technically restricted worker instead: Antigravity is tool-capable, and a prompt to avoid tools is not isolation. `--sandbox` restricts terminal execution, not every tool. Version 1.4.2 warns that `--disable-slash-commands` makes `--mode plan` ineffective; do not claim that combination protects files. Inspect stream tool events and effective permissions, recognizing that post-run checks detect rather than prevent side effects.
 
 Keep sensitive prompts off command arguments using the documented stdin protocol: send one JSON line `{"event":"user","message":{"content":"YOUR AUTHORIZED TASK"}}` to `agy --input-format stream-json --output-format stream-json --model SELECTED_ID --print-timeout 5m --sandbox`, then close stdin. Verify current CLI help before adapting; do not also pass `-p` in streaming-input mode. The init model is CLI configuration evidence; backend identity can remain unreported. Require SUCCESS, a nonempty final response and relevant source checks. Retain the running job handle and collect its completed output before claiming success.
+
+For tracked bounded work, invoke the toolkit's `scripts/gemini_worker.py`, which owns
+that stdin protocol and records one fail-open usage event for the model attempt. A
+direct `agy` invocation is intentionally untracked.
+Pass `--receipt-file /absolute/local/path.json` when a review needs CLI init-model,
+completion-model, terminal status, token fields, and event counts as separate evidence.
+The init-model is the CLI's configured request, not backend model attestation.

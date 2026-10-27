@@ -49,6 +49,8 @@ Subject-neutral editorial techniques: `edit-dialogue-footage/references/editoria
 
 Motion design: `skills/create-motion-graphics/` owns full code-authored motion storytelling as well as isolated slots. Its `references/code-authored-motion-storytelling.md` contains the semantic event-map, continuity, sound and authentic-narration production branches, acceptance and future research intake. Graphic owns visual direction through motion; UX owns interactive behavior; Social owns release. Worked media and approval evidence remain in their project.
 
+Educational animation extension: `skills/create-motion-graphics/references/anidoodle-production.md` routes the retained, inert Anidoodle source for local, reviewed 2D scenes. `runtime/thinking-orbs/` is a first-party, dependency-free adapter for optional loading or thinking states; it is not a provider, install hook or learner-outcome signal. The generic educational-motion example is a portable handoff pattern and keeps Fresh Curiosity assets in the owning private project.
+
 Conditional Remotion 2D implementation: `skills/create-motion-graphics/references/remotion-implementation-and-review.md` owns frame-derived scene timing, local asset and version checks, and review of the rendered output when Remotion is already selected. The existing motion story and art-direction contracts remain primary; this adds no runtime dependency.
 
 Motion/SVG source integration: `skills/create-motion-graphics/references/animated-diagram-production.md` owns semantic animated diagrams; `libraries/motion-diagram-methods/PROVENANCE.md` records source revisions and notices. No runtime dependency is added.
@@ -73,3 +75,7 @@ Reusable production evidence and template portability: `skills/evolve-video-work
 ## Reconciled standalone methods
 
 - `skills/loom-review-packet/` and `skills/loom-walkthrough-scripting/`: complete source-first transcript/frame packet helper and script method. Worked product details are fictional and current project evidence remains required. File-level disposition is in `docs/standalone-additions-provenance.json`.
+
+- `mix-video-audio/references/audio-perception-and-synthesis.md` routes complete Earshot/recorded-sound methods and the offline adapter. `create-motion-graphics/references/product-film-production.md` and `motion-recipe-production.md` route complete product-film and recipe methods, their local support libraries and the data-only `scripts/motion_sources.py`. Source servers, memory collection, external installers, stored-provider agents and bulk exports stay inactive. File hashes, exclusions and redistribution holds are in `docs/motion-source-admission/` and each library inventory.
+
+Generated sprite acting: `skills/create-motion-graphics/references/generated-sprite-animation.md` extends the existing generated-assets owner. Storyboards carry the action ledger; motion owns referenced strips, extraction/registration and assembly; QA verifies semantics and encoded transitions. `scripts/preview_sprite_sequence.py` and `video_workflow/sprite_sequence.py` check hash-bound registered poses and complete frame accounting; `tests/test_sprite_sequence.py` covers failures. Pets remains an optional method source with its lifecycle untouched.

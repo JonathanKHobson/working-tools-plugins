@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased: generated sprite acting
+
+- Extended the existing generated-assets method with canonical-reference strips, director/asset-maker handoffs, contact-aware acting, shared registration, complete pose timing and semantic motion review.
+- Added an offline registered-pose preview validator with hash/path/alpha checks, exact output-frame accounting, distinct artwork counts and GIF timing disclosure.
+- Adapted methods in original wording and code from Pets procedure evidence; no Pets lifecycle, source art or code is included or changed.
+
+
+## 0.4.3 local integration review, 2026-10-25
+
+- Added a conditional educational-animation route for the retained Anidoodle source, with explicit execution holds, source pinning and rights boundaries.
+- Added a small first-party Thinking Orbs adapter for optional status animation. It has no network, package installer or provider registration and remains separate from learning evidence.
+- Added a portable educational-motion example contract. Fresh Curiosity assets remain project-owned and are not bundled into the generic example.
+- This is local canonical work. The public allowlist, release receipt and package version remain pending source freeze and validation.
+
 ## 0.4.3 — canonical/public source parity
 
 - Unified the complete canonical media methods, source libraries and selected first-party research with the reviewed portable runtime and licensing files. Private generated media, host bindings and run reports remain archived outside the distributable payload.

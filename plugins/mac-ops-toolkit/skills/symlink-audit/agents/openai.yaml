@@ -2,3 +2,6 @@ interface:
   display_name: "Symlink Audit"
   short_description: "Inspect a broken or confusing filesystem redirect and distinguis"
   default_prompt: "Use $symlink-audit for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

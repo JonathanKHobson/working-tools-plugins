@@ -12,9 +12,9 @@ Authored logo direction: Use HANDOFF NOTES in Georgia with an Arial case identif
 
 The wordmark is outlined from licensed type and the supporting geometry is drawn as native SVG paths according to this identity’s source direction. No image generation was used for this typographic or geometric construction.
 
-Type decision: Georgia → Lora. Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.
+Type decision: Georgia → Atlas Reading Serif. Portable variant selected. Georgia is a separately licensed Microsoft/system font; not bundled. Open readable old-style serif substitute for proprietary Georgia or Charter source dependencies.
 
-- lora, Bold: Lora-Bold.ttf; license OFL.txt.
+- lora, Bold: AtlasReadingSerif-Bold.ttf; license OFL.txt.
 
 The SVG masters are self-contained outlined paths. Text remains scalable artwork rather than live editable text. PNG files are transparent 2× exports of the corresponding SVG, rendered with MuPDF.
 

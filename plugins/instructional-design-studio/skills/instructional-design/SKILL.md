@@ -1,6 +1,6 @@
 ---
 name: instructional-design
-description: Guide ADDIE and substantial course-design work toward a concrete learning deliverable and the relevant specialist. Clear lesson or assessment requests can use their specialist directly; simple topic summaries do not need this workflow. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Guide ADDIE and substantial course design toward a learning deliverable; use for lifecycle decisions or first-use help, with focused lessons routed directly."
 ---
 
 # Instructional Design
@@ -34,6 +34,8 @@ For mixed work, choose one owner and add a specialist only for a distinct needed
 For live group process, use Workshop Facilitator if available; otherwise provide an agenda and facilitator notes without an installation detour.
 
 ## Work contract
+
+For course-building and revision, apply [learning beyond the activity](references/addie-decisions.md#preserve-learning-beyond-the-activity) across objectives, teaching, practice, assessment and support; scenario or artifact completion alone does not establish learning.
 State an observable outcome and build the learner task that demonstrates it. Align explanation, practice, feedback, and assessment. Separate source facts, illustrative scenarios, assumptions, and proposed changes. Preserve a supplied learning goal even when simplifying its wording.
 
 When revising an existing plan, diagnose missing, misplaced, contradictory, weak, and unverified content before rewriting. A populated field is not evidence of approval. Preserve unresolved decisions and rejected alternatives in the review record instead of silently filling them.

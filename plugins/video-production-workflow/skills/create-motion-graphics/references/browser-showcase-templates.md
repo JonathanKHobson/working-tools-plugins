@@ -24,3 +24,7 @@ Choose by the communication job:
 - A readable tutorial or detailed walkthrough: a showcase template may be a poor fit; use the existing editorial/motion renderer and narration workflow.
 
 Observed controls included aspect ratios (landscape/square/portrait), media slots and reordering, loop duration, text/logo, background, keyframes and template-specific geometry. The default Showcase Stream preview arranged stock artwork around a tilted ring. These controls and sample output establish available editing affordances, not a tested production export. No personal media was uploaded during inspection. Do not use stock preview artwork as original authored work.
+
+## Other showcase and mockup resources
+
+For a specific missing shot or screen treatment, resolve the installed `work-management` root through skill discovery and consult `references/operations/resource-directory.json` and `resource-access.md`. The directory may identify additional browser-based mockup and screen-capture services; it does not establish a tested export or API Anything recipe. Use owned or licensed source media, inspect current template/export terms, and treat uploads of client or private screens as a separate privacy decision. Check motion meaning, legibility, reduced-motion needs for interactive embeds, frame/codec performance and the rendered output. A polished preview does not prove delivery quality or editable-source availability.

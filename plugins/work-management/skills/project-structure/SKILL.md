@@ -1,6 +1,6 @@
 ---
 name: project-structure
-description: Consult the owning architecture at the start of every new or continued project and when scope changes; choose or repair file boundaries only when the current work needs them. A requested one-off single-file artifact can stay single-file.
+description: "Consult the owning architecture when starting, resuming or changing a project; choose file boundaries only for current work, including one-file artifacts."
 ---
 
 # Project Structure
@@ -21,6 +21,8 @@ For a visual addition or change to an existing product, locate the related shipp
 For a repair to an existing artifact or workflow, identify the requested correction and the behavior, representation, interface or output contract that must survive it. Treat a missing input, unsupported dependency or implementation difficulty as a gap to resolve, not permission to redefine success. Check the proposed result against the original request and a working peer or accepted baseline before editing. A fallback must preserve the required contract or have current authorization for the difference; do not fabricate inputs to make it appear complete. Keep acceptance checks tied to that contract, including the affected failure case, rather than weakening them to approve the workaround. An explicitly requested redesign can change the baseline. If the contract cannot be met, report the concrete gap and obtain the missing decision only when needed. For a selected failure of this kind, use [repair contract review](../evidence-review/references/feedback-to-method-review.md#repair-contract-review).
 
 When planning substantial work or revisiting a material scope change, check whether the requested outcome needs a stronger professional method, better primary inputs or a clearer acceptance test. Keep this in the existing plan; do not create a separate ambition artifact. Preserve the requested deliverable and budget, use available tools, and stop when the agreed checks pass. If a prompt needs a deliberate ambition rewrite, use `prompt-playbook-studio:prompt-refinement` and its ambition reference when installed. This optional handoff does not block project work when absent.
+
+If the proposed structure or implementation depends on an unclear problem or untested cause, use the existing [tool-workflow routing](../tool-workflow-routing/SKILL.md) path to problem framing before building scaffolding. Keep the user's outcome fixed; settle only the consequential uncertainty, then implement the smallest sufficient structure. A clear task needs no new diagnostic phase.
 
 For a new expandable project, establish only boundaries the current deliverable uses: entry/setup, domain behavior, presentation, and assets or configuration as needed. Keep generated files and third-party assets distinct from source. For an existing project, split only where a current change is obscured or risky; move behavior in small steps and check imports and the affected path.
 

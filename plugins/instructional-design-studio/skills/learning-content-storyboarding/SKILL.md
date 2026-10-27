@@ -8,6 +8,8 @@ description: Transform approved source material into lesson scripts, screen-by-s
 Name the learner action this asset supports. Extract source claims with locators before rewriting. Preserve exact quotations, technical conditions, and policy boundaries. Treat old product screenshots and instructions as dated evidence; verify the current interface for a new walkthrough.
 
 ## Build
+
+Apply [learning beyond the activity](../instructional-design/references/addie-decisions.md#preserve-learning-beyond-the-activity) while drafting: teach the underlying concepts and reasons as well as actions, and preserve their later use in recaps and resources.
 Organize around a decision or task rather than the source document's headings. State the purpose in ordinary language, introduce necessary terms in context, show an example, and give the learner something to do. Preserve conceptual difficulty that belongs to the learning goal while removing unrelated navigation and jargon.
 
 For a storyboard use: screen/scene ID, outcome, visible content, narration, learner action, feedback or expected state, source, media/access needs, and author notes. Put explanations close to the relevant visual. Keep full transcripts and captions available even when simplifying slide text.
@@ -18,13 +20,17 @@ For a one-page science explanation or learning sheet, use the conditional [conde
 
 For recorded software lessons, keep narration, screen actions, exact prompts, optional branches, and production notes distinct. Use [course media integration](../course-production-handoff/references/course-media-integration.md#reconcile-source-script-and-supporting-material) to reconcile the current handout, established workspace, and later-task resources. Route a requested comparison with the instructor's earlier delivery to Writing Quality Studio's `natural-prose-editor`; do not freeze old script recommendations into new source requirements.
 
+For a substantial recorded lesson, an instructor reporting missing detail, or a draft-to-delivery revision, use [instructor input and recording-ready content](../course-production-handoff/references/course-media-integration.md#instructor-input-and-recording-ready-content). It adds the instructor's reasoning, source-backed examples and runnable demonstration details before a voice pass. Reuse supplied answers; a typo fix or short settled passage does not require this loop.
+
 ## Review
 Read instructions from a novice's perspective. Can they begin, recognize a correct intermediate state, recover, and finish? Check pacing by a timed read or rehearsal and verify cited source claims. For rendered documents, decks, or interfaces perform visual QA with 3–8 named anchors and record what was inspected.
 
 Use [production guide](../course-production-handoff/references/production-guide.md) for asset states and [learning science](../instructional-design/references/learning-science.md) for multimedia cautions. Return the actual script/storyboard/handout plus source and production notes; optional rendering tools are not prerequisites for a complete text artifact.
 
 
-When a learning artifact deliberately uses a writing voice, read [writing voices for learning content](references/writing-voices.md). Preserve the learning design and source truth; the writing owner supplies the chosen guide and examples.
+For teaching narration, use [writing voices for learning content](references/writing-voices.md#collaborative-teaching-voice) to preserve the intended collaborative or other approved teaching relationship throughout the script. When deliberately selecting a writing voice, use the same reference. Preserve the learning design and source truth; the writing owner supplies the chosen guide and examples.
+
+For a cited short audio course, use [audio lesson production](../course-production-handoff/references/audio-lesson-production.md) to connect source reading, disagreement, lesson cards, practice and narration. Preserve the requested medium and learner action.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

@@ -1,6 +1,6 @@
 ---
 name: graphic-design
-description: Create or revise brand guides, visual identity kits, posters, flyers, static advertisements, video thumbnails, information graphics, and promotional graphics; coordinate message, art direction, composition, imagery, and output review. Use for a complete graphic or an integrated redesign, not product UI or publishing operations. Also use for graphic design studio capabilities or getting-started questions.
+description: "Create and review posters, thumbnails, information graphics and visual identity kits from a brief; use for full graphic work or first-use help, not product UI."
 ---
 
 # Graphic design
@@ -30,6 +30,8 @@ For an article or evidence source adapted into a visual explanation, briefing de
 | Static information graphic or composed explainer | [infographic-design](../infographic-design/SKILL.md) |
 | Placement, balance, dynamic layout, type, color | [composition-and-typography](../composition-and-typography/SKILL.md) |
 | Image selection, cutouts, effects, depth, text over art | [graphic-asset-compositing](../graphic-asset-compositing/SKILL.md) |
+| Source-aware editorial, flat-graphic or collage reconstruction of a supplied still | [source-image-reconstruction](../source-image-reconstruction/SKILL.md) |
+| Sticker, reaction cutout, exact-caption meme or poster-like shareable from a supplied image | [image-stickers-and-memes](../image-stickers-and-memes/SKILL.md) |
 | Video thumbnail, title/thumbnail concepts, new size, crop, channel, or campaign variant | [campaign-format-adaptation](../campaign-format-adaptation/SKILL.md) |
 | Motion styleframes, kinetic type, visual continuity, or critique across beats | [motion-design](../motion-design/SKILL.md) |
 | Critique, polish, teaching a design decision | [graphic-design-review](../graphic-design-review/SKILL.md) |
@@ -41,11 +43,11 @@ For a new direction, quick thumbnails can resolve genuinely different arrangemen
 
 When repeated aesthetic revisions fail, reconsider the construction method or give a capable worker a bounded request to produce an actual alternative artifact; another critique alone may not resolve the problem. Choose the method for the image's job while following current host image-tool requirements. Once the user accepts a specific version with known tradeoffs, preserve that version and record those limits; do not restart redesign merely because a later pass can imagine more polish.
 
-Choose a tool suited to the deliverable and the user's workflow. Native design files, Figma, editable SVG, or reproducible page-layout source are valid. Use the available image-generation/editing tool for imagery according to its current instructions. Do not require an extra service or key solely to use this plugin.
+Choose a tool suited to the deliverable and the user's workflow. Native design files, Figma, editable SVG, or reproducible page-layout source are valid. For the selected reconstruction, sticker or meme routes, the host's built-in image capability can execute edits when available; the bundled Pillow helper handles bounded local raster composition. A strictly offline request uses the helper's supported modes and requires alpha or a supplied mask for a subject cutout. Do not require a separate service, app or key solely to use these routes.
 
 When choosing a repeatable image approach or preparing an editable generation prompt would help, read [guided image workflows](references/image-workflows.md). The shared library plans the handoff when available on this host; official `imagegen` remains the execution owner. For an existing editable SVG, vector icon, or logo system, work in the source instead.
 
-Translate the chosen concept into the generation brief: meaningful focal relation, object geometry, materials/light, crop and type hierarchy. For depicted physical objects, use the [spatial consistency checks](../graphic-asset-compositing/references/spatial-contact.md#generated-object-consistency); polish and texture cannot excuse an impossible relation. Route actual image edits through `imagegen` when available, following its reference-image instructions; keep exact wording and real screen evidence under direct control. Preserve approved assets and apply new art direction to future work unless the user requests revisions to existing outputs.
+Translate the chosen concept into the generation brief: meaningful focal relation, object geometry, materials/light, crop and type hierarchy. For depicted physical objects, use the [spatial consistency checks](../graphic-asset-compositing/references/spatial-contact.md#generated-object-consistency); polish and texture cannot excuse an impossible relation. Route built-in image edits through `imagegen` when available, following its reference-image instructions; keep exact wording and real screen evidence under direct control. Preserve approved assets and apply new art direction to future work unless the user requests revisions to existing outputs.
 
 ## Finish
 

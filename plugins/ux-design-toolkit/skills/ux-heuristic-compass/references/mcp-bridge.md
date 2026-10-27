@@ -75,12 +75,14 @@ If native UI is unavailable, use the text fallback policy and record that fallba
 ### Full Report
 
 1. Prepare source evidence.
-2. Run `audit_ux_surface` with the chosen platform and profile scope.
-3. Resolve any human-loop gates.
+2. Run `audit_ux_surface` with the chosen platform and all 14 heuristics by default: omit scope parameters or set `optional_profile_mode="all_optionals"`. Use `core_only` or `scoped` only for an explicit user request to narrow the rubric, never for an agent-selected relevance shortcut. Retain every heuristic and explain genuinely inapplicable checkpoints with N/A reasons. Set `hil_enabled=false` when no material user clarification is needed; AI agents evaluate the interface evidence.
+3. Follow `completion_contract`: inspect and rate every remaining applicable checklist item, or document genuine out-of-scope N/A with its reason. Continue to the full grade and HTML; a partial artifact is interim output. Only a concrete access blocker justifies stopping incomplete. Resolve human-loop gates only when enabled and relevant.
 4. Use `report_ready_payload` or the full scored audit payload.
 5. Run `validate_ux_report_payload`.
-6. Only if ready, call `generate_ux_audit_report`.
-7. Share artifact paths and summarize what was generated.
+6. Only if ready, call `generate_ux_audit_report`, keeping the HTML viewer enabled. Resolve report identity before rendering: explicit user choice first, then the evaluated site/client/project identity, then an eligible private host default. Prefer `report_brand_path` for a supplied or source-grounded site/client binding; do not apply an unrelated host brand to a client report. A minimal local binding has the actual logo and optional CSS, with optional font/decorative assets. `auto` loads the configured host default, not an automatic site-brand detector. Use `report_brand="generic"` only when requested or when the correct identity assets cannot be resolved, and disclose that limitation. Identity changes never reduce report depth. For an explicitly requested stakeholder/developer export without the assistant handoff prompt, pass `include_remediation_prompt=false`. This omits the copy prompt and its navigation/control/print content across HTML, Markdown and PDF while retaining the complete assessment and recommendations. Leave it enabled by default.
+7. Check `artifact_delivery.primary_artifact.path` (or `viewer_path` on older runtimes), verify that the HTML file exists, and open it in the host's native file panel. Give that clickable absolute HTML path as the primary report link in the final response. Summarize the findings and state full versus partial evidence coverage. A payload JSON reference, local generation, or a Markdown summary does not establish HTML delivery; generated artifacts also do not establish rendered visual QA.
+
+Keep the main supplied findings in `payload.findings` with canonical checklist IDs and evidence refs before validating. The renderer retains that array, including in partial reports; it cannot incorporate a separate prose report automatically. Preserve the detailed issue, impact, recommendation and acceptance checks rather than delivering only the scored checklist. Never fill unknown ratings to earn a full label.
 
 ### Advanced Agent Audit
 

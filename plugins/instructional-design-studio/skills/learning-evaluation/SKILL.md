@@ -8,6 +8,8 @@ description: Design or analyze a course pilot and evaluation using learner perfo
 State the decision the evaluation should inform: revise an activity, remove a barrier, choose delivery, or assess transfer. Use existing data where appropriate before proposing additional collection.
 
 ## Evidence plan
+
+Use [learning beyond the activity](../instructional-design/references/addie-decisions.md#preserve-learning-beyond-the-activity) to check whether the measured response represents the intended understanding or transferable capability; completion of the practice vehicle alone is insufficient.
 Separate reach/enrollment, participation/completion, satisfaction, immediate performance, delayed retention, transfer, and organizational outcomes. A positive survey is not evidence of mastery. A before/after difference without a comparison is not automatically caused by instruction.
 
 A posttest alone may show current proficiency, not improvement caused by the course. Self-reported confidence or retrospective ratings are not direct performance evidence. Record simultaneous coaching, policy, tool, or workflow changes when interpreting organizational outcomes.

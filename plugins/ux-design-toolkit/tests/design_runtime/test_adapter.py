@@ -67,6 +67,29 @@ class AdapterTests(unittest.TestCase):
             with self.assertRaisesRegex(engine.RuntimeErrorWithMessage, "architecture"):
                 engine.verified_engine(self.plugin)
 
+    def test_source_only_runtime_reports_explicit_overlay_setup(self):
+        self.binary.unlink()
+        with self.assertRaises(engine.RuntimeErrorWithMessage) as failure:
+            engine.verified_engine(self.plugin)
+        message = str(failure.exception)
+        self.assertIn("executable is missing:", message)
+        self.assertIn("Source-only packages", message)
+        self.assertIn("reviewed runtime overlay", message)
+        self.assertIn(str(self.plugin / "docs" / "design-runtime.md"), message)
+        self.assertIn("Design methods remain available", message)
+        self.assertIn("no download was attempted", message)
+        self.assertNotIn("not executable:", message)
+
+    def test_present_nonexecutable_runtime_reports_permissions_separately(self):
+        self.binary.chmod(0o600)
+        with self.assertRaises(engine.RuntimeErrorWithMessage) as failure:
+            engine.verified_engine(self.plugin)
+        message = str(failure.exception)
+        self.assertIn("executable is not executable:", message)
+        self.assertIn("restore its executable mode", message)
+        self.assertIn("refusing to execute", message)
+        self.assertNotIn("executable is missing:", message)
+
     def test_private_environment_and_timeout(self):
         with patch.dict(os.environ, {"OPENAI_API_KEY": "must-not-pass", "AWS_SECRET_ACCESS_KEY": "must-not-pass", "IMPECCABLE_BROWSER": "/tmp/untrusted"}):
             env = engine.private_env(self.plugin / "runtime" / "impeccable" / "skill", self.plugin / "scripts" / "design_runtime.py")

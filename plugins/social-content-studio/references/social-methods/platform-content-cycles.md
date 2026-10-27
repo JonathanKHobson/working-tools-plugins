@@ -233,3 +233,7 @@ action and readback. An uncertain result calls for thread reconciliation before 
 Preparation may continue when sending is unavailable; name the exact access/action
 gap. Only a requested recurring review belongs in an existing automation; these
 methods themselves create no timer, watcher, engagement bot or inbox scraper.
+
+## Instagram cycle
+
+Select the actual requested task from the [Instagram coverage](platform-coverage.md#instagram), then use its complete method. A typical authorized sequence is evidence/voice → observed pattern or original idea → format-specific draft → produced/reviewed asset → native action/readback → comparable account observations. Steps can be requested independently; do not inflate one caption into a campaign. Researching examples never authorizes engagement, and planning a week never creates a schedule.

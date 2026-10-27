@@ -16,3 +16,7 @@ No OpenAI execution-provider source, private account data, user corpus, installe
 
 
 Version0.2.0 standalone additions: first-party native-macOS/safe-install/local-app-pipeline methods/template/scripts retain the author MIT grant. Official Apache source skills retain their included LICENSE.txt. Code Intelligence is Apache-2.0 with exact pinned license and attribution. Systematic Debugging retains all four source MIT notices. Go original code retains its upstream MIT notice; the810cached third-party documents and populated index are not distributed.
+
+## REA method integration
+
+REA 6.5.0, [morluto/rea](https://github.com/morluto/rea/tree/3b79af28e80785afce9f5998d8f03289402a1847), copyright 2026 morluto, retains the [MIT license](libraries/rea-6.5.0/LICENSE). The complete shipped method and six guides plus root technical guides are incorporated with recorded link/acquisition adaptations in [the import inventory](docs/rea-imports.json). First-party integration retains the package's existing license scope. The executable REA runtime and optional engines are external dependencies, not redistributed by this package.

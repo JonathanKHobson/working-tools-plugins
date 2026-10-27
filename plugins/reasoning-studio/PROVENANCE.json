@@ -38,8 +38,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "output_sha256": "7d914ff5be526b0e13ff4178220e8dbb5e16e96db79973589c14736099d9ada8",
-      "bytes": 738,
+      "output_sha256": "7c5ad05cef00591f41561845d2ae7313ec78547b45849980a69053cee23bfd33",
+      "bytes": 1285,
       "source_sha256": null,
       "change": "Document portable root MCP declaration in 0.2.3; preserve prior release history.",
       "edition_license_scope": "CC-BY-SA-4.0",
@@ -68,8 +68,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "f5c41bb258118bec78b6965d3aea4d202d1329b1efea1141ad1f544b5e8e5dc1",
-      "bytes": 22096,
+      "output_sha256": "a5a6634acfa1d87e611752171ec93342874f037c334ceb031408a104796f4a21",
+      "bytes": 23188,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -140,10 +140,10 @@
     {
       "path": "docs/project-map.md",
       "source_sha256": "7beb932f668a469e37226d9e9597b403584aa6c4f6947c43cbfdc3d7856b1f48",
-      "output_sha256": "00cab62ac9f6420d7d4705f5a376434d19a6ee14c20bffe4b3e67160e56ade07",
+      "output_sha256": "4920d6f7593b1e29acec34c22b23c8e253e6997c966301fc0e6edb39dd23d984",
       "disposition": "transformed",
       "change": "Identify portable root MCP discovery and retained Codex and Claude compatibility registrations.",
-      "bytes": 2045,
+      "bytes": 2491,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "public_maintenance": "Correct the user-approved display name to Reasoning Toolkit; stable identifiers and operative behavior retained."
@@ -508,10 +508,10 @@
     {
       "path": "skills/critical-reasoning/SKILL.md",
       "source_sha256": "8dfd0b20368ae046432ce4d81a1fcb0eba9e56ef7eddb2bca8e2e6b100ff4b79",
-      "output_sha256": "8dfd0b20368ae046432ce4d81a1fcb0eba9e56ef7eddb2bca8e2e6b100ff4b79",
+      "output_sha256": "a5a358138394641d28f4a18a63a91dba940943a6ec0275c6330915f205722c66",
       "disposition": "byte-identical",
       "change": "none",
-      "bytes": 4790,
+      "bytes": 5192,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
     },
@@ -553,8 +553,8 @@
       "path": "skills/pattern-picker/agents/openai.yaml",
       "source_relative": "standalone/pattern-picker/agents/openai.yaml",
       "source_sha256": "9fde5a4a5f6770ca6e2e27610774d0f80f9c4ed9db9da9a08e6cd8b60b3b3681",
-      "output_sha256": "c158ce389803ecfa0145583dafb4842bb47950b2f64263166142314c29a3e8f7",
-      "bytes": 285,
+      "output_sha256": "e9a3fc7ac7b2be8935038e089471254cd4c1df37a805a63b6d93d58d06d9001c",
+      "bytes": 329,
       "rights": "CC-BY-SA-4.0: Jonathan Kyle Hobson original contribution/adaptation",
       "license_notice": "LICENSE and THIRD_PARTY_NOTICES.md",
       "status": "modified",
@@ -596,6 +596,27 @@
       "bytes": 2231,
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode"
+    },
+    {
+      "path": "skills/alternative-perspectives/agents/openai.yaml",
+      "source_relative": "skills/alternative-perspectives/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "path": "skills/critical-reasoning/references/positive-decisions.md",
+      "source_relative": "skills/critical-reasoning/references/positive-decisions.md",
+      "source_sha256": "d55e2047a772508dcf5b86f16516225bf1938e98941e97e6de831a3b614d4b1d",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "d55e2047a772508dcf5b86f16516225bf1938e98941e97e6de831a3b614d4b1d"
+    },
+    {
+      "path": "skills/socratic-questioning/agents/openai.yaml",
+      "source_relative": "skills/socratic-questioning/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned portable integration/configuration/documentation or exact retained upstream bytes; see LICENSE-SCOPE.json and retained notices.",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     }
   ],
   "excluded_source_files": [

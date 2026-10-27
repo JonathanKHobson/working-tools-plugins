@@ -12,9 +12,9 @@ Authored logo direction: Use the full Georgia masthead with a thick-over-thin ru
 
 The wordmark is outlined from licensed type and the supporting geometry is drawn as native SVG paths according to this identity’s source direction. No image generation was used for this typographic or geometric construction.
 
-Type decision: Georgia → Lora. licensed editorial serif adaptation, not exact Georgia
+Type decision: Georgia → Atlas Reading Serif. licensed editorial serif adaptation, not exact Georgia
 
-- lora, Bold: Lora-Bold.ttf; license OFL.txt.
+- lora, Bold: AtlasReadingSerif-Bold.ttf; license OFL.txt.
 
 The SVG masters are self-contained outlined paths. Text remains scalable artwork rather than live editable text. PNG files are transparent 2× exports of the corresponding SVG, rendered with MuPDF.
 

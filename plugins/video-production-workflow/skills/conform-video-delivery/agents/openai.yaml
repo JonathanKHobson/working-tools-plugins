@@ -3,3 +3,6 @@ interface:
   short_description: "Prepare verified video variants for delivery"
   brand_color: "#6D5DFB"
   default_prompt: "Use $conform-video-delivery to create verified delivery variants from a high-quality master without treating stale platform presets or one-size-fits-all crops as truth."
+
+policy:
+  allow_implicit_invocation: false

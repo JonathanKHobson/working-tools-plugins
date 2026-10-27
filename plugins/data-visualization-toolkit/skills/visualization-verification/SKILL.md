@@ -33,6 +33,8 @@ Use relevant acceptance scenarios as review cases in the existing task, not a ne
 | A lay-reader view exposes MATTR, internal trait IDs or unexplained 0.734 | Accurate everyday labels and appropriately rounded values are visible; exact method and precision remain available through Details | The reader must decode jargon to understand the primary answer, or rounding changes the conclusion |
 | Several models agree a scale is valid | Consensus is labeled a review judgment or hypothesis; any validity claim cites relevant empirical evidence and limits | Consensus is presented as measured validity or improved human performance |
 
+For comparative dashboards, also apply the [construction and interaction checkpoint](../live-dashboards/references/exploration-state-and-comparison.md#comparative-dashboard-construction-and-review). Verify a shared-time comparison, consistent filter scope, hover versus selection, and any claimed motion in the actual rendered states. Record partial user acceptance separately from a reviewer pass.
+
 Report which rendered checks passed and which remain untested. Do not claim reduced cognitive effort, comprehension improvement or empirical validity from a checklist, screenshot or model vote alone.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->

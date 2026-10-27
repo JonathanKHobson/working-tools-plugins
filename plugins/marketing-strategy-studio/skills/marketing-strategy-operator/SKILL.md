@@ -1,6 +1,6 @@
 ---
 name: marketing-strategy-operator
-description: Define ICPs, customer fit, audiences, personas, positioning, offers and channel priorities, or coordinate a strategy spanning marketing workflows. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Define audiences, positioning, offers and channel priorities, or coordinate a broader marketing strategy; use for strategy work or first-use help."
 ---
 
 # Marketing strategy operator
@@ -45,6 +45,8 @@ Read the selected upstream procedure and required support in full. External acco
 For local marketing concepts, frameworks, activities or source definitions, consult [the scoped Atlas library](../../references/atlas-library.md) only when `atlas-marketing` is actually exposed and a scoped lookup succeeds. Use its relevant-only search and full-source selection before adaptation; human browsing and assistant retrieval share the same source records. Otherwise continue with the complete local methods and state that Atlas was not consulted.
 
 When the deliverable includes copy or a writing brief, use `writing-quality-studio:voice-and-style` if installed and exposed; otherwise use the complete local [copy-editing](../../libraries/marketingskills/skills/copy-editing/SKILL.md) method and current user voice preferences. If available, use it for selectable Writing Voice Lab templates and contextual blends. Honor named choices; otherwise vary suitable structure/openings by audience, awareness, platform, proof and purpose. V01 Decision first, V05 Skeptical investigator, V09 Plain-language service, V15 Spoken invitation, V22 Reflective critic and V23 Conversational micro-essay offer different mechanisms. Use ethical relevance, honest curiosity and supported proof; no invented scarcity, urgency, consensus, guarantees or promised conversion lift. Keep the current user’s approved brand identity and voice preferences stable across outreach and articles; do not assume a named person’s tone for a new recipient. Template choice does not authorize sending or publishing.
+
+For startup idea pressure tests, competitor gaps, business plans, early operating assumptions or unit-economics scenarios, use the [complete Founder business methods route](../../references/strategy-methods/founder-business-methods.md). It selects one of eleven incorporated procedures and requires the governing evidence/host adapter; synthetic buyers do not establish demand or viability.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

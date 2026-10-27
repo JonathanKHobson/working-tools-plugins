@@ -3,3 +3,6 @@ interface:
   short_description: "Diagnose and set up the required video tools"
   brand_color: "#6D5DFB"
   default_prompt: "Use $install-video-toolchain to establish a minimal, diagnosed, license-aware production environment and add optional tools only when a project requires them."
+
+policy:
+  allow_implicit_invocation: false

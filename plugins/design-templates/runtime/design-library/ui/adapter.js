@@ -27,7 +27,7 @@
     noun: "template",
     relatedLink: {
       label: "Video Library ↗",
-      url: "https://activity-atlas.jkylehobson.chatgpt.site/video-library/"
+      url: "https://library.jkylehobson.chatgpt.site/video-library/"
     },
     createLabel: "Create template",
     createTitle: "Create a design template",

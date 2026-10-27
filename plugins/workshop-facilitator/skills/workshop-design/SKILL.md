@@ -1,6 +1,6 @@
 ---
 name: workshop-design
-description: Create a complete workshop agenda and facilitator run sheet for a defined group outcome, including timing, participation, materials, and contingencies. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Build a timed workshop agenda and facilitator run sheet for a defined group outcome; use for session design or first-use help, with narrow tasks routed directly."
 ---
 
 # Workshop Design

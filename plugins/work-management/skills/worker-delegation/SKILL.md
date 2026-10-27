@@ -19,7 +19,7 @@ Select by the triggers below. Read the complete chosen procedure and its require
 - [Task/model orchestration](../../libraries/focus-ops-manager/references/skill-mcp-orchestration.md) — before substantial delegation; select a bounded lane, model and evidence contract.
 - [Subscription offload](../../libraries/focus-ops-manager/references/subscription-offload.md) — when using an external subscription worker; dispatch, retain the job, and verify its return.
 - `claude-toolkit:claude-operation` — when Claude is the selected worker; start with the official subscription CLI, verify account/model, and use its bounded login recovery before considering Desktop or Web.
-- [Provider toolkits and model fit](references/cli-model-routing.md) — when selecting Gemini/Antigravity, comparing CLI workers, or deciding whether a local model is useful; verify the host capability record and retain model/output receipts.
+- [Provider toolkits and model fit](references/cli-model-routing.md) — when selecting Gemini/Antigravity or DeepSeek/NVIDIA, comparing CLI workers, or deciding whether a local model is useful; verify the host capability record and retain model/output receipts.
 - [Bounded worker supervision](../../libraries/focus-ops-manager/references/worker-supervision.md) when an active worker drifts, repeats a failure or returns uncertain completion evidence.
 - [Reversible evidence packing](references/reversible-evidence-packing.md) only when a large local tool result or log must be shortened for a worker handoff.
 
@@ -28,6 +28,10 @@ Select by the triggers below. Read the complete chosen procedure and its require
 1. Start from the native goal for the requested outcome; create it under the receiving user’s explicit request only if no unfinished goal exists, and reuse an unfinished goal for its follow-up work. Define scope, allowed side effects, ownership, stop condition and return evidence for each independent useful lane. Native goals are managed by the lead, not duplicated by workers.
 2. Read the full orchestration method and the chosen provider guide. Check capability and subscription/runtime availability before dispatch.
 3. Continue independent lead work. Inspect the completed result, distinguish advice from evidence, reconcile conflicts and verify the combined deliverable.
+
+Give a fresh worker the current accepted outcome, relevant source excerpts, owned files, necessary constraints and acceptance checks. Include the exact applicable skill path or selected method when it governs that assignment; do not copy the whole plugin catalog or make each worker rediscover the same context. Omit brainstorm history and rejected alternatives unless they prevent a plausible error. Correct a superseded instruction explicitly when that worker already received it. A new worker assigned Y does not need the history of an unrelated X.
+
+Check the whole brief, including examples and acceptance criteria, for discarded history. Define success in terms of the accepted task. For a macOS installation-copy assignment, “accurate steps matching the current Quickstart” is sufficient; the checks need not list unrelated ideas that were never assigned to this worker.
 
 ## Deliver and verify
 

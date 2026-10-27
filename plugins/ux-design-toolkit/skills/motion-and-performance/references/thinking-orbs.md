@@ -1,0 +1,13 @@
+# Indeterminate orb status
+
+Use when a selected product needs one of Thinking Orbs' nine canvas states. It is an optional status visual, not proof of reasoning, progress, truth or success. Keep the real application state authoritative and show useful visible status text; announce meaningful changes once rather than every frame. Never invent a percentage, completion or quality signal from the animation.
+
+Source: [Jakub Antalik's MIT library](https://github.com/Jakubantalik/thinking-orbs/tree/de85557ca220332586d070d8788c0e1d6e877a0d). Video Production Studio retains the reviewed complete nine-state pure engine and dependency-free `runtime/thinking-orbs/orb-canvas.mjs`, notices, unchanged TypeScript and conversion hashes. Use that available local runtime for a shared film/interface project; otherwise review the exact package selected in the product. This reference adds no dependency, React requirement or install instruction. The original React component and this Canvas adaptation are separate consumers with distinct tests.
+
+Choose a state that describes an actual operation: working, searching, solving, listening, connecting, weaving, composing, breathing or shaping. Keep labels literal when a metaphorical state could confuse. The tuned 20 and 64 pixel presets differ in geometry; verify both at intended scale and light/dark surface. Do not enlarge a tiny avatar into a hero without a new composition review.
+
+Use `drawAt` for a deterministic static frame or film capture. Use `mountOrb` for a live browser element and dispose it before replacement/unmount. Recreate after state, size, theme or speed changes. The adapter supplies a representative reduced-motion frame, initially hidden/offscreen gates, a live preference listener and cleanup. The app still owns cancellation, error/retry, operation identity, focus, accessible status and any explicit pause requirement. Avoid duplicate narration when a decorative canvas sits next to the same visible text.
+
+Test in the actual browser: initial hidden mount, offscreen entry/exit, tab visibility, live reduced-motion changes, two independent instances, rapid state replacement, teardown and missing Canvas support. Confirm no owned animation frame or observer survives disposal. A complete static status must remain when the effect is unavailable. Pixel repeatability in one browser does not establish identical pixels across browsers or devices.
+
+Code admission and upstream dependency review remain with Master Security Toolkit; time-based film export remains with Video. A clean deterministic scan is not runtime security or accessibility certification.

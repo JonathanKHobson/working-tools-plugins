@@ -1,13 +1,13 @@
 ---
 name: social-content
-description: Draft grounded social posts, LinkedIn hooks, comments and reply threads from source facts and voice samples. Use the dedicated calendar, channel-adaptation, short-video, professional-proof, editorial-review, preview or publishing skill for those specific tasks. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Draft one grounded social post, caption, comment, reply thread or one-person DM from supplied facts and voice; use for copy or first-use help, with publishing separate."
 ---
 
 # Social Content
 
 If asked what Social Content Studio can do or how to start, use the [human guide](../../README.md) and [task map](../../docs/use-case-map.md) to distinguish drafting, adaptation, calendar, preview, review, and authorized publishing. Offer one first request with its source facts and expected draft or verified platform state. For a specified request, route directly; do not replay onboarding or equate a draft with publication.
 
-Make a usable channel draft from actual project facts, a voice sample, and a clear reader action. This skill owns one post or a supplied comment/reply thread. Profile positioning belongs to Career; campaign, calendar, carousel, short video and publishing requests use the focused owners below. Do not force a content matrix for a one-post request.
+Make a usable channel draft from actual project facts, a voice sample, and a clear reader action. This skill owns one post or a supplied comment/reply thread. LinkedIn/career profile positioning belongs to Career; Instagram profile copy uses professional-social-proof; campaign, calendar, carousel, short video and publishing requests use the focused owners below. Do not force a content matrix for a one-post request.
 
 ## Routing
 
@@ -50,6 +50,11 @@ When it is available, use `writing-quality-studio:voice-and-style` before substa
 For LinkedIn posts or hook options (li-post/li-hooks intent), read [LinkedIn writing](../../references/social-methods/linkedin-writing.md) and its full 21-form library. For comments/reply threads (li-comment/li-reply), read [LinkedIn engagement](../../references/social-methods/linkedin-engagement.md). These draft methods do not authorize publication or expand the existing attended-action policy.
 
 For a trend/current-event opening, read [verified trend selection](../../references/social-methods/linkedin-trend-research.md); Research owns the evidence search, and an event is not automatically a trend or the author's opinion.
+
+
+## Instagram captions and conversations
+
+For Instagram captions, search-aware copy or caption linting, read [Instagram writing](../../references/social-methods/instagram-writing.md). For comments, reply triage or a one-person DM, read [Instagram engagement](../../references/social-methods/instagram-engagement.md). These methods also supply useful cross-platform choices after checking the target surface. Profile audits use professional-social-proof; niche Reel research and hooks use short-form-video. Drafting grants no sending permission.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

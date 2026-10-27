@@ -1,4 +1,7 @@
 interface:
   display_name: "Channel Adaptation"
-  short_description: "Repurpose a grounded source into platform-fit posts, threads, ne"
+  short_description: "Adapt sources into posts, carousels and Stories"
   default_prompt: "Use $channel-adaptation for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased local integration, 2026-10-17
+
+- Integrated the thirteen reviewed Instagram Agent use cases into the existing eight skill owners: Reels/research, captions, profile proof, conversations, Stories/carousels/repurposing, planning and measured review.
+- Added 26 editorial hook forms and three read-only helpers for timing, comparable observations and configurable caption checks. Replaced unsupported predictive/authorship scores, destructive text normalization, global state paths and hardcoded platform assumptions.
+- Preserved MIT attribution and exact inert sources, with full per-file disposition. Corrected stale external AIHumanizer dependency metadata. Local validation and native installation receipts live in the integration record; no public release or new Instagram connection is implied.
+
 ## 0.3.0
 
 Include complete social prose revision and channel adaptation.

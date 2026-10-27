@@ -1,0 +1,7 @@
+# Artwork preparation
+
+Use supplied art first when it fits the card. If the user needs original art, the built-in ChatGPT image tool may create two separate assets. This route does not need a separate image API or external app.
+
+Prepare an environment-only portrait image with full bleed, subject-free center, an explicit light direction, and a quiet band where live text will sit. Prepare the subject as a separate full-silhouette transparent PNG, matching the environment's light and palette. Ask for generous clear margin around protruding tips. Exclude frame, labels, numbers, logos, watermarks, checkerboard simulation and extra figures from both assets. Describe the subject and setting specifically for the user's brief rather than reusing an example character or scene.
+
+Inspect actual alpha values and the image edges. A painted checkerboard is not transparency. If the environment has partial alpha, place it over an opaque local base. Retain the original generated files, final prompts, tool provenance, and any supplied asset terms in the owning project. The builder normalizes PNG/JPEG/WebP while preserving alpha and strips metadata from embedded copies; it does not replace the editable masters. Check background overscan and subject edges at extreme tilt, flip, and exploded view. Keep meaningful names, rules, statistics and other statements as live text with source records where appropriate.

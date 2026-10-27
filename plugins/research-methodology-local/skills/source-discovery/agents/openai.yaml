@@ -2,3 +2,6 @@ interface:
   display_name: "Source Discovery"
   short_description: "Find and assess sources for a bounded research question with exp"
   default_prompt: "Use $source-discovery for the matching task and load its complete relevant procedures."
+
+policy:
+  allow_implicit_invocation: false

@@ -16,3 +16,7 @@ The source's historical file observations, handoff claims and simulated checks s
 
 
 Version0.2.0 retains full original standalone procedure/support closure through `docs/standalone-imports.json`. Recipient host and synthetic context replace exact private author/client source units; no private approval, account, path or provider capability is transferred.
+
+## Local HTML clipboard workflow
+
+New local wrapper, native pasteboard bridge and fixture, using the existing Figit engine. See [pinned sources](skills/html-to-figma-clipboard/references/upstream.md). Inspected extension patterns are attribution evidence, not authority to install an extension or contact a hosted provider.

@@ -10,6 +10,10 @@ See [source attributions](SOURCE-ATTRIBUTIONS.md) and [exact provenance](PROVENA
 Full Superpowers MIT copyright/license, notices and snapshot are retained in `libraries/superpowers-6.4.2/`. No vendor hook, runtime, image companion or native provider is installed by the outer manifests.
 Upstream names/assets are source provenance; no affiliation, endorsement or separate trademark grant is claimed.
 
+## Efficient implementation adaptation
+
+Methods and historical examples are adapted from [Dietrich Gebert's Ponytail v5.0.0](https://github.com/dietrichgebert/ponytail/tree/b088b2df6e08d4306c6a3c3d575fe38c2d2d2989), with its exact [MIT copyright and permission notice](libraries/efficient-implementation-v5/LICENSE) retained. Functional names replace product branding in ordinary use; source identity remains here for attribution. The adaptation adds readiness and UX ownership, preserves required behavior and risk-based verification, and replaces the executable helpers with a bounded scoped runtime. Original source has not been represented as newly authored. [Source dispositions](docs/efficient-source-inventory.json) and [adoption boundaries](docs/efficient-implementation-adoption.md) distinguish retained methods/examples from archived benchmark, publishing and alternate-host tooling.
+
 ## Standalone imports 0.2.0
 
 Exact per-file source/output identities and scope are in `docs/standalone-imports.json`. Full first-party procedures are MIT under current author authorization; no third-party runtime, account, private corpus or client evidence is relicensed.
@@ -19,3 +23,7 @@ ChatGPT Apps, Develop Web Game, GitHub Comments and Fix CI retain their complete
 ## Selected Matt Pocock method adaptations
 
 Conditional methods adapted from [mattpocock/skills at 49dd158](https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336), copyright 2026 Matt Pocock, retain the [complete MIT notice](references/matt-pocock-LICENSE.txt). Each adopted reference names its exact source files and adaptation boundary. No upstream installation script, hook, scheduler, package dependency or tracker automation is included. These are selected adaptations; no full-bundle coverage is claimed.
+
+## REA method integration
+
+REA 6.5.0, [morluto/rea](https://github.com/morluto/rea/tree/3b79af28e80785afce9f5998d8f03289402a1847), copyright 2026 morluto, retains the [MIT license](libraries/rea-6.5.0/LICENSE). The complete shipped method and six guides plus root technical guides are incorporated with recorded link/acquisition adaptations in [the import inventory](docs/rea-imports.json). First-party integration retains the package's existing license scope. The executable REA runtime and optional engines are external dependencies, not redistributed by this package.

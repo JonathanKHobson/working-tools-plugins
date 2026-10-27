@@ -1,0 +1,11 @@
+# Educational canvas design contract
+
+This template draws one short, silent, three-step explanation. It accepts a project-specific palette, words, fonts, and illustrations through a validated local `project.json`. The generic renderer and scene carry layout and timing only. Preview controls let a reviewer pause, choose landscape or portrait, and seek an exact frame.
+
+The only supported outputs are 1280 × 720 landscape and 720 × 1280 portrait, 24 frames per second, 288 frames, and 12 seconds. The scene has a title and question opening, three numbered actions with one diagram each, then a held three-step takeaway. Phase starts are 0, 0.8, 3.3, 5.8, and 8.3 seconds; the overview hold begins at 8.85 seconds. Export is silent. To change those limits, update the scene, validation, preview controls, and output checks together.
+
+The source uses fixed coordinates sized for each format, not general text fitting. Landscape places the title and action copy to the left of the illustration; portrait stacks them. Three character images, logo, underline marks, and flare art are optional to the message but required assets in this version. Text can be replaced without changing code, yet long lines can clip or collide. Review the title, every action and note, both takeaway lines, diagram labels, and artwork at the exact output sizes after any copy or asset change.
+
+The preview starts paused. The frame slider remains usable under reduced motion. Playback stops when the page is hidden and when reduced motion becomes active. Export asks for each frame directly, so preview playback state does not alter encoded pixels. The renderer compares repeated out-of-order frames, dirty canvas state, and reduced-motion stills, then checks both MP4 files for exact frame count, duration, dimensions, and full decode. Those checks establish deterministic output; a reviewer still needs to inspect the encoded contact sheets and continuous playback for pacing, clipping, readability, and meaning.
+
+Project manifests can include private provenance fields for local records. The preview receives only fields used to draw, and redistributed copies of this generic template should contain no project manifest, source asset paths, or proof outputs.

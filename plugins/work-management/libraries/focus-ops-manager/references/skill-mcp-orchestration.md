@@ -38,7 +38,7 @@ For authorized Claude access and a useful independent lane, actively dispatch th
 `claude-toolkit:claude-operation`, rather than waiting for a per-task request.
 That skill owns Sonnet/Opus selection and CLI-first execution. Use another verified
 worker when it fits better; keep trivial or inseparable work local.
-For Gemini/Antigravity CLI and comparative task fit, use
+For Gemini/Antigravity CLI, DeepSeek/NVIDIA and comparative task fit, use
 [CLI model routing](../../../skills/worker-delegation/references/cli-model-routing.md).
 The host capability record owns dated availability and tested commands; do not
 confuse an installed model or provider claim with a demonstrated best choice.

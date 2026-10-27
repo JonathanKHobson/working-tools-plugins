@@ -31,6 +31,8 @@ Public browsing and supplied exports are within this research lane. Do not log i
 
 For this domain, read the [complete pre-migration current-social-research procedure](../../library/source-procedures/local/current-social-research/SKILL.original.md) and its relevant support before applying the brief routing summary above. Preserve the full mode-specific methods and examples. Current user and tool instructions govern any external action.
 
+For substantial topic research, comparisons, discovery, recommendations, hiring signals, follow-up or an authorized research library, read [complete recent research](references/complete-recent-research.md). It routes the full bundled source methods through this owner and preserves the separate runtime authorization boundary.
+
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles
 

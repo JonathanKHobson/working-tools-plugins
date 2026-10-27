@@ -1,6 +1,6 @@
 ---
 name: content-calendar
-description: "Plan social calendars and LinkedIn weeks, audit supplied post analytics, and coordinate source-linked course/video/article releases with verified publication states."
+description: "Plan social calendars and Instagram or LinkedIn weeks; audit supplied analytics and creator-relative evidence; coordinate source-linked releases with verified states."
 ---
 
 # Content calendar
@@ -40,6 +40,11 @@ When the calendar includes a batch of related recording excerpts, use [clip batc
 For LinkedIn weekly planning (li-plan), read [LinkedIn planning](../../references/social-methods/linkedin-planning.md). For a postmortem or supplied analytics (li-audit), read [LinkedIn performance](../../references/social-methods/linkedin-performance.md) and use the local metrics helper for reliable arithmetic. Existing calendar/queue and project cadence remain authoritative.
 
 When assessing platform coverage, use the [coverage map](../../references/social-methods/platform-coverage.md); apply the selected [platform cycle](../../references/social-methods/platform-content-cycles.md) for planning and measured learning. This adds no schedule or new channel runtime.
+
+
+## Instagram planning and insights
+
+For an Instagram week plan, post/account audit or test from supplied Insights, read [Instagram planning and performance](../../references/social-methods/instagram-planning-performance.md). Creator-relative comparisons reuse [research baseline rules](../../references/social-methods/instagram-research.md); public niche research itself belongs to short-form-video. No fixed cadence, global engagement benchmark or automatic schedule follows from a pattern.
 
 <!-- BEGIN PROFESSIONAL-AGENTS -->
 ## Professional roles

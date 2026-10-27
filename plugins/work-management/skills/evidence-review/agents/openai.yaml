@@ -2,3 +2,6 @@ interface:
   display_name: "Evidence Review"
   short_description: "Review scoped project claims before saving evidence"
   default_prompt: "Use $evidence-review to review this selected checkpoint and prepare source-linked claim cards with human review."
+
+policy:
+  allow_implicit_invocation: false

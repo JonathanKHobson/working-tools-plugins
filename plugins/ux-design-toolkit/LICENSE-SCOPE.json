@@ -11,7 +11,7 @@
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "b73329ec504bd396d58aeba7aa79ab690385dbf5ebb3bdd8f29702f838f6be9b",
+      "sha256": "6456dd5a1ccd04c7a13133ec76b6e16594edb752f63e38fccd91b4b7cad613a1",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -29,6 +29,12 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dd6274932ed40871953ee4d901f91e6232977f55930a1703835c0f592566cdb3"
     },
     {
       "path": "LICENSE",
@@ -60,7 +66,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "c8e780509937b927ae13abc213e9c114fc6950eac6040713129f433c72ded555",
+      "sha256": "8bffca3285e9d013c433758c926e1854b0b2037f9237d98063c048bac2541784",
       "category": "license-and-notice",
       "license": "See retained document",
       "boundary": "Exact rights and notice text; not a package-wide relicense."
@@ -74,11 +80,11 @@
     },
     {
       "path": "docs/design-runtime.md",
-      "sha256": "c210c622fb30019ac30c4ffa2c0597fe1379792cfa7fa5682b7adff3c70144be",
+      "sha256": "b90c586c9d4f9604e56c6368c08e4d1dcc226a83c1363d7279a4f24cea20c059",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant.",
-      "output_sha256": "c210c622fb30019ac30c4ffa2c0597fe1379792cfa7fa5682b7adff3c70144be"
+      "output_sha256": "b90c586c9d4f9604e56c6368c08e4d1dcc226a83c1363d7279a4f24cea20c059"
     },
     {
       "path": "docs/full-design-host-adapter.md",
@@ -100,6 +106,13 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
+    },
+    {
+      "path": "docs/owned-methods-migration.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "4b705995d71c1f7decda946ed9240120a247c090b4a93d793f9894dee0d50571",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
     },
     {
       "path": "docs/procedures/dashboard-design.md",
@@ -166,7 +179,7 @@
     },
     {
       "path": "docs/project-map.md",
-      "sha256": "615d4df0d9f00e914b4055568c8ddae456661542156219a5a77b62bebdbe0a3c",
+      "sha256": "f0058a4dff82861afe7a2bcc7a268aeae6a1de9d9a4f9ffe56bd85166ebeebda",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -215,7 +228,7 @@
     },
     {
       "path": "hooks/hooks.json",
-      "sha256": "69a22121e913c9a539f6195dc64fff949b1a044fc7c08c2f6338d913b61a8759",
+      "sha256": "0797cd396f2a7dfeafcd9d16e230f1347d6f59106bc6fdbf5c562f1ff582b3bf",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -2538,6 +2551,19 @@
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
     },
     {
+      "path": "scripts/application_appearance.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6"
+    },
+    {
+      "path": "scripts/check_owned_method_routes.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "03b09e73c4c2d3a2edc63c69875e76c0a5b5f05cde2a6f63e1e99c680ad49733",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
       "path": "scripts/compass_mcp.py",
       "sha256": "82c25e4a2207266ec9a64391e25ea0769c4f72bc3753c0328eedfdbb8d7adc74",
       "category": "first-party-code",
@@ -2581,7 +2607,7 @@
     },
     {
       "path": "scripts/design_runtime/engine.py",
-      "sha256": "293e3502c4480437651e6acc8e211c38e02c97d55363de6e989f750376783bb2",
+      "sha256": "bebbabac76f7e0efc2b9cd14c3eef7e3c3c91d2ef008767970125bd60b6198fd",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -2601,15 +2627,21 @@
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
     },
     {
+      "path": "scripts/design_source_context.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d"
+    },
+    {
       "path": "skills/dashboard-design/SKILL.md",
-      "sha256": "e2005d09e061af233ca350fa49bc2e41289620ee16c5d7e93ed5cee63e419ce9",
+      "sha256": "c9991d3d14b6e0328b9720dbad60fb02aa8a01c2c2c7ccf13de25462c284b718",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
       "path": "skills/dashboard-design/agents/openai.yaml",
-      "sha256": "00cb1320e021dbf0dda1015f9eb44dcc1b9d083494a67e325feb0ca76f46671e",
+      "sha256": "ee3df26f1d7f34ac80af4e5aa00d95705b0467b3289edc1bd017027a41613e52",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -2854,7 +2886,7 @@
     },
     {
       "path": "skills/design-reference-lookup/references/public-design-resources.md",
-      "sha256": "40e510a0d6e104a92fed4f2d91ed6f57626821e9f964ae72e396c945010d0833",
+      "sha256": "3a637f865d0f835170d6ab536a73f3e0181b60a181d1bea1a86f5d1df2299b8b",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -2882,14 +2914,14 @@
     },
     {
       "path": "skills/design-review/SKILL.md",
-      "sha256": "87d458cb133d9d38b3288209ba9ccddb0fea176cf4fae53cb6ee4c8c9bc303b9",
+      "sha256": "158f1375f6e648b323608ecbb771b99d0b0df69e197ebb2ba5e2922a132a67b1",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
       "path": "skills/design-review/agents/openai.yaml",
-      "sha256": "f56fffd98cef2f8c9f15fe7173da4920288574c838676139e017890963a0cd5e",
+      "sha256": "24880ca66524c8137d0b6466c996d9905f6b7c52c6f5cf8980ecf9b66e278103",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -2924,7 +2956,7 @@
     },
     {
       "path": "skills/design-studio/SKILL.md",
-      "sha256": "c44e61f85e27205a4b77986fe2a5bd92e4988ddfac4e2253bb5053c5e17ad3ee",
+      "sha256": "ee69b226958e2dcf1c2ff8fd7d9101414b7a136d4a98035daa171ea310e96164",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -2986,6 +3018,13 @@
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
+      "path": "skills/design-studio/references/application-appearance.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "251cf8044aa7a421ca877b4efd00aa6bdb77f66c3a77a654e65d28b77f684cb6",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
       "path": "skills/design-studio/references/beginner-app-planning.md",
       "sha256": "7f3aedde75b9cedd0d826acc9aa33bacef7af25c5461944e85f4793c27f6ddb2",
       "category": "first-party-noncode",
@@ -3026,6 +3065,12 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
+    },
+    {
+      "path": "skills/design-studio/references/design-comparison-qa.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ca2442ef1b9760c704c602e90a1997f18ebce9451c8666483c28b1a26197ab24"
     },
     {
       "path": "skills/design-studio/references/design-sources.md",
@@ -3168,6 +3213,12 @@
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
+      "path": "skills/design-studio/references/mobile-prototype-runtime.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091"
+    },
+    {
       "path": "skills/design-studio/references/motion-performance.md",
       "sha256": "f61ab3ce5902f7bb39f07f2172ab5c9f29a7133f2a61ca16629cb24c5a813a76",
       "category": "first-party-noncode",
@@ -3180,6 +3231,33 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
+    },
+    {
+      "path": "skills/design-studio/references/product-experience-methods.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a61ae5562b6ac2c51a1f9f3674930c490da6b04f32fdc16579970dbd64b9c282",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
+      "path": "skills/design-studio/references/product-pain-research.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa"
+    },
+    {
+      "path": "skills/design-studio/references/product-prototyping.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c0769ba0364b00582f1a345751ec18d9e20bf0532a4577e5af36a7f985d69dc9",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
+      "path": "skills/design-studio/references/product-task-context.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a437f2892f6bfed6be4b57e20e2820ac60144407c4a441493bd7ff1f7d591dce",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
     },
     {
       "path": "skills/design-studio/references/product-web.md",
@@ -3212,7 +3290,7 @@
     },
     {
       "path": "skills/design-studio/references/review.md",
-      "sha256": "b91281747aa931b253d4beb2e7837a75a4b61b5002bad90cc60a170862460d13",
+      "sha256": "b400d078c554515489d54640ce60c3a504c643f1686515027d33c7e08625c049",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -3246,8 +3324,15 @@
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
+      "path": "skills/design-studio/references/usability-testing.md",
+      "category": "first-party-noncode",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
+      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+    },
+    {
       "path": "skills/design-studio/references/ux-writing.md",
-      "sha256": "47e50d207a4ec9a23b303a91738a5af4129bfedfd27dff8540fef38c9f38822d",
+      "sha256": "a0d3b46dc42cd3b60de3640c2ff26d5c9386f10c31b0f1ad6628c65b734dbc52",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -3268,7 +3353,7 @@
     },
     {
       "path": "skills/design-systems/agents/openai.yaml",
-      "sha256": "ca33d93adec5301d9f6962bb276b246f47b15a99f5b385a33ffc0ee493103a0b",
+      "sha256": "d62cc7dea6847cc29fd7916760e73c45d8c4cbf3654a627ed9c0162f4cc59d48",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3380,7 +3465,7 @@
     },
     {
       "path": "skills/interaction-resilience/agents/openai.yaml",
-      "sha256": "c8292a0e9588555015884c06c768c307e8585b75967a2ebb78969d18db7a19ef",
+      "sha256": "f7328ca3b1f5240fddc581346ec61b3db3027df37c90522037cea6bfdf02e5d6",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3394,7 +3479,7 @@
     },
     {
       "path": "skills/motion-and-performance/agents/openai.yaml",
-      "sha256": "dcb8e92b1fce24c072ef37130badf1dd86ba6cf0ae591a3af8fbb1b2c9688e32",
+      "sha256": "306e70c02cd29b78d59555b266b7ad3196f302f0e02583538ec4c6a9f2959fce",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3464,7 +3549,7 @@
     },
     {
       "path": "skills/responsive-design/agents/openai.yaml",
-      "sha256": "1c1a4941def59238d802162451316ba2bf5c8eb88f44819c1f81567d458002d1",
+      "sha256": "6eab09d77b1eea1ada35c089030302e1becec763957d76c5866e96ac49abca61",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3478,7 +3563,7 @@
     },
     {
       "path": "skills/spreadsheet-usability/agents/openai.yaml",
-      "sha256": "abc7157cd4969f3316491a7d8f7944e489a3d1577a0609d4a18b5c939aa8e4ce",
+      "sha256": "6988b2ad751c7d2cfc1878d7a6b7e2177a00cd4c674935fa6e2db6a65ab11563",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3506,7 +3591,7 @@
     },
     {
       "path": "skills/stitch-design/agents/openai.yaml",
-      "sha256": "ae4d1dfa96b9fc0083c52234cd8b8667d410511d3426206e1dda0e5aaa2e85b3",
+      "sha256": "a2d2343f87ff26dcc7672aa3d84fd89b0471e5378e8d26cb534fce2a3744c0e1",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3597,7 +3682,7 @@
     },
     {
       "path": "skills/ux-heuristic-compass/SKILL.md",
-      "sha256": "c25eb3e59ffca70d6a269d0842d41fc3a2227f96aa72fc1bf3afa33324b80202",
+      "sha256": "b10946ac1fbbb7ba6bb5bd1bcecd3beb84dadb937f2dda4cec44b8f4b6054dd9",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -3667,7 +3752,7 @@
     },
     {
       "path": "skills/ux-heuristic-compass/references/mcp-bridge.md",
-      "sha256": "cf8a57c3581a293ad54ac0e84ad5b2be1081cb7a3ed3e72ab5ba371d55117d9f",
+      "sha256": "19b905a21ec5e5708ceed0f721fb1e072384636232032c68b80b2b2b6c45c5c9",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -3765,7 +3850,7 @@
     },
     {
       "path": "skills/ux-writer/SKILL.md",
-      "sha256": "b9d73ff308d96fb4f53c68d206f49c6a23fc096fd7476fd025d4ffb3d4512f2b",
+      "sha256": "29db604c3c66c7e2aa0cff5a8d7739333fc7945d78853da15b05994d9f0518b9",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
@@ -3800,7 +3885,7 @@
     },
     {
       "path": "tests/design_runtime/test_adapter.py",
-      "sha256": "a394d127488f747dde659181cc7e753d3dbc3e7cddca61b93453711f366ac655",
+      "sha256": "97a0db3f20904879964f520691c5f9fec5427d30efd711e6d605aec52b804bef",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code and configuration only; embedded upstream portions keep their grant."
@@ -3834,89 +3919,59 @@
       "boundary": "Author-owned methods, documentation, prompts and examples only; imported portions keep their grant."
     },
     {
-      "path": "docs/owned-methods-migration.md",
-      "category": "first-party-noncode",
+      "path": "docs/distinctive-direction-validation.md",
+      "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
-      "sha256": "4b705995d71c1f7decda946ed9240120a247c090b4a93d793f9894dee0d50571",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "a12a4f4734210824f5c21ddd65b9265c3373b58714dc474aa101fceca5f65e6f"
     },
     {
-      "path": "scripts/check_owned_method_routes.py",
+      "path": "skills/design-reference-lookup/agents/openai.yaml",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "03b09e73c4c2d3a2edc63c69875e76c0a5b5f05cde2a6f63e1e99c680ad49733",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
-      "path": "skills/design-studio/references/application-appearance.md",
+      "path": "skills/design-studio/references/distinctive-direction.md",
+      "category": "first-party-documentation",
+      "license": "CC-BY-SA-4.0",
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "55ce5a003a277f68e52c0ff2478fe987c5fc484172016aad128e83651d6c57f7"
+    },
+    {
+      "path": "skills/design-studio/references/implementation-expectations.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "251cf8044aa7a421ca877b4efd00aa6bdb77f66c3a77a654e65d28b77f684cb6",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+      "boundary": "Authored integration; underlying upstream portions retain their original grants.",
+      "sha256": "8293b0f1caaa36f4de78a5ec76672f9327c1f5f86ae432e1f2aa3684e5f18c76"
     },
     {
-      "path": "skills/design-studio/references/product-experience-methods.md",
-      "category": "first-party-noncode",
+      "path": "skills/design-studio/references/task-routing.md",
+      "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
-      "sha256": "880d1fd79ecff69b0056cb0248bb286c0b5135ef0694d2fbf9dd302e9bbe6856",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "edb412565d97769f2d040ab6df2baf3d4da3a78bf820296514e97b0500051752"
     },
     {
-      "path": "skills/design-studio/references/product-prototyping.md",
-      "category": "first-party-noncode",
+      "path": "skills/motion-and-performance/references/thinking-orbs.md",
+      "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
-      "sha256": "c0769ba0364b00582f1a345751ec18d9e20bf0532a4577e5af36a7f985d69dc9",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "93fd567b13d54296ee459c438b89655ad6fa31960a7cd56689fc0a557d0f1c47"
     },
     {
-      "path": "skills/design-studio/references/product-task-context.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "a437f2892f6bfed6be4b57e20e2820ac60144407c4a441493bd7ff1f7d591dce",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
-    },
-    {
-      "path": "skills/design-studio/references/usability-testing.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "209b1c70625ec3073947124d5ed740924a96fbbc386fc59516ffa0d66b6ce30a",
-      "boundary": "Author-owned procedure or helper; retained upstream material elsewhere keeps its existing grants."
-    },
-    {
-      "path": "CHANGELOG.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "8cca2602292dad5eeb5cf2bf1f4e8d1cb16c3c14817e2fc8b7493eb0c31df3e1"
-    },
-    {
-      "path": "scripts/application_appearance.py",
+      "path": "skills/ux-heuristic-compass/agents/openai.yaml",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "8446dd3eda224eb68eaa8c210b41121d331dacfe776cb551847ba0ecbe9780f6"
+      "boundary": "Author-owned portable integration, fixture, test or documentation; existing third-party grants remain.",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
     },
     {
-      "path": "scripts/design_source_context.py",
-      "category": "first-party-code",
-      "license": "AGPL-3.0-only",
-      "sha256": "de546868598f503c58cc5d815d620791617d2d2965a9a1fc62e586858a44e11d"
-    },
-    {
-      "path": "skills/design-studio/references/design-comparison-qa.md",
-      "category": "first-party-noncode",
+      "path": "PUBLIC_PROJECTION_NOTES.md",
+      "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
-      "sha256": "f0ee158a4dc97894cdce34cfca12c7adfd2f3ac870088ccaa41fd105f7762cc3"
-    },
-    {
-      "path": "skills/design-studio/references/mobile-prototype-runtime.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "133840022726d5b25f9997d2cbab963f941b535dda19810447ba3e6117fdb091"
-    },
-    {
-      "path": "skills/design-studio/references/product-pain-research.md",
-      "category": "first-party-noncode",
-      "license": "CC-BY-SA-4.0",
-      "sha256": "1556691bc78b250f10f86cda0616159ad6dfc093aa79c1144050314d50971baa"
+      "sha256": "66dbf283993d92b000c63fc5a66cd8f4816ee025e9c2f5a16b4f3b3d2f3e0818"
     }
   ]
 }

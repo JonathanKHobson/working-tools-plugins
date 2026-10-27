@@ -349,6 +349,19 @@ def main():
     try:
         config = json.loads(args.config.expanduser().read_text(encoding='utf-8'))
         result = record(config, args.origin)
+        # Optional, explicitly configured local maintenance. No model continuation,
+        # polling, publication, permission changes or work on an unchanged tree.
+        # The finite job runs outside the short completion-hook deadline.
+        if result.get('status') in ('changed', 'unchanged') and config.get('provider_sync_config'):
+            try:
+                sync_spec = importlib.util.spec_from_file_location(
+                    'work_management_provider_sync', Path(__file__).with_name('provider_sync.py'))
+                sync_module = importlib.util.module_from_spec(sync_spec)
+                sync_spec.loader.exec_module(sync_module)
+                result['provider_sync'] = sync_module.enqueue(Path(config['provider_sync_config']))
+            except Exception as exc:
+                result['provider_sync_error'] = str(exc)
+                _private_error(args.config, f'provider sync: {exc}', config)
         # Activity capture is a separate, explicitly opted-in observer. Its
         # failure must never change the established plugin journal result.
         activity_error = None

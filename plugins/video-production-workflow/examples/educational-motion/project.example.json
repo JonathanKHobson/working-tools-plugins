@@ -1,0 +1,114 @@
+{
+  "schema": "educational-canvas/1",
+  "durationSeconds": 12,
+  "fps": 24,
+  "formats": {
+    "landscape": [
+      1280,
+      720
+    ],
+    "portrait": [
+      720,
+      1280
+    ]
+  },
+  "palette": {
+    "ink": "#142536",
+    "teal": "#176B62",
+    "coral": "#9E3154",
+    "yellow": "#E8C462",
+    "aqua": "#F0F5F5",
+    "white": "#FFFFFF",
+    "muted": "#40586A"
+  },
+  "assets": {
+    "explorer": {
+      "path": "assets/explorer.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "questioner": {
+      "path": "assets/questioner.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "maker": {
+      "path": "assets/maker.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "underline": {
+      "path": "assets/underline.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "coralUnderline": {
+      "path": "assets/coralUnderline.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "flares": {
+      "path": "assets/flares.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "tealFlares": {
+      "path": "assets/tealFlares.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "logo": {
+      "path": "assets/logo.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "fredoka": {
+      "path": "assets/fredoka.ttf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "dmRegular": {
+      "path": "assets/dmRegular.ttf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "dmBold": {
+      "path": "assets/dmBold.ttf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "shantell": {
+      "path": "assets/shantell.ttf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "steps": [
+    {
+      "id": "ask",
+      "action": "Ask one clear question.",
+      "why": "A specific question gives you a claim to check.",
+      "example": "Can basil grow indoors?",
+      "character": "explorer",
+      "note": "One question, one claim to inspect."
+    },
+    {
+      "id": "source",
+      "action": "Find the original source.",
+      "why": "Read where the claim came from and what it says.",
+      "example": "Look for the source, date, and context.",
+      "character": "questioner"
+    },
+    {
+      "id": "try",
+      "action": "Try a small example.",
+      "why": "See whether the answer holds for your case.",
+      "example": "Try one plant, then compare what happens.",
+      "character": "maker"
+    }
+  ],
+  "takeaway": "A confident answer still needs a check.",
+  "titleFirst": "Check one",
+  "titleSecond": "AI answer",
+  "takeawayLines": [
+    "A confident answer",
+    "still needs a check."
+  ],
+  "diagramLabels": {
+    "question": "QUESTION",
+    "responsePrompt": "AI says",
+    "response": "\u201cYes.\u201d",
+    "source": "SOURCE",
+    "sourceMeta": "date \u00b7 context",
+    "try": "TRY",
+    "compare": "COMPARE"
+  }
+}

@@ -32,21 +32,18 @@ class CloseoutTests(unittest.TestCase):
             self.assertEqual(closeout.main(), 0)
         return output.getvalue()
 
-    def test_routine_stop_reminds_without_block_or_process_scan(self):
-        data = json.loads(self.hook({'hook_event_name': 'Stop', 'session_id': 'test'}))
-        self.assertTrue(data['continue'])
-        self.assertNotIn('decision', data)
+    def test_routine_stop_is_silent_without_process_scan(self):
+        self.assertEqual(self.hook({'hook_event_name': 'Stop', 'session_id': 'test'}), '')
 
     def test_reentry_is_quiet(self):
         self.assertEqual(self.hook({'hook_event_name': 'Stop', 'stop_hook_active': True}), '')
 
     def test_only_scoped_pending_obligation_blocks_once(self):
-        quality = {'status': 'pending', 'advisory': 'Complete verified obligation.'}
+        quality = {'status': 'pending', 'advisory': 'Artifact quality gate pending: Writing Quality Studio review. Check codex_artifact_quality_gate.py status --json; use writing-quality-studio:natural-prose-editor.'}
         data = json.loads(self.hook({'hook_event_name': 'Stop', 'session_id': 'test'}, quality))
         self.assertEqual(data, {'decision': 'block', 'reason': quality['advisory']})
         # Without native session/turn identity, never borrow global obligations.
-        data = json.loads(self.hook({'hook_event_name': 'Stop'}, quality))
-        self.assertNotIn('decision', data)
+        self.assertEqual(self.hook({'hook_event_name': 'Stop'}, quality), '')
 
     def test_diagnostic_dry_run_never_kills_or_writes_state(self):
         row = closeout.ProcessRow(999999, 1, 10, 'Google Chrome --headless --user-data-dir=/tmp/test')

@@ -10,6 +10,8 @@ Start with what the learner must demonstrate and what decision follows. Retain s
 Keep purpose (diagnostic/formative/summative), response format, cognitive demand, context, comparison basis, conditions, and stakes separate. A scenario is a context, not a response type. Cognitive demand is not observed difficulty. Recall can be a legitimate target or retrieval practice; it cannot stand in for an untested performance.
 
 ## Design evidence before scoring
+
+Apply [learning beyond the activity](../instructional-design/references/addie-decisions.md#preserve-learning-beyond-the-activity) to tasks and scoring: elicit the intended understanding or capability, including procedural judgment when relevant, rather than crediting story or artifact completion alone.
 Use claim → evidence → task → response → scoring → feedback → validation as a practical authoring sequence, not a validated named model. For a bank or consequential assessment, blueprint outcome coverage before generating items. For one item, keep the same reasoning compact. Map each task and rubric dimension to an outcome and state the inference limit. A performance outcome needs performance evidence; a cognitive verb alone does not establish rigor.
 
 Draft task, key/rubric, source support, feedback, and retry together. Use stable item and option IDs, source versions and precise locators; retain conflicts instead of inventing authority. Label fictional teaching facts. Keep accepted alternatives and disqualifying contradictions explicit. Missing/unobserved evidence is distinct from demonstrated incorrect performance. Do not score speed, spelling, accent, camera use, confidence, or visual polish unless part of the construct.

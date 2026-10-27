@@ -17,3 +17,5 @@ Original standalone synthesis and helpers by Jonathan Kyle Hobson are licensed w
 ## Selected Matt Pocock method adaptations
 
 Conditional references adapt selected methods from [mattpocock/skills at 49dd158](https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336), copyright 2026 Matt Pocock. The [complete MIT notice](skills/course-production-handoff/references/matt-pocock-LICENSE.txt) is preserved. Each reference lists its source paths. Upstream runtimes, installers, hooks, dependencies and automatic actions are excluded. Existing package licenses govern original contributions without replacing upstream grants.
+
+Audio-course methods retain assafkip/claudemy commit 438a6288fa74a2edad2cc86416d28308cb02ee1a under its MIT license at libraries/audio-course-methods/LICENSE. Original files preserve their upstream authorship and terms. Adapted helper provenance is in docs/audio-course-source.json.

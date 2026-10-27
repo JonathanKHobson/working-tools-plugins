@@ -16,6 +16,8 @@ For an explicitly requested advanced human-loop or independent-panel audit, read
 
 For source-dependent claims, read [critical source evaluation](references/critical-source-evaluation.md). New research belongs in Research Studio; academic prose belongs in its academic-writing skill. A simple argument check needs neither a research pyramid nor a research record.
 
+When generic recommendations recur, a ban merely shifts the default, or an originality request lacks a selection rule, use [positive decisions](references/positive-decisions.md). Choose from the actual outcome, source material and constraints, test the closest credible alternative, and separate rule compliance from independent quality evidence. Settled choices and routine answers bypass this step.
+
 When a named framework or a material reasoning gap warrants a lens, read [scoped Atlas retrieval](../../references/atlas-library.md), search 3–8 candidates, then read 1–3 selected full entries. Use its existing models, methods, frameworks and patterns, not a new skill per entry. Framework matches and diagnostic scores are not corroboration. Inspect source readiness and applicability before use.
 
 Return the calibrated conclusion, strongest objection, consequential uncertainty and smallest evidence check that could change the answer. Stop when the requested question is resolved or its evidence gap is explicit. For interactive coaching use `socratic-questioning`; for competing interpretations use `alternative-perspectives`. Ordinary retrieval, citation formatting and simple factual answers bypass this workflow.

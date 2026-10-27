@@ -1,6 +1,6 @@
 ---
 name: research-methodology
-description: Plan decision-linked interviews and usability studies; analyze supplied qualitative data; investigate products, literature, devices, markets or technology with traceable evidence. Use for study protocols, research questions, option comparisons and evidence reviews. Survey instruments route to Survey Studio; Oppia research retains its project owner. Also use for a concise “what can this plugin do/how do I get started?” answer; route specific tasks to the matching specialist.
+description: "Plan studies, analyze supplied qualitative data, or investigate products, literature, devices and markets with traceable evidence; use for comparisons or first-use help."
 ---
 
 # Research Methodology

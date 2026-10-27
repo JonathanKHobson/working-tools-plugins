@@ -13,6 +13,8 @@ Pick the search tool by job, not habit. This skill adapts the useful
 Apache-licensed guidance from `antonbabenko/agent-plugins` code-intelligence
 for the local Codex workflow.
 
+For shipped app/native binary/package or version questions that source cannot answer, or a concrete discrepancy between source and shipped behavior, use [Reverse engineer software](../reverse-engineer-software/SKILL.md) for the missing artifact evidence. Choose this from the task without requiring “REA”; ordinary source navigation and refactoring remain here.
+
 ## Tool Choice
 
 | Goal | Prefer | Why |

@@ -8,6 +8,8 @@ description: Design a course, curriculum, syllabus, or learning pathway by align
 Start with the performance learners should demonstrate in the destination context. Work backward to acceptable evidence, then the learning sequence. Use an existing standard or syllabus when supplied; do not replace it with a preferred framework.
 
 ## Build the alignment
+
+Apply [learning beyond the activity](../instructional-design/references/addie-decisions.md#preserve-learning-beyond-the-activity) when defining outcomes and module sequences: name the underlying understanding or capability, its value and evidence beyond completing the course scenario.
 Give important outcomes stable IDs. Each outcome should specify an action, conditions, and a defensible success criterion. Use “explain” or “justify” when conceptual understanding is the goal; observable does not mean every outcome needs a speed target or numerical cutoff.
 
 For each outcome, link the need, prerequisites, practice, feedback, final evidence, and later application support. Put prerequisites before dependent work; revisit core ideas across later contexts. Distinguish a course's required core from enrichment. Allocate realistic time for practice, feedback, transitions, and learner setup. A fixed duration is a constraint to test; if it cannot support the outcome, propose a narrower objective or additional practice instead of compressing everything.

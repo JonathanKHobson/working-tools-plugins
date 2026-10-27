@@ -1,0 +1,34 @@
+---
+name: product-photo-ad-hypotheses
+description: Inspect supplied product images, develop three evidence-linked marketing hypotheses, and create three portrait ad concepts when rendering is requested.
+---
+
+# Product Photo Ad Hypotheses
+
+Use this first-party method for supplied product photos, mockups, artwork or personalization previews. One usable image is enough to begin. An attachment, supported file identifier, accessible local file or image URL can serve as input when the current runtime can actually display its pixels; a path or URL alone is not visual evidence. Product name, audience, market, offer and approved brand rules help, but a completed brief, SKU, store connection and sales history are not prerequisites. A SKU is a label, not a lookup instruction. If there is no viewable image, request one; if images show unrelated products without a clear target, resolve the target. Do not claim to have inspected an inaccessible image. The current user's language, market and requested output control the response.
+
+## Inspect and distinguish evidence
+
+View every relevant supplied image at useful resolution. Assign stable image IDs and record its role, source locator, visible shape/design/text/color/scene, unreadable details, and features that later rendering must preserve. A preview is evidence of a proposed appearance, not proof of a shipped product. Keep visible observations, user-confirmed facts, and your interpretations separate. Do not infer exact material, manufacturing method, included props, buyer relationships, sensitive traits, demand or purchase intent from appearance or names. Repeated views are not independent buyers. If an image contains personal details unrelated to the product, omit them from prompts and output. Use a contact sheet only to compare many images; inspect important details full size.
+
+When source facts and pixels conflict, identify the conflict and proceed provisionally if the visible product can still be represented accurately. Ask for clarification only when the conflict prevents the requested analysis or faithful creative. A brand direction already approved for the actual product governs the creative. Leave identity neutral when no brand has been selected.
+
+## Develop three hypotheses
+
+Write three commercially distinct hypotheses tied to image IDs and specific observations. Each should contain the proposed customer tension or desire; visual support and any separate user-confirmed facts; the interpretation and a credible alternative explanation; and a subjective 0–100 confidence score with a reason. The score expresses confidence in the interpretation of the supplied evidence. It is not a probability of demand, conversion or ad success. Mark weakly evidenced motives as exploratory.
+
+For each hypothesis, add a still-ad concept that specifies its opening moment, product reveal and concise hook; a proposed product or offer extension clearly marked as a concept unless availability is confirmed; and one small falsifiable test with an observable metric. Name the best first test and the assumption it could resolve. A hook or reveal can guide composition of a still image; it does not turn this into a video request. Do not invent testimonials, orders, reviews, sales trends, discounts, urgency or performance results.
+
+If the user asks for insights only or proposals before rendering, stop after the three hypotheses and best first test. Do not create images or a report file unless requested. Otherwise present the hypotheses briefly and continue to rendering within the same authorized task.
+
+## Render three native image creatives
+
+Use the installed `imagegen` skill and its built-in image generation/editing tool for the three final raster creatives. Give the actual inspected product image(s) to the tool using its supported reference mechanism, one concept per call; filenames in a prompt are insufficient. If local source images need inspection before editing, view them first. No separate API key, store, external app, or provider CLI is required or authorized by this method.
+
+Make three visibly different portrait **3:4** ads tied one-to-one to the hypotheses. Give each generation prompt the cited reference image(s), image role, visible invariants, audience tension, one concrete scene/action, exact headline text and avoid list. The product should be large and recognizable, with believable scale, perspective, material and natural light. Preserve confirmed shape, artwork, color, printing treatment, and personalization logic. Use a short, bold, mobile-readable headline in the user's requested language, or the language appropriate to the stated market. Keep the headline clear of essential product details; avoid invented identity, generic synthetic faces, busy collages, extra footers and unnecessary calls to action. If depicting an unconfirmed new product or offer, label it as a concept in the response. A mockup prop is not an included accessory; a generated scene is not customer-created content.
+
+Inspect each rendered image at full size against the source: product silhouette, legible and correct personalization, material, hands/anatomy, perspective, headline accuracy, and actual 3:4 aspect ratio. Make targeted edits for concrete defects. Recompose or outpaint to reach 3:4; never stretch the product. Return all three images through the runtime's supported output mechanism, their hypothesis mapping, and the first recommended test. If native generation is unavailable, deliver three production-ready creative briefs and identify the images as unrendered; do not substitute template SVGs as if they were generated photography.
+
+## Optional local draft and audit helper
+
+Use [local_product_ads.py](scripts/local_product_ads.py) only when the user wants editable, provider-free SVG drafts or an inspectable local hypothesis record. It does not inspect images, author hypotheses, or replace native generation. [The example brief](assets/example-brief.json) shows the JSON fields. The script accepts 1–8 local JPEG/PNG/WebP images up to 20 MiB and 24 megapixels each, with at least one target product/photo/mockup/artwork/preview, and three authored hypotheses. It rejects URLs, SVG sources, unsafe text, unsupported evidence refs, and existing output paths. Run `python3 scripts/local_product_ads.py brief.json --insights-only` for JSON on stdout without creative files, or `python3 scripts/local_product_ads.py brief.json new-output-directory` for three editable 1080 × 1440 SVG drafts, a review page, and a manifest with source hashes. Paths are relative to this skill folder in these examples. It fails on text overflow instead of shortening copy. Its [design contract](assets/DESIGN.md) governs edits to those SVGs. Verify the real product and typography before use; no local output is a performance result or a published ad.

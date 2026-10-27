@@ -1,6 +1,6 @@
 ---
 name: ux-writer
-description: Write or review product-interface words, including buttons, navigation, errors, onboarding, empty states, helper text and confirmations. Use directly for copy-only work; engineering specifications belong to product-definition and general prose to natural-prose-editor.
+description: "Write or review product interface copy for actions, navigation, states and recovery; use for copy-only UI work, with general prose handled by Natural Prose Editor."
 ---
 # UX Writer
 
