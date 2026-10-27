@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0
+
+2026-10-27 release review: Add a bounded tracked Gemini worker and explicit Antigravity source synchronization.
+
+2026-10-27 release review: Reuse authenticated CLI work with inspectable results and conflict-safe synchronization.
+
+2026-10-27 release review: Bundle gemini_worker.py and sync_antigravity.py with focused tests and operation guidance. The worker performs a bounded supplied-text CLI task and invokes optional fail-open usage recording; the sync helper reconciles configured source links explicitly. Direct CLI diagnostics remain available outside the tracker.
+
+Compatibility: 2026-10-27 release review: Recipient CLI authentication, model readiness, configured source roots and optional usage recorder remain external. Installation does not authenticate Gemini, run inference or synchronize a host.
+
+Upgrade: 2026-10-27 release review: Refresh the package, verify the recipient CLI/account/model, and use the bundled worker for a bounded task. Review the sync helper configuration before explicitly running synchronization.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.2.0
 
 Add Gemini Toolkit as a standalone provider toolkit.

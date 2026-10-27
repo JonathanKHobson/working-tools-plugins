@@ -1,0 +1,23 @@
+{
+  "product_id": "survey-studio",
+  "version": "0.1.5",
+  "previous_version": "0.1.4",
+  "git_tag": "survey-studio/v0.1.5",
+  "notes": "2026-10-27 release review: Clarify survey strategy discovery and disable implicit invocation for seven focused survey methods.\n\n2026-10-27 release review: Make the lead route easier to discover while keeping specialist selection deliberate.\n\n2026-10-27 release review: Shorten survey-strategist discovery text and set allow_implicit_invocation to false on seven focused agent entries.\n\nCompatibility: 2026-10-27 release review: Existing skill names, survey outputs and explicit invocation remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; select focused methods explicitly or through the strategist workflow.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no instrument behavior trial was run.",
+  "summary": "2026-10-27 release review: Clarify survey strategy discovery and disable implicit invocation for seven focused survey methods.",
+  "compatibility": "2026-10-27 release review: Existing skill names, survey outputs and explicit invocation remain supported; automatic specialist selection is intentionally restricted.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package; select focused methods explicitly or through the strategist workflow.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "skills/survey-accessibility-and-privacy/agents/openai.yaml",
+    "skills/survey-analysis-codebooks/agents/openai.yaml",
+    "skills/survey-export/agents/openai.yaml",
+    "skills/survey-flow-and-logic/agents/openai.yaml",
+    "skills/survey-pilot-and-quality/agents/openai.yaml",
+    "skills/survey-question-design/agents/openai.yaml",
+    "skills/survey-sampling/agents/openai.yaml",
+    "skills/survey-strategist/SKILL.md"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no instrument behavior trial was run."
+}

@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.1
+
+2026-10-27 release review: Clarify software security review discovery and disable implicit invocation for eight focused review methods.
+
+2026-10-27 release review: Keep the lead review entry concise while requiring deliberate selection of specialized security procedures.
+
+2026-10-27 release review: Update the lead description and short description; eight specialist agent policies set allow_implicit_invocation to false.
+
+Compatibility: 2026-10-27 release review: Existing skill IDs and explicit specialist use remain supported; this narrows automatic specialist selection without adding execution authority.
+
+Upgrade: 2026-10-27 release review: Refresh the package and explicitly select a focused security method when required.
+
+Validation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified eight policy additions against the public baseline; no security assessment or installation was performed.
+
 ## 0.3.0
 
 Include complete instruction and tool-authority review within Master Security Toolkit.

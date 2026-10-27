@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0
+
+2026-10-27 release review: Add local layered depth-card production and strengthen comparison and interaction review.
+
+2026-10-27 release review: Support a distinct image-card deliverable and make analytical views answer the requested comparison.
+
+2026-10-27 release review: Expose the fourteenth discovery owner for self-contained HTML or project-local React depth cards from supplied layers, including parallax, foil, finishes, optional flip/layer views and reduced-motion/static behavior. Add depth-card regression coverage. Refine chart selection, existing-surface use, shared-scale comparisons, filters, hover/selection and motion verification guidance.
+
+Compatibility: 2026-10-27 release review: The standalone card route uses Python/Pillow and supplied images without a network service; optional provider sources remain outside the public package. Existing visualization routes remain supported.
+
+Upgrade: 2026-10-27 release review: Refresh the package. Use the depth-card method for that deliverable and its documented input dependencies; verify the actual rendered interaction before delivery.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 1 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## Local additions pending release
 
 Expand Interactive Depth Cards after reviewing the staged 1.0.1 source package: add independent art-plane displacement, foil/glare, holographic/gold/silver finishes, depth 0–100 control, optional front/back flip and exploded view, a project-local React/CSS/hook route, and local art-preparation guidance. The existing standalone brief remains accepted. The added runtime uses no separate API, connected app or network dependency. The original source and file-by-file comparison remain in the inactive external review snapshot.

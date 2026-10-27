@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "data-visualization-toolkit",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
   "precedence": "Exact upstream grants and prior permissions are retained; new first-party default applies only to author-owned additions.",
@@ -16,14 +16,14 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "870c63e2628253f69a64614f02790dd614c63aa279e9ed660805d7d5ae3fe62d"
+      "sha256": "0e07b52acccfb0dfe0ac6b66d73eb19521ce197902e5beda318c5d4663a821de"
     },
     {
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "bc834d90ef7b69cc7542a6a9a6a44b8ccadb72bf4dedd14b99818b92f069a56b"
+      "sha256": "3d9040cd810085d1f9fa6ffaa3921958935ac7fe890c93161b554263294da470"
     },
     {
       "path": ".gitignore",
@@ -44,7 +44,7 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned documentation, prompts, skills, methods, examples and template text; upstream portions retain their grants.",
-      "sha256": "31abbd3e9905d10ea8b578f408d88d737837f6555630a09965c81b91c6318540"
+      "sha256": "ec58eed43273330a9c45d1fbc2bbc1ed121ee3d2828891f0bc79343b97ab59b6"
     },
     {
       "path": "LICENSE",
@@ -1374,7 +1374,7 @@
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain.",
-      "sha256": "184bd760cf740ba490eea386e3f160d648879114ad4e7af9a8b909b7e9e7fbea"
+      "sha256": "19ccf226a145762595c46341fcdd630d0f369c87641612db5d6c7bbbca017f17"
     },
     {
       "path": "references/atlas-library.md",
@@ -2103,6 +2103,90 @@
       "license": "AGPL-3.0-only",
       "boundary": "Independently authored local contribution; prior/source grants remain unchanged.",
       "sha256": "5a814313ba3878cb32f11dbb9f773c9723ad5ec8cb6441c63d1ee8ad03865e5b"
+    },
+    {
+      "path": "skills/dense-and-gpu-rendering/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/gantt-and-schedules/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/interactive-explanations/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/live-dashboards/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/maps-and-cartography/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/reports-and-export/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/scientific-figures-and-tables/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/statistical-evidence/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/structural-diagrams/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/visual-stories/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/visualization-verification/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/web-chart-engineering/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
     }
   ]
 }

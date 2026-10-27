@@ -1,0 +1,22 @@
+{
+  "product_id": "reasoning-studio",
+  "version": "0.2.4",
+  "previous_version": "0.2.3",
+  "git_tag": "reasoning-studio/v0.2.4",
+  "notes": "2026-10-27 release review: Add positive decision guidance and deliberate specialist selection.\n\n2026-10-27 release review: Replace repeated generic defaults with a choice grounded in the actual outcome and constraints.\n\n2026-10-27 release review: Add the positive-decisions reference, compare the closest credible alternative and separate rule compliance from quality evidence. Add two explicit-invocation specialist policy files and retain existing reasoning methods.\n\nCompatibility: 2026-10-27 release review: Existing skill names remain; routine or settled choices bypass the deeper branch. Affected specialists disable implicit invocation.\n\nUpgrade: 2026-10-27 release review: Refresh the package and use the positive-decision reference for a recurring generic recommendation or unclear selection rule.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 3 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+  "summary": "2026-10-27 release review: Add positive decision guidance and deliberate specialist selection.",
+  "compatibility": "2026-10-27 release review: Existing skill names remain; routine or settled choices bypass the deeper branch. Affected specialists disable implicit invocation.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package and use the positive-decision reference for a recurring generic recommendation or unclear selection rule.",
+  "changed_files": [
+    "CHANGELOG.md",
+    "LICENSE-SCOPE.json",
+    "docs/project-map.md",
+    "skills/alternative-perspectives/agents/openai.yaml",
+    "skills/critical-reasoning/SKILL.md",
+    "skills/critical-reasoning/references/positive-decisions.md",
+    "skills/pattern-picker/agents/openai.yaml",
+    "skills/socratic-questioning/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 3 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation."
+}

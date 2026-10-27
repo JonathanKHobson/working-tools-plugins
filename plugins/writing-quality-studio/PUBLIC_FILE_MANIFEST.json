@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "package": "writing-quality-studio",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "scope": "All regular files except three self-referential JSON manifests; their hashes are recorded in private evidence.",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "9b1d2451749e27a07414253ee8e79dfd55fb4e12279f22bfc127940b7252c093",
+      "sha256": "50c7e5050286aa0286be28d80c91bebc2ab37093d443643562e88d94f432a9ec",
       "bytes": 460
     },
     {
@@ -1406,8 +1406,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f1fcab8ecfadca6ecf71b3b481440ada8ca332f5cd865bb01b15c1e0332845d7",
-      "bytes": 5249
+      "sha256": "1e8669342dbaffd5c6690367654333066e6088c8596a5566ebca18f83c51e987",
+      "bytes": 10007
     },
     {
       "path": "hooks/claude-hooks.json",
@@ -1448,6 +1448,31 @@
       "path": "skills/natural-prose-editor/references/specialist-routing.md",
       "sha256": "a65116d8a3ccbea08874f2efd2f91b977cb415f231b0418d634bd974f79eb9af",
       "bytes": 8758
+    },
+    {
+      "path": "skills/long-document-editing/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "bytes": 43
+    },
+    {
+      "path": "skills/plain-language-editing/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "bytes": 43
+    },
+    {
+      "path": "skills/spoken-and-scripted-writing/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "bytes": 43
+    },
+    {
+      "path": "skills/technical-instructions/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "bytes": 43
+    },
+    {
+      "path": "skills/voice-and-style/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "bytes": 43
     }
   ]
 }

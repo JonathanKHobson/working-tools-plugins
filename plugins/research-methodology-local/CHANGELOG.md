@@ -1,5 +1,33 @@
 # Changelog
 
+## 1.3.0
+
+Portable source correction: normalize test_as_of_date.py to LF for exact Git-commit/archive parity. Preserve its original mixed-EOL source hash, MIT notice and identical Python syntax tree. No version or behavior change.
+
+2026-10-24 license packaging: declare the existing scoped license in all three plugin manifests.
+
+2026-10-27 release review: Retain complete recent public-source research methods and runtime support under the existing research owner.
+
+Keep portable, Codex and Claude metadata consistent with the existing AGPL code and CC BY-SA documentation terms.
+
+2026-10-27 release review: Provide source-traceable procedures beyond the prior license-only manifest correction.
+
+No license grant, copyright owner, upstream source hash, provider setup or source payload changed. Refresh only known output hashes in the existing metadata.
+
+2026-10-27 release review: Retain Matt Van Horn’s MIT recent-social-research source, runtime, supporting methods, tests and license; add the governing complete-recent-research route and specialist discovery metadata. This note explicitly covers that current source closure, beyond the earlier manifest-license note. The safe default remains the no-network planner plus authorized host research tools.
+
+Compatibility: Metadata correction; existing first-party, upstream and prior grants remain unchanged.
+
+2026-10-27 release review: Retained source does not establish configured engines, comprehensive coverage or current access. Provider setup, browser/auth surfaces and any runtime execution require separate review and authorization; unsafe source diagnostics and automatic configuration behavior are not inherited authority. Existing research skill IDs remain.
+
+Upgrade: Include this correction in a later explicitly authorized package release; preserve existing published assets.
+
+2026-10-27 release review: Refresh the package and start with the existing planner and actual host research tools. Use a retained engine only after its selected runtime, dependencies and access are explicitly configured and verified.
+
+Validation: 35 package validations, 35 development archive integrity/legal packaging checks and 239 publisher tests pass. Research Toolkit file scope and manifests agree.
+
+2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 597 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 1.2.0
 
 Keep academic writing and study methods inside Research Toolkit.

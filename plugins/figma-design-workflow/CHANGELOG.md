@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0
+
+2026-10-27 release review: Add pinned local HTML-to-Figma clipboard conversion and explicit specialist routing.
+
+2026-10-27 release review: Produce editable clipboard candidates from local HTML with resource and fidelity evidence.
+
+2026-10-27 release review: Bundle the local capture/clipboard wrapper, locked setup, fixtures and integration checks around @figit/dom-to-figma. Support viewport/selected-element capture, offline resources, rich HTML clipboard writing and reports; hosted conversion is a separately selected route. Update operator guidance and specialist policies.
+
+Compatibility: 2026-10-27 release review: Node 22+, reviewed locked dependencies and Chromium setup remain explicit recipient requirements. Local conversion needs no Figma connection or API key. Conversion, clipboard readback, actual paste, fidelity and editability remain separate states. Existing operator methods remain.
+
+Upgrade: 2026-10-27 release review: Refresh the package and run setup in a chosen runtime directory before conversion. Review report warnings and use the operator workflow for an authorized paste/fidelity check; clipboard conversion alone does not establish Figma acceptance.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 20 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.2.3
 
 Unify canonical and public source for all six complete design workflows; retain the full structural checker and recipient-ready provider guidance. Private author/client observations remain recoverable outside distribution.

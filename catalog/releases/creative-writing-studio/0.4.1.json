@@ -1,0 +1,27 @@
+{
+  "product_id": "creative-writing-studio",
+  "version": "0.4.1",
+  "previous_version": "0.4.0",
+  "git_tag": "creative-writing-studio/v0.4.1",
+  "notes": "2026-10-27 release review: Clarify creative project discovery and focused specialist invocation.\n\n2026-10-27 release review: Keep broad creative requests discoverable and specialist selection deliberate.\n\n2026-10-27 release review: Shorten the lead routing description, remove a redundant TTRPG prompt from discovery metadata and add seven explicit-invocation agent policies; retain existing creative methods.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit use remain supported; affected specialists no longer allow implicit invocation.\n\nUpgrade: 2026-10-27 release review: Refresh the package; explicitly select a focused method or use the creative-project router.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 7 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+  "summary": "2026-10-27 release review: Clarify creative project discovery and focused specialist invocation.",
+  "compatibility": "2026-10-27 release review: Existing skill IDs and explicit use remain supported; affected specialists no longer allow implicit invocation.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package; explicitly select a focused method or use the creative-project router.",
+  "changed_files": [
+    ".codex-plugin/plugin.json",
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "plugin.json",
+    "skills/creative-project-context/agents/openai.yaml",
+    "skills/creative-project-router/SKILL.md",
+    "skills/horror-story-crafter/agents/openai.yaml",
+    "skills/originality-rights-and-provenance/agents/openai.yaml",
+    "skills/publishing-router/agents/openai.yaml",
+    "skills/show-vs-tell-craft/agents/openai.yaml",
+    "skills/story-architecture/agents/openai.yaml",
+    "skills/story-atlas-prep/agents/openai.yaml",
+    "skills/story-book-router/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 7 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation."
+}

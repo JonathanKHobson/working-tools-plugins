@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.2.1
+
+2026-10-24 font rights repair: give 50 static derivatives distinct Atlas names and resolve the exact-hash RFN review.
+
+2026-10-27 release review: Add shared backend transport while retaining the font-rights repairs recorded earlier.
+
+Retain the original OFL and authors while making generated static derivative identities distinct and keeping typography tables unchanged.
+
+2026-10-27 release review: Share SDK imports across callers while preserving independent MCP sessions and the existing tool contract.
+
+Atlas Reading Serif replaces the generated Lora identity; Atlas Book Serif replaces the generated Libre Baskerville identity across 24 kits. Primary, full, PostScript, unique and variation-prefix names plus current paths/catalog/source metadata are consistent. Original author/copyright/trademark/OFL notices, glyphs, metrics, shaping tables, original native specifications and embedded PDF documents are retained. Earlier Atlas Editorial Serif naming repair remains included. Existing published assets and versions are unchanged.
+
+2026-10-27 release review: Add an injectable FastMCP server class, version/binding-separated shared backend, stdio proxy and transport tests. POSIX no-argument launch uses the proxy; direct CLI/export, non-POSIX operation and BRAND_TEMPLATES_TRANSPORT=direct retain the direct route. A backend retires after its last client disconnects. This review explicitly includes the transport changes excluded from the earlier font-only note; the transport adaptation credits Activities Templates.
+
+Compatibility: Install the supplied Atlas-named derivatives when using the portable kits. Typography instructions and guide rebuild inputs use those names. Original source-family/native-template specifications remain separately recorded.
+
+2026-10-27 release review: Existing tool names and outputs remain; no catalog or UI content change is intended. The direct transport remains a rollback option. Runtime sharing is local to the recipient.
+
+Upgrade: Review the staged candidates and allocate a new immutable release only under separate publication authorization. Existing published archives must not be overwritten. The SHA-bound review accepts only the exact repaired font bytes; later changes require fresh review.
+
+2026-10-27 release review: Refresh the package and use a fresh connection to load the new transport. Use BRAND_TEMPLATES_TRANSPORT=direct if direct stdio is required.
+
+Validation: Four unique font outputs reproduce offline from retained original variable inputs; all 50 canonical/public copies pass metadata, notice and raw SFNT table equality checks. All 35 public scope checks and public source inventory pass. Current Brand development ZIP passes integrity/legal closure. Forty-nine website candidates (24 Brand, 25 Design) preserve unrelated original/native/PDF bytes and pass complete asset-manifest/CRC closure. Live canonical source inventory has six unrelated preexisting changed files and four excluded-source additions; none is exported or admitted by this repair.
+
+2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.2.0
 
 Add reusable logo-family galleries to brand-kit previews and exports.

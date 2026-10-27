@@ -1,0 +1,23 @@
+{
+  "product_id": "workshop-facilitator",
+  "version": "0.1.4",
+  "previous_version": "0.1.3",
+  "git_tag": "workshop-facilitator/v0.1.4",
+  "notes": "2026-10-27 release review: Clarify workshop design discovery and disable implicit invocation for seven facilitation specialists.\n\n2026-10-27 release review: Keep session design discoverable and focused facilitation methods deliberate.\n\n2026-10-27 release review: Shorten workshop-design discovery text and set allow_implicit_invocation to false on seven specialist agent entries.\n\nCompatibility: 2026-10-27 release review: Existing skill names, explicit invocation and workshop deliverables remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; invoke a focused method explicitly or route through workshop-design.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no workshop was conducted.",
+  "summary": "2026-10-27 release review: Clarify workshop design discovery and disable implicit invocation for seven facilitation specialists.",
+  "compatibility": "2026-10-27 release review: Existing skill names, explicit invocation and workshop deliverables remain supported; automatic specialist selection is intentionally restricted.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package; invoke a focused method explicitly or route through workshop-design.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "skills/facilitator-rehearsal/agents/openai.yaml",
+    "skills/inclusive-group-dialogue/agents/openai.yaml",
+    "skills/live-workshop-facilitation/agents/openai.yaml",
+    "skills/workshop-activity-selection/agents/openai.yaml",
+    "skills/workshop-debrief-transfer/agents/openai.yaml",
+    "skills/workshop-decision-making/agents/openai.yaml",
+    "skills/workshop-design/SKILL.md",
+    "skills/workshop-evidence-synthesis/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no workshop was conducted."
+}

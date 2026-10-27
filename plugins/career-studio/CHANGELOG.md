@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.1
+
+2026-10-27 release review: Clarify campaign discovery and prevent eight focused career skills from implicit invocation.
+
+2026-10-27 release review: Keep campaign first-use discovery concise and make focused methods deliberate selections.
+
+2026-10-27 release review: The campaign description is shorter; application statements, interviews, outreach, cover letters, portfolio packaging, portfolio, resume and submissions set allow_implicit_invocation to false.
+
+Compatibility: 2026-10-27 release review: Existing skill names, explicit invocation and campaign workflow remain supported; implicit specialist selection is intentionally disabled.
+
+Upgrade: 2026-10-27 release review: Refresh the package; invoke a focused skill explicitly or select it through the campaign workflow.
+
+Validation: 2026-10-27 release review: Read-only scoped local_sync.plan found nine changed reviewed paths and no conflicts. Static checks verified all eight policy additions against the public baseline; no runtime invocation trial was run.
+
 ## 0.3.0
 
 Keep career writing and UX interview practice complete inside Career Studio.

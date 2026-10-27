@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.4
+
+2026-10-27 release review: Disable implicit invocation for seven focused Stitch design methods.
+
+2026-10-27 release review: Keep specialist selection deliberate while retaining the existing lead route.
+
+2026-10-27 release review: Set allow_implicit_invocation to false for component assets, design review, design system, export handoff, flow prototyping, library evidence and workbench agent entries.
+
+Compatibility: 2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic selection of these seven methods is intentionally disabled.
+
+Upgrade: 2026-10-27 release review: Refresh the package and select the focused Stitch method explicitly.
+
+Validation: 2026-10-27 release review: Read-only scoped local_sync.plan found seven changed reviewed paths and no conflicts. Static checks verified all seven policy additions against the public baseline; no Stitch UI operation was performed.
+
 ## 0.1.3 · 2026-10-10
 
 Align the maintained local source and portable package, preserving complete operative methods and original source history. Refresh recipient setup, registration metadata and file-level provenance.

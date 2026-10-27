@@ -1,0 +1,23 @@
+{
+  "product_id": "solo-service-operations",
+  "version": "0.3.3",
+  "previous_version": "0.3.2",
+  "git_tag": "solo-service-operations/v0.3.3",
+  "notes": "2026-10-27 release review: Clarify invoice discovery and focused operations invocation.\n\n2026-10-27 release review: Keep the lead invoice route concise and specialized operations deliberate.\n\n2026-10-27 release review: Refine invoice-preparation discovery text and specialist agent metadata, including four added explicit-invocation policy files. Existing invoice, payment, outreach and coordination procedures remain.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit use remain; affected specialists disable implicit invocation. No payment, message or bookkeeping action is newly authorized.\n\nUpgrade: 2026-10-27 release review: Refresh the package and explicitly select the focused operations method required.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+  "summary": "2026-10-27 release review: Clarify invoice discovery and focused operations invocation.",
+  "compatibility": "2026-10-27 release review: Existing skill IDs and explicit use remain; affected specialists disable implicit invocation. No payment, message or bookkeeping action is newly authorized.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package and explicitly select the focused operations method required.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "skills/cash-flow-planning/agents/openai.yaml",
+    "skills/gmail-send-review/agents/openai.yaml",
+    "skills/invoice-follow-up/agents/openai.yaml",
+    "skills/invoice-preparation/SKILL.md",
+    "skills/paid-gm-event-coordination/agents/openai.yaml",
+    "skills/payment-reconciliation/agents/openai.yaml",
+    "skills/pro-gm-venue-outreach/agents/openai.yaml",
+    "skills/rpg-community-coordination/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation."
+}

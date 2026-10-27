@@ -1,5 +1,47 @@
 # Changelog
 
+## 0.4.1
+
+Improve spoken-script flow while preserving useful exploration.
+
+2026-10-20 portable workflow and review evidence: Apply final wording review to reader-facing artifacts across media and add a portable review-recording handoff.
+
+2026-10-27 release review: Extend the Humanizer across reader-facing media with portable editorial reminders.
+
+Script mismatch and recording pauses need different treatments; imitating disfluency or smoothing missing information can obscure the underlying gap.
+
+2026-10-20 portable workflow and review evidence: Make the final copy review reachable from UX/development and preserve exact-content evidence outside Codex.
+
+2026-10-27 release review: Review final wording without exporting private host gates or confusing a reminder with completed editorial work.
+
+Adds bounded asides with return bridges, uncertain read-versus-improvised classification, pause-cause hypotheses, targeted rehearsal and explicit private-profile separation. Synthetic example does not claim an actual successful demonstration.
+
+2026-10-15 hook ownership and naming: Rename the Gmail hook to Check Gmail send review, preserving its existing matcher, receipt logic, timeout and authorization boundary.
+
+2026-10-20 portable workflow and review evidence: Generic editorial context hook routes directly to Humanizer. Source receipt paragraph supports session or workspace identity and reports unavailable recording honestly. Staged public Claude manifest explicitly registers its editorial hook; no send/publish authority is added.
+
+2026-10-27 release review: Refine cross-media Natural Prose Editor, deep-audit routing, source comparison, concise technical instructions and recording-script guidance; update specialist policies and editorial-context checks. The explicit public projection registers only generic UserPromptSubmit editorial reminders for Codex and Claude and includes their editorial_context.py dependency. Portable metadata is retained in plugin.portable.json. The private host-bound Gmail PreToolUse gate is excluded.
+
+Compatibility: Extends the existing spoken-lesson reference; no discovery, provider, voice-default or runtime changes.
+
+2026-10-20 portable workflow and review evidence: Existing editorial procedures and complete licensed methods retained. Review does not authorize delivery. Private Gmail send gating remains outside the generic editorial hook adaptation.
+
+2026-10-27 release review: Existing writing methods remain. Recipient trust controls hooks; reminders and skill reads do not prove a completed review. The public package carries no private Gmail policy, command, account connection or review receipt.
+
+Upgrade: Use actual script provenance and instructor feedback; choose full narration or cue support by passage and rehearse affected transitions.
+
+2026-10-20 portable workflow and review evidence: Refresh local source. Use explicit project-local receipt state on portable hosts and re-review changed bytes.
+
+2026-10-27 release review: Refresh the package and verify its generic advisory declarations if enabled. Review actual final text and record the review through the optional existing project evidence owner when available.
+
+Validation: Owning skill validated; local links resolved; exact installed parity checked. Claude scenarios covered a useful aside, unavailable audio, a typo-only bypass and generic use without private profile retrieval.
+
+2026-10-15 hook ownership and naming: All 32 existing Gmail gate tests passed; native hook is enabled and trusted.
+
+2026-10-20 portable workflow and review evidence: Claude enabled run read Humanizer and reported its unrecorded wording review honestly with Bash unavailable. Exact native source/cache parity and focused Humanizer discovery verified.
+
+2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 5 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation. Public manifest/hook readback confirmed only generic UserPromptSubmit editorial reminders for Codex and Claude, absent root plugin.json and retained plugin.portable.json; the public hook has no Gmail PreToolUse command. This is source registration evidence, not native runtime loading.
+
 ## 0.4.0
 
 Complete Studio-owned voice, revision and spoken-writing workflows.

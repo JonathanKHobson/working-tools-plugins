@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.4
+
+2026-10-27 release review: Clarify Mac triage discovery and prevent nine focused recovery skills from implicit invocation.
+
+2026-10-27 release review: Keep unexplained failures routed through the lead triage skill and preserve deliberate recovery selection.
+
+2026-10-27 release review: The mac-troubleshooter description now states diagnosis and the smallest reversible fix; nine focused agent policies disable implicit invocation.
+
+Compatibility: 2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic specialist selection is intentionally restricted.
+
+Upgrade: 2026-10-27 release review: Refresh the package; select the appropriate focused recovery method explicitly.
+
+Validation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified nine policy additions against the public baseline; no live app recovery was performed.
+
 ## 0.3.3
 
 Unify the ten complete Mac operations methods and helpers with portable volume/provider bindings. Retain original recovery depth and author-private host evidence separately.

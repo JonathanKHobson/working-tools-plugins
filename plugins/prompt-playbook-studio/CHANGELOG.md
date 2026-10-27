@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.3.2
+
+Clarify hook names and responsibilities.
+
+2026-10-20 efficient implementation integration: Add a conditional software specification handoff to prompt refinement.
+
+2026-10-20 portable workflow and review evidence: Run the prompt advisory once in Claude through a shared portable default hook.
+
+2026-10-27 release review: Refine problem framing, ambition review and implementation handoffs.
+
+Make hook responsibilities easier to understand.
+
+2026-10-20 efficient implementation integration: Express required behavior and expected usability without expanding the product scope or automatically building prompt-only requests.
+
+2026-10-20 portable workflow and review evidence: Claude auto-discovery plus an additional manifest hook path produced a Codex-root failure and duplicate registration.
+
+2026-10-27 release review: Resolve consequential uncertainty before choosing a method while keeping clear tasks direct.
+
+2026-10-15 hook ownership and naming: Use the concise hook label Check prompt clarity; behavior, event and timeout are unchanged.
+
+2026-10-20 efficient implementation integration: Work Management remains product-scope owner, UX owns human expectations, and Development implements the resolved contract.
+
+2026-10-20 portable workflow and review evidence: The shared default command resolves either host plugin-root variable using isolated Python. Redundant Claude manifest hook field is removed; compatibility declaration is retained unregistered. Documentation and regression tests preserve one advisory and both root conventions.
+
+2026-10-27 release review: Add conditional problem-framing/method-selection support, revise prompt-refinement and implementation guidance, and update specialist policies and advisory-hook tests. The public Claude registration explicitly uses its portable UserPromptSubmit advisory hook; native registration requires recipient trust.
+
+Compatibility: Existing execution behavior is preserved.
+
+2026-10-20 efficient implementation integration: Existing skill and hook behavior retained; no new discovery entrypoint or required companion dependency.
+
+2026-10-20 portable workflow and review evidence: Existing canonical advisory body and method inventory retained. Public frozen quiet-script semantics remain separate from the unchanged current canonical advisory body; the compatibility repair does not silently broaden a measured benchmark.
+
+2026-10-27 release review: Existing skill IDs and direct execution of settled requests remain. Advisory hooks do not authorize actions, guarantee a review or add a provider dependency.
+
+Upgrade: Refresh the local installed plugin to see updated hook names.
+
+2026-10-20 efficient implementation integration: Refresh local Prompt Playbook and use the handoff only when the instruction needs refinement.
+
+2026-10-20 portable workflow and review evidence: Refresh local package. Do not combine the default hooks/hooks.json with an extra Claude hook file registration.
+
+2026-10-27 release review: Refresh the package and verify the advisory hook declaration if enabled. Use the deeper problem-framing branch only when the uncertainty can change the result.
+
+Validation: 2026-10-15 hook ownership and naming: Native discovery confirms one enabled/trusted prompt hook with unchanged trigger and timeout.
+
+2026-10-20 efficient implementation integration: Changed skill frontmatter and links pass; installed bytes verified; prompt-only and executable request boundaries exercised in a supplied-context Claude trial.
+
+2026-10-20 portable workflow and review evidence: 19 canonical tests and 2 projected registration tests pass. Native quiet and explicit crafting cases each show 4 total UserPromptSubmit hooks, 1 UX PostToolUse and 1 UX Stop, all exit 0; crafting emits exactly one Prompt advisory. Native Codex parity/discovery verified.
+
+2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 6 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## Unreleased
 
 Connect the existing approach advisory and refinement/ambition routes to conditional problem framing, evidence diversity and actual method/tool selection. Preserve direct execution, supported conventional answers, user scope and source limits. No additional hook, automatic model call or persistent state. Local checks and supplied-text trials do not establish universal behavior improvement.

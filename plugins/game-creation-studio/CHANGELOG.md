@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.3
+
+2026-10-27 release review: Clarify tabletop discovery and make focused game methods explicit selections.
+
+2026-10-27 release review: Keep broad tabletop routing concise without automatically invoking narrow specialists.
+
+2026-10-27 release review: Refine the ttrpg-router description and focused agent metadata, including eighteen added specialist policy files. Existing digital and tabletop methods remain under their current owners.
+
+Compatibility: 2026-10-27 release review: Existing skill names and explicit use remain; affected focused methods disable implicit invocation. No new game runtime or publication authority is added.
+
+Upgrade: 2026-10-27 release review: Refresh the package and explicitly select focused methods or route through the existing lead.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 18 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.3.2
 
 Reconcile all 25 complete canonical game and tabletop workflows and their support with the public source; retain original vendor licenses and recipient-owned table bindings.

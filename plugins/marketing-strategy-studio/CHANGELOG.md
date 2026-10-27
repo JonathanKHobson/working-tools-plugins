@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.5.0
+
+2026-10-27 release review: Add founder business methods and product-photo advertising hypotheses.
+
+2026-10-27 release review: Turn early commercial questions and supplied product images into evidence-linked proposals and testable decisions.
+
+2026-10-27 release review: Retain Jake Schincariol’s MIT founder business methods with their governing adapter, helpers and examples. Route strategy, competition, pricing, offer, finance scenarios, brand, operations and launch work through existing owners. Add asset-to-offer and first-party product-photo hypotheses/portrait-creative methods and local draft support; update specialist policies and paid-campaign/creative handoffs.
+
+Compatibility: 2026-10-27 release review: Synthetic buyers and confidence scores are hypotheses, not demand or conversion evidence. Existing brand and specialist ownership remain; no sending, publishing, spend or provider authentication is granted. Local SVG drafts remain distinct from generated photographic creatives.
+
+Upgrade: 2026-10-27 release review: Refresh the package, select only the business methods needed, and use actual source facts and product pixels. Confirm financial assumptions and test hypotheses with observed outcomes before claiming performance.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 48 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## Unreleased
 
 Added an original product-image ad method: inspect one or more images, develop three scored test hypotheses, and render three 3:4 concepts with built-in image generation when requested. The optional local helper validates 1–8 raster references and authored hypotheses, supports an insights-only path, and makes 3:4 SVG audit drafts without external calls or ad account actions.

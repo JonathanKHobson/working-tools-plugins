@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "writing-quality-studio",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "source": "reconciled canonical Writing Quality Studio version 0.3.6; exact current hashes in private Phase 3 evidence",
   "projection": "Full first-party and licensed methods, including author-confirmed Human Writing with newly authored support repairs; external no-grant copied method bodies omitted, optional publisher skills routed separately",
   "excluded_source_units": [
@@ -15,7 +15,7 @@
       "path": ".claude-plugin/plugin.json",
       "source_relative_path": ".claude-plugin/plugin.json",
       "source_sha256": "adbd5fe3da90ac1183cb0e6d20b5b0d7185e4ee9955d0e7b3b98868d803faadc",
-      "public_sha256": "9b1d2451749e27a07414253ee8e79dfd55fb4e12279f22bfc127940b7252c093",
+      "public_sha256": "50c7e5050286aa0286be28d80c91bebc2ab37093d443643562e88d94f432a9ec",
       "relation": "exact-byte-retained",
       "origin": "Jonathan Kyle Hobson"
     },
@@ -2287,7 +2287,7 @@
       "path": "CHANGELOG.md",
       "source_relative": "CHANGELOG.md",
       "source_sha256": "e2ec078236485c415869bb6c0ef0485345a59545ac00f893eb5056d40dab17eb",
-      "output_sha256": "f1fcab8ecfadca6ecf71b3b481440ada8ca332f5cd865bb01b15c1e0332845d7",
+      "output_sha256": "1e8669342dbaffd5c6690367654333066e6088c8596a5566ebca18f83c51e987",
       "origin": "verified-public-release-records",
       "change": "Changelog initialized from existing release catalog; no historical package rewritten.",
       "license_scope_category": "first-party-noncode",
@@ -2347,6 +2347,46 @@
       "source_sha256": "a65116d8a3ccbea08874f2efd2f91b977cb415f231b0418d634bd974f79eb9af",
       "output_sha256": "a65116d8a3ccbea08874f2efd2f91b977cb415f231b0418d634bd974f79eb9af",
       "rights": "Author-owned documentation"
+    },
+    {
+      "path": "skills/long-document-editing/agents/openai.yaml",
+      "source_relative": "skills/long-document-editing/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/plain-language-editing/agents/openai.yaml",
+      "source_relative": "skills/plain-language-editing/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/spoken-and-scripted-writing/agents/openai.yaml",
+      "source_relative": "skills/spoken-and-scripted-writing/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/technical-instructions/agents/openai.yaml",
+      "source_relative": "skills/technical-instructions/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/voice-and-style/agents/openai.yaml",
+      "source_relative": "skills/voice-and-style/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
     }
   ],
   "human_writing_support_repair": {

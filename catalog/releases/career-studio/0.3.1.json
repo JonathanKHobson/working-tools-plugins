@@ -1,0 +1,25 @@
+{
+  "product_id": "career-studio",
+  "version": "0.3.1",
+  "previous_version": "0.3.0",
+  "git_tag": "career-studio/v0.3.1",
+  "notes": "2026-10-27 release review: Clarify campaign discovery and prevent eight focused career skills from implicit invocation.\n\n2026-10-27 release review: Keep campaign first-use discovery concise and make focused methods deliberate selections.\n\n2026-10-27 release review: The campaign description is shorter; application statements, interviews, outreach, cover letters, portfolio packaging, portfolio, resume and submissions set allow_implicit_invocation to false.\n\nCompatibility: 2026-10-27 release review: Existing skill names, explicit invocation and campaign workflow remain supported; implicit specialist selection is intentionally disabled.\n\nUpgrade: 2026-10-27 release review: Refresh the package; invoke a focused skill explicitly or select it through the campaign workflow.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found nine changed reviewed paths and no conflicts. Static checks verified all eight policy additions against the public baseline; no runtime invocation trial was run.",
+  "summary": "2026-10-27 release review: Clarify campaign discovery and prevent eight focused career skills from implicit invocation.",
+  "compatibility": "2026-10-27 release review: Existing skill names, explicit invocation and campaign workflow remain supported; implicit specialist selection is intentionally disabled.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package; invoke a focused skill explicitly or select it through the campaign workflow.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "skills/application-statements/agents/openai.yaml",
+    "skills/campaign/SKILL.md",
+    "skills/career-interviews/agents/openai.yaml",
+    "skills/career-outreach/agents/openai.yaml",
+    "skills/cover-letter/agents/openai.yaml",
+    "skills/portfolio-package/agents/openai.yaml",
+    "skills/portfolio/agents/openai.yaml",
+    "skills/resume/agents/openai.yaml",
+    "skills/submissions/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found nine changed reviewed paths and no conflicts. Static checks verified all eight policy additions against the public baseline; no runtime invocation trial was run."
+}

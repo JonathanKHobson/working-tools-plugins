@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "package": "research-methodology-local",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "policy": "First-party code AGPL-3.0-only and first-party noncode CC-BY-SA-4.0, including five author-confirmed supplied method files; retained upstream grants remain scoped.",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "5b8b874580a3bfef2f946d593221e5e8db3d737c9b65cdc5914452c6c9f73b8a"
+      "sha256": "4d14eed361170b4dc2d9cfcaf5b622f50cfe48389a66883c71b5b021c442fffe"
     },
     {
       "path": ".codex-plugin/assets/composer-icon.png",
@@ -26,7 +26,7 @@
       "path": ".codex-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "c4c2c1cd20290ec5344a4d48ce3907d9c5eb26de1134b28f56120cc523141ac8"
+      "sha256": "9e9b29fdf2788c601ae4acd3ef6534c2d5309a2ca3c68de5b2031780462e35fd"
     },
     {
       "path": ".mcp.json",
@@ -50,7 +50,7 @@
       "path": "PROVENANCE.json",
       "category": "license-and-provenance",
       "license": "See document",
-      "sha256": "426b2a854015ebe868b2cfbf6f616d39a023d40fb4c4bfad2c5d4f052888d923"
+      "sha256": "dc5b97ccd9c136471f9d6ab87c3992cea2a06ac85dbe2a22d7d27aa210f9f673"
     },
     {
       "path": "README.md",
@@ -296,7 +296,7 @@
       "path": "plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "1a23d7fd258859be551ea8fdf58805164c19443eca2d23a49245d4a768e73c4c"
+      "sha256": "60caa6182458c20623be07c21a475ad69d86dfcf8b5842ce10b63cfd2e5bb71c"
     },
     {
       "path": "references/atlas-library.md",
@@ -620,7 +620,7 @@
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "b3b0af179851016eb7b489f9d6ba2611caf2d54464ff2f206d4d5f52c815abc4"
+      "sha256": "978631b8e4959dd09452f138de841aa905c5e3221bea37763fdddb68012eacc7"
     },
     {
       "path": "skills/research-handoff/references/evidence-artifacts.md",
@@ -630,7 +630,7 @@
     },
     {
       "path": "docs/recent-social-source.json",
-      "sha256": "1682b12a39a6509063f1a6b08bc9d9b118a99266d65397ab0d549d36b5523e38",
+      "sha256": "4b15a8e2380645bdf5720c32ab557a79cde605a9ddbd85cb7a0ed190a234dfd2",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
       "boundary": "Studio adapter/route and provenance. No new external service, credential or publication authority.",
@@ -3222,10 +3222,10 @@
     },
     {
       "path": "libraries/recent-social-research/tests/test_as_of_date.py",
-      "sha256": "02e3de2fe924a5039b98cc0516dca377b132bb8100eab94cfeb691557e78c41f",
+      "sha256": "2d47f34ca78a087aaa40ace4708654adc7574c06dc5f8c578dbf86b56a2087e8",
       "category": "retained-upstream",
       "license": "MIT",
-      "boundary": "Original or adapted upstream source retains MIT and nested notices; Studio additions retain their separately stated terms.",
+      "boundary": "Retained MIT upstream source with public LF line-ending normalization only; original source hash remains in PROVENANCE.json and source inventory. No semantic or license change.",
       "publication_state": "local-admission; public batch review pending"
     },
     {

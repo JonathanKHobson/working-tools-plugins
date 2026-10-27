@@ -1,0 +1,26 @@
+{
+  "product_id": "mac-ops-toolkit",
+  "version": "0.3.4",
+  "previous_version": "0.3.3",
+  "git_tag": "mac-ops-toolkit/v0.3.4",
+  "notes": "2026-10-27 release review: Clarify Mac triage discovery and prevent nine focused recovery skills from implicit invocation.\n\n2026-10-27 release review: Keep unexplained failures routed through the lead triage skill and preserve deliberate recovery selection.\n\n2026-10-27 release review: The mac-troubleshooter description now states diagnosis and the smallest reversible fix; nine focused agent policies disable implicit invocation.\n\nCompatibility: 2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; select the appropriate focused recovery method explicitly.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified nine policy additions against the public baseline; no live app recovery was performed.",
+  "summary": "2026-10-27 release review: Clarify Mac triage discovery and prevent nine focused recovery skills from implicit invocation.",
+  "compatibility": "2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic specialist selection is intentionally restricted.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package; select the appropriate focused recovery method explicitly.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "skills/app-window-recovery/agents/openai.yaml",
+    "skills/application-installation/agents/openai.yaml",
+    "skills/local-storage-mcp/agents/openai.yaml",
+    "skills/mac-environment-conventions/agents/openai.yaml",
+    "skills/mac-troubleshooter/SKILL.md",
+    "skills/process-diagnosis/agents/openai.yaml",
+    "skills/storage-memory-manager/agents/openai.yaml",
+    "skills/storage-migration/agents/openai.yaml",
+    "skills/symlink-audit/agents/openai.yaml",
+    "skills/updater-recovery/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified nine policy additions against the public baseline; no live app recovery was performed."
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": "writing-quality-studio",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0, with retained upstream grants",
   "precedence": "Retained upstream grants and earlier permissions remain; new defaults apply only to author-owned contributions.",
   "manifest_self_exclusion": [
@@ -14,7 +14,7 @@
       "path": ".claude-plugin/plugin.json",
       "category": "first-party-code",
       "license": "AGPL-3.0-only",
-      "sha256": "9b1d2451749e27a07414253ee8e79dfd55fb4e12279f22bfc127940b7252c093"
+      "sha256": "50c7e5050286aa0286be28d80c91bebc2ab37093d443643562e88d94f432a9ec"
     },
     {
       "path": ".codex-plugin/plugin.json",
@@ -1698,7 +1698,7 @@
       "path": "CHANGELOG.md",
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
-      "sha256": "f1fcab8ecfadca6ecf71b3b481440ada8ca332f5cd865bb01b15c1e0332845d7"
+      "sha256": "1e8669342dbaffd5c6690367654333066e6088c8596a5566ebca18f83c51e987"
     },
     {
       "path": "hooks/claude-hooks.json",
@@ -1753,6 +1753,41 @@
       "category": "first-party-documentation",
       "license": "CC-BY-SA-4.0",
       "sha256": "a65116d8a3ccbea08874f2efd2f91b977cb415f231b0418d634bd974f79eb9af"
+    },
+    {
+      "path": "skills/long-document-editing/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/plain-language-editing/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/spoken-and-scripted-writing/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/technical-instructions/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
+    },
+    {
+      "path": "skills/voice-and-style/agents/openai.yaml",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "boundary": "Author-owned specialist invocation configuration; private provider and personal-context bodies remain excluded."
     }
   ]
 }

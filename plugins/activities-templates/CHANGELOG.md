@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.0
+
+2026-10-27 release review: Add optional metadata-only usage events at MCP tool execution boundaries.
+
+2026-10-27 release review: Allow an opted-in recipient recorder to observe real tool completions without changing tool results.
+
+2026-10-27 release review: Include the usage-events helper and focused tests. Registered handlers emit operation, status and duration metadata; internal helper reuse is not counted twice. Recording uses the existing process, with no model call, polling or extra service.
+
+Compatibility: 2026-10-27 release review: Missing or disabled tracking is a no-op; recorder failures do not change tool results. No task arguments, results, catalog content or credentials are included in events.
+
+Upgrade: 2026-10-27 release review: Refresh the package and reload connections normally when safe. Configure a recipient recorder only if desired; preserve active shared connections until then.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 2 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.1.4
 
 Reduce repeated catalog-server memory while preserving all twelve domain contracts.

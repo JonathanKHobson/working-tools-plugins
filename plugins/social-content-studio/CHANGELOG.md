@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.4.0
+
+Integrate reviewed Instagram workflows within Social Content Studio.
+
+2026-10-27 release review: Complete Instagram workflow integration and explicit specialist metadata.
+
+Fill Instagram-specific and transferable workflow gaps without duplicating skill owners or importing unsafe scoring and collection assumptions.
+
+2026-10-27 release review: Preserve useful source methods while grounding claims and account actions in actual evidence.
+
+All thirteen reviewed upstream use cases mapped into the existing eight owners. Added complete Reel/research, profile, caption, engagement, Stories/carousels, planning and performance methods; 26 editorial forms; three read-only helpers; safe voice intake; MIT attribution and per-file provenance. Corrected stale external prose-method metadata.
+
+2026-10-27 release review: Retain the thirteen accessible Instagram Agent use cases and selected inactive originals from Jake Schincariol under MIT. Adapt caption, engagement, profile, carousel/Story, planning, Reel/hook and research methods into existing owners. Add local caption/reel diagnostics and tests, platform/voice guidance and social-publishing explicit-invocation metadata. Archived humanizers and detectors remain inactive source evidence.
+
+Compatibility: Existing eight skill IDs and platform workflows retained. No new runtime provider, scraper, engagement bot, credentials or public deployment. Local Claude projection uses a build identifier only to refresh its cache.
+
+2026-10-27 release review: No authenticated Instagram connector or automated engagement runtime is added. Local diagnostics are not performance predictors. Draft, schedule, public action and verified native readback remain separate; external actions still require authorization.
+
+Upgrade: Native local installations refreshed; public release remains queued. Existing running hosts may need a fresh session to rediscover changes.
+
+2026-10-27 release review: Refresh the package, use the relevant existing owner, and supply actual voice/source/analytics evidence. Verify any separately authorized account action in the native provider.
+
+Validation: 39 local tests; eight skill validations; complete local link closure; exact retained source hashes; staged static/manual security review with zero active findings and one precisely documented false positive; five simulated routing trials. Codex native skills/list and 132-file source/cache parity verified. Claude audit/authored methods: Opus 5.5; helper review: Sonnet 5. No live Instagram actions or outcome test.
+
+2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 41 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## Unreleased local integration, 2026-10-17
 
 - Integrated the thirteen reviewed Instagram Agent use cases into the existing eight skill owners: Reels/research, captions, profile proof, conversations, Stories/carousels/repurposing, planning and measured review.

@@ -1,6 +1,6 @@
 {
   "package": "data-visualization-toolkit",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "scope": "All shipped files except this self-describing inventory;external archive receipt includes its hash. Exact no-grant libraries and private data/routing excluded.",
   "files": [
     {
@@ -8,7 +8,7 @@
       "bytes": 412,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "870c63e2628253f69a64614f02790dd614c63aa279e9ed660805d7d5ae3fe62d",
+      "output_sha256": "0e07b52acccfb0dfe0ac6b66d73eb19521ce197902e5beda318c5d4663a821de",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
@@ -25,7 +25,7 @@
       "bytes": 1262,
       "source_relative": "canonical-data-visualization-toolkit/.codex-plugin/plugin.json",
       "source_sha256": "7a6456ff7c9d22f337c028dd8aaeae4ebacffc2743698ff4ffef5e3167cf64ad",
-      "output_sha256": "bc834d90ef7b69cc7542a6a9a6a44b8ccadb72bf4dedd14b99818b92f069a56b",
+      "output_sha256": "3d9040cd810085d1f9fa6ffaa3921958935ac7fe890c93161b554263294da470",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "modified",
@@ -72,8 +72,8 @@
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
-      "bytes": 2186,
-      "output_sha256": "31abbd3e9905d10ea8b578f408d88d737837f6555630a09965c81b91c6318540",
+      "bytes": 4025,
+      "output_sha256": "ec58eed43273330a9c45d1fbc2bbc1ed121ee3d2828891f0bc79343b97ab59b6",
       "edition_license_scope": "CC-BY-SA-4.0",
       "license_scope_category": "first-party-noncode",
       "prior_or_source_license": "MIT",
@@ -98,8 +98,8 @@
     },
     {
       "path": "LICENSE-SCOPE.json",
-      "output_sha256": "e4b63990ba0a77e9a7be6fcab0466bca55e8f76788226582de0886e52dac42b1",
-      "bytes": 111573,
+      "output_sha256": "ec86b2b5c8fa67b8abc0b208699ae7ec630adb26c324d71548046cc4e67ad7c6",
+      "bytes": 115961,
       "source_sha256": null,
       "change": "New licensing metadata; no method/runtime body change.",
       "disposition": "transformed",
@@ -2530,10 +2530,10 @@
     },
     {
       "path": "plugin.json",
-      "bytes": 1422,
+      "bytes": 1534,
       "source_relative": null,
       "source_sha256": null,
-      "output_sha256": "184bd760cf740ba490eea386e3f160d648879114ad4e7af9a8b909b7e9e7fbea",
+      "output_sha256": "19ccf226a145762595c46341fcdd630d0f369c87641612db5d6c7bbbca017f17",
       "rights": "Jonathan Kyle Hobson original contribution/public adaptation",
       "license_notice": "LICENSE-SCOPE.json",
       "status": "original-public-addition",
@@ -3936,6 +3936,102 @@
       "edition_license_scope": "AGPL-3.0-only",
       "license_scope_category": "first-party-code",
       "license_notice": "LICENSE-SCOPE.json"
+    },
+    {
+      "path": "skills/dense-and-gpu-rendering/agents/openai.yaml",
+      "source_relative": "skills/dense-and-gpu-rendering/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/gantt-and-schedules/agents/openai.yaml",
+      "source_relative": "skills/gantt-and-schedules/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/interactive-explanations/agents/openai.yaml",
+      "source_relative": "skills/interactive-explanations/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/live-dashboards/agents/openai.yaml",
+      "source_relative": "skills/live-dashboards/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/maps-and-cartography/agents/openai.yaml",
+      "source_relative": "skills/maps-and-cartography/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/reports-and-export/agents/openai.yaml",
+      "source_relative": "skills/reports-and-export/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/scientific-figures-and-tables/agents/openai.yaml",
+      "source_relative": "skills/scientific-figures-and-tables/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/statistical-evidence/agents/openai.yaml",
+      "source_relative": "skills/statistical-evidence/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/structural-diagrams/agents/openai.yaml",
+      "source_relative": "skills/structural-diagrams/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/visual-stories/agents/openai.yaml",
+      "source_relative": "skills/visual-stories/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/visualization-verification/agents/openai.yaml",
+      "source_relative": "skills/visualization-verification/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
+    },
+    {
+      "path": "skills/web-chart-engineering/agents/openai.yaml",
+      "source_relative": "skills/web-chart-engineering/agents/openai.yaml",
+      "source_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "output_sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "rights": "Author-owned specialist invocation configuration",
+      "edition_license_scope": "AGPL-3.0-only"
     }
   ],
   "public_patch": {

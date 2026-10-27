@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.1
+
+2026-10-27 release review: Clarify creative project discovery and focused specialist invocation.
+
+2026-10-27 release review: Keep broad creative requests discoverable and specialist selection deliberate.
+
+2026-10-27 release review: Shorten the lead routing description, remove a redundant TTRPG prompt from discovery metadata and add seven explicit-invocation agent policies; retain existing creative methods.
+
+Compatibility: 2026-10-27 release review: Existing skill IDs and explicit use remain supported; affected specialists no longer allow implicit invocation.
+
+Upgrade: 2026-10-27 release review: Refresh the package; explicitly select a focused method or use the creative-project router.
+
+Validation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 7 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.
+
 ## 0.4.0
 
 Include creative prose revision within Story Architecture.

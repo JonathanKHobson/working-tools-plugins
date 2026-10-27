@@ -1,0 +1,26 @@
+{
+  "product_id": "master-security-toolkit",
+  "version": "0.3.1",
+  "previous_version": "0.3.0",
+  "git_tag": "master-security-toolkit/v0.3.1",
+  "notes": "2026-10-27 release review: Clarify software security review discovery and disable implicit invocation for eight focused review methods.\n\n2026-10-27 release review: Keep the lead review entry concise while requiring deliberate selection of specialized security procedures.\n\n2026-10-27 release review: Update the lead description and short description; eight specialist agent policies set allow_implicit_invocation to false.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit specialist use remain supported; this narrows automatic specialist selection without adding execution authority.\n\nUpgrade: 2026-10-27 release review: Refresh the package and explicitly select a focused security method when required.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified eight policy additions against the public baseline; no security assessment or installation was performed.",
+  "summary": "2026-10-27 release review: Clarify software security review discovery and disable implicit invocation for eight focused review methods.",
+  "compatibility": "2026-10-27 release review: Existing skill IDs and explicit specialist use remain supported; this narrows automatic specialist selection without adding execution authority.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package and explicitly select a focused security method when required.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "skills/agent-artifact-scanning/agents/openai.yaml",
+    "skills/application-security-testing/agents/openai.yaml",
+    "skills/indirect-injection-review/agents/openai.yaml",
+    "skills/instruction-security-review/agents/openai.yaml",
+    "skills/mcp-security-review/agents/openai.yaml",
+    "skills/permission-and-data-review/agents/openai.yaml",
+    "skills/security-regression-tests/agents/openai.yaml",
+    "skills/software-provenance/agents/openai.yaml",
+    "skills/software-security-review/SKILL.md",
+    "skills/software-security-review/agents/openai.yaml"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified eight policy additions against the public baseline; no security assessment or installation was performed."
+}

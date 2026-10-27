@@ -1,0 +1,18 @@
+{
+  "product_id": "design-templates",
+  "version": "0.1.7",
+  "previous_version": "0.1.6",
+  "git_tag": "design-templates/v0.1.7",
+  "notes": "2026-10-27 release review: Correct the related Video Library destination in the library adapter and bridge fixture.\n\n2026-10-27 release review: Point the related library action to the maintained library host.\n\n2026-10-27 release review: Replace the activity-atlas host with library.jkylehobson.chatgpt.site for the /video-library/ destination in the UI adapter and its native bridge test.\n\nCompatibility: 2026-10-27 release review: The related-link action and bridge message shape remain unchanged; only the destination host changes.\n\nUpgrade: 2026-10-27 release review: Refresh the package to receive the corrected related-link destination.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found two changed reviewed paths and no conflicts. Static adapter/test URL consistency passed. The native bridge suite could not start because EXT_APPS_SDK_APP was unset; no SDK was installed and no live destination or rendered UI verification was performed.",
+  "summary": "2026-10-27 release review: Correct the related Video Library destination in the library adapter and bridge fixture.",
+  "compatibility": "2026-10-27 release review: The related-link action and bridge message shape remain unchanged; only the destination host changes.",
+  "upgrade_guidance": "2026-10-27 release review: Refresh the package to receive the corrected related-link destination.",
+  "changed_files": [
+    "LICENSE-SCOPE.json",
+    "PUBLIC_FILE_MANIFEST.json",
+    "runtime/design-library/tests/test_native_bridge_message.mjs",
+    "runtime/design-library/ui/adapter.js"
+  ],
+  "shared_sources": [],
+  "validation": "2026-10-27 release review: Read-only scoped local_sync.plan found two changed reviewed paths and no conflicts. Static adapter/test URL consistency passed. The native bridge suite could not start because EXT_APPS_SDK_APP was unset; no SDK was installed and no live destination or rendered UI verification was performed."
+}
