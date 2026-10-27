@@ -22,6 +22,13 @@ def digest(data):
 
 
 def make_release(path, files, *, executable=(), duplicate=None, symlink=None):
+    files.setdefault("LICENSING.md", b"Synthetic MIT fixture.\n")
+    files.setdefault("THIRD_PARTY_NOTICES.md", b"No third-party fixture content.\n")
+    files[".claude-plugin/plugin.json"] = b'{"license":"MIT"}\n'
+    files["LICENSE-SCOPE.json"] = json.dumps({"package":"sample-plugin","version":"1.2.3","files":[
+        {"path":name,"category":"fixture","license":"MIT","sha256":digest(data)}
+        for name,data in files.items() if name != "LICENSE-SCOPE.json"
+    ]}).encode()
     with zipfile.ZipFile(path, "w") as zf:
         for name, data in files.items():
             info = zipfile.ZipInfo(name)
@@ -108,6 +115,47 @@ class BundleTests(unittest.TestCase):
             self.assertIn("Run package-root commands from that directory", wrapper)
         self.assertEqual(self.build(), results)
         self.assertEqual(bundle.read_bytes(), first)
+
+    def test_multiple_skills_each_retain_complete_licensed_source_tree(self):
+        self.files["skills/second/SKILL.md"] = b'---\nname: second\ndescription: Second skill.\n---\nUse reviewed guidance.\n'
+        make_release(self.archive, self.files)
+        results = self.build()
+        self.assertEqual(len(results), 2)
+        for result in results:
+            root = f"sample-plugin-{result['directory']}"
+            with zipfile.ZipFile(self.output / result["file"]) as bundle:
+                for name, data in self.files.items():
+                    self.assertEqual(bundle.read(f"{root}/.support/{name}"), data)
+
+    def test_malformed_manifest_license_blocks_without_crash_or_output(self):
+        self.files[".claude-plugin/plugin.json"] = b'{"license":["MIT"]}\n'
+        # Preserve malformed metadata while renewing exact byte/scope hashes.
+        scope = json.loads(self.files["LICENSE-SCOPE.json"])
+        for row in scope["files"]:
+            row["sha256"] = digest(self.files[row["path"]])
+        self.files["LICENSE-SCOPE.json"] = json.dumps(scope).encode()
+        with zipfile.ZipFile(self.archive, "w") as zf:
+            for name, data in self.files.items():
+                zf.writestr(name, data)
+        with self.assertRaisesRegex(ValueError, "missing or invalid manifest license"):
+            self.build()
+        self.assertFalse(self.output.exists())
+
+    def test_missing_license_blocks_standalone_bundle_before_output(self):
+        del self.files["LICENSE"]
+        make_release(self.archive, self.files)
+        with self.assertRaisesRegex(ValueError, "legal packaging closure.*LICENSE"):
+            self.build()
+        self.assertFalse(self.output.exists())
+
+    def test_stale_license_scope_blocks_standalone_bundle(self):
+        self.files["LICENSE"] = b"Changed unreviewed grant\n"
+        with zipfile.ZipFile(self.archive, "w") as zf:
+            for name, data in self.files.items():
+                zf.writestr(name, data)
+        with self.assertRaisesRegex(ValueError, "license scope hash/closure mismatch: LICENSE"):
+            self.build()
+        self.assertFalse(self.output.exists())
 
     def test_package_root_command_after_extraction(self):
         import subprocess

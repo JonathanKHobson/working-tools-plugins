@@ -106,7 +106,13 @@ def build_skill_bundles(
     if output.is_symlink() or (output.exists() and not output.is_dir()):
         raise ValueError("output must be a real directory")
 
+    legal_spec = importlib.util.spec_from_file_location("license_checks", Path(__file__).with_name("license_checks.py"))
+    legal = importlib.util.module_from_spec(legal_spec)
+    legal_spec.loader.exec_module(legal)
     with zipfile.ZipFile(archive) as source:
+        legal_errors = legal.archive_legal_errors(source, expected_files, plugin_id, version)
+        if legal_errors:
+            raise ValueError("source release ZIP lacks legal packaging closure: " + "; ".join(legal_errors))
         infos = {info.filename: info for info in source.infolist()}
         entries = sorted(
             path for path in expected_files

@@ -222,6 +222,11 @@ def build(records,out):
 def release(records,out,canonical_root=None):
  errors=sibling_module('source_inventory').validate_inventory(ROOT,records,canonical_root)
  if errors:raise ValueError('Release completeness gate failed:\n'+'\n'.join(errors))
+ legal=sibling_module('license_checks')
+ errors=[error for record in records for error in legal.legal_errors(ROOT/'plugins'/record['id'],record)]
+ if errors:raise ValueError('Release legal packaging gate failed:\n'+'\n'.join(errors))
+ errors=[error for record in records for error in legal.source_rights_release_errors(ROOT/'plugins'/record['id'],record)]
+ if errors:raise ValueError('Release source-rights gate failed:\n'+'\n'.join(errors))
  receipts=build(records,out)
  manifest=source_release_manifest(records,receipts,out)
  manifest['canonical_live_source_checked']=canonical_root is not None

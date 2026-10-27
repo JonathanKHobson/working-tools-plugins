@@ -29,7 +29,7 @@ Keep durable working agreements in instructions, task-specific facts in the brie
 
 Some hooks are already part of published plugins, and Work Management supplies optional hook definitions. Their source remains with those owners. The [hook coverage record](hook-coverage.md) maps each reviewed hook family to its source and setup boundary.
 
-The separate [Codex host hooks integration](../integrations/codex-host-hooks/) publishes portable prompt-review tracking and closeout behavior that previously lived only in my host setup. It is an optional source integration, not a new plugin or an invisible prerequisite for all 31 packages. Its README identifies what was retained and what was omitted from the private diagnostic helper.
+The separate [Codex host hooks integration](../integrations/codex-host-hooks/) preserves a portable edition of prompt-review tracking and closeout behavior that previously lived only in my host setup. Work Management now also owns the reusable review engine and lifecycle guidance. Choose the owning plugin or the standalone integration deliberately and avoid enabling overlapping handlers twice. Neither is an invisible prerequisite for every package. The integration README identifies what was retained and what was omitted from the private diagnostic helper.
 
 The public integration tracks review obligations in local scoped state. A Stop hook can ask the agent to continue when a scoped obligation remains open. A recorded completion is a claim made by the caller; the hook cannot inspect a screenshot, judge prose or prove that a review was adequate. Its resource reminder does not terminate processes or establish ownership of a running service.
 
@@ -65,4 +65,4 @@ For a support report, include the package version, host/model, a sanitized task,
 
 ## Scope of this record
 
-Reviewed October 11, 2026. Hook source coverage is documented separately from runtime activation. The public hook release has its own tests and provenance. These records describe inspected code and scoped checks, not identical results across models, blanket safety enforcement, a complete audit of every account or evidence that all configured hooks recently fired.
+Reviewed October 27, 2026. Hook source coverage is documented separately from runtime activation. The public hook release has its own tests and provenance. These records describe inspected code and scoped checks, not identical results across models, blanket safety enforcement, a complete audit of every account or evidence that all configured hooks recently fired.

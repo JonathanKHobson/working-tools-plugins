@@ -2,7 +2,7 @@
   "schema_version": 1,
   "author": "Jonathan Kyle Hobson",
   "policy": "AGPL-3.0-only AND CC-BY-SA-4.0",
-  "packages": "Package-local LICENSE-SCOPE.json is authoritative for all 24 package trees.",
+  "packages": "Package-local LICENSE-SCOPE.json is authoritative for each registered package tree.",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -1137,6 +1137,30 @@
       "category": "first-party-noncode",
       "license": "CC-BY-SA-4.0",
       "boundary": "Author-owned workflow onboarding; source-specific upstream exceptions retained."
+    },
+    {
+      "path": "scripts/license_checks.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain."
+    },
+    {
+      "path": "scripts/skill_bundles.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain."
+    },
+    {
+      "path": "tests/test_license_checks.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain."
+    },
+    {
+      "path": "tests/test_skill_bundles.py",
+      "category": "first-party-code",
+      "license": "AGPL-3.0-only",
+      "boundary": "Author-owned code/configuration; source-specific upstream exceptions and prior release grants remain."
     }
   ]
 }

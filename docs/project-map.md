@@ -8,6 +8,7 @@ Working Tools is a public collection of separately installable AI workflows and 
 - `scripts/skill_bundles.py` and `scripts/release_manager/skill_downloads.py`: generated individual-skill archives and immutable companion releases; `catalog/skill-downloads.json` feeds Site downloads automatically during normal publication. See [individual skill downloads](individual-skill-downloads.md).
 - `scripts/packages.py`: reference/privacy validation, marketplace generation, development builds and the strict release command.
 - `scripts/source_inventory.py` and `scripts/release_archive.py`: source completeness and archive-byte verification.
+- `scripts/license_checks.py`: exact license-scope and manifest checks used by releases and individual skill bundles, plus registry-owned source-rights holds checked at release; packaging consistency does not establish rights clearance.
 - `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json`: generated host catalogs.
 - `docs/`: installation, compatibility, architecture, system-context transparency and recovery guidance.
 - `examples/AGENTS.starter.md`: illustrative public instructions; not automatically active.

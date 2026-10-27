@@ -14,6 +14,12 @@ class DistributionTest(unittest.TestCase):
    p.write_json(self.package/rel,{'name':'fixture','version':'1.0.0','$schema':'https://agent-plugins.org/schemas/1.0.0/plugin.schema.json'})
   for rel in ['README.md','LICENSE','THIRD_PARTY_NOTICES.md','PROVENANCE.json']:(self.package/rel).write_text('{}' if rel.endswith('.json') else 'Fixture\n')
   skill=self.package/'skills/demo/SKILL.md';skill.parent.mkdir(parents=True);skill.write_text('---\nname: demo\ndescription: Synthetic demonstration.\n---\nRun a safe example.\n')
+  self.record['license']='MIT'
+  for rel in ['plugin.json','.codex-plugin/plugin.json','.claude-plugin/plugin.json']:
+   manifest=p.read_json(self.package/rel);manifest['license']='MIT';p.write_json(self.package/rel,manifest)
+  (self.package/'LICENSING.md').write_text('Synthetic fixture under MIT.\n')
+  scope={'package':'fixture','version':'1.0.0','files':[{'path':path.relative_to(self.package).as_posix(),'category':'fixture','license':'MIT','sha256':p.hashlib.sha256(path.read_bytes()).hexdigest()} for path in p.files(self.package)]}
+  p.write_json(self.package/'LICENSE-SCOPE.json',scope)
   for rel,value in zip(['.agents/plugins/marketplace.json','.claude-plugin/marketplace.json'],p.catalogs([self.record])):p.write_json(self.root/rel,value)
   hashes={path.relative_to(self.package).as_posix():p.hashlib.sha256(path.read_bytes()).hexdigest() for path in p.files(self.package)}
   digest=p.sibling_module('source_inventory').tree_digest
@@ -73,6 +79,22 @@ class DistributionTest(unittest.TestCase):
   manifest=p.read_json(self.package/'.codex-plugin/plugin.json');manifest['mcpServers']='../../outside.json'
   p.write_json(self.package/'.codex-plugin/plugin.json',manifest)
   self.assertTrue(any('MCP declaration path missing or escaping package' in e for e in p.validate_package(self.record)))
+ def test_source_rights_hold_stops_release_before_archive_write(self):
+  self.record['licensing']={'releaseReview':{'status':'held','reason':'Synthetic rights question','files':{'LICENSE':p.hashlib.sha256((self.package/'LICENSE').read_bytes()).hexdigest()},'resolution':None}}
+  out=self.root/'rights-held-release'
+  with self.assertRaisesRegex(ValueError,'Release source-rights gate failed'):
+   p.release([self.record],out)
+  self.assertFalse(out.exists())
+ def test_malformed_licensing_stops_release_before_archive_write(self):
+  self.record['licensing']='held'
+  out=self.root/'malformed-rights-release'
+  with self.assertRaisesRegex(ValueError,'Release source-rights gate failed'):
+   p.release([self.record],out)
+  self.assertFalse(out.exists())
+ def test_resolved_source_rights_review_allows_exact_fixture_release(self):
+  self.record['licensing']={'releaseReview':{'status':'resolved','files':{'LICENSE':p.hashlib.sha256((self.package/'LICENSE').read_bytes()).hexdigest()},'resolution':{'reviewer':'Fixture reviewer','date':'2026-10-24','basis':'Explicit synthetic grant','evidence':'Fixture only'}}}
+  out=self.root/'rights-resolved-release';p.release([self.record],out)
+  self.assertTrue((out/'fixture-1.0.0.zip').is_file())
  def test_release_emits_canonical_file_and_component_mapping(self):
   out=self.root/'release'
   p.release([self.record],out)

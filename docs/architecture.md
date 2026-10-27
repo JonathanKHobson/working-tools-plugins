@@ -28,3 +28,11 @@ The reviewed inventory locks 31 canonical packages, including Research Toolkit. 
 The maintained [Working Tools website source](https://github.com/JonathanKHobson/working-tools-site) has its own repository and deployment history. Historical Compass repositories retain legacy source, routes and downloads; new catalog work belongs in Working Tools.
 
 Human Writing is an authored method inside Writing Quality Studio 0.3.6. Its original text is preserved, and two newly authored support guides repair the missing local references. The original audit entry remains in the coverage baseline as included. Mental Health Navigation is explicitly private at its owner’s direction and is excluded from this public collection; its audit entry remains private rather than an unresolved publication requirement.
+
+## Legal packaging gate
+
+`python3 scripts/license_checks.py` checks each registered package's license documents, host manifest declarations and exact file scopes. A release also runs this check before writing archives. Every operative file needs a current hash, category and license entry in `LICENSE-SCOPE.json`; only the three inventory metadata files may omit self-referential hashes. New or changed material requires explicit rights review before its scope is updated. A passing check establishes packaging consistency, not authorship, license compatibility or legal clearance.
+
+Individual skill builds check the verified source ZIP's license documents, manifest declarations and complete hashed scope before writing any bundle. The existing `.support/` tree retains every source license and notice byte. Existing published plugin and skill assets remain immutable; a correction belongs in a separately authorized later release.
+
+Recorded source-rights questions live in the affected package registry row’s `licensing.releaseReview`. A held review blocks `release` even when structure and file-scope checks pass. A resolution records its reviewer, date, source basis and evidence, bound to exact file hashes; missing or changed bytes require fresh review. This is an internal maintainer release-readiness control. It adds no restriction to the source license and does not replace historical published assets.

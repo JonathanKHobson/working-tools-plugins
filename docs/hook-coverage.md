@@ -1,30 +1,32 @@
 # Codex hook coverage
 
-Reviewed October 11, 2026. This record distinguishes source availability, optional registration and runtime behavior. It is a curated inventory, not an export of the author's configuration.
+Reviewed October 27, 2026. This record distinguishes reusable source, registration and runtime behavior. It is a curated inventory, not an export of the author's configuration. The release registry identifies the downloadable version of each owner.
 
-| Hook family | Event | Published source | Setup boundary |
+| Hook family | Event | Public owner | Setup boundary |
 | --- | --- | --- | --- |
-| Artifact-review tracking | `UserPromptSubmit` | [Codex host hooks](../integrations/codex-host-hooks/) | New portable edition of the previously host-local helper and its quality-state dependency; opt-in configuration |
-| Scoped closeout reminder | `Stop` | [Codex host hooks](../integrations/codex-host-hooks/) | New portable edition of registered lifecycle behavior; private diagnostic CLI, global process/MCP scans and memory logging omitted |
-| Gmail review gate | `PreToolUse` for supported send and forward tools | [Solo Service Operations: Gmail send review](../plugins/solo-service-operations/skills/gmail-send-review/) | Already published; recipient setup is optional and must match the receiving tool names. It is not a universal interceptor for browser or other-provider sends |
-| Prompt-crafting advice | `UserPromptSubmit` | [Prompt Playbook hooks](../plugins/prompt-playbook-studio/hooks/) | Already published with its owner; distinct from artifact-review state tracking |
-| Interface craft review | `PostToolUse`, `Stop` | [UX Design hooks](../plugins/ux-design-toolkit/hooks/) | Already published with its owner; receiving runtime and trust must be checked |
-| Work setup, continuity and review reminders | `UserPromptSubmit`, `SessionStart`, `Stop` | [Work Management optional hooks](../plugins/work-management/optional-hooks/) | Already published and registered in the package manifests; the recipient's native enable/trust/settings step still governs activation |
+| Artifact-review tracking and scoped closeout | `UserPromptSubmit`, `Stop` | [Work Management](../plugins/work-management/) and the earlier [standalone host integration](../integrations/codex-host-hooks/) | Work Management owns the reusable review engine. The standalone integration remains available for manual setup. Avoid duplicate handlers; private diagnostic and account adapters are excluded. |
+| Task setup, continuity and decision reminders | `UserPromptSubmit`, `SessionStart`, `Stop` | [Work Management optional hooks](../plugins/work-management/optional-hooks/) | Review the receiving host's registration and trust settings. A reminder is not proof that work or review happened. |
+| Writing review reminder | `UserPromptSubmit` | [Writing Quality Studio](../plugins/writing-quality-studio/) | The portable editorial-context hook points to the writing review workflow. It contains no personal voice profile or correspondence. |
+| Gmail send review | Tool-specific `PreToolUse` where configured | [Writing Quality Studio: Gmail send review](../plugins/writing-quality-studio/skills/gmail-send-review/) | The reusable review method is public. Personal sender bindings and private host registration stay private. This is not a universal interceptor for browser or other-provider sends. |
+| Prompt-crafting advice | `UserPromptSubmit` | [Prompt Playbook hooks](../plugins/prompt-playbook-studio/hooks/) | Keep the host's supported declaration with its owning package. It is distinct from artifact-review state tracking. |
+| Interface craft review | `PostToolUse`, `Stop` | [UX Design hooks](../plugins/ux-design-toolkit/hooks/) | Project opt-in, receiving runtime and trust must be checked. Imported upstream reference hooks are not additional recommended registrations. |
+| Implementation context | `SessionStart`, `UserPromptSubmit`, `SubagentStart` | [Development Studio](../plugins/development-studio/) | The package owns its implementation runtime and host-specific declarations. Check the installed host and exact release; a source declaration alone does not establish execution. |
+| Personal brand/client context, usage records and release bookkeeping | Host-dependent | Private host setup | These depend on personal sources, local records or publication controls. Their roles are disclosed here; private bindings, data and operational configuration are not distributed. |
 
 ## What the inventory established
 
-Three commands were registered in the author's global hook file: artifact-review tracking, closeout and Gmail review. Current personal plugin sources also supplied Prompt Playbook, UX Design and Work Management hook declarations. The last four families in the table already had published implementations and have not been duplicated or repackaged in this addition.
+The inspected global `hooks.json` is now empty. The author's current installed plugin declarations supply the lifecycle behaviors instead. Some remain private adapters around reusable public methods. This replaces the October 11 snapshot, when three commands were registered globally.
 
-Prompt Playbook and UX Design declarations matched their public counterparts. Work Management's local default declaration maps to the public optional template. The local Gmail helper differs from the public helper in one validation message about voice review; the inspected checks and control flow match. This wording difference is disclosed rather than described as exact byte parity.
+The check covered the global file, current installed plugin hook declarations and the matching canonical/public package owners. Hook definitions retained inside an upstream reference library are source material, not evidence that the host activates them. No personal instruction files, memory records or conversation contents were copied into this record.
 
-Configuration and trust-state inspection do not prove that a hook recently fired. The inventory did not execute personal hooks or alter their trust, registration or runtime state. Public integration tests use fictional inputs and isolated local state; their scope is documented in the integration README.
+Source inspection does not prove that a hook recently fired. This refresh did not alter personal hook registration, trust or runtime state. Isolated public tests use fictional inputs and separate local state. Native activation and execution must be verified on the receiving machine.
 
-## Portable host integration
+## Choose one implementation for each job
 
-The two previously uncovered lifecycle hooks share artifact-quality state, so they ship together as an [optional source integration](../integrations/codex-host-hooks/). They do not add a plugin to either marketplace. Their owner boundaries follow the existing prompt-quality and Work Management responsibilities.
+Use a hook's existing plugin owner when it supplies the behavior you need. The [optional standalone host integration](../integrations/codex-host-hooks/) remains a documented alternative for scoped review tracking and closeout. It adds no marketplace plugin and is not required for unrelated workflows.
 
-The public edition retains scoped review tracking and closeout reminders. It excludes the author's diagnostic integrations, account-specific service names, private paths, instruction text, prompt excerpts, memory store and conversation content. Its provenance file describes transformations from the source helpers. It is a portable edition, not a claim that every byte of the private host helper is included.
+The portable editions omit personal paths, account-specific services, private instructions, prompt excerpts, memories and conversation content. Work Management's quality recorder can keep project-local review receipts without the author's private host adapter. A completion mark records the caller's claim; it does not independently judge a screenshot or prose. A closeout reminder does not terminate processes or establish their ownership.
 
-Review the source and tests before using it. Follow the manual merge and disable instructions in its README. Never copy a complete personal `hooks.json` from someone else, overwrite unrelated hook entries or trust a changed definition without inspecting it. Codex hook sources accumulate, so check for duplicate handlers. [Official hook discovery and trust documentation](https://learn.chatgpt.com/docs/hooks).
+Read the source and setup instructions, merge only the hooks you want, and review them through the host's controls. Do not overwrite unrelated configuration. Check for duplicate registrations and review changed definitions before trusting them. See the [official hook discovery and trust documentation](https://learn.chatgpt.com/docs/hooks).
 
-For the wider context, see [Behind the tools](system-context.md). Package versions and plugin install evidence remain in the existing [release registry](../catalog/packages.json) and [compatibility record](compatibility.md).
+For the wider context, see [Behind the tools](system-context.md). Package versions remain in the [release registry](../catalog/packages.json); installation and execution evidence remain in the [compatibility record](compatibility.md).
