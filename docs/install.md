@@ -53,7 +53,7 @@ For Claude, use `claude plugin update PACKAGE@working-tools`, `claude plugin dis
 
 The repository includes complete methods and source packs, so its full Git checkout can take several minutes. Full refreshes have timed out on the maintainer Mac. A timeout is not an installed update; inspect the installed version before retrying.
 
-For a new marketplace registration, fetch the marketplace manifest and only the package you want. These commands acquired Research Toolkit through both native managers with all 103 package files intact:
+For a new marketplace registration, fetch the marketplace manifest and only the package you want. This selected-package approach has been verified in both native managers. After installation, check the package version and its files. For example:
 
 ```sh
 codex plugin marketplace add JonathanKHobson/working-tools-plugins \
