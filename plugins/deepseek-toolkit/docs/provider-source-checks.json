@@ -1,0 +1,32 @@
+{
+  "checked_date": "2026-10-27",
+  "live_inference": false,
+  "account_authentication": false,
+  "sources": [
+    {
+      "url": "https://build.nvidia.com/deepseek-ai/deepseek-v4.1-flash",
+      "observed": "Public page advertises a free developer API endpoint and documents the fixed model name and integrate.api.nvidia.com base URL.",
+      "limits": "Does not verify recipient entitlement, quota, pricing permanence or endpoint availability."
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "observed": "Official model card contains provider-reported code, reasoning, multilingual, multimodal and context evaluations.",
+      "limits": "No scores are adopted as measured toolkit performance; helper remains text only."
+    },
+    {
+      "url": "https://api-docs.deepseek.com/updates/",
+      "observed": "The October17 entry concerns opening search APIs; it does not substantiate the source document's prior assertion that a direct model alias changed that day.",
+      "action": "Removed that unsupported alias-update date from the public projection."
+    },
+    {
+      "url": "https://opencode.ai/docs/providers/#nvidia",
+      "observed": "Documents separately configured NVIDIA provider access.",
+      "limits": "No client, account or provider setup is installed by this package."
+    },
+    {
+      "url": "https://arxiv.org/html/2512.09772v2",
+      "observed": "Luther and Brown study older DeepSeek-V3/V3.1 with a two-country survey instrument; stated model/country limitations retained.",
+      "limits": "No transfer claim to the current hosted endpoint or cultural authority."
+    }
+  ]
+}

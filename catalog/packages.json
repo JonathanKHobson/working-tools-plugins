@@ -1055,6 +1055,33 @@
         "Read",
         "Write"
       ]
+    },
+    {
+      "id": "deepseek-toolkit",
+      "name": "DeepSeek Toolkit",
+      "version": "0.1.0",
+      "skills": 1,
+      "description": "Bounded supplied-text DeepSeek work through NVIDIA with recipient-owned access and checkable output.",
+      "edition": "Complete first-party worker and operating methods; credentials, live allowance, optional recorder and coding client remain recipient-owned",
+      "requirements": [
+        "Python 3 standard library",
+        "A recipient-owned NVIDIA account, approved current terms and eligible allowance for live inference"
+      ],
+      "jobs": [
+        "build",
+        "research",
+        "evaluation"
+      ],
+      "category": "Productivity",
+      "license": "AGPL-3.0-only AND CC-BY-SA-4.0; exact first-party scope in LICENSE-SCOPE.json",
+      "distribution": "prepared",
+      "provenance": "PROVENANCE.json",
+      "licensing": {
+        "scope": "plugins/deepseek-toolkit/LICENSE-SCOPE.json",
+        "firstPartyCode": "AGPL-3.0-only",
+        "firstPartyNoncode": "CC-BY-SA-4.0",
+        "priorGrantUnchanged": true
+      }
     }
   ]
 }

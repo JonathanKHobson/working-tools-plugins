@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deepseek-toolkit",
+  "version": "0.1.0",
+  "description": "Use DeepSeek through a bounded, tracked text worker and a separately configured terminal coding client.",
+  "author": {"name": "Jonathan Kyle Hobson"},
+  "license": "AGPL-3.0-only AND CC-BY-SA-4.0",
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "DeepSeek Toolkit",
+    "shortDescription": "Use and evaluate DeepSeek",
+    "longDescription": "Run bounded supplied-text tasks through a verified DeepSeek endpoint, record optional metadata-only usage, and evaluate when another model family adds useful evidence.",
+    "developerName": "Kyle Hobson",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": ["Use DeepSeek for a bounded second review of this supplied material.", "Check DeepSeek access and the actual returned model.", "Evaluate whether DeepSeek adds a useful alternative to this solution."]
+  }}}
+}

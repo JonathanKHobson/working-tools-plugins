@@ -47879,6 +47879,169 @@
         "PROVENANCE.json",
         "PUBLIC_FILE_MANIFEST.json"
       ]
+    },
+    {
+      "id": "deepseek-toolkit",
+      "version": "0.1.0",
+      "canonical_source": {
+        "id": "deepseek-toolkit",
+        "revision": {
+          "kind": "sha256-distributable-tree-v1",
+          "sha256": "7e732e2840a75473f73fb4935e26ad4fe8439113de32b218c9c01bcdcaeeaf75"
+        }
+      },
+      "files": {
+        "LICENSING.md": "dc1417b10772575d69758ed6dbb50e3ed13f4364d1f98fdcbfa7f8da5b566c85",
+        "PUBLIC_FILE_MANIFEST.json": "c0b46797767bae79011dc25036096dfdfa2ef68054cf72865e9ac8c426fcb92b",
+        "PROVENANCE.json": "99d2013f8ded116aa91cbf21c3558047e8e492426516f4a29e6ba03f5b49f1cb",
+        "LICENSE": "8c312e51396f8c9ae52e66a2bafadc2983f61fc72fb275b22235f83e68190cc2",
+        "CHANGELOG.md": "dc570fd281e89aeace71dd281aa0b08cd0a245f785bbb86b5f408942be746b20",
+        "LICENSE-SCOPE.json": "e9c468325b9a9564567f2ede99ee2693d487ce07ed6a71d71450200dea955109",
+        "THIRD_PARTY_NOTICES.md": "9c8fd37682267dbf6c1615a313615775f3473a6030d4a5e139439cb420afc932",
+        "plugin.json": "bf56eaa13ce197b7663c8d13cc7840b1e39c08bacb4e2e1b52a7f2481b15ffa5",
+        "README.md": "9006f2b38e06ad5515184be30f3799057a8573b4e8ed13074ffb0c6076f3b591",
+        "NOTICE.md": "1d02760e15a67cec01824812f20032ca2c3f613799c7ba7a00aa47d09374aee6",
+        "tests/test_deepseek_worker.py": "a8af632f37bba31d28e4d89b9a6cbea84d04d5ba4784e7fc804fce90a062d8ad",
+        "docs/provider-source-checks.json": "faf3bdcb627957aae71e927c0f6294e0e338c80a7f60ef3528be778f17af0056",
+        "docs/project-map.md": "2661f433c0742ee1270f3ed7b567e3d59b95bdf827ad4399cbd0e9f26793dbe6",
+        "scripts/deepseek_worker.py": "54dbbc60a3e027f501c47d94b8501468ddeda5f5492322b699ab803e7b5af307",
+        ".claude-plugin/plugin.json": "39099d370e3ad1118b36c3c7b61e62944d77fff0bb10600bcd89305311dfcd84",
+        "skills/deepseek-operation/SKILL.md": "7b49729bed5c282af810a9ab39d51d9bc311a0be3e8fcb9e7537022c10489a64",
+        "skills/deepseek-operation/references/cli-operation.md": "a8c4e5053ecfb566ad791348cb15b2ce8da41a63de8a3ed8aa0b2596453e9a78",
+        "skills/deepseek-operation/references/model-fit.md": "b3f17003d654297c007f4a8fdf992bbbaa4e0950ad3a90be96bc1e6d92d64ec5",
+        "legal/LICENSE-DOCS-CC-BY-SA-4.0.md": "67b9ea3e684403281f109442af59de35fdcbd1d197a7ac8f1fc15af92b681243",
+        "legal/LICENSE-CODE-AGPL-3.0.txt": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        ".codex-plugin/plugin.json": "245272b577460301bc6721f37cfcaee543bc5d6770960db43341f7c98b99ff8e"
+      },
+      "canonical_files": {
+        ".codex-plugin/plugin.json": "245272b577460301bc6721f37cfcaee543bc5d6770960db43341f7c98b99ff8e",
+        "README.md": "e2d601ef5917efc8b48985fb8cb4d0624ebb77460fecc03debc5b4276bd44e76",
+        "docs/project-map.md": "2661f433c0742ee1270f3ed7b567e3d59b95bdf827ad4399cbd0e9f26793dbe6",
+        "plugin.json": "bf56eaa13ce197b7663c8d13cc7840b1e39c08bacb4e2e1b52a7f2481b15ffa5",
+        "scripts/deepseek_worker.py": "54dbbc60a3e027f501c47d94b8501468ddeda5f5492322b699ab803e7b5af307",
+        "skills/deepseek-operation/SKILL.md": "7b49729bed5c282af810a9ab39d51d9bc311a0be3e8fcb9e7537022c10489a64",
+        "skills/deepseek-operation/references/cli-operation.md": "097ad115b0f47b744f47f3d51ae6ea7493515d1e0455ddd87038a25006519dfc",
+        "skills/deepseek-operation/references/model-fit.md": "b80be704c256ff505a68b3ca30a582f92c7db875fe5e60deb0e04aa6e3a9e74a",
+        "tests/test_deepseek_worker.py": "a8af632f37bba31d28e4d89b9a6cbea84d04d5ba4784e7fc804fce90a062d8ad"
+      },
+      "public_projection_overrides": [
+        "README.md",
+        "skills/deepseek-operation/references/cli-operation.md",
+        "skills/deepseek-operation/references/model-fit.md"
+      ],
+      "components": [
+        {
+          "id": "deepseek-toolkit:.claude-plugin/plugin.json",
+          "kind": "support",
+          "path": ".claude-plugin/plugin.json"
+        },
+        {
+          "id": "deepseek-toolkit:.codex-plugin/plugin.json",
+          "kind": "support",
+          "path": ".codex-plugin/plugin.json"
+        },
+        {
+          "id": "deepseek-toolkit:CHANGELOG.md",
+          "kind": "support",
+          "path": "CHANGELOG.md"
+        },
+        {
+          "id": "deepseek-toolkit:LICENSE",
+          "kind": "support",
+          "path": "LICENSE"
+        },
+        {
+          "id": "deepseek-toolkit:LICENSE-SCOPE.json",
+          "kind": "support",
+          "path": "LICENSE-SCOPE.json"
+        },
+        {
+          "id": "deepseek-toolkit:LICENSING.md",
+          "kind": "support",
+          "path": "LICENSING.md"
+        },
+        {
+          "id": "deepseek-toolkit:NOTICE.md",
+          "kind": "support",
+          "path": "NOTICE.md"
+        },
+        {
+          "id": "deepseek-toolkit:PROVENANCE.json",
+          "kind": "support",
+          "path": "PROVENANCE.json"
+        },
+        {
+          "id": "deepseek-toolkit:PUBLIC_FILE_MANIFEST.json",
+          "kind": "support",
+          "path": "PUBLIC_FILE_MANIFEST.json"
+        },
+        {
+          "id": "deepseek-toolkit:README.md",
+          "kind": "support",
+          "path": "README.md"
+        },
+        {
+          "id": "deepseek-toolkit:THIRD_PARTY_NOTICES.md",
+          "kind": "support",
+          "path": "THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "id": "deepseek-toolkit:docs/project-map.md",
+          "kind": "support",
+          "path": "docs/project-map.md"
+        },
+        {
+          "id": "deepseek-toolkit:docs/provider-source-checks.json",
+          "kind": "support",
+          "path": "docs/provider-source-checks.json"
+        },
+        {
+          "id": "deepseek-toolkit:legal/LICENSE-CODE-AGPL-3.0.txt",
+          "kind": "support",
+          "path": "legal/LICENSE-CODE-AGPL-3.0.txt"
+        },
+        {
+          "id": "deepseek-toolkit:legal/LICENSE-DOCS-CC-BY-SA-4.0.md",
+          "kind": "support",
+          "path": "legal/LICENSE-DOCS-CC-BY-SA-4.0.md"
+        },
+        {
+          "id": "deepseek-toolkit:plugin.json",
+          "kind": "support",
+          "path": "plugin.json"
+        },
+        {
+          "id": "deepseek-toolkit:scripts/deepseek_worker.py",
+          "kind": "support",
+          "path": "scripts/deepseek_worker.py"
+        },
+        {
+          "id": "deepseek-toolkit:skills/deepseek-operation/SKILL.md",
+          "kind": "skill",
+          "path": "skills/deepseek-operation/SKILL.md"
+        },
+        {
+          "id": "deepseek-toolkit:skills/deepseek-operation/references/cli-operation.md",
+          "kind": "support",
+          "path": "skills/deepseek-operation/references/cli-operation.md"
+        },
+        {
+          "id": "deepseek-toolkit:skills/deepseek-operation/references/model-fit.md",
+          "kind": "support",
+          "path": "skills/deepseek-operation/references/model-fit.md"
+        },
+        {
+          "id": "deepseek-toolkit:tests/test_deepseek_worker.py",
+          "kind": "support",
+          "path": "tests/test_deepseek_worker.py"
+        }
+      ],
+      "excluded_source": {
+        "files": 0,
+        "tree_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "dispositions": [],
+        "aliases": []
+      }
     }
   ]
 }
