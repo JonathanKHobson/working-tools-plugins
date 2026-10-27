@@ -10,6 +10,49 @@
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
         {
+          "release_key": "stitch-design-studio/v0.1.4",
+          "product_id": "stitch-design-studio",
+          "version": "0.1.4",
+          "git_tag": "stitch-design-studio/v0.1.4",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:49:10Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/stitch-design-studio/v0.1.4",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Disable implicit invocation for seven focused Stitch design methods.",
+          "notes": "2026-10-27 release review: Disable implicit invocation for seven focused Stitch design methods.\n\n2026-10-27 release review: Keep specialist selection deliberate while retaining the existing lead route.\n\n2026-10-27 release review: Set allow_implicit_invocation to false for component assets, design review, design system, export handoff, flow prototyping, library evidence and workbench agent entries.\n\nCompatibility: 2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic selection of these seven methods is intentionally disabled.\n\nUpgrade: 2026-10-27 release review: Refresh the package and select the focused Stitch method explicitly.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found seven changed reviewed paths and no conflicts. Static checks verified all seven policy additions against the public baseline; no Stitch UI operation was performed.",
+          "notes_provenance": "github-release:425969257",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "stitch-design-studio-0.1.4.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/stitch-design-studio/v0.1.4/stitch-design-studio-0.1.4.files.json",
+              "size": 4166,
+              "sha256": "0db97a8ed40fdf68af3c240843354296b070c721310942f4b7f8f55180064361"
+            },
+            {
+              "role": "installation",
+              "name": "stitch-design-studio-0.1.4.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/stitch-design-studio/v0.1.4/stitch-design-studio-0.1.4.zip",
+              "size": 63005,
+              "sha256": "bd403974f3a05329944567ffbc176992a6d20ee6b5095020f73e3a156f50e092"
+            },
+            {
+              "role": "checksum",
+              "name": "stitch-design-studio-0.1.4.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/stitch-design-studio/v0.1.4/stitch-design-studio-0.1.4.zip.sha256",
+              "size": 97,
+              "sha256": "d27d8e1a0437a12c7f5871ad04492a736217c8310db606c6c712bffa8cb3d131"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic selection of these seven methods is intentionally disabled.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and select the focused Stitch method explicitly.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
+        {
           "release_key": "stitch-design-studio/v0.1.3",
           "product_id": "stitch-design-studio",
           "version": "0.1.3",
@@ -139,7 +182,7 @@
           }
         }
       ],
-      "current_release_key": "stitch-design-studio/v0.1.3"
+      "current_release_key": "stitch-design-studio/v0.1.4"
     },
     {
       "id": "davinci-resolve-toolkit",
@@ -473,6 +516,49 @@
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
         {
+          "release_key": "figma-design-workflow/v0.3.0",
+          "product_id": "figma-design-workflow",
+          "version": "0.3.0",
+          "git_tag": "figma-design-workflow/v0.3.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:49:28Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/figma-design-workflow/v0.3.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add pinned local HTML-to-Figma clipboard conversion and explicit specialist routing.",
+          "notes": "2026-10-27 release review: Add pinned local HTML-to-Figma clipboard conversion and explicit specialist routing.\n\n2026-10-27 release review: Produce editable clipboard candidates from local HTML with resource and fidelity evidence.\n\n2026-10-27 release review: Bundle the local capture/clipboard wrapper, locked setup, fixtures and integration checks around @figit/dom-to-figma. Support viewport/selected-element capture, offline resources, rich HTML clipboard writing and reports; hosted conversion is a separately selected route. Update operator guidance and specialist policies.\n\nCompatibility: 2026-10-27 release review: Node 22+, reviewed locked dependencies and Chromium setup remain explicit recipient requirements. Local conversion needs no Figma connection or API key. Conversion, clipboard readback, actual paste, fidelity and editability remain separate states. Existing operator methods remain.\n\nUpgrade: 2026-10-27 release review: Refresh the package and run setup in a chosen runtime directory before conversion. Review report warnings and use the operator workflow for an authorized paste/fidelity check; clipboard conversion alone does not establish Figma acceptance.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 20 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425969499",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "figma-design-workflow-0.3.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/figma-design-workflow/v0.3.0/figma-design-workflow-0.3.0.files.json",
+              "size": 10470,
+              "sha256": "dd666e99a8881dfac2f50d2336acd795c0c6494a87cdecbfe2ba3fa682174ded"
+            },
+            {
+              "role": "installation",
+              "name": "figma-design-workflow-0.3.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/figma-design-workflow/v0.3.0/figma-design-workflow-0.3.0.zip",
+              "size": 198566,
+              "sha256": "109849c92868a9d359281d1851b95a858e5573e9795e1884841e4406ec2b3734"
+            },
+            {
+              "role": "checksum",
+              "name": "figma-design-workflow-0.3.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/figma-design-workflow/v0.3.0/figma-design-workflow-0.3.0.zip.sha256",
+              "size": 98,
+              "sha256": "a1860905484f4e54fd772cf710bb385b6c6b0210220bdfe3f998d188e10a4a0c"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Node 22+, reviewed locked dependencies and Chromium setup remain explicit recipient requirements. Local conversion needs no Figma connection or API key. Conversion, clipboard readback, actual paste, fidelity and editability remain separate states. Existing operator methods remain.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and run setup in a chosen runtime directory before conversion. Review report warnings and use the operator workflow for an authorized paste/fidelity check; clipboard conversion alone does not establish Figma acceptance.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
+        {
           "release_key": "figma-design-workflow/v0.2.3",
           "product_id": "figma-design-workflow",
           "version": "0.2.3",
@@ -731,7 +817,7 @@
           }
         }
       ],
-      "current_release_key": "figma-design-workflow/v0.2.3"
+      "current_release_key": "figma-design-workflow/v0.3.0"
     },
     {
       "id": "video-production-workflow",
@@ -741,6 +827,49 @@
       "compatibility": "Python >=3.10; FFmpeg with drawtext; FFprobe; A usable font for typography",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "video-production-workflow/v0.5.0",
+          "product_id": "video-production-workflow",
+          "version": "0.5.0",
+          "git_tag": "video-production-workflow/v0.5.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:49:48Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/video-production-workflow/v0.5.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add Thinking Orbs, sprite-sequence production and bounded audio support.",
+          "notes": "2026-10-27 release review: Add Thinking Orbs, sprite-sequence production and bounded audio support.\n\n2026-10-27 release review: Produce coherent motion and sound with explicit source, timing and verification contracts.\n\n2026-10-27 release review: Retain Jakub Antalik’s MIT Thinking Orbs engine/source and license. Add sprite registration/preview helpers, source selection, the scoped offline Earshot adapter and educational, code-drawn, product-film and motion-recipe references. Expand storyboard action ledgers, audio perception/synthesis guidance and portability checks. Preserve excluded media and hold unreviewed runtime symlinks.\n\n2026-10-27 public source closure: Retain complete licensed Anidoodle source and notices, Earshot methods/runtime source without weights or two source-media PNGs, and the generic educational Canvas example. Publish 45 original Huashu method/contract/score files and eight original Motion Anything method/standard/notices files under their existing MIT/Apache grants. Public catalog metadata distinguishes held recipes/templates from bundled methods. The source adapter permits integrity-checked method reads and catalog discovery, while plan/bundle refuse unavailable runtime closures before retrieval or writes. Public availability records and owner routes are explicit projections; original source hashes and notices remain intact. Restricted likeness, fonts/vendor assets, imported/React Bits implementations and unclosed Lottie/AnimXYZ/opaque assets remain outside this edition. Public source projections retain original checksums and record output checksums: complete upstream method bodies remain, omitted-media/runtime links become pinned upstream references, and upstream author-specific sound-pack literals become explicit recipient placeholders. The separate public-domain Almond Blossom image row follows its own provenance rather than the Apache software grant.\n\nCompatibility: 2026-10-27 release review: Existing video owners remain. Optional tools, engines, dependencies and models require separate setup; the Earshot adapter does not install packages, acquire models, upload audio or register a server. Frame encoding, semantic acting, audio QA and learner evidence remain distinct checks. The Huashu/Motion Anything source adapters in the public edition are method-only; runtime plan/bundle is explicitly unavailable rather than producing an incomplete source bundle. Existing recipient production tools remain usable independently.\n\nUpgrade: 2026-10-27 release review: Refresh the package and choose the required motion/audio branch. Configure only reviewed dependencies and verify exact saved outputs at normal playback speed before claiming delivery.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Seven public motion-source tests passed, checking catalog counts and held status, complete original method reads, held file absence/read rejection, no bundle writes, unsafe input rejection, all admitted method hashes and tamper failure. Public media rendering, installed runtime behavior and rights for held source remain unverified. Final focused run: 13 public source/portability/structure/support-reference tests passed. All 38 relative links in the five active motion/audio production references resolve. The source-only admission helper verifies exact additions separately from public projections. Final public package structural/privacy/reference/license validation returned zero errors; all 944 remaining exact-canonical additions passed inventory/provenance/license/byte checks, and scoped reconciliation reported zero conflicts. The 22 explicitly pinned public projections are checked separately and are excluded from exact-canonical addition claims. No upstream renderer, model, browser, source tool or media production was executed by these admission tests.",
+          "notes_provenance": "github-release:425969741",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "video-production-workflow-0.5.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/video-production-workflow/v0.5.0/video-production-workflow-0.5.0.files.json",
+              "size": 244790,
+              "sha256": "81a776c8d70d5196f720b6c729e8f59fd3f3c94159e0326ff511b900fe300f0a"
+            },
+            {
+              "role": "installation",
+              "name": "video-production-workflow-0.5.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/video-production-workflow/v0.5.0/video-production-workflow-0.5.0.zip",
+              "size": 14488547,
+              "sha256": "bcad6499f9c43d39ccf19032b2671418c0a043d7122ac0665d355ddd256a83c5"
+            },
+            {
+              "role": "checksum",
+              "name": "video-production-workflow-0.5.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/video-production-workflow/v0.5.0/video-production-workflow-0.5.0.zip.sha256",
+              "size": 102,
+              "sha256": "53d83f3d2ed24950c1106b42f461858bd2cbc2e6d4e41f75a74e8cba75b8e85d"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing video owners remain. Optional tools, engines, dependencies and models require separate setup; the Earshot adapter does not install packages, acquire models, upload audio or register a server. Frame encoding, semantic acting, audio QA and learner evidence remain distinct checks. The Huashu/Motion Anything source adapters in the public edition are method-only; runtime plan/bundle is explicitly unavailable rather than producing an incomplete source bundle. Existing recipient production tools remain usable independently.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and choose the required motion/audio branch. Configure only reviewed dependencies and verify exact saved outputs at normal playback speed before claiming delivery.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "video-production-workflow/v0.4.3",
           "product_id": "video-production-workflow",
@@ -957,7 +1086,7 @@
           }
         }
       ],
-      "current_release_key": "video-production-workflow/v0.4.3"
+      "current_release_key": "video-production-workflow/v0.5.0"
     },
     {
       "id": "instructional-design-studio",
@@ -967,6 +1096,49 @@
       "compatibility": "Host file and reasoning tools",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "instructional-design-studio/v0.4.0",
+          "product_id": "instructional-design-studio",
+          "version": "0.4.0",
+          "git_tag": "instructional-design-studio/v0.4.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:50:06Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/instructional-design-studio/v0.4.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Improve recording-script completeness and instructor-led revision. Add transcript claim audits and numbered-source verification.\n\n2026-10-27 release review: Add cited audio-course production and strengthen transferable learning and recording handoffs.",
+          "notes": "Improve recording-script completeness and instructor-led revision. Add transcript claim audits and numbered-source verification.\n\n2026-10-27 release review: Add cited audio-course production and strengthen transferable learning and recording handoffs.\n\nA fluent script can still leave essential evidence, demonstration details and teaching decisions unresolved until recording.\n\n2026-10-27 release review: Connect learning objectives, source-backed scripts and verifiable media delivery beyond activity completion.\n\nAdds instructor-content elicitation, evidence/how-to checks, purposeful iteration and readiness boundaries. Removes historical personal computer-use locators from the generic procedure, preserving them in the private originating project. Adds corpus coverage, preserved speech, visible qualifications, concise multi-source notes, end references, video glossary scope and actual export checks under the existing production owner.\n\n2026-10-27 release review: Retain the MIT claudemy source from assafkip with its source inventory and inactive nested manifests/hooks. Add audio-course wrappers, provider/source guards, focused tests and transcript-evidence workflow. Revise curriculum, assessment, storyboarding, lesson/evaluation and production guidance to preserve underlying concepts, instructor input, runnable demonstrations and learner checks. Include specialist policy updates.\n\nCompatibility: Additive conditional guidance in existing storyboarding and course-production owners; no new skill or runtime dependency.\n\n2026-10-27 release review: Existing instructional owners remain. Retained source hooks are not registered; rendering/provider setup and source rights remain explicit. Script readiness, audio production, media QA and learner evidence are separate states.\n\nUpgrade: Use the content pass for substantial recorded lessons or missing-detail feedback; reuse completed passes for settled work.\n\n2026-10-27 release review: Refresh the package and use the conditional audio-lesson or transcript workflow when required. Configure selected providers separately and verify the actual exported audio/transcript/package.\n\nValidation: Skill frontmatter validated; changed links resolved; source and installed bytes matched. Claude scenario review exercised missing material and preserved useful exploration. Human delivery improvement remains untested. Transcript update: changed skill valid, 13 existing tests pass, changed local links resolve and four independent simulated challenge cases pass; no learner outcome claim.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 38 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425970028",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "instructional-design-studio-0.4.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/instructional-design-studio/v0.4.0/instructional-design-studio-0.4.0.files.json",
+              "size": 17371,
+              "sha256": "81a533d3fd4424ff66dedda4f867dad022e2bb079ee0e0522a9c5dd3733ab3f9"
+            },
+            {
+              "role": "installation",
+              "name": "instructional-design-studio-0.4.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/instructional-design-studio/v0.4.0/instructional-design-studio-0.4.0.zip",
+              "size": 397080,
+              "sha256": "0f6b1b52b7b85d0e2a2bff7b49c4086e0f7d1d6acb1dd84abefd6851c35281cd"
+            },
+            {
+              "role": "checksum",
+              "name": "instructional-design-studio-0.4.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/instructional-design-studio/v0.4.0/instructional-design-studio-0.4.0.zip.sha256",
+              "size": 104,
+              "sha256": "b5449a082983b7b79ed09bb3cb83c9bf4ccbd80a365730eea1cc22b38358ca0a"
+            }
+          ],
+          "compatibility": "Additive conditional guidance in existing storyboarding and course-production owners; no new skill or runtime dependency.\n\n2026-10-27 release review: Existing instructional owners remain. Retained source hooks are not registered; rendering/provider setup and source rights remain explicit. Script readiness, audio production, media QA and learner evidence are separate states.",
+          "upgrade_guidance": "Use the content pass for substantial recorded lessons or missing-detail feedback; reuse completed passes for settled work.\n\n2026-10-27 release review: Refresh the package and use the conditional audio-lesson or transcript workflow when required. Configure selected providers separately and verify the actual exported audio/transcript/package.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "instructional-design-studio/v0.3.0",
           "product_id": "instructional-design-studio",
@@ -1183,7 +1355,7 @@
           }
         }
       ],
-      "current_release_key": "instructional-design-studio/v0.3.0"
+      "current_release_key": "instructional-design-studio/v0.4.0"
     },
     {
       "id": "workshop-facilitator",
@@ -1193,6 +1365,49 @@
       "compatibility": "Host file and reasoning tools",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "workshop-facilitator/v0.1.4",
+          "product_id": "workshop-facilitator",
+          "version": "0.1.4",
+          "git_tag": "workshop-facilitator/v0.1.4",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:50:24Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/workshop-facilitator/v0.1.4",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify workshop design discovery and disable implicit invocation for seven facilitation specialists.",
+          "notes": "2026-10-27 release review: Clarify workshop design discovery and disable implicit invocation for seven facilitation specialists.\n\n2026-10-27 release review: Keep session design discoverable and focused facilitation methods deliberate.\n\n2026-10-27 release review: Shorten workshop-design discovery text and set allow_implicit_invocation to false on seven specialist agent entries.\n\nCompatibility: 2026-10-27 release review: Existing skill names, explicit invocation and workshop deliverables remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; invoke a focused method explicitly or route through workshop-design.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no workshop was conducted.",
+          "notes_provenance": "github-release:425970276",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "workshop-facilitator-0.1.4.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/workshop-facilitator/v0.1.4/workshop-facilitator-0.1.4.files.json",
+              "size": 7080,
+              "sha256": "f8d7a5028712a1b951a37be77d738258f45a7c7ca71135449e8bec1e05d31364"
+            },
+            {
+              "role": "installation",
+              "name": "workshop-facilitator-0.1.4.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/workshop-facilitator/v0.1.4/workshop-facilitator-0.1.4.zip",
+              "size": 106846,
+              "sha256": "60ede5d0a4f2c672177c9be3e36436f7a9123b0105908adbee71546df5ba413e"
+            },
+            {
+              "role": "checksum",
+              "name": "workshop-facilitator-0.1.4.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/workshop-facilitator/v0.1.4/workshop-facilitator-0.1.4.zip.sha256",
+              "size": 97,
+              "sha256": "d152f676ea2ae078f969ca3c652d2a6314a74ec3a2a0da97ce6bb9761364a312"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names, explicit invocation and workshop deliverables remain supported; automatic specialist selection is intentionally restricted.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package; invoke a focused method explicitly or route through workshop-design.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "workshop-facilitator/v0.1.3",
           "product_id": "workshop-facilitator",
@@ -1323,7 +1538,7 @@
           }
         }
       ],
-      "current_release_key": "workshop-facilitator/v0.1.3"
+      "current_release_key": "workshop-facilitator/v0.1.4"
     },
     {
       "id": "game-creation-studio",
@@ -1333,6 +1548,49 @@
       "compatibility": "Host file and reasoning tools; Your selected game engine for builds",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "game-creation-studio/v0.3.3",
+          "product_id": "game-creation-studio",
+          "version": "0.3.3",
+          "git_tag": "game-creation-studio/v0.3.3",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:50:44Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/game-creation-studio/v0.3.3",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify tabletop discovery and make focused game methods explicit selections.",
+          "notes": "2026-10-27 release review: Clarify tabletop discovery and make focused game methods explicit selections.\n\n2026-10-27 release review: Keep broad tabletop routing concise without automatically invoking narrow specialists.\n\n2026-10-27 release review: Refine the ttrpg-router description and focused agent metadata, including eighteen added specialist policy files. Existing digital and tabletop methods remain under their current owners.\n\nCompatibility: 2026-10-27 release review: Existing skill names and explicit use remain; affected focused methods disable implicit invocation. No new game runtime or publication authority is added.\n\nUpgrade: 2026-10-27 release review: Refresh the package and explicitly select focused methods or route through the existing lead.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 18 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425970566",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "game-creation-studio-0.3.3.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/game-creation-studio/v0.3.3/game-creation-studio-0.3.3.files.json",
+              "size": 17218,
+              "sha256": "34b5f483dce20cd5952093a4382ed13f10265b87cbe9b98d30d2794ae5e174db"
+            },
+            {
+              "role": "installation",
+              "name": "game-creation-studio-0.3.3.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/game-creation-studio/v0.3.3/game-creation-studio-0.3.3.zip",
+              "size": 15664402,
+              "sha256": "74b7b401b513d8c5a441b03de47878fb1d9ba32c891deacea97ae2dbcb49c2b5"
+            },
+            {
+              "role": "checksum",
+              "name": "game-creation-studio-0.3.3.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/game-creation-studio/v0.3.3/game-creation-studio-0.3.3.zip.sha256",
+              "size": 97,
+              "sha256": "9695710975437b63f286f08966d540d7b2abdfcae34d3d4b2a98e0bc65839f6e"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names and explicit use remain; affected focused methods disable implicit invocation. No new game runtime or publication authority is added.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and explicitly select focused methods or route through the existing lead.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "game-creation-studio/v0.3.2",
           "product_id": "game-creation-studio",
@@ -1506,7 +1764,7 @@
           }
         }
       ],
-      "current_release_key": "game-creation-studio/v0.3.2"
+      "current_release_key": "game-creation-studio/v0.3.3"
     },
     {
       "id": "solo-service-operations",
@@ -1516,6 +1774,49 @@
       "compatibility": "Python 3.9+ for reconciliation; POSIX file locking for optional Gmail gate; Your own source records and explicitly authorized communication providers",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "solo-service-operations/v0.3.3",
+          "product_id": "solo-service-operations",
+          "version": "0.3.3",
+          "git_tag": "solo-service-operations/v0.3.3",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:51:03Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/solo-service-operations/v0.3.3",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify invoice discovery and focused operations invocation.",
+          "notes": "2026-10-27 release review: Clarify invoice discovery and focused operations invocation.\n\n2026-10-27 release review: Keep the lead invoice route concise and specialized operations deliberate.\n\n2026-10-27 release review: Refine invoice-preparation discovery text and specialist agent metadata, including four added explicit-invocation policy files. Existing invoice, payment, outreach and coordination procedures remain.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit use remain; affected specialists disable implicit invocation. No payment, message or bookkeeping action is newly authorized.\n\nUpgrade: 2026-10-27 release review: Refresh the package and explicitly select the focused operations method required.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425970884",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "solo-service-operations-0.3.3.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/solo-service-operations/v0.3.3/solo-service-operations-0.3.3.files.json",
+              "size": 10326,
+              "sha256": "31afecc8215110b52b9c11c8b523c716cb6ee7eda744ffaea7803594a2948d2b"
+            },
+            {
+              "role": "installation",
+              "name": "solo-service-operations-0.3.3.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/solo-service-operations/v0.3.3/solo-service-operations-0.3.3.zip",
+              "size": 189078,
+              "sha256": "a70c2aded3d3c1c4ac413f38ec4bf4ca48c3e67c4d8ab72a1fd5cba91ab9cd26"
+            },
+            {
+              "role": "checksum",
+              "name": "solo-service-operations-0.3.3.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/solo-service-operations/v0.3.3/solo-service-operations-0.3.3.zip.sha256",
+              "size": 100,
+              "sha256": "ce5ebac4e48401e05aa496be32c364724374d37959f2c111913411fd8d98be54"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill IDs and explicit use remain; affected specialists disable implicit invocation. No payment, message or bookkeeping action is newly authorized.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and explicitly select the focused operations method required.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "solo-service-operations/v0.3.2",
           "product_id": "solo-service-operations",
@@ -1689,7 +1990,7 @@
           }
         }
       ],
-      "current_release_key": "solo-service-operations/v0.3.2"
+      "current_release_key": "solo-service-operations/v0.3.3"
     },
     {
       "id": "build-mcp-apps",
@@ -1882,6 +2183,49 @@
       "compatibility": "Host coding tools; Runtime named by the selected workflow",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "development-studio/v0.4.0",
+          "product_id": "development-studio",
+          "version": "0.4.0",
+          "git_tag": "development-studio/v0.4.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:51:20Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/development-studio/v0.4.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Integrate the complete REA 6.5.0 tool surface and Build MCP Apps methods under Development Studio.\n\n2026-10-20 efficient implementation integration: Add complete efficient implementation methods and scoped utilities to the existing delivery, review and evaluation owners.\n\n2026-10-20 portable workflow and review evidence: Hand final authored UI copy to the existing Humanizer review owner.\n\n2026-10-27 release review: Integrate REA 6.5.0 analysis methods and scoped efficient implementation support.",
+          "notes": "Integrate the complete REA 6.5.0 tool surface and Build MCP Apps methods under Development Studio.\n\n2026-10-20 efficient implementation integration: Add complete efficient implementation methods and scoped utilities to the existing delivery, review and evaluation owners.\n\n2026-10-20 portable workflow and review evidence: Hand final authored UI copy to the existing Humanizer review owner.\n\n2026-10-27 release review: Integrate REA 6.5.0 analysis methods and scoped efficient implementation support.\n\nEnable shipped-artifact inspection, native reconstruction and authorized runtime observation within the existing development workflow, with one accountable plugin owner.\n\n2026-10-20 efficient implementation integration: Preserve complete requested behavior and relevant UX while reducing unnecessary code, dependencies and abstraction.\n\n2026-10-20 portable workflow and review evidence: Carry software delivery through final wording review within UX placement/state constraints.\n\n2026-10-27 release review: Ground shipped-artifact questions in evidence and preserve required behavior while reducing unnecessary implementation complexity.\n\nFull method and runtime integration, not static-only. Local installation enabled; no public release authorized. Public next-release catalog should describe Build MCP Apps within Development Studio and omit its standalone listing. Linux-only, licensed and Android-device prerequisites remain conditional; no OS sandbox or malware-free certification is claimed. Private host paths, bindings and engine binaries remain outside the public package.\n\n2026-10-17 reciprocal REA routing: Work Management selects Development Studio for authorized artifact/source gaps without requiring the REA name; source-only work stays with ordinary code navigation. Development returns evidence and coordination needs to the existing project owner without a new intake loop. Routing does not grant capture, installation or target access.\n\n2026-10-20 efficient implementation integration: All 199 v5 source files are inventoried with dispositions; full core methods, 11 historical examples plus index, exact MIT notice, modes/default/off/reopen, status, bounded reuse map, diff review, repo audit, debt ledger and attributed gain/evaluation guidance are integrated under functional names. Work Management, Prompt Playbook and UX own their conditional handoffs.\n\n2026-10-20 portable workflow and review evidence: Adds one final-copy handoff in implement-software and follows the portable review-recording contract. Complete implementation methods and existing efficiency controls remain with their owners.\n\n2026-10-27 release review: Retain the complete reviewed REA 6.5.0 method/guide surface from morluto under MIT and the efficient-implementation v5 methods, examples and license. Add the reverse-engineering owner, pinned external-runtime launcher, scoped preference/runtime helpers, quality review and evaluation guidance, focused tests and specialist policies. The explicit public projection registers the portable REA launcher and bounded Codex implementation hooks; root portable metadata migrates to plugin.portable.json using the restoration template. No private host runtime binding is exported.\n\nPublic hook projection: the shared default declaration resolves the installed Codex or Claude plugin root. SubagentStart uses the existing generic input contract under Claude and preserves the Codex parent-session contract under Codex; no new event or permission is added. Canonical hook bytes remain unchanged.\n\nCompatibility: Additive 207-tool plugin-owned MCP and 149 analysis CLI commands. External pinned runtime and optional engines need a private host binding; Codex native approval configuration is required. Existing implementation/debug/test owners and upstream licenses retained.\n\n2026-10-20 efficient implementation integration: No new skill heads or required provider; optional Python runtime and bounded hooks. Protected requirements outrank brevity. On the verified Codex build, root plugin.json suppresses hooks, so complete portable metadata is preserved at docs/portable-plugin-manifest.json and the native Codex manifest owns registration. A staged comparison retained all 22 skills and REA metadata. Restoring the root manifest requires fresh native readback. Upstream benchmark/publishing runners remain untrusted evidence; there is no numerical savings guarantee.\n\n2026-10-20 portable workflow and review evidence: No new skill head or mandatory intake. Public test projection retains the existing complete public skill and overlays only the new Humanizer handoff; missing efficient-method references were not introduced.\n\n2026-10-27 release review: Existing skill IDs remain. REA engines and executable runtime are separately reviewed recipient dependencies. Hooks read an explicitly enabled project/session preference and do not activate a mode or scan a repository by installation alone. Native compatibility manifests own registration; portable metadata is retained separately.\n\nUpgrade: Install the reviewed Development Studio source, configure the pinned private runtime binding and native writes policy with 34 explicit prompt overrides, then verify discovery and representative fixtures. Remove the duplicate personal Build MCP Apps installation only after coverage verification. Do not treat registration as provider readiness.\n\n2026-10-20 efficient implementation integration: Refresh the local package, review/trust the exact implementation hook definitions, and verify current discovery. Ordinary methods work without stored mode. Keep prior REA binding and approvals unchanged.\n\n2026-10-20 portable workflow and review evidence: Refresh local Development Studio and apply the final wording pass when authored reader-facing copy changed.\n\n2026-10-27 release review: Refresh through the native plugin manager and verify skill, MCP and hook discovery/trust. Configure a reviewed recipient REA runtime only when needed; keep any host binding private. Reuse existing project behavior contracts.\n\nValidation: 30 package and launcher tests pass. Source/live catalog has 207 tools; native server readback identifies development-studio@personal. Owned JavaScript, SQLite, redacted HAR, PTY process, Frida attach/script/detach, Ghidra and WASM fixtures pass; ILSpy reconstruction and JADX/Apktool readiness verified. Dependency audit reports zero known vulnerabilities; registry signatures and attestations verified. Final parity and scanner receipts retained in local review.\n\nREA routing follow-up: 8 supplied-context cases evaluated by Claude Sonnet 5; two ambiguous authorization/provider cases clarified and retested. Changed skill heads validate, Development structural checks pass, and both installed packages match canonical bytes. Existing owned app build analyzed through installed REA MCP with retained/exported/imported Evidence, then verified in the native browser. App behavior passes selected controls; label tracing remains partial and an existing playback accessible-name defect was recorded. No application or website publication.\n\n2026-10-20 efficient implementation integration: 66 Development tests pass, including 32 scoped-runtime/security tests. Nine changed skill heads and their local links validate. Claude Opus 5.5, Claude Sonnet 5, Gemini requested gemini-4-argon-high (actual ID unavailable), and local Gemma 4 12B contributed bounded reviews. All four installed packages match canonical source bytes (1447 regular files/links, excluding Git and generated bytecode metadata). Fresh native discovery returns all nine changed heads and three enabled, trusted implementation hooks. Installed commands and synthetic native-payload adapter checks pass. Automatic hook context delivery into the already-running chat was not observed and remains unverified. No public publication or version bump.\n\n2026-10-20 portable workflow and review evidence: Changed skill retained public frontmatter/body coverage. Native Codex exact parity and focused implement-software discovery verified.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 124 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation. Public manifest readback confirmed both native MCP declarations, the three bounded Codex implementation hooks, absent root plugin.json and retained plugin.portable.json; this is source registration evidence, not native runtime loading.\n\nClaude hook portability: installed Claude Code 2.1.280 strict plugin validation passed for Prompt, Writing, UX, Development and Work Management. All nine operative declared hook commands exited zero with only CLAUDE_PLUGIN_ROOT supplied in a disposable unmarked project. Shipped declarations contain one handler set per intended event; live-conversation hook dispatch and recipient trust settings were not exercised. Evidence: private claude-hooks-native-proof.json.",
+          "notes_provenance": "github-release:425971142",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "development-studio-0.4.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/development-studio/v0.4.0/development-studio-0.4.0.files.json",
+              "size": 56755,
+              "sha256": "950a12f666d4a1029fffb51eea9fbd789faef1a8dc54dfa5101a677a465e921c"
+            },
+            {
+              "role": "installation",
+              "name": "development-studio-0.4.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/development-studio/v0.4.0/development-studio-0.4.0.zip",
+              "size": 1360580,
+              "sha256": "7f6463a68a3d5f70bdf396eddd242a7176130e4dcc5052e8fcaf8def9b663d03"
+            },
+            {
+              "role": "checksum",
+              "name": "development-studio-0.4.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/development-studio/v0.4.0/development-studio-0.4.0.zip.sha256",
+              "size": 95,
+              "sha256": "d35f102c3efaf7ae293bdb8280bab7e88671720bd92ba7846a311f0f80a065a0"
+            }
+          ],
+          "compatibility": "Additive 207-tool plugin-owned MCP and 149 analysis CLI commands. External pinned runtime and optional engines need a private host binding; Codex native approval configuration is required. Existing implementation/debug/test owners and upstream licenses retained.\n\n2026-10-20 efficient implementation integration: No new skill heads or required provider; optional Python runtime and bounded hooks. Protected requirements outrank brevity. On the verified Codex build, root plugin.json suppresses hooks, so complete portable metadata is preserved at docs/portable-plugin-manifest.json and the native Codex manifest owns registration. A staged comparison retained all 22 skills and REA metadata. Restoring the root manifest requires fresh native readback. Upstream benchmark/publishing runners remain untrusted evidence; there is no numerical savings guarantee.\n\n2026-10-20 portable workflow and review evidence: No new skill head or mandatory intake. Public test projection retains the existing complete public skill and overlays only the new Humanizer handoff; missing efficient-method references were not introduced.\n\n2026-10-27 release review: Existing skill IDs remain. REA engines and executable runtime are separately reviewed recipient dependencies. Hooks read an explicitly enabled project/session preference and do not activate a mode or scan a repository by installation alone. Native compatibility manifests own registration; portable metadata is retained separately.",
+          "upgrade_guidance": "Install the reviewed Development Studio source, configure the pinned private runtime binding and native writes policy with 34 explicit prompt overrides, then verify discovery and representative fixtures. Remove the duplicate personal Build MCP Apps installation only after coverage verification. Do not treat registration as provider readiness.\n\n2026-10-20 efficient implementation integration: Refresh the local package, review/trust the exact implementation hook definitions, and verify current discovery. Ordinary methods work without stored mode. Keep prior REA binding and approvals unchanged.\n\n2026-10-20 portable workflow and review evidence: Refresh local Development Studio and apply the final wording pass when authored reader-facing copy changed.\n\n2026-10-27 release review: Refresh through the native plugin manager and verify skill, MCP and hook discovery/trust. Configure a reviewed recipient REA runtime only when needed; keep any host binding private. Reuse existing project behavior contracts.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "development-studio/v0.3.0",
           "product_id": "development-studio",
@@ -2141,7 +2485,7 @@
           }
         }
       ],
-      "current_release_key": "development-studio/v0.3.0"
+      "current_release_key": "development-studio/v0.4.0"
     },
     {
       "id": "video-templates",
@@ -2291,6 +2635,49 @@
       "compatibility": "Python 3.12 and declared MCP dependencies; MCP Apps supporting host for the widget",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "data-visualization-toolkit/v0.3.0",
+          "product_id": "data-visualization-toolkit",
+          "version": "0.3.0",
+          "git_tag": "data-visualization-toolkit/v0.3.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:51:38Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/data-visualization-toolkit/v0.3.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add local layered depth-card production and strengthen comparison and interaction review.",
+          "notes": "2026-10-27 release review: Add local layered depth-card production and strengthen comparison and interaction review.\n\n2026-10-27 release review: Support a distinct image-card deliverable and make analytical views answer the requested comparison.\n\n2026-10-27 release review: Expose the fourteenth discovery owner for self-contained HTML or project-local React depth cards from supplied layers, including parallax, foil, finishes, optional flip/layer views and reduced-motion/static behavior. Add depth-card regression coverage. Refine chart selection, existing-surface use, shared-scale comparisons, filters, hover/selection and motion verification guidance.\n\nCompatibility: 2026-10-27 release review: The standalone card route uses Python/Pillow and supplied images without a network service; optional provider sources remain outside the public package. Existing visualization routes remain supported.\n\nUpgrade: 2026-10-27 release review: Refresh the package. Use the depth-card method for that deliverable and its documented input dependencies; verify the actual rendered interaction before delivery.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 1 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.\n\nFinal exclusion review admitted 12 generic specialist invocation configurations requiring explicit invocation. Personal context, private sender policy, provider bodies and research caches remain excluded.",
+          "notes_provenance": "github-release:425971395",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "data-visualization-toolkit-0.3.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/data-visualization-toolkit/v0.3.0/data-visualization-toolkit-0.3.0.files.json",
+              "size": 47186,
+              "sha256": "792c3e8d6f19f79fd322e3560cb48bdf47e01e9eb850487473f5f830ad6e7637"
+            },
+            {
+              "role": "installation",
+              "name": "data-visualization-toolkit-0.3.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/data-visualization-toolkit/v0.3.0/data-visualization-toolkit-0.3.0.zip",
+              "size": 809629,
+              "sha256": "d558e2a20c68a348a27c12e3469ec305d43f7aaab13345b6f5b1c8404df30beb"
+            },
+            {
+              "role": "checksum",
+              "name": "data-visualization-toolkit-0.3.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/data-visualization-toolkit/v0.3.0/data-visualization-toolkit-0.3.0.zip.sha256",
+              "size": 103,
+              "sha256": "d9db1a8b50946d68873dfafb1d7e6441e26b89f6958b870ebe880a7e5dd59159"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: The standalone card route uses Python/Pillow and supplied images without a network service; optional provider sources remain outside the public package. Existing visualization routes remain supported.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package. Use the depth-card method for that deliverable and its documented input dependencies; verify the actual rendered interaction before delivery.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "data-visualization-toolkit/v0.2.5",
           "product_id": "data-visualization-toolkit",
@@ -2551,7 +2938,7 @@
           }
         }
       ],
-      "current_release_key": "data-visualization-toolkit/v0.2.5"
+      "current_release_key": "data-visualization-toolkit/v0.3.0"
     },
     {
       "id": "activities-templates",
@@ -2561,6 +2948,49 @@
       "compatibility": "Python 3.12 and declared MCP dependencies; Your own authorized activity catalog",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "activities-templates/v0.2.0",
+          "product_id": "activities-templates",
+          "version": "0.2.0",
+          "git_tag": "activities-templates/v0.2.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:51:55Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/activities-templates/v0.2.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add optional metadata-only usage events at MCP tool execution boundaries.",
+          "notes": "2026-10-27 release review: Add optional metadata-only usage events at MCP tool execution boundaries.\n\n2026-10-27 release review: Allow an opted-in recipient recorder to observe real tool completions without changing tool results.\n\n2026-10-27 release review: Include the usage-events helper and focused tests. Registered handlers emit operation, status and duration metadata; internal helper reuse is not counted twice. Recording uses the existing process, with no model call, polling or extra service.\n\nCompatibility: 2026-10-27 release review: Missing or disabled tracking is a no-op; recorder failures do not change tool results. No task arguments, results, catalog content or credentials are included in events.\n\nUpgrade: 2026-10-27 release review: Refresh the package and reload connections normally when safe. Configure a recipient recorder only if desired; preserve active shared connections until then.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 2 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425971677",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "activities-templates-0.2.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/activities-templates/v0.2.0/activities-templates-0.2.0.files.json",
+              "size": 5323,
+              "sha256": "137b8e63f04d53fb43c4f34c9bb5f8db769abc1039a9f1d462df1a14486168eb"
+            },
+            {
+              "role": "installation",
+              "name": "activities-templates-0.2.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/activities-templates/v0.2.0/activities-templates-0.2.0.zip",
+              "size": 113851,
+              "sha256": "5ee3535f7a2de3d3a9eefb3ee8a902e90bed5abf66446591fe11b36d13c2ac98"
+            },
+            {
+              "role": "checksum",
+              "name": "activities-templates-0.2.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/activities-templates/v0.2.0/activities-templates-0.2.0.zip.sha256",
+              "size": 97,
+              "sha256": "08e41bed5fcbfb51a3c7124d4808c53f776be420119b14b883d52609f034e492"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Missing or disabled tracking is a no-op; recorder failures do not change tool results. No task arguments, results, catalog content or credentials are included in events.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and reload connections normally when safe. Configure a recipient recorder only if desired; preserve active shared connections until then.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "activities-templates/v0.1.4",
           "product_id": "activities-templates",
@@ -2734,7 +3164,7 @@
           }
         }
       ],
-      "current_release_key": "activities-templates/v0.1.4"
+      "current_release_key": "activities-templates/v0.2.0"
     },
     {
       "id": "design-templates",
@@ -2744,6 +3174,49 @@
       "compatibility": "Python 3.12 and declared MCP dependencies; Your own authorized template collection",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "design-templates/v0.1.7",
+          "product_id": "design-templates",
+          "version": "0.1.7",
+          "git_tag": "design-templates/v0.1.7",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:52:12Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/design-templates/v0.1.7",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Correct the related Video Library destination in the library adapter and bridge fixture.",
+          "notes": "2026-10-27 release review: Correct the related Video Library destination in the library adapter and bridge fixture.\n\n2026-10-27 release review: Point the related library action to the maintained library host.\n\n2026-10-27 release review: Replace the activity-atlas host with library.jkylehobson.chatgpt.site for the /video-library/ destination in the UI adapter and its native bridge test.\n\nCompatibility: 2026-10-27 release review: The related-link action and bridge message shape remain unchanged; only the destination host changes.\n\nUpgrade: 2026-10-27 release review: Refresh the package to receive the corrected related-link destination.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found two changed reviewed paths and no conflicts. Static adapter/test URL consistency passed. The native bridge suite could not start because EXT_APPS_SDK_APP was unset; no SDK was installed and no live destination or rendered UI verification was performed.",
+          "notes_provenance": "github-release:425971942",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "design-templates-0.1.7.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/design-templates/v0.1.7/design-templates-0.1.7.files.json",
+              "size": 5836,
+              "sha256": "ff7cf8c9607779072f5d10908afd2d0979f909597d6e54beb18f8a95c7a865b4"
+            },
+            {
+              "role": "installation",
+              "name": "design-templates-0.1.7.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/design-templates/v0.1.7/design-templates-0.1.7.zip",
+              "size": 121898,
+              "sha256": "e695cea0a037e7ac376def91934ed61f2d52443d97548de562cf4b524c0245a2"
+            },
+            {
+              "role": "checksum",
+              "name": "design-templates-0.1.7.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/design-templates/v0.1.7/design-templates-0.1.7.zip.sha256",
+              "size": 93,
+              "sha256": "ae2f167acd9c92279bc10179c22d85045d7ef5f2418f4ed6a5140aaac9da7bb8"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: The related-link action and bridge message shape remain unchanged; only the destination host changes.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package to receive the corrected related-link destination.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "design-templates/v0.1.6",
           "product_id": "design-templates",
@@ -2874,7 +3347,7 @@
           }
         }
       ],
-      "current_release_key": "design-templates/v0.1.6"
+      "current_release_key": "design-templates/v0.1.7"
     },
     {
       "id": "reasoning-studio",
@@ -2884,6 +3357,49 @@
       "compatibility": "Host reasoning tools; Explicit binding file for optional helper",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "reasoning-studio/v0.2.4",
+          "product_id": "reasoning-studio",
+          "version": "0.2.4",
+          "git_tag": "reasoning-studio/v0.2.4",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:52:30Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/reasoning-studio/v0.2.4",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add positive decision guidance and deliberate specialist selection.",
+          "notes": "2026-10-27 release review: Add positive decision guidance and deliberate specialist selection.\n\n2026-10-27 release review: Replace repeated generic defaults with a choice grounded in the actual outcome and constraints.\n\n2026-10-27 release review: Add the positive-decisions reference, compare the closest credible alternative and separate rule compliance from quality evidence. Add two explicit-invocation specialist policy files and retain existing reasoning methods.\n\nCompatibility: 2026-10-27 release review: Existing skill names remain; routine or settled choices bypass the deeper branch. Affected specialists disable implicit invocation.\n\nUpgrade: 2026-10-27 release review: Refresh the package and use the positive-decision reference for a recurring generic recommendation or unclear selection rule.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 3 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425972228",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "reasoning-studio-0.2.4.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/reasoning-studio/v0.2.4/reasoning-studio-0.2.4.files.json",
+              "size": 7141,
+              "sha256": "ba04750eca0fee97612cf18118c00521702bf4fdb796ec326a14190a3eb79779"
+            },
+            {
+              "role": "installation",
+              "name": "reasoning-studio-0.2.4.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/reasoning-studio/v0.2.4/reasoning-studio-0.2.4.zip",
+              "size": 108080,
+              "sha256": "57d41b8e49c8082065d9933844053ac228fbcfc58a8c81f3de9aa93ae662bdac"
+            },
+            {
+              "role": "checksum",
+              "name": "reasoning-studio-0.2.4.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/reasoning-studio/v0.2.4/reasoning-studio-0.2.4.zip.sha256",
+              "size": 93,
+              "sha256": "595fa1e207da9f68ccc30a8da20dc3d53f018468ff4ac6c742924c46996be0c5"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names remain; routine or settled choices bypass the deeper branch. Affected specialists disable implicit invocation.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and use the positive-decision reference for a recurring generic recommendation or unclear selection rule.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "reasoning-studio/v0.2.3",
           "product_id": "reasoning-studio",
@@ -3100,7 +3616,7 @@
           }
         }
       ],
-      "current_release_key": "reasoning-studio/v0.2.3"
+      "current_release_key": "reasoning-studio/v0.2.4"
     },
     {
       "id": "survey-studio",
@@ -3110,6 +3626,49 @@
       "compatibility": "Host file tools; Python for validation and export helpers",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "survey-studio/v0.1.5",
+          "product_id": "survey-studio",
+          "version": "0.1.5",
+          "git_tag": "survey-studio/v0.1.5",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:52:48Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/survey-studio/v0.1.5",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify survey strategy discovery and disable implicit invocation for seven focused survey methods.",
+          "notes": "2026-10-27 release review: Clarify survey strategy discovery and disable implicit invocation for seven focused survey methods.\n\n2026-10-27 release review: Make the lead route easier to discover while keeping specialist selection deliberate.\n\n2026-10-27 release review: Shorten survey-strategist discovery text and set allow_implicit_invocation to false on seven focused agent entries.\n\nCompatibility: 2026-10-27 release review: Existing skill names, survey outputs and explicit invocation remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; select focused methods explicitly or through the strategist workflow.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found eight changed reviewed paths and no conflicts. Static checks verified seven policy additions against the public baseline; no instrument behavior trial was run.",
+          "notes_provenance": "github-release:425972487",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "survey-studio-0.1.5.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/survey-studio/v0.1.5/survey-studio-0.1.5.files.json",
+              "size": 20738,
+              "sha256": "8a35ba87d86621074d98df27bbeaa6d13b32b078b581b60b8a065caea6d34e79"
+            },
+            {
+              "role": "installation",
+              "name": "survey-studio-0.1.5.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/survey-studio/v0.1.5/survey-studio-0.1.5.zip",
+              "size": 309663,
+              "sha256": "c1fc7339f8a98b5275a42b410307b13fdaa401ccbe7011fac51535110bd51b6e"
+            },
+            {
+              "role": "checksum",
+              "name": "survey-studio-0.1.5.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/survey-studio/v0.1.5/survey-studio-0.1.5.zip.sha256",
+              "size": 90,
+              "sha256": "5de391016b1db4e82454cd590adfcc73d6d640d73977409ebfec98f8c3f912d4"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names, survey outputs and explicit invocation remain supported; automatic specialist selection is intentionally restricted.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package; select focused methods explicitly or through the strategist workflow.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "survey-studio/v0.1.4",
           "product_id": "survey-studio",
@@ -3283,7 +3842,7 @@
           }
         }
       ],
-      "current_release_key": "survey-studio/v0.1.4"
+      "current_release_key": "survey-studio/v0.1.5"
     },
     {
       "id": "mac-ops-toolkit",
@@ -3293,6 +3852,49 @@
       "compatibility": "macOS; Host terminal or computer-use tools",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "mac-ops-toolkit/v0.3.4",
+          "product_id": "mac-ops-toolkit",
+          "version": "0.3.4",
+          "git_tag": "mac-ops-toolkit/v0.3.4",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:53:05Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/mac-ops-toolkit/v0.3.4",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify Mac triage discovery and prevent nine focused recovery skills from implicit invocation.",
+          "notes": "2026-10-27 release review: Clarify Mac triage discovery and prevent nine focused recovery skills from implicit invocation.\n\n2026-10-27 release review: Keep unexplained failures routed through the lead triage skill and preserve deliberate recovery selection.\n\n2026-10-27 release review: The mac-troubleshooter description now states diagnosis and the smallest reversible fix; nine focused agent policies disable implicit invocation.\n\nCompatibility: 2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic specialist selection is intentionally restricted.\n\nUpgrade: 2026-10-27 release review: Refresh the package; select the appropriate focused recovery method explicitly.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified nine policy additions against the public baseline; no live app recovery was performed.",
+          "notes_provenance": "github-release:425972784",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "mac-ops-toolkit-0.3.4.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/mac-ops-toolkit/v0.3.4/mac-ops-toolkit-0.3.4.files.json",
+              "size": 7847,
+              "sha256": "3ddf30f96da476261179ca7a5906f1d1b468685a770c0d4f48c1ea2901e5251b"
+            },
+            {
+              "role": "installation",
+              "name": "mac-ops-toolkit-0.3.4.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/mac-ops-toolkit/v0.3.4/mac-ops-toolkit-0.3.4.zip",
+              "size": 111842,
+              "sha256": "c18f4bf5b378377dc8b80acfca0724e74c834fb256433ac7b8fde32c03a26307"
+            },
+            {
+              "role": "checksum",
+              "name": "mac-ops-toolkit-0.3.4.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/mac-ops-toolkit/v0.3.4/mac-ops-toolkit-0.3.4.zip.sha256",
+              "size": 92,
+              "sha256": "55d4528db94b6af761840ec71f5f7063f98b8d2a6c3c9ee298ff563eab20c106"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names and explicit invocation remain supported; automatic specialist selection is intentionally restricted.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package; select the appropriate focused recovery method explicitly.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "mac-ops-toolkit/v0.3.3",
           "product_id": "mac-ops-toolkit",
@@ -3509,7 +4111,7 @@
           }
         }
       ],
-      "current_release_key": "mac-ops-toolkit/v0.3.3"
+      "current_release_key": "mac-ops-toolkit/v0.3.4"
     },
     {
       "id": "work-management",
@@ -3519,6 +4121,49 @@
       "compatibility": "Host file and coding tools; Explicit receiving-host bindings for optional helpers",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "work-management/v0.7.0",
+          "product_id": "work-management",
+          "version": "0.7.0",
+          "git_tag": "work-management/v0.7.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:53:24Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/work-management/v0.7.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-20 efficient implementation integration: Route unresolved software intent to a complete behavior contract before efficient implementation.\n\n2026-10-20 portable workflow and review evidence: Add explicit-package skill lookup, portable routing hooks and project-local quality receipts.\n\n2026-10-20 production specialist follow-through: Put production-owner selection before discovery details, with native Skill and file-only routes.\n\n2026-10-21 API Anything: Bundle pinned API Anything website-operation runtime in Work Management Studio.\n\n2026-10-22 release review: Admit 16 portable canonical additions and reconcile tracked source changes while retaining author-only usage callback exclusion.\n\n2026-10-24 license packaging: reconcile 13 already-exported first-party paths omitted from scope/provenance inventories.\n\n2026-10-27 release review: Extend provider routing to DeepSeek/NVIDIA and add bounded problem framing before consequential structure or implementation decisions.",
+          "notes": "2026-10-20 efficient implementation integration: Route unresolved software intent to a complete behavior contract before efficient implementation.\n\n2026-10-20 portable workflow and review evidence: Add explicit-package skill lookup, portable routing hooks and project-local quality receipts.\n\n2026-10-20 production specialist follow-through: Put production-owner selection before discovery details, with native Skill and file-only routes.\n\n2026-10-21 API Anything: Bundle pinned API Anything website-operation runtime in Work Management Studio.\n\n2026-10-22 release review: Admit 16 portable canonical additions and reconcile tracked source changes while retaining author-only usage callback exclusion.\n\n2026-10-24 license packaging: reconcile 13 already-exported first-party paths omitted from scope/provenance inventories.\n\n2026-10-27 release review: Extend provider routing to DeepSeek/NVIDIA and add bounded problem framing before consequential structure or implementation decisions.\n\n2026-10-20 efficient implementation integration: Keep product scope and explicit exclusions clear while giving UX ownership of applicable human expectations.\n\n2026-10-20 portable workflow and review evidence: Allow recipient hosts to discover complete registered methods and record exact reviewed artifact bytes without private host instructions.\n\n2026-10-20 production specialist follow-through: A clean native Claude trial loaded the router and Humanizer but did not read the Development or UX methods. Make that handoff visible without another skill or catalog.\n\n2026-10-21 API Anything: Reuse authorized website requests through a portable local runtime and retain the full teaching workflow in the published package.\n\n2026-10-22 release review: Clear unknown-path flags with exact portable bytes and provenance; preserve previous pending changes for later versioned release.\n\nMake existing reviewed source coverage explicit without adding payload or inferring third-party rights.\n\n2026-10-27 release review: Resolve uncertain causes with a discriminating observation before building scaffolding, and select hosted workers from verified access and task evidence.\n\n2026-10-20 efficient implementation integration: Added conditional implementation-readiness reference, buildable acceptance, evidence-backed assumptions, scoped reopening and companion-optional fallback.\n\n2026-10-20 portable workflow and review evidence: Portable lookup reads only explicitly selected packages and preserves descriptions and enabled policy. Portable hook transport is explicit. Public projection omits private usage callbacks. The existing recipient CODEX_HOME state default remains; project-local receipt examples pass --state-path explicitly. This reviewed adaptation remains separate from private canonical host integration.\n\n2026-10-20 production specialist follow-through: Router identifies Development, UX and final wording responsibilities for software interfaces. The existing portable prompt reminder directs the model to load selected owners before applying them. Keep the public portable-only hook adaptation; do not copy private usage callbacks into a public package.\n\n2026-10-21 API Anything: All 169 upstream files and MIT grant retained; source hashes, portable launcher and conditional workflow added. Keep private state and dependencies out of publication.\n\n2026-10-22 release review: The portable discovery, provider sync, Codex refresh, method references, agent policies and synthetic checks are reviewed. scripts/usage_event.py remains excluded because it loads a separately configured private recorder. Optional public hooks use --portable and do not load usage counters.\n\nUse the established first-party code/noncode defaults, reviewed source-inventory hashes, public commit lineage, current canonical bytes and documented recipient projections. Preserve all upstream/prior grants and private exclusions.\n\n2026-10-27 release review: Eight actual canonical/public content differences add DeepSeek Toolkit routing across the provider map, orchestration reference, routing index, hosted-provider boundary, worker skill and CLI routing guide. Project structure and tool routing conditionally use Prompt Playbook problem framing for unclear problems or methods. CLI routing also explains how to transfer a strong component and separate implementation and review roles without generalizing one result into a provider ranking. Earlier pending release history and all existing reviewed_additions remain intact.\n\nCompatibility: 2026-10-20 efficient implementation integration: Existing product-definition and tool-workflow-routing entries; no new hook, provider or skill head. Clear small edits bypass additional planning.\n\n2026-10-20 portable workflow and review evidence: No new skill head, provider, publication or monitoring authority. Native private integration and generic public projection retain separate boundaries.\n\n2026-10-20 production specialist follow-through: Existing skills, descriptions, hooks and private opt-in boundary remain. Small settled edits reuse only the relevant method and checks.\n\n2026-10-21 API Anything: Optional runtime; existing skill IDs remain. No default MCP, hook or account connection.\n\nInventory-only correction; no source payload, automatic registration, provider access or runtime behavior changed.\n\n2026-10-27 release review: Compatible optional routing and instruction refinements; existing skill IDs, explicit authority boundaries and clear-task direct execution remain. Hosted DeepSeek requires separately verified recipient access and allowance; no provider authentication, default connection or monitoring is added.\n\nUpgrade: 2026-10-20 efficient implementation integration: Refresh local Work Management; reuse existing briefs and project records.\n\n2026-10-20 portable workflow and review evidence: Refresh the locally adopted owner. Public collection still requires deliberate reconciliation of the reviewed generic projection.\n\n2026-10-20 production specialist follow-through: Refresh the adopted Work Management package. Behavioral verification uses a fresh paired trial; prior benchmark artifacts remain frozen.\n\n2026-10-21 API Anything: Refresh Work Management, then explicitly set up Node 22.13+ runtime and private state outside the package.\n\nRetain pending work for a later explicitly authorized release.\n\n2026-10-27 release review: Refresh Work Management. Resolve the selected provider toolkit and current host capability evidence before dispatch; use problem framing only for a consequential uncertainty. The earlier optional API Anything setup requirements still apply when that runtime is selected.\n\nValidation: 2026-10-20 efficient implementation integration: Changed skill frontmatter and relative links pass; installed bytes verified. Supplied-context behavioral trials cover vague prompts, exact edits, missing real business facts, injection, report-only work and task changes.\n\n2026-10-20 portable workflow and review evidence: Five-package clean Claude runtime registered all 67 custom skills; successful router/Humanizer reads observed. Generic gate passed 22 evidence tests and self-test, plus explicit project-local mark/verify/stale checks. Native Codex refresh and exact parity verified.\n\n2026-10-20 production specialist follow-through: Eleven work-start tests passed. All six router relative links and three specialist entrypoints resolve. Native Codex reinstall and exact parity passed for all three changed files. Final router wording was reviewed with natural-prose-editor and recorded in project-local evidence. Fresh native Opus5.5 High pair completed once per arm under equal1200-second caps. Enabled loaded complete Development, UX, Humanizer, router and prompt-refinement bodies before its first write, and recorded a review matching the final file; private tracking mirrored that genuine event afterward. All four submission hooks succeeded. Rendered audit separately found a phone overflow regression, so this verifies workflow delivery rather than a universal design-quality gain. No public publication started.\n\n2026-10-21 API Anything: Eight wrapper boundary tests pass. Pinned build and real Hacker News HTTP read pass. Full source preserved; protocol and provider checks are recorded separately.\nAPI Anything final checks: 10 wrapper tests, upstream type checking, 43 upstream tests and CLI/MCP Hacker News tier-1 reads passed; one returned item matched four source endpoint fields. Final review fixed readiness checking and pinned-command handoff.\n\n2026-10-22 release review: Work Management package tests passed with one expected external-helper skip; package catalog validation passed. Scoped pending review will be refreshed. No version bump or publication.\n\n35 package validations, 35 development archive integrity/legal packaging checks and 239 publisher tests pass. Eight actual standalone Stitch bundles remain byte-identical to their recorded released hashes, including source legal documents.\n\n2026-10-27 release review: Read-only scoped local_sync.plan found 24 baseline-relative paths with no conflicts; eight differ in current canonical/public content and 16 already match on both sides. All eight current content diffs were inspected. Existing reviewed_additions and prior reconciliation history were preserved. This review did not run provider inference, UI trials or a fresh full package suite.",
+          "notes_provenance": "github-release:425973005",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "work-management-0.7.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.7.0/work-management-0.7.0.files.json",
+              "size": 58677,
+              "sha256": "839eba6e132fdf4c1a7b7a276b3d8199dca2abd53889f5c65ffa3645bfdb35d1"
+            },
+            {
+              "role": "installation",
+              "name": "work-management-0.7.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.7.0/work-management-0.7.0.zip",
+              "size": 7919231,
+              "sha256": "2e333ba8d0b4af8aaf9202b3bed9a8800570cb0c55100515bdc2a684bd366fe2"
+            },
+            {
+              "role": "checksum",
+              "name": "work-management-0.7.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/work-management/v0.7.0/work-management-0.7.0.zip.sha256",
+              "size": 92,
+              "sha256": "2654e92fe7da793f7d802c18a4f5a61ba2117002e805d3694ea1617d38d18740"
+            }
+          ],
+          "compatibility": "2026-10-20 efficient implementation integration: Existing product-definition and tool-workflow-routing entries; no new hook, provider or skill head. Clear small edits bypass additional planning.\n\n2026-10-20 portable workflow and review evidence: No new skill head, provider, publication or monitoring authority. Native private integration and generic public projection retain separate boundaries.\n\n2026-10-20 production specialist follow-through: Existing skills, descriptions, hooks and private opt-in boundary remain. Small settled edits reuse only the relevant method and checks.\n\n2026-10-21 API Anything: Optional runtime; existing skill IDs remain. No default MCP, hook or account connection.\n\nInventory-only correction; no source payload, automatic registration, provider access or runtime behavior changed.\n\n2026-10-27 release review: Compatible optional routing and instruction refinements; existing skill IDs, explicit authority boundaries and clear-task direct execution remain. Hosted DeepSeek requires separately verified recipient access and allowance; no provider authentication, default connection or monitoring is added.",
+          "upgrade_guidance": "2026-10-20 efficient implementation integration: Refresh local Work Management; reuse existing briefs and project records.\n\n2026-10-20 portable workflow and review evidence: Refresh the locally adopted owner. Public collection still requires deliberate reconciliation of the reviewed generic projection.\n\n2026-10-20 production specialist follow-through: Refresh the adopted Work Management package. Behavioral verification uses a fresh paired trial; prior benchmark artifacts remain frozen.\n\n2026-10-21 API Anything: Refresh Work Management, then explicitly set up Node 22.13+ runtime and private state outside the package.\n\nRetain pending work for a later explicitly authorized release.\n\n2026-10-27 release review: Refresh Work Management. Resolve the selected provider toolkit and current host capability evidence before dispatch; use problem framing only for a consequential uncertainty. The earlier optional API Anything setup requirements still apply when that runtime is selected.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "work-management/v0.6.0",
           "product_id": "work-management",
@@ -3864,7 +4509,7 @@
           }
         }
       ],
-      "current_release_key": "work-management/v0.6.0"
+      "current_release_key": "work-management/v0.7.0"
     },
     {
       "id": "graphic-design-studio",
@@ -3874,6 +4519,49 @@
       "compatibility": "Python 3.12 and declared dependencies for local runtime; Design Templates for optional chooser; Host image tools for generation",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "graphic-design-studio/v0.5.0",
+          "product_id": "graphic-design-studio",
+          "version": "0.5.0",
+          "git_tag": "graphic-design-studio/v0.5.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:53:43Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/graphic-design-studio/v0.5.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add source-image reconstruction, sticker/meme composition and still-image motion methods.",
+          "notes": "2026-10-27 release review: Add source-image reconstruction, sticker/meme composition and still-image motion methods.\n\n2026-10-27 release review: Turn supplied-image requests into faithful, reviewable outputs through the existing graphic owners.\n\n2026-10-27 release review: Retain MIT adaptations from MixMatter 3.0.0, copyright Fan Jiale, with its original grant. Add visual-grammar and reconstruction references, a first-party Pillow composer and tests, still-image motion guidance and specialist policies. Built-in image editing follows the host tool instructions; true local cutouts require source alpha or a supplied mask.\n\nCompatibility: 2026-10-27 release review: Existing graphic routes remain. The new local composition route does not require an external service; unavailable video capability yields an honestly labeled production brief. Source identity, approved assets and project brand remain authoritative.\n\nUpgrade: 2026-10-27 release review: Refresh the package and select the matching supplied-image method. Install only its documented local dependencies if using the composer, and inspect saved outputs before delivery.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 16 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425973328",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "graphic-design-studio-0.5.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/graphic-design-studio/v0.5.0/graphic-design-studio-0.5.0.files.json",
+              "size": 25512,
+              "sha256": "410379d94aa7ba67281f8049b6d3b250ede4e3d6ba83687f2c5830352409ab63"
+            },
+            {
+              "role": "installation",
+              "name": "graphic-design-studio-0.5.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/graphic-design-studio/v0.5.0/graphic-design-studio-0.5.0.zip",
+              "size": 5044300,
+              "sha256": "6381738c19ad00447170312fb51e3bd4130010a831e806b37c04ac5ffd5dbcb6"
+            },
+            {
+              "role": "checksum",
+              "name": "graphic-design-studio-0.5.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/graphic-design-studio/v0.5.0/graphic-design-studio-0.5.0.zip.sha256",
+              "size": 98,
+              "sha256": "fb4aa3d517866a14120f2037e0fb7cb8f3d853217884f73eaa328a2eb1c3bf84"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing graphic routes remain. The new local composition route does not require an external service; unavailable video capability yields an honestly labeled production brief. Source identity, approved assets and project brand remain authoritative.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and select the matching supplied-image method. Install only its documented local dependencies if using the composer, and inspect saved outputs before delivery.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "graphic-design-studio/v0.4.0",
           "product_id": "graphic-design-studio",
@@ -4090,7 +4778,7 @@
           }
         }
       ],
-      "current_release_key": "graphic-design-studio/v0.4.0"
+      "current_release_key": "graphic-design-studio/v0.5.0"
     },
     {
       "id": "brand-templates",
@@ -4100,6 +4788,49 @@
       "compatibility": "Python 3.12 and declared MCP dependencies; MCP Apps supporting host for the chooser",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "brand-templates/v0.2.1",
+          "product_id": "brand-templates",
+          "version": "0.2.1",
+          "git_tag": "brand-templates/v0.2.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:54:21Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/brand-templates/v0.2.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-24 font rights repair: give 50 static derivatives distinct Atlas names and resolve the exact-hash RFN review.\n\n2026-10-27 release review: Add shared backend transport while retaining the font-rights repairs recorded earlier.",
+          "notes": "2026-10-24 font rights repair: give 50 static derivatives distinct Atlas names and resolve the exact-hash RFN review.\n\n2026-10-27 release review: Add shared backend transport while retaining the font-rights repairs recorded earlier.\n\nRetain the original OFL and authors while making generated static derivative identities distinct and keeping typography tables unchanged.\n\n2026-10-27 release review: Share SDK imports across callers while preserving independent MCP sessions and the existing tool contract.\n\nAtlas Reading Serif replaces the generated Lora identity; Atlas Book Serif replaces the generated Libre Baskerville identity across 24 kits. Primary, full, PostScript, unique and variation-prefix names plus current paths/catalog/source metadata are consistent. Original author/copyright/trademark/OFL notices, glyphs, metrics, shaping tables, original native specifications and embedded PDF documents are retained. Earlier Atlas Editorial Serif naming repair remains included. Existing published assets and versions are unchanged.\n\n2026-10-27 release review: Add an injectable FastMCP server class, version/binding-separated shared backend, stdio proxy and transport tests. POSIX no-argument launch uses the proxy; direct CLI/export, non-POSIX operation and BRAND_TEMPLATES_TRANSPORT=direct retain the direct route. A backend retires after its last client disconnects. This review explicitly includes the transport changes excluded from the earlier font-only note; the transport adaptation credits Activities Templates.\n\nCompatibility: Install the supplied Atlas-named derivatives when using the portable kits. Typography instructions and guide rebuild inputs use those names. Original source-family/native-template specifications remain separately recorded.\n\n2026-10-27 release review: Existing tool names and outputs remain; no catalog or UI content change is intended. The direct transport remains a rollback option. Runtime sharing is local to the recipient.\n\nUpgrade: Review the staged candidates and allocate a new immutable release only under separate publication authorization. Existing published archives must not be overwritten. The SHA-bound review accepts only the exact repaired font bytes; later changes require fresh review.\n\n2026-10-27 release review: Refresh the package and use a fresh connection to load the new transport. Use BRAND_TEMPLATES_TRANSPORT=direct if direct stdio is required.\n\nValidation: Four unique font outputs reproduce offline from retained original variable inputs; all 50 canonical/public copies pass metadata, notice and raw SFNT table equality checks. All 35 public scope checks and public source inventory pass. Current Brand development ZIP passes integrity/legal closure. Forty-nine website candidates (24 Brand, 25 Design) preserve unrelated original/native/PDF bytes and pass complete asset-manifest/CRC closure. Live canonical source inventory has six unrelated preexisting changed files and four excluded-source additions; none is exported or admitted by this repair.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425973594",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "brand-templates-0.2.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/brand-templates/v0.2.1/brand-templates-0.2.1.files.json",
+              "size": 600253,
+              "sha256": "78e67e6d60245b90e49574281efda0b8fcff41a35f30cc47c9f6c826b3d27639"
+            },
+            {
+              "role": "installation",
+              "name": "brand-templates-0.2.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/brand-templates/v0.2.1/brand-templates-0.2.1.zip",
+              "size": 117144272,
+              "sha256": "fbfb41a3069bafff52743bee828e3c0cf81df074a32898609d76c7a36c4998ef"
+            },
+            {
+              "role": "checksum",
+              "name": "brand-templates-0.2.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/brand-templates/v0.2.1/brand-templates-0.2.1.zip.sha256",
+              "size": 92,
+              "sha256": "446ff815b91f48e9422199cd223192464a10947d4461d3f600418dba4c0c5dc9"
+            }
+          ],
+          "compatibility": "Install the supplied Atlas-named derivatives when using the portable kits. Typography instructions and guide rebuild inputs use those names. Original source-family/native-template specifications remain separately recorded.\n\n2026-10-27 release review: Existing tool names and outputs remain; no catalog or UI content change is intended. The direct transport remains a rollback option. Runtime sharing is local to the recipient.",
+          "upgrade_guidance": "Review the staged candidates and allocate a new immutable release only under separate publication authorization. Existing published archives must not be overwritten. The SHA-bound review accepts only the exact repaired font bytes; later changes require fresh review.\n\n2026-10-27 release review: Refresh the package and use a fresh connection to load the new transport. Use BRAND_TEMPLATES_TRANSPORT=direct if direct stdio is required.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "brand-templates/v0.2.0",
           "product_id": "brand-templates",
@@ -4316,7 +5047,7 @@
           }
         }
       ],
-      "current_release_key": "brand-templates/v0.2.0"
+      "current_release_key": "brand-templates/v0.2.1"
     },
     {
       "id": "writing-templates",
@@ -4509,6 +5240,49 @@
       "compatibility": "Your source facts, voice samples and platform authorization; Social Post Previewer app for rendered previews",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "social-content-studio/v0.4.0",
+          "product_id": "social-content-studio",
+          "version": "0.4.0",
+          "git_tag": "social-content-studio/v0.4.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:54:49Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/social-content-studio/v0.4.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Integrate reviewed Instagram workflows within Social Content Studio.\n\n2026-10-27 release review: Complete Instagram workflow integration and explicit specialist metadata.",
+          "notes": "Integrate reviewed Instagram workflows within Social Content Studio.\n\n2026-10-27 release review: Complete Instagram workflow integration and explicit specialist metadata.\n\nFill Instagram-specific and transferable workflow gaps without duplicating skill owners or importing unsafe scoring and collection assumptions.\n\n2026-10-27 release review: Preserve useful source methods while grounding claims and account actions in actual evidence.\n\nAll thirteen reviewed upstream use cases mapped into the existing eight owners. Added complete Reel/research, profile, caption, engagement, Stories/carousels, planning and performance methods; 26 editorial forms; three read-only helpers; safe voice intake; MIT attribution and per-file provenance. Corrected stale external prose-method metadata.\n\n2026-10-27 release review: Retain the thirteen accessible Instagram Agent use cases and selected inactive originals from Jake Schincariol under MIT. Adapt caption, engagement, profile, carousel/Story, planning, Reel/hook and research methods into existing owners. Add local caption/reel diagnostics and tests, platform/voice guidance and social-publishing explicit-invocation metadata. Archived humanizers and detectors remain inactive source evidence.\n\nCompatibility: Existing eight skill IDs and platform workflows retained. No new runtime provider, scraper, engagement bot, credentials or public deployment. Local Claude projection uses a build identifier only to refresh its cache.\n\n2026-10-27 release review: No authenticated Instagram connector or automated engagement runtime is added. Local diagnostics are not performance predictors. Draft, schedule, public action and verified native readback remain separate; external actions still require authorization.\n\nUpgrade: Native local installations refreshed; public release remains queued. Existing running hosts may need a fresh session to rediscover changes.\n\n2026-10-27 release review: Refresh the package, use the relevant existing owner, and supply actual voice/source/analytics evidence. Verify any separately authorized account action in the native provider.\n\nValidation: 39 local tests; eight skill validations; complete local link closure; exact retained source hashes; staged static/manual security review with zero active findings and one precisely documented false positive; five simulated routing trials. Codex native skills/list and 132-file source/cache parity verified. Claude audit/authored methods: Opus 5.5; helper review: Sonnet 5. No live Instagram actions or outcome test.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 41 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425974224",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "social-content-studio-0.4.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/social-content-studio/v0.4.0/social-content-studio-0.4.0.files.json",
+              "size": 15853,
+              "sha256": "11da52fac2e1207b3b7019b662da4080d34e212d7c362cb3b746f9730336ab0b"
+            },
+            {
+              "role": "installation",
+              "name": "social-content-studio-0.4.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/social-content-studio/v0.4.0/social-content-studio-0.4.0.zip",
+              "size": 338230,
+              "sha256": "31d6092fa4f6ffd040933ed900fa2e783ac77c3161bfe29fd1a99efe14254588"
+            },
+            {
+              "role": "checksum",
+              "name": "social-content-studio-0.4.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/social-content-studio/v0.4.0/social-content-studio-0.4.0.zip.sha256",
+              "size": 98,
+              "sha256": "f0692b7285a902622ed8ddade5232871bd46eba9002988414ee2bc41f13e1d72"
+            }
+          ],
+          "compatibility": "Existing eight skill IDs and platform workflows retained. No new runtime provider, scraper, engagement bot, credentials or public deployment. Local Claude projection uses a build identifier only to refresh its cache.\n\n2026-10-27 release review: No authenticated Instagram connector or automated engagement runtime is added. Local diagnostics are not performance predictors. Draft, schedule, public action and verified native readback remain separate; external actions still require authorization.",
+          "upgrade_guidance": "Native local installations refreshed; public release remains queued. Existing running hosts may need a fresh session to rediscover changes.\n\n2026-10-27 release review: Refresh the package, use the relevant existing owner, and supply actual voice/source/analytics evidence. Verify any separately authorized account action in the native provider.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "social-content-studio/v0.3.0",
           "product_id": "social-content-studio",
@@ -4725,7 +5499,7 @@
           }
         }
       ],
-      "current_release_key": "social-content-studio/v0.3.0"
+      "current_release_key": "social-content-studio/v0.4.0"
     },
     {
       "id": "creative-writing-studio",
@@ -4735,6 +5509,49 @@
       "compatibility": "Your draft, canon notes or game material; Python >=3.10 and recipient-configured backends for optional Atlas, TTRPG and Draw Think integrations",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "creative-writing-studio/v0.4.1",
+          "product_id": "creative-writing-studio",
+          "version": "0.4.1",
+          "git_tag": "creative-writing-studio/v0.4.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:55:06Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/creative-writing-studio/v0.4.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify creative project discovery and focused specialist invocation.",
+          "notes": "2026-10-27 release review: Clarify creative project discovery and focused specialist invocation.\n\n2026-10-27 release review: Keep broad creative requests discoverable and specialist selection deliberate.\n\n2026-10-27 release review: Shorten the lead routing description, remove a redundant TTRPG prompt from discovery metadata and add seven explicit-invocation agent policies; retain existing creative methods.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit use remain supported; affected specialists no longer allow implicit invocation.\n\nUpgrade: 2026-10-27 release review: Refresh the package; explicitly select a focused method or use the creative-project router.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 7 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425974446",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "creative-writing-studio-0.4.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/creative-writing-studio/v0.4.1/creative-writing-studio-0.4.1.files.json",
+              "size": 22572,
+              "sha256": "902e3b3c98ec2e005b4145c592fdb19aa035205a9880df00a63457ca906ad795"
+            },
+            {
+              "role": "installation",
+              "name": "creative-writing-studio-0.4.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/creative-writing-studio/v0.4.1/creative-writing-studio-0.4.1.zip",
+              "size": 360121,
+              "sha256": "da9b99f5b4bae8d66aeffc5547ac15c0459e5a62ce13a1342677b0e8ffed1366"
+            },
+            {
+              "role": "checksum",
+              "name": "creative-writing-studio-0.4.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/creative-writing-studio/v0.4.1/creative-writing-studio-0.4.1.zip.sha256",
+              "size": 100,
+              "sha256": "e0c59222867cc45fccf4ad8633b38349e10bcfe868134757f1a1324aab585536"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill IDs and explicit use remain supported; affected specialists no longer allow implicit invocation.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package; explicitly select a focused method or use the creative-project router.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "creative-writing-studio/v0.4.0",
           "product_id": "creative-writing-studio",
@@ -4994,7 +5811,7 @@
           }
         }
       ],
-      "current_release_key": "creative-writing-studio/v0.4.0"
+      "current_release_key": "creative-writing-studio/v0.4.1"
     },
     {
       "id": "master-security-toolkit",
@@ -5004,6 +5821,49 @@
       "compatibility": "Python 3 on PATH for local scanner and optional Atlas launcher; Python 3.10+ for publication preflight; Optional security Atlas: Activities Templates runtime and recipient-owned approved catalog; Node.js only for Cloudflare coverage-audit JSON validator workflows",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "master-security-toolkit/v0.3.1",
+          "product_id": "master-security-toolkit",
+          "version": "0.3.1",
+          "git_tag": "master-security-toolkit/v0.3.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:55:25Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/master-security-toolkit/v0.3.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify software security review discovery and disable implicit invocation for eight focused review methods.",
+          "notes": "2026-10-27 release review: Clarify software security review discovery and disable implicit invocation for eight focused review methods.\n\n2026-10-27 release review: Keep the lead review entry concise while requiring deliberate selection of specialized security procedures.\n\n2026-10-27 release review: Update the lead description and short description; eight specialist agent policies set allow_implicit_invocation to false.\n\nCompatibility: 2026-10-27 release review: Existing skill IDs and explicit specialist use remain supported; this narrows automatic specialist selection without adding execution authority.\n\nUpgrade: 2026-10-27 release review: Refresh the package and explicitly select a focused security method when required.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found ten changed reviewed paths and no conflicts. Static checks verified eight policy additions against the public baseline; no security assessment or installation was performed.",
+          "notes_provenance": "github-release:425974708",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "master-security-toolkit-0.3.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/master-security-toolkit/v0.3.1/master-security-toolkit-0.3.1.files.json",
+              "size": 19081,
+              "sha256": "485a54a76c1618a8d07d33388a0ea44df501cf3b79c79db1396875fed2766f8f"
+            },
+            {
+              "role": "installation",
+              "name": "master-security-toolkit-0.3.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/master-security-toolkit/v0.3.1/master-security-toolkit-0.3.1.zip",
+              "size": 9807714,
+              "sha256": "b5d5cc1badb61b52b248de1c5dde47f7a995d7d92bfc9f698582d7f158a5629c"
+            },
+            {
+              "role": "checksum",
+              "name": "master-security-toolkit-0.3.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/master-security-toolkit/v0.3.1/master-security-toolkit-0.3.1.zip.sha256",
+              "size": 100,
+              "sha256": "951033807517cea970e2787dfe1cb9dd6c00823354f030f3040515a764b2f541"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill IDs and explicit specialist use remain supported; this narrows automatic specialist selection without adding execution authority.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package and explicitly select a focused security method when required.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "master-security-toolkit/v0.3.0",
           "product_id": "master-security-toolkit",
@@ -5177,7 +6037,7 @@
           }
         }
       ],
-      "current_release_key": "master-security-toolkit/v0.3.0"
+      "current_release_key": "master-security-toolkit/v0.3.1"
     },
     {
       "id": "prompt-playbook-studio",
@@ -5187,6 +6047,49 @@
       "compatibility": "Your task facts, draft prompts or test cases; Optional recipient-owned Prompt Compass and Atlas bindings; Framework Builder requires Python >=3.10 and MCP dependencies; Optional Promptbanken app and separate Work Management or Master Security Toolkit",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "prompt-playbook-studio/v0.3.2",
+          "product_id": "prompt-playbook-studio",
+          "version": "0.3.2",
+          "git_tag": "prompt-playbook-studio/v0.3.2",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:55:46Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/prompt-playbook-studio/v0.3.2",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Clarify hook names and responsibilities.\n\n2026-10-20 efficient implementation integration: Add a conditional software specification handoff to prompt refinement.\n\n2026-10-20 portable workflow and review evidence: Run the prompt advisory once in Claude through a shared portable default hook.\n\n2026-10-27 release review: Refine problem framing, ambition review and implementation handoffs.",
+          "notes": "Clarify hook names and responsibilities.\n\n2026-10-20 efficient implementation integration: Add a conditional software specification handoff to prompt refinement.\n\n2026-10-20 portable workflow and review evidence: Run the prompt advisory once in Claude through a shared portable default hook.\n\n2026-10-27 release review: Refine problem framing, ambition review and implementation handoffs.\n\nMake hook responsibilities easier to understand.\n\n2026-10-20 efficient implementation integration: Express required behavior and expected usability without expanding the product scope or automatically building prompt-only requests.\n\n2026-10-20 portable workflow and review evidence: Claude auto-discovery plus an additional manifest hook path produced a Codex-root failure and duplicate registration.\n\n2026-10-27 release review: Resolve consequential uncertainty before choosing a method while keeping clear tasks direct.\n\n2026-10-15 hook ownership and naming: Use the concise hook label Check prompt clarity; behavior, event and timeout are unchanged.\n\n2026-10-20 efficient implementation integration: Work Management remains product-scope owner, UX owns human expectations, and Development implements the resolved contract.\n\n2026-10-20 portable workflow and review evidence: The shared default command resolves either host plugin-root variable using isolated Python. Redundant Claude manifest hook field is removed; compatibility declaration is retained unregistered. Documentation and regression tests preserve one advisory and both root conventions.\n\n2026-10-27 release review: Add conditional problem-framing/method-selection support, revise prompt-refinement and implementation guidance, and update specialist policies and advisory-hook tests. The public Claude registration explicitly uses its portable UserPromptSubmit advisory hook; native registration requires recipient trust.\n\nCompatibility: Existing execution behavior is preserved.\n\n2026-10-20 efficient implementation integration: Existing skill and hook behavior retained; no new discovery entrypoint or required companion dependency.\n\n2026-10-20 portable workflow and review evidence: Existing canonical advisory body and method inventory retained. Public frozen quiet-script semantics remain separate from the unchanged current canonical advisory body; the compatibility repair does not silently broaden a measured benchmark.\n\n2026-10-27 release review: Existing skill IDs and direct execution of settled requests remain. Advisory hooks do not authorize actions, guarantee a review or add a provider dependency.\n\nUpgrade: Refresh the local installed plugin to see updated hook names.\n\n2026-10-20 efficient implementation integration: Refresh local Prompt Playbook and use the handoff only when the instruction needs refinement.\n\n2026-10-20 portable workflow and review evidence: Refresh local package. Do not combine the default hooks/hooks.json with an extra Claude hook file registration.\n\n2026-10-27 release review: Refresh the package and verify the advisory hook declaration if enabled. Use the deeper problem-framing branch only when the uncertainty can change the result.\n\nValidation: 2026-10-15 hook ownership and naming: Native discovery confirms one enabled/trusted prompt hook with unchanged trigger and timeout.\n\n2026-10-20 efficient implementation integration: Changed skill frontmatter and links pass; installed bytes verified; prompt-only and executable request boundaries exercised in a supplied-context Claude trial.\n\n2026-10-20 portable workflow and review evidence: 19 canonical tests and 2 projected registration tests pass. Native quiet and explicit crafting cases each show 4 total UserPromptSubmit hooks, 1 UX PostToolUse and 1 UX Stop, all exit 0; crafting emits exactly one Prompt advisory. Native Codex parity/discovery verified.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 6 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425974969",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "prompt-playbook-studio-0.3.2.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/prompt-playbook-studio/v0.3.2/prompt-playbook-studio-0.3.2.files.json",
+              "size": 12967,
+              "sha256": "11aee1d00a9af8e2796dbc5e54703ed87d2e618c488ab22567ab4271fa164faf"
+            },
+            {
+              "role": "installation",
+              "name": "prompt-playbook-studio-0.3.2.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/prompt-playbook-studio/v0.3.2/prompt-playbook-studio-0.3.2.zip",
+              "size": 10573691,
+              "sha256": "9ec38821911575d24bad3c0469dd88bd975cbd9cf5dfeccf9fdfeb8f69d4f0a6"
+            },
+            {
+              "role": "checksum",
+              "name": "prompt-playbook-studio-0.3.2.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/prompt-playbook-studio/v0.3.2/prompt-playbook-studio-0.3.2.zip.sha256",
+              "size": 99,
+              "sha256": "488e48973df851a028d4039b543a7e3ac5f045d0328fe7aa14836d4619069907"
+            }
+          ],
+          "compatibility": "Existing execution behavior is preserved.\n\n2026-10-20 efficient implementation integration: Existing skill and hook behavior retained; no new discovery entrypoint or required companion dependency.\n\n2026-10-20 portable workflow and review evidence: Existing canonical advisory body and method inventory retained. Public frozen quiet-script semantics remain separate from the unchanged current canonical advisory body; the compatibility repair does not silently broaden a measured benchmark.\n\n2026-10-27 release review: Existing skill IDs and direct execution of settled requests remain. Advisory hooks do not authorize actions, guarantee a review or add a provider dependency.",
+          "upgrade_guidance": "Refresh the local installed plugin to see updated hook names.\n\n2026-10-20 efficient implementation integration: Refresh local Prompt Playbook and use the handoff only when the instruction needs refinement.\n\n2026-10-20 portable workflow and review evidence: Refresh local package. Do not combine the default hooks/hooks.json with an extra Claude hook file registration.\n\n2026-10-27 release review: Refresh the package and verify the advisory hook declaration if enabled. Use the deeper problem-framing branch only when the uncertainty can change the result.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "prompt-playbook-studio/v0.3.1",
           "product_id": "prompt-playbook-studio",
@@ -5360,7 +6263,7 @@
           }
         }
       ],
-      "current_release_key": "prompt-playbook-studio/v0.3.1"
+      "current_release_key": "prompt-playbook-studio/v0.3.2"
     },
     {
       "id": "career-studio",
@@ -5370,6 +6273,49 @@
       "compatibility": "Your real work evidence, target role or exact application prompt, and action-specific authorization; Python 3 on PATH for the optional Career Atlas launcher; Optional Career Atlas: separately installed Activities Templates runtime and recipient-owned approved catalog; Optional Job Application Compass: separately maintained operator-owned private runtime; no public backend bundled",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "career-studio/v0.3.1",
+          "product_id": "career-studio",
+          "version": "0.3.1",
+          "git_tag": "career-studio/v0.3.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:56:06Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/career-studio/v0.3.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Clarify campaign discovery and prevent eight focused career skills from implicit invocation.",
+          "notes": "2026-10-27 release review: Clarify campaign discovery and prevent eight focused career skills from implicit invocation.\n\n2026-10-27 release review: Keep campaign first-use discovery concise and make focused methods deliberate selections.\n\n2026-10-27 release review: The campaign description is shorter; application statements, interviews, outreach, cover letters, portfolio packaging, portfolio, resume and submissions set allow_implicit_invocation to false.\n\nCompatibility: 2026-10-27 release review: Existing skill names, explicit invocation and campaign workflow remain supported; implicit specialist selection is intentionally disabled.\n\nUpgrade: 2026-10-27 release review: Refresh the package; invoke a focused skill explicitly or select it through the campaign workflow.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found nine changed reviewed paths and no conflicts. Static checks verified all eight policy additions against the public baseline; no runtime invocation trial was run.",
+          "notes_provenance": "github-release:425975249",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "career-studio-0.3.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/career-studio/v0.3.1/career-studio-0.3.1.files.json",
+              "size": 22055,
+              "sha256": "a27f7aee638d3ebbb2c2e03cd8525a469cb0b256f306382542c2afa9dc3936c6"
+            },
+            {
+              "role": "installation",
+              "name": "career-studio-0.3.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/career-studio/v0.3.1/career-studio-0.3.1.zip",
+              "size": 369235,
+              "sha256": "b071644f516a27b956866e6d3e230a1b5cc1081d9cf9160b7d76a71ed71a10fb"
+            },
+            {
+              "role": "checksum",
+              "name": "career-studio-0.3.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/career-studio/v0.3.1/career-studio-0.3.1.zip.sha256",
+              "size": 90,
+              "sha256": "85dc3ade8d4046065ec20baaaab246b30eb16a60159276d2565980ef93df7921"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Existing skill names, explicit invocation and campaign workflow remain supported; implicit specialist selection is intentionally disabled.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package; invoke a focused skill explicitly or select it through the campaign workflow.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "career-studio/v0.3.0",
           "product_id": "career-studio",
@@ -5500,7 +6446,7 @@
           }
         }
       ],
-      "current_release_key": "career-studio/v0.3.0"
+      "current_release_key": "career-studio/v0.3.1"
     },
     {
       "id": "marketing-strategy-studio",
@@ -5510,6 +6456,49 @@
       "compatibility": "Your offer, audience evidence, brand scope and current task constraints; Optional official OpenAI Creative Production tools for asset production; Optional recipient-owned YouTube transcript server and messaging integration for retained publisher method; no automatic install or send; Optional recipient-owned Atlas Marketing local binding; separate Writing Quality, Research, Social, Graphic/Video, Work Management when installed",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "marketing-strategy-studio/v0.5.0",
+          "product_id": "marketing-strategy-studio",
+          "version": "0.5.0",
+          "git_tag": "marketing-strategy-studio/v0.5.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:56:24Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/marketing-strategy-studio/v0.5.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add founder business methods and product-photo advertising hypotheses.",
+          "notes": "2026-10-27 release review: Add founder business methods and product-photo advertising hypotheses.\n\n2026-10-27 release review: Turn early commercial questions and supplied product images into evidence-linked proposals and testable decisions.\n\n2026-10-27 release review: Retain Jake Schincariol’s MIT founder business methods with their governing adapter, helpers and examples. Route strategy, competition, pricing, offer, finance scenarios, brand, operations and launch work through existing owners. Add asset-to-offer and first-party product-photo hypotheses/portrait-creative methods and local draft support; update specialist policies and paid-campaign/creative handoffs.\n\nCompatibility: 2026-10-27 release review: Synthetic buyers and confidence scores are hypotheses, not demand or conversion evidence. Existing brand and specialist ownership remain; no sending, publishing, spend or provider authentication is granted. Local SVG drafts remain distinct from generated photographic creatives.\n\nUpgrade: 2026-10-27 release review: Refresh the package, select only the business methods needed, and use actual source facts and product pixels. Confirm financial assumptions and test hypotheses with observed outcomes before claiming performance.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 48 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425975473",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "marketing-strategy-studio-0.5.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/marketing-strategy-studio/v0.5.0/marketing-strategy-studio-0.5.0.files.json",
+              "size": 161076,
+              "sha256": "3f7d6dfa9fee99ccbef28f4cd76d79bba495907b0414a5f71d7ce439347b87bb"
+            },
+            {
+              "role": "installation",
+              "name": "marketing-strategy-studio-0.5.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/marketing-strategy-studio/v0.5.0/marketing-strategy-studio-0.5.0.zip",
+              "size": 4339395,
+              "sha256": "a9921f18ac09403bf378964170fa5b50a1f0cc696a3810bc369bd0a065d2db35"
+            },
+            {
+              "role": "checksum",
+              "name": "marketing-strategy-studio-0.5.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/marketing-strategy-studio/v0.5.0/marketing-strategy-studio-0.5.0.zip.sha256",
+              "size": 102,
+              "sha256": "fe5c2401e259e14c4fc801d51b718d647a7fb6b78e58724bdbad4e16e53d5652"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Synthetic buyers and confidence scores are hypotheses, not demand or conversion evidence. Existing brand and specialist ownership remain; no sending, publishing, spend or provider authentication is granted. Local SVG drafts remain distinct from generated photographic creatives.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package, select only the business methods needed, and use actual source facts and product pixels. Confirm financial assumptions and test hypotheses with observed outcomes before claiming performance.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "marketing-strategy-studio/v0.4.0",
           "product_id": "marketing-strategy-studio",
@@ -5640,7 +6629,7 @@
           }
         }
       ],
-      "current_release_key": "marketing-strategy-studio/v0.4.0"
+      "current_release_key": "marketing-strategy-studio/v0.5.0"
     },
     {
       "id": "writing-quality-studio",
@@ -5650,6 +6639,49 @@
       "compatibility": "Agent host with file-reading tools; Python 3.10+ for optional local text helpers; Actual connected-document access only when reading or editing a connected document",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "writing-quality-studio/v0.4.1",
+          "product_id": "writing-quality-studio",
+          "version": "0.4.1",
+          "git_tag": "writing-quality-studio/v0.4.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:56:44Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/writing-quality-studio/v0.4.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Improve spoken-script flow while preserving useful exploration.\n\n2026-10-20 portable workflow and review evidence: Apply final wording review to reader-facing artifacts across media and add a portable review-recording handoff.\n\n2026-10-27 release review: Extend the Humanizer across reader-facing media with portable editorial reminders.",
+          "notes": "Improve spoken-script flow while preserving useful exploration.\n\n2026-10-20 portable workflow and review evidence: Apply final wording review to reader-facing artifacts across media and add a portable review-recording handoff.\n\n2026-10-27 release review: Extend the Humanizer across reader-facing media with portable editorial reminders.\n\nScript mismatch and recording pauses need different treatments; imitating disfluency or smoothing missing information can obscure the underlying gap.\n\n2026-10-20 portable workflow and review evidence: Make the final copy review reachable from UX/development and preserve exact-content evidence outside Codex.\n\n2026-10-27 release review: Review final wording without exporting private host gates or confusing a reminder with completed editorial work.\n\nAdds bounded asides with return bridges, uncertain read-versus-improvised classification, pause-cause hypotheses, targeted rehearsal and explicit private-profile separation. Synthetic example does not claim an actual successful demonstration.\n\n2026-10-15 hook ownership and naming: Rename the Gmail hook to Check Gmail send review, preserving its existing matcher, receipt logic, timeout and authorization boundary.\n\n2026-10-20 portable workflow and review evidence: Generic editorial context hook routes directly to Humanizer. Source receipt paragraph supports session or workspace identity and reports unavailable recording honestly. Staged public Claude manifest explicitly registers its editorial hook; no send/publish authority is added.\n\n2026-10-27 release review: Refine cross-media Natural Prose Editor, deep-audit routing, source comparison, concise technical instructions and recording-script guidance; update specialist policies and editorial-context checks. The explicit public projection registers only generic UserPromptSubmit editorial reminders for Codex and Claude and includes their editorial_context.py dependency. Portable metadata is retained in plugin.portable.json. The private host-bound Gmail PreToolUse gate is excluded.\n\nCompatibility: Extends the existing spoken-lesson reference; no discovery, provider, voice-default or runtime changes.\n\n2026-10-20 portable workflow and review evidence: Existing editorial procedures and complete licensed methods retained. Review does not authorize delivery. Private Gmail send gating remains outside the generic editorial hook adaptation.\n\n2026-10-27 release review: Existing writing methods remain. Recipient trust controls hooks; reminders and skill reads do not prove a completed review. The public package carries no private Gmail policy, command, account connection or review receipt.\n\nUpgrade: Use actual script provenance and instructor feedback; choose full narration or cue support by passage and rehearse affected transitions.\n\n2026-10-20 portable workflow and review evidence: Refresh local source. Use explicit project-local receipt state on portable hosts and re-review changed bytes.\n\n2026-10-27 release review: Refresh the package and verify its generic advisory declarations if enabled. Review actual final text and record the review through the optional existing project evidence owner when available.\n\nValidation: Owning skill validated; local links resolved; exact installed parity checked. Claude scenarios covered a useful aside, unavailable audio, a typo-only bypass and generic use without private profile retrieval.\n\n2026-10-15 hook ownership and naming: All 32 existing Gmail gate tests passed; native hook is enabled and trusted.\n\n2026-10-20 portable workflow and review evidence: Claude enabled run read Humanizer and reported its unrecorded wording review honestly with Bash unavailable. Exact native source/cache parity and focused Humanizer discovery verified.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 5 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation. Public manifest/hook readback confirmed only generic UserPromptSubmit editorial reminders for Codex and Claude, absent root plugin.json and retained plugin.portable.json; the public hook has no Gmail PreToolUse command. This is source registration evidence, not native runtime loading.\n\nFinal exclusion review admitted 5 generic specialist invocation configurations requiring explicit invocation. Personal context, private sender policy, provider bodies and research caches remain excluded.",
+          "notes_provenance": "github-release:425975779",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "writing-quality-studio-0.4.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/writing-quality-studio/v0.4.1/writing-quality-studio-0.4.1.files.json",
+              "size": 40995,
+              "sha256": "d3b3c66d1fd437e9bdefb97c47d74d4e3464b24a5bc76685c7dab4e4e2fe0be4"
+            },
+            {
+              "role": "installation",
+              "name": "writing-quality-studio-0.4.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/writing-quality-studio/v0.4.1/writing-quality-studio-0.4.1.zip",
+              "size": 2036664,
+              "sha256": "8dc825a492c6dcedce488cabc53304f8f008b0161fe61652fed440782927d0db"
+            },
+            {
+              "role": "checksum",
+              "name": "writing-quality-studio-0.4.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/writing-quality-studio/v0.4.1/writing-quality-studio-0.4.1.zip.sha256",
+              "size": 99,
+              "sha256": "0e6b55adaa1a5604af0148da8eac5c1eeddcfb66fba424fe8bc9eb13606b759a"
+            }
+          ],
+          "compatibility": "Extends the existing spoken-lesson reference; no discovery, provider, voice-default or runtime changes.\n\n2026-10-20 portable workflow and review evidence: Existing editorial procedures and complete licensed methods retained. Review does not authorize delivery. Private Gmail send gating remains outside the generic editorial hook adaptation.\n\n2026-10-27 release review: Existing writing methods remain. Recipient trust controls hooks; reminders and skill reads do not prove a completed review. The public package carries no private Gmail policy, command, account connection or review receipt.",
+          "upgrade_guidance": "Use actual script provenance and instructor feedback; choose full narration or cue support by passage and rehearse affected transitions.\n\n2026-10-20 portable workflow and review evidence: Refresh local source. Use explicit project-local receipt state on portable hosts and re-review changed bytes.\n\n2026-10-27 release review: Refresh the package and verify its generic advisory declarations if enabled. Review actual final text and record the review through the optional existing project evidence owner when available.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "writing-quality-studio/v0.4.0",
           "product_id": "writing-quality-studio",
@@ -5794,7 +6826,7 @@
           }
         }
       ],
-      "current_release_key": "writing-quality-studio/v0.4.0"
+      "current_release_key": "writing-quality-studio/v0.4.1"
     },
     {
       "id": "ux-design-toolkit",
@@ -5804,6 +6836,49 @@
       "compatibility": "Agent host with file and browser tools; Python 3.10+ for optional local adapters; macOS arm64 for the pinned native runtime; acquire its separate release asset; Recipient-owned Compass, Design Templates or Activities Templates configuration for those integrations",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "ux-design-toolkit/v0.5.0",
+          "product_id": "ux-design-toolkit",
+          "version": "0.5.0",
+          "git_tag": "ux-design-toolkit/v0.5.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:57:03Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/ux-design-toolkit/v0.5.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Add product-grounded design direction, human-expectation handoffs and Thinking Orbs guidance, and make public UX hooks portable across Codex and Claude.",
+          "notes": "Add product-grounded design direction, human-expectation handoffs and Thinking Orbs guidance, and make public UX hooks portable across Codex and Claude.\n\nPreserve the completed audit learnings without claiming that collection of the unchanged UX Design Studio bridge includes its separately installed backend.\n\n2026-10-20 efficient implementation integration: Prevent code minimization from dropping comprehension, meaningful states, recovery or accessibility.\n\n2026-10-20 portable workflow and review evidence: Keep essential action/state copy visible while making missing native setup distinct from failed design review.\n\n2026-10-27 release review: Tie design choices to the user’s actual question, domain and interaction expectations.\n\nBACKEND-ONLY PENDING: canonical UXHC changes include optional-HIL agent-only full-report guidance; direct-entry route and meaningful-state coverage; 14 heuristic cards and supplied surface scores; actual supplied reviewer provenance; untruncated evidence-linked findings; internal report navigation and collapsed supplemental/evidence sections; optional private local brand binding; reusable authorized-remediation prompt; scalar evidence-limit normalization; and HTML-first large-PDF rendering with truthful fallback status. The final method pass adds a default sampled-score caveat so high grades do not imply release or accessibility clearance. These changes are in the recipient-bound UXHC source, not the plugin package. Site-specific branding, navigation, product and application defects remain with their application owners. No backend source, private branding, evidence, screenshots or configuration was copied into public package inputs. The three historical external UXHC artifacts are frozen-legacy entries and are not current plugin collection targets.\n\n2026-10-15 hook ownership and naming: Use Track frontend review tasks and Check frontend review completion for the opted-in edit/closeout hooks.\n\n2026-10-20 efficient implementation integration: Added a full conditional human-expectations method: audience/task, entry-to-completion journey, meaningful states, usability/accessibility, evidence versus assumptions, exclusions and rendered return review. Product business facts stay with Work Management.\n\n2026-10-20 portable workflow and review evidence: UX writing adds progressive disclosure and final Humanizer handoff. Runtime now distinguishes an intentionally absent source-only engine from non-executable mode, names local reviewed setup guidance, and keeps all fail-closed integrity checks. Public projection also removes redundant explicit Claude hook registration; canonical UX already uses the single shared default declaration.\n\n2026-10-27 release review: Add conditional distinctive-direction and implementation-expectation references, task routing and Thinking Orbs integration guidance. The newer local Motion Anything recipe and source-record bundle remains held for redistribution review. Refine dashboard comparison, copy handoffs, complete UXHC report/attribution checks, specialist policies and source-only native-runtime setup diagnostics. This extends the earlier backend-only note with current client-side methods. The new local motion-recipe catalog remains outside this public edition because its source manifest retains a redistribution hold. This release preserves the prior complete public motion-and-performance method; it does not claim the held catalog is bundled. Claude hook declarations use one automatic handler set with a portable host-root fallback.\n\nCompatibility: Version 0.5.0 retains existing UX skill IDs and recipient-owned optional backend and native-engine bindings. The public Claude manifest uses automatic hooks/hooks.json discovery; shared commands resolve the installed Codex or Claude root without duplicate handler registration. Private backend source, evidence and branding are excluded. The complete previous public motion-and-performance method remains available; the newer local Motion Anything recipe and source-record bundle remains held for redistribution review. Thinking Orbs guidance adds no runtime, provider, installer or claim of successful completion.\n\nUpgrade: Do not represent plugin collection as delivery of these backend changes. A fresh backend connection loads locally updated source. Backend distribution requires its own existing release process and explicit future authorization; it remains separate from this plugin release.\n\n2026-10-20 efficient implementation integration: Refresh local UX Design Studio. Reuse existing source/rendered evidence, components and scope rather than introducing a mandatory redesign phase.\n\n2026-10-20 portable workflow and review evidence: Refresh source; acquire the exact reviewed runtime overlay only when native commands are needed. Do not substitute current host paths or arbitrary engines.\n\n2026-10-27 release review: Refresh the package and use only the direction/motion branch needed. Obtain a matching reviewed runtime overlay only for the optional native engine, then verify actual rendered states and interactions.\n\nValidation: Fresh read-only source-inventory comparison found no canonical/public ux-design-toolkit package diff at recorded version 0.4.1. Actual installed-launcher backend checks generated full and partial HTML/PDF, including the large portfolio PDF without fallback. Final completeness suite: 148 passed with two URL-capture tests excluded; focused route/state startup regression passes. Browser checks verified 14 cards, 28 findings, 38 evidence images, exact internal navigation, scrolling captures, copy and manual fallback. Private outputs are excluded from backend release inputs.\n\n2026-10-15 hook ownership and naming: Native discovery confirms both hooks enabled/trusted with their previous events, matcher and timeouts.\n\n2026-10-20 efficient implementation integration: Two changed UX skill heads and all changed relative links validate; installed bytes verified. This change is procedural; no new UI or participant-research validation is claimed.\n\n2026-10-20 portable workflow and review evidence: 19 canonical and 19 projected adapter tests pass. Source-only and permission failures return 1; verified native overlay and real palette help return 0. Two native hook cases show exactly one UX PostToolUse/Stop response. Native Codex parity and focused discovery verified.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 13 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation. Native Claude 2.1.280 strict validation and Claude-only environment command smoke checks passed for the reviewed hook projection; live conversation dispatch was not exercised.",
+          "notes_provenance": "github-release:425976078",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "ux-design-toolkit-0.5.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/ux-design-toolkit/v0.5.0/ux-design-toolkit-0.5.0.files.json",
+              "size": 73385,
+              "sha256": "c3d53e691fcda0e2ecb0a9c96fa9745ad3f96ef3c100167630e3f8cf40a77b32"
+            },
+            {
+              "role": "installation",
+              "name": "ux-design-toolkit-0.5.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/ux-design-toolkit/v0.5.0/ux-design-toolkit-0.5.0.zip",
+              "size": 5964441,
+              "sha256": "842c70aa31d9d0ef1f3870bc4a4e5d7fe538c72e3edb8ef5b1b95c076218ee92"
+            },
+            {
+              "role": "checksum",
+              "name": "ux-design-toolkit-0.5.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/ux-design-toolkit/v0.5.0/ux-design-toolkit-0.5.0.zip.sha256",
+              "size": 94,
+              "sha256": "552c51fe5f54ed5e6106ef560bce100495ee204a00ff744aee969cbb986d2c98"
+            }
+          ],
+          "compatibility": "Version 0.5.0 retains existing UX skill IDs and recipient-owned optional backend and native-engine bindings. The public Claude manifest uses automatic hooks/hooks.json discovery; shared commands resolve the installed Codex or Claude root without duplicate handler registration. Private backend source, evidence and branding are excluded. The complete previous public motion-and-performance method remains available; the newer local Motion Anything recipe and source-record bundle remains held for redistribution review. Thinking Orbs guidance adds no runtime, provider, installer or claim of successful completion.",
+          "upgrade_guidance": "Do not represent plugin collection as delivery of these backend changes. A fresh backend connection loads locally updated source. Backend distribution requires its own existing release process and explicit future authorization; it remains separate from this plugin release.\n\n2026-10-20 efficient implementation integration: Refresh local UX Design Studio. Reuse existing source/rendered evidence, components and scope rather than introducing a mandatory redesign phase.\n\n2026-10-20 portable workflow and review evidence: Refresh source; acquire the exact reviewed runtime overlay only when native commands are needed. Do not substitute current host paths or arbitrary engines.\n\n2026-10-27 release review: Refresh the package and use only the direction/motion branch needed. Obtain a matching reviewed runtime overlay only for the optional native engine, then verify actual rendered states and interactions.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "ux-design-toolkit/v0.4.1",
           "product_id": "ux-design-toolkit",
@@ -6019,7 +7094,7 @@
           }
         }
       ],
-      "current_release_key": "ux-design-toolkit/v0.4.1"
+      "current_release_key": "ux-design-toolkit/v0.5.0"
     },
     {
       "id": "research-methodology-local",
@@ -6029,6 +7104,49 @@
       "compatibility": "Your research question and authorized source material; Optional Python 3 for bundled compiler and Research Compass launcher; Optional Research Compass backend with recipient-owned private binding; Reasoning Toolkit for Critical Compass audits",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "research-methodology-local/v1.3.0",
+          "product_id": "research-methodology-local",
+          "version": "1.3.0",
+          "git_tag": "research-methodology-local/v1.3.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:57:26Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/research-methodology-local/v1.3.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-24 license packaging: declare the existing scoped license in all three plugin manifests.\n\n2026-10-27 release review: Retain complete recent public-source research methods and runtime support under the existing research owner.",
+          "notes": "2026-10-24 license packaging: declare the existing scoped license in all three plugin manifests.\n\n2026-10-27 release review: Retain complete recent public-source research methods and runtime support under the existing research owner.\n\nKeep portable, Codex and Claude metadata consistent with the existing AGPL code and CC BY-SA documentation terms.\n\n2026-10-27 release review: Provide source-traceable procedures beyond the prior license-only manifest correction.\n\nNo license grant, copyright owner, upstream source hash, provider setup or source payload changed. Refresh only known output hashes in the existing metadata.\n\n2026-10-27 release review: Retain Matt Van Horn’s MIT recent-social-research source, runtime, supporting methods, tests and license; add the governing complete-recent-research route and specialist discovery metadata. This note explicitly covers that current source closure, beyond the earlier manifest-license note. The safe default remains the no-network planner plus authorized host research tools.\n\nCompatibility: Metadata correction; existing first-party, upstream and prior grants remain unchanged.\n\n2026-10-27 release review: Retained source does not establish configured engines, comprehensive coverage or current access. Provider setup, browser/auth surfaces and any runtime execution require separate review and authorization; unsafe source diagnostics and automatic configuration behavior are not inherited authority. Existing research skill IDs remain.\n\nUpgrade: Include this correction in a later explicitly authorized package release; preserve existing published assets.\n\n2026-10-27 release review: Refresh the package and start with the existing planner and actual host research tools. Use a retained engine only after its selected runtime, dependencies and access are explicitly configured and verified.\n\nValidation: 35 package validations, 35 development archive integrity/legal packaging checks and 239 publisher tests pass. Research Toolkit file scope and manifests agree.\n\n2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 597 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.\n\nPortable source correction: normalize test_as_of_date.py to LF for exact Git-commit/archive parity. Preserve its original mixed-EOL source hash, MIT notice and identical Python syntax tree. No version or behavior change.",
+          "notes_provenance": "github-release:425976357",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "research-methodology-local-1.3.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/research-methodology-local/v1.3.0/research-methodology-local-1.3.0.files.json",
+              "size": 96934,
+              "sha256": "6c956012737fa4d582b0f8ba26d4808e73a7adb7a51a273fbe33adf0e8c3c324"
+            },
+            {
+              "role": "installation",
+              "name": "research-methodology-local-1.3.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/research-methodology-local/v1.3.0/research-methodology-local-1.3.0.zip",
+              "size": 31410567,
+              "sha256": "64a41bca35e29f2fece8dc7447bd18765bfa14bac2528075db71f0a6d2d0bcdb"
+            },
+            {
+              "role": "checksum",
+              "name": "research-methodology-local-1.3.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/research-methodology-local/v1.3.0/research-methodology-local-1.3.0.zip.sha256",
+              "size": 103,
+              "sha256": "fab4d99323672d7f1d1834b1a805e1cc955e1784b9c110d60c91dbc53e47e29d"
+            }
+          ],
+          "compatibility": "Metadata correction; existing first-party, upstream and prior grants remain unchanged.\n\n2026-10-27 release review: Retained source does not establish configured engines, comprehensive coverage or current access. Provider setup, browser/auth surfaces and any runtime execution require separate review and authorization; unsafe source diagnostics and automatic configuration behavior are not inherited authority. Existing research skill IDs remain.",
+          "upgrade_guidance": "Include this correction in a later explicitly authorized package release; preserve existing published assets.\n\n2026-10-27 release review: Refresh the package and start with the existing planner and actual host research tools. Use a retained engine only after its selected runtime, dependencies and access are explicitly configured and verified.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "research-methodology-local/v1.2.0",
           "product_id": "research-methodology-local",
@@ -6130,7 +7248,7 @@
           }
         }
       ],
-      "current_release_key": "research-methodology-local/v1.2.0"
+      "current_release_key": "research-methodology-local/v1.3.0"
     },
     {
       "id": "claude-toolkit",
@@ -6140,6 +7258,49 @@
       "compatibility": "Claude Code CLI; Python 3 for the optional text worker; A recipient-owned Claude account and subscription",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "claude-toolkit/v0.3.0",
+          "product_id": "claude-toolkit",
+          "version": "0.3.0",
+          "git_tag": "claude-toolkit/v0.3.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:57:47Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/claude-toolkit/v0.3.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add optional inference usage recording and distinguish authentication status from CLI execution failures.",
+          "notes": "2026-10-27 release review: Add optional inference usage recording and distinguish authentication status from CLI execution failures.\n\n2026-10-27 release review: Allow configured hosts to record actual worker attempts without masking task failures or treating every failed auth command as sign-out.\n\n2026-10-27 release review: Add a fail-open callback resolved from recipient usage-tracking configuration. Record one event around inference success, failure or timeout with available model/token metadata; authentication-only checks remain outside tracking. Accept explicit boolean loggedIn status even on a nonzero exit, reject unexpected JSON shapes and report sanitized command-failure categories without echoing provider text.\n\nCompatibility: 2026-10-27 release review: Optional recording requires a separately configured recipient recorder; absent or disabled configuration is a no-op and recorder failure does not block work. Existing worker options and tool isolation remain; error wording becomes more precise.\n\nUpgrade: 2026-10-27 release review: Refresh the package. Configure an optional recorder only if desired; diagnose auth command failures in the actual execution environment rather than assuming sign-out.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found three changed reviewed paths and no conflicts. Eight canonical test_claude_worker.py tests passed with PYTHONDONTWRITEBYTECODE=1, covering worker isolation, requested effort/model receipts, success/failure/timeout recording, auth failure distinctions, malformed shapes, timeout termination and empty results. These mocked checks made no provider inference and do not establish live auth or recorder readiness.",
+          "notes_provenance": "github-release:425976744",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "claude-toolkit-0.3.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.3.0/claude-toolkit-0.3.0.files.json",
+              "size": 2188,
+              "sha256": "d02bf92bc4d2179c07cde066dfe76ed4e003db3cf3db5f5f5bcec716ce71357b"
+            },
+            {
+              "role": "installation",
+              "name": "claude-toolkit-0.3.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.3.0/claude-toolkit-0.3.0.zip",
+              "size": 37729,
+              "sha256": "d1e3266f3389c3aafc8ce706c225232dfc59487f82294c8c08b1873d162b0f22"
+            },
+            {
+              "role": "checksum",
+              "name": "claude-toolkit-0.3.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/claude-toolkit/v0.3.0/claude-toolkit-0.3.0.zip.sha256",
+              "size": 91,
+              "sha256": "94019689cabb9e2e511436e9537acd1743157ce38270509370a5d6d59ccc1782"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Optional recording requires a separately configured recipient recorder; absent or disabled configuration is a no-op and recorder failure does not block work. Existing worker options and tool isolation remain; error wording becomes more precise.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package. Configure an optional recorder only if desired; diagnose auth command failures in the actual execution environment rather than assuming sign-out.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "claude-toolkit/v0.2.0",
           "product_id": "claude-toolkit",
@@ -6184,7 +7345,7 @@
           }
         }
       ],
-      "current_release_key": "claude-toolkit/v0.2.0"
+      "current_release_key": "claude-toolkit/v0.3.0"
     },
     {
       "id": "gemini-toolkit",
@@ -6194,6 +7355,49 @@
       "compatibility": "Antigravity CLI; A recipient-owned eligible Google account",
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
+        {
+          "release_key": "gemini-toolkit/v0.3.0",
+          "product_id": "gemini-toolkit",
+          "version": "0.3.0",
+          "git_tag": "gemini-toolkit/v0.3.0",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:58:05Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/gemini-toolkit/v0.3.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Add a bounded tracked Gemini worker and explicit Antigravity source synchronization.",
+          "notes": "2026-10-27 release review: Add a bounded tracked Gemini worker and explicit Antigravity source synchronization.\n\n2026-10-27 release review: Reuse authenticated CLI work with inspectable results and conflict-safe synchronization.\n\n2026-10-27 release review: Bundle gemini_worker.py and sync_antigravity.py with focused tests and operation guidance. The worker performs a bounded supplied-text CLI task and invokes optional fail-open usage recording; the sync helper reconciles configured source links explicitly. Direct CLI diagnostics remain available outside the tracker.\n\nCompatibility: 2026-10-27 release review: Recipient CLI authentication, model readiness, configured source roots and optional usage recorder remain external. Installation does not authenticate Gemini, run inference or synchronize a host.\n\nUpgrade: 2026-10-27 release review: Refresh the package, verify the recipient CLI/account/model, and use the bundled worker for a bounded task. Review the sync helper configuration before explicitly running synchronization.\n\nValidation: 2026-10-27 release review: The release scope record and current public/canonical source differences were reviewed read-only for this note. Applicable added specialist policy files were checked for allow_implicit_invocation: false. Package structural, provenance/license closure, focused runtime tests, privacy checks and publication readback remain release-gate checks; this note does not claim those checks passed or establish live runtime readiness. Read-only local_sync.reviewed_additions passed for all 4 listed exact-canonical additions, checking public/canonical byte equality, source-inventory membership, provenance hashes and license coverage. This does not establish full package or runtime validation.",
+          "notes_provenance": "github-release:425977016",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "gemini-toolkit-0.3.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.3.0/gemini-toolkit-0.3.0.files.json",
+              "size": 2393,
+              "sha256": "528492264b86f0bb607daaa22a6520dac6bed7844558a5264cfd58d9c5c11db3"
+            },
+            {
+              "role": "installation",
+              "name": "gemini-toolkit-0.3.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.3.0/gemini-toolkit-0.3.0.zip",
+              "size": 40187,
+              "sha256": "dcd7efcb2d395296cdcf79a93aec1cd2b7d6eafa713a1895e2a710ebad08f3e3"
+            },
+            {
+              "role": "checksum",
+              "name": "gemini-toolkit-0.3.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/gemini-toolkit/v0.3.0/gemini-toolkit-0.3.0.zip.sha256",
+              "size": 91,
+              "sha256": "3e0ddb49cbf26eaab56569de8092f6b9e3ccf5f99f949b93ad75526b73a4f189"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Recipient CLI authentication, model readiness, configured source roots and optional usage recorder remain external. Installation does not authenticate Gemini, run inference or synchronize a host.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package, verify the recipient CLI/account/model, and use the bundled worker for a bounded task. Review the sync helper configuration before explicitly running synchronization.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
         {
           "release_key": "gemini-toolkit/v0.2.0",
           "product_id": "gemini-toolkit",
@@ -6238,7 +7442,7 @@
           }
         }
       ],
-      "current_release_key": "gemini-toolkit/v0.2.0"
+      "current_release_key": "gemini-toolkit/v0.3.0"
     },
     {
       "id": "apple-foundation-model-toolkit",
@@ -6303,6 +7507,49 @@
       "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
       "releases": [
         {
+          "release_key": "local-model-toolkit/v0.2.1",
+          "product_id": "local-model-toolkit",
+          "version": "0.2.1",
+          "git_tag": "local-model-toolkit/v0.2.1",
+          "source_commit": "44ad858de5fe66c25caeb83a6eaad0992e967790",
+          "published_at": "2026-10-27T20:58:23Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/local-model-toolkit/v0.2.1",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "2026-10-27 release review: Document tested host adapters and opt-in usage recording for bounded local tasks.",
+          "notes": "2026-10-27 release review: Document tested host adapters and opt-in usage recording for bounded local tasks.\n\n2026-10-27 release review: Reuse verified host operation without reconstructing the lifecycle for every task.\n\n2026-10-27 release review: Prefer a tested host-provided default adapter when available; resolve its private command through the host capability record and use opt-in metadata tracking through the adapter. Retain the existing raw lifecycle for hosts without that adapter.\n\nCompatibility: 2026-10-27 release review: Documentation-only guidance; no bundled adapter, new default tracker, model call, polling or required configuration.\n\nUpgrade: 2026-10-27 release review: Refresh the package. Hosts with a tested adapter can use their capability record; other hosts retain the existing CLI lifecycle.\n\nValidation: 2026-10-27 release review: Read-only scoped local_sync.plan found one changed reviewed path and no conflicts. The reference diff was inspected; no model or recorder was executed.",
+          "notes_provenance": "github-release:425977280",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "local-model-toolkit-0.2.1.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.1/local-model-toolkit-0.2.1.files.json",
+              "size": 1982,
+              "sha256": "1ca935131c7dbf14ea1adfb718e8d30f6d591fea9cbec2065c459b021a0264bf"
+            },
+            {
+              "role": "installation",
+              "name": "local-model-toolkit-0.2.1.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.1/local-model-toolkit-0.2.1.zip",
+              "size": 26831,
+              "sha256": "3e34561547549eb5bb499c7c1b73f09ad50e2d337f1f723df0605924bd9c2eeb"
+            },
+            {
+              "role": "checksum",
+              "name": "local-model-toolkit-0.2.1.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/local-model-toolkit/v0.2.1/local-model-toolkit-0.2.1.zip.sha256",
+              "size": 96,
+              "sha256": "31f944b727e83ac2d14743dc158184761b7ccd6623a4c6262f89f2ec0b5494a6"
+            }
+          ],
+          "compatibility": "2026-10-27 release review: Documentation-only guidance; no bundled adapter, new default tracker, model call, polling or required configuration.",
+          "upgrade_guidance": "2026-10-27 release review: Refresh the package. Hosts with a tested adapter can use their capability record; other hosts retain the existing CLI lifecycle.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        },
+        {
           "release_key": "local-model-toolkit/v0.2.0",
           "product_id": "local-model-toolkit",
           "version": "0.2.0",
@@ -6346,7 +7593,61 @@
           }
         }
       ],
-      "current_release_key": "local-model-toolkit/v0.2.0"
+      "current_release_key": "local-model-toolkit/v0.2.1"
+    },
+    {
+      "id": "deepseek-toolkit",
+      "name": "DeepSeek Toolkit",
+      "kind": "plugin",
+      "repository": "https://github.com/JonathanKHobson/working-tools-plugins",
+      "compatibility": "Python 3 standard library; A recipient-owned NVIDIA account, approved current terms and eligible allowance for live inference",
+      "upgrade_guidance": "Choose this exact version from the marketplace or replace the prior plugin directory with its ZIP. Review the release notes and package README.",
+      "releases": [
+        {
+          "release_key": "deepseek-toolkit/v0.1.0",
+          "product_id": "deepseek-toolkit",
+          "version": "0.1.0",
+          "git_tag": "deepseek-toolkit/v0.1.0",
+          "source_commit": "193c0dd61fed0da1b0af98bfbe146a770630293f",
+          "published_at": "2026-10-27T21:17:02Z",
+          "release_url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/tag/deepseek-toolkit/v0.1.0",
+          "channel": "stable",
+          "distribution_status": "available",
+          "summary": "Introduce a bounded DeepSeek text worker with fixed NVIDIA routing, explicit completion checks and optional metadata-only usage recording.",
+          "notes": "Introduce a bounded DeepSeek text worker with fixed NVIDIA routing, explicit completion checks and optional metadata-only usage recording.\n\nWhy: Provide a recipient-configured alternative model route while keeping project access, provider accounts, credentials and external coding clients outside the package.\n\nCompatibility: First public version 0.1.0, with one complete operative skill and no hooks, MCP servers or automatically installed provider runtime. The helper uses Python standard library and supplied stdin only. Recipient account terms and current allowance govern any later inference; a configuration check is not authentication.\n\nUpgrade: Install the package, read the operative skill and configure only recipient-owned credentials when explicitly authorized. Use --check for configuration evidence; request a separate authorized inference before claiming working access. Do not infer a free entitlement, paid fallback or separate OpenCode launcher from package installation.\n\nValidation: Fourteen mocked worker tests pass. Installed Claude Code 2.1.280 strict manifest validation passes with no warnings. Public package, privacy/reference, license/provenance and selected live canonical-source checks pass. The installed Codex CLI offers no read-only plugin-validation command; Codex metadata was checked by the package rules without installation. These checks do not establish live NVIDIA authentication, allowance, inference, hosted latency or recipient runtime readiness.",
+          "notes_provenance": "github-release:425994331",
+          "assets": [
+            {
+              "role": "file-manifest",
+              "name": "deepseek-toolkit-0.1.0.files.json",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/deepseek-toolkit/v0.1.0/deepseek-toolkit-0.1.0.files.json",
+              "size": 2055,
+              "sha256": "6d74e72c037784e6d07ac00d9e8ce42e24ddb31ddb73551da06debdf31a838db"
+            },
+            {
+              "role": "installation",
+              "name": "deepseek-toolkit-0.1.0.zip",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/deepseek-toolkit/v0.1.0/deepseek-toolkit-0.1.0.zip",
+              "size": 36280,
+              "sha256": "7013fd2301573580c503b13cc64fcdce5c271bb5375a088a4b6c0bc89c9ce22b"
+            },
+            {
+              "role": "checksum",
+              "name": "deepseek-toolkit-0.1.0.zip.sha256",
+              "url": "https://github.com/JonathanKHobson/working-tools-plugins/releases/download/deepseek-toolkit/v0.1.0/deepseek-toolkit-0.1.0.zip.sha256",
+              "size": 93,
+              "sha256": "2b59890a0925ccfa2c81ab59958f9306d14fb0b42406c65280cea94c5fb47ffb"
+            }
+          ],
+          "compatibility": "First public version 0.1.0, with one complete operative skill and no hooks, MCP servers or automatically installed provider runtime. The helper uses Python standard library and supplied stdin only. Recipient account terms and current allowance govern any later inference; a configuration check is not authentication.",
+          "upgrade_guidance": "Install the package, read the operative skill and configure only recipient-owned credentials when explicitly authorized. Use --check for configuration evidence; request a separate authorized inference before claiming working access. Do not infer a free entitlement, paid fallback or separate OpenCode launcher from package installation.",
+          "verification": {
+            "archive_verified": true,
+            "layout_verified": true
+          }
+        }
+      ],
+      "current_release_key": "deepseek-toolkit/v0.1.0"
     },
     {
       "id": "critical-compass-plugin",
