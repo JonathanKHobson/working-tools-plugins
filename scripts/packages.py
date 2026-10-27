@@ -85,7 +85,13 @@ def hook_registration_errors(root, ident):
    declaration=root/manifest
    if not declaration.is_file():
     problem(f'missing or invalid hook registration: {manifest}');continue
-   actual=hook_map(read_json(declaration).get('hooks'),manifest)
+   registration=read_json(declaration).get('hooks')
+   if name=='claude-hooks.json' and registration is None and (root/'hooks/hooks.json').is_file():
+    # Claude loads hooks/hooks.json automatically. A separately retained
+    # claude-hooks.json template does not require duplicate registration.
+    # The default file and its handlers are validated in the Codex pass above.
+    continue
+   actual=hook_map(registration,manifest)
    if actual is not None and actual!=expected:
     problem(f'{manifest} hook registration differs from shipped {directory}/{name}')
  return errors

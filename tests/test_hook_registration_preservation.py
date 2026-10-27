@@ -199,6 +199,22 @@ class ShippedHookValidationTests(unittest.TestCase):
             local_sync.write(root/'.claude-plugin/plugin.json',{'hooks':'./hooks/claude-hooks.json'})
             self.assertEqual(packages.hook_registration_errors(root,'fixture'),[])
 
+    def test_claude_default_hooks_do_not_require_duplicate_custom_registration(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            for rel in ('hooks','scripts','.codex-plugin','.claude-plugin'):(root/rel).mkdir()
+            (root/'scripts/demo.py').write_text('pass\n')
+            definition={'hooks':{'UserPromptSubmit':[{'hooks':[{'type':'command','command':'python3 scripts/demo.py'}]}]}}
+            local_sync.write(root/'hooks/hooks.json',definition)
+            local_sync.write(root/'hooks/claude-hooks.json',definition)
+            local_sync.write(root/'.codex-plugin/plugin.json',{'hooks':'./hooks/hooks.json'})
+            local_sync.write(root/'.claude-plugin/plugin.json',{'name':'fixture'})
+            self.assertEqual(packages.hook_registration_errors(root,'fixture'),[])
+            (root/'scripts/demo.py').unlink()
+            self.assertTrue(any('missing hook handler' in e for e in packages.hook_registration_errors(root,'fixture')))
+            (root/'hooks/hooks.json').unlink()
+            self.assertTrue(any('invalid hook registration' in e for e in packages.hook_registration_errors(root,'fixture')))
+
     def test_root_manifest_must_not_suppress_native_hooks(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);(root/'hooks').mkdir();(root/'.codex-plugin').mkdir()
